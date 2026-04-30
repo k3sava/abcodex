@@ -31,3 +31,4 @@ This Markdown library captures thought-leader insights and converts them into re
 ## Batches
 - Batch 01 complete: 10 additional experts added with seeded profile + insight cards.
 - Next step: enrich each with source-linked insights and contradictions.
+- Batch 02 complete: 10 additional connection-mapped experts added.
