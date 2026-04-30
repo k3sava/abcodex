@@ -1,9 +1,20 @@
 # AI-Native PMM/GTM Insight Library
 
-This repository section contains the Markdown-first knowledge architecture for ingesting and operationalizing insights from PMM/GTM/AEO/Demand Gen/Community thought leaders.
+This Markdown library is designed to capture thought-leader insights and convert them into reusable PMM/GTM operating assets.
 
-## Next execution step
-1. Populate each thought leader `sources.md` with primary sources.
-2. Extract atomic insights into `insights.md`.
-3. Promote high-scoring insights into domain and playbook files.
-4. Encode Commons/Flywheel/clearPMM mappings.
+## Current state
+- Core metadata and governance are defined.
+- Initial expert map includes PMM, GTM, AEO, demand gen, community, and sales-enablement AI workflow operators.
+- Seeded leader profiles and first insight cards for:
+  - Rory (folder ready)
+  - April Dunford
+  - Kevin Indig
+  - Chris Walker
+  - Rosie Sherry
+
+## Operating loop
+1. Add sources to each `sources.md` (primary first).
+2. Extract atomic insight cards in `insights.md`.
+3. Score and promote insights into domain/synthesis files.
+4. Convert high-value patterns into playbooks.
+5. Map every promoted insight to Commons/Flywheel/clearPMM artifacts + signals.
