@@ -1,0 +1,915 @@
+# Insight Backlog (Target: 1,000 atomic insights)
+
+Use this backlog to process high-volume source material into scored, promotable insight cards.
+
+## PMM atomic backlog
+- [ ] 0001 | PMM | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0002 | PMM | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0003 | PMM | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0004 | PMM | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0005 | PMM | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0006 | PMM | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0007 | PMM | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0008 | PMM | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0009 | PMM | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0010 | PMM | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0011 | PMM | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0012 | PMM | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0013 | PMM | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0014 | PMM | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0015 | PMM | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0016 | PMM | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0017 | PMM | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0018 | PMM | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0019 | PMM | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0020 | PMM | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0021 | PMM | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0022 | PMM | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0023 | PMM | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0024 | PMM | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0025 | PMM | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0026 | PMM | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0027 | PMM | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0028 | PMM | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0029 | PMM | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0030 | PMM | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0031 | PMM | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0032 | PMM | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0033 | PMM | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0034 | PMM | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0035 | PMM | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0036 | PMM | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0037 | PMM | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0038 | PMM | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0039 | PMM | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0040 | PMM | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0041 | PMM | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0042 | PMM | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0043 | PMM | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0044 | PMM | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0045 | PMM | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0046 | PMM | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0047 | PMM | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0048 | PMM | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0049 | PMM | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0050 | PMM | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0051 | PMM | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0052 | PMM | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0053 | PMM | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0054 | PMM | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0055 | PMM | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0056 | PMM | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0057 | PMM | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0058 | PMM | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0059 | PMM | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0060 | PMM | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0061 | PMM | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0062 | PMM | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0063 | PMM | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0064 | PMM | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0065 | PMM | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0066 | PMM | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0067 | PMM | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0068 | PMM | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0069 | PMM | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0070 | PMM | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0071 | PMM | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0072 | PMM | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0073 | PMM | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0074 | PMM | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0075 | PMM | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0076 | PMM | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0077 | PMM | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0078 | PMM | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0079 | PMM | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0080 | PMM | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0081 | PMM | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0082 | PMM | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0083 | PMM | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0084 | PMM | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0085 | PMM | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0086 | PMM | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0087 | PMM | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0088 | PMM | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0089 | PMM | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0090 | PMM | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0091 | PMM | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0092 | PMM | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0093 | PMM | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0094 | PMM | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0095 | PMM | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0096 | PMM | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0097 | PMM | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0098 | PMM | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0099 | PMM | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0100 | PMM | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+- [ ] 0101 | PMM | Candidate insight hypothesis 101 | Source ID: TBD | Score: TBD
+- [ ] 0102 | PMM | Candidate insight hypothesis 102 | Source ID: TBD | Score: TBD
+- [ ] 0103 | PMM | Candidate insight hypothesis 103 | Source ID: TBD | Score: TBD
+- [ ] 0104 | PMM | Candidate insight hypothesis 104 | Source ID: TBD | Score: TBD
+- [ ] 0105 | PMM | Candidate insight hypothesis 105 | Source ID: TBD | Score: TBD
+- [ ] 0106 | PMM | Candidate insight hypothesis 106 | Source ID: TBD | Score: TBD
+- [ ] 0107 | PMM | Candidate insight hypothesis 107 | Source ID: TBD | Score: TBD
+- [ ] 0108 | PMM | Candidate insight hypothesis 108 | Source ID: TBD | Score: TBD
+- [ ] 0109 | PMM | Candidate insight hypothesis 109 | Source ID: TBD | Score: TBD
+- [ ] 0110 | PMM | Candidate insight hypothesis 110 | Source ID: TBD | Score: TBD
+- [ ] 0111 | PMM | Candidate insight hypothesis 111 | Source ID: TBD | Score: TBD
+- [ ] 0112 | PMM | Candidate insight hypothesis 112 | Source ID: TBD | Score: TBD
+- [ ] 0113 | PMM | Candidate insight hypothesis 113 | Source ID: TBD | Score: TBD
+- [ ] 0114 | PMM | Candidate insight hypothesis 114 | Source ID: TBD | Score: TBD
+- [ ] 0115 | PMM | Candidate insight hypothesis 115 | Source ID: TBD | Score: TBD
+- [ ] 0116 | PMM | Candidate insight hypothesis 116 | Source ID: TBD | Score: TBD
+- [ ] 0117 | PMM | Candidate insight hypothesis 117 | Source ID: TBD | Score: TBD
+- [ ] 0118 | PMM | Candidate insight hypothesis 118 | Source ID: TBD | Score: TBD
+- [ ] 0119 | PMM | Candidate insight hypothesis 119 | Source ID: TBD | Score: TBD
+- [ ] 0120 | PMM | Candidate insight hypothesis 120 | Source ID: TBD | Score: TBD
+- [ ] 0121 | PMM | Candidate insight hypothesis 121 | Source ID: TBD | Score: TBD
+- [ ] 0122 | PMM | Candidate insight hypothesis 122 | Source ID: TBD | Score: TBD
+- [ ] 0123 | PMM | Candidate insight hypothesis 123 | Source ID: TBD | Score: TBD
+- [ ] 0124 | PMM | Candidate insight hypothesis 124 | Source ID: TBD | Score: TBD
+- [ ] 0125 | PMM | Candidate insight hypothesis 125 | Source ID: TBD | Score: TBD
+- [ ] 0126 | PMM | Candidate insight hypothesis 126 | Source ID: TBD | Score: TBD
+- [ ] 0127 | PMM | Candidate insight hypothesis 127 | Source ID: TBD | Score: TBD
+- [ ] 0128 | PMM | Candidate insight hypothesis 128 | Source ID: TBD | Score: TBD
+- [ ] 0129 | PMM | Candidate insight hypothesis 129 | Source ID: TBD | Score: TBD
+- [ ] 0130 | PMM | Candidate insight hypothesis 130 | Source ID: TBD | Score: TBD
+- [ ] 0131 | PMM | Candidate insight hypothesis 131 | Source ID: TBD | Score: TBD
+- [ ] 0132 | PMM | Candidate insight hypothesis 132 | Source ID: TBD | Score: TBD
+- [ ] 0133 | PMM | Candidate insight hypothesis 133 | Source ID: TBD | Score: TBD
+- [ ] 0134 | PMM | Candidate insight hypothesis 134 | Source ID: TBD | Score: TBD
+- [ ] 0135 | PMM | Candidate insight hypothesis 135 | Source ID: TBD | Score: TBD
+- [ ] 0136 | PMM | Candidate insight hypothesis 136 | Source ID: TBD | Score: TBD
+- [ ] 0137 | PMM | Candidate insight hypothesis 137 | Source ID: TBD | Score: TBD
+- [ ] 0138 | PMM | Candidate insight hypothesis 138 | Source ID: TBD | Score: TBD
+- [ ] 0139 | PMM | Candidate insight hypothesis 139 | Source ID: TBD | Score: TBD
+- [ ] 0140 | PMM | Candidate insight hypothesis 140 | Source ID: TBD | Score: TBD
+- [ ] 0141 | PMM | Candidate insight hypothesis 141 | Source ID: TBD | Score: TBD
+- [ ] 0142 | PMM | Candidate insight hypothesis 142 | Source ID: TBD | Score: TBD
+- [ ] 0143 | PMM | Candidate insight hypothesis 143 | Source ID: TBD | Score: TBD
+- [ ] 0144 | PMM | Candidate insight hypothesis 144 | Source ID: TBD | Score: TBD
+- [ ] 0145 | PMM | Candidate insight hypothesis 145 | Source ID: TBD | Score: TBD
+- [ ] 0146 | PMM | Candidate insight hypothesis 146 | Source ID: TBD | Score: TBD
+- [ ] 0147 | PMM | Candidate insight hypothesis 147 | Source ID: TBD | Score: TBD
+- [ ] 0148 | PMM | Candidate insight hypothesis 148 | Source ID: TBD | Score: TBD
+- [ ] 0149 | PMM | Candidate insight hypothesis 149 | Source ID: TBD | Score: TBD
+- [ ] 0150 | PMM | Candidate insight hypothesis 150 | Source ID: TBD | Score: TBD
+- [ ] 0151 | PMM | Candidate insight hypothesis 151 | Source ID: TBD | Score: TBD
+- [ ] 0152 | PMM | Candidate insight hypothesis 152 | Source ID: TBD | Score: TBD
+- [ ] 0153 | PMM | Candidate insight hypothesis 153 | Source ID: TBD | Score: TBD
+- [ ] 0154 | PMM | Candidate insight hypothesis 154 | Source ID: TBD | Score: TBD
+- [ ] 0155 | PMM | Candidate insight hypothesis 155 | Source ID: TBD | Score: TBD
+- [ ] 0156 | PMM | Candidate insight hypothesis 156 | Source ID: TBD | Score: TBD
+- [ ] 0157 | PMM | Candidate insight hypothesis 157 | Source ID: TBD | Score: TBD
+- [ ] 0158 | PMM | Candidate insight hypothesis 158 | Source ID: TBD | Score: TBD
+- [ ] 0159 | PMM | Candidate insight hypothesis 159 | Source ID: TBD | Score: TBD
+- [ ] 0160 | PMM | Candidate insight hypothesis 160 | Source ID: TBD | Score: TBD
+- [ ] 0161 | PMM | Candidate insight hypothesis 161 | Source ID: TBD | Score: TBD
+- [ ] 0162 | PMM | Candidate insight hypothesis 162 | Source ID: TBD | Score: TBD
+- [ ] 0163 | PMM | Candidate insight hypothesis 163 | Source ID: TBD | Score: TBD
+- [ ] 0164 | PMM | Candidate insight hypothesis 164 | Source ID: TBD | Score: TBD
+- [ ] 0165 | PMM | Candidate insight hypothesis 165 | Source ID: TBD | Score: TBD
+- [ ] 0166 | PMM | Candidate insight hypothesis 166 | Source ID: TBD | Score: TBD
+- [ ] 0167 | PMM | Candidate insight hypothesis 167 | Source ID: TBD | Score: TBD
+- [ ] 0168 | PMM | Candidate insight hypothesis 168 | Source ID: TBD | Score: TBD
+- [ ] 0169 | PMM | Candidate insight hypothesis 169 | Source ID: TBD | Score: TBD
+- [ ] 0170 | PMM | Candidate insight hypothesis 170 | Source ID: TBD | Score: TBD
+- [ ] 0171 | PMM | Candidate insight hypothesis 171 | Source ID: TBD | Score: TBD
+- [ ] 0172 | PMM | Candidate insight hypothesis 172 | Source ID: TBD | Score: TBD
+- [ ] 0173 | PMM | Candidate insight hypothesis 173 | Source ID: TBD | Score: TBD
+- [ ] 0174 | PMM | Candidate insight hypothesis 174 | Source ID: TBD | Score: TBD
+- [ ] 0175 | PMM | Candidate insight hypothesis 175 | Source ID: TBD | Score: TBD
+- [ ] 0176 | PMM | Candidate insight hypothesis 176 | Source ID: TBD | Score: TBD
+- [ ] 0177 | PMM | Candidate insight hypothesis 177 | Source ID: TBD | Score: TBD
+- [ ] 0178 | PMM | Candidate insight hypothesis 178 | Source ID: TBD | Score: TBD
+- [ ] 0179 | PMM | Candidate insight hypothesis 179 | Source ID: TBD | Score: TBD
+- [ ] 0180 | PMM | Candidate insight hypothesis 180 | Source ID: TBD | Score: TBD
+- [ ] 0181 | PMM | Candidate insight hypothesis 181 | Source ID: TBD | Score: TBD
+- [ ] 0182 | PMM | Candidate insight hypothesis 182 | Source ID: TBD | Score: TBD
+- [ ] 0183 | PMM | Candidate insight hypothesis 183 | Source ID: TBD | Score: TBD
+- [ ] 0184 | PMM | Candidate insight hypothesis 184 | Source ID: TBD | Score: TBD
+- [ ] 0185 | PMM | Candidate insight hypothesis 185 | Source ID: TBD | Score: TBD
+- [ ] 0186 | PMM | Candidate insight hypothesis 186 | Source ID: TBD | Score: TBD
+- [ ] 0187 | PMM | Candidate insight hypothesis 187 | Source ID: TBD | Score: TBD
+- [ ] 0188 | PMM | Candidate insight hypothesis 188 | Source ID: TBD | Score: TBD
+- [ ] 0189 | PMM | Candidate insight hypothesis 189 | Source ID: TBD | Score: TBD
+- [ ] 0190 | PMM | Candidate insight hypothesis 190 | Source ID: TBD | Score: TBD
+- [ ] 0191 | PMM | Candidate insight hypothesis 191 | Source ID: TBD | Score: TBD
+- [ ] 0192 | PMM | Candidate insight hypothesis 192 | Source ID: TBD | Score: TBD
+- [ ] 0193 | PMM | Candidate insight hypothesis 193 | Source ID: TBD | Score: TBD
+- [ ] 0194 | PMM | Candidate insight hypothesis 194 | Source ID: TBD | Score: TBD
+- [ ] 0195 | PMM | Candidate insight hypothesis 195 | Source ID: TBD | Score: TBD
+- [ ] 0196 | PMM | Candidate insight hypothesis 196 | Source ID: TBD | Score: TBD
+- [ ] 0197 | PMM | Candidate insight hypothesis 197 | Source ID: TBD | Score: TBD
+- [ ] 0198 | PMM | Candidate insight hypothesis 198 | Source ID: TBD | Score: TBD
+- [ ] 0199 | PMM | Candidate insight hypothesis 199 | Source ID: TBD | Score: TBD
+- [ ] 0200 | PMM | Candidate insight hypothesis 200 | Source ID: TBD | Score: TBD
+
+## GTM atomic backlog
+- [ ] 0201 | GTM | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0202 | GTM | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0203 | GTM | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0204 | GTM | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0205 | GTM | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0206 | GTM | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0207 | GTM | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0208 | GTM | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0209 | GTM | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0210 | GTM | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0211 | GTM | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0212 | GTM | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0213 | GTM | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0214 | GTM | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0215 | GTM | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0216 | GTM | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0217 | GTM | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0218 | GTM | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0219 | GTM | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0220 | GTM | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0221 | GTM | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0222 | GTM | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0223 | GTM | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0224 | GTM | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0225 | GTM | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0226 | GTM | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0227 | GTM | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0228 | GTM | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0229 | GTM | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0230 | GTM | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0231 | GTM | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0232 | GTM | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0233 | GTM | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0234 | GTM | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0235 | GTM | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0236 | GTM | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0237 | GTM | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0238 | GTM | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0239 | GTM | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0240 | GTM | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0241 | GTM | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0242 | GTM | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0243 | GTM | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0244 | GTM | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0245 | GTM | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0246 | GTM | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0247 | GTM | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0248 | GTM | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0249 | GTM | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0250 | GTM | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0251 | GTM | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0252 | GTM | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0253 | GTM | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0254 | GTM | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0255 | GTM | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0256 | GTM | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0257 | GTM | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0258 | GTM | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0259 | GTM | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0260 | GTM | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0261 | GTM | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0262 | GTM | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0263 | GTM | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0264 | GTM | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0265 | GTM | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0266 | GTM | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0267 | GTM | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0268 | GTM | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0269 | GTM | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0270 | GTM | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0271 | GTM | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0272 | GTM | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0273 | GTM | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0274 | GTM | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0275 | GTM | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0276 | GTM | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0277 | GTM | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0278 | GTM | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0279 | GTM | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0280 | GTM | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0281 | GTM | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0282 | GTM | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0283 | GTM | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0284 | GTM | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0285 | GTM | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0286 | GTM | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0287 | GTM | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0288 | GTM | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0289 | GTM | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0290 | GTM | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0291 | GTM | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0292 | GTM | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0293 | GTM | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0294 | GTM | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0295 | GTM | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0296 | GTM | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0297 | GTM | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0298 | GTM | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0299 | GTM | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0300 | GTM | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+- [ ] 0301 | GTM | Candidate insight hypothesis 101 | Source ID: TBD | Score: TBD
+- [ ] 0302 | GTM | Candidate insight hypothesis 102 | Source ID: TBD | Score: TBD
+- [ ] 0303 | GTM | Candidate insight hypothesis 103 | Source ID: TBD | Score: TBD
+- [ ] 0304 | GTM | Candidate insight hypothesis 104 | Source ID: TBD | Score: TBD
+- [ ] 0305 | GTM | Candidate insight hypothesis 105 | Source ID: TBD | Score: TBD
+- [ ] 0306 | GTM | Candidate insight hypothesis 106 | Source ID: TBD | Score: TBD
+- [ ] 0307 | GTM | Candidate insight hypothesis 107 | Source ID: TBD | Score: TBD
+- [ ] 0308 | GTM | Candidate insight hypothesis 108 | Source ID: TBD | Score: TBD
+- [ ] 0309 | GTM | Candidate insight hypothesis 109 | Source ID: TBD | Score: TBD
+- [ ] 0310 | GTM | Candidate insight hypothesis 110 | Source ID: TBD | Score: TBD
+- [ ] 0311 | GTM | Candidate insight hypothesis 111 | Source ID: TBD | Score: TBD
+- [ ] 0312 | GTM | Candidate insight hypothesis 112 | Source ID: TBD | Score: TBD
+- [ ] 0313 | GTM | Candidate insight hypothesis 113 | Source ID: TBD | Score: TBD
+- [ ] 0314 | GTM | Candidate insight hypothesis 114 | Source ID: TBD | Score: TBD
+- [ ] 0315 | GTM | Candidate insight hypothesis 115 | Source ID: TBD | Score: TBD
+- [ ] 0316 | GTM | Candidate insight hypothesis 116 | Source ID: TBD | Score: TBD
+- [ ] 0317 | GTM | Candidate insight hypothesis 117 | Source ID: TBD | Score: TBD
+- [ ] 0318 | GTM | Candidate insight hypothesis 118 | Source ID: TBD | Score: TBD
+- [ ] 0319 | GTM | Candidate insight hypothesis 119 | Source ID: TBD | Score: TBD
+- [ ] 0320 | GTM | Candidate insight hypothesis 120 | Source ID: TBD | Score: TBD
+- [ ] 0321 | GTM | Candidate insight hypothesis 121 | Source ID: TBD | Score: TBD
+- [ ] 0322 | GTM | Candidate insight hypothesis 122 | Source ID: TBD | Score: TBD
+- [ ] 0323 | GTM | Candidate insight hypothesis 123 | Source ID: TBD | Score: TBD
+- [ ] 0324 | GTM | Candidate insight hypothesis 124 | Source ID: TBD | Score: TBD
+- [ ] 0325 | GTM | Candidate insight hypothesis 125 | Source ID: TBD | Score: TBD
+- [ ] 0326 | GTM | Candidate insight hypothesis 126 | Source ID: TBD | Score: TBD
+- [ ] 0327 | GTM | Candidate insight hypothesis 127 | Source ID: TBD | Score: TBD
+- [ ] 0328 | GTM | Candidate insight hypothesis 128 | Source ID: TBD | Score: TBD
+- [ ] 0329 | GTM | Candidate insight hypothesis 129 | Source ID: TBD | Score: TBD
+- [ ] 0330 | GTM | Candidate insight hypothesis 130 | Source ID: TBD | Score: TBD
+- [ ] 0331 | GTM | Candidate insight hypothesis 131 | Source ID: TBD | Score: TBD
+- [ ] 0332 | GTM | Candidate insight hypothesis 132 | Source ID: TBD | Score: TBD
+- [ ] 0333 | GTM | Candidate insight hypothesis 133 | Source ID: TBD | Score: TBD
+- [ ] 0334 | GTM | Candidate insight hypothesis 134 | Source ID: TBD | Score: TBD
+- [ ] 0335 | GTM | Candidate insight hypothesis 135 | Source ID: TBD | Score: TBD
+- [ ] 0336 | GTM | Candidate insight hypothesis 136 | Source ID: TBD | Score: TBD
+- [ ] 0337 | GTM | Candidate insight hypothesis 137 | Source ID: TBD | Score: TBD
+- [ ] 0338 | GTM | Candidate insight hypothesis 138 | Source ID: TBD | Score: TBD
+- [ ] 0339 | GTM | Candidate insight hypothesis 139 | Source ID: TBD | Score: TBD
+- [ ] 0340 | GTM | Candidate insight hypothesis 140 | Source ID: TBD | Score: TBD
+- [ ] 0341 | GTM | Candidate insight hypothesis 141 | Source ID: TBD | Score: TBD
+- [ ] 0342 | GTM | Candidate insight hypothesis 142 | Source ID: TBD | Score: TBD
+- [ ] 0343 | GTM | Candidate insight hypothesis 143 | Source ID: TBD | Score: TBD
+- [ ] 0344 | GTM | Candidate insight hypothesis 144 | Source ID: TBD | Score: TBD
+- [ ] 0345 | GTM | Candidate insight hypothesis 145 | Source ID: TBD | Score: TBD
+- [ ] 0346 | GTM | Candidate insight hypothesis 146 | Source ID: TBD | Score: TBD
+- [ ] 0347 | GTM | Candidate insight hypothesis 147 | Source ID: TBD | Score: TBD
+- [ ] 0348 | GTM | Candidate insight hypothesis 148 | Source ID: TBD | Score: TBD
+- [ ] 0349 | GTM | Candidate insight hypothesis 149 | Source ID: TBD | Score: TBD
+- [ ] 0350 | GTM | Candidate insight hypothesis 150 | Source ID: TBD | Score: TBD
+
+## AEO atomic backlog
+- [ ] 0351 | AEO | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0352 | AEO | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0353 | AEO | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0354 | AEO | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0355 | AEO | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0356 | AEO | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0357 | AEO | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0358 | AEO | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0359 | AEO | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0360 | AEO | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0361 | AEO | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0362 | AEO | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0363 | AEO | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0364 | AEO | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0365 | AEO | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0366 | AEO | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0367 | AEO | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0368 | AEO | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0369 | AEO | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0370 | AEO | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0371 | AEO | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0372 | AEO | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0373 | AEO | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0374 | AEO | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0375 | AEO | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0376 | AEO | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0377 | AEO | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0378 | AEO | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0379 | AEO | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0380 | AEO | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0381 | AEO | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0382 | AEO | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0383 | AEO | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0384 | AEO | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0385 | AEO | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0386 | AEO | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0387 | AEO | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0388 | AEO | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0389 | AEO | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0390 | AEO | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0391 | AEO | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0392 | AEO | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0393 | AEO | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0394 | AEO | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0395 | AEO | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0396 | AEO | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0397 | AEO | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0398 | AEO | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0399 | AEO | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0400 | AEO | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0401 | AEO | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0402 | AEO | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0403 | AEO | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0404 | AEO | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0405 | AEO | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0406 | AEO | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0407 | AEO | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0408 | AEO | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0409 | AEO | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0410 | AEO | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0411 | AEO | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0412 | AEO | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0413 | AEO | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0414 | AEO | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0415 | AEO | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0416 | AEO | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0417 | AEO | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0418 | AEO | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0419 | AEO | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0420 | AEO | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0421 | AEO | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0422 | AEO | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0423 | AEO | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0424 | AEO | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0425 | AEO | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0426 | AEO | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0427 | AEO | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0428 | AEO | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0429 | AEO | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0430 | AEO | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0431 | AEO | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0432 | AEO | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0433 | AEO | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0434 | AEO | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0435 | AEO | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0436 | AEO | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0437 | AEO | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0438 | AEO | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0439 | AEO | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0440 | AEO | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0441 | AEO | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0442 | AEO | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0443 | AEO | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0444 | AEO | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0445 | AEO | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0446 | AEO | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0447 | AEO | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0448 | AEO | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0449 | AEO | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0450 | AEO | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+- [ ] 0451 | AEO | Candidate insight hypothesis 101 | Source ID: TBD | Score: TBD
+- [ ] 0452 | AEO | Candidate insight hypothesis 102 | Source ID: TBD | Score: TBD
+- [ ] 0453 | AEO | Candidate insight hypothesis 103 | Source ID: TBD | Score: TBD
+- [ ] 0454 | AEO | Candidate insight hypothesis 104 | Source ID: TBD | Score: TBD
+- [ ] 0455 | AEO | Candidate insight hypothesis 105 | Source ID: TBD | Score: TBD
+- [ ] 0456 | AEO | Candidate insight hypothesis 106 | Source ID: TBD | Score: TBD
+- [ ] 0457 | AEO | Candidate insight hypothesis 107 | Source ID: TBD | Score: TBD
+- [ ] 0458 | AEO | Candidate insight hypothesis 108 | Source ID: TBD | Score: TBD
+- [ ] 0459 | AEO | Candidate insight hypothesis 109 | Source ID: TBD | Score: TBD
+- [ ] 0460 | AEO | Candidate insight hypothesis 110 | Source ID: TBD | Score: TBD
+- [ ] 0461 | AEO | Candidate insight hypothesis 111 | Source ID: TBD | Score: TBD
+- [ ] 0462 | AEO | Candidate insight hypothesis 112 | Source ID: TBD | Score: TBD
+- [ ] 0463 | AEO | Candidate insight hypothesis 113 | Source ID: TBD | Score: TBD
+- [ ] 0464 | AEO | Candidate insight hypothesis 114 | Source ID: TBD | Score: TBD
+- [ ] 0465 | AEO | Candidate insight hypothesis 115 | Source ID: TBD | Score: TBD
+- [ ] 0466 | AEO | Candidate insight hypothesis 116 | Source ID: TBD | Score: TBD
+- [ ] 0467 | AEO | Candidate insight hypothesis 117 | Source ID: TBD | Score: TBD
+- [ ] 0468 | AEO | Candidate insight hypothesis 118 | Source ID: TBD | Score: TBD
+- [ ] 0469 | AEO | Candidate insight hypothesis 119 | Source ID: TBD | Score: TBD
+- [ ] 0470 | AEO | Candidate insight hypothesis 120 | Source ID: TBD | Score: TBD
+- [ ] 0471 | AEO | Candidate insight hypothesis 121 | Source ID: TBD | Score: TBD
+- [ ] 0472 | AEO | Candidate insight hypothesis 122 | Source ID: TBD | Score: TBD
+- [ ] 0473 | AEO | Candidate insight hypothesis 123 | Source ID: TBD | Score: TBD
+- [ ] 0474 | AEO | Candidate insight hypothesis 124 | Source ID: TBD | Score: TBD
+- [ ] 0475 | AEO | Candidate insight hypothesis 125 | Source ID: TBD | Score: TBD
+- [ ] 0476 | AEO | Candidate insight hypothesis 126 | Source ID: TBD | Score: TBD
+- [ ] 0477 | AEO | Candidate insight hypothesis 127 | Source ID: TBD | Score: TBD
+- [ ] 0478 | AEO | Candidate insight hypothesis 128 | Source ID: TBD | Score: TBD
+- [ ] 0479 | AEO | Candidate insight hypothesis 129 | Source ID: TBD | Score: TBD
+- [ ] 0480 | AEO | Candidate insight hypothesis 130 | Source ID: TBD | Score: TBD
+- [ ] 0481 | AEO | Candidate insight hypothesis 131 | Source ID: TBD | Score: TBD
+- [ ] 0482 | AEO | Candidate insight hypothesis 132 | Source ID: TBD | Score: TBD
+- [ ] 0483 | AEO | Candidate insight hypothesis 133 | Source ID: TBD | Score: TBD
+- [ ] 0484 | AEO | Candidate insight hypothesis 134 | Source ID: TBD | Score: TBD
+- [ ] 0485 | AEO | Candidate insight hypothesis 135 | Source ID: TBD | Score: TBD
+- [ ] 0486 | AEO | Candidate insight hypothesis 136 | Source ID: TBD | Score: TBD
+- [ ] 0487 | AEO | Candidate insight hypothesis 137 | Source ID: TBD | Score: TBD
+- [ ] 0488 | AEO | Candidate insight hypothesis 138 | Source ID: TBD | Score: TBD
+- [ ] 0489 | AEO | Candidate insight hypothesis 139 | Source ID: TBD | Score: TBD
+- [ ] 0490 | AEO | Candidate insight hypothesis 140 | Source ID: TBD | Score: TBD
+- [ ] 0491 | AEO | Candidate insight hypothesis 141 | Source ID: TBD | Score: TBD
+- [ ] 0492 | AEO | Candidate insight hypothesis 142 | Source ID: TBD | Score: TBD
+- [ ] 0493 | AEO | Candidate insight hypothesis 143 | Source ID: TBD | Score: TBD
+- [ ] 0494 | AEO | Candidate insight hypothesis 144 | Source ID: TBD | Score: TBD
+- [ ] 0495 | AEO | Candidate insight hypothesis 145 | Source ID: TBD | Score: TBD
+- [ ] 0496 | AEO | Candidate insight hypothesis 146 | Source ID: TBD | Score: TBD
+- [ ] 0497 | AEO | Candidate insight hypothesis 147 | Source ID: TBD | Score: TBD
+- [ ] 0498 | AEO | Candidate insight hypothesis 148 | Source ID: TBD | Score: TBD
+- [ ] 0499 | AEO | Candidate insight hypothesis 149 | Source ID: TBD | Score: TBD
+- [ ] 0500 | AEO | Candidate insight hypothesis 150 | Source ID: TBD | Score: TBD
+
+## Demand Gen atomic backlog
+- [ ] 0501 | Demand Gen | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0502 | Demand Gen | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0503 | Demand Gen | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0504 | Demand Gen | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0505 | Demand Gen | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0506 | Demand Gen | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0507 | Demand Gen | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0508 | Demand Gen | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0509 | Demand Gen | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0510 | Demand Gen | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0511 | Demand Gen | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0512 | Demand Gen | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0513 | Demand Gen | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0514 | Demand Gen | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0515 | Demand Gen | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0516 | Demand Gen | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0517 | Demand Gen | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0518 | Demand Gen | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0519 | Demand Gen | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0520 | Demand Gen | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0521 | Demand Gen | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0522 | Demand Gen | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0523 | Demand Gen | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0524 | Demand Gen | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0525 | Demand Gen | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0526 | Demand Gen | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0527 | Demand Gen | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0528 | Demand Gen | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0529 | Demand Gen | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0530 | Demand Gen | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0531 | Demand Gen | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0532 | Demand Gen | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0533 | Demand Gen | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0534 | Demand Gen | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0535 | Demand Gen | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0536 | Demand Gen | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0537 | Demand Gen | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0538 | Demand Gen | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0539 | Demand Gen | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0540 | Demand Gen | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0541 | Demand Gen | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0542 | Demand Gen | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0543 | Demand Gen | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0544 | Demand Gen | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0545 | Demand Gen | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0546 | Demand Gen | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0547 | Demand Gen | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0548 | Demand Gen | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0549 | Demand Gen | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0550 | Demand Gen | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0551 | Demand Gen | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0552 | Demand Gen | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0553 | Demand Gen | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0554 | Demand Gen | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0555 | Demand Gen | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0556 | Demand Gen | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0557 | Demand Gen | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0558 | Demand Gen | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0559 | Demand Gen | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0560 | Demand Gen | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0561 | Demand Gen | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0562 | Demand Gen | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0563 | Demand Gen | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0564 | Demand Gen | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0565 | Demand Gen | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0566 | Demand Gen | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0567 | Demand Gen | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0568 | Demand Gen | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0569 | Demand Gen | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0570 | Demand Gen | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0571 | Demand Gen | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0572 | Demand Gen | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0573 | Demand Gen | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0574 | Demand Gen | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0575 | Demand Gen | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0576 | Demand Gen | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0577 | Demand Gen | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0578 | Demand Gen | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0579 | Demand Gen | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0580 | Demand Gen | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0581 | Demand Gen | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0582 | Demand Gen | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0583 | Demand Gen | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0584 | Demand Gen | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0585 | Demand Gen | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0586 | Demand Gen | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0587 | Demand Gen | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0588 | Demand Gen | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0589 | Demand Gen | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0590 | Demand Gen | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0591 | Demand Gen | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0592 | Demand Gen | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0593 | Demand Gen | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0594 | Demand Gen | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0595 | Demand Gen | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0596 | Demand Gen | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0597 | Demand Gen | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0598 | Demand Gen | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0599 | Demand Gen | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0600 | Demand Gen | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+- [ ] 0601 | Demand Gen | Candidate insight hypothesis 101 | Source ID: TBD | Score: TBD
+- [ ] 0602 | Demand Gen | Candidate insight hypothesis 102 | Source ID: TBD | Score: TBD
+- [ ] 0603 | Demand Gen | Candidate insight hypothesis 103 | Source ID: TBD | Score: TBD
+- [ ] 0604 | Demand Gen | Candidate insight hypothesis 104 | Source ID: TBD | Score: TBD
+- [ ] 0605 | Demand Gen | Candidate insight hypothesis 105 | Source ID: TBD | Score: TBD
+- [ ] 0606 | Demand Gen | Candidate insight hypothesis 106 | Source ID: TBD | Score: TBD
+- [ ] 0607 | Demand Gen | Candidate insight hypothesis 107 | Source ID: TBD | Score: TBD
+- [ ] 0608 | Demand Gen | Candidate insight hypothesis 108 | Source ID: TBD | Score: TBD
+- [ ] 0609 | Demand Gen | Candidate insight hypothesis 109 | Source ID: TBD | Score: TBD
+- [ ] 0610 | Demand Gen | Candidate insight hypothesis 110 | Source ID: TBD | Score: TBD
+- [ ] 0611 | Demand Gen | Candidate insight hypothesis 111 | Source ID: TBD | Score: TBD
+- [ ] 0612 | Demand Gen | Candidate insight hypothesis 112 | Source ID: TBD | Score: TBD
+- [ ] 0613 | Demand Gen | Candidate insight hypothesis 113 | Source ID: TBD | Score: TBD
+- [ ] 0614 | Demand Gen | Candidate insight hypothesis 114 | Source ID: TBD | Score: TBD
+- [ ] 0615 | Demand Gen | Candidate insight hypothesis 115 | Source ID: TBD | Score: TBD
+- [ ] 0616 | Demand Gen | Candidate insight hypothesis 116 | Source ID: TBD | Score: TBD
+- [ ] 0617 | Demand Gen | Candidate insight hypothesis 117 | Source ID: TBD | Score: TBD
+- [ ] 0618 | Demand Gen | Candidate insight hypothesis 118 | Source ID: TBD | Score: TBD
+- [ ] 0619 | Demand Gen | Candidate insight hypothesis 119 | Source ID: TBD | Score: TBD
+- [ ] 0620 | Demand Gen | Candidate insight hypothesis 120 | Source ID: TBD | Score: TBD
+- [ ] 0621 | Demand Gen | Candidate insight hypothesis 121 | Source ID: TBD | Score: TBD
+- [ ] 0622 | Demand Gen | Candidate insight hypothesis 122 | Source ID: TBD | Score: TBD
+- [ ] 0623 | Demand Gen | Candidate insight hypothesis 123 | Source ID: TBD | Score: TBD
+- [ ] 0624 | Demand Gen | Candidate insight hypothesis 124 | Source ID: TBD | Score: TBD
+- [ ] 0625 | Demand Gen | Candidate insight hypothesis 125 | Source ID: TBD | Score: TBD
+- [ ] 0626 | Demand Gen | Candidate insight hypothesis 126 | Source ID: TBD | Score: TBD
+- [ ] 0627 | Demand Gen | Candidate insight hypothesis 127 | Source ID: TBD | Score: TBD
+- [ ] 0628 | Demand Gen | Candidate insight hypothesis 128 | Source ID: TBD | Score: TBD
+- [ ] 0629 | Demand Gen | Candidate insight hypothesis 129 | Source ID: TBD | Score: TBD
+- [ ] 0630 | Demand Gen | Candidate insight hypothesis 130 | Source ID: TBD | Score: TBD
+- [ ] 0631 | Demand Gen | Candidate insight hypothesis 131 | Source ID: TBD | Score: TBD
+- [ ] 0632 | Demand Gen | Candidate insight hypothesis 132 | Source ID: TBD | Score: TBD
+- [ ] 0633 | Demand Gen | Candidate insight hypothesis 133 | Source ID: TBD | Score: TBD
+- [ ] 0634 | Demand Gen | Candidate insight hypothesis 134 | Source ID: TBD | Score: TBD
+- [ ] 0635 | Demand Gen | Candidate insight hypothesis 135 | Source ID: TBD | Score: TBD
+- [ ] 0636 | Demand Gen | Candidate insight hypothesis 136 | Source ID: TBD | Score: TBD
+- [ ] 0637 | Demand Gen | Candidate insight hypothesis 137 | Source ID: TBD | Score: TBD
+- [ ] 0638 | Demand Gen | Candidate insight hypothesis 138 | Source ID: TBD | Score: TBD
+- [ ] 0639 | Demand Gen | Candidate insight hypothesis 139 | Source ID: TBD | Score: TBD
+- [ ] 0640 | Demand Gen | Candidate insight hypothesis 140 | Source ID: TBD | Score: TBD
+- [ ] 0641 | Demand Gen | Candidate insight hypothesis 141 | Source ID: TBD | Score: TBD
+- [ ] 0642 | Demand Gen | Candidate insight hypothesis 142 | Source ID: TBD | Score: TBD
+- [ ] 0643 | Demand Gen | Candidate insight hypothesis 143 | Source ID: TBD | Score: TBD
+- [ ] 0644 | Demand Gen | Candidate insight hypothesis 144 | Source ID: TBD | Score: TBD
+- [ ] 0645 | Demand Gen | Candidate insight hypothesis 145 | Source ID: TBD | Score: TBD
+- [ ] 0646 | Demand Gen | Candidate insight hypothesis 146 | Source ID: TBD | Score: TBD
+- [ ] 0647 | Demand Gen | Candidate insight hypothesis 147 | Source ID: TBD | Score: TBD
+- [ ] 0648 | Demand Gen | Candidate insight hypothesis 148 | Source ID: TBD | Score: TBD
+- [ ] 0649 | Demand Gen | Candidate insight hypothesis 149 | Source ID: TBD | Score: TBD
+- [ ] 0650 | Demand Gen | Candidate insight hypothesis 150 | Source ID: TBD | Score: TBD
+
+## Community atomic backlog
+- [ ] 0651 | Community | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0652 | Community | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0653 | Community | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0654 | Community | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0655 | Community | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0656 | Community | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0657 | Community | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0658 | Community | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0659 | Community | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0660 | Community | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0661 | Community | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0662 | Community | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0663 | Community | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0664 | Community | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0665 | Community | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0666 | Community | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0667 | Community | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0668 | Community | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0669 | Community | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0670 | Community | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0671 | Community | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0672 | Community | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0673 | Community | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0674 | Community | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0675 | Community | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0676 | Community | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0677 | Community | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0678 | Community | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0679 | Community | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0680 | Community | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0681 | Community | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0682 | Community | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0683 | Community | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0684 | Community | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0685 | Community | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0686 | Community | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0687 | Community | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0688 | Community | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0689 | Community | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0690 | Community | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0691 | Community | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0692 | Community | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0693 | Community | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0694 | Community | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0695 | Community | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0696 | Community | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0697 | Community | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0698 | Community | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0699 | Community | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0700 | Community | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0701 | Community | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0702 | Community | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0703 | Community | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0704 | Community | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0705 | Community | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0706 | Community | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0707 | Community | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0708 | Community | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0709 | Community | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0710 | Community | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0711 | Community | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0712 | Community | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0713 | Community | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0714 | Community | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0715 | Community | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0716 | Community | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0717 | Community | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0718 | Community | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0719 | Community | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0720 | Community | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0721 | Community | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0722 | Community | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0723 | Community | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0724 | Community | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0725 | Community | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0726 | Community | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0727 | Community | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0728 | Community | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0729 | Community | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0730 | Community | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0731 | Community | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0732 | Community | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0733 | Community | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0734 | Community | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0735 | Community | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0736 | Community | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0737 | Community | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0738 | Community | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0739 | Community | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0740 | Community | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0741 | Community | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0742 | Community | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0743 | Community | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0744 | Community | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0745 | Community | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0746 | Community | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0747 | Community | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0748 | Community | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0749 | Community | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0750 | Community | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+
+## Sales Enablement atomic backlog
+- [ ] 0751 | Sales Enablement | Candidate insight hypothesis 001 | Source ID: TBD | Score: TBD
+- [ ] 0752 | Sales Enablement | Candidate insight hypothesis 002 | Source ID: TBD | Score: TBD
+- [ ] 0753 | Sales Enablement | Candidate insight hypothesis 003 | Source ID: TBD | Score: TBD
+- [ ] 0754 | Sales Enablement | Candidate insight hypothesis 004 | Source ID: TBD | Score: TBD
+- [ ] 0755 | Sales Enablement | Candidate insight hypothesis 005 | Source ID: TBD | Score: TBD
+- [ ] 0756 | Sales Enablement | Candidate insight hypothesis 006 | Source ID: TBD | Score: TBD
+- [ ] 0757 | Sales Enablement | Candidate insight hypothesis 007 | Source ID: TBD | Score: TBD
+- [ ] 0758 | Sales Enablement | Candidate insight hypothesis 008 | Source ID: TBD | Score: TBD
+- [ ] 0759 | Sales Enablement | Candidate insight hypothesis 009 | Source ID: TBD | Score: TBD
+- [ ] 0760 | Sales Enablement | Candidate insight hypothesis 010 | Source ID: TBD | Score: TBD
+- [ ] 0761 | Sales Enablement | Candidate insight hypothesis 011 | Source ID: TBD | Score: TBD
+- [ ] 0762 | Sales Enablement | Candidate insight hypothesis 012 | Source ID: TBD | Score: TBD
+- [ ] 0763 | Sales Enablement | Candidate insight hypothesis 013 | Source ID: TBD | Score: TBD
+- [ ] 0764 | Sales Enablement | Candidate insight hypothesis 014 | Source ID: TBD | Score: TBD
+- [ ] 0765 | Sales Enablement | Candidate insight hypothesis 015 | Source ID: TBD | Score: TBD
+- [ ] 0766 | Sales Enablement | Candidate insight hypothesis 016 | Source ID: TBD | Score: TBD
+- [ ] 0767 | Sales Enablement | Candidate insight hypothesis 017 | Source ID: TBD | Score: TBD
+- [ ] 0768 | Sales Enablement | Candidate insight hypothesis 018 | Source ID: TBD | Score: TBD
+- [ ] 0769 | Sales Enablement | Candidate insight hypothesis 019 | Source ID: TBD | Score: TBD
+- [ ] 0770 | Sales Enablement | Candidate insight hypothesis 020 | Source ID: TBD | Score: TBD
+- [ ] 0771 | Sales Enablement | Candidate insight hypothesis 021 | Source ID: TBD | Score: TBD
+- [ ] 0772 | Sales Enablement | Candidate insight hypothesis 022 | Source ID: TBD | Score: TBD
+- [ ] 0773 | Sales Enablement | Candidate insight hypothesis 023 | Source ID: TBD | Score: TBD
+- [ ] 0774 | Sales Enablement | Candidate insight hypothesis 024 | Source ID: TBD | Score: TBD
+- [ ] 0775 | Sales Enablement | Candidate insight hypothesis 025 | Source ID: TBD | Score: TBD
+- [ ] 0776 | Sales Enablement | Candidate insight hypothesis 026 | Source ID: TBD | Score: TBD
+- [ ] 0777 | Sales Enablement | Candidate insight hypothesis 027 | Source ID: TBD | Score: TBD
+- [ ] 0778 | Sales Enablement | Candidate insight hypothesis 028 | Source ID: TBD | Score: TBD
+- [ ] 0779 | Sales Enablement | Candidate insight hypothesis 029 | Source ID: TBD | Score: TBD
+- [ ] 0780 | Sales Enablement | Candidate insight hypothesis 030 | Source ID: TBD | Score: TBD
+- [ ] 0781 | Sales Enablement | Candidate insight hypothesis 031 | Source ID: TBD | Score: TBD
+- [ ] 0782 | Sales Enablement | Candidate insight hypothesis 032 | Source ID: TBD | Score: TBD
+- [ ] 0783 | Sales Enablement | Candidate insight hypothesis 033 | Source ID: TBD | Score: TBD
+- [ ] 0784 | Sales Enablement | Candidate insight hypothesis 034 | Source ID: TBD | Score: TBD
+- [ ] 0785 | Sales Enablement | Candidate insight hypothesis 035 | Source ID: TBD | Score: TBD
+- [ ] 0786 | Sales Enablement | Candidate insight hypothesis 036 | Source ID: TBD | Score: TBD
+- [ ] 0787 | Sales Enablement | Candidate insight hypothesis 037 | Source ID: TBD | Score: TBD
+- [ ] 0788 | Sales Enablement | Candidate insight hypothesis 038 | Source ID: TBD | Score: TBD
+- [ ] 0789 | Sales Enablement | Candidate insight hypothesis 039 | Source ID: TBD | Score: TBD
+- [ ] 0790 | Sales Enablement | Candidate insight hypothesis 040 | Source ID: TBD | Score: TBD
+- [ ] 0791 | Sales Enablement | Candidate insight hypothesis 041 | Source ID: TBD | Score: TBD
+- [ ] 0792 | Sales Enablement | Candidate insight hypothesis 042 | Source ID: TBD | Score: TBD
+- [ ] 0793 | Sales Enablement | Candidate insight hypothesis 043 | Source ID: TBD | Score: TBD
+- [ ] 0794 | Sales Enablement | Candidate insight hypothesis 044 | Source ID: TBD | Score: TBD
+- [ ] 0795 | Sales Enablement | Candidate insight hypothesis 045 | Source ID: TBD | Score: TBD
+- [ ] 0796 | Sales Enablement | Candidate insight hypothesis 046 | Source ID: TBD | Score: TBD
+- [ ] 0797 | Sales Enablement | Candidate insight hypothesis 047 | Source ID: TBD | Score: TBD
+- [ ] 0798 | Sales Enablement | Candidate insight hypothesis 048 | Source ID: TBD | Score: TBD
+- [ ] 0799 | Sales Enablement | Candidate insight hypothesis 049 | Source ID: TBD | Score: TBD
+- [ ] 0800 | Sales Enablement | Candidate insight hypothesis 050 | Source ID: TBD | Score: TBD
+- [ ] 0801 | Sales Enablement | Candidate insight hypothesis 051 | Source ID: TBD | Score: TBD
+- [ ] 0802 | Sales Enablement | Candidate insight hypothesis 052 | Source ID: TBD | Score: TBD
+- [ ] 0803 | Sales Enablement | Candidate insight hypothesis 053 | Source ID: TBD | Score: TBD
+- [ ] 0804 | Sales Enablement | Candidate insight hypothesis 054 | Source ID: TBD | Score: TBD
+- [ ] 0805 | Sales Enablement | Candidate insight hypothesis 055 | Source ID: TBD | Score: TBD
+- [ ] 0806 | Sales Enablement | Candidate insight hypothesis 056 | Source ID: TBD | Score: TBD
+- [ ] 0807 | Sales Enablement | Candidate insight hypothesis 057 | Source ID: TBD | Score: TBD
+- [ ] 0808 | Sales Enablement | Candidate insight hypothesis 058 | Source ID: TBD | Score: TBD
+- [ ] 0809 | Sales Enablement | Candidate insight hypothesis 059 | Source ID: TBD | Score: TBD
+- [ ] 0810 | Sales Enablement | Candidate insight hypothesis 060 | Source ID: TBD | Score: TBD
+- [ ] 0811 | Sales Enablement | Candidate insight hypothesis 061 | Source ID: TBD | Score: TBD
+- [ ] 0812 | Sales Enablement | Candidate insight hypothesis 062 | Source ID: TBD | Score: TBD
+- [ ] 0813 | Sales Enablement | Candidate insight hypothesis 063 | Source ID: TBD | Score: TBD
+- [ ] 0814 | Sales Enablement | Candidate insight hypothesis 064 | Source ID: TBD | Score: TBD
+- [ ] 0815 | Sales Enablement | Candidate insight hypothesis 065 | Source ID: TBD | Score: TBD
+- [ ] 0816 | Sales Enablement | Candidate insight hypothesis 066 | Source ID: TBD | Score: TBD
+- [ ] 0817 | Sales Enablement | Candidate insight hypothesis 067 | Source ID: TBD | Score: TBD
+- [ ] 0818 | Sales Enablement | Candidate insight hypothesis 068 | Source ID: TBD | Score: TBD
+- [ ] 0819 | Sales Enablement | Candidate insight hypothesis 069 | Source ID: TBD | Score: TBD
+- [ ] 0820 | Sales Enablement | Candidate insight hypothesis 070 | Source ID: TBD | Score: TBD
+- [ ] 0821 | Sales Enablement | Candidate insight hypothesis 071 | Source ID: TBD | Score: TBD
+- [ ] 0822 | Sales Enablement | Candidate insight hypothesis 072 | Source ID: TBD | Score: TBD
+- [ ] 0823 | Sales Enablement | Candidate insight hypothesis 073 | Source ID: TBD | Score: TBD
+- [ ] 0824 | Sales Enablement | Candidate insight hypothesis 074 | Source ID: TBD | Score: TBD
+- [ ] 0825 | Sales Enablement | Candidate insight hypothesis 075 | Source ID: TBD | Score: TBD
+- [ ] 0826 | Sales Enablement | Candidate insight hypothesis 076 | Source ID: TBD | Score: TBD
+- [ ] 0827 | Sales Enablement | Candidate insight hypothesis 077 | Source ID: TBD | Score: TBD
+- [ ] 0828 | Sales Enablement | Candidate insight hypothesis 078 | Source ID: TBD | Score: TBD
+- [ ] 0829 | Sales Enablement | Candidate insight hypothesis 079 | Source ID: TBD | Score: TBD
+- [ ] 0830 | Sales Enablement | Candidate insight hypothesis 080 | Source ID: TBD | Score: TBD
+- [ ] 0831 | Sales Enablement | Candidate insight hypothesis 081 | Source ID: TBD | Score: TBD
+- [ ] 0832 | Sales Enablement | Candidate insight hypothesis 082 | Source ID: TBD | Score: TBD
+- [ ] 0833 | Sales Enablement | Candidate insight hypothesis 083 | Source ID: TBD | Score: TBD
+- [ ] 0834 | Sales Enablement | Candidate insight hypothesis 084 | Source ID: TBD | Score: TBD
+- [ ] 0835 | Sales Enablement | Candidate insight hypothesis 085 | Source ID: TBD | Score: TBD
+- [ ] 0836 | Sales Enablement | Candidate insight hypothesis 086 | Source ID: TBD | Score: TBD
+- [ ] 0837 | Sales Enablement | Candidate insight hypothesis 087 | Source ID: TBD | Score: TBD
+- [ ] 0838 | Sales Enablement | Candidate insight hypothesis 088 | Source ID: TBD | Score: TBD
+- [ ] 0839 | Sales Enablement | Candidate insight hypothesis 089 | Source ID: TBD | Score: TBD
+- [ ] 0840 | Sales Enablement | Candidate insight hypothesis 090 | Source ID: TBD | Score: TBD
+- [ ] 0841 | Sales Enablement | Candidate insight hypothesis 091 | Source ID: TBD | Score: TBD
+- [ ] 0842 | Sales Enablement | Candidate insight hypothesis 092 | Source ID: TBD | Score: TBD
+- [ ] 0843 | Sales Enablement | Candidate insight hypothesis 093 | Source ID: TBD | Score: TBD
+- [ ] 0844 | Sales Enablement | Candidate insight hypothesis 094 | Source ID: TBD | Score: TBD
+- [ ] 0845 | Sales Enablement | Candidate insight hypothesis 095 | Source ID: TBD | Score: TBD
+- [ ] 0846 | Sales Enablement | Candidate insight hypothesis 096 | Source ID: TBD | Score: TBD
+- [ ] 0847 | Sales Enablement | Candidate insight hypothesis 097 | Source ID: TBD | Score: TBD
+- [ ] 0848 | Sales Enablement | Candidate insight hypothesis 098 | Source ID: TBD | Score: TBD
+- [ ] 0849 | Sales Enablement | Candidate insight hypothesis 099 | Source ID: TBD | Score: TBD
+- [ ] 0850 | Sales Enablement | Candidate insight hypothesis 100 | Source ID: TBD | Score: TBD
+- [ ] 0851 | Sales Enablement | Candidate insight hypothesis 101 | Source ID: TBD | Score: TBD
+- [ ] 0852 | Sales Enablement | Candidate insight hypothesis 102 | Source ID: TBD | Score: TBD
+- [ ] 0853 | Sales Enablement | Candidate insight hypothesis 103 | Source ID: TBD | Score: TBD
+- [ ] 0854 | Sales Enablement | Candidate insight hypothesis 104 | Source ID: TBD | Score: TBD
+- [ ] 0855 | Sales Enablement | Candidate insight hypothesis 105 | Source ID: TBD | Score: TBD
+- [ ] 0856 | Sales Enablement | Candidate insight hypothesis 106 | Source ID: TBD | Score: TBD
+- [ ] 0857 | Sales Enablement | Candidate insight hypothesis 107 | Source ID: TBD | Score: TBD
+- [ ] 0858 | Sales Enablement | Candidate insight hypothesis 108 | Source ID: TBD | Score: TBD
+- [ ] 0859 | Sales Enablement | Candidate insight hypothesis 109 | Source ID: TBD | Score: TBD
+- [ ] 0860 | Sales Enablement | Candidate insight hypothesis 110 | Source ID: TBD | Score: TBD
+- [ ] 0861 | Sales Enablement | Candidate insight hypothesis 111 | Source ID: TBD | Score: TBD
+- [ ] 0862 | Sales Enablement | Candidate insight hypothesis 112 | Source ID: TBD | Score: TBD
+- [ ] 0863 | Sales Enablement | Candidate insight hypothesis 113 | Source ID: TBD | Score: TBD
+- [ ] 0864 | Sales Enablement | Candidate insight hypothesis 114 | Source ID: TBD | Score: TBD
+- [ ] 0865 | Sales Enablement | Candidate insight hypothesis 115 | Source ID: TBD | Score: TBD
+- [ ] 0866 | Sales Enablement | Candidate insight hypothesis 116 | Source ID: TBD | Score: TBD
+- [ ] 0867 | Sales Enablement | Candidate insight hypothesis 117 | Source ID: TBD | Score: TBD
+- [ ] 0868 | Sales Enablement | Candidate insight hypothesis 118 | Source ID: TBD | Score: TBD
+- [ ] 0869 | Sales Enablement | Candidate insight hypothesis 119 | Source ID: TBD | Score: TBD
+- [ ] 0870 | Sales Enablement | Candidate insight hypothesis 120 | Source ID: TBD | Score: TBD
+- [ ] 0871 | Sales Enablement | Candidate insight hypothesis 121 | Source ID: TBD | Score: TBD
+- [ ] 0872 | Sales Enablement | Candidate insight hypothesis 122 | Source ID: TBD | Score: TBD
+- [ ] 0873 | Sales Enablement | Candidate insight hypothesis 123 | Source ID: TBD | Score: TBD
+- [ ] 0874 | Sales Enablement | Candidate insight hypothesis 124 | Source ID: TBD | Score: TBD
+- [ ] 0875 | Sales Enablement | Candidate insight hypothesis 125 | Source ID: TBD | Score: TBD
+- [ ] 0876 | Sales Enablement | Candidate insight hypothesis 126 | Source ID: TBD | Score: TBD
+- [ ] 0877 | Sales Enablement | Candidate insight hypothesis 127 | Source ID: TBD | Score: TBD
+- [ ] 0878 | Sales Enablement | Candidate insight hypothesis 128 | Source ID: TBD | Score: TBD
+- [ ] 0879 | Sales Enablement | Candidate insight hypothesis 129 | Source ID: TBD | Score: TBD
+- [ ] 0880 | Sales Enablement | Candidate insight hypothesis 130 | Source ID: TBD | Score: TBD
+- [ ] 0881 | Sales Enablement | Candidate insight hypothesis 131 | Source ID: TBD | Score: TBD
+- [ ] 0882 | Sales Enablement | Candidate insight hypothesis 132 | Source ID: TBD | Score: TBD
+- [ ] 0883 | Sales Enablement | Candidate insight hypothesis 133 | Source ID: TBD | Score: TBD
+- [ ] 0884 | Sales Enablement | Candidate insight hypothesis 134 | Source ID: TBD | Score: TBD
+- [ ] 0885 | Sales Enablement | Candidate insight hypothesis 135 | Source ID: TBD | Score: TBD
+- [ ] 0886 | Sales Enablement | Candidate insight hypothesis 136 | Source ID: TBD | Score: TBD
+- [ ] 0887 | Sales Enablement | Candidate insight hypothesis 137 | Source ID: TBD | Score: TBD
+- [ ] 0888 | Sales Enablement | Candidate insight hypothesis 138 | Source ID: TBD | Score: TBD
+- [ ] 0889 | Sales Enablement | Candidate insight hypothesis 139 | Source ID: TBD | Score: TBD
+- [ ] 0890 | Sales Enablement | Candidate insight hypothesis 140 | Source ID: TBD | Score: TBD
+- [ ] 0891 | Sales Enablement | Candidate insight hypothesis 141 | Source ID: TBD | Score: TBD
+- [ ] 0892 | Sales Enablement | Candidate insight hypothesis 142 | Source ID: TBD | Score: TBD
+- [ ] 0893 | Sales Enablement | Candidate insight hypothesis 143 | Source ID: TBD | Score: TBD
+- [ ] 0894 | Sales Enablement | Candidate insight hypothesis 144 | Source ID: TBD | Score: TBD
+- [ ] 0895 | Sales Enablement | Candidate insight hypothesis 145 | Source ID: TBD | Score: TBD
+- [ ] 0896 | Sales Enablement | Candidate insight hypothesis 146 | Source ID: TBD | Score: TBD
+- [ ] 0897 | Sales Enablement | Candidate insight hypothesis 147 | Source ID: TBD | Score: TBD
+- [ ] 0898 | Sales Enablement | Candidate insight hypothesis 148 | Source ID: TBD | Score: TBD
+- [ ] 0899 | Sales Enablement | Candidate insight hypothesis 149 | Source ID: TBD | Score: TBD
+- [ ] 0900 | Sales Enablement | Candidate insight hypothesis 150 | Source ID: TBD | Score: TBD
