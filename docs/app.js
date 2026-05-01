@@ -14,7 +14,7 @@ function operatorSlug(name){return slugify(name);}
 function escapeHtml(s){return (s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
 
 async function loadIndex(){
-  const res = await fetch('../insight-library/INDEX.json');
+  const res = await fetch('insight-library/INDEX.json');
   const data = await res.json();
   cards = (data.insights||[]).map(i => ({
     id: i.id,
@@ -46,7 +46,7 @@ async function loadIndex(){
 }
 
 async function fetchCardBody(path){
-  try { const r = await fetch(`../insight-library/${path}`); return await r.text(); } catch { return ''; }
+  try { const r = await fetch(`insight-library/${path}`); return await r.text(); } catch { return ''; }
 }
 function stripFrontmatter(md){ if (md.startsWith('---\n')) { const e = md.indexOf('\n---', 4); if (e>0) return md.slice(e+4).trimStart(); } return md; }
 function mdToHtml(md){
