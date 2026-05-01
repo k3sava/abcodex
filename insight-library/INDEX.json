@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-01T18:26:02.640Z",
+  "generated_at": "2026-05-01T18:39:47.082Z",
   "counts": {
-    "insights": 103,
-    "operators": 172,
-    "raw_sources": 40
+    "insights": 146,
+    "operators": 179,
+    "raw_sources": 78
   },
   "insights": [
     {
@@ -30,6 +30,37 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_3s-content-from-sales-success-support.md",
+      "title": "Source content briefs from Sales, Success, and Support — not keyword tools",
+      "id": "ins_3s-content-from-sales-success-support",
+      "operator": "Brendan Hufford",
+      "operator_role": "Founder, Growth Sprints; SEO/content strategist",
+      "source_url": "https://growthsprints.co/3s-strategy/",
+      "source_type": "essay",
+      "source_title": "The 3S Strategy",
+      "source_date": "2026-04-25",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "growth",
+        "gtm"
+      ],
+      "lifecycle": [
+        "content",
+        "voc-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_pov-led-outbound",
+        "ins_death-of-the-ultimate-guide",
+        "ins_aeo-is-gtm-capability"
+      ],
+      "raw_ref": "raw/essays/brendan-hufford--3s-strategy--2026-04-25.md"
     },
     {
       "path": "insights/ins_absolute-counts-over-conversion-rates.md",
@@ -87,6 +118,163 @@
       "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
     },
     {
+      "path": "insights/ins_aeo-is-gtm-capability.md",
+      "title": "AEO is a GTM capability, not an SEO experiment",
+      "id": "ins_aeo-is-gtm-capability",
+      "operator": "Maja Voje",
+      "operator_role": "GTM Strategist; Founder of GTM Strategist",
+      "source_url": "https://knowledge.gtmstrategist.com/p/aeo-how-to-make-ai-recommend-your-product",
+      "source_type": "essay",
+      "source_title": "AEO — How to Make AI Recommend Your Product",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "positioning",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_relevance-engineering-passage-level",
+        "ins_ghost-citation-gap",
+        "ins_rebuild-gtm-around-ai"
+      ],
+      "raw_ref": "raw/essays/maja-voje--aeo-gtm-capability--2026-04-17.md"
+    },
+    {
+      "path": "insights/ins_aeo-three-layer-presence-readiness-impact.md",
+      "title": "Measure AI search on three layers: Presence, Readiness, Business Impact",
+      "id": "ins_aeo-three-layer-presence-readiness-impact",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant; Founder of Orainti",
+      "source_url": "https://www.aleydasolis.com/en/ai-search/a-3-layer-framework-to-measure-ai-presence-readiness-and-business-impact-redefining-metrics-for-the-ai-search-era/",
+      "source_type": "essay",
+      "source_title": "A 3-Layer Framework to Measure AI Presence, Readiness, and Business Impact",
+      "source_date": "2026-04-23",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ghost-citation-gap",
+        "ins_relevance-engineering-passage-level",
+        "ins_aeo-is-gtm-capability"
+      ],
+      "raw_ref": "raw/essays/aleyda-solis--3-layer-aeo-framework--2026-04-23.md"
+    },
+    {
+      "path": "insights/ins_agent-first-gtm-flywheel.md",
+      "title": "Run agent-first GTM as a three-stage flywheel with one named agent per job",
+      "id": "ins_agent-first-gtm-flywheel",
+      "operator": "Yamini Rangan",
+      "operator_role": "CEO, HubSpot",
+      "source_url": "https://blog.hubspot.com/marketing/how-we-grow-with-agent-first-gtm",
+      "source_type": "essay",
+      "source_title": "How we Grow with Agent-first GTM",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "ai-native",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_rebuild-gtm-around-ai",
+        "ins_agents-as-team-not-tools",
+        "ins_jtbd-as-agent-wiring-diagram"
+      ],
+      "raw_ref": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md"
+    },
+    {
+      "path": "insights/ins_agent-washing-as-buyer-confusion-surface.md",
+      "title": "Agent-washing is the buyer-confusion surface PMM should attack",
+      "id": "ins_agent-washing-as-buyer-confusion-surface",
+      "operator": "Gartner",
+      "operator_role": "Rajesh Kandaswamy et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00842058",
+      "source_type": "research",
+      "source_title": "Hype Cycle for Agentic AI 2026",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_semi-autonomous-is-the-enterprise-baseline",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "raw_ref": "raw/research/gartner--hype-cycle-agentic-ai-2026--2026-04.md"
+    },
+    {
+      "path": "insights/ins_agents-are-the-new-product-user.md",
+      "title": "Agents are first-class product users; design for output reliability, not navigation",
+      "id": "ins_agents-are-the-new-product-user",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor; ex-CMO Lenny's Newsletter, ex-SurveyMonkey, ex-Miro",
+      "source_url": "https://www.elenaverna.com/p/your-product-has-a-new-user-its-not",
+      "source_type": "essay",
+      "source_title": "Your product has a new user. It's not human.",
+      "source_date": "2026-04-26",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "product-strategy",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_pmm-as-infrastructure-not-gate",
+        "ins_nlx-is-the-new-ux",
+        "ins_software-is-not-a-moat"
+      ],
+      "raw_ref": "raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md"
+    },
+    {
       "path": "insights/ins_agents-as-team-not-tools.md",
       "title": "Agents work when treated as a team, not a single super-tool",
       "id": "ins_agents-as-team-not-tools",
@@ -119,6 +307,95 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ai-cold-call-compliance-follows-prospect-residence.md",
+      "title": "AI cold-call compliance follows the prospect's residence, not the seller's HQ",
+      "id": "ins_ai-cold-call-compliance-follows-prospect-residence",
+      "operator": "Gartner",
+      "operator_role": "Igor Marchal, Michele Buckley, Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00801146",
+      "source_type": "research",
+      "source_title": "Ensure AI SDR Cold-Calling Compliance Across Global Markets",
+      "source_date": "2025-08-13",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_seller-workflows-begin-with-ai"
+      ],
+      "raw_ref": "raw/research/gartner--ensure-ai-sdr-cold-calling-compliance--2026-04.md"
+    },
+    {
+      "path": "insights/ins_ai-slop-loop.md",
+      "title": "A single seeded fake claim can self-confirm in AI Overviews",
+      "id": "ins_ai-slop-loop",
+      "operator": "Lily Ray",
+      "operator_role": "VP SEO Strategy & Research, Amsive Digital",
+      "source_url": "https://lilyraynyc.substack.com/p/the-ai-slop-loop",
+      "source_type": "essay",
+      "source_title": "The AI Slop Loop",
+      "source_date": "2026-04-23",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "ai-native",
+        "risk"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "brand-protection"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_manual-action-propagates-to-ai-surfaces",
+        "ins_ghost-citation-gap",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "raw/essays/lily-ray--ai-slop-loop--2026-04-23.md"
+    },
+    {
+      "path": "insights/ins_all-problems-become-people-problems.md",
+      "title": "Above a certain level, every problem is a people problem",
+      "id": "ins_all-problems-become-people-problems",
+      "operator": "Silvia Botros",
+      "operator_role": "Senior Principal Engineer, Twilio",
+      "source_url": "https://leaddev.com/hiring/reality-being-principal-engineer",
+      "source_type": "essay",
+      "source_title": "The reality of being a Principal Engineer",
+      "source_date": "2020-08-10",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "engineering"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_principal-ic-is-force-multiplier",
+        "ins_glue-work-is-staff-leadership"
+      ],
+      "raw_ref": "raw/essays/silvia-botros--principal-engineer-reality--2020-08.md"
+    },
+    {
       "path": "insights/ins_ambition-filtered-job-ads.md",
       "title": "Use the job ad itself as a self-selection filter for ambition",
       "id": "ins_ambition-filtered-job-ads",
@@ -143,6 +420,37 @@
         "ins_generalists-over-specialists-ai-native"
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_battle-cards-as-workflow-primitive.md",
+      "title": "Battle cards become workflow primitives, not Notion pages",
+      "id": "ins_battle-cards-as-workflow-primitive",
+      "operator": "Gartner",
+      "operator_role": "Rahim Kaba et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00832921",
+      "source_type": "research",
+      "source_title": "\"Innovation Insight: Rethinking Battle Cards in the Age of AI\"",
+      "source_date": "2025-06-19",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "sales",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "ai-workflow",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_systems-of-action-replace-seller-stack",
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "raw_ref": "raw/research/gartner--innovation-insight-rethinking-battle-cards-ai--2026-04.md"
     },
     {
       "path": "insights/ins_benevolent-dictator-not-committee.md",
@@ -461,6 +769,37 @@
       "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
     },
     {
+      "path": "insights/ins_commoditize-the-complement-ai.md",
+      "title": "AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly",
+      "id": "ins_commoditize-the-complement-ai",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures (formerly Redpoint)",
+      "source_url": "https://tomtunguz.com/competitive-strategy-in-ai/",
+      "source_type": "essay",
+      "source_title": "Competitive Strategy in the Age of AI",
+      "source_date": "2026-04-24",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "strategy",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "pricing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_software-is-not-a-moat",
+        "ins_specificity-becomes-profitable",
+        "ins_post-training-as-the-moat"
+      ],
+      "raw_ref": "raw/essays/tomasz-tunguz--commoditize-the-complement--2026-04-24.md"
+    },
+    {
       "path": "insights/ins_company-house-foundation-beams-mechanicals.md",
       "title": "A company is a house: foundation, supporting beams, mechanicals — install all three early",
       "id": "ins_company-house-foundation-beams-mechanicals",
@@ -542,6 +881,63 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_data-plumber-is-the-bottleneck.md",
+      "title": "The data plumber is the highest-leverage early growth hire, ahead of creative or media",
+      "id": "ins_data-plumber-is-the-bottleneck",
+      "operator": "Andrew Chen",
+      "operator_role": "General Partner, Andreessen Horowitz; growth advisor",
+      "source_url": "https://a16z.com/announcement/investing-in-hilbert/",
+      "source_type": "essay",
+      "source_title": "Investing in Hilbert",
+      "source_date": "2026-04-25",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_engineers-with-product-taste",
+        "ins_no-growth-team-too-early"
+      ],
+      "raw_ref": "raw/essays/andrew-chen--hilbert-data-plumber--2026-04-25.md"
+    },
+    {
+      "path": "insights/ins_data-strategy-precedes-tool-strategy.md",
+      "title": "Data strategy precedes tool strategy in marketing automation",
+      "id": "ins_data-strategy-precedes-tool-strategy",
+      "operator": "Gartner",
+      "operator_role": "Julian Poulter, Amy Jenkins, Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00785095",
+      "source_type": "research",
+      "source_title": "\"Tech CEOs: Maximize B2B Sales With Marketing Automation\"",
+      "source_date": "2024-10-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "gtm",
+        "marketing-ops"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "attribution-measurement"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "C",
+      "related": [
+        "ins_systems-of-action-replace-seller-stack"
+      ],
+      "raw_ref": "raw/research/gartner--tech-ceos-maximize-b2b-sales-marketing-automation--2026-04.md"
+    },
+    {
       "path": "insights/ins_date-diagnostic-framework.md",
       "title": "Refuse the playbook ask — run DATE: Diagnose, Analyze, Take a different path, Experiment",
       "id": "ins_date-diagnostic-framework",
@@ -568,6 +964,37 @@
         "ins_use-case-epiphany-as-marketing-job"
       ],
       "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_death-of-the-ultimate-guide.md",
+      "title": "Sharper POV beats exhaustive coverage when an LLM is the summarizer",
+      "id": "ins_death-of-the-ultimate-guide",
+      "operator": "Amanda Natividad",
+      "operator_role": "VP Marketing, SparkToro; B2B content strategist",
+      "source_url": "https://sparktoro.com/blog/the-death-of-the-ultimate-guide/",
+      "source_type": "essay",
+      "source_title": "The Death of the Ultimate Guide",
+      "source_date": "2026-04-25",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "growth",
+        "content"
+      ],
+      "lifecycle": [
+        "content",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_relevance-engineering-passage-level",
+        "ins_ghost-citation-gap",
+        "ins_3s-content-from-sales-success-support"
+      ],
+      "raw_ref": "raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md"
     },
     {
       "path": "insights/ins_design-as-bottleneck.md",
@@ -711,6 +1138,35 @@
         "ins_agents-as-team-not-tools"
       ],
       "raw_ref": "raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_dotclaude-as-deployable-artifact.md",
+      "title": "Treat `.claude/` as a deployable artifact with versioning and rollback",
+      "id": "ins_dotclaude-as-deployable-artifact",
+      "operator": "Pawel Huryn",
+      "operator_role": "Product Compass author; PM coach",
+      "source_url": "https://www.productcompass.pm/archive",
+      "source_type": "essay",
+      "source_title": "Product Compass — Claude Code as PM Infrastructure (April 2026 sequence)",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "tooling-config",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_llm-wiki-pattern",
+        "ins_use-new-tools-as-new-tools"
+      ],
+      "raw_ref": "raw/essays/pawel-huryn--claude-code-as-config--2026-04-27.md"
     },
     {
       "path": "insights/ins_earned-channels-over-algorithm-channels.md",
@@ -1026,6 +1482,67 @@
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ghost-citation-gap.md",
+      "title": "Citation rate and mention rate are different metrics; comparative content closes the gap",
+      "id": "ins_ghost-citation-gap",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; author of Growth Memo",
+      "source_url": "https://www.growth-memo.com/p/the-ghost-citation-problem",
+      "source_type": "essay",
+      "source_title": "The Ghost Citation Problem",
+      "source_date": "2026-04-26",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_relevance-engineering-passage-level",
+        "ins_death-of-the-ultimate-guide"
+      ],
+      "raw_ref": "raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md"
+    },
+    {
+      "path": "insights/ins_glue-work-is-staff-leadership.md",
+      "title": "Glue work is technical leadership, not a tax on the IC",
+      "id": "ins_glue-work-is-staff-leadership",
+      "operator": "Tanya Reilly",
+      "operator_role": "Principal Engineer, Squarespace; author \"The Staff Engineer's Path\"",
+      "source_url": "https://www.oreilly.com/library/view/the-staff-engineers/9781098118723/",
+      "source_type": "book",
+      "source_title": "The Staff Engineer's Path",
+      "source_date": "2022-09-30",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_principal-ic-is-force-multiplier",
+        "ins_staff-archetypes-rotate-by-design",
+        "ins_all-problems-become-people-problems"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
       "path": "insights/ins_going-deep-to-bedrock.md",
       "title": "Push past expert opinion until you reach the actual law of physics or contract",
       "id": "ins_going-deep-to-bedrock",
@@ -1078,6 +1595,36 @@
         "ins_lock-s-ceo-evaluation-rubric"
       ],
       "raw_ref": "raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_homepage-five-second-trinity.md",
+      "title": "B2B homepages must communicate use case, alternative, and result in five seconds",
+      "id": "ins_homepage-five-second-trinity",
+      "operator": "Anthony Pierri",
+      "operator_role": "Co-founder, Fletch PMM",
+      "source_url": "https://www.earlynode.com/newsletters/the-7-step-framework-for-writing-killer-homepage-messaging-with-anthony-pierri",
+      "source_type": "essay",
+      "source_title": "The 7-Step Framework for Writing Killer Homepage Messaging",
+      "source_date": "2026-04",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "growth"
+      ],
+      "lifecycle": [
+        "positioning",
+        "conversion"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_setup-follow-through-pitch",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_pmm-as-infrastructure-not-gate"
+      ],
+      "raw_ref": "raw/essays/anthony-pierri--7-step-homepage--2026-04.md"
     },
     {
       "path": "insights/ins_illegibility-framework.md",
@@ -1249,6 +1796,36 @@
         "ins_software-is-not-a-moat"
       ],
       "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_jtbd-interviews-surface-customer-language.md",
+      "title": "JTBD interviews surface the customer's actual language and the switch trigger",
+      "id": "ins_jtbd-interviews-surface-customer-language",
+      "operator": "Bob Moesta",
+      "operator_role": "Co-creator JTBD framework; founder Re-Wired Group; author \"Demand-Side Sales 101\"",
+      "source_url": "https://www.intercom.com/blog/podcasts/bob-moesta-on-unpacking-customer-motivations-with-jobs-to-be-done/",
+      "source_type": "podcast",
+      "source_title": "Bob Moesta on Unpacking Customer Motivations with Jobs to Be Done",
+      "source_date": "2020-09-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "product",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_market-to-product-product-to-market",
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     },
     {
       "path": "insights/ins_kill-criteria-make-pre-mortems-real.md",
@@ -1453,6 +2030,37 @@
       "raw_ref": "raw/essays/karpathy--llm-wiki--2026-04.md"
     },
     {
+      "path": "insights/ins_llms-are-new-os-agents-are-apps.md",
+      "title": "LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores",
+      "id": "ins_llms-are-new-os-agents-are-apps",
+      "operator": "Mark Petty",
+      "operator_role": "Senior Director Analyst, Gartner",
+      "source_url": "https://www.gartner.com/en/documents/G00828648",
+      "source_type": "research",
+      "source_title": "\"LLMs Are the New OS. AI Agents Are the New Apps. And SaaS Just Got Demoted to Infrastructure\"",
+      "source_date": "2026-02-27",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_software-is-not-a-moat",
+        "ins_post-training-as-the-moat",
+        "ins_rebuild-gtm-around-ai"
+      ],
+      "raw_ref": "raw/research/gartner--llms-are-the-new-os--2026-04.md"
+    },
+    {
       "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
       "title": "Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student",
       "id": "ins_lock-s-ceo-evaluation-rubric",
@@ -1507,6 +2115,35 @@
         "ins_absolute-counts-over-conversion-rates"
       ],
       "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_machine-customers-displace-storefront-interactions.md",
+      "title": "By 2028, AI agent \"machine customers\" will replace 20% of human-readable storefront interactions",
+      "id": "ins_machine-customers-displace-storefront-interactions",
+      "operator": "Gartner",
+      "operator_role": "Daniel Sun, Jorge Lopez et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00824001",
+      "source_type": "research",
+      "source_title": "Innovate Business Models Using AI Agents",
+      "source_date": "2025-01-16",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "gtm",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_llms-are-new-os-agents-are-apps"
+      ],
+      "raw_ref": "raw/research/gartner--innovate-business-models-using-ai-agents--2026-04.md"
     },
     {
       "path": "insights/ins_make-intuition-explicit.md",
@@ -1596,6 +2233,36 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_manual-action-propagates-to-ai-surfaces.md",
+      "title": "Google manual actions propagate downstream to AI Overviews and ChatGPT citations",
+      "id": "ins_manual-action-propagates-to-ai-surfaces",
+      "operator": "Glenn Gabe",
+      "operator_role": "SEO consultant; G-Squared Interactive",
+      "source_url": "https://www.gsqi.com/marketing-blog/when-mt-ai-crumbles-chatgpt-follows/",
+      "source_type": "essay",
+      "source_title": "When Mt. AI Crumbles, ChatGPT Follows",
+      "source_date": "2026-04-22",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_relevance-engineering-passage-level",
+        "ins_ai-slop-loop",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "raw/essays/glenn-gabe--mt-ai-crumbles--2026-04-22.md"
+    },
+    {
       "path": "insights/ins_marginal-user-methodology.md",
       "title": "Design for the marginal user — the person on the cusp of converting in the worst conditions",
       "id": "ins_marginal-user-methodology",
@@ -1624,6 +2291,38 @@
         "ins_lead-bullets-and-cannonballs"
       ],
       "raw_ref": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_market-to-product-product-to-market.md",
+      "title": "PMM owns both halves of the loop — market to the product, product to the market",
+      "id": "ins_market-to-product-product-to-market",
+      "operator": "Martina Lauchengco",
+      "operator_role": "Partner SVPG; author \"Loved\"; ex-Microsoft, Netscape",
+      "source_url": "https://www.svpg.com/loved/",
+      "source_type": "book",
+      "source_title": "\"Loved: How to Rethink Marketing for Tech Products\"",
+      "source_date": "2022-04-26",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "product",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "launch"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_no-decision-is-the-real-competitor",
+        "ins_old-game-to-new-game-narrative",
+        "ins_setup-follow-through-pitch"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     },
     {
       "path": "insights/ins_marketplace-liquidity-before-dynamics.md",
@@ -2104,6 +2803,36 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_pm-prototype-or-be-bypassed.md",
+      "title": "PMs who keep outsourcing first artifact will lose to PMs who arrive at design review with a working prototype",
+      "id": "ins_pm-prototype-or-be-bypassed",
+      "operator": "Aakash Gupta",
+      "operator_role": "Product Lead and writer; News.aakashg.com",
+      "source_url": "https://www.news.aakashg.com/p/claude-design",
+      "source_type": "essay",
+      "source_title": "Claude Design — The Tool Most PMs Will Be Using in 6 Months",
+      "source_date": "2026-04-24",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_two-week-engineer-as-mini-pm",
+        "ins_pmm-as-infrastructure-not-gate",
+        "ins_design-as-bottleneck"
+      ],
+      "raw_ref": "raw/essays/aakash-gupta--claude-design-pm-collapse--2026-04-24.md"
+    },
+    {
       "path": "insights/ins_pm-should-not-ship-at-scale.md",
       "title": "At scale, PMs should up-level the why and what; not ship more features",
       "id": "ins_pm-should-not-ship-at-scale",
@@ -2130,6 +2859,37 @@
         "ins_squeezed-pm-thesis"
       ],
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_pmm-as-infrastructure-not-gate.md",
+      "title": "PMM is infrastructure that makes other functions faster, not a launch gate they wait on",
+      "id": "ins_pmm-as-infrastructure-not-gate",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor; ex-CMO Lenny's Newsletter, ex-SurveyMonkey, ex-Miro",
+      "source_url": "https://www.elenaverna.com/p/whos-got-time-for-product-marketing",
+      "source_type": "essay",
+      "source_title": "Who's got time for product marketing?",
+      "source_date": "2026-04-26",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "leadership",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ownership-org",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_agents-are-the-new-product-user",
+        "ins_aeo-is-gtm-capability",
+        "ins_rebuild-gtm-around-ai"
+      ],
+      "raw_ref": "raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md"
     },
     {
       "path": "insights/ins_pocket-veto-large-companies.md",
@@ -2189,6 +2949,36 @@
       "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
     },
     {
+      "path": "insights/ins_pov-led-outbound.md",
+      "title": "Lead with a per-account point of view, not a templated cold ask",
+      "id": "ins_pov-led-outbound",
+      "operator": "Chris Orlob",
+      "operator_role": "CEO, pclub.io; founder of Gong's first sales methodology team",
+      "source_url": "https://www.pclub.io/blog/pov-led-outbound-how-to-triple-your-pipeline-generation-with-target-accounts",
+      "source_type": "essay",
+      "source_title": "POV-Led Outbound — How to Triple Your Pipeline Generation with Target Accounts",
+      "source_date": "2026-04-21",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "pmm"
+      ],
+      "lifecycle": [
+        "outbound",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_3s-content-from-sales-success-support",
+        "ins_tech-stack-renewal-window-play",
+        "ins_setup-follow-through-pitch"
+      ],
+      "raw_ref": "raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md"
+    },
+    {
       "path": "insights/ins_prds-replaced-by-metrics-and-principles.md",
       "title": "Replace PRDs with weekly metrics readouts plus a written team-principles doc",
       "id": "ins_prds-replaced-by-metrics-and-principles",
@@ -2215,6 +3005,66 @@
         "ins_engineers-with-product-taste"
       ],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_pricing-needs-weekly-customer-calls.md",
+      "title": "Without weekly customer calls, you don't have a pricing strategy — you have a guess",
+      "id": "ins_pricing-needs-weekly-customer-calls",
+      "operator": "Patrick Campbell",
+      "operator_role": "Founder ProfitWell (acquired by Paddle 2022); ex-CEO Price Intelligently",
+      "source_url": "https://www.profitwell.com/recur/all/customer-research-pricing",
+      "source_type": "talk",
+      "source_title": "ProfitWell Pricing Page Teardown / Recur Now framing",
+      "source_date": "2021-01-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "growth"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_market-to-product-product-to-market"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
+      "path": "insights/ins_principal-ic-is-force-multiplier.md",
+      "title": "A principal IC is a force multiplier — not a more-senior senior",
+      "id": "ins_principal-ic-is-force-multiplier",
+      "operator": "Silvia Botros",
+      "operator_role": "Senior Principal Engineer, Twilio (formerly SendGrid)",
+      "source_url": "https://leaddev.com/hiring/reality-being-principal-engineer",
+      "source_type": "essay",
+      "source_title": "The reality of being a Principal Engineer",
+      "source_date": "2020-08-10",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "leadership",
+        "engineering",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_glue-work-is-staff-leadership",
+        "ins_staff-archetypes-rotate-by-design",
+        "ins_kill-things-to-build-trust"
+      ],
+      "raw_ref": "raw/essays/silvia-botros--principal-engineer-reality--2020-08.md"
     },
     {
       "path": "insights/ins_product-as-organism.md",
@@ -2361,6 +3211,38 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_relevance-engineering-passage-level.md",
+      "title": "The unit of optimization is the passage, not the page",
+      "id": "ins_relevance-engineering-passage-level",
+      "operator": "Mike King",
+      "operator_role": "Founder & CEO, iPullRank; creator of Relevance Engineering",
+      "source_url": "https://ipullrank.com/how-ai-mode-works",
+      "source_type": "essay",
+      "source_title": "How AI Mode Works (and How SEO Can Prepare)",
+      "source_date": "2026-04-22",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "content",
+        "measurement-experimentation"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_ghost-citation-gap",
+        "ins_death-of-the-ultimate-guide",
+        "ins_aeo-is-gtm-capability"
+      ],
+      "raw_ref": "raw/essays/mike-king--how-ai-mode-works--2026-04-22.md"
+    },
+    {
       "path": "insights/ins_remove-features-as-models-improve.md",
       "title": "When a new model lands, re-read the system prompt and remove crutches",
       "id": "ins_remove-features-as-models-improve",
@@ -2416,6 +3298,36 @@
         "ins_most-generous-interpretation"
       ],
       "raw_ref": "raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_reps-want-questions-not-dashboards.md",
+      "title": "Sellers don't want a better dashboard — they want to ask the deal questions",
+      "id": "ins_reps-want-questions-not-dashboards",
+      "operator": "Yamini Rangan",
+      "operator_role": "CEO, HubSpot",
+      "source_url": "https://blog.hubspot.com/marketing/how-we-grow-with-agent-first-gtm",
+      "source_type": "essay",
+      "source_title": "How we Grow with Agent-first GTM",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "sales",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_agent-first-gtm-flywheel",
+        "ins_nlx-is-the-new-ux"
+      ],
+      "raw_ref": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md"
     },
     {
       "path": "insights/ins_research-preview-trust-cadence.md",
@@ -2475,6 +3387,66 @@
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
     },
     {
+      "path": "insights/ins_sales-team-detects-positioning-failure-first.md",
+      "title": "The sales team detects positioning failure months before the dashboard does",
+      "id": "ins_sales-team-detects-positioning-failure-first",
+      "operator": "April Dunford",
+      "operator_role": "Positioning consultant; author of *Obviously Awesome*",
+      "source_url": "https://www.linkedin.com/in/aprildunford",
+      "source_type": "thread",
+      "source_title": "April Dunford on positioning failure detection",
+      "source_date": "2026-04-25",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "voc-research"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_no-decision-is-the-real-competitor",
+        "ins_setup-follow-through-pitch",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_3s-content-from-sales-success-support"
+      ],
+      "raw_ref": "raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.md"
+    },
+    {
+      "path": "insights/ins_sameness-perception-is-the-differentiation-barrier.md",
+      "title": "Buyers see \"sameness\" — test differentiators with external audiences before any campaign launch",
+      "id": "ins_sameness-perception-is-the-differentiation-barrier",
+      "operator": "Gartner",
+      "operator_role": "Rahim Kaba, Jess Walker, David Yockelson, Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00823537",
+      "source_type": "research",
+      "source_title": "Market Guide for B2B Message Testing Solutions",
+      "source_date": "2025-07-07",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_different-better-and-matters",
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "raw_ref": "raw/research/gartner--market-guide-b2b-message-testing--2026-04.md"
+    },
+    {
       "path": "insights/ins_seasons-not-roadmaps.md",
       "title": "Plan in seasons keyed to secular changes, not 6-month roadmaps",
       "id": "ins_seasons-not-roadmaps",
@@ -2502,6 +3474,65 @@
         "ins_product-as-organism"
       ],
       "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_seller-workflows-begin-with-ai.md",
+      "title": "By 2027, 95% of seller workflows will begin with AI — up from <20% in 2024",
+      "id": "ins_seller-workflows-begin-with-ai",
+      "operator": "Gartner",
+      "operator_role": "Dan Gottlieb, Sandhya Mahadevan et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00835102",
+      "source_type": "research",
+      "source_title": "Cool Vendors in AI for B2B Sales Productivity",
+      "source_date": "2025-10-24",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_systems-of-action-replace-seller-stack",
+        "ins_reps-want-questions-not-dashboards"
+      ],
+      "raw_ref": "raw/research/gartner--cool-vendors-ai-b2b-sales-productivity--2026-04.md"
+    },
+    {
+      "path": "insights/ins_semi-autonomous-is-the-enterprise-baseline.md",
+      "title": "Plan for semi-autonomous agents — fully autonomous is not ready for most enterprise use cases",
+      "id": "ins_semi-autonomous-is-the-enterprise-baseline",
+      "operator": "Gartner",
+      "operator_role": "Rajesh Kandaswamy et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00842058",
+      "source_type": "research",
+      "source_title": "Hype Cycle for Agentic AI 2026",
+      "source_date": "2026-04-02",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_progressive-trust-onboarding"
+      ],
+      "raw_ref": "raw/research/gartner--hype-cycle-agentic-ai-2026--2026-04.md"
     },
     {
       "path": "insights/ins_separate-behavior-from-identity.md",
@@ -2590,6 +3621,36 @@
       "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
     },
     {
+      "path": "insights/ins_specificity-becomes-profitable.md",
+      "title": "AI makes specificity profitable; the Pareto distribution flattens at the long tail",
+      "id": "ins_specificity-becomes-profitable",
+      "operator": "Eric Seufert",
+      "operator_role": "Mobile growth analyst; Mobile Dev Memo founder",
+      "source_url": "https://mobiledevmemo.com/the-prosperous-society-part-3-the-collapse-of-the-pareto-principle/",
+      "source_type": "essay",
+      "source_title": "The Prosperous Society Part 3 — The Collapse of the Pareto Principle",
+      "source_date": "2026-04-24",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "growth",
+        "ai-native",
+        "marketing"
+      ],
+      "lifecycle": [
+        "creative-testing",
+        "segmentation"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_marginal-user-methodology",
+        "ins_outcomes-pricing-restructures-saas"
+      ],
+      "raw_ref": "raw/essays/eric-seufert--pareto-collapse--2026-04-24.md"
+    },
+    {
       "path": "insights/ins_squeezed-pm-thesis.md",
       "title": "Claude Code multiplies engineers 2–3x; PM and design become the bottleneck",
       "id": "ins_squeezed-pm-thesis",
@@ -2621,6 +3682,97 @@
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
     },
     {
+      "path": "insights/ins_staff-archetypes-rotate-by-design.md",
+      "title": "Staff engineering has four archetypes — two of them rotate across teams by design",
+      "id": "ins_staff-archetypes-rotate-by-design",
+      "operator": "Will Larson",
+      "operator_role": "CTO Carta; author \"Staff Engineer\"",
+      "source_url": "https://staffeng.com/guides/staff-archetypes/",
+      "source_type": "book",
+      "source_title": "Staff Engineer — Staff Archetypes",
+      "source_date": "2021-03-01",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "process-cadence",
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_principal-ic-is-force-multiplier",
+        "ins_glue-work-is-staff-leadership"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
+      "path": "insights/ins_start-with-support-fastest-ai-roi.md",
+      "title": "Start your AI-in-GTM build with customer support — fastest path to defensible value",
+      "id": "ins_start-with-support-fastest-ai-roi",
+      "operator": "Yamini Rangan",
+      "operator_role": "CEO, HubSpot",
+      "source_url": "https://blog.hubspot.com/marketing/how-we-grow-with-agent-first-gtm",
+      "source_type": "essay",
+      "source_title": "How we Grow with Agent-first GTM",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "customer-success",
+        "gtm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "retention",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_agent-first-gtm-flywheel",
+        "ins_rebuild-gtm-around-ai"
+      ],
+      "raw_ref": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md"
+    },
+    {
+      "path": "insights/ins_systems-of-action-replace-seller-stack.md",
+      "title": "A \"system of action\" tier is replacing the seller's tab-stack",
+      "id": "ins_systems-of-action-replace-seller-stack",
+      "operator": "Gartner",
+      "operator_role": "Dan Gottlieb et al., Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00826264",
+      "source_type": "research",
+      "source_title": "Increase Sales Productivity With an AI-Powered Seller Action Hub",
+      "source_date": "2025-05-16",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "ai-native",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_seller-workflows-begin-with-ai",
+        "ins_reps-want-questions-not-dashboards"
+      ],
+      "raw_ref": "raw/research/gartner--increase-sales-productivity-seller-action-hub--2026-04.md"
+    },
+    {
       "path": "insights/ins_taste-as-scarce-skill.md",
       "title": "Taste is the scarce skill in an AI-native team",
       "id": "ins_taste-as-scarce-skill",
@@ -2648,6 +3800,97 @@
         "ins_engineers-with-product-taste"
       ],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_tech-stack-renewal-window-play.md",
+      "title": "Combine tech-stack signal with contract-renewal window for ~5x outbound conversion",
+      "id": "ins_tech-stack-renewal-window-play",
+      "operator": "Florin Tatulea",
+      "operator_role": "Sales/RevOps writer; Salesflo",
+      "source_url": "https://salesflo.substack.com/p/130-cheatcode-play-of-the-week-tech-stack-contract-renewal-signals",
+      "source_type": "essay",
+      "source_title": "\"#130 Cheatcode Play of the Week — Tech-Stack + Contract-Renewal Signals\"",
+      "source_date": "2026-04-22",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "growth"
+      ],
+      "lifecycle": [
+        "outbound",
+        "signal-routing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_pov-led-outbound",
+        "ins_3s-content-from-sales-success-support"
+      ],
+      "raw_ref": "raw/essays/florin-tatulea--tech-stack-renewal-window--2026-04-22.md"
+    },
+    {
+      "path": "insights/ins_test-positioning-in-live-sales-pitch.md",
+      "title": "Test positioning in a live sales pitch — marketing stories are unfalsified theory until then",
+      "id": "ins_test-positioning-in-live-sales-pitch",
+      "operator": "April Dunford",
+      "operator_role": "Positioning consultant; author \"Obviously Awesome\" and \"Sales Pitch\"",
+      "source_url": "https://aprildunford.substack.com/p/sales-first-storytelling",
+      "source_type": "essay",
+      "source_title": "Sales-First Storytelling",
+      "source_date": "2024-01-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "sales-enablement",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_setup-follow-through-pitch",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_market-to-product-product-to-market"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
+    },
+    {
+      "path": "insights/ins_three-class-agent-taxonomy.md",
+      "title": "Agents come in three classes — tag each loop or under-resource it",
+      "id": "ins_three-class-agent-taxonomy",
+      "operator": "Hamza Farooq",
+      "operator_role": "AI engineering practitioner; co-author with Jaya Rajwani in Lenny's Newsletter",
+      "source_url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "source_type": "essay",
+      "source_title": "Not All AI Agents Are Created Equal",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "product",
+        "engineering"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_jtbd-as-agent-wiring-diagram"
+      ],
+      "raw_ref": "raw/essays/farooq-rajwani--agent-taxonomy--2026-04-28.md"
     },
     {
       "path": "insights/ins_three-design-hiring-archetypes.md",
@@ -2903,6 +4146,36 @@
       "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
     },
     {
+      "path": "insights/ins_why-change-statements-precede-capability.md",
+      "title": "60% of users get new apps without a \"why it helps\" — fix that before any capability rollout",
+      "id": "ins_why-change-statements-precede-capability",
+      "operator": "Gartner",
+      "operator_role": "Charlie Xu, John Quaglietta, Jennifer MacIntosh, Gartner Research",
+      "source_url": "https://www.gartner.com/en/documents/G00808124",
+      "source_type": "research",
+      "source_title": "3 Pillars to Ramp Up User Adoption and Unlock Customer Value",
+      "source_date": "2024-06-24",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "customer-success"
+      ],
+      "lifecycle": [
+        "onboarding-activation",
+        "retention",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "raw_ref": "raw/research/gartner--3-pillars-ramp-up-user-adoption--2026-04.md"
+    },
+    {
       "path": "insights/ins_willingness-to-pay-by-segment.md",
       "title": "Same service, different segment, 5x price — the variable is buyer economics, not effort",
       "id": "ins_willingness-to-pay-by-segment",
@@ -2929,6 +4202,36 @@
         "ins_fish-where-the-fish-are"
       ],
       "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_zappos-rotation-through-support.md",
+      "title": "Every new hire — including the CFO — does four weeks on the customer phones",
+      "id": "ins_zappos-rotation-through-support",
+      "operator": "Tony Hsieh",
+      "operator_role": "CEO Zappos (1999-2020); author \"Delivering Happiness\"",
+      "source_url": "https://hbr.org/2010/07/how-i-did-it-zapposs-ceo-on-going-to-extremes-for-customers",
+      "source_type": "essay",
+      "source_title": "\"How I Did It: Zappos's CEO on Going to Extremes for Customers\"",
+      "source_date": "2010-07-01",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "leadership",
+        "customer-success",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "onboarding-activation",
+        "retention"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_principal-ic-is-force-multiplier"
+      ],
+      "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     }
   ],
   "operators": [
@@ -3518,6 +4821,24 @@
         "growth"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/bob-moesta/README.md",
+      "title": "Bob Moesta",
+      "name": "Bob Moesta",
+      "slug": "bob-moesta",
+      "roles": [
+        "Founder Re-Wired Group",
+        "JTBD co-creator",
+        "author \"Demand-Side Sales 101\""
+      ],
+      "domains_active": [
+        "pmm",
+        "product",
+        "research-discovery",
+        "sales"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/boris-cherny/README.md",
@@ -4228,6 +5549,24 @@
         "pmm"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/gartner/README.md",
+      "title": "Gartner",
+      "name": "Gartner",
+      "slug": "gartner",
+      "roles": [
+        "Research and advisory firm"
+      ],
+      "domains_active": [
+        "gtm",
+        "ai-native",
+        "sales",
+        "pmm",
+        "leadership"
+      ],
+      "captured_first": "2026-05-02",
+      "note": "\"operator: Gartner — individual analysts attributed in operator_role per card\""
     },
     {
       "path": "operators/georgiana-laudi/README.md",
@@ -5706,6 +7045,21 @@
       "external": ""
     },
     {
+      "path": "operators/silvia-botros/README.md",
+      "title": "Silvia Botros",
+      "name": "Silvia Botros",
+      "slug": "silvia-botros",
+      "roles": [
+        "Senior Principal Engineer Twilio",
+        "ex-Principal Engineer SendGrid"
+      ],
+      "domains_active": [
+        "engineering",
+        "leadership"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/simon-sinek/README.md",
       "title": "Simon Sinek",
       "name": "Simon Sinek",
@@ -5815,6 +7169,22 @@
         "sales-cs"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/tanya-reilly/README.md",
+      "title": "Tanya Reilly",
+      "name": "Tanya Reilly",
+      "slug": "tanya-reilly",
+      "roles": [
+        "Principal Engineer Squarespace",
+        "ex-Google SRE",
+        "ex-Squarespace Principal"
+      ],
+      "domains_active": [
+        "engineering",
+        "leadership"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/tas-bober/README.md",
@@ -5934,6 +7304,23 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/tony-hsieh/README.md",
+      "title": "Tony Hsieh",
+      "name": "Tony Hsieh",
+      "slug": "tony-hsieh",
+      "roles": [
+        "CEO Zappos 1999-2020",
+        "founder LinkExchange",
+        "author Delivering Happiness"
+      ],
+      "domains_active": [
+        "leadership",
+        "customer-success",
+        "founder-craft"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/trish-bertuzzi/README.md",
       "title": "Trish Bertuzzi",
       "name": "Trish Bertuzzi",
@@ -5969,6 +7356,41 @@
       "external": ""
     },
     {
+      "path": "operators/will-larson/README.md",
+      "title": "Will Larson",
+      "name": "Will Larson",
+      "slug": "will-larson",
+      "roles": [
+        "CTO Carta",
+        "ex-CTO Calm",
+        "ex-Stripe",
+        "ex-Uber"
+      ],
+      "domains_active": [
+        "engineering",
+        "leadership"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
+      "path": "operators/yamini-rangan/README.md",
+      "title": "Yamini Rangan",
+      "name": "Yamini Rangan",
+      "slug": "yamini-rangan",
+      "roles": [
+        "CEO HubSpot",
+        "ex-Chief Customer Officer HubSpot",
+        "ex-CCO Dropbox"
+      ],
+      "domains_active": [
+        "gtm",
+        "ai-native",
+        "customer-success",
+        "sales"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/yi-lin-pei/README.md",
       "title": "Yi Lin Pei",
       "name": "Yi Lin Pei",
@@ -5991,6 +7413,188 @@
   ],
   "raw_sources": [
     {
+      "path": "raw/essays/aakash-gupta--claude-design-pm-collapse--2026-04-24.md",
+      "source_type": "essay",
+      "source_title": "Claude Design — The Tool Most PMs Will Be Using in 6 Months",
+      "source_url": "https://www.news.aakashg.com/p/claude-design",
+      "source_date": "2026-04-24",
+      "operators": [
+        "Aakash Gupta"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/aleyda-solis--3-layer-aeo-framework--2026-04-23.md",
+      "source_type": "essay",
+      "source_title": "A 3-Layer Framework to Measure AI Presence, Readiness, and Business Impact — Redefining Metrics for the AI Search Era",
+      "source_url": "https://www.aleydasolis.com/en/ai-search/a-3-layer-framework-to-measure-ai-presence-readiness-and-business-impact-redefining-metrics-for-the-ai-search-era/",
+      "source_date": "2026-04-23",
+      "operators": [
+        "Aleyda Solis"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md",
+      "source_type": "essay",
+      "source_title": "The Death of the Ultimate Guide",
+      "source_url": "https://sparktoro.com/blog/the-death-of-the-ultimate-guide/",
+      "source_date": "2026-04-25",
+      "operators": [
+        "Amanda Natividad"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/andrew-chen--hilbert-data-plumber--2026-04-25.md",
+      "source_type": "essay",
+      "source_title": "Investing in Hilbert",
+      "source_url": "https://a16z.com/announcement/investing-in-hilbert/",
+      "source_date": "2026-04-25",
+      "operators": [
+        "Andrew Chen"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/andy-raskin--story-is-strategy--2026-04.md",
+      "source_type": "essay",
+      "source_title": "April update — story-is-strategy",
+      "source_url": "https://andyraskin.com/",
+      "source_date": "2026-04",
+      "operators": [
+        "Andy Raskin"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/anthony-pierri--7-step-homepage--2026-04.md",
+      "source_type": "essay",
+      "source_title": "The 7-Step Framework for Writing Killer Homepage Messaging",
+      "source_url": "https://www.earlynode.com/newsletters/the-7-step-framework-for-writing-killer-homepage-messaging-with-anthony-pierri",
+      "source_date": "2026-04",
+      "operators": [
+        "Anthony Pierri"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt; via EarlyNode interview"
+    },
+    {
+      "path": "raw/essays/brendan-hufford--3s-strategy--2026-04-25.md",
+      "source_type": "essay",
+      "source_title": "The 3S Strategy",
+      "source_url": "https://growthsprints.co/3s-strategy/",
+      "source_date": "2026-04-25",
+      "operators": [
+        "Brendan Hufford"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md",
+      "source_type": "essay",
+      "source_title": "POV-Led Outbound — How to Triple Your Pipeline Generation with Target Accounts",
+      "source_url": "https://www.pclub.io/blog/pov-led-outbound-how-to-triple-your-pipeline-generation-with-target-accounts",
+      "source_date": "2026-04-21",
+      "operators": [
+        "Chris Orlob"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md",
+      "source_type": "essay",
+      "source_title": "Sales Competency Analytics",
+      "source_url": "https://www.pclub.io/blog/sales-competency-analytics",
+      "source_date": "2026-04-17",
+      "operators": [
+        "Chris Orlob",
+        "Rohit Shah"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md",
+      "source_type": "essay",
+      "source_title": "Your product has a new user. It's not human.",
+      "source_url": "https://www.elenaverna.com/p/your-product-has-a-new-user-its-not",
+      "source_date": "2026-04-26",
+      "operators": [
+        "Elena Verna"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/eric-seufert--pareto-collapse--2026-04-24.md",
+      "source_type": "essay",
+      "source_title": "The Prosperous Society Part 3 — The Collapse of the Pareto Principle",
+      "source_url": "https://mobiledevmemo.com/the-prosperous-society-part-3-the-collapse-of-the-pareto-principle/",
+      "source_date": "2026-04-24",
+      "operators": [
+        "Eric Seufert"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md",
+      "source_type": "essay",
+      "source_title": "Sign of the Future — GPT-5.5",
+      "source_url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "source_date": "2026-04-23",
+      "operators": [
+        "Ethan Mollick"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/farooq-rajwani--agent-taxonomy--2026-04-28.md",
+      "source_type": "essay",
+      "source_title": "Not All AI Agents Are Created Equal",
+      "source_url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "source_date": "2026-04-28",
+      "operators": [
+        "Hamza Farooq",
+        "Jaya Rajwani"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/florin-tatulea--tech-stack-renewal-window--2026-04-22.md",
+      "source_type": "essay",
+      "source_title": "\"#130 Cheatcode Play of the Week: Tech-Stack + Contract-Renewal Signals\"",
+      "source_url": "https://salesflo.substack.com/p/130-cheatcode-play-of-the-week-tech-stack-contract-renewal-signals",
+      "source_date": "2026-04-22",
+      "operators": [
+        "Florin Tatulea"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/glenn-gabe--mt-ai-crumbles--2026-04-22.md",
+      "source_type": "essay",
+      "source_title": "When Mt. AI Crumbles, ChatGPT Follows",
+      "source_url": "https://www.gsqi.com/marketing-blog/when-mt-ai-crumbles-chatgpt-follows/",
+      "source_date": "2026-04-22",
+      "operators": [
+        "Glenn Gabe"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
       "path": "raw/essays/karpathy--llm-wiki--2026-04.md",
       "type": "raw",
       "source": "gist",
@@ -6004,6 +7608,142 @@
         "obsidian",
         "pattern",
         "memex"
+      ]
+    },
+    {
+      "path": "raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md",
+      "source_type": "essay",
+      "source_title": "The Ghost Citation Problem",
+      "source_url": "https://www.growth-memo.com/p/the-ghost-citation-problem",
+      "source_date": "2026-04-26",
+      "operators": [
+        "Kevin Indig"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/lily-ray--ai-slop-loop--2026-04-23.md",
+      "source_type": "essay",
+      "source_title": "The AI Slop Loop",
+      "source_url": "https://lilyraynyc.substack.com/p/the-ai-slop-loop",
+      "source_date": "2026-04-23",
+      "operators": [
+        "Lily Ray"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/maja-voje--aeo-gtm-capability--2026-04-17.md",
+      "source_type": "essay",
+      "source_title": "AEO — How to Make AI Recommend Your Product",
+      "source_url": "https://knowledge.gtmstrategist.com/p/aeo-how-to-make-ai-recommend-your-product",
+      "source_date": "2026-04-17",
+      "operators": [
+        "Maja Voje"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/maja-voje--claude-gtm-pulse--2026-04.md",
+      "source_type": "essay",
+      "source_title": "Claude for GTM Pulse Report 2026",
+      "source_url": "https://knowledge.gtmstrategist.com/p/claude-for-gtm-pulse-report-2026",
+      "source_date": "2026-04",
+      "operators": [
+        "Maja Voje",
+        "Kyle Poyar"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator survey excerpt"
+    },
+    {
+      "path": "raw/essays/mike-king--how-ai-mode-works--2026-04-22.md",
+      "source_type": "essay",
+      "source_title": "How AI Mode Works (and How SEO Can Prepare) / The AI Search Manual",
+      "source_url": "https://ipullrank.com/how-ai-mode-works",
+      "source_date": "2026-04-22",
+      "operators": [
+        "Mike King"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md",
+      "title": "Expert takes on marketer rotation, PMM-as-builder, and Super IC cross-functional fluency",
+      "type": "raw",
+      "domain": "justcall",
+      "last_updated": "2026-05-01",
+      "ingested": "2026-05-01",
+      "ingested_via": "claude-code (web search + recall, k3sava harness)",
+      "attribution": "mixed (per-quote tags below)",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "concepts/ai-native-marketing-org.md",
+        "raw/articles/botros-2020-principal-engineer.md",
+        "projects/flywheel.md"
+      ]
+    },
+    {
+      "path": "raw/essays/pawel-huryn--claude-code-as-config--2026-04-27.md",
+      "source_type": "essay",
+      "source_title": "Product Compass — Claude Code as PM infrastructure (April 2026 sequence)",
+      "source_url": "https://www.productcompass.pm/archive",
+      "source_date": "2026-04-27",
+      "operators": [
+        "Pawel Huryn"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/silvia-botros--principal-engineer-reality--2020-08.md",
+      "title": "The reality of being a Principal Engineer",
+      "type": "raw",
+      "source_url": "https://leaddev.com/hiring/reality-being-principal-engineer",
+      "author": "Silvia Botros",
+      "publication": "LeadDev.com",
+      "published": "2020-08-10",
+      "ingested": "2026-04-28",
+      "ingested_via": "claude-code (full text from Slack-shared link by Bharat Goyal in JustCall #engineering)",
+      "domain": "justcall|personal",
+      "attribution": "verified",
+      "related": [
+        "concepts/principal-marketer-flywheel.md",
+        "projects/flywheel.md",
+        "people/bharat-goyal.md"
+      ]
+    },
+    {
+      "path": "raw/essays/tomasz-tunguz--commoditize-the-complement--2026-04-24.md",
+      "source_type": "essay",
+      "source_title": "Competitive Strategy in the Age of AI",
+      "source_url": "https://tomtunguz.com/competitive-strategy-in-ai/",
+      "source_date": "2026-04-24",
+      "operators": [
+        "Tomasz Tunguz"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md",
+      "title": "How we Grow with Agent-first GTM",
+      "type": "raw",
+      "source": "https://blog.hubspot.com/marketing/how-we-grow-with-agent-first-gtm",
+      "author": "Yamini Rangan (HubSpot)",
+      "published": "2026-04-28",
+      "ingested": "2026-05-01",
+      "attribution": "direct",
+      "domain": "pmm",
+      "related": [
+        "concepts/agent-first-gtm-hubspot.md",
+        "concepts/ai-native-marketing-org.md",
+        "concepts/principal-marketer-flywheel.md",
+        "projects/justcall-portfolio.md"
       ]
     },
     {
@@ -6601,6 +8341,235 @@
       ],
       "transcript_file": "lenny-dropbox/Simon Willison.txt",
       "relevance_to_flywheel": "HIGH. Simon names the November 2025 inflection point (GPT 5.1 + Opus 4.5 crossed \"almost always works\" threshold) and provides the cleanest articulation of the agentic engineering pattern stack — dark factory testing, hoarding patterns, Red/Green TDD, template starts. Also: explicit prediction that the bottleneck has migrated from coding to everywhere else, and the \"Challenger disaster\" warning on responsible deployment."
+    },
+    {
+      "path": "raw/research/gartner--3-pillars-ramp-up-user-adoption--2026-04.md",
+      "title": "3 Pillars to Ramp Up User Adoption and Unlock Customer Value",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00808124",
+      "published": "2024-06-24",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/3-pillars-ramp-up-user-adoption.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Adoption playbook frames the JustCall onboarding-friction-trough work — \"why\" change statements + value-critical actions + real-time training map cleanly to in-app activation flows the flywheel can support.",
+      "relevance_tags": [
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--cool-vendors-ai-b2b-sales-productivity--2026-04.md",
+      "title": "Cool Vendors in AI for B2B Sales Productivity",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00835102",
+      "published": "2025-10-24",
+      "authors": "Dan Gottlieb, Sandhya Mahadevan + 2 more",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (raw text in assets dir; synthesis written 2026-04-28)",
+      "raw_path": "~/r2d2/wiki/raw/assets/gartner/Cool Vendors in AI for B2B Sales Productivity.md",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Three productivity levers map to flywheel's stage 3 (synthetic-buyer pre-flight as machine-seller analog) + stage 5 (sales-rep workflow integration). Gartner's \"machine seller\" framing is direct precedent for buyer-side synthetic-audience design.",
+      "relevance_tags": [
+        "synthetic-audience-substrate",
+        "sales-enablement",
+        "ai-native-team-substrate",
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--ensure-ai-sdr-cold-calling-compliance--2026-04.md",
+      "title": "Ensure AI SDR Cold-Calling Compliance Across Global Markets",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00801146",
+      "published": "2025-08-13",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/ensure-ai-sdr-cold-calling-compliance.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Strong substrate for JustCall sales-enablement + AI-SDR product narrative + compliance positioning (10DLC parallel). Flags that regulation, not capability, is the next bottleneck.",
+      "relevance_tags": [
+        "gtm-best-practice",
+        "competitive-positioning"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--hype-cycle-agentic-ai-2026--2026-04.md",
+      "title": "Hype Cycle for Agentic AI",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00842058",
+      "published": "2026-04-02",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/hype-cycle-agentic-ai-2026.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Directly informs the AI-native positioning + flywheel pitch. The \"agent-washing\" frame is a defensive mirror for honest claims; the five innovation-area taxonomy is a vocabulary for substrate descriptions. Adoption stat (17% deployed, 42% next-12mo) is citable for \"why now\".",
+      "relevance_tags": [
+        "ai-native-substrate",
+        "competitive-positioning"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--increase-sales-productivity-seller-action-hub--2026-04.md",
+      "title": "Increase Sales Productivity With an AI-Powered Seller Action Hub",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00826264",
+      "published": "2025-05-16",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/increase-sales-productivity-seller-action-hub.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "\"Systems of action\" frame is highly relevant to JustCall's sales-engagement positioning + AI Coach narrative. The seller-stack overload problem is what JustCall solves at the calling layer.",
+      "relevance_tags": [
+        "competitive-positioning",
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--innovate-business-models-using-ai-agents--2026-04.md",
+      "title": "Innovate Business Models Using AI Agents",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00824001",
+      "published": "2025-01-16",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/innovate-business-models-using-ai-agents.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "The 33%-by-2028 enterprise-software-with-agents prediction + 20%-machine-customer-storefront-interaction stat are citable forward-curve numbers for the flywheel pitch.",
+      "relevance_tags": [
+        "ai-native-substrate"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--innovation-insight-rethinking-battle-cards-ai--2026-04.md",
+      "title": "\"Innovation Insight: Rethinking Battle Cards in the Age of AI\"",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00832921",
+      "published": "2025-06-19",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/innovation-insight-rethinking-battle-cards-ai.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct input to Reshma's competitive battlecard work + the \"static-doc-to-dynamic-tool\" thesis the flywheel embodies. Three AI-driven approaches map cleanly to commons + AI Coach surfaces.",
+      "relevance_tags": [
+        "competitive-positioning",
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--llms-are-the-new-os--2026-04.md",
+      "title": "\"LLMs Are the New OS. AI Agents Are the New Apps. And SaaS Just Got Demoted to Infrastructure\"",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00828648",
+      "published": "2026-02-27",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/llms-are-the-new-os.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Single sharpest framing in the batch for the AI-native pitch. \"LLM = OS, agents = apps, MCP registries = app stores, SaaS = backend infra\" is the forecasted endgame the flywheel positions JustCall against.",
+      "relevance_tags": [
+        "ai-native-substrate",
+        "competitive-positioning"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--market-guide-b2b-message-testing--2026-04.md",
+      "title": "Market Guide for B2B Message Testing Solutions",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00823537",
+      "published": "2025-07-07",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/market-guide-b2b-message-testing.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct fit for the synthetic-audience-substrate vision. Validates the category — buyers want to test messaging before activation. The flywheel can be framed as the in-house version of these solutions.",
+      "relevance_tags": [
+        "synthetic-audience-substrate",
+        "competitive-positioning",
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--market-guide-win-loss-analysis-solutions-2025--2026-04.md",
+      "title": "Market Guide for Win/Loss Analysis Solutions",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00808237",
+      "published": "2025-04-30",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/market-guide-win-loss-analysis-solutions-2025.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "High-priority synthetic-audience input. 65% of CMOs/PMMs using or planning W/L solutions (+16% in 2 years) signals category maturity. Flywheel can absorb this function via substrate + commons.",
+      "relevance_tags": [
+        "synthetic-audience-substrate",
+        "competitive-positioning"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--tech-ceos-maximize-b2b-sales-marketing-automation--2026-04.md",
+      "title": "\"Tech CEOs: Maximize B2B Sales With Marketing Automation\"",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00785095",
+      "published": "2024-10-10",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/tech-ceos-maximize-b2b-sales-marketing-automation.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Validates \"data strategy precedes tool strategy\" — same thesis as the flywheel. Lead-workflow-as-heart frame matches Demand Gen partnership memo.",
+      "relevance_tags": [
+        "gtm-best-practice"
+      ]
+    },
+    {
+      "path": "raw/research/gartner--top-trend-2026-voice-ai-cx--2026-04.md",
+      "title": "\"Top Trend in 2026: Voice AI Enhances CX With New Use Cases\"",
+      "type": "raw",
+      "source": "Gartner",
+      "doc_id": "G00831997",
+      "published": "2025-08-13",
+      "captured": "2026-04-28",
+      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
+      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/top-trend-2026-voice-ai-cx.pdf",
+      "domain": "justcall",
+      "attribution": "verified",
+      "relevance_to_flywheel": "Direct relevance to JustCall AI Voice Agent + IVR replacement positioning. The 75%-by-2028 multimodal-CAI prediction is a citable forward number.",
+      "relevance_tags": [
+        "ai-native-substrate",
+        "competitive-positioning"
+      ]
+    },
+    {
+      "path": "raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.md",
+      "source_type": "thread",
+      "source_title": "April Dunford on positioning failure detection",
+      "source_url": "https://www.linkedin.com/in/aprildunford",
+      "source_date": "2026-04-25",
+      "operators": [
+        "April Dunford"
+      ],
+      "captured_date": "2026-05-01",
+      "license_note": "fair use — operator quote excerpt; digest cites LinkedIn thread without permanent post URL"
     },
     {
       "path": "raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md",
