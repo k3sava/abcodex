@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // build-index.mjs — Generate INDEX.md and INDEX.json from insight card frontmatter.
-// Walks insights/ + operators/ + raw/ and emits a machine-readable index for the UI agent.
+// Walks insights/ + operators/ + raw/ + synthesis/{patterns,contradictions} + playbooks/
+// and emits a machine-readable index for the UI agent.
 
 import { readdir, readFile, writeFile, stat } from "node:fs/promises";
 import { join, relative } from "node:path";
@@ -61,6 +62,9 @@ async function main() {
   const insightFiles = await walk(join(ROOT, "insights"));
   const operatorFiles = (await walk(join(ROOT, "operators"))).filter(f => f.endsWith("README.md"));
   const rawFiles = await walk(join(ROOT, "raw"));
+  const patternFiles = await walk(join(ROOT, "synthesis", "patterns"));
+  const contradictionFiles = await walk(join(ROOT, "synthesis", "contradictions"));
+  const playbookFiles = (await walk(join(ROOT, "playbooks"))).filter(f => !f.endsWith("README.md"));
 
   const insights = [];
   for (const f of insightFiles) {
@@ -97,16 +101,59 @@ async function main() {
     });
   }
 
+  const patterns = [];
+  for (const f of patternFiles) {
+    if (f.endsWith("README.md")) continue;
+    const text = await readFile(f, "utf8");
+    const parsed = parseFrontmatter(text);
+    if (!parsed) continue;
+    patterns.push({
+      path: relative(ROOT, f),
+      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
+      ...parsed.fm,
+    });
+  }
+
+  const contradictions = [];
+  for (const f of contradictionFiles) {
+    if (f.endsWith("README.md")) continue;
+    const text = await readFile(f, "utf8");
+    const parsed = parseFrontmatter(text);
+    if (!parsed) continue;
+    contradictions.push({
+      path: relative(ROOT, f),
+      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
+      ...parsed.fm,
+    });
+  }
+
+  const playbooks = [];
+  for (const f of playbookFiles) {
+    const text = await readFile(f, "utf8");
+    const parsed = parseFrontmatter(text);
+    playbooks.push({
+      path: relative(ROOT, f),
+      title: firstHeading(parsed?.body ?? text) ?? f,
+      ...(parsed?.fm ?? {}),
+    });
+  }
+
   const json = {
     generated_at: new Date().toISOString(),
     counts: {
       insights: insights.length,
       operators: operators.length,
       raw_sources: raw.length,
+      patterns: patterns.length,
+      contradictions: contradictions.length,
+      playbooks: playbooks.length,
     },
     insights,
     operators,
     raw_sources: raw,
+    patterns,
+    contradictions,
+    playbooks,
   };
 
   await writeFile(join(ROOT, "INDEX.json"), JSON.stringify(json, null, 2));
@@ -121,6 +168,9 @@ async function main() {
   lines.push(`- ${insights.length} insight cards`);
   lines.push(`- ${operators.length} operator profiles`);
   lines.push(`- ${raw.length} raw source files`);
+  lines.push(`- ${patterns.length} synthesis patterns`);
+  lines.push(`- ${contradictions.length} contradictions`);
+  lines.push(`- ${playbooks.length} playbooks`);
   lines.push("");
 
   // Insights by tier
@@ -156,9 +206,38 @@ async function main() {
   }
   lines.push("");
 
+  // Synthesis patterns
+  if (patterns.length > 0) {
+    lines.push("## Synthesis patterns");
+    for (const p of patterns.sort((a, b) => (a.id ?? "").localeCompare(b.id ?? ""))) {
+      const tier = p.tier ? ` [Tier ${p.tier}]` : "";
+      const conv = p.convergence_count ? ` (${p.convergence_count} ops)` : "";
+      lines.push(`- [\`${p.id ?? p.title}\`](${p.path}) — ${p.title}${conv}${tier}`);
+    }
+    lines.push("");
+  }
+
+  // Contradictions
+  if (contradictions.length > 0) {
+    lines.push("## Contradictions");
+    for (const c of contradictions.sort((a, b) => (a.id ?? "").localeCompare(b.id ?? ""))) {
+      lines.push(`- [\`${c.id ?? c.title}\`](${c.path}) — ${c.title}`);
+    }
+    lines.push("");
+  }
+
+  // Playbooks
+  if (playbooks.length > 0) {
+    lines.push("## Playbooks");
+    for (const p of playbooks.sort((a, b) => (a.path).localeCompare(b.path))) {
+      lines.push(`- [${p.title}](${p.path})`);
+    }
+    lines.push("");
+  }
+
   await writeFile(join(ROOT, "INDEX.md"), lines.join("\n"));
 
-  console.log(`Built INDEX.md and INDEX.json — ${insights.length} insights, ${operators.length} operators, ${raw.length} raw.`);
+  console.log(`Built INDEX.md and INDEX.json — ${insights.length} insights, ${operators.length} operators, ${raw.length} raw, ${patterns.length} patterns, ${contradictions.length} contradictions, ${playbooks.length} playbooks.`);
 }
 
 main().catch(e => {

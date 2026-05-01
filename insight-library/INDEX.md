@@ -6,6 +6,9 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - 150 insight cards
 - 190 operator profiles
 - 78 raw source files
+- 24 synthesis patterns
+- 9 contradictions
+- 23 playbooks
 
 ## Insights by tier
 
@@ -361,3 +364,65 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - **essay**: 22
 - **thread**: 1
 - **unknown**: 55
+
+## Synthesis patterns
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle — presence, relevance, manual-action propagation (6 ops) [Tier A]
+- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (4 ops) [Tier A]
+- [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users — design for output, not navigation (3 ops) [Tier A]
+- [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
+- [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
+- [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (4 ops) [Tier A]
+- [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing — refuse the playbook ask (4 ops) [Tier A]
+- [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks — different, better, matters (3 ops) [Tier B]
+- [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
+- [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test — outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
+- [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis — single judge, binary rubrics, error analysis first (3 ops) [Tier A]
+- [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (5 ops) [Tier A]
+- [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
+- [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
+- [`pat_make-implicit-explicit`](synthesis/patterns/make-implicit-explicit.md) — Make the implicit explicit (5 ops) [Tier A]
+- [`pat_measurement-correlated-short-signals`](synthesis/patterns/measurement-correlated-short-signals.md) — Measure with absolute counts and correlated short signals, not stage rates and long loops (3 ops) [Tier A]
+- [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy — name the shift, run the audit (4 ops) [Tier A]
+- [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior — parenting frames as leadership ops (3 ops) [Tier B]
+- [`pat_principal-ic-as-force-multiplier`](synthesis/patterns/principal-ic-as-force-multiplier.md) — Principal/staff IC as force-multiplier archetype (4 ops) [Tier A]
+- [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
+- [`pat_research-preview-cadence`](synthesis/patterns/research-preview-and-cadence.md) — Research preview, frontier programs, seasons not roadmaps (3 ops) [Tier B]
+- [`pat_specificity-becomes-profitable`](synthesis/patterns/specificity-becomes-profitable.md) — Specificity becomes profitable — long tail, niche, segment-aware pricing (3 ops) [Tier B]
+- [`pat_status-quo-is-the-competitor`](synthesis/patterns/status-quo-is-the-competitor.md) — Status quo / no-decision is the real competitor (4 ops) [Tier A]
+- [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
+
+## Contradictions
+- [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools
+- [`con_build-quietly-vs-distribution-first`](synthesis/contradictions/build-quietly-vs-distribution-first.md) — Build quietly vs. distribution-as-moat
+- [`con_criticize-in-public-vs-private`](synthesis/contradictions/criticize-in-public-vs-praise-public-criticize-private.md) — Criticize in public vs. praise-public-criticize-private
+- [`con_no-decision-vs-named-competitor`](synthesis/contradictions/no-decision-vs-named-competitor.md) — No-decision-as-competitor vs. battle-card-driven competitive workflows
+- [`con_pm-prototype-vs-pm-up-level`](synthesis/contradictions/pm-prototype-vs-pm-up-level.md) — PM should prototype vs. PM should up-level
+- [`con_post-training-moat-vs-distribution-moat`](synthesis/contradictions/post-training-moat-vs-distribution-moat.md) — Post-training data as moat vs. distribution/ecosystem as moat
+- [`con_quality-vs-marginal-user-friction`](synthesis/contradictions/quality-as-growth-vs-marginal-user-friction-removal.md) — Quality/friction-as-feature vs. marginal-user friction removal
+- [`con_short-feedback-vs-long-term-holdouts`](synthesis/contradictions/short-feedback-vs-long-term-holdouts.md) — No-such-thing-as-long-feedback-loop vs. one-year holdouts evaporate
+- [`con_specialist-vs-generalist`](synthesis/contradictions/specialist-vs-generalist-hiring.md) — Hire generalists vs. hire spiky specialists vs. three-archetype mix
+
+## Playbooks
+- [AEO relevance engineering — passages, schema, mirrors, scorecard](playbooks/aeo/aeo-relevance-engineering.md)
+- [pSEO — programmatic pages without helpful-content nuking](playbooks/aeo/pseo-framework.md)
+- [Claim verify — substrate-fidelity truth gate](playbooks/ai-native-gtm/claim-verify-gate.md)
+- [LLM wiki — persistent knowledge substrate for AI agents](playbooks/ai-native-gtm/llm-wiki.md)
+- [Synthetic audience test — pre-flight buyer panel](playbooks/ai-native-gtm/synthetic-audience-test.md)
+- [Competitive analysis — landscape, profiles, battlecards](playbooks/competitive/competitive-analysis.md)
+- [Win/loss framework — closing the deal-to-positioning loop](playbooks/competitive/win-loss-framework.md)
+- [Copywriting mastery — direct response to modern conversion](playbooks/copywriting/copywriting-mastery.md)
+- [Humanizer — strip AI-writing tells from any draft](playbooks/copywriting/humanizer.md)
+- [Landing-page CRO — 7-section rubric](playbooks/copywriting/lp-cro-rubric.md)
+- [Writing craft — universal sentence-level principles](playbooks/copywriting/writing-craft.md)
+- [Design principles for marketing assets](playbooks/design/design-principles.md)
+- [Design thinking for content — page architecture, psychology, prototyping](playbooks/design/design-thinking-for-content.md)
+- [Help documentation — taxonomy, architecture, production](playbooks/design/help-documentation.md)
+- [ICP definition — firmographics, triggers, macro trends](playbooks/jtbd/icp-definition.md)
+- [Campaign strategy — channels, calendar, webinars, nurture](playbooks/launch/campaign-strategy.md)
+- [Launch plan — tiered GTM execution](playbooks/launch/launch-plan.md)
+- [PMM measurement framework](playbooks/measurement/measurement-framework.md)
+- [Messaging matrix and homepage rollout](playbooks/messaging/messaging-matrix.md)
+- [PMM coaching — iterative document review with feedback retention](playbooks/messaging/pmm-coaching-framework.md)
+- [Narrative compose — master story, message house, pillar copy](playbooks/narrative/narrative-compose.md)
+- [Positioning Document — full pipeline](playbooks/positioning/positioning-document.md)
+- [Sales enablement — battlecards, ROI, decks, training](playbooks/sales-enablement/sales-enablement.md)

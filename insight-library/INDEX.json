@@ -1,9 +1,12 @@
 {
-  "generated_at": "2026-05-01T19:03:26.425Z",
+  "generated_at": "2026-05-01T19:22:01.168Z",
   "counts": {
     "insights": 150,
     "operators": 190,
-    "raw_sources": 78
+    "raw_sources": 78,
+    "patterns": 24,
+    "contradictions": 9,
+    "playbooks": 23
   },
   "insights": [
     {
@@ -8880,6 +8883,1120 @@
         "concepts/principal-marketer-flywheel.md",
         "concepts/ai-native-marketing-org.md",
         "raw/articles/agent-first-gtm-hubspot-2026-04-28.md"
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "path": "synthesis/patterns/aeo-triangle.md",
+      "title": "The AEO triangle — presence, relevance, manual-action propagation",
+      "id": "pat_aeo-triangle",
+      "captured_date": "2026-05-01",
+      "convergence_count": "6",
+      "tier": "A",
+      "uses_cards": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_ghost-citation-gap",
+        "ins_relevance-engineering-passage-level",
+        "ins_aeo-is-gtm-capability",
+        "ins_death-of-the-ultimate-guide",
+        "ins_manual-action-propagates-to-ai-surfaces",
+        "ins_ai-slop-loop"
+      ],
+      "domains": [
+        "pmm",
+        "growth",
+        "gtm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/agent-first-gtm.md",
+      "title": "Agent-first GTM (rebuild, don't bolt-on)",
+      "id": "pat_agent-first-gtm",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_rebuild-gtm-around-ai",
+        "ins_agent-first-gtm-flywheel",
+        "ins_agents-as-team-not-tools",
+        "ins_aeo-is-gtm-capability",
+        "ins_seller-workflows-begin-with-ai",
+        "ins_systems-of-action-replace-seller-stack",
+        "ins_reps-want-questions-not-dashboards"
+      ],
+      "domains": [
+        "gtm",
+        "ai-native",
+        "pmm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/agents-as-product-users.md",
+      "title": "Agents are first-class users — design for output, not navigation",
+      "id": "pat_agents-as-product-users",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_agents-are-the-new-product-user",
+        "ins_machine-customers-displace-storefront-interactions",
+        "ins_nlx-is-the-new-ux",
+        "ins_dark-factory-pattern"
+      ],
+      "domains": [
+        "product",
+        "design",
+        "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/agents-mapped-to-jtbd.md",
+      "title": "Agents mapped 1:1 to JTBD with named human checkpoints",
+      "id": "pat_agents-mapped-to-jtbd",
+      "captured_date": "2026-05-01",
+      "convergence_count": "5",
+      "tier": "A",
+      "uses_cards": [
+        "ins_jtbd-as-agent-wiring-diagram",
+        "ins_cash-four-stage-growth-automation",
+        "ins_cccd-continuous-calibration",
+        "ins_agent-first-gtm-flywheel",
+        "ins_rebuild-gtm-around-ai",
+        "ins_progressive-trust-onboarding",
+        "ins_three-class-agent-taxonomy"
+      ],
+      "domains": [
+        "ai-native",
+        "gtm",
+        "product"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/build-for-next-model.md",
+      "title": "Build for the next model, not the current one",
+      "id": "pat_build-for-next-model",
+      "captured_date": "2026-05-01",
+      "convergence_count": "6",
+      "tier": "A",
+      "uses_cards": [
+        "ins_build-for-next-model-not-current",
+        "ins_build-for-model-six-months-out",
+        "ins_build-products-that-dont-yet-work",
+        "ins_remove-features-as-models-improve",
+        "ins_rebaseline-quarterly-not-pin-to-snapshot",
+        "ins_dont-box-the-model-in",
+        "ins_use-new-tools-as-new-tools"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering",
+        "product"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/context-not-capability.md",
+      "title": "Context, not capability, is the bottleneck",
+      "id": "pat_context-not-capability",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_bottleneck-is-context-not-capability",
+        "ins_llm-wiki-pattern",
+        "ins_personal-pattern-hoarding",
+        "ins_red-green-tdd-shorthand-for-agents",
+        "ins_dotclaude-as-deployable-artifact",
+        "ins_remove-features-as-models-improve"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/diagnose-before-execute.md",
+      "title": "Diagnose before executing — refuse the playbook ask",
+      "id": "pat_diagnose-before-execute",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_date-diagnostic-framework",
+        "ins_understand-then-identify-then-execute",
+        "ins_influence-is-discovery-not-conviction",
+        "ins_three-divergent-pr-faqs",
+        "ins_going-deep-to-bedrock"
+      ],
+      "domains": [
+        "pmm",
+        "product",
+        "founder-operator"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/differentiation-vs-sameness.md",
+      "title": "Differentiation requires three checks — different, better, matters",
+      "id": "pat_differentiation-vs-sameness",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_different-better-and-matters",
+        "ins_sameness-perception-is-the-differentiation-barrier",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_use-case-epiphany-as-marketing-job"
+      ],
+      "domains": [
+        "pmm",
+        "gtm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/distribution-as-moat.md",
+      "title": "Distribution and earned channels are the new moat",
+      "id": "pat_distribution-as-moat",
+      "captured_date": "2026-05-01",
+      "convergence_count": "5",
+      "tier": "A",
+      "uses_cards": [
+        "ins_distribution-platform-cycles",
+        "ins_earned-channels-over-algorithm-channels",
+        "ins_software-is-not-a-moat",
+        "ins_hire-spiky-not-un-weakness",
+        "ins_lock-s-ceo-evaluation-rubric",
+        "ins_3s-content-from-sales-success-support",
+        "ins_no-rebrands-for-growth"
+      ],
+      "domains": [
+        "growth",
+        "gtm",
+        "pmm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/economic-turing-test-rev-per-employee.md",
+      "title": "The Economic Turing Test — outcomes pricing, agent labor, revenue per employee",
+      "id": "pat_economic-turing-test-rev-per-employee",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_economic-turing-test-for-ai",
+        "ins_outcomes-pricing-restructures-saas",
+        "ins_underfund-deliberately",
+        "ins_top-performers-benefit-disproportionately"
+      ],
+      "domains": [
+        "ai-native",
+        "gtm",
+        "leadership"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/eval-as-data-analysis.md",
+      "title": "Evals are data analysis — single judge, binary rubrics, error analysis first",
+      "id": "pat_eval-as-data-analysis",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_benevolent-dictator-not-committee",
+        "ins_llm-as-judge-binary-not-likert",
+        "ins_open-coding-then-axial-coding",
+        "ins_100-percent-automation-rule",
+        "ins_transparency-in-uncertainty"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering",
+        "research"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/frontline-as-pmm-substrate.md",
+      "title": "Frontline customer contact is the PMM substrate",
+      "id": "pat_frontline-as-pmm-substrate",
+      "captured_date": "2026-05-01",
+      "convergence_count": "5",
+      "tier": "A",
+      "uses_cards": [
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_market-to-product-product-to-market",
+        "ins_pricing-needs-weekly-customer-calls",
+        "ins_3s-content-from-sales-success-support",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_zappos-rotation-through-support",
+        "ins_pov-led-outbound"
+      ],
+      "domains": [
+        "pmm",
+        "sales-cs",
+        "research"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/generalists-with-taste.md",
+      "title": "Generalists with taste, shipping end-to-end",
+      "id": "pat_generalists-with-taste",
+      "captured_date": "2026-05-01",
+      "convergence_count": "5",
+      "tier": "A",
+      "uses_cards": [
+        "ins_engineers-with-product-taste",
+        "ins_generalists-over-specialists-ai-native",
+        "ins_three-design-hiring-archetypes",
+        "ins_design-pie-chart-shifted",
+        "ins_pm-prototype-or-be-bypassed",
+        "ins_squeezed-pm-thesis",
+        "ins_taste-as-scarce-skill",
+        "ins_comb-shape-pmm"
+      ],
+      "domains": [
+        "hiring-team-design",
+        "ai-native",
+        "design",
+        "product"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/llm-as-os.md",
+      "title": "LLM-as-OS, post-training as moat",
+      "id": "pat_llm-as-os",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_llms-are-new-os-agents-are-apps",
+        "ins_post-training-as-the-moat",
+        "ins_software-is-not-a-moat",
+        "ins_intelligence-into-things-that-already-exist",
+        "ins_commoditize-the-complement-ai",
+        "ins_capability-overhang-product-problem"
+      ],
+      "domains": [
+        "ai-native",
+        "product",
+        "strategy-bets"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/make-implicit-explicit.md",
+      "title": "Make the implicit explicit",
+      "id": "pat_make-implicit-explicit",
+      "captured_date": "2026-05-01",
+      "convergence_count": "5",
+      "tier": "A",
+      "uses_cards": [
+        "ins_make-the-implicit-explicit",
+        "ins_make-intuition-explicit",
+        "ins_label-confidence-explicitly",
+        "ins_kill-criteria-make-pre-mortems-real",
+        "ins_company-house-foundation-beams-mechanicals",
+        "ins_transparency-in-uncertainty"
+      ],
+      "domains": [
+        "leadership",
+        "founder-operator",
+        "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/measurement-correlated-short-signals.md",
+      "title": "Measure with absolute counts and correlated short signals, not stage rates and long loops",
+      "id": "pat_measurement-correlated-short-signals",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_absolute-counts-over-conversion-rates",
+        "ins_long-term-holdouts-30-40-evaporate",
+        "ins_no-such-thing-as-long-feedback-loop",
+        "ins_experimentation-paralysis",
+        "ins_competency-analytics-over-activity-dashboards"
+      ],
+      "domains": [
+        "growth",
+        "attribution-measurement",
+        "product"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/narrative-as-strategy.md",
+      "title": "Company story IS the strategy — name the shift, run the audit",
+      "id": "pat_narrative-as-strategy",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_company-story-is-the-strategy",
+        "ins_old-game-to-new-game-narrative",
+        "ins_name-the-shift-concisely",
+        "ins_obstacles-as-gates-not-problems",
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_setup-follow-through-pitch"
+      ],
+      "domains": [
+        "pmm",
+        "gtm",
+        "founder-operator"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/parenting-meets-leadership.md",
+      "title": "Repair, generous interpretation, identity-vs-behavior — parenting frames as leadership ops",
+      "id": "pat_parenting-meets-leadership",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_repair-as-primary-relationship-strategy",
+        "ins_most-generous-interpretation",
+        "ins_separate-behavior-from-identity",
+        "ins_criticize-in-public",
+        "ins_force-for-positive-momentum"
+      ],
+      "domains": [
+        "leadership",
+        "founder-operator"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/principal-ic-as-force-multiplier.md",
+      "title": "Principal/staff IC as force-multiplier archetype",
+      "id": "pat_principal-ic-as-force-multiplier",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_principal-ic-is-force-multiplier",
+        "ins_staff-archetypes-rotate-by-design",
+        "ins_glue-work-is-staff-leadership",
+        "ins_all-problems-become-people-problems",
+        "ins_engineers-with-product-taste"
+      ],
+      "domains": [
+        "hiring-team-design",
+        "leadership",
+        "engineering"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/quality-as-growth-lever.md",
+      "title": "Quality and friction-as-feature are growth levers, not constraints",
+      "id": "pat_quality-as-growth-lever",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_quality-as-growth-lever",
+        "ins_friction-as-feature",
+        "ins_right-friction-beats-no-friction",
+        "ins_progressive-trust-onboarding",
+        "ins_marginal-user-methodology",
+        "ins_repair-as-primary-relationship-strategy"
+      ],
+      "domains": [
+        "growth",
+        "product",
+        "design"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/research-preview-and-cadence.md",
+      "title": "Research preview, frontier programs, seasons not roadmaps",
+      "id": "pat_research-preview-cadence",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_research-preview-trust-cadence",
+        "ins_frontier-program-tiered-rollout",
+        "ins_seasons-not-roadmaps",
+        "ins_prds-replaced-by-metrics-and-principles"
+      ],
+      "domains": [
+        "product",
+        "launch",
+        "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/specificity-becomes-profitable.md",
+      "title": "Specificity becomes profitable — long tail, niche, segment-aware pricing",
+      "id": "pat_specificity-becomes-profitable",
+      "captured_date": "2026-05-01",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_specificity-becomes-profitable",
+        "ins_willingness-to-pay-by-segment",
+        "ins_fish-where-the-fish-are",
+        "ins_marketplace-liquidity-before-dynamics",
+        "ins_tech-stack-renewal-window-play"
+      ],
+      "domains": [
+        "growth",
+        "gtm",
+        "pmm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/status-quo-is-the-competitor.md",
+      "title": "Status quo / no-decision is the real competitor",
+      "id": "pat_status-quo-is-the-competitor",
+      "captured_date": "2026-05-01",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_no-decision-is-the-real-competitor",
+        "ins_old-game-to-new-game-narrative",
+        "ins_homepage-five-second-trinity",
+        "ins_use-case-epiphany-as-marketing-job",
+        "ins_obstacles-as-gates-not-problems",
+        "ins_setup-follow-through-pitch"
+      ],
+      "domains": [
+        "pmm",
+        "gtm"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/substrate-runs-loop-humans-run-alignment.md",
+      "title": "Substrate runs the loop; humans run alignment and taste",
+      "id": "pat_substrate-runs-loop-humans-run-alignment",
+      "captured_date": "2026-05-01",
+      "convergence_count": "7",
+      "tier": "A",
+      "uses_cards": [
+        "ins_cash-four-stage-growth-automation",
+        "ins_agents-as-team-not-tools",
+        "ins_pmm-as-infrastructure-not-gate",
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_benevolent-dictator-not-committee",
+        "ins_kill-things-to-build-trust",
+        "ins_outcomes-pricing-restructures-saas",
+        "ins_taste-as-scarce-skill",
+        "ins_manager-skill-not-technical",
+        "ins_underfund-deliberately"
+      ],
+      "domains": [
+        "ai-native",
+        "leadership",
+        "pmm"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "path": "synthesis/contradictions/agents-as-team-vs-agents-as-tools.md",
+      "title": "Agents-as-team vs. agents-as-tools",
+      "id": "con_agents-as-team-vs-tools",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/build-quietly-vs-distribution-first.md",
+      "title": "Build quietly vs. distribution-as-moat",
+      "id": "con_build-quietly-vs-distribution-first",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/criticize-in-public-vs-praise-public-criticize-private.md",
+      "title": "Criticize in public vs. praise-public-criticize-private",
+      "id": "con_criticize-in-public-vs-private",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/no-decision-vs-named-competitor.md",
+      "title": "No-decision-as-competitor vs. battle-card-driven competitive workflows",
+      "id": "con_no-decision-vs-named-competitor",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/pm-prototype-vs-pm-up-level.md",
+      "title": "PM should prototype vs. PM should up-level",
+      "id": "con_pm-prototype-vs-pm-up-level",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/post-training-moat-vs-distribution-moat.md",
+      "title": "Post-training data as moat vs. distribution/ecosystem as moat",
+      "id": "con_post-training-moat-vs-distribution-moat",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/quality-as-growth-vs-marginal-user-friction-removal.md",
+      "title": "Quality/friction-as-feature vs. marginal-user friction removal",
+      "id": "con_quality-vs-marginal-user-friction",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/short-feedback-vs-long-term-holdouts.md",
+      "title": "No-such-thing-as-long-feedback-loop vs. one-year holdouts evaporate",
+      "id": "con_short-feedback-vs-long-term-holdouts",
+      "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/specialist-vs-generalist-hiring.md",
+      "title": "Hire generalists vs. hire spiky specialists vs. three-archetype mix",
+      "id": "con_specialist-vs-generalist",
+      "captured_date": "2026-05-01"
+    }
+  ],
+  "playbooks": [
+    {
+      "path": "playbooks/aeo/aeo-relevance-engineering.md",
+      "title": "AEO relevance engineering — passages, schema, mirrors, scorecard",
+      "id": "pb_aeo-relevance-engineering",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "aeo",
+        "seo",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_aeo-is-gtm-capability",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_ai-slop-loop",
+        "ins_ghost-citation-gap"
+      ],
+      "originating_operators": [
+        "aleyda-solis",
+        "lily-ray"
+      ],
+      "secondary_sources": [
+        "flywheel/skills/aeo-relevance-engineering/SKILL.md",
+        "flywheel/skills/schema-delta-aeo/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/aeo/pseo-framework.md",
+      "title": "pSEO — programmatic pages without helpful-content nuking",
+      "id": "pb_pseo-framework",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "seo",
+        "aeo",
+        "content"
+      ],
+      "uses_cards": [
+        "ins_ai-slop-loop",
+        "ins_ghost-citation-gap"
+      ],
+      "originating_operators": [
+        "lily-ray"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/pseo-framework.md",
+        "team-brain/workflows/keyword-research.md",
+        "team-brain/workflows/search-intent-map.md"
+      ]
+    },
+    {
+      "path": "playbooks/ai-native-gtm/claim-verify-gate.md",
+      "title": "Claim verify — substrate-fidelity truth gate",
+      "id": "pb_claim-verify-gate",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native-gtm",
+        "substrate",
+        "anti-fabrication"
+      ],
+      "uses_cards": [
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_llm-as-judge-binary-not-likert"
+      ],
+      "originating_operators": [
+        "hamel-husain"
+      ],
+      "secondary_sources": [
+        "flywheel/skills/claim-verify/SKILL.md",
+        "flywheel/skills/substrate-cite-check/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/ai-native-gtm/llm-wiki.md",
+      "title": "LLM wiki — persistent knowledge substrate for AI agents",
+      "id": "pb_llm-wiki",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native-gtm",
+        "knowledge",
+        "substrate"
+      ],
+      "uses_cards": [
+        "ins_llm-wiki-pattern",
+        "ins_bottleneck-is-context-not-capability",
+        "ins_llms-are-new-os-agents-are-apps"
+      ],
+      "originating_operators": [
+        "andrej-karpathy"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/llm-wiki.md",
+        "team-brain/workflows/self-evolution.md"
+      ]
+    },
+    {
+      "path": "playbooks/ai-native-gtm/synthetic-audience-test.md",
+      "title": "Synthetic audience test — pre-flight buyer panel",
+      "id": "pb_synthetic-audience-test",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "messaging",
+        "ai-native-gtm",
+        "conversion"
+      ],
+      "uses_cards": [
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "originating_operators": [],
+      "secondary_sources": [
+        "flywheel/skills/synthetic-audience-test/SKILL.md",
+        "flywheel/skills/synth-audience/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/competitive/competitive-analysis.md",
+      "title": "Competitive analysis — landscape, profiles, battlecards",
+      "id": "pb_competitive-analysis",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "competitive",
+        "sales-enablement",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_battle-cards-as-workflow-primitive",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_sameness-perception-is-the-differentiation-barrier",
+        "ins_sales-team-detects-positioning-failure-first"
+      ],
+      "originating_operators": [
+        "april-dunford"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/competitive-analysis.md",
+        "flywheel/skills/competitive-displace/SKILL.md",
+        "flywheel/skills/competitive-scout/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/competitive/win-loss-framework.md",
+      "title": "Win/loss framework — closing the deal-to-positioning loop",
+      "id": "pb_win-loss-framework",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "competitive",
+        "sales-enablement",
+        "voc"
+      ],
+      "uses_cards": [
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_sales-team-detects-positioning-failure-first"
+      ],
+      "originating_operators": [
+        "bob-moesta"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/win-loss-framework.md",
+        "team-brain/workflows/call-intelligence.md"
+      ]
+    },
+    {
+      "path": "playbooks/copywriting/copywriting-mastery.md",
+      "title": "Copywriting mastery — direct response to modern conversion",
+      "id": "pb_copywriting-mastery",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "copywriting",
+        "messaging",
+        "conversion"
+      ],
+      "uses_cards": [
+        "ins_homepage-five-second-trinity",
+        "ins_pain-solution-proof-interleaved-pitch"
+      ],
+      "originating_operators": [
+        "eli-schwartz"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/copywriting-mastery.md",
+        "flywheel/skills/copywrite/SKILL.md",
+        "flywheel/skills/voice-enforce/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/copywriting/humanizer.md",
+      "title": "Humanizer — strip AI-writing tells from any draft",
+      "id": "pb_humanizer",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "copywriting",
+        "ai-native-gtm",
+        "voice"
+      ],
+      "uses_cards": [
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_llm-as-judge-binary-not-likert"
+      ],
+      "originating_operators": [],
+      "secondary_sources": [
+        "flywheel/skills/humanizer/SKILL.md",
+        "flywheel/skills/voice-enforce/SKILL.md",
+        "flywheel/skills/voice-enforce-vale/SKILL.md",
+        "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup",
+        "https://github.com/blader/humanizer"
+      ]
+    },
+    {
+      "path": "playbooks/copywriting/lp-cro-rubric.md",
+      "title": "Landing-page CRO — 7-section rubric",
+      "id": "pb_lp-cro-rubric",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "conversion",
+        "copywriting",
+        "landing-page"
+      ],
+      "uses_cards": [
+        "ins_homepage-five-second-trinity",
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_friction-as-feature"
+      ],
+      "originating_operators": [
+        "anthony-pierri"
+      ],
+      "secondary_sources": [
+        "flywheel/skills/lp-cro/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/copywriting/writing-craft.md",
+      "title": "Writing craft — universal sentence-level principles",
+      "id": "pb_writing-craft",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "copywriting",
+        "messaging"
+      ],
+      "uses_cards": [],
+      "originating_operators": [],
+      "secondary_sources": [
+        "team-brain/workflows/copywriting-mastery.md",
+        "flywheel/skills/voice-enforce/SKILL.md",
+        "flywheel/skills/humanizer/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/design/design-principles.md",
+      "title": "Design principles for marketing assets",
+      "id": "pb_design-principles",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design",
+        "conversion"
+      ],
+      "uses_cards": [
+        "ins_design-as-bottleneck",
+        "ins_design-pie-chart-shifted"
+      ],
+      "originating_operators": [
+        "jenny-wen"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/frontend-qa-checklist.md"
+      ]
+    },
+    {
+      "path": "playbooks/design/design-thinking-for-content.md",
+      "title": "Design thinking for content — page architecture, psychology, prototyping",
+      "id": "pb_design-thinking-for-content",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "design",
+        "copywriting",
+        "conversion"
+      ],
+      "uses_cards": [
+        "ins_homepage-five-second-trinity",
+        "ins_friction-as-feature"
+      ],
+      "originating_operators": [
+        "anthony-pierri",
+        "amole-naik"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/design-thinking-for-content.md"
+      ]
+    },
+    {
+      "path": "playbooks/design/help-documentation.md",
+      "title": "Help documentation — taxonomy, architecture, production",
+      "id": "pb_help-documentation",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "help-docs",
+        "design",
+        "post-sale"
+      ],
+      "uses_cards": [],
+      "originating_operators": [],
+      "secondary_sources": []
+    },
+    {
+      "path": "playbooks/jtbd/icp-definition.md",
+      "title": "ICP definition — firmographics, triggers, macro trends",
+      "id": "pb_icp-definition",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "icp",
+        "jtbd",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_marginal-user-methodology",
+        "ins_marketplace-liquidity-before-dynamics"
+      ],
+      "originating_operators": [
+        "bob-moesta"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/icp-definition.md",
+        "team-brain/workflows/vpc-methodology.md",
+        "flywheel/skills/icp-cut/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/launch/campaign-strategy.md",
+      "title": "Campaign strategy — channels, calendar, webinars, nurture",
+      "id": "pb_campaign-strategy",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "campaigns",
+        "gtm",
+        "demand-gen"
+      ],
+      "uses_cards": [
+        "ins_earned-channels-over-algorithm-channels",
+        "ins_distribution-platform-cycles",
+        "ins_add-new-growth-model-every-18-months"
+      ],
+      "originating_operators": [
+        "emily-kramer",
+        "brian-balfour",
+        "elena-verna"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/campaign-gtm.md",
+        "team-brain/workflows/audience-bid-playbook.md",
+        "team-brain/workflows/demand-architecture.md",
+        "team-brain/workflows/content-distribution.md"
+      ]
+    },
+    {
+      "path": "playbooks/launch/launch-plan.md",
+      "title": "Launch plan — tiered GTM execution",
+      "id": "pb_launch-plan",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "launch",
+        "gtm",
+        "pmm"
+      ],
+      "uses_cards": [
+        "ins_company-story-is-the-strategy",
+        "ins_homepage-five-second-trinity",
+        "ins_test-positioning-in-live-sales-pitch"
+      ],
+      "originating_operators": [
+        "yi-lin-pei"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/campaign-gtm.md",
+        "team-brain/workflows/narrative-rollout.md"
+      ]
+    },
+    {
+      "path": "playbooks/measurement/measurement-framework.md",
+      "title": "PMM measurement framework",
+      "id": "pb_measurement-framework",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "measurement",
+        "pmm",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_absolute-counts-over-conversion-rates",
+        "ins_long-term-holdouts-30-40-evaporate",
+        "ins_experimentation-paralysis"
+      ],
+      "originating_operators": [
+        "archie-abrams",
+        "elena-verna"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/cro-experiment.md"
+      ]
+    },
+    {
+      "path": "playbooks/messaging/messaging-matrix.md",
+      "title": "Messaging matrix and homepage rollout",
+      "id": "pb_messaging-matrix",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "messaging",
+        "copywriting",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_homepage-five-second-trinity",
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_setup-follow-through-pitch",
+        "ins_company-story-is-the-strategy",
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_market-to-product-product-to-market"
+      ],
+      "originating_operators": [
+        "anthony-pierri",
+        "yi-lin-pei",
+        "emily-kramer",
+        "april-dunford"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/messaging-matrix.md",
+        "team-brain/workflows/messaging-system-builder.md",
+        "team-brain/workflows/narrative-rollout.md",
+        "flywheel/skills/fletch-homepage-rewrite/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/messaging/pmm-coaching-framework.md",
+      "title": "PMM coaching — iterative document review with feedback retention",
+      "id": "pb_pmm-coaching-framework",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "messaging",
+        "copywriting",
+        "pmm"
+      ],
+      "uses_cards": [
+        "ins_evals-are-data-analysis-on-llm-apps"
+      ],
+      "originating_operators": [],
+      "secondary_sources": [
+        "team-brain/workflows/pmm-coaching-framework.md"
+      ]
+    },
+    {
+      "path": "playbooks/narrative/narrative-compose.md",
+      "title": "Narrative compose — master story, message house, pillar copy",
+      "id": "pb_narrative-compose",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "narrative",
+        "messaging",
+        "positioning"
+      ],
+      "uses_cards": [
+        "ins_old-game-to-new-game-narrative",
+        "ins_company-story-is-the-strategy",
+        "ins_market-to-product-product-to-market"
+      ],
+      "originating_operators": [
+        "andy-raskin",
+        "april-dunford"
+      ],
+      "secondary_sources": [
+        "flywheel/skills/narrative-compose/SKILL.md",
+        "team-brain/workflows/narrative-rollout.md"
+      ]
+    },
+    {
+      "path": "playbooks/positioning/positioning-document.md",
+      "title": "Positioning Document — full pipeline",
+      "id": "pb_positioning-document",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "positioning",
+        "gtm",
+        "pmm"
+      ],
+      "uses_cards": [
+        "ins_company-story-is-the-strategy",
+        "ins_homepage-five-second-trinity",
+        "ins_different-better-and-matters",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_sameness-perception-is-the-differentiation-barrier",
+        "ins_market-to-product-product-to-market"
+      ],
+      "originating_operators": [
+        "april-dunford",
+        "anthony-pierri",
+        "emily-kramer",
+        "yi-lin-pei",
+        "bob-moesta"
+      ],
+      "secondary_sources": [
+        "team-brain/workflows/positioning.md",
+        "team-brain/workflows/vpc-methodology.md",
+        "team-brain/workflows/messaging-system-builder.md",
+        "flywheel/skills/positioning-forge/SKILL.md",
+        "flywheel/skills/dunford-value-frame/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/sales-enablement/sales-enablement.md",
+      "title": "Sales enablement — battlecards, ROI, decks, training",
+      "id": "pb_sales-enablement",
+      "maintained_by": "codex maintainers",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "sales-enablement",
+        "pmm",
+        "gtm"
+      ],
+      "uses_cards": [
+        "ins_battle-cards-as-workflow-primitive",
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_company-story-is-the-strategy"
+      ],
+      "originating_operators": [
+        "april-dunford"
+      ],
+      "secondary_sources": [
+        "flywheel/skills/competitive-displace/SKILL.md"
       ]
     }
   ]
