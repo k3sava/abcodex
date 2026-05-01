@@ -23,9 +23,10 @@ Kevin Indig is the most systematic strategic thinker in SEO, bringing a rigorous
 - **Programmatic Seo**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ghost-citation-gap` — Citation rate and mention rate are different metrics; comparative content closes the gap [Tier A]
 
 ## Sources captured
+- 2026-04-26 — *The Ghost Citation Problem*, Growth Memo (`raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md`)
 - 2026-04 — `how-to-craft-a-winning-seo-strategy-by-kevin-indig.md` (artemis ingest)
 - 2026-04 — `what-is-user-intent-how-to-optimize-for-it-like-a-pro.md` (artemis ingest)
 - 2026-04 — `seo-strategy-archetypes-by-kevin-indig-growth-memo.md` (artemis ingest)

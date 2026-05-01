@@ -23,9 +23,10 @@ Andrew Chen's central thesis is that network effects, not clever marketing, are 
 - **Network Effects Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_data-plumber-is-the-bottleneck` — The data plumber is the highest-leverage early growth hire, ahead of creative or media [Tier B]
 
 ## Sources captured
+- 2026-04-25 — *Investing in Hilbert*, a16z (`raw/essays/andrew-chen--hilbert-data-plumber--2026-04-25.md`)
 - 2026-04 — `whats-your-viral-loop-understanding-the-engine-of-adoption-at-andrewchen.md` (artemis ingest)
 - 2026-04 — `why-the-best-way-to-drive-viral-growth-to-increase-retention-and-engagement-at-a.md` (artemis ingest)
 - 2026-04 — `what-to-do-when-product-growth-stalls-at-andrewchen.md` (artemis ingest)

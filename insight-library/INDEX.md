@@ -3,8 +3,8 @@
 _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 146 insight cards
-- 179 operator profiles
+- 150 insight cards
+- 190 operator profiles
 - 78 raw source files
 
 ## Insights by tier
@@ -87,7 +87,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools — be ambitious and retry from scratch _(Benjamin Mann)_
 - [`ins_zappos-rotation-through-support`](insights/ins_zappos-rotation-through-support.md) — Every new hire — including the CFO — does four weeks on the customer phones _(Tony Hsieh)_
 
-### Tier B (69)
+### Tier B (73)
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_3s-content-from-sales-success-support`](insights/ins_3s-content-from-sales-success-support.md) — Source content briefs from Sales, Success, and Support — not keyword tools _(Brendan Hufford)_
 - [`ins_aeo-is-gtm-capability`](insights/ins_aeo-is-gtm-capability.md) — AEO is a GTM capability, not an SEO experiment _(Maja Voje)_
@@ -101,8 +101,11 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly — caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_capability-overhang-product-problem`](insights/ins_capability-overhang-product-problem.md) — In AI products, capability overhang is the central growth problem _(Amole Naik)_
 - [`ins_capital-vs-lowercase-marketing`](insights/ins_capital-vs-lowercase-marketing.md) — Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion) _(Krithika Shankarraman)_
+- [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
 - [`ins_commoditize-the-complement-ai`](insights/ins_commoditize-the-complement-ai.md) — AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly _(Tomasz Tunguz)_
+- [`ins_company-story-is-the-strategy`](insights/ins_company-story-is-the-strategy.md) — Run a monthly narrative-drift audit across decks, homepage, and release notes _(Andy Raskin)_
+- [`ins_competency-analytics-over-activity-dashboards`](insights/ins_competency-analytics-over-activity-dashboards.md) — Coach reps on skill-friction, not call counts _(Chris Orlob)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public — not "praise public, criticize private" _(Jeetu Patel)_
 - [`ins_data-plumber-is-the-bottleneck`](insights/ins_data-plumber-is-the-bottleneck.md) — The data plumber is the highest-leverage early growth hire, ahead of creative or media _(Andrew Chen)_
 - [`ins_death-of-the-ultimate-guide`](insights/ins_death-of-the-ultimate-guide.md) — Sharper POV beats exhaustive coverage when an LLM is the summarizer _(Amanda Natividad)_
@@ -137,6 +140,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_pricing-needs-weekly-customer-calls`](insights/ins_pricing-needs-weekly-customer-calls.md) — Without weekly customer calls, you don't have a pricing strategy — you have a guess _(Patrick Campbell)_
 - [`ins_product-as-organism`](insights/ins_product-as-organism.md) — Treat the product as a living organism with a metabolism, not a shipped artifact _(Asha Sharma)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
+- [`ins_rebaseline-quarterly-not-pin-to-snapshot`](insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md) — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot _(Ethan Mollick)_
 - [`ins_red-green-tdd-shorthand-for-agents`](insights/ins_red-green-tdd-shorthand-for-agents.md) — Encode jargon shorthand once, save tokens forever _(Simon Willison)_
 - [`ins_reps-want-questions-not-dashboards`](insights/ins_reps-want-questions-not-dashboards.md) — Sellers don't want a better dashboard — they want to ask the deal questions _(Yamini Rangan)_
 - [`ins_sales-team-detects-positioning-failure-first`](insights/ins_sales-team-detects-positioning-failure-first.md) — The sales team detects positioning failure months before the dashboard does _(April Dunford)_
@@ -162,6 +166,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_data-strategy-precedes-tool-strategy`](insights/ins_data-strategy-precedes-tool-strategy.md) — Data strategy precedes tool strategy in marketing automation _(Gartner)_
 
 ## Operators
+- [Aakash Gupta](operators/aakash-gupta/README.md)
 - [Aaron Ross](operators/aaron-ross/README.md)
 - [Adriel Frederick](operators/adriel-frederick/README.md)
 - [Adrienne Barnes](operators/adrienne-barnes/README.md)
@@ -198,6 +203,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Blair Enns](operators/blair-enns/README.md)
 - [Bob Moesta](operators/bob-moesta/README.md)
 - [Boris Cherny](operators/boris-cherny/README.md)
+- [Brendan Hufford](operators/brendan-hufford/README.md)
 - [Bret Taylor](operators/bret-taylor/README.md)
 - [Brian Balfour](operators/brian-balfour/README.md)
 - [Brian Dean](operators/brian-dean/README.md)
@@ -234,13 +240,18 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Eli Schwartz](operators/eli-schwartz/README.md)
 - [Else van der Berg](operators/else-van-der-berg/README.md)
 - [Emily Kramer](operators/emily-kramer/README.md)
+- [Eric Seufert](operators/eric-seufert/README.md)
 - [Ethan Mollick](operators/ethan-mollick/README.md)
 - [Evan Spiegel](operators/evan-spiegel/README.md)
+- [Florin Tatulea](operators/florin-tatulea/README.md)
 - [Gaetano DiNardi](operators/gaetano-dinardi/README.md)
 - [Gartner](operators/gartner/README.md)
+- [Gemma Casey-Swift](operators/gemma-casey-swift/README.md)
 - [Georgiana Laudi](operators/georgiana-laudi/README.md)
+- [Glenn Gabe](operators/glenn-gabe/README.md)
 - [Greg Isenberg](operators/greg-isenberg/README.md)
 - [Hamel Husain](operators/hamel-husain/README.md)
+- [Hamza Farooq](operators/hamza-farooq/README.md)
 - [Hermann Simon](operators/hermann-simon/README.md)
 - [Hiten Shah](operators/hiten-shah/README.md)
 - [Jacco van der Kooij](operators/jacco-van-der-kooij/README.md)
@@ -250,6 +261,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Jason Fried](operators/jason-fried/README.md)
 - [Jason Lemkin](operators/jason-lemkin/README.md)
 - [Jay Acunzo](operators/jay-acunzo/README.md)
+- [Jaya Rajwani](operators/jaya-rajwani/README.md)
 - [Jeetu Patel](operators/jeetu-patel/README.md)
 - [Jenny Wen](operators/jenny-wen/README.md)
 - [Jessica Fain](operators/jessica-fain/README.md)
@@ -272,6 +284,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Lenny Rachitsky](operators/lenny-rachitsky/README.md)
 - [Lily Ray](operators/lily-ray/README.md)
 - [Madhavan Ramanujam](operators/madhavan-ramanujam/README.md)
+- [Maja Voje](operators/maja-voje/README.md)
 - [Marcel Petitpas](operators/marcel-petitpas/README.md)
 - [Marcus Andrews](operators/marcus-andrews/README.md)
 - [Marie Haynes](operators/marie-haynes/README.md)
@@ -296,6 +309,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Park Howell](operators/park-howell/README.md)
 - [Patrick Campbell](operators/patrick-campbell/README.md)
 - [Paul Jarvis](operators/paul-jarvis/README.md)
+- [Pawel Huryn](operators/pawel-huryn/README.md)
 - [Peep Laja](operators/peep-laja/README.md)
 - [Peter Thiel](operators/peter-thiel/README.md)
 - [Pia Silva](operators/pia-silva/README.md)
@@ -305,6 +319,7 @@ _Generated 2026-05-01. Auto-built from frontmatter — do not edit by hand._
 - [Rand Fishkin](operators/rand-fishkin/README.md)
 - [Reforge](operators/reforge/README.md)
 - [Robert Rose](operators/robert-rose/README.md)
+- [Rohit Shah](operators/rohit-shah/README.md)
 - [Ross Simmonds](operators/ross-simmonds/README.md)
 - [Rowan Tonkin](operators/rowan-tonkin/README.md)
 - [Sahil Bloom](operators/sahil-bloom/README.md)

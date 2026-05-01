@@ -24,8 +24,10 @@ April Dunford is the foremost practitioner-theorist of product positioning in B2
 - `ins_no-decision-is-the-real-competitor` — Status quo, not the competitor, is what kills B2B deals [Tier A]
 - `ins_setup-follow-through-pitch` — Insight + alternatives + perfect world before any feature pitch [Tier A]
 - `ins_test-positioning-in-live-sales-pitch` — Test positioning in a live sales pitch; static artifacts hide failures [Tier B]
+- `ins_sales-team-detects-positioning-failure-first` — The sales team detects positioning failure months before the dashboard does [Tier B]
 
 ## Sources captured
+- 2026-04-25 — LinkedIn thread on positioning-failure detection (`raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.md`)
 - 2026-04-28 — Lenny's Podcast, "Positioning, setup follow-through, differentiation" (`raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md`)
 - 2026-04-28 — Lenny's Podcast, "Positioning framework" (`raw/podcasts/april-dunford--positioning-framework--2026-04-28.md`)
 - 2026-04 — `a-quickstart-guide-to-positioning-april-dunford.md` (artemis ingest)

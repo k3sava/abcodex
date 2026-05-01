@@ -23,9 +23,10 @@ Tomasz Tunguz is the SaaS industry's foremost empirical analyst. Where other exp
 - **Revenue Milestone Planning**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_commoditize-the-complement-ai` — AI labs are running the commoditize-the-complement playbook; tag features quarterly [Tier B]
 
 ## Sources captured
+- 2026-04-24 — *Competitive Strategy in the Age of AI* (`raw/essays/tomasz-tunguz--commoditize-the-complement--2026-04-24.md`)
 - 2026-04 — `sales-efficiency-benchmarks-for-saas-startups-tomasz-tunguz.md` (artemis ingest)
 - 2026-04 — `six-key-benchmarks-for-your-saas-startup-tomasz-tunguz.md` (artemis ingest)
 - 2026-04 — `how-much-should-a-saas-startup-invest-in-sales-marketing-tomasz-tunguz.md` (artemis ingest)

@@ -23,9 +23,10 @@ Lily Ray is the SEO industry's most rigorous forensic analyst of Google algorith
 - **Technical Seo Audit**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ai-slop-loop` — A single seeded fake claim can self-confirm in AI Overviews [Tier A]
 
 ## Sources captured
+- 2026-04-23 — *The AI Slop Loop* (`raw/essays/lily-ray--ai-slop-loop--2026-04-23.md`)
 - 2026-04 — `the-vicious-cycle-of-seo-how-we-got-here-where-were-going-lily-ray-seo-week-2025.md` (artemis ingest)
 - 2026-04 — `googles-helpful-content-update-ranking-system-what-happened-and-what-changed-in-.md` (artemis ingest)
 - 2026-04 — `tech-seo-connect-2025-summary-latest-tech-seo-trends.md` (artemis ingest)

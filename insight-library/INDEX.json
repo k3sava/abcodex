@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-01T18:39:47.082Z",
+  "generated_at": "2026-05-01T18:45:18.678Z",
   "counts": {
-    "insights": 146,
-    "operators": 179,
+    "insights": 150,
+    "operators": 190,
     "raw_sources": 78
   },
   "insights": [
@@ -742,6 +742,36 @@
       "raw_ref": "raw/podcasts/aishwarya-naresh-reganti-kiriti-badam--ai-product-design-non-determinism--2026-04-28.md"
     },
     {
+      "path": "insights/ins_claude-plus-crm-plus-orchestration-stack.md",
+      "title": "AI tools combine with CRMs through orchestration; they do not replace them",
+      "id": "ins_claude-plus-crm-plus-orchestration-stack",
+      "operator": "Maja Voje",
+      "operator_role": "GTM Strategist; Founder of GTM Strategist; co-author with Kyle Poyar",
+      "source_url": "https://knowledge.gtmstrategist.com/p/claude-for-gtm-pulse-report-2026",
+      "source_type": "research",
+      "source_title": "Claude for GTM Pulse Report 2026",
+      "source_date": "2026-04",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "tooling-config",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aeo-is-gtm-capability",
+        "ins_rebuild-gtm-around-ai",
+        "ins_dotclaude-as-deployable-artifact"
+      ],
+      "raw_ref": "raw/essays/maja-voje--claude-gtm-pulse--2026-04.md"
+    },
+    {
       "path": "insights/ins_comb-shape-pmm.md",
       "title": "T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar",
       "id": "ins_comb-shape-pmm",
@@ -826,6 +856,65 @@
         "ins_force-for-positive-momentum"
       ],
       "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_company-story-is-the-strategy.md",
+      "title": "Run a monthly narrative-drift audit across decks, homepage, and release notes",
+      "id": "ins_company-story-is-the-strategy",
+      "operator": "Andy Raskin",
+      "operator_role": "Strategic narrative consultant; Andy Raskin & Co",
+      "source_url": "https://andyraskin.com/",
+      "source_type": "essay",
+      "source_title": "April update — story-is-strategy",
+      "source_date": "2026-04",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "pmm",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning",
+        "narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_old-game-to-new-game-narrative",
+        "ins_setup-follow-through-pitch",
+        "ins_homepage-five-second-trinity"
+      ],
+      "raw_ref": "raw/essays/andy-raskin--story-is-strategy--2026-04.md"
+    },
+    {
+      "path": "insights/ins_competency-analytics-over-activity-dashboards.md",
+      "title": "Coach reps on skill-friction, not call counts",
+      "id": "ins_competency-analytics-over-activity-dashboards",
+      "operator": "Chris Orlob",
+      "operator_role": "CEO, pclub.io; founder of Gong's first sales methodology team",
+      "source_url": "https://www.pclub.io/blog/sales-competency-analytics",
+      "source_type": "essay",
+      "source_title": "Sales Competency Analytics",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "enablement",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_pov-led-outbound",
+        "ins_make-intuition-explicit"
+      ],
+      "raw_ref": "raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md"
     },
     {
       "path": "insights/ins_criticize-in-public.md",
@@ -3152,6 +3241,36 @@
       "raw_ref": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md"
     },
     {
+      "path": "insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md",
+      "title": "Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot",
+      "id": "ins_rebaseline-quarterly-not-pin-to-snapshot",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of *Co-Intelligence* and One Useful Thing",
+      "source_url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "source_type": "essay",
+      "source_title": "Sign of the Future — GPT-5.5",
+      "source_date": "2026-04-23",
+      "captured_date": "2026-05-01",
+      "domain": [
+        "ai-native",
+        "strategy"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_build-for-next-model-not-current",
+        "ins_remove-features-as-models-improve",
+        "ins_dotclaude-as-deployable-artifact"
+      ],
+      "raw_ref": "raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md"
+    },
+    {
       "path": "insights/ins_rebuild-gtm-around-ai.md",
       "title": "Rebuild GTM around AI; do not integrate AI into existing GTM",
       "id": "ins_rebuild-gtm-around-ai",
@@ -4236,6 +4355,22 @@
   ],
   "operators": [
     {
+      "path": "operators/aakash-gupta/README.md",
+      "title": "Aakash Gupta",
+      "name": "Aakash Gupta",
+      "slug": "aakash-gupta",
+      "roles": [
+        "Product writer; News.aakashg.com",
+        "PM coach"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/aaron-ross/README.md",
       "title": "Aaron Ross",
       "name": "Aaron Ross",
@@ -4853,6 +4988,23 @@
         "engineering",
         "product",
         "leadership"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/brendan-hufford/README.md",
+      "title": "Brendan Hufford",
+      "name": "Brendan Hufford",
+      "slug": "brendan-hufford",
+      "roles": [
+        "Founder, Growth Sprints",
+        "SEO/content strategist; ex-ActiveCampaign"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth",
+        "gtm"
       ],
       "captured_first": "2026-05-01",
       "external": ""
@@ -5498,6 +5650,23 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/eric-seufert/README.md",
+      "title": "Eric Seufert",
+      "name": "Eric Seufert",
+      "slug": "eric-seufert",
+      "roles": [
+        "Mobile growth analyst",
+        "Founder of Mobile Dev Memo"
+      ],
+      "domains_active": [
+        "growth",
+        "ai-native",
+        "marketing"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/ethan-mollick/README.md",
       "title": "Ethan Mollick",
       "name": "Ethan Mollick",
@@ -5528,6 +5697,21 @@
         "product",
         "leadership",
         "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
+      "path": "operators/florin-tatulea/README.md",
+      "title": "Florin Tatulea",
+      "name": "Florin Tatulea",
+      "slug": "florin-tatulea",
+      "roles": [
+        "Sales/RevOps writer; Salesflo Substack"
+      ],
+      "domains_active": [
+        "gtm",
+        "growth"
       ],
       "captured_first": "2026-05-01",
       "external": ""
@@ -5569,6 +5753,21 @@
       "note": "\"operator: Gartner — individual analysts attributed in operator_role per card\""
     },
     {
+      "path": "operators/gemma-casey-swift/README.md",
+      "title": "Gemma Casey-Swift",
+      "name": "Gemma Casey-Swift",
+      "slug": "gemma-casey-swift",
+      "roles": [
+        "PMM and growth writer",
+        "Co-author with Elena Verna on PMM-as-infrastructure essay"
+      ],
+      "domains_active": [
+        "pmm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
       "path": "operators/georgiana-laudi/README.md",
       "title": "Georgiana Laudi",
       "name": "Georgiana Laudi",
@@ -5587,6 +5786,22 @@
         "leadership"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/glenn-gabe/README.md",
+      "title": "Glenn Gabe",
+      "name": "Glenn Gabe",
+      "slug": "glenn-gabe",
+      "roles": [
+        "SEO consultant; G-Squared Interactive",
+        "case-study writer documenting Google algorithm impacts on real sites"
+      ],
+      "domains_active": [
+        "growth",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/greg-isenberg/README.md",
@@ -5625,6 +5840,22 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/hamza-farooq/README.md",
+      "title": "Hamza Farooq",
+      "name": "Hamza Farooq",
+      "slug": "hamza-farooq",
+      "roles": [
+        "AI engineering practitioner",
+        "Co-author with Jaya Rajwani in Lenny's Newsletter"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "captured_first": "2026-05-01"
     },
     {
       "path": "operators/hermann-simon/README.md",
@@ -5783,6 +6014,22 @@
         "leadership",
         "design",
         "pmm"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jaya-rajwani/README.md",
+      "title": "Jaya Rajwani",
+      "name": "Jaya Rajwani",
+      "slug": "jaya-rajwani",
+      "roles": [
+        "AI engineering practitioner",
+        "Co-author with Hamza Farooq in Lenny's Newsletter"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "product"
       ],
       "captured_first": "2026-05-01"
     },
@@ -6183,6 +6430,24 @@
         "design"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/maja-voje/README.md",
+      "title": "Maja Voje",
+      "name": "Maja Voje",
+      "slug": "maja-voje",
+      "roles": [
+        "GTM Strategist",
+        "Founder of GTM Strategist",
+        "Author of *Go-to-Market Strategist*"
+      ],
+      "domains_active": [
+        "pmm",
+        "gtm",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
     },
     {
       "path": "operators/marcel-petitpas/README.md",
@@ -6612,6 +6877,22 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/pawel-huryn/README.md",
+      "title": "Pawel Huryn",
+      "name": "Pawel Huryn",
+      "slug": "pawel-huryn",
+      "roles": [
+        "PM coach",
+        "Author of Product Compass newsletter"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-01",
+      "external": ""
+    },
+    {
       "path": "operators/peep-laja/README.md",
       "title": "Peep Laja",
       "name": "Peep Laja",
@@ -6774,6 +7055,20 @@
         "design",
         "leadership",
         "ai-native"
+      ],
+      "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/rohit-shah/README.md",
+      "title": "Rohit Shah",
+      "name": "Rohit Shah",
+      "slug": "rohit-shah",
+      "roles": [
+        "Sales enablement practitioner; quoted in Chris Orlob's *Sales Competency Analytics*"
+      ],
+      "domains_active": [
+        "gtm",
+        "leadership"
       ],
       "captured_first": "2026-05-01"
     },

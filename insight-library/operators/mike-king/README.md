@@ -23,9 +23,10 @@ Mike King brings a rare combination of computer science rigor and marketing prac
 - **Programmatic Seo**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_relevance-engineering-passage-level` — The unit of optimization is the passage, not the page [Tier A]
 
 ## Sources captured
+- 2026-04-22 — *How AI Mode Works* / *AI Search Manual*, iPullRank (`raw/essays/mike-king--how-ai-mode-works--2026-04-22.md`)
 - 2026-04 — `how-ai-mode-works-and-how-seo-can-prepare-for-the-future-of-search.md` (artemis ingest)
 - 2026-04 — `relevance-is-not-a-qualitative-measure-for-search-engines.md` (artemis ingest)
 - 2026-04 — `the-brave-new-world-of-seo-mike-king-seo-week-2025-summer-drop-ipullrank.md` (artemis ingest)

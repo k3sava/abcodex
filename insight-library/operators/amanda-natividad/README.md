@@ -23,9 +23,10 @@ Amanda Natividad coined the term "zero-click content" and developed the strategi
 - **Content Repurposing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_death-of-the-ultimate-guide` — Sharper POV beats exhaustive coverage when an LLM is the summarizer [Tier B]
 
 ## Sources captured
+- 2026-04-25 — *The Death of the Ultimate Guide*, SparkToro (`raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md`)
 - 2026-04 — `the-case-for-zero-click-content-in-a-zero-trust-ecosystem-sparktoro.md` (artemis ingest)
 - 2026-04 — `zero-click-content-the-counterintuitive-way-to-succeed-sparktoro.md` (artemis ingest)
 - 2026-04 — `sparktoros-webinar-to-blog-content-strategy-ft-amanda-natividad.md` (artemis ingest)

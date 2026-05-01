@@ -24,6 +24,8 @@ Strategic narrative consultant. Authored the 2015 Medium post "The Greatest Sale
 - `ins_old-game-to-new-game-narrative` — Sell the world-shift, not the product comparison [Tier A]
 - `ins_name-the-shift-concisely` — Compress the shift to 1–3 words even when it loses fidelity [Tier B]
 - `ins_obstacles-as-gates-not-problems` — Frame features as obstacles to a new game, not problems [Tier B]
+- `ins_company-story-is-the-strategy` — Run a monthly narrative-drift audit across decks, homepage, and release notes [Tier B]
 
 ## Sources captured
 - 2026-04-28 — Lenny's Podcast, "Strategic Narrative Framework" (`raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md`)
+- 2026-04 — April update on andyraskin.com — story-is-strategy framing (`raw/essays/andy-raskin--story-is-strategy--2026-04.md`)
