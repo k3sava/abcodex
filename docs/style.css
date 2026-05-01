@@ -1,9 +1,14 @@
-:root{--bg:#f8f4ed;--ink:#191714;--muted:#666059;--accent:#b45a2d;--card:#fffdf9} @media (prefers-color-scheme: dark){:root{--bg:#1f1a15;--ink:#ede6da;--muted:#b6aa9d;--card:#2a231d}}
-*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,sans-serif} .nav{display:flex;justify-content:space-between;padding:16px 28px;border-bottom:1px solid #0002;position:sticky;top:0;background:color-mix(in srgb,var(--bg) 90%,transparent)} .brand{font-weight:600} a{color:inherit;text-decoration:none} nav{display:flex;gap:14px;align-items:center} button{border:1px solid #0003;background:transparent;padding:6px 10px}
-main{max-width:1100px;margin:0 auto;padding:28px} h1{font:500 52px/1.08 Newsreader,serif;max-width:860px} .lede{max-width:670px;color:var(--muted)} .grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
-.card{background:var(--card);border:1px solid #0002;padding:16px;transition:.2s transform,.2s box-shadow}.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px #0001}.mono{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
-.insight{display:grid;grid-template-columns:1fr 280px;gap:18px}.block{border:1px solid #0002;background:var(--card);padding:12px;margin:10px 0} .source-link{position:relative;display:inline-block}.source-link:after{content:"";position:absolute;left:0;bottom:-2px;height:1px;background:var(--accent);width:0}
-#graph{width:100%;height:68vh;border:1px solid #0002;background:var(--card)}
-dialog{width:min(680px,94vw);border:1px solid #0003;background:var(--card)} #searchInput{width:100%;padding:12px;background:transparent;border:1px solid #0002} #searchResults a{display:block;padding:8px;border-bottom:1px solid #0001}
-@media (max-width:900px){.insight{grid-template-columns:1fr}h1{font-size:40px}}
-@media print{.nav,dialog,#searchOpen{display:none} body{background:#fff;color:#000}.card,.block{border:1px solid #999;box-shadow:none}}
+:root{--bg:#f6f1e8;--ink:#1f1b16;--accent:#cb7f46;--ui:#e8dfd2} @media (prefers-color-scheme: dark){:root{--bg:#17120f;--ink:#ece2d8;--ui:#2a211b}}
+*{box-sizing:border-box} html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
+body{display:flex;flex-direction:column;min-height:100vh;overflow:hidden}
+header{padding:14px 20px;border-bottom:1px solid #0002;display:flex;justify-content:space-between;align-items:center;background:color-mix(in oklab,var(--bg),#000 3%)}
+main{flex:1;overflow:auto;padding:20px;height:calc(100vh - 58px)}
+h1{font-family:Newsreader,serif;font-size:clamp(2rem,4vw,3.4rem);line-height:1.05;margin:0 0 10px}.lede{max-width:70ch;opacity:.85}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}.card{display:block;background:var(--ui);padding:14px;border-radius:14px;text-decoration:none;color:inherit;transition:.2s transform,.2s box-shadow}.card:hover{transform:translateY(-2px);box-shadow:0 14px 30px #0002}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.8rem;opacity:.75}.modes{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 20px}.modes a{padding:8px 10px;border-radius:999px;background:var(--ui);text-decoration:none;color:inherit}
+.insight{display:grid;grid-template-columns:1fr 280px;gap:18px}.block{background:var(--ui);padding:10px;border-radius:12px;margin:10px 0}
+#graph{width:100%;height:calc(100vh - 220px);background:radial-gradient(circle at 20% 20%,#0000,#0001)}
+.carousel{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(280px,32vw);overflow:auto;gap:12px;padding-bottom:8px}
+.timeline{display:grid;gap:8px}.titem{display:grid;grid-template-columns:72px 1fr 220px;gap:12px;padding:10px;border-bottom:1px solid #0002;text-decoration:none;color:inherit}
+dialog{border:0;border-radius:12px;padding:16px;max-width:720px;width:92vw}#searchResults a{display:block;padding:8px 0;border-bottom:1px solid #0001;color:inherit;text-decoration:none}
+@media (max-width:980px){.insight{grid-template-columns:1fr}body{overflow:auto}main{height:auto}}
