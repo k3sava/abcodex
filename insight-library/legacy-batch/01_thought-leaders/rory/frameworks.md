@@ -1,3 +1,0 @@
-# rory Frameworks
-
-- Pending extraction.

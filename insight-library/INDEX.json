@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T18:01:05.392Z",
+  "generated_at": "2026-05-02T18:04:07.833Z",
   "counts": {
     "insights": 417,
-    "operators": 277,
+    "operators": 272,
     "raw_sources": 206,
     "patterns": 24,
     "contradictions": 9,
@@ -1405,7 +1405,7 @@
       "path": "insights/ins_benevolent-dictator-not-committee.md",
       "title": "Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop",
       "id": "ins_benevolent-dictator-not-committee",
-      "operator": "Hamel Husain & Shreya Shankar",
+      "operator": "Hamel Husain",
       "operator_role": "Independent ML consultant and Berkeley PhD researcher",
       "source_url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
       "source_type": "podcast",
@@ -3712,7 +3712,7 @@
       "path": "insights/ins_evals-are-data-analysis-on-llm-apps.md",
       "title": "Evals are systematic data analysis on your LLM application — start with error analysis, not tests",
       "id": "ins_evals-are-data-analysis-on-llm-apps",
-      "operator": "Hamel Husain & Shreya Shankar",
+      "operator": "Hamel Husain",
       "operator_role": "Independent ML consultant (ex-GitHub, Airbnb) and Berkeley PhD researcher",
       "source_url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
       "source_type": "podcast",
@@ -5810,7 +5810,7 @@
       "path": "insights/ins_llm-as-judge-binary-not-likert.md",
       "title": "Build LLM-as-judge as binary true/false, one judge per pesky failure mode — and validate against human labels",
       "id": "ins_llm-as-judge-binary-not-likert",
-      "operator": "Hamel Husain & Shreya Shankar",
+      "operator": "Hamel Husain",
       "operator_role": "Independent ML consultant and Berkeley PhD researcher",
       "source_url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
       "source_type": "podcast",
@@ -7146,7 +7146,7 @@
       "path": "insights/ins_open-coding-then-axial-coding.md",
       "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second",
       "id": "ins_open-coding-then-axial-coding",
-      "operator": "Hamel Husain & Shreya Shankar",
+      "operator": "Hamel Husain",
       "operator_role": "Independent ML consultant and Berkeley PhD researcher",
       "source_url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
       "source_type": "podcast",
@@ -9487,7 +9487,7 @@
       "path": "insights/ins_skills-as-prompts-as-code.md",
       "title": "Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling",
       "id": "ins_skills-as-prompts-as-code",
-      "operator": "Nate (natesnewsletter.substack.com)",
+      "operator": "Nate",
       "operator_role": "Claude Code educator; Substack author",
       "source_url": "https://natesnewsletter.substack.com/",
       "source_type": "essay",
@@ -13468,21 +13468,6 @@
       "external": ""
     },
     {
-      "path": "operators/gemma-casey-swift/README.md",
-      "title": "Gemma Casey-Swift",
-      "name": "Gemma Casey-Swift",
-      "slug": "gemma-casey-swift",
-      "roles": [
-        "PMM and growth writer",
-        "Co-author with Elena Verna on PMM-as-infrastructure essay"
-      ],
-      "domains_active": [
-        "pmm",
-        "ai-native"
-      ],
-      "captured_first": "2026-05-01"
-    },
-    {
       "path": "operators/georgiana-laudi/README.md",
       "title": "Georgiana Laudi",
       "name": "Georgiana Laudi",
@@ -13501,22 +13486,6 @@
         "leadership"
       ],
       "captured_first": "2026-05-01",
-      "external": ""
-    },
-    {
-      "path": "operators/gideon-harris/README.md",
-      "title": "Gideon Harris",
-      "name": "Gideon Harris",
-      "slug": "gideon-harris",
-      "roles": [
-        "Managing Partner",
-        "Build Executive. Author",
-        "The Weight of Monday."
-      ],
-      "domains_active": [
-        "pmm"
-      ],
-      "captured_first": "2026-05-02",
       "external": ""
     },
     {
@@ -13910,22 +13879,6 @@
       "external": ""
     },
     {
-      "path": "operators/jaya-rajwani/README.md",
-      "title": "Jaya Rajwani",
-      "name": "Jaya Rajwani",
-      "slug": "jaya-rajwani",
-      "roles": [
-        "AI engineering practitioner",
-        "Co-author with Hamza Farooq in Lenny's Newsletter"
-      ],
-      "domains_active": [
-        "ai-native",
-        "engineering",
-        "product"
-      ],
-      "captured_first": "2026-05-01"
-    },
-    {
       "path": "operators/jeetu-patel/README.md",
       "title": "Jeetu Patel",
       "name": "Jeetu Patel",
@@ -14250,24 +14203,6 @@
         "ai-native"
       ],
       "captured_first": "2026-05-01",
-      "external": ""
-    },
-    {
-      "path": "operators/kate-syuma/README.md",
-      "title": "Kate Syuma",
-      "name": "Kate Syuma",
-      "slug": "kate-syuma",
-      "roles": [
-        "Growth Advisor",
-        "ex-Miro",
-        "Founder at Growthmates"
-      ],
-      "domains_active": [
-        "growth",
-        "founder-craft",
-        "design-ux"
-      ],
-      "captured_first": "2026-05-02",
       "external": ""
     },
     {
@@ -15895,22 +15830,6 @@
         "founder-craft"
       ],
       "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
-      "path": "operators/shreya-shankar/README.md",
-      "title": "Shreya Shankar",
-      "name": "Shreya Shankar",
-      "slug": "shreya-shankar",
-      "roles": [
-        "PhD researcher, UC Berkeley"
-      ],
-      "domains_active": [
-        "ai-native",
-        "research-discovery",
-        "engineering"
-      ],
-      "captured_first": "2026-05-01",
       "external": ""
     },
     {

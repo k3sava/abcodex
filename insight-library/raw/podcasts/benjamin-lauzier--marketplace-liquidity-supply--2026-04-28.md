@@ -28,5 +28,5 @@ Ben built Lyft's driver supply to reach 1% of US workers. His thesis on marketpl
 
 5. **Peer mentorship beats HR overhead** — Lyft paid top drivers $35/mentor session (not DMV-style offices). Mentors shared routes, tips, contact info. Community advocacy > marketing copy. 10x efficiency vs. Uber's office-based onboarding.
 
-## Why this matters for flywheel
-Supply-first positioning + fill-rate discipline + peer flywheel mechanics. If JustCall builds multi-agent marketplace, mentorship + quality-bar patterns scale without command overhead.
+## Why this matters
+Supply-first positioning, fill-rate discipline, and peer-mentorship mechanics scale without command overhead — useful for any team building two-sided supply.

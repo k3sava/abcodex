@@ -13,7 +13,7 @@ Step 1 (Story): Open with an emotionally engaging narrative. Not a case study fo
 
 Step 2 (Lesson): Extract the key insight or belief shift from the story. What did this moment reveal that the reader did not already know (or knew but had not articulated)? "Speed is not a nice-to-have in recruiting. It is the entire game. The firm that calls back first wins the placement 78% of the time." The lesson reframes the reader's understanding of their own situation.
 
-Step 3 (Pivot): Bridge from the lesson to your product. The pivot must feel natural, not forced. It shows how the new belief connects to what you are offering. "JustCall's auto-dialer puts your team on the phone within minutes, not hours." The pivot works because the lesson has already created the demand. The product is positioned as the logical consequence of the new belief.
+Step 3 (Pivot): Bridge from the lesson to your product. The pivot must feel natural, not forced. It shows how the new belief connects to what you are offering. "Our auto-dialer puts your team on the phone within minutes, not hours." The pivot works because the lesson has already created the demand. The product is positioned as the logical consequence of the new belief.
 
 Step 4 (Call to Action): Direct, clear, value-framed. "See how fast your team can move." The CTA is easy because the story and lesson have done the heavy lifting.
 

@@ -80,18 +80,13 @@ The original synthesis was built from YouTube auto-subtitles (~1.3K words). The 
 - Managers returning to IC. Jenny voluntarily left a Figma director role to return to IC at Anthropic. "I wasn't sure middle management is safe in the future." The IC year gave hard skills and empathy for future managing.
 - Low-leverage time is high-leverage when senior leaders do it. Mike Krieger files PRs himself.
 
-## Why this matters for flywheel
+## Why this matters
 
-Three concrete moves:
+Three concrete moves applicable to any PMM team:
 
-1. **Apply the two-mode stratification to PMM.** Most JustCall PMM work today is "long-form positioning + messaging docs + decks" — the dead middle. Flywheel should aggressively kill that middle and split PMM into (a) substrate last-mile polish + jamming with the substrate's outputs, and (b) 3-6 month direction-setting prototypes. This is the actual reorg, not a Q2 reshuffle.
+1. **Two-mode stratification.** A lot of PMM work today is "long-form positioning + messaging docs + decks" — the dead middle. Kill the middle and split PMM into (a) substrate last-mile polish + jamming with the substrate's outputs, and (b) 3–6 month direction-setting prototypes.
 
-2. **Add the illegibility framework to the captain's discovery routine.** Run a weekly scan of internal Slack/Commons rooms looking for *illegible energy* — projects/ideas the team is buzzing about but can't articulate. That's the next flywheel loop. Currently flywheel only watches *legible* signals (asks, requests, ledger items).
+2. **Illegibility framework as a discovery routine.** Scan internal channels for *illegible energy* — projects the team is buzzing about but can't articulate. That energy is the next loop, not the legible asks already on the ledger.
 
-3. **The three hiring archetypes give a clean roster-gap diagnosis tool.** Most teams over-index on mid-T generalists or deep specialists; the missing archetype is the craft-newgrad — eager, AI-native-by-default, no baked-in rituals.
-
-## Related
-
-- `raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md` — engineering-side mirror of the same dynamic
-- `concepts/principal-marketer-flywheel.md` — append: two-mode stratification, illegibility framework, three hiring archetypes, pie-chart time shift
+3. **Three hiring archetypes as a roster-gap diagnosis.** Most teams over-index on mid-T generalists or deep specialists; the missing archetype is the craft-newgrad — eager, AI-native-by-default, no baked-in rituals.
 - `concepts/ai-native.md` — append: research preview as a trust-through-speed mechanic; non-deterministic products require live-model testing not mocks; Co-work pattern (long discovery + sudden ship)

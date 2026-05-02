@@ -1,6 +1,6 @@
 ---
 id: ins_evals-are-data-analysis-on-llm-apps
-operator: Hamel Husain & Shreya Shankar
+operator: Hamel Husain
 operator_role: Independent ML consultant (ex-GitHub, Airbnb) and Berkeley PhD researcher
 source_url: https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill
 source_type: podcast

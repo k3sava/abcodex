@@ -4,7 +4,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 417 insight cards
-- 277 operator profiles
+- 272 operator profiles
 - 206 raw source files
 - 24 synthesis patterns
 - 9 contradictions
@@ -60,7 +60,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_economic-turing-test-for-ai`](insights/ins_economic-turing-test-for-ai.md) — The Economic Turing Test — would you hire the agent if you didn't know it was a machine? _(Benjamin Mann)_
 - [`ins_eeat-quality-rater-perspective`](insights/ins_eeat-quality-rater-perspective.md) — E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals _(Cyrus Shepard)_
 - [`ins_emails-will-let-know-next`](insights/ins_emails-will-let-know-next.md) — - Emails: Will let you know next week. Aleksandar Lepidovski running it right now _(Alan Zhao)_
-- [`ins_evals-are-data-analysis-on-llm-apps`](insights/ins_evals-are-data-analysis-on-llm-apps.md) — Evals are systematic data analysis on your LLM application — start with error analysis, not tests _(Hamel Husain & Shreya Shankar)_
+- [`ins_evals-are-data-analysis-on-llm-apps`](insights/ins_evals-are-data-analysis-on-llm-apps.md) — Evals are systematic data analysis on your LLM application — start with error analysis, not tests _(Hamel Husain)_
 - [`ins_excited-finally-share-lin-pei`](insights/ins_excited-finally-share-lin-pei.md) — I’m SO excited to *finally* share that Yi Lin Pei and I are launching a company together _(Kevin Chan)_
 - [`ins_experimentation-paralysis`](insights/ins_experimentation-paralysis.md) — Don't test what won't reach sample size in a month — pre/post is fine _(Elena Verna)_
 - [`ins_fish-where-the-fish-are`](insights/ins_fish-where-the-fish-are.md) — Pick a niche where the fish are; do not deadlift 300 pounds on day one _(Andrew Wilkinson)_
@@ -94,7 +94,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_label-confidence-explicitly`](insights/ins_label-confidence-explicitly.md) — Label every strong opinion with a confidence level so the room knows when to push back _(Mihika Kapoor)_
 - [`ins_latent-demand-as-search-algorithm`](insights/ins_latent-demand-as-search-algorithm.md) — Latent demand — what users hack around the product to get — is the next loop _(Boris Cherny)_
 - [`ins_latticework-of-mental-models`](insights/ins_latticework-of-mental-models.md) — Reliable thinking requires 80-90 mental models from multiple disciplines, not one _(Charlie Munger)_
-- [`ins_llm-as-judge-binary-not-likert`](insights/ins_llm-as-judge-binary-not-likert.md) — Build LLM-as-judge as binary true/false, one judge per pesky failure mode — and validate against human labels _(Hamel Husain & Shreya Shankar)_
+- [`ins_llm-as-judge-binary-not-likert`](insights/ins_llm-as-judge-binary-not-likert.md) — Build LLM-as-judge as binary true/false, one judge per pesky failure mode — and validate against human labels _(Hamel Husain)_
 - [`ins_llm-wiki-pattern`](insights/ins_llm-wiki-pattern.md) — An LLM should maintain a wiki, not re-derive knowledge per query _(Andrej Karpathy)_
 - [`ins_llms-are-new-os-agents-are-apps`](insights/ins_llms-are-new-os-agents-are-apps.md) — LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores _(Mark Petty)_
 - [`ins_long-term-holdouts-30-40-evaporate`](insights/ins_long-term-holdouts-30-40-evaporate.md) — 30–40% of growth experiments with short-term lift show no incremental value at one year _(Archie Abrams)_
@@ -112,7 +112,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_old-game-to-new-game-narrative`](insights/ins_old-game-to-new-game-narrative.md) — Sell the world-shift, not the product comparison _(Andy Raskin)_
 - [`ins_one-dollar-on-the-developer`](insights/ins_one-dollar-on-the-developer.md) — Spend the whole dollar on the individual developer _(Rahul Chhabria)_
 - [`ins_one-percent-price-eight-percent-profit`](insights/ins_one-percent-price-eight-percent-profit.md) — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function _(Hermann Simon)_
-- [`ins_open-coding-then-axial-coding`](insights/ins_open-coding-then-axial-coding.md) — Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second _(Hamel Husain & Shreya Shankar)_
+- [`ins_open-coding-then-axial-coding`](insights/ins_open-coding-then-axial-coding.md) — Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second _(Hamel Husain)_
 - [`ins_original-research-as-link-bait`](insights/ins_original-research-as-link-bait.md) — Run one original-research study a year; it will out-link a year of weekly posts _(Andy Crestodina)_
 - [`ins_pain-of-paying`](insights/ins_pain-of-paying.md) — Every transaction inflicts psychological pain — design payment to decouple it from consumption _(Dan Ariely)_
 - [`ins_pattern-of-pain-customer-research`](insights/ins_pattern-of-pain-customer-research.md) — Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough. _(Hiten Shah)_
@@ -209,7 +209,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_being-crisp-concise-underrated-lack`](insights/ins_being-crisp-concise-underrated-lack.md) — Being crisp and concise is underrated. The lack of it signals something more concerning _(Chantal Cox)_
 - [`ins_believe-about-wipe-out-entire`](insights/ins_believe-about-wipe-out-entire.md) — I believe that AI is about to wipe out an entire generation of SaaS companies _(Praveen Das)_
 - [`ins_below-few-examples-how-assess`](insights/ins_below-few-examples-how-assess.md) — Below are a few examples of how we assess AI fluency by role _(Wade Foster)_
-- [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop _(Hamel Husain & Shreya Shankar)_
+- [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop _(Hamel Husain)_
 - [`ins_blog-as-knowledge-base-not-newsfeed`](insights/ins_blog-as-knowledge-base-not-newsfeed.md) — Reconceive the blog as a structured knowledge base, not a chronological feed _(Andy Crestodina)_
 - [`ins_blog-as-library-business-model-revealed`](insights/ins_blog-as-library-business-model-revealed.md) — Content strategy should be revealed by the business model, not invented from scratch _(Jimmy Daly)_
 - [`ins_brand-coefficient-multiplier`](insights/ins_brand-coefficient-multiplier.md) — Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads _(Sam Kuehnle)_
@@ -381,7 +381,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire — every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_since-something-use-daily-not`](insights/ins_since-something-use-daily-not.md) — P.S. Since this is something we use daily, I'm not going to send this to more than 200 _(Christian Oland)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
-- [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate (natesnewsletter.substack.com))_
+- [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate)_
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications _(Swyx (Shawn Wang))_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
@@ -545,9 +545,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Florin Tatulea](operators/florin-tatulea/README.md)
 - [Gaetano DiNardi](operators/gaetano-dinardi/README.md)
 - [Gartner](operators/gartner/README.md)
-- [Gemma Casey-Swift](operators/gemma-casey-swift/README.md)
 - [Georgiana Laudi](operators/georgiana-laudi/README.md)
-- [Gideon Harris](operators/gideon-harris/README.md)
 - [Gil Allouche](operators/gil-allouche/README.md)
 - [Glenn Gabe](operators/glenn-gabe/README.md)
 - [Gorish Aggarwal](operators/gorish-aggarwal/README.md)
@@ -568,7 +566,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Jason Lemkin](operators/jason-lemkin/README.md)
 - [Jason Oakley](operators/jason-oakley/README.md)
 - [Jay Acunzo](operators/jay-acunzo/README.md)
-- [Jaya Rajwani](operators/jaya-rajwani/README.md)
 - [Jeetu Patel](operators/jeetu-patel/README.md)
 - [Jenny Wen](operators/jenny-wen/README.md)
 - [Jesse Bellaiche](operators/jesse-bellaiche/README.md)
@@ -587,7 +584,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Kabir Uppal](operators/kabir-uppal/README.md)
 - [Kaizad Hansotia](operators/kaizad-hansotia/README.md)
 - [Karl Sakas](operators/karl-sakas/README.md)
-- [Kate Syuma](operators/kate-syuma/README.md)
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kenny Damian](operators/kenny-damian/README.md)
 - [Kevin Chan](operators/kevin-chan/README.md)
@@ -679,7 +675,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Sherwin Wu](operators/sherwin-wu/README.md)
 - [Shireesh Gupta](operators/shireesh-gupta/README.md)
 - [Shivangi Sahu](operators/shivangi-sahu/README.md)
-- [Shreya Shankar](operators/shreya-shankar/README.md)
 - [Shruti Kapoor](operators/shruti-kapoor/README.md)
 - [Silvia Botros](operators/silvia-botros/README.md)
 - [Simon Sinek](operators/simon-sinek/README.md)

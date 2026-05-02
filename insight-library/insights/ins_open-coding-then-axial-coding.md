@@ -1,6 +1,6 @@
 ---
 id: ins_open-coding-then-axial-coding
-operator: Hamel Husain & Shreya Shankar
+operator: Hamel Husain
 operator_role: Independent ML consultant and Berkeley PhD researcher
 source_url: https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill
 source_type: podcast
