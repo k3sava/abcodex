@@ -5,6 +5,8 @@ roles:
   - Founder of Marie Haynes Consulting (now part of her advisory practice)
 domains_active: [growth, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/marie-haynes/
 ---
 
 # Marie Haynes

@@ -7,6 +7,9 @@ roles:
   - angel investor in 100+ startups
 domains_active: [product, ai-native, leadership, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/lennyrachitsky/
+  newsletter: https://www.lennysnewsletter.com/
 ---
 
 # Lenny Rachitsky

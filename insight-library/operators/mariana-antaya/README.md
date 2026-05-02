@@ -7,7 +7,8 @@ roles:
   - ex-Microsoft AI PM
 domains_active: [founder-craft, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/marianaantaya/
 ---
 
 # Mariana Antaya

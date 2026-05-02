@@ -8,6 +8,8 @@ roles:
   - speaker at SMX
 domains_active: [growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/lily-ray-44755615/
 ---
 
 # Lily Ray

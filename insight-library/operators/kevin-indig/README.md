@@ -8,6 +8,9 @@ roles:
   - and Nextdoor
 domains_active: [growth, pmm, research, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/kevinindig/
+  newsletter: https://www.kevin-indig.com/
 ---
 
 # Kevin Indig

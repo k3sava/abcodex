@@ -8,6 +8,8 @@ roles:
   - AI investor
 domains_active: [design, ai-native, engineering, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/mattshumer/
 ---
 
 # Matt Shumer

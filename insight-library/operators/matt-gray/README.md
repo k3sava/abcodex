@@ -8,6 +8,9 @@ roles:
   - 1M+ followers across social platforms
 domains_active: [ai-native, pmm, growth, design, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/mattgray1/
+  website: https://founderos.com/
 ---
 
 # Matt Gray

@@ -7,7 +7,8 @@ roles:
   - B2B SaaS (Series A–D)
 domains_active: [pmm, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/kchan91/
 ---
 
 # Kevin Chan

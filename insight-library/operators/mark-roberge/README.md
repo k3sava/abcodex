@@ -8,6 +8,8 @@ roles:
   - author of 'The Sales Acceleration Formula
 domains_active: [sales-cs, design, gtm, leadership, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/markroberge/
 ---
 
 # Mark Roberge

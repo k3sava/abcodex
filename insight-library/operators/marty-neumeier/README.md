@@ -7,6 +7,8 @@ roles:
   - making it the most widely read work on branding
 domains_active: [design, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/martyneumeier/
 ---
 
 # Marty Neumeier

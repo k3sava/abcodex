@@ -7,6 +7,9 @@ roles:
   - creator of the Leah's ProducTea newsletter, Maven PLG course instructor featured in university MBA programs
 domains_active: [ai-native, product, leadership, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/leahtharin/
+  website: https://www.leahtharin.com/
 ---
 
 # Leah Tharin

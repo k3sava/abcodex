@@ -8,6 +8,8 @@ roles:
   - UC Berkeley Engineering Leadership Masters Program lecturer
 domains_active: [pmm, product, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/martinalauchengco/
 ---
 
 # Martina Lauchengco

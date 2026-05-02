@@ -6,6 +6,8 @@ roles:
   - frequent Harvard Business Review contributor with 20+ articles
 domains_active: [sales-cs, research, leadership, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/matthewxdixon/
 ---
 
 # Matt Dixon

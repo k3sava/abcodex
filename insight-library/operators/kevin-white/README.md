@@ -7,7 +7,8 @@ roles:
   - fmr Growth & Marketing @Segment @Retool @Common Room
 domains_active: [growth, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/kevbosaurus/
 ---
 
 # Kevin White

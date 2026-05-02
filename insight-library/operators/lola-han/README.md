@@ -6,7 +6,9 @@ roles:
   - Compensation Thought Leader
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/lolahan/
+  website: https://www.kamsa.co/
 ---
 
 # Lola Han

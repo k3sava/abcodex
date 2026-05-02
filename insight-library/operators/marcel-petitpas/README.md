@@ -8,6 +8,9 @@ roles:
   - Widely considered the leading expert on profitability optimization for service-centric businesses
 domains_active: [sales-cs, design, leadership, product, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/marcelpetitpas/
+  website: https://parakeeto.com/
 ---
 
 # Marcel Petitpas
