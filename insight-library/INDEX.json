@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T13:37:35.843Z",
+  "generated_at": "2026-05-02T15:07:35.954Z",
   "counts": {
-    "insights": 150,
+    "insights": 166,
     "operators": 190,
-    "raw_sources": 78,
+    "raw_sources": 81,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -121,6 +121,86 @@
       "raw_ref": "raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md"
     },
     {
+      "path": "insights/ins_advisor-tool-replaces-ensemble.md",
+      "title": "Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates",
+      "id": "ins_advisor-tool-replaces-ensemble",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "source_url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/advisor-tool",
+      "source_type": "essay",
+      "source_title": "Anthropic Advisor Tool — public beta documentation",
+      "source_date": "2026-04-26",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
+      "path": "insights/ins_aeo-competes-for-mentions-not-rankings.md",
+      "title": "In SEO you compete for rankings; in AEO you compete for mentions",
+      "id": "ins_aeo-competes-for-mentions-not-rankings",
+      "operator": "Maja Voje",
+      "operator_role": "Founder, GTM Strategist",
+      "source_url": "https://knowledge.gtmstrategist.com/p/aeo-how-to-make-ai-recommend-your-product",
+      "source_type": "essay",
+      "source_title": "AEO — How to Make AI Recommend Your Product",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "positioning",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_aeo-decided-off-your-domain.md",
+      "title": "AEO is decided off your domain — third-party mention density is the missing surface",
+      "id": "ins_aeo-decided-off-your-domain",
+      "operator": "Brendan Hufford",
+      "operator_role": "Founder, Growth Sprints; 3S Strategy",
+      "source_url": "https://growthsprints.co/3s-strategy/",
+      "source_type": "essay",
+      "source_title": "3S Strategy — demand surface from sales, success, support",
+      "source_date": "2026-04-25",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "voc-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+    },
+    {
       "path": "insights/ins_aeo-is-gtm-capability.md",
       "title": "AEO is a GTM capability, not an SEO experiment",
       "id": "ins_aeo-is-gtm-capability",
@@ -151,6 +231,33 @@
         "ins_rebuild-gtm-around-ai"
       ],
       "raw_ref": "raw/essays/maja-voje--aeo-gtm-capability--2026-04-17.md"
+    },
+    {
+      "path": "insights/ins_aeo-roadmap-as-executive-readout.md",
+      "title": "Package the AEO audit as a year-long keep/start/stop deck",
+      "id": "ins_aeo-roadmap-as-executive-readout",
+      "operator": "Mike King",
+      "operator_role": "Founder, iPullRank",
+      "source_url": "https://ipullrank.com/ai-search-strategic-roadmap",
+      "source_type": "essay",
+      "source_title": "AI Search Strategic Roadmap",
+      "source_date": "2026-04-28",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "strategy"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
     },
     {
       "path": "insights/ins_aeo-three-layer-presence-readiness-impact.md",
@@ -630,6 +737,33 @@
       "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md"
     },
     {
+      "path": "insights/ins_canonical-pov-on-third-party-first.md",
+      "title": "Canonical category POVs may need to live on Reddit and YouTube first, then get pulled to your site",
+      "id": "ins_canonical-pov-on-third-party-first",
+      "operator": "Kieran Flanagan",
+      "operator_role": "SVP Marketing, HubSpot; co-host Marketing Against The Grain",
+      "source_url": "https://www.podbean.com/podcast-detail/n65dt-25ebd1/Marketing-Against-The-Grain-Podcast",
+      "source_type": "podcast",
+      "source_title": "MATG Ep. 417 — third-party citation map",
+      "source_date": "2026-04-29",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "content",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+    },
+    {
       "path": "insights/ins_capability-overhang-product-problem.md",
       "title": "In AI products, capability overhang is the central growth problem",
       "id": "ins_capability-overhang-product-problem",
@@ -918,6 +1052,58 @@
         "ins_make-intuition-explicit"
       ],
       "raw_ref": "raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md"
+    },
+    {
+      "path": "insights/ins_competency-analytics-over-activity.md",
+      "title": "Score reps on a fixed competency rubric, not on activity dashboards",
+      "id": "ins_competency-analytics-over-activity",
+      "operator": "Chris Orlob",
+      "operator_role": "CEO, pclub.io; former Gong sales leader",
+      "source_url": "https://www.pclub.io/blog/sales-competency-analytics",
+      "source_type": "essay",
+      "source_title": "Sales Competency Analytics",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_crawlability-shapes-everything.md",
+      "title": "In the AI-search era, crawlability shapes everything",
+      "id": "ins_crawlability-shapes-everything",
+      "operator": "Aleyda Solis",
+      "operator_role": "SEO consultant, Crawling Mondays",
+      "source_url": "https://www.aleydasolis.com/en/search-engine-optimization/google-march-core-update-2026/",
+      "source_type": "essay",
+      "source_title": "Google March 2026 Core Update Analysis",
+      "source_date": "2026-04-11",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
     },
     {
       "path": "insights/ins_criticize-in-public.md",
@@ -2153,6 +2339,32 @@
       "raw_ref": "raw/research/gartner--llms-are-the-new-os--2026-04.md"
     },
     {
+      "path": "insights/ins_llms-learn-from-the-world.md",
+      "title": "LLMs learn about your brand from the world, not from your site",
+      "id": "ins_llms-learn-from-the-world",
+      "operator": "Eli Schwartz",
+      "operator_role": "SEO consultant; author of Product-Led SEO",
+      "source_url": "https://www.productledseo.com/p/aeo-is-not-seo-20",
+      "source_type": "essay",
+      "source_title": "AEO is not SEO 2.0",
+      "source_date": "2026-04-09",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
+    },
+    {
       "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
       "title": "Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student",
       "id": "ins_lock-s-ceo-evaluation-rubric",
@@ -2443,6 +2655,32 @@
         "ins_peer-mentorship-supply-scaling"
       ],
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_meta-mcp-shrinks-creative-test-loop.md",
+      "title": "Meta's MCP endpoints for ad buying turn smaller advertisers into early winners",
+      "id": "ins_meta-mcp-shrinks-creative-test-loop",
+      "operator": "Eric Seufert",
+      "operator_role": "Mobile Dev Memo; growth and ad tech analyst",
+      "source_url": "https://mobiledevmemo.com/meta-q1-2026-earnings-33-ad-revenue-growth-mcp-support-for-ad-buying-agents/",
+      "source_type": "essay",
+      "source_title": "Meta Q1 2026 Earnings — 33% ad revenue growth, MCP support for ad-buying agents",
+      "source_date": "2026-04-30",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth",
+        "marketing-ops"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
     },
     {
       "path": "insights/ins_most-generous-interpretation.md",
@@ -2895,6 +3133,59 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_pin-workflows-to-capabilities-not-models.md",
+      "title": "Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot",
+      "id": "ins_pin-workflows-to-capabilities-not-models",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of Co-Intelligence",
+      "source_url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+      "source_type": "essay",
+      "source_title": "Sign of the Future — GPT-5.5",
+      "source_date": "2026-04-23",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "strategy"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_pm-design-handoff-collapse.md",
+      "title": "PM-to-design handoff is collapsing; PRDs ship with a working prototype attached",
+      "id": "ins_pm-design-handoff-collapse",
+      "operator": "Aakash Gupta",
+      "operator_role": "Product growth advisor, News from Aakash",
+      "source_url": "https://www.news.aakashg.com/p/claude-design",
+      "source_type": "essay",
+      "source_title": "Claude Design — the tool most PMs will be using in 6 months",
+      "source_date": "2026-04-24",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "product",
+        "ai-native",
+        "design-ux"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "ownership-org"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
       "path": "insights/ins_pm-prototype-or-be-bypassed.md",
       "title": "PMs who keep outsourcing first artifact will lose to PMs who arrive at design review with a working prototype",
       "id": "ins_pm-prototype-or-be-bypassed",
@@ -3010,6 +3301,32 @@
         "ins_innovation-is-a-choice"
       ],
       "raw_ref": "raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_position-against-real-not-ghost-competitors.md",
+      "title": "Stop positioning against ghost competitors customers don't actually consider",
+      "id": "ins_position-against-real-not-ghost-competitors",
+      "operator": "April Dunford",
+      "operator_role": "Positioning consultant, author of Obviously Awesome",
+      "source_url": "https://www.linkedin.com/in/aprildunford",
+      "source_type": "thread",
+      "source_title": "LinkedIn posts on positioning against real competitors and pitch splits",
+      "source_date": "2026-04-20",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
     },
     {
       "path": "insights/ins_post-training-as-the-moat.md",
@@ -3333,6 +3650,32 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_relevance-engineering-not-content-problem.md",
+      "title": "GEO is an information-retrieval engineering problem, not a content problem",
+      "id": "ins_relevance-engineering-not-content-problem",
+      "operator": "Mike King",
+      "operator_role": "Founder, iPullRank",
+      "source_url": "https://ipullrank.com/sel-search-marketer-of-the-year-2025",
+      "source_type": "talk",
+      "source_title": "Relevance Engineering — Zero Click SF keynote framing",
+      "source_date": "2026-04-08",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
       "path": "insights/ins_relevance-engineering-passage-level.md",
       "title": "The unit of optimization is the passage, not the page",
       "id": "ins_relevance-engineering-passage-level",
@@ -3540,6 +3883,33 @@
       "raw_ref": "raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.md"
     },
     {
+      "path": "insights/ins_sales-truth-stratified-not-bulk.md",
+      "title": "Stratify sales calls won/lost; AI does volume, humans pattern-match",
+      "id": "ins_sales-truth-stratified-not-bulk",
+      "operator": "Anthony Pierri",
+      "operator_role": "Co-founder, FletchPMM",
+      "source_url": "https://www.earlynode.com/newsletters/the-7-step-framework-for-writing-killer-homepage-messaging-with-anthony-pierri",
+      "source_type": "podcast",
+      "source_title": "The 7-Step Framework for Writing Killer Homepage Messaging",
+      "source_date": "2026-04-22",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "content"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "voc-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
       "path": "insights/ins_sameness-perception-is-the-differentiation-barrier.md",
       "title": "Buyers see \"sameness\" — test differentiators with external audiences before any campaign launch",
       "id": "ins_sameness-perception-is-the-differentiation-barrier",
@@ -3712,6 +4082,33 @@
         "ins_no-decision-is-the-real-competitor"
       ],
       "raw_ref": "raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_skill-as-unit-of-distribution.md",
+      "title": "The unit of distribution for operator expertise is the Skill, not the prompt",
+      "id": "ins_skill-as-unit-of-distribution",
+      "operator": "Kyle Poyar",
+      "operator_role": "Founder, Growth Unhinged; former OpenView",
+      "source_url": "https://www.growthunhinged.com/p/how-to-use-claude-for-gtm-and-pricing",
+      "source_type": "essay",
+      "source_title": "How to Use Claude for GTM and Pricing",
+      "source_date": "2026-04-29",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "tooling-config",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
     },
     {
       "path": "insights/ins_software-is-not-a-moat.md",
@@ -4093,6 +4490,31 @@
         "ins_engineers-with-product-taste"
       ],
       "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_training-targets-decision-friction.md",
+      "title": "Training works when it targets the exact decision friction blocking deals",
+      "id": "ins_training-targets-decision-friction",
+      "operator": "Rohit Shah",
+      "operator_role": "Sales enablement leader",
+      "source_url": "https://www.pclub.io/blog/sales-competency-analytics",
+      "source_type": "essay",
+      "source_title": "Sales Competency Analytics (quoted)",
+      "source_date": "2026-04-17",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
     },
     {
       "path": "insights/ins_transparency-in-uncertainty.md",
@@ -7710,6 +8132,15 @@
     }
   ],
   "raw_sources": [
+    {
+      "path": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
+      "path": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "raw/digests/miniu-ai-digest-2026-05-02.md"
+    },
     {
       "path": "raw/essays/aakash-gupta--claude-design-pm-collapse--2026-04-24.md",
       "source_type": "essay",
