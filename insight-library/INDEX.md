@@ -3,16 +3,16 @@
 _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 327 insight cards
+- 348 insight cards
 - 288 operator profiles
-- 113 raw source files
+- 133 raw source files
 - 24 synthesis patterns
 - 9 contradictions
 - 23 playbooks
 
 ## Insights by tier
 
-### Tier A (122)
+### Tier A (133)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
 - [`ins_aeo-decided-off-your-domain`](insights/ins_aeo-decided-off-your-domain.md) — AEO is decided off your domain — third-party mention density is the missing surface _(Brendan Hufford)_
@@ -28,6 +28,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_because-every-day-feels-aligned`](insights/ins_because-every-day-feels-aligned.md) — Because every day feels aligned with the life I actually want to live _(Kate Syuma)_
 - [`ins_below-absolutely-worth-studying-amanda`](insights/ins_below-absolutely-worth-studying-amanda.md) — The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job... _(Andreas Horn)_
 - [`ins_bottleneck-is-context-not-capability`](insights/ins_bottleneck-is-context-not-capability.md) — When the agent isn't doing what you want, fix the context — not the model _(Sherwin Wu)_
+- [`ins_brand-relevance-vs-preference`](insights/ins_brand-relevance-vs-preference.md) — Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant. _(David Aaker)_
 - [`ins_build-for-model-six-months-out`](insights/ins_build-for-model-six-months-out.md) — Build for the model six months out, not the one that ships today _(Boris Cherny)_
 - [`ins_build-for-next-model-not-current`](insights/ins_build-for-next-model-not-current.md) — Build for the model six months out — the current model will eat your scaffolding _(Sherwin Wu)_
 - [`ins_calibrated-questions-illusion-of-control`](insights/ins_calibrated-questions-illusion-of-control.md) — "How am I supposed to do that?" — give the other party the illusion of control and they solve your problem for you _(Chris Voss)_
@@ -36,8 +37,11 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_come-next-marketing-meetup-see`](insights/ins_come-next-marketing-meetup-see.md) — → Come to our next marketing meetup (see the picture - these are some of the lovely peo... _(Emil Kristensen)_
 - [`ins_company-house-foundation-beams-mechanicals`](insights/ins_company-house-foundation-beams-mechanicals.md) — A company is a house: foundation, supporting beams, mechanicals — install all three early _(Claire Hughes Johnson)_
 - [`ins_cross-functional-collaboration-world-where`](insights/ins_cross-functional-collaboration-world-where.md) — ► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the ce... _(Liza Adams)_
+- [`ins_cultural-branding-identity-myths`](insights/ins_cultural-branding-identity-myths.md) — Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths _(Doug Holt)_
+- [`ins_customer-led-growth-experience-map`](insights/ins_customer-led-growth-experience-map.md) — Map the journey by customer success milestones, not pipeline stages _(Georgiana Laudi)_
 - [`ins_dark-factory-pattern`](insights/ins_dark-factory-pattern.md) — The dark factory: nobody reads the code, gated by a simulated QA swarm _(Simon Willison)_
 - [`ins_date-diagnostic-framework`](insights/ins_date-diagnostic-framework.md) — Refuse the playbook ask — run DATE: Diagnose, Analyze, Take a different path, Experiment _(Krithika Shankarraman)_
+- [`ins_decoy-effect-pricing`](insights/ins_decoy-effect-pricing.md) — Add a strictly-worse third tier to make the premium tier look like the obvious choice _(Dan Ariely)_
 - [`ins_demand-creation-vs-capture`](insights/ins_demand-creation-vs-capture.md) — Stop optimizing for the 5% in-market; build preference with the 95% who aren't _(Chris Walker)_
 - [`ins_design-pie-chart-shifted`](insights/ins_design-pie-chart-shifted.md) — The design role's time mix shifted from 60% mocking to 30% mocking, 30% pairing, 20% code _(Jenny Wen)_
 - [`ins_different-better-and-matters`](insights/ins_different-better-and-matters.md) — Differentiation requires three checks: different, better, and matters viscerally to users _(Ayo Omojola)_
@@ -82,6 +86,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_llm-wiki-pattern`](insights/ins_llm-wiki-pattern.md) — An LLM should maintain a wiki, not re-derive knowledge per query _(Andrej Karpathy)_
 - [`ins_llms-are-new-os-agents-are-apps`](insights/ins_llms-are-new-os-agents-are-apps.md) — LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores _(Mark Petty)_
 - [`ins_long-term-holdouts-30-40-evaporate`](insights/ins_long-term-holdouts-30-40-evaporate.md) — 30–40% of growth experiments with short-term lift show no incremental value at one year _(Archie Abrams)_
+- [`ins_ltv-cac-ratio-and-cash-flow-trough`](insights/ins_ltv-cac-ratio-and-cash-flow-trough.md) — LTV ≥ 3× CAC, recover CAC in <12 months — and expect a multi-year cash flow trough before it pays off _(David Skok)_
 - [`ins_manager-skill-not-technical`](insights/ins_manager-skill-not-technical.md) — The unlock for AI agent productivity is management skill, not technical skill _(Claire Vo)_
 - [`ins_marginal-user-methodology`](insights/ins_marginal-user-methodology.md) — Design for the marginal user — the person on the cusp of converting in the worst conditions _(Adriel Frederick)_
 - [`ins_marketplace-liquidity-before-dynamics`](insights/ins_marketplace-liquidity-before-dynamics.md) — Pre-PMF, stop theorizing marketplace dynamics — pick the hardest side and nail liquidity _(Benjamin Lauzier)_
@@ -93,10 +98,13 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_no-oriented-questions`](insights/ins_no-oriented-questions.md) — Ask questions that earn a "No" — saying no makes people feel safe; being pushed for yes makes them defensive _(Chris Voss)_
 - [`ins_november-2025-coding-inflection`](insights/ins_november-2025-coding-inflection.md) — November 2025 was the qualitative threshold — coding agents now almost always do what you tell them _(Simon Willison)_
 - [`ins_old-game-to-new-game-narrative`](insights/ins_old-game-to-new-game-narrative.md) — Sell the world-shift, not the product comparison _(Andy Raskin)_
+- [`ins_one-percent-price-eight-percent-profit`](insights/ins_one-percent-price-eight-percent-profit.md) — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function _(Hermann Simon)_
 - [`ins_open-coding-then-axial-coding`](insights/ins_open-coding-then-axial-coding.md) — Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second _(Hamel Husain & Shreya Shankar)_
 - [`ins_original-research-as-link-bait`](insights/ins_original-research-as-link-bait.md) — Run one original-research study a year; it will out-link a year of weekly posts _(Andy Crestodina)_
+- [`ins_pain-of-paying`](insights/ins_pain-of-paying.md) — Every transaction inflicts psychological pain — design payment to decouple it from consumption _(Dan Ariely)_
 - [`ins_personal-pattern-hoarding`](insights/ins_personal-pattern-hoarding.md) — Hoard a personal repository of things that worked — coding agents will recombine them _(Simon Willison)_
 - [`ins_pmm-as-infrastructure-not-gate`](insights/ins_pmm-as-infrastructure-not-gate.md) — PMM is infrastructure that makes other functions faster, not a launch gate they wait on _(Elena Verna)_
+- [`ins_positioning-is-the-answer-not-the-work`](insights/ins_positioning-is-the-answer-not-the-work.md) — Positioning is the right answer (one statement), not the work (the 30-slide deck) _(Emily Kramer)_
 - [`ins_post-training-as-the-moat`](insights/ins_post-training-as-the-moat.md) — The economic moat in AI is post-training on proprietary data, not pre-training a base model _(Asha Sharma)_
 - [`ins_pov-led-outbound`](insights/ins_pov-led-outbound.md) — Lead with a per-account point of view, not a templated cold ask _(Chris Orlob)_
 - [`ins_prds-replaced-by-metrics-and-principles`](insights/ins_prds-replaced-by-metrics-and-principles.md) — Replace PRDs with weekly metrics readouts plus a written team-principles doc _(Cat Wu)_
@@ -122,8 +130,11 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_squeezed-pm-thesis`](insights/ins_squeezed-pm-thesis.md) — Claude Code multiplies engineers 2–3x; PM and design become the bottleneck _(Amol Avasare)_
 - [`ins_staff-archetypes-rotate-by-design`](insights/ins_staff-archetypes-rotate-by-design.md) — Staff engineering has four archetypes — two of them rotate across teams by design _(Will Larson)_
 - [`ins_starving-crowd-beats-offer`](insights/ins_starving-crowd-beats-offer.md) — Market choice (Starving Crowd) outranks offer strength, which outranks persuasion _(Alex Hormozi)_
+- [`ins_storybrand-customer-is-hero`](insights/ins_storybrand-customer-is-hero.md) — The customer is the hero. Your brand is the guide. If you confuse, you lose. _(Donald Miller)_
+- [`ins_system1-system2-thinking`](insights/ins_system1-system2-thinking.md) — Your initial intuition is a System 1 output, not an objective assessment _(Daniel Kahneman)_
 - [`ins_task-pull-out-pain-points`](insights/ins_task-pull-out-pain-points.md) — My task is to pull out the pain points and draft 3 positioning statements _(Sachin Jha)_
 - [`ins_there-were-plenty-lessons-too`](insights/ins_there-were-plenty-lessons-too.md) — There were plenty of lessons too. Startups are brutally hard — and pivot hell is the wo... _(Vedant Agarwala)_
+- [`ins_thinking-vs-doing-two-rooms`](insights/ins_thinking-vs-doing-two-rooms.md) — Close the execution door. Force prospects through the strategy door first. _(David C. Baker)_
 - [`ins_three-design-hiring-archetypes`](insights/ins_three-design-hiring-archetypes.md) — Hire across three archetypes: block-shape generalist, deep specialist, craft new-grad _(Jenny Wen)_
 - [`ins_three-divergent-pr-faqs`](insights/ins_three-divergent-pr-faqs.md) — Bring three divergent PR-FAQs to a strategy decision, not one _(Anuj Rathi)_
 - [`ins_top-performers-benefit-disproportionately`](insights/ins_top-performers-benefit-disproportionately.md) — AI tools widen the spread between top and bottom performers — invest in top performers _(Sherwin Wu)_
@@ -136,11 +147,12 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_years-ago-kind-research-took`](insights/ins_years-ago-kind-research-took.md) — 10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A... _(Kenny Damian)_
 - [`ins_zappos-rotation-through-support`](insights/ins_zappos-rotation-through-support.md) — Every new hire — including the CFO — does four weeks on the customer phones _(Tony Hsieh)_
 
-### Tier B (199)
+### Tier B (209)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
 - [`ins_3s-content-from-sales-success-support`](insights/ins_3s-content-from-sales-success-support.md) — Source content briefs from Sales, Success, and Support — not keyword tools _(Brendan Hufford)_
+- [`ins_95-5-rule-content-resonance`](insights/ins_95-5-rule-content-resonance.md) — Most content should serve the 95% who aren't buying yet, not the 5% who are _(Devin Reed)_
 - [`ins_advisor-tool-replaces-ensemble`](insights/ins_advisor-tool-replaces-ensemble.md) — Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates _(Cat Wu)_
 - [`ins_aeo-competes-for-mentions-not-rankings`](insights/ins_aeo-competes-for-mentions-not-rankings.md) — In SEO you compete for rankings; in AEO you compete for mentions _(Maja Voje)_
 - [`ins_aeo-is-gtm-capability`](insights/ins_aeo-is-gtm-capability.md) — AEO is a GTM capability, not an SEO experiment _(Maja Voje)_
@@ -155,6 +167,8 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_amateurs-give-advice-experts-diagnose`](insights/ins_amateurs-give-advice-experts-diagnose.md) — Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. _(Chris Do)_
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
 - [`ins_anonymous-benchmark-rescues-roi-evidence`](insights/ins_anonymous-benchmark-rescues-roi-evidence.md) — Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked _(Jason Oakley)_
+- [`ins_audience-community-product`](insights/ins_audience-community-product.md) — Audience first, Community second, Product last — and AI makes the inversion much faster _(Greg Isenberg)_
+- [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_battlecard-abc-and-distribution`](insights/ins_battlecard-abc-and-distribution.md) — Battlecard adoption fails on distribution, not content quality — embed in the workflow or the card dies _(Crayon)_
 - [`ins_because-don-know-how-make`](insights/ins_because-don-know-how-make.md) — Because I don’t know how to make them see I fit _(Gideon Harris)_
@@ -165,6 +179,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_below-few-examples-how-assess`](insights/ins_below-few-examples-how-assess.md) — Below are a few examples of how we assess AI fluency by role _(Wade Foster)_
 - [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop _(Hamel Husain & Shreya Shankar)_
 - [`ins_blog-as-knowledge-base-not-newsfeed`](insights/ins_blog-as-knowledge-base-not-newsfeed.md) — Reconceive the blog as a structured knowledge base, not a chronological feed _(Andy Crestodina)_
+- [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly — caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_business-typically-need-lot-features`](insights/ins_business-typically-need-lot-features.md) — (business typically need a lot of features which makes you a "thick wrapper" which is g... _(Yasser Elsaid)_
@@ -197,6 +212,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dotclaude-as-deployable-artifact`](insights/ins_dotclaude-as-deployable-artifact.md) — Treat `.claude/` as a deployable artifact with versioning and rollback _(Pawel Huryn)_
 - [`ins_early-stage-pmms-know-there`](insights/ins_early-stage-pmms-know-there.md) — Early-stage PMMs: I know there are a lot of us! What did I miss? _(Amulya Vadrevu)_
 - [`ins_embedded-entrepreneur`](insights/ins_embedded-entrepreneur.md) — Embed in the community before you build the product _(Arvid Kahl)_
+- [`ins_emotion-is-the-cornerstone`](insights/ins_emotion-is-the-cornerstone.md) — Emotion isn't a layer on top of persuasion — it IS the persuasion mechanism _(Eddie Shleyner)_
 - [`ins_engineers-with-product-taste`](insights/ins_engineers-with-product-taste.md) — Hire engineers with product taste rather than adding more PMs _(Cat Wu)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c... _(Seepiya Sahni)_
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
@@ -208,6 +224,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_four-bb-prioritization`](insights/ins_four-bb-prioritization.md) — Sort the roadmap into four buckets — Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad _(Anuj Rathi)_
 - [`ins_frontier-program-tiered-rollout`](insights/ins_frontier-program-tiered-rollout.md) — Run a Frontier cohort — early-adopter access to bleeding-edge features — in parallel with normal rollout _(Aparna Chennapragada)_
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla... _(Kevin White)_
+- [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside — build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s... _(Kaizad Hansotia)_
 - [`ins_growing-solutions-marketing-team-lovable`](insights/ins_growing-solutions-marketing-team-lovable.md) — I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀 _(Vikas Bhagat)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar... _(Dharmesh Shah)_
@@ -272,10 +289,12 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_position-against-real-not-ghost-competitors`](insights/ins_position-against-real-not-ghost-competitors.md) — Stop positioning against ghost competitors customers don't actually consider _(April Dunford)_
 - [`ins_positioning-is-a-business-identity-decision`](insights/ins_positioning-is-a-business-identity-decision.md) — Positioning is a business identity decision, not a marketing artifact _(Aatir Abdul Rauf)_
 - [`ins_positioning-not-messaging-not-copy`](insights/ins_positioning-not-messaging-not-copy.md) — Positioning, messaging, and copy are three distinct layers — collapsing them produces hollow output _(Aatir Abdul Rauf)_
+- [`ins_pricing-is-runway`](insights/ins_pricing-is-runway.md) — Doubling revenue per user is often more meaningful than doubling user count _(Elad Gil)_
 - [`ins_pricing-needs-weekly-customer-calls`](insights/ins_pricing-needs-weekly-customer-calls.md) — Without weekly customer calls, you don't have a pricing strategy — you have a guess _(Patrick Campbell)_
 - [`ins_problem-trying-solve-write-lot`](insights/ins_problem-trying-solve-write-lot.md) — The problem I'm trying to solve: I write a lot of content, but most of it reaches only ... _(Dharmesh Shah)_
 - [`ins_product-as-organism`](insights/ins_product-as-organism.md) — Treat the product as a living organism with a metabolism, not a shipped artifact _(Asha Sharma)_
 - [`ins_product-marketing-managers-gtm-one`](insights/ins_product-marketing-managers-gtm-one.md) — As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w... _(Victoria Penker)_
+- [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
 - [`ins_reasonable-ask-product-videos-classic`](insights/ins_reasonable-ask-product-videos-classic.md) — And it’s a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa... _(Alicia Carney)_
 - [`ins_rebaseline-quarterly-not-pin-to-snapshot`](insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md) — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot _(Ethan Mollick)_
@@ -322,6 +341,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l... _(Sulagna Das)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify — data informs understanding, not the reverse _(Bangaly Kaba)_
+- [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r... _(Hattie the PMM)_
 - [`ins_was-always-kind-awesome-now`](insights/ins_was-always-kind-awesome-now.md) — n8n was always kind of awesome, now - it's easy to use for everyone _(🇺🇦 Ilya Azovtsev - I help with SaaS Growth)_
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
@@ -336,6 +356,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price — the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight ... _(Nalin Senthamil)_
+- [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs — they're the only thing AI cannot replicate _(Dave Harland)_
 
 ### Tier C (6)
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
@@ -638,7 +659,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 ## Raw sources by type
 - **essay**: 22
 - **thread**: 1
-- **unknown**: 90
+- **unknown**: 110
 
 ## Synthesis patterns
 - [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle — presence, relevance, manual-action propagation (6 ops) [Tier A]

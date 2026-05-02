@@ -1,0 +1,20 @@
+---
+name: "Elad Gil"
+slug: elad-gil
+expertise: [cash-flow-management, financial-modeling-basics, monetization-timing, pricing-strategy, saas-unit-economics]
+perspective: "Poor cash management is the quickest way for startups to die young; confusing building a product with running a business is the fundamental error that kills otherwise thriving companies."
+credentials: "Serial entrepreneur (co-founder of Color Genomics and Mixer Labs), former VP at Twitter, early Google employee. Angel investor in Airbnb, Coinbase, Stripe, Square, Instacart, and others. Author of 'High Growth Handbook' (Stripe Press), one of the most widely-read startup scaling guides. Substack blog with tens of thousands of subscribers."
+sources_ingested:
+  - running-a-business-by-elad-gil-elad-blog.md
+  - elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups.md
+  - startup-decoupling-reckoning-by-elad-gil-elad-blog.md
+  - startup-markets-summer-2022-edition-by-elad-gil.md
+  - how-elad-gil-scaled-startups-insights-from-google-twitter-and-beyond-capitaly.md
+  - welcome-to-the-high-growth-handbook-high-growth-handbook.md
+---
+
+Elad Gil approaches startup finance and scaling from the perspective of an operator-investor who has watched companies fail despite having strong products. His central insight is that founders routinely confuse building a product with running a business, and that the two most common causes of startup death are founder conflicts and running out of cash. While the first is interpersonal, the second is entirely avoidable through disciplined financial management. Gil identifies five specific cash management mistakes: not raising enough money (closing only part of a round when momentum exists), overspending relative to stage (hiring teams larger than cash can support), sticking to "free" when the product should be monetized, bad pricing that leaves revenue on the table, and mismanaging cash flow and inventory turns.
+
+Gil's perspective on pricing is pragmatic rather than theoretical. He advocates for price segmentation as a lever for runway extension, citing VMware's early approach of offering "hobbyist" and "business" tiers without even enforcing the distinction. He argues that doubling revenue per user through smarter pricing can be far more meaningful to survival than doubling user count, and that founders should run spreadsheet models on pricing segmentation before defaulting to a single price point. He distinguishes between "free for scale" models that only work for network-effect businesses (social media, ads-supported) and products where monetization should be built in from day one. His critique of Silicon Valley's "get big then monetize" mantra is that it is thoughtlessly applied to products where it does not make sense, and that the aggregate data monetization model ("get big and sell data") almost always fails.
+
+What makes Gil particularly relevant for agency founders and GTM leaders is his macro-level analysis of startup financial cycles and how they create strategic opportunities. His writing on valuation resets, burn multiples, and the relationship between ARR growth and market cap provides concrete financial benchmarks: every $1B in market cap requires approximately $100-150M in revenue growing 30% year-over-year. He tracks how capital environment shifts (interest rate changes, money supply tightening) propagate from public to private markets with a 3-9 month lag, how they compress multiples from bubble-era 50-100x ARR back to historical 6-10x norms, and how this creates a reckoning for companies that raised at inflated valuations. His "default alive" and "default fundable" frameworks, drawn from Paul Graham, give founders concrete decision criteria for whether to cut costs, raise capital, pursue M&A, or shut down. Gil's advice on fundraising is equally tactical: have a hiring plan before fundraising (it determines your burn and how much you need), raise the full round when momentum exists rather than waiting for a "perfect moment," and begin fundraising with 4-6 months of runway remaining since the process takes 3 months.

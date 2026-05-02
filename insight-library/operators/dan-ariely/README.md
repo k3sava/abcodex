@@ -23,7 +23,9 @@ Dan Ariely provides the scientific foundation for understanding why customers ma
 - **Willingness To Pay Research**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_decoy-effect-pricing` — Add a strictly-worse third tier to make the premium tier look like the obvious choice [Tier A]
+- `ins_pain-of-paying` — Every transaction inflicts psychological pain — design payment to decouple it from consumption [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md` (artemis ingest)

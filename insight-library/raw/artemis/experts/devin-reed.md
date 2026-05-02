@@ -1,0 +1,18 @@
+---
+name: "Devin Reed"
+slug: devin-reed
+expertise: [b2b-content-playbooks, content-distribution-strategy, content-measurement, resonance-over-reach, thought-leadership-development]
+perspective: "Great B2B marketing is not about getting as many people as possible to see your message; it is about getting as many people in your market to see it, which means building for resonance with buyers, not popularity with everyone, and treating content as a revenue function, not a brand awareness exercise."
+credentials: "2x Head of Content at Gong (grew from $20M to $200M ARR) and Clari; founder of The Reeder (14,000+ newsletter subscribers); created Clari CEO's LinkedIn strategy generating 6.1M views in 12 months; SaaS advisor; speaker at Content Marketing World."
+sources_ingested:
+  - the-anti-viral-approach-building-sustainable-b2b-content-with-devin-reed-video.md
+  - unconventional-marketing-strategies-for-b2b-creators.md
+  - how-to-build-a-revenue-first-b2b-content-engine-dreamdata.md
+  - the-ultimate-linkedin-playbook-for-b2b-marketers-grow-influence-pipeline.md
+---
+
+Devin Reed's contribution to B2B content strategy is the explicit rejection of virality as a goal and the construction of repeatable, revenue-tied content playbooks. His anti-viral approach argues that sustainable B2B content is built on resonance with the specific people who will actually buy, not broad popularity metrics. He operationalizes this through the 95:5 Rule: at any given time, only 5% of your addressable market is actively in-market and ready to buy, while 95% are not looking to buy but are looking to learn. This ratio has profound implications for content strategy: most content should serve the 95% with educational, trust-building material, because when those people do enter the buying window, your brand has already earned their attention and trust. The 5% in-market should receive bottom-of-funnel content that directly supports the purchase decision.
+
+Reed's playbook methodology is grounded in his experience scaling content at Gong (from $20M to $200M ARR) and Clari. He developed channel-specific playbooks for Events, Webinars, LinkedIn Company Pages, Executive LinkedIn profiles, and Podcasts, each with step-by-step execution processes, templates, and measurement frameworks. His LinkedIn playbook for Clari's CEO generated 6.1 million views in 12 months using a systematic approach to executive thought leadership: consistent posting cadence, opinion-driven content that takes clear positions, personal storytelling mixed with professional insight, and strategic engagement with comments and connections. The key insight from this work is that executive LinkedIn presence is a content channel with measurable pipeline impact, not a vanity exercise.
+
+Reed's content-as-revenue framework ties every piece of content to business outcomes through five must-haves for B2B content strategy: a documented strategy signed off by stakeholders, audience clarity that goes beyond demographics to understand information needs and decision processes, a channel strategy based on where the audience actually consumes content, a measurement framework that connects content to pipeline and revenue (not just traffic and engagement), and a feedback loop between content and sales teams. His practical innovation is treating content programs like product programs: they have roadmaps, they ship features (content), they measure outcomes, and they iterate based on data. This product-thinking approach to content is a direct connection to the PLG frameworks in the Artemis knowledge base, where content functions as a growth lever rather than a cost center.

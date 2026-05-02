@@ -23,7 +23,8 @@ Emily Kramer's positioning philosophy is built on a single, sharp critique: most
 - **Positioning Comparator Selection**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_positioning-is-the-answer-not-the-work` — Positioning is the right answer (one statement), not the work (the 30-slide deck) [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-mkt1-guide-to-positioning.md` (artemis ingest)

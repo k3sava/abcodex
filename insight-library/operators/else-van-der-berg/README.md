@@ -24,7 +24,8 @@ Product coach who writes about practical AI-augmented product management workflo
 - **Claude Code Workflows**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_qual-quant-synthesis-claude-code` — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `synthesizing-qual-quant-and-strategy-with-claude-code-posthog-mcp.md` (artemis ingest)

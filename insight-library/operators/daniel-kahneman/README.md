@@ -21,7 +21,8 @@ Daniel Kahneman's foundational contribution is the two-system model of cognition
 - **Decision Quality Framework**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_system1-system2-thinking` — Your initial intuition is a System 1 output, not an objective assessment [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `daniel-kahneman-explains-the-machinery-of-thought.md` (artemis ingest)

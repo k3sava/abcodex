@@ -1,0 +1,20 @@
+---
+name: "David C. Baker"
+slug: david-c-baker
+expertise: [agency-positioning, client-acquisition-for-services, delivery-model-design, expertise-development, proposal-writing, scope-management, service-productization, value-based-pricing]
+perspective: "Expertise is the product of narrow positioning; insight flows from focus, and the less exchangeable you are, the higher the premium you command."
+credentials: "Author of 'The Business of Expertise'. Advisory and M&A for marketing firms via Punctuation (formerly ReCourses). Worked with 900+ firms over 30 years. Co-host of 2Bobs podcast with Blair Enns."
+sources_ingested:
+  - expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md
+  - david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md
+  - the-business-of-expertise-with-david-c-baker-agency-management-institute.md
+  - insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md
+  - david-c-baker-expert-agency-agency-profit-podcast.md
+  - thrive-your-agency-resource-podcast-by-kelly-campbell.md
+---
+
+David C. Baker is the leading authority on positioning, reinventing, and selling firms in the marketing, creative, and digital space. His central thesis, developed over three decades of advising 900+ firms, is that expertise is not invented but chosen: you look back at the work where you made money and moved the needle, identify five or six possible specializations, and then make the painful decision to pick one and say no to the rest. From that moment, your learning rate accelerates because concentrated focus reveals patterns invisible to generalists. Baker's frameworks are grounded in specific quantitative guardrails: a viable positioning should have 10 to 200 competitors (fewer means the niche is not viable, more means it is too crowded) and 2,000 to 10,000 reachable prospects. He emphasizes that about 85% of agencies niche vertically rather than horizontally.
+
+Baker draws a sharp distinction between "thinking" and "doing." The premium in professional services lives in the thinking, which is less interchangeable, while the doing is commodity implementation. His "two rooms" framework illustrates this: close the execution door and force prospects through the strategy door first. The first engagement should be a paid diagnostic or roadmap, typically 5-10% of total project value, that demonstrates how you think without giving away the specific recommendations for free. This solves the chronic agency problem of writing 80-page proposals that hand over the strategy, leaving the prospect to hire someone cheaper for execution. Baker's "55 Topics" technique is a practical method for building expertise: identify every question in your domain where you lack a carefully articulated point of view, write them down, and commit to developing and publishing a position on each. He funded this process by creating a paid publication (Persuading, $360/year) that generated $1M over four and a half years while forcing him to develop intellectual rigor.
+
+On organizational design, Baker advocates against the "bigger is better" myth. He observes that some of the most profitable, well-run firms are small (5-16 people), and that adding headcount often creates a machine that owners must feed rather than one that feeds them. His advice on staffing is to maintain a core team of full-time employees for strategy, account management, and project management, with an elastic team of contractors for skills-based implementation work. He warns against three common mistakes: relying on referrals (which spiral downward because early clients refer you to people who match your earlier, less-expert capabilities), letting clients slowly redesign your service offering, and operating from a scarcity mindset that prevents you from narrowing your focus. Baker counsels that positioning is about what you publicly seek, not what you privately accept. During the transition from generalist to specialist, you can keep taking the work you are currently doing while redirecting your messaging toward the niche you want to own.

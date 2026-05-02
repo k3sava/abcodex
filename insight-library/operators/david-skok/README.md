@@ -23,7 +23,8 @@ David Skok is the architect of the modern SaaS metrics framework. His contributi
 - **Pricing Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ltv-cac-ratio-and-cash-flow-trough` — LTV >= 3x CAC, recover CAC in <12 months — and expect a multi-year cash flow trough before it pays off [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md` (artemis ingest)

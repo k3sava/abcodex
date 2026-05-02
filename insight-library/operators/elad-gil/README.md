@@ -23,7 +23,8 @@ Elad Gil approaches startup finance and scaling from the perspective of an opera
 - **Pricing Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_pricing-is-runway` — Doubling revenue per user is often more meaningful than doubling user count [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `running-a-business-by-elad-gil-elad-blog.md` (artemis ingest)

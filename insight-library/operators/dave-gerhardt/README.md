@@ -23,7 +23,8 @@ Dave Gerhardt's central thesis is that B2B marketing suffers from a creativity d
 - **Marketing Org Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_b2b-movement-not-campaigns` — Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-drift-started-a-movement-to-achieve-hypergrowth-with-dave-gerhardt-chili-pip.md` (artemis ingest)

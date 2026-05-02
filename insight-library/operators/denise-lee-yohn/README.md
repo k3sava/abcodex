@@ -20,7 +20,8 @@ Denise Lee Yohn is the leading practitioner of brand-culture integration, having
 - **Brand Differentiation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_great-brands-start-inside` — Great brands start inside — build the culture first, let external messaging emerge from it [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `fusion-denise-lee-yohn.md` (artemis ingest)

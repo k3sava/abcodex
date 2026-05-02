@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T16:29:16.192Z",
+  "generated_at": "2026-05-02T16:37:13.426Z",
   "counts": {
-    "insights": 327,
+    "insights": 348,
     "operators": 288,
-    "raw_sources": 113,
+    "raw_sources": 133,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -120,6 +120,35 @@
         "ins_aeo-is-gtm-capability"
       ],
       "raw_ref": "raw/essays/brendan-hufford--3s-strategy--2026-04-25.md"
+    },
+    {
+      "path": "insights/ins_95-5-rule-content-resonance.md",
+      "title": "Most content should serve the 95% who aren't buying yet, not the 5% who are",
+      "id": "ins_95-5-rule-content-resonance",
+      "operator": "Devin Reed",
+      "operator_role": "Founder The Reeder; ex-Head of Content Gong & Clari",
+      "source_url": "https://thereeder.co/",
+      "source_type": "essay",
+      "source_title": "\"Devin Reed — anti-viral B2B content and the 95:5 rule\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_demand-creation-vs-capture"
+      ],
+      "raw_ref": "raw/artemis/experts/devin-reed.md"
     },
     {
       "path": "insights/ins_absolute-counts-over-conversion-rates.md",
@@ -908,6 +937,63 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_audience-community-product.md",
+      "title": "Audience first, Community second, Product last — and AI makes the inversion much faster",
+      "id": "ins_audience-community-product",
+      "operator": "Greg Isenberg",
+      "operator_role": "CEO Late Checkout; advisor to Reddit; host Startup Ideas Podcast",
+      "source_url": "https://www.latecheckout.studio/",
+      "source_type": "podcast",
+      "source_title": "\"Greg Isenberg — ACP framework: Audience, Community, Product\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "founder-operator",
+        "growth-demand",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "voc-research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_embedded-entrepreneur"
+      ],
+      "raw_ref": "raw/artemis/experts/greg-isenberg.md"
+    },
+    {
+      "path": "insights/ins_b2b-movement-not-campaigns.md",
+      "title": "Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't",
+      "id": "ins_b2b-movement-not-campaigns",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder & CEO Exit Five; ex-VP Marketing Drift; ex-CMO Privy",
+      "source_url": "https://www.exitfive.com/",
+      "source_type": "podcast",
+      "source_title": "\"Dave Gerhardt — three tenets of B2B marketing\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "positioning",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/dave-gerhardt.md"
+    },
+    {
       "path": "insights/ins_battle-cards-as-workflow-primitive.md",
       "title": "Battle cards become workflow primitives, not Notion pages",
       "id": "ins_battle-cards-as-workflow-primitive",
@@ -1265,6 +1351,60 @@
         "ins_llm-wiki-pattern"
       ],
       "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_brand-relevance-vs-preference.md",
+      "title": "Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant.",
+      "id": "ins_brand-relevance-vs-preference",
+      "operator": "David Aaker",
+      "operator_role": "Professor Emeritus UC Berkeley Haas; Vice Chairman Prophet; \"Father of Modern Branding\"",
+      "source_url": "https://prophet.com/",
+      "source_type": "book",
+      "source_title": "\"Brand Relevance — making competitors irrelevant\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/david-aaker.md"
+    },
+    {
+      "path": "insights/ins_brands-as-tribal-identifiers.md",
+      "title": "Brands are tribal identifiers. Loyalty is affiliative, not rational.",
+      "id": "ins_brands-as-tribal-identifiers",
+      "operator": "Debbie Millman",
+      "operator_role": "Host Design Matters; ex-President Sterling Brands; Chair SVA MFA in Branding",
+      "source_url": "https://debbiemillman.com/",
+      "source_type": "book",
+      "source_title": "\"Brand Thinking and Other Noble Pursuits — branding as 7,000-year-old tribal behavior\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design-ux"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/debbie-millman.md"
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -2101,6 +2241,63 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_cultural-branding-identity-myths.md",
+      "title": "Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths",
+      "id": "ins_cultural-branding-identity-myths",
+      "operator": "Doug Holt",
+      "operator_role": "Founder Cultural Strategy Group; ex-HBS and Oxford professor",
+      "source_url": "https://www.culturalstrategygroup.com/",
+      "source_type": "book",
+      "source_title": "\"How Brands Become Icons — Cultural Branding theory\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/doug-holt.md"
+    },
+    {
+      "path": "insights/ins_customer-led-growth-experience-map.md",
+      "title": "Map the journey by customer success milestones, not pipeline stages",
+      "id": "ins_customer-led-growth-experience-map",
+      "operator": "Georgiana Laudi",
+      "operator_role": "Co-founder Forget the Funnel; ex-VP Marketing Unbounce",
+      "source_url": "https://forgetthefunnel.com/",
+      "source_type": "book",
+      "source_title": "\"Forget the Funnel — Customer Experience Map and CLG\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth",
+        "pmm",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "onboarding-activation",
+        "retention"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_jtbd-switch-interview-saas"
+      ],
+      "raw_ref": "raw/artemis/experts/georgiana-laudi.md"
+    },
+    {
       "path": "insights/ins_dark-factory-pattern.md",
       "title": "The dark factory: nobody reads the code, gated by a simulated QA swarm",
       "id": "ins_dark-factory-pattern",
@@ -2244,6 +2441,33 @@
         "ins_3s-content-from-sales-success-support"
       ],
       "raw_ref": "raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md"
+    },
+    {
+      "path": "insights/ins_decoy-effect-pricing.md",
+      "title": "Add a strictly-worse third tier to make the premium tier look like the obvious choice",
+      "id": "ins_decoy-effect-pricing",
+      "operator": "Dan Ariely",
+      "operator_role": "James B. Duke Professor of Psychology and Behavioral Economics, Duke University",
+      "source_url": "https://danariely.com/",
+      "source_type": "book",
+      "source_title": "\"Predictably Irrational — Decoy Effect and Asymmetric Dominance\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/dan-ariely.md"
     },
     {
       "path": "insights/ins_delegation-one-hardest-skills-learn.md",
@@ -2771,6 +2995,35 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/artemis/experts/arvid-kahl.md"
+    },
+    {
+      "path": "insights/ins_emotion-is-the-cornerstone.md",
+      "title": "Emotion isn't a layer on top of persuasion — it IS the persuasion mechanism",
+      "id": "ins_emotion-is-the-cornerstone",
+      "operator": "Eddie Shleyner",
+      "operator_role": "Founder VeryGoodCopy; ex-Senior Copywriter G2",
+      "source_url": "https://verygoodcopy.com/",
+      "source_type": "essay",
+      "source_title": "\"Eddie Shleyner — emotion as the persuasion mechanism\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_20-percent-rule-headline"
+      ],
+      "raw_ref": "raw/artemis/experts/eddie-shleyner.md"
     },
     {
       "path": "insights/ins_engineers-with-product-taste.md",
@@ -3411,6 +3664,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_great-brands-start-inside.md",
+      "title": "Great brands start inside — build the culture first, let external messaging emerge from it",
+      "id": "ins_great-brands-start-inside",
+      "operator": "Denise Lee Yohn",
+      "operator_role": "Brand strategist; author What Great Brands Do and FUSION",
+      "source_url": "https://deniseleeyohn.com/",
+      "source_type": "book",
+      "source_title": "\"FUSION — integrating brand and culture\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "leadership",
+        "hiring"
+      ],
+      "lifecycle": [
+        "ownership-org",
+        "hiring-team-design",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/denise-lee-yohn.md"
     },
     {
       "path": "insights/ins_great-insight-precisely-why-shouldn.md",
@@ -4740,6 +5021,33 @@
       "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ltv-cac-ratio-and-cash-flow-trough.md",
+      "title": "LTV ≥ 3× CAC, recover CAC in <12 months — and expect a multi-year cash flow trough before it pays off",
+      "id": "ins_ltv-cac-ratio-and-cash-flow-trough",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; author of \"SaaS Metrics 2.0\"",
+      "source_url": "https://www.forentrepreneurs.com/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — LTV:CAC and the cash flow trough\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "growth",
+        "marketing-ops"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "planning-resourcing"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/david-skok.md"
+    },
+    {
       "path": "insights/ins_machine-customers-displace-storefront-interactions.md",
       "title": "By 2028, AI agent \"machine customers\" will replace 20% of human-readable storefront interactions",
       "id": "ins_machine-customers-displace-storefront-interactions",
@@ -5660,6 +5968,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_one-percent-price-eight-percent-profit.md",
+      "title": "A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function",
+      "id": "ins_one-percent-price-eight-percent-profit",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; \"the most influential management thinker in the German-speaking world\"",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — profit leverage of price\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy",
+        "marketing-ops"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "planning-resourcing"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/hermann-simon.md"
+    },
+    {
       "path": "insights/ins_open-coding-then-axial-coding.md",
       "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second",
       "id": "ins_open-coding-then-axial-coding",
@@ -5770,6 +6105,34 @@
         "ins_economic-turing-test-for-ai"
       ],
       "raw_ref": "raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_pain-of-paying.md",
+      "title": "Every transaction inflicts psychological pain — design payment to decouple it from consumption",
+      "id": "ins_pain-of-paying",
+      "operator": "Dan Ariely",
+      "operator_role": "Professor of Psychology and Behavioral Economics, Duke University",
+      "source_url": "https://danariely.com/",
+      "source_type": "book",
+      "source_title": "\"Dollars and Sense — the pain of paying\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "retention"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_decoy-effect-pricing"
+      ],
+      "raw_ref": "raw/artemis/experts/dan-ariely.md"
     },
     {
       "path": "insights/ins_pain-solution-proof-interleaved-pitch.md",
@@ -6215,6 +6578,33 @@
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
+      "path": "insights/ins_positioning-is-the-answer-not-the-work.md",
+      "title": "Positioning is the right answer (one statement), not the work (the 30-slide deck)",
+      "id": "ins_positioning-is-the-answer-not-the-work",
+      "operator": "Emily Kramer",
+      "operator_role": "Founder MKT1; ex-VP Marketing Asana and Carta",
+      "source_url": "https://www.mkt1.co/",
+      "source_type": "essay",
+      "source_title": "\"The MKT1 Guide to Positioning\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/emily-kramer.md"
+    },
+    {
       "path": "insights/ins_positioning-not-messaging-not-copy.md",
       "title": "Positioning, messaging, and copy are three distinct layers — collapsing them produces hollow output",
       "id": "ins_positioning-not-messaging-not-copy",
@@ -6328,6 +6718,32 @@
         "ins_engineers-with-product-taste"
       ],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_pricing-is-runway.md",
+      "title": "Doubling revenue per user is often more meaningful than doubling user count",
+      "id": "ins_pricing-is-runway",
+      "operator": "Elad Gil",
+      "operator_role": "Serial entrepreneur; angel investor; author High Growth Handbook",
+      "source_url": "https://blog.eladgil.com/",
+      "source_type": "essay",
+      "source_title": "\"Running a Business — Elad Gil\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/elad-gil.md"
     },
     {
       "path": "insights/ins_pricing-needs-weekly-customer-calls.md",
@@ -6526,6 +6942,34 @@
         "ins_manager-skill-not-technical"
       ],
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_qual-quant-synthesis-claude-code.md",
+      "title": "Data shows what; the why lives in qualitative context. Merge them in one AI conversation.",
+      "id": "ins_qual-quant-synthesis-claude-code",
+      "operator": "Else van der Berg",
+      "operator_role": "Product coach; Substack author at elsevanderberg.substack.com",
+      "source_url": "https://elsevanderberg.substack.com/",
+      "source_type": "essay",
+      "source_title": "\"Synthesizing qual/quant and strategy with Claude Code + PostHog MCP\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "product",
+        "ai-native",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "voc-research",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/else-van-der-berg.md"
     },
     {
       "path": "insights/ins_quality-as-growth-lever.md",
@@ -7830,6 +8274,33 @@
       "raw_ref": "raw/artemis/experts/bernadette-jiwa.md"
     },
     {
+      "path": "insights/ins_storybrand-customer-is-hero.md",
+      "title": "The customer is the hero. Your brand is the guide. If you confuse, you lose.",
+      "id": "ins_storybrand-customer-is-hero",
+      "operator": "Donald Miller",
+      "operator_role": "CEO StoryBrand / Business Made Simple; bestselling author",
+      "source_url": "https://storybrand.com/",
+      "source_type": "book",
+      "source_title": "\"Building a StoryBrand — 7-part BrandScript\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/donald-miller.md"
+    },
+    {
       "path": "insights/ins_suddenly-everyone-know-panicking-wondering.md",
       "title": "Suddenly everyone I know is panicking, wondering if their job disappears tomorrow",
       "id": "ins_suddenly-everyone-know-panicking-wondering",
@@ -7855,6 +8326,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_system1-system2-thinking.md",
+      "title": "Your initial intuition is a System 1 output, not an objective assessment",
+      "id": "ins_system1-system2-thinking",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Daniel_Kahneman",
+      "source_type": "book",
+      "source_title": "\"Thinking, Fast and Slow — System 1 and System 2\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/daniel-kahneman.md"
     },
     {
       "path": "insights/ins_systems-of-action-replace-seller-stack.md",
@@ -8163,6 +8661,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_thinking-vs-doing-two-rooms.md",
+      "title": "Close the execution door. Force prospects through the strategy door first.",
+      "id": "ins_thinking-vs-doing-two-rooms",
+      "operator": "David C. Baker",
+      "operator_role": "Author The Business of Expertise; M&A advisor for marketing firms (Punctuation)",
+      "source_url": "https://punctuation.com/",
+      "source_type": "book",
+      "source_title": "\"The Business of Expertise — thinking vs. doing\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "sales",
+        "leadership"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/david-c-baker.md"
     },
     {
       "path": "insights/ins_three-class-agent-taxonomy.md",
@@ -8659,6 +9184,33 @@
       "raw_ref": "raw/artemis/experts/alex-hormozi.md"
     },
     {
+      "path": "insights/ins_video-first-double-serp.md",
+      "title": "Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors.",
+      "id": "ins_video-first-double-serp",
+      "operator": "Gaetano DiNardi",
+      "operator_role": "Founder Marketing Advice; ex-VP Growth Marketing Nextiva",
+      "source_url": "https://gaetanodinardi.com/",
+      "source_type": "essay",
+      "source_title": "\"How Gaetano DiNardi builds demand generation engines\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/gaetano-dinardi.md"
+    },
+    {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
       "title": "If you want product marketing to drive revenue without sales involvement, you have to r...",
       "id": "ins_want-product-marketing-drive-revenue",
@@ -9066,6 +9618,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_write-like-you-speak.md",
+      "title": "Voice quirks aren't bugs — they're the only thing AI cannot replicate",
+      "id": "ins_write-like-you-speak",
+      "operator": "Dave Harland",
+      "operator_role": "Founder The Word Man; copywriter for Emirates, Jaguar, Nespresso, Red Bull, BBC",
+      "source_url": "https://www.thewordman.co.uk/",
+      "source_type": "essay",
+      "source_title": "\"Dave Harland — write like YOU speak (Artemis synthesis)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/dave-harland.md"
     },
     {
       "path": "insights/ins_years-ago-kind-research-took.md",
@@ -14502,6 +15081,380 @@
         "google-rewrites-61-of-page-title-tags-seo-study.md",
         "23-million-internal-links-seo-case-study.md",
         "introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/dan-ariely.md",
+      "name": "\"Dan Ariely\"",
+      "slug": "dan-ariely",
+      "expertise": [
+        "behavioral-pricing-psychology",
+        "plg-pricing-strategy",
+        "pricing-strategy",
+        "willingness-to-pay-research"
+      ],
+      "perspective": "\"Humans are predictably irrational; we cannot perceive absolute values, only relative ones, and every pricing decision is shaped by anchoring, decoy effects, the power of 'free,' and the pain of paying, all of which can be systematically exploited or mitigated through deliberate choice architecture.\"",
+      "credentials": "\"James B. Duke Professor of Psychology and Behavioral Economics at Duke University. Bestselling author of 'Predictably Irrational,' 'The Upside of Irrationality,' and 'Dollars and Sense.' Founded the Center for Advanced Hindsight. His research on irrational decision-making has been cited over 100,000 times and directly influenced pricing strategy across industries.\"",
+      "sources_ingested": [
+        "predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md",
+        "the-economist-magazine-a-story-of-clever-decoy-pricing-effect-the-strategy-story.md",
+        "a-behavioral-economist-breaks-down-the-pain-of-paying.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/daniel-kahneman.md",
+      "name": "\"Daniel Kahneman\"",
+      "slug": "daniel-kahneman",
+      "expertise": [
+        "cognitive-bias-management",
+        "decision-quality-framework"
+      ],
+      "perspective": "\"Human judgment is systematically flawed by predictable cognitive biases; the overconfident System 1 generates intuitions that System 2 is too lazy to override, and the result is that we are reliably wrong in identifiable patterns.\"",
+      "credentials": "\"Nobel laureate in Economics (2002) for work on prospect theory. Professor emeritus of psychology at Princeton University. Author of Thinking, Fast and Slow and co-author of Noise: A Flaw in Human Judgment. Pioneered behavioral economics with Amos Tversky. One of the most cited psychologists in history.\"",
+      "sources_ingested": [
+        "daniel-kahneman-explains-the-machinery-of-thought.md",
+        "system-1-and-system-2-thinking-the-decision-lab.md",
+        "daniel-kahneman-the-decision-lab.md",
+        "interview-with-daniel-kahneman.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/dave-gerhardt.md",
+      "name": "\"Dave Gerhardt\"",
+      "slug": "dave-gerhardt",
+      "expertise": [
+        "b2b-creative-strategy",
+        "brand-strategy-development",
+        "content-distribution-strategy",
+        "marketing-org-design"
+      ],
+      "perspective": "\"Brand is how you get people to know, like, and trust you before they buy; in B2B, your story IS your strategy, and the companies that win are the ones that build a movement around a point of view rather than just shipping campaigns.\"",
+      "credentials": "\"Founder and CEO of Exit Five (the largest private community for B2B marketers); former VP Marketing at Drift ($1B exit) and CMO at Privy ($100M+ exit); host of the B2B Marketing with Dave Gerhardt podcast; built DGMG into a media brand for B2B marketing education.\"",
+      "sources_ingested": [
+        "how-drift-started-a-movement-to-achieve-hypergrowth-with-dave-gerhardt-chili-pip.md",
+        "atreo-the-movement-design-agency-for-b2b-tech.md",
+        "dave-gerhardts-3-tenets-of-b2b-marketing-formstack-blog.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/dave-harland.md",
+      "name": "\"Dave Harland\"",
+      "slug": "dave-harland",
+      "expertise": [
+        "conversion-web-copywriting",
+        "brand-voice",
+        "content-quality-standards"
+      ],
+      "perspective": "\"Standing out requires sounding like nobody else. Write like YOU speak, not how people generally speak. Your quirks are your competitive advantage. People don't want to know how proud you are of your company. They want to know how you'll change their life.\"",
+      "credentials": "\"Founder of The Word Man; creative copywriter for Emirates, Jaguar, Nespresso, Red Bull, BBC, and other major brands. Known as one of LinkedIn's most distinctive voices on B2B copywriting. Specialist in brand voice and personality-driven commercial copy.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/david-aaker.md",
+      "name": "\"David Aaker\"",
+      "slug": "david-aaker",
+      "expertise": [
+        "brand-equity-modeling",
+        "brand-architecture",
+        "brand-strategy-development",
+        "brand-differentiation",
+        "brand-measurement"
+      ],
+      "perspective": "\"The only way to achieve real growth is to develop offerings so innovative that they create new categories or subcategories, making competitors irrelevant. Brand relevance, not brand preference, is the path to market leadership. Stop competing on being better; compete on being the only relevant option.\"",
+      "credentials": "\"Professor Emeritus at UC Berkeley's Haas School of Business. Vice Chairman of Prophet, a global brand and marketing consultancy. Author of 18 books including 'Managing Brand Equity,' 'Building Strong Brands,' 'Brand Relevance,' 'Aaker on Branding,' and 'Brand Portfolio Strategy.' Often called the 'Father of Modern Branding.' His Brand Equity Model is taught in virtually every MBA marketing program worldwide. Received the Paul D. Converse Award for outstanding contributions to marketing.\"",
+      "sources_ingested": [
+        "aaker-brand-equity-model-fourweekmba.md",
+        "brand-preference-vs-brand-relevance-2-ways-to-compete-aaker-on-brands.md",
+        "david-aaker-outlines-how-brand-relevance-can-help-firms-become-leaders-in-new-pr.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/david-c-baker.md",
+      "name": "\"David C. Baker\"",
+      "slug": "david-c-baker",
+      "expertise": [
+        "agency-positioning",
+        "client-acquisition-for-services",
+        "delivery-model-design",
+        "expertise-development",
+        "proposal-writing",
+        "scope-management",
+        "service-productization",
+        "value-based-pricing"
+      ],
+      "perspective": "\"Expertise is the product of narrow positioning; insight flows from focus, and the less exchangeable you are, the higher the premium you command.\"",
+      "credentials": "\"Author of 'The Business of Expertise'. Advisory and M&A for marketing firms via Punctuation (formerly ReCourses). Worked with 900+ firms over 30 years. Co-host of 2Bobs podcast with Blair Enns.\"",
+      "sources_ingested": [
+        "expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md",
+        "david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md",
+        "the-business-of-expertise-with-david-c-baker-agency-management-institute.md",
+        "insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md",
+        "david-c-baker-expert-agency-agency-profit-podcast.md",
+        "thrive-your-agency-resource-podcast-by-kelly-campbell.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/david-skok.md",
+      "name": "\"David Skok\"",
+      "slug": "david-skok",
+      "expertise": [
+        "saas-unit-economics",
+        "saas-benchmarking",
+        "revenue-milestone-planning",
+        "pricing-strategy",
+        "financial-modeling-basics"
+      ],
+      "perspective": "\"A SaaS business is only viable if the lifetime value of a customer significantly exceeds the cost to acquire them; the 3:1 LTV:CAC ratio and months-to-recover-CAC are the two metrics that determine long-term profitability and growth potential.\"",
+      "credentials": "\"Serial entrepreneur turned VC, General Partner at Matrix Partners. Five-time entrepreneur with four successful exits. His blog forEntrepreneurs.com is the definitive reference for SaaS metrics and unit economics, read by hundreds of thousands of founders and investors. His 'SaaS Metrics 2.0' post is arguably the single most influential piece of SaaS business writing ever published.\"",
+      "sources_ingested": [
+        "saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md",
+        "saas-economics-part-1-the-saas-cash-flow-trough-for-entrepreneurs.md",
+        "saas-economics-part-2-scaling-the-business-for-entrepreneurs.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/debbie-millman.md",
+      "name": "\"Debbie Millman\"",
+      "slug": "debbie-millman",
+      "expertise": [
+        "visual-identity-strategy",
+        "brand-strategy-development",
+        "brand-narrative-construction",
+        "brand-differentiation"
+      ],
+      "perspective": "\"Branding is simply a fancy word for communication. But it is a deeply human act rooted in 7,000 years of humans marking, organizing, and signaling who they are and where they belong. Brands are tribal identifiers. We don't buy products; we buy into what they represent about our identity, our values, and our place in the world.\"",
+      "credentials": "\"Host and founder of Design Matters, the first and longest-running podcast about design (20+ years, 500+ episodes). Former President of the design division at Sterling Brands, where she redesigned over 200 global brands including Pepsi, Burger King, Colgate, Nestlé, Campbell's, and Hasbro. Author of seven books including 'Brand Thinking and Other Noble Pursuits,' 'How to Think Like a Great Graphic Designer,' and 'Why Design Matters.' Chair of the School of Visual Arts MFA in Branding program. Named one of the most creative people in business by Fast Company and one of the most influential designers working today by Graphic Design USA.\"",
+      "sources_ingested": [
+        "design-discussions-debbie-millman-on-brand-thinking-idsgn-a-design-blog.md",
+        "books-writing-debbie-millman.md",
+        "unlock-creativity-and-purpose-with-debbie-millman-marketing-speak.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/denise-lee-yohn.md",
+      "name": "\"Denise Lee Yohn\"",
+      "slug": "denise-lee-yohn",
+      "expertise": [
+        "brand-culture-fusion",
+        "brand-strategy-development",
+        "brand-differentiation"
+      ],
+      "perspective": "\"Great brands start inside. The most powerful competitive advantage comes not from your external brand identity or your internal culture alone, but from fusing the two into a single, interdependent system. When what you do on the inside matches what you say on the outside, you become unstoppable.\"",
+      "credentials": "\"Author of 'What Great Brands Do: The Seven Brand-Building Principles that Separate the Best from the Rest' and 'FUSION: How Integrating Brand and Culture Powers the World's Greatest Companies.' Twenty-five years of consulting work with top brands including Frito-Lay, Sony, Nautica, Burger King, Jack in the Box, and Zimmer Biomet. Named one of the world's leading brand experts by multiple industry surveys. Regular contributor to Harvard Business Review, Forbes, and Fast Company.\"",
+      "sources_ingested": [
+        "fusion-denise-lee-yohn.md",
+        "what-great-brands-do-book-author-brand-strategy-denise-lee-yohn.md",
+        "great-brands-start-inside-denise-lee-yohn.md",
+        "denise-lee-yohn-the-fusion-formula-brand-culture-results.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/devin-reed.md",
+      "name": "\"Devin Reed\"",
+      "slug": "devin-reed",
+      "expertise": [
+        "b2b-content-playbooks",
+        "content-distribution-strategy",
+        "content-measurement",
+        "resonance-over-reach",
+        "thought-leadership-development"
+      ],
+      "perspective": "\"Great B2B marketing is not about getting as many people as possible to see your message; it is about getting as many people in your market to see it, which means building for resonance with buyers, not popularity with everyone, and treating content as a revenue function, not a brand awareness exercise.\"",
+      "credentials": "\"2x Head of Content at Gong (grew from $20M to $200M ARR) and Clari; founder of The Reeder (14,000+ newsletter subscribers); created Clari CEO's LinkedIn strategy generating 6.1M views in 12 months; SaaS advisor; speaker at Content Marketing World.\"",
+      "sources_ingested": [
+        "the-anti-viral-approach-building-sustainable-b2b-content-with-devin-reed-video.md",
+        "unconventional-marketing-strategies-for-b2b-creators.md",
+        "how-to-build-a-revenue-first-b2b-content-engine-dreamdata.md",
+        "the-ultimate-linkedin-playbook-for-b2b-marketers-grow-influence-pipeline.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/donald-miller.md",
+      "name": "\"Donald Miller\"",
+      "slug": "donald-miller",
+      "expertise": [
+        "storybrand-framework",
+        "brand-narrative-construction",
+        "storytelling-for-business",
+        "homepage-messaging-framework"
+      ],
+      "perspective": "\"People don't buy the best products; they buy the products they can understand the fastest. If you confuse, you lose. The customer is the hero, not your brand. Your brand is the guide.\"",
+      "credentials": "\"CEO of StoryBrand (now part of the Business Made Simple platform). New York Times bestselling author of 'Building a StoryBrand' and 'Marketing Made Simple.' His StoryBrand framework has been used by more than 500,000 businesses. Built the StoryBrand Certified Guide network of marketing professionals.\"",
+      "sources_ingested": [
+        "the-storybrand-7-part-framework-your-complete-guide-to-a-clearer-message.md",
+        "book-summary-building-a-storybrand-donald-miller.md",
+        "3-easy-steps-to-your-own-storybrand-one-liner-by-donald-miller.md",
+        "donald-miller-building-a-storybrand-complete-guide-shortform-books.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/doug-holt.md",
+      "name": "\"Doug Holt\"",
+      "slug": "doug-holt",
+      "expertise": [
+        "brand-differentiation",
+        "brand-measurement",
+        "brand-narrative-construction",
+        "brand-strategy-development",
+        "cultural-branding"
+      ],
+      "perspective": "\"Iconic brands are not built through benefits, personalities, or emotional connections. They succeed by forging deep connections with culture, creating identity myths that soothe collective anxieties arising from acute social change.\"",
+      "credentials": "\"Former professor at Harvard Business School and L'Oreal Chair of Marketing at Oxford. Author of 'How Brands Become Icons' and co-author of 'Cultural Strategy.' Founder of the Cultural Strategy Group. Has built brand strategies for Coca-Cola, Jack Daniel's, Patagonia, REI, SONOS, Converse, Huawei, and Purina.\"",
+      "sources_ingested": [
+        "branding-in-the-age-of-social-media.md",
+        "dont-just-innovate-challenge-everyday-notions-of-value.md",
+        "what-becomes-an-icon-most.md",
+        "doug-holts-cultural-branding-framework-john-maedas-blog.md",
+        "douglas-holt-cultural-branding-cultural-strategy-cultural-innovation.md",
+        "the-next-revolution-in-brandingcultural-branding-rheakaiser.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/eddie-shleyner.md",
+      "name": "\"Eddie Shleyner\"",
+      "slug": "eddie-shleyner",
+      "expertise": [
+        "conversion-web-copywriting",
+        "landing-page-optimization",
+        "content-quality-standards"
+      ],
+      "perspective": "\"Emotion is the cornerstone of persuasion. Spend 80% of your time on the headline. Write with feeling, not with formulas. The best copy is written by people who actually care about what they are writing.\"",
+      "credentials": "\"Founder of VeryGoodCopy; former Senior Copywriter at G2 where he achieved 60%+ conversion rates on landing pages; has written for Gong, Amplitude, Justin Welsh, and other high-growth SaaS companies. Teaches micro-lessons on copywriting craft to 100K+ subscribers.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/elad-gil.md",
+      "name": "\"Elad Gil\"",
+      "slug": "elad-gil",
+      "expertise": [
+        "cash-flow-management",
+        "financial-modeling-basics",
+        "monetization-timing",
+        "pricing-strategy",
+        "saas-unit-economics"
+      ],
+      "perspective": "\"Poor cash management is the quickest way for startups to die young; confusing building a product with running a business is the fundamental error that kills otherwise thriving companies.\"",
+      "credentials": "\"Serial entrepreneur (co-founder of Color Genomics and Mixer Labs), former VP at Twitter, early Google employee. Angel investor in Airbnb, Coinbase, Stripe, Square, Instacart, and others. Author of 'High Growth Handbook' (Stripe Press), one of the most widely-read startup scaling guides. Substack blog with tens of thousands of subscribers.\"",
+      "sources_ingested": [
+        "running-a-business-by-elad-gil-elad-blog.md",
+        "elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups.md",
+        "startup-decoupling-reckoning-by-elad-gil-elad-blog.md",
+        "startup-markets-summer-2022-edition-by-elad-gil.md",
+        "how-elad-gil-scaled-startups-insights-from-google-twitter-and-beyond-capitaly.md",
+        "welcome-to-the-high-growth-handbook-high-growth-handbook.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/else-van-der-berg.md",
+      "name": "\"Else van der Berg\"",
+      "slug": "else-van-der-berg",
+      "expertise": [
+        "product-management",
+        "product-analytics",
+        "user-research",
+        "claude-code-workflows"
+      ],
+      "perspective": "\"Data shows what is happening, never why — the why lives in qualitative context, and AI tools that merge both are transformative\"",
+      "credentials": "\"Product coach, 50+ teams coached over 4 years, Substack author\"",
+      "followed": "true",
+      "content_type": [
+        "substack"
+      ],
+      "sources_ingested": [
+        "synthesizing-qual-quant-and-strategy-with-claude-code-posthog-mcp.md"
+      ],
+      "home_url": "\"https://elsevanderberg.substack.com\""
+    },
+    {
+      "path": "raw/artemis/experts/emily-kramer.md",
+      "name": "\"Emily Kramer\"",
+      "slug": "emily-kramer",
+      "expertise": [
+        "audience-segmentation",
+        "customer-research-for-ads",
+        "marketing-org-design",
+        "positioning-comparator-selection",
+        "positioning-development",
+        "product-category-strategy"
+      ],
+      "perspective": "\"Positioning is about producing the right answer — a clear comparison — not about showing your work; most companies get lost in the research and never synthesize it into a simple, differentiated statement.\"",
+      "credentials": "\"Founder of MKT1; former VP Marketing at Asana and Carta; writes the MKT1 Newsletter, one of the most widely-read B2B marketing newsletters.\"",
+      "sources_ingested": [
+        "the-mkt1-guide-to-positioning.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/gaetano-dinardi.md",
+      "name": "\"Gaetano DiNardi\"",
+      "slug": "gaetano-dinardi",
+      "expertise": [
+        "b2b-creative-strategy",
+        "content-seo",
+        "demand-creation-vs-capture",
+        "content-distribution-strategy"
+      ],
+      "perspective": "\"Great demand generation is lead quality, not lead volume; you dominate your niche by producing the best educational content, owning review site presence, and building a video-first content engine that double-occupies SERP real estate.\"",
+      "credentials": "\"Founder of Marketing Advice (B2B SaaS growth consultancy); former VP of Growth Marketing at Nextiva and Head of Growth at Salesforce/Cognism; contributor to CXL, G2, and Advanced Web Ranking; specialist in SEO-driven demand generation for B2B SaaS.\"",
+      "sources_ingested": [
+        "future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md",
+        "how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md",
+        "b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/georgiana-laudi.md",
+      "name": "\"Georgiana Laudi\"",
+      "slug": "georgiana-laudi",
+      "expertise": [
+        "customer-interview-for-positioning",
+        "customer-led-growth",
+        "experience-mapping",
+        "growth-model-design",
+        "jobs-to-be-done-for-saas"
+      ],
+      "perspective": "\"Growth strategy should be built on customer success milestones, not business metrics; map the experience from problem awareness through expansion, measure what matters to customers, and the business metrics will follow.\"",
+      "credentials": "\"Co-founder of Forget the Funnel, co-author of 'Forget the Funnel: A Customer-Led Approach for Driving Predictable, Recurring Revenue,' former VP Marketing at Unbounce, created the Customer Experience Mapping methodology, consultant to 200+ SaaS companies\"",
+      "sources_ingested": [
+        "what-is-customer-led-growth-and-how-its-different-from-plg-slg-etc.md",
+        "one-knight-in-product-moving-to-customer-led-growth-by-forgetting-the-funnel-wit.md",
+        "georgiana-laudi-claire-suellentrop.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/greg-isenberg.md",
+      "name": "\"Greg Isenberg\"",
+      "slug": "greg-isenberg",
+      "expertise": [
+        "ai-agency-business-model",
+        "ai-gtm-motion-design",
+        "community-led-growth",
+        "ai-business-models",
+        "ai-product-strategy"
+      ],
+      "perspective": "\"Products can be copied but communities cannot -- the winning startup playbook inverts the traditional sequence to Audience first, Community second, Product last, and AI makes this inversion dramatically faster and cheaper to execute.\"",
+      "credentials": "\"CEO of Late Checkout (community-focused product studio), previously built and sold startup for $10M, advisor to Reddit, investor in community-driven businesses, host of Startup Ideas Podcast (100K+ subscribers)\"",
+      "sources_ingested": [
+        "how-to-become-an-idea-machine-greg-isenberg.md",
+        "find-winning-startup-ideas-from-ai-and-data-greg-isenberg.md",
+        "greg-isenbergs-4-step-framework-to-build-audiences-in-2025.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/hermann-simon.md",
+      "name": "\"Hermann Simon\"",
+      "slug": "hermann-simon",
+      "expertise": [
+        "pricing-strategy",
+        "behavioral-pricing-psychology",
+        "value-based-pricing",
+        "willingness-to-pay-research"
+      ],
+      "perspective": "\"Price is the most powerful profit lever and the most neglected; a 1% price increase drives 8-11% profit improvement, yet most companies lack a formal pricing process, a pricing department, or even a pricing-literate CEO.\"",
+      "credentials": "\"Founder and Honorary Chairman of Simon-Kucher & Partners, the world's largest pricing consultancy (1,800+ professionals, 40+ offices globally). Former professor at University of Mainz and visiting professor at Harvard, Stanford, and MIT. Author of 'Confessions of the Pricing Man,' 'Power Pricing,' and 'Price Management.' Named the most influential management thinker in the German-speaking world. Has advised hundreds of Fortune 500 companies on pricing.\"",
+      "sources_ingested": [
+        "book-summary-confessions-of-the-pricing-man-by-hermann-simon.md",
+        "pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md",
+        "pricing-for-profit-best-practices-in-price-management.md"
       ]
     },
     {

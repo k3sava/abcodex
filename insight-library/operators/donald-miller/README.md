@@ -23,7 +23,8 @@ Donald Miller is the creator of the StoryBrand Framework, the most widely adopte
 - **Homepage Messaging Framework**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_storybrand-customer-is-hero` — The customer is the hero. Your brand is the guide. If you confuse, you lose. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-storybrand-7-part-framework-your-complete-guide-to-a-clearer-message.md` (artemis ingest)

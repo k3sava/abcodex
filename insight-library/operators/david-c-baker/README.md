@@ -23,7 +23,8 @@ David C. Baker is the leading authority on positioning, reinventing, and selling
 - **Expertise Development**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_thinking-vs-doing-two-rooms` — Close the execution door. Force prospects through the strategy door first. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md` (artemis ingest)

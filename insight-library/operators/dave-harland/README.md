@@ -22,7 +22,8 @@ Dave Harland (The Word Man) builds his practice on a single conviction: the bran
 - **Content Quality Standards**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_write-like-you-speak` — Voice quirks aren't bugs — they're the only thing AI cannot replicate [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

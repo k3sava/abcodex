@@ -23,7 +23,8 @@ Georgiana Laudi is the architect of Customer-Led Growth (CLG) as a strategic fra
 - **Growth Model Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_customer-led-growth-experience-map` — Map the journey by customer success milestones, not pipeline stages [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `what-is-customer-led-growth-and-how-its-different-from-plg-slg-etc.md` (artemis ingest)

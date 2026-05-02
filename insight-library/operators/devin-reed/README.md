@@ -22,7 +22,8 @@ Devin Reed's contribution to B2B content strategy is the explicit rejection of v
 - **Resonance Over Reach**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_95-5-rule-content-resonance` — Most content should serve the 95% who aren't buying yet, not the 5% who are [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `the-anti-viral-approach-building-sustainable-b2b-content-with-devin-reed-video.md` (artemis ingest)

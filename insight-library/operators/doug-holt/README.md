@@ -21,7 +21,8 @@ Douglas Holt is the originator of Cultural Branding Theory and the Cultural Stra
 - **Brand Strategy Development**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_cultural-branding-identity-myths` — Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `branding-in-the-age-of-social-media.md` (artemis ingest)

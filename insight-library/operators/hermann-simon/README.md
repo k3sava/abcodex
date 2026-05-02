@@ -22,7 +22,8 @@ Hermann Simon is the founding figure of professional pricing practice. While oth
 - **Willingness To Pay Research**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_one-percent-price-eight-percent-profit` — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `book-summary-confessions-of-the-pricing-man-by-hermann-simon.md` (artemis ingest)

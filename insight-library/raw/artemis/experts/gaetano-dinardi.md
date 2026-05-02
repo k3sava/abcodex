@@ -1,0 +1,17 @@
+---
+name: "Gaetano DiNardi"
+slug: gaetano-dinardi
+expertise: [b2b-creative-strategy, content-seo, demand-creation-vs-capture, content-distribution-strategy]
+perspective: "Great demand generation is lead quality, not lead volume; you dominate your niche by producing the best educational content, owning review site presence, and building a video-first content engine that double-occupies SERP real estate."
+credentials: "Founder of Marketing Advice (B2B SaaS growth consultancy); former VP of Growth Marketing at Nextiva and Head of Growth at Salesforce/Cognism; contributor to CXL, G2, and Advanced Web Ranking; specialist in SEO-driven demand generation for B2B SaaS."
+sources_ingested:
+  - future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md
+  - how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md
+  - b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md
+---
+
+Gaetano DiNardi's approach to B2B demand generation is built on a single operating principle: if a piece of content does not have a keyword-oriented opportunity behind it, do not publish it. This filter, applied ruthlessly at Nextiva and across his consulting clients, ensures that every piece of content serves a discoverable, intent-backed purpose rather than adding to the noise. His demand generation philosophy rejects the complex funnel-building approach that most startups default to (MQLs, automated nurture sequences, multi-touch attribution) in favor of a simpler system: produce the best educational content in your niche, be prominently represented on all review sites where competitors are discussed, and build landing pages and affiliate pages that convert while letting blog content do what it does best, which is educate the market and grab mindshare.
+
+DiNardi's most distinctive tactical contribution is his video-first content strategy. At Nextiva, he identified that no competitor was producing quality video content, so he went all-in on YouTube SEO. The operational workflow is systematic: produce a video, create a corresponding blog post where the video is embedded, link from the YouTube description back to the article, then repurpose the video for organic social, paid ads, and YouTube pre-roll. The measurable outcome is double SERP occupancy, where both the video and the article rank for the same keyword, effectively taking two of the ten organic positions away from competitors. This connects to Julian Shapiro's persistence channel concept: YouTube and SEO are both compounding channels where each piece of content builds on prior authority.
+
+His decision logic for content investment distinguishes between "silent distribution" content and promotional content. Most B2B content is not "sexy" enough to warrant a rigorous promotional strategy, so the majority of output should be optimized for search discovery and left to accumulate traffic from people who need it. Average time on page and subsequent content engagement are the primary quality signals, not social shares or lead form fills. DiNardi explicitly argues that blog posts almost never directly drive purchases, and marketers who measure blog ROI by conversions are misunderstanding the role of content in the demand generation system. He also advocates for marketing sprints over bloated quarterly plans, preferring rapid two-week cycles of content production and measurement to the traditional plan-produce-promote-measure quarterly cadence that most B2B teams follow.

@@ -23,7 +23,8 @@ Greg Isenberg's core framework is ACP (Audience, Community, Product), which inve
 - **Ai Business Models**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_audience-community-product` — Audience first, Community second, Product last — and AI makes the inversion much faster [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-to-become-an-idea-machine-greg-isenberg.md` (artemis ingest)

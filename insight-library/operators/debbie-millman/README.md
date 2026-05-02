@@ -23,7 +23,8 @@ Debbie Millman is the most prominent figure at the intersection of design, brand
 - **Brand Differentiation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_brands-as-tribal-identifiers` — Brands are tribal identifiers. Loyalty is affiliative, not rational. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `design-discussions-debbie-millman-on-brand-thinking-idsgn-a-design-blog.md` (artemis ingest)

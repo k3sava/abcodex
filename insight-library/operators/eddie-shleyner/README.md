@@ -22,7 +22,8 @@ Eddie Shleyner's approach to copywriting is built on the conviction that emotion
 - **Content Quality Standards**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_emotion-is-the-cornerstone` — Emotion isn't a layer on top of persuasion — it IS the persuasion mechanism [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

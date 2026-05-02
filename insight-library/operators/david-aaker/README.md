@@ -22,7 +22,8 @@ David Aaker is the most influential academic in the history of brand management,
 - **Brand Differentiation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_brand-relevance-vs-preference` — Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `aaker-brand-equity-model-fourweekmba.md` (artemis ingest)

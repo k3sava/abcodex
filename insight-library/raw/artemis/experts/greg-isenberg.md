@@ -1,0 +1,17 @@
+---
+name: "Greg Isenberg"
+slug: greg-isenberg
+expertise: [ai-agency-business-model, ai-gtm-motion-design, community-led-growth, ai-business-models, ai-product-strategy]
+perspective: "Products can be copied but communities cannot -- the winning startup playbook inverts the traditional sequence to Audience first, Community second, Product last, and AI makes this inversion dramatically faster and cheaper to execute."
+credentials: "CEO of Late Checkout (community-focused product studio), previously built and sold startup for $10M, advisor to Reddit, investor in community-driven businesses, host of Startup Ideas Podcast (100K+ subscribers)"
+sources_ingested:
+  - how-to-become-an-idea-machine-greg-isenberg.md
+  - find-winning-startup-ideas-from-ai-and-data-greg-isenberg.md
+  - greg-isenbergs-4-step-framework-to-build-audiences-in-2025.md
+---
+
+Greg Isenberg's core framework is ACP (Audience, Community, Product), which inverts the traditional startup sequence. Where most founders build a product and then search for customers, Isenberg starts with distribution: build an audience through content, convert the most engaged members into a community, and only then build the product the community asks for. This inversion eliminates the most common startup failure mode -- building something nobody wants -- because demand is validated before a single line of code is written. He has bet his entire career on this framework, applying it across Late Checkout's portfolio of internet businesses. The community becomes the moat: products can be replicated overnight (especially with AI), but the trust, relationships, and shared identity within a community cannot.
+
+His idea generation methodology is systematic rather than inspirational. He maintains a Notion database titled "Ideas" with running lists organized by category (sayings, logos, startup concepts, content topics). Sources include personal observations, podcast listening, YouTube watching, conversations, and systematically scanning trending topics on Reddit, Twitter, and TikTok for unmet needs. His framework for validating ideas uses AI and data: scrape Reddit and Twitter for recurring complaints or requests, use AI to analyze patterns across thousands of posts, identify "boring" markets with consistent demand (not flashy trends), and validate with a quick landing page before building. The 35 AI startup ideas he published for 2025 all follow a pattern: identify a manual process that knowledge workers do daily, wrap AI around it, and price it as a tool ($300/month SaaS) rather than a platform.
+
+For agency founders, Isenberg's audience-building framework is a four-step process: (1) choose a platform where your target audience already congregates, (2) post daily with a consistent format that provides value (not just self-promotion), (3) engage authentically with replies and comments to build relationships, and (4) convert followers into community members through a shared identity or mission. The AI angle accelerates every step: AI generates content variations for testing, analyzes which topics resonate, identifies community members who are most engaged, and automates the operational overhead of community management. His emphasis on "boring businesses" -- tools for accountants, workflow automation for small teams, compliance tracking for mid-market -- is a deliberate counter to the AI hype cycle. The best AI businesses solve mundane problems at scale, not chase frontier capabilities.
