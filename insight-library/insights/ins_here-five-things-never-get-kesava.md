@@ -1,7 +1,7 @@
 ---
 id: ins_here-five-things-never-get-kesava
-operator: Kesava Mandiga found Anna Tankel’s comment on this funny
-operator_role: 'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'
+operator: Anna Tankel
+operator_role: 'Fractional B2B Head of Growth'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7429897757588373504/
 source_type: thread
 source_title: 'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:"
 
-— Kesava Mandiga found Anna Tankel’s comment on this funny, LinkedIn, 2026-04-10
+— Anna Tankel, LinkedIn, 2026-04-10
 
 ## Signals
 - 𝐇𝐨𝐰 𝐧𝐢𝐜𝐡𝐞 𝐢𝐬 𝐧𝐢𝐜𝐡𝐞 𝐞𝐧𝐨𝐮𝐠𝐡

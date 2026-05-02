@@ -1,7 +1,7 @@
 ---
 id: ins_here-five-things-never-get
-operator: Kesava Mandiga found Diana Polansky’s comment on this funny
-operator_role: 'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'
+operator: Diana Polansky
+operator_role: 'Experienced Product Marketer | Full-Stack Marketing Leader | Content Strategist'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7429897826404360192/
 source_type: thread
 source_title: 'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:"
 
-— Kesava Mandiga found Diana Polansky’s comment on this funny, LinkedIn, 2026-04-10
+— Diana Polansky, LinkedIn, 2026-04-10
 
 ## Signals
 - 𝐇𝐨𝐰 𝐧𝐢𝐜𝐡𝐞 𝐢𝐬 𝐧𝐢𝐜𝐡𝐞 𝐞𝐧𝐨𝐮𝐠𝐡

@@ -1,7 +1,7 @@
 ---
 id: ins_why-generic-hits-ceiling-here
-operator: Kesava Mandiga found Collin Mayjack’s comment on this funny
-operator_role: 'CEO@Sybill - Cursor for Revenue teams'
+operator: Collin Mayjack
+operator_role: 'Product Marketing, Sybill'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7447722414664343552/
 source_type: thread
 source_title: 'Sales leaders don''t need more visibility'
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "That is why generic AI hits a ceiling here faster than almost anywhere else."
 
-— Kesava Mandiga found Collin Mayjack’s comment on this funny, LinkedIn, 2026-04-10
+— Collin Mayjack, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.
