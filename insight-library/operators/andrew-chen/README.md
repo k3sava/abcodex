@@ -8,6 +8,9 @@ roles:
   - Published 1
 domains_active: [leadership, growth, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/andrewchen/
+  newsletter: https://andrewchen.substack.com/
 ---
 
 # Andrew Chen

@@ -8,6 +8,9 @@ roles:
   - Built and scaled Gym Launch from zero to $100M+ in cumulative revenue
 domains_active: [pmm, sales-cs, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/alexhormozi/
+  website: https://www.acquisition.com/
 ---
 
 # Alex Hormozi

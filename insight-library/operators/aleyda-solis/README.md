@@ -8,6 +8,9 @@ roles:
   - creator of the SEO Minion browser extension
 domains_active: [growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/aleyda/
+  website: https://www.aleydasolis.com/
 ---
 
 # Aleyda Solis

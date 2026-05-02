@@ -8,6 +8,8 @@ roles:
   - 000+ subscribers with 40% open rate
 domains_active: [pmm, leadership, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/amandanat/
 ---
 
 # Amanda Natividad

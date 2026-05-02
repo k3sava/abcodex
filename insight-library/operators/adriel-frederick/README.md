@@ -7,7 +7,8 @@ roles:
   - Former Instagram
 domains_active: [growth-demand, product, research-discovery]
 captured_first: 2026-05-01
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/adrielfrederick/
 ---
 
 # Adriel Frederick

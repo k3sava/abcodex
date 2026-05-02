@@ -8,6 +8,8 @@ roles:
   - DIFF Eyewear
 domains_active: [leadership, ai-native, growth, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/andrew-faris-980b84108/
 ---
 
 # Andrew Faris

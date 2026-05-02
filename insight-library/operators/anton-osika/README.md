@@ -7,7 +7,7 @@ roles:
 domains_active: [product, ai-native, leadership]
 captured_first: 2026-05-01
 external:
-  company: https://lovable.dev
+  linkedin: https://www.linkedin.com/in/antonosika/
   twitter: https://x.com/antonosika
 ---
 

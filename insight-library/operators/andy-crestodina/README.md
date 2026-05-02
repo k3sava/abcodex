@@ -8,6 +8,9 @@ roles:
   - and analytics
 domains_active: [pmm, leadership, design, ai-native, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/andycrestodina/
+  website: https://www.orbitmedia.com/
 ---
 
 # Andy Crestodina

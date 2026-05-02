@@ -8,6 +8,8 @@ roles:
   - and Smartling
 domains_active: [research, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/adrienne-barnes-2001/
 ---
 
 # Adrienne Barnes

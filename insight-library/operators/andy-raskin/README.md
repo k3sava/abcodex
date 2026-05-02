@@ -7,7 +7,7 @@ roles:
 domains_active: [pmm, gtm]
 captured_first: 2026-05-01
 external:
-  medium: https://medium.com/@andyraskin
+  linkedin: https://www.linkedin.com/in/andyraskin/
 ---
 
 # Andy Raskin

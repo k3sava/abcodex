@@ -6,7 +6,8 @@ roles:
   - Leading AI @ SaaS Labs
 domains_active: [ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/atominac/
 ---
 
 # Alok Yadav

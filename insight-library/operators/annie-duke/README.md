@@ -8,6 +8,9 @@ roles:
   - Co-founder of the Alliance for Decision Education
 domains_active: [leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/annie-duke/
+  website: https://www.annieduke.com/
 ---
 
 # Annie Duke

@@ -6,6 +6,9 @@ roles:
   - author of 'Predictable Revenue' (the 'Sales Bible of Silicon Valley') and 'From Impossible to Inevitable,' founder of Predictable Revenue Inc
 domains_active: [sales-cs, design, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/aaronross/
+  website: https://aaron-ross.co/
 ---
 
 # Aaron Ross

@@ -6,6 +6,9 @@ roles:
   - former VP Marketing at multiple enterprise software firms including companies acquired by IBM and Siebel Systems
 domains_active: [pmm, product, ai-native, gtm, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/aprildunford/
+  website: https://www.aprildunford.com/
 ---
 
 # April Dunford

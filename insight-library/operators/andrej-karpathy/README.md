@@ -8,6 +8,9 @@ roles:
   - coined the term 'vibe coding' which now has its own Wikipedia page
 domains_active: [ai-native, design, product, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/andrej-karpathy-9a650716/
+  website: https://karpathy.ai/
 ---
 
 # Andrej Karpathy

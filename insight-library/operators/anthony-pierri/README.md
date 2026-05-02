@@ -7,6 +7,8 @@ roles:
   - 000+ LinkedIn followers sharing daily PMM frameworks
 domains_active: [pmm, product, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/anthonypierri/
 ---
 
 # Anthony Pierri

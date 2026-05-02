@@ -6,7 +6,8 @@ roles:
   - Advisor: 0-1 PMM for early-stage B2B startups
 domains_active: [pmm, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/aliciacarney/
 ---
 
 # Alicia Carney

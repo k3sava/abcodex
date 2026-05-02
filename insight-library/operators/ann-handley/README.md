@@ -8,6 +8,9 @@ roles:
   - named Forbes Top 20 Marketing and Social Media Women Bloggers
 domains_active: [pmm, design, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/annhandley/
+  website: https://annhandley.com/
 ---
 
 # Ann Handley
