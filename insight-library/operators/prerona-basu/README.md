@@ -6,7 +6,8 @@ roles:
   - Head of Social @SalesRobot
 domains_active: [sales]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/prerona-basu-a96b53219/
 ---
 
 # Prerona Basu

@@ -5,7 +5,9 @@ roles:
   - Founder & CEO @Storylane - Build Killer Product Demos
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/nalinpradeep/
+  website: https://www.storylane.io/
 ---
 
 # Nalin Senthamil

@@ -7,6 +7,9 @@ roles:
   - recognized by Smartlead as the #2 most-replied-to account globally
 domains_active: [gtm, ai-native, growth, leadership, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/nick-abraham/
+  website: https://www.leadbird.io/
 ---
 
 # Nick Abraham

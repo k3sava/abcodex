@@ -8,6 +8,8 @@ roles:
   - Background in econometrics
 domains_active: [pmm, sales-cs, growth, leadership, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/patrickccampbell/
 ---
 
 # Patrick Campbell

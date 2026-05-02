@@ -7,7 +7,9 @@ roles:
   - I write about my founder journey
 domains_active: [growth, founder-craft, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/praveen-das-b06a3b8/
+  website: https://www.factors.ai/
 ---
 
 # Praveen Das

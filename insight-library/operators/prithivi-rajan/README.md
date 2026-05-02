@@ -6,7 +6,8 @@ roles:
   - Ex-Freshworks - ITSM
 domains_active: [growth, engineering]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/prithivi-rajan-41b702135/
 ---
 
 # Prithivi Rajan

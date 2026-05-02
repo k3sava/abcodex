@@ -8,6 +8,9 @@ roles:
   - has built or advised category leaders including Feastables
 domains_active: [growth, ai-native, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/mrniksharma/
+  website: https://www.sharmabrands.com/
 ---
 
 # Nik Sharma

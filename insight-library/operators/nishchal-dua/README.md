@@ -7,6 +7,8 @@ roles:
   - AI in GTM Advisor
 domains_active: [marketing, ai-native, hiring]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/nishchaldua/
 ---
 
 # Nishchal Dua

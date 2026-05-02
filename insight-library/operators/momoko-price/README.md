@@ -8,6 +8,8 @@ roles:
   - Scotiabank
 domains_active: [pmm, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/momoko-price-at-kantan/
 ---
 
 # Momoko Price

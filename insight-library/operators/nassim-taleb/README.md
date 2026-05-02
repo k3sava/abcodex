@@ -8,6 +8,8 @@ roles:
   - The Black Swan
 domains_active: [leadership]
 captured_first: 2026-05-01
+external:
+  website: https://www.fooledbyrandomness.com/
 ---
 
 # Nassim Nicholas Taleb

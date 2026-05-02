@@ -8,6 +8,9 @@ roles:
   - Fix This Next
 domains_active: [leadership, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/mikemichalowicz/
+  website: https://mikemichalowicz.com/
 ---
 
 # Mike Michalowicz

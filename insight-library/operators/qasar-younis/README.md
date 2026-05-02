@@ -7,7 +7,8 @@ roles:
 domains_active: [ai-native, founder-craft, product]
 captured_first: 2026-05-01
 external:
-  company: https://applied.co
+  linkedin: https://www.linkedin.com/in/qasar/
+  website: https://www.appliedintuition.com/
 ---
 
 # Qasar Younis

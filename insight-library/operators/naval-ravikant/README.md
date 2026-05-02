@@ -8,6 +8,8 @@ roles:
   - Subject of The Almanack of Naval Ravikant
 domains_active: [leadership]
 captured_first: 2026-05-01
+external:
+  website: https://nav.al/
 ---
 
 # Naval Ravikant

@@ -8,6 +8,9 @@ roles:
   - Clients include Dell
 domains_active: [pmm, design, leadership, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/parkhowell/
+  website: https://businessofstory.com/
 ---
 
 # Park Howell

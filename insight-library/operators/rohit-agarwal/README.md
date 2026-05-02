@@ -7,7 +7,8 @@ roles:
   - Adoption & Growth Strategist
 domains_active: [growth]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/rohit-agarwal-632863110/
 ---
 
 # Rohit Agarwal

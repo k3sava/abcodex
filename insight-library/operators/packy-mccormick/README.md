@@ -7,6 +7,9 @@ roles:
   - strategic advisor at Not Boring Capital
 domains_active: [ai-native, product, leadership, growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/packym/
+  newsletter: https://www.notboring.co/
 ---
 
 # Packy McCormick

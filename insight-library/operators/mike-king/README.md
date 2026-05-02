@@ -8,6 +8,9 @@ roles:
   - author of The AI Search Manual
 domains_active: [growth, pmm, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/michaelkingphilly/
+  website: https://ipullrank.com/
 ---
 
 # Mike King

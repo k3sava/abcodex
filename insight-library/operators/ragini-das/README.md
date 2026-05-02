@@ -5,7 +5,8 @@ roles:
   - Head of Google for Startups - India
 domains_active: [pmm]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ragini-das-95245257/
 ---
 
 # Ragini Das

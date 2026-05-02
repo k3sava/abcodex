@@ -8,6 +8,9 @@ roles:
   - Two-time winner of the Best in Business award from the Society of American Business Editors and Writers
 domains_active: [leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/morgan-housel-5b473821/
+  website: https://collabfund.com/
 ---
 
 # Morgan Housel
