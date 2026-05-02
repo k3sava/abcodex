@@ -114,18 +114,44 @@ function home(){
     <section class='section'>
       <div class='section-head'>
         <div>
-          <h2>Synthesis patterns</h2>
-          <p>Where three or more operators converge from different angles. The strongest signal in the corpus.</p>
+          <h2>Where operators converge</h2>
+          <p>Synthesis patterns: three or more operators arrive at the same idea from different angles.</p>
         </div>
-        <div class='meta'>${STATS.patterns} patterns</div>
+        <div class='meta'><a href='#/patterns'>${STATS.patterns} patterns →</a></div>
       </div>
-      <div class='card-grid'>${patterns.slice(0,8).map(p=>`
-        <a class='card pattern reveal' href='#/pat/${p.id}'>
-          <div class='meta-row'>${p.tier?tierBadge(p.tier):''}<span>${(p.domains||[]).slice(0,2).join(' · ')}</span></div>
-          <h3>${escapeHtml(p.title)}</h3>
-          <div class='converge'>${(p.uses_cards||[]).length} operators converge</div>
-        </a>`).join('')}</div>
+      <ol class='converge-list reveal'>${patterns.slice(0,8).map((p, idx)=>{
+        const ops = (p.uses_cards||[]).map(cid => {
+          const card = cards.find(c => c.id === cid);
+          return card ? card.operator : null;
+        }).filter(Boolean);
+        const uniqOps = [...new Set(ops)].slice(0,7);
+        return `<li class='converge-item reveal'>
+          <a href='#/pat/${p.id}' class='converge-link'>
+            <span class='converge-num'>${String(idx+1).padStart(2,'0')}</span>
+            <span class='converge-body'>
+              <span class='converge-title'>${escapeHtml(p.title)}</span>
+              <span class='converge-ops'>${uniqOps.map(o => `<span class='converge-op'>${escapeHtml(o)}</span>`).join('')}${ops.length > uniqOps.length ? `<span class='converge-more'>+${ops.length - uniqOps.length}</span>` : ''}</span>
+            </span>
+            <span class='converge-meta'>${(p.domains||[]).slice(0,2).join(' · ')}</span>
+          </a>
+        </li>`;
+      }).join('')}</ol>
     </section>
+
+    ${STATS.contradictions > 0 ? `<section class='section section-contradictions'>
+      <div class='section-head'>
+        <div>
+          <h2>${STATS.contradictions} places operators disagree</h2>
+          <p>Productive disagreements. Where smart operators reach opposing conclusions on the same question.</p>
+        </div>
+        <div class='meta'><a href='#/patterns#contradictions'>see all →</a></div>
+      </div>
+      <div class='con-strip'>${contradictions.slice(0,4).map(c=>`
+        <a class='con-strip-item reveal' href='#/con/${c.id}'>
+          <span class='con-strip-vs'>vs</span>
+          <span class='con-strip-title'>${escapeHtml(c.title)}</span>
+        </a>`).join('')}</div>
+    </section>` : ''}
 
     <section class='section'>
       <div class='section-head'>
@@ -222,20 +248,115 @@ async function operatorPage(slug){
 }
 
 /* ============ OPERATORS LIST ============ */
+const opsState = { sort: 'count', dir: 'desc', q: '', domain: 'all', minCards: 0 };
 function operatorsList(){
-  const withCount = operators.map(o => ({...o, count: cards.filter(c=>c.operator_slug===o.slug).length}));
-  withCount.sort((a,b) => b.count - a.count || a.name.localeCompare(b.name));
-  app.innerHTML = `<section class='list-page'>
+  // Compute per-operator stats
+  const byOp = new Map();
+  for (const c of cards){
+    const key = c.operator_slug;
+    if (!byOp.has(key)) byOp.set(key, { count: 0, domains: new Set(), srcs: new Set(), latest: '' });
+    const e = byOp.get(key);
+    e.count++;
+    (c.domain||[]).forEach(d => e.domains.add(d));
+    if (c.source_type) e.srcs.add(c.source_type);
+    if (c.source_date && c.source_date > e.latest) e.latest = c.source_date;
+  }
+  const ops = operators.map(o => {
+    const s = byOp.get(o.slug) || { count: 0, domains: new Set(), srcs: new Set(), latest: '' };
+    return { ...o, count: s.count, op_domains: [...s.domains].sort(), op_srcs: [...s.srcs].sort(), latest: s.latest };
+  });
+  // Build domain options (top 12 by appearance)
+  const domCounts = new Map();
+  ops.forEach(o => o.op_domains.forEach(d => domCounts.set(d, (domCounts.get(d)||0) + 1)));
+  const topDomains = [...domCounts.entries()].sort((a,b)=>b[1]-a[1]).slice(0,12).map(e=>e[0]);
+  // Apply filters
+  const q = opsState.q.toLowerCase();
+  let filtered = ops.filter(o => {
+    if (opsState.minCards > 0 && o.count < opsState.minCards) return false;
+    if (opsState.domain !== 'all' && !o.op_domains.includes(opsState.domain)) return false;
+    if (q && !(o.name.toLowerCase().includes(q) || (o.roles||[]).some(r=>r.toLowerCase().includes(q)) || o.op_domains.some(d=>d.includes(q)))) return false;
+    return true;
+  });
+  // Sort
+  const cmp = (a, b) => {
+    let r = 0;
+    if (opsState.sort === 'name') r = a.name.localeCompare(b.name);
+    else if (opsState.sort === 'count') r = b.count - a.count;
+    else if (opsState.sort === 'latest') r = (b.latest||'').localeCompare(a.latest||'');
+    else if (opsState.sort === 'domain') r = (a.op_domains[0]||'zz').localeCompare(b.op_domains[0]||'zz');
+    if (opsState.dir === 'asc' && opsState.sort !== 'count' && opsState.sort !== 'latest') r = -r;
+    if (opsState.dir === 'asc' && (opsState.sort === 'count' || opsState.sort === 'latest')) r = -r;
+    return r || a.name.localeCompare(b.name);
+  };
+  filtered.sort(cmp);
+
+  const arrow = key => opsState.sort === key ? (opsState.dir === 'desc' ? ' ▼' : ' ▲') : '';
+  const srcGlyph = { podcast: '◔', essay: '✎', book: '▭', thread: '#', research: '⌘', talk: '▷', '': '·' };
+
+  app.innerHTML = `<section class='list-page operators-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>operators</span></div>
     <h1>operators</h1>
-    <p class='lede'>${STATS.operators} profiles. ${withCount.filter(o=>o.count>0).length} have cards. Sorted by card count.</p>
-    <div class='op-grid'>${withCount.map(o=>`
-      <a class='op-card reveal' href='#/o/${o.slug}'>
-        <span class='nm'>${escapeHtml(o.name)}</span>
-        <span class='ct'>${o.count} card${o.count===1?'':'s'}</span>
-      </a>`).join('')}</div>
+    <p class='lede'>${STATS.operators} operator profiles. <span id='opsResultCount'>${filtered.length}</span> shown after filters.</p>
+    <div class='ops-toolbar'>
+      <input id='opsSearch' class='ops-search' type='search' placeholder='search name, role, domain…' value='${escapeHtml(opsState.q)}' />
+      <div class='ops-chips'>
+        <button class='chip ${opsState.domain==='all'?'active':''}' data-domain='all'>all</button>
+        ${topDomains.map(d=>`<button class='chip ${opsState.domain===d?'active':''}' data-domain='${d}'>${d}<span class='ct'>${domCounts.get(d)}</span></button>`).join('')}
+      </div>
+      <label class='ops-min'>
+        min cards
+        <select id='opsMin'>
+          ${[0,1,2,3,5,10].map(n=>`<option value='${n}' ${opsState.minCards===n?'selected':''}>${n}</option>`).join('')}
+        </select>
+      </label>
+    </div>
+    <div class='ops-table-wrap'>
+      <table class='ops-table'>
+        <thead>
+          <tr>
+            <th class='th-sort' data-sort='name'>name${arrow('name')}</th>
+            <th class='th-role'>role</th>
+            <th class='th-doms th-sort' data-sort='domain'>domains${arrow('domain')}</th>
+            <th class='th-srcs'>sources</th>
+            <th class='th-latest th-sort' data-sort='latest'>latest${arrow('latest')}</th>
+            <th class='th-count th-sort' data-sort='count'>cards${arrow('count')}</th>
+          </tr>
+        </thead>
+        <tbody>${filtered.map(o => {
+          const role = (o.roles||[])[0] || '';
+          const dchips = o.op_domains.slice(0,3).map(d=>`<span class='dchip'>${d}</span>`).join('');
+          const srcdots = o.op_srcs.map(s=>`<span class='srcdot' title='${s}'>${srcGlyph[s]||'·'}</span>`).join('');
+          return `<tr class='op-row reveal' data-href='#/o/${o.slug}' tabindex='0' role='link'>
+            <td class='td-name'><span class='nm'>${escapeHtml(o.name)}</span></td>
+            <td class='td-role'>${escapeHtml(role)}</td>
+            <td class='td-doms'>${dchips}</td>
+            <td class='td-srcs'>${srcdots}</td>
+            <td class='td-latest'>${o.latest||'—'}</td>
+            <td class='td-count'>${o.count || '—'}</td>
+          </tr>`;
+        }).join('')}</tbody>
+      </table>
+      ${filtered.length === 0 ? `<div class='ops-empty'>No operators match these filters.</div>` : ''}
+    </div>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.op-card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.012 }), start:'top 95%' });
+
+  // Wire interactions
+  const refresh = () => operatorsList();
+  document.getElementById('opsSearch').addEventListener('input', e => { opsState.q = e.target.value; clearTimeout(window._opsT); window._opsT = setTimeout(refresh, 120); });
+  document.getElementById('opsMin').addEventListener('change', e => { opsState.minCards = +e.target.value; refresh(); });
+  document.querySelectorAll('.ops-chips .chip').forEach(b => b.addEventListener('click', () => { opsState.domain = b.dataset.domain; refresh(); }));
+  document.querySelectorAll('.th-sort').forEach(th => th.addEventListener('click', () => {
+    const k = th.dataset.sort;
+    if (opsState.sort === k) opsState.dir = opsState.dir === 'desc' ? 'asc' : 'desc';
+    else { opsState.sort = k; opsState.dir = (k === 'count' || k === 'latest') ? 'desc' : 'asc'; }
+    refresh();
+  }));
+  document.querySelectorAll('.op-row').forEach(r => {
+    r.addEventListener('click', () => location.hash = r.dataset.href);
+    r.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); location.hash = r.dataset.href; } });
+  });
+
+  if (!reduced) ScrollTrigger.batch('.op-row.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:6 }, { opacity:1, y:0, duration:.35, ease:'power2.out', stagger:.005 }), start:'top 96%' });
 }
 
 /* ============ DOMAIN ============ */
@@ -347,7 +468,9 @@ function playbooksList(){
 }
 
 async function playbookPage(id){
-  const p = playbooks.find(x => x.id === id);
+  let p = playbooks.find(x => x.id === id);
+  if (!p && !id.startsWith('pb_')) p = playbooks.find(x => x.id === 'pb_' + id);
+  if (!p) p = playbooks.find(x => (x.path || '').toLowerCase().endsWith('/' + id.toLowerCase() + '.md'));
   if (!p){ app.innerHTML = `<div class='insight-page'><p>playbook not found.</p></div>`; return; }
   const cat = playbookCategoryFromPath(p.path);
   const catLabel = PLAYBOOK_CATEGORY_LABELS[cat] || cat;
@@ -503,19 +626,85 @@ async function patternPage(id){
 async function contradictionPage(id){
   const c = contradictions.find(x=>x.id===id);
   if (!c){ app.innerHTML = `<div class='insight-page'><p>not found.</p></div>`; return; }
-  app.innerHTML = `<article class='insight-page'>
+  // Skeleton
+  app.innerHTML = `<article class='contradiction-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/patterns'>patterns</a> <span>·</span> <span>contradiction</span></div>
-    <div class='layout'>
-      <div>
-        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted)'>contradiction</div>
-        <h1>${escapeHtml(c.title)}</h1>
-        <div class='body' id='conBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
-      </div>
-      <aside></aside>
-    </div>
+    <div class='con-stage' id='conStage'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem;text-align:center;padding:80px 0'>loading…</p></div>
   </article>`;
   const md = await fetchBody(c.path);
-  document.getElementById('conBody').innerHTML = mdToHtml(md);
+  // Parse the two positions
+  const stripFrontmatter = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
+  const body = stripFrontmatter(md).replace(/^#\s+[^\n]+\n+/, '');
+  const sections = body.split(/^##\s+/m).slice(1); // first split is empty before first ##
+  const posA = sections.find(s => /^Position A/i.test(s));
+  const posB = sections.find(s => /^Position B/i.test(s));
+  const conditions = sections.find(s => /^Conditions/i.test(s));
+  const resolution = sections.find(s => /^Resolution|^Synthesis/i.test(s));
+
+  const parsePos = (raw) => {
+    if (!raw) return null;
+    const lines = raw.split('\n');
+    const heading = lines[0].replace(/^[^—–-]+[—–-]\s*/, '').trim();
+    let op = '', claim = '', cardIds = [];
+    for (let i = 1; i < lines.length; i++){
+      const l = lines[i];
+      if (/^[-*]\s*Operator:/i.test(l)) op = l.replace(/^[-*]\s*Operator:\s*/i, '').trim();
+      else if (/^[-*]\s*Card[s]?:/i.test(l)){
+        const m = l.replace(/^[-*]\s*Card[s]?:\s*/i, '');
+        cardIds = [...m.matchAll(/`(ins_[^`]+)`/g)].map(x=>x[1]);
+      }
+      else if (/^[-*]\s*Claim:/i.test(l)) claim = l.replace(/^[-*]\s*Claim:\s*/i, '').trim();
+      // also pick up multi-line claim continuation
+      else if (claim && l.startsWith('  ')) claim += ' ' + l.trim();
+    }
+    return { heading, op, claim, cardIds };
+  };
+  const A = parsePos(posA);
+  const B = parsePos(posB);
+
+  const opLink = name => {
+    if (!name) return '';
+    const op = operators.find(o => o.name === name);
+    return op ? `<a class='con-op' href='#/o/${op.slug}'>${escapeHtml(name)}</a>` : `<span class='con-op'>${escapeHtml(name)}</span>`;
+  };
+  const cardLink = id => {
+    const card = cards.find(x => x.id === id);
+    return card ? `<a class='con-card' href='#/ins/${id}'>${tierBadge(card.tier)}<span>${escapeHtml(card.claim || id)}</span></a>` : '';
+  };
+  const fmtBlock = raw => raw ? mdToHtml(raw.split('\n').slice(1).join('\n')) : '';
+
+  document.getElementById('conStage').innerHTML = `
+    <div class='con-meta'>
+      <span class='con-eyebrow'>contradiction</span>
+      ${c.captured_date ? `<span>·</span><span>${escapeHtml(c.captured_date)}</span>` : ''}
+    </div>
+    <h1 class='con-title'>${escapeHtml(c.title)}</h1>
+    <div class='con-versus'>
+      <section class='con-side con-side-a'>
+        <header><span class='con-tag'>Position A</span></header>
+        ${A ? `<h2>${escapeHtml(A.heading)}</h2>` : ''}
+        ${A?.op ? `<div class='con-op-row'>${opLink(A.op)}</div>` : ''}
+        ${A?.claim ? `<p class='con-claim'>${escapeHtml(A.claim)}</p>` : ''}
+        ${A?.cardIds?.length ? `<div class='con-cards'>${A.cardIds.map(cardLink).join('')}</div>` : ''}
+      </section>
+      <div class='con-vs' aria-hidden='true'><span>vs</span></div>
+      <section class='con-side con-side-b'>
+        <header><span class='con-tag'>Position B</span></header>
+        ${B ? `<h2>${escapeHtml(B.heading)}</h2>` : ''}
+        ${B?.op ? `<div class='con-op-row'>${opLink(B.op)}</div>` : ''}
+        ${B?.claim ? `<p class='con-claim'>${escapeHtml(B.claim)}</p>` : ''}
+        ${B?.cardIds?.length ? `<div class='con-cards'>${B.cardIds.map(cardLink).join('')}</div>` : ''}
+      </section>
+    </div>
+    ${conditions ? `<section class='con-section'><h3>Where they differ</h3><div class='con-prose'>${fmtBlock(conditions)}</div></section>` : ''}
+    ${resolution ? `<section class='con-section con-resolution'><h3>Reconciliation</h3><div class='con-prose'>${fmtBlock(resolution)}</div></section>` : ''}
+    <p class='con-source'><a href='https://github.com/k3sava/ab-codex/blob/main/insight-library/${c.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
+  `;
+  if (!reduced){
+    gsap.from('.con-side-a', { opacity:0, x:-24, duration:.6, ease:'power3.out' });
+    gsap.from('.con-side-b', { opacity:0, x:24, duration:.6, ease:'power3.out' });
+    gsap.from('.con-vs', { opacity:0, scale:.6, duration:.5, ease:'back.out(1.7)', delay:.2 });
+  }
 }
 
 /* ============ FLASH ============ */
@@ -545,75 +734,167 @@ function flash(){
   document.addEventListener('keydown', e => { if(e.key==='ArrowLeft') document.getElementById('prev')?.click(); if(e.key==='ArrowRight') document.getElementById('next')?.click(); if(e.key===' '){e.preventDefault(); document.getElementById('shuffle')?.click();} });
 }
 
-/* ============ BROWSE ============ */
-const browseState = { tier:'all', domain:'all', sort:'date' };
+/* ============ BROWSE — dual-pane condensed list ============ */
+const browseState = { tier:'all', domain:'all', sort:'date', q:'' };
 function browse(){
-  app.innerHTML = `<section class='browse-page'>
+  const tierCounts = { A: cards.filter(c=>c.tier==='A').length, B: cards.filter(c=>c.tier==='B').length, C: cards.filter(c=>c.tier==='C').length };
+  const domCounts = Object.fromEntries(DOMAINS.map(d => [d, cards.filter(c => c.domain.includes(d)).length]));
+  app.innerHTML = `<section class='browse-page browse-dual'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>browse</span></div>
-    <h1>browse</h1>
-    <p class='lede'>${STATS.cards} cards across ${STATS.domains} domains. Filter by tier or topic, sort by date, operator, or tier.</p>
-    <div class='filterbar' id='filterbar'>
-      <div class='row'>
-        <span class='label'>tier</span>
-        <button class='chip ${browseState.tier==='all'?'active':''}' data-tier='all'>all<span class='ct'>${STATS.cards}</span></button>
-        <button class='chip ${browseState.tier==='A'?'active':''}' data-tier='A'>A<span class='ct'>${cards.filter(c=>c.tier==='A').length}</span></button>
-        <button class='chip ${browseState.tier==='B'?'active':''}' data-tier='B'>B<span class='ct'>${cards.filter(c=>c.tier==='B').length}</span></button>
-        <button class='chip ${browseState.tier==='C'?'active':''}' data-tier='C'>C<span class='ct'>${cards.filter(c=>c.tier==='C').length}</span></button>
-        <span class='label' style='margin-left:auto'>sort</span>
-        <button class='chip ${browseState.sort==='date'?'active':''}' data-sort='date'>date</button>
-        <button class='chip ${browseState.sort==='operator'?'active':''}' data-sort='operator'>operator</button>
-        <button class='chip ${browseState.sort==='tier'?'active':''}' data-sort='tier'>tier</button>
-      </div>
-      <div class='row'>
-        <span class='label'>domain</span>
-        <button class='chip ${browseState.domain==='all'?'active':''}' data-domain='all'>all</button>
-        ${DOMAINS.map(d=>{ const ct = cards.filter(c=>c.domain.includes(d)).length; return `<button class='chip ${browseState.domain===d?'active':''}' data-domain='${d}'>${d}<span class='ct'>${ct}</span></button>`; }).join('')}
-        <span class='results' id='browseResults'></span>
-      </div>
+    <header class='browse-head'>
+      <h1>browse</h1>
+      <div class='browse-meta'><span id='browseResults'>${STATS.cards}</span> of ${STATS.cards} cards</div>
+    </header>
+    <div class='browse-shell'>
+      <aside class='browse-rail' id='browseRail'>
+        <div class='br-search'><input id='browseQ' type='search' placeholder='search claims, operators…' value='${escapeHtml(browseState.q)}' /></div>
+        <div class='br-section'>
+          <div class='br-label'>sort</div>
+          <div class='br-row'>
+            <button class='chip ${browseState.sort==='date'?'active':''}' data-sort='date'>date</button>
+            <button class='chip ${browseState.sort==='tier'?'active':''}' data-sort='tier'>tier</button>
+            <button class='chip ${browseState.sort==='operator'?'active':''}' data-sort='operator'>operator</button>
+          </div>
+        </div>
+        <div class='br-section'>
+          <div class='br-label'>tier</div>
+          <div class='br-list'>
+            <button class='br-item ${browseState.tier==='all'?'active':''}' data-tier='all'><span>all</span><span class='ct'>${STATS.cards}</span></button>
+            <button class='br-item ${browseState.tier==='A'?'active':''}' data-tier='A'><span>tier A</span><span class='ct'>${tierCounts.A}</span></button>
+            <button class='br-item ${browseState.tier==='B'?'active':''}' data-tier='B'><span>tier B</span><span class='ct'>${tierCounts.B}</span></button>
+            <button class='br-item ${browseState.tier==='C'?'active':''}' data-tier='C'><span>tier C</span><span class='ct'>${tierCounts.C}</span></button>
+          </div>
+        </div>
+        <div class='br-section'>
+          <div class='br-label'>domain</div>
+          <div class='br-list'>
+            <button class='br-item ${browseState.domain==='all'?'active':''}' data-domain='all'><span>all</span><span class='ct'>${STATS.cards}</span></button>
+            ${DOMAINS.filter(d => domCounts[d] > 0).sort((a,b)=>domCounts[b]-domCounts[a]).map(d=>`<button class='br-item ${browseState.domain===d?'active':''}' data-domain='${d}'><span>${d}</span><span class='ct'>${domCounts[d]}</span></button>`).join('')}
+          </div>
+        </div>
+      </aside>
+      <button class='browse-rail-toggle' id='browseRailToggle' aria-label='Open filters'>filters</button>
+      <main class='browse-list' id='browseList'></main>
     </div>
-    <div class='browse-grid' id='browseGrid'></div>
   </section>`;
   applyBrowse();
-  document.querySelectorAll('#filterbar [data-tier]').forEach(b => b.onclick = () => { browseState.tier = b.dataset.tier; updateBrowse(); });
-  document.querySelectorAll('#filterbar [data-domain]').forEach(b => b.onclick = () => { browseState.domain = b.dataset.domain; updateBrowse(); });
-  document.querySelectorAll('#filterbar [data-sort]').forEach(b => b.onclick = () => { browseState.sort = b.dataset.sort; updateBrowse(); });
+  document.querySelectorAll('#browseRail [data-tier]').forEach(b => b.onclick = () => { browseState.tier = b.dataset.tier; updateBrowse(); });
+  document.querySelectorAll('#browseRail [data-domain]').forEach(b => b.onclick = () => { browseState.domain = b.dataset.domain; updateBrowse(); });
+  document.querySelectorAll('#browseRail [data-sort]').forEach(b => b.onclick = () => { browseState.sort = b.dataset.sort; updateBrowse(); });
+  const qel = document.getElementById('browseQ');
+  qel.addEventListener('input', e => { browseState.q = e.target.value; clearTimeout(window._brT); window._brT = setTimeout(updateBrowse, 100); });
+  document.getElementById('browseRailToggle').onclick = () => document.getElementById('browseRail').classList.toggle('open');
 }
 function applyBrowse(){
   let list = cards.slice();
   if (browseState.tier !== 'all') list = list.filter(c => c.tier === browseState.tier);
   if (browseState.domain !== 'all') list = list.filter(c => c.domain.includes(browseState.domain));
+  const q = browseState.q.toLowerCase();
+  if (q) list = list.filter(c => (c.claim||'').toLowerCase().includes(q) || (c.operator||'').toLowerCase().includes(q));
   if (browseState.sort === 'date') list.sort((a,b) => (b.source_date||'').localeCompare(a.source_date||''));
-  else if (browseState.sort === 'operator') list.sort((a,b) => a.operator.localeCompare(b.operator));
-  else if (browseState.sort === 'tier') list.sort((a,b) => a.tier.localeCompare(b.tier));
-  const grid = document.getElementById('browseGrid');
+  else if (browseState.sort === 'operator') list.sort((a,b) => a.operator.localeCompare(b.operator) || (b.source_date||'').localeCompare(a.source_date||''));
+  else if (browseState.sort === 'tier') list.sort((a,b) => a.tier.localeCompare(b.tier) || (b.source_date||'').localeCompare(a.source_date||''));
+  const out = document.getElementById('browseList');
   const results = document.getElementById('browseResults');
-  if (!grid) return;
-  results.textContent = `${list.length} of ${STATS.cards} cards`;
-  if (list.length === 0){ grid.outerHTML = `<div class='browse-empty'>no cards match these filters.</div>`; }
-  else { grid.innerHTML = list.map(cardTile).join(''); if (!reduced) ScrollTrigger.batch('.browse-grid .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.015 }), start:'top 95%' }); }
+  if (!out) return;
+  if (results) results.textContent = list.length;
+  if (list.length === 0){ out.innerHTML = `<div class='browse-empty'>no cards match these filters.</div>`; return; }
+
+  // Group by tier when sort is tier; otherwise no groups
+  const rowHtml = c => `<a class='brow reveal' href='#/ins/${c.id}'>
+    ${tierBadge(c.tier)}
+    <span class='brow-domain'>${(c.domain[0]||'·')}</span>
+    <span class='brow-claim'>${escapeHtml(c.claim)}</span>
+    <span class='brow-op'>${escapeHtml(c.operator)}</span>
+    <span class='brow-date'>${c.source_date||'—'}</span>
+  </a>`;
+  if (browseState.sort === 'tier'){
+    const groups = { A: list.filter(c=>c.tier==='A'), B: list.filter(c=>c.tier==='B'), C: list.filter(c=>c.tier==='C'), other: list.filter(c=>!['A','B','C'].includes(c.tier)) };
+    const block = (lab, arr) => arr.length ? `<section class='brow-group'><header class='brow-group-head'><h2>tier ${lab}</h2><span class='ct'>${arr.length}</span></header><div class='brow-rows'>${arr.map(rowHtml).join('')}</div></section>` : '';
+    out.innerHTML = block('A', groups.A) + block('B', groups.B) + block('C', groups.C) + block('—', groups.other);
+  } else {
+    out.innerHTML = `<div class='brow-rows'>${list.map(rowHtml).join('')}</div>`;
+  }
+  if (!reduced) ScrollTrigger.batch('.brow.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, x:-6 }, { opacity:1, x:0, duration:.3, ease:'power2.out', stagger:.005 }), start:'top 96%' });
 }
 function updateBrowse(){
-  document.querySelectorAll('#filterbar [data-tier]').forEach(b => b.classList.toggle('active', b.dataset.tier === browseState.tier));
-  document.querySelectorAll('#filterbar [data-domain]').forEach(b => b.classList.toggle('active', b.dataset.domain === browseState.domain));
-  document.querySelectorAll('#filterbar [data-sort]').forEach(b => b.classList.toggle('active', b.dataset.sort === browseState.sort));
-  if (!document.getElementById('browseGrid')){ browse(); return; }
+  document.querySelectorAll('#browseRail [data-tier]').forEach(b => b.classList.toggle('active', b.dataset.tier === browseState.tier));
+  document.querySelectorAll('#browseRail [data-domain]').forEach(b => b.classList.toggle('active', b.dataset.domain === browseState.domain));
+  document.querySelectorAll('#browseRail [data-sort]').forEach(b => b.classList.toggle('active', b.dataset.sort === browseState.sort));
   applyBrowse();
 }
 
 /* ============ TIMELINE ============ */
 function timeline(){
-  const sorted = [...cards].sort((a,b)=> (b.source_date||'').localeCompare(a.source_date||''));
+  // Group by month (YYYY-MM); skip cards without dates
+  const dated = cards.filter(c => /^\d{4}-\d{2}/.test(c.source_date||''));
+  const undated = cards.filter(c => !/^\d{4}-\d{2}/.test(c.source_date||''));
+  dated.sort((a,b)=> (b.source_date||'').localeCompare(a.source_date||''));
+  const months = new Map();
+  for (const c of dated){
+    const ym = c.source_date.slice(0,7);
+    if (!months.has(ym)) months.set(ym, []);
+    months.get(ym).push(c);
+  }
+  const orderedMonths = [...months.keys()];
+  // Sparkline data — daily counts over corpus lifespan
+  const dayCounts = new Map();
+  for (const c of dated){
+    const d = c.source_date.slice(0,10);
+    dayCounts.set(d, (dayCounts.get(d)||0) + 1);
+  }
+  const dayKeys = [...dayCounts.keys()].sort();
+  let sparkSvg = '';
+  if (dayKeys.length > 1){
+    const first = new Date(dayKeys[0]); const last = new Date(dayKeys[dayKeys.length-1]);
+    const totalDays = Math.max(1, Math.round((last - first) / 86400000));
+    const W = 1000, H = 60;
+    const maxCt = Math.max(...dayCounts.values());
+    const bars = dayKeys.map(k => {
+      const dt = new Date(k);
+      const x = ((dt - first) / 86400000 / totalDays) * W;
+      const h = (dayCounts.get(k) / maxCt) * (H - 8);
+      return `<rect x='${x.toFixed(1)}' y='${(H - h).toFixed(1)}' width='2' height='${h.toFixed(1)}' />`;
+    }).join('');
+    sparkSvg = `<svg class='timeline-spark' viewBox='0 0 ${W} ${H}' preserveAspectRatio='none' aria-hidden='true'>${bars}</svg>`;
+  }
+  const fmtMonth = ym => {
+    const [y, m] = ym.split('-');
+    const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${monthNames[+m-1]} ${y}`;
+  };
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
-    <div class='timeline-list'>${sorted.map(c=>`
-      <a class='titem reveal' href='#/ins/${c.id}'>
-        <span class='date'>${c.source_date||'—'}</span>
-        <span class='claim'>${escapeHtml(c.claim)}</span>
-        <span class='who'>${escapeHtml(c.operator)}</span>
-      </a>`).join('')}</div>
+    <p class='lede'>${dated.length} insights, dated. ${dayKeys.length} active days from ${dayKeys[0]||'—'} to ${dayKeys[dayKeys.length-1]||'—'}.</p>
+    ${sparkSvg ? `<div class='timeline-spark-wrap'>
+      <div class='timeline-spark-axis'><span>${dayKeys[0]||''}</span><span>${dayKeys[dayKeys.length-1]||''}</span></div>
+      ${sparkSvg}
+    </div>` : ''}
+    <div class='timeline-stream'>${orderedMonths.map(ym => `
+      <section class='tmonth'>
+        <header class='tmonth-head'><h2>${fmtMonth(ym)}</h2><span class='ct'>${months.get(ym).length}</span></header>
+        <div class='tmonth-rows'>${months.get(ym).map(c=>`
+          <a class='trow reveal' href='#/ins/${c.id}'>
+            <span class='trow-day'>${c.source_date.slice(8,10)}</span>
+            <span class='trow-claim'>${escapeHtml(c.claim)}</span>
+            <span class='trow-who'>${escapeHtml(c.operator)}</span>
+            ${tierBadge(c.tier)}
+          </a>`).join('')}</div>
+      </section>`).join('')}
+      ${undated.length ? `<section class='tmonth'>
+        <header class='tmonth-head'><h2>Undated</h2><span class='ct'>${undated.length}</span></header>
+        <div class='tmonth-rows'>${undated.map(c=>`
+          <a class='trow reveal' href='#/ins/${c.id}'>
+            <span class='trow-day'>—</span>
+            <span class='trow-claim'>${escapeHtml(c.claim)}</span>
+            <span class='trow-who'>${escapeHtml(c.operator)}</span>
+            ${tierBadge(c.tier)}
+          </a>`).join('')}</div>
+      </section>` : ''}
+    </div>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.titem.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, x:-12 }, { opacity:1, x:0, duration:.5, ease:'power2.out', stagger:.012 }), start:'top 95%' });
+  if (!reduced) ScrollTrigger.batch('.trow.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, x:-8 }, { opacity:1, x:0, duration:.4, ease:'power2.out', stagger:.008 }), start:'top 95%' });
 }
 
 /* ============ ABOUT (scrubbed copy) ============ */
