@@ -2,7 +2,7 @@
 id: ins_lock-s-ceo-evaluation-rubric
 operator: Brian Halligan
 operator_role: Co-founder & former CEO, HubSpot; in-house CEO coach, Sequoia
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been
 source_type: podcast
 source_title: CEO craft, the LOCK(S) algorithm, distribution as the new moat
 source_date: 2026-04-28

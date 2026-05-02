@@ -2,7 +2,7 @@
 id: ins_right-friction-beats-no-friction
 operator: Amol Avasare
 operator_role: Head of Growth, Anthropic (ex-Mercury, MasterClass)
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
 source_type: podcast
 source_title: Anthropic growth, CASH, and the squeezed PM
 source_date: 2026-04-05

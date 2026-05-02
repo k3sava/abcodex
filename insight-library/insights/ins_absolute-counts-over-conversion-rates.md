@@ -2,7 +2,7 @@
 id: ins_absolute-counts-over-conversion-rates
 operator: Archie Abrams
 operator_role: VP Product & Growth, Shopify
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/shopifys-growth-archie-abrams
 source_type: podcast
 source_title: Churn optimization & long-term holdout experiments
 source_date: 2026-04-28

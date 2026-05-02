@@ -2,7 +2,7 @@
 id: ins_benevolent-dictator-not-committee
 operator: Hamel Husain & Shreya Shankar
 operator_role: Independent ML consultant and Berkeley PhD researcher
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill
 source_type: podcast
 source_title: Evals as error analysis, the benevolent dictator, LLM judges
 source_date: 2026-04-28

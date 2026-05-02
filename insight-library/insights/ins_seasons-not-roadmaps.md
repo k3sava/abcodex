@@ -2,7 +2,7 @@
 id: ins_seasons-not-roadmaps
 operator: Asha Sharma
 operator_role: CVP, Microsoft AI Platform
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma
 source_type: podcast
 source_title: Asha Sharma — Product as organism, post-training, agentic society — Lenny's Podcast
 source_date: 2026-04-28

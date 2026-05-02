@@ -2,7 +2,7 @@
 id: ins_distribution-platform-cycles
 operator: Brian Balfour
 operator_role: Founder & CEO, Reforge; former VP Growth, HubSpot
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/why-chatgpt-will-be-the-next-big-growth-channel-brian-balfour
 source_type: podcast
 source_title: Distribution platform cycles and the ChatGPT opportunity
 source_date: 2026-04-28

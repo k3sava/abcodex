@@ -2,7 +2,7 @@
 id: ins_information-asymmetry-werewolf
 operator: Jacob Warwick
 operator_role: Executive negotiator
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp
 source_type: podcast
 source_title: Jacob Warwick on comp negotiation, information asymmetry — Lenny's Podcast
 source_date: 2026-04-28

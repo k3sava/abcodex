@@ -2,7 +2,7 @@
 id: ins_economic-turing-test-for-ai
 operator: Benjamin Mann
 operator_role: Co-founder, Anthropic; tech lead product engineering; ex-OpenAI GPT-3 architect
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann
 source_type: podcast
 source_title: The Economic Turing Test, mission over money, transformative AI
 source_date: 2026-04-28

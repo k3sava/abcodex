@@ -2,7 +2,7 @@
 id: ins_make-intuition-explicit
 operator: Annie Duke
 operator_role: Author, Thinking in Bets and Quit; former WSOP poker champion
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/making-better-decisions-annie-duke
 source_type: podcast
 source_title: Decision quality, explicit thinking, feedback loops
 source_date: 2026-04-28

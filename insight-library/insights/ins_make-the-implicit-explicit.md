@@ -2,7 +2,7 @@
 id: ins_make-the-implicit-explicit
 operator: Claire Hughes Johnson
 operator_role: Former COO, Stripe; author, Scaling People
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/lessons-from-scaling-stripe-tactics
 source_type: podcast
 source_title: Scaling people, the company operating system, force for positive momentum
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_transparency-in-uncertainty
 operator: Aishwarya Naresh Reganti
 operator_role: AI engineer / researcher
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different
 source_type: podcast
 source_title: Aishwarya Naresh Reganti and Kiriti Badam on AI product design — Lenny's Podcast
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_build-for-next-model-not-current
 operator: Sherwin Wu
 operator_role: Head of Engineering, OpenAI API and Developer Platform
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers
 source_type: podcast
 source_title: Sherwin Wu — Codex inside OpenAI, engineers as managers — Lenny's Podcast
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_software-is-not-a-moat
 operator: Evan Spiegel
 operator_role: CEO and co-founder, Snap
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
 source_type: podcast
 source_title: Evan Spiegel — Distribution, design as bottleneck — Lenny's Podcast
 source_date: 2026-04-28

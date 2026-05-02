@@ -2,7 +2,7 @@
 id: ins_cccd-continuous-calibration
 operator: Aishwarya Naresh Reganti
 operator_role: AI engineer / researcher; co-host with Kiriti Badam on AI product design
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different
 source_type: podcast
 source_title: Aishwarya Naresh Reganti and Kiriti Badam on AI product design and CCCD — Lenny's Podcast
 source_date: 2026-04-28

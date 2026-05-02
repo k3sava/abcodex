@@ -2,7 +2,7 @@
 id: ins_pocket-veto-large-companies
 operator: Jeetu Patel
 operator_role: Chief Product Officer and President, Cisco
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival
 source_type: podcast
 source_title: Jeetu Patel — Turning Cisco AI-first — Lenny's Podcast
 source_date: 2026-04-28

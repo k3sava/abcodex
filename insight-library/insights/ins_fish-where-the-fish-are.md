@@ -2,7 +2,7 @@
 id: ins_fish-where-the-fish-are
 operator: Andrew Wilkinson
 operator_role: Founder, Tiny; co-founder MetaLab; bootstrapped portfolio operator
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/ive-run-75-businesses-andrew-wilkinson
 source_type: podcast
 source_title: Andrew Wilkinson on Niche Markets, Lazy Leadership, and AI Automation — Lenny's Podcast
 source_date: 2026-04-28

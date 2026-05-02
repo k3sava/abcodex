@@ -2,7 +2,7 @@
 id: ins_label-confidence-explicitly
 operator: Mihika Kapoor
 operator_role: Product manager (design-engineering hybrid), Figma
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/vision-conviction-hype-mihika-kapoor
 source_type: podcast
 source_title: Vision, conviction, building hype, scope is the world
 source_date: 2026-04-28

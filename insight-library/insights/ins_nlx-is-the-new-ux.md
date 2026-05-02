@@ -2,7 +2,7 @@
 id: ins_nlx-is-the-new-ux
 operator: Aparna Chennapragada
 operator_role: CPO, Microsoft (AI product strategy across productivity)
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/microsoft-cpo-on-ai
 source_type: podcast
 source_title: NLX is the new UX, living in the future, taste over roadmaps
 source_date: 2026-04-28

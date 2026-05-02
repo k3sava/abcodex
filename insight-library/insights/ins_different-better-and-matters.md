@@ -2,7 +2,7 @@
 id: ins_different-better-and-matters
 operator: Ayo Omojola
 operator_role: Former Cash App / Cash Card lead; advisor / angel; ex-Carbon Health
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/frameworks-for-product-differentiation
 source_type: podcast
 source_title: Ayo Omojola on differentiation, design depth, regulated industries — Lenny's Podcast
 source_date: 2026-04-28

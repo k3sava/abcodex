@@ -2,7 +2,7 @@
 id: ins_three-divergent-pr-faqs
 operator: Anuj Rathi
 operator_role: VP Product (former Swiggy, Jupiter); product leader, India marketplaces
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-full-stack-pm-anuj-rathi-swiggy
 source_type: podcast
 source_title: Anuj Rathi on Full-Stack PM, Working Backwards, India Marketplace Dynamics — Lenny's Podcast
 source_date: 2026-04-28

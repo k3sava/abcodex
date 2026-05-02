@@ -2,7 +2,7 @@
 id: ins_setup-follow-through-pitch
 operator: April Dunford
 operator_role: Founder, Ambient Strategy; author, Obviously Awesome / Sales Pitch
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/a-step-by-step-guide-to-crafting
 source_type: podcast
 source_title: Positioning, setup follow-through, differentiation
 source_date: 2026-04-28

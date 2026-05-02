@@ -2,7 +2,7 @@
 id: ins_intelligence-into-things-that-already-exist
 operator: Qasar Younis
 operator_role: CEO and co-founder, Applied Intuition; ex-COO at Y Combinator
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 source_type: podcast
 source_title: Qasar Younis on Physical AI, radical pragmatism, build quietly — Lenny's Podcast
 source_date: 2026-04-28

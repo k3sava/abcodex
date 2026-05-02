@@ -2,7 +2,7 @@
 id: ins_separate-behavior-from-identity
 operator: Becky Kennedy
 operator_role: Clinical psychologist; founder, Good Inside
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap
 source_type: podcast
 source_title: Good Inside leadership, repair, MGI, behavior vs identity
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_marginal-user-methodology
 operator: Adriel Frederick
 operator_role: Former growth lead, Lyft; former growth, Facebook
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/humanizing-product-development-adriel
 source_type: podcast
 source_title: Marginal users, human-in-the-loop algorithms, growth discipline
 source_date: 2026-04-28

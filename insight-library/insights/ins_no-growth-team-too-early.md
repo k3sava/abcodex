@@ -2,7 +2,7 @@
 id: ins_no-growth-team-too-early
 operator: Elena Verna
 operator_role: Growth advisor
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna
 source_type: podcast
 source_title: Elena Verna 3.0 — 10 growth tactics that never work — Lenny's Podcast
 source_date: 2026-04-28

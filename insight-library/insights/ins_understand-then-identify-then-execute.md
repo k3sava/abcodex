@@ -2,7 +2,7 @@
 id: ins_understand-then-identify-then-execute
 operator: Bangaly Kaba
 operator_role: Former Head of Growth, Instacart; ex-Instagram, Facebook
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/frameworks-for-growing-your-career-bangaly-kaba
 source_type: podcast
 source_title: Understand work, adjacent user theory, impact frame
 source_date: 2026-04-28

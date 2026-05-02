@@ -2,7 +2,7 @@
 id: ins_use-new-tools-as-new-tools
 operator: Benjamin Mann
 operator_role: Co-founder, Anthropic
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann
 source_type: podcast
 source_title: The Economic Turing Test, mission over money, transformative AI
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_obstacles-as-gates-not-problems
 operator: Andy Raskin
 operator_role: Strategic narrative consultant
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-power-of-strategic-narrative
 source_type: podcast
 source_title: Andy Raskin on the Strategic Narrative Framework — Lenny's Podcast
 source_date: 2026-04-28

@@ -2,7 +2,7 @@
 id: ins_november-2025-coding-inflection
 operator: Simon Willison
 operator_role: Co-creator of Django; creator of Datasette; independent AI/engineering writer
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/an-ai-state-of-the-union
 source_type: podcast
 source_title: Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast
 source_date: 2026-04-02

@@ -2,7 +2,7 @@
 id: ins_outcomes-pricing-restructures-saas
 operator: Bret Taylor
 operator_role: Chair, OpenAI; ex-co-CEO Salesforce; ex-CTO Meta
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor
 source_type: podcast
 source_title: Agent futures, outcomes-based pricing, Google Local to Maps
 source_date: 2026-04-28

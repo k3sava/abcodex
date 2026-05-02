@@ -2,7 +2,7 @@
 id: ins_peer-mentorship-supply-scaling
 operator: Benjamin Lauzier
 operator_role: VP Product, Lyft and Thumbtack
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/how-marketplaces-win-benjamin-lauzier
 source_type: podcast
 source_title: Marketplace liquidity, supply control, and mentorship scaling — Lenny's Podcast
 source_date: 2026-04-28

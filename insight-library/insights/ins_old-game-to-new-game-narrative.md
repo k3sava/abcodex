@@ -2,7 +2,7 @@
 id: ins_old-game-to-new-game-narrative
 operator: Andy Raskin
 operator_role: Strategic narrative consultant; author of "The Greatest Sales Deck I've Ever Seen"
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/the-power-of-strategic-narrative
 source_type: podcast
 source_title: Andy Raskin on the Strategic Narrative Framework — Lenny's Podcast
 source_date: 2026-04-28

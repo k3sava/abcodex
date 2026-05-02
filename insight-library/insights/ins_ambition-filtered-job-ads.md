@@ -2,7 +2,7 @@
 id: ins_ambition-filtered-job-ads
 operator: Anton Osika
 operator_role: Co-founder and CEO, Lovable
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/building-lovable-anton-osika
 source_type: podcast
 source_title: Anton Osika on Lovable, the last piece of software — Lenny's Podcast
 source_date: 2026-04-28

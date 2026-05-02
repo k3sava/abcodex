@@ -2,7 +2,7 @@
 id: ins_personal-pattern-hoarding
 operator: Simon Willison
 operator_role: Independent AI/engineering writer; co-creator of Django
-source_url: https://www.lennysnewsletter.com/podcast
+source_url: https://www.lennysnewsletter.com/p/an-ai-state-of-the-union
 source_type: podcast
 source_title: Simon Willison on agentic engineering and the November 2025 inflection — Lenny's Podcast
 source_date: 2026-04-02
