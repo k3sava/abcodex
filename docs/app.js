@@ -91,11 +91,11 @@ function home(){
       <h1 id='heroH'>read one claim. <em>verify</em> the source. cite it.</h1>
       <p class='lede'>codex is a primary-source corpus of operator-attributed claims across product, pmm, gtm, ai-native, design, and leadership. every card carries a named operator, source url, date, mechanism, conditions, and evidence.</p>
       <div class='stats'>
-        <div class='stat'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></div>
-        <div class='stat'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></div>
-        <div class='stat'><span class='num' data-count='${STATS.patterns}'>0</span><span class='lbl'>patterns</span></div>
-        <div class='stat'><span class='num' data-count='${STATS.contradictions}'>0</span><span class='lbl'>contradictions</span></div>
-        <div class='stat'><span class='num' data-count='${STATS.playbooks}'>0</span><span class='lbl'>playbooks</span></div>
+        <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></a>
+        <a class='stat' href='#/operators'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></a>
+        <a class='stat' href='#/patterns'><span class='num' data-count='${STATS.patterns}'>0</span><span class='lbl'>patterns</span></a>
+        <a class='stat' href='#/patterns#contradictions'><span class='num' data-count='${STATS.contradictions}'>0</span><span class='lbl'>contradictions</span></a>
+        <a class='stat' href='#/playbooks'><span class='num' data-count='${STATS.playbooks}'>0</span><span class='lbl'>playbooks</span></a>
       </div>
       <div class='scroll-cue' id='scrollCue'><span>scroll</span><span class='line'></span></div>
     </section>
@@ -278,7 +278,7 @@ function patternsList(){
     ${byTier.other.length ? tierBlock('—', byTier.other, 'Untiered.') : ''}
 
     ${contradictions.length ? `
-    <section class='contradictions-section reveal'>
+    <section id='contradictions' class='contradictions-section reveal'>
       <div class='head'>
         <h2>Contradictions</h2>
         <span class='ct'>${STATS.contradictions} surfaced</span>
@@ -290,6 +290,34 @@ function patternsList(){
           <h3>${escapeHtml(c.title)}</h3>
         </a>`).join('')}</div>
     </section>` : ''}
+  </section>`;
+  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
+}
+
+function playbooksList(){
+  const byDomain = {};
+  playbooks.forEach(p => {
+    const key = (p.domain && p.domain[0]) || 'general';
+    (byDomain[key] = byDomain[key] || []).push(p);
+  });
+  const groups = Object.keys(byDomain).sort();
+  app.innerHTML = `<section class='list-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>playbooks</span></div>
+    <h1>methodology playbooks</h1>
+    <p class='lede'>${STATS.playbooks} playbooks distilled from operator-attributed claims. Each playbook bundles cards, operators, and downstream artifacts into a working procedure.</p>
+    ${groups.map(g => `
+      <section class='tier-group'>
+        <header class='tier-head'>
+          <h2>${g}</h2>
+          <span class='ct'>${byDomain[g].length} playbook${byDomain[g].length===1?'':'s'}</span>
+        </header>
+        <div class='card-grid'>${byDomain[g].map(p => `
+          <a class='card reveal' target='_blank' rel='noopener' href='${p.path ? `https://github.com/k3sava/ab-codex/blob/main/insight-library/${p.path}` : '#'}'>
+            <div class='meta-row'><span>playbook</span><span>${(p.domain||[]).slice(0,3).join(' · ')}</span></div>
+            <h3>${escapeHtml(p.title)}</h3>
+            <div class='converge'>${(p.uses_cards||[]).length} cards · ${(p.originating_operators||[]).length} operators</div>
+          </a>`).join('')}</div>
+      </section>`).join('')}
   </section>`;
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
@@ -633,7 +661,10 @@ function setActive(){
 function render(){
   window.scrollTo(0,0);
   ScrollTrigger.getAll().forEach(t=>t.kill());
-  const r = (location.hash || '#/').replace(/^#/,'');
+  const raw = (location.hash || '#/').replace(/^#/,'');
+  const hashIdx = raw.indexOf('#');
+  const r = hashIdx === -1 ? raw : raw.slice(0, hashIdx);
+  const anchor = hashIdx === -1 ? '' : raw.slice(hashIdx + 1);
   let view;
   if (r==='/'||r==='') view = home;
   else if (r.startsWith('/ins/')) view = () => insight(decodeURIComponent(r.slice(5)));
@@ -641,6 +672,7 @@ function render(){
   else if (r==='/operators') view = operatorsList;
   else if (r.startsWith('/d/')) view = () => domainPage(decodeURIComponent(r.slice(3)));
   else if (r==='/patterns') view = patternsList;
+  else if (r==='/playbooks') view = playbooksList;
   else if (r.startsWith('/pat/')) view = () => patternPage(decodeURIComponent(r.slice(5)));
   else if (r.startsWith('/con/')) view = () => contradictionPage(decodeURIComponent(r.slice(5)));
   else if (r==='/map' || r==='/graph') view = graph;
@@ -652,7 +684,13 @@ function render(){
   if (!reduced) gsap.fromTo(app, { opacity:0, y:8 }, { opacity:1, y:0, duration:.4, ease:'power2.out' });
   view();
   // Allow render then refresh ScrollTrigger so currently-visible reveals fire
-  setTimeout(() => ScrollTrigger.refresh(), 60);
+  setTimeout(() => {
+    ScrollTrigger.refresh();
+    if (anchor){
+      const el = document.getElementById(anchor);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, 80);
 }
 
 /* ============ SEARCH ============ */
