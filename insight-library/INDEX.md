@@ -3,8 +3,8 @@
 _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 170 insight cards
-- 190 operator profiles
+- 182 insight cards
+- 202 operator profiles
 - 87 raw source files
 - 24 synthesis patterns
 - 9 contradictions
@@ -95,7 +95,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools — be ambitious and retry from scratch _(Benjamin Mann)_
 - [`ins_zappos-rotation-through-support`](insights/ins_zappos-rotation-through-support.md) — Every new hire — including the CFO — does four weeks on the customer phones _(Tony Hsieh)_
 
-### Tier B (88)
+### Tier B (95)
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_3s-content-from-sales-success-support`](insights/ins_3s-content-from-sales-success-support.md) — Source content briefs from Sales, Success, and Support — not keyword tools _(Brendan Hufford)_
 - [`ins_advisor-tool-replaces-ensemble`](insights/ins_advisor-tool-replaces-ensemble.md) — Advisor-tool replaces ensemble-of-3 stability hacks at near-Sonnet rates _(Cat Wu)_
@@ -104,8 +104,10 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_aeo-roadmap-as-executive-readout`](insights/ins_aeo-roadmap-as-executive-readout.md) — Package the AEO audit as a year-long keep/start/stop deck _(Mike King)_
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
+- [`ins_ai-exposes-execution-only-pmms`](insights/ins_ai-exposes-execution-only-pmms.md) — AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks _(Sachin Jha)_
 - [`ins_all-problems-become-people-problems`](insights/ins_all-problems-become-people-problems.md) — Above a certain level, every problem is a people problem _(Silvia Botros)_
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
+- [`ins_anonymous-benchmark-rescues-roi-evidence`](insights/ins_anonymous-benchmark-rescues-roi-evidence.md) — Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked _(Jason Oakley)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator — committees stall the loop _(Hamel Husain & Shreya Shankar)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
@@ -119,6 +121,8 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_company-story-is-the-strategy`](insights/ins_company-story-is-the-strategy.md) — Run a monthly narrative-drift audit across decks, homepage, and release notes _(Andy Raskin)_
 - [`ins_competency-analytics-over-activity`](insights/ins_competency-analytics-over-activity.md) — Score reps on a fixed competency rubric, not on activity dashboards _(Chris Orlob)_
 - [`ins_competency-analytics-over-activity-dashboards`](insights/ins_competency-analytics-over-activity-dashboards.md) — Coach reps on skill-friction, not call counts _(Chris Orlob)_
+- [`ins_context-docs-as-battery-packs`](insights/ins_context-docs-as-battery-packs.md) — Context documents are reusable battery packs that need named owners _(Aatir Abdul Rauf)_
+- [`ins_context-engineering-beats-prompt-engineering`](insights/ins_context-engineering-beats-prompt-engineering.md) — Context engineering beats prompt engineering for marketing AI workflows _(Aatir Abdul Rauf)_
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public — not "praise public, criticize private" _(Jeetu Patel)_
 - [`ins_data-plumber-is-the-bottleneck`](insights/ins_data-plumber-is-the-bottleneck.md) — The data plumber is the highest-leverage early growth hire, ahead of creative or media _(Andrew Chen)_
@@ -156,6 +160,8 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_pmm-activates-five-teams-not-two`](insights/ins_pmm-activates-five-teams-not-two.md) — Positioning compounds when it ships as tooling to five teams, not just sales _(Yi Lin Pei)_
 - [`ins_pocket-veto-large-companies`](insights/ins_pocket-veto-large-companies.md) — Be explicit about what's not up for debate; the pocket veto kills large-company AI work _(Jeetu Patel)_
 - [`ins_position-against-real-not-ghost-competitors`](insights/ins_position-against-real-not-ghost-competitors.md) — Stop positioning against ghost competitors customers don't actually consider _(April Dunford)_
+- [`ins_positioning-is-a-business-identity-decision`](insights/ins_positioning-is-a-business-identity-decision.md) — Positioning is a business identity decision, not a marketing artifact _(Aatir Abdul Rauf)_
+- [`ins_positioning-not-messaging-not-copy`](insights/ins_positioning-not-messaging-not-copy.md) — Positioning, messaging, and copy are three distinct layers — collapsing them produces hollow output _(Aatir Abdul Rauf)_
 - [`ins_pricing-needs-weekly-customer-calls`](insights/ins_pricing-needs-weekly-customer-calls.md) — Without weekly customer calls, you don't have a pricing strategy — you have a guess _(Patrick Campbell)_
 - [`ins_product-as-organism`](insights/ins_product-as-organism.md) — Treat the product as a living organism with a metabolism, not a shipped artifact _(Asha Sharma)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
@@ -163,6 +169,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_red-green-tdd-shorthand-for-agents`](insights/ins_red-green-tdd-shorthand-for-agents.md) — Encode jargon shorthand once, save tokens forever _(Simon Willison)_
 - [`ins_relevance-engineering-not-content-problem`](insights/ins_relevance-engineering-not-content-problem.md) — GEO is an information-retrieval engineering problem, not a content problem _(Mike King)_
 - [`ins_reps-want-questions-not-dashboards`](insights/ins_reps-want-questions-not-dashboards.md) — Sellers don't want a better dashboard — they want to ask the deal questions _(Yamini Rangan)_
+- [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_sales-team-detects-positioning-failure-first`](insights/ins_sales-team-detects-positioning-failure-first.md) — The sales team detects positioning failure months before the dashboard does _(April Dunford)_
 - [`ins_sales-truth-stratified-not-bulk`](insights/ins_sales-truth-stratified-not-bulk.md) — Stratify sales calls won/lost; AI does volume, humans pattern-match _(Anthony Pierri)_
 - [`ins_sameness-perception-is-the-differentiation-barrier`](insights/ins_sameness-perception-is-the-differentiation-barrier.md) — Buyers see "sameness" — test differentiators with external audiences before any campaign launch _(Gartner)_
@@ -185,12 +192,19 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-change-statements-precede-capability`](insights/ins_why-change-statements-precede-capability.md) — 60% of users get new apps without a "why it helps" — fix that before any capability rollout _(Gartner)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price — the variable is buyer economics, not effort _(Andrew Wilkinson)_
 
-### Tier C (1)
+### Tier C (6)
+- [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
+- [`ins_ai-career-coach-prompt-chain`](insights/ins_ai-career-coach-prompt-chain.md) — A 7-step AI prompt chain beats one-shot resume rewrites for job search _(Nishchal Dua)_
 - [`ins_data-strategy-precedes-tool-strategy`](insights/ins_data-strategy-precedes-tool-strategy.md) — Data strategy precedes tool strategy in marketing automation _(Gartner)_
+- [`ins_personal-user-manual-onboarding`](insights/ins_personal-user-manual-onboarding.md) — Personal user manuals belong in company onboarding to compress alignment time _(Saket Banka)_
+- [`ins_pmm-interview-tests-thinking-not-task-list`](insights/ins_pmm-interview-tests-thinking-not-task-list.md) — PMM interviews test reasoning about failure and customer insight, not shipped task counts _(Sachin Jha)_
+- [`ins_resume-headline-as-recruiter-handle`](insights/ins_resume-headline-as-recruiter-handle.md) — A role-targeted headline below the name is the first ATS+human filter _(Roshni Chellani)_
 
 ## Operators
 - [Aakash Gupta](operators/aakash-gupta/README.md)
 - [Aaron Ross](operators/aaron-ross/README.md)
+- [Aatir Abdul Rauf](operators/aatir-abdul-rauf/README.md)
+- [Adam Renklint](operators/adam-renklint/README.md)
 - [Adriel Frederick](operators/adriel-frederick/README.md)
 - [Adrienne Barnes](operators/adrienne-barnes/README.md)
 - [Aishwarya Naresh Reganti](operators/aishwarya-naresh-reganti/README.md)
@@ -255,6 +269,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Debbie Millman](operators/debbie-millman/README.md)
 - [Denise Lee Yohn](operators/denise-lee-yohn/README.md)
 - [Devin Reed](operators/devin-reed/README.md)
+- [Devran Karaca](operators/devran-karaca/README.md)
 - [Donald Miller](operators/donald-miller/README.md)
 - [Doug Holt](operators/doug-holt/README.md)
 - [Eddie Shleyner](operators/eddie-shleyner/README.md)
@@ -279,10 +294,12 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Hiten Shah](operators/hiten-shah/README.md)
 - [Jacco van der Kooij](operators/jacco-van-der-kooij/README.md)
 - [Jacob Warwick](operators/jacob-warwick/README.md)
+- [Jafar Najafov](operators/jafar-najafov/README.md)
 - [James Clear](operators/james-clear/README.md)
 - [James Doman-Pipe](operators/james-doman-pipe/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
 - [Jason Lemkin](operators/jason-lemkin/README.md)
+- [Jason Oakley](operators/jason-oakley/README.md)
 - [Jay Acunzo](operators/jay-acunzo/README.md)
 - [Jaya Rajwani](operators/jaya-rajwani/README.md)
 - [Jeetu Patel](operators/jeetu-patel/README.md)
@@ -297,6 +314,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Jonathan Stark](operators/jonathan-stark/README.md)
 - [Josh Braun](operators/josh-braun/README.md)
 - [Julian Shapiro](operators/julian-shapiro/README.md)
+- [Julien Sauvage](operators/julien-sauvage/README.md)
 - [Karl Sakas](operators/karl-sakas/README.md)
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kevin Indig](operators/kevin-indig/README.md)
@@ -328,6 +346,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Neil Rackham](operators/neil-rackham/README.md)
 - [Nick Abraham](operators/nick-abraham/README.md)
 - [Nik Sharma](operators/nik-sharma/README.md)
+- [Nishchal Dua](operators/nishchal-dua/README.md)
 - [Packy McCormick](operators/packy-mccormick/README.md)
 - [Park Howell](operators/park-howell/README.md)
 - [Patrick Campbell](operators/patrick-campbell/README.md)
@@ -338,14 +357,18 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Pia Silva](operators/pia-silva/README.md)
 - [Pieter Levels](operators/pieter-levels/README.md)
 - [Qasar Younis](operators/qasar-younis/README.md)
+- [Rahul Chhabria](operators/rahul-chhabria/README.md)
 - [Ramli John](operators/ramli-john/README.md)
 - [Rand Fishkin](operators/rand-fishkin/README.md)
 - [Reforge](operators/reforge/README.md)
 - [Robert Rose](operators/robert-rose/README.md)
 - [Rohit Shah](operators/rohit-shah/README.md)
+- [Roshni Chellani](operators/roshni-chellani/README.md)
 - [Ross Simmonds](operators/ross-simmonds/README.md)
 - [Rowan Tonkin](operators/rowan-tonkin/README.md)
+- [Sachin Jha](operators/sachin-jha/README.md)
 - [Sahil Bloom](operators/sahil-bloom/README.md)
+- [Saket Banka](operators/saket-banka/README.md)
 - [Sally Hogshead](operators/sally-hogshead/README.md)
 - [Sam Altman](operators/sam-altman/README.md)
 - [Sam Kuehnle](operators/sam-kuehnle/README.md)
@@ -358,6 +381,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Sherwin Wu](operators/sherwin-wu/README.md)
 - [Shireesh Gupta](operators/shireesh-gupta/README.md)
 - [Shreya Shankar](operators/shreya-shankar/README.md)
+- [Shruti Kapoor](operators/shruti-kapoor/README.md)
 - [Silvia Botros](operators/silvia-botros/README.md)
 - [Simon Sinek](operators/simon-sinek/README.md)
 - [Simon Willison](operators/simon-willison/README.md)

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T15:53:33.911Z",
+  "generated_at": "2026-05-02T16:01:08.599Z",
   "counts": {
-    "insights": 170,
-    "operators": 190,
+    "insights": 182,
+    "operators": 202,
     "raw_sources": 87,
     "patterns": 24,
     "contradictions": 9,
@@ -92,6 +92,32 @@
         "ins_long-term-holdouts-30-40-evaporate"
       ],
       "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_action-tool-result-resume-format.md",
+      "title": "Resume bullets land when written as Action + Tool + Result",
+      "id": "ins_action-tool-result-resume-format",
+      "operator": "Roshni Chellani",
+      "operator_role": "Staff MST, MediaTek",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7310323349337870336",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "source_type": "thread",
+      "source_title": "Quantified results need the Action + Tool + Result format",
+      "domain": [
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 2, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_resume-headline-as-recruiter-handle"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_add-new-growth-model-every-18-months.md",
@@ -417,6 +443,31 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ai-career-coach-prompt-chain.md",
+      "title": "A 7-step AI prompt chain beats one-shot resume rewrites for job search",
+      "id": "ins_ai-career-coach-prompt-chain",
+      "operator": "Nishchal Dua",
+      "operator_role": "VP Marketing, inFeedo AI",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7297177378215055362",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "source_type": "thread",
+      "source_title": "7 prompts to use AI as your personal career coach",
+      "domain": [
+        "ai-native",
+        "hiring"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 2, specificity: 4, evidence: 2, transferability: 5, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_ai-cold-call-compliance-follows-prospect-residence.md",
       "title": "AI cold-call compliance follows the prospect's residence, not the seller's HQ",
       "id": "ins_ai-cold-call-compliance-follows-prospect-residence",
@@ -444,6 +495,32 @@
         "ins_seller-workflows-begin-with-ai"
       ],
       "raw_ref": "raw/research/gartner--ensure-ai-sdr-cold-calling-compliance--2026-04.md"
+    },
+    {
+      "path": "insights/ins_ai-exposes-execution-only-pmms.md",
+      "title": "AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks",
+      "id": "ins_ai-exposes-execution-only-pmms",
+      "operator": "Sachin Jha",
+      "operator_role": "Founder, ONEGTMLab",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7338465608960749570",
+      "source_type": "thread",
+      "source_title": "AI is exposing 90% of the product marketers who were never doing real product marketing job",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_ai-slop-loop.md",
@@ -530,6 +607,35 @@
         "ins_generalists-over-specialists-ai-native"
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_anonymous-benchmark-rescues-roi-evidence.md",
+      "title": "Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked",
+      "id": "ins_anonymous-benchmark-rescues-roi-evidence",
+      "operator": "Jason Oakley",
+      "operator_role": "Founder, Productive PMM and DemoDash",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7308140273509756928",
+      "source_type": "thread",
+      "source_title": "You don't necessarily need specific customer metrics — anonymous proof points and benchmark stats can save you",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_roi-evidence-most-trusted-by-b2b-buyers"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_battle-cards-as-workflow-primitive.md",
@@ -1078,6 +1184,62 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_context-docs-as-battery-packs.md",
+      "title": "Context documents are reusable battery packs that need named owners",
+      "id": "ins_context-docs-as-battery-packs",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "VP of Marketing, vFairs",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7399085360246542336",
+      "source_type": "thread",
+      "source_title": "Context documents need clear owners and act like battery packs for AI workflows",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_context-engineering-beats-prompt-engineering"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_context-engineering-beats-prompt-engineering.md",
+      "title": "Context engineering beats prompt engineering for marketing AI workflows",
+      "id": "ins_context-engineering-beats-prompt-engineering",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "VP of Marketing, vFairs",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7399085360246542336",
+      "source_type": "thread",
+      "source_title": "Most product and marketing teams setting up AI workflows spend all their time learning the tool. That's backwards.",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_crawlability-shapes-everything.md",
@@ -3160,6 +3322,32 @@
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md"
     },
     {
+      "path": "insights/ins_personal-user-manual-onboarding.md",
+      "title": "Personal user manuals belong in company onboarding to compress alignment time",
+      "id": "ins_personal-user-manual-onboarding",
+      "operator": "Saket Banka",
+      "operator_role": "Strategy and BizOps; ex-Chief of Staff, Sprinto",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7311024431697399808",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "source_type": "thread",
+      "source_title": "Personal user manuals belong in onboarding",
+      "domain": [
+        "leadership",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 2, specificity: 3, evidence: 2, transferability: 5, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_pin-workflows-to-capabilities-not-models.md",
       "title": "Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot",
       "id": "ins_pin-workflows-to-capabilities-not-models",
@@ -3330,6 +3518,33 @@
       "raw_ref": "raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md"
     },
     {
+      "path": "insights/ins_pmm-interview-tests-thinking-not-task-list.md",
+      "title": "PMM interviews test reasoning about failure and customer insight, not shipped task counts",
+      "id": "ins_pmm-interview-tests-thinking-not-task-list",
+      "operator": "Sachin Jha",
+      "operator_role": "Founder, ONEGTMLab",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7345332615375175684",
+      "source_type": "thread",
+      "source_title": "Product marketing interviews are more than just good resumes — they test thinking, not your task list",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 2, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_ai-exposes-execution-only-pmms"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_pocket-veto-large-companies.md",
       "title": "Be explicit about what's not up for debate; the pocket veto kills large-company AI work",
       "id": "ins_pocket-veto-large-companies",
@@ -3382,6 +3597,61 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
+    },
+    {
+      "path": "insights/ins_positioning-is-a-business-identity-decision.md",
+      "title": "Positioning is a business identity decision, not a marketing artifact",
+      "id": "ins_positioning-is-a-business-identity-decision",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "VP of Marketing, vFairs",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7394355370770681856",
+      "source_type": "thread",
+      "source_title": "Positioning isn't a marketing exercise",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 2, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_positioning-not-messaging-not-copy"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_positioning-not-messaging-not-copy.md",
+      "title": "Positioning, messaging, and copy are three distinct layers — collapsing them produces hollow output",
+      "id": "ins_positioning-not-messaging-not-copy",
+      "operator": "Aatir Abdul Rauf",
+      "operator_role": "VP of Marketing, vFairs",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7394355370770681856",
+      "source_type": "thread",
+      "source_title": "Positioning ≠ Messaging ≠ Copy",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_positioning-is-a-business-identity-decision"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_post-training-as-the-moat.md",
@@ -3905,6 +4175,30 @@
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
     },
     {
+      "path": "insights/ins_resume-headline-as-recruiter-handle.md",
+      "title": "A role-targeted headline below the name is the first ATS+human filter",
+      "id": "ins_resume-headline-as-recruiter-handle",
+      "operator": "Roshni Chellani",
+      "operator_role": "Staff MST, MediaTek",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7310323349337870336",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "source_type": "thread",
+      "source_title": "Recruiters at Amazon, Meta, and Google reject resumes like this in 5 seconds",
+      "domain": [
+        "hiring"
+      ],
+      "lifecycle": [
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 1, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_right-friction-beats-no-friction.md",
       "title": "Keep friction that helps users understand the product; cut the rest",
       "id": "ins_right-friction-beats-no-friction",
@@ -3931,6 +4225,35 @@
         "ins_quality-as-growth-lever"
       ],
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md",
+      "title": "Customer ROI evidence is the highest-trust proof point for B2B buyers",
+      "id": "ins_roi-evidence-most-trusted-by-b2b-buyers",
+      "operator": "Jason Oakley",
+      "operator_role": "Founder, Productive PMM and DemoDash",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7308140273509756928",
+      "source_type": "thread",
+      "source_title": "Getting useful ROI stats from customers feels impossible — here are 10 examples to prove it's not",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 2, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_anonymous-benchmark-rescues-roi-evidence"
+      ],
+      "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
       "path": "insights/ins_sales-team-detects-positioning-failure-first.md",
@@ -4917,6 +5240,38 @@
         "ai-native"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/aatir-abdul-rauf/README.md",
+      "title": "Aatir Abdul Rauf",
+      "name": "Aatir Abdul Rauf",
+      "slug": "aatir-abdul-rauf",
+      "roles": [
+        "VP of Marketing, vFairs",
+        "Author, Behind Product Lines newsletter"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing",
+        "ai-native",
+        "product"
+      ],
+      "captured_first": "2026-05-02",
+      "external": ""
+    },
+    {
+      "path": "operators/adam-renklint/README.md",
+      "title": "Adam Renklint",
+      "name": "Adam Renklint",
+      "slug": "adam-renklint",
+      "roles": [
+        "Co-founder, Pitch"
+      ],
+      "domains_active": [
+        "founder-operator",
+        "product"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/adriel-frederick/README.md",
@@ -6034,6 +6389,19 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/devran-karaca/README.md",
+      "title": "Devran Karaca",
+      "name": "Devran Karaca",
+      "slug": "devran-karaca",
+      "roles": [
+        "Founder, Kyra"
+      ],
+      "domains_active": [
+        "founder-operator"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/donald-miller/README.md",
       "title": "Donald Miller",
       "name": "Donald Miller",
@@ -6462,6 +6830,20 @@
       "external": ""
     },
     {
+      "path": "operators/jafar-najafov/README.md",
+      "title": "Jafar Najafov",
+      "name": "Jafar Najafov",
+      "slug": "jafar-najafov",
+      "roles": [
+        "Co-founder & CEO, Nextool & Reel Agency"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "content"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/james-clear/README.md",
       "title": "James Clear",
       "name": "James Clear",
@@ -6530,6 +6912,22 @@
         "design"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/jason-oakley/README.md",
+      "title": "Jason Oakley",
+      "name": "Jason Oakley",
+      "slug": "jason-oakley",
+      "roles": [
+        "Founder, Productive PMM and DemoDash",
+        "Founding PMM advisor"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/jay-acunzo/README.md",
@@ -6777,6 +7175,20 @@
         "pmm"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/julien-sauvage/README.md",
+      "title": "Julien Sauvage",
+      "name": "Julien Sauvage",
+      "slug": "julien-sauvage",
+      "roles": [
+        "Marketing leader, Cordial"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/karl-sakas/README.md",
@@ -7333,6 +7745,23 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/nishchal-dua/README.md",
+      "title": "Nishchal Dua",
+      "name": "Nishchal Dua",
+      "slug": "nishchal-dua",
+      "roles": [
+        "VP Marketing, inFeedo AI",
+        "B2B SaaS Product & Growth Marketing",
+        "AI in GTM Advisor"
+      ],
+      "domains_active": [
+        "marketing",
+        "ai-native",
+        "hiring"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/packy-mccormick/README.md",
       "title": "Packy McCormick",
       "name": "Packy McCormick",
@@ -7513,6 +7942,20 @@
       "external": ""
     },
     {
+      "path": "operators/rahul-chhabria/README.md",
+      "title": "Rahul Chhabria",
+      "name": "Rahul Chhabria",
+      "slug": "rahul-chhabria",
+      "roles": [
+        "Marketing, Sentry"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/ramli-john/README.md",
       "title": "Ramli John",
       "name": "Ramli John",
@@ -7605,6 +8048,20 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/roshni-chellani/README.md",
+      "title": "Roshni Chellani",
+      "name": "Roshni Chellani",
+      "slug": "roshni-chellani",
+      "roles": [
+        "Staff MST, MediaTek",
+        "Career content creator"
+      ],
+      "domains_active": [
+        "hiring"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/ross-simmonds/README.md",
       "title": "Ross Simmonds",
       "name": "Ross Simmonds",
@@ -7642,6 +8099,22 @@
       "captured_first": "2026-05-01"
     },
     {
+      "path": "operators/sachin-jha/README.md",
+      "title": "Sachin Jha",
+      "name": "Sachin Jha",
+      "slug": "sachin-jha",
+      "roles": [
+        "Founder, ONEGTMLab",
+        "Product Marketing / AI GTM Engineering for Cyber and DevTools"
+      ],
+      "domains_active": [
+        "pmm",
+        "ai-native",
+        "gtm"
+      ],
+      "captured_first": "2026-05-02"
+    },
+    {
       "path": "operators/sahil-bloom/README.md",
       "title": "Sahil Bloom",
       "name": "Sahil Bloom",
@@ -7657,6 +8130,21 @@
         "ai-native"
       ],
       "captured_first": "2026-05-01"
+    },
+    {
+      "path": "operators/saket-banka/README.md",
+      "title": "Saket Banka",
+      "name": "Saket Banka",
+      "slug": "saket-banka",
+      "roles": [
+        "Strategy and Business Operations",
+        "Ex-Chief of Staff, Sprinto"
+      ],
+      "domains_active": [
+        "leadership",
+        "hiring"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/sally-hogshead/README.md",
@@ -7870,6 +8358,21 @@
       ],
       "captured_first": "2026-05-01",
       "external": ""
+    },
+    {
+      "path": "operators/shruti-kapoor/README.md",
+      "title": "Shruti Kapoor",
+      "name": "Shruti Kapoor",
+      "slug": "shruti-kapoor",
+      "roles": [
+        "Founder Coach",
+        "Ex-Clari, Wingman (YC S19)"
+      ],
+      "domains_active": [
+        "founder-craft",
+        "leadership"
+      ],
+      "captured_first": "2026-05-02"
     },
     {
       "path": "operators/silvia-botros/README.md",
