@@ -23,7 +23,8 @@ Joe Pulizzi's entire body of work revolves around a single, forceful idea: conte
 - **Content Operations**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_content-tilt-differentiation` — If you can't articulate your content tilt, stop creating content and buy ads instead [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `7-steps-to-build-a-successful-long-term-content-model.md` (artemis ingest)

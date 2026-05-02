@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T16:37:13.426Z",
+  "generated_at": "2026-05-02T16:44:43.075Z",
   "counts": {
-    "insights": 348,
+    "insights": 368,
     "operators": 288,
-    "raw_sources": 133,
+    "raw_sources": 153,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -402,6 +402,32 @@
       "raw_ref": "raw/essays/aleyda-solis--3-layer-aeo-framework--2026-04-23.md"
     },
     {
+      "path": "insights/ins_agency-chaos-is-leadership.md",
+      "title": "Most agency problems are leadership problems disguised as operational ones",
+      "id": "ins_agency-chaos-is-leadership",
+      "operator": "Karl Sakas",
+      "operator_role": "Agency advisor at Sakas & Company; author Calm the Chaos",
+      "source_url": "https://sakasandcompany.com/",
+      "source_type": "book",
+      "source_title": "\"Calm the Chaos — agency leadership operating system\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ownership-org",
+        "hiring-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/karl-sakas.md"
+    },
+    {
       "path": "insights/ins_agent-first-gtm-flywheel.md",
       "title": "Run agent-first GTM as a three-stage flywheel with one named agent per job",
       "id": "ins_agent-first-gtm-flywheel",
@@ -659,6 +685,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_ai-forces-scaleups-back-to-startup.md",
+      "title": "The number one enemy of innovation is efficiency — AI is collapsing the moats specialization built",
+      "id": "ins_ai-forces-scaleups-back-to-startup",
+      "operator": "Leah Tharin",
+      "operator_role": "Product-led growth strategist; ex-VP Product Jua and Smallpdf",
+      "source_url": "https://leahtharin.substack.com/",
+      "source_type": "essay",
+      "source_title": "\"AI forces scaleups back into startup mode — Leah's ProducTea\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "product",
+        "growth"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org",
+        "retention"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/leah-tharin.md"
     },
     {
       "path": "insights/ins_ai-slop-loop.md",
@@ -1324,6 +1378,35 @@
       "raw_ref": "raw/artemis/experts/andy-crestodina.md"
     },
     {
+      "path": "insights/ins_blog-as-library-business-model-revealed.md",
+      "title": "Content strategy should be revealed by the business model, not invented from scratch",
+      "id": "ins_blog-as-library-business-model-revealed",
+      "operator": "Jimmy Daly",
+      "operator_role": "Co-founder Superpath; ex-VP Growth Animalz",
+      "source_url": "https://superpath.co/",
+      "source_type": "essay",
+      "source_title": "\"Jimmy Daly — Blogs are libraries, not publications\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_blog-as-knowledge-base-not-newsfeed"
+      ],
+      "raw_ref": "raw/artemis/experts/jimmy-daly.md"
+    },
+    {
       "path": "insights/ins_bottleneck-is-context-not-capability.md",
       "title": "When the agent isn't doing what you want, fix the context — not the model",
       "id": "ins_bottleneck-is-context-not-capability",
@@ -1351,6 +1434,33 @@
         "ins_llm-wiki-pattern"
       ],
       "raw_ref": "raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_bowtie-recurring-revenue-architecture.md",
+      "title": "82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel",
+      "id": "ins_bowtie-recurring-revenue-architecture",
+      "operator": "Jacco van der Kooij",
+      "operator_role": "Founder Winning by Design; author Revenue Architecture",
+      "source_url": "https://winningbydesign.com/",
+      "source_type": "book",
+      "source_title": "\"Revenue Architecture — the Bowtie model\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "gtm",
+        "customer-success"
+      ],
+      "lifecycle": [
+        "retention",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jacco-van-der-kooij.md"
     },
     {
       "path": "insights/ins_brand-relevance-vs-preference.md",
@@ -1682,6 +1792,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_case-study-customer-as-hero.md",
+      "title": "Information in narrative form is 22x more memorable. Integrate the metric into the moment.",
+      "id": "ins_case-study-customer-as-hero",
+      "operator": "Joel Klettke",
+      "operator_role": "Founder Case Study Buddy; conversion copywriter",
+      "source_url": "https://casestudybuddy.com/",
+      "source_type": "essay",
+      "source_title": "\"Joel Klettke — customer-narrative case study methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "content",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/joel-klettke.md"
     },
     {
       "path": "insights/ins_cash-four-stage-growth-automation.md",
@@ -2051,6 +2188,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-01.md"
+    },
+    {
+      "path": "insights/ins_content-tilt-differentiation.md",
+      "title": "If you can't articulate your content tilt, stop creating content and buy ads instead",
+      "id": "ins_content-tilt-differentiation",
+      "operator": "Joe Pulizzi",
+      "operator_role": "Founder Content Marketing Institute; coined \"content marketing\" in 2001",
+      "source_url": "https://www.joepulizzi.com/",
+      "source_type": "book",
+      "source_title": "\"Content Inc. — find your content tilt or buy ads instead\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/joe-pulizzi.md"
     },
     {
       "path": "insights/ins_context-docs-as-battery-packs.md",
@@ -2943,6 +3107,32 @@
       "raw_ref": "raw/artemis/experts/cyrus-shepard.md"
     },
     {
+      "path": "insights/ins_email-storyselling-belief-shift.md",
+      "title": "People buy because they believe something new — Story, Lesson, Pivot, CTA",
+      "id": "ins_email-storyselling-belief-shift",
+      "operator": "Jim Hamilton",
+      "operator_role": "Creator of the Email Storyselling framework",
+      "source_url": "https://www.emailstoryselling.com/",
+      "source_type": "essay",
+      "source_title": "\"Email Storyselling — Story, Lesson, Pivot, Call to Action\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jim-hamilton.md"
+    },
+    {
       "path": "insights/ins_emails-will-let-know-next.md",
       "title": "- Emails: Will let you know next week. Aleksandar Lepidovski running it right now",
       "id": "ins_emails-will-let-know-next",
@@ -3052,6 +3242,35 @@
         "ins_taste-as-scarce-skill"
       ],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_equal-positioning-not-expert.md",
+      "title": "The moment you try to convince someone, you activate their resistance — ask, don't tell",
+      "id": "ins_equal-positioning-not-expert",
+      "operator": "Josh Braun",
+      "operator_role": "Ex-Head of Sales Basecamp; LinkedIn voice on B2B sales messaging",
+      "source_url": "https://joshbraun.com/",
+      "source_type": "essay",
+      "source_title": "\"Josh Braun — equal positioning and selling without convincing\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "outbound",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_calibrated-questions-illusion-of-control"
+      ],
+      "raw_ref": "raw/artemis/experts/josh-braun.md"
     },
     {
       "path": "insights/ins_evals-are-data-analysis-on-llm-apps.md",
@@ -3520,6 +3739,32 @@
         "ins_research-preview-trust-cadence"
       ],
       "raw_ref": "raw/podcasts/aparna-chennapragada--nlx-is-the-new-ux--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_gap-selling-change-formula.md",
+      "title": "No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change.",
+      "id": "ins_gap-selling-change-formula",
+      "operator": "Keenan (Jim Keenan)",
+      "operator_role": "CEO A Sales Growth Company; author Gap Selling",
+      "source_url": "https://asalesgrowthcompany.com/",
+      "source_type": "book",
+      "source_title": "\"Gap Selling — Change Formula and problem-centric selling\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "outbound"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/keenan.md"
     },
     {
       "path": "insights/ins_generalists-over-specialists-ai-native.md",
@@ -4125,6 +4370,36 @@
         "ins_pmm-as-infrastructure-not-gate"
       ],
       "raw_ref": "raw/essays/anthony-pierri--7-step-homepage--2026-04.md"
+    },
+    {
+      "path": "insights/ins_hourly-billing-is-nuts.md",
+      "title": "Hourly billing penalizes expertise — when you bill by the hour, getting better reduces your income",
+      "id": "ins_hourly-billing-is-nuts",
+      "operator": "Jonathan Stark",
+      "operator_role": "Pricing advisor; author Hourly Billing Is Nuts",
+      "source_url": "https://jonathanstark.com/",
+      "source_type": "book",
+      "source_title": "\"Hourly Billing Is Nuts — value pricing for solo consultants\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "founder-craft",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_anchor-high-pricing",
+        "ins_thinking-vs-doing-two-rooms"
+      ],
+      "raw_ref": "raw/artemis/experts/jonathan-stark.md"
     },
     {
       "path": "insights/ins_how-built-own-mcp-server.md",
@@ -5311,6 +5586,32 @@
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
     },
     {
+      "path": "insights/ins_messaging-equation-personalization-tiers.md",
+      "title": "Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more.",
+      "id": "ins_messaging-equation-personalization-tiers",
+      "operator": "John Barrows",
+      "operator_role": "Founder JB Sales; trains Salesforce, LinkedIn, Dropbox, Slack",
+      "source_url": "https://www.jbarrows.com/",
+      "source_type": "essay",
+      "source_title": "\"John Barrows — Messaging Equation and personalization tiers\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "outbound",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/john-barrows.md"
+    },
+    {
       "path": "insights/ins_meta-cost-caps-everywhere.md",
       "title": "Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery",
       "id": "ins_meta-cost-caps-everywhere",
@@ -6165,6 +6466,33 @@
       "raw_ref": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md"
     },
     {
+      "path": "insights/ins_pattern-of-pain-customer-research.md",
+      "title": "Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough.",
+      "id": "ins_pattern-of-pain-customer-research",
+      "operator": "Hiten Shah",
+      "operator_role": "Serial SaaS entrepreneur (FYI, KISSmetrics, Crazy Egg)",
+      "source_url": "https://hitenism.com/",
+      "source_type": "essay",
+      "source_title": "\"Hiten Shah — Pattern of Pain customer research methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "product",
+        "pmm",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 3 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/hiten-shah.md"
+    },
+    {
       "path": "insights/ins_peer-mentorship-supply-scaling.md",
       "title": "Use peer mentorship instead of HR overhead to scale supply quality",
       "id": "ins_peer-mentorship-supply-scaling",
@@ -6191,6 +6519,33 @@
         "ins_marketplace-liquidity-before-dynamics"
       ],
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_persistence-channels-vs-hit-or-miss.md",
+      "title": "Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second.",
+      "id": "ins_persistence-channels-vs-hit-or-miss",
+      "operator": "Julian Shapiro",
+      "operator_role": "Co-founder Demand Curve and Bell Curve; ex-VP Marketing Webflow",
+      "source_url": "https://www.julian.com/",
+      "source_type": "essay",
+      "source_title": "\"Startup Handbook — persistence channels vs hit-or-miss channels\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/julian-shapiro.md"
     },
     {
       "path": "insights/ins_personal-pattern-hoarding.md",
@@ -6297,6 +6652,32 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_pm-as-orchestrator-of-agents.md",
+      "title": "AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable",
+      "id": "ins_pm-as-orchestrator-of-agents",
+      "operator": "Lenny Rachitsky",
+      "operator_role": "Creator Lenny's Newsletter & Podcast; ex-growth PM Airbnb",
+      "source_url": "https://www.lennyrachitsky.com/",
+      "source_type": "essay",
+      "source_title": "\"Make Product Management Fun Again with AI Agents\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/lenny-rachitsky.md"
     },
     {
       "path": "insights/ins_pm-design-handoff-collapse.md",
@@ -6718,6 +7099,35 @@
         "ins_engineers-with-product-taste"
       ],
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_price-before-product.md",
+      "title": "Price before product. 72% of innovations fail because companies design first and price later.",
+      "id": "ins_price-before-product",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Author Monetizing Innovation; ex-managing partner Simon-Kucher",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — price before product, taxonomy of failure\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "strategy",
+        "product"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "planning-resourcing"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_one-percent-price-eight-percent-profit"
+      ],
+      "raw_ref": "raw/artemis/experts/madhavan-ramanujam.md"
     },
     {
       "path": "insights/ins_pricing-is-runway.md",
@@ -7373,6 +7783,33 @@
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
     },
     {
+      "path": "insights/ins_resonance-over-reach.md",
+      "title": "Resonance with 1,000 in-market readers beats reach to 100,000 strangers",
+      "id": "ins_resonance-over-reach",
+      "operator": "Jay Acunzo",
+      "operator_role": "Author Break the Wheel; host Unthinkable; ex-marketing Google, HubSpot, NextView",
+      "source_url": "https://jayacunzo.com/",
+      "source_type": "book",
+      "source_title": "\"Break the Wheel — resonance over reach\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jay-acunzo.md"
+    },
+    {
       "path": "insights/ins_resume-headline-as-recruiter-handle.md",
       "title": "A role-targeted headline below the name is the first ATS+human filter",
       "id": "ins_resume-headline-as-recruiter-handle",
@@ -7847,6 +8284,33 @@
       "raw_ref": "raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md"
     },
     {
+      "path": "insights/ins_shape-up-appetite-not-estimate.md",
+      "title": "Don't ask \"how long will this take?\" — ask \"how much time do we want to spend on this?\"",
+      "id": "ins_shape-up-appetite-not-estimate",
+      "operator": "Jason Fried",
+      "operator_role": "Co-founder & CEO 37signals (Basecamp, HEY, ONCE)",
+      "source_url": "https://basecamp.com/shapeup",
+      "source_type": "book",
+      "source_title": "\"Shape Up — appetite, not estimation; six-week cycles; no backlog\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "product",
+        "leadership",
+        "engineering"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jason-fried.md"
+    },
+    {
       "path": "insights/ins_sharing-publicly-same-reason-shared.md",
       "title": "We're sharing V2 publicly for the same reason we shared V1: every company needs a frame...",
       "id": "ins_sharing-publicly-same-reason-shared",
@@ -8007,6 +8471,32 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/artemis/experts/brian-dean.md"
+    },
+    {
+      "path": "insights/ins_snap-selling-buyer-cognitive-load.md",
+      "title": "Buyers are frazzled. The seller's job is cognitive burden reduction, not persuasion.",
+      "id": "ins_snap-selling-buyer-cognitive-load",
+      "operator": "Jill Konrath",
+      "operator_role": "Author SNAP Selling, Selling to Big Companies, Agile Selling",
+      "source_url": "https://www.jillkonrath.com/",
+      "source_type": "book",
+      "source_title": "\"SNAP Selling — buyer cognitive load and three sequential decisions\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "outbound"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jill-konrath.md"
     },
     {
       "path": "insights/ins_so-what-as-content-diagnostic.md",
@@ -8355,6 +8845,32 @@
       "raw_ref": "raw/artemis/experts/daniel-kahneman.md"
     },
     {
+      "path": "insights/ins_systems-not-goals.md",
+      "title": "You don't rise to the level of your goals; you fall to the level of your systems",
+      "id": "ins_systems-not-goals",
+      "operator": "James Clear",
+      "operator_role": "Author Atomic Habits (15M+ copies)",
+      "source_url": "https://jamesclear.com/",
+      "source_type": "book",
+      "source_title": "\"Atomic Habits — systems beat goals; identity-based habits\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ownership-org"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/james-clear.md"
+    },
+    {
       "path": "insights/ins_systems-of-action-replace-seller-stack.md",
       "title": "A \"system of action\" tier is replacing the seller's tab-stack",
       "id": "ins_systems-of-action-replace-seller-stack",
@@ -8383,6 +8899,33 @@
         "ins_reps-want-questions-not-dashboards"
       ],
       "raw_ref": "raw/research/gartner--increase-sales-productivity-seller-action-hub--2026-04.md"
+    },
+    {
+      "path": "insights/ins_t2d3-saas-growth-trajectory.md",
+      "title": "10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale.",
+      "id": "ins_t2d3-saas-growth-trajectory",
+      "operator": "Jason Lemkin",
+      "operator_role": "Founder & CEO SaaStr; ex-CEO EchoSign",
+      "source_url": "https://www.saastr.com/",
+      "source_type": "essay",
+      "source_title": "\"Jason Lemkin — T2D3 / T3D3 SaaS growth trajectory\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/jason-lemkin.md"
     },
     {
       "path": "insights/ins_task-pull-out-pain-points.md",
@@ -15455,6 +15998,378 @@
         "book-summary-confessions-of-the-pricing-man-by-hermann-simon.md",
         "pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md",
         "pricing-for-profit-best-practices-in-price-management.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/hiten-shah.md",
+      "name": "\"Hiten Shah\"",
+      "slug": "hiten-shah",
+      "expertise": [
+        "product-market-fit",
+        "customer-research-methodology",
+        "product-led-growth-strategy",
+        "jobs-to-be-done-for-saas"
+      ],
+      "perspective": "\"Product-market fit is not a destination but a continuous process of customer research; the best SaaS companies obsessively uncover the 'pattern of pain,' validate with qualitative surveys, and let product quality drive retention and growth before worrying about strategy or business model.\"",
+      "credentials": "\"Serial SaaS entrepreneur (FYI, KISSmetrics, Crazy Egg), author of '5 Habits to Building Better Products Faster,' conducted the seminal 731-respondent Slack PMF survey that became a template for product-market fit analysis\"",
+      "sources_ingested": [
+        "product-strategy-business-model.md",
+        "731-slack-users-reveal-why-its-so-addictive.md",
+        "hiten-shah-on-how-to-avoid-common-pitfalls-of-product-development-miroblog.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jacco-van-der-kooij.md",
+      "name": "\"Jacco van der Kooij\"",
+      "slug": "jacco-van-der-kooij",
+      "expertise": [
+        "revenue-architecture",
+        "sales-process-design",
+        "pipeline-management",
+        "buyer-enablement",
+        "discovery-call-framework"
+      ],
+      "perspective": "\"Recurring revenue is the result of recurring impact, and the entire customer journey must be designed as a unified system using scientific models rather than siloed departmental playbooks.\"",
+      "credentials": "\"Founder of Winning by Design, author of 'Revenue Architecture,' has certified 2,000+ GTM executives and worked with 1,000+ SaaS companies on scalable revenue systems\"",
+      "sources_ingested": [
+        "the-spiced-framework-winning-by-design-blueprints.md",
+        "the-operating-model-for-recurring-revenue-winning-by-design-research.md",
+        "preview-chapter-1-of-revenue-architecture-by-jacco-van-der-kooij-winning-by-desi.md",
+        "frameworks-that-govern-b2b-marketing-and-sales-and-why-saas-needs-its-own-framew.md",
+        "ai-research-across-the-bowtie-winning-by-design-research.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/james-clear.md",
+      "name": "\"James Clear\"",
+      "slug": "james-clear",
+      "expertise": [
+        "habit-design-for-business",
+        "systems-thinking"
+      ],
+      "perspective": "\"You do not rise to the level of your goals; you fall to the level of your systems. True behavior change is identity change: the goal is not to read a book, the goal is to become a reader.\"",
+      "credentials": "\"Author of Atomic Habits (15M+ copies sold, translated into 50+ languages). Creator of jamesclear.com, one of the most-visited personal development sites. Speaker on habits, decision-making, and continuous improvement. Former athlete and entrepreneur.\"",
+      "sources_ingested": [
+        "forget-about-setting-goals-focus-on-this-instead.md",
+        "marginal-gains-this-coach-improved-every-tiny-thing-by-1-percent.md",
+        "habit-stacking-how-to-build-new-habits-by-taking-advantage-of-old-ones.md",
+        "how-to-master-the-art-of-continuous-improvement.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jason-fried.md",
+      "name": "\"Jason Fried\"",
+      "slug": "jason-fried",
+      "expertise": [
+        "calm-company-operations",
+        "productized-consulting",
+        "service-productization"
+      ],
+      "perspective": "\"The best work happens under constraints; six-week cycles, small teams, and an appetite-driven approach to scope produce better outcomes than unlimited budgets, large teams, and feature-driven roadmaps.\"",
+      "credentials": "\"Co-founder and CEO of 37signals (makers of Basecamp, HEY, and ONCE). Co-author of 'Rework', 'Remote: Office Not Required', and 'It Doesn't Have to Be Crazy at Work'. Pioneer of remote work and bootstrapped SaaS. Co-creator of the Shape Up methodology. Over 20 years building profitable software without venture capital.\"",
+      "sources_ingested": [
+        "introduction-shape-up.md",
+        "my-interview-with-jason-fried-ceo-of-37signals-and-author-of-rework-practical-fo.md",
+        "jason-fried-doing-the-enough-thing-the-knowledge-project-ep-54.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jason-lemkin.md",
+      "name": "\"Jason Lemkin\"",
+      "slug": "jason-lemkin",
+      "expertise": [
+        "revenue-milestone-planning",
+        "saas-benchmarking",
+        "saas-unit-economics",
+        "pricing-strategy",
+        "ai-gtm-motion-design",
+        "ai-product-strategy"
+      ],
+      "perspective": "\"SaaS growth follows predictable stage-gate milestones from first 10 unaffiliated customers to T2D3 scaling; every revenue milestone triggers specific organizational hires and operational changes, and the founder who understands these thresholds makes better decisions at every stage.\"",
+      "credentials": "\"Founder and CEO of SaaStr, the world's largest SaaS community (50,000+ attendees at annual conference). Two-time founder with successful exits (EchoSign acquired by Adobe for $400M+). Former VC at Storm Ventures. His SaaStr blog and podcast have published 5,000+ pieces of SaaS operational advice.\"",
+      "sources_ingested": [
+        "is-it-now-triple-triple-triple-double-double-double-t3d3-for-top-tier-saas-start.md",
+        "the-three-saas-metrics-that-matter-in-2024-with-saastr-founder-and-ceo-jason-lem.md",
+        "what-order-should-you-hire-your-management-team-in-saastr.md",
+        "no-inbound-isnt-dead-the-gtm-playbook-isnt-broken-but-your-moats-are-shrinking-t.md",
+        "the-go-to-market-playbook-isnt-broken-youre-just-running-the-2021-version-live-w.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jay-acunzo.md",
+      "name": "\"Jay Acunzo\"",
+      "slug": "jay-acunzo",
+      "expertise": [
+        "resonance-over-reach",
+        "thought-leadership-development",
+        "brand-narrative-construction",
+        "content-quality-standards"
+      ],
+      "perspective": "\"Best practices are averages, and averages describe no one; the path to exceptional content is developing the intuition to ask 'what works best for us?' rather than copying what worked for someone else, because resonance, the urge to act that people feel when a message aligns with them, is what precedes conversion, not reach.\"",
+      "credentials": "\"Author of Break the Wheel; creator and host of Unthinkable podcast (named must-listen by LinkedIn editors); former marketing leader at Google, HubSpot, and NextView Ventures (VP Brand); executive producer and storytelling consultant helping 200+ individuals and organizations differentiate their content.\"",
+      "sources_ingested": [
+        "resonance-over-reach-a-conversation-with-jay-acunzo-velocity-partners.md",
+        "intuition-beats-best-practice-an-interview-with-jay-acunzo-velocity-partners.md",
+        "escaping-the-attention-economy-resonance-over-reach-with-jay-acunzo-off-the-grid.md",
+        "marketing-has-a-best-practices-problem-jay-acunzo.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jill-konrath.md",
+      "name": "\"Jill Konrath\"",
+      "slug": "jill-konrath",
+      "expertise": [
+        "gap-selling",
+        "discovery-call-framework",
+        "buyer-persona-development",
+        "champion-identification",
+        "sales-process-design"
+      ],
+      "perspective": "\"The modern buyer is overwhelmed and frazzled, defaulting to inaction under cognitive overload, and the seller's primary job is to reduce the buyer's cognitive burden by being simple, invaluable, aligned, and priority-raising in every interaction.\"",
+      "credentials": "\"Author of 'SNAP Selling,' 'Selling to Big Companies,' 'Agile Selling,' and 'More Sales Less Time,' keynote speaker on buyer psychology in B2B sales, former IBM and Xerox sales leader, named #1 Sales Expert to Follow by LinkedIn\"",
+      "sources_ingested": [
+        "jill-konrath-snap-selling-four-principles.md",
+        "jill-konrath-three-buyer-decisions.md",
+        "jill-konrath-agile-selling-buyers-matrix.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jim-hamilton.md",
+      "name": "\"Jim Hamilton\"",
+      "slug": "jim-hamilton",
+      "expertise": [
+        "conversion-web-copywriting",
+        "email-marketing",
+        "storytelling"
+      ],
+      "perspective": "\"People do not buy because they understand how something works. They buy because they believe something new about their situation. The story's job is to shift a belief. The product's job is to act on the new belief.\"",
+      "credentials": "\"Creator of the Email Storyselling framework; author of 'The Email Storyselling Playbook'. Known for teaching coaches, consultants, and online experts to convert email subscribers through narrative-driven selling. His method enables persuasive copy in approximately 15 minutes per email.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/jimmy-daly.md",
+      "name": "\"Jimmy Daly\"",
+      "slug": "jimmy-daly",
+      "expertise": [
+        "content-operations",
+        "editorial-calendar-design",
+        "content-distribution-strategy",
+        "content-measurement",
+        "audience-building"
+      ],
+      "perspective": "\"A content strategy should be revealed by your business model, not invented from scratch; blogs are libraries, not publications, and the teams that treat them accordingly will compound returns while others burn out chasing a publishing calendar.\"",
+      "credentials": "\"Co-founder and former CEO of Superpath, the largest community for content marketers; former VP of Growth at Animalz; writer at jimmydaly.com; advisor and contributor to Superpath blog and podcast.\"",
+      "sources_ingested": [
+        "how-to-create-content-that-actually-ranks-in-search-results.md",
+        "blogs-are-libraries-not-publications.md",
+        "content-strategy-distilled.md",
+        "content-marketing-power-laws.md",
+        "big-wins-for-content-marketing-or-unsexy-strategies-for-long-term-growth.md",
+        "superpath-content-strategy-template.md",
+        "is-your-content-strategy-working.md",
+        "content-in-2025-how-to-maximize-and-measure-revenue-impact.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/joe-pulizzi.md",
+      "name": "\"Joe Pulizzi\"",
+      "slug": "joe-pulizzi",
+      "expertise": [
+        "audience-building",
+        "content-distribution-strategy",
+        "content-measurement",
+        "content-operations",
+        "content-repurposing",
+        "content-tilt-development"
+      ],
+      "perspective": "\"The one thing killing content marketing is the absence of a content tilt; 99% of marketers create undifferentiated content, and without finding an area of little to no competition, breaking through is nearly impossible regardless of execution quality.\"",
+      "credentials": "\"Founder of Content Marketing Institute (sold for ~$30M in 2015); author of Content Inc. and Epic Content Marketing (7 books, 500,000+ copies); founder of The Tilt and Content Entrepreneur Expo; coined the term 'content marketing' in 2001.\"",
+      "sources_ingested": [
+        "7-steps-to-build-a-successful-long-term-content-model.md",
+        "one-thing-is-killing-content-marketing-and-everyone-is-ignoring-it.md",
+        "are-you-guilty-of-the-one-thing-that-kills-content-marketing.md",
+        "content-marketing-how-long-to-get-to-five-million-dollars-joe-pulizzi.md",
+        "3-killer-content-strategies-plus-my-2024-travel-tips-joe-pulizzi.md",
+        "joe-pulizzis-blueprint-for-building-a-content-business.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/joel-klettke.md",
+      "name": "\"Joel Klettke\"",
+      "slug": "joel-klettke",
+      "expertise": [
+        "conversion-web-copywriting",
+        "case-study-copywriting",
+        "customer-research-for-ads"
+      ],
+      "perspective": "\"Stories are 22x more memorable than facts alone. But the best conversion copy combines story with data. Customer success stories are your most powerful sales asset because they let the prospect see themselves in someone else's transformation.\"",
+      "credentials": "\"Founder of Case Study Buddy (seven-figure business); conversion copywriter who has written 150+ customer stories for B2B SaaS companies. Built an entire business model around the insight that customer narratives are the highest-converting content type in B2B.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/john-barrows.md",
+      "name": "\"John Barrows\"",
+      "slug": "john-barrows",
+      "expertise": [
+        "data-driven-sales-optimization",
+        "sales-process-design",
+        "sales-battlecard-creation",
+        "sdr-team-design"
+      ],
+      "perspective": "\"Sales excellence lives in the execution layer, where the quality of every email, call, and meeting is determined by a systematic approach to research, personalization, and value delivery that can be taught, practiced, and measured.\"",
+      "credentials": "\"Founder of JB Sales, has trained sales teams at Salesforce, LinkedIn, Dropbox, Slack, and hundreds of high-growth SaaS companies, creator of the 'Filling the Funnel' and 'Driving to Close' training programs\"",
+      "sources_ingested": [
+        "john-barrows-filling-funnel-driving-to-close.md",
+        "john-barrows-sales-prospecting-personalization.md",
+        "john-barrows-contact-strategy-trigger-events.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/jonathan-stark.md",
+      "name": "\"Jonathan Stark\"",
+      "slug": "jonathan-stark",
+      "expertise": [
+        "productized-consulting",
+        "value-based-pricing",
+        "creative-business-pricing",
+        "agency-positioning"
+      ],
+      "perspective": "\"Hourly billing is a relic of factory-floor cost accounting that misaligns incentives, punishes expertise, and caps income; the antidote is value pricing anchored in the Why Conversation.\"",
+      "credentials": "\"Author of 'Hourly Billing Is Nuts'. Former software consultant turned pricing advisor. Has coached 100+ solo consultants and small firms on value pricing. Publishes a daily email on pricing for independent professionals. Creator of the Value Pricing Bootcamp and Ditcherville community.\"",
+      "sources_ingested": [
+        "hourly-billing-is-nuts-by-jonathan-stark.md",
+        "crystalizing-your-specialization-by-jonathan-stark.md",
+        "how-i-realized-that-hourly-billing-is-nuts-jonathan-stark.md",
+        "jonathan-stark-explains-value-based-pricing.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/josh-braun.md",
+      "name": "\"Josh Braun\"",
+      "slug": "josh-braun",
+      "expertise": [
+        "conversion-web-copywriting",
+        "sales-messaging",
+        "cold-outreach"
+      ],
+      "perspective": "\"Sales isn't about persuading people. It's about guiding prospects to persuade themselves. The moment you try to convince someone, you activate their resistance. Equal positioning (peer-to-peer) beats expert positioning (expert-to-prospect) every time.\"",
+      "credentials": "\"Former Head of Sales at Basecamp (37signals); LinkedIn's most followed voice on B2B sales messaging; author of 'Selling Without Convincing'; creator of the Badass B2B Growth Guide. Known for inverting traditional sales copy methodology.\"",
+      "sources_ingested": []
+    },
+    {
+      "path": "raw/artemis/experts/julian-shapiro.md",
+      "name": "\"Julian Shapiro\"",
+      "slug": "julian-shapiro",
+      "expertise": [
+        "b2b-advertising-strategy",
+        "campaign-budget-allocation",
+        "conversion-optimization",
+        "landing-page-optimization",
+        "paid-media-channel-selection",
+        "retargeting-strategy"
+      ],
+      "perspective": "\"Growth is not something you delegate as an afterthought; it must be designed into the product itself, and when it comes to paid acquisition, you must harden your funnel's conversion and referral rates before investing heavily into ads.\"",
+      "credentials": "\"Co-founder of Demand Curve (largest professional educator in startup marketing) and Bell Curve (growth agency); former VP of Marketing at Webflow; growth marketing columnist at TechCrunch; created Velocity.js, the world's most popular web animation engine; angel investor through julian.capital.\"",
+      "sources_ingested": [
+        "startup-handbook-customer-acquisition-channels-by-julian-shapiro.md",
+        "startup-handbook-product-led-acquisition-by-julian-shapiro.md",
+        "how-to-write-your-landing-page-above-the-fold-demand-curve.md",
+        "startup-handbook-landing-pages-by-julian-shapiro.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/karl-sakas.md",
+      "name": "\"Karl Sakas\"",
+      "slug": "karl-sakas",
+      "expertise": [
+        "calm-company-operations",
+        "agency-positioning",
+        "service-productization",
+        "delivery-model-design"
+      ],
+      "perspective": "\"Agency chaos is not inevitable; it is the predictable result of the owner doing everything themselves, and the cure is a deliberate operating system built on delegation, role clarity, and knowing when to stop growing.\"",
+      "credentials": "\"Agency advisor at Sakas & Company. Has personally advised 600+ agencies across 36 countries on operations, growth, leadership, and exit planning. Author of 'Calm the Chaos: 10 Ways to Run a Better Agency' (4th book). Speaker on agency leadership. Background in agency operations.\"",
+      "sources_ingested": [
+        "karl-sakas-on-navigating-agency-growth-and-exits-and-calming-the-chaos-sales-sch.md",
+        "karl-sakas-agency-management-institute.md",
+        "corey-quinn-specialize-scale-multiply.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/keenan.md",
+      "name": "\"Keenan (Jim Keenan)\"",
+      "slug": "keenan",
+      "expertise": [
+        "champion-identification",
+        "discovery-call-framework",
+        "gap-selling",
+        "sales-process-design",
+        "spin-selling"
+      ],
+      "perspective": "\"All selling is about change, and the seller's only job is to discover and quantify the gap between the buyer's current state and desired future state; without a gap there is no sale, and without a large gap there is no large sale.\"",
+      "credentials": "\"CEO and President of A Sales Growth Company, author of 'Gap Selling: Getting the Customer to Yes,' sales leadership advisor, keynote speaker on problem-centric selling\"",
+      "sources_ingested": [
+        "gap-selling-framework-keenan.md",
+        "keenan-gap-selling-nine-truths-problem-identification.md",
+        "keenan-gap-selling-discovery-current-future-state.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/leah-tharin.md",
+      "name": "\"Leah Tharin\"",
+      "slug": "leah-tharin",
+      "expertise": [
+        "ai-buyer-psychology",
+        "ai-product-strategy",
+        "product-led-growth-strategy",
+        "ai-product-positioning",
+        "gtm-strategy-framework"
+      ],
+      "perspective": "\"AI is collapsing the efficiency advantages that scaled SaaS companies built over a decade, forcing every scaleup back into startup mode where cross-functional growth teams, not siloed departments, must re-prove product-market fit from retention up.\"",
+      "credentials": "\"Product-led growth strategist and advisor, former VP Product at Jua (AI weather foundation model) and Smallpdf, creator of the Leah's ProducTea newsletter, Maven PLG course instructor featured in university MBA programs\"",
+      "sources_ingested": [
+        "ai-forces-scaleups-back-into-startup-mode-by-leah-tharin.md",
+        "the-future-of-product-management-by-leah-tharin.md",
+        "quo-vadis-saas-pms-by-leah-tharin-leahs-productea.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/lenny-rachitsky.md",
+      "name": "\"Lenny Rachitsky\"",
+      "slug": "lenny-rachitsky",
+      "expertise": [
+        "ai-product-strategy",
+        "shipping-fast",
+        "community-led-growth"
+      ],
+      "perspective": "\"The best product managers in an AI world become orchestrators who define what good looks like, delegate execution to AI agents, and maintain velocity through rapid prototyping rather than specification bloat.\"",
+      "credentials": "\"Former growth PM at Airbnb, creator of Lenny's Newsletter (largest product management newsletter), host of Lenny's Podcast, angel investor in 100+ startups\"",
+      "sources_ingested": [
+        "make-product-management-fun-again-with-ai-agents.md",
+        "how-ai-is-reshaping-the-product-role-oji-and-ezinne-udezue.md",
+        "the-complete-lenny-rachitsky-playbook-prompts-growth-frameworks-and-strategies-p.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/madhavan-ramanujam.md",
+      "name": "\"Madhavan Ramanujam\"",
+      "slug": "madhavan-ramanujam",
+      "expertise": [
+        "outcome-based-pricing-for-ai",
+        "willingness-to-pay-research",
+        "pricing-strategy",
+        "monetization-timing",
+        "value-metric-selection"
+      ],
+      "perspective": "\"Price before product, period. 72% of innovations fail because companies design first and price later; willingness to pay must drive product design, not follow it.\"",
+      "credentials": "\"Author of 'Monetizing Innovation' and 'Scaling Innovation.' Former managing partner at Simon-Kucher & Partners (world's largest pricing consultancy). Led 250+ monetization projects for companies from startups to Fortune 500, including 30+ unicorns. Founding partner of 49 Palms Ventures. Stanford MBA, IIT-Madras alumnus.\"",
+      "sources_ingested": [
+        "its-price-before-product-period.md",
+        "monetizing-innovation-an-interview-with-simon-kucher-partners-madhavan-ramanujam.md",
+        "monetizing-innovation-by-georg-tacke-madhavan-ramanujam.md",
+        "monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md",
+        "price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md",
+        "from-concept-to-profit-monetisation-framework-seedtoscale.md"
       ]
     },
     {

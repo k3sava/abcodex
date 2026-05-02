@@ -21,7 +21,8 @@ Lenny Rachitsky's central contribution to AI product thinking is reframing the p
 - **Community Led Growth**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_pm-as-orchestrator-of-agents` — AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `make-product-management-fun-again-with-ai-agents.md` (artemis ingest)

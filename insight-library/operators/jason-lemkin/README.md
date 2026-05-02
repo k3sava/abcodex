@@ -20,7 +20,8 @@ Jason Lemkin is the SaaS industry's operational pattern-matcher. Where Tunguz pr
 - **Pricing Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_t2d3-saas-growth-trajectory` — 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `is-it-now-triple-triple-triple-double-double-double-t3d3-for-top-tier-saas-start.md` (artemis ingest)

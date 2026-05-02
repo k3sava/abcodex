@@ -20,7 +20,8 @@ Madhavan Ramanujam is the leading voice on monetization strategy and the integra
 - **Monetization Timing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_price-before-product` — Price before product. 72% of innovations fail because companies design first and price later. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `its-price-before-product-period.md` (artemis ingest)

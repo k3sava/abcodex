@@ -23,7 +23,8 @@ Julian Shapiro's approach to growth marketing is systematic and channel-agnostic
 - **Landing Page Optimization**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_persistence-channels-vs-hit-or-miss` — Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `startup-handbook-customer-acquisition-channels-by-julian-shapiro.md` (artemis ingest)

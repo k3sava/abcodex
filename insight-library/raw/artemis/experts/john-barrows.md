@@ -1,0 +1,17 @@
+---
+name: "John Barrows"
+slug: john-barrows
+expertise: [data-driven-sales-optimization, sales-process-design, sales-battlecard-creation, sdr-team-design]
+perspective: "Sales excellence lives in the execution layer, where the quality of every email, call, and meeting is determined by a systematic approach to research, personalization, and value delivery that can be taught, practiced, and measured."
+credentials: "Founder of JB Sales, has trained sales teams at Salesforce, LinkedIn, Dropbox, Slack, and hundreds of high-growth SaaS companies, creator of the 'Filling the Funnel' and 'Driving to Close' training programs"
+sources_ingested:
+  - john-barrows-filling-funnel-driving-to-close.md
+  - john-barrows-sales-prospecting-personalization.md
+  - john-barrows-contact-strategy-trigger-events.md
+---
+
+John Barrows is the practitioner's practitioner of B2B sales. Where other methodologists operate at the strategic or theoretical level, Barrows works at the execution layer, providing specific techniques, templates, and processes that reps can deploy in their next call or email. His training has been adopted by many of the most recognizable SaaS companies in the world, and his influence is felt most strongly in the daily behavior of individual sellers rather than in organizational design or strategic frameworks.
+
+His system is organized into two complementary programs. Filling the Funnel covers everything from target identification to booking a qualified meeting. Its centerpiece is the Messaging Equation: Persona + Trigger + Value = Relevant Message. This equation distills prospecting effectiveness into three variables: know who you are reaching (their role determines what they care about), know why now (a trigger event that creates relevance and urgency), and know what specific outcome you can offer (tied to their situation, not your feature list). The equation is operationalized through a three-tier personalization model: Tailored (15-30 minutes of research for high-value targets, 15-25% response rates), Targeted (5-10 minutes of segment-level personalization, 7-12% response rates), and Templated (1-2 minutes for broad coverage, 2-5% response rates). His key finding is that the personalization sweet spot is approximately 25%: make the opening line specific to the prospect, then transition into persona-relevant value. More personalization has diminishing returns; less feels generic.
+
+Driving to Close covers deal execution from first meeting to signed contract. His discovery methodology leads with problems rather than products (80% prospect situation, 20% how you might help), emphasizes "why" and "how" questions over "what" questions, and identifies the decision-making process early. His presentation method uses the "tell-show-tell" structure: frame what you will demonstrate, show only capabilities that address discovered problems, then recap and tie to the buyer's specific situation. He teaches "micro-closes" throughout the process (confirming alignment at every stage) rather than saving the close for the end. Barrows's tactical layer complements Dixon's Challenger methodology at the strategic level: where Dixon teaches what to say (commercial insights that reframe), Barrows teaches how to say it (specific email structures, call cadences, demo techniques). His trigger event framework and contact strategy methodology also provide the practical execution manual for Ross's outbound specialization model.

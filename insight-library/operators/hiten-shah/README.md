@@ -20,7 +20,8 @@ Hiten Shah is a practitioner-first entrepreneur whose central contribution to pr
 - **Jobs To Be Done For Saas**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_pattern-of-pain-customer-research` — Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `product-strategy-business-model.md` (artemis ingest)

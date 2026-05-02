@@ -19,7 +19,8 @@ Josh Braun's approach inverts the standard sales copy playbook. Most conversion 
 - **Cold Outreach**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_equal-positioning-not-expert` — The moment you try to convince someone, you activate their resistance — ask, don't tell [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

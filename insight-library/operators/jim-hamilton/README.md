@@ -22,7 +22,8 @@ Jim Hamilton's Email Storyselling framework is a 4-step conversion structure tha
 - **Storytelling**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_email-storyselling-belief-shift` — People buy because they believe something new — Story, Lesson, Pivot, CTA [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

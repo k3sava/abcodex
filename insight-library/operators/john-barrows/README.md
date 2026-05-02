@@ -23,7 +23,8 @@ John Barrows is the practitioner's practitioner of B2B sales. Where other method
 - **Sdr Team Design**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_messaging-equation-personalization-tiers` — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `john-barrows-filling-funnel-driving-to-close.md` (artemis ingest)

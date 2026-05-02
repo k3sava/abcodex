@@ -21,7 +21,8 @@ James Clear's central contribution is a practical operating system for behavior 
 - **Systems Thinking**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_systems-not-goals` — You don't rise to the level of your goals; you fall to the level of your systems [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `forget-about-setting-goals-focus-on-this-instead.md` (artemis ingest)

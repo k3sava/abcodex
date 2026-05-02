@@ -22,7 +22,8 @@ Jill Konrath is the buyer psychologist of modern sales methodology. Where most s
 - **Champion Identification**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_snap-selling-buyer-cognitive-load` — Buyers are frazzled. The seller's job is cognitive burden reduction, not persuasion. [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `jill-konrath-snap-selling-four-principles.md` (artemis ingest)

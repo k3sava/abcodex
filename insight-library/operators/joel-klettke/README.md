@@ -21,7 +21,8 @@ Joel Klettke built a seven-figure business around a single conviction: customer 
 - **Customer Research For Ads**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_case-study-customer-as-hero` — Information in narrative form is 22x more memorable. Integrate the metric into the moment. [Tier B]
+
 
 ## Sources captured
 _None archived in codex yet — see Artemis knowledge base for original ingest._

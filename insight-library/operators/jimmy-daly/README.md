@@ -23,7 +23,8 @@ Jimmy Daly's content philosophy is grounded in the belief that content strategy 
 - **Content Measurement**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_blog-as-library-business-model-revealed` — Content strategy should be revealed by the business model, not invented from scratch [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `how-to-create-content-that-actually-ranks-in-search-results.md` (artemis ingest)

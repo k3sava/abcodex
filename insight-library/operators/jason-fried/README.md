@@ -21,7 +21,8 @@ Jason Fried's system of thought is built on a contrarian premise in the software
 - **Service Productization**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_shape-up-appetite-not-estimate` — Don't ask 'how long will this take?' — ask 'how much time do we want to spend on this?' [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `introduction-shape-up.md` (artemis ingest)

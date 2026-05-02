@@ -22,7 +22,8 @@ Leah Tharin's core framework treats AI not as a feature to bolt onto existing pr
 - **Ai Product Positioning**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_ai-forces-scaleups-back-to-startup` — The number one enemy of innovation is efficiency — AI is collapsing the moats specialization built [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `ai-forces-scaleups-back-into-startup-mode-by-leah-tharin.md` (artemis ingest)

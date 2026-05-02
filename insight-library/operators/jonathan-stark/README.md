@@ -23,7 +23,8 @@ Jonathan Stark's system of thought begins with a single provocation: hourly bill
 - **Agency Positioning**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_hourly-billing-is-nuts` — Hourly billing penalizes expertise — when you bill by the hour, getting better reduces your income [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `hourly-billing-is-nuts-by-jonathan-stark.md` (artemis ingest)

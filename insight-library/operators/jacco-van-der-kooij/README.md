@@ -23,7 +23,8 @@ Jacco van der Kooij is the architect of the most comprehensive systems-level fra
 - **Buyer Enablement**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_bowtie-recurring-revenue-architecture` — 82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `the-spiced-framework-winning-by-design-blueprints.md` (artemis ingest)
