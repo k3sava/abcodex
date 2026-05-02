@@ -23,7 +23,8 @@ Brian Dean built Backlinko into one of the most authoritative SEO resources on t
 - **Content Distribution Strategy**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_skyscraper-technique` — Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `skyscraper-method-110-traffic-link-building-case-study.md` (artemis ingest)

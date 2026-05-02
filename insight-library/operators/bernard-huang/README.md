@@ -23,7 +23,8 @@ Bernard Huang identified and operationalized a critical gap in the SEO workflow:
 - **Search Intent Mapping**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_nlp-content-grading-over-keyword-density` — Optimize content for semantic comprehensiveness, not keyword density [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `clearscope-why-content-optimization-is-all-the-rage.md` (artemis ingest)

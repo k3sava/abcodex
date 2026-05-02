@@ -23,7 +23,9 @@ Andrew Faris's approach to ecommerce growth is defined by a single, contrarian o
 - **Dtc Growth Marketing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_meta-cost-caps-everywhere` — Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery [Tier A]
+- `ins_creative-is-the-spike` — Media buying is the setter; creative is the hitter — the score comes from creative [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `cost-cap-strategy-for-facebook-ads-2024-guide.md` (artemis ingest)

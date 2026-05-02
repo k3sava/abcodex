@@ -1,14 +1,43 @@
 {
-  "generated_at": "2026-05-02T16:12:11.338Z",
+  "generated_at": "2026-05-02T16:24:21.557Z",
   "counts": {
-    "insights": 292,
+    "insights": 314,
     "operators": 288,
-    "raw_sources": 88,
+    "raw_sources": 103,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
   },
   "insights": [
+    {
+      "path": "insights/ins_10-80-10-ai-workflow.md",
+      "title": "10-80-10: human direction, AI execution, human polish",
+      "id": "ins_10-80-10-ai-workflow",
+      "operator": "Arvid Kahl",
+      "operator_role": "Bootstrapped founder; builder of Podscan",
+      "source_url": "https://thebootstrappedfounder.com/",
+      "source_type": "essay",
+      "source_title": "\"Indie Hacking the Singularity — 10-80-10 AI workflow\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_embedded-entrepreneur"
+      ],
+      "raw_ref": "raw/artemis/experts/arvid-kahl.md"
+    },
     {
       "path": "insights/ins_100-percent-automation-rule.md",
       "title": "An automation that works 95% of the time is not an automation",
@@ -470,6 +499,32 @@
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md"
     },
     {
+      "path": "insights/ins_ai-as-copilot-not-autopilot.md",
+      "title": "AI is the co-pilot, not the autopilot — automate the 80% you understand, hold the 20% that needs taste",
+      "id": "ins_ai-as-copilot-not-autopilot",
+      "operator": "Ben Tossell",
+      "operator_role": "Founder Ben's Bites; ex-Makerpad (acquired by Zapier); Head of DevRel, Factory AI",
+      "source_url": "https://bensbites.co/",
+      "source_type": "essay",
+      "source_title": "\"How I built a 7-figure business in less than a year with AI\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/ben-tossell.md"
+    },
+    {
       "path": "insights/ins_ai-career-coach-prompt-chain.md",
       "title": "A 7-step AI prompt chain beats one-shot resume rewrites for job search",
       "id": "ins_ai-career-coach-prompt-chain",
@@ -688,6 +743,32 @@
         "ins_generalists-over-specialists-ai-native"
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_anchor-high-pricing.md",
+      "title": "Anchor with the most expensive option first; price the client, not the service",
+      "id": "ins_anchor-high-pricing",
+      "operator": "Blair Enns",
+      "operator_role": "Founder Win Without Pitching; author The Win Without Pitching Manifesto",
+      "source_url": "https://www.winwithoutpitching.com/",
+      "source_type": "book",
+      "source_title": "\"Anchor High — pricing the client, not the service\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/blair-enns.md"
     },
     {
       "path": "insights/ins_anonymous-benchmark-rescues-roi-evidence.md",
@@ -1047,6 +1128,34 @@
         "ins_open-coding-then-axial-coding"
       ],
       "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_blog-as-knowledge-base-not-newsfeed.md",
+      "title": "Reconceive the blog as a structured knowledge base, not a chronological feed",
+      "id": "ins_blog-as-knowledge-base-not-newsfeed",
+      "operator": "Andy Crestodina",
+      "operator_role": "Co-founder & CMO Orbit Media Studios",
+      "source_url": "https://www.orbitmedia.com/",
+      "source_type": "essay",
+      "source_title": "\"Andy Crestodina — Evergreen content over editorial cadence (Artemis expert synthesis)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "planning-resourcing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_original-research-as-link-bait"
+      ],
+      "raw_ref": "raw/artemis/experts/andy-crestodina.md"
     },
     {
       "path": "insights/ins_bottleneck-is-context-not-capability.md",
@@ -1781,6 +1890,34 @@
       "raw_ref": "raw/digests/miniu-ai-digest-2026-04-26.md"
     },
     {
+      "path": "insights/ins_creative-is-the-spike.md",
+      "title": "Media buying is the setter; creative is the hitter — the score comes from creative",
+      "id": "ins_creative-is-the-spike",
+      "operator": "Andrew Faris",
+      "operator_role": "Founder AJF Growth (ecommerce growth consultancy)",
+      "source_url": "https://ajfgrowth.com/",
+      "source_type": "essay",
+      "source_title": "\"How to scale from $1M to $20M with Andrew Faris\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_meta-cost-caps-everywhere"
+      ],
+      "raw_ref": "raw/artemis/experts/andrew-faris.md"
+    },
+    {
       "path": "insights/ins_criticize-in-public.md",
       "title": "Establish enough trust to critique and debate in public — not \"praise public, criticize private\"",
       "id": "ins_criticize-in-public",
@@ -2423,6 +2560,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_embedded-entrepreneur.md",
+      "title": "Embed in the community before you build the product",
+      "id": "ins_embedded-entrepreneur",
+      "operator": "Arvid Kahl",
+      "operator_role": "Bootstrapped founder; author Zero to Sold and The Embedded Entrepreneur",
+      "source_url": "https://thebootstrappedfounder.com/",
+      "source_type": "book",
+      "source_title": "\"The Embedded Entrepreneur — audience-first methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "founder-craft",
+        "founder-operator",
+        "gtm"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/arvid-kahl.md"
+    },
+    {
       "path": "insights/ins_engineers-with-product-taste.md",
       "title": "Hire engineers with product taste rather than adding more PMs",
       "id": "ins_engineers-with-product-taste",
@@ -2779,6 +2943,33 @@
         "ins_make-the-implicit-explicit"
       ],
       "raw_ref": "raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_fortune-cookie-principle.md",
+      "title": "Product + Meaning = Brand. Product − Meaning = Commodity.",
+      "id": "ins_fortune-cookie-principle",
+      "operator": "Bernadette Jiwa",
+      "operator_role": "Brand storyteller; author Difference, Story Driven, The Fortune Cookie Principle",
+      "source_url": "https://thestoryoftelling.com/",
+      "source_type": "book",
+      "source_title": "\"The Fortune Cookie Principle — meaning is the difference between brand and commodity\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing",
+        "pmm",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/bernadette-jiwa.md"
     },
     {
       "path": "insights/ins_four-bb-prioritization.md",
@@ -3804,6 +3995,32 @@
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     },
     {
+      "path": "insights/ins_jtbd-personas-not-demographics.md",
+      "title": "Personas built on demographics inform nothing; rebuild around Jobs to Be Done",
+      "id": "ins_jtbd-personas-not-demographics",
+      "operator": "Adrienne Barnes",
+      "operator_role": "Founder of Best Buyer Persona; B2B SaaS customer research consultant",
+      "source_url": "https://bestbuyerpersona.com/",
+      "source_type": "research",
+      "source_title": "\"Adrienne Barnes — Buyer Persona Methodology (Artemis expert synthesis)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/adrienne-barnes.md"
+    },
+    {
       "path": "insights/ins_key-challenge-will-actually-getting.md",
       "title": "The key challenge will be actually getting in front of our target audience",
       "id": "ins_key-challenge-will-actually-getting",
@@ -4463,6 +4680,32 @@
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
     },
     {
+      "path": "insights/ins_meta-cost-caps-everywhere.md",
+      "title": "Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery",
+      "id": "ins_meta-cost-caps-everywhere",
+      "operator": "Andrew Faris",
+      "operator_role": "Founder AJF Growth (ecommerce growth consultancy); ex-host Ecommerce Playbook podcast",
+      "source_url": "https://ajfgrowth.com/",
+      "source_type": "essay",
+      "source_title": "\"Cost-cap strategy for Facebook/Meta ads\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "tooling-config",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 5, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/andrew-faris.md"
+    },
+    {
       "path": "insights/ins_meta-mcp-shrinks-creative-test-loop.md",
       "title": "Meta's MCP endpoints for ad buying turn smaller advertisers into early winners",
       "id": "ins_meta-mcp-shrinks-creative-test-loop",
@@ -4732,6 +4975,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_nlp-content-grading-over-keyword-density.md",
+      "title": "Optimize content for semantic comprehensiveness, not keyword density",
+      "id": "ins_nlp-content-grading-over-keyword-density",
+      "operator": "Bernard Huang",
+      "operator_role": "Co-founder & CEO Clearscope; pioneer of NLP-based SEO content grading",
+      "source_url": "https://www.clearscope.io/",
+      "source_type": "essay",
+      "source_title": "\"Why content optimization is all the rage — Clearscope methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "tooling-config"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/bernard-huang.md"
     },
     {
       "path": "insights/ins_nlx-is-the-new-ux.md",
@@ -5093,6 +5363,33 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_original-research-as-link-bait.md",
+      "title": "Run one original-research study a year; it will out-link a year of weekly posts",
+      "id": "ins_original-research-as-link-bait",
+      "operator": "Andy Crestodina",
+      "operator_role": "Co-founder & CMO Orbit Media Studios; author Content Chemistry",
+      "source_url": "https://www.orbitmedia.com/",
+      "source_type": "essay",
+      "source_title": "\"Andy Crestodina — Content Chemistry & original research playbook (Artemis expert synthesis)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "content",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/andy-crestodina.md"
     },
     {
       "path": "insights/ins_outcomes-pricing-restructures-saas.md",
@@ -6050,6 +6347,63 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_referral-email-not-pitch.md",
+      "title": "Don't cold-pitch executives. Ask them who owns the problem.",
+      "id": "ins_referral-email-not-pitch",
+      "operator": "Aaron Ross",
+      "operator_role": "Architect of the Salesforce.com outbound model; author of Predictable Revenue",
+      "source_url": "https://www.forentrepreneurs.com/predictable-revenue/",
+      "source_type": "essay",
+      "source_title": "\"Cold Calling 2.0 and the Case for Outbound Specialization\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "outbound",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_specialization-creates-predictability"
+      ],
+      "raw_ref": "raw/artemis/articles/aaron-ross--cold-calling-2-outbound-specialization.md"
+    },
+    {
+      "path": "insights/ins_relational-keywords-replace-internal-language.md",
+      "title": "The exact words customers use should replace internal terminology in every piece of copy",
+      "id": "ins_relational-keywords-replace-internal-language",
+      "operator": "Adrienne Barnes",
+      "operator_role": "Founder of Best Buyer Persona; B2B SaaS customer research consultant",
+      "source_url": "https://bestbuyerpersona.com/",
+      "source_type": "research",
+      "source_title": "\"Adrienne Barnes — Customer Interview Methodology (Artemis expert synthesis)\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "voc-research",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_jtbd-personas-not-demographics"
+      ],
+      "raw_ref": "raw/artemis/experts/adrienne-barnes.md"
+    },
+    {
       "path": "insights/ins_relevance-engineering-not-content-problem.md",
       "title": "GEO is an information-retrieval engineering problem, not a content problem",
       "id": "ins_relevance-engineering-not-content-problem",
@@ -6529,6 +6883,32 @@
       "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
     },
     {
+      "path": "insights/ins_seeds-nets-spears-lead-portfolio.md",
+      "title": "Treat leads as a three-asset portfolio, not a single funnel",
+      "id": "ins_seeds-nets-spears-lead-portfolio",
+      "operator": "Aaron Ross",
+      "operator_role": "Architect of the Salesforce.com outbound model; author of Predictable Revenue",
+      "source_url": "https://predictablerevenue.com/blog/the-3-types-of-leads-seeds-nets-and-spears/",
+      "source_type": "essay",
+      "source_title": "\"Seeds, Nets, and Spears: The Three Lead Types\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "planning-resourcing",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/articles/aaron-ross--seeds-nets-spears-lead-types.md"
+    },
+    {
       "path": "insights/ins_seller-workflows-begin-with-ai.md",
       "title": "By 2027, 95% of seller workflows will begin with AI — up from <20% in 2024",
       "id": "ins_seller-workflows-begin-with-ai",
@@ -6807,6 +7187,61 @@
       "raw_ref": "raw/digests/miniu-ai-digest-2026-05-02.md"
     },
     {
+      "path": "insights/ins_skyscraper-technique.md",
+      "title": "Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch",
+      "id": "ins_skyscraper-technique",
+      "operator": "Brian Dean",
+      "operator_role": "Founder Backlinko (acquired by Semrush); creator of the Skyscraper Technique",
+      "source_url": "https://backlinko.com/",
+      "source_type": "essay",
+      "source_title": "\"Skyscraper Method — 110% traffic case study\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/brian-dean.md"
+    },
+    {
+      "path": "insights/ins_so-what-as-content-diagnostic.md",
+      "title": "The \"So what?\" step is the most-skipped move in content creation across B2B and B2C",
+      "id": "ins_so-what-as-content-diagnostic",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "book",
+      "source_title": "\"Ann Handley — Writing GPS and the 'So What?' step\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_utility-times-inspiration-times-empathy"
+      ],
+      "raw_ref": "raw/artemis/experts/ann-handley.md"
+    },
+    {
       "path": "insights/ins_software-is-not-a-moat.md",
       "title": "Software is not a moat — ecosystems, hardware, and distribution are",
       "id": "ins_software-is-not-a-moat",
@@ -6834,6 +7269,34 @@
         "ins_design-as-bottleneck"
       ],
       "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_specialization-creates-predictability.md",
+      "title": "Mixing prospecting and closing in one role is the root cause of unpredictable revenue",
+      "id": "ins_specialization-creates-predictability",
+      "operator": "Aaron Ross",
+      "operator_role": "Architect of the Salesforce.com outbound model; author of Predictable Revenue",
+      "source_url": "https://predictablerevenue.com/blog/15-minute-summary-of-predictable-revenue/",
+      "source_type": "essay",
+      "source_title": "\"Predictable Revenue: 15-Minute Summary\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "sales",
+        "gtm"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_seeds-nets-spears-lead-portfolio"
+      ],
+      "raw_ref": "raw/artemis/articles/aaron-ross--predictable-revenue-15-minute-summary.md"
     },
     {
       "path": "insights/ins_specificity-becomes-profitable.md",
@@ -6956,6 +7419,64 @@
         "ins_rebuild-gtm-around-ai"
       ],
       "raw_ref": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md"
+    },
+    {
+      "path": "insights/ins_starving-crowd-beats-offer.md",
+      "title": "Market choice (Starving Crowd) outranks offer strength, which outranks persuasion",
+      "id": "ins_starving-crowd-beats-offer",
+      "operator": "Alex Hormozi",
+      "operator_role": "Co-founder Acquisition.com; author of $100M Offers and $100M Leads",
+      "source_url": "https://www.acquisition.com/",
+      "source_type": "book",
+      "source_title": "\"$100M Offers — Starving Crowd hierarchy\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_value-equation-grand-slam-offer"
+      ],
+      "raw_ref": "raw/artemis/experts/alex-hormozi.md"
+    },
+    {
+      "path": "insights/ins_story-driven-vs-competition-driven.md",
+      "title": "Story-driven companies don't compete — they play a different game",
+      "id": "ins_story-driven-vs-competition-driven",
+      "operator": "Bernadette Jiwa",
+      "operator_role": "Brand storyteller; author Story Driven",
+      "source_url": "https://thestoryoftelling.com/",
+      "source_type": "book",
+      "source_title": "\"Story Driven — backstory, vision, purpose, values, strategy\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_fortune-cookie-principle"
+      ],
+      "raw_ref": "raw/artemis/experts/bernadette-jiwa.md"
     },
     {
       "path": "insights/ins_suddenly-everyone-know-panicking-wondering.md",
@@ -7376,6 +7897,35 @@
       "raw_ref": "raw/podcasts/anuj-rathi--full-stack-pm-working-backwards--2026-04-28.md"
     },
     {
+      "path": "insights/ins_three-levels-financial-success.md",
+      "title": "Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur",
+      "id": "ins_three-levels-financial-success",
+      "operator": "Blair Enns",
+      "operator_role": "Founder Win Without Pitching",
+      "source_url": "https://www.winwithoutpitching.com/",
+      "source_type": "essay",
+      "source_title": "\"Three Levels of Financial Success/Risk for Creative Agencies\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "strategy",
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "pricing-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_anchor-high-pricing"
+      ],
+      "raw_ref": "raw/artemis/experts/blair-enns.md"
+    },
+    {
       "path": "insights/ins_three-months-senior-pmm-tech.md",
       "title": "Three months in as a Senior PMM in tech. Here are some of my reflections especially for...",
       "id": "ins_three-months-senior-pmm-tech",
@@ -7703,6 +8253,59 @@
         "ins_dont-box-the-model-in"
       ],
       "raw_ref": "raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_utility-times-inspiration-times-empathy.md",
+      "title": "Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing.",
+      "id": "ins_utility-times-inspiration-times-empathy",
+      "operator": "Ann Handley",
+      "operator_role": "Chief Content Officer MarketingProfs; author Everybody Writes",
+      "source_url": "https://annhandley.com/",
+      "source_type": "book",
+      "source_title": "\"Ann Handley — Utility × Inspiration × Empathy framework\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/ann-handley.md"
+    },
+    {
+      "path": "insights/ins_value-equation-grand-slam-offer.md",
+      "title": "Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price",
+      "id": "ins_value-equation-grand-slam-offer",
+      "operator": "Alex Hormozi",
+      "operator_role": "Co-founder Acquisition.com; author of $100M Offers and $100M Leads",
+      "source_url": "https://www.acquisition.com/",
+      "source_type": "book",
+      "source_title": "\"$100M Offers — Grand Slam Offer methodology\"",
+      "source_date": "2026-03-03",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "marketing",
+        "sales",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "raw/artemis/experts/alex-hormozi.md"
     },
     {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
@@ -13096,6 +13699,276 @@
     }
   ],
   "raw_sources": [
+    {
+      "path": "raw/artemis/articles/aaron-ross--cold-calling-2-outbound-specialization.md",
+      "title": "\"Cold Calling 2.0 and the Case for Outbound Specialization\"",
+      "url": "\"https://www.forentrepreneurs.com/predictable-revenue/\"",
+      "author": "\"Aaron Ross\"",
+      "expert": "aaron-ross",
+      "roles": [
+        "sales-enablement-lead",
+        "gtm-leader"
+      ],
+      "date_ingested": "\"2026-03-03\""
+    },
+    {
+      "path": "raw/artemis/articles/aaron-ross--predictable-revenue-15-minute-summary.md",
+      "title": "\"Predictable Revenue: 15-Minute Summary\"",
+      "url": "\"https://predictablerevenue.com/blog/15-minute-summary-of-predictable-revenue/\"",
+      "author": "\"Aaron Ross\"",
+      "expert": "aaron-ross",
+      "roles": [
+        "sales-enablement-lead",
+        "gtm-leader"
+      ],
+      "date_ingested": "\"2026-03-03\""
+    },
+    {
+      "path": "raw/artemis/articles/aaron-ross--seeds-nets-spears-lead-types.md",
+      "title": "\"Seeds, Nets, and Spears: Aaron Ross's Lead Type Taxonomy\"",
+      "url": "\"https://predictablerevenue.com/blog/the-3-types-of-leads-seeds-nets-and-spears/\"",
+      "author": "\"Aaron Ross\"",
+      "expert": "aaron-ross",
+      "roles": [
+        "sales-enablement-lead",
+        "gtm-leader"
+      ],
+      "date_ingested": "\"2026-03-03\""
+    },
+    {
+      "path": "raw/artemis/experts/aaron-ross.md",
+      "name": "\"Aaron Ross\"",
+      "slug": "aaron-ross",
+      "expertise": [
+        "predictable-revenue-model",
+        "sdr-team-design",
+        "sales-process-design",
+        "data-driven-sales-optimization"
+      ],
+      "perspective": "\"Revenue becomes predictable only when prospecting and closing are separated into specialized roles, leads are categorized by source type with distinct economics, and pipeline output is directly proportional to measured inputs.\"",
+      "credentials": "\"Built the outbound sales team at Salesforce.com that added $100M+ in recurring revenue, author of 'Predictable Revenue' (the 'Sales Bible of Silicon Valley') and 'From Impossible to Inevitable,' founder of Predictable Revenue Inc.\"",
+      "sources_ingested": [
+        "predictable-revenue-15-minute-summary-aaron-ross.md",
+        "aaron-ross-cold-calling-2-outbound-specialization.md",
+        "aaron-ross-seeds-nets-spears-lead-types.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/adrienne-barnes.md",
+      "name": "\"Adrienne Barnes\"",
+      "slug": "adrienne-barnes",
+      "expertise": [
+        "customer-research-for-ads",
+        "buyer-persona-development",
+        "customer-interview-for-positioning",
+        "audience-segmentation"
+      ],
+      "perspective": "\"If 85% of companies create buyer personas but 77% never use them, the problem is not that personas do not work; the problem is that traditional personas are built on demographics instead of Jobs to Be Done, producing documents that inform nothing and inspire no action.\"",
+      "credentials": "\"Founder of Best Buyer Persona; B2B SaaS content marketing consultant who has worked with Stripe, Monday.com, Unbounce, Demio, Audiense, and Smartling; self-taught qualitative researcher who studied interview methodology from social workers, journalists, and product researchers; expert in Jobs to Be Done-based persona development.\"",
+      "sources_ingested": [
+        "saas-positioning-starts-with-talking-to-customers-saas-club.md",
+        "022-buyer-personas-dont-have-to-suck-with-adrienne-barnes-best-buyer-persona-omn.md",
+        "how-to-create-buyer-personas-youll-actually-use-omniscient-digital.md",
+        "the-4-rs-of-the-useful-buyer-personas-that-wins-more-business-marketing-powerups.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/alex-hormozi.md",
+      "name": "\"Alex Hormozi\"",
+      "slug": "alex-hormozi",
+      "expertise": [
+        "offer-creation",
+        "creative-business-pricing",
+        "value-based-pricing"
+      ],
+      "perspective": "\"The offer is the single highest-leverage variable in business; a Grand Slam Offer so good people feel stupid saying no makes every other growth lever -- traffic, conversion, sales skill -- dramatically more effective.\"",
+      "credentials": "\"Co-founder of Acquisition.com, a portfolio of companies generating $200M+ in annual revenue. Author of '$100M Offers' and '$100M Leads'. Built and scaled Gym Launch from zero to $100M+ in cumulative revenue. Investor in and advisor to dozens of portfolio companies across service, SaaS, and education verticals.\"",
+      "sources_ingested": [
+        "100m-offers-by-alex-hormozi-summary-greg-faxon.md",
+        "100m-offers-summary-7-steps-to-grand-slam-offers-alex-hormozi.md",
+        "the-hormozi-grand-slam-offer-framework.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/andrew-faris.md",
+      "name": "\"Andrew Faris\"",
+      "slug": "andrew-faris",
+      "expertise": [
+        "b2b-advertising-strategy",
+        "campaign-budget-allocation",
+        "conversion-optimization",
+        "dtc-growth-marketing",
+        "paid-media-channel-selection"
+      ],
+      "perspective": "\"Every brand advertising on Meta should spend the vast majority of their dollars on cost controls; the biggest ad cost in most DTC businesses is creative testing, and cost caps solve this by letting Meta suppress spend on likely losers automatically.\"",
+      "credentials": "\"Founder of AJF Growth (ecommerce growth consultancy); former host of the Ecommerce Playbook podcast at Common Thread Collective; has grown brands including The North Face, Melin, TheraGun, DIFF Eyewear, Born Primitive, and Axe Bat; specializes in Meta ads for ecommerce brands in the $1M-$20M growth stage.\"",
+      "sources_ingested": [
+        "cost-cap-strategy-for-facebook-ads-2024-guide.md",
+        "how-to-scale-from-1m-to-20m-with-andrew-faris.md",
+        "effective-facebook-ad-campaigns-how-to-increase-results-250.md",
+        "directness-wins-in-advertising-practical-ecommerce.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/andy-crestodina.md",
+      "name": "\"Andy Crestodina\"",
+      "slug": "andy-crestodina",
+      "expertise": [
+        "audience-building",
+        "content-distribution-strategy",
+        "content-measurement",
+        "content-operations",
+        "content-repurposing",
+        "editorial-calendar-design",
+        "thought-leadership-development"
+      ],
+      "perspective": "\"The best content programs differentiate through original research and strong opinions, not volume; AI cannot replicate either, so the future belongs to marketers who take a stand and create data that does not exist elsewhere.\"",
+      "credentials": "\"Co-founder and CMO of Orbit Media Studios; author of Content Chemistry (7th edition); has published 500+ articles on content strategy, SEO, and analytics; runs the annual Blogger Survey (10+ years, 1000+ respondents); LinkedIn newsletter with 215,000+ subscribers.\"",
+      "sources_ingested": [
+        "revenue-driving-b2b-content-marketing-strategy-with-andy-crestodina.md",
+        "how-content-marketing-is-evolving-with-andy-crestodina-marketing-speak.md",
+        "the-secret-to-thought-leadership-content-with-andy-crestodina-verblio.md",
+        "building-trust-and-traffic-with-ai-andy-crestodina-on-modern-content-marketing.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/ann-handley.md",
+      "name": "\"Ann Handley\"",
+      "slug": "ann-handley",
+      "expertise": [
+        "audience-building",
+        "content-quality-standards",
+        "editorial-calendar-design",
+        "resonance-over-reach",
+        "thought-leadership-development"
+      ],
+      "perspective": "\"Good writing is not a nice-to-have but the fundamental skill of modern marketing; every piece of content is an extension of your brand, and the quality bar is Utility times Inspiration times Empathy, where any factor at zero produces nothing.\"",
+      "credentials": "\"Chief Content Officer of MarketingProfs; Wall Street Journal bestselling author of Everybody Writes (2nd edition, 2022) and Content Rules; creator of Total Annarchy newsletter (42,000+ subscribers); named Forbes Top 20 Marketing and Social Media Women Bloggers; pioneer of the Chief Content Officer title.\"",
+      "sources_ingested": [
+        "chatting-ridiculously-good-content-with-ann-handley.md",
+        "how-ann-handley-grew-her-newsletter-total-annarchy-from-0-42000-subscribers-camp.md",
+        "creator-ann-handley-takes-writing-seriously-with-a-fun-approach.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/arvid-kahl.md",
+      "name": "\"Arvid Kahl\"",
+      "slug": "arvid-kahl",
+      "expertise": [
+        "ai-agency-business-model",
+        "indie-hacking-methodology",
+        "shipping-fast",
+        "ai-workflow-automation"
+      ],
+      "perspective": "\"Build calm and sustainable businesses in public by embedding yourself in a community first, finding their critical problems, and using AI as a 10-80-10 workflow accelerant -- you do the first 10% (direction), AI does the middle 80% (execution), and you do the final 10% (quality and polish).\"",
+      "credentials": "\"Co-founded FeedbackPanda (bootstrapped SaaS to $55K MRR, sold within 2 years), author of 'Zero to Sold' and 'The Embedded Entrepreneur,' creator of The Bootstrapped Founder newsletter and podcast, builder of Podscan\"",
+      "sources_ingested": [
+        "indie-hacking-the-singularity-the-bootstrapped-founder.md",
+        "indie-hackers-myopic-view-of-ai-the-bootstrapped-founder.md",
+        "building-in-public-and-legacy-the-bootstrapped-founder.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/ben-tossell.md",
+      "name": "\"Ben Tossell\"",
+      "slug": "ben-tossell",
+      "expertise": [
+        "ai-agency-business-model",
+        "ai-business-models",
+        "ai-workflow-automation",
+        "no-code-product-building",
+        "shipping-fast"
+      ],
+      "perspective": "\"AI is the co-pilot, not the autopilot -- the path to a profitable AI business is teaching others to use tools effectively, building in public, and structuring your business around what you love doing while automating what you hate.\"",
+      "credentials": "\"Founder of Ben's Bites (7-figure AI education business, 100K+ subscribers), previously founded Makerpad (no-code education platform, acquired by Zapier), Product Hunt community manager, now Head of DevRel at Factory AI\"",
+      "sources_ingested": [
+        "how-i-built-a-7-figure-business-in-less-than-a-year-with-ai-ben-tossell.md",
+        "a-real-example-of-building-with-ai-in-2025.md",
+        "how-ben-tossell-grew-bens-bites-into-a-100k-person-newsletter-in-13-months-growt.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/bernadette-jiwa.md",
+      "name": "\"Bernadette Jiwa\"",
+      "slug": "bernadette-jiwa",
+      "expertise": [
+        "brand-narrative-construction",
+        "brand-strategy-development",
+        "storytelling-for-business",
+        "brand-differentiation"
+      ],
+      "perspective": "\"You don't need to compete when you know who you are. Innovation is a by-product of empathy. People don't buy products; they buy the story behind them. The difference between a brand and a commodity is meaning: Product + Meaning = Brand; Product - Meaning = Commodity.\"",
+      "credentials": "\"Author of ten #1 Amazon bestsellers on marketing and brand storytelling, including 'Difference,' 'Story Driven,' 'Meaningful,' 'The Fortune Cookie Principle,' 'Marketing: A Love Story,' and 'Make Your Idea Matter.' Her blog TheStoryofTelling.com was voted Best Australian Business Blog (2012) and named one of Australia's Top 20 Business Blogs (2013, 2014). Consults with global brands including Disney, Adidas, Microsoft, Google, and Lululemon. Called 'the master of making organizational change around marketing' by Seth Godin.\"",
+      "sources_ingested": [
+        "heres-how-master-brand-storyteller-bernadette-jiwa-writes-copyblogger.md",
+        "about-the-story-of-telling.md",
+        "difference-the-story-of-telling.md",
+        "the-fortune-cookie-principle-summary-bernadette-jiwa-12min-blog.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/bernard-huang.md",
+      "name": "\"Bernard Huang\"",
+      "slug": "bernard-huang",
+      "expertise": [
+        "content-optimization-nlp",
+        "content-seo",
+        "keyword-research-methodology",
+        "search-intent-mapping",
+        "seo-measurement"
+      ],
+      "perspective": "\"Content quality for SEO is measurable through NLP analysis of semantic comprehensiveness; by analyzing what the top-ranking pages cover and how they cover it, you can provide data-driven guidance to writers that dramatically improves content relevance without requiring them to become SEO experts.\"",
+      "credentials": "\"Co-founder and CEO of Clearscope (founded 2016), built the content optimization category that now includes competitors like Surfer SEO and MarketMuse, Clearscope is used by Adobe, Shopify, YouTube, Intuit, and Conde Nast, pioneered the application of NLP (Google NLP API and IBM Watson) to SEO content grading\"",
+      "sources_ingested": [
+        "clearscope-why-content-optimization-is-all-the-rage.md",
+        "clearscope-educational-resources.md",
+        "clearscope-seo-software-review-the-content-technologist.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/blair-enns.md",
+      "name": "\"Blair Enns\"",
+      "slug": "blair-enns",
+      "expertise": [
+        "agency-positioning",
+        "behavioral-pricing-psychology",
+        "client-acquisition-for-services",
+        "proposal-writing",
+        "scope-management",
+        "service-productization",
+        "value-based-pricing"
+      ],
+      "perspective": "\"The highest financial success comes not from selling time efficiently but from mastering the value conversation, where you price the client and not the service.\"",
+      "credentials": "\"Author of 'The Win Without Pitching Manifesto', 'Pricing Creativity', and 'The Four Conversations'. Founder of Win Without Pitching. Co-host of 2Bobs podcast with David C. Baker. Trains creative firms worldwide on selling and pricing expertise.\"",
+      "sources_ingested": [
+        "anchor-high-win-without-pitching.md",
+        "pros-and-cons-of-publishing-pricing-for-creative-agencies.md",
+        "the-justice-of-price-premiums-win-without-pitching.md",
+        "3-levels-of-financial-success-risk-for-creative-agencies.md",
+        "pricing-four-steps-to-the-value-conversation-and-one-hack.md",
+        "how-and-when-to-talk-about-your-firm-win-without-pitching.md"
+      ]
+    },
+    {
+      "path": "raw/artemis/experts/brian-dean.md",
+      "name": "\"Brian Dean\"",
+      "slug": "brian-dean",
+      "expertise": [
+        "skyscraper-link-building",
+        "link-building-strategy",
+        "content-seo",
+        "content-distribution-strategy",
+        "landing-page-optimization"
+      ],
+      "perspective": "\"SEO success comes from creating content that genuinely deserves to rank number one, then systematically promoting it to people who can amplify it; the best link building is a byproduct of being the best resource on a topic.\"",
+      "credentials": "\"Founder of Backlinko (acquired by Semrush), creator of the Skyscraper Technique, Semrush Academy instructor for Content-Led SEO course, built Backlinko to millions of monthly visitors through content-led SEO without paid advertising\"",
+      "sources_ingested": [
+        "skyscraper-method-110-traffic-link-building-case-study.md",
+        "link-building-strategies-the-complete-list-2026.md",
+        "how-brian-dean-would-launch-backlinko-in-2026.md",
+        "on-page-seo-the-definitive-guide-free-template-2026.md"
+      ]
+    },
     {
       "path": "raw/digests/miniu-ai-digest-2026-04-26.md"
     },

@@ -23,7 +23,9 @@ Andy Crestodina's content philosophy is built on strategic restraint and analyti
 - **Content Operations**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_original-research-as-link-bait` — Run one original-research study a year; it will out-link a year of weekly posts [Tier A]
+- `ins_blog-as-knowledge-base-not-newsfeed` — Reconceive the blog as a structured knowledge base, not a chronological feed [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `revenue-driving-b2b-content-marketing-strategy-with-andy-crestodina.md` (artemis ingest)

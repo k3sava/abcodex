@@ -23,7 +23,9 @@ Adrienne Barnes's work is built on a damning statistic she uncovered through her
 - **Audience Segmentation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_jtbd-personas-not-demographics` — Personas built on demographics inform nothing; rebuild around Jobs to Be Done [Tier B]
+- `ins_relational-keywords-replace-internal-language` — The exact words customers use should replace internal terminology in every piece of copy [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `saas-positioning-starts-with-talking-to-customers-saas-club.md` (artemis ingest)

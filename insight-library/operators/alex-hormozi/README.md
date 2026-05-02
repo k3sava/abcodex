@@ -22,7 +22,9 @@ Alex Hormozi's system of thought is built on a hierarchy of business levers: Sta
 - **Value Based Pricing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_value-equation-grand-slam-offer` — Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price [Tier A]
+- `ins_starving-crowd-beats-offer` — Market choice (Starving Crowd) outranks offer strength, which outranks persuasion [Tier A]
+
 
 ## Sources captured
 - 2026-04 — `100m-offers-by-alex-hormozi-summary-greg-faxon.md` (artemis ingest)

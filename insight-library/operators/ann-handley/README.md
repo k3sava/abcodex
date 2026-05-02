@@ -23,7 +23,9 @@ Ann Handley's central contribution to content marketing is elevating writing qua
 - **Resonance Over Reach**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_utility-times-inspiration-times-empathy` — Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing. [Tier A]
+- `ins_so-what-as-content-diagnostic` — The 'So what?' step is the most-skipped move in content creation across B2B and B2C [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `chatting-ridiculously-good-content-with-ann-handley.md` (artemis ingest)

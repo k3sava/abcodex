@@ -23,7 +23,9 @@ Blair Enns has spent over two decades teaching creative professionals to win bus
 - **Proposal Writing**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_anchor-high-pricing` — Anchor with the most expensive option first; price the client, not the service [Tier A]
+- `ins_three-levels-financial-success` — Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `anchor-high-win-without-pitching.md` (artemis ingest)

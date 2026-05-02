@@ -20,7 +20,9 @@ Bernadette Jiwa is the leading practitioner of empathy-first brand strategy, bui
 - **Brand Differentiation**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_fortune-cookie-principle` — Product + Meaning = Brand. Product − Meaning = Commodity. [Tier B]
+- `ins_story-driven-vs-competition-driven` — Story-driven companies don't compete — they play a different game [Tier B]
+
 
 ## Sources captured
 - 2026-04 — `heres-how-master-brand-storyteller-bernadette-jiwa-writes-copyblogger.md` (artemis ingest)
