@@ -1,5 +1,5 @@
 ---
-id: ins_here-five-things-never-get-kesava
+id: ins_five-disagreements-cmo-cro-pmm
 operator: Anna Tankel
 operator_role: 'Fractional B2B Head of Growth'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7429897757588373504/
@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr
+# Five things CEO, CMO, CRO, and PMM will never agree on
 ## Claim
 Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on: The CEO wants to keep the TAM wide for investors. The CRO wants every deal that walks through the door. The CMO wants a story that scales across segments. And the product marketer is begging someone, anyone, to pick a lane.
 

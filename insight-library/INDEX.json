@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02T17:27:46.472Z",
+  "generated_at": "2026-05-02T17:37:04.421Z",
   "counts": {
-    "insights": 420,
-    "operators": 280,
+    "insights": 417,
+    "operators": 277,
     "raw_sources": 211,
     "patterns": 24,
     "contradictions": 9,
@@ -2049,33 +2049,6 @@
       "raw_ref": "raw/essays/maja-voje--claude-gtm-pulse--2026-04.md"
     },
     {
-      "path": "insights/ins_client-greeking-travel-agency-athens.md",
-      "title": "Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per",
-      "id": "ins_client-greeking-travel-agency-athens",
-      "operator": "Kubi Rich",
-      "operator_role": "'AI Ops at AI Operator | I Build Automations That Do the Work So You Don’t Have To | Mechatronics Engineer + Computer Science'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444995315822346240/",
-      "source_type": "thread",
-      "source_title": "'I just built my first AI voice agent for a paying client'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "messaging-narrative",
-        "content"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "research",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_coachability-beats-experience.md",
       "title": "Coachability — not prior experience or charisma — is the strongest predictor of sales success",
       "id": "ins_coachability-beats-experience",
@@ -4063,6 +4036,33 @@
       "raw_ref": "raw/expert-content/experts/christoph-janz.md"
     },
     {
+      "path": "insights/ins_five-disagreements-cmo-cro-pmm.md",
+      "title": "Five things CEO, CMO, CRO, and PMM will never agree on",
+      "id": "ins_five-disagreements-cmo-cro-pmm",
+      "operator": "Anna Tankel",
+      "operator_role": "'Fractional B2B Head of Growth'",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7429897757588373504/",
+      "source_type": "thread",
+      "source_title": "'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_flywheel-ai-cross-functional-pod.md",
       "title": "Cross-functional pod (product + eng + data + ops + marketing) is the org unit for agentic GTM",
       "id": "ins_flywheel-ai-cross-functional-pod",
@@ -4668,33 +4668,6 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
-      "path": "insights/ins_heartfelt-shoutout-kunal-sharma-sandeep.md",
-      "title": "A heartfelt shoutout to Kunal Sharma & Sandeep 🌟 your unwavering support, mentorship, a",
-      "id": "ins_heartfelt-shoutout-kunal-sharma-sandeep",
-      "operator": "Prithivi Rajan",
-      "operator_role": "'Lead Solutions Engineer - JustCall (Growth & Commercials) @ SaaS Labs - JustCall | Ex-Freshworks - ITSM'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7390056582857940992/",
-      "source_type": "thread",
-      "source_title": "'🚀 Excited to share some amazing news — I’ve been promoted to Lead Solutions Engineer! 🚀'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "hiring",
-        "leadership",
-        "sales"
-      ],
-      "lifecycle": [
-        "hiring-team-design",
-        "sales-enablement"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_help-coaches-founders-turn-linkedin.md",
       "title": "I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st",
       "id": "ins_help-coaches-founders-turn-linkedin",
@@ -4717,33 +4690,6 @@
       "maturity": "frontier",
       "artifact_class": "playbook",
       "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_here-five-things-never-get-kesava.md",
-      "title": "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agr",
-      "id": "ins_here-five-things-never-get-kesava",
-      "operator": "Anna Tankel",
-      "operator_role": "'Fractional B2B Head of Growth'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7429897757588373504/",
-      "source_type": "thread",
-      "source_title": "'Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "positioning",
-        "messaging-narrative"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
@@ -6594,7 +6540,7 @@
       "title": "Most people are still using AI like this: ask → answer → forget",
       "id": "ins_most-people-still-using-like",
       "operator": "Alok Yadav",
-      "operator_role": "'Building MCPfy.ai | Leading AI @ SaaS Labs'",
+      "operator_role": "'Building MCPfy.ai; AI engineering leader'",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7448342949261729792/",
       "source_type": "thread",
       "source_title": "'Most people are still using AI like this: ask → answer → forget'",
@@ -8956,33 +8902,6 @@
       "raw_ref": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
-      "path": "insights/ins_routine-loosens-days-feel-lighter.md",
-      "title": "Your routine loosens, the days feel lighter than they should, and your mind starts wand",
-      "id": "ins_routine-loosens-days-feel-lighter",
-      "operator": "Shruti Padala",
-      "operator_role": "'Senior AE | Ex-SaaS Labs | Ex-Zenoti | 8+ Years in B2B SaaS Sales | Helping Businesses Drive Smarter Customer Conversations'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7400219470666850304/",
-      "source_type": "thread",
-      "source_title": "'Have you ever had that strange phase during a job transition where everything suddenly feels… slo'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "sales",
-        "gtm",
-        "research-discovery"
-      ],
-      "lifecycle": [
-        "sales-enablement",
-        "outbound"
-      ],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_run-up-the-stack.md",
       "title": "Run up the stack — use commoditized capabilities as inputs to create higher-order human value",
       "id": "ins_run-up-the-stack",
@@ -9007,33 +8926,6 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/expert-content/experts/packy-mccormick.md"
-    },
-    {
-      "path": "insights/ins_safe-predictable-ultimately-why-companies.md",
-      "title": "It’s safe, predictable, and ultimately, it's why companies start stagnating. This is es",
-      "id": "ins_safe-predictable-ultimately-why-companies",
-      "operator": "Gaurav Sharma",
-      "operator_role": "'Building AtomsAI (end-to-end AI consulting, solutioning & implementation) | Scaling JustCall & ServiceAgent'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343340308195155968/",
-      "source_type": "thread",
-      "source_title": "'Hiring a vibe marketer to build an AI-first marketing engine for our new product ServiceAgent'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "growth-demand",
-        "marketing",
-        "hiring"
-      ],
-      "lifecycle": [
-        "growth-loops",
-        "hiring-team-design"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "playbook",
-      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
       "path": "insights/ins_sales-team-detects-positioning-failure-first.md",
@@ -11090,6 +10982,33 @@
       "raw_ref": "raw/expert-content/experts/momoko-price.md"
     },
     {
+      "path": "insights/ins_voice-agent-call-volume-recovery.md",
+      "title": "A first AI voice agent shipped solo for a real customer",
+      "id": "ins_voice-agent-call-volume-recovery",
+      "operator": "Kubi Rich",
+      "operator_role": "'AI Ops at AI Operator | I Build Automations That Do the Work So You Don’t Have To | Mechatronics Engineer + Computer Science'",
+      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444995315822346240/",
+      "source_type": "thread",
+      "source_title": "'I just built my first AI voice agent for a paying client'",
+      "source_date": "2026-04-10",
+      "captured_date": "2026-05-02",
+      "domain": [
+        "pmm",
+        "marketing",
+        "content"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "content"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
       "path": "insights/ins_want-product-marketing-drive-revenue.md",
       "title": "If you want product marketing to drive revenue without sales involvement, you have to r",
       "id": "ins_want-product-marketing-drive-revenue",
@@ -11878,7 +11797,7 @@
       "slug": "alok-yadav",
       "roles": [
         "Building MCPfy.ai",
-        "Leading AI @ SaaS Labs"
+        "AI engineering leader"
       ],
       "domains_active": [
         "ai-native"
@@ -13546,22 +13465,6 @@
       ],
       "captured_first": "2026-05-02",
       "note": "\"operator: Gartner — individual analysts attributed in operator_role per card\"",
-      "external": ""
-    },
-    {
-      "path": "operators/gaurav-sharma/README.md",
-      "title": "Gaurav Sharma",
-      "name": "Gaurav Sharma",
-      "slug": "gaurav-sharma",
-      "roles": [
-        "Building AtomsAI (end-to-end AI consulting",
-        "solutioning & implementation)",
-        "Scaling JustCall & ServiceAgent"
-      ],
-      "domains_active": [
-        "ai-native"
-      ],
-      "captured_first": "2026-05-02",
       "external": ""
     },
     {
@@ -15354,22 +15257,6 @@
       "external": ""
     },
     {
-      "path": "operators/prithivi-rajan/README.md",
-      "title": "Prithivi Rajan",
-      "name": "Prithivi Rajan",
-      "slug": "prithivi-rajan",
-      "roles": [
-        "Lead Solutions Engineer - JustCall (Growth & Commercials) @ SaaS Labs - JustCall",
-        "Ex-Freshworks - ITSM"
-      ],
-      "domains_active": [
-        "growth",
-        "engineering"
-      ],
-      "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
       "path": "operators/qasar-younis/README.md",
       "title": "Qasar Younis",
       "name": "Qasar Younis",
@@ -16041,22 +15928,6 @@
         "leadership",
         "sales",
         "customer-success"
-      ],
-      "captured_first": "2026-05-02",
-      "external": ""
-    },
-    {
-      "path": "operators/shruti-padala/README.md",
-      "title": "Shruti Padala",
-      "name": "Shruti Padala",
-      "slug": "shruti-padala",
-      "roles": [
-        "Senior AE",
-        "Ex-SaaS Labs",
-        "Ex-Zenoti"
-      ],
-      "domains_active": [
-        "sales"
       ],
       "captured_first": "2026-05-02",
       "external": ""
@@ -16939,7 +16810,7 @@
       "path": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md",
       "title": "Expert takes on marketer rotation, PMM-as-builder, and Super IC cross-functional fluency",
       "type": "raw",
-      "domain": "justcall",
+      "domain": "gtm",
       "last_updated": "2026-05-01",
       "ingested": "2026-05-01",
       "ingested_via": "claude-code (web search + recall, k3sava harness)",
@@ -16972,8 +16843,7 @@
       "publication": "LeadDev.com",
       "published": "2020-08-10",
       "ingested": "2026-04-28",
-      "ingested_via": "claude-code (full text from Slack-shared link by Bharat Goyal in JustCall #engineering)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19323,9 +19193,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Marginal user methodology + human judgment in algorithmic systems + growth experiment portfolio discipline",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Adriel Frederick.txt"
     },
@@ -19338,9 +19207,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "AI product non-determinism + agency/control trade-offs + continuous calibration continuous development (CCCD) framework + evals vs production monitoring + behavioral flywheel loops",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Aishwarya Naresh Reganti + Kiriti Badam.txt"
     },
@@ -19355,7 +19223,7 @@
       "published": "2026-04-05",
       "captured": "2026-04-28",
       "captured_via": "Dropbox transcript bundle",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
       "related": [
         "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md",
@@ -19364,8 +19232,7 @@
         "concepts/ai-native.md",
         "projects/flywheel.md"
       ],
-      "transcript_file": "lenny-dropbox/Amol Avasare.txt",
-      "relevance_to_flywheel": "HIGH. Different person from Amole Naik — same Anthropic growth org, deeper on operating model. Confirms CASH (Claude Accelerates Sustainable Hypergrowth) is the canonical reference for substrate-led growth experimentation. Adds the \"squeezed PM\" thesis (engineering 2-3x'd by Claude Code, PM/design now bottleneck) and the four-stage automation loop (identify → build → test → analyze; cross-functional alignment is the holdout)."
+      "transcript_file": "lenny-dropbox/Amol Avasare.txt"
     },
     {
       "path": "raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md",
@@ -19378,7 +19245,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19387,8 +19254,7 @@
         "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
         "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md"
       ],
-      "transcript_file": "k-H4nsOTuxU.transcript.txt",
-      "relevance_to_flywheel": "This is the closest episode to the flywheel pitch. CASH (Claude Accelerates Sustainable Hypergrowth) is the literal blueprint — automate growth experimentation across 4 stages with human-in-loop on stakeholder alignment + brand. Almost everything Kesava is building maps to a piece of Amole's stack."
+      "transcript_file": "k-H4nsOTuxU.transcript.txt"
     },
     {
       "path": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md",
@@ -19399,9 +19265,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Founder-level startup idea formation, competitive positioning via niches vs. crowded markets, lazy leadership (delegation), AI automation of routine knowledge work.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Andrew Wilkinson.txt"
     },
@@ -19414,9 +19279,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Positioning framework, narrative structure, go-to-market messaging, CEO alignment, sales-marketing-product coherence.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Andy Raskin.txt"
     },
@@ -19429,9 +19293,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Decision quality, pre-mortems, shortening feedback loops, mental time travel, leadership communication (nevertheless).",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Annie Duke.txt"
     },
@@ -19444,9 +19307,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "AI-native product teams obsess over UX/taste over engineering; scaling via generalists + shared office lunches; prioritize bottleneck identification, not roadmap theater",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Anton Osika.txt"
     },
@@ -19457,7 +19319,7 @@
       "status": "active",
       "last_updated": "2026-04-28",
       "related": [],
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "direct"
     },
     {
@@ -19469,9 +19331,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Natural language interface becomes UX substrate; taste + territorial thinking replaces roadmap theater; \"living one year in the future\" operationalized via Frontier program",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Aparna Chennapragada.txt"
     },
@@ -19481,7 +19342,7 @@
       "type": "raw",
       "source": "lenny-dropbox",
       "guest": "April Dunford",
-      "domain": "justcall",
+      "domain": "gtm",
       "relevance_tier": "HIGH",
       "captured": "2026-04-28"
     },
@@ -19492,7 +19353,7 @@
       "status": "active",
       "last_updated": "2026-04-28",
       "related": [],
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "direct"
     },
     {
@@ -19501,7 +19362,7 @@
       "type": "raw",
       "source": "lenny-dropbox",
       "guest": "Archie Abrams",
-      "domain": "justcall",
+      "domain": "gtm",
       "relevance_tier": "HIGH",
       "captured": "2026-04-28"
     },
@@ -19514,9 +19375,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Post-training is new moat; product metabolism = data ingest + reward model + outcome tuning; org chart becomes work chart; all software will be model-forward",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Asha Sharma.txt"
     },
@@ -19527,7 +19387,7 @@
       "status": "active",
       "last_updated": "2026-04-28",
       "related": [],
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "direct"
     },
     {
@@ -19539,9 +19399,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Understand before identify-execute; environment + skills = impact potential; adjacent user is the growth lever; taste is learned",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Bangaly Kaba.txt"
     },
@@ -19554,9 +19413,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Operating-norm playbook for high-trust teams under pressure — separate behavior from identity, repair as primary relationship strategy, most generous interpretation, sturdy leadership. Direct read for managing the JustCall PMM team during the substrate transition and the exit window.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Dr. Becky Kennedy.txt"
     },
@@ -19569,9 +19427,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 mass-v2)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "marketplace-supply-flywheel, growth-engineering-patterns",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Benjamin Lauzier.txt"
     },
@@ -19584,9 +19441,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Mann's Economic Turing Test gives a precise external benchmark for \"AI-native\" claims. His \"use the new tools as if they were new tools\" rule is the operating discipline Kesava is enforcing on the team. The mission-over-money frame is a calibration for Anthropic-class talent retention, applicable to clearPMM and to the why-Kesava-stays-on-flywheel framing.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Benjamin Mann.txt"
     },
@@ -19601,7 +19457,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19609,8 +19465,7 @@
         "projects/flywheel.md",
         "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md"
       ],
-      "transcript_file": "We7BZVKbCVw.transcript.txt",
-      "relevance_to_flywheel": "Direct parallel to flywheel — engineering's \"everyone codes\" → marketing's \"everyone is a builder\"; latent demand + bet-on-six-months-out + underfund mechanisms."
+      "transcript_file": "We7BZVKbCVw.transcript.txt"
     },
     {
       "path": "raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md",
@@ -19621,9 +19476,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 mass-v2)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "agent-market-structure, pricing-model-shift",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Bret Taylor.txt"
     },
@@ -19636,9 +19490,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (haiku-4-5 mass batch)",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Distribution strategy, platform cycles, escape velocity, startup timing",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Brian Balfour.txt"
     },
@@ -19651,9 +19504,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Operator-grade hiring rubric (LOCK + Student); homegrown vs Big-Tech-import bias; distribution as the new moat thesis (echoes Spiegel/Fain); peer-room learning model that maps onto commons rooms.",
       "relevance_tier": "MEDIUM",
       "transcript_file": "lenny-dropbox/Brian Halligan.txt"
     },
@@ -19668,7 +19520,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19687,9 +19539,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct external precedent for the operating-cadence layer of the flywheel substrate. CHJ's house metaphor (foundation / supporting beams / mechanicals), the operating-principles framework, and the \"force for positive momentum\" decision rule are all literal templates for the AI-native marketing team operating model the flywheel pitches.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Claire Hughes Johnson.txt"
     },
@@ -19702,9 +19553,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Multi-agent specialization (one agent per role, not one for everything); manager skillset is the unlock; tunable plain-language onboarding; treat agents like employees with progressive trust.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Claire Vo OpenClaw.txt"
     },
@@ -19717,9 +19567,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct PMM/growth read for JustCall flywheel and clearPMM offer. Elena's earned-channel thesis maps to the substrate-as-leverage frame; her experimentation-paralysis warning maps to \"every initiative an experiment\" failure mode in Q1 reorg; her optionality vs. titles thesis aligns with Kesava's exit ramp and 4-tier clearPMM structure.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Elena Verna 3.0.txt"
     },
@@ -19732,9 +19581,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Software-isn't-a-moat thesis; design as bottleneck for cohesion; jobs-to-be-done as the spine for agentizing whole workflows; flat innovation team coupled to large operational org.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Evan Spiegel.txt"
     },
@@ -19747,9 +19595,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Evals are the load-bearing missing skill for the AI Growth lane. Hamel + Shreya's open-coding → axial-coding → LLM-as-judge pipeline is the literal substrate for measuring flywheel output quality, for the JustCall AI agents (Fin parallel), and for the contextDB review loop. Direct external benchmark for the marketing-substrate eval shape.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Hamel Husain & Shreya Shankar.txt"
     },
@@ -19764,7 +19611,6 @@
       "captured_via": "claude-code (sonnet batch)",
       "domain": "personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct read for Kesava's 12-week exit ramp comp tactics; also a positioning playbook (consultative discovery, sell the vacation, plant champions) that maps cleanly to clearPMM enterprise sales motion and to flywheel pitch structure.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jacob Warwick.txt"
     },
@@ -19777,9 +19623,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Large-org AI transformation playbook (90K employees); permission-to-play strategy filter; treat AI as a teammate not a tool; criticize-in-public norm for high-trust teams.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jeetu Patel.txt"
     },
@@ -19794,7 +19639,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19802,8 +19647,7 @@
         "projects/flywheel.md",
         "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md"
       ],
-      "transcript_file": "eh8bcBIAAFo.transcript.txt",
-      "relevance_to_flywheel": "Design's mock-and-prototype phase shrank from 60-70% to 30-40% of the role; the rest is jamming with engineers, polishing in code, and pointing to vision. Direct mirror of where PMM is heading."
+      "transcript_file": "eh8bcBIAAFo.transcript.txt"
     },
     {
       "path": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md",
@@ -19814,9 +19658,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Tactical playbook for upward influence — stakeholder discovery, incentive alignment, kill-things-to-build-trust, shrink-the-change, agents-as-junior-colleagues. Direct read for flywheel pitches to Deepan/CFO and for substrate teammate onboarding.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jessica Fain.txt"
     },
@@ -19831,7 +19674,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
       "related": [
         "concepts/principal-marketer-flywheel.md",
@@ -19839,8 +19682,7 @@
         "projects/flywheel.md",
         "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md"
       ],
-      "transcript_file": "QaDsk4iH1aw.transcript.txt",
-      "relevance_to_flywheel": "PMM operator voice from someone who was solo-marketer at Stripe for 3 years and first marketer at OpenAI. The DATE diagnostic framework is a direct competitor/replacement for playbook-thinking — and her chamoeleon-CMO + comb-shape framing maps to flywheel's hiring needs."
+      "transcript_file": "QaDsk4iH1aw.transcript.txt"
     },
     {
       "path": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md",
@@ -19851,9 +19693,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Mihika's playbook for shipping zero-to-one inside a big company maps directly onto the flywheel build inside JustCall. Scope-is-the-world ownership, vision-as-pain+solution+proof, A-minus-idea conviction, and internal hype mechanics are the operating tactics Kesava is already using and needs to formalize for the team.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Mihika Kapoor.txt"
     },
@@ -19866,9 +19707,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Build-quietly counter-narrative to \"build in public\"; nuance over polarization; AI-native mindset for industries with chronic labor shortages; framing as \"intelligence put into things that already exist.\"",
       "relevance_tier": "MEDIUM",
       "transcript_file": "lenny-dropbox/Qasar Younis.txt"
     },
@@ -19881,9 +19721,8 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "justcall|personal",
+      "domain": "gtm|personal",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct engineering analog of the flywheel thesis — ICs become \"tech leads of agent fleets\"; context engineering > prompt tweaking; build for the next model not today's; one-person-billion-dollar startup creates B2B SaaS golden age.",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Sherwin Wu_V2.txt"
     },
@@ -19898,7 +19737,7 @@
       "published": "2026-04-02",
       "captured": "2026-04-28",
       "captured_via": "Dropbox transcript bundle",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
       "related": [
         "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
@@ -19907,8 +19746,7 @@
         "concepts/ai-native.md",
         "projects/flywheel.md"
       ],
-      "transcript_file": "lenny-dropbox/Simon Willison.txt",
-      "relevance_to_flywheel": "HIGH. Simon names the November 2025 inflection point (GPT 5.1 + Opus 4.5 crossed \"almost always works\" threshold) and provides the cleanest articulation of the agentic engineering pattern stack — dark factory testing, hoarding patterns, Red/Green TDD, template starts. Also: explicit prediction that the bottleneck has migrated from coding to everywhere else, and the \"Challenger disaster\" warning on responsible deployment."
+      "transcript_file": "lenny-dropbox/Simon Willison.txt"
     },
     {
       "path": "raw/research/gartner--3-pillars-ramp-up-user-adoption--2026-04.md",
@@ -19918,11 +19756,8 @@
       "doc_id": "G00808124",
       "published": "2024-06-24",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/3-pillars-ramp-up-user-adoption.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Adoption playbook frames the JustCall onboarding-friction-trough work — \"why\" change statements + value-critical actions + real-time training map cleanly to in-app activation flows the flywheel can support.",
       "relevance_tags": [
         "gtm-best-practice"
       ]
@@ -19938,9 +19773,8 @@
       "captured": "2026-04-28",
       "captured_via": "claude-code (raw text in assets dir; synthesis written 2026-04-28)",
       "raw_path": "~/r2d2/wiki/raw/assets/gartner/Cool Vendors in AI for B2B Sales Productivity.md",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Three productivity levers map to flywheel's stage 3 (synthetic-buyer pre-flight as machine-seller analog) + stage 5 (sales-rep workflow integration). Gartner's \"machine seller\" framing is direct precedent for buyer-side synthetic-audience design.",
       "relevance_tags": [
         "synthetic-audience-substrate",
         "sales-enablement",
@@ -19956,11 +19790,8 @@
       "doc_id": "G00801146",
       "published": "2025-08-13",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/ensure-ai-sdr-cold-calling-compliance.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Strong substrate for JustCall sales-enablement + AI-SDR product narrative + compliance positioning (10DLC parallel). Flags that regulation, not capability, is the next bottleneck.",
       "relevance_tags": [
         "gtm-best-practice",
         "competitive-positioning"
@@ -19974,11 +19805,8 @@
       "doc_id": "G00842058",
       "published": "2026-04-02",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/hype-cycle-agentic-ai-2026.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Directly informs the AI-native positioning + flywheel pitch. The \"agent-washing\" frame is a defensive mirror for honest claims; the five innovation-area taxonomy is a vocabulary for substrate descriptions. Adoption stat (17% deployed, 42% next-12mo) is citable for \"why now\".",
       "relevance_tags": [
         "ai-native-substrate",
         "competitive-positioning"
@@ -19992,11 +19820,8 @@
       "doc_id": "G00826264",
       "published": "2025-05-16",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/increase-sales-productivity-seller-action-hub.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "\"Systems of action\" frame is highly relevant to JustCall's sales-engagement positioning + AI Coach narrative. The seller-stack overload problem is what JustCall solves at the calling layer.",
       "relevance_tags": [
         "competitive-positioning",
         "gtm-best-practice"
@@ -20010,11 +19835,8 @@
       "doc_id": "G00824001",
       "published": "2025-01-16",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/innovate-business-models-using-ai-agents.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "The 33%-by-2028 enterprise-software-with-agents prediction + 20%-machine-customer-storefront-interaction stat are citable forward-curve numbers for the flywheel pitch.",
       "relevance_tags": [
         "ai-native-substrate"
       ]
@@ -20027,11 +19849,8 @@
       "doc_id": "G00832921",
       "published": "2025-06-19",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/innovation-insight-rethinking-battle-cards-ai.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct input to Reshma's competitive battlecard work + the \"static-doc-to-dynamic-tool\" thesis the flywheel embodies. Three AI-driven approaches map cleanly to commons + AI Coach surfaces.",
       "relevance_tags": [
         "competitive-positioning",
         "gtm-best-practice"
@@ -20045,11 +19864,8 @@
       "doc_id": "G00828648",
       "published": "2026-02-27",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/llms-are-the-new-os.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Single sharpest framing in the batch for the AI-native pitch. \"LLM = OS, agents = apps, MCP registries = app stores, SaaS = backend infra\" is the forecasted endgame the flywheel positions JustCall against.",
       "relevance_tags": [
         "ai-native-substrate",
         "competitive-positioning"
@@ -20063,11 +19879,8 @@
       "doc_id": "G00823537",
       "published": "2025-07-07",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/market-guide-b2b-message-testing.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct fit for the synthetic-audience-substrate vision. Validates the category — buyers want to test messaging before activation. The flywheel can be framed as the in-house version of these solutions.",
       "relevance_tags": [
         "synthetic-audience-substrate",
         "competitive-positioning",
@@ -20082,11 +19895,8 @@
       "doc_id": "G00808237",
       "published": "2025-04-30",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/market-guide-win-loss-analysis-solutions-2025.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "High-priority synthetic-audience input. 65% of CMOs/PMMs using or planning W/L solutions (+16% in 2 years) signals category maturity. Flywheel can absorb this function via substrate + commons.",
       "relevance_tags": [
         "synthetic-audience-substrate",
         "competitive-positioning"
@@ -20100,11 +19910,8 @@
       "doc_id": "G00785095",
       "published": "2024-10-10",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/tech-ceos-maximize-b2b-sales-marketing-automation.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Validates \"data strategy precedes tool strategy\" — same thesis as the flywheel. Lead-workflow-as-heart frame matches Demand Gen partnership memo.",
       "relevance_tags": [
         "gtm-best-practice"
       ]
@@ -20117,11 +19924,8 @@
       "doc_id": "G00831997",
       "published": "2025-08-13",
       "captured": "2026-04-28",
-      "captured_via": "claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)",
-      "pdf_path": "~/r2d2/wiki/raw/assets/gartner/top-trend-2026-voice-ai-cx.pdf",
-      "domain": "justcall",
+      "domain": "gtm",
       "attribution": "verified",
-      "relevance_to_flywheel": "Direct relevance to JustCall AI Voice Agent + IVR replacement positioning. The 75%-by-2028 multimodal-CAI prediction is a citable forward number.",
       "relevance_tags": [
         "ai-native-substrate",
         "competitive-positioning"

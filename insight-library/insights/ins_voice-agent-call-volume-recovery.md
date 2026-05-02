@@ -1,5 +1,5 @@
 ---
-id: ins_client-greeking-travel-agency-athens
+id: ins_voice-agent-call-volume-recovery
 operator: Kubi Rich
 operator_role: 'AI Ops at AI Operator | I Build Automations That Do the Work So You Don’t Have To | Mechatronics Engineer + Computer Science'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7444995315822346240/
@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Our client Greeking.me is a travel agency in Athens, Greece. They get 350-400 leads per
+# A first AI voice agent shipped solo for a real customer
 ## Claim
 I just built my first AI voice agent for a paying client. No one taught me how. No one held my hand through it. I learned every tool from scratch, did all the research myself, and shipped it live.
 

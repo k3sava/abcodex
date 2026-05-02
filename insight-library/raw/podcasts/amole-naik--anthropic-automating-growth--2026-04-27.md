@@ -8,11 +8,10 @@ publication: Lenny's Podcast
 published: 2026-04-27
 captured: 2026-04-28
 captured_via: yt-dlp auto-subtitles
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
 related: [concepts/principal-marketer-flywheel.md, concepts/ai-native.md, projects/flywheel.md, raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md, raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md]
 transcript_file: k-H4nsOTuxU.transcript.txt
-relevance_to_flywheel: This is the closest episode to the flywheel pitch. CASH (Claude Accelerates Sustainable Hypergrowth) is the literal blueprint — automate growth experimentation across 4 stages with human-in-loop on stakeholder alignment + brand. Almost everything Kesava is building maps to a piece of Amole's stack.
 ---
 
 # Amole Naik — Anthropic is automating its own growth

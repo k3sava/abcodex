@@ -8,7 +8,7 @@ publication: Lenny's Podcast
 published: 2026-04-27
 captured: 2026-04-28
 captured_via: yt-dlp auto-subtitles
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
 related: [concepts/principal-marketer-flywheel.md, concepts/ai-native.md, projects/flywheel.md, raw/articles/botros-2020-principal-engineer.md]
 transcript_file: PplmzlgE0kg.transcript.txt

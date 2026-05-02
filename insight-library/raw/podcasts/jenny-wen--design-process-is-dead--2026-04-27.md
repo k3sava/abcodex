@@ -8,11 +8,10 @@ publication: Lenny's Podcast
 published: 2026-04-27
 captured: 2026-04-28
 captured_via: yt-dlp auto-subtitles
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
 related: [concepts/principal-marketer-flywheel.md, concepts/ai-native.md, projects/flywheel.md, raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md]
 transcript_file: eh8bcBIAAFo.transcript.txt
-relevance_to_flywheel: Design's mock-and-prototype phase shrank from 60-70% to 30-40% of the role; the rest is jamming with engineers, polishing in code, and pointing to vision. Direct mirror of where PMM is heading.
 ---
 
 # Jenny Wen — The design process is dead

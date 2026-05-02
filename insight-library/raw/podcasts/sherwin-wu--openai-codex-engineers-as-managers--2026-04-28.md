@@ -6,9 +6,8 @@ guest: Sherwin Wu (Head of Engineering, OpenAI API and Developer Platform)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Direct engineering analog of the flywheel thesis — ICs become "tech leads of agent fleets"; context engineering > prompt tweaking; build for the next model not today's; one-person-billion-dollar startup creates B2B SaaS golden age.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Sherwin Wu_V2.txt
 ---

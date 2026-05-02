@@ -8,11 +8,10 @@ publication: Lenny's Podcast
 published: 2026-04-27
 captured: 2026-04-28
 captured_via: yt-dlp auto-subtitles
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
 related: [concepts/principal-marketer-flywheel.md, concepts/operator-voice.md, projects/flywheel.md, raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md]
 transcript_file: QaDsk4iH1aw.transcript.txt
-relevance_to_flywheel: PMM operator voice from someone who was solo-marketer at Stripe for 3 years and first marketer at OpenAI. The DATE diagnostic framework is a direct competitor/replacement for playbook-thinking — and her chamoeleon-CMO + comb-shape framing maps to flywheel's hiring needs.
 ---
 
 # Krithika Shankarraman — Growth tactics from OpenAI and Stripe's first marketer

@@ -6,9 +6,8 @@ guest: Qasar Younis (CEO and co-founder, Applied Intuition; ex-COO at YC)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Build-quietly counter-narrative to "build in public"; nuance over polarization; AI-native mindset for industries with chronic labor shortages; framing as "intelligence put into things that already exist."
 relevance_tier: MEDIUM
 transcript_file: lenny-dropbox/Qasar Younis.txt
 ---

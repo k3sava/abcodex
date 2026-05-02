@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00823537
 published: 2025-07-07
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/market-guide-b2b-message-testing.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Direct fit for the synthetic-audience-substrate vision. Validates the category — buyers want to test messaging before activation. The flywheel can be framed as the in-house version of these solutions.
 relevance_tags: [synthetic-audience-substrate, competitive-positioning, gtm-best-practice]
 ---
 

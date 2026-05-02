@@ -8,11 +8,10 @@ publication: Lenny's Podcast
 published: 2026-04-05
 captured: 2026-04-28
 captured_via: Dropbox transcript bundle
-domain: justcall
+domain: gtm
 attribution: verified
 related: [raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md, raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md, raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md, concepts/ai-native.md, projects/flywheel.md]
 transcript_file: lenny-dropbox/Amol Avasare.txt
-relevance_to_flywheel: HIGH. Different person from Amole Naik — same Anthropic growth org, deeper on operating model. Confirms CASH (Claude Accelerates Sustainable Hypergrowth) is the canonical reference for substrate-led growth experimentation. Adds the "squeezed PM" thesis (engineering 2-3x'd by Claude Code, PM/design now bottleneck) and the four-stage automation loop (identify → build → test → analyze; cross-functional alignment is the holdout).
 ---
 
 # Amol Avasare — Anthropic growth, CASH, and the squeezed PM

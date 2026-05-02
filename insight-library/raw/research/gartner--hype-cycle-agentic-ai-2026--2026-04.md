@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00842058
 published: 2026-04-02
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/hype-cycle-agentic-ai-2026.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Directly informs the AI-native positioning + flywheel pitch. The "agent-washing" frame is a defensive mirror for honest claims; the five innovation-area taxonomy is a vocabulary for substrate descriptions. Adoption stat (17% deployed, 42% next-12mo) is citable for "why now".
 relevance_tags: [ai-native-substrate, competitive-positioning]
 ---
 

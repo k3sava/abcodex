@@ -6,9 +6,8 @@ guest: Claire Hughes Johnson (ex-COO Stripe, ex-VP Google self-driving / global 
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Direct external precedent for the operating-cadence layer of the flywheel substrate. CHJ's house metaphor (foundation / supporting beams / mechanicals), the operating-principles framework, and the "force for positive momentum" decision rule are all literal templates for the AI-native marketing team operating model the flywheel pitches.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Claire Hughes Johnson.txt
 ---

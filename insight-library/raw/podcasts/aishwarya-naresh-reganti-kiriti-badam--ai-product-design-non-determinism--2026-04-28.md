@@ -6,9 +6,8 @@ guests: Aishwarya Naresh Reganti, Kiriti Badam
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: AI product non-determinism + agency/control trade-offs + continuous calibration continuous development (CCCD) framework + evals vs production monitoring + behavioral flywheel loops
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Aishwarya Naresh Reganti + Kiriti Badam.txt
 ---

@@ -6,9 +6,8 @@ guest: Bangaly Kaba
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Understand before identify-execute; environment + skills = impact potential; adjacent user is the growth lever; taste is learned
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Bangaly Kaba.txt
 ---

@@ -6,9 +6,8 @@ guest: Jeetu Patel (Chief Product Officer and President, Cisco; ex-Box, ex-Docum
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Large-org AI transformation playbook (90K employees); permission-to-play strategy filter; treat AI as a teammate not a tool; criticize-in-public norm for high-trust teams.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Jeetu Patel.txt
 ---

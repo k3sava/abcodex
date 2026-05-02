@@ -6,9 +6,8 @@ guest: Jessica Fain (VP Product at Webflow; ex-Brightwheel, ex-Slack chief of st
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Tactical playbook for upward influence — stakeholder discovery, incentive alignment, kill-things-to-build-trust, shrink-the-change, agents-as-junior-colleagues. Direct read for flywheel pitches to Deepan/CFO and for substrate teammate onboarding.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Jessica Fain.txt
 ---

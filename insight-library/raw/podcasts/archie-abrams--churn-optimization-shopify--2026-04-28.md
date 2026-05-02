@@ -3,7 +3,7 @@ title: archie abrams - churn optimization & long-term holdout experiments
 type: raw
 source: lenny-dropbox
 guest: Archie Abrams
-domain: justcall
+domain: gtm
 relevance_tier: HIGH
 captured: 2026-04-28
 ---

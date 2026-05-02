@@ -6,9 +6,8 @@ guest: Claire Vo (host of How I AI; 3x CPO; founder, ChatPRD)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Multi-agent specialization (one agent per role, not one for everything); manager skillset is the unlock; tunable plain-language onboarding; treat agents like employees with progressive trust.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Claire Vo OpenClaw.txt
 ---

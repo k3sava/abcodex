@@ -8,11 +8,10 @@ publication: Lenny's Podcast
 published: 2026-04-02
 captured: 2026-04-28
 captured_via: Dropbox transcript bundle
-domain: justcall
+domain: gtm
 attribution: verified
 related: [raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md, raw/podcasts/lenny/2026-04-05-amol-avasare-anthropic-growth-cash.md, raw/podcasts/lenny/2026-04-28-jenny-wen-design-process-is-dead.md, concepts/ai-native.md, projects/flywheel.md]
 transcript_file: lenny-dropbox/Simon Willison.txt
-relevance_to_flywheel: HIGH. Simon names the November 2025 inflection point (GPT 5.1 + Opus 4.5 crossed "almost always works" threshold) and provides the cleanest articulation of the agentic engineering pattern stack — dark factory testing, hoarding patterns, Red/Green TDD, template starts. Also: explicit prediction that the bottleneck has migrated from coding to everywhere else, and the "Challenger disaster" warning on responsible deployment.
 ---
 
 # Simon Willison — Agentic engineering and the November inflection

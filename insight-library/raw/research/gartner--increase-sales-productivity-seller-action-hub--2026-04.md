@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00826264
 published: 2025-05-16
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/increase-sales-productivity-seller-action-hub.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: "Systems of action" frame is highly relevant to JustCall's sales-engagement positioning + AI Coach narrative. The seller-stack overload problem is what JustCall solves at the calling layer.
 relevance_tags: [competitive-positioning, gtm-best-practice]
 ---
 

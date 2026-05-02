@@ -6,9 +6,8 @@ guest: Andy Raskin
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Positioning framework, narrative structure, go-to-market messaging, CEO alignment, sales-marketing-product coherence.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Andy Raskin.txt
 ---

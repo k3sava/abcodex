@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00831997
 published: 2025-08-13
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/top-trend-2026-voice-ai-cx.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Direct relevance to JustCall AI Voice Agent + IVR replacement positioning. The 75%-by-2028 multimodal-CAI prediction is a citable forward number.
 relevance_tags: [ai-native-substrate, competitive-positioning]
 ---
 

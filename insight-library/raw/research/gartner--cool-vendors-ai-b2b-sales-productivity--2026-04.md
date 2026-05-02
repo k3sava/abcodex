@@ -8,9 +8,8 @@ authors: Dan Gottlieb, Sandhya Mahadevan + 2 more
 captured: 2026-04-28
 captured_via: claude-code (raw text in assets dir; synthesis written 2026-04-28)
 raw_path: ~/r2d2/wiki/raw/assets/gartner/Cool Vendors in AI for B2B Sales Productivity.md
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Three productivity levers map to flywheel's stage 3 (synthetic-buyer pre-flight as machine-seller analog) + stage 5 (sales-rep workflow integration). Gartner's "machine seller" framing is direct precedent for buyer-side synthetic-audience design.
 relevance_tags: [synthetic-audience-substrate, sales-enablement, ai-native-team-substrate, gtm-best-practice]
 ---
 

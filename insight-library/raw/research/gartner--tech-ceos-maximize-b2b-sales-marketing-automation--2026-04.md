@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00785095
 published: 2024-10-10
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/tech-ceos-maximize-b2b-sales-marketing-automation.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Validates "data strategy precedes tool strategy" — same thesis as the flywheel. Lead-workflow-as-heart frame matches Demand Gen partnership memo.
 relevance_tags: [gtm-best-practice]
 ---
 

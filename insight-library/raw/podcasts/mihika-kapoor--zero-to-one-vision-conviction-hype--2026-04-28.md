@@ -6,9 +6,8 @@ guest: Mihika Kapoor (design-engineering-PM hybrid at Figma; FigJam early PM; sp
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Mihika's playbook for shipping zero-to-one inside a big company maps directly onto the flywheel build inside JustCall. Scope-is-the-world ownership, vision-as-pain+solution+proof, A-minus-idea conviction, and internal hype mechanics are the operating tactics Kesava is already using and needs to formalize for the team.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Mihika Kapoor.txt
 ---

@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00832921
 published: 2025-06-19
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/innovation-insight-rethinking-battle-cards-ai.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Direct input to Reshma's competitive battlecard work + the "static-doc-to-dynamic-tool" thesis the flywheel embodies. Three AI-driven approaches map cleanly to commons + AI Coach surfaces.
 relevance_tags: [competitive-positioning, gtm-best-practice]
 ---
 

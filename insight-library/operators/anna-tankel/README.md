@@ -20,7 +20,7 @@ Fractional B2B Head of Growth based in the UK. Specialises in early-stage SaaS g
 - ICP definition, GTM strategy, and product-launch planning
 
 ## Cards
-- `ins_here-five-things-never-get-kesava` — CEO/CMO/CRO/PMM disagreement on TAM, deals, story, and lane discipline [Tier B]
+- `ins_five-disagreements-cmo-cro-pmm` — CEO/CMO/CRO/PMM disagreement on TAM, deals, story, and lane discipline [Tier B]
 
 ## Sources captured
 - 2026-05-02 — LinkedIn reactions ingest Pass B3 (`raw/linkedin/reactions/linkedin-reactions-2026-04-10.md`)

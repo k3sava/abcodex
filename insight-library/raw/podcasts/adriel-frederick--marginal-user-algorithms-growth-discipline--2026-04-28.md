@@ -6,9 +6,8 @@ guest: Adriel Frederick
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Marginal user methodology + human judgment in algorithmic systems + growth experiment portfolio discipline
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Adriel Frederick.txt
 ---

@@ -6,9 +6,8 @@ guest: Brian Halligan (co-founder and longtime CEO, HubSpot; in-house CEO coach 
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Operator-grade hiring rubric (LOCK + Student); homegrown vs Big-Tech-import bias; distribution as the new moat thesis (echoes Spiegel/Fain); peer-room learning model that maps onto commons rooms.
 relevance_tier: MEDIUM
 transcript_file: lenny-dropbox/Brian Halligan.txt
 ---

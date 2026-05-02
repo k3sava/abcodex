@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00808124
 published: 2024-06-24
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/3-pillars-ramp-up-user-adoption.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Adoption playbook frames the JustCall onboarding-friction-trough work — "why" change statements + value-critical actions + real-time training map cleanly to in-app activation flows the flywheel can support.
 relevance_tags: [gtm-best-practice]
 ---
 

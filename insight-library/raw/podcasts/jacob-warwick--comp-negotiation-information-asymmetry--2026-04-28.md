@@ -8,7 +8,6 @@ captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
 domain: personal
 attribution: verified
-relevance_to_flywheel: Direct read for Kesava's 12-week exit ramp comp tactics; also a positioning playbook (consultative discovery, sell the vacation, plant champions) that maps cleanly to clearPMM enterprise sales motion and to flywheel pitch structure.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Jacob Warwick.txt
 ---

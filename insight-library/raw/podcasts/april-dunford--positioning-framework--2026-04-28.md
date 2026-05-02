@@ -3,7 +3,7 @@ title: april dunford - positioning authority, 200+ companies
 type: raw
 source: lenny-dropbox
 guest: April Dunford
-domain: justcall
+domain: gtm
 relevance_tier: HIGH
 captured: 2026-04-28
 ---

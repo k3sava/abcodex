@@ -6,9 +6,8 @@ guest: Benjamin Lauzier (VP Product, Lyft + Thumbtack)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 mass-v2)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: marketplace-supply-flywheel, growth-engineering-patterns
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Benjamin Lauzier.txt
 ---

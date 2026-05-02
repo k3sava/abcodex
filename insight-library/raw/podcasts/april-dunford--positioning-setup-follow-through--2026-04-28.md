@@ -4,7 +4,7 @@ type: raw
 status: active
 last_updated: 2026-04-28
 related: []
-domain: justcall
+domain: gtm
 attribution: direct
 ---
 

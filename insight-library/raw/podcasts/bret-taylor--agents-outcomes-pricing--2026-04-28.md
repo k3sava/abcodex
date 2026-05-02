@@ -6,9 +6,8 @@ guest: Bret Taylor (ex-CTO Meta, ex-co-CEO Salesforce, Chair OpenAI)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 mass-v2)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: agent-market-structure, pricing-model-shift
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Bret Taylor.txt
 ---

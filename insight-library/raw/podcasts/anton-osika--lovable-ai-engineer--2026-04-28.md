@@ -6,9 +6,8 @@ guest: Anton Osika
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: AI-native product teams obsess over UX/taste over engineering; scaling via generalists + shared office lunches; prioritize bottleneck identification, not roadmap theater
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Anton Osika.txt
 ---

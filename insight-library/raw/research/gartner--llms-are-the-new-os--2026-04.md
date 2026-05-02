@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00828648
 published: 2026-02-27
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/llms-are-the-new-os.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Single sharpest framing in the batch for the AI-native pitch. "LLM = OS, agents = apps, MCP registries = app stores, SaaS = backend infra" is the forecasted endgame the flywheel positions JustCall against.
 relevance_tags: [ai-native-substrate, competitive-positioning]
 ---
 

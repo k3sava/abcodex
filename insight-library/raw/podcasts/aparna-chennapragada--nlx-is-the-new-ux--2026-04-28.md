@@ -6,9 +6,8 @@ guest: Aparna Chennapragada
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Natural language interface becomes UX substrate; taste + territorial thinking replaces roadmap theater; "living one year in the future" operationalized via Frontier program
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Aparna Chennapragada.txt
 ---

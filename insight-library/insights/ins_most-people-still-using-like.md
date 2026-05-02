@@ -1,7 +1,7 @@
 ---
 id: ins_most-people-still-using-like
 operator: Alok Yadav
-operator_role: 'Building MCPfy.ai | Leading AI @ SaaS Labs'
+operator_role: 'Building MCPfy.ai; AI engineering leader'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7448342949261729792/
 source_type: thread
 source_title: 'Most people are still using AI like this: ask → answer → forget'

@@ -6,9 +6,8 @@ guest: Evan Spiegel (CEO and co-founder, Snap)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Software-isn't-a-moat thesis; design as bottleneck for cohesion; jobs-to-be-done as the spine for agentizing whole workflows; flat innovation team coupled to large operational org.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Evan Spiegel.txt
 ---

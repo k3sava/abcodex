@@ -6,9 +6,8 @@ guest: Dr. Becky Kennedy (clinical psychologist; founder, Good Inside)
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Operating-norm playbook for high-trust teams under pressure — separate behavior from identity, repair as primary relationship strategy, most generous interpretation, sturdy leadership. Direct read for managing the JustCall PMM team during the substrate transition and the exit window.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Dr. Becky Kennedy.txt
 ---

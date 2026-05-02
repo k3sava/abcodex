@@ -6,9 +6,8 @@ guest: Brian Balfour
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 mass batch)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Distribution strategy, platform cycles, escape velocity, startup timing
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Brian Balfour.txt
 ---

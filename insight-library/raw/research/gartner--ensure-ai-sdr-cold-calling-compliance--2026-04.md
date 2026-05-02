@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00801146
 published: 2025-08-13
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/ensure-ai-sdr-cold-calling-compliance.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Strong substrate for JustCall sales-enablement + AI-SDR product narrative + compliance positioning (10DLC parallel). Flags that regulation, not capability, is the next bottleneck.
 relevance_tags: [gtm-best-practice, competitive-positioning]
 ---
 

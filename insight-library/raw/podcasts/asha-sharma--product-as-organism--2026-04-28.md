@@ -6,9 +6,8 @@ guest: Asha Sharma
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Post-training is new moat; product metabolism = data ingest + reward model + outcome tuning; org chart becomes work chart; all software will be model-forward
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Asha Sharma.txt
 ---

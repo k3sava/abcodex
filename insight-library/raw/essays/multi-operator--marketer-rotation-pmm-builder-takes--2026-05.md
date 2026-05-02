@@ -1,7 +1,7 @@
 ---
 title: Expert takes on marketer rotation, PMM-as-builder, and Super IC cross-functional fluency
 type: raw
-domain: justcall
+domain: gtm
 last_updated: 2026-05-01
 ingested: 2026-05-01
 ingested_via: claude-code (web search + recall, k3sava harness)

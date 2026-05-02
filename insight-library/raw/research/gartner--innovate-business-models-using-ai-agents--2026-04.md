@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00824001
 published: 2025-01-16
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/innovate-business-models-using-ai-agents.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: The 33%-by-2028 enterprise-software-with-agents prediction + 20%-machine-customer-storefront-interaction stat are citable forward-curve numbers for the flywheel pitch.
 relevance_tags: [ai-native-substrate]
 ---
 

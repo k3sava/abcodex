@@ -5,11 +5,8 @@ source: Gartner
 doc_id: G00808237
 published: 2025-04-30
 captured: 2026-04-28
-captured_via: claude-code (PDF in ~/Downloads, moved to wiki/raw/assets/gartner/)
-pdf_path: ~/r2d2/wiki/raw/assets/gartner/market-guide-win-loss-analysis-solutions-2025.pdf
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: High-priority synthetic-audience input. 65% of CMOs/PMMs using or planning W/L solutions (+16% in 2 years) signals category maturity. Flywheel can absorb this function via substrate + commons.
 relevance_tags: [synthetic-audience-substrate, competitive-positioning]
 ---
 

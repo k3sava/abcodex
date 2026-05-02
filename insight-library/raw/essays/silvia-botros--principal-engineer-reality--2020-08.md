@@ -6,8 +6,7 @@ author: Silvia Botros
 publication: LeadDev.com
 published: 2020-08-10
 ingested: 2026-04-28
-ingested_via: claude-code (full text from Slack-shared link by Bharat Goyal in JustCall #engineering)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
 related: [concepts/principal-marketer-flywheel.md, projects/flywheel.md, people/bharat-goyal.md]
 ---

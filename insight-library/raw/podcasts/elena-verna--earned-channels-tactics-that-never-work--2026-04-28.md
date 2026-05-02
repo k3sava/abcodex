@@ -6,9 +6,8 @@ guest: Elena Verna (head of growth at Dropbox / Miro / Amplitude / SurveyMonkey;
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (sonnet batch)
-domain: justcall|personal
+domain: gtm|personal
 attribution: verified
-relevance_to_flywheel: Direct PMM/growth read for JustCall flywheel and clearPMM offer. Elena's earned-channel thesis maps to the substrate-as-leverage frame; her experimentation-paralysis warning maps to "every initiative an experiment" failure mode in Q1 reorg; her optionality vs. titles thesis aligns with Kesava's exit ramp and 4-tier clearPMM structure.
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Elena Verna 3.0.txt
 ---

@@ -6,9 +6,8 @@ guest: Annie Duke
 host: Lenny Rachitsky
 captured: 2026-04-28
 captured_via: claude-code (haiku-4-5 batch)
-domain: justcall
+domain: gtm
 attribution: verified
-relevance_to_flywheel: Decision quality, pre-mortems, shortening feedback loops, mental time travel, leadership communication (nevertheless).
 relevance_tier: HIGH
 transcript_file: lenny-dropbox/Annie Duke.txt
 ---
