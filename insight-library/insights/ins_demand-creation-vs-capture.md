@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/chris-walker.md
+raw_ref: raw/expert-content/experts/chris-walker.md
 ---
 
 # Stop optimizing for the 5% in-market; build preference with the 95% who aren't
@@ -39,7 +39,7 @@ Fails when:
 
 > "Across a cohort of 20 B2B SaaS clients, Refine Labs achieved a median 76% increase in HIRO Pipeline."
 
-— Chris Walker (Artemis expert synthesis)
+— Chris Walker (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard separates Declared Intent from Low Intent pipeline sources.

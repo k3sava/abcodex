@@ -30,6 +30,6 @@ Nik Sharma's philosophy for DTC growth marketing is captured in three words: do 
 
 
 ## Sources captured
-- 2026-04 — `how-to-scale-a-brand-to-5m-in-revenue-nik-sharmas-newsletter-sharma-brands.md` (artemis ingest)
-- 2026-04 — `the-marketing-playbook-from-the-dtc-guy-nik-sharma-shopify.md` (artemis ingest)
-- 2026-04 — `mastering-brand-growth-insights-from-nik-sharma-ceo-of-sharma-brands-on-the-powe.md` (artemis ingest)
+- 2026-04 — `how-to-scale-a-brand-to-5m-in-revenue-nik-sharmas-newsletter-sharma-brands.md` (operator essay archive)
+- 2026-04 — `the-marketing-playbook-from-the-dtc-guy-nik-sharma-shopify.md` (operator essay archive)
+- 2026-04 — `mastering-brand-growth-insights-from-nik-sharma-ceo-of-sharma-brands-on-the-powe.md` (operator essay archive)

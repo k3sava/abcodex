@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/leah-tharin.md
+raw_ref: raw/expert-content/experts/leah-tharin.md
 ---
 
 # The number one enemy of innovation is efficiency — AI is collapsing the moats specialization built
@@ -39,7 +39,7 @@ Fails when:
 
 > "AI simultaneously makes it cheaper to build comparable software, makes acquisition channels less differentiating, and forces budget reallocation from sales and marketing into product."
 
-— Leah Tharin (Artemis expert synthesis)
+— Leah Tharin (synthesized from operator's published work)
 
 ## Signals
 - Org chart shows marketers and sellers embedded in product teams, not in separate functions.

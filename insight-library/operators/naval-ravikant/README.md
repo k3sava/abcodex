@@ -29,9 +29,9 @@ Naval Ravikant's intellectual contribution is a unified framework for individual
 
 
 ## Sources captured
-- 2026-04 — `arm-yourself-with-specific-knowledge.md` (artemis ingest)
-- 2026-04 — `seek-wealth-not-money-or-status.md` (artemis ingest)
-- 2026-04 — `how-to-get-rich.md` (artemis ingest)
-- 2026-04 — `find-a-position-of-leverage-almanack-of-naval-ravikant.md` (artemis ingest)
-- 2026-04 — `judgment-is-the-decisive-skill.md` (artemis ingest)
-- 2026-04 — `product-and-media-are-new-leverage.md` (artemis ingest)
+- 2026-04 — `arm-yourself-with-specific-knowledge.md` (operator essay archive)
+- 2026-04 — `seek-wealth-not-money-or-status.md` (operator essay archive)
+- 2026-04 — `how-to-get-rich.md` (operator essay archive)
+- 2026-04 — `find-a-position-of-leverage-almanack-of-naval-ravikant.md` (operator essay archive)
+- 2026-04 — `judgment-is-the-decisive-skill.md` (operator essay archive)
+- 2026-04 — `product-and-media-are-new-leverage.md` (operator essay archive)

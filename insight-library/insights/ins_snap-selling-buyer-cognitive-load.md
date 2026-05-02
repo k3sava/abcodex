@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/jill-konrath.md
+raw_ref: raw/expert-content/experts/jill-konrath.md
 ---
 
 # Buyers are frazzled. The seller's job is cognitive burden reduction, not persuasion.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Decision 1: Allow Access (will I grant this seller my time?), Decision 2: Initiate Change (is the problem bad enough to justify the disruption of changing?), Decision 3: Select Resources."
 
-— Jill Konrath, *SNAP Selling* (Artemis expert synthesis)
+— Jill Konrath, *SNAP Selling* (synthesized from operator's published work)
 
 ## Signals
 - Outreach explicitly designed against the SNAP four principles.

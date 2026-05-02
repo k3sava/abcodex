@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: [ins_seeds-nets-spears-lead-portfolio]
-raw_ref: raw/artemis/articles/aaron-ross--predictable-revenue-15-minute-summary.md
+raw_ref: raw/expert-content/articles/aaron-ross--predictable-revenue-15-minute-summary.md
 ---
 
 # Mixing prospecting and closing in one role is the root cause of unpredictable revenue

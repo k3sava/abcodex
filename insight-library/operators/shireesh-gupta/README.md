@@ -26,4 +26,4 @@ PMM who built an internal stakeholder management system using Claude Code. Pulls
 
 
 ## Sources captured
-- 2026-04 — `stakeholder-management-system-claude-code-shireesh-gupta.md` (artemis ingest)
+- 2026-04 — `stakeholder-management-system-claude-code-shireesh-gupta.md` (operator essay archive)

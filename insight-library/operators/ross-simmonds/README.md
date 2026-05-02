@@ -29,7 +29,7 @@ Ross Simmonds is the most systematic thinker on content distribution in B2B mark
 
 
 ## Sources captured
-- 2026-04 — `why-content-distribution-is-more-important-today-than-ever-before.md` (artemis ingest)
-- 2026-04 — `how-to-create-once-distribute-forever-with-ross-simmonds-buzzstream.md` (artemis ingest)
-- 2026-04 — `the-power-of-distribution-why-you-should-promote-your-content-more-vol-219.md` (artemis ingest)
-- 2026-04 — `smart-content-distribution-strategies-with-ross-simmonds.md` (artemis ingest)
+- 2026-04 — `why-content-distribution-is-more-important-today-than-ever-before.md` (operator essay archive)
+- 2026-04 — `how-to-create-once-distribute-forever-with-ross-simmonds-buzzstream.md` (operator essay archive)
+- 2026-04 — `the-power-of-distribution-why-you-should-promote-your-content-more-vol-219.md` (operator essay archive)
+- 2026-04 — `smart-content-distribution-strategies-with-ross-simmonds.md` (operator essay archive)

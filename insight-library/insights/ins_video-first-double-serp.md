@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/gaetano-dinardi.md
+raw_ref: raw/expert-content/experts/gaetano-dinardi.md
 ---
 
 # Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Both the video and the article rank for the same keyword, effectively taking two of the ten organic positions away from competitors."
 
-— Gaetano DiNardi (Artemis expert synthesis)
+— Gaetano DiNardi (synthesized from operator's published work)
 
 ## Signals
 - Content roadmap has explicit YouTube-first entries with matching blog companions.

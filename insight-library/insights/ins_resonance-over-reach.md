@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/jay-acunzo.md
+raw_ref: raw/expert-content/experts/jay-acunzo.md
 ---
 
 # Resonance with 1,000 in-market readers beats reach to 100,000 strangers
@@ -39,7 +39,7 @@ Fails when:
 
 > "Best practices are averages, and averages describe no one; the details of your own context hold vital clues."
 
-— Jay Acunzo (Artemis expert synthesis)
+— Jay Acunzo (synthesized from operator's published work)
 
 ## Signals
 - Content reports headline depth-of-engagement (saves, comments, replies) above impressions.

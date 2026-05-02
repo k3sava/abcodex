@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/nassim-taleb.md
+raw_ref: raw/expert-content/experts/nassim-taleb.md
 ---
 
 # Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder
@@ -39,7 +39,7 @@ Fails when:
 
 > "How do I build a business/strategy/positioning that benefits from surprises?"
 
-— Nassim Nicholas Taleb, *Antifragile* (Artemis expert synthesis)
+— Nassim Nicholas Taleb, *Antifragile* (synthesized from operator's published work)
 
 ## Signals
 - Capital allocation has explicit barbell structure, not flat-distribution risk.

@@ -30,8 +30,8 @@ Chris Voss is the bridge between high-stakes hostage negotiation and commercial 
 
 
 ## Sources captured
-- 2026-04 — `9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md` (artemis ingest)
-- 2026-04 — `the-power-of-how-am-i-supposed-to-do-that-a-negotiation-perspective.md` (artemis ingest)
-- 2026-04 — `how-to-negotiate-with-difficult-people.md` (artemis ingest)
-- 2026-04 — `fine-tune-your-business-negotiation-skills-in-6-steps.md` (artemis ingest)
-- 2026-04 — `communication-skills-how-to-get-buy-in-starting-with-no.md` (artemis ingest)
+- 2026-04 — `9-field-tested-no-fail-strategies-to-use-in-your-next-negotiation.md` (operator essay archive)
+- 2026-04 — `the-power-of-how-am-i-supposed-to-do-that-a-negotiation-perspective.md` (operator essay archive)
+- 2026-04 — `how-to-negotiate-with-difficult-people.md` (operator essay archive)
+- 2026-04 — `fine-tune-your-business-negotiation-skills-in-6-steps.md` (operator essay archive)
+- 2026-04 — `communication-skills-how-to-get-buy-in-starting-with-no.md` (operator essay archive)

@@ -28,6 +28,6 @@ Lenny Rachitsky's central contribution to AI product thinking is reframing the p
 
 
 ## Sources captured
-- 2026-04 — `make-product-management-fun-again-with-ai-agents.md` (artemis ingest)
-- 2026-04 — `how-ai-is-reshaping-the-product-role-oji-and-ezinne-udezue.md` (artemis ingest)
-- 2026-04 — `the-complete-lenny-rachitsky-playbook-prompts-growth-frameworks-and-strategies-p.md` (artemis ingest)
+- 2026-04 — `make-product-management-fun-again-with-ai-agents.md` (operator essay archive)
+- 2026-04 — `how-ai-is-reshaping-the-product-role-oji-and-ezinne-udezue.md` (operator essay archive)
+- 2026-04 — `the-complete-lenny-rachitsky-playbook-prompts-growth-frameworks-and-strategies-p.md` (operator essay archive)

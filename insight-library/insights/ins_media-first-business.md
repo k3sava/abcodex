@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/matt-gray.md
+raw_ref: raw/expert-content/experts/matt-gray.md
 ---
 
 # Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion
@@ -39,7 +39,7 @@ Fails when:
 
 > "Long-form is easier to repurpose into short-form clips for TikTok, Reels, and Shorts than the reverse."
 
-— Matt Gray (Artemis expert synthesis)
+— Matt Gray (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar leads with long-form weekly cadence; short-form is downstream.

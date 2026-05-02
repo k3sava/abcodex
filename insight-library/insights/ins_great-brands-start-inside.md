@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/denise-lee-yohn.md
+raw_ref: raw/expert-content/experts/denise-lee-yohn.md
 ---
 
 # Great brands start inside — build the culture first, let external messaging emerge from it
@@ -39,7 +39,7 @@ Fails when:
 
 > "If a company's positioning and messaging are misaligned with its internal culture and employee experience, no amount of external marketing will sustain the brand promise."
 
-— Denise Lee Yohn (Artemis expert synthesis)
+— Denise Lee Yohn (synthesized from operator's published work)
 
 ## Signals
 - Brand work begins with leadership-team purpose/values exercises before any external creative.

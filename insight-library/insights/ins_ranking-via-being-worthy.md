@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/tim-soulo.md
+raw_ref: raw/expert-content/experts/tim-soulo.md
 ---
 
 # Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Ranking number one is not about being smarter than competitors through tricks but about being worthy of ranking number one through genuine expertise, credible ideas, and product-focused content."
 
-— Tim Soulo, Ahrefs (Artemis expert synthesis)
+— Tim Soulo, Ahrefs (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar concentrates on product-adjacent topics, not keyword-chasing.

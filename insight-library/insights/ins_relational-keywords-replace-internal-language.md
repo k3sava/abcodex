@@ -4,7 +4,7 @@ operator: Adrienne Barnes
 operator_role: Founder of Best Buyer Persona; B2B SaaS customer research consultant
 source_url: https://bestbuyerpersona.com/
 source_type: research
-source_title: "Adrienne Barnes — Customer Interview Methodology (Artemis expert synthesis)"
+source_title: "Adrienne Barnes — Customer Interview Methodology (synthesized from operator's published work)"
 source_date: 2026-03-03
 captured_date: 2026-05-02
 domain: [pmm, marketing, content]
@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_jtbd-personas-not-demographics]
-raw_ref: raw/artemis/experts/adrienne-barnes.md
+raw_ref: raw/expert-content/experts/adrienne-barnes.md
 ---
 
 # The exact words customers use should replace internal terminology in every piece of copy
@@ -39,7 +39,7 @@ Fails when:
 
 > "Relational keywords (the exact words customers use for your product, which should replace your internal terminology in all copy and SEO)."
 
-— Adrienne Barnes (Artemis expert synthesis)
+— Adrienne Barnes (synthesized from operator's published work)
 
 ## Signals
 - Landing-page H1s and primary CTAs use words traceable to specific customer interviews.

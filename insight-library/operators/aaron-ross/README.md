@@ -30,6 +30,6 @@ Aaron Ross is the architect of the sales specialization model that became the de
 
 
 ## Sources captured
-- 2026-04 — `predictable-revenue-15-minute-summary-aaron-ross.md` (artemis ingest)
-- 2026-04 — `aaron-ross-cold-calling-2-outbound-specialization.md` (artemis ingest)
-- 2026-04 — `aaron-ross-seeds-nets-spears-lead-types.md` (artemis ingest)
+- 2026-04 — `predictable-revenue-15-minute-summary-aaron-ross.md` (operator essay archive)
+- 2026-04 — `aaron-ross-cold-calling-2-outbound-specialization.md` (operator essay archive)
+- 2026-04 — `aaron-ross-seeds-nets-spears-lead-types.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 3, evidence: 3, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/simon-sinek.md
+raw_ref: raw/expert-content/experts/simon-sinek.md
 ---
 
 # People don't buy what you do — they buy why you do it. Start with Why.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The goal is not to do business with everybody who needs what you have. The goal is to do business with people who believe what you believe."
 
-— Simon Sinek (Artemis expert synthesis)
+— Simon Sinek (synthesized from operator's published work)
 
 ## Signals
 - Pitch decks open with the Why slide, not the product slide.

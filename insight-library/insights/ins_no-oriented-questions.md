@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: [ins_calibrated-questions-illusion-of-control]
-raw_ref: raw/artemis/experts/chris-voss.md
+raw_ref: raw/expert-content/experts/chris-voss.md
 ---
 
 # Ask questions that earn a "No" — saying no makes people feel safe; being pushed for yes makes them defensive
@@ -39,7 +39,7 @@ Fails when:
 
 > "No-Oriented Questions: 'Is now a bad time to talk?', 'Have you given up on this project?'"
 
-— Chris Voss (Artemis expert synthesis)
+— Chris Voss (synthesized from operator's published work)
 
 ## Signals
 - Outbound openers are reframed to earn no, not yes.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/dan-ariely.md
+raw_ref: raw/expert-content/experts/dan-ariely.md
 ---
 
 # Add a strictly-worse third tier to make the premium tier look like the obvious choice
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "When offered web-only ($59) and print-plus-web ($125), most chose web-only. But when a print-only option at $125 was added as a decoy (identical price to print-plus-web but strictly worse), 84% chose print-plus-web. The decoy generated approximately 43% more revenue per subscriber."
 
-— Dan Ariely, *Predictably Irrational* (Artemis expert synthesis)
+— Dan Ariely, *Predictably Irrational* (synthesized from operator's published work)
 
 ## Signals
 - Pricing pages are explicitly designed with three tiers, the middle engineered as a decoy.

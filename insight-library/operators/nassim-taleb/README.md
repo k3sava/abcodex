@@ -27,7 +27,7 @@ Nassim Nicholas Taleb's foundational contribution is the concept of antifragilit
 
 
 ## Sources captured
-- 2026-04 — `antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md` (artemis ingest)
-- 2026-04 — `the-barbell-strategy-by-nassim-nicholas-taleb-the-complete-guide-goodrebootcom.md` (artemis ingest)
-- 2026-04 — `antifragile-how-to-live-in-a-world-we-dont-understand-by-nassim-nicholas-taleb.md` (artemis ingest)
-- 2026-04 — `a-definition-of-antifragile-and-its-implications.md` (artemis ingest)
+- 2026-04 — `antifragile-by-nassim-taleb-notes-and-review-nat-eliason.md` (operator essay archive)
+- 2026-04 — `the-barbell-strategy-by-nassim-nicholas-taleb-the-complete-guide-goodrebootcom.md` (operator essay archive)
+- 2026-04 — `antifragile-how-to-live-in-a-world-we-dont-understand-by-nassim-nicholas-taleb.md` (operator essay archive)
+- 2026-04 — `a-definition-of-antifragile-and-its-implications.md` (operator essay archive)

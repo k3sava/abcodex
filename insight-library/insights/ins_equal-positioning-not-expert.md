@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_calibrated-questions-illusion-of-control]
-raw_ref: raw/artemis/experts/josh-braun.md
+raw_ref: raw/expert-content/experts/josh-braun.md
 ---
 
 # The moment you try to convince someone, you activate their resistance — ask, don't tell
@@ -39,7 +39,7 @@ Fails when:
 
 > "What happens to leads that don't get a callback within 5 minutes?"
 
-— Josh Braun (Artemis expert synthesis)
+— Josh Braun (synthesized from operator's published work)
 
 ## Signals
 - Outbound emails contain zero pitch in the first message, only a genuine question.

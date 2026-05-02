@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/david-c-baker.md
+raw_ref: raw/expert-content/experts/david-c-baker.md
 ---
 
 # Close the execution door. Force prospects through the strategy door first.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Positioning is about what you publicly seek, not what you privately accept."
 
-— David C. Baker, *The Business of Expertise* (Artemis expert synthesis)
+— David C. Baker, *The Business of Expertise* (synthesized from operator's published work)
 
 ## Signals
 - Sales process opens with a paid diagnostic offer, not a free proposal.

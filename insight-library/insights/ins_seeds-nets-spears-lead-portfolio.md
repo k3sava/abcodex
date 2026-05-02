@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/articles/aaron-ross--seeds-nets-spears-lead-types.md
+raw_ref: raw/expert-content/articles/aaron-ross--seeds-nets-spears-lead-types.md
 ---
 
 # Treat leads as a three-asset portfolio, not a single funnel

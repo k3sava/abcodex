@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_embedded-entrepreneur]
-raw_ref: raw/artemis/experts/arvid-kahl.md
+raw_ref: raw/expert-content/experts/arvid-kahl.md
 ---
 
 # 10-80-10: human direction, AI execution, human polish
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "You provide the first 10% (strategic direction, problem definition, architectural decisions), AI handles the middle 80% (code generation, data migration, testing, documentation), and you apply the final 10% (quality review, edge case handling, customer-facing polish)."
 
-— Arvid Kahl (Artemis expert synthesis)
+— Arvid Kahl (synthesized from operator's published work)
 
 ## Signals
 - Founder's calendar weighted toward briefing and review, not building.

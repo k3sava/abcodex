@@ -29,4 +29,4 @@ Dave Harland (The Word Man) builds his practice on a single conviction: the bran
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

@@ -27,6 +27,6 @@ Simon Sinek is the most widely recognized advocate for purpose-driven brand and 
 
 
 ## Sources captured
-- 2026-04 — `the-golden-circle-simon-sinek.md` (artemis ingest)
-- 2026-04 — `start-with-why-simon-sineks-golden-circle-theory-explained-upraise.md` (artemis ingest)
-- 2026-04 — `5-guidelines-for-simon-sineks-infinite-mindset-shortform-books.md` (artemis ingest)
+- 2026-04 — `the-golden-circle-simon-sinek.md` (operator essay archive)
+- 2026-04 — `start-with-why-simon-sineks-golden-circle-theory-explained-upraise.md` (operator essay archive)
+- 2026-04 — `5-guidelines-for-simon-sineks-infinite-mindset-shortform-books.md` (operator essay archive)

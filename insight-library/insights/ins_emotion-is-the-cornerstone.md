@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_20-percent-rule-headline]
-raw_ref: raw/artemis/experts/eddie-shleyner.md
+raw_ref: raw/expert-content/experts/eddie-shleyner.md
 ---
 
 # Emotion isn't a layer on top of persuasion — it IS the persuasion mechanism
@@ -39,7 +39,7 @@ Fails when:
 
 > "Most landing pages fail not because the copy is poorly written but because it is trying to persuade people who do not yet feel anything."
 
-— Eddie Shleyner / VeryGoodCopy (Artemis expert synthesis)
+— Eddie Shleyner / VeryGoodCopy (synthesized from operator's published work)
 
 ## Signals
 - Conversion-focused pages have a felt-emotional state articulated in the brief, not just a value prop.

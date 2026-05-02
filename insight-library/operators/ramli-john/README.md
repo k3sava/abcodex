@@ -29,6 +29,6 @@ Ramli John occupies a unique position in the pricing and monetization landscape:
 
 
 ## Sources captured
-- 2026-04 — `the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md` (artemis ingest)
-- 2026-04 — `onboarding-done-right-a-masterclass-with-ramli-john-author-of-product-led-onboar.md` (artemis ingest)
-- 2026-04 — `episode-2-going-beyond-the-aha-product-led-onboarding-with-ramli-john.md` (artemis ingest)
+- 2026-04 — `the-eureka-framework-to-improve-your-product-led-onboarding-experience-productle.md` (operator essay archive)
+- 2026-04 — `onboarding-done-right-a-masterclass-with-ramli-john-author-of-product-led-onboar.md` (operator essay archive)
+- 2026-04 — `episode-2-going-beyond-the-aha-product-led-onboarding-with-ramli-john.md` (operator essay archive)

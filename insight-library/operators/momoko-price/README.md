@@ -28,4 +28,4 @@ Momoko Price occupies the intersection of data-driven optimization and voice-of-
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

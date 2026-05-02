@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/swyx.md
+raw_ref: raw/expert-content/experts/swyx.md
 ---
 
 # We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "We are in the transition from Software 2.0 to Software 3.0, where AI engineers — not traditional software engineers — will build the majority of new applications, and the key discipline is agent engineering."
 
-— Swyx (Shawn Wang) (Artemis expert synthesis)
+— Swyx (Shawn Wang) (synthesized from operator's published work)
 
 ## Signals
 - Engineering org has named "AI Engineer" roles, not just engineers using AI tools.

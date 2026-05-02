@@ -30,9 +30,9 @@ David C. Baker is the leading authority on positioning, reinventing, and selling
 
 
 ## Sources captured
-- 2026-04 — `expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md` (artemis ingest)
-- 2026-04 — `david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md` (artemis ingest)
-- 2026-04 — `the-business-of-expertise-with-david-c-baker-agency-management-institute.md` (artemis ingest)
-- 2026-04 — `insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md` (artemis ingest)
-- 2026-04 — `david-c-baker-expert-agency-agency-profit-podcast.md` (artemis ingest)
-- 2026-04 — `thrive-your-agency-resource-podcast-by-kelly-campbell.md` (artemis ingest)
+- 2026-04 — `expert-positioning-for-creative-agencies-freelancers-w-david-c-baker.md` (operator essay archive)
+- 2026-04 — `david-c-baker-the-business-of-expertise-how-entrepreneurial-firms-agencies-can-g.md` (operator essay archive)
+- 2026-04 — `the-business-of-expertise-with-david-c-baker-agency-management-institute.md` (operator essay archive)
+- 2026-04 — `insights-on-expertise-from-the-business-of-expertise-by-david-c-baker-helios-des.md` (operator essay archive)
+- 2026-04 — `david-c-baker-expert-agency-agency-profit-podcast.md` (operator essay archive)
+- 2026-04 — `thrive-your-agency-resource-podcast-by-kelly-campbell.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/bernard-huang.md
+raw_ref: raw/expert-content/experts/bernard-huang.md
 ---
 
 # Optimize content for semantic comprehensiveness, not keyword density
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Rather than keyword density (a TF-IDF era concept), Huang's approach focuses on topical comprehensiveness: does the content cover the semantic territory that search engines associate with authoritative answers to a query?"
 
-— Bernard Huang / Clearscope (Artemis expert synthesis)
+— Bernard Huang / Clearscope (synthesized from operator's published work)
 
 ## Signals
 - Editorial briefs include a target NLP grade and entity coverage list, not a keyword count.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: B
 related: [ins_specialization-creates-predictability]
-raw_ref: raw/artemis/experts/trish-bertuzzi.md
+raw_ref: raw/expert-content/experts/trish-bertuzzi.md
 ---
 
 # SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The sales development function is a precision operating system with six interdependent elements; optimizing any one without the others produces local improvements but systemic mediocrity."
 
-— Trish Bertuzzi, *The Sales Development Playbook* (Artemis expert synthesis)
+— Trish Bertuzzi, *The Sales Development Playbook* (synthesized from operator's published work)
 
 ## Signals
 - Each of the six elements has a named owner and named KPI.

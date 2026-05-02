@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/chris-voss.md
+raw_ref: raw/expert-content/experts/chris-voss.md
 ---
 
 # "How am I supposed to do that?" — give the other party the illusion of control and they solve your problem for you
@@ -39,7 +39,7 @@ Fails when:
 
 > "No one anywhere is teaching anyone that presenting a logical argument is an emotionally intelligent way to accomplish anything."
 
-— Chris Voss, *Never Split the Difference* (Artemis expert synthesis)
+— Chris Voss, *Never Split the Difference* (synthesized from operator's published work)
 
 ## Signals
 - Sellers can reach for calibrated questions on demand under pressure (drilled, not improvised).

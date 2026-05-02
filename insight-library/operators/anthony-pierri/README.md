@@ -28,4 +28,4 @@ Anthony Pierri's approach to product marketing is distinctively practitioner-foc
 
 ## Sources captured
 - 2026-04 — *7-Step Framework for Writing Killer Homepage Messaging*, EarlyNode interview (`raw/essays/anthony-pierri--7-step-homepage--2026-04.md`)
-- 2026-04 — `the-7-step-framework-for-writing-killer-homepage-messaging-with-anthony-pierri-e.md` (artemis ingest)
+- 2026-04 — `the-7-step-framework-for-writing-killer-homepage-messaging-with-anthony-pierri-e.md` (operator essay archive)

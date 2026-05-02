@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/blair-enns.md
+raw_ref: raw/expert-content/experts/blair-enns.md
 ---
 
 # Anchor with the most expensive option first; price the client, not the service
@@ -39,7 +39,7 @@ Fails when:
 
 > "A logo designed for one company may be worth $10k while the same work for another is worth $100k, because the difference is $90k worth of reassurance that business goals will be met."
 
-— Blair Enns (Artemis expert synthesis)
+— Blair Enns (synthesized from operator's published work)
 
 ## Signals
 - Proposals lead with the highest option, not the recommended one.

@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/jim-hamilton.md
+raw_ref: raw/expert-content/experts/jim-hamilton.md
 ---
 
 # People buy because they believe something new — Story, Lesson, Pivot, CTA
@@ -39,7 +39,7 @@ Fails when:
 
 > "Last March, a 6-person recruiting team in Austin was losing candidates to faster-moving competitors."
 
-— Jim Hamilton, *The Email Storyselling Playbook* (Artemis expert synthesis)
+— Jim Hamilton, *The Email Storyselling Playbook* (synthesized from operator's published work)
 
 ## Signals
 - Marketing emails follow the explicit 4-step structure, not freeform.

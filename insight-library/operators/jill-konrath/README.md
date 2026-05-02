@@ -29,6 +29,6 @@ Jill Konrath is the buyer psychologist of modern sales methodology. Where most s
 
 
 ## Sources captured
-- 2026-04 — `jill-konrath-snap-selling-four-principles.md` (artemis ingest)
-- 2026-04 — `jill-konrath-three-buyer-decisions.md` (artemis ingest)
-- 2026-04 — `jill-konrath-agile-selling-buyers-matrix.md` (artemis ingest)
+- 2026-04 — `jill-konrath-snap-selling-four-principles.md` (operator essay archive)
+- 2026-04 — `jill-konrath-three-buyer-decisions.md` (operator essay archive)
+- 2026-04 — `jill-konrath-agile-selling-buyers-matrix.md` (operator essay archive)

@@ -30,6 +30,6 @@ Greg Isenberg's core framework is ACP (Audience, Community, Product), which inve
 
 
 ## Sources captured
-- 2026-04 — `how-to-become-an-idea-machine-greg-isenberg.md` (artemis ingest)
-- 2026-04 — `find-winning-startup-ideas-from-ai-and-data-greg-isenberg.md` (artemis ingest)
-- 2026-04 — `greg-isenbergs-4-step-framework-to-build-audiences-in-2025.md` (artemis ingest)
+- 2026-04 — `how-to-become-an-idea-machine-greg-isenberg.md` (operator essay archive)
+- 2026-04 — `find-winning-startup-ideas-from-ai-and-data-greg-isenberg.md` (operator essay archive)
+- 2026-04 — `greg-isenbergs-4-step-framework-to-build-audiences-in-2025.md` (operator essay archive)

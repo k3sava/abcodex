@@ -4,7 +4,7 @@ operator: Andy Crestodina
 operator_role: Co-founder & CMO Orbit Media Studios
 source_url: https://www.orbitmedia.com/
 source_type: essay
-source_title: "Andy Crestodina — Evergreen content over editorial cadence (Artemis expert synthesis)"
+source_title: "Andy Crestodina — Evergreen content over editorial cadence (synthesized from operator's published work)"
 source_date: 2026-03-03
 captured_date: 2026-05-02
 domain: [content, marketing]
@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_original-research-as-link-bait]
-raw_ref: raw/artemis/experts/andy-crestodina.md
+raw_ref: raw/expert-content/experts/andy-crestodina.md
 ---
 
 # Reconceive the blog as a structured knowledge base, not a chronological feed
@@ -39,7 +39,7 @@ Fails when:
 
 > "Start by analyzing their active sales pipeline, identifying common questions and objections from the last 20 sales calls, and creating content that directly addresses those patterns."
 
-— Andy Crestodina (Artemis expert synthesis)
+— Andy Crestodina (synthesized from operator's published work)
 
 ## Signals
 - Blog URLs are organized topically, not by month/year archive.

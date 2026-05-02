@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }
 tier: A
 related: [ins_latticework-of-mental-models]
-raw_ref: raw/artemis/experts/charlie-munger.md
+raw_ref: raw/expert-content/experts/charlie-munger.md
 ---
 
 # Invert, always invert: instead of "how do I succeed?" ask "what would guarantee failure?"
@@ -39,7 +39,7 @@ Fails when:
 
 > "Knowing what you don't know is more useful than being brilliant."
 
-— Charlie Munger (Artemis expert synthesis)
+— Charlie Munger (synthesized from operator's published work)
 
 ## Signals
 - Strategy reviews include a written "what would guarantee failure" list.

@@ -27,6 +27,6 @@ Sangram Vajre is the evangelist of account-based go-to-market. His provocative t
 
 
 ## Sources captured
-- 2026-04 — `sangram-vajre-abm-team-framework.md` (artemis ingest)
-- 2026-04 — `sangram-vajre-move-framework-gtm.md` (artemis ingest)
-- 2026-04 — `sangram-vajre-flipmyfunnel-abm-is-b2b.md` (artemis ingest)
+- 2026-04 — `sangram-vajre-abm-team-framework.md` (operator essay archive)
+- 2026-04 — `sangram-vajre-move-framework-gtm.md` (operator essay archive)
+- 2026-04 — `sangram-vajre-flipmyfunnel-abm-is-b2b.md` (operator essay archive)

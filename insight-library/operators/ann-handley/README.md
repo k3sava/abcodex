@@ -31,6 +31,6 @@ Ann Handley's central contribution to content marketing is elevating writing qua
 
 
 ## Sources captured
-- 2026-04 — `chatting-ridiculously-good-content-with-ann-handley.md` (artemis ingest)
-- 2026-04 — `how-ann-handley-grew-her-newsletter-total-annarchy-from-0-42000-subscribers-camp.md` (artemis ingest)
-- 2026-04 — `creator-ann-handley-takes-writing-seriously-with-a-fun-approach.md` (artemis ingest)
+- 2026-04 — `chatting-ridiculously-good-content-with-ann-handley.md` (operator essay archive)
+- 2026-04 — `how-ann-handley-grew-her-newsletter-total-annarchy-from-0-42000-subscribers-camp.md` (operator essay archive)
+- 2026-04 — `creator-ann-handley-takes-writing-seriously-with-a-fun-approach.md` (operator essay archive)

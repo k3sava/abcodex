@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: [ins_value-equation-grand-slam-offer]
-raw_ref: raw/artemis/experts/alex-hormozi.md
+raw_ref: raw/expert-content/experts/alex-hormozi.md
 ---
 
 # Market choice (Starving Crowd) outranks offer strength, which outranks persuasion
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Starving Crowd (market selection) matters more than Offer Strength, which matters more than Persuasion Skills. Most entrepreneurs obsess over the bottom of this hierarchy when the highest-ROI intervention is almost always improving the offer itself or selecting a better market."
 
-— Alex Hormozi, $100M Offers (Artemis expert synthesis)
+— Alex Hormozi, $100M Offers (synthesized from operator's published work)
 
 ## Signals
 - Quarterly review opens with market-fit diagnostics (is this crowd hungry?) before creative tests.

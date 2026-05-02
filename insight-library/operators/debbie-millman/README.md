@@ -30,6 +30,6 @@ Debbie Millman is the most prominent figure at the intersection of design, brand
 
 
 ## Sources captured
-- 2026-04 — `design-discussions-debbie-millman-on-brand-thinking-idsgn-a-design-blog.md` (artemis ingest)
-- 2026-04 — `books-writing-debbie-millman.md` (artemis ingest)
-- 2026-04 — `unlock-creativity-and-purpose-with-debbie-millman-marketing-speak.md` (artemis ingest)
+- 2026-04 — `design-discussions-debbie-millman-on-brand-thinking-idsgn-a-design-blog.md` (operator essay archive)
+- 2026-04 — `books-writing-debbie-millman.md` (operator essay archive)
+- 2026-04 — `unlock-creativity-and-purpose-with-debbie-millman-marketing-speak.md` (operator essay archive)

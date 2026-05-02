@@ -30,6 +30,6 @@ Georgiana Laudi is the architect of Customer-Led Growth (CLG) as a strategic fra
 
 
 ## Sources captured
-- 2026-04 — `what-is-customer-led-growth-and-how-its-different-from-plg-slg-etc.md` (artemis ingest)
-- 2026-04 — `one-knight-in-product-moving-to-customer-led-growth-by-forgetting-the-funnel-wit.md` (artemis ingest)
-- 2026-04 — `georgiana-laudi-claire-suellentrop.md` (artemis ingest)
+- 2026-04 — `what-is-customer-led-growth-and-how-its-different-from-plg-slg-etc.md` (operator essay archive)
+- 2026-04 — `one-knight-in-product-moving-to-customer-led-growth-by-forgetting-the-funnel-wit.md` (operator essay archive)
+- 2026-04 — `georgiana-laudi-claire-suellentrop.md` (operator essay archive)

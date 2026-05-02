@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: [ins_decoy-effect-pricing]
-raw_ref: raw/artemis/experts/dan-ariely.md
+raw_ref: raw/expert-content/experts/dan-ariely.md
 ---
 
 # Every transaction inflicts psychological pain — design payment to decouple it from consumption
@@ -39,7 +39,7 @@ Fails when:
 
 > "The difference between 1 cent and 0 cents is psychologically enormous, not because of the penny but because 'free' triggers a qualitatively different emotional response."
 
-— Dan Ariely (Artemis expert synthesis)
+— Dan Ariely (synthesized from operator's published work)
 
 ## Signals
 - Annual plans are presented as default with monthly as the friction option, not the reverse.

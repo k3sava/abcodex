@@ -30,6 +30,6 @@ Gaetano DiNardi's approach to B2B demand generation is built on a single operati
 
 
 ## Sources captured
-- 2026-04 — `future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md` (artemis ingest)
-- 2026-04 — `how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md` (artemis ingest)
-- 2026-04 — `b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md` (artemis ingest)
+- 2026-04 — `future-search-for-saas-a-new-era-of-growth-and-discovery-gaetano-dinardi.md` (operator essay archive)
+- 2026-04 — `how-gaetano-dinardi-builds-demand-generation-engines-on-maker-mixtapes-grizzle.md` (operator essay archive)
+- 2026-04 — `b2b-marketing-agency-unveils-secrets-to-lead-generation-growth-hacking-and-deman.md` (operator essay archive)

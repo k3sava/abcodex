@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/tiago-forte.md
+raw_ref: raw/expert-content/experts/tiago-forte.md
 ---
 
 # Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Our brains are for having ideas, not storing them — an external, organized knowledge system compounds over time and becomes the foundation for creative output, especially when AI can now search, synthesize, and surface that knowledge on demand."
 
-— Tiago Forte, *Building a Second Brain* (Artemis expert synthesis)
+— Tiago Forte, *Building a Second Brain* (synthesized from operator's published work)
 
 ## Signals
 - Operator has a Second Brain (PARA-organized, or equivalent) actively maintained.

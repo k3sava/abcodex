@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 5, transferability: 3, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/doug-holt.md
+raw_ref: raw/expert-content/experts/doug-holt.md
 ---
 
 # Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths
@@ -39,7 +39,7 @@ Fails when:
 
 > "His strategy repositioned the co-op around John Muir's vision of public land activism, leading to the award-winning #OptOutside campaign and 30%+ growth in membership and revenue."
 
-— Doug Holt, *How Brands Become Icons* / *Cultural Strategy* (Artemis expert synthesis)
+— Doug Holt, *How Brands Become Icons* / *Cultural Strategy* (synthesized from operator's published work)
 
 ## Signals
 - Brand strategy doc names the cultural orthodoxy being challenged and the emerging ideology being championed.

@@ -28,6 +28,6 @@ Packy McCormick's thinking operates at the intersection of technology analysis a
 
 
 ## Sources captured
-- 2026-04 — `everything-is-technology-not-boring-by-packy-mccormick.md` (artemis ingest)
-- 2026-04 — `most-human-wins-not-boring-by-packy-mccormick.md` (artemis ingest)
-- 2026-04 — `openai-grand-strategy-not-boring-by-packy-mccormick.md` (artemis ingest)
+- 2026-04 — `everything-is-technology-not-boring-by-packy-mccormick.md` (operator essay archive)
+- 2026-04 — `most-human-wins-not-boring-by-packy-mccormick.md` (operator essay archive)
+- 2026-04 — `openai-grand-strategy-not-boring-by-packy-mccormick.md` (operator essay archive)

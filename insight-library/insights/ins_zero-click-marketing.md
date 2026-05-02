@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/rand-fishkin.md
+raw_ref: raw/expert-content/experts/rand-fishkin.md
 ---
 
 # 58.5% of US Google searches end without a click — create standalone value where audiences already are
@@ -39,7 +39,7 @@ Fails when:
 
 > "58.5% of US Google searches end without a click."
 
-— Rand Fishkin (Artemis expert synthesis)
+— Rand Fishkin (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks branded-search volume and direct-traffic share, not just sessions.

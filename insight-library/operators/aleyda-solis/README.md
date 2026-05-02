@@ -30,6 +30,6 @@ Aleyda Solis is the most systematic thinker in international SEO, having built h
 
 ## Sources captured
 - 2026-04-23 — *A 3-Layer Framework to Measure AI Presence, Readiness, and Business Impact* (`raw/essays/aleyda-solis--3-layer-aeo-framework--2026-04-23.md`)
-- 2026-04 — `how-to-develop-actionable-and-impactful-seo-audits-the-sp2-principles.md` (artemis ingest)
-- 2026-04 — `an-hreflang-implementation-guide-how-to-add-implement-hreflang-tags.md` (artemis ingest)
-- 2026-04 — `ask-the-expert-aleyda-solis-answers-your-international-seo-questions-lumar.md` (artemis ingest)
+- 2026-04 — `how-to-develop-actionable-and-impactful-seo-audits-the-sp2-principles.md` (operator essay archive)
+- 2026-04 — `an-hreflang-implementation-guide-how-to-add-implement-hreflang-tags.md` (operator essay archive)
+- 2026-04 — `ask-the-expert-aleyda-solis-answers-your-international-seo-questions-lumar.md` (operator essay archive)

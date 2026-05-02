@@ -30,6 +30,6 @@ Alex Hormozi's system of thought is built on a hierarchy of business levers: Sta
 
 
 ## Sources captured
-- 2026-04 — `100m-offers-by-alex-hormozi-summary-greg-faxon.md` (artemis ingest)
-- 2026-04 — `100m-offers-summary-7-steps-to-grand-slam-offers-alex-hormozi.md` (artemis ingest)
-- 2026-04 — `the-hormozi-grand-slam-offer-framework.md` (artemis ingest)
+- 2026-04 — `100m-offers-by-alex-hormozi-summary-greg-faxon.md` (operator essay archive)
+- 2026-04 — `100m-offers-summary-7-steps-to-grand-slam-offers-alex-hormozi.md` (operator essay archive)
+- 2026-04 — `the-hormozi-grand-slam-offer-framework.md` (operator essay archive)

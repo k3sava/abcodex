@@ -29,6 +29,6 @@ Codie Sanchez's system of thought begins with a contrarian observation from her 
 
 
 ## Sources captured
-- 2026-04 — `codie-sanchez-how-to-make-extraordinary-wealth-buying-boring-businesses-e319-yap.md` (artemis ingest)
-- 2026-04 — `how-to-buy-a-boring-business-like-codie-sanchez.md` (artemis ingest)
-- 2026-04 — `codie-sanchez-and-the-magic-of-contrarian-thinking.md` (artemis ingest)
+- 2026-04 — `codie-sanchez-how-to-make-extraordinary-wealth-buying-boring-businesses-e319-yap.md` (operator essay archive)
+- 2026-04 — `how-to-buy-a-boring-business-like-codie-sanchez.md` (operator essay archive)
+- 2026-04 — `codie-sanchez-and-the-magic-of-contrarian-thinking.md` (operator essay archive)

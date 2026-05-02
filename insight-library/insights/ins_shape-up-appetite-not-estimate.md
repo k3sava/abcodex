@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/jason-fried.md
+raw_ref: raw/expert-content/experts/jason-fried.md
 ---
 
 # Don't ask "how long will this take?" — ask "how much time do we want to spend on this?"
@@ -39,7 +39,7 @@ Fails when:
 
 > "There is no backlog — if a pitch does not get picked, it is discarded and must be re-pitched if someone still cares about it in a future cycle."
 
-— Jason Fried & Ryan Singer, *Shape Up* (Artemis expert synthesis)
+— Jason Fried & Ryan Singer, *Shape Up* (synthesized from operator's published work)
 
 ## Signals
 - Roadmap is "next 6 weeks" + "after that we'll bet again", not a year of features.

@@ -31,7 +31,7 @@ Andy Crestodina's content philosophy is built on strategic restraint and analyti
 
 
 ## Sources captured
-- 2026-04 — `revenue-driving-b2b-content-marketing-strategy-with-andy-crestodina.md` (artemis ingest)
-- 2026-04 — `how-content-marketing-is-evolving-with-andy-crestodina-marketing-speak.md` (artemis ingest)
-- 2026-04 — `the-secret-to-thought-leadership-content-with-andy-crestodina-verblio.md` (artemis ingest)
-- 2026-04 — `building-trust-and-traffic-with-ai-andy-crestodina-on-modern-content-marketing.md` (artemis ingest)
+- 2026-04 — `revenue-driving-b2b-content-marketing-strategy-with-andy-crestodina.md` (operator essay archive)
+- 2026-04 — `how-content-marketing-is-evolving-with-andy-crestodina-marketing-speak.md` (operator essay archive)
+- 2026-04 — `the-secret-to-thought-leadership-content-with-andy-crestodina-verblio.md` (operator essay archive)
+- 2026-04 — `building-trust-and-traffic-with-ai-andy-crestodina-on-modern-content-marketing.md` (operator essay archive)

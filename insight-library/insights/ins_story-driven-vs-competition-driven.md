@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: [ins_fortune-cookie-principle]
-raw_ref: raw/artemis/experts/bernadette-jiwa.md
+raw_ref: raw/expert-content/experts/bernadette-jiwa.md
 ---
 
 # Story-driven companies don't compete — they play a different game
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Two types of companies: competition-driven companies (who define themselves in relation to rivals... and make decisions based on what others are doing) and story-driven companies (who define themselves by their purpose, backstory, and values, and make decisions based on internal alignment)."
 
-— Bernadette Jiwa, *Story Driven* (Artemis expert synthesis)
+— Bernadette Jiwa, *Story Driven* (synthesized from operator's published work)
 
 ## Signals
 - Strategic decisions reference internal documents (vision, values) before competitor analysis.

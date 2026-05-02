@@ -28,6 +28,6 @@ Sam Altman's system of thought operates at two levels simultaneously: macro-stra
 
 
 ## Sources captured
-- 2026-04 — `how-to-be-successful-sam-altman.md` (artemis ingest)
-- 2026-04 — `the-gentle-singularity-sam-altman.md` (artemis ingest)
-- 2026-04 — `sam-altman-how-to-win-when-ai-changes-everything-transcript-the-singju-post.md` (artemis ingest)
+- 2026-04 — `how-to-be-successful-sam-altman.md` (operator essay archive)
+- 2026-04 — `the-gentle-singularity-sam-altman.md` (operator essay archive)
+- 2026-04 — `sam-altman-how-to-win-when-ai-changes-everything-transcript-the-singju-post.md` (operator essay archive)

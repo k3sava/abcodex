@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/joel-klettke.md
+raw_ref: raw/expert-content/experts/joel-klettke.md
 ---
 
 # Information in narrative form is 22x more memorable. Integrate the metric into the moment.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Within 30 days of switching, Volopay went from a 3-4% connect rate to 30-40%. Sarah's team stopped dreading Monday morning standups."
 
-— Joel Klettke / Case Study Buddy (Artemis expert synthesis)
+— Joel Klettke / Case Study Buddy (synthesized from operator's published work)
 
 ## Signals
 - Case studies open with the customer's name and pain, not the company's award count.

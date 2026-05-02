@@ -29,5 +29,5 @@ Steph Smith's contribution to content strategy is the application of systems thi
 
 
 ## Sources captured
-- 2026-04 — `doing-content-right-summary-steph-smith-aures-notes.md` (artemis ingest)
-- 2026-04 — `steph-smith-the-curator-of-the-internet-barrett-brooks.md` (artemis ingest)
+- 2026-04 — `doing-content-right-summary-steph-smith-aures-notes.md` (operator essay archive)
+- 2026-04 — `steph-smith-the-curator-of-the-internet-barrett-brooks.md` (operator essay archive)

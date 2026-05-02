@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/marcus-andrews.md
+raw_ref: raw/expert-content/experts/marcus-andrews.md
 ---
 
 # Lead with a narrative (Big Shift → Old Way vs. New Way → Promised Land), not features
@@ -39,7 +39,7 @@ Fails when:
 
 > "If you lead with the product, you are pitching features; if you lead with the narrative, you are creating demand."
 
-— Marcus Andrews (Artemis expert synthesis)
+— Marcus Andrews (synthesized from operator's published work)
 
 ## Signals
 - Marketing materials open with the Big Shift, not the product.

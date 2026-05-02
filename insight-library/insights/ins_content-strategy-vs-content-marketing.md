@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/robert-rose.md
+raw_ref: raw/expert-content/experts/robert-rose.md
 ---
 
 # Content strategy and content marketing are different disciplines — most orgs conflate them and pay for it
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Content strategy and content marketing are fundamentally different disciplines that most organizations conflate; content marketers draw on the wall with magic markers while content strategists use fine pens."
 
-— Robert Rose (Artemis expert synthesis)
+— Robert Rose (synthesized from operator's published work)
 
 ## Signals
 - Org chart names a content strategist (governance) separate from content marketers (production).

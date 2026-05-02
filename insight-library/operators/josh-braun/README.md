@@ -26,4 +26,4 @@ Josh Braun's approach inverts the standard sales copy playbook. Most conversion 
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

@@ -14,7 +14,7 @@ artifact_class: metric-model
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/jason-lemkin.md
+raw_ref: raw/expert-content/experts/jason-lemkin.md
 ---
 
 # 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale.
@@ -39,7 +39,7 @@ Fails when:
 
 > "T2D3: reach $1-2M ARR, then triple to $3-6M, triple again to $9-18M, then double twice to reach $36-72M."
 
-— Jason Lemkin (Artemis expert synthesis)
+— Jason Lemkin (synthesized from operator's published work)
 
 ## Signals
 - Board reporting maps to T2D3 stage with specific YoY growth target.

@@ -27,10 +27,10 @@ Matt Dixon is the most data-driven researcher in modern sales methodology. His w
 
 
 ## Sources captured
-- 2026-04 — `what-is-the-challenger-sales-methodology-challenger.md` (artemis ingest)
-- 2026-04 — `why-are-you-losing-to-customer-indecision-the-jolt-effect.md` (artemis ingest)
-- 2026-04 — `3-challenger-skills-that-boost-sales-rep-productivity-and-motivate-buyers-challe.md` (artemis ingest)
-- 2026-04 — `stop-losing-sales-to-customer-indecision.md` (artemis ingest)
-- 2026-04 — `win-sales-with-challenger-the-jolt-effect-challenger.md` (artemis ingest)
-- 2026-04 — `about-the-book.md` (artemis ingest)
-- 2026-04 — `the-effortless-experience-an-interview-with-matt-dixon-part-1-customers-that-sti.md` (artemis ingest)
+- 2026-04 — `what-is-the-challenger-sales-methodology-challenger.md` (operator essay archive)
+- 2026-04 — `why-are-you-losing-to-customer-indecision-the-jolt-effect.md` (operator essay archive)
+- 2026-04 — `3-challenger-skills-that-boost-sales-rep-productivity-and-motivate-buyers-challe.md` (operator essay archive)
+- 2026-04 — `stop-losing-sales-to-customer-indecision.md` (operator essay archive)
+- 2026-04 — `win-sales-with-challenger-the-jolt-effect-challenger.md` (operator essay archive)
+- 2026-04 — `about-the-book.md` (operator essay archive)
+- 2026-04 — `the-effortless-experience-an-interview-with-matt-dixon-part-1-customers-that-sti.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: [ins_price-before-product, ins_anchor-high-pricing]
-raw_ref: raw/artemis/experts/steven-forth.md
+raw_ref: raw/expert-content/experts/steven-forth.md
 ---
 
 # A pricing model without a value model is adrift — start with Economic Value Estimation
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "A pricing model without a value model is adrift; true value-based pricing begins with Economic Value Estimation that quantifies the economic impact of your solution on the customer's P&L relative to their competitive alternative."
 
-— Steven Forth, Ibbaka (Artemis expert synthesis)
+— Steven Forth, Ibbaka (synthesized from operator's published work)
 
 ## Signals
 - Sales decks include a customer-specific EVE calculation, not a generic ROI claim.

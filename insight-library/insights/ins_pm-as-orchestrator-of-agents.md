@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/lenny-rachitsky.md
+raw_ref: raw/expert-content/experts/lenny-rachitsky.md
 ---
 
 # AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Six behaviors that separate true AI agents from ordinary tools: they can plan multi-step workflows, use external tools, maintain memory across sessions, self-correct on errors, operate autonomously for extended periods, and interact with other agents."
 
-— Lenny Rachitsky (Artemis expert synthesis)
+— Lenny Rachitsky (synthesized from operator's published work)
 
 ## Signals
 - PM role descriptions name "judgment, taste, and orchestration" as primary, not spec authoring.

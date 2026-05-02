@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: [ins_demand-creation-vs-capture]
-raw_ref: raw/artemis/experts/devin-reed.md
+raw_ref: raw/expert-content/experts/devin-reed.md
 ---
 
 # Most content should serve the 95% who aren't buying yet, not the 5% who are
@@ -39,7 +39,7 @@ Fails when:
 
 > "His LinkedIn playbook for Clari's CEO generated 6.1 million views in 12 months."
 
-— Devin Reed (Artemis expert synthesis)
+— Devin Reed (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar splits content explicitly by 95% vs 5% intent.

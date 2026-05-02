@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/matt-dixon.md
+raw_ref: raw/expert-content/experts/matt-dixon.md
 ---
 
 # The biggest source of lost B2B deals is customer indecision, not competitor wins. JOLT them out.
@@ -39,7 +39,7 @@ Fails when:
 
 > "JOLT: Judge, Offer recommendation, Limit exploration, Take risk off table."
 
-— Matt Dixon, *The JOLT Effect* (Artemis expert synthesis)
+— Matt Dixon, *The JOLT Effect* (synthesized from operator's published work)
 
 ## Signals
 - Pipeline reviews include an indecision-level diagnosis (low/medium/high) for stalled deals.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/ramli-john.md
+raw_ref: raw/expert-content/experts/ramli-john.md
 ---
 
 # In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Onboarding is the bridge between acquisition and monetization in product-led growth; if users do not reach the Eureka moment quickly, no pricing model can save you."
 
-— Ramli John, *EUREKA: The Product Onboarding Playbook for B2B Companies* (Artemis expert synthesis)
+— Ramli John, *EUREKA: The Product Onboarding Playbook for B2B Companies* (synthesized from operator's published work)
 
 ## Signals
 - Activation funnel has a named Eureka event, tracked as the headline activation metric.

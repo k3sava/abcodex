@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/sangram-vajre.md
+raw_ref: raw/expert-content/experts/sangram-vajre.md
 ---
 
 # In B2B, the unit of value is the account, not the lead — align everything around it
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "B2B marketing has been running on a B2C model for decades; the unit of value in B2B is the account, not the lead."
 
-— Sangram Vajre, *ABM Is B2B* (Artemis expert synthesis)
+— Sangram Vajre, *ABM Is B2B* (synthesized from operator's published work)
 
 ## Signals
 - Marketing and sales operate from the same named-account list.

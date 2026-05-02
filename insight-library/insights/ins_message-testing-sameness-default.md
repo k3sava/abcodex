@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/peep-laja.md
+raw_ref: raw/expert-content/experts/peep-laja.md
 ---
 
 # In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Sameness is the default in B2B; you cannot win on features alone because competitors will copy them, so the companies that win compete on messaging clarity, differentiation, and brand."
 
-— Peep Laja (Artemis expert synthesis)
+— Peep Laja (synthesized from operator's published work)
 
 ## Signals
 - Messaging changes go through ICP testing before launch.

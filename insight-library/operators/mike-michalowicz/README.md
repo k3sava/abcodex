@@ -28,6 +28,6 @@ Mike Michalowicz's system of thought begins with a behavioral insight borrowed f
 
 
 ## Sources captured
-- 2026-04 — `five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md` (artemis ingest)
-- 2026-04 — `mastering-profit-first-master-your-percentage-allocations-mike-michalowicz.md` (artemis ingest)
-- 2026-04 — `profit-first-mike-michalowicz.md` (artemis ingest)
+- 2026-04 — `five-steps-to-start-implementing-profit-first-in-your-small-business-mike-michal.md` (operator essay archive)
+- 2026-04 — `mastering-profit-first-master-your-percentage-allocations-mike-michalowicz.md` (operator essay archive)
+- 2026-04 — `profit-first-mike-michalowicz.md` (operator essay archive)

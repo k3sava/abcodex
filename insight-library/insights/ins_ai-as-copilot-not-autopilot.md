@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/ben-tossell.md
+raw_ref: raw/expert-content/experts/ben-tossell.md
 ---
 
 # AI is the co-pilot, not the autopilot — automate the 80% you understand, hold the 20% that needs taste
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "AI is the co-pilot, not the autopilot — the path to a profitable AI business is teaching others to use tools effectively, building in public, and structuring your business around what you love doing while automating what you hate."
 
-— Ben Tossell (Artemis expert synthesis)
+— Ben Tossell (synthesized from operator's published work)
 
 ## Signals
 - Founder publicly names which 20% they refuse to delegate.

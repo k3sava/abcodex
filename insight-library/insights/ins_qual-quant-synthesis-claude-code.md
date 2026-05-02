@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/else-van-der-berg.md
+raw_ref: raw/expert-content/experts/else-van-der-berg.md
 ---
 
 # Data shows what; the why lives in qualitative context. Merge them in one AI conversation.

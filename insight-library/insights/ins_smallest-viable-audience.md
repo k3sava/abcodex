@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/seth-godin.md
+raw_ref: raw/expert-content/experts/seth-godin.md
 ---
 
 # The goal isn't to maximize numbers — it's to be missed if you stopped. Find the smallest viable audience.
@@ -41,7 +41,7 @@ Fails when:
 
 > "People like us do things like this."
 
-— Seth Godin (Artemis expert synthesis)
+— Seth Godin (synthesized from operator's published work)
 
 ## Signals
 - Brand can name the smallest viable audience and the named individuals in it.

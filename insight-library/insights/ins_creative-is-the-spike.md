@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: [ins_meta-cost-caps-everywhere]
-raw_ref: raw/artemis/experts/andrew-faris.md
+raw_ref: raw/expert-content/experts/andrew-faris.md
 ---
 
 # Media buying is the setter; creative is the hitter — the score comes from creative
@@ -39,7 +39,7 @@ Fails when:
 
 > "His diagnostic for Stage 1 is whether you have found at least two to three creative concepts that can profitably spend $1K+/day each."
 
-— Andrew Faris (Artemis expert synthesis)
+— Andrew Faris (synthesized from operator's published work)
 
 ## Signals
 - Weekly KPI dashboard tracks net-new creative assets, not just spend and ROAS.

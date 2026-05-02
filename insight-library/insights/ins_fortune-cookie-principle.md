@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/bernadette-jiwa.md
+raw_ref: raw/expert-content/experts/bernadette-jiwa.md
 ---
 
 # Product + Meaning = Brand. Product − Meaning = Commodity.
@@ -39,7 +39,7 @@ Fails when:
 
 > "People don't buy products; they buy the story behind them."
 
-— Bernadette Jiwa, *The Fortune Cookie Principle* (Artemis expert synthesis)
+— Bernadette Jiwa, *The Fortune Cookie Principle* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly inventories the 20 keys (or analog) before any tactical campaign.

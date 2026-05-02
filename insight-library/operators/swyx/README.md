@@ -27,6 +27,6 @@ Swyx's defining contribution is the concept of the "AI Engineer" as a distinct p
 
 
 ## Sources captured
-- 2026-04 — `agent-engineering-latentspace.md` (artemis ingest)
-- 2026-04 — `software-30-and-the-ai-engineer-landscape-talk-notes-slides.md` (artemis ingest)
-- 2026-04 — `cognition-the-devin-is-in-the-details.md` (artemis ingest)
+- 2026-04 — `agent-engineering-latentspace.md` (operator essay archive)
+- 2026-04 — `software-30-and-the-ai-engineer-landscape-talk-notes-slides.md` (operator essay archive)
+- 2026-04 — `cognition-the-devin-is-in-the-details.md` (operator essay archive)

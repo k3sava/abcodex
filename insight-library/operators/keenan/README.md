@@ -29,6 +29,6 @@ Keenan is the most philosophically radical of the modern sales methodologists. W
 
 
 ## Sources captured
-- 2026-04 — `gap-selling-framework-keenan.md` (artemis ingest)
-- 2026-04 — `keenan-gap-selling-nine-truths-problem-identification.md` (artemis ingest)
-- 2026-04 — `keenan-gap-selling-discovery-current-future-state.md` (artemis ingest)
+- 2026-04 — `gap-selling-framework-keenan.md` (operator essay archive)
+- 2026-04 — `keenan-gap-selling-nine-truths-problem-identification.md` (operator essay archive)
+- 2026-04 — `keenan-gap-selling-discovery-current-future-state.md` (operator essay archive)

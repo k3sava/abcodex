@@ -27,7 +27,7 @@ Daniel Kahneman's foundational contribution is the two-system model of cognition
 
 
 ## Sources captured
-- 2026-04 — `daniel-kahneman-explains-the-machinery-of-thought.md` (artemis ingest)
-- 2026-04 — `system-1-and-system-2-thinking-the-decision-lab.md` (artemis ingest)
-- 2026-04 — `daniel-kahneman-the-decision-lab.md` (artemis ingest)
-- 2026-04 — `interview-with-daniel-kahneman.md` (artemis ingest)
+- 2026-04 — `daniel-kahneman-explains-the-machinery-of-thought.md` (operator essay archive)
+- 2026-04 — `system-1-and-system-2-thinking-the-decision-lab.md` (operator essay archive)
+- 2026-04 — `daniel-kahneman-the-decision-lab.md` (operator essay archive)
+- 2026-04 — `interview-with-daniel-kahneman.md` (operator essay archive)

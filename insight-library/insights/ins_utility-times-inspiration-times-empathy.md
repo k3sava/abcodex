@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/ann-handley.md
+raw_ref: raw/expert-content/experts/ann-handley.md
 ---
 
 # Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Utility times Inspiration times Empathy is deliberately multiplicative rather than additive: if any factor is zero, the output is zero regardless of how strong the other components are."
 
-— Ann Handley (Artemis expert synthesis)
+— Ann Handley (synthesized from operator's published work)
 
 ## Signals
 - Editorial scorecards rate three axes separately, not a single quality grade.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/sahil-bloom.md
+raw_ref: raw/expert-content/experts/sahil-bloom.md
 ---
 
 # Compounding applies to everything — the greatest results come from showing up when it's boring
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Compounding applies to everything, not just money, and the greatest results come from the discipline of showing up when it is boring."
 
-— Sahil Bloom, *The Curiosity Chronicle* (Artemis expert synthesis)
+— Sahil Bloom, *The Curiosity Chronicle* (synthesized from operator's published work)
 
 ## Signals
 - Operator's calendar has "boring consistency" blocks (writing, learning, relationship-tending) protected.

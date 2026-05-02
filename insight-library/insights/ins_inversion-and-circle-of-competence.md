@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: [ins_invert-always-invert, ins_latticework-of-mental-models]
-raw_ref: raw/artemis/experts/shane-parrish.md
+raw_ref: raw/expert-content/experts/shane-parrish.md
 ---
 
 # The quality of your thinking determines the quality of your life — operate inside your circle of competence
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The quality of your thinking determines the quality of your life; mental models from multiple disciplines give you the latticework to make better decisions and avoid stupidity."
 
-— Shane Parrish, *The Great Mental Models* (Artemis expert synthesis)
+— Shane Parrish, *The Great Mental Models* (synthesized from operator's published work)
 
 ## Signals
 - Operator has a written circle-of-competence document, updated over time.

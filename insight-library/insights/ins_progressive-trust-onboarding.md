@@ -46,6 +46,9 @@ Fails when:
 - New tool access requires an explicit ramp decision, not a default-on grant.
 - Audit logs show agents using only the tools at their current tier.
 
+## Counter-evidence
+No opposing view in current corpus.
+
 ## Cross-references
 - `ins_agents-as-team-not-tools` — the team frame this protocol implements
 - `ins_manager-skill-not-technical` — the operator skill needed to run the ramp

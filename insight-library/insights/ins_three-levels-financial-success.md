@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: [ins_anchor-high-pricing]
-raw_ref: raw/artemis/experts/blair-enns.md
+raw_ref: raw/expert-content/experts/blair-enns.md
 ---
 
 # Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Level One is the Efficient Firm, which maximizes billable utilization and might reach $200k in AGI per FTE; Level Two is the Value-Curious Firm... can push past $250k AGI/FTE; Level Three is the Entrepreneur, who thinks not about what to sell but about how much value to create, with no theoretical ceiling on earnings."
 
-— Blair Enns (Artemis expert synthesis)
+— Blair Enns (synthesized from operator's published work)
 
 ## Signals
 - Leadership can name which level the firm is at and what the next level requires.

@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/crayon.md
+raw_ref: raw/expert-content/experts/crayon.md
 ---
 
 # Battlecard adoption fails on distribution, not content quality — embed in the workflow or the card dies
@@ -39,7 +39,7 @@ Fails when:
 
 > "68% of sales opportunities are competitive and nearly two-thirds of CI teams produce battlecards."
 
-— Crayon (Artemis expert synthesis)
+— Crayon (synthesized from operator's published work)
 
 ## Signals
 - Battlecards surface inside the CRM opportunity record, not in a separate doc.

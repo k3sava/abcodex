@@ -29,6 +29,6 @@ Sally Hogshead is the originator of Fascination Science, a research-backed syste
 
 
 ## Sources captured
-- 2026-04 — `fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md` (artemis ingest)
-- 2026-04 — `fascination-advantage-assessment-shockingly-different-leadership.md` (artemis ingest)
-- 2026-04 — `sally-hogshead-wikipedia.md` (artemis ingest)
+- 2026-04 — `fascinate-speed-summary-your-seven-triggers-to-persuasion-captivation-brand-gene.md` (operator essay archive)
+- 2026-04 — `fascination-advantage-assessment-shockingly-different-leadership.md` (operator essay archive)
+- 2026-04 — `sally-hogshead-wikipedia.md` (operator essay archive)

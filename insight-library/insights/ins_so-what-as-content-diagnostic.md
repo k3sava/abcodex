@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: [ins_utility-times-inspiration-times-empathy]
-raw_ref: raw/artemis/experts/ann-handley.md
+raw_ref: raw/expert-content/experts/ann-handley.md
 ---
 
 # The "So what?" step is the most-skipped move in content creation across B2B and B2C
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Most marketing content answers the company's question ('What do we want to say?') rather than the reader's question ('Why should I care?'). She treats this as the single most skipped step in content creation across B2B and B2C organizations."
 
-— Ann Handley (Artemis expert synthesis)
+— Ann Handley (synthesized from operator's published work)
 
 ## Signals
 - Briefs include a one-line "so what?" answer above the outline, not buried at the bottom.

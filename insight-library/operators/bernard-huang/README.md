@@ -30,6 +30,6 @@ Bernard Huang identified and operationalized a critical gap in the SEO workflow:
 
 
 ## Sources captured
-- 2026-04 — `clearscope-why-content-optimization-is-all-the-rage.md` (artemis ingest)
-- 2026-04 — `clearscope-educational-resources.md` (artemis ingest)
-- 2026-04 — `clearscope-seo-software-review-the-content-technologist.md` (artemis ingest)
+- 2026-04 — `clearscope-why-content-optimization-is-all-the-rage.md` (operator essay archive)
+- 2026-04 — `clearscope-educational-resources.md` (operator essay archive)
+- 2026-04 — `clearscope-seo-software-review-the-content-technologist.md` (operator essay archive)

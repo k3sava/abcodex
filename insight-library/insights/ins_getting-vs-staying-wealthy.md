@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/morgan-housel.md
+raw_ref: raw/expert-content/experts/morgan-housel.md
 ---
 
 # Getting wealthy and staying wealthy require opposite skill sets
@@ -39,7 +39,7 @@ Fails when:
 
 > "The ability to stick around for a long time, without wiping out or being forced to give up, is what makes the biggest difference."
 
-— Morgan Housel, *The Psychology of Money* (Artemis expert synthesis)
+— Morgan Housel, *The Psychology of Money* (synthesized from operator's published work)
 
 ## Signals
 - Founders/operators can name the stage transition and the behavior change required.

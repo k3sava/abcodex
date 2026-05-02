@@ -29,9 +29,9 @@ Rand Fishkin's intellectual trajectory from SEO pioneer (Moz) to audience resear
 
 
 ## Sources captured
-- 2026-04 — `why-do-we-need-zero-click-marketing-sparktoro.md` (artemis ingest)
-- 2026-04 — `branding-in-the-age-of-ai-and-zero-click-serps-rand-fishkin.md` (artemis ingest)
-- 2026-04 — `marketing-in-a-zero-click-world-with-rand-fishkin-marketing-speak.md` (artemis ingest)
-- 2026-04 — `zero-click-marketing-an-exclusive-interview-with-rand-fishkin-of-sparktoro-nextn.md` (artemis ingest)
-- 2026-04 — `rand-fishkin-on-building-brand-influence-in-a-zero-click-world-skyword.md` (artemis ingest)
-- 2026-04 — `zero-click-marketing-the-hidden-strategy-behind-platform-algorithm-changes-the-c.md` (artemis ingest)
+- 2026-04 — `why-do-we-need-zero-click-marketing-sparktoro.md` (operator essay archive)
+- 2026-04 — `branding-in-the-age-of-ai-and-zero-click-serps-rand-fishkin.md` (operator essay archive)
+- 2026-04 — `marketing-in-a-zero-click-world-with-rand-fishkin-marketing-speak.md` (operator essay archive)
+- 2026-04 — `zero-click-marketing-an-exclusive-interview-with-rand-fishkin-of-sparktoro-nextn.md` (operator essay archive)
+- 2026-04 — `rand-fishkin-on-building-brand-influence-in-a-zero-click-world-skyword.md` (operator essay archive)
+- 2026-04 — `zero-click-marketing-the-hidden-strategy-behind-platform-algorithm-changes-the-c.md` (operator essay archive)

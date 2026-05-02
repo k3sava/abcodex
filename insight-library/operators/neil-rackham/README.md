@@ -28,6 +28,6 @@ Neil Rackham is the original scientist of sales. His 35,000-call, 12-year, 27-co
 
 
 ## Sources captured
-- 2026-04 — `neil-rackham-spin-selling-methodology.md` (artemis ingest)
-- 2026-04 — `neil-rackham-spin-selling-implied-explicit-needs.md` (artemis ingest)
-- 2026-04 — `neil-rackham-spin-selling-research-findings.md` (artemis ingest)
+- 2026-04 — `neil-rackham-spin-selling-methodology.md` (operator essay archive)
+- 2026-04 — `neil-rackham-spin-selling-implied-explicit-needs.md` (operator essay archive)
+- 2026-04 — `neil-rackham-spin-selling-research-findings.md` (operator essay archive)

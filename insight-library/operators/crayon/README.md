@@ -28,4 +28,4 @@ Crayon is a competitive intelligence platform that has codified best practices f
 
 
 ## Sources captured
-- 2026-04 — `sales-battlecards-101-the-ultimate-guide-crayon.md` (artemis ingest)
+- 2026-04 — `sales-battlecards-101-the-ultimate-guide-crayon.md` (operator essay archive)

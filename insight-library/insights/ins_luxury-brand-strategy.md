@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/scott-galloway.md
+raw_ref: raw/expert-content/experts/scott-galloway.md
 ---
 
 # Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin
@@ -39,7 +39,7 @@ Fails when:
 
 > "A luxury strategy is the most potent brand strategy: scarcity, irrational pricing, and an iconic founder create a margin structure that compounds over decades."
 
-— Scott Galloway (Artemis expert synthesis)
+— Scott Galloway (synthesized from operator's published work)
 
 ## Signals
 - Pricing is intentionally premium relative to marginal-cost benchmark.

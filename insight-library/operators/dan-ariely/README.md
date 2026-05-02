@@ -31,6 +31,6 @@ Dan Ariely provides the scientific foundation for understanding why customers ma
 
 
 ## Sources captured
-- 2026-04 — `predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md` (artemis ingest)
-- 2026-04 — `the-economist-magazine-a-story-of-clever-decoy-pricing-effect-the-strategy-story.md` (artemis ingest)
-- 2026-04 — `a-behavioral-economist-breaks-down-the-pain-of-paying.md` (artemis ingest)
+- 2026-04 — `predictably-irrational-the-hidden-forces-that-shape-our-decisions-speed-summary-.md` (operator essay archive)
+- 2026-04 — `the-economist-magazine-a-story-of-clever-decoy-pricing-effect-the-strategy-story.md` (operator essay archive)
+- 2026-04 — `a-behavioral-economist-breaks-down-the-pain-of-paying.md` (operator essay archive)

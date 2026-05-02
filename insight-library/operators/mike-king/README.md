@@ -30,7 +30,7 @@ Mike King brings a rare combination of computer science rigor and marketing prac
 
 ## Sources captured
 - 2026-04-22 — *How AI Mode Works* / *AI Search Manual*, iPullRank (`raw/essays/mike-king--how-ai-mode-works--2026-04-22.md`)
-- 2026-04 — `how-ai-mode-works-and-how-seo-can-prepare-for-the-future-of-search.md` (artemis ingest)
-- 2026-04 — `relevance-is-not-a-qualitative-measure-for-search-engines.md` (artemis ingest)
-- 2026-04 — `the-brave-new-world-of-seo-mike-king-seo-week-2025-summer-drop-ipullrank.md` (artemis ingest)
-- 2026-04 — `optimizing-the-new-search-how-relevance-engineering-is-reshaping-seo-mike-king.md` (artemis ingest)
+- 2026-04 — `how-ai-mode-works-and-how-seo-can-prepare-for-the-future-of-search.md` (operator essay archive)
+- 2026-04 — `relevance-is-not-a-qualitative-measure-for-search-engines.md` (operator essay archive)
+- 2026-04 — `the-brave-new-world-of-seo-mike-king-seo-week-2025-summer-drop-ipullrank.md` (operator essay archive)
+- 2026-04 — `optimizing-the-new-search-how-relevance-engineering-is-reshaping-seo-mike-king.md` (operator essay archive)

@@ -30,6 +30,6 @@ Andrej Karpathy's framework centers on a three-era model of software development
 
 ## Sources captured
 - 2026-04 — "LLM Wiki" gist (`raw/essays/karpathy--llm-wiki--2026-04.md`)
-- 2026-04 — `vibe-coding-menugen-karpathy.md` (artemis ingest)
-- 2026-04 — `andrej-karpathy-on-software-30-software-in-the-age-of-ai.md` (artemis ingest)
-- 2026-04 — `andrej-karpathy-software-is-changing-again.md` (artemis ingest)
+- 2026-04 — `vibe-coding-menugen-karpathy.md` (operator essay archive)
+- 2026-04 — `andrej-karpathy-on-software-30-software-in-the-age-of-ai.md` (operator essay archive)
+- 2026-04 — `andrej-karpathy-software-is-changing-again.md` (operator essay archive)

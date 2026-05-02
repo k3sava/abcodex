@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/cyrus-shepard.md
+raw_ref: raw/expert-content/experts/cyrus-shepard.md
 ---
 
 # E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "E-E-A-T is not a direct ranking factor but rather a framework that helps raters distinguish reliable content from misleading content. Google uses indirect signals like domain reputation, author clarity, and source quality to approximate what raters would assess manually."
 
-— Cyrus Shepard (Artemis expert synthesis)
+— Cyrus Shepard (synthesized from operator's published work)
 
 ## Signals
 - Bylines link to author bio pages with credentials and external profiles.

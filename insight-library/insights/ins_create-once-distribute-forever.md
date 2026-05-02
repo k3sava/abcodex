@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/ross-simmonds.md
+raw_ref: raw/expert-content/experts/ross-simmonds.md
 ---
 
 # Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The biggest waste in content marketing is not bad content but good content that nobody sees; most teams spend 80% of their time on creation and 20% on distribution when the ratio should be inverted."
 
-— Ross Simmonds, *Create Once, Distribute Forever* (Artemis expert synthesis)
+— Ross Simmonds, *Create Once, Distribute Forever* (synthesized from operator's published work)
 
 ## Signals
 - Content briefs include a distribution plan with named channels and repurposing formats.

@@ -26,6 +26,6 @@ Christoph Janz provides two of the most widely-used mental models in SaaS strate
 
 
 ## Sources captured
-- 2026-04 — `the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md` (artemis ingest)
-- 2026-04 — `saas-funding-napkin-2023.md` (artemis ingest)
-- 2026-04 — `christoph-janzs-5-ways-to-get-100m-arr-in-vc-backed-saas-earlynode.md` (artemis ingest)
+- 2026-04 — `the-angel-vc-five-years-later-five-ways-to-build-a-100-million-saas-business.md` (operator essay archive)
+- 2026-04 — `saas-funding-napkin-2023.md` (operator essay archive)
+- 2026-04 — `christoph-janzs-5-ways-to-get-100m-arr-in-vc-backed-saas-earlynode.md` (operator essay archive)

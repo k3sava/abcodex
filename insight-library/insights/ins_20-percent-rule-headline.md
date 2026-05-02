@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/cole-schafer.md
+raw_ref: raw/expert-content/experts/cole-schafer.md
 ---
 
 # Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight
@@ -39,7 +39,7 @@ Fails when:
 
 > "The headline carries 80% of the persuasive weight because most readers never get past it."
 
-— Cole Schafer / Honeycopy (Artemis expert synthesis)
+— Cole Schafer / Honeycopy (synthesized from operator's published work)
 
 ## Signals
 - Writers log a separate time block for headline iteration.

@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 3, source: 3 }
 tier: B
 related: [ins_messaging-equation-personalization-tiers]
-raw_ref: raw/artemis/experts/nick-abraham.md
+raw_ref: raw/expert-content/experts/nick-abraham.md
 ---
 
 # Cold email at scale isn't about volume or copywriting — it's about layering intent + colleague + AI personalization
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Cold email at scale is not about volume or copywriting but about layering intent signals, colleague references, and AI-generated personalization so that every automated email feels like it was manually researched."
 
-— Nick Abraham (Artemis expert synthesis)
+— Nick Abraham (synthesized from operator's published work)
 
 ## Signals
 - Outbound stack ingests intent data (Crunchbase, hiring signals, LinkedIn engagement).

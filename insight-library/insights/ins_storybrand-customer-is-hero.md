@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/donald-miller.md
+raw_ref: raw/expert-content/experts/donald-miller.md
 ---
 
 # The customer is the hero. Your brand is the guide. If you confuse, you lose.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The seven elements: A Character, Has a Problem, And Meets a Guide, Who Gives Them a Plan, And Calls Them to Action, That Ends in Success, And Helps Them Avoid Failure."
 
-— Donald Miller, *Building a StoryBrand* (Artemis expert synthesis)
+— Donald Miller, *Building a StoryBrand* (synthesized from operator's published work)
 
 ## Signals
 - Homepage hero section names the customer's aspirational outcome, not the company's awards.

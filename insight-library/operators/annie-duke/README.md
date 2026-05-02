@@ -30,7 +30,7 @@ Annie Duke's intellectual project is the systematic separation of decision quali
 
 ## Sources captured
 - 2026-04-28 — Lenny's Podcast, "Decision quality, explicit thinking, feedback loops" (`raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md`)
-- 2026-04 — `behavioral-scientist-practical-tools-for-better-decisions-a-qa-with-annie-duke-o.md` (artemis ingest)
-- 2026-04 — `a-framework-for-making-better-decisions-annie-duke-partner-at-first-round-capita.md` (artemis ingest)
-- 2026-04 — `big-think-when-to-quit-a-simple-framework-for-lifes-toughest-decisions-annie-duk.md` (artemis ingest)
-- 2026-04 — `practical-tools-for-better-decisions-a-qa-with-annie-duke-on-how-to-decide-by-da.md` (artemis ingest)
+- 2026-04 — `behavioral-scientist-practical-tools-for-better-decisions-a-qa-with-annie-duke-o.md` (operator essay archive)
+- 2026-04 — `a-framework-for-making-better-decisions-annie-duke-partner-at-first-round-capita.md` (operator essay archive)
+- 2026-04 — `big-think-when-to-quit-a-simple-framework-for-lifes-toughest-decisions-annie-duk.md` (operator essay archive)
+- 2026-04 — `practical-tools-for-better-decisions-a-qa-with-annie-duke-on-how-to-decide-by-da.md` (operator essay archive)

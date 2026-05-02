@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/elad-gil.md
+raw_ref: raw/expert-content/experts/elad-gil.md
 ---
 
 # Doubling revenue per user is often more meaningful than doubling user count
@@ -41,7 +41,7 @@ Fails when:
 
 > "Begin fundraising with 4-6 months of runway remaining since the process takes 3 months."
 
-— Elad Gil, *High Growth Handbook* (Artemis expert synthesis)
+— Elad Gil, *High Growth Handbook* (synthesized from operator's published work)
 
 ## Signals
 - Founder reviews a pricing-segmentation spreadsheet model before defaulting to single price.

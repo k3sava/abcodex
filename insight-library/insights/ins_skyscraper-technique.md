@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 3 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/brian-dean.md
+raw_ref: raw/expert-content/experts/brian-dean.md
 ---
 
 # Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "His original case study demonstrated a 110% increase in organic traffic from a single post using this approach, with a 17-link yield from 160 outreach emails (approximately 11% success rate)."
 
-— Brian Dean / Backlinko (Artemis expert synthesis)
+— Brian Dean / Backlinko (synthesized from operator's published work)
 
 ## Signals
 - Content briefs name the incumbent post being targeted and its backlink count.

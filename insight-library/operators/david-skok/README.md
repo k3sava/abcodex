@@ -30,6 +30,6 @@ David Skok is the architect of the modern SaaS metrics framework. His contributi
 
 
 ## Sources captured
-- 2026-04 — `saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md` (artemis ingest)
-- 2026-04 — `saas-economics-part-1-the-saas-cash-flow-trough-for-entrepreneurs.md` (artemis ingest)
-- 2026-04 — `saas-economics-part-2-scaling-the-business-for-entrepreneurs.md` (artemis ingest)
+- 2026-04 — `saas-metrics-20-a-guide-to-measuring-and-improving-what-matters-for-entrepreneur.md` (operator essay archive)
+- 2026-04 — `saas-economics-part-1-the-saas-cash-flow-trough-for-entrepreneurs.md` (operator essay archive)
+- 2026-04 — `saas-economics-part-2-scaling-the-business-for-entrepreneurs.md` (operator essay archive)

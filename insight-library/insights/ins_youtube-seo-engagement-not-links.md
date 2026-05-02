@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/sam-oh.md
+raw_ref: raw/expert-content/experts/sam-oh.md
 ---
 
 # Video SEO is a different sport — YouTube ranks on engagement, not link authority
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Video SEO is a distinct discipline from traditional web SEO because the ranking algorithm optimizes for engagement signals (watch time, audience retention, click-through rate) rather than link authority."
 
-— Sam Oh, Ahrefs (Artemis expert synthesis)
+— Sam Oh, Ahrefs (synthesized from operator's published work)
 
 ## Signals
 - Video briefs include named hook, retention curve target, and thumbnail CTR target.

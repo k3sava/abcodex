@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/karl-sakas.md
+raw_ref: raw/expert-content/experts/karl-sakas.md
 ---
 
 # Most agency problems are leadership problems disguised as operational ones
@@ -39,7 +39,7 @@ Fails when:
 
 > "Most agency owners operate at levels one and two when they need to be at four and five, and the reason they do not delegate higher is not trust but the absence of documented processes, clear decision-making authority, and accountability structures."
 
-— Karl Sakas (Artemis expert synthesis)
+— Karl Sakas (synthesized from operator's published work)
 
 ## Signals
 - Owner can name which Hyatt delegation level they default to and which they're working toward.

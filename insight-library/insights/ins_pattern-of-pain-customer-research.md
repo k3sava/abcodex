@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 3 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/hiten-shah.md
+raw_ref: raw/expert-content/experts/hiten-shah.md
 ---
 
 # Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The most common customer research mistake — not digging deep enough when a customer mentions a problem, rushing to the next question instead of asking why."
 
-— Hiten Shah (Artemis expert synthesis)
+— Hiten Shah (synthesized from operator's published work)
 
 ## Signals
 - Founder logs interview talk-time and aims for ≤20%.

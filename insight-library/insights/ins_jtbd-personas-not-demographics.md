@@ -4,7 +4,7 @@ operator: Adrienne Barnes
 operator_role: Founder of Best Buyer Persona; B2B SaaS customer research consultant
 source_url: https://bestbuyerpersona.com/
 source_type: research
-source_title: "Adrienne Barnes — Buyer Persona Methodology (Artemis expert synthesis)"
+source_title: "Adrienne Barnes — Buyer Persona Methodology (synthesized from operator's published work)"
 source_date: 2026-03-03
 captured_date: 2026-05-02
 domain: [pmm, research-discovery]
@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/adrienne-barnes.md
+raw_ref: raw/expert-content/experts/adrienne-barnes.md
 ---
 
 # Personas built on demographics inform nothing; rebuild around Jobs to Be Done

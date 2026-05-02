@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/marty-neumeier.md
+raw_ref: raw/expert-content/experts/marty-neumeier.md
 ---
 
 # A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The five disciplines: Differentiate (find your 'only'), Collaborate (break silos between strategists and creatives), Innovate (stay ahead of the category), Validate (test with real customers, not internal opinions), and Cultivate (build a living brand through ongoing stewardship, not a one-time exercise)."
 
-— Marty Neumeier, *The Brand Gap* (Artemis expert synthesis)
+— Marty Neumeier, *The Brand Gap* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly produces an Onlyness statement, tested for credibility.

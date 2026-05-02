@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 3, evidence: 3, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/peter-thiel.md
+raw_ref: raw/expert-content/experts/peter-thiel.md
 ---
 
 # Competition is for losers — build a monopoly on a truth most people don't yet see
@@ -39,7 +39,7 @@ Fails when:
 
 > "What important truth do very few people agree with you on?"
 
-— Peter Thiel, *Zero to One* (Artemis expert synthesis)
+— Peter Thiel, *Zero to One* (synthesized from operator's published work)
 
 ## Signals
 - Founder can articulate a contrarian secret that the rest of the market doesn't yet believe.

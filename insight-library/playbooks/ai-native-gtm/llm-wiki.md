@@ -53,7 +53,7 @@ Why: AI agents lose context between sessions. Memory files help but are shallow 
 
 Harness = which agent/tool wrote this. Kind ∈ {ingest, query, lint, decision, ship, correction, upgrade, debrief, observation}. Subject = short noun phrase matching a wiki page name.
 
-Enables: `grep "\[artemis\]" log.md`, `grep "| decision |" log.md`.
+Enables: `grep "[harness]" log.md`, `grep "| decision |" log.md`.
 
 ## Page frontmatter
 

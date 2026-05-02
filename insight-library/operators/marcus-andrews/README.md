@@ -29,6 +29,6 @@ Marcus Andrews is the practitioner who formalized narrative design as a product 
 
 
 ## Sources captured
-- 2026-04 — `narrative-design-with-pendos-director-of-product-marketing-marcus-andrews-launch.md` (artemis ingest)
-- 2026-04 — `ama-marcus-andrews-on-product-launches.md` (artemis ingest)
-- 2026-04 — `how-to-master-narrative-design-qa-with-hubspot.md` (artemis ingest)
+- 2026-04 — `narrative-design-with-pendos-director-of-product-marketing-marcus-andrews-launch.md` (operator essay archive)
+- 2026-04 — `ama-marcus-andrews-on-product-launches.md` (operator essay archive)
+- 2026-04 — `how-to-master-narrative-design-qa-with-hubspot.md` (operator essay archive)

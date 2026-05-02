@@ -26,8 +26,9 @@ Yi Lin Pei is a product marketing coach who works primarily with PMMs at startup
 - **Customer Interview For Positioning**
 
 ## Cards
-_None yet — see Sources captured for ingest candidates._
+- `ins_pmm-activates-five-teams-not-two` — Positioning compounds when it ships as tooling to five teams, not just sales [Tier B]
+- `ins_translate-pmm-activities-to-exec-speak` — PMMs lose influence when they report activities; translate every activity into a business outcome [Tier B]
 
 ## Sources captured
-- 2026-04 — `positioning-and-messaging-work-book-ylp-coaching.md` (artemis ingest)
-- 2026-04 — `ylp-product-launch-strategy.md` (artemis ingest)
+- 2026-04 — `positioning-and-messaging-work-book-ylp-coaching.md` (operator essay archive)
+- 2026-04 — `ylp-product-launch-strategy.md` (operator essay archive)

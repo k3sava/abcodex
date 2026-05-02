@@ -28,7 +28,7 @@ Bernadette Jiwa is the leading practitioner of empathy-first brand strategy, bui
 
 
 ## Sources captured
-- 2026-04 — `heres-how-master-brand-storyteller-bernadette-jiwa-writes-copyblogger.md` (artemis ingest)
-- 2026-04 — `about-the-story-of-telling.md` (artemis ingest)
-- 2026-04 — `difference-the-story-of-telling.md` (artemis ingest)
-- 2026-04 — `the-fortune-cookie-principle-summary-bernadette-jiwa-12min-blog.md` (artemis ingest)
+- 2026-04 — `heres-how-master-brand-storyteller-bernadette-jiwa-writes-copyblogger.md` (operator essay archive)
+- 2026-04 — `about-the-story-of-telling.md` (operator essay archive)
+- 2026-04 — `difference-the-story-of-telling.md` (operator essay archive)
+- 2026-04 — `the-fortune-cookie-principle-summary-bernadette-jiwa-12min-blog.md` (operator essay archive)

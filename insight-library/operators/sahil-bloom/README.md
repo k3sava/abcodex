@@ -29,7 +29,7 @@ Sahil Bloom's primary contribution is the curation and operationalization of men
 
 
 ## Sources captured
-- 2026-04 — `mental-razors-by-sahil-bloom-the-curiosity-chronicle.md` (artemis ingest)
-- 2026-04 — `when-mental-models-attack-by-sahil-bloom.md` (artemis ingest)
-- 2026-04 — `investor-or-borrower-a-mental-model-for-life-the-curiosity-chronicle.md` (artemis ingest)
-- 2026-04 — `the-framework-handbook-by-sahil-bloom.md` (artemis ingest)
+- 2026-04 — `mental-razors-by-sahil-bloom-the-curiosity-chronicle.md` (operator essay archive)
+- 2026-04 — `when-mental-models-attack-by-sahil-bloom.md` (operator essay archive)
+- 2026-04 — `investor-or-borrower-a-mental-model-for-life-the-curiosity-chronicle.md` (operator essay archive)
+- 2026-04 — `the-framework-handbook-by-sahil-bloom.md` (operator essay archive)

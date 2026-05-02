@@ -27,4 +27,4 @@ Claude Code educator who publishes practical guides on Skills, hooks, MCP, and a
 
 
 ## Sources captured
-- 2026-04 — `i-watched-100-people-hit-the-same-claude-skills-problems-in-week-oneso-i-built-1.md` (artemis ingest)
+- 2026-04 — `i-watched-100-people-hit-the-same-claude-skills-problems-in-week-oneso-i-built-1.md` (operator essay archive)

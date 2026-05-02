@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/sam-altman.md
+raw_ref: raw/expert-content/experts/sam-altman.md
 ---
 
 # The cost of intelligence is converging toward the cost of electricity — durable advantage isn't using AI, it's parlaying AI
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The cost of intelligence is converging toward the cost of electricity, which means the winning strategy is not using AI itself but parlaying the advantage of new technology into a durable business with real value — small teams with full ownership, niche focus, and relentless velocity."
 
-— Sam Altman (Artemis expert synthesis)
+— Sam Altman (synthesized from operator's published work)
 
 ## Signals
 - Strategy explicitly names a non-AI category where AI is the deployment lever.

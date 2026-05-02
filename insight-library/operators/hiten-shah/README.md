@@ -26,6 +26,6 @@ Hiten Shah is a practitioner-first entrepreneur whose central contribution to pr
 
 
 ## Sources captured
-- 2026-04 — `product-strategy-business-model.md` (artemis ingest)
-- 2026-04 — `731-slack-users-reveal-why-its-so-addictive.md` (artemis ingest)
-- 2026-04 — `hiten-shah-on-how-to-avoid-common-pitfalls-of-product-development-miroblog.md` (artemis ingest)
+- 2026-04 — `product-strategy-business-model.md` (operator essay archive)
+- 2026-04 — `731-slack-users-reveal-why-its-so-addictive.md` (operator essay archive)
+- 2026-04 — `hiten-shah-on-how-to-avoid-common-pitfalls-of-product-development-miroblog.md` (operator essay archive)

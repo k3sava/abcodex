@@ -30,8 +30,8 @@ Chris Walker's central thesis is that most B2B marketing organizations are funda
 
 
 ## Sources captured
-- 2026-04 — `offense-intended-why-chris-walker-says-shift-from-demand-capture-to-demand-creat.md` (artemis ingest)
-- 2026-04 — `how-to-generate-demand-with-b2b-marketing-expert-chris-walker.md` (artemis ingest)
-- 2026-04 — `refine-labs-split-the-funnel-framework.md` (artemis ingest)
-- 2026-04 — `how-to-win-in-marketing-with-chris-walker-of-refine-labs.md` (artemis ingest)
-- 2026-04 — `increasing-hiro-pipeline-by-76-with-chris-walker-and-refine-labs.md` (artemis ingest)
+- 2026-04 — `offense-intended-why-chris-walker-says-shift-from-demand-capture-to-demand-creat.md` (operator essay archive)
+- 2026-04 — `how-to-generate-demand-with-b2b-marketing-expert-chris-walker.md` (operator essay archive)
+- 2026-04 — `refine-labs-split-the-funnel-framework.md` (operator essay archive)
+- 2026-04 — `how-to-win-in-marketing-with-chris-walker-of-refine-labs.md` (operator essay archive)
+- 2026-04 — `increasing-hiro-pipeline-by-76-with-chris-walker-and-refine-labs.md` (operator essay archive)

@@ -28,7 +28,7 @@ James Clear's central contribution is a practical operating system for behavior 
 
 
 ## Sources captured
-- 2026-04 — `forget-about-setting-goals-focus-on-this-instead.md` (artemis ingest)
-- 2026-04 — `marginal-gains-this-coach-improved-every-tiny-thing-by-1-percent.md` (artemis ingest)
-- 2026-04 — `habit-stacking-how-to-build-new-habits-by-taking-advantage-of-old-ones.md` (artemis ingest)
-- 2026-04 — `how-to-master-the-art-of-continuous-improvement.md` (artemis ingest)
+- 2026-04 — `forget-about-setting-goals-focus-on-this-instead.md` (operator essay archive)
+- 2026-04 — `marginal-gains-this-coach-improved-every-tiny-thing-by-1-percent.md` (operator essay archive)
+- 2026-04 — `habit-stacking-how-to-build-new-habits-by-taking-advantage-of-old-ones.md` (operator essay archive)
+- 2026-04 — `how-to-master-the-art-of-continuous-improvement.md` (operator essay archive)

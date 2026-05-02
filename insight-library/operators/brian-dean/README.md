@@ -30,7 +30,7 @@ Brian Dean built Backlinko into one of the most authoritative SEO resources on t
 
 
 ## Sources captured
-- 2026-04 — `skyscraper-method-110-traffic-link-building-case-study.md` (artemis ingest)
-- 2026-04 — `link-building-strategies-the-complete-list-2026.md` (artemis ingest)
-- 2026-04 — `how-brian-dean-would-launch-backlinko-in-2026.md` (artemis ingest)
-- 2026-04 — `on-page-seo-the-definitive-guide-free-template-2026.md` (artemis ingest)
+- 2026-04 — `skyscraper-method-110-traffic-link-building-case-study.md` (operator essay archive)
+- 2026-04 — `link-building-strategies-the-complete-list-2026.md` (operator essay archive)
+- 2026-04 — `how-brian-dean-would-launch-backlinko-in-2026.md` (operator essay archive)
+- 2026-04 — `on-page-seo-the-definitive-guide-free-template-2026.md` (operator essay archive)

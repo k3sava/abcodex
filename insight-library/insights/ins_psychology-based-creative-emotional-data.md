@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/sarah-levinger.md
+raw_ref: raw/expert-content/experts/sarah-levinger.md
 ---
 
 # Transactional data tells half the story — winning ads uncover the emotional context behind decisions
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Transactional data only tells half the story; the brands that win at paid advertising are the ones that uncover the emotional context behind customer decisions, using psychology-based creative to speak to identity, subconscious behavior, and personal narratives rather than demographics alone."
 
-— Sarah Levinger (Artemis expert synthesis)
+— Sarah Levinger (synthesized from operator's published work)
 
 ## Signals
 - Creative briefs include an emotional-context paragraph alongside demographic targeting.

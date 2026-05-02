@@ -31,9 +31,9 @@ Blair Enns has spent over two decades teaching creative professionals to win bus
 
 
 ## Sources captured
-- 2026-04 — `anchor-high-win-without-pitching.md` (artemis ingest)
-- 2026-04 — `pros-and-cons-of-publishing-pricing-for-creative-agencies.md` (artemis ingest)
-- 2026-04 — `the-justice-of-price-premiums-win-without-pitching.md` (artemis ingest)
-- 2026-04 — `3-levels-of-financial-success-risk-for-creative-agencies.md` (artemis ingest)
-- 2026-04 — `pricing-four-steps-to-the-value-conversation-and-one-hack.md` (artemis ingest)
-- 2026-04 — `how-and-when-to-talk-about-your-firm-win-without-pitching.md` (artemis ingest)
+- 2026-04 — `anchor-high-win-without-pitching.md` (operator essay archive)
+- 2026-04 — `pros-and-cons-of-publishing-pricing-for-creative-agencies.md` (operator essay archive)
+- 2026-04 — `the-justice-of-price-premiums-win-without-pitching.md` (operator essay archive)
+- 2026-04 — `3-levels-of-financial-success-risk-for-creative-agencies.md` (operator essay archive)
+- 2026-04 — `pricing-four-steps-to-the-value-conversation-and-one-hack.md` (operator essay archive)
+- 2026-04 — `how-and-when-to-talk-about-your-firm-win-without-pitching.md` (operator essay archive)

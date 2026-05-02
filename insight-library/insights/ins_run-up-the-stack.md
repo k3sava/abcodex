@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/packy-mccormick.md
+raw_ref: raw/expert-content/experts/packy-mccormick.md
 ---
 
 # Run up the stack — use commoditized capabilities as inputs to create higher-order human value
@@ -39,7 +39,7 @@ Fails when:
 
 > "Understand what was formerly scarce and is now commoditized, do not shrink from it, play with it, experiment, and discover what it enables that you could not do before."
 
-— Packy McCormick (Artemis expert synthesis)
+— Packy McCormick (synthesized from operator's published work)
 
 ## Signals
 - Operator names which capability they treat as cheap input vs. defended differentiator.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/mark-roberge.md
+raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
 # Coachability — not prior experience or charisma — is the strongest predictor of sales success
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "His most counterintuitive finding is that coachability, not prior experience or charisma, is the strongest predictor of sales success."
 
-— Mark Roberge, *The Sales Acceleration Formula* (Artemis expert synthesis)
+— Mark Roberge, *The Sales Acceleration Formula* (synthesized from operator's published work)
 
 ## Signals
 - Sales hiring loop scores all five traits explicitly with named behavioral evidence.

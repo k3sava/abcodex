@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/chris-do.md
+raw_ref: raw/expert-content/experts/chris-do.md
 ---
 
 # Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation.
@@ -41,7 +41,7 @@ Fails when:
 
 > "Whoever asks the most questions controls the conversation."
 
-— Chris Do (Artemis expert synthesis)
+— Chris Do (synthesized from operator's published work)
 
 ## Signals
 - First call has zero solution-talk; the practitioner only asks questions.

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: [ins_embedded-entrepreneur]
-raw_ref: raw/artemis/experts/greg-isenberg.md
+raw_ref: raw/expert-content/experts/greg-isenberg.md
 ---
 
 # Audience first, Community second, Product last — and AI makes the inversion much faster
@@ -39,7 +39,7 @@ Fails when:
 
 > "Identify a manual process that knowledge workers do daily, wrap AI around it, and price it as a tool ($300/month SaaS) rather than a platform."
 
-— Greg Isenberg (Artemis expert synthesis)
+— Greg Isenberg (synthesized from operator's published work)
 
 ## Signals
 - Founder has named platform + posting cadence before any code is written.

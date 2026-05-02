@@ -4,7 +4,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 427 insight cards
-- 288 operator profiles
+- 285 operator profiles
 - 211 raw source files
 - 24 synthesis patterns
 - 9 contradictions
@@ -451,7 +451,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Aakash Gupta](operators/aakash-gupta/README.md)
 - [Aaron Ross](operators/aaron-ross/README.md)
 - [Aatir Abdul Rauf](operators/aatir-abdul-rauf/README.md)
-- [Adam Renklint](operators/adam-renklint/README.md)
 - [Adriel Frederick](operators/adriel-frederick/README.md)
 - [Adrienne Barnes](operators/adrienne-barnes/README.md)
 - [Aishwarya Naresh Reganti](operators/aishwarya-naresh-reganti/README.md)
@@ -575,7 +574,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Hiten Shah](operators/hiten-shah/README.md)
 - [Jacco van der Kooij](operators/jacco-van-der-kooij/README.md)
 - [Jacob Warwick](operators/jacob-warwick/README.md)
-- [Jafar Najafov](operators/jafar-najafov/README.md)
 - [James Clear](operators/james-clear/README.md)
 - [James Doman-Pipe](operators/james-doman-pipe/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
@@ -598,7 +596,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [Josue Valles](operators/josue-valles/README.md)
 - [Julian Shapiro](operators/julian-shapiro/README.md)
 - [Julie Grondin](operators/julie-grondin/README.md)
-- [Julien Sauvage](operators/julien-sauvage/README.md)
 - [Kabir Uppal](operators/kabir-uppal/README.md)
 - [Kaizad Hansotia](operators/kaizad-hansotia/README.md)
 - [Karl Sakas](operators/karl-sakas/README.md)

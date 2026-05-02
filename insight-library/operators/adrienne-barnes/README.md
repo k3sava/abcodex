@@ -30,7 +30,7 @@ Adrienne Barnes's work is built on a damning statistic she uncovered through her
 
 
 ## Sources captured
-- 2026-04 — `saas-positioning-starts-with-talking-to-customers-saas-club.md` (artemis ingest)
-- 2026-04 — `022-buyer-personas-dont-have-to-suck-with-adrienne-barnes-best-buyer-persona-omn.md` (artemis ingest)
-- 2026-04 — `how-to-create-buyer-personas-youll-actually-use-omniscient-digital.md` (artemis ingest)
-- 2026-04 — `the-4-rs-of-the-useful-buyer-personas-that-wins-more-business-marketing-powerups.md` (artemis ingest)
+- 2026-04 — `saas-positioning-starts-with-talking-to-customers-saas-club.md` (operator essay archive)
+- 2026-04 — `022-buyer-personas-dont-have-to-suck-with-adrienne-barnes-best-buyer-persona-omn.md` (operator essay archive)
+- 2026-04 — `how-to-create-buyer-personas-youll-actually-use-omniscient-digital.md` (operator essay archive)
+- 2026-04 — `the-4-rs-of-the-useful-buyer-personas-that-wins-more-business-marketing-powerups.md` (operator essay archive)

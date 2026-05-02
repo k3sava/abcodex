@@ -28,6 +28,6 @@ Steven Forth brings the most rigorous and systematic approach to value-based pri
 
 
 ## Sources captured
-- 2026-04 — `three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md` (artemis ingest)
-- 2026-04 — `your-pricing-model-needs-a-value-model-i-ibbaka.md` (artemis ingest)
-- 2026-04 — `how-to-choose-a-pricing-metric-i-ibbaka.md` (artemis ingest)
+- 2026-04 — `three-approaches-to-value-based-pricing-for-saas-approximate-derived-direct-i-ib.md` (operator essay archive)
+- 2026-04 — `your-pricing-model-needs-a-value-model-i-ibbaka.md` (operator essay archive)
+- 2026-04 — `how-to-choose-a-pricing-metric-i-ibbaka.md` (operator essay archive)

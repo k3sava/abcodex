@@ -29,7 +29,7 @@ Sarah Levinger occupies a unique position at the intersection of consumer psycho
 
 
 ## Sources captured
-- 2026-04 — `harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md` (artemis ingest)
-- 2026-04 — `the-psychology-of-high-performing-ads-how-sarah-levinger-unlocks-emotional-data-.md` (artemis ingest)
-- 2026-04 — `how-to-use-psychology-in-facebook-tiktok-advertising.md` (artemis ingest)
-- 2026-04 — `how-psychology-based-creative-is-changing-the-dtc-industry-triple-whale.md` (artemis ingest)
+- 2026-04 — `harnessing-psychology-in-creative-strategy-sarah-levingers-insights-on-consumer-.md` (operator essay archive)
+- 2026-04 — `the-psychology-of-high-performing-ads-how-sarah-levinger-unlocks-emotional-data-.md` (operator essay archive)
+- 2026-04 — `how-to-use-psychology-in-facebook-tiktok-advertising.md` (operator essay archive)
+- 2026-04 — `how-psychology-based-creative-is-changing-the-dtc-industry-triple-whale.md` (operator essay archive)

@@ -30,9 +30,9 @@ Elad Gil approaches startup finance and scaling from the perspective of an opera
 
 
 ## Sources captured
-- 2026-04 — `running-a-business-by-elad-gil-elad-blog.md` (artemis ingest)
-- 2026-04 — `elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups.md` (artemis ingest)
-- 2026-04 — `startup-decoupling-reckoning-by-elad-gil-elad-blog.md` (artemis ingest)
-- 2026-04 — `startup-markets-summer-2022-edition-by-elad-gil.md` (artemis ingest)
-- 2026-04 — `how-elad-gil-scaled-startups-insights-from-google-twitter-and-beyond-capitaly.md` (artemis ingest)
-- 2026-04 — `welcome-to-the-high-growth-handbook-high-growth-handbook.md` (artemis ingest)
+- 2026-04 — `running-a-business-by-elad-gil-elad-blog.md` (operator essay archive)
+- 2026-04 — `elad-gil-shares-advice-from-the-high-growth-handbook-a-guide-to-scaling-startups.md` (operator essay archive)
+- 2026-04 — `startup-decoupling-reckoning-by-elad-gil-elad-blog.md` (operator essay archive)
+- 2026-04 — `startup-markets-summer-2022-edition-by-elad-gil.md` (operator essay archive)
+- 2026-04 — `how-elad-gil-scaled-startups-insights-from-google-twitter-and-beyond-capitaly.md` (operator essay archive)
+- 2026-04 — `welcome-to-the-high-growth-handbook-high-growth-handbook.md` (operator essay archive)

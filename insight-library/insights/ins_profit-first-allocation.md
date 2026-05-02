@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/mike-michalowicz.md
+raw_ref: raw/expert-content/experts/mike-michalowicz.md
 ---
 
 # Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Demand for a resource expands to consume the supply available." (C. Northcote Parkinson, applied)
 
-— Mike Michalowicz, *Profit First* (Artemis expert synthesis)
+— Mike Michalowicz, *Profit First* (synthesized from operator's published work)
 
 ## Signals
 - Business has 5 named bank accounts with target percentages documented.

@@ -30,7 +30,7 @@ Andrew Faris's approach to ecommerce growth is defined by a single, contrarian o
 
 
 ## Sources captured
-- 2026-04 — `cost-cap-strategy-for-facebook-ads-2024-guide.md` (artemis ingest)
-- 2026-04 — `how-to-scale-from-1m-to-20m-with-andrew-faris.md` (artemis ingest)
-- 2026-04 — `effective-facebook-ad-campaigns-how-to-increase-results-250.md` (artemis ingest)
-- 2026-04 — `directness-wins-in-advertising-practical-ecommerce.md` (artemis ingest)
+- 2026-04 — `cost-cap-strategy-for-facebook-ads-2024-guide.md` (operator essay archive)
+- 2026-04 — `how-to-scale-from-1m-to-20m-with-andrew-faris.md` (operator essay archive)
+- 2026-04 — `effective-facebook-ad-campaigns-how-to-increase-results-250.md` (operator essay archive)
+- 2026-04 — `directness-wins-in-advertising-practical-ecommerce.md` (operator essay archive)

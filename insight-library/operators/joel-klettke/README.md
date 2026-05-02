@@ -27,4 +27,4 @@ Joel Klettke built a seven-figure business around a single conviction: customer 
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

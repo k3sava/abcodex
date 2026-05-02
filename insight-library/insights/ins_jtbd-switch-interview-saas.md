@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/claire-suellentrop.md
+raw_ref: raw/expert-content/experts/claire-suellentrop.md
 ---
 
 # Use the JTBD switch interview on recently-converted high-value customers — segments emerge from jobs, not demographics
@@ -39,7 +39,7 @@ Fails when:
 
 > "The cardinal sin is asking about specific features rather than letting customers describe their own journey."
 
-— Claire Suellentrop (Artemis expert synthesis)
+— Claire Suellentrop (synthesized from operator's published work)
 
 ## Signals
 - Onboarding emails branch by detected job, not by signup form fields.

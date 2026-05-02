@@ -28,11 +28,11 @@ Tim Soulo is the strategic mind behind Ahrefs' content-led growth engine, which 
 
 
 ## Sources captured
-- 2026-04 — `content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md` (artemis ingest)
-- 2026-04 — `013-the-long-game-podcast-a-fireside-chat-with-tim-soulo-cmo-at-ahrefs-omniscien.md` (artemis ingest)
-- 2026-04 — `keyword-research-the-beginners-guide-by-ahrefs.md` (artemis ingest)
-- 2026-04 — `how-to-create-quality-content-follow-our-5-level-framework.md` (artemis ingest)
-- 2026-04 — `12-link-builders-share-strategies-that-work-in-2024.md` (artemis ingest)
-- 2026-04 — `keyword-difficulty-how-to-estimate-your-chances-to-rank.md` (artemis ingest)
-- 2026-04 — `how-to-get-search-traffic-without-ranking-for-anything.md` (artemis ingest)
-- 2026-04 — `how-ahrefs-grew-to-15m-monthly-visitors-and-exploded-leads.md` (artemis ingest)
+- 2026-04 — `content-that-clicks-how-ahrefs-cmo-tim-soulo-uses-seo-and-creativity-to-rank-sky.md` (operator essay archive)
+- 2026-04 — `013-the-long-game-podcast-a-fireside-chat-with-tim-soulo-cmo-at-ahrefs-omniscien.md` (operator essay archive)
+- 2026-04 — `keyword-research-the-beginners-guide-by-ahrefs.md` (operator essay archive)
+- 2026-04 — `how-to-create-quality-content-follow-our-5-level-framework.md` (operator essay archive)
+- 2026-04 — `12-link-builders-share-strategies-that-work-in-2024.md` (operator essay archive)
+- 2026-04 — `keyword-difficulty-how-to-estimate-your-chances-to-rank.md` (operator essay archive)
+- 2026-04 — `how-to-get-search-traffic-without-ranking-for-anything.md` (operator essay archive)
+- 2026-04 — `how-ahrefs-grew-to-15m-monthly-visitors-and-exploded-leads.md` (operator essay archive)

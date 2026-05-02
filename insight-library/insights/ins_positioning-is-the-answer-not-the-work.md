@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/emily-kramer.md
+raw_ref: raw/expert-content/experts/emily-kramer.md
 ---
 
 # Positioning is the right answer (one statement), not the work (the 30-slide deck)

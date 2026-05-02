@@ -28,4 +28,4 @@ Jim Hamilton's Email Storyselling framework is a 4-step conversion structure tha
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

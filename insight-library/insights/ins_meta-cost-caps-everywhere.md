@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 5, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/andrew-faris.md
+raw_ref: raw/expert-content/experts/andrew-faris.md
 ---
 
 # Run nearly 100% of Meta spend behind cost caps, not lowest-cost delivery
@@ -39,7 +39,7 @@ Fails when:
 
 > "You launch every new piece of creative in the same campaigns as evergreen content using bid caps, and Meta automatically suppresses spend on likely losers while scaling spend on likely winners."
 
-— Andrew Faris (Artemis expert synthesis)
+— Andrew Faris (synthesized from operator's published work)
 
 ## Signals
 - Account structure has a small number of consolidated campaigns rather than per-creative test sets.

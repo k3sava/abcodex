@@ -28,7 +28,7 @@ Peter Thiel's central thesis is the distinction between horizontal progress (1 t
 
 
 ## Sources captured
-- 2026-04 — `zero-to-one-by-peter-thiel-summary-notes.md` (artemis ingest)
-- 2026-04 — `zero-to-one-by-peter-thiel-omd-ventures.md` (artemis ingest)
-- 2026-04 — `zero-to-one-do-not-compete-build-a-monopoly-instead-books-on-trial.md` (artemis ingest)
-- 2026-04 — `zero-to-one-by-peter-thiel-summary-and-analysis-chris-lehnes-factoring-specialis.md` (artemis ingest)
+- 2026-04 — `zero-to-one-by-peter-thiel-summary-notes.md` (operator essay archive)
+- 2026-04 — `zero-to-one-by-peter-thiel-omd-ventures.md` (operator essay archive)
+- 2026-04 — `zero-to-one-do-not-compete-build-a-monopoly-instead-books-on-trial.md` (operator essay archive)
+- 2026-04 — `zero-to-one-by-peter-thiel-summary-and-analysis-chris-lehnes-factoring-specialis.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/charlie-munger.md
+raw_ref: raw/expert-content/experts/charlie-munger.md
 ---
 
 # Reliable thinking requires 80-90 mental models from multiple disciplines, not one
@@ -39,7 +39,7 @@ Fails when:
 
 > "Never, ever, think about something else when you should be thinking about the power of incentives."
 
-— Charlie Munger (Artemis expert synthesis)
+— Charlie Munger (synthesized from operator's published work)
 
 ## Signals
 - Decision-maker can name the 5-10 models they applied to a recent hard call.

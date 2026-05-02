@@ -29,5 +29,5 @@ Reforge's approach to growth strategy is distinguished by its insistence on syst
 
 
 ## Sources captured
-- 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (artemis ingest)
-- 2026-04 — `dont-let-your-north-star-metric-deceive-you-reforge-blog.md` (artemis ingest)
+- 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (operator essay archive)
+- 2026-04 — `dont-let-your-north-star-metric-deceive-you-reforge-blog.md` (operator essay archive)

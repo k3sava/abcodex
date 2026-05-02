@@ -27,6 +27,6 @@ Trish Bertuzzi is the operational architect of sales development teams. Where Aa
 
 
 ## Sources captured
-- 2026-04 — `sales-development-playbook-trish-bertuzzi.md` (artemis ingest)
-- 2026-04 — `bridge-group-sdr-metrics-benchmarks.md` (artemis ingest)
-- 2026-04 — `trish-bertuzzi-six-elements-sales-development.md` (artemis ingest)
+- 2026-04 — `sales-development-playbook-trish-bertuzzi.md` (operator essay archive)
+- 2026-04 — `bridge-group-sdr-metrics-benchmarks.md` (operator essay archive)
+- 2026-04 — `trish-bertuzzi-six-elements-sales-development.md` (operator essay archive)

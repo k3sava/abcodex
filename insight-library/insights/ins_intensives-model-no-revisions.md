@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 3, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/pia-silva.md
+raw_ref: raw/expert-content/experts/pia-silva.md
 ---
 
 # Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The traditional agency model of multi-month projects with endless revisions is structurally broken; the fix is compressing delivery into paid-in-full intensives that protect your time, your margins, and your creative energy."
 
-— Pia Silva, *Worstofall Design* (Artemis expert synthesis)
+— Pia Silva, *Worstofall Design* (synthesized from operator's published work)
 
 ## Signals
 - Sales process gates on paid-in-full upfront, not phased invoicing.

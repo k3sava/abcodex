@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/arvid-kahl.md
+raw_ref: raw/expert-content/experts/arvid-kahl.md
 ---
 
 # Embed in the community before you build the product
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Instead of building in isolation and hoping customers appear, you embed yourself in the community you want to serve, discover their critical problems through observation and conversation, and build solutions that address those problems directly."
 
-— Arvid Kahl, *The Embedded Entrepreneur* (Artemis expert synthesis)
+— Arvid Kahl, *The Embedded Entrepreneur* (synthesized from operator's published work)
 
 ## Signals
 - Founder is a known regular in the community before any product is launched.

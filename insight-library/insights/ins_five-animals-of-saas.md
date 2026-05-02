@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/christoph-janz.md
+raw_ref: raw/expert-content/experts/christoph-janz.md
 ---
 
 # You can't hunt elephants the way you hunt rabbits — pick your animal first, GTM follows
@@ -39,7 +39,7 @@ Fails when:
 
 > "You cannot hunt elephants the way you hunt rabbits."
 
-— Christoph Janz (Artemis expert synthesis)
+— Christoph Janz (synthesized from operator's published work)
 
 ## Signals
 - Strategy doc opens with declared animal and ARPA target.

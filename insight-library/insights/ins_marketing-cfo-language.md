@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/rowan-tonkin.md
+raw_ref: raw/expert-content/experts/rowan-tonkin.md
 ---
 
 # Marketing must speak the language of finance, not the language of marketing
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Marketing must speak the language of finance, not the language of marketing; the CMO who can translate pipeline metrics into financial outcomes earns strategic credibility, budget protection, and a seat at the revenue table."
 
-— Rowan Tonkin (Artemis expert synthesis)
+— Rowan Tonkin (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard headlines are in revenue/payback terms, not MQL terms.

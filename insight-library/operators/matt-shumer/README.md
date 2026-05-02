@@ -28,6 +28,6 @@ Matt Shumer's perspective is grounded in six years of building AI products at th
 
 
 ## Sources captured
-- 2026-04 — `something-big-is-happening-matt-shumer.md` (artemis ingest)
-- 2026-04 — `matt-shumer.md` (artemis ingest)
-- 2026-04 — `something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md` (artemis ingest)
+- 2026-04 — `something-big-is-happening-matt-shumer.md` (operator essay archive)
+- 2026-04 — `matt-shumer.md` (operator essay archive)
+- 2026-04 — `something-big-is-happening-in-ai-and-most-people-will-be-blindsided-fortune.md` (operator essay archive)

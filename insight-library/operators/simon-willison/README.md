@@ -31,6 +31,6 @@ Simon Willison's foundational contribution is the taxonomy of how professionals 
 
 ## Sources captured
 - 2026-04-02 — Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
-- 2026-04 — `heres-how-i-use-llms-to-help-me-write-code.md` (artemis ingest)
-- 2026-04 — `vibe-engineering.md` (artemis ingest)
-- 2026-04 — `agentic-engineering-patterns-simon-willisons-weblog.md` (artemis ingest)
+- 2026-04 — `heres-how-i-use-llms-to-help-me-write-code.md` (operator essay archive)
+- 2026-04 — `vibe-engineering.md` (operator essay archive)
+- 2026-04 — `agentic-engineering-patterns-simon-willisons-weblog.md` (operator essay archive)

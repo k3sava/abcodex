@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_blog-as-knowledge-base-not-newsfeed]
-raw_ref: raw/artemis/experts/jimmy-daly.md
+raw_ref: raw/expert-content/experts/jimmy-daly.md
 ---
 
 # Content strategy should be revealed by the business model, not invented from scratch
@@ -39,7 +39,7 @@ Fails when:
 
 > "There is a boilerplate strategy that will work for each business given its GTM motion."
 
-— Jimmy Daly (Artemis expert synthesis)
+— Jimmy Daly (synthesized from operator's published work)
 
 ## Signals
 - Content strategy doc names the GTM type and the implied boilerplate.

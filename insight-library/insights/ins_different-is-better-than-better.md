@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 4, transferability: 5, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/sally-hogshead.md
+raw_ref: raw/expert-content/experts/sally-hogshead.md
 ---
 
 # Different is better than better — you don't learn how to be fascinating, you unlearn how to be boring
@@ -39,7 +39,7 @@ Fails when:
 
 > "In a distracted, overcrowded world, brands win not by being the best but by being impossible to ignore."
 
-— Sally Hogshead, *Fascinate* (Artemis expert synthesis)
+— Sally Hogshead, *Fascinate* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly names the fascination trigger(s) the brand leans into.

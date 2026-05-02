@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_abm-account-not-lead]
-raw_ref: raw/artemis/experts/tk-kader.md
+raw_ref: raw/expert-content/experts/tk-kader.md
 ---
 
 # An ICP isn't a buyer persona — it's an account-level definition that must be operationalized in CRM and product roadmap
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "An ICP is not a buyer persona — it is an account-level definition that must be operationalized as a living mandate in your CRM, sales meetings, and product roadmap, not a static slide deck."
 
-— TK Kader (Artemis expert synthesis)
+— TK Kader (synthesized from operator's published work)
 
 ## Signals
 - CRM has an ICP-fit score on every account, computed from firmographic + trigger data.

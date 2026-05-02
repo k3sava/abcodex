@@ -27,7 +27,7 @@ Denise Lee Yohn is the leading practitioner of brand-culture integration, having
 
 
 ## Sources captured
-- 2026-04 — `fusion-denise-lee-yohn.md` (artemis ingest)
-- 2026-04 — `what-great-brands-do-book-author-brand-strategy-denise-lee-yohn.md` (artemis ingest)
-- 2026-04 — `great-brands-start-inside-denise-lee-yohn.md` (artemis ingest)
-- 2026-04 — `denise-lee-yohn-the-fusion-formula-brand-culture-results.md` (artemis ingest)
+- 2026-04 — `fusion-denise-lee-yohn.md` (operator essay archive)
+- 2026-04 — `what-great-brands-do-book-author-brand-strategy-denise-lee-yohn.md` (operator essay archive)
+- 2026-04 — `great-brands-start-inside-denise-lee-yohn.md` (operator essay archive)
+- 2026-04 — `denise-lee-yohn-the-fusion-formula-brand-culture-results.md` (operator essay archive)

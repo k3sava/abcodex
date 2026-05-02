@@ -27,6 +27,6 @@ Ben Tossell's system of thought is deeply pragmatic: he builds businesses around
 
 
 ## Sources captured
-- 2026-04 — `how-i-built-a-7-figure-business-in-less-than-a-year-with-ai-ben-tossell.md` (artemis ingest)
-- 2026-04 — `a-real-example-of-building-with-ai-in-2025.md` (artemis ingest)
-- 2026-04 — `how-ben-tossell-grew-bens-bites-into-a-100k-person-newsletter-in-13-months-growt.md` (artemis ingest)
+- 2026-04 — `how-i-built-a-7-figure-business-in-less-than-a-year-with-ai-ben-tossell.md` (operator essay archive)
+- 2026-04 — `a-real-example-of-building-with-ai-in-2025.md` (operator essay archive)
+- 2026-04 — `how-ben-tossell-grew-bens-bites-into-a-100k-person-newsletter-in-13-months-growt.md` (operator essay archive)

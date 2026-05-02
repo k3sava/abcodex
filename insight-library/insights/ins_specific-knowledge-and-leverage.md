@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/naval-ravikant.md
+raw_ref: raw/expert-content/experts/naval-ravikant.md
 ---
 
 # Wealth = Specific Knowledge × Leverage × Judgment, compounding over time
@@ -39,7 +39,7 @@ Fails when:
 
 > "Seek wealth, not money or status."
 
-— Naval Ravikant (Artemis expert synthesis)
+— Naval Ravikant (synthesized from operator's published work)
 
 ## Signals
 - Operator's career arc names the specific knowledge they're compounding.

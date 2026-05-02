@@ -26,4 +26,4 @@ AI-focused product marketing strategist who posts practical workflows for PMMs u
 
 
 ## Sources captured
-- 2026-04 — `competitive-teardown-claude-chrome-vivian-jordan.md` (artemis ingest)
+- 2026-04 — `competitive-teardown-claude-chrome-vivian-jordan.md` (operator essay archive)

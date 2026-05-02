@@ -4,7 +4,7 @@ operator: Dave Harland
 operator_role: Founder The Word Man; copywriter for Emirates, Jaguar, Nespresso, Red Bull, BBC
 source_url: https://www.thewordman.co.uk/
 source_type: essay
-source_title: "Dave Harland — write like YOU speak (Artemis synthesis)"
+source_title: "Dave Harland — write like YOU speak (operator synthesis)"
 source_date: 2026-03-03
 captured_date: 2026-05-02
 domain: [content, marketing, pmm]
@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/dave-harland.md
+raw_ref: raw/expert-content/experts/dave-harland.md
 ---
 
 # Voice quirks aren't bugs — they're the only thing AI cannot replicate
@@ -39,7 +39,7 @@ Fails when:
 
 > "People don't want to know how proud you are of your company. They want to know how you'll change their life."
 
-— Dave Harland / The Word Man (Artemis expert synthesis)
+— Dave Harland / The Word Man (synthesized from operator's published work)
 
 ## Signals
 - Brand voice doc names *one* specific human and lists their verbal quirks.

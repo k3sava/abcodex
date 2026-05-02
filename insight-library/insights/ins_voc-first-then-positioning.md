@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: [ins_relational-keywords-replace-internal-language]
-raw_ref: raw/artemis/experts/momoko-price.md
+raw_ref: raw/expert-content/experts/momoko-price.md
 ---
 
 # Customer language first, positioning built upward from it — not the reverse
@@ -39,7 +39,7 @@ Fails when:
 
 > "Instead of writing a positioning statement and then translating it into customer language, Price works in reverse."
 
-— Momoko Price (Artemis expert synthesis)
+— Momoko Price (synthesized from operator's published work)
 
 ## Signals
 - Copy briefs include a linguistic database of verbatim customer phrases.

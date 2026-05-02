@@ -28,6 +28,6 @@ Pieter Levels is the most extreme practitioner of the "ship fast" philosophy in 
 
 
 ## Sources captured
-- 2026-04 — `pieter-levels-the-indie-hackers-guide-to-ai-startups-the-bootstrapped-founder.md` (artemis ingest)
-- 2026-04 — `photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-132k-mrr-in-18-mont.md` (artemis ingest)
-- 2026-04 — `levelsio-and-the-dilemma-of-premature-optimization.md` (artemis ingest)
+- 2026-04 — `pieter-levels-the-indie-hackers-guide-to-ai-startups-the-bootstrapped-founder.md` (operator essay archive)
+- 2026-04 — `photo-ai-by-pieter-levels-complete-deep-dive-case-study-0-to-132k-mrr-in-18-mont.md` (operator essay archive)
+- 2026-04 — `levelsio-and-the-dilemma-of-premature-optimization.md` (operator essay archive)

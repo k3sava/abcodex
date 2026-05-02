@@ -28,6 +28,6 @@ Scott Galloway is the most provocative contemporary analyst of brand strategy an
 
 
 ## Sources captured
-- 2026-04 — `4-proven-business-strategies-from-nyu-stern-prof-scott-galloway.md` (artemis ingest)
-- 2026-04 — `laddering-no-mercy-no-malice.md` (artemis ingest)
-- 2026-04 — `winners-and-losers-scott-galloway-on-brand-success-in-the-age-of-amazon-peter-fi.md` (artemis ingest)
+- 2026-04 — `4-proven-business-strategies-from-nyu-stern-prof-scott-galloway.md` (operator essay archive)
+- 2026-04 — `laddering-no-mercy-no-malice.md` (operator essay archive)
+- 2026-04 — `winners-and-losers-scott-galloway-on-brand-success-in-the-age-of-amazon-peter-fi.md` (operator essay archive)

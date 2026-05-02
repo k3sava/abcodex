@@ -28,4 +28,4 @@ Product coach who writes about practical AI-augmented product management workflo
 
 
 ## Sources captured
-- 2026-04 — `synthesizing-qual-quant-and-strategy-with-claude-code-posthog-mcp.md` (artemis ingest)
+- 2026-04 — `synthesizing-qual-quant-and-strategy-with-claude-code-posthog-mcp.md` (operator essay archive)

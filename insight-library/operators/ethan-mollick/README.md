@@ -28,6 +28,6 @@ Ethan Mollick's central thesis is that management -- not technical skill -- is t
 
 ## Sources captured
 - 2026-04-23 — *Sign of the Future: GPT-5.5*, One Useful Thing (`raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md`)
-- 2026-04 — `real-ai-agents-and-real-work-by-ethan-mollick.md` (artemis ingest)
-- 2026-04 — `management-as-ai-superpower-by-ethan-mollick.md` (artemis ingest)
-- 2026-04 — `15-times-to-use-ai-and-5-not-to-by-ethan-mollick.md` (artemis ingest)
+- 2026-04 — `real-ai-agents-and-real-work-by-ethan-mollick.md` (operator essay archive)
+- 2026-04 — `management-as-ai-superpower-by-ethan-mollick.md` (operator essay archive)
+- 2026-04 — `15-times-to-use-ai-and-5-not-to-by-ethan-mollick.md` (operator essay archive)

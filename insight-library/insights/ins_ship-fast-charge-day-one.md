@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/pieter-levels.md
+raw_ref: raw/expert-content/experts/pieter-levels.md
 ---
 
 # Ship fast, charge from day one, use boring technology, never hire — every idea is a cheap experiment
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "A single person with AI tools can build and operate multiple profitable products simultaneously by treating every idea as a cheap experiment rather than a precious venture."
 
-— Pieter Levels, *MAKE: The Indie Maker Blueprint* (Artemis expert synthesis)
+— Pieter Levels, *MAKE: The Indie Maker Blueprint* (synthesized from operator's published work)
 
 ## Signals
 - Live revenue dashboard exists for every product, public or private.

@@ -25,6 +25,6 @@ Tiago Forte's Building a Second Brain methodology provides the foundational arch
 
 
 ## Sources captured
-- 2026-04 — `building-a-second-brain-the-definitive-introductory-guide.md` (artemis ingest)
-- 2026-04 — `progressive-summarization-a-practical-technique-for-designing-discoverable-notes.md` (artemis ingest)
-- 2026-04 — `the-story-behind-building-a-second-brain-forte-labs.md` (artemis ingest)
+- 2026-04 — `building-a-second-brain-the-definitive-introductory-guide.md` (operator essay archive)
+- 2026-04 — `progressive-summarization-a-practical-technique-for-designing-discoverable-notes.md` (operator essay archive)
+- 2026-04 — `the-story-behind-building-a-second-brain-forte-labs.md` (operator essay archive)

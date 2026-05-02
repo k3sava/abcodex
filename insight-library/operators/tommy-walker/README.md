@@ -29,7 +29,7 @@ Tommy Walker brings an engineering mindset to content operations, shaped by scal
 
 
 ## Sources captured
-- 2026-04 — `the-content-studios-tommy-walker-on-how-to-automate-your-content-workflow-omnisc.md` (artemis ingest)
-- 2026-04 — `001-the-long-game-podcast-content-operations-automation-and-storytelling-with-to.md` (artemis ingest)
-- 2026-04 — `ryan-hanley-become-undeniable.md` (artemis ingest)
-- 2026-04 — `how-to-infuse-soul-into-content-regardless-of-channel-by-tommy-walker-the-conten.md` (artemis ingest)
+- 2026-04 — `the-content-studios-tommy-walker-on-how-to-automate-your-content-workflow-omnisc.md` (operator essay archive)
+- 2026-04 — `001-the-long-game-podcast-content-operations-automation-and-storytelling-with-to.md` (operator essay archive)
+- 2026-04 — `ryan-hanley-become-undeniable.md` (operator essay archive)
+- 2026-04 — `how-to-infuse-soul-into-content-regardless-of-channel-by-tommy-walker-the-conten.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: [ins_specialization-creates-predictability]
-raw_ref: raw/artemis/articles/aaron-ross--cold-calling-2-outbound-specialization.md
+raw_ref: raw/expert-content/articles/aaron-ross--cold-calling-2-outbound-specialization.md
 ---
 
 # Don't cold-pitch executives. Ask them who owns the problem.

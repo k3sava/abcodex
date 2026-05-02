@@ -30,7 +30,7 @@ Jonathan Stark's system of thought begins with a single provocation: hourly bill
 
 
 ## Sources captured
-- 2026-04 — `hourly-billing-is-nuts-by-jonathan-stark.md` (artemis ingest)
-- 2026-04 — `crystalizing-your-specialization-by-jonathan-stark.md` (artemis ingest)
-- 2026-04 — `how-i-realized-that-hourly-billing-is-nuts-jonathan-stark.md` (artemis ingest)
-- 2026-04 — `jonathan-stark-explains-value-based-pricing.md` (artemis ingest)
+- 2026-04 — `hourly-billing-is-nuts-by-jonathan-stark.md` (operator essay archive)
+- 2026-04 — `crystalizing-your-specialization-by-jonathan-stark.md` (operator essay archive)
+- 2026-04 — `how-i-realized-that-hourly-billing-is-nuts-jonathan-stark.md` (operator essay archive)
+- 2026-04 — `jonathan-stark-explains-value-based-pricing.md` (operator essay archive)

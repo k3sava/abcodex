@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/daniel-kahneman.md
+raw_ref: raw/expert-content/experts/daniel-kahneman.md
 ---
 
 # Your initial intuition is a System 1 output, not an objective assessment
@@ -39,7 +39,7 @@ Fails when:
 
 > "Bias is the average error... noise is the unwanted variability in judgments that should be identical. Two doctors diagnosing the same patient... will often reach wildly different conclusions."
 
-— Daniel Kahneman, *Thinking, Fast and Slow* / *Noise* (Artemis expert synthesis)
+— Daniel Kahneman, *Thinking, Fast and Slow* / *Noise* (synthesized from operator's published work)
 
 ## Signals
 - Hiring loops use independent written ratings before debrief discussion.

@@ -28,6 +28,6 @@ Jason Fried's system of thought is built on a contrarian premise in the software
 
 
 ## Sources captured
-- 2026-04 — `introduction-shape-up.md` (artemis ingest)
-- 2026-04 — `my-interview-with-jason-fried-ceo-of-37signals-and-author-of-rework-practical-fo.md` (artemis ingest)
-- 2026-04 — `jason-fried-doing-the-enough-thing-the-knowledge-project-ep-54.md` (artemis ingest)
+- 2026-04 — `introduction-shape-up.md` (operator essay archive)
+- 2026-04 — `my-interview-with-jason-fried-ceo-of-37signals-and-author-of-rework-practical-fo.md` (operator essay archive)
+- 2026-04 — `jason-fried-doing-the-enough-thing-the-knowledge-project-ep-54.md` (operator essay archive)

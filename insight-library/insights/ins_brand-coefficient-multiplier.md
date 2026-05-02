@@ -14,7 +14,7 @@ artifact_class: metric-model
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: [ins_demand-creation-vs-capture]
-raw_ref: raw/artemis/experts/sam-kuehnle.md
+raw_ref: raw/expert-content/experts/sam-kuehnle.md
 ---
 
 # Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Brand is the force multiplier that makes demand gen actually work; stop separating brand and demand in org charts, budgets, and strategy, and instead ask how to strengthen your brand coefficient."
 
-— Sam Kuehnle (Artemis expert synthesis)
+— Sam Kuehnle (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks brand-coefficient gap (conversion rate brand-strong vs. brand-weak segments).

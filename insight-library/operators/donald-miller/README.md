@@ -30,7 +30,7 @@ Donald Miller is the creator of the StoryBrand Framework, the most widely adopte
 
 
 ## Sources captured
-- 2026-04 — `the-storybrand-7-part-framework-your-complete-guide-to-a-clearer-message.md` (artemis ingest)
-- 2026-04 — `book-summary-building-a-storybrand-donald-miller.md` (artemis ingest)
-- 2026-04 — `3-easy-steps-to-your-own-storybrand-one-liner-by-donald-miller.md` (artemis ingest)
-- 2026-04 — `donald-miller-building-a-storybrand-complete-guide-shortform-books.md` (artemis ingest)
+- 2026-04 — `the-storybrand-7-part-framework-your-complete-guide-to-a-clearer-message.md` (operator essay archive)
+- 2026-04 — `book-summary-building-a-storybrand-donald-miller.md` (operator essay archive)
+- 2026-04 — `3-easy-steps-to-your-own-storybrand-one-liner-by-donald-miller.md` (operator essay archive)
+- 2026-04 — `donald-miller-building-a-storybrand-complete-guide-shortform-books.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/julian-shapiro.md
+raw_ref: raw/expert-content/experts/julian-shapiro.md
 ---
 
 # Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Purchase Rate = Desire − (Labor + Confusion)."
 
-— Julian Shapiro (Artemis expert synthesis)
+— Julian Shapiro (synthesized from operator's published work)
 
 ## Signals
 - Marketing roadmap names one persistence channel as the originator and 1-2 hit-or-miss as accelerators.

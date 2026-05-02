@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/alex-hormozi.md
+raw_ref: raw/expert-content/experts/alex-hormozi.md
 ---
 
 # Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price
@@ -39,7 +39,7 @@ Fails when:
 
 > "Starving Crowd matters more than Offer Strength, which matters more than Persuasion Skills."
 
-— Alex Hormozi, $100M Offers (Artemis expert synthesis)
+— Alex Hormozi, $100M Offers (synthesized from operator's published work)
 
 ## Signals
 - Pricing conversations explicitly reference dream outcome and likelihood, not just deliverables.

@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/codie-sanchez.md
+raw_ref: raw/expert-content/experts/codie-sanchez.md
 ---
 
 # Buying eliminates the Valley of Death — the highest-risk phase of entrepreneurship is already done
@@ -39,7 +39,7 @@ Fails when:
 
 > "The Income Stream Framework: cash flow must cover (a) interest expense, (b) buyer's personal income, (c) operator salary, and (d) working capital."
 
-— Codie Sanchez (Artemis expert synthesis)
+— Codie Sanchez (synthesized from operator's published work)
 
 ## Signals
 - Deal pipeline includes broker outreach, direct owner outreach, and "driving for deals."

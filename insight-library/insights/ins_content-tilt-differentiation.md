@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/joe-pulizzi.md
+raw_ref: raw/expert-content/experts/joe-pulizzi.md
 ---
 
 # If you can't articulate your content tilt, stop creating content and buy ads instead
@@ -39,7 +39,7 @@ Fails when:
 
 > "95% of content creators he works with believe they have a true content tilt but do not."
 
-— Joe Pulizzi (Artemis expert synthesis)
+— Joe Pulizzi (synthesized from operator's published work)
 
 ## Signals
 - Content brief opens with a written tilt statement, tested against the "what's different here?" question.

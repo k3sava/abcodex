@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/david-aaker.md
+raw_ref: raw/expert-content/experts/david-aaker.md
 ---
 
 # Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Virtually all significant market share shifts in business history have come from brand relevance battles, not brand preference battles, yet the overwhelming majority of marketing budgets and strategic attention is devoted to brand preference competition."
 
-— David Aaker (Artemis expert synthesis)
+— David Aaker (synthesized from operator's published work)
 
 ## Signals
 - Strategy doc names a target *category* the brand intends to define, not just competitors to beat.

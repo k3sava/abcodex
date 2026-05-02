@@ -26,4 +26,4 @@ TK Kader's approach to ICP definition is distinguished by its insistence on acco
 
 
 ## Sources captured
-- 2026-04 — `ideal-customer-profile-icp-template-framework-guide-tk-kader.md` (artemis ingest)
+- 2026-04 — `ideal-customer-profile-icp-template-framework-guide-tk-kader.md` (operator essay archive)

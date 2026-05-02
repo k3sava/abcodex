@@ -28,8 +28,8 @@ Marty Neumeier is the most influential practitioner-author on brand strategy of 
 
 
 ## Sources captured
-- 2026-04 — `the-brand-gap-marty-neumeier.md` (artemis ingest)
-- 2026-04 — `the-onlyness-test-marty-neumeier.md` (artemis ingest)
-- 2026-04 — `the-new-brand-model-marty-neumeier.md` (artemis ingest)
-- 2026-04 — `a-guide-to-agile-strategy-marty-neumeier.md` (artemis ingest)
-- 2026-04 — `the-strategic-pyramid-marty-neumeier.md` (artemis ingest)
+- 2026-04 — `the-brand-gap-marty-neumeier.md` (operator essay archive)
+- 2026-04 — `the-onlyness-test-marty-neumeier.md` (operator essay archive)
+- 2026-04 — `the-new-brand-model-marty-neumeier.md` (operator essay archive)
+- 2026-04 — `a-guide-to-agile-strategy-marty-neumeier.md` (operator essay archive)
+- 2026-04 — `the-strategic-pyramid-marty-neumeier.md` (operator essay archive)

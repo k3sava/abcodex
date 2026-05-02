@@ -14,7 +14,7 @@ artifact_class: metric-model
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/hermann-simon.md
+raw_ref: raw/expert-content/experts/hermann-simon.md
 ---
 
 # A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function
@@ -41,7 +41,7 @@ Fails when:
 
 > "Discounting is the most dangerous pricing practice because it is easy to start, nearly impossible to stop, and trains customers to expect lower prices."
 
-— Hermann Simon (Artemis expert synthesis)
+— Hermann Simon (synthesized from operator's published work)
 
 ## Signals
 - Org chart names a pricing owner with named reports or partners.

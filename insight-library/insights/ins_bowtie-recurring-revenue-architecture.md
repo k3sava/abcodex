@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/jacco-van-der-kooij.md
+raw_ref: raw/expert-content/experts/jacco-van-der-kooij.md
 ---
 
 # 82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "In a perpetual license model, 60% of total revenue is captured at the initial sale; in a recurring model, only 18% is captured at the initial commitment, with 82% coming from renewals and expansion over subsequent years."
 
-— Jacco van der Kooij, *Revenue Architecture* (Artemis expert synthesis)
+— Jacco van der Kooij, *Revenue Architecture* (synthesized from operator's published work)
 
 ## Signals
 - Marketing/Sales/CS share dashboards keyed to Bowtie stages, not funnel stages.

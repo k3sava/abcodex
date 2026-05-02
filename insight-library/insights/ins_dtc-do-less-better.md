@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 3, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/nik-sharma.md
+raw_ref: raw/expert-content/experts/nik-sharma.md
 ---
 
 # Don't even think about a second channel until you can profitably spend $5K/day on Meta
@@ -39,7 +39,7 @@ Fails when:
 
 > "Do not even think about turning on another channel until you can profitably spend $5K/day on Meta."
 
-— Nik Sharma (Artemis expert synthesis)
+— Nik Sharma (synthesized from operator's published work)
 
 ## Signals
 - Brand has explicit single-channel discipline named in the marketing plan.

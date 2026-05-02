@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: [ins_gap-selling-change-formula]
-raw_ref: raw/artemis/experts/neil-rackham.md
+raw_ref: raw/expert-content/experts/neil-rackham.md
 ---
 
 # In large sales, only explicit needs predict success — Implication questions are the highest-leverage move
@@ -39,7 +39,7 @@ Fails when:
 
 > "Implication questions (the highest-leverage question type, where top performers ask 4x more than average)."
 
-— Neil Rackham, *SPIN Selling* (Artemis expert synthesis)
+— Neil Rackham, *SPIN Selling* (synthesized from operator's published work)
 
 ## Signals
 - Call coaching specifically counts Implication questions per call.

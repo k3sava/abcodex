@@ -26,9 +26,9 @@ Madhavan Ramanujam is the leading voice on monetization strategy and the integra
 
 
 ## Sources captured
-- 2026-04 — `its-price-before-product-period.md` (artemis ingest)
-- 2026-04 — `monetizing-innovation-an-interview-with-simon-kucher-partners-madhavan-ramanujam.md` (artemis ingest)
-- 2026-04 — `monetizing-innovation-by-georg-tacke-madhavan-ramanujam.md` (artemis ingest)
-- 2026-04 — `monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md` (artemis ingest)
-- 2026-04 — `price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md` (artemis ingest)
-- 2026-04 — `from-concept-to-profit-monetisation-framework-seedtoscale.md` (artemis ingest)
+- 2026-04 — `its-price-before-product-period.md` (operator essay archive)
+- 2026-04 — `monetizing-innovation-an-interview-with-simon-kucher-partners-madhavan-ramanujam.md` (operator essay archive)
+- 2026-04 — `monetizing-innovation-by-georg-tacke-madhavan-ramanujam.md` (operator essay archive)
+- 2026-04 — `monetizing-innovation-how-smart-companies-design-the-product-around-price-by-mad.md` (operator essay archive)
+- 2026-04 — `price-before-product-the-ai-monetization-playbook-madhavan-ramanujam-49-palms.md` (operator essay archive)
+- 2026-04 — `from-concept-to-profit-monetisation-framework-seedtoscale.md` (operator essay archive)

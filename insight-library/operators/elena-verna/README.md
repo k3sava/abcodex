@@ -35,4 +35,4 @@ Elena Verna is a growth advisor who brings a strategic, systems-level perspectiv
 ## Sources captured
 - 2026-04-26 — *Your product has a new user. It's not human.* / *Who's got time for product marketing?* (`raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md`)
 - 2026-04-28 — Lenny's Podcast, "10 growth tactics that never work, earned channels, optionality" (`raw/podcasts/elena-verna--earned-channels-tactics-that-never-work--2026-04-28.md`)
-- 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (artemis ingest)
+- 2026-04 — `product-led-growth-is-a-major-growth-motion-not-a-bag-of-tricks-reforge-blog.md` (operator essay archive)

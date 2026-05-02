@@ -29,8 +29,8 @@ Sam Kuehnle brings a practitioner's perspective to B2B demand generation, blendi
 
 
 ## Sources captured
-- 2026-04 — `take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md` (artemis ingest)
-- 2026-04 — `the-brand-coefficient-by-sam-kuehnle.md` (artemis ingest)
-- 2026-04 — `when-common-practice-buries-common-sense-by-sam-kuehnle.md` (artemis ingest)
-- 2026-04 — `separating-goals-and-metrics-by-sam-kuehnle.md` (artemis ingest)
-- 2026-04 — `i-dont-know-if-this-will-work-by-sam-kuehnle.md` (artemis ingest)
+- 2026-04 — `take-back-50-450-of-your-ad-budget-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04 — `the-brand-coefficient-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04 — `when-common-practice-buries-common-sense-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04 — `separating-goals-and-metrics-by-sam-kuehnle.md` (operator essay archive)
+- 2026-04 — `i-dont-know-if-this-will-work-by-sam-kuehnle.md` (operator essay archive)

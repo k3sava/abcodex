@@ -26,4 +26,4 @@ Cole Schafer runs Honeycopy as a writers' room, not a template factory. His fund
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

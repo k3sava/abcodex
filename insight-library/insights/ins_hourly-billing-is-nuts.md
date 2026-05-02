@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: [ins_anchor-high-pricing, ins_thinking-vs-doing-two-rooms]
-raw_ref: raw/artemis/experts/jonathan-stark.md
+raw_ref: raw/expert-content/experts/jonathan-stark.md
 ---
 
 # Hourly billing penalizes expertise — when you bill by the hour, getting better reduces your income
@@ -39,7 +39,7 @@ Fails when:
 
 > "I help [target market] with [expensive problem]."
 
-— Jonathan Stark, *Hourly Billing Is Nuts* (Artemis expert synthesis)
+— Jonathan Stark, *Hourly Billing Is Nuts* (synthesized from operator's published work)
 
 ## Signals
 - LFPS exists and names a measurable expensive problem, not a generic capability.

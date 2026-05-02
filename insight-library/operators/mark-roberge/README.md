@@ -29,6 +29,6 @@ Mark Roberge is the quintessential engineer-turned-sales-leader. His MIT enginee
 
 
 ## Sources captured
-- 2026-04 — `sales-acceleration-formula-summary-mark-roberge.md` (artemis ingest)
-- 2026-04 — `mark-roberge-data-driven-sales-hiring-scorecard.md` (artemis ingest)
-- 2026-04 — `mark-roberge-science-of-scaling-stage2-capital.md` (artemis ingest)
+- 2026-04 — `sales-acceleration-formula-summary-mark-roberge.md` (operator essay archive)
+- 2026-04 — `mark-roberge-data-driven-sales-hiring-scorecard.md` (operator essay archive)
+- 2026-04 — `mark-roberge-science-of-scaling-stage2-capital.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/park-howell.md
+raw_ref: raw/expert-content/experts/park-howell.md
 ---
 
 # ABT (And, But, Therefore) is the DNA of compelling communication
@@ -39,7 +39,7 @@ Fails when:
 
 > "The 10-step Story Cycle System maps Joseph Campbell's Hero's Journey to business to place the customer as hero and the brand as mentor."
 
-— Park Howell, *Brand Bewitchery* (Artemis expert synthesis)
+— Park Howell, *Brand Bewitchery* (synthesized from operator's published work)
 
 ## Signals
 - Pitch decks open with a literal And-But-Therefore beat structure on the first three slides.

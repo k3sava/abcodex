@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/debbie-millman.md
+raw_ref: raw/expert-content/experts/debbie-millman.md
 ---
 
 # Brands are tribal identifiers. Loyalty is affiliative, not rational.
@@ -39,7 +39,7 @@ Fails when:
 
 > "We don't buy products; we buy into what they represent about our identity, our values, and our place in the world."
 
-— Debbie Millman (Artemis expert synthesis)
+— Debbie Millman (synthesized from operator's published work)
 
 ## Signals
 - Brand work integrates psychology + economics + design as one strategic act.

@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/tim-ferriss.md
+raw_ref: raw/expert-content/experts/tim-ferriss.md
 ---
 
 # What we fear doing most is usually what we most need to do — fear-set, don't goal-set
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "What we fear doing most is usually what we most need to do; effectiveness is doing the things that get you closer to your goals, and efficiency is performing a given task in the most economical manner possible, and the two should never be confused."
 
-— Tim Ferriss (Artemis expert synthesis)
+— Tim Ferriss (synthesized from operator's published work)
 
 ## Signals
 - Major decisions (career, capital, founding) trigger a written fear-setting exercise.

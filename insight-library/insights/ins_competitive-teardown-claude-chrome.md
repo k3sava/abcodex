@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/vivian-jordan.md
+raw_ref: raw/expert-content/experts/vivian-jordan.md
 ---
 
 # AI clears the runway for competitive strategy — 8-10 hour teardowns compressed to under an hour
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "AI clears the runway for competitive strategy — 8-10 hour teardowns compressed to under an hour using Claude Chrome for multi-channel analysis."
 
-— Vivian Jordan (Artemis expert synthesis)
+— Vivian Jordan (synthesized from operator's published work)
 
 ## Signals
 - PMM produces teardowns weekly or monthly, not quarterly.

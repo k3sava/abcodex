@@ -30,7 +30,7 @@ Cyrus Shepard occupies a unique position in the SEO world: he is one of the few 
 
 
 ## Sources captured
-- 2026-04 — `i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md` (artemis ingest)
-- 2026-04 — `google-rewrites-61-of-page-title-tags-seo-study.md` (artemis ingest)
-- 2026-04 — `23-million-internal-links-seo-case-study.md` (artemis ingest)
-- 2026-04 — `introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md` (artemis ingest)
+- 2026-04 — `i-secretly-worked-as-a-google-search-quality-rater-you-can-too-zyppy-seo.md` (operator essay archive)
+- 2026-04 — `google-rewrites-61-of-page-title-tags-seo-study.md` (operator essay archive)
+- 2026-04 — `23-million-internal-links-seo-case-study.md` (operator essay archive)
+- 2026-04 — `introducing-the-google-page-quality-rating-scorecard-zyppy-seo.md` (operator essay archive)

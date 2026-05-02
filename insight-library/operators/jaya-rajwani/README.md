@@ -13,6 +13,11 @@ captured_first: 2026-05-01
 ## Bio
 AI engineering practitioner. Co-authored 2026-04-28 Lenny's Newsletter guest piece on agent taxonomy with Hamza Farooq.
 
+*Identity not yet verified beyond their cited work.*
+
+## Operating themes
+- **Three classes of agents** — taxonomize agent loops by structural type before resourcing the build.
+
 ## Cards
 - `ins_three-class-agent-taxonomy` — Agents come in three classes — tag each loop or under-resource it [Tier B] (co-authored with Hamza Farooq)
 

@@ -30,8 +30,8 @@ Jacco van der Kooij is the architect of the most comprehensive systems-level fra
 
 
 ## Sources captured
-- 2026-04 — `the-spiced-framework-winning-by-design-blueprints.md` (artemis ingest)
-- 2026-04 — `the-operating-model-for-recurring-revenue-winning-by-design-research.md` (artemis ingest)
-- 2026-04 — `preview-chapter-1-of-revenue-architecture-by-jacco-van-der-kooij-winning-by-desi.md` (artemis ingest)
-- 2026-04 — `frameworks-that-govern-b2b-marketing-and-sales-and-why-saas-needs-its-own-framew.md` (artemis ingest)
-- 2026-04 — `ai-research-across-the-bowtie-winning-by-design-research.md` (artemis ingest)
+- 2026-04 — `the-spiced-framework-winning-by-design-blueprints.md` (operator essay archive)
+- 2026-04 — `the-operating-model-for-recurring-revenue-winning-by-design-research.md` (operator essay archive)
+- 2026-04 — `preview-chapter-1-of-revenue-architecture-by-jacco-van-der-kooij-winning-by-desi.md` (operator essay archive)
+- 2026-04 — `frameworks-that-govern-b2b-marketing-and-sales-and-why-saas-needs-its-own-framew.md` (operator essay archive)
+- 2026-04 — `ai-research-across-the-bowtie-winning-by-design-research.md` (operator essay archive)

@@ -29,7 +29,7 @@ Morgan Housel's central thesis is that financial outcomes are driven not by inte
 
 
 ## Sources captured
-- 2026-04 — `getting-wealthy-vs-staying-wealthy-collaborative-fund.md` (artemis ingest)
-- 2026-04 — `little-rules-about-big-things-collaborative-fund.md` (artemis ingest)
-- 2026-04 — `compounding-optimism-collaborative-fund.md` (artemis ingest)
-- 2026-04 — `the-psychology-of-money-collaborative-fund.md` (artemis ingest)
+- 2026-04 — `getting-wealthy-vs-staying-wealthy-collaborative-fund.md` (operator essay archive)
+- 2026-04 — `little-rules-about-big-things-collaborative-fund.md` (operator essay archive)
+- 2026-04 — `compounding-optimism-collaborative-fund.md` (operator essay archive)
+- 2026-04 — `the-psychology-of-money-collaborative-fund.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: research
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/matt-shumer.md
+raw_ref: raw/expert-content/experts/matt-shumer.md
 ---
 
 # AI has crossed the threshold to something indistinguishable from judgment and taste — winners will know what to build, not how
@@ -39,7 +39,7 @@ Fails when:
 
 > "The inexplicable sense of knowing what the right call is that people always said AI would never have."
 
-— Matt Shumer (Artemis expert synthesis)
+— Matt Shumer (synthesized from operator's published work)
 
 ## Signals
 - Development workflow includes a two-pass cleanup step explicitly designed for AI-generated code.

@@ -49,7 +49,7 @@ Transcript at `lenny-dropbox/Sherwin Wu_V2.txt`.
 
 - **Codex stress is real.** "When agents aren't working, you fire off all these threads and have to stay on top of them." A new failure mode the substrate must address. Implications for flywheel: build "agent health" dashboards before scaling out the agent count.
 - **Multiple-models-as-second-opinion is feasible.** OpenAI tests internal model variants for review. Marketing analog: substrate could have one model write copy, another (different system prompt) review for brand voice and kill-list violations.
-- **Documentation as the gating asset.** "Encoding tribal knowledge into the code base via comments, structure, .md files, Skills, any type of resources within the repository." Direct mandate for the contextDB and the artemis docs corpus — they are the actual product, not the agents.
+- **Documentation as the gating asset.** "Encoding tribal knowledge into the code base via comments, structure, .md files, Skills, any type of resources within the repository." Direct mandate for the contextDB and the operator docs corpus — they are the actual product, not the agents.
 - **Managerial work hasn't been Codexed yet, but trends are visible.** Research, organizational context, peer-room learning — all becoming AI-augmented for managers. Sherwin sees the trend; nothing replaces the manager fully yet.
 - **"Tab complete in Cursor" as the escape hatch.** Even at OpenAI, the escape hatch is still a less-agentic AI tool, not unaided coding. Marketing analog: even when substrate fails, the fallback is "human + Claude in chat", not "human alone with Google Doc."
 

@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/james-clear.md
+raw_ref: raw/expert-content/experts/james-clear.md
 ---
 
 # You don't rise to the level of your goals; you fall to the level of your systems
@@ -41,7 +41,7 @@ Fails when:
 
 > "The goal is not to read a book, the goal is to become a reader."
 
-— James Clear, *Atomic Habits* (Artemis expert synthesis)
+— James Clear, *Atomic Habits* (synthesized from operator's published work)
 
 ## Signals
 - Quarterly OKRs are paired with daily/weekly *system* metrics (publishing cadence, prospecting touches).

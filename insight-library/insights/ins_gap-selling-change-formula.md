@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/keenan.md
+raw_ref: raw/expert-content/experts/keenan.md
 ---
 
 # No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Change = (Dissatisfaction with Current State × Desirability of Future State) > Cost of Change."
 
-— Keenan, *Gap Selling* (Artemis expert synthesis)
+— Keenan, *Gap Selling* (synthesized from operator's published work)
 
 ## Signals
 - CRM tracks current/future state mapping completeness as a stage gate.

@@ -4,7 +4,7 @@ operator: Andy Crestodina
 operator_role: Co-founder & CMO Orbit Media Studios; author Content Chemistry
 source_url: https://www.orbitmedia.com/
 source_type: essay
-source_title: "Andy Crestodina — Content Chemistry & original research playbook (Artemis expert synthesis)"
+source_title: "Andy Crestodina — Content Chemistry & original research playbook (synthesized from operator's published work)"
 source_date: 2026-03-03
 captured_date: 2026-05-02
 domain: [content, marketing, growth-demand]
@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 3 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/andy-crestodina.md
+raw_ref: raw/expert-content/experts/andy-crestodina.md
 ---
 
 # Run one original-research study a year; it will out-link a year of weekly posts
@@ -39,7 +39,7 @@ Fails when:
 
 > "Publish fewer pieces, but invest disproportionately in two formats that resist AI commoditization. The first is original research..."
 
-— Andy Crestodina (Artemis expert synthesis)
+— Andy Crestodina (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar reserves a "research project" slot once or twice a year, with a separate budget.

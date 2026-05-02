@@ -29,4 +29,4 @@ Eddie Shleyner's approach to copywriting is built on the conviction that emotion
 
 
 ## Sources captured
-_None archived in codex yet — see Artemis knowledge base for original ingest._
+_None archived in codex yet — original ingest archived externally._

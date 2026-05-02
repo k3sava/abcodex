@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/reforge.md
+raw_ref: raw/expert-content/experts/reforge.md
 ---
 
 # Growth is a system of interconnected loops, not a collection of tactics
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Growth is a system of interconnected loops and models, not a collection of tactics — sustainable growth requires understanding the quantitative mechanics of acquisition, retention, and monetization."
 
-— Reforge (Artemis expert synthesis)
+— Reforge (synthesized from operator's published work)
 
 ## Signals
 - Strategy doc maps the explicit loops the company runs, with input/output measured per loop.

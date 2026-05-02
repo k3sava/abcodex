@@ -28,8 +28,8 @@ Seth Godin is the most prolific and influential marketing thinker of the interne
 
 
 ## Sources captured
-- 2026-04 — `permission-marketing-seths-blog.md` (artemis ingest)
-- 2026-04 — `the-minimum-viable-audience-seths-blog.md` (artemis ingest)
-- 2026-04 — `the-smallest-viable-audience-seths-blog.md` (artemis ingest)
-- 2026-04 — `book-summary-purple-cow-seth-godwin.md` (artemis ingest)
-- 2026-04 — `9-takeaways-from-this-is-marketing-by-seth-godin-olivine-a-product-marketing-age.md` (artemis ingest)
+- 2026-04 — `permission-marketing-seths-blog.md` (operator essay archive)
+- 2026-04 — `the-minimum-viable-audience-seths-blog.md` (operator essay archive)
+- 2026-04 — `the-smallest-viable-audience-seths-blog.md` (operator essay archive)
+- 2026-04 — `book-summary-purple-cow-seth-godwin.md` (operator essay archive)
+- 2026-04 — `9-takeaways-from-this-is-marketing-by-seth-godin-olivine-a-product-marketing-age.md` (operator essay archive)

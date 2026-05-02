@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/dave-gerhardt.md
+raw_ref: raw/expert-content/experts/dave-gerhardt.md
 ---
 
 # Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't
@@ -39,7 +39,7 @@ Fails when:
 
 > "Whose content are you actually looking forward to reading and why?"
 
-— Dave Gerhardt (Artemis expert synthesis)
+— Dave Gerhardt (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks earned reach (LinkedIn organic, podcast mentions) alongside paid.

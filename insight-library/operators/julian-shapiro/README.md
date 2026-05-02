@@ -30,7 +30,7 @@ Julian Shapiro's approach to growth marketing is systematic and channel-agnostic
 
 
 ## Sources captured
-- 2026-04 — `startup-handbook-customer-acquisition-channels-by-julian-shapiro.md` (artemis ingest)
-- 2026-04 — `startup-handbook-product-led-acquisition-by-julian-shapiro.md` (artemis ingest)
-- 2026-04 — `how-to-write-your-landing-page-above-the-fold-demand-curve.md` (artemis ingest)
-- 2026-04 — `startup-handbook-landing-pages-by-julian-shapiro.md` (artemis ingest)
+- 2026-04 — `startup-handbook-customer-acquisition-channels-by-julian-shapiro.md` (operator essay archive)
+- 2026-04 — `startup-handbook-product-led-acquisition-by-julian-shapiro.md` (operator essay archive)
+- 2026-04 — `how-to-write-your-landing-page-above-the-fold-demand-curve.md` (operator essay archive)
+- 2026-04 — `startup-handbook-landing-pages-by-julian-shapiro.md` (operator essay archive)

@@ -14,7 +14,7 @@ artifact_class: metric-model
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: []
-raw_ref: raw/artemis/experts/david-skok.md
+raw_ref: raw/expert-content/experts/david-skok.md
 ---
 
 # LTV ≥ 3× CAC, recover CAC in <12 months — and expect a multi-year cash flow trough before it pays off
@@ -41,7 +41,7 @@ Fails when:
 
 > "When a company hires two new salespeople per month to drive growth, his model shows a worst monthly loss of $190K and first profit only after 21 months."
 
-— David Skok, *SaaS Metrics 2.0* (Artemis expert synthesis)
+— David Skok, *SaaS Metrics 2.0* (synthesized from operator's published work)
 
 ## Signals
 - Board reporting includes LTV:CAC, payback period, NRR, and burn multiple as headline metrics.

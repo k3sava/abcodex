@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: [ins_eeat-quality-rater-perspective]
-raw_ref: raw/artemis/experts/marie-haynes.md
+raw_ref: raw/expert-content/experts/marie-haynes.md
 ---
 
 # The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Algorithm recovery is a systematic diagnostic process, not guesswork; the Google Quality Rater Guidelines are the closest thing to a public roadmap for what Google considers quality."
 
-— Marie Haynes (Artemis expert synthesis)
+— Marie Haynes (synthesized from operator's published work)
 
 ## Signals
 - Audit artifact maps each E-E-A-T signal vs. competitors who now outrank.

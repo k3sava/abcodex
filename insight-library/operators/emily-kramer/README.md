@@ -30,4 +30,4 @@ Emily Kramer's positioning philosophy is built on a single, sharp critique: most
 
 
 ## Sources captured
-- 2026-04 — `the-mkt1-guide-to-positioning.md` (artemis ingest)
+- 2026-04 — `the-mkt1-guide-to-positioning.md` (operator essay archive)

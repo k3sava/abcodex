@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/tommy-walker.md
+raw_ref: raw/expert-content/experts/tommy-walker.md
 ---
 
 # Content is social currency — buyers share what makes them look smart, and decisions are made in Slack
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Content operations at scale requires three axioms: a solid premise gets you 80% of the way there, decisions are made in Slack (meaning you must understand where organizational buying happens), and content is a form of social currency that people use to express their identity and enhance their professional standing."
 
-— Tommy Walker (Artemis expert synthesis)
+— Tommy Walker (synthesized from operator's published work)
 
 ## Signals
 - Content briefs lead with the premise, tested for sharpness against alternatives.

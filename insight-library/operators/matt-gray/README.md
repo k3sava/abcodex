@@ -30,6 +30,6 @@ Matt Gray's foundational lens is that modern businesses should be built media-fi
 
 
 ## Sources captured
-- 2026-04 — `matt-grays-art-vs-algorithm-strategy-for-scaling-content.md` (artemis ingest)
-- 2026-04 — `matt-gray-interview-building-personal-brands-communities-and-media-first-startup.md` (artemis ingest)
-- 2026-04 — `the-success-journey-of-matt-gray-from-building-profitable-companies-to-cultivati.md` (artemis ingest)
+- 2026-04 — `matt-grays-art-vs-algorithm-strategy-for-scaling-content.md` (operator essay archive)
+- 2026-04 — `matt-gray-interview-building-personal-brands-communities-and-media-first-startup.md` (operator essay archive)
+- 2026-04 — `the-success-journey-of-matt-gray-from-building-profitable-companies-to-cultivati.md` (operator essay archive)

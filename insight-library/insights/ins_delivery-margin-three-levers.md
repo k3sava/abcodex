@@ -14,7 +14,7 @@ artifact_class: metric-model
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 3, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/marcel-petitpas.md
+raw_ref: raw/expert-content/experts/marcel-petitpas.md
 ---
 
 # Most agencies suffer from indigestion, not starvation — measure delivery margin and the three levers that move it
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Most agencies suffer from indigestion, not starvation; the path to profitability lies in measuring delivery margin and the three levers that drive it."
 
-— Marcel Petitpas (Artemis expert synthesis)
+— Marcel Petitpas (synthesized from operator's published work)
 
 ## Signals
 - Monthly P&L includes delivery margin as a headline metric, not just revenue.

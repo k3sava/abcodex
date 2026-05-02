@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/nate-substack.md
+raw_ref: raw/expert-content/experts/nate-substack.md
 ---
 
 # Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Skills are super-leveraged prompts requiring engineering rigor — treat prompts as code."
 
-— Nate (Artemis expert synthesis, *natesnewsletter.substack.com*)
+— Nate (operator synthesis, *natesnewsletter.substack.com*)
 
 ## Signals
 - Skills repository has tests, version control, and documented dependencies.

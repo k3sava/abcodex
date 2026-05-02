@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }
 tier: A
 related: [ins_one-percent-price-eight-percent-profit]
-raw_ref: raw/artemis/experts/madhavan-ramanujam.md
+raw_ref: raw/expert-content/experts/madhavan-ramanujam.md
 ---
 
 # Price before product. 72% of innovations fail because companies design first and price later.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Before any product design began, Porsche surveyed customers on every possible feature and their willingness to pay for each."
 
-— Madhavan Ramanujam, *Monetizing Innovation* (Artemis expert synthesis)
+— Madhavan Ramanujam, *Monetizing Innovation* (synthesized from operator's published work)
 
 ## Signals
 - Product brief includes WTP data per feature, not just feature priorities.

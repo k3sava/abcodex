@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/paul-jarvis.md
+raw_ref: raw/expert-content/experts/paul-jarvis.md
 ---
 
 # A company of one questions whether growth is good — and defines "enough" before "more"
@@ -39,7 +39,7 @@ Fails when:
 
 > "Sean D'Souza, whose consultancy Psychotactics has a hard cap of $500K in annual profit; when revenue exceeds the cap, D'Souza takes time off rather than scaling up."
 
-— Paul Jarvis, *Company of One* (Artemis expert synthesis)
+— Paul Jarvis, *Company of One* (synthesized from operator's published work)
 
 ## Signals
 - Founder has documented their "enough" number for revenue and work hours.

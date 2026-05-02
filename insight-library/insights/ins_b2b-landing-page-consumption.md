@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/tas-bober.md
+raw_ref: raw/expert-content/experts/tas-bober.md
 ---
 
 # Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Conversion is not the name of the game in B2B; consumption is. The goal of each section on a landing page is not to convert the user but to send them to the next section."
 
-— Tas Bober (Artemis expert synthesis)
+— Tas Bober (synthesized from operator's published work)
 
 ## Signals
 - Landing-page metrics include scroll depth, time-on-page, return visits — not just form-fill rate.

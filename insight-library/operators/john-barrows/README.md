@@ -30,6 +30,6 @@ John Barrows is the practitioner's practitioner of B2B sales. Where other method
 
 
 ## Sources captured
-- 2026-04 — `john-barrows-filling-funnel-driving-to-close.md` (artemis ingest)
-- 2026-04 — `john-barrows-sales-prospecting-personalization.md` (artemis ingest)
-- 2026-04 — `john-barrows-contact-strategy-trigger-events.md` (artemis ingest)
+- 2026-04 — `john-barrows-filling-funnel-driving-to-close.md` (operator essay archive)
+- 2026-04 — `john-barrows-sales-prospecting-personalization.md` (operator essay archive)
+- 2026-04 — `john-barrows-contact-strategy-trigger-events.md` (operator essay archive)

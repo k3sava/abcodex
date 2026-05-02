@@ -14,7 +14,7 @@ artifact_class: playbook
 score: { originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/john-barrows.md
+raw_ref: raw/expert-content/experts/john-barrows.md
 ---
 
 # Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Tailored (15-30 minutes of research for high-value targets, 15-25% response rates)... Templated (1-2 minutes for broad coverage, 2-5% response rates)."
 
-— John Barrows (Artemis expert synthesis)
+— John Barrows (synthesized from operator's published work)
 
 ## Signals
 - Outreach is segmented into three tiers with named volume + reply-rate targets per tier.

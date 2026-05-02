@@ -28,6 +28,6 @@ Hermann Simon is the founding figure of professional pricing practice. While oth
 
 
 ## Sources captured
-- 2026-04 — `book-summary-confessions-of-the-pricing-man-by-hermann-simon.md` (artemis ingest)
-- 2026-04 — `pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md` (artemis ingest)
-- 2026-04 — `pricing-for-profit-best-practices-in-price-management.md` (artemis ingest)
+- 2026-04 — `book-summary-confessions-of-the-pricing-man-by-hermann-simon.md` (operator essay archive)
+- 2026-04 — `pricing-and-the-ceo-hermann-simon-chairman-simon-kucher-partners.md` (operator essay archive)
+- 2026-04 — `pricing-for-profit-best-practices-in-price-management.md` (operator essay archive)

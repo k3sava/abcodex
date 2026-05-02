@@ -30,7 +30,7 @@ Charlie Munger's central intellectual contribution is the concept of a "latticew
 
 
 ## Sources captured
-- 2026-04 — `charlie-munger-latticework-of-mental-models-hamptons-group.md` (artemis ingest)
-- 2026-04 — `charlie-mungers-system-of-mental-models-by-daniel.md` (artemis ingest)
-- 2026-04 — `charlie-munger-adding-mental-models-to-your-toolbox.md` (artemis ingest)
-- 2026-04 — `the-munger-operating-system-a-life-that-works.md` (artemis ingest)
+- 2026-04 — `charlie-munger-latticework-of-mental-models-hamptons-group.md` (operator essay archive)
+- 2026-04 — `charlie-mungers-system-of-mental-models-by-daniel.md` (operator essay archive)
+- 2026-04 — `charlie-munger-adding-mental-models-to-your-toolbox.md` (operator essay archive)
+- 2026-04 — `the-munger-operating-system-a-life-that-works.md` (operator essay archive)

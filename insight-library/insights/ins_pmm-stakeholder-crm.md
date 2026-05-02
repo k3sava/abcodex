@@ -14,7 +14,7 @@ artifact_class: workflow
 score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }
 tier: B
 related: []
-raw_ref: raw/artemis/experts/shireesh-gupta.md
+raw_ref: raw/expert-content/experts/shireesh-gupta.md
 ---
 
 # 35% of PMM time goes to stakeholder management — make it trackable with a CRM-like Claude Code system
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "35% of PMM time goes to stakeholder management — make it trackable by building a CRM-like system with Claude Code that scores relationships on frequency, depth, and reciprocity."
 
-— Shireesh Gupta (Artemis expert synthesis)
+— Shireesh Gupta (synthesized from operator's published work)
 
 ## Signals
 - Stakeholder list exists with named scoring across three axes.

@@ -30,6 +30,6 @@ Claire Suellentrop is the leading practitioner of applying Jobs-to-be-Done theor
 
 
 ## Sources captured
-- 2026-04 — `how-to-use-jobs-to-be-done-for-saas-growth-strategy.md` (artemis ingest)
-- 2026-04 — `claire-suellentrop-on-unlocking-customer-led-growth-in-saas.md` (artemis ingest)
-- 2026-04 — `get-out-of-the-echo-chamber-how-to-use-jobs-to-be-done-to-perfect-your-products-.md` (artemis ingest)
+- 2026-04 — `how-to-use-jobs-to-be-done-for-saas-growth-strategy.md` (operator essay archive)
+- 2026-04 — `claire-suellentrop-on-unlocking-customer-led-growth-in-saas.md` (operator essay archive)
+- 2026-04 — `get-out-of-the-echo-chamber-how-to-use-jobs-to-be-done-to-perfect-your-products-.md` (operator essay archive)

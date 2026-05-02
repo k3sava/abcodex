@@ -14,7 +14,7 @@ artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }
 tier: A
 related: [ins_jtbd-switch-interview-saas]
-raw_ref: raw/artemis/experts/georgiana-laudi.md
+raw_ref: raw/expert-content/experts/georgiana-laudi.md
 ---
 
 # Map the journey by customer success milestones, not pipeline stages
@@ -39,7 +39,7 @@ Fails when:
 
 > "PLG companies that optimize onboarding without understanding the customer's job still churn."
 
-— Georgiana Laudi (Artemis expert synthesis)
+— Georgiana Laudi (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard shows Time-to-First-Value, feature-adoption breadth, expansion triggers — not just MQLs.

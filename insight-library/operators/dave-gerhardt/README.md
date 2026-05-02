@@ -30,6 +30,6 @@ Dave Gerhardt's central thesis is that B2B marketing suffers from a creativity d
 
 
 ## Sources captured
-- 2026-04 — `how-drift-started-a-movement-to-achieve-hypergrowth-with-dave-gerhardt-chili-pip.md` (artemis ingest)
-- 2026-04 — `atreo-the-movement-design-agency-for-b2b-tech.md` (artemis ingest)
-- 2026-04 — `dave-gerhardts-3-tenets-of-b2b-marketing-formstack-blog.md` (artemis ingest)
+- 2026-04 — `how-drift-started-a-movement-to-achieve-hypergrowth-with-dave-gerhardt-chili-pip.md` (operator essay archive)
+- 2026-04 — `atreo-the-movement-design-agency-for-b2b-tech.md` (operator essay archive)
+- 2026-04 — `dave-gerhardts-3-tenets-of-b2b-marketing-formstack-blog.md` (operator essay archive)
