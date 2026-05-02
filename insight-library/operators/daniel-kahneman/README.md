@@ -8,6 +8,8 @@ roles:
   - Fast and Slow and co-author of Noise: A Flaw in Human Judgment
 domains_active: [leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  website: https://kahneman.scholar.princeton.edu/
 ---
 
 # Daniel Kahneman

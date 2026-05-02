@@ -8,6 +8,9 @@ roles:
   - His blog forEntrepreneurs.com is the definitive reference for SaaS metrics and unit economics
 domains_active: [sales-cs, pmm, leadership, growth, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/dskok/
+  website: https://www.forentrepreneurs.com/
 ---
 
 # David Skok

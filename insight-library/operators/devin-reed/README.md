@@ -7,6 +7,9 @@ roles:
   - created Clari CEO's LinkedIn strategy generating 6.1M views in 12 months; SaaS advisor; speaker at Content Marketing World
 domains_active: [pmm, leadership, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/devinreed/
+  website: https://thereeder.co/
 ---
 
 # Devin Reed

@@ -8,6 +8,8 @@ roles:
   - primary author Conor Bond on the Crayon marketing team
 domains_active: [sales-cs]
 captured_first: 2026-05-01
+external:
+  website: https://www.crayon.co/
 ---
 
 # Crayon

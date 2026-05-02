@@ -7,7 +7,8 @@ roles:
   - ex-PwC
 domains_active: [pmm]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/doravanourek/
 ---
 
 # Dora Vanourek

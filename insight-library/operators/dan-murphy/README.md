@@ -5,7 +5,8 @@ roles:
   - CEO of Exit Five. Drive 2026 tickets now on sale.
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/-danieljmurphy/
 ---
 
 # Dan Murphy

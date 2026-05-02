@@ -7,6 +7,9 @@ roles:
   - 'Aaker on Branding
 domains_active: [design, leadership, growth, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/davidaaker/
+  website: https://www.davidaaker.com/
 ---
 
 # David Aaker

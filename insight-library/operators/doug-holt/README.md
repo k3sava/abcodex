@@ -6,6 +6,8 @@ roles:
   - and Purina
 domains_active: [design, pmm, leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/douglas-holt-7b999464/
 ---
 
 # Doug Holt

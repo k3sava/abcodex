@@ -8,6 +8,9 @@ roles:
   - Built the StoryBrand Certified Guide network of marketing professionals
 domains_active: [design, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/donald-miller-storybrand/
+  website: https://storybrand.com/
 ---
 
 # Donald Miller

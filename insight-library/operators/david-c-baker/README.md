@@ -8,6 +8,9 @@ roles:
   - Co-host of 2Bobs podcast with Blair Enns
 domains_active: [pmm, design, leadership, product, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/dcb/
+  website: https://punctuation.com/
 ---
 
 # David C. Baker

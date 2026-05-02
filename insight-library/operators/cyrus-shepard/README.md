@@ -8,6 +8,9 @@ roles:
   - conducted landmark studies on title tag rewrites (81,000 tags) and internal linking (23 million links across 1,800 sites)
 domains_active: [growth, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/cyrusshepard/
+  website: https://zyppy.com/
 ---
 
 # Cyrus Shepard

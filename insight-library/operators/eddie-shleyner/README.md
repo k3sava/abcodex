@@ -8,6 +8,9 @@ roles:
   - Amplitude
 domains_active: [pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/eshleyner/
+  website: https://verygoodcopy.com/
 ---
 
 # Eddie Shleyner

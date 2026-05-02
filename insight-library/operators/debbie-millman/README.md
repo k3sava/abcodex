@@ -8,6 +8,9 @@ roles:
   - where she redesigned over 200 global brands including Pepsi
 domains_active: [leadership, design, pmm, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/deborahmillman/
+  podcast: https://www.designmattersmedia.com/
 ---
 
 # Debbie Millman

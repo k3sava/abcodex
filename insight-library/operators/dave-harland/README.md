@@ -8,6 +8,9 @@ roles:
   - and other major brands
 domains_active: [pmm, design, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/daveharland/
+  website: https://thewordman.co.uk/
 ---
 
 # Dave Harland

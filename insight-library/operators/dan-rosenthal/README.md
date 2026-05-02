@@ -6,7 +6,8 @@ roles:
   - Growth playbooks using AI
 domains_active: [growth, founder-craft, ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/dan-m-rosenthal/
 ---
 
 # Dan Rosenthal

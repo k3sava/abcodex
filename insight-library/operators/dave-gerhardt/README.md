@@ -8,6 +8,9 @@ roles:
   - built DGMG into a media brand for B2B marketing education
 domains_active: [leadership, design, pmm, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/davegerhardt/
+  website: https://exitfive.com/
 ---
 
 # Dave Gerhardt

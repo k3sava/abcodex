@@ -5,7 +5,8 @@ roles:
   - Founder and CTO at HubSpot. Helping millions grow better.
 domains_active: [founder-craft, engineering]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/dharmesh/
 ---
 
 # Dharmesh Shah

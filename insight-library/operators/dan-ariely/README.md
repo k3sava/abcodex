@@ -8,6 +8,9 @@ roles:
   - 000 times and directly influenced pricing strategy across industries
 domains_active: [pmm, growth, leadership, research, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/danariely/
+  website: https://danariely.com/
 ---
 
 # Dan Ariely

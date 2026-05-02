@@ -6,6 +6,9 @@ roles:
   - and Fast Company
 domains_active: [design, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/deniseleeyohn/
+  website: https://deniseleeyohn.com/
 ---
 
 # Denise Lee Yohn

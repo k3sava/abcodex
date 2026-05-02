@@ -5,6 +5,9 @@ roles:
   - Founder of Honeycopy
 domains_active: [pmm, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/cole-schafer/
+  website: https://honeycopy.com/
 ---
 
 # Cole Schafer

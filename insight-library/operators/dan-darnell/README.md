@@ -7,7 +7,8 @@ roles:
   - GTM Systems Builder
 domains_active: [ai-native, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ddarnell/
 ---
 
 # Dan Darnell
