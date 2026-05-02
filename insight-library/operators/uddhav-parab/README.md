@@ -5,7 +5,8 @@ roles:
   - Creative Director. Writer. Comic. 3x TED Talks Viewer.
 domains_active: [engineering]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/uddhavparab/
 ---
 
 # Uddhav Parab

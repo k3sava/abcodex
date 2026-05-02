@@ -6,7 +6,8 @@ roles:
   - SaaS Growth Advisor
 domains_active: [growth, founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ilya-azovtsev/
 ---
 
 # 🇺🇦 Ilya Azovtsev - I help with SaaS Growth

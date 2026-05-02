@@ -4,6 +4,8 @@ slug: silvia-botros
 roles: [Senior Principal Engineer Twilio, ex-Principal Engineer SendGrid]
 domains_active: [engineering, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/silviabotros/
 ---
 
 # Silvia Botros

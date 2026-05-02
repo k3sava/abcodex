@@ -8,6 +8,9 @@ roles:
   - and HashiCorp
 domains_active: [sales-cs, growth, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/tomasztunguz/
+  website: https://tomtunguz.com/
 ---
 
 # Tomasz Tunguz

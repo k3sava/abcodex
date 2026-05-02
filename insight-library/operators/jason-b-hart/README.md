@@ -6,7 +6,8 @@ roles:
   - Founder @ Domain Methods
 domains_active: [founder-craft, ai-native, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/jasonbhart/
 ---
 
 # 📈 Jason B. Hart

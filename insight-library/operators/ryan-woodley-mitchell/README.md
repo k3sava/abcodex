@@ -7,7 +7,8 @@ roles:
   - Top 100 PMM Influencer 2025
 domains_active: [pmm, founder-craft, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/ryanwoodleymitchell/
 ---
 
 # Ryan Woodley Mitchell

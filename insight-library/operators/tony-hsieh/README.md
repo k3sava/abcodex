@@ -4,6 +4,8 @@ slug: tony-hsieh
 roles: [CEO Zappos 1999-2020, founder LinkExchange, author Delivering Happiness]
 domains_active: [leadership, customer-success, founder-craft]
 captured_first: 2026-05-02
+external:
+  website: https://www.deliveringhappiness.com/tony-hsieh
 ---
 
 # Tony Hsieh

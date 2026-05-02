@@ -6,7 +6,8 @@ roles:
   - Driving Strategic Creative for High-Growth GTM Teams
 domains_active: [growth, design-ux, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/seepiya-sahni-998b4195/
 ---
 
 # Seepiya Sahni

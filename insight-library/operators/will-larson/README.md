@@ -4,6 +4,9 @@ slug: will-larson
 roles: [CTO Carta, ex-CTO Calm, ex-Stripe, ex-Uber]
 domains_active: [engineering, leadership]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/lethain/
+  website: https://lethain.com/
 ---
 
 # Will Larson

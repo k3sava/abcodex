@@ -5,7 +5,9 @@ roles:
   - Founder @ SaaStorm + B2B SaaS Content & AI SEO Advisor + Content Engineer (@ AirOps’25)
 domains_active: [founder-craft, ai-native, engineering]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/romana-kuts/
+  website: https://saastorm.io/
 ---
 
 # Romana Kuts

@@ -5,7 +5,8 @@ roles:
   - I make product marketing cool
 domains_active: [pmm, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/stefan-gladbach/
 ---
 
 # Stefan Gladbach

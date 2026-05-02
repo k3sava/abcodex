@@ -8,6 +8,8 @@ roles:
   - author of Agentic Engineering Patterns guide
 domains_active: [ai-native, engineering, design, leadership]
 captured_first: 2026-05-01
+external:
+  website: https://simonwillison.net/
 ---
 
 # Simon Willison

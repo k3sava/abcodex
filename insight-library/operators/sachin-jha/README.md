@@ -6,6 +6,9 @@ roles:
   - Product Marketing / AI GTM Engineering for Cyber and DevTools
 domains_active: [pmm, ai-native, gtm]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/jha-sachin/
+  website: https://onegtmlab.com/
 ---
 
 # Sachin Jha

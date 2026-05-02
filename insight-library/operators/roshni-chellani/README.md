@@ -6,6 +6,8 @@ roles:
   - Career content creator
 domains_active: [hiring]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/roshnichellani/
 ---
 
 # Roshni Chellani

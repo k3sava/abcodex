@@ -8,6 +8,9 @@ roles:
   - messaging
 domains_active: [pmm, product, leadership, gtm, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/yilinpei/
+  website: https://www.courageous-careers.com/
 ---
 
 # Yi Lin Pei

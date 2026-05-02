@@ -4,6 +4,8 @@ slug: tanya-reilly
 roles: [Principal Engineer Squarespace, ex-Google SRE, ex-Squarespace Principal]
 domains_active: [engineering, leadership]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/tanyareilly/
 ---
 
 # Tanya Reilly

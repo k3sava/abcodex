@@ -6,7 +6,8 @@ roles:
   - PCC. Storyteller & Author. “Failure Ant” that never gives up! 4500 Stories. 111 Million lives impacted. DOTS (Do One Thing Surely).
 domains_active: [ai-native]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/sandeepkochhar/
 ---
 
 # Sandeep Kochhar

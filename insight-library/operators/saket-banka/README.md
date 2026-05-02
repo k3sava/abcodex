@@ -6,6 +6,8 @@ roles:
   - Ex-Chief of Staff, Sprinto
 domains_active: [leadership, hiring]
 captured_first: 2026-05-02
+external:
+  linkedin: https://www.linkedin.com/in/saketbanka/
 ---
 
 # Saket Banka

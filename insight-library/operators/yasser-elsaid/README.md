@@ -5,7 +5,9 @@ roles:
   - CEO at Chatbase
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/yasserelsaid/
+  website: https://www.chatbase.co/
 ---
 
 # Yasser Elsaid

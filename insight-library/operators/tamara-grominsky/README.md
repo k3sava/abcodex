@@ -8,6 +8,8 @@ roles:
   - created the MAP segmentation framework and Persona > Problem > Promise > Product methodology
 domains_active: [gtm, pmm, product, leadership, sales-cs]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/tamaragrominsky/
 ---
 
 # Tamara Grominsky

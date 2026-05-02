@@ -7,7 +7,9 @@ roles:
   - Messaging & GTM for European tech companies
 domains_active: [pmm, founder-craft, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/rorywoodbridge/
+  newsletter: https://productmarketer.substack.com/
 ---
 
 # Rory Woodbridge

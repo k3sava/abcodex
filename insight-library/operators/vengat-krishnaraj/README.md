@@ -5,7 +5,8 @@ roles:
   - Co-Founder/ CEO at VoxyHealth
 domains_active: [founder-craft]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/vengat-krishnaraj/
 ---
 
 # Vengat Krishnaraj

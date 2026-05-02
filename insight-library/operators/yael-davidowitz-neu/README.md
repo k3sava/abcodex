@@ -7,7 +7,8 @@ roles:
   - Developer Platforms
 domains_active: [pmm, ai-native, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/yaeldavidowitzneu/
 ---
 
 # Yael Davidowitz-Neu

@@ -4,6 +4,8 @@ slug: yamini-rangan
 roles: [CEO HubSpot, ex-Chief Customer Officer HubSpot, ex-CCO Dropbox]
 domains_active: [gtm, ai-native, customer-success, sales]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/yaminirangan/
 ---
 
 # Yamini Rangan
