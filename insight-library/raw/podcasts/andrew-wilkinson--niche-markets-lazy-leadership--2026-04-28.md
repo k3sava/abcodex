@@ -14,11 +14,11 @@ transcript_file: lenny-dropbox/Andrew Wilkinson.txt
 
 # Andrew Wilkinson — Niche Markets, Lazy Leadership, and AI Automation
 
-## Why this is in the wiki
+## Summary
 
-Wilkinson has founded or been involved with 75 businesses (hitting every business model). His core thesis: successful startups find undercompeted niches where customers have real willingness to pay. The "fish where the fish are" metaphor directly parallels the flywheel's positioning-discovery loop. Equally load-bearing: his "lazy leadership" — ruthlessly delegating non-core tasks to avoid the job-versus-business trap.
+Wilkinson has founded or been involved with 75 businesses (hitting every business model). His core thesis: successful startups find undercompeted niches where customers have real willingness to pay. The "fish where the fish are" metaphor parallels any positioning-discovery loop. Equally load-bearing: his "lazy leadership" — ruthlessly delegating non-core tasks to avoid the job-versus-business trap.
 
-## 5 load-bearing insights for flywheel
+## 5 load-bearing insights
 
 1. **"Fish where the fish are" disciplines the market choice.** Wilkinson's biggest mistake: copying failed business models (he lost $10M on Flow, competing with venture-backed Asana). The heuristic: if many people have repeatedly failed, there's a structural moat against you, not a whitespace. Counter-intuitive advice: starting small and boring (government form-filling software doing $30M/year) beats fighting venture-backed companies in sexy categories. The gym analogy: don't deadlift 300 pounds on day one.
 

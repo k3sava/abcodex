@@ -28,5 +28,5 @@ Taylor: ex-Google (Maps), Salesforce co-CEO (w/Benioff), Meta CTO, OpenAI Chair.
 
 5. **Outcome-based pricing changes incentives** — No longer "push more licenses." Aligned: you win when customer succeeds. Model shifts profit to providers who can actually deliver.
 
-## Why this matters for flywheel
-Agents eating SaaS from bottom-up. Flywheel's GTM agents move JustCall from "software" to "outcomes marketplace." Pricing model shift unlocks LTV.
+## Why this matters
+Agents eating SaaS from bottom-up. GTM agents move products from "software" to "outcomes marketplace." Pricing model shift unlocks LTV.

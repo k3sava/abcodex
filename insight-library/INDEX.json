@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-02T17:41:23.329Z",
+  "generated_at": "2026-05-02T18:01:05.392Z",
   "counts": {
     "insights": 417,
     "operators": 277,
-    "raw_sources": 208,
+    "raw_sources": 206,
     "patterns": 24,
     "contradictions": 9,
     "playbooks": 23
@@ -16804,14 +16804,8 @@
       "domain": "gtm",
       "last_updated": "2026-05-01",
       "ingested": "2026-05-01",
-      "ingested_via": "claude-code (web search + recall, k3sava harness)",
-      "attribution": "mixed (per-quote tags below)",
-      "related": [
-        "concepts/principal-marketer-flywheel.md",
-        "concepts/ai-native-marketing-org.md",
-        "raw/articles/botros-2020-principal-engineer.md",
-        "projects/flywheel.md"
-      ]
+      "ingested_via": "claude-code (web search + recall)",
+      "attribution": "mixed (per-quote tags below)"
     },
     {
       "path": "raw/essays/pawel-huryn--claude-code-as-config--2026-04-27.md",
@@ -16834,13 +16828,7 @@
       "publication": "LeadDev.com",
       "published": "2020-08-10",
       "ingested": "2026-04-28",
-      "domain": "gtm|personal",
-      "attribution": "verified",
-      "related": [
-        "concepts/principal-marketer-flywheel.md",
-        "projects/flywheel.md",
-        "people/bharat-goyal.md"
-      ]
+      "attribution": "verified"
     },
     {
       "path": "raw/essays/tomasz-tunguz--commoditize-the-complement--2026-04-24.md",
@@ -19074,30 +19062,6 @@
       "path": "raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md"
     },
     {
-      "path": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "raw/linkedin/ship-queue/2026-adam-renklint-pitch.md",
-      "type": "raw",
-      "source": "linkedin-post",
-      "source_url": "unknown",
-      "author": "Adam Renklint",
-      "author_role": "co-founder, Pitch",
-      "captured": "2026-04-11",
-      "attribution": "self-reported",
-      "status": "stub",
-      "tags": [
-        "ship-queue",
-        "tier-1",
-        "pitch",
-        "operator-voice"
-      ],
-      "related": [
-        "../../projects/career-ops.md",
-        "../../concepts/archetype-tiering.md"
-      ]
-    },
-    {
       "path": "raw/linkedin/ship-queue/2026-devran-karaca-kyra.md",
       "type": "raw",
       "source": "linkedin-post",
@@ -19167,13 +19131,7 @@
       "author": "Kieran Flanagan (HubSpot)",
       "captured": "2026-05-01",
       "attribution": "direct",
-      "domain": "pmm",
-      "related": [
-        "concepts/agent-first-gtm-hubspot.md",
-        "concepts/principal-marketer-flywheel.md",
-        "concepts/ai-native-marketing-org.md",
-        "raw/articles/agent-first-gtm-hubspot-2026-04-28.md"
-      ]
+      "domain": "pmm"
     },
     {
       "path": "raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md",
@@ -19207,7 +19165,7 @@
       "path": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md",
       "title": "Amol Avasare — Anthropic growth, CASH, and the squeezed PM",
       "type": "raw",
-      "source": "Lenny's Podcast (Dropbox archive shared by Gaurav)",
+      "source": "Lenny's Podcast (Dropbox archive)",
       "guest": "Amol Avasare (Head of Growth, Anthropic; ex-Mercury, MasterClass)",
       "host": "Lenny Rachitsky",
       "publication": "Lenny's Podcast",
@@ -19216,13 +19174,6 @@
       "captured_via": "Dropbox transcript bundle",
       "domain": "gtm",
       "attribution": "verified",
-      "related": [
-        "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md",
-        "raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md",
-        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
-        "concepts/ai-native.md",
-        "projects/flywheel.md"
-      ],
       "transcript_file": "lenny-dropbox/Amol Avasare.txt"
     },
     {
@@ -19487,7 +19438,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "MEDIUM",
       "transcript_file": "lenny-dropbox/Brian Halligan.txt"
@@ -19535,7 +19485,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Claire Vo OpenClaw.txt"
@@ -19549,7 +19498,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Elena Verna 3.0.txt"
@@ -19590,7 +19538,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jacob Warwick.txt"
@@ -19604,7 +19551,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jeetu Patel.txt"
@@ -19639,7 +19585,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Jessica Fain.txt"
@@ -19655,14 +19600,7 @@
       "published": "2026-04-27",
       "captured": "2026-04-28",
       "captured_via": "yt-dlp auto-subtitles",
-      "domain": "gtm|personal",
       "attribution": "verified",
-      "related": [
-        "concepts/principal-marketer-flywheel.md",
-        "concepts/operator-voice.md",
-        "projects/flywheel.md",
-        "raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md"
-      ],
       "transcript_file": "QaDsk4iH1aw.transcript.txt"
     },
     {
@@ -19674,7 +19612,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Mihika Kapoor.txt"
@@ -19688,7 +19625,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "MEDIUM",
       "transcript_file": "lenny-dropbox/Qasar Younis.txt"
@@ -19702,7 +19638,6 @@
       "host": "Lenny Rachitsky",
       "captured": "2026-04-28",
       "captured_via": "claude-code (sonnet batch)",
-      "domain": "gtm|personal",
       "attribution": "verified",
       "relevance_tier": "HIGH",
       "transcript_file": "lenny-dropbox/Sherwin Wu_V2.txt"
@@ -19711,7 +19646,7 @@
       "path": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md",
       "title": "Simon Willison — Agentic engineering and the November inflection",
       "type": "raw",
-      "source": "Lenny's Podcast (Dropbox archive shared by Gaurav)",
+      "source": "Lenny's Podcast (Dropbox archive)",
       "guest": "Simon Willison (co-creator of Django, creator of Datasette, prolific blogger)",
       "host": "Lenny Rachitsky",
       "publication": "Lenny's Podcast",
@@ -19720,13 +19655,6 @@
       "captured_via": "Dropbox transcript bundle",
       "domain": "gtm",
       "attribution": "verified",
-      "related": [
-        "raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md",
-        "raw/podcasts/lenny/2026-04-05-amol-avasare-anthropic-growth-cash.md",
-        "raw/podcasts/lenny/2026-04-28-jenny-wen-design-process-is-dead.md",
-        "concepts/ai-native.md",
-        "projects/flywheel.md"
-      ],
       "transcript_file": "lenny-dropbox/Simon Willison.txt"
     },
     {
@@ -19932,13 +19860,7 @@
       "author": "Kieran Flanagan (HubSpot)",
       "captured": "2026-05-01",
       "attribution": "direct",
-      "domain": "pmm",
-      "related": [
-        "concepts/agent-first-gtm-hubspot.md",
-        "concepts/principal-marketer-flywheel.md",
-        "concepts/ai-native-marketing-org.md",
-        "raw/articles/agent-first-gtm-hubspot-2026-04-28.md"
-      ]
+      "domain": "pmm"
     }
   ],
   "patterns": [

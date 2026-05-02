@@ -14,7 +14,7 @@ relevance_tags: [ai-native-substrate, competitive-positioning]
 
 120-min flagship Hype Cycle by Rajesh Kandaswamy et al. introducing agentic AI as a distinct innovation track. Thesis: agentic AI is a fundamentally new software paradigm but supporting infrastructure (integration, reliability, security, governance, FinOps) is still maturing. The market is shaped by extreme hype, "agent-washing" by legacy RPA/automation vendors, and an aggressive enterprise adoption curve.
 
-For flywheel positioning, the load-bearing claim is that current LLM-based agents are varied, semi-autonomous at best, and that fully-autonomous agents are not ready for most enterprise use cases. Human oversight is mandatory. This is the antidote to the "AI replaces humans" narrative — it's also the through-line that justifies the flywheel's "humans do highest-value jobs" frame.
+The load-bearing claim is that current LLM-based agents are varied, semi-autonomous at best, and that fully-autonomous agents are not ready for most enterprise use cases. Human oversight is mandatory. This is the antidote to the "AI replaces humans" narrative.
 
 ## Key takeaways
 

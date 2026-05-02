@@ -16,8 +16,8 @@ transcript_file: eh8bcBIAAFo.transcript.txt
 
 # Jenny Wen — The design process is dead
 
-## Why this is in the wiki
-Jenny is living proof that the "supporting function" (design) had to abandon its sacred process when engineering's velocity exploded. The same waveform is hitting PMM right now. Her three hiring archetypes (block-shape generalist, deep T specialist, craft-newgrad) are directly applicable to Kesava's flywheel team mapping.
+## Summary
+Jenny is living proof that the "supporting function" (design) had to abandon its sacred process when engineering's velocity exploded. The same waveform is hitting PMM. Her three hiring archetypes (block-shape generalist, deep T specialist, craft-newgrad) apply broadly.
 
 ## Full text source
 Transcript at `eh8bcBIAAFo.transcript.txt` (16,112 words). VTT source: `eh8bcBIAAFo.en.vtt`.
@@ -40,9 +40,9 @@ Transcript at `eh8bcBIAAFo.transcript.txt` (16,112 words). VTT source: `eh8bcBIA
 
 8. **Three hiring archetypes for the new world.** (a) **Strong generalist / "block shape"** — 80th percentile in many things, not just T-shape (rare). (b) **Deep specialist** — top 10% in one thing (e.g. designer who's 50% software engineer). (c) **Craft new-grad** — early-career, humble, eager, unburdened by old processes; the most overlooked archetype. Most companies over-hire seniors; new grads can be more adaptive. PMM mapping: Sourav/Reshma = generalists; Aditi/Sulagna = deep specialists; under-used hire would be a craft-newgrad PMM.
 
-9. **Managers should go back to IC.** Jenny voluntarily returned to IC at Anthropic from a Figma director role. "I wasn't sure middle management is safe in the future." The IC year gave her hard skills she wouldn't have picked up managing — and the empathy to lead better when she manages again. PMM analog: Kesava's captain-rotation/IC-shipping mode is the *correct* response to this transition, not a regression.
+9. **Managers should go back to IC.** Jenny voluntarily returned to IC at Anthropic from a Figma director role. "I wasn't sure middle management is safe in the future." The IC year gave her hard skills she wouldn't have picked up managing — and the empathy to lead better when she manages again.
 
-10. **"Low-leverage time" is high-leverage when it's the senior leader doing it.** The classic "delegate everything anyone else can do" advice is wrong now. Senior leaders dogfooding the product, repro-ing bugs, filing PRs, hand-making anniversary cards — these things are high-leverage *because of who's doing them*. Mike Krieger files PRs himself. Flywheel implication: Kesava reviewing copy at 11pm is not waste; it's signal to the team about standards.
+10. **"Low-leverage time" is high-leverage when it's the senior leader doing it.** The classic "delegate everything anyone else can do" advice is wrong now. Senior leaders dogfooding the product, repro-ing bugs, filing PRs, hand-making anniversary cards — these things are high-leverage *because of who's doing them*. Mike Krieger files PRs himself.
 
 11. **Roasting as psychological-safety signal.** Jenny encourages teams to feel comfortable poking fun at her ("they make fun of phrases I say at crits"). It signals trust + lack of fear without crossing into friendship. Pair with high standards: "tough parent" model — always there, but always raising the bar. Combines with Radical Candor: care personally + challenge directly.
 
@@ -77,8 +77,8 @@ The original synthesis was built from YouTube auto-subtitles (~1.3K words). The 
 
 ### Notable side-quests
 - Roasting as psychological-safety signal. Jenny encourages teams to poke fun at her phrases in crits. Signals trust + lack of fear without crossing into friendship. Pair with high standards ("tough parent" — always there, always raising the bar).
-- Managers returning to IC. Jenny voluntarily left a Figma director role to return to IC at Anthropic. "I wasn't sure middle management is safe in the future." The IC year gave hard skills and empathy for future managing. Kesava's captain-rotation/IC-shipping mode is the *correct* response to this transition, not a regression.
-- Low-leverage time is high-leverage when senior leaders do it. Mike Krieger files PRs himself. Kesava reviewing copy at 11pm is signal about standards, not waste.
+- Managers returning to IC. Jenny voluntarily left a Figma director role to return to IC at Anthropic. "I wasn't sure middle management is safe in the future." The IC year gave hard skills and empathy for future managing.
+- Low-leverage time is high-leverage when senior leaders do it. Mike Krieger files PRs himself.
 
 ## Why this matters for flywheel
 
@@ -88,7 +88,7 @@ Three concrete moves:
 
 2. **Add the illegibility framework to the captain's discovery routine.** Run a weekly scan of internal Slack/Commons rooms looking for *illegible energy* — projects/ideas the team is buzzing about but can't articulate. That's the next flywheel loop. Currently flywheel only watches *legible* signals (asks, requests, ledger items).
 
-3. **The three hiring archetypes give Kesava a roster gap diagnosis.** Reshma + Sourav are mid-T generalists. Aditi/Sulagna lean deep specialist. The *missing* archetype is the craft-newgrad — eager, AI-native-by-default, no baked-in PMM rituals. This is who flywheel should hire next, not another senior PMM.
+3. **The three hiring archetypes give a clean roster-gap diagnosis tool.** Most teams over-index on mid-T generalists or deep specialists; the missing archetype is the craft-newgrad — eager, AI-native-by-default, no baked-in rituals.
 
 ## Related
 

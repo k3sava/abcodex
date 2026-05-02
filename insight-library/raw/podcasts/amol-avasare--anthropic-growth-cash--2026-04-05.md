@@ -1,7 +1,7 @@
 ---
 title: Amol Avasare — Anthropic growth, CASH, and the squeezed PM
 type: raw
-source: Lenny's Podcast (Dropbox archive shared by Gaurav)
+source: Lenny's Podcast (Dropbox archive)
 guest: Amol Avasare (Head of Growth, Anthropic; ex-Mercury, MasterClass)
 host: Lenny Rachitsky
 publication: Lenny's Podcast
@@ -10,15 +10,14 @@ captured: 2026-04-28
 captured_via: Dropbox transcript bundle
 domain: gtm
 attribution: verified
-related: [raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md, raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md, raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md, concepts/ai-native.md, projects/flywheel.md]
 transcript_file: lenny-dropbox/Amol Avasare.txt
 ---
 
 # Amol Avasare — Anthropic growth, CASH, and the squeezed PM
 
-## Why this is in the wiki
+## Summary
 
-Pair to the YouTube Amole Naik episode — different guest, same org, more operational detail. Direct evidence for the flywheel pitch: Anthropic's growth team is *already* automating its own experimentation pipeline, and the bottleneck shifted from engineering to PM-side stakeholder alignment. That is the flywheel hypothesis stated by an operator running it.
+Pair to the YouTube Amole Naik episode — different guest, same org, more operational detail. Anthropic's growth team is automating its own experimentation pipeline, and the bottleneck shifted from engineering to PM-side stakeholder alignment.
 
 ## Insights
 
@@ -30,7 +29,7 @@ Anthropic's growth-platform team (Alexey Komissarouk) runs CASH: Claude generate
 
 > Identify opportunities → build the feature → test against quality + brand bar → ship + analyze.
 
-The fifth stage — cross-functional stakeholder alignment — is the human holdout. Quote: "We will have AGI and it will still be impossible to get six people in a room to align." Direct mapping for flywheel: substrate handles 1-4, humans own taste + decisions + creative + alignment.
+The fifth stage — cross-functional stakeholder alignment — is the human holdout. Quote: "We will have AGI and it will still be impossible to get six people in a room to align."
 
 ### 3. Squeezed PM thesis
 
@@ -54,7 +53,7 @@ Traditional growth = 70% small/medium, 30% larger swings. Anthropic flips it: 50
 
 ### 8. The Slack-MCP misalignment scan
 
-Operating pattern Kesava can copy tomorrow: Cowork (Claude desktop) + Slack MCP, scheduled weekly. Prompt: "Look across Slack, here are projects I'm running, find me areas of misalignment." Catches conflicts before they cost cycles. Same pattern across direct reports: feedback drafts based on goal docs + meeting transcripts + this week's Slack. "Soft coaching" — coach is sometimes drunk, but signal getting better fast.
+Operating pattern: Cowork (Claude desktop) + Slack MCP, scheduled weekly. Prompt: "Look across Slack, here are projects I'm running, find me areas of misalignment." Catches conflicts before they cost cycles. Same pattern across direct reports: feedback drafts based on goal docs + meeting transcripts + this week's Slack. "Soft coaching" — coach is sometimes drunk, but signal getting better fast.
 
 ### 9. The morning Cowork dashboard
 
@@ -70,7 +69,7 @@ Got the role by cold-emailing Mike Krieger. The cold email *was* the interview. 
 
 ### 12. Freedom through constraints
 
-Anthropic was the smallest, least-funded entrant. Constraint forced the focus on coding + B2B from 2021 (Ben Mann doc). Coding wasn't just a TAM bet — it was a *research-acceleration* bet. Best models → faster code → faster research → better models. Self-reinforcing loop, exactly like the flywheel structure.
+Anthropic was the smallest, least-funded entrant. Constraint forced the focus on coding + B2B from 2021 (Ben Mann doc). Coding wasn't just a TAM bet — it was a *research-acceleration* bet. Best models → faster code → faster research → better models. Self-reinforcing loop.
 
 ### 13. Leave money on the table
 
@@ -83,19 +82,9 @@ Core growth-team principle: "We are comfortable forgoing metric impact to priori
 - **Log-linear chart culture** — internally, linear charts are uncool. "Show me at log-linear scale." A small artifact of a hyperbolic-growth operating culture.
 - **Spike doubled-down beats weakness-fixed** — for PMs surviving the AI transition: identify your one impact-tied skill (craft, alignment, taste), forget the weaknesses, become the best at that.
 
-## Why this matters for the flywheel
+## Most-load-bearing transferable rules
 
-This is the most-direct empirical match to the flywheel pitch in the entire Lenny corpus to date. CASH = the four-stage substrate. The squeezed-PM thesis = the staffing argument (Sourav, Reshma, Aditi, Akhil, Bharat, Sulagna level into GTM-engineers via substrate while routine work compresses). Two-week rule = a clean delegation primitive. Slack-MCP misalignment scan + morning Cowork dashboard = two ready-to-clone Day-1 demos for Deepan. "We forgo metric impact for brand" = the CFO Showcase frame: revenue per employee + taste, not metric-squeeze.
-
-Most-load-bearing transferable rules:
 - Substrate + human-in-loop, where humans own alignment and brand decisions
 - Larger bets when AI is the core value prop
 - Quality drives growth (counter-narrative to optimization-theater)
 - PMs at scale should up-level the why and what, not ship more features
-
-## Related
-
-- `raw/podcasts/lenny/2026-04-28-amole-naik-anthropic-automating-growth.md` — pair episode, complementary not duplicative
-- `raw/podcasts/lenny/2026-04-27-cat-wu-anthropic-product-team.md` — Claude Code product team operating model
-- `concepts/ai-native.md` — workflow collapse, revenue-per-employee thesis
-- `projects/flywheel.md` — direct application

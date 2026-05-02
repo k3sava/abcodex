@@ -95,11 +95,11 @@ Positioning is not about appealing to everyone. It's about being crystalclear to
 
 ---
 
-## For JustCall Flywheel
+## Operational checklist
 
 1. **Sales team audit:** Have someone sit in on 5 sales calls. Do reps repeat themselves? Do prospects ask clarifying questions late? Positioning problem.
-2. **Insight articulation:** What's the POV that justifies JustCall's existence? Not "we do X" but "because Y is changing, companies like you should think about customer communication differently."
-3. **Alternative map:** Who are the *real* alternatives? (Likely: Aircall, Zendesk, in-house teams, Twilio.) What do they do well/poorly?
+2. **Insight articulation:** What's the POV that justifies your product's existence? Not "we do X" but "because Y is changing, companies like you should think about [category] differently."
+3. **Alternative map:** Who are the *real* alternatives? What do they do well/poorly?
 4. **Perfect world:** Frame the ideal solution *before* talking about product.
 5. **Pitch discipline:** Every rep uses the same structure (insight → alternatives → perfect world → demo → proof → objections → ask).
 6. **Disqualification:** If a prospect doesn't buy the insight, disengage. Better to find 10 aligned prospects than to hammer on 50 misaligned ones.
@@ -122,4 +122,4 @@ April's work proves that positioning is not soft marketing. It's structural. It 
 - Whether customers churn post-sale.
 - Whether your team scales (aligned messaging = easier hiring, faster ramp).
 
-For JustCall flywheel: clarity of positioning is a durable moat. Once nailed, it compounds.
+Clarity of positioning is a durable moat. Once nailed, it compounds.

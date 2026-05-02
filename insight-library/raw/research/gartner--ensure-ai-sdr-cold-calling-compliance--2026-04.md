@@ -29,5 +29,4 @@ Igor Marchal + Michele Buckley on regulatory compliance for AI-driven cold outre
 
 ## Related
 
-- [project_10dlc_release_2026_04_27.md](memory link) — JustCall 10DLC release adjacent.
 - [raw/articles/gartner/increase-sales-productivity-seller-action-hub.md](increase-sales-productivity-seller-action-hub.md)

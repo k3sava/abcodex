@@ -14,11 +14,11 @@ transcript_file: lenny-dropbox/Annie Duke.txt
 
 # Annie Duke — Decision Quality, Explicit Thinking, Feedback Loops
 
-## Why this is in the wiki
+## Summary
 
-Annie Duke (World Series of Poker bracelet, $4M+ tournament winnings, Thinking in Bets author) distills decision-quality from poker into corporate contexts. Her core insight: explicit > implicit; pre-mortems work only with kill criteria; there's no such thing as a long feedback loop (you shorten it by finding correlated signals). Directly applicable to the flywheel's taste-based decisions.
+Annie Duke (World Series of Poker bracelet, $4M+ tournament winnings, Thinking in Bets author) distills decision-quality from poker into corporate contexts. Her core insight: explicit > implicit; pre-mortems work only with kill criteria; there's no such thing as a long feedback loop (you shorten it by finding correlated signals).
 
-## 5 load-bearing insights for flywheel
+## 5 load-bearing insights
 
 1. **Make intuition explicit to find where you're wrong.** Intuition isn't crap, but if you don't make it explicit, you don't get feedback on when it fails. Example: "I think this positioning will resonate" is implicit. Explicit: "We expect 15% CTR on this LP variant, and we'll know we're wrong if it's <8%." Explicitness forces specificity; specificity enables falsification.
 

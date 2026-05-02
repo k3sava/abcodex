@@ -47,17 +47,10 @@ Lovable went from 0 to 10M ARR in two months with 15 people. Anton's frame on pr
 
 1. **Taste becomes the recruiting filter and the product moat.** Engineering skill is commodified (AI writes code). The people Lovable hires have taste. Flywheel teams (PMM + design + content + video) need to hire for taste too—obsession over process, demo-driven over doc-driven, generalists who level into GTM engineers.
 
-2. **Ambition filtering works.** Lovable's job ad is a self-selection funnel. Flywheel's internal charter (AI-native marketing team, revenue per employee, Gaurav's voice baked in) is the same funnel for the people who should be here.
+2. **Ambition filtering works.** Lovable's job ad is a self-selection funnel. The same funnel attracts builders who want an AI-native operating environment.
 
-3. **Weekly bottleneck re-ranking beats long roadmaps.** Flywheel is doing this: demo Monday (what shipped), plan Monday (what's the bottleneck this week), ship Friday. That cadence scales to 12+ people without meetings overhead.
+3. **Weekly bottleneck re-ranking beats long roadmaps.** Demo Monday (what shipped), plan Monday (what's the bottleneck this week), ship Friday. That cadence scales to 12+ people without meetings overhead.
 
-4. **Lunch together is underrated in distributed teams.** Kesava's team is mostly JustCall-based or remote. Flywheel async is unavoidable. But the lesson: synchronous, unstructured time (Slack rooms, office calls) beats async docs for cross-pollination.
+4. **Lunch together is underrated in distributed teams.** Async is often unavoidable. But synchronous, unstructured time beats async docs for cross-pollination.
 
-5. **The PMM ≠ PM false dichotomy collapses.** Anton: "We are quite engineering-led... the right solution to the problem might be entangled in things that are technical details." Flywheel's PMMs need to be product-literate. Aditi levels into content architecture. Krishna into narrative structure. Not "write copy, then hand off."
-
-## Related
-
-- `projects/one-ring.md` — AI-native marketing team as a three-layer system
-- `projects/master-plan.md` — Flywheel roster + role definitions
-- `concepts/operator-voice.md` — How Kesava writes vs. generic CMO
-- `companies/lovable.md` — if needed, can stub a company page
+5. **The PMM ≠ PM false dichotomy collapses.** Anton: "We are quite engineering-led... the right solution to the problem might be entangled in things that are technical details." Modern PMMs need to be product-literate. Not "write copy, then hand off."

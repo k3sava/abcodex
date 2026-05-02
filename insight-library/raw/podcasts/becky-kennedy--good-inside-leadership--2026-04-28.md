@@ -14,33 +14,33 @@ transcript_file: lenny-dropbox/Dr. Becky Kennedy.txt
 
 # Dr. Becky Kennedy — Good Inside leadership
 
-## Why this is in the wiki
-Becky's parenting frameworks transfer to leadership almost without translation. The flywheel rollout will trigger anxiety, defensive behavior, and identity-vs-behavior confusion across the team. Her playbook (separate behavior from identity, repair, MGI, sturdy leadership) is the most usable operating norm for the next 12 weeks and beyond.
+## Summary
+Becky's parenting frameworks transfer to leadership almost without translation. Her playbook (separate behavior from identity, repair, MGI, sturdy leadership) is a usable operating norm for AI rollouts that trigger identity anxiety.
 
 ## Full text source
 Transcript at `lenny-dropbox/Dr. Becky Kennedy.txt`.
 
 ## 11 load-bearing insights for flywheel
 
-1. **"Repair is the number one relationship strategy."** "Secure attachment isn't defined by getting it right all the time. It's defined by an adult who's willing to repair." After a meeting where Kesava cuts someone off or pushes too hard, the move isn't "don't make the mistake" — it's the explicit repair the next morning. Verbatim model: "Earlier in the meeting I cut you off and used a harsh tone. Stuff was going on before the meeting. I'm sorry. I'm working on that."
+1. **"Repair is the number one relationship strategy."** "Secure attachment isn't defined by getting it right all the time. It's defined by an adult who's willing to repair." After a meeting where you cut someone off or pushed too hard, the move isn't "don't make the mistake" — it's the explicit repair the next morning. Verbatim model: "Earlier in the meeting I cut you off and used a harsh tone. Stuff was going on before the meeting. I'm sorry. I'm working on that."
 
 2. **"Perfect is creepy."** Stop optimizing for never-misstep leadership. Optimize for high-frequency repair. Direct counter to the "the captain must hold the line" instinct that misfires under exit-clock pressure.
 
-3. **Connect before correcting.** "Connection is what forms a bridge between two people so they can act together in the same interest." If a teammate isn't picking up the substrate, the move isn't more push — it's 30 seconds of agenda-free presence first. Asymmetric ROI.
+3. **Connect before correcting.** "Connection is what forms a bridge between two people so they can act together in the same interest." If a teammate isn't picking up a new tool, the move isn't more push — it's 30 seconds of agenda-free presence first. Asymmetric ROI.
 
 4. **Mindset > script.** "We feel people's intention, not just their intervention." If the connection move is itself a transactional setup ("let me ask about your weekend so I can pivot to the substrate ask"), it lands worse than no connection move. The mindset fix has to be real.
 
-5. **Efficiency and relationship building are often in opposition.** "We listen to someone's story, we're like, 'Come on, get to the point.' That person is like, 'The whole point is that I want to tell you the whole story.'" Direct callout for Kesava — efficiency is reinforced in r2d2/substrate work; relationship work feels low-stim and inefficient. "If it feels low-stim, that's probably a sign you're doing it right."
+5. **Efficiency and relationship building are often in opposition.** "We listen to someone's story, we're like, 'Come on, get to the point.' That person is like, 'The whole point is that I want to tell you the whole story.'" "If it feels low-stim, that's probably a sign you're doing it right."
 
 6. **Separate behavior from identity.** "This is a good person who is late." Most unproductive conversations collapse the two. When a teammate misses a deliverable or ships sloppy work, the model is: "I know you're a good person. We need [X] by [Y]. Something's going on — let's get to the bottom of it together." Never let the conversation drift to "are you a serious person."
 
-7. **MGI — Most Generous Interpretation.** "When I started using an MGI, I liked my kid again. We were on the same team. I came up with a whole different range of interventions." For Kesava during the team frictions of recent weeks (pod conversations, Reshma's pivot, Krishna's ramp): MGI is the lens that produces actual interventions, not internal grievance.
+7. **MGI — Most Generous Interpretation.** "When I started using an MGI, I liked my kid again. We were on the same team. I came up with a whole different range of interventions." MGI is the lens that produces actual interventions, not internal grievance.
 
-8. **The story you tell yourself at night becomes the leader you are the next morning.** Direct echo of Peter Dang's language-shapes-thought thesis. Concrete practice: end-of-day debrief in the wiki should run an MGI pass on the day's frustrations before bed.
+8. **The story you tell yourself at night becomes the leader you are the next morning.** Direct echo of Peter Dang's language-shapes-thought thesis. Concrete practice: an end-of-day debrief should run an MGI pass on the day's frustrations.
 
-9. **"We're on the same team" — the most powerful single phrase.** "If that's the only thing people take from this, that is the most amazing way to have a more productive conversation with anyone." Use as the literal opening of any hard 1:1 with a teammate or with Deepan.
+9. **"We're on the same team" — the most powerful single phrase.** "If that's the only thing people take from this, that is the most amazing way to have a more productive conversation with anyone." A literal opening for any hard 1:1.
 
-10. **Boundaries are what you do, not what you ask.** "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing. Making a request, that's not a boundary." For Kesava in the exit window: "I won't take on positioning workstreams that don't have a defined check-in cadence" is a boundary. "Please don't ask me to take on workstreams without check-ins" is a request that someone else has to honor.
+10. **Boundaries are what you do, not what you ask.** "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing. Making a request, that's not a boundary." Example: "I won't take on positioning workstreams that don't have a defined check-in cadence" is a boundary. "Please don't ask me to take on workstreams without check-ins" is a request that someone else has to honor.
 
 11. **Sturdy leadership > happy leadership.** "Resilience over happiness." When the substrate breaks, when a bet misses, when the team is stressed — the leader's job is to be sturdy, not to make everyone feel good in the moment. "This is hard and I can do hard things" is the substrate-team mantra.
 
@@ -52,13 +52,13 @@ Transcript at `lenny-dropbox/Dr. Becky Kennedy.txt`.
 - **Three kids, three different control profiles.** Her third child is "0% people pleasing." "Disappointed with you" doesn't work on him. Each teammate has their own control-and-pleasing profile; the same intervention lands differently. Calibrate per teammate.
 - **The corporate-babies frame, gently rejected.** Lenny pitches Shreyas Doshi's "most adults at work are babies in disguise" frame. Becky rejects it: "All humans need the same things, whether we're 1 or 5 or 45 or 85. When the needs aren't being met, we all express ourselves in less-than-ideal ways." Reframes "they're being childish" as "needs aren't being met." Big upgrade.
 
-## Why this matters for flywheel
+## Why this matters
 
-Three direct loads. First, the substrate transition will trigger every defensive pattern Becky names — teammates whose identity feels threatened by automation will resist behavior change. Pre-empt with the "I know you're a good person, behavior X needs to shift" pattern. Don't let the substrate conversation become an identity conversation.
+Three loads. First, AI-rollout transitions trigger every defensive pattern Becky names — teammates whose identity feels threatened by automation resist behavior change. Pre-empt with the "I know you're a good person, behavior X needs to shift" pattern. Don't let the conversation become an identity conversation.
 
-Second, repair as a primary discipline is exactly the missing leadership norm in the current cadence. Bets miss, the captain pushes too hard, edges get scuffed — and the team doesn't currently have an explicit repair ritual. Adding one (even a 30-second start of the next standup) compounds trust faster than any process change.
+Second, repair as a primary discipline is the missing leadership norm in most cadences. Bets miss, the captain pushes too hard, edges get scuffed — and most teams don't have an explicit repair ritual. Adding one (even a 30-second start of the next standup) compounds trust faster than any process change.
 
-Third, sturdy-not-happy frames the exit window correctly. The 12 weeks won't be smooth. The team's read of Kesava's leadership won't be "did he keep us happy" — it'll be "could he hold steady when things broke." Becky's playbook is the operating manual for that.
+Third, sturdy-not-happy frames hard windows correctly. The team's read of leadership during a hard period is not "did they keep us happy" — it's "could they hold steady when things broke."
 
 ## Related
 

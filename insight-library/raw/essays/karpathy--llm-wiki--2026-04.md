@@ -129,11 +129,7 @@ tags: [llm-wiki, karpathy, obsidian, pattern, memex]
 
 ## Why this is archived here
 
-`wiki/CLAUDE.md` cites this gist as the origin of Kesava's wiki schema.
-The rules in `CLAUDE.md` adapt the pattern to Kesava's world: multi-harness
-hygiene, operator voice, evidence ladder, exit clock, token budget, and
-anti-fabrication. Anything in `CLAUDE.md` that looks generic came from here.
-Anything that looks Kesava-specific is a local extension.
+This gist is a canonical reference for an LLM-friendly wiki schema (multi-harness hygiene, operator voice, evidence ladder, token budget, anti-fabrication).
 
 ## History
 

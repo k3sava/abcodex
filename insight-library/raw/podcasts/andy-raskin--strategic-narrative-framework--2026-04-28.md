@@ -14,11 +14,11 @@ transcript_file: lenny-dropbox/Andy Raskin.txt
 
 # Andy Raskin — Strategic Narrative Framework (Old Game to New Game)
 
-## Why this is in the wiki
+## Summary
 
-Raskin is the author of "The Greatest Sales Deck I've Ever Seen" (2M views, Zuora post). His framework: instead of "problem-solution-why-we're-better," craft a narrative: "The world shifted from [old game] to [new game], winners already play the new game, here's what it takes to win." This is the narrative spine for positioning. It's directly applicable to the flywheel's GTM messaging.
+Raskin is the author of "The Greatest Sales Deck I've Ever Seen" (2M views, Zuora post). His framework: instead of "problem-solution-why-we're-better," craft a narrative: "The world shifted from [old game] to [new game], winners already play the new game, here's what it takes to win." A narrative spine for positioning.
 
-## 5 load-bearing insights for flywheel
+## 5 load-bearing insights
 
 1. **The "old game to new game" beats problem-solution-comparison.** Traditional pitch: "CRM is hard to install → we're easier → buy us." Salesforce's pitch: "Software era is over → cloud era is here → join the winners." Same category (CRM) but first pitch commoditizes on ease, second creates a movement. The narrative structure makes the buyer the hero, not positioning your product as the hero.
 
@@ -38,7 +38,7 @@ Raskin is the author of "The Greatest Sales Deck I've Ever Seen" (2M views, Zuor
 
 ## Why this matters for flywheel
 
-The flywheel's positioning challenge: JustCall isn't selling "AI-powered sales automation." It's selling "SMB speed-to-lead via AI-native ops" (new game: SMB competes on speed, not scale). The shift: from "humans do sales ops, then AI helps them" (old game) to "AI does ops, humans decide taste/strategy" (new game). Raskin's framework is the tool to name this, show winners (what SMBs are winning faster?), name the obstacles (how do you coordinate AI + human taste?), and define the rallying cry.
+A modern positioning challenge: don't sell "AI-powered sales automation"; sell the shift from "humans do sales ops, then AI helps them" (old game) to "AI does ops, humans decide taste/strategy" (new game). Raskin's framework is the tool to name the shift, show winners, name the obstacles, and define the rallying cry.
 
 This also applies to internal flywheel narrative: "Old game: PMM + demand-gen work separately. New game: PMM owns AI-native ops, demand-gen focuses on positioning + channels."
 

@@ -93,13 +93,13 @@ Archie on this: *"Because that will always hurt your conversion rate, but it may
 
 ---
 
-## For JustCall Flywheel
+## Operational checklist
 
 1. **Long-term holdout experiments:** Instead of shipping based on 2-week CR lift, track cohort GMV/ARPU for 6+ months. 30-40% of wins are illusion; discipline catches it.
-2. **Absolute merchant count over rates:** If SMB add-on drives signup rate down 8% but adds 20 new merchants, that's a win. Measure both, optimize for total volume.
+2. **Absolute customer count over rates:** If an SMB add-on drives signup rate down 8% but adds 20 new customers, that's a win. Measure both, optimize for total volume.
 3. **Monetary friction as growth lever:** Trial optimization, onboarding credits, pricing tiering — test these constantly. Shopify's most reliable playbook.
 4. **Org structure for taste:** Core product team sets vision (no KPIs). Growth team executes with discipline. Alignment on direction, not metrics.
-5. **Power-law thinking:** 20% of merchants/segments will drive 80%+ of value. Invest disproportionately in identifying and supporting that 20%. Churn from the 80% is not a failure.
+5. **Power-law thinking:** 20% of customers/segments will drive 80%+ of value. Invest disproportionately in identifying and supporting that 20%. Churn from the 80% is not a failure.
 
 ---
 
@@ -113,7 +113,7 @@ Archie on this: *"Because that will always hurt your conversion rate, but it may
 
 ## Why This Matters
 
-This episode is Kesava's operating manual for how AI-native companies should think about growth, measurement, and taste. Archie proves that:
+This episode is a useful operating manual for how AI-native companies should think about growth, measurement, and taste. Archie proves that:
 - You can build at 10% US e-commerce scale *without* dogmatic KPI attachment.
 - Power-law thinking (winners justify the losers) is structurally superior to average retention thinking.
 - Long-term measurement is an unfair advantage; most companies are too impatient to run 1-year holdouts.

@@ -1,7 +1,7 @@
 ---
 title: Simon Willison — Agentic engineering and the November inflection
 type: raw
-source: Lenny's Podcast (Dropbox archive shared by Gaurav)
+source: Lenny's Podcast (Dropbox archive)
 guest: Simon Willison (co-creator of Django, creator of Datasette, prolific blogger)
 host: Lenny Rachitsky
 publication: Lenny's Podcast
@@ -10,13 +10,12 @@ captured: 2026-04-28
 captured_via: Dropbox transcript bundle
 domain: gtm
 attribution: verified
-related: [raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md, raw/podcasts/lenny/2026-04-05-amol-avasare-anthropic-growth-cash.md, raw/podcasts/lenny/2026-04-28-jenny-wen-design-process-is-dead.md, concepts/ai-native.md, projects/flywheel.md]
 transcript_file: lenny-dropbox/Simon Willison.txt
 ---
 
 # Simon Willison — Agentic engineering and the November inflection
 
-## Why this is in the wiki
+## Summary
 
 Simon is the rare 25-year engineer who's *fully* migrated to AI-mediated development and writes about it daily. This is the canonical reference for "what does it look like when nobody types code anymore" — and the reasoning behind why that's not the same as vibe-coding-and-praying.
 
@@ -56,8 +55,6 @@ AI is great at the first two-thirds of a brainstorm — the obvious 20 ideas. Th
 
 Lifelong career advice that AI multiplies. Build a public-or-private backlog of *things that worked*: SimonW/tools (193 small HTML/JS tools), SimonW/research (75 AI-driven research projects, each markdown report after running real code). Two GitHub repos as the durable substrate. Now Claude Code can search those repos to combine prior solutions for new problems. "The code is cheap now."
 
-For Kesava: this is the substrate analogue. clearPMM evaluations, flywheel pages, evidence files — all hoarded, all greppable by future agents. The wiki *is* the hoard.
-
 ### 8. Red/Green TDD as a pre-canned prompt
 
 Simon hated TDD as a human; loves it for agents. They don't get bored writing 1000 lines of test boilerplate. The phrase "Red/Green TDD" compresses a paragraph of testing instructions into 4 words the agents already understand. Operating principle: invest in jargon-shorthand the agents recognize, save tokens + cognitive load.
@@ -90,24 +87,8 @@ Joke benchmark — "draw an SVG of a pelican riding a bicycle" — turned out to
 - **Reasoning models change the game for code** specifically — being able to "think through" code before producing is what crossed the threshold.
 - **Most of what makes agents write better code also makes humans write better code** — Simon's book is "secretly about software engineering."
 
-## Why this matters for the flywheel
+## Top transferable rules
 
-This is the cleanest external articulation of the *operating mechanics* underneath the flywheel pitch. Replace "engineering" with "marketing" and the same patterns hold:
-- November-style inflection is coming for marketing crafts as eval-rigor improves
-- Dark factory pattern → flywheel substrate (humans don't review every artifact, but quality bar is enforced systemically)
-- Hoarding → the wiki + Commons repos as institutional memory the substrate searches
-- Template starts → the CFO Showcase template, Iteration scaffolds, sales-cadence skeletons
-- Red/Green TDD → encoded jargon-shorthand for the substrate (publish, ship, debrief)
-- Cognitive ceiling → why "scale humans" is a real cap; the substrate is what raises the ceiling
-
-Top transferable rules:
 - The bottleneck always moves; identify the new one and design for it
-- Verifiability is the gating factor — invest in evals, simulated users, test-like artifacts for marketing work
+- Verifiability is the gating factor — invest in evals, simulated users, test-like artifacts for non-engineering work
 - Encode shorthand once, save tokens forever
-
-## Related
-
-- `raw/podcasts/lenny/2026-04-28-boris-cherny-claude-code-after-coding-solved.md` — Boris on what comes after coding is solved
-- `raw/podcasts/lenny/2026-04-05-amol-avasare-anthropic-growth-cash.md` — Amol on the four-stage growth automation loop
-- `concepts/ai-native.md` — workflow collapse, revenue-per-employee
-- `projects/flywheel.md` — direct application

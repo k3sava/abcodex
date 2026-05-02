@@ -16,11 +16,9 @@ transcript_file: PplmzlgE0kg.transcript.txt
 
 # Cat Wu — How Anthropic's product team moves faster than anyone else
 
-Shared by Gaurav Sharma in JustCall #engineering on 2026-04-28 alongside the Bharat-shared Botros principal-engineer article. Both signal the same operating model.
-
 Full transcript: `PplmzlgE0kg.transcript.txt` (16,644 words). VTT source: `PplmzlgE0kg.en.vtt`.
 
-## 15 load-bearing insights for flywheel
+## 15 load-bearing insights
 
 1. **Timelines collapsed: 6 months → 1 month → 1 week → 1 day.** Cat's team ships most features in *research preview* within a week. The PM's job shifted from "align multi-quarter roadmaps with partner teams" to "find the fastest path from idea to user's hands." Branding things as "research preview" reduces commitment cost; lets you ship in a week or two.
 
@@ -64,7 +62,7 @@ Full transcript: `PplmzlgE0kg.transcript.txt` (16,644 words). VTT source: `Pplmz
 
 The original synthesis was built from YouTube auto-subtitles (~1.2K words). The Dropbox-archived full transcript (~16K words) surfaces additional load-bearing material below.
 
-### 16. **Evergreen launch room as the unit of shipping velocity** — The process Cat describes at Anthropic is hyper-specific: engineers dog-food internally, post to an "evergreen launch room," and Sarah (Docs), Alex (PMM), Antaric/Lydia (DevRel) turn around marketing announcements the next day. This is not async Slack hand-offs; it's a tight ritual. The PM's job is to set up the framework and lower friction. Direct flywheel rule: Commons rooms are the flywheel's evergreen launch room. Sourav/Reshma should mine engineering's internal demos channel daily and respond within hours, not days.
+### 16. **Evergreen launch room as the unit of shipping velocity** — The process Cat describes at Anthropic is hyper-specific: engineers dog-food internally, post to an "evergreen launch room," and Sarah (Docs), Alex (PMM), Antaric/Lydia (DevRel) turn around marketing announcements the next day. This is not async Slack hand-offs; it's a tight ritual. The PM's job is to set up the framework and lower friction.
 
 ### 17. **Co-work's synthesis example: 1 hour → 20-page deck** — Cat fed Co-work her conference-talk narrative, PMM's draft, and design-system templates. Co-work walked Twitter, the evergreen launch room, and the Claude Code announced channel for an hour and produced a 20-page deck. "There were a few tweaks" (slide wordiness), but the artifact had "Anthropic designer" polish. This is the "substrate-as-draft-engine" moment flywheel is targeting — not "AI helps a human," but "AI owns the draft, human reviews it at 20% and 80% checkpoints." The internal-demos channel feed is the data source; Commons rooms + ledger are flywheel's equivalent channels.
 
@@ -80,4 +78,4 @@ The original synthesis was built from YouTube auto-subtitles (~1.2K words). The 
 
 ## Why this matters for flywheel
 
-This is the operating model flywheel is building toward, transposed from Anthropic's product team to JustCall's marketing team. Synthesis page: `concepts/principal-marketer-flywheel.md` gets a section appended on Cat Wu's specific mechanisms; `concepts/ai-native.md` gets the "shed-the-harness-as-models-improve" insight added.
+This is an operating model that transposes from Anthropic's product team to a modern marketing team.

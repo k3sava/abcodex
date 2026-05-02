@@ -4,18 +4,13 @@ type: raw
 domain: gtm
 last_updated: 2026-05-01
 ingested: 2026-05-01
-ingested_via: claude-code (web search + recall, k3sava harness)
+ingested_via: claude-code (web search + recall)
 attribution: mixed (per-quote tags below)
-related:
-  - concepts/principal-marketer-flywheel.md
-  - concepts/ai-native-marketing-org.md
-  - raw/articles/botros-2020-principal-engineer.md
-  - projects/flywheel.md
 ---
 
 # Expert takes — marketer rotation, PMM-as-builder, Super IC cross-functional fluency
 
-Curated takes for the Principal GTM Engineer pitch substrate. Per-quote attribution uses the wiki five-tier ladder: **verified** (direct quote with URL), **self-reported** (the person's own claim about themselves), **contextual** (paraphrased from a sourced piece, not a verbatim quote), **indirect** (cited via a second party), **direct** (Kesava observed personally).
+Curated takes for the Principal GTM Engineer pitch substrate. Per-quote attribution uses a five-tier ladder: **verified** (direct quote with URL), **self-reported** (the person's own claim about themselves), **contextual** (paraphrased from a sourced piece, not a verbatim quote), **indirect** (cited via a second party), **direct** (observed personally).
 
 Where a take is paraphrased rather than verbatim it is labeled **contextual** and the source is named so the reader can verify. No quotes are fabricated. Where a "common attribution" is folkloric (e.g. "Zappos rotates everyone through support") it is labeled accordingly.
 
@@ -112,7 +107,7 @@ Where a take is paraphrased rather than verbatim it is labeled **contextual** an
 
 > "The principal+ engineer role carries enough cross-organization work and enough people skills to make it much closer to management than it may seem, just without engineers reporting directly to me… For an engineer to get to the principal level, there needs to be cross-organizational, collaborative signals, and there needs to be a clear understanding of architecture and design decisions that go far beyond the immediate technical area of expertise."
 
-- **Source:** Botros, "The reality of being a Principal Engineer," LeadDev, https://leaddev.com/hiring/reality-being-principal-engineer (2020). Already in wiki at `raw/articles/botros-2020-principal-engineer.md`.
+- **Source:** Botros, "The reality of being a Principal Engineer," LeadDev, https://leaddev.com/hiring/reality-being-principal-engineer (2020).
 - **Attribution: verified** (direct quote)
 - **Load-bearing claim:** principal IC = force-multiplier + cross-org influence + recruiting. The role is *defined* by operating outside one's technical home. Direct analog for Principal GTM Engineer.
 
@@ -144,15 +139,15 @@ Where a take is paraphrased rather than verbatim it is labeled **contextual** an
 
 ## Synthesis (12 lines, for the pitch)
 
-1. The strongest expert frames are **Botros (cross-org signals = principal level)**, **Larson (Solver + Right Hand archetypes rotate by design)**, **Majors/Reilly (glue work *is* the Staff job)**. These are load-bearing for Kesava's pitch because they describe the role he is asking for, in the language the engineering org already speaks.
+1. The strongest expert frames are **Botros (cross-org signals = principal level)**, **Larson (Solver + Right Hand archetypes rotate by design)**, **Majors/Reilly (glue work *is* the Staff job)**. They describe a Principal GTM Engineer-shaped role in the language the engineering org already speaks.
 2. **Lauchengco** ("market to the product, product to the market") and **Cagan** (PMM as peer craft) carry the PMM-as-builder half. Pair them with **Dunford** ("test positioning against a live pitch") to bridge: builders + frontline = working positioning.
 3. **Hsieh / Zappos** is the strongest *operational precedent* for "every new hire rotates through support." It is folklore-grade in tech but verified in primary sources (book + HBR). Useful as proof rotation works at scale, not just as PMM craft.
 4. The rotation idea is **standard practice** in: customer-support-heavy companies (Zappos, Intercom-era), B2B PMM training (Dunford, Lauchengco, Aatir), and Staff+ engineering ladders (Botros, Larson, Majors).
 5. The rotation idea is **novel** in this combination: a PMM Lead voluntarily rotating through *every* GTM subfunction (sales / SE / CS / support / product / ops) over 12 weeks as the *entry move* for a Principal GTM Engineer pitch. The literature argues for *some* frontline time. It does not prescribe a structured multi-week rotation as a credibility ritual.
-6. The tightest novelty: framing rotation as **earned authority for cross-org bets** (the flywheel). Botros and Larson explain *why* a principal IC needs cross-org credibility. They do not prescribe how to *earn* it from a marketing seat. The rotation does.
+6. The tightest novelty: framing rotation as **earned authority for cross-org bets**. Botros and Larson explain *why* a principal IC needs cross-org credibility. They do not prescribe how to *earn* it from a marketing seat. The rotation does.
 7. Risk to flag: Majors warns glue work uncapped turns the IC's calendar into Swiss cheese. The rotation must be time-boxed and have a deliverable (a pulled-from-frontline insight per rotation), or it becomes the failure mode the literature names.
-8. The one frame to *not* over-lean on: "Zappos rotation." It is a hiring ritual, not an IC-level credibility move. Kesava's pitch is closer to Botros + Larson than to Hsieh.
-9. Kesava's career arc (sales → support → PM → marketing) is the *evidence* that the rotation thesis produces compound effects — ungeneralizable for other PMMs but legitimate as personal proof.
+8. The one frame to *not* over-lean on: "Zappos rotation." It is a hiring ritual, not an IC-level credibility move. The argument is closer to Botros + Larson than to Hsieh.
+9. A career arc that includes sales → support → PM → marketing is *evidence* that the rotation thesis produces compound effects — ungeneralizable but legitimate as personal proof.
 10. The pitch's structural-honesty move: name rotation as standard practice in engineering + customer-support orgs, then argue the missing application is to PMM/GTM Staff IC. Don't claim invention.
-11. The strongest single citation for the deck or memo is **Botros (LeadDev, 2020)** — already in the wiki, already shared into JustCall #engineering by Bharat Goyal. Internal substrate, not external import.
+11. The strongest single citation for the deck or memo is **Botros (LeadDev, 2020)**.
 12. Second-strongest is **Lauchengco *Loved*** — establishes PMM is peer-craft, not a downstream function. Together: Botros legitimizes the principal-IC shape; Lauchengco legitimizes PMM as the function it lives in.

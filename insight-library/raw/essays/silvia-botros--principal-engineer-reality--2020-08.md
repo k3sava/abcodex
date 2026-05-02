@@ -6,9 +6,7 @@ author: Silvia Botros
 publication: LeadDev.com
 published: 2020-08-10
 ingested: 2026-04-28
-domain: gtm|personal
 attribution: verified
-related: [concepts/principal-marketer-flywheel.md, projects/flywheel.md, people/bharat-goyal.md]
 ---
 
 # The reality of being a Principal Engineer
@@ -16,9 +14,9 @@ related: [concepts/principal-marketer-flywheel.md, projects/flywheel.md, people/
 > Think it's just a more-senior IC role? Think again.
 > By Silvia Botros — LeadDev.com — August 10, 2020
 
-## Why this is in the wiki
+## Summary
 
-Bharat Goyal (JustCall VP Engineering, joined ~2026-04) shared this in #engineering on 2026-04-28 with the line "A Good 5-min read on this." The article frames the principal-IC role as force-multiplier + cross-org influence + recruiting + people-influence-not-just-technical. Kesava reads this as the operating model behind the flywheel — the principal-marketer thesis. Synthesis page: `concepts/principal-marketer-flywheel.md`.
+The article frames the principal-IC role as force-multiplier + cross-org influence + recruiting + people-influence-not-just-technical.
 
 ## Full text
 
