@@ -5,6 +5,9 @@ roles:
   - Co-founder of Terminus (ABM platform)
 domains_active: [gtm, leadership, sales-cs, growth, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/sangramvajre/
+  newsletter: https://gtmonday.substack.com/
 ---
 
 # Sangram Vajre

@@ -8,6 +8,8 @@ roles:
   - named one of the most influential marketers in the world by multiple publications
 domains_active: [pmm, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/rosssimmonds/
 ---
 
 # Ross Simmonds

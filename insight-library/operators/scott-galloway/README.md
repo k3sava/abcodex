@@ -8,6 +8,8 @@ roles:
   - and Section4 (now Section)
 domains_active: [design, leadership, pmm]
 captured_first: 2026-05-01
+external:
+  website: https://www.profgalloway.com/
 ---
 
 # Scott Galloway

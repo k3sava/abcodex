@@ -8,6 +8,9 @@ roles:
   - Stanford University athlete and graduate
 domains_active: [leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  website: https://www.sahilbloom.com/
+  newsletter: https://www.sahilbloom.com/newsletter
 ---
 
 # Sahil Bloom

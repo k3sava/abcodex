@@ -8,6 +8,8 @@ roles:
   - author of 'How To Be Successful' and 'The Gentle Singularity
 domains_active: [product, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/samaltman/
 ---
 
 # Sam Altman

@@ -8,6 +8,8 @@ roles:
   - Author of 'Product-Led Onboarding' and 'EUREKA: The Product Onboarding Playbook for B2B Companies.' Has trained hundreds of PLG companies including Mixpanel
 domains_active: [growth, pmm, leadership, product, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/ramlijohn/
 ---
 
 # Ramli John

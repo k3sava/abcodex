@@ -8,6 +8,8 @@ roles:
   - former product marketer at Google (AdWords and YouTube)
 domains_active: [pmm, product, leadership, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/marcusandrews/
 ---
 
 # Marcus Andrews

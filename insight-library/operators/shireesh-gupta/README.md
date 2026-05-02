@@ -6,6 +6,8 @@ roles:
   - remote team across multiple time zones
 domains_active: [pmm, product, leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/shireeshgupta95/
 ---
 
 # Shireesh Gupta

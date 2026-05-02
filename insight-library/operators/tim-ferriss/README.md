@@ -8,6 +8,8 @@ roles:
   - Tools of Titans
 domains_active: [leadership, design]
 captured_first: 2026-05-01
+external:
+  website: https://tim.blog/
 ---
 
 # Tim Ferriss

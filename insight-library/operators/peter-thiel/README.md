@@ -8,6 +8,8 @@ roles:
   - Author of Zero to One: Notes on Startups
 domains_active: [leadership, ai-native, pmm]
 captured_first: 2026-05-01
+external:
+  website: https://foundersfund.com/team/peter-thiel/
 ---
 
 # Peter Thiel

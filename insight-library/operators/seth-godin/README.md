@@ -7,6 +7,8 @@ roles:
   - Founder of altMBA and The Akimbo Workshops
 domains_active: [design, leadership, pmm]
 captured_first: 2026-05-01
+external:
+  website: https://seths.blog/
 ---
 
 # Seth Godin

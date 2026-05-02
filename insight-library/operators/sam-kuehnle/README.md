@@ -7,6 +7,9 @@ roles:
   - publishes Sam's Marketing Meditations newsletter on Substack; known for data-driven demand gen and paid media strategy in B2B SaaS
 domains_active: [leadership, ai-native, growth, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/samkuehnle/
+  newsletter: https://samkuehnle.com/
 ---
 
 # Sam Kuehnle

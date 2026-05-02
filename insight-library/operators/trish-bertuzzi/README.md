@@ -6,6 +6,8 @@ roles:
   - author of 'The Sales Development Playbook,' publisher of the most widely referenced SDR metrics benchmarks in B2B SaaS
 domains_active: [sales-cs, design, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/trishbertuzzi/
 ---
 
 # Trish Bertuzzi

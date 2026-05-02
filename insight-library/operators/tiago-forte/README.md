@@ -5,6 +5,8 @@ roles:
   - productivity consultant
 domains_active: [ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  website: https://fortelabs.com/
 ---
 
 # Tiago Forte

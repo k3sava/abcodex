@@ -8,6 +8,8 @@ roles:
   - conducted the seminal zero-click search studies showing 58.5% of US Google searches end without a click
 domains_active: [pmm, leadership, sales-cs, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/randfishkin/
 ---
 
 # Rand Fishkin

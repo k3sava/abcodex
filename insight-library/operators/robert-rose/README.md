@@ -8,6 +8,8 @@ roles:
   - has consulted with 500+ companies including 15 Fortune 100
 domains_active: [pmm, design, leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/robrose/
 ---
 
 # Robert Rose

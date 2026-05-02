@@ -8,6 +8,8 @@ roles:
   - managed 400+ websites across her career
 domains_active: [leadership, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/tasbober/
 ---
 
 # Tas Bober

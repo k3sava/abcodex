@@ -8,6 +8,8 @@ roles:
   - former Global Editor-in-Chief at QuickBooks (Intuit)
 domains_active: [pmm, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/tommyismyname/
 ---
 
 # Tommy Walker

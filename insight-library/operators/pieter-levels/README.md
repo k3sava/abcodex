@@ -8,6 +8,8 @@ roles:
   - and 70+ other launched products
 domains_active: [product, ai-native, leadership]
 captured_first: 2026-05-01
+external:
+  website: https://levels.io/
 ---
 
 # Pieter Levels

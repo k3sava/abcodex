@@ -8,6 +8,8 @@ roles:
   - a privacy-first web analytics tool
 domains_active: [product, growth, leadership]
 captured_first: 2026-05-01
+external:
+  website: https://pjrvs.com/
 ---
 
 # Paul Jarvis

@@ -5,6 +5,8 @@ roles:
   - TK Kader
 domains_active: [gtm, leadership, sales-cs, product]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/tkkader/
 ---
 
 # TK Kader

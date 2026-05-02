@@ -7,7 +7,8 @@ roles:
   - Marketing Leadership Coach
 domains_active: [founder-craft, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/sjeel-k-30a82658/
 ---
 
 # Sjeel K.

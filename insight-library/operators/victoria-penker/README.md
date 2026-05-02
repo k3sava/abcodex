@@ -7,7 +7,8 @@ roles:
   - Positioning & Messaging
 domains_active: [pmm, ai-native, marketing]
 captured_first: 2026-05-02
-external: {}
+external:
+  linkedin: https://www.linkedin.com/in/victoria-penker-13100a150/
 ---
 
 # Victoria Penker

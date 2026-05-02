@@ -8,6 +8,8 @@ roles:
   - Creator of No BS Agency Mastery
 domains_active: [product, pmm, ai-native, design]
 captured_first: 2026-05-01
+external:
+  website: https://www.piasilva.com/
 ---
 
 # Pia Silva

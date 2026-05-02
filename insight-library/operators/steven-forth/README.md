@@ -7,6 +7,8 @@ roles:
   - Named one of the top 10 pricing authorities in the world by OpenView Venture Partners
 domains_active: [pmm, leadership, ai-native]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/stevenforth/
 ---
 
 # Steven Forth

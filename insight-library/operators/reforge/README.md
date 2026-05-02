@@ -8,6 +8,8 @@ roles:
   - blog is the definitive resource on growth models
 domains_active: [product, growth, leadership, design, sales-cs]
 captured_first: 2026-05-01
+external:
+  website: https://www.reforge.com/
 ---
 
 # Reforge

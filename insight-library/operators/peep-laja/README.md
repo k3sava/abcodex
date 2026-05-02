@@ -5,6 +5,8 @@ roles:
   - Peep Laja
 domains_active: [leadership, design, research, pmm]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/peeplaja/
 ---
 
 # Peep Laja

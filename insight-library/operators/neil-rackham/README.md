@@ -7,6 +7,8 @@ roles:
   - conducted the largest empirical study of sales effectiveness ever (35,000+ calls, 12 years, 27 countries, $1M+ investment)
 domains_active: [research, sales-cs, design]
 captured_first: 2026-05-01
+external:
+  website: https://www.huthwaiteinternational.com/horizons/author/neil-rackham
 ---
 
 # Neil Rackham

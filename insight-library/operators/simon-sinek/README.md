@@ -7,6 +7,8 @@ roles:
   - Teaches graduate-level strategic communications at Columbia University
 domains_active: [design, leadership, pmm]
 captured_first: 2026-05-01
+external:
+  website: https://simonsinek.com/
 ---
 
 # Simon Sinek

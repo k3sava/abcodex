@@ -8,6 +8,8 @@ roles:
   - True Classic
 domains_active: [research, growth, leadership, pmm, design]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/sarahlevinger/
 ---
 
 # Sarah Levinger

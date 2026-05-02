@@ -7,6 +7,8 @@ roles:
   - architect of Ahrefs' content strategy that grew the blog to 1.5M+ monthly visitors, author of multiple data-driven SEO studies
 domains_active: [growth, pmm, research, leadership]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/timsoulo/
 ---
 
 # Tim Soulo

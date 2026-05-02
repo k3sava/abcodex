@@ -8,6 +8,8 @@ roles:
   - worked at HubSpot
 domains_active: [pmm, leadership, growth]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/stephaniesmith93/
 ---
 
 # Steph Smith

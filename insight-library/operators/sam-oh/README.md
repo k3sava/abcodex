@@ -8,6 +8,8 @@ roles:
   - author of Ahrefs' definitive guides on YouTube SEO and video SEO, previously grew multiple YouTube channels in different niches
 domains_active: [growth, pmm, leadership, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/sam-oh-84593014/
 ---
 
 # Sam Oh

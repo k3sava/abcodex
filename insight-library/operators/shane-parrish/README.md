@@ -8,6 +8,8 @@ roles:
   - Former Canadian intelligence analyst
 domains_active: [leadership, ai-native, pmm]
 captured_first: 2026-05-01
+external:
+  website: https://fs.blog/
 ---
 
 # Shane Parrish

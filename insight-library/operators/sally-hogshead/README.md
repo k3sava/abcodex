@@ -8,6 +8,8 @@ roles:
   - Author of 'Fascinate: How to Make Your Brand Impossible to Resist' and 'How the World Sees You' (#1 Wall Street Journal, #2 New York Times bestseller)
 domains_active: [design, leadership, pmm, research]
 captured_first: 2026-05-01
+external:
+  linkedin: https://www.linkedin.com/in/sallyhogshead/
 ---
 
 # Sally Hogshead
