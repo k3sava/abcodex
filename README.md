@@ -27,7 +27,7 @@ The site at [k3sava.github.io/codex](https://k3sava.github.io/codex/) gives you 
 | [Map](https://k3sava.github.io/codex/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
 | [Operators](https://k3sava.github.io/codex/#/operators) | All 190 profiles, sorted by card count |
 | [Patterns](https://k3sava.github.io/codex/#/patterns) | Where 3+ operators converge on the same claim |
-| [Carousel](https://k3sava.github.io/codex/#/carousel) | Scan all cards at a glance |
+| [Browse](https://k3sava.github.io/codex/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://k3sava.github.io/codex/#/timeline) | Newest captures first |
 | [Flash](https://k3sava.github.io/codex/#/flash) | One card at a time, prev/next/shuffle |
 
@@ -47,7 +47,7 @@ Press `⌘K` (or `Ctrl-K`) anywhere to search across operators, claims, and patt
 
 ## What you'll find
 
-Cross-domain operator wisdom across Product, PMM, GTM, Growth, Design, Engineering, AI-native operating, Leadership, Sales/CS, Research, and Founder craft. No client work, no internal team detail, no commentary — just a structured record of what operators have actually said and shipped, with the source attached.
+Cross-domain operator wisdom across Product, PMM, GTM, Growth, Design, Engineering, AI-native operating, Leadership, Sales/CS, Research, and Founder craft. A structured, primary-source record of what operators have published — with the source URL attached to every claim.
 
 A few of the operators currently in the corpus: April Dunford, Andrej Karpathy, Claire Vo, Cat Wu, Boris Cherny, Yamini Rangan, Kieran Flanagan, Elena Verna, Andy Raskin, Bob Moesta, Annie Duke, Aleyda Solis, Mike King, Kevin Indig, Brian Balfour, Brian Halligan, Bret Taylor, Jessica Fain, Ethan Mollick, Lily Ray, Simon Willison, Sherwin Wu, Asha Sharma, Anton Osika, Patrick Campbell, Charlie Munger, Daniel Kahneman, Naval Ravikant, and many more.
 
@@ -77,7 +77,7 @@ If you only want a subset, filter `INDEX.json` by `tier`, `domain`, or `operator
 
 ## Contributing
 
-The ingest protocol is in [`insight-library/00_meta/INGEST-PROTOCOL.md`](insight-library/00_meta/INGEST-PROTOCOL.md). Every card needs a named operator, a verifiable source URL, a date, and the standard schema fields. No paraphrase-grade attribution; no invented metrics; no client-specific content.
+The ingest protocol is in [`insight-library/00_meta/INGEST-PROTOCOL.md`](insight-library/00_meta/INGEST-PROTOCOL.md). Every card needs a named operator, a verifiable source URL, a date, and the standard schema fields. No paraphrase-grade attribution; no invented metrics; no fabricated sources.
 
 When you add or change cards, regenerate the index:
 

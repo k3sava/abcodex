@@ -5,8 +5,8 @@ const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 gsap.registerPlugin(ScrollTrigger);
 
 let cards = [], operators = [], patterns = [], contradictions = [], playbooks = [];
-let STATS = {};   // single source of truth — comes from INDEX.json `counts`
-let DOMAINS = []; // sorted unique domain list
+let STATS = {};
+let DOMAINS = [];
 
 const slugify = s => (s||'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const escapeHtml = s => (s||'').replace(/[&<>"']/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -31,10 +31,7 @@ async function loadIndex(){
   patterns = (data.patterns||[]).map(p => ({ id:p.id, title:p.title, tier:p.tier, path:p.path, uses_cards:p.uses_cards||[], domains:p.domains||[] }));
   contradictions = (data.contradictions||[]).map(c => ({ id:c.id, title:c.title, path:c.path }));
   playbooks = (data.playbooks||[]).map(p => ({ id:p.id, title:p.title, path:p.path, domain:p.domain||[] }));
-
   DOMAINS = [...new Set(cards.flatMap(c=>c.domain))].sort();
-
-  // Single source of truth for all UI counts
   const counts = data.counts || {};
   STATS = {
     cards: counts.insights ?? cards.length,
@@ -158,22 +155,14 @@ function animateHome(){
   }
   document.querySelectorAll('.hero .num').forEach(el => {
     const target = +el.dataset.count;
-    gsap.to({n:0}, {
-      n: target, duration: 1.6, ease:'power2.out', delay:.3,
-      onUpdate(){ el.textContent = Math.round(this.targets()[0].n); }
-    });
+    gsap.to({n:0}, { n: target, duration: 1.6, ease:'power2.out', delay:.3,
+      onUpdate(){ el.textContent = Math.round(this.targets()[0].n); } });
   });
   gsap.from('.hero .stats', { opacity:0, y:24, duration:.8, ease:'power2.out', delay:.6 });
   gsap.fromTo('#scrollCue', { opacity:0 }, { opacity:.6, duration:.6, delay:1.4 });
   gsap.to('#scrollCue', { opacity:0, scrollTrigger:{ trigger:'.hero', start:'bottom 80%', scrub:true } });
-  ScrollTrigger.batch('.section-head', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, y:24 }, { opacity:1, y:0, duration:.7, ease:'power3.out', stagger:.08 }),
-    start:'top 85%'
-  });
-  ScrollTrigger.batch('.reveal', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.7, ease:'power3.out', stagger:.04 }),
-    start:'top 92%'
-  });
+  ScrollTrigger.batch('.section-head', { onEnter: els => gsap.fromTo(els, { opacity:0, y:24 }, { opacity:1, y:0, duration:.7, ease:'power3.out', stagger:.08 }), start:'top 85%' });
+  ScrollTrigger.batch('.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.7, ease:'power3.out', stagger:.04 }), start:'top 92%' });
 }
 
 /* ============ INSIGHT ============ */
@@ -246,10 +235,7 @@ function operatorsList(){
         <span class='ct'>${o.count} card${o.count===1?'':'s'}</span>
       </a>`).join('')}</div>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.op-card.reveal', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.012 }),
-    start:'top 95%'
-  });
+  if (!reduced) ScrollTrigger.batch('.op-card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.012 }), start:'top 95%' });
 }
 
 /* ============ DOMAIN ============ */
@@ -261,10 +247,7 @@ function domainPage(d){
     <p class='lede'>${list.length} cards in ${d}.</p>
     <div class='card-grid'>${list.map(cardTile).join('')}</div>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.card.reveal', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }),
-    start:'top 92%'
-  });
+  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
 /* ============ PATTERNS ============ */
@@ -282,10 +265,7 @@ function patternsList(){
     ${contradictions.length?`<div class='cards-head' style='margin-top:64px;margin-bottom:18px'>contradictions (${STATS.contradictions})</div>
       <div class='card-grid'>${contradictions.map(c=>`<a class='card reveal' href='#/con/${c.id}'><div class='meta-row'><span>contradiction</span></div><h3>${escapeHtml(c.title)}</h3></a>`).join('')}</div>`:''}
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.card.reveal', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }),
-    start:'top 92%'
-  });
+  if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
 async function patternPage(id){
@@ -356,8 +336,8 @@ function flash(){
   document.addEventListener('keydown', e => { if(e.key==='ArrowLeft') document.getElementById('prev')?.click(); if(e.key==='ArrowRight') document.getElementById('next')?.click(); if(e.key===' '){e.preventDefault(); document.getElementById('shuffle')?.click();} });
 }
 
-/* ============ BROWSE (filterable grid) ============ */
-const browseState = { tier:'all', domain:'all', sort:'date', q:'' };
+/* ============ BROWSE ============ */
+const browseState = { tier:'all', domain:'all', sort:'date' };
 function browse(){
   app.innerHTML = `<section class='browse-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>browse</span></div>
@@ -378,22 +358,17 @@ function browse(){
       <div class='row'>
         <span class='label'>domain</span>
         <button class='chip ${browseState.domain==='all'?'active':''}' data-domain='all'>all</button>
-        ${DOMAINS.map(d=>{
-          const ct = cards.filter(c=>c.domain.includes(d)).length;
-          return `<button class='chip ${browseState.domain===d?'active':''}' data-domain='${d}'>${d}<span class='ct'>${ct}</span></button>`;
-        }).join('')}
+        ${DOMAINS.map(d=>{ const ct = cards.filter(c=>c.domain.includes(d)).length; return `<button class='chip ${browseState.domain===d?'active':''}' data-domain='${d}'>${d}<span class='ct'>${ct}</span></button>`; }).join('')}
         <span class='results' id='browseResults'></span>
       </div>
     </div>
     <div class='browse-grid' id='browseGrid'></div>
   </section>`;
   applyBrowse();
-
   document.querySelectorAll('#filterbar [data-tier]').forEach(b => b.onclick = () => { browseState.tier = b.dataset.tier; updateBrowse(); });
   document.querySelectorAll('#filterbar [data-domain]').forEach(b => b.onclick = () => { browseState.domain = b.dataset.domain; updateBrowse(); });
   document.querySelectorAll('#filterbar [data-sort]').forEach(b => b.onclick = () => { browseState.sort = b.dataset.sort; updateBrowse(); });
 }
-
 function applyBrowse(){
   let list = cards.slice();
   if (browseState.tier !== 'all') list = list.filter(c => c.tier === browseState.tier);
@@ -405,22 +380,13 @@ function applyBrowse(){
   const results = document.getElementById('browseResults');
   if (!grid) return;
   results.textContent = `${list.length} of ${STATS.cards} cards`;
-  if (list.length === 0){
-    grid.outerHTML = `<div class='browse-empty'>no cards match these filters.</div>`;
-  } else {
-    grid.innerHTML = list.map(cardTile).join('');
-    if (!reduced) ScrollTrigger.batch('.browse-grid .card.reveal', {
-      onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.015 }),
-      start:'top 95%'
-    });
-  }
+  if (list.length === 0){ grid.outerHTML = `<div class='browse-empty'>no cards match these filters.</div>`; }
+  else { grid.innerHTML = list.map(cardTile).join(''); if (!reduced) ScrollTrigger.batch('.browse-grid .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:14 }, { opacity:1, y:0, duration:.5, ease:'power2.out', stagger:.015 }), start:'top 95%' }); }
 }
-
 function updateBrowse(){
   document.querySelectorAll('#filterbar [data-tier]').forEach(b => b.classList.toggle('active', b.dataset.tier === browseState.tier));
   document.querySelectorAll('#filterbar [data-domain]').forEach(b => b.classList.toggle('active', b.dataset.domain === browseState.domain));
   document.querySelectorAll('#filterbar [data-sort]').forEach(b => b.classList.toggle('active', b.dataset.sort === browseState.sort));
-  // Re-render grid in place if it exists; otherwise re-mount
   if (!document.getElementById('browseGrid')){ browse(); return; }
   applyBrowse();
 }
@@ -438,18 +404,16 @@ function timeline(){
         <span class='who'>${escapeHtml(c.operator)}</span>
       </a>`).join('')}</div>
   </section>`;
-  if (!reduced) ScrollTrigger.batch('.titem.reveal', {
-    onEnter: els => gsap.fromTo(els, { opacity:0, x:-12 }, { opacity:1, x:0, duration:.5, ease:'power2.out', stagger:.012 }),
-    start:'top 95%'
-  });
+  if (!reduced) ScrollTrigger.batch('.titem.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, x:-12 }, { opacity:1, x:0, duration:.5, ease:'power2.out', stagger:.012 }), start:'top 95%' });
 }
 
-/* ============ ABOUT ============ */
+/* ============ ABOUT (scrubbed copy) ============ */
 function about(){
   app.innerHTML = `<section class='about-page'>
     <h1>about codex</h1>
-    <p>codex is a primary-source library of operator insights — each card carries a named operator, a verifiable source URL, and a date. The corpus is built so you can read one claim, verify the source, and cite it.</p>
-    <p>Cross-domain operator wisdom across product, pmm, gtm, ai-native, design, engineering, leadership, sales, growth, research, and founder craft. No client work, no internal team detail, no commentary — just a structured record of what operators have actually said and shipped.</p>
+    <p>codex is an open, primary-source library of operator insights. Each card carries a named operator, a verifiable source URL, and a date — so anyone can read one claim, verify the source, and cite it.</p>
+    <p>The corpus spans product, pmm, gtm, ai-native operating, design, engineering, leadership, sales, growth, research, and founder craft. It is a structured record of what operators have published — books, podcasts, essays, talks, threads — distilled into atomic claims with mechanism, conditions, evidence, and counter-evidence.</p>
+    <p>Every claim traces back to its primary source. Nothing is paraphrased without attribution. Nothing is invented. Where operators disagree, the disagreement is documented as a contradiction. Where multiple operators converge, the convergence is documented as a synthesis pattern.</p>
     <ul>
       <li>${STATS.cards} insight cards across ${STATS.domains} domains</li>
       <li>${STATS.operators} operator profiles</li>
@@ -458,95 +422,179 @@ function about(){
       <li>${STATS.playbooks} methodology playbooks</li>
       <li>${STATS.tierA} Tier A claims</li>
     </ul>
-    <p>Source on <a href='https://github.com/k3sava/codex' target='_blank' rel='noopener'>github</a>. Released MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use.</p>
+    <p>Source on <a href='https://github.com/k3sava/codex' target='_blank' rel='noopener'>github</a>. Released MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+    <p>To consume the corpus from another project, read <a href='https://raw.githubusercontent.com/k3sava/codex/main/insight-library/INDEX.json' target='_blank' rel='noopener'>INDEX.json</a> directly. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier — link to cards by id, fetch their markdown bodies at the listed paths.</p>
   </section>`;
 }
 
-/* ============ MAP ============ */
+/* ============ MAP — interactive force graph (drag, zoom, hover) ============ */
 function graph(){
   app.innerHTML = `<section class='graph-page'>
     <div class='ghead'>
       <h1>knowledge map</h1>
-      <p>${STATS.cards} insights orbit between operators and domains. Click any node to open.</p>
+      <p>${STATS.cards} insights, ${STATS.operators} operators, ${STATS.domains} domains. Drag any node to rearrange. Scroll or pinch to zoom. Click to open.</p>
     </div>
-    <div class='graphWrap'><svg id='graph'></svg></div>
-    <aside>
-      <div><strong>${STATS.cards}</strong> cards · <strong>${STATS.operators}</strong> profiles</div>
-      <div class='legend'>
-        <div><span class='sw' style='background:#7d9e7a'></span>domains</div>
-        <div><span class='sw' style='background:#5d738f'></span>operators</div>
-        <div><span class='sw' style='background:#cb7f46'></span>insights</div>
+    <div class='graphWrap'>
+      <svg id='graph'></svg>
+      <div class='graph-controls'>
+        <button id='zoomIn' title='Zoom in'>+</button>
+        <button id='zoomOut' title='Zoom out'>−</button>
+        <button id='zoomReset' title='Reset'>⟲</button>
       </div>
-    </aside>
+      <div class='graph-info'>
+        <div><strong>${STATS.cards}</strong> cards · <strong>${STATS.operators}</strong> profiles</div>
+        <div class='legend'>
+          <div><span class='sw' style='background:var(--accent)'></span>domains</div>
+          <div><span class='sw' style='background:#5d738f'></span>operators</div>
+          <div><span class='sw' style='background:#9c9082'></span>insights</div>
+        </div>
+        <div class='hint'>drag nodes · scroll to zoom · click to open · hover for label</div>
+      </div>
+      <div class='graph-tooltip' id='graphTip'></div>
+    </div>
   </section>`;
 
-  requestAnimationFrame(() => {
-    const wrap = document.querySelector('.graphWrap');
-    const W = wrap.clientWidth, H = wrap.clientHeight;
-    const cx = W/2, cy = H/2;
-    const svg = d3.select('#graph').attr('viewBox', `0 0 ${W} ${H}`);
+  requestAnimationFrame(() => buildForceGraph());
+}
 
-    const ops = [...new Set(cards.map(c=>c.operator))]; // operators with cards
-    const dR = Math.min(W,H)*0.16;
-    const oR = Math.min(W,H)*0.44;
-    const iR_min = Math.min(W,H)*0.22, iR_max = Math.min(W,H)*0.36;
+function buildForceGraph(){
+  const wrap = document.querySelector('.graphWrap');
+  const svgEl = document.getElementById('graph');
+  const tip = document.getElementById('graphTip');
+  const W = wrap.clientWidth - 32;
+  const H = svgEl.clientHeight;
 
-    const dNodes = DOMAINS.map((d,i)=>({ id:'d:'+d, label:d, type:'domain', angle:i/DOMAINS.length*Math.PI*2, x: cx + Math.cos(i/DOMAINS.length*Math.PI*2)*dR, y: cy + Math.sin(i/DOMAINS.length*Math.PI*2)*dR }));
-    const oNodes = ops.map((o,i)=>({ id:'o:'+o, label:o, type:'operator', slug:slugify(o), angle:i/ops.length*Math.PI*2, x: cx + Math.cos(i/ops.length*Math.PI*2)*oR, y: cy + Math.sin(i/ops.length*Math.PI*2)*oR }));
-    const iNodes = cards.map((c,i)=>{ const r = iR_min + (iR_max-iR_min) * (i % 5) / 4; const a = (i / cards.length) * Math.PI*2; return { id:'i:'+c.id, card:c, type:'insight', x: cx + Math.cos(a)*r, y: cy + Math.sin(a)*r }; });
+  const nodes = [
+    ...DOMAINS.map(d => ({ id:'d:'+d, label:d, type:'domain', radius:14, link:`#/d/${d}` })),
+    ...[...new Set(cards.map(c=>c.operator))].map(o => ({ id:'o:'+o, label:o, type:'operator', radius:7, link:`#/o/${slugify(o)}` })),
+    ...cards.map(c => ({ id:'i:'+c.id, label:c.claim, type:'insight', radius:3.5, card:c, link:`#/ins/${c.id}` })),
+  ];
+  const idx = new Map(nodes.map(n => [n.id, n]));
+  const links = [];
+  cards.forEach(c => {
+    const i = idx.get('i:'+c.id);
+    const o = idx.get('o:'+c.operator);
+    if (i && o) links.push({ source:i, target:o, kind:'op' });
+    c.domain.forEach(d => { const dn = idx.get('d:'+d); if (i && dn) links.push({ source:i, target:dn, kind:'dom' }); });
+  });
 
-    const all = [...dNodes,...oNodes,...iNodes];
-    const idx = new Map(all.map(n=>[n.id,n]));
-    const edges = [];
-    cards.forEach(c => {
-      const ci = idx.get('i:'+c.id), co = idx.get('o:'+c.operator);
-      if (ci && co) edges.push({a:ci, b:co});
-      c.domain.forEach(d => { const cd = idx.get('d:'+d); if (ci && cd) edges.push({a:ci, b:cd}); });
-    });
+  const svg = d3.select('#graph');
+  svg.selectAll('*').remove();
+  svg.attr('viewBox', `0 0 ${W} ${H}`);
 
-    const eg = svg.append('g').attr('class','edges');
-    eg.selectAll('line').data(edges).enter().append('line')
-      .attr('x1',d=>d.a.x).attr('y1',d=>d.a.y).attr('x2',d=>d.b.x).attr('y2',d=>d.b.y)
-      .attr('stroke','#1a161412').attr('stroke-width',0.7);
+  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const accent = isDark ? '#39ff14' : '#1f9d55';
+  const edgeColor = isDark ? '#39ff1418' : '#0d141014';
+  const edgeColorHi = isDark ? '#39ff14aa' : '#1f9d55aa';
+  const opColor = isDark ? '#88a3c7' : '#5d738f';
+  const insColor = isDark ? '#7d8a78' : '#9c9082';
+  const labelColor = isDark ? '#d6e8d8' : '#0d1410';
+  const labelMuted = isDark ? '#6c8773' : '#7a6e62';
 
-    const ng = svg.append('g').attr('class','nodes');
-    const g = ng.selectAll('g').data(all).enter().append('g')
-      .attr('transform',d=>`translate(${d.x},${d.y})`).style('cursor','pointer')
-      .on('mouseenter', function(_,d){
-        d3.select(this).select('circle').transition().duration(150).attr('r', d.type==='domain'?16:d.type==='operator'?9:5);
-        if (d.type==='operator' || d.type==='insight'){
-          eg.selectAll('line').attr('stroke', e => (e.a.id===d.id || e.b.id===d.id) ? '#cb7f46aa' : '#1a161408').attr('stroke-width', e => (e.a.id===d.id || e.b.id===d.id) ? 1.4 : 0.5);
-        }
-      })
-      .on('mouseleave', function(_,d){
-        d3.select(this).select('circle').transition().duration(150).attr('r', d.type==='domain'?12:d.type==='operator'?6:2.6);
-        eg.selectAll('line').attr('stroke','#1a161412').attr('stroke-width',0.7);
-      })
-      .on('click',(_,d)=>{ if (d.type==='insight') location.hash = `#/ins/${d.card.id}`; else if (d.type==='operator') location.hash = `#/o/${d.slug}`; else if (d.type==='domain') location.hash = `#/d/${d.label}`; });
+  const g = svg.append('g');
+  const linkG = g.append('g').attr('class','links');
+  const nodeG = g.append('g').attr('class','nodes');
 
-    g.append('circle')
-      .attr('r', d => d.type==='domain'?12 : d.type==='operator'?6 : 2.6)
-      .attr('fill', d => d.type==='domain'?'#7d9e7a' : d.type==='operator'?'#5d738f' : '#cb7f46')
-      .attr('opacity', d => d.type==='insight'?0.85 : 1);
+  const link = linkG.selectAll('line').data(links).enter().append('line')
+    .attr('stroke', edgeColor).attr('stroke-width', 0.7);
 
-    g.filter(d=>d.type==='domain').append('text')
-      .attr('dy', -18).attr('text-anchor','middle')
-      .attr('font-family','var(--mono)').attr('font-size',11).attr('fill','#1a1614')
-      .text(d=>d.label);
+  const node = nodeG.selectAll('g').data(nodes).enter().append('g')
+    .style('cursor','pointer');
 
-    g.filter(d=>d.type==='operator').append('text')
-      .attr('dy', d => Math.sin(d.angle) > 0 ? 18 : -10)
-      .attr('text-anchor','middle')
-      .attr('font-family','var(--sans)').attr('font-size',9).attr('fill','#7a6e62').attr('opacity',0.55)
-      .text(d=>d.label);
+  node.append('circle')
+    .attr('r', d => d.radius)
+    .attr('fill', d => d.type==='domain' ? accent : d.type==='operator' ? opColor : insColor)
+    .attr('opacity', d => d.type==='insight' ? 0.85 : 1)
+    .attr('stroke', d => d.type==='domain' ? accent : 'transparent')
+    .attr('stroke-width', d => d.type==='domain' ? 0 : 0)
+    .attr('filter', d => d.type==='domain' && isDark ? 'url(#glow)' : null);
 
-    g.append('title').text(d => d.type==='insight'?`${d.card.claim} — ${d.card.operator}`: d.label);
+  // Glow filter for domain nodes in dark mode
+  if (isDark){
+    const defs = svg.append('defs');
+    const filter = defs.append('filter').attr('id','glow').attr('x','-50%').attr('y','-50%').attr('width','200%').attr('height','200%');
+    filter.append('feGaussianBlur').attr('stdDeviation','3').attr('result','blur');
+    const m = filter.append('feMerge'); m.append('feMergeNode').attr('in','blur'); m.append('feMergeNode').attr('in','SourceGraphic');
+  }
 
-    if (!reduced){
-      gsap.from(g.nodes(), { opacity:0, scale:0, duration:.9, stagger:{ each:.003, from:'random' }, ease:'power3.out', transformOrigin:'center' });
-      gsap.from(eg.selectAll('line').nodes(), { opacity:0, duration:1.2, ease:'power2.out', delay:.4 });
+  node.filter(d => d.type==='domain').append('text')
+    .attr('dy', -20).attr('text-anchor','middle')
+    .attr('font-family','JetBrains Mono, ui-monospace, monospace').attr('font-size', 11).attr('fill', labelColor)
+    .text(d => d.label);
+
+  // Operator labels appear on hover only via tooltip; insights via tooltip
+  // Drag behavior
+  const drag = d3.drag()
+    .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+    .on('end', (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; });
+
+  node.call(drag);
+
+  // Hover behavior
+  node.on('mouseenter', function(event, d){
+    const sel = d3.select(this).select('circle');
+    sel.transition().duration(150).attr('r', d.radius * 1.7);
+    link
+      .attr('stroke', l => (l.source.id===d.id || l.target.id===d.id) ? edgeColorHi : edgeColor)
+      .attr('stroke-width', l => (l.source.id===d.id || l.target.id===d.id) ? 1.4 : 0.4);
+    if (d.type !== 'domain'){
+      tip.textContent = d.type==='insight' ? `${d.label} — ${d.card.operator}` : d.label;
+      const rect = svgEl.getBoundingClientRect();
+      const wrapRect = wrap.getBoundingClientRect();
+      tip.style.left = (event.clientX - wrapRect.left + 14) + 'px';
+      tip.style.top = (event.clientY - wrapRect.top + 14) + 'px';
+      tip.style.opacity = '1';
     }
   });
+  node.on('mousemove', (event) => {
+    const wrapRect = wrap.getBoundingClientRect();
+    tip.style.left = (event.clientX - wrapRect.left + 14) + 'px';
+    tip.style.top = (event.clientY - wrapRect.top + 14) + 'px';
+  });
+  node.on('mouseleave', function(event, d){
+    d3.select(this).select('circle').transition().duration(150).attr('r', d.radius);
+    link.attr('stroke', edgeColor).attr('stroke-width', 0.7);
+    tip.style.opacity = '0';
+  });
+  node.on('click', (_, d) => { location.hash = d.link; });
+
+  // Force simulation
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(d => d.target.type==='domain' ? 60 : 30).strength(0.15))
+    .force('charge', d3.forceManyBody().strength(d => d.type==='domain' ? -260 : d.type==='operator' ? -90 : -18))
+    .force('center', d3.forceCenter(W/2, H/2))
+    .force('collide', d3.forceCollide().radius(d => d.radius + 2))
+    .force('x', d3.forceX(W/2).strength(0.04))
+    .force('y', d3.forceY(H/2).strength(0.04))
+    .on('tick', () => {
+      link.attr('x1', l => l.source.x).attr('y1', l => l.source.y).attr('x2', l => l.target.x).attr('y2', l => l.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+
+  // Zoom + pan
+  const zoom = d3.zoom().scaleExtent([0.3, 5]).on('zoom', e => g.attr('transform', e.transform));
+  svg.call(zoom);
+
+  document.getElementById('zoomIn').onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1.4);
+  document.getElementById('zoomOut').onclick = () => svg.transition().duration(300).call(zoom.scaleBy, 1/1.4);
+  document.getElementById('zoomReset').onclick = () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+
+  if (!reduced){
+    gsap.from('.graph-info, .graph-controls', { opacity:0, y:8, duration:.5, delay:.3, ease:'power2.out' });
+  }
+
+  // Re-render on resize
+  let rafId;
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(rafId);
+    rafId = requestAnimationFrame(() => {
+      const newW = wrap.clientWidth - 32, newH = svgEl.clientHeight;
+      svg.attr('viewBox', `0 0 ${newW} ${newH}`);
+      sim.force('center', d3.forceCenter(newW/2, newH/2));
+      sim.alpha(0.3).restart();
+    });
+  }, { once:true });
 }
 
 /* ============ ROUTER ============ */
@@ -555,7 +603,6 @@ function setActive(){
   const top = '/'+ (r.split('/')[1] || '');
   document.querySelectorAll('[data-route]').forEach(a => a.classList.toggle('active', a.dataset.route === top || (top==='/' && a.dataset.route === '/')));
 }
-
 function render(){
   window.scrollTo(0,0);
   ScrollTrigger.getAll().forEach(t=>t.kill());
@@ -575,11 +622,7 @@ function render(){
   else if (r==='/timeline') view = timeline;
   else if (r==='/about') view = about;
   else view = about;
-
-  // Page transition
-  if (!reduced){
-    gsap.fromTo(app, { opacity:0, y:8 }, { opacity:1, y:0, duration:.4, ease:'power2.out' });
-  }
+  if (!reduced) gsap.fromTo(app, { opacity:0, y:8 }, { opacity:1, y:0, duration:.4, ease:'power2.out' });
   view();
 }
 
@@ -607,7 +650,7 @@ function wireSearch(){
   };
 }
 
-/* ============ HEADER + SCROLL PROGRESS ============ */
+/* ============ HEADER + SCROLL ============ */
 function wireHeader(){
   const hdr = document.getElementById('hdr');
   const bar = document.getElementById('scrollProgress');
@@ -641,19 +684,12 @@ function dismissSplash(){
   if (reduced){ splash.remove(); return; }
   const tl = gsap.timeline({ onComplete: () => splash.remove() });
   tl.to('#splash .progress .bar', { width:'100%', duration:.5, ease:'power2.out' });
-  tl.to('#splash .pulse', { scale:1.4, opacity:.4, duration:.4, ease:'power2.out', boxShadow:'0 0 0 18px rgba(203,127,70,0)' }, '<');
+  tl.to('#splash .pulse', { scale:1.4, opacity:.4, duration:.4, ease:'power2.out' }, '<');
   tl.to('#splash', { xPercent:-100, duration:.7, ease:'power3.inOut' }, '+=.1');
 }
 
 window.addEventListener('hashchange', () => { render(); setActive(); });
-loadIndex().then(() => {
-  render();
-  setActive();
-  wireSearch();
-  wireHeader();
-  wireMobileMenu();
-  dismissSplash();
-}).catch(e => {
+loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });

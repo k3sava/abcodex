@@ -143,11 +143,11 @@ One commit per source. Don't batch multiple sources unless they're a single thre
 ## Filters (always applied)
 
 **Drop:**
-- Anything client-specific (real customer names, deals, internal channels)
-- Career-ops, exit timelines, personal portfolio framing
-- Personal projects (miniu, nanoclaw, ghost-os, kurry, diggy, app-studio, oolala)
-- Wiki content tied to a specific person's career arc rather than transferable wisdom
+- Anything tied to a specific company's customers, deals, pricing, or internal data
+- Personal career-arc material (job hunts, portfolio framing, exit timelines)
+- Tooling- or harness-specific content that isn't a transferable principle
 - Vendor pitches dressed as insights (promotional content from companies about themselves)
+- Restated common wisdom without a named operator and verifiable source
 
 **Keep:**
 - Operator-attributed wisdom transferable across companies
