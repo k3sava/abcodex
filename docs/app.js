@@ -88,7 +88,7 @@ function home(){
   app.innerHTML = `
     <section class='hero'>
       <p class='eyebrow'>operator insight library</p>
-      <h1 id='heroH'>read one claim. <em>verify</em> the source. cite it.</h1>
+      <h1 id='heroH'>learn from the <em>best</em></h1>
       <p class='lede'>codex is a primary-source corpus of operator-attributed claims across product, pmm, gtm, ai-native, design, and leadership. every card carries a named operator, source url, date, mechanism, conditions, and evidence.</p>
       <div class='stats'>
         <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></a>
