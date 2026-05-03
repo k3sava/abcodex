@@ -233,18 +233,66 @@ async function insight(id){
 }
 
 /* ============ OPERATOR ============ */
+function stripMdSections(md, titlesLower){
+  const lines = md.split('\n');
+  const out = [];
+  let skip = false;
+  for (const line of lines){
+    const m = line.match(/^##\s+(.+?)\s*$/);
+    if (m){
+      const t = m[1].toLowerCase().replace(/[^a-z0-9 ]/g,'').trim();
+      skip = titlesLower.includes(t);
+      if (skip) continue;
+    }
+    if (!skip) out.push(line);
+  }
+  return out.join('\n');
+}
+
 async function operatorPage(slug){
   const op = operators.find(o=>o.slug===slug) || { name:slug, slug, roles:[], path:`operators/${slug}/README.md`, domains_active:[] };
   const opCards = cards.filter(c => c.operator_slug === slug);
+  // Source-type glyph reused from operators list
+  const srcGlyph = { podcast: '◔', essay: '✎', book: '▭', thread: '#', research: '⌘', talk: '▷', '': '·' };
+  // Unique sources from cards (dedupe by source_url)
+  const sourceMap = new Map();
+  for (const c of opCards){
+    if (!c.source_url || sourceMap.has(c.source_url)) continue;
+    sourceMap.set(c.source_url, { url: c.source_url, title: c.source_title || c.source_url, date: c.source_date || '', type: c.source_type || '' });
+  }
+  const sources = [...sourceMap.values()].sort((a,b)=> (b.date||'').localeCompare(a.date||''));
+
   app.innerHTML = `<article class='operator-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <span>${escapeHtml(op.name||slug)}</span></div>
     <h1>${escapeHtml(op.name||slug)}</h1>
     ${op.roles.length?`<div class='roles'>${op.roles.map(r=>`<span class='chip'>${escapeHtml(r)}</span>`).join('')}</div>`:''}
-    <div class='body' id='opBio'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
-    <div class='cards-head'>${opCards.length} card${opCards.length===1?'':'s'}</div>
-    <div class='card-grid'>${opCards.map(cardTile).join('')||'<p style="color:var(--muted)">no cards yet — see operator file for sources.</p>'}</div>
+    <div class='op-grid'>
+      <div class='op-main'>
+        <div class='body' id='opBio'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+        ${sources.length ? `<section class='op-sources'>
+          <h3>Sources</h3>
+          <ul>${sources.map(s => `<li>
+            <span class='op-src-glyph' title='${s.type||'source'}'>${srcGlyph[s.type]||'·'}</span>
+            <a href='${s.url}' target='_blank' rel='noopener'>${escapeHtml(s.title)}</a>
+            ${s.date?`<span class='op-src-date'>${s.date}</span>`:''}
+          </li>`).join('')}</ul>
+        </section>` : ''}
+      </div>
+      <aside class='op-aside'>
+        <div class='op-aside-head'>${opCards.length} insight${opCards.length===1?'':'s'}</div>
+        <div class='op-card-list'>${opCards.map(c => `
+          <a class='op-mini' href='#/ins/${c.id}'>
+            <div class='op-mini-top'>${tierBadge(c.tier)}<span class='op-mini-dom'>${(c.domain||[]).slice(0,2).join(' · ')}</span></div>
+            <div class='op-mini-claim'>${escapeHtml(c.claim||c.id)}</div>
+          </a>`).join('') || '<p style="color:var(--muted)">no cards yet</p>'}</div>
+      </aside>
+    </div>
   </article>`;
-  if (op.path){ const md = await fetchBody(op.path); document.getElementById('opBio').innerHTML = mdToHtml(md); }
+  if (op.path){
+    const md = await fetchBody(op.path);
+    const cleaned = stripMdSections(md, ['cards','sources captured','sources']);
+    document.getElementById('opBio').innerHTML = mdToHtml(cleaned);
+  }
   if (!reduced) gsap.from('.operator-page > *', { opacity:0, y:18, duration:.6, ease:'power3.out', stagger:.05 });
 }
 
@@ -313,6 +361,9 @@ function operatorsList(){
     </div>
     <div class='ops-table-wrap'>
       <table class='ops-table'>
+        <colgroup>
+          <col class='c-name' /><col class='c-role' /><col class='c-doms' /><col class='c-srcs' /><col class='c-latest' /><col class='c-count' />
+        </colgroup>
         <thead>
           <tr>
             <th class='th-sort' data-sort='name'>name${arrow('name')}</th>
@@ -747,7 +798,7 @@ async function patternPage(id){
           </a></li>`).join('')}</ul>
       </aside>
     </div>
-    <p class='pat-source'><a href='https://github.com/k3sava/codex/blob/main/insight-library/${p.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
+    <p class='pat-source'><a href='${REPO_BASE}/insight-library/${p.path}' target='_blank' rel='noopener'>Source on GitHub →</a></p>
   </article>`;
   // Wire radial → operator
   document.querySelectorAll('.pat-radial-op').forEach(g => {
@@ -755,9 +806,10 @@ async function patternPage(id){
     g.addEventListener('click', () => location.hash = `#/o/${g.dataset.slug}`);
   });
   const md = await fetchBody(p.path);
-  // Strip frontmatter and leading H1 from pattern body
+  // Strip frontmatter, leading H1, and duplicated Operators/Sources sections (rendered in side rail)
   const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
-  document.getElementById('patBody').innerHTML = mdToHtml(stripFm(md).replace(/^#\s+[^\n]+\n+/, ''));
+  const cleaned = stripMdSections(stripFm(md).replace(/^#\s+[^\n]+\n+/, ''), ['operators','sources','sources captured']);
+  document.getElementById('patBody').innerHTML = mdToHtml(cleaned);
   if (!reduced){
     gsap.from('.pat-head > *', { opacity:0, y:14, duration:.6, ease:'power2.out', stagger:.06 });
     gsap.from('.pat-radial-line', { opacity:0, drawSVG:0, duration:.8, stagger:.04, ease:'power2.out', delay:.3 });
@@ -980,26 +1032,35 @@ function timeline(){
     months.get(ym).push(c);
   }
   const orderedMonths = [...months.keys()];
-  // Sparkline data — daily counts over corpus lifespan
-  const dayCounts = new Map();
-  for (const c of dated){
-    const d = c.source_date.slice(0,10);
-    dayCounts.set(d, (dayCounts.get(d)||0) + 1);
-  }
-  const dayKeys = [...dayCounts.keys()].sort();
+  // Sparkline — per-month bars across corpus lifespan, evenly spaced
+  const monthKeys = [...months.keys()].sort();
+  const dayKeys = [...new Set(dated.map(c => c.source_date.slice(0,10)))].sort();
   let sparkSvg = '';
-  if (dayKeys.length > 1){
-    const first = new Date(dayKeys[0]); const last = new Date(dayKeys[dayKeys.length-1]);
-    const totalDays = Math.max(1, Math.round((last - first) / 86400000));
-    const W = 1000, H = 60;
-    const maxCt = Math.max(...dayCounts.values());
-    const bars = dayKeys.map(k => {
-      const dt = new Date(k);
-      const x = ((dt - first) / 86400000 / totalDays) * W;
-      const h = (dayCounts.get(k) / maxCt) * (H - 8);
-      return `<rect x='${x.toFixed(1)}' y='${(H - h).toFixed(1)}' width='2' height='${h.toFixed(1)}' />`;
+  let sparkLabels = '';
+  if (monthKeys.length > 0){
+    const monthDate = ym => { const [y,m] = ym.split('-'); return new Date(+y, +m-1, 1); };
+    const first = monthDate(monthKeys[0]); const last = monthDate(monthKeys[monthKeys.length-1]);
+    const totalMonths = Math.max(1, (last.getFullYear() - first.getFullYear()) * 12 + (last.getMonth() - first.getMonth()));
+    const W = 1000, H = 70;
+    const maxCt = Math.max(...[...months.values()].map(arr => arr.length));
+    const barW = Math.max(3, Math.min(14, W / (totalMonths + 2)));
+    const bars = monthKeys.map(ym => {
+      const dt = monthDate(ym);
+      const monthsFromStart = (dt.getFullYear() - first.getFullYear()) * 12 + (dt.getMonth() - first.getMonth());
+      const x = (monthsFromStart / Math.max(1,totalMonths)) * (W - barW);
+      const ct = months.get(ym).length;
+      const h = Math.max(2, (ct / maxCt) * (H - 12));
+      return `<g><rect x='${x.toFixed(1)}' y='${(H - h).toFixed(1)}' width='${barW.toFixed(1)}' height='${h.toFixed(1)}' rx='1.5'><title>${ym}: ${ct}</title></rect></g>`;
     }).join('');
     sparkSvg = `<svg class='timeline-spark' viewBox='0 0 ${W} ${H}' preserveAspectRatio='none' aria-hidden='true'>${bars}</svg>`;
+    // Year tick labels
+    const years = [...new Set(monthKeys.map(k => k.slice(0,4)))];
+    sparkLabels = years.map(y => {
+      const dt = new Date(+y, 0, 1);
+      const monthsFromStart = (dt.getFullYear() - first.getFullYear()) * 12 + (dt.getMonth() - first.getMonth());
+      const pct = (Math.max(0, monthsFromStart) / Math.max(1,totalMonths)) * 100;
+      return `<span class='spark-year' style='left:${pct.toFixed(2)}%'>${y}</span>`;
+    }).join('');
   }
   const fmtMonth = ym => {
     const [y, m] = ym.split('-');
@@ -1011,17 +1072,17 @@ function timeline(){
     <h1>timeline</h1>
     <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}.</p>
     ${sparkSvg ? `<div class='timeline-spark-wrap'>
-      <div class='timeline-spark-axis'><span>${dayKeys[0]||''}</span><span>${dayKeys[dayKeys.length-1]||''}</span></div>
-      ${sparkSvg}
+      <div class='timeline-spark-svg'>${sparkSvg}</div>
+      <div class='timeline-spark-years'>${sparkLabels}</div>
     </div>` : ''}
     <div class='timeline-stream'>${orderedMonths.map(ym => `
       <section class='tmonth'>
         <header class='tmonth-head'><h2>${fmtMonth(ym)}</h2><span class='ct'>${months.get(ym).length}</span></header>
         <div class='tmonth-rows'>${months.get(ym).map(c=>`
           <a class='trow reveal' href='#/ins/${c.id}'>
-            <span class='trow-day'>${c.source_date.slice(8,10)}</span>
             <span class='trow-claim'>${escapeHtml(c.claim)}</span>
             <span class='trow-who'>${escapeHtml(c.operator)}</span>
+            <span class='trow-date'>${c.source_date.slice(0,10)}</span>
             ${tierBadge(c.tier)}
           </a>`).join('')}</div>
       </section>`).join('')}
@@ -1029,9 +1090,9 @@ function timeline(){
         <header class='tmonth-head'><h2>Undated</h2><span class='ct'>${undated.length}</span></header>
         <div class='tmonth-rows'>${undated.map(c=>`
           <a class='trow reveal' href='#/ins/${c.id}'>
-            <span class='trow-day'>—</span>
             <span class='trow-claim'>${escapeHtml(c.claim)}</span>
             <span class='trow-who'>${escapeHtml(c.operator)}</span>
+            <span class='trow-date'>—</span>
             ${tierBadge(c.tier)}
           </a>`).join('')}</div>
       </section>` : ''}
@@ -1392,6 +1453,9 @@ function wireSearch(){
   };
 
   document.getElementById('searchOpen').onclick = ()=>{ dlg.showModal(); input.value=''; renderEmpty(); input.focus(); };
+  // Click outside (on backdrop) closes — mouse and touch parity with esc
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+  dlg.addEventListener('touchend', e => { if (e.target === dlg) dlg.close(); }, { passive:true });
   document.addEventListener('keydown', e => {
     if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); if (!dlg.open){ dlg.showModal(); input.value=''; renderEmpty(); } input.focus(); }
     if (e.key==='Escape' && dlg.open) dlg.close();
