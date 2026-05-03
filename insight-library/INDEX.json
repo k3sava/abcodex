@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T18:33:53.776Z",
+  "generated_at": "2026-05-03T18:41:58.799Z",
   "counts": {
     "insights": 630,
     "operators": 453,
@@ -12870,31 +12870,32 @@
       "raw_ref": ""
     },
     {
-      "path": "insights/ins_sam-mallikarjunan-explored-question-lot.md",
-      "title": "Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B",
-      "id": "ins_sam-mallikarjunan-explored-question-lot",
+      "path": "insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md",
+      "title": "'The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales'",
+      "id": "ins_sam-mallikarjunan-advance-the-market-not-just-share",
       "operator": "Sam Mallikarjunan",
-      "operator_role": "'Leading the team @ Agent.ai 🚀 Formerly: CEO @ OneScreen.ai, CRO @ Flock.com, Instructor @ Harvard, & Head of Growth @ HubSpot Labs.'",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7389029626167345152/",
-      "source_type": "thread",
-      "source_title": "'I try not to make things about me, and so ironically I really held out on joining for our podcast'",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
+      "operator_role": "'GM, Agent.ai (formerly Head of Growth, HubSpot Labs; CRO, Flock; CEO, OneScreen)'",
+      "source_url": "https://content.buysellads.com/regrowth/hubspot-marketing-experiments",
+      "source_type": "essay",
+      "source_title": "'HubSpot''s Sam Mallikarjunan on Running Marketing Experiments'",
+      "source_date": "2018-09-01",
+      "captured_date": "2026-05-04",
       "domain": [
         "pmm",
-        "marketing",
-        "content"
+        "gtm",
+        "growth-demand",
+        "marketing"
       ],
       "lifecycle": [
-        "messaging-narrative",
-        "content"
+        "strategy",
+        "market-development"
       ],
-      "maturity": "frontier",
-      "artifact_class": "research",
-      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
       "tier": "A",
       "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+      "raw_ref": "https://content.buysellads.com/regrowth/hubspot-marketing-experiments"
     },
     {
       "path": "insights/ins_sameer-maira-quick-traction-through-immediate-usability.md",

@@ -166,7 +166,7 @@ _Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_resonance-over-reach`](insights/ins_resonance-over-reach.md) — Resonance with 1,000 in-market readers beats reach to 100,000 strangers _(Jay Acunzo)_
 - [`ins_right-friction-beats-no-friction`](insights/ins_right-friction-beats-no-friction.md) — Keep friction that helps users understand the product; cut the rest _(Amol Avasare)_
 - [`ins_run-up-the-stack`](insights/ins_run-up-the-stack.md) — Run up the stack — use commoditized capabilities as inputs to create higher-order human value _(Packy McCormick)_
-- [`ins_sam-mallikarjunan-explored-question-lot`](insights/ins_sam-mallikarjunan-explored-question-lot.md) — Sam Mallikarjunan and I explored that question and a lot more in the latest Prompted: B _(Sam Mallikarjunan)_
+- [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — 'The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales' _(Sam Mallikarjunan)_
 - [`ins_sebastien-rankin-treat-marketing-strategy-like-codebase`](insights/ins_sebastien-rankin-treat-marketing-strategy-like-codebase.md) — 'Treat marketing strategy like a codebase for team-wide AI alignment.' _(Sebastien Rankin)_
 - [`ins_seeds-nets-spears-lead-portfolio`](insights/ins_seeds-nets-spears-lead-portfolio.md) — Treat leads as a three-asset portfolio, not a single funnel _(Aaron Ross)_
 - [`ins_setup-follow-through-pitch`](insights/ins_setup-follow-through-pitch.md) — Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup _(April Dunford)_
