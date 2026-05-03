@@ -49,8 +49,20 @@ async function fetchBody(path){
   try { const r = await fetch(`insight-library/${path}`); return await r.text(); } catch { return ''; }
 }
 function stripFrontmatter(md){ if (md.startsWith('---\n')){ const e = md.indexOf('\n---',4); if (e>0) return md.slice(e+4).trimStart(); } return md; }
+const ACRONYMS = ['AI','GTM','PMM','PLG','ICP','JTBD','ROI','KPI','SEO','AEO','LLM','LLMs','API','APIs','CRO','B2B','B2C','SaaS','CEO','CTO','CMO','CFO','COO','VP','VPs','UI','UX','SDK','MCP','RAG','SQL','URL','URLs','HTML','CSS','JS','JSON','HTTP','HTTPS','PDF','PR','PRs','QA','GTM','OKR','OKRs','POV','SDR','BDR','AE','AEs','RevOps','GTM','TAM','SAM','LTV','CAC','MRR','ARR','PMF','MVP','NPS','CSM','CX','VPC','SNM','TPS','OS','iOS','iPadOS','macOS'];
+function fixAcronymsAndSmallWords(text){
+  if (!text) return text;
+  for (const a of ACRONYMS){
+    const re = new RegExp(`\\b${a.replace(/[A-Z]/g, c => `[${c}${c.toLowerCase()}]`)}\\b`, 'g');
+    text = text.replace(re, a);
+  }
+  // Lowercase common small words inside title-cased phrases (not at start)
+  text = text.replace(/(\S)\s+(And|Or|Of|To|The|A|An|In|On|By|For|With|At|As|But|Vs|Via|From)\s+/g, (m, prev, w) => `${prev} ${w.toLowerCase()} `);
+  return text;
+}
 function mdToHtml(md){
   let html = stripFrontmatter(md);
+  html = fixAcronymsAndSmallWords(html);
   html = html.replace(/```([\s\S]*?)```/g, (_,c)=>`<pre><code>${escapeHtml(c)}</code></pre>`);
   const lines = html.split('\n');
   const out=[]; let inList=false, inQuote=false;
