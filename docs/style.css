@@ -620,7 +620,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .trow-date{font-family:var(--mono);font-size:.7rem;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}
 @media (max-width:720px){
   .trow{grid-template-columns:1fr auto;gap:4px 10px}
-  .trow-claim{grid-column:1/-1;grid-row:1;white-space:normal;font-size:.95rem;line-height:1.3}
+  .trow-claim{grid-column:1/-1;white-space:normal;font-size:.95rem;line-height:1.3}
   .trow-who{grid-column:1;grid-row:2;font-size:.68rem}
   .trow-date{grid-column:2;grid-row:2;font-size:.68rem;text-align:right}
   .trow .tier{display:none}
