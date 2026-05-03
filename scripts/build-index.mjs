@@ -27,14 +27,21 @@ function parseFrontmatter(text) {
   const fm = text.slice(4, end);
   const obj = {};
   let lastKey = null;
+  let nestedKey = null; // when a top-level key has a nested mapping (indented `key: value` lines)
   for (const line of fm.split("\n")) {
-    const m = line.match(/^([a-zA-Z_][\w-]*):\s*(.*)$/);
-    if (m) {
-      const [, k, vRaw] = m;
+    if (line.trim() === "") continue;
+    // Top-level: `key: value`
+    const top = line.match(/^([a-zA-Z_][\w-]*):\s*(.*)$/);
+    if (top) {
+      const [, k, vRaw] = top;
       lastKey = k;
+      nestedKey = null;
       const v = vRaw.trim();
-      if (v === "" || v === "{") {
-        obj[k] = v === "{" ? "{...}" : "";
+      if (v === "") {
+        // Could be nested map OR nested list — defer; default to empty object,
+        // resolved when we see indented lines on the next iteration
+        obj[k] = {};
+        nestedKey = k;
         continue;
       }
       if (v.startsWith("[") && v.endsWith("]")) {
@@ -44,9 +51,37 @@ function parseFrontmatter(text) {
       } else {
         obj[k] = v;
       }
-    } else if (line.startsWith("  - ") && lastKey) {
+      continue;
+    }
+    // Indented list item: `  - value`
+    if (line.startsWith("  - ") && lastKey) {
       if (!Array.isArray(obj[lastKey])) obj[lastKey] = [];
       obj[lastKey].push(line.slice(4).trim());
+      // If lastKey was previously assigned an empty object (from "key:"), upgrade to array
+      if (nestedKey === lastKey && Array.isArray(obj[lastKey]) === false) {
+        const items = [];
+        items.push(line.slice(4).trim());
+        obj[lastKey] = items;
+      }
+      continue;
+    }
+    // Indented nested map: `  subkey: value`
+    const nested = line.match(/^\s{2,}([a-zA-Z_][\w-]*):\s*(.*)$/);
+    if (nested && nestedKey){
+      const [, sk, svRaw] = nested;
+      const sv = svRaw.trim();
+      // Promote to object map if currently empty / wrong type
+      if (typeof obj[nestedKey] !== "object" || Array.isArray(obj[nestedKey])){
+        obj[nestedKey] = {};
+      }
+      obj[nestedKey][sk] = sv;
+      continue;
+    }
+  }
+  // Clean: empty objects revert to "" so INDEX.json doesn't get a bunch of `{}`
+  for (const k of Object.keys(obj)){
+    if (obj[k] && typeof obj[k] === "object" && !Array.isArray(obj[k]) && Object.keys(obj[k]).length === 0){
+      obj[k] = "";
     }
   }
   const bodyStart = end + 4;

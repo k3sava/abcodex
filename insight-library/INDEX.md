@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 417 insight cards
+- 414 insight cards
 - 272 operator profiles
 - 206 raw source files
 - 24 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (161)
+### Tier A (160)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -26,7 +26,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_anchor-high-pricing`](insights/ins_anchor-high-pricing.md) — Anchor with the most expensive option first; price the client, not the service _(Blair Enns)_
 - [`ins_antifragile-barbell`](insights/ins_antifragile-barbell.md) — Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder _(Nassim Nicholas Taleb)_
 - [`ins_ask-revenue-impact-how-much`](insights/ins_ask-revenue-impact-how-much.md) — 3) Ask for revenue impact: "How much revenue is attached to this? Is there a renewal on _(Richard King)_
-- [`ins_ask-revenue-impact-how-much-richard`](insights/ins_ask-revenue-impact-how-much-richard.md) — 3) Ask for revenue impact: "How much revenue is attached to this? Is there a renewal on _(Richard King)_
 - [`ins_below-absolutely-worth-studying-amanda`](insights/ins_below-absolutely-worth-studying-amanda.md) — The CV below is absolutely worth studying! Amanda Fernandes didn’t just apply for a job _(Andreas Horn)_
 - [`ins_bottleneck-is-context-not-capability`](insights/ins_bottleneck-is-context-not-capability.md) — When the agent isn't doing what you want, fix the context — not the model _(Sherwin Wu)_
 - [`ins_bowtie-recurring-revenue-architecture`](insights/ins_bowtie-recurring-revenue-architecture.md) — 82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel _(Jacco van der Kooij)_
@@ -175,7 +174,7 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (250)
+### Tier B (248)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -294,7 +293,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
 - [`ins_intensives-model-no-revisions`](insights/ins_intensives-model-no-revisions.md) — Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions _(Pia Silva)_
 - [`ins_interviewing-information-gathering-exercise-how`](insights/ins_interviewing-information-gathering-exercise-how.md) — Interviewing is an information gathering exercise, and how a candidate makes you feel ( _(Varun Anand)_
-- [`ins_interviewing-information-gathering-exercise-how-varun`](insights/ins_interviewing-information-gathering-exercise-how-varun.md) — Interviewing is an information gathering exercise, and how a candidate makes you feel ( _(Varun Anand)_
 - [`ins_inversion-and-circle-of-competence`](insights/ins_inversion-and-circle-of-competence.md) — The quality of your thinking determines the quality of your life — operate inside your circle of competence _(Shane Parrish)_
 - [`ins_irony-why-perhaps-product-adoption`](insights/ins_irony-why-perhaps-product-adoption.md) — The irony why perhaps product adoption software hasn’t been that popular is also becaus _(Emilia Korczynska)_
 - [`ins_jtbd-personas-not-demographics`](insights/ins_jtbd-personas-not-demographics.md) — Personas built on demographics inform nothing; rebuild around Jobs to Be Done _(Adrienne Barnes)_
@@ -414,7 +412,6 @@ _Generated 2026-05-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_was-always-kind-awesome-now`](insights/ins_was-always-kind-awesome-now.md) — n8n was always kind of awesome, now - it's easy to use for everyone _(🇺🇦 Ilya Azovtsev - I help with SaaS Growth)_
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
 - [`ins_when-understood-sales-training-just`](insights/ins_when-understood-sales-training-just.md) — That’s when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
-- [`ins_when-understood-sales-training-just-akshaya`](insights/ins_when-understood-sales-training-just-akshaya.md) — That’s when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
 - [`ins_when-was-laid-off-here`](insights/ins_when-was-laid-off-here.md) — When I was laid off here is what I did to find a job in 15 days _(Sandeep Kochhar)_
 - [`ins_while-some-still-spending-over`](insights/ins_while-some-still-spending-over.md) — While some are still spending over $1,000 on Al courses, the top players are giving awa _(Divyanshi Sharma)_
 - [`ins_why-change-statements-precede-capability`](insights/ins_why-change-statements-precede-capability.md) — 60% of users get new apps without a "why it helps" — fix that before any capability rollout _(Gartner)_
