@@ -593,8 +593,8 @@ function playbooksList(){
           <h2>${label}</h2>
           <span class='ct'>${items.length} playbook${items.length===1?'':'s'}</span>
         </header>
-        <div class='card-grid'>${items.map(p => `
-          <a class='card reveal' href='#/play/${p.id}'>
+        <div class='pb-grid'>${items.map(p => `
+          <a class='card pb-card reveal' href='#/play/${p.id}'>
             <div class='meta-row'><span>playbook</span><span>${(p.domain||[]).slice(0,3).join(' · ')}</span></div>
             <h3>${escapeHtml(p.title)}</h3>
             <div class='converge'>${(p.uses_cards||[]).length} insight${(p.uses_cards||[]).length===1?'':'s'} · ${(p.originating_operators||[]).length} operator${(p.originating_operators||[]).length===1?'':'s'}</div>
@@ -1552,7 +1552,7 @@ function wireTheme(){
   };
 }
 
-window.addEventListener('hashchange', () => { render(); setActive(); });
+window.addEventListener('hashchange', () => { render(); setActive(); window.scrollTo({top:0, behavior:'instant'}); });
 loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;

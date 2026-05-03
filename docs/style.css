@@ -537,7 +537,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .ops-min{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.72rem;color:var(--muted);text-transform:lowercase;letter-spacing:.04em}
 .ops-min select{font-family:var(--mono);font-size:.78rem;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:var(--paper-2);color:var(--ink)}
 .ops-table-wrap{}
-.ops-table{width:100%;border-collapse:collapse;font-size:.92rem;table-layout:fixed}
+.ops-table{width:100%;border-collapse:separate;border-spacing:0;font-size:.92rem;table-layout:fixed}
 .ops-table colgroup col.c-name{width:18%}
 .ops-table colgroup col.c-role{width:30%}
 .ops-table colgroup col.c-doms{width:24%}
@@ -917,4 +917,11 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 @media (max-width:900px){
   .op-grid{grid-template-columns:1fr;gap:32px}
   .op-aside{position:static;max-height:none;order:-1}
+}
+
+/* Playbook list — fixed-cell grid so single-item categories don't stretch */
+.pb-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,320px));gap:14px}
+.pb-card{display:flex;flex-direction:column;gap:8px}
+@media (max-width:720px){
+  .pb-grid{grid-template-columns:1fr}
 }
