@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-05T04:22:37.457Z",
+  "generated_at": "2026-05-05T04:33:11.254Z",
   "counts": {
-    "insights": 753,
-    "operators": 453,
-    "raw_sources": 207,
+    "insights": 764,
+    "operators": 455,
+    "raw_sources": 209,
     "patterns": 37,
     "contradictions": 11,
     "playbooks": 27
@@ -12349,6 +12349,196 @@
       "raw_ref": "raw/expert-content/experts/alex-hormozi.md"
     },
     {
+      "path": "insights/ins_ogilvy-celebrity-warning.md",
+      "title": "Viewers remember the celebrity and forget the product — celebrity endorsement often fails its actual job",
+      "id": "ins_ogilvy-celebrity-warning",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"",
+      "source_url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+      "source_type": "book",
+      "source_title": "\"Ogilvy on Advertising — Celebrity Endorsements\"",
+      "source_date": "1983-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "creative-direction",
+        "brand-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ogilvy-we-sell-or-else",
+        "ins_ogilvy-consumer-is-your-wife"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
+      "path": "insights/ins_ogilvy-consumer-is-your-wife.md",
+      "title": "The consumer isn't a moron — she is your wife. Insulting her intelligence with vapid slogans doesn't sell; it disrespects her.",
+      "id": "ins_ogilvy-consumer-is-your-wife",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"",
+      "source_url": "https://en.wikiquote.org/wiki/David_Ogilvy",
+      "source_type": "book",
+      "source_title": "\"Confessions of an Advertising Man\"",
+      "source_date": "1963-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "brand-strategy",
+        "voice-development"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_harland-benefits-over-pride",
+        "ins_handley-write-to-one-subscriber",
+        "ins_ogilvy-we-sell-or-else"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
+      "path": "insights/ins_ogilvy-discipline-of-knowledge.md",
+      "title": "I prefer the discipline of knowledge to the anarchy of ignorance — research before creative",
+      "id": "ins_ogilvy-discipline-of-knowledge",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"",
+      "source_url": "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)",
+      "source_type": "book",
+      "source_title": "\"Ogilvy on Advertising — Research as Discipline\"",
+      "source_date": "1983-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "research-discovery",
+        "design"
+      ],
+      "lifecycle": [
+        "research-discovery",
+        "brand-strategy",
+        "creative-direction"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ramanujam-three-wtp-questions",
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_ogilvy-we-sell-or-else"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
+      "path": "insights/ins_ogilvy-family-test.md",
+      "title": "Never write an advertisement you wouldn't want your own family to read — the family test as ethical filter",
+      "id": "ins_ogilvy-family-test",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"",
+      "source_url": "https://en.wikiquote.org/wiki/David_Ogilvy",
+      "source_type": "book",
+      "source_title": "\"Confessions of an Advertising Man\"",
+      "source_date": "1963-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design",
+        "leadership"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "ethics-and-trust",
+        "brand-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ogilvy-consumer-is-your-wife",
+        "ins_schafer-uncomfortable-honesty"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
+      "path": "insights/ins_ogilvy-hire-bigger-than-yourself.md",
+      "title": "If each of us hires people bigger than ourselves, we become a company of giants — small-hiring is the slow path to mediocrity",
+      "id": "ins_ogilvy-hire-bigger-than-yourself",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"",
+      "source_url": "https://en.wikiquote.org/wiki/David_Ogilvy",
+      "source_type": "book",
+      "source_title": "\"Ogilvy on Advertising — Hiring Philosophy\"",
+      "source_date": "1983-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "founder-craft",
+        "strategy"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "organisational-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_circle-of-competence",
+        "ins_specific-knowledge-and-leverage"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
+      "path": "insights/ins_ogilvy-we-sell-or-else.md",
+      "title": "Advertising is selling, not art — when I write an advert I don't want you to find it 'creative'; I want you to find it so interesting you buy the product",
+      "id": "ins_ogilvy-we-sell-or-else",
+      "operator": "David Ogilvy",
+      "operator_role": "Founder Ogilvy & Mather; \"Father of Advertising\"; author of Confessions of an Advertising Man and Ogilvy on Advertising",
+      "source_url": "https://en.wikiquote.org/wiki/David_Ogilvy",
+      "source_type": "book",
+      "source_title": "\"Ogilvy on Advertising\"",
+      "source_date": "1983-01-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "copy-and-content",
+        "creative-direction",
+        "conversion-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_emotion-is-the-cornerstone",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_offer-and-market-as-highest-roi-lever"
+      ],
+      "raw_ref": "raw/essays/ogilvy--principles--2026-05.md"
+    },
+    {
       "path": "insights/ins_old-game-to-new-game-narrative.md",
       "title": "Sell the world-shift, not the product comparison",
       "id": "ins_old-game-to-new-game-narrative",
@@ -18957,6 +19147,168 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_trott-change-the-game.md",
+      "title": "Don't play the game on its own terms — change the game to one you can beat",
+      "id": "ins_trott-change-the-game",
+      "operator": "Dave Trott",
+      "operator_role": "Co-founder Gold Greenlees Trott; author Predatory Thinking, Creative Mischief, One+One=Three",
+      "source_url": "https://davetrott.co.uk/2026/04/dont-play-the-game-change-the-game/",
+      "source_type": "essay",
+      "source_title": "\"DON'T PLAY THE GAME, CHANGE THE GAME\"",
+      "source_date": "2026-04-27",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "pmm",
+        "marketing",
+        "design"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "creative-direction",
+        "competitive-analysis"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_zero-to-one-monopoly",
+        "ins_thiel-vertical-vs-horizontal-progress",
+        "ins_trott-point-of-sameness"
+      ],
+      "raw_ref": "raw/essays/trott--three-posts--2025-2026.md"
+    },
+    {
+      "path": "insights/ins_trott-niche-at-scale.md",
+      "title": "The internet is Tokyo — niche at scale is finally possible, which means specialist positioning beats generalist sameness",
+      "id": "ins_trott-niche-at-scale",
+      "operator": "Dave Trott",
+      "operator_role": "Co-founder Gold Greenlees Trott; author Predatory Thinking, Creative Mischief",
+      "source_url": "https://davetrott.co.uk/2025/01/point-of-sameness/",
+      "source_type": "essay",
+      "source_title": "\"POINT-OF-SAMENESS — Niche at Scale\"",
+      "source_date": "2025-01-20",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "positioning",
+        "distribution",
+        "audience-building"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_smallest-viable-audience",
+        "ins_otaku-as-ideal-customer-archetype",
+        "ins_trott-point-of-sameness"
+      ],
+      "raw_ref": "raw/essays/trott--three-posts--2025-2026.md"
+    },
+    {
+      "path": "insights/ins_trott-point-of-sameness.md",
+      "title": "If no advertising has a point-of-difference, all advertising has is a point-of-sameness — and no one notices",
+      "id": "ins_trott-point-of-sameness",
+      "operator": "Dave Trott",
+      "operator_role": "Co-founder Gold Greenlees Trott; author Predatory Thinking, Creative Mischief, One+One=Three",
+      "source_url": "https://davetrott.co.uk/2025/01/point-of-sameness/",
+      "source_type": "essay",
+      "source_title": "\"POINT-OF-SAMENESS\"",
+      "source_date": "2025-01-20",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "design",
+        "strategy"
+      ],
+      "lifecycle": [
+        "positioning",
+        "creative-direction",
+        "brand-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_neumeier-onlyness-test",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_trott-change-the-game"
+      ],
+      "raw_ref": "raw/essays/trott--three-posts--2025-2026.md"
+    },
+    {
+      "path": "insights/ins_trott-trigger-meme-repetition.md",
+      "title": "Going viral means triggering audience repetition until the campaign takes on its own life — design the meme, not the impression",
+      "id": "ins_trott-trigger-meme-repetition",
+      "operator": "Dave Trott",
+      "operator_role": "Co-founder Gold Greenlees Trott; author Predatory Thinking",
+      "source_url": "https://davetrott.co.uk/2025/01/what-noel-gallagher-can-teach-us/",
+      "source_type": "essay",
+      "source_title": "\"WHAT NOEL GALLAGHER CAN TEACH US\"",
+      "source_date": "2025-01-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "creative-direction",
+        "content-strategy",
+        "virality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_product-is-the-marketing",
+        "ins_otaku-as-ideal-customer-archetype",
+        "ins_trott-word-of-mouth-most-valuable"
+      ],
+      "raw_ref": "raw/essays/trott--three-posts--2025-2026.md"
+    },
+    {
+      "path": "insights/ins_trott-word-of-mouth-most-valuable.md",
+      "title": "Word-of-mouth is the most valuable advertising space of all — paid media is what triggers it, not what replaces it",
+      "id": "ins_trott-word-of-mouth-most-valuable",
+      "operator": "Dave Trott",
+      "operator_role": "Co-founder Gold Greenlees Trott; author Predatory Thinking",
+      "source_url": "https://davetrott.co.uk/2025/01/what-noel-gallagher-can-teach-us/",
+      "source_type": "essay",
+      "source_title": "\"WHAT NOEL GALLAGHER CAN TEACH US — Word-of-Mouth\"",
+      "source_date": "2025-01-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "marketing",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "distribution",
+        "brand-strategy",
+        "virality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_trott-trigger-meme-repetition",
+        "ins_gerhardt-community-as-distribution-moat",
+        "ins_product-is-the-marketing"
+      ],
+      "raw_ref": "raw/essays/trott--three-posts--2025-2026.md"
+    },
+    {
       "path": "insights/ins_truly-want-children-rise-into.md",
       "title": "But if you truly want your children to rise into greatness, the first thing they must l",
       "id": "ins_truly-want-children-rise-into",
@@ -22585,6 +22937,31 @@
       "external": "\"\""
     },
     {
+      "path": "operators/dave-trott/README.md",
+      "title": "Dave Trott",
+      "name": "Dave Trott",
+      "slug": "dave-trott",
+      "roles": [
+        "British creative director and copywriter; co-founder of Gold Greenlees Trott (1980, voted Most Creative Agency in the World by Advertising Age)",
+        "Author of Predatory Thinking (2013), Creative Mischief (2010), One + One = Three (2016), Crossover Creativity",
+        "Trained at Pratt Institute (NY) and Carl Ally Inc.; D&AD President's Award 2004",
+        "Active essayist at davetrott.co.uk; daily / weekly posts on creativity, strategy, and competition"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing",
+        "design",
+        "strategy",
+        "founder-craft",
+        "growth-demand"
+      ],
+      "captured_first": "2026-05-05",
+      "external": {
+        "website": "https://davetrott.co.uk/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Dave_Trott_(advertising_executive)"
+      }
+    },
+    {
       "path": "operators/david-aaker/README.md",
       "title": "David Aaker",
       "name": "David Aaker",
@@ -22628,6 +23005,31 @@
       "external": {
         "linkedin": "https://www.linkedin.com/in/dcb/",
         "website": "https://punctuation.com/"
+      }
+    },
+    {
+      "path": "operators/david-ogilvy/README.md",
+      "title": "David Ogilvy",
+      "name": "David Ogilvy",
+      "slug": "david-ogilvy",
+      "roles": [
+        "Founder Ogilvy & Mather (1948); widely recognised as \"the Father of Advertising\"",
+        "Author of Confessions of an Advertising Man (1963) and Ogilvy on Advertising (1983)",
+        "Pioneer of research-driven creative; brand image as long-term asset; long-form copy",
+        "Inducted into the Advertising Hall of Fame; received D&AD President's Award; numerous Cannes Lions"
+      ],
+      "domains_active": [
+        "pmm",
+        "marketing",
+        "design",
+        "growth-demand",
+        "sales-cs",
+        "founder-craft"
+      ],
+      "captured_first": "2026-05-05",
+      "external": {
+        "website": "https://www.ogilvy.com/about/our-history",
+        "wikiquote": "https://en.wikiquote.org/wiki/David_Ogilvy"
       }
     },
     {
@@ -28849,6 +29251,18 @@
       "attribution": "mixed (per-quote tags below)"
     },
     {
+      "path": "raw/essays/ogilvy--principles--2026-05.md",
+      "title": "David Ogilvy — canonical principles, sourced verbatim",
+      "source_type": "digest",
+      "source_urls": [
+        "https://en.wikiquote.org/wiki/David_Ogilvy",
+        "https://en.wikipedia.org/wiki/David_Ogilvy_(businessman)"
+      ],
+      "captured_date": "2026-05-05",
+      "operator": "David Ogilvy",
+      "notes": "|"
+    },
+    {
       "path": "raw/essays/pawel-huryn--claude-code-as-config--2026-04-27.md",
       "source_type": "essay",
       "source_title": "Product Compass — Claude Code as PM infrastructure (April 2026 sequence)",
@@ -28882,6 +29296,19 @@
       ],
       "captured_date": "2026-05-01",
       "license_note": "fair use — operator quote excerpt"
+    },
+    {
+      "path": "raw/essays/trott--three-posts--2025-2026.md",
+      "title": "Dave Trott — three blog posts (point-of-sameness, Noel Gallagher, change the game)",
+      "source_type": "digest",
+      "source_urls": [
+        "https://davetrott.co.uk/2026/04/dont-play-the-game-change-the-game/",
+        "https://davetrott.co.uk/2025/01/point-of-sameness/",
+        "https://davetrott.co.uk/2025/01/what-noel-gallagher-can-teach-us/"
+      ],
+      "captured_date": "2026-05-05",
+      "operator": "Dave Trott",
+      "notes": "|"
     },
     {
       "path": "raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md",

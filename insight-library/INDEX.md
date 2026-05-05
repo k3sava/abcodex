@@ -3,16 +3,16 @@
 _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 753 insight cards
-- 453 operator profiles
-- 207 raw source files
+- 764 insight cards
+- 455 operator profiles
+- 209 raw source files
 - 37 synthesis patterns
 - 11 contradictions
 - 27 playbooks
 
 ## Insights by tier
 
-### Tier A (298)
+### Tier A (308)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -183,6 +183,11 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_november-2025-coding-inflection`](insights/ins_november-2025-coding-inflection.md) — November 2025 was the qualitative threshold — coding agents now almost always do what you tell them _(Simon Willison)_
 - [`ins_obaid-durrani-realm-of-relevancy-doc`](insights/ins_obaid-durrani-realm-of-relevancy-doc.md) — "A single 'Realm of Relevancy' doc drove growth from $50K to $1.5M ARR in 9 months." _(Obaid Durrani)_
 - [`ins_offer-and-market-as-highest-roi-lever`](insights/ins_offer-and-market-as-highest-roi-lever.md) — When growth stalls, fix the offer or change the market — never spend more on ads to amplify a weak offer _(Alex Hormozi)_
+- [`ins_ogilvy-consumer-is-your-wife`](insights/ins_ogilvy-consumer-is-your-wife.md) — The consumer isn't a moron — she is your wife. Insulting her intelligence with vapid slogans doesn't sell; it disrespects her. _(David Ogilvy)_
+- [`ins_ogilvy-discipline-of-knowledge`](insights/ins_ogilvy-discipline-of-knowledge.md) — I prefer the discipline of knowledge to the anarchy of ignorance — research before creative _(David Ogilvy)_
+- [`ins_ogilvy-family-test`](insights/ins_ogilvy-family-test.md) — Never write an advertisement you wouldn't want your own family to read — the family test as ethical filter _(David Ogilvy)_
+- [`ins_ogilvy-hire-bigger-than-yourself`](insights/ins_ogilvy-hire-bigger-than-yourself.md) — If each of us hires people bigger than ourselves, we become a company of giants — small-hiring is the slow path to mediocrity _(David Ogilvy)_
+- [`ins_ogilvy-we-sell-or-else`](insights/ins_ogilvy-we-sell-or-else.md) — Advertising is selling, not art — when I write an advert I don't want you to find it 'creative'; I want you to find it so interesting you buy the product _(David Ogilvy)_
 - [`ins_old-game-to-new-game-narrative`](insights/ins_old-game-to-new-game-narrative.md) — Sell the world-shift, not the product comparison _(Andy Raskin)_
 - [`ins_one-dollar-on-the-developer`](insights/ins_one-dollar-on-the-developer.md) — Spend the whole dollar on the individual developer _(Rahul Chhabria)_
 - [`ins_one-percent-price-eight-percent-profit`](insights/ins_one-percent-price-eight-percent-profit.md) — A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function _(Hermann Simon)_
@@ -292,6 +297,11 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_three-design-hiring-archetypes`](insights/ins_three-design-hiring-archetypes.md) — Hire across three archetypes: block-shape generalist, deep specialist, craft new-grad _(Jenny Wen)_
 - [`ins_three-divergent-pr-faqs`](insights/ins_three-divergent-pr-faqs.md) — Bring three divergent PR-FAQs to a strategy decision, not one _(Anuj Rathi)_
 - [`ins_top-performers-benefit-disproportionately`](insights/ins_top-performers-benefit-disproportionately.md) — AI tools widen the spread between top and bottom performers — invest in top performers _(Sherwin Wu)_
+- [`ins_trott-change-the-game`](insights/ins_trott-change-the-game.md) — Don't play the game on its own terms — change the game to one you can beat _(Dave Trott)_
+- [`ins_trott-niche-at-scale`](insights/ins_trott-niche-at-scale.md) — The internet is Tokyo — niche at scale is finally possible, which means specialist positioning beats generalist sameness _(Dave Trott)_
+- [`ins_trott-point-of-sameness`](insights/ins_trott-point-of-sameness.md) — If no advertising has a point-of-difference, all advertising has is a point-of-sameness — and no one notices _(Dave Trott)_
+- [`ins_trott-trigger-meme-repetition`](insights/ins_trott-trigger-meme-repetition.md) — Going viral means triggering audience repetition until the campaign takes on its own life — design the meme, not the impression _(Dave Trott)_
+- [`ins_trott-word-of-mouth-most-valuable`](insights/ins_trott-word-of-mouth-most-valuable.md) — Word-of-mouth is the most valuable advertising space of all — paid media is what triggers it, not what replaces it _(Dave Trott)_
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers — three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_
 - [`ins_use-case-epiphany-as-marketing-job`](insights/ins_use-case-epiphany-as-marketing-job.md) — When awareness is solved, marketing's real job is the use-case epiphany _(Krithika Shankarraman)_
@@ -312,7 +322,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (383)
+### Tier B (384)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -557,6 +567,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_not-because-break-because-still`](insights/ins_not-because-break-because-still.md) — Not because I’m on a break, but because I’m still a very hands-on founder _(Romana Kuts)_
 - [`ins_now-founders-building-ambitious-startups`](insights/ins_now-founders-building-ambitious-startups.md) — For now, founders building ambitious startups – I’d love to hear from you and see how w _(Ragini Das)_
 - [`ins_obstacles-as-gates-not-problems`](insights/ins_obstacles-as-gates-not-problems.md) — Frame features as obstacles to a new game, not problems to be solved _(Andy Raskin)_
+- [`ins_ogilvy-celebrity-warning`](insights/ins_ogilvy-celebrity-warning.md) — Viewers remember the celebrity and forget the product — celebrity endorsement often fails its actual job _(David Ogilvy)_
 - [`ins_once-account-flagged-there-almost`](insights/ins_once-account-flagged-there-almost.md) — 4/ once your account is flagged there's almost no way to get it back. Meta's support fo _(Hardik Gupta)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(📈 Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku — the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
@@ -898,8 +909,10 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [Dave Gerhardt](operators/dave-gerhardt/README.md)
 - [Dave Harland](operators/dave-harland/README.md)
 - [Dave Steer](operators/dave-steer/README.md)
+- [Dave Trott](operators/dave-trott/README.md)
 - [David Aaker](operators/david-aaker/README.md)
 - [David C. Baker](operators/david-c-baker/README.md)
+- [David Ogilvy](operators/david-ogilvy/README.md)
 - [David Skok](operators/david-skok/README.md)
 - [Debbie Millman](operators/debbie-millman/README.md)
 - [Deepan Siddhu](operators/deepan-siddhu/README.md)
@@ -1227,6 +1240,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [Yosha Gupta](operators/yosha-gupta/README.md)
 
 ## Raw sources by type
+- **digest**: 2
 - **essay**: 22
 - **thread**: 1
 - **unknown**: 184
