@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-05T03:10:56.267Z",
+  "generated_at": "2026-05-05T03:29:06.831Z",
   "counts": {
-    "insights": 678,
+    "insights": 704,
     "operators": 453,
     "raw_sources": 207,
-    "patterns": 30,
+    "patterns": 33,
     "contradictions": 11,
-    "playbooks": 25
+    "playbooks": 26
   },
   "insights": [
     {
@@ -1168,6 +1168,161 @@
         "ins_glue-work-is-staff-leadership"
       ],
       "raw_ref": "raw/essays/silvia-botros--principal-engineer-reality--2020-08.md"
+    },
+    {
+      "path": "insights/ins_altman-ai-not-a-business-exception.md",
+      "title": "\"We're using AI\" is not a business strategy — defensibility comes from domain expertise, customer relationships, and data, not from the model layer",
+      "id": "ins_altman-ai-not-a-business-exception",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; former president Y Combinator; investor; essayist on startups and frontier tech",
+      "source_url": "https://blog.samaltman.com/",
+      "source_type": "essay",
+      "source_title": "\"Startup Playbook — AI Companies Aren't Exempt\"",
+      "source_date": "2015-09-08",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "fundraising",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_intelligence-cost-converging-electricity",
+        "ins_altman-singularity-as-smooth-curve",
+        "ins_thiel-poor-sales-not-bad-product"
+      ],
+      "raw_ref": "raw/expert-content/experts/sam-altman.md"
+    },
+    {
+      "path": "insights/ins_altman-belief-as-sales-engine.md",
+      "title": "Sales is conviction transfer — the best way to be good at sales is to genuinely believe in what you're selling",
+      "id": "ins_altman-belief-as-sales-engine",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; former president Y Combinator; investor; essayist on startups and frontier tech",
+      "source_url": "https://blog.samaltman.com/startup-playbook",
+      "source_type": "essay",
+      "source_title": "\"Startup Playbook — Sales by Belief\"",
+      "source_date": "2015-09-08",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "founder-craft",
+        "gtm"
+      ],
+      "lifecycle": [
+        "founder-led-selling",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_voss-tactical-empathy-labels",
+        "ins_thiel-poor-sales-not-bad-product"
+      ],
+      "raw_ref": "raw/expert-content/experts/sam-altman.md"
+    },
+    {
+      "path": "insights/ins_altman-network-through-generosity.md",
+      "title": "Build a network by helping people as much as you can — generosity compounds, transactional networking does not",
+      "id": "ins_altman-network-through-generosity",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; former president Y Combinator; investor; essayist on startups and frontier tech",
+      "source_url": "https://blog.samaltman.com/startup-playbook",
+      "source_type": "essay",
+      "source_title": "\"Startup Playbook — Network Building\"",
+      "source_date": "2015-09-08",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "growth-demand",
+        "leadership"
+      ],
+      "lifecycle": [
+        "career-arc",
+        "relationships",
+        "network-building"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 2, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_specific-knowledge-and-leverage"
+      ],
+      "raw_ref": "raw/expert-content/experts/sam-altman.md"
+    },
+    {
+      "path": "insights/ins_altman-scarce-resources-abundant-intelligence.md",
+      "title": "When intelligence is abundant, taste, judgment, relationships, and the ability to identify what is worth doing become the scarce resources",
+      "id": "ins_altman-scarce-resources-abundant-intelligence",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; former president Y Combinator; investor; essayist on startups and frontier tech",
+      "source_url": "https://blog.samaltman.com/the-intelligence-age",
+      "source_type": "essay",
+      "source_title": "\"The Intelligence Age — What Becomes Scarce\"",
+      "source_date": "2024-09-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "leadership",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design",
+        "career-arc"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_intelligence-cost-converging-electricity",
+        "ins_altman-singularity-as-smooth-curve",
+        "ins_specific-knowledge-cannot-be-mass-trained"
+      ],
+      "raw_ref": "raw/expert-content/experts/sam-altman.md"
+    },
+    {
+      "path": "insights/ins_altman-singularity-as-smooth-curve.md",
+      "title": "The singularity is one smooth curve — vertical looking forward, flat looking backward, never the disruptive shock people expect",
+      "id": "ins_altman-singularity-as-smooth-curve",
+      "operator": "Sam Altman",
+      "operator_role": "CEO OpenAI; former president Y Combinator; investor; essayist on startups and frontier tech",
+      "source_url": "https://blog.samaltman.com/the-intelligence-age",
+      "source_type": "essay",
+      "source_title": "\"Frontier AI as a Smooth Curve\"",
+      "source_date": "2024-09-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "research-discovery",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "scenario-planning",
+        "research"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_intelligence-cost-converging-electricity",
+        "ins_altman-scarce-resources-abundant-intelligence"
+      ],
+      "raw_ref": "raw/expert-content/experts/sam-altman.md"
     },
     {
       "path": "insights/ins_always-believed-being-transparent-what.md",
@@ -12898,6 +13053,197 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_ramanujam-ai-pricing-against-labor-budgets.md",
+      "title": "AI products should price against labor budgets — 10× larger than IT budgets — and capture 25-50% of value, not the SaaS-typical 10%",
+      "id": "ins_ramanujam-ai-pricing-against-labor-budgets",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "essay",
+      "source_title": "\"Monetizing AI — Labor Budgets, Not IT Budgets\"",
+      "source_date": "2024-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "ai-native",
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "monetisation",
+        "product-positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_simon-single-price-always-suboptimal",
+        "ins_intelligence-cost-converging-electricity",
+        "ins_value-equation-grand-slam-offer"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
+      "path": "insights/ins_ramanujam-feature-shock.md",
+      "title": "Feature Shock — too many features make the product hard to explain, costly to build, and overpriced (Amazon Fire Phone)",
+      "id": "ins_ramanujam-feature-shock",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — Feature Shock\"",
+      "source_date": "2016-05-02",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "design",
+        "pmm"
+      ],
+      "lifecycle": [
+        "productisation",
+        "pricing-packaging",
+        "scope-management"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_price-before-product",
+        "ins_ramanujam-minivation",
+        "ins_ramanujam-hidden-gems"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
+      "path": "insights/ins_ramanujam-hidden-gems.md",
+      "title": "Hidden Gems — potential blockbusters never brought to market because they fall outside the core business (Kodak shelved digital photography for 21 years)",
+      "id": "ins_ramanujam-hidden-gems",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — Hidden Gems\"",
+      "source_date": "2016-05-02",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "leadership",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "portfolio-allocation",
+        "innovation-management"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ramanujam-feature-shock",
+        "ins_ramanujam-minivation",
+        "ins_thiel-vertical-vs-horizontal-progress"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
+      "path": "insights/ins_ramanujam-leaders-fillers-killers.md",
+      "title": "Leaders, Fillers, Killers — segment customers by WTP, then bundle features by their role per segment",
+      "id": "ins_ramanujam-leaders-fillers-killers",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — Leaders / Fillers / Killers\"",
+      "source_date": "2016-05-02",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "productisation",
+        "segmentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ramanujam-three-wtp-questions",
+        "ins_simon-single-price-always-suboptimal",
+        "ins_dfy-dwy-diy-delivery-stack"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
+      "path": "insights/ins_ramanujam-minivation.md",
+      "title": "Minivation — a correctly designed product priced too low, leaving massive revenue on the table (Asus mini-notebook)",
+      "id": "ins_ramanujam-minivation",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — Minivation\"",
+      "source_date": "2016-05-02",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "strategy",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "monetisation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ramanujam-feature-shock",
+        "ins_ramanujam-hidden-gems",
+        "ins_simon-single-price-always-suboptimal"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
+      "path": "insights/ins_ramanujam-three-wtp-questions.md",
+      "title": "Three WTP questions, each followed by \"Why?\" — the cleanest way to surface psychological price thresholds and demand cliffs",
+      "id": "ins_ramanujam-three-wtp-questions",
+      "operator": "Madhavan Ramanujam",
+      "operator_role": "Senior partner Simon-Kucher; author Monetizing Innovation",
+      "source_url": "https://www.simon-kucher.com/en/insights/monetizing-innovation",
+      "source_type": "book",
+      "source_title": "\"Monetizing Innovation — The WTP Conversation\"",
+      "source_date": "2016-05-02",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "research-discovery",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "customer-research",
+        "discovery-conversations"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_price-before-product",
+        "ins_simon-single-price-always-suboptimal",
+        "ins_jtbd-interviews-surface-customer-language"
+      ],
+      "raw_ref": "raw/expert-content/experts/madhavan-ramanujam.md"
+    },
+    {
       "path": "insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md",
       "title": "\"CEO's office roles should attract those optimizing for impact, not salary.\"",
       "id": "ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers",
@@ -13495,6 +13841,165 @@
         "ins_quality-as-growth-lever"
       ],
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md"
+    },
+    {
+      "path": "insights/ins_roberge-data-driven-coaching.md",
+      "title": "Coach on 1-2 specific peer-relative metric gaps per rep — generic coaching produces generic results",
+      "id": "ins_roberge-data-driven-coaching",
+      "operator": "Mark Roberge",
+      "operator_role": "Former CRO HubSpot (employee #4); Senior Lecturer Harvard Business School; author The Sales Acceleration Formula",
+      "source_url": "https://www.markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — The Management Formula\"",
+      "source_date": "2015-03-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "coaching-development",
+        "performance-management",
+        "manager-effectiveness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_roberge-sales-as-engineering-discipline",
+        "ins_roberge-structured-training"
+      ],
+      "raw_ref": "raw/expert-content/experts/mark-roberge.md"
+    },
+    {
+      "path": "insights/ins_roberge-premature-scaling.md",
+      "title": "Premature scaling — hiring sales before the corresponding stage of fit — is the single most destructive go-to-market mistake",
+      "id": "ins_roberge-premature-scaling",
+      "operator": "Mark Roberge",
+      "operator_role": "Former CRO HubSpot (employee #4); Senior Lecturer Harvard Business School; author The Sales Acceleration Formula",
+      "source_url": "https://www.markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — Premature Scaling\"",
+      "source_date": "2015-03-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "gtm",
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design",
+        "capacity-planning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_roberge-sales-as-engineering-discipline",
+        "ins_skok-sales-rep-failure-rate",
+        "ins_skok-salesperson-unit-economics"
+      ],
+      "raw_ref": "raw/expert-content/experts/mark-roberge.md"
+    },
+    {
+      "path": "insights/ins_roberge-sales-as-engineering-discipline.md",
+      "title": "Sales is engineering, not art — system design beats individual talent at scale",
+      "id": "ins_roberge-sales-as-engineering-discipline",
+      "operator": "Mark Roberge",
+      "operator_role": "Former CRO HubSpot (employee #4); Senior Lecturer Harvard Business School; author The Sales Acceleration Formula",
+      "source_url": "https://www.markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — Sales as a System\"",
+      "source_date": "2015-03-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "sales-process",
+        "organisational-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_coachability-beats-experience",
+        "ins_roberge-structured-training",
+        "ins_roberge-data-driven-coaching",
+        "ins_roberge-premature-scaling",
+        "ins_roberge-technology-feedback-loop"
+      ],
+      "raw_ref": "raw/expert-content/experts/mark-roberge.md"
+    },
+    {
+      "path": "insights/ins_roberge-structured-training.md",
+      "title": "Replace \"shadow a top rep\" with structured curriculum + pass/fail certifications — competence before customer contact",
+      "id": "ins_roberge-structured-training",
+      "operator": "Mark Roberge",
+      "operator_role": "Former CRO HubSpot (employee #4); Senior Lecturer Harvard Business School; author The Sales Acceleration Formula",
+      "source_url": "https://www.markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — The Training Formula\"",
+      "source_date": "2015-03-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "training-development",
+        "ramp-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_roberge-sales-as-engineering-discipline",
+        "ins_skok-sales-rep-failure-rate"
+      ],
+      "raw_ref": "raw/expert-content/experts/mark-roberge.md"
+    },
+    {
+      "path": "insights/ins_roberge-technology-feedback-loop.md",
+      "title": "Instrument every buyer interaction so the data feeds back into the four formulas — sales technology compounds, it doesn't just record",
+      "id": "ins_roberge-technology-feedback-loop",
+      "operator": "Mark Roberge",
+      "operator_role": "Former CRO HubSpot (employee #4); Senior Lecturer Harvard Business School; author The Sales Acceleration Formula",
+      "source_url": "https://www.markroberge.com/",
+      "source_type": "book",
+      "source_title": "\"The Sales Acceleration Formula — The Technology Formula\"",
+      "source_date": "2015-03-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "tech-stack",
+        "instrumentation",
+        "feedback-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_roberge-sales-as-engineering-discipline",
+        "ins_roberge-data-driven-coaching"
+      ],
+      "raw_ref": "raw/expert-content/experts/mark-roberge.md"
     },
     {
       "path": "insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md",
@@ -14500,6 +15005,161 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_simon-discounting-most-dangerous-practice.md",
+      "title": "Discounting is the most dangerous pricing practice — easy to start, nearly impossible to stop, customer expectations reset permanently",
+      "id": "ins_simon-discounting-most-dangerous-practice",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; pricing pioneer; author Confessions of the Pricing Man, Hidden Champions",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — Discounting\"",
+      "source_date": "2015-10-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "gtm",
+        "sales-cs",
+        "pmm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "sales-enablement",
+        "deal-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_simon-pricing-is-structural-org-failure",
+        "ins_anchoring-pricing-negotiation",
+        "ins_one-percent-price-eight-percent-profit"
+      ],
+      "raw_ref": "raw/expert-content/experts/hermann-simon.md"
+    },
+    {
+      "path": "insights/ins_simon-formal-pricing-process.md",
+      "title": "Pricing needs a four-phase process and a named owner — strategy, analysis, decision, implementation",
+      "id": "ins_simon-formal-pricing-process",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; pricing pioneer; author Confessions of the Pricing Man, Hidden Champions",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — Pricing Process\"",
+      "source_date": "2015-10-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "organisational-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_simon-pricing-is-structural-org-failure",
+        "ins_simon-discounting-most-dangerous-practice"
+      ],
+      "raw_ref": "raw/expert-content/experts/hermann-simon.md"
+    },
+    {
+      "path": "insights/ins_simon-premium-price-champion.md",
+      "title": "Premium pricing is sustained by continuous innovation, brand investment, and discipline — not by raising the price",
+      "id": "ins_simon-premium-price-champion",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; pricing pioneer; author Confessions of the Pricing Man, Hidden Champions",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — Premium Price Champions\"",
+      "source_date": "2015-10-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "product",
+        "pmm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "brand-strategy",
+        "productisation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_simon-single-price-always-suboptimal",
+        "ins_premium-pricing-virtuous-cycle",
+        "ins_neumeier-onlyness-test"
+      ],
+      "raw_ref": "raw/expert-content/experts/hermann-simon.md"
+    },
+    {
+      "path": "insights/ins_simon-pricing-is-structural-org-failure.md",
+      "title": "Pricing is the highest-leverage function and the least-staffed — fewer than 5% of Fortune 500 companies have a dedicated pricing department",
+      "id": "ins_simon-pricing-is-structural-org-failure",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; pricing pioneer; author Confessions of the Pricing Man, Hidden Champions",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — Pricing as a Function\"",
+      "source_date": "2015-10-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "organisational-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_one-percent-price-eight-percent-profit",
+        "ins_simon-formal-pricing-process"
+      ],
+      "raw_ref": "raw/expert-content/experts/hermann-simon.md"
+    },
+    {
+      "path": "insights/ins_simon-single-price-always-suboptimal.md",
+      "title": "A single price for everyone is always suboptimal — willingness to pay varies, so a single price either leaves money on the table or excludes profitable customers",
+      "id": "ins_simon-single-price-always-suboptimal",
+      "operator": "Hermann Simon",
+      "operator_role": "Founder Simon-Kucher & Partners; pricing pioneer; author Confessions of the Pricing Man, Hidden Champions",
+      "source_url": "https://www.simon-kucher.com/",
+      "source_type": "book",
+      "source_title": "\"Confessions of the Pricing Man — Price Differentiation\"",
+      "source_date": "2015-10-23",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "segmentation",
+        "monetisation"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_simon-pricing-is-structural-org-failure",
+        "ins_value-equation-grand-slam-offer"
+      ],
+      "raw_ref": "raw/expert-content/experts/hermann-simon.md"
+    },
+    {
       "path": "insights/ins_since-something-use-daily-not.md",
       "title": "P.S. Since this is something we use daily, I'm not going to send this to more than 200",
       "id": "ins_since-something-use-daily-not",
@@ -14656,6 +15316,160 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/expert-content/experts/nate-substack.md"
+    },
+    {
+      "path": "insights/ins_skok-churn-reduction-doubles-ltv.md",
+      "title": "Halve churn, double LTV — retention beats acquisition optimisation by a multiple, not a margin",
+      "id": "ins_skok-churn-reduction-doubles-ltv",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; founder For Entrepreneurs blog; built and sold four SaaS companies",
+      "source_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — Churn and LTV\"",
+      "source_date": "2015-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "growth-demand",
+        "strategy",
+        "gtm"
+      ],
+      "lifecycle": [
+        "retention-expansion",
+        "unit-economics",
+        "customer-success"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-negative-churn"
+      ],
+      "raw_ref": "raw/expert-content/experts/david-skok.md"
+    },
+    {
+      "path": "insights/ins_skok-ltv-cac-as-cross-functional-diagnostic.md",
+      "title": "A declining LTV:CAC ratio is a diagnostic, not a metric — it tells you something is wrong upstream",
+      "id": "ins_skok-ltv-cac-as-cross-functional-diagnostic",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; founder For Entrepreneurs blog",
+      "source_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — LTV:CAC Diagnostic\"",
+      "source_date": "2015-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "strategy",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "unit-economics",
+        "strategy-bets",
+        "cross-functional-alignment"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-churn-reduction-doubles-ltv"
+      ],
+      "raw_ref": "raw/expert-content/experts/david-skok.md"
+    },
+    {
+      "path": "insights/ins_skok-negative-churn.md",
+      "title": "Negative churn — NRR above 100% — is the defining property of the best SaaS businesses",
+      "id": "ins_skok-negative-churn",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; founder For Entrepreneurs blog",
+      "source_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — Negative Churn\"",
+      "source_date": "2015-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "growth-demand",
+        "strategy",
+        "pmm"
+      ],
+      "lifecycle": [
+        "retention-expansion",
+        "pricing-packaging",
+        "customer-success"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_skok-churn-reduction-doubles-ltv",
+        "ins_ltv-cac-ratio-and-cash-flow-trough"
+      ],
+      "raw_ref": "raw/expert-content/experts/david-skok.md"
+    },
+    {
+      "path": "insights/ins_skok-sales-rep-failure-rate.md",
+      "title": "30-40% of sales hires never reach quota — plan against the failure rate, not the headcount",
+      "id": "ins_skok-sales-rep-failure-rate",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; founder For Entrepreneurs blog",
+      "source_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — Sales Hire Failure Rate\"",
+      "source_date": "2015-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "capacity-planning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_skok-salesperson-unit-economics",
+        "ins_coachability-beats-experience"
+      ],
+      "raw_ref": "raw/expert-content/experts/david-skok.md"
+    },
+    {
+      "path": "insights/ins_skok-salesperson-unit-economics.md",
+      "title": "Salesperson unit economics is its own model — ramp time, payback, and failure rate, not just customer LTV/CAC",
+      "id": "ins_skok-salesperson-unit-economics",
+      "operator": "David Skok",
+      "operator_role": "General Partner Matrix Partners; founder For Entrepreneurs blog",
+      "source_url": "https://www.forentrepreneurs.com/saas-metrics-2/",
+      "source_type": "essay",
+      "source_title": "\"SaaS Metrics 2.0 — Sales Capacity Planning\"",
+      "source_date": "2015-09-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "sales-cs",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "capacity-planning",
+        "financial-planning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-sales-rep-failure-rate"
+      ],
+      "raw_ref": "raw/expert-content/experts/david-skok.md"
     },
     {
       "path": "insights/ins_skyscraper-technique.md",
@@ -21350,8 +22164,12 @@
       "domains_active": [
         "pmm",
         "leadership",
-        "research",
-        "ai-native"
+        "research-discovery",
+        "strategy",
+        "gtm",
+        "growth-demand",
+        "sales-cs",
+        "product"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -24668,7 +25486,12 @@
       "domains_active": [
         "product",
         "ai-native",
-        "leadership"
+        "leadership",
+        "strategy",
+        "founder-craft",
+        "sales-cs",
+        "gtm",
+        "growth-demand"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -29616,6 +30439,29 @@
       ]
     },
     {
+      "path": "synthesis/patterns/ai-defensibility-comes-from-non-ai.md",
+      "title": "AI defensibility comes from non-AI moats — Altman, Naval, and Munger on what survives commoditisation",
+      "id": "pat_ai-defensibility-comes-from-non-ai",
+      "captured_date": "2026-05-05",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_intelligence-cost-converging-electricity",
+        "ins_altman-ai-not-a-business-exception",
+        "ins_altman-scarce-resources-abundant-intelligence",
+        "ins_specific-knowledge-cannot-be-mass-trained",
+        "ins_specific-knowledge-and-leverage",
+        "ins_circle-of-competence",
+        "ins_ramanujam-ai-pricing-against-labor-budgets"
+      ],
+      "domains": [
+        "ai-native",
+        "strategy",
+        "founder-craft",
+        "pmm"
+      ]
+    },
+    {
       "path": "synthesis/patterns/build-for-next-model.md",
       "title": "Build for the next model, not the current one",
       "id": "pat_build-for-next-model",
@@ -29983,6 +30829,39 @@
       ]
     },
     {
+      "path": "synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md",
+      "title": "Pricing is the most leveraged and most under-invested function — Simon, Ramanujam, Skok, and Hormozi on the same structural failure",
+      "id": "pat_pricing-as-the-most-leveraged-org-failure",
+      "captured_date": "2026-05-05",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_one-percent-price-eight-percent-profit",
+        "ins_simon-pricing-is-structural-org-failure",
+        "ins_simon-discounting-most-dangerous-practice",
+        "ins_simon-single-price-always-suboptimal",
+        "ins_simon-formal-pricing-process",
+        "ins_price-before-product",
+        "ins_ramanujam-three-wtp-questions",
+        "ins_ramanujam-feature-shock",
+        "ins_ramanujam-minivation",
+        "ins_ramanujam-leaders-fillers-killers",
+        "ins_ramanujam-ai-pricing-against-labor-budgets",
+        "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-negative-churn",
+        "ins_value-equation-grand-slam-offer",
+        "ins_premium-pricing-virtuous-cycle",
+        "ins_offer-and-market-as-highest-roi-lever"
+      ],
+      "domains": [
+        "pmm",
+        "gtm",
+        "strategy",
+        "growth-demand",
+        "product"
+      ]
+    },
+    {
       "path": "synthesis/patterns/principal-ic-as-force-multiplier.md",
       "title": "Principal/staff IC as force-multiplier archetype",
       "id": "pat_principal-ic-as-force-multiplier",
@@ -30062,6 +30941,36 @@
       "domains": [
         "product",
         "launch",
+        "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/sales-as-engineered-system-not-art.md",
+      "title": "Sales is an engineered system, not individual art — Roberge, Skok, Voss, and Altman on the structural design of repeatable revenue",
+      "id": "pat_sales-as-engineered-system-not-art",
+      "captured_date": "2026-05-05",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_roberge-sales-as-engineering-discipline",
+        "ins_roberge-structured-training",
+        "ins_roberge-data-driven-coaching",
+        "ins_roberge-premature-scaling",
+        "ins_roberge-technology-feedback-loop",
+        "ins_coachability-beats-experience",
+        "ins_skok-salesperson-unit-economics",
+        "ins_skok-sales-rep-failure-rate",
+        "ins_voss-mirroring-forces-elaboration",
+        "ins_voss-tactical-empathy-labels",
+        "ins_voss-thats-right-breakthrough",
+        "ins_voss-black-swans-discovered-in-process",
+        "ins_voss-accusation-audit",
+        "ins_altman-belief-as-sales-engine"
+      ],
+      "domains": [
+        "sales-cs",
+        "gtm",
+        "leadership",
         "ai-native"
       ]
     },
@@ -30831,6 +31740,42 @@
         "team-brain/workflows/messaging-system-builder.md",
         "flywheel/skills/positioning-forge/SKILL.md",
         "flywheel/skills/dunford-value-frame/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/pricing/the-pricing-as-strategic-function-playbook.md",
+      "title": "The Pricing-as-Strategic-Function Playbook — Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine",
+      "id": "pb_pricing-as-strategic-function-playbook",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Hermann Simon",
+        "Madhavan Ramanujam",
+        "David Skok",
+        "Alex Hormozi"
+      ],
+      "uses_cards": [
+        "ins_one-percent-price-eight-percent-profit",
+        "ins_simon-pricing-is-structural-org-failure",
+        "ins_simon-discounting-most-dangerous-practice",
+        "ins_simon-single-price-always-suboptimal",
+        "ins_simon-formal-pricing-process",
+        "ins_simon-premium-price-champion",
+        "ins_price-before-product",
+        "ins_ramanujam-three-wtp-questions",
+        "ins_ramanujam-feature-shock",
+        "ins_ramanujam-minivation",
+        "ins_ramanujam-leaders-fillers-killers",
+        "ins_ramanujam-ai-pricing-against-labor-budgets",
+        "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-negative-churn",
+        "ins_value-equation-grand-slam-offer",
+        "ins_premium-pricing-virtuous-cycle"
+      ],
+      "domains": [
+        "pmm",
+        "gtm",
+        "strategy",
+        "product"
       ]
     },
     {

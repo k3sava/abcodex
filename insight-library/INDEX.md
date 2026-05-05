@@ -3,16 +3,16 @@
 _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 678 insight cards
+- 704 insight cards
 - 453 operator profiles
 - 207 raw source files
-- 30 synthesis patterns
+- 33 synthesis patterns
 - 11 contradictions
-- 25 playbooks
+- 26 playbooks
 
 ## Insights by tier
 
-### Tier A (238)
+### Tier A (258)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -22,6 +22,9 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agents-are-the-new-product-user`](insights/ins_agents-are-the-new-product-user.md) — Agents are first-class product users; design for output reliability, not navigation _(Elena Verna)_
 - [`ins_agents-as-team-not-tools`](insights/ins_agents-as-team-not-tools.md) — Agents work when treated as a team, not a single super-tool _(Claire Vo)_
 - [`ins_ai-slop-loop`](insights/ins_ai-slop-loop.md) — A single seeded fake claim can self-confirm in AI Overviews _(Lily Ray)_
+- [`ins_altman-ai-not-a-business-exception`](insights/ins_altman-ai-not-a-business-exception.md) — "We're using AI" is not a business strategy — defensibility comes from domain expertise, customer relationships, and data, not from the model layer _(Sam Altman)_
+- [`ins_altman-scarce-resources-abundant-intelligence`](insights/ins_altman-scarce-resources-abundant-intelligence.md) — When intelligence is abundant, taste, judgment, relationships, and the ability to identify what is worth doing become the scarce resources _(Sam Altman)_
+- [`ins_altman-singularity-as-smooth-curve`](insights/ins_altman-singularity-as-smooth-curve.md) — The singularity is one smooth curve — vertical looking forward, flat looking backward, never the disruptive shock people expect _(Sam Altman)_
 - [`ins_anchor-high-pricing`](insights/ins_anchor-high-pricing.md) — Anchor with the most expensive option first; price the client, not the service _(Blair Enns)_
 - [`ins_anchoring-pricing-negotiation`](insights/ins_anchoring-pricing-negotiation.md) — The first number sets the range — anchoring decides the negotiation before it starts _(Daniel Kahneman)_
 - [`ins_antifragile-barbell`](insights/ins_antifragile-barbell.md) — Build for antifragility, not robustness — fragile breaks, robust survives, antifragile gains from disorder _(Nassim Nicholas Taleb)_
@@ -175,6 +178,11 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_product-is-the-marketing`](insights/ins_product-is-the-marketing.md) — In a world of infinite choice, the product *is* the marketing — anything average is invisible _(Seth Godin)_
 - [`ins_product-strength-community-fit`](insights/ins_product-strength-community-fit.md) — Pick communities by triangulating product strength, growth, and competitive advantage _(Rahul Chhabria)_
 - [`ins_progressive-trust-onboarding`](insights/ins_progressive-trust-onboarding.md) — Onboard agents the way you onboard an EA: progressive trust, named tiers _(Claire Vo)_
+- [`ins_ramanujam-ai-pricing-against-labor-budgets`](insights/ins_ramanujam-ai-pricing-against-labor-budgets.md) — AI products should price against labor budgets — 10× larger than IT budgets — and capture 25-50% of value, not the SaaS-typical 10% _(Madhavan Ramanujam)_
+- [`ins_ramanujam-feature-shock`](insights/ins_ramanujam-feature-shock.md) — Feature Shock — too many features make the product hard to explain, costly to build, and overpriced (Amazon Fire Phone) _(Madhavan Ramanujam)_
+- [`ins_ramanujam-hidden-gems`](insights/ins_ramanujam-hidden-gems.md) — Hidden Gems — potential blockbusters never brought to market because they fall outside the core business (Kodak shelved digital photography for 21 years) _(Madhavan Ramanujam)_
+- [`ins_ramanujam-minivation`](insights/ins_ramanujam-minivation.md) — Minivation — a correctly designed product priced too low, leaving massive revenue on the table (Asus mini-notebook) _(Madhavan Ramanujam)_
+- [`ins_ramanujam-three-wtp-questions`](insights/ins_ramanujam-three-wtp-questions.md) — Three WTP questions, each followed by "Why?" — the cleanest way to surface psychological price thresholds and demand cliffs _(Madhavan Ramanujam)_
 - [`ins_rebuild-gtm-around-ai`](insights/ins_rebuild-gtm-around-ai.md) — Rebuild GTM around AI; do not integrate AI into existing GTM _(Kieran Flanagan)_
 - [`ins_referral-email-not-pitch`](insights/ins_referral-email-not-pitch.md) — Don't cold-pitch executives. Ask them who owns the problem. _(Aaron Ross)_
 - [`ins_relevance-engineering-passage-level`](insights/ins_relevance-engineering-passage-level.md) — The unit of optimization is the passage, not the page _(Mike King)_
@@ -184,6 +192,10 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_research-preview-trust-cadence`](insights/ins_research-preview-trust-cadence.md) — Brand work as "research preview" to compress timelines from quarters to weeks _(Cat Wu)_
 - [`ins_resonance-over-reach`](insights/ins_resonance-over-reach.md) — Resonance with 1,000 in-market readers beats reach to 100,000 strangers _(Jay Acunzo)_
 - [`ins_right-friction-beats-no-friction`](insights/ins_right-friction-beats-no-friction.md) — Keep friction that helps users understand the product; cut the rest _(Amol Avasare)_
+- [`ins_roberge-data-driven-coaching`](insights/ins_roberge-data-driven-coaching.md) — Coach on 1-2 specific peer-relative metric gaps per rep — generic coaching produces generic results _(Mark Roberge)_
+- [`ins_roberge-premature-scaling`](insights/ins_roberge-premature-scaling.md) — Premature scaling — hiring sales before the corresponding stage of fit — is the single most destructive go-to-market mistake _(Mark Roberge)_
+- [`ins_roberge-sales-as-engineering-discipline`](insights/ins_roberge-sales-as-engineering-discipline.md) — Sales is engineering, not art — system design beats individual talent at scale _(Mark Roberge)_
+- [`ins_roberge-structured-training`](insights/ins_roberge-structured-training.md) — Replace "shadow a top rep" with structured curriculum + pass/fail certifications — competence before customer contact _(Mark Roberge)_
 - [`ins_run-up-the-stack`](insights/ins_run-up-the-stack.md) — Run up the stack — use commoditized capabilities as inputs to create higher-order human value _(Packy McCormick)_
 - [`ins_sam-mallikarjunan-advance-the-market-not-just-share`](insights/ins_sam-mallikarjunan-advance-the-market-not-just-share.md) — 'The biggest impediment to growth isn''t a cheaper competitor; it''s that the market is bad at marketing and sales' _(Sam Mallikarjunan)_
 - [`ins_sebastien-rankin-treat-marketing-strategy-like-codebase`](insights/ins_sebastien-rankin-treat-marketing-strategy-like-codebase.md) — 'Treat marketing strategy like a codebase for team-wide AI alignment.' _(Sebastien Rankin)_
@@ -191,8 +203,16 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_setup-follow-through-pitch`](insights/ins_setup-follow-through-pitch.md) — Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup _(April Dunford)_
 - [`ins_shape-up-appetite-not-estimate`](insights/ins_shape-up-appetite-not-estimate.md) — Don't ask "how long will this take?" — ask "how much time do we want to spend on this?" _(Jason Fried)_
 - [`ins_short-form-stuff-facebook-instagram`](insights/ins_short-form-stuff-facebook-instagram.md) — 1. For short-form stuff (Facebook, Instagram, etc.), AI is doing most of the heavy lifting _(Josue Valles)_
+- [`ins_simon-discounting-most-dangerous-practice`](insights/ins_simon-discounting-most-dangerous-practice.md) — Discounting is the most dangerous pricing practice — easy to start, nearly impossible to stop, customer expectations reset permanently _(Hermann Simon)_
+- [`ins_simon-pricing-is-structural-org-failure`](insights/ins_simon-pricing-is-structural-org-failure.md) — Pricing is the highest-leverage function and the least-staffed — fewer than 5% of Fortune 500 companies have a dedicated pricing department _(Hermann Simon)_
+- [`ins_simon-single-price-always-suboptimal`](insights/ins_simon-single-price-always-suboptimal.md) — A single price for everyone is always suboptimal — willingness to pay varies, so a single price either leaves money on the table or excludes profitable customers _(Hermann Simon)_
 - [`ins_since-their-main-product-lemlist`](insights/ins_since-their-main-product-lemlist.md) — 'GTM flywheel: outbound + LinkedIn content + LinkedIn ads, syncing into one system' _(Michel Lieben 🧠)_
 - [`ins_skill-as-unit-of-distribution`](insights/ins_skill-as-unit-of-distribution.md) — The unit of distribution for operator expertise is the Skill, not the prompt _(Kyle Poyar)_
+- [`ins_skok-churn-reduction-doubles-ltv`](insights/ins_skok-churn-reduction-doubles-ltv.md) — Halve churn, double LTV — retention beats acquisition optimisation by a multiple, not a margin _(David Skok)_
+- [`ins_skok-ltv-cac-as-cross-functional-diagnostic`](insights/ins_skok-ltv-cac-as-cross-functional-diagnostic.md) — A declining LTV:CAC ratio is a diagnostic, not a metric — it tells you something is wrong upstream _(David Skok)_
+- [`ins_skok-negative-churn`](insights/ins_skok-negative-churn.md) — Negative churn — NRR above 100% — is the defining property of the best SaaS businesses _(David Skok)_
+- [`ins_skok-sales-rep-failure-rate`](insights/ins_skok-sales-rep-failure-rate.md) — 30-40% of sales hires never reach quota — plan against the failure rate, not the headcount _(David Skok)_
+- [`ins_skok-salesperson-unit-economics`](insights/ins_skok-salesperson-unit-economics.md) — Salesperson unit economics is its own model — ramp time, payback, and failure rate, not just customer LTV/CAC _(David Skok)_
 - [`ins_skyscraper-technique`](insights/ins_skyscraper-technique.md) — Skyscraper Technique: find content with backlinks, build something demonstrably better, ask the linkers to switch _(Brian Dean)_
 - [`ins_smallest-viable-audience`](insights/ins_smallest-viable-audience.md) — The goal isn't to maximize numbers — it's to be missed if you stopped. Find the smallest viable audience. _(Seth Godin)_
 - [`ins_snap-selling-buyer-cognitive-load`](insights/ins_snap-selling-buyer-cognitive-load.md) — Buyers are frazzled. The seller's job is cognitive burden reduction, not persuasion. _(Jill Konrath)_
@@ -252,7 +272,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click — create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers — build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (368)
+### Tier B (374)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -280,6 +300,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — 'ChatGPT Study Mode turns product decks into micro-coaching for GTM teams.' _(Alex Lindahl)_
 - [`ins_alina-vandenberghe-recruiting-process-transparency`](insights/ins_alina-vandenberghe-recruiting-process-transparency.md) — 'Communication is the leverage skill that turns founder-CEO into co-CEO' _(Alina Vandenberghe 🌶️)_
 - [`ins_all-problems-become-people-problems`](insights/ins_all-problems-become-people-problems.md) — Above a certain level, every problem is a people problem _(Silvia Botros)_
+- [`ins_altman-belief-as-sales-engine`](insights/ins_altman-belief-as-sales-engine.md) — Sales is conviction transfer — the best way to be good at sales is to genuinely believe in what you're selling _(Sam Altman)_
+- [`ins_altman-network-through-generosity`](insights/ins_altman-network-through-generosity.md) — Build a network by helping people as much as you can — generosity compounds, transactional networking does not _(Sam Altman)_
 - [`ins_always-believed-being-transparent-what`](insights/ins_always-believed-being-transparent-what.md) — 'Pattern interrupts beat optimization in early-stage SaaS marketing' _(Madhav Bhandari)_
 - [`ins_always-tried-bring-real-day`](insights/ins_always-tried-bring-real-day.md) — I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a _(Sachin Jha)_
 - [`ins_amateurs-give-advice-experts-diagnose`](insights/ins_amateurs-give-advice-experts-diagnose.md) — Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. _(Chris Do)_
@@ -525,6 +547,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_qrg-recovery-roadmap`](insights/ins_qrg-recovery-roadmap.md) — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap _(Marie Haynes)_
 - [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
+- [`ins_ramanujam-leaders-fillers-killers`](insights/ins_ramanujam-leaders-fillers-killers.md) — Leaders, Fillers, Killers — segment customers by WTP, then bundle features by their role per segment _(Madhavan Ramanujam)_
 - [`ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers`](insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md) — "CEO's office roles should attract those optimizing for impact, not salary." _(Ranjeet Pratap Singh)_
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1 _(Tim Soulo)_
 - [`ins_rapti-gupta-99-bookings-century-goal`](insights/ins_rapti-gupta-99-bookings-century-goal.md) — 'Marketing ROI starts before the pipeline — track leading metrics or you lose the budget' _(Rapti Gupta)_
@@ -536,6 +559,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_relevance-engineering-not-content-problem`](insights/ins_relevance-engineering-not-content-problem.md) — GEO is an information-retrieval engineering problem, not a content problem _(Mike King)_
 - [`ins_reps-want-questions-not-dashboards`](insights/ins_reps-want-questions-not-dashboards.md) — Sellers don't want a better dashboard — they want to ask the deal questions _(Yamini Rangan)_
 - [`ins_ricky-sangra-leo-polonsky-george`](insights/ins_ricky-sangra-leo-polonsky-george.md) — Ricky Sangra Leo Polonsky George Griffiths Jerry Broll Katie Schratz Thanks for your co _(Rohit Agarwal)_
+- [`ins_roberge-technology-feedback-loop`](insights/ins_roberge-technology-feedback-loop.md) — Instrument every buyer interaction so the data feeds back into the four formulas — sales technology compounds, it doesn't just record _(Mark Roberge)_
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — 'Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool.' _(Roma Mehendale)_
 - [`ins_saishah-joseph-exhaustion-disguised-as-enthusiasm`](insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md) — "Small business owners' social media exhaustion is disguised as enthusiasm" _(Saishah Joseph)_
@@ -560,6 +584,8 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shruti-vashi-pmm-must-balance-strategy-and-execution`](insights/ins_shruti-vashi-pmm-must-balance-strategy-and-execution.md) — 'PMM must balance strategy and execution, not choose one.' _(Shruti Vashi)_
 - [`ins_shubham-shrivastava-ghost-hiring-and-unfair-pay`](insights/ins_shubham-shrivastava-ghost-hiring-and-unfair-pay.md) — "Companies preach inclusion and mental health while ghosting candidates and offering salaries that can't cover rent." _(SHUBHAM SHRIVASTAVA)_
 - [`ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills`](insights/ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills.md) — 'Podcast transcripts can be turned into reusable AI agent skills for practical work.' _(Sid Bharath)_
+- [`ins_simon-formal-pricing-process`](insights/ins_simon-formal-pricing-process.md) — Pricing needs a four-phase process and a named owner — strategy, analysis, decision, implementation _(Hermann Simon)_
+- [`ins_simon-premium-price-champion`](insights/ins_simon-premium-price-champion.md) — Premium pricing is sustained by continuous innovation, brand investment, and discipline — not by raising the price _(Hermann Simon)_
 - [`ins_since-something-use-daily-not`](insights/ins_since-something-use-daily-not.md) — P.S. Since this is something we use daily, I'm not going to send this to more than 200 _(Christian Oland)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
 - [`ins_sjeel-k-positioning-over-icp`](insights/ins_sjeel-k-positioning-over-icp.md) — "Clear ICP isn't enough if your positioning doesn't pull its weight" _(Sjeel K.)_
@@ -1161,6 +1187,7 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (4 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users — design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
+- [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats — Altman, Naval, and Munger on what survives commoditisation (3 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (4 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process design, not from individual brilliance or harder thinking (4 ops) [Tier A]
@@ -1178,10 +1205,12 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [`pat_monopoly-economics-differentiation-beats-competition`](synthesis/patterns/monopoly-economics-differentiation-beats-competition.md) — Differentiation, not competition, is what compounds — Thiel, Naval, Munger, Neumeier, Hormozi, and Dunford on the same economic principle (6 ops) [Tier A]
 - [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy — name the shift, run the audit (4 ops) [Tier A]
 - [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior — parenting frames as leadership ops (3 ops) [Tier B]
+- [`pat_pricing-as-the-most-leveraged-org-failure`](synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md) — Pricing is the most leveraged and most under-invested function — Simon, Ramanujam, Skok, and Hormozi on the same structural failure (4 ops) [Tier A]
 - [`pat_principal-ic-as-force-multiplier`](synthesis/patterns/principal-ic-as-force-multiplier.md) — Principal/staff IC as force-multiplier archetype (4 ops) [Tier A]
 - [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
 - [`pat_rapport-surfaces-what-research-cannot`](synthesis/patterns/rapport-surfaces-what-research-cannot.md) — Rapport surfaces what research cannot — Voss, Moesta, and Munger on the conditions that produce hidden information (3 ops) [Tier A]
 - [`pat_research-preview-cadence`](synthesis/patterns/research-preview-and-cadence.md) — Research preview, frontier programs, seasons not roadmaps (3 ops) [Tier B]
+- [`pat_sales-as-engineered-system-not-art`](synthesis/patterns/sales-as-engineered-system-not-art.md) — Sales is an engineered system, not individual art — Roberge, Skok, Voss, and Altman on the structural design of repeatable revenue (4 ops) [Tier A]
 - [`pat_specific-knowledge-and-circle-of-competence`](synthesis/patterns/specific-knowledge-and-circle-of-competence.md) — Defensibility comes from non-substitutable, non-trainable specificity — Naval, Munger, and Dunford on the same boundary (3 ops) [Tier A]
 - [`pat_specificity-becomes-profitable`](synthesis/patterns/specificity-becomes-profitable.md) — Specificity becomes profitable — long tail, niche, segment-aware pricing (3 ops) [Tier B]
 - [`pat_status-quo-is-the-competitor`](synthesis/patterns/status-quo-is-the-competitor.md) — Status quo / no-decision is the real competitor (6 ops) [Tier A]
@@ -1225,5 +1254,6 @@ _Generated 2026-05-05. Auto-built from frontmatter — do not edit by hand._
 - [PMM coaching — iterative document review with feedback retention](playbooks/messaging/pmm-coaching-framework.md)
 - [Narrative compose — master story, message house, pillar copy](playbooks/narrative/narrative-compose.md)
 - [Positioning Document — full pipeline](playbooks/positioning/positioning-document.md)
+- [The Pricing-as-Strategic-Function Playbook — Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
 - [The Tactical Empathy Discovery Playbook — Voss's five tools integrated into a usable sales discovery, customer research, and difficult-conversation routine](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
 - [Sales enablement — battlecards, ROI, decks, training](playbooks/sales-enablement/sales-enablement.md)

@@ -6,7 +6,7 @@ roles:
   - former president of Y Combinator
   - investor in Stripe/Reddit/Airbnb/Instacart
   - author of 'How To Be Successful' and 'The Gentle Singularity
-domains_active: [product, ai-native, leadership]
+domains_active: [product, ai-native, leadership, strategy, founder-craft, sales-cs, gtm, growth-demand]
 captured_first: 2026-05-01
 external:
   linkedin: https://www.linkedin.com/in/samaltman/
@@ -24,7 +24,12 @@ Sam Altman's system of thought operates at two levels simultaneously: macro-stra
 - **Building With Llms**
 
 ## Cards
-- `ins_intelligence-cost-converging-electricity` — The cost of intelligence is converging toward the cost of electricity — durable advantage isn't using AI, it's parlaying AI [Tier A]
+- `ins_intelligence-cost-converging-electricity` — The cost of intelligence is converging toward the cost of electricity [Tier A]
+- `ins_altman-singularity-as-smooth-curve` — The singularity is one smooth curve — vertical forward, flat backward [Tier A]
+- `ins_altman-ai-not-a-business-exception` — "We're using AI" is not a strategy — defensibility comes from non-AI moats [Tier A]
+- `ins_altman-belief-as-sales-engine` — Sales is conviction transfer — the best way to be good at sales is to genuinely believe [Tier B]
+- `ins_altman-network-through-generosity` — Build a network by helping people as much as you can — generosity compounds [Tier B]
+- `ins_altman-scarce-resources-abundant-intelligence` — When intelligence is abundant, taste, judgment, relationships become scarce [Tier A]
 
 
 ## Sources captured

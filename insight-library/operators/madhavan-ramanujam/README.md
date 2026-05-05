@@ -23,6 +23,12 @@ Madhavan Ramanujam is the leading voice on monetization strategy and the integra
 
 ## Cards
 - `ins_price-before-product` — Price before product. 72% of innovations fail because companies design first and price later. [Tier A]
+- `ins_ramanujam-feature-shock` — Feature Shock — too many features make the product hard to explain, costly, and overpriced [Tier A]
+- `ins_ramanujam-minivation` — Minivation — a correctly designed product priced too low, leaving massive revenue on the table [Tier A]
+- `ins_ramanujam-hidden-gems` — Hidden Gems — potential blockbusters never shipped because they fall outside the core business [Tier A]
+- `ins_ramanujam-ai-pricing-against-labor-budgets` — AI products should price against labor budgets (10× IT) and capture 25-50% of value [Tier A]
+- `ins_ramanujam-three-wtp-questions` — Three WTP questions, each followed by "Why?" — surfaces psychological price thresholds [Tier A]
+- `ins_ramanujam-leaders-fillers-killers` — Segment customers by WTP, then bundle features by Leaders/Fillers/Killers per segment [Tier B]
 
 
 ## Sources captured
