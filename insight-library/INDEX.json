@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-03T18:56:47.534Z",
+  "generated_at": "2026-05-05T02:48:59.069Z",
   "counts": {
-    "insights": 630,
+    "insights": 652,
     "operators": 453,
     "raw_sources": 207,
-    "patterns": 24,
-    "contradictions": 9,
-    "playbooks": 23
+    "patterns": 27,
+    "contradictions": 10,
+    "playbooks": 24
   },
   "insights": [
     {
@@ -1375,6 +1375,37 @@
       "raw_ref": "raw/expert-content/experts/blair-enns.md"
     },
     {
+      "path": "insights/ins_anchoring-pricing-negotiation.md",
+      "title": "The first number sets the range — anchoring decides the negotiation before it starts",
+      "id": "ins_anchoring-pricing-negotiation",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Anchoring_effect",
+      "source_type": "book",
+      "source_title": "\"Thinking, Fast and Slow — Anchoring\"",
+      "source_date": "2011-10-25",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "gtm",
+        "sales-cs",
+        "pmm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "sales-enablement",
+        "deal-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_system1-system2-thinking",
+        "ins_loss-aversion-status-quo-bias"
+      ],
+      "raw_ref": "raw/expert-content/experts/daniel-kahneman.md"
+    },
+    {
       "path": "insights/ins_andrew-bennett-ai-first-product-marketing-hire.md",
       "title": "'First key marketing hire should be an AI-first leader for enterprise product marketing'",
       "id": "ins_andrew-bennett-ai-first-product-marketing-hire",
@@ -2741,6 +2772,36 @@
       "raw_ref": "raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-04-27.md"
     },
     {
+      "path": "insights/ins_career-sequence-leverage-then-judgment.md",
+      "title": "Spend the first half of your career acquiring leverage, the second half slowing down to apply judgment",
+      "id": "ins_career-sequence-leverage-then-judgment",
+      "operator": "Naval Ravikant",
+      "operator_role": "Founder AngelList; investor; essayist on wealth, judgment, and leverage",
+      "source_url": "https://nav.al/rich",
+      "source_type": "essay",
+      "source_title": "\"How To Get Rich — Career Sequencing\"",
+      "source_date": "2018-06-03",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "career-arc",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_judgment-compounds-with-leverage",
+        "ins_code-and-media-permissionless-leverage"
+      ],
+      "raw_ref": "raw/expert-content/experts/naval-ravikant.md"
+    },
+    {
       "path": "insights/ins_case-study-customer-as-hero.md",
       "title": "Information in narrative form is 22x more memorable. Integrate the metric into the moment.",
       "id": "ins_case-study-customer-as-hero",
@@ -2925,6 +2986,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_circle-of-competence.md",
+      "title": "Knowing what you don't know beats being brilliant — the discipline is the boundary, not the expansion",
+      "id": "ins_circle-of-competence",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice-Chairman, Berkshire Hathaway; investor; author of Poor Charlie's Almanack",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Munger",
+      "source_type": "book",
+      "source_title": "\"Poor Charlie's Almanack — Circle of Competence\"",
+      "source_date": "2005-12-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_latticework-of-mental-models",
+        "ins_wysiati-overconfidence"
+      ],
+      "raw_ref": "raw/expert-content/experts/charlie-munger.md"
+    },
+    {
       "path": "insights/ins_claude-plus-crm-plus-orchestration-stack.md",
       "title": "AI tools combine with CRMs through orchestration; they do not replace them",
       "id": "ins_claude-plus-crm-plus-orchestration-stack",
@@ -2980,6 +3072,38 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/expert-content/experts/mark-roberge.md"
+    },
+    {
+      "path": "insights/ins_code-and-media-permissionless-leverage.md",
+      "title": "Code and media are the only forms of leverage that don't require asking — labour and capital both come gated",
+      "id": "ins_code-and-media-permissionless-leverage",
+      "operator": "Naval Ravikant",
+      "operator_role": "Founder AngelList; investor; essayist on wealth, judgment, and leverage",
+      "source_url": "https://nav.al/rich",
+      "source_type": "essay",
+      "source_title": "\"How To Get Rich — Permissionless Leverage\"",
+      "source_date": "2018-06-03",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "growth-demand",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "productisation",
+        "distribution",
+        "content-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_specific-knowledge-and-leverage",
+        "ins_specific-knowledge-cannot-be-mass-trained"
+      ],
+      "raw_ref": "raw/expert-content/experts/naval-ravikant.md"
     },
     {
       "path": "insights/ins_code-node-utilizes-api-key.md",
@@ -4232,6 +4356,36 @@
         "ins_illegibility-framework"
       ],
       "raw_ref": "raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md"
+    },
+    {
+      "path": "insights/ins_dfy-dwy-diy-delivery-stack.md",
+      "title": "Done-for-you for the strategy, done-with-you and DIY for the rest — never sell time",
+      "id": "ins_dfy-dwy-diy-delivery-stack",
+      "operator": "Alex Hormozi",
+      "operator_role": "Founder Acquisition.com; author of $100M Offers and $100M Leads",
+      "source_url": "https://www.acquisition.com/100m-offers",
+      "source_type": "book",
+      "source_title": "\"$100M Offers — Delivery Vehicles\"",
+      "source_date": "2021-07-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "sales-cs",
+        "pmm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "productisation",
+        "services-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_value-equation-grand-slam-offer"
+      ],
+      "raw_ref": "raw/expert-content/experts/alex-hormozi.md"
     },
     {
       "path": "insights/ins_different-better-and-matters.md",
@@ -5901,6 +6055,39 @@
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md"
     },
     {
+      "path": "insights/ins_godin-five-step-marketing-process.md",
+      "title": "Five steps in order: invent, design for the few, tell the matching story, spread, show up for years",
+      "id": "ins_godin-five-step-marketing-process",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"This Is Marketing — The Five-Step Process\"",
+      "source_date": "2018-11-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "gtm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "launch-go-to-market",
+        "positioning",
+        "audience-building"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_smallest-viable-audience",
+        "ins_worldview-led-marketing",
+        "ins_product-is-the-marketing",
+        "ins_permission-as-measurable-asset"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
+    },
+    {
       "path": "insights/ins_going-deep-to-bedrock.md",
       "title": "Push past expert opinion until you reach the actual law of physics or contract",
       "id": "ins_going-deep-to-bedrock",
@@ -6836,6 +7023,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_incentives-as-master-switch.md",
+      "title": "When behavior puzzles you, look at incentives — that's where every other model is downstream of",
+      "id": "ins_incentives-as-master-switch",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice-Chairman, Berkshire Hathaway; investor; author of Poor Charlie's Almanack",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Munger",
+      "source_type": "book",
+      "source_title": "\"Poor Charlie's Almanack — The Power of Incentives\"",
+      "source_date": "2005-12-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "gtm",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design",
+        "deal-strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_invert-always-invert",
+        "ins_latticework-of-mental-models"
+      ],
+      "raw_ref": "raw/expert-content/experts/charlie-munger.md"
+    },
+    {
       "path": "insights/ins_influence-is-discovery-not-conviction.md",
       "title": "Treat upward influence as a discovery interview, not a sales pitch",
       "id": "ins_influence-is-discovery-not-conviction",
@@ -7676,6 +7894,38 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/expert-content/experts/claire-suellentrop.md"
+    },
+    {
+      "path": "insights/ins_judgment-compounds-with-leverage.md",
+      "title": "At 1,000× leverage, a 10% better decision-rate produces hundreds of times more output — judgment is the multiplier",
+      "id": "ins_judgment-compounds-with-leverage",
+      "operator": "Naval Ravikant",
+      "operator_role": "Founder AngelList; investor; essayist on wealth, judgment, and leverage",
+      "source_url": "https://nav.al/rich",
+      "source_type": "essay",
+      "source_title": "\"How To Get Rich — Judgment as a Multiplier\"",
+      "source_date": "2018-06-03",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "founder-craft",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality",
+        "decision-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_specific-knowledge-and-leverage",
+        "ins_code-and-media-permissionless-leverage",
+        "ins_circle-of-competence"
+      ],
+      "raw_ref": "raw/expert-content/experts/naval-ravikant.md"
     },
     {
       "path": "insights/ins_juliana-katz-pmm-leaders-building-ai-capabilities.md",
@@ -8596,6 +8846,37 @@
       "raw_ref": "raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md"
     },
     {
+      "path": "insights/ins_lollapalooza-effects.md",
+      "title": "Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning",
+      "id": "ins_lollapalooza-effects",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice-Chairman, Berkshire Hathaway; investor; author of Poor Charlie's Almanack",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Munger",
+      "source_type": "book",
+      "source_title": "\"Poor Charlie's Almanack — Lollapalooza Effects\"",
+      "source_date": "2005-12-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_latticework-of-mental-models",
+        "ins_loss-aversion-status-quo-bias",
+        "ins_anchoring-pricing-negotiation"
+      ],
+      "raw_ref": "raw/expert-content/experts/charlie-munger.md"
+    },
+    {
       "path": "insights/ins_long-term-holdouts-30-40-evaporate.md",
       "title": "30–40% of growth experiments with short-term lift show no incremental value at one year",
       "id": "ins_long-term-holdouts-30-40-evaporate",
@@ -8622,6 +8903,37 @@
         "ins_absolute-counts-over-conversion-rates"
       ],
       "raw_ref": "raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_loss-aversion-status-quo-bias.md",
+      "title": "Losses feel about 2× as painful as equivalent gains — switching costs are paid in pain, not dollars",
+      "id": "ins_loss-aversion-status-quo-bias",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Loss_aversion",
+      "source_type": "book",
+      "source_title": "\"Thinking, Fast and Slow — Loss Aversion\"",
+      "source_date": "2011-10-25",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "gtm",
+        "pmm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "pricing-packaging"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_system1-system2-thinking",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "raw_ref": "raw/expert-content/experts/daniel-kahneman.md"
     },
     {
       "path": "insights/ins_ltv-cac-ratio-and-cash-flow-trough.md",
@@ -9401,6 +9713,36 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_mental-models-as-os-not-library.md",
+      "title": "Mental models compound only if they run automatically — looking up the right model in the moment is too slow",
+      "id": "ins_mental-models-as-os-not-library",
+      "operator": "Charlie Munger",
+      "operator_role": "Vice-Chairman, Berkshire Hathaway; investor; author of Poor Charlie's Almanack",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Munger",
+      "source_type": "book",
+      "source_title": "\"Poor Charlie's Almanack — The Operating System Philosophy\"",
+      "source_date": "2005-12-01",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "founder-craft",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "learning-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_latticework-of-mental-models",
+        "ins_circle-of-competence"
+      ],
+      "raw_ref": "raw/expert-content/experts/charlie-munger.md"
     },
     {
       "path": "insights/ins_message-testing-sameness-default.md",
@@ -10308,6 +10650,37 @@
       "raw_ref": "raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28.md"
     },
     {
+      "path": "insights/ins_noise-vs-bias-judgment-quality.md",
+      "title": "Noise is at least as damaging as bias — and most orgs have no instrument to even see it",
+      "id": "ins_noise-vs-bias-judgment-quality",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Noise:_A_Flaw_in_Human_Judgment",
+      "source_type": "book",
+      "source_title": "\"Noise: A Flaw in Human Judgment\"",
+      "source_date": "2021-05-18",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "leadership",
+        "strategy",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "risk-quality",
+        "hiring-team-design",
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_system1-system2-thinking",
+        "ins_wysiati-overconfidence"
+      ],
+      "raw_ref": "raw/expert-content/experts/daniel-kahneman.md"
+    },
+    {
       "path": "insights/ins_not-because-break-because-still.md",
       "title": "Not because I’m on a break, but because I’m still a very hands-on founder",
       "id": "ins_not-because-break-because-still",
@@ -10444,6 +10817,37 @@
         "ins_old-game-to-new-game-narrative"
       ],
       "raw_ref": "raw/podcasts/andy-raskin--strategic-narrative-framework--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_offer-and-market-as-highest-roi-lever.md",
+      "title": "When growth stalls, fix the offer or change the market — never spend more on ads to amplify a weak offer",
+      "id": "ins_offer-and-market-as-highest-roi-lever",
+      "operator": "Alex Hormozi",
+      "operator_role": "Founder Acquisition.com; author of $100M Offers and $100M Leads",
+      "source_url": "https://www.acquisition.com/100m-offers",
+      "source_type": "book",
+      "source_title": "\"$100M Offers — Highest-ROI Intervention\"",
+      "source_date": "2021-07-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "strategy",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "pricing-packaging",
+        "market-selection"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_starving-crowd-beats-offer",
+        "ins_value-equation-grand-slam-offer"
+      ],
+      "raw_ref": "raw/expert-content/experts/alex-hormozi.md"
     },
     {
       "path": "insights/ins_old-game-to-new-game-narrative.md",
@@ -10639,6 +11043,37 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/expert-content/experts/andy-crestodina.md"
+    },
+    {
+      "path": "insights/ins_otaku-as-ideal-customer-archetype.md",
+      "title": "Design for the otaku — the obsessive customer who already wants what you make and will tell their hive",
+      "id": "ins_otaku-as-ideal-customer-archetype",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"Purple Cow — The Otaku Customer\"",
+      "source_date": "2003-05-08",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "ideal-customer-profile",
+        "audience-building",
+        "distribution"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_smallest-viable-audience",
+        "ins_product-is-the-marketing"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
     },
     {
       "path": "insights/ins_outcomes-pricing-restructures-saas.md",
@@ -10893,6 +11328,36 @@
       "raw_ref": "raw/podcasts/benjamin-lauzier--marketplace-liquidity-supply--2026-04-28.md"
     },
     {
+      "path": "insights/ins_permission-as-measurable-asset.md",
+      "title": "Permission is a balance you can deplete — every email either deposits or withdraws",
+      "id": "ins_permission-as-measurable-asset",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"Permission Marketing\"",
+      "source_date": "1999-05-06",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "marketing"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "lifecycle-marketing",
+        "audience-building"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_smallest-viable-audience"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
+    },
+    {
       "path": "insights/ins_persistence-channels-vs-hit-or-miss.md",
       "title": "Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second.",
       "id": "ins_persistence-channels-vs-hit-or-miss",
@@ -10997,6 +11462,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": ""
+    },
+    {
+      "path": "insights/ins_planning-fallacy-launch-timelines.md",
+      "title": "The planning fallacy guarantees every launch timeline is optimistic — the fix is the outside view",
+      "id": "ins_planning-fallacy-launch-timelines",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Planning_fallacy",
+      "source_type": "book",
+      "source_title": "\"Thinking, Fast and Slow — The Planning Fallacy\"",
+      "source_date": "2011-10-25",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "launch-go-to-market",
+        "risk-quality"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_system1-system2-thinking"
+      ],
+      "raw_ref": "raw/expert-content/experts/daniel-kahneman.md"
     },
     {
       "path": "insights/ins_pm-as-orchestrator-of-agents.md",
@@ -11494,6 +11989,37 @@
       "raw_ref": "raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md"
     },
     {
+      "path": "insights/ins_premium-pricing-virtuous-cycle.md",
+      "title": "Higher prices select for better clients who produce better case studies that justify even higher prices",
+      "id": "ins_premium-pricing-virtuous-cycle",
+      "operator": "Alex Hormozi",
+      "operator_role": "Founder Acquisition.com; author of $100M Offers and $100M Leads",
+      "source_url": "https://www.acquisition.com/100m-offers",
+      "source_type": "book",
+      "source_title": "\"$100M Offers — Premium Pricing as a Filter\"",
+      "source_date": "2021-07-13",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "growth-demand",
+        "sales-cs",
+        "pmm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "ideal-customer-profile",
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_value-equation-grand-slam-offer",
+        "ins_starving-crowd-beats-offer"
+      ],
+      "raw_ref": "raw/expert-content/experts/alex-hormozi.md"
+    },
+    {
       "path": "insights/ins_price-before-product.md",
       "title": "Price before product. 72% of innovations fail because companies design first and price later.",
       "id": "ins_price-before-product",
@@ -11709,6 +12235,38 @@
         "ins_post-training-as-the-moat"
       ],
       "raw_ref": "raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md"
+    },
+    {
+      "path": "insights/ins_product-is-the-marketing.md",
+      "title": "In a world of infinite choice, the product *is* the marketing — anything average is invisible",
+      "id": "ins_product-is-the-marketing",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"Purple Cow: Transform Your Business by Being Remarkable\"",
+      "source_date": "2003-05-08",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "product",
+        "design",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "productisation",
+        "positioning",
+        "distribution"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_smallest-viable-audience",
+        "ins_worldview-led-marketing"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
     },
     {
       "path": "insights/ins_product-marketing-managers-gtm-one.md",
@@ -14134,6 +14692,37 @@
       "raw_ref": "raw/expert-content/experts/naval-ravikant.md"
     },
     {
+      "path": "insights/ins_specific-knowledge-cannot-be-mass-trained.md",
+      "title": "If you can be replaced by training, you will be — specific knowledge is what survives commoditisation",
+      "id": "ins_specific-knowledge-cannot-be-mass-trained",
+      "operator": "Naval Ravikant",
+      "operator_role": "Founder AngelList; investor; essayist on wealth, judgment, and leverage",
+      "source_url": "https://nav.al/rich",
+      "source_type": "essay",
+      "source_title": "\"How To Get Rich (without getting lucky) — Specific Knowledge\"",
+      "source_date": "2018-06-03",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "founder-craft",
+        "strategy",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "positioning",
+        "ideal-customer-profile",
+        "learning-development"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_specific-knowledge-and-leverage",
+        "ins_circle-of-competence"
+      ],
+      "raw_ref": "raw/expert-content/experts/naval-ravikant.md"
+    },
+    {
       "path": "insights/ins_specificity-becomes-profitable.md",
       "title": "AI makes specificity profitable; the Pareto distribution flattens at the long tail",
       "id": "ins_specificity-becomes-profitable",
@@ -15386,6 +15975,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_trust-ladder-strangers-friends-customers.md",
+      "title": "Strangers → friends → customers — three trust thresholds, three different message types",
+      "id": "ins_trust-ladder-strangers-friends-customers",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"Permission Marketing — The Trust Ladder\"",
+      "source_date": "1999-05-06",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "sales-cs",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "lifecycle-marketing",
+        "content-strategy",
+        "audience-building"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_permission-as-measurable-asset",
+        "ins_godin-five-step-marketing-process"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
+    },
+    {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
       "title": "Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work",
       "id": "ins_two-week-engineer-as-mini-pm",
@@ -16202,6 +16822,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_worldview-led-marketing.md",
+      "title": "Don't try to change minds — find the worldview that already wants your story",
+      "id": "ins_worldview-led-marketing",
+      "operator": "Seth Godin",
+      "operator_role": "Author and marketing essayist; altMBA founder; Permission Marketing, Purple Cow, This Is Marketing",
+      "source_url": "https://seths.blog/",
+      "source_type": "book",
+      "source_title": "\"All Marketers Are Liars / Tell Stories\"",
+      "source_date": "2005-05-19",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "pmm",
+        "strategy",
+        "marketing"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative",
+        "audience-segmentation"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_smallest-viable-audience",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "raw_ref": "raw/expert-content/experts/seth-godin.md"
+    },
+    {
       "path": "insights/ins_write-like-you-speak.md",
       "title": "Voice quirks aren't bugs — they're the only thing AI cannot replicate",
       "id": "ins_write-like-you-speak",
@@ -16227,6 +16878,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/expert-content/experts/dave-harland.md"
+    },
+    {
+      "path": "insights/ins_wysiati-overconfidence.md",
+      "title": "The less you know, the more confident you are — WYSIATI builds the cleanest stories from the thinnest data",
+      "id": "ins_wysiati-overconfidence",
+      "operator": "Daniel Kahneman",
+      "operator_role": "Nobel laureate; Princeton emeritus; co-founder of behavioral economics",
+      "source_url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
+      "source_type": "book",
+      "source_title": "\"Thinking, Fast and Slow — WYSIATI\"",
+      "source_date": "2011-10-25",
+      "captured_date": "2026-05-05",
+      "domain": [
+        "research-discovery",
+        "strategy",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "risk-quality",
+        "customer-research"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_system1-system2-thinking"
+      ],
+      "raw_ref": "raw/expert-content/experts/daniel-kahneman.md"
     },
     {
       "path": "insights/ins_y-combinator-ai-form-fill-autonomy.md",
@@ -18100,7 +18781,11 @@
       ],
       "domains_active": [
         "leadership",
-        "ai-native"
+        "strategy",
+        "founder-craft",
+        "gtm",
+        "growth-demand",
+        "research-discovery"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -18605,7 +19290,11 @@
       ],
       "domains_active": [
         "leadership",
-        "ai-native"
+        "strategy",
+        "research-discovery",
+        "gtm",
+        "product",
+        "pmm"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -22015,7 +22704,12 @@
         "Subject of The Almanack of Naval Ravikant"
       ],
       "domains_active": [
-        "leadership"
+        "leadership",
+        "founder-craft",
+        "strategy",
+        "growth-demand",
+        "engineering",
+        "product"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -23422,7 +24116,11 @@
       "domains_active": [
         "design",
         "leadership",
-        "pmm"
+        "pmm",
+        "growth-demand",
+        "product",
+        "gtm",
+        "sales-cs"
       ],
       "captured_first": "2026-05-01",
       "external": {
@@ -28137,6 +28835,34 @@
       ]
     },
     {
+      "path": "synthesis/patterns/decision-quality-through-process-not-willpower.md",
+      "title": "Decision quality at scale comes from process design, not from individual brilliance or harder thinking",
+      "id": "pat_decision-quality-through-process-not-willpower",
+      "captured_date": "2026-05-05",
+      "convergence_count": "4",
+      "tier": "A",
+      "uses_cards": [
+        "ins_system1-system2-thinking",
+        "ins_wysiati-overconfidence",
+        "ins_noise-vs-bias-judgment-quality",
+        "ins_planning-fallacy-launch-timelines",
+        "ins_anchoring-pricing-negotiation",
+        "ins_loss-aversion-status-quo-bias",
+        "ins_latticework-of-mental-models",
+        "ins_invert-always-invert",
+        "ins_circle-of-competence",
+        "ins_lollapalooza-effects",
+        "ins_mental-models-as-os-not-library",
+        "ins_incentives-as-master-switch"
+      ],
+      "domains": [
+        "leadership",
+        "strategy",
+        "founder-craft",
+        "research-discovery"
+      ]
+    },
+    {
       "path": "synthesis/patterns/diagnose-before-execute.md",
       "title": "Diagnose before executing — refuse the playbook ask",
       "id": "pat_diagnose-before-execute",
@@ -28326,6 +29052,29 @@
       ]
     },
     {
+      "path": "synthesis/patterns/market-and-offer-beat-funnel-optimisation.md",
+      "title": "Market selection and offer strength dominate downstream optimisation — Hormozi, Godin, and Dunford on the same hierarchy",
+      "id": "pat_market-and-offer-beat-funnel-optimisation",
+      "captured_date": "2026-05-05",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_starving-crowd-beats-offer",
+        "ins_offer-and-market-as-highest-roi-lever",
+        "ins_value-equation-grand-slam-offer",
+        "ins_smallest-viable-audience",
+        "ins_worldview-led-marketing",
+        "ins_godin-five-step-marketing-process",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "domains": [
+        "pmm",
+        "gtm",
+        "growth-demand",
+        "strategy"
+      ]
+    },
+    {
       "path": "synthesis/patterns/measurement-correlated-short-signals.md",
       "title": "Measure with absolute counts and correlated short signals, not stage rates and long loops",
       "id": "pat_measurement-correlated-short-signals",
@@ -28446,6 +29195,26 @@
       ]
     },
     {
+      "path": "synthesis/patterns/specific-knowledge-and-circle-of-competence.md",
+      "title": "Defensibility comes from non-substitutable, non-trainable specificity — Naval, Munger, and Dunford on the same boundary",
+      "id": "pat_specific-knowledge-and-circle-of-competence",
+      "captured_date": "2026-05-05",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_specific-knowledge-and-leverage",
+        "ins_specific-knowledge-cannot-be-mass-trained",
+        "ins_circle-of-competence",
+        "ins_no-decision-is-the-real-competitor"
+      ],
+      "domains": [
+        "founder-craft",
+        "strategy",
+        "pmm",
+        "leadership"
+      ]
+    },
+    {
       "path": "synthesis/patterns/specificity-becomes-profitable.md",
       "title": "Specificity becomes profitable — long tail, niche, segment-aware pricing",
       "id": "pat_specificity-becomes-profitable",
@@ -28470,7 +29239,8 @@
       "title": "Status quo / no-decision is the real competitor",
       "id": "pat_status-quo-is-the-competitor",
       "captured_date": "2026-05-01",
-      "convergence_count": "4",
+      "last_updated": "2026-05-05",
+      "convergence_count": "6",
       "tier": "A",
       "uses_cards": [
         "ins_no-decision-is-the-real-competitor",
@@ -28478,11 +29248,15 @@
         "ins_homepage-five-second-trinity",
         "ins_use-case-epiphany-as-marketing-job",
         "ins_obstacles-as-gates-not-problems",
-        "ins_setup-follow-through-pitch"
+        "ins_setup-follow-through-pitch",
+        "ins_loss-aversion-status-quo-bias",
+        "ins_jtbd-interviews-surface-customer-language"
       ],
       "domains": [
         "pmm",
-        "gtm"
+        "gtm",
+        "product",
+        "sales-cs"
       ]
     },
     {
@@ -28523,6 +29297,26 @@
       "title": "Build quietly vs. distribution-as-moat",
       "id": "con_build-quietly-vs-distribution-first",
       "captured_date": "2026-05-01"
+    },
+    {
+      "path": "synthesis/contradictions/circle-of-competence-vs-iterative-deployment.md",
+      "title": "Stay inside the circle vs. ship into the unknown — Munger and Altman on opposite stances toward unknown territory",
+      "id": "con_circle-of-competence-vs-iterative-deployment",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Charlie Munger",
+        "Sam Altman"
+      ],
+      "uses_cards": [
+        "ins_circle-of-competence",
+        "ins_specific-knowledge-cannot-be-mass-trained"
+      ],
+      "domains": [
+        "strategy",
+        "founder-craft",
+        "leadership",
+        "ai-native"
+      ]
     },
     {
       "path": "synthesis/contradictions/criticize-in-public-vs-praise-public-criticize-private.md",
@@ -28823,6 +29617,35 @@
         "team-brain/workflows/copywriting-mastery.md",
         "flywheel/skills/voice-enforce/SKILL.md",
         "flywheel/skills/humanizer/SKILL.md"
+      ]
+    },
+    {
+      "path": "playbooks/decision-quality/the-mental-models-operating-system.md",
+      "title": "The Mental Models Operating System — combining Kahneman's bias inventory with Munger's latticework into an operational decision-quality playbook",
+      "id": "pb_mental-models-operating-system",
+      "captured_date": "2026-05-05",
+      "operators": [
+        "Daniel Kahneman",
+        "Charlie Munger"
+      ],
+      "uses_cards": [
+        "ins_system1-system2-thinking",
+        "ins_wysiati-overconfidence",
+        "ins_noise-vs-bias-judgment-quality",
+        "ins_planning-fallacy-launch-timelines",
+        "ins_anchoring-pricing-negotiation",
+        "ins_loss-aversion-status-quo-bias",
+        "ins_latticework-of-mental-models",
+        "ins_invert-always-invert",
+        "ins_circle-of-competence",
+        "ins_lollapalooza-effects",
+        "ins_mental-models-as-os-not-library",
+        "ins_incentives-as-master-switch"
+      ],
+      "domains": [
+        "leadership",
+        "strategy",
+        "founder-craft"
       ]
     },
     {

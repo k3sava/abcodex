@@ -6,7 +6,7 @@ roles:
   - Prolific angel investor (Twitter, Uber, Postmates, 200+ startups)
   - Author of the 'How to Get Rich (Without Getting Lucky)' tweetstorm
   - Subject of The Almanack of Naval Ravikant
-domains_active: [leadership]
+domains_active: [leadership, founder-craft, strategy, growth-demand, engineering, product]
 captured_first: 2026-05-01
 external:
   website: https://nav.al/
@@ -26,6 +26,10 @@ Naval Ravikant's intellectual contribution is a unified framework for individual
 
 ## Cards
 - `ins_specific-knowledge-and-leverage` — Wealth = Specific Knowledge × Leverage × Judgment, compounding over time [Tier A]
+- `ins_specific-knowledge-cannot-be-mass-trained` — If you can be replaced by training, you will be — specific knowledge is what survives [Tier A]
+- `ins_code-and-media-permissionless-leverage` — Code and media are the only leverage that doesn't require asking [Tier A]
+- `ins_judgment-compounds-with-leverage` — At 1,000× leverage, a 10% better decision-rate produces hundreds of times more output [Tier A]
+- `ins_career-sequence-leverage-then-judgment` — First half: acquire leverage. Second half: slow down to apply judgment [Tier B]
 
 
 ## Sources captured

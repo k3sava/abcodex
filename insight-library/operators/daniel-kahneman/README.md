@@ -6,7 +6,7 @@ roles:
   - Professor emeritus of psychology at Princeton University
   - Author of Thinking
   - Fast and Slow and co-author of Noise: A Flaw in Human Judgment
-domains_active: [leadership, ai-native]
+domains_active: [leadership, strategy, research-discovery, gtm, product, pmm]
 captured_first: 2026-05-01
 external:
   website: https://kahneman.scholar.princeton.edu/
@@ -24,6 +24,11 @@ Daniel Kahneman's foundational contribution is the two-system model of cognition
 
 ## Cards
 - `ins_system1-system2-thinking` — Your initial intuition is a System 1 output, not an objective assessment [Tier A]
+- `ins_loss-aversion-status-quo-bias` — Losses feel ~2× as painful as gains; switching costs are paid in pain [Tier A]
+- `ins_planning-fallacy-launch-timelines` — Every launch timeline is optimistic; the fix is the outside view [Tier A]
+- `ins_wysiati-overconfidence` — The less you know, the more confident you are — WYSIATI builds clean stories from thin data [Tier A]
+- `ins_noise-vs-bias-judgment-quality` — Noise is at least as damaging as bias and most orgs have no instrument to see it [Tier A]
+- `ins_anchoring-pricing-negotiation` — The first number sets the range; anchoring decides the negotiation before it starts [Tier A]
 
 
 ## Sources captured

@@ -6,7 +6,7 @@ roles:
   - Warren Buffett's intellectual partner for over 50 years. Chairman of the Daily Journal Corporation. Author of Poor Charlie's Almanack
   - Trained as a lawyer (Harvard Law) and meteorologist (Caltech)
   - Considered one of the greatest investors and multi-disciplinary thinkers of the 20th and 21st centuries
-domains_active: [leadership, ai-native]
+domains_active: [leadership, strategy, founder-craft, gtm, growth-demand, research-discovery]
 captured_first: 2026-05-01
 external:
   website: https://www.berkshirehathaway.com/
@@ -27,6 +27,10 @@ Charlie Munger's central intellectual contribution is the concept of a "latticew
 ## Cards
 - `ins_latticework-of-mental-models` — Reliable thinking requires 80-90 mental models from multiple disciplines, not one [Tier A]
 - `ins_invert-always-invert` — Invert, always invert: instead of 'how do I succeed?' ask 'what would guarantee failure?' [Tier A]
+- `ins_incentives-as-master-switch` — When behavior puzzles you, look at incentives — every other model is downstream [Tier A]
+- `ins_circle-of-competence` — Knowing what you don't know beats being brilliant — the discipline is the boundary [Tier A]
+- `ins_lollapalooza-effects` — When 3+ biases pull the same way, outcomes break single-model reasoning [Tier B]
+- `ins_mental-models-as-os-not-library` — Mental models compound only if they run automatically — looking up is too slow [Tier B]
 
 
 ## Sources captured

@@ -27,6 +27,9 @@ Alex Hormozi's system of thought is built on a hierarchy of business levers: Sta
 ## Cards
 - `ins_value-equation-grand-slam-offer` — Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price [Tier A]
 - `ins_starving-crowd-beats-offer` — Market choice (Starving Crowd) outranks offer strength, which outranks persuasion [Tier A]
+- `ins_dfy-dwy-diy-delivery-stack` — Done-for-you for the strategy, done-with-you and DIY for the rest — never sell time [Tier A]
+- `ins_premium-pricing-virtuous-cycle` — Higher prices select better clients → better case studies → higher prices [Tier A]
+- `ins_offer-and-market-as-highest-roi-lever` — When growth stalls, fix the offer or change the market — never just spend more on ads [Tier A]
 
 
 ## Sources captured
