@@ -45,6 +45,12 @@ async function main(){
   for (const d of (INDEX.daily || [])){
     push(`${SITE_URL}/today/${d.date}/`, d.date, 0.6, "monthly");
   }
+  // Domain pages — one per unique domain referenced by any insight.
+  const domSet = new Set();
+  for (const i of INDEX.insights){ for (const d of (i.domain || [])) domSet.add(d); }
+  for (const dom of [...domSet].sort()){
+    push(`${SITE_URL}/d/${dom}/`, today, 0.7, "weekly");
+  }
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>

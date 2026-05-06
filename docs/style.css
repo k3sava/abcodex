@@ -997,6 +997,22 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .dom-life-bar{height:6px;background:var(--paper-2);border-radius:3px;overflow:hidden}
 .dom-life-bar > span{display:block;height:100%;background:var(--accent);border-radius:3px}
 .dom-life-ct{color:var(--muted);text-align:right;font-variant-numeric:tabular-nums}
+/* Adjacent-domains block — co-occurrence map */
+.dom-adj-lede{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin:0 0 12px;line-height:1.45}
+.dom-adj{flex-wrap:wrap;flex-direction:row !important;gap:8px}
+.dom-adj li{flex:0 0 auto}
+.dom-adj li a{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 12px;border-radius:999px;
+  background:color-mix(in oklab,var(--accent) 8%,var(--paper-2));
+  border:1px solid color-mix(in oklab,var(--accent) 22%,transparent);
+  font-family:var(--mono);font-size:.74rem;
+  color:var(--ink-2);text-decoration:none;
+  transition:background .15s,border-color .15s,transform .15s;
+}
+.dom-adj li a:hover{background:color-mix(in oklab,var(--accent) 18%,var(--paper-2));border-color:color-mix(in oklab,var(--accent) 50%,transparent);transform:translateY(-1px)}
+.dom-adj li a .ct{color:var(--muted);font-size:.66rem;font-variant-numeric:tabular-nums}
+
 .dom-more{margin-top:24px;text-align:center}
 .dom-more a{font-family:var(--mono);font-size:.85rem;color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor}
 @media (max-width:720px){

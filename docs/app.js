@@ -911,10 +911,27 @@ function domainPage(d){
   const restCount = list.length - topA.length;
   // Patterns tagged with this domain
   const relPatterns = patterns.filter(p => (p.domains||[]).includes(d));
+  // Playbooks tagged with this domain (or with cards in the domain)
+  const relPlaybooks = playbooks.filter(p => {
+    const inFm = (p.domain||[]).includes(d);
+    const inCards = (p.uses_cards||[]).some(cid => list.find(c => c.id === cid));
+    return inFm || inCards;
+  });
   // Lifecycle distribution
   const lifeCount = new Map();
   for (const c of list){ for (const l of (c.lifecycle||[])){ lifeCount.set(l, (lifeCount.get(l) || 0) + 1); } }
   const topLife = [...lifeCount.entries()].sort((a,b)=>b[1]-a[1]).slice(0,5);
+  // Adjacent domains: other domains that co-occur with this one in the same
+  // insight card. Sorted by co-occurrence count. Reveals the conceptual
+  // neighbourhood — pmm sits next to gtm, marketing, content, etc.
+  const adjCount = new Map();
+  for (const c of list){
+    for (const od of (c.domain || [])){
+      if (od === d) continue;
+      adjCount.set(od, (adjCount.get(od) || 0) + 1);
+    }
+  }
+  const adjacent = [...adjCount.entries()].sort((a,b)=>b[1]-a[1]).slice(0,8);
 
   app.innerHTML = `<section class='domain-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/browse'>browse</a> <span>·</span> <span>${d}</span></div>
@@ -953,10 +970,25 @@ function domainPage(d){
           </a></li>`).join('')}</ul>
       </section>` : ''}
 
+      ${relPlaybooks.length ? `<section class='dom-block'>
+        <h3>Playbooks</h3>
+        <ul class='dom-pats'>${relPlaybooks.slice(0, 8).map(p => `
+          <li><a href='#/play/${p.id}'>
+            <span>${escapeHtml(p.title || p.id)}</span>
+          </a></li>`).join('')}</ul>
+      </section>` : ''}
+
       ${topLife.length ? `<section class='dom-block'>
         <h3>Most-active lifecycle stages</h3>
         <ul class='dom-life'>${topLife.map(([life, ct]) => `
           <li><span class='dom-life-name'>${life.replace(/-/g,' ')}</span><span class='dom-life-bar'><span style='width:${(ct/list.length*100).toFixed(0)}%'></span></span><span class='dom-life-ct'>${ct}</span></li>`).join('')}</ul>
+      </section>` : ''}
+
+      ${adjacent.length ? `<section class='dom-block'>
+        <h3>Adjacent domains</h3>
+        <p class='dom-adj-lede'>Domains that show up most often alongside ${escapeHtml(d)}.</p>
+        <ul class='dom-adj'>${adjacent.map(([od, ct]) => `
+          <li><a href='#/d/${od}'><span>${od}</span><span class='ct'>${ct}</span></a></li>`).join('')}</ul>
       </section>` : ''}
     </div>
 

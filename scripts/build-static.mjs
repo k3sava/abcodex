@@ -628,6 +628,82 @@ async function main(){
     await listShell("today", "release log", `${list.length} releases in a builder's codex. Daily ingests, prompted batches, depth passes.`, body);
   }
 
+  // === domain pages — one per unique domain across the corpus ===
+  // Each is a CollectionPage + DefinedTerm so AI agents and crawlers can
+  // resolve domain names to definitions and a curated list of insights.
+  {
+    const domSet = new Set();
+    for (const i of INDEX.insights){ for (const d of (i.domain || [])) domSet.add(d); }
+    const domains = [...domSet].sort();
+    for (const dom of domains){
+      const cardsInDom = INDEX.insights.filter(i => (i.domain || []).includes(dom));
+      const opsInDom = new Set(cardsInDom.map(c => c.operator).filter(Boolean));
+      const patsInDom = (INDEX.patterns || []).filter(p => (p.domains || []).includes(dom));
+      const adj = new Map();
+      for (const c of cardsInDom){
+        for (const od of (c.domain || [])){
+          if (od !== dom) adj.set(od, (adj.get(od) || 0) + 1);
+        }
+      }
+      const adjacent = [...adj.entries()].sort((a,b) => b[1] - a[1]).slice(0, 8);
+      const tierA = cardsInDom.filter(c => c.tier === "A").slice(0, 6);
+      const sectionParts = [];
+      if (tierA.length){
+        sectionParts.push(`<h2>Strongest claims</h2><ol class="static-strongs">${tierA.map(c => `<li><a href="${SITE_URL}/ins/${c.id}/"><strong>${escapeHtml(c.title || c.id)}</strong> <em style="color:var(--muted);font-style:normal">${escapeHtml(c.operator || "")}</em></a></li>`).join("")}</ol>`);
+      }
+      if (adjacent.length){
+        sectionParts.push(`<h2>Adjacent domains</h2><ul>${adjacent.map(([od, ct]) => `<li><a href="${SITE_URL}/d/${od}/">${od}</a> · ${ct} co-occurrences</li>`).join("")}</ul>`);
+      }
+      if (patsInDom.length){
+        sectionParts.push(`<h2>Synthesis patterns in ${dom}</h2><ul>${patsInDom.map(p => `<li><a href="${SITE_URL}/pat/${p.id}/">${escapeHtml(p.title || p.id)}</a></li>`).join("")}</ul>`);
+      }
+      sectionParts.push(`<h2>${cardsInDom.length} insights in ${dom}</h2><ul class="static-card-list">${cardsInDom.slice(0, 60).map(c => `<li><a href="${SITE_URL}/ins/${c.id}/">${escapeHtml(c.title || c.id)}</a> · <span style="color:var(--muted)">${escapeHtml(c.operator || "·")}</span></li>`).join("")}</ul>`);
+
+      const body = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/browse/">browse</a> · ${dom}</div>
+        <p class="static-eyebrow" style="font-family:JetBrains Mono,monospace;font-size:.75rem;color:var(--accent);text-transform:uppercase;letter-spacing:.1em">domain</p>
+        <h1>${dom}</h1>
+        <p class="static-meta">${cardsInDom.length} cards · ${opsInDom.size} operators · ${cardsInDom.filter(c=>c.tier==='A').length} tier-A claims · ${patsInDom.length} synthesis pattern${patsInDom.length===1?'':'s'}.</p>
+        ${sectionParts.join("\n")}`;
+      const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "DefinedTerm",
+            "name": dom,
+            "inDefinedTermSet": `${SITE_URL}/`,
+            "description": `Domain in a builder's codex. ${cardsInDom.length} insights from ${opsInDom.size} operators.`,
+            "url": `${SITE_URL}/d/${dom}/`,
+          },
+          {
+            "@type": "CollectionPage",
+            "name": `${dom} · a builder's codex`,
+            "url": `${SITE_URL}/d/${dom}/`,
+            "about": { "@type": "DefinedTerm", "name": dom },
+            "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL },
+            "hasPart": cardsInDom.slice(0, 30).map(c => ({ "@type": "Article", "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id, "author": { "@type": "Person", "name": c.operator || "·" } })),
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+              { "@type": "ListItem", "position": 2, "name": "browse", "item": SITE_URL + "/browse/" },
+              { "@type": "ListItem", "position": 3, "name": dom, "item": `${SITE_URL}/d/${dom}/` },
+            ],
+          },
+        ],
+      };
+      await writeOne({
+        outPath: join(DOCS, "d", dom, "index.html"),
+        title: `${dom} · a builder's codex`,
+        description: `${cardsInDom.length} insights from ${opsInDom.size} operators in the ${dom} domain. Tier-A claims, synthesis patterns, adjacent domains.`,
+        canonical: `${SITE_URL}/d/${dom}/`,
+        hashRoute: `#/d/${dom}`,
+        jsonLd,
+        body,
+      });
+    }
+  }
+
   console.log(`build-static: emitted ${count} static HTML files under docs/`);
 }
 
