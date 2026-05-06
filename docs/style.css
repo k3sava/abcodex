@@ -193,7 +193,11 @@ body{
   line-height:1.5;
   -webkit-font-smoothing:antialiased;
   text-rendering:optimizeLegibility;
+  /* Theme toggle: smooth color transitions when [data-theme] flips. */
+  transition:background-color .25s ease, color .25s ease;
 }
+[data-theme] *,
+[data-theme]{transition:background-color .25s ease, color .2s ease, border-color .2s ease}
 html{overflow-x:hidden}
 img{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
@@ -572,14 +576,16 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .insight-page .byline .role{color:var(--muted);font-family:var(--mono);font-size:.75rem;margin-left:6px}
 .insight-page .source{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin-bottom:48px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .insight-page .source a{color:var(--accent-2);border-bottom:1px solid currentColor;padding-bottom:1px}
-.insight-page .body{font-family:var(--serif);font-size:clamp(1rem,1.2vw,1.125rem);line-height:1.6;color:var(--ink-2)}
+/* Insight body — editorial reading column. Serif, max ~65ch line length so
+   sustained reading is comfortable at any viewport width. */
+.insight-page .body{font-family:var(--serif);font-size:clamp(1rem,1.2vw,1.125rem);line-height:1.65;color:var(--ink-2)}
 .insight-page .body h1{display:none}
-.insight-page .body h2{font-family:var(--sans);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:48px 0 12px}
-.insight-page .body h3{font-family:var(--serif);font-size:1.2rem;font-weight:500;margin:24px 0 8px}
-.insight-page .body p{margin-bottom:16px}
-.insight-page .body ul{padding-left:20px;margin-bottom:16px}
+.insight-page .body h2{font-family:var(--sans);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:48px 0 14px;max-width:none}
+.insight-page .body h3{font-family:var(--serif);font-size:1.2rem;font-weight:500;margin:24px 0 8px;max-width:65ch}
+.insight-page .body p{margin-bottom:16px;max-width:65ch}
+.insight-page .body ul,.insight-page .body ol{padding-left:20px;margin-bottom:16px;max-width:65ch}
 .insight-page .body li{margin-bottom:6px}
-.insight-page .body blockquote{border-left:3px solid var(--accent);padding-left:18px;margin:18px 0;color:var(--ink);font-style:italic}
+.insight-page .body blockquote{border-left:3px solid var(--accent);padding-left:22px;margin:24px 0;color:var(--ink);font-style:normal;font-size:1.1em;font-weight:500;line-height:1.45;max-width:60ch;letter-spacing:-.005em}
 .insight-page .body code{background:var(--paper-2);padding:2px 5px;border-radius:3px;font-size:.9em}
 .insight-page .body pre{background:var(--paper-2);padding:16px;border-radius:8px;overflow:auto;margin-bottom:16px}
 .insight-page .body a{color:var(--accent-2);border-bottom:1px solid color-mix(in oklab,var(--accent-2) 50%,transparent)}
@@ -1199,9 +1205,10 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .con-source a:hover{color:var(--accent)}
 
 /* ===== FOOTER ===== */
-footer{border-top:1px solid var(--line);margin-top:60px;padding:48px var(--gut);font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:center}
-footer a{color:var(--ink-2);border-bottom:1px solid var(--line)}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:48px var(--gut);font-family:var(--mono);font-size:.72rem;color:var(--muted);text-align:center;display:flex;flex-direction:column;gap:8px;align-items:center}
+footer a{color:var(--ink-2);border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s}
 footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
+.footer-feeds{font-size:.68rem;opacity:.85;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width:1024px){

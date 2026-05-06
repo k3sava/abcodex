@@ -217,7 +217,7 @@ function home(){
     <section class='hero'>
       <p class='eyebrow'>operator insight library</p>
       <h1 id='heroH'>learn from the <em>best</em></h1>
-      <p class='lede'>Every card here is one idea from one person who actually shipped something. We tell you who said it, where they said it, and when. Then we explain <em>why</em> the idea works, <em>when</em> it applies, and <em>when it doesn't</em> — so you can use it, not just read it.</p>
+      <p class='lede'>Every card is one idea from one person who shipped something. Named author. Verifiable source. Date. Plus the parts the source usually leaves out: <em>why</em> it works, <em>when</em> it applies, and <em>when it doesn't</em>. The idea is yours to use, not just read.</p>
       <div class='stats'>
         <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></a>
         <a class='stat' href='#/operators'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></a>
@@ -320,7 +320,8 @@ function animateHome(){
   }
   document.querySelectorAll('.hero .num').forEach(el => {
     const target = +el.dataset.count;
-    gsap.to({n:0}, { n: target, duration: 1.6, ease:'power2.out', delay:.3,
+    // Snappier than the original 1.6s — 0.9s reads as deliberate, not slow.
+    gsap.to({n:0}, { n: target, duration: 0.9, ease:'power2.out', delay:.2,
       onUpdate(){ el.textContent = Math.round(this.targets()[0].n); } });
   });
   gsap.from('.hero .stats', { opacity:0, y:24, duration:.8, ease:'power2.out', delay:.6 });
@@ -354,7 +355,7 @@ async function insight(id){
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <a href='#/o/${c.operator_slug}'>${escapeHtml(c.operator)}</a> <span>·</span> <span>${c.id}</span></div>
     <div class='layout'>
       <div>
-        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span>${c.source_date ? `<span>·</span><span>${c.source_date}</span>` : ''}</div>
+        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span>${c.source_date ? `<span>·</span><span>${c.source_date}</span>` : ''}<span id='readTime' style='display:none' aria-hidden='true'></span></div>
         <h1>${escapeHtml(c.claim)}</h1>
         <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>
@@ -423,6 +424,11 @@ async function insight(id){
   const cardBodyEl = document.getElementById('cardBody');
   cardBodyEl.innerHTML = mdToHtml(md);
   rewriteRelativeLinks(cardBodyEl);
+  // Reading time — Apple-style honest meta. ~225 words/min average reading.
+  const wordCount = (cardBodyEl.innerText || '').trim().split(/\s+/).length;
+  const minutes = Math.max(1, Math.round(wordCount / 225));
+  const rt = document.getElementById('readTime');
+  if (rt){ rt.style.display = ''; rt.removeAttribute('aria-hidden'); rt.innerHTML = `<span>·</span><span>${minutes} min read</span>`; }
   // Helper that flashes a label on a button for confirmation feedback.
   const flashLabel = (id, msg, ms = 1400) => {
     const b = document.getElementById(id); if (!b) return;
@@ -2279,11 +2285,12 @@ function wireMobileMenu(){
 function dismissSplash(){
   const splash = document.getElementById('splash');
   if (!splash) return;
+  // Tightened from a 1.6s welcome animation to a quick fade. Content first,
+  // ceremony second.
   if (reduced){ splash.remove(); return; }
   const tl = gsap.timeline({ onComplete: () => splash.remove() });
-  tl.to('#splash .progress .bar', { width:'100%', duration:.5, ease:'power2.out' });
-  tl.to('#splash .pulse', { scale:1.4, opacity:.4, duration:.4, ease:'power2.out' }, '<');
-  tl.to('#splash', { xPercent:-100, duration:.7, ease:'power3.inOut' }, '+=.1');
+  tl.to('#splash .progress .bar', { width:'100%', duration:.25, ease:'power2.out' });
+  tl.to('#splash', { opacity:0, duration:.25, ease:'power2.out' }, '-=.05');
 }
 
 /* ============ THEME TOGGLE ============ */
@@ -2318,6 +2325,11 @@ function wireTheme(){
 // Triggered handler set is scoped: typing in an input, contenteditable, or
 // dialog never fires a shortcut.
 function wireKeyboardShortcuts(){
+  // Platform-aware shortcut hint: macOS shows ⌘K, everyone else Ctrl+K.
+  // navigator.userAgentData is the modern API; fall back to UA string.
+  const isMac = /Mac|iPhone|iPad|iPod/.test(navigator.platform || navigator.userAgent);
+  const kbd = document.getElementById('searchKbd');
+  if (kbd && !isMac) kbd.textContent = 'Ctrl K';
   const dialog = document.getElementById('shortcutDialog');
   const closeBtn = document.getElementById('shortcutClose');
   const isTyping = (e) => {
