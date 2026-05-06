@@ -109,9 +109,9 @@ function rewriteRelativeLinks(root){
   // Heuristic: link text is auto-generated (replace) vs human-written (keep).
   // Auto-generated = matches the resource id, slug, or filename basename.
   const looksLikeSlug = (text, ...candidates) => {
-    const t = (text || '').trim();
+    const t = (text || '').trim().toLowerCase();
     if (!t) return true;
-    return candidates.some(c => c && t === c);
+    return candidates.some(c => c && t === c.toLowerCase());
   };
   root.querySelectorAll('a').forEach(a => {
     const href = a.getAttribute('href') || '';
