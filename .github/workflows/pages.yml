@@ -38,6 +38,8 @@ jobs:
           cp -r insight-library/daily docs/insight-library/
       - name: Build static pages (per-route HTML for crawlers + AI agents)
         run: node scripts/build-static.mjs
+      - name: Build per-page OG images
+        run: node scripts/build-og.mjs
       - name: Build feeds (sitemap, RSS, robots.txt, agent-permissions.json)
         run: node scripts/build-feeds.mjs
       - name: Validate docs bundle

@@ -28,6 +28,8 @@ cp insight-library/INDEX.md docs/insight-library/INDEX.md
 cp insight-library/latest.json docs/insight-library/latest.json 2>/dev/null || true
 echo "→ build-static"
 node scripts/build-static.mjs
+echo "→ build-og (per-page OG images)"
+node scripts/build-og.mjs
 echo "→ build-feeds"
 node scripts/build-feeds.mjs
 echo "✓ done"

@@ -183,7 +183,7 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
   const fullTitle = title ? `${escapeHtml(title)} · a builder's codex` : "a builder's codex";
   const desc = escapeHtml(description || "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.");
   const url = canonical;
-  const og = ogImage || `${SITE_URL}/og.png`;
+  const og = ogImage || `${SITE_URL}/og.svg`;
   const ld = jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>` : "";
   return `<!doctype html>
 <html lang="en">
@@ -310,8 +310,8 @@ async function main(){
   let count = 0;
 
   // Helper to write static HTML for a markdown file at canonical URL.
-  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body }) => {
-    const html = shell({ title, description, canonical, hashRoute, jsonLd, body });
+  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage }) => {
+    const html = shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage });
     await ensureDir(dirname(outPath));
     await writeFile(outPath, html);
     count++;
@@ -405,6 +405,7 @@ async function main(){
       canonical: `${SITE_URL}/ins/${i.id}/`,
       hashRoute: `#/ins/${i.id}`,
       jsonLd,
+      ogImage: `${SITE_URL}/og/ins/${i.id}.svg`,
       body: `${crumbs}<h1>${escapeHtml(i.title || i.id)}</h1>${meta}${tldr}<article>${renderedBody}</article>${cta}`,
     });
   }
@@ -459,6 +460,7 @@ async function main(){
       canonical: `${SITE_URL}/o/${op.slug}/`,
       hashRoute: `#/o/${op.slug}`,
       jsonLd,
+      ogImage: `${SITE_URL}/og/o/${op.slug}.svg`,
       body: `${crumbs}<h1>${escapeHtml(op.name || op.slug)}</h1><article>${renderedBody}</article>${cardsList}${cta}`,
     });
   }
@@ -480,6 +482,7 @@ async function main(){
       canonical: `${SITE_URL}/pat/${p.id}/`,
       hashRoute: `#/pat/${p.id}`,
       jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+      ogImage: `${SITE_URL}/og/pat/${p.id}.svg`,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
   }
@@ -569,6 +572,7 @@ async function main(){
       canonical: `${SITE_URL}/play/${p.id}/`,
       hashRoute: `#/play/${p.id}`,
       jsonLd,
+      ogImage: `${SITE_URL}/og/play/${p.id}.svg`,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
   }
@@ -745,6 +749,7 @@ async function main(){
         canonical: `${SITE_URL}/d/${dom}/`,
         hashRoute: `#/d/${dom}`,
         jsonLd,
+        ogImage: `${SITE_URL}/og/d/${dom}.svg`,
         body,
       });
     }

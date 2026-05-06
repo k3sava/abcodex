@@ -173,6 +173,90 @@ ${items}
 `;
   await writeFile(join(DOCS, "rss.xml"), rss);
 
+  // === llms.txt — generated. Adds per-domain entry points + tier-A roll-up
+  // so AI agents can fetch a single index and resolve to the right corner of
+  // the corpus by domain or tier without parsing the full INDEX.json. ===
+  const domainCounts = new Map();
+  for (const i of INDEX.insights){
+    for (const d of (i.domain || [])) domainCounts.set(d, (domainCounts.get(d) || 0) + 1);
+  }
+  const domainsSorted = [...domainCounts.entries()].sort((a, b) => b[1] - a[1]);
+  const tierACount = INDEX.insights.filter(i => i.tier === "A").length;
+  const llms = `# A builder's codex
+
+> A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.
+
+The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
+
+Counts: ${INDEX.insights.length} insights · ${INDEX.operators.length} operators · ${(INDEX.patterns || []).length} synthesis patterns · ${(INDEX.contradictions || []).length} contradictions · ${(INDEX.playbooks || []).length} playbooks · ${tierACount} tier-A claims.
+
+## Index
+
+- [INDEX.json](${SITE_URL}/insight-library/INDEX.json): Machine-readable index of all insights, operators, patterns, contradictions, playbooks. Use this as the canonical entry point.
+- [INDEX.md](${SITE_URL}/insight-library/INDEX.md): Human-readable index.
+- [latest.json](${SITE_URL}/insight-library/latest.json): Newest release entry + last 30 daily entries.
+- [search-index.json](${SITE_URL}/search-index.json): Flat list of every searchable resource with type, id, title, url.
+
+## Browse
+
+- [Home](${SITE_URL}/): Tier A claims, domain index.
+- [All operators](${SITE_URL}/operators/)
+- [Synthesis patterns](${SITE_URL}/patterns/): Where 3+ operators converge on the same claim.
+- [Methodology playbooks](${SITE_URL}/playbooks/): Each carries HowTo schema with explicit steps.
+- [Timeline](${SITE_URL}/#/timeline): All insights by source date, density-scaled.
+- [Release log](${SITE_URL}/today/): What's new in the corpus, newest first.
+
+## Domains
+
+Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
+
+${domainsSorted.map(([d, ct]) => `- [${d}](${SITE_URL}/d/${d}/) — ${ct} insight${ct === 1 ? "" : "s"}`).join("\n")}
+
+## Schema
+
+Every insight card frontmatter:
+- \`id\`: globally unique, kebab-case, prefixed \`ins_\`
+- \`operator\`: primary author (full name)
+- \`co_operators\`: list of additional named authors
+- \`operator_role\`: role at time of source
+- \`source_url\`, \`source_type\`, \`source_title\`, \`source_date\`: primary source attribution
+- \`captured_date\`: when added to corpus
+- \`domain\`: taxonomy domains (product, pmm, gtm, ai-native, …)
+- \`lifecycle\`: taxonomy lifecycle tags
+- \`maturity\`: foundational | applied | frontier
+- \`artifact_class\`: framework | playbook | template | workflow | metric-model | case-study | excerpt
+- \`score\`: { originality, specificity, evidence, transferability, source } (1-5 each)
+- \`tier\`: A | B | C
+- \`related\`: list of related insight ids
+
+Body sections: \`Claim\` (one sentence), \`Mechanism\` (why it works), \`Conditions\` (when it applies, when it does not), \`Evidence\` (quote, example, data), \`Signals\` (how to know it's working), \`Counter-evidence\` (where it fails, who disagrees), \`Cross-references\`.
+
+## URL templates
+
+- Insight: \`${SITE_URL}/ins/{id}/\`
+- Operator: \`${SITE_URL}/o/{slug}/\`
+- Pattern: \`${SITE_URL}/pat/{id}/\`
+- Contradiction: \`${SITE_URL}/con/{id}/\`
+- Playbook: \`${SITE_URL}/play/{id}/\`
+- Domain: \`${SITE_URL}/d/{domain}/\`
+- Release: \`${SITE_URL}/today/{date}/\`
+
+Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakable per insight; Person + sameAs per operator; HowTo + step[] per playbook; CollectionPage + DefinedTerm per domain.
+
+## Authoring
+
+- [Ingest protocol](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
+- [Insight card schema](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/insight-card-schema.md)
+- [Daily release-log contract](https://github.com/k3sava/ab-codex/blob/main/insight-library/daily/README.md)
+
+## Optional
+
+- [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
+
+Last updated: ${today}.
+`;
+  await writeFile(join(DOCS, "llms.txt"), llms);
+
   // === search-index.json — every searchable resource ===
   // Was a hand-written 3-entry stub. Now regenerated from INDEX.json so ⌘K
   // search covers the entire corpus.
