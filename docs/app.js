@@ -158,7 +158,16 @@ function home(){
         <a class='stat' href='#/patterns#contradictions'><span class='num' data-count='${STATS.contradictions}'>0</span><span class='lbl'>contradictions</span></a>
         <a class='stat' href='#/playbooks'><span class='num' data-count='${STATS.playbooks}'>0</span><span class='lbl'>playbooks</span></a>
       </div>
-      <div class='scroll-cue' id='scrollCue'><span>scroll</span><span class='line'></span></div>
+      <a id='helloBar' class='hello-bar' href='#/today' hidden aria-label='What landed today'>
+        <div class='hello-marquee' id='helloMarquee' aria-hidden='false'></div>
+      </a>
+      <div class='scroll-cue' id='scrollCue' aria-hidden='true'>
+        <svg class='scroll-icon' viewBox='0 0 24 36' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'>
+          <rect x='3' y='1' width='18' height='28' rx='9'/>
+          <line class='scroll-icon-dot' x1='12' y1='8' x2='12' y2='13'/>
+          <polyline class='scroll-icon-chev' points='8 31 12 35 16 31'/>
+        </svg>
+      </div>
     </section>
 
     <section class='section' id='tier-a-section'>
@@ -228,6 +237,8 @@ function home(){
       }).join('')}</div>
     </section>
   `;
+  // Hello bar lives inside the hero now; populate it after innerHTML is set
+  renderHelloBar();
   animateHome();
 }
 
@@ -1599,29 +1610,81 @@ function setActive(){
   document.querySelectorAll('[data-route]').forEach(a => a.classList.toggle('active', a.dataset.route === top || (top==='/' && a.dataset.route === '/')));
 }
 async function today(){
-  const ld = LATEST_DAILY;
-  if (!ld){
+  const entries = RECENT_DAILY || [];
+  if (!entries.length){
     app.innerHTML = `<section class='insight-page'>
       <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today</span></div>
       <h1>nothing has landed yet</h1>
-      <p style='color:var(--muted);max-width:60ch'>The daily log is empty. New insights, operators, patterns, and playbooks will appear here as they're added to the corpus.</p>
+      <p style='color:var(--muted);max-width:60ch'>The release log is empty. Insights, operators, patterns, and playbooks land here as they're added — daily ingests from miniu, plus prompted batches and depth passes.</p>
     </section>`;
     return;
   }
-  app.innerHTML = `<article class='insight-page today-page'>
-    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today — ${ld.date}</span></div>
-    <div id='todayBody' style='max-width:72ch'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
-    ${RECENT_DAILY.length > 1 ? `<aside class='today-recent' style='margin-top:48px;padding-top:24px;border-top:1px solid var(--line)'>
-      <h2 style='font-size:.85rem;font-family:var(--mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:14px'>earlier days</h2>
-      <ul style='list-style:none;display:flex;flex-direction:column;gap:8px;font-family:var(--mono);font-size:.8rem'>
-        ${RECENT_DAILY.slice(1, 11).map(d => `<li><a href='${REPO_BASE}/insight-library/${d.path}' target='_blank' rel='noopener'>${d.date} — ${escapeHtml(d.title || '')}</a></li>`).join('')}
-      </ul>
-    </aside>` : ''}
-  </article>`;
-  const body = document.getElementById('todayBody');
-  const md = await fetchBody(ld.path);
-  // strip frontmatter; rendered title comes from body H1
-  body.innerHTML = mdToHtml(md);
+  // Side-rail TOC: all dates linked. Sticky on desktop.
+  const toc = entries.map(e => `<li><a href='#r-${e.date}'><span class='toc-date'>${e.date}</span><span class='toc-title'>${escapeHtml(e.title || '')}</span></a></li>`).join('');
+  // One card per release, newest first. Bodies lazy-load to keep first paint fast.
+  const cards_ = entries.map((e, idx) => {
+    const ia = (e.insights_added || []).length;
+    const oa = (e.operators_added || []).length;
+    const pa = (e.patterns_added || []).length;
+    const pba = (e.playbooks_added || []).length;
+    const counts = [];
+    if (ia) counts.push(`<span class='rc rc-i'>+${ia} insight${ia===1?'':'s'}</span>`);
+    if (oa) counts.push(`<span class='rc rc-o'>+${oa} operator${oa===1?'':'s'}</span>`);
+    if (pa) counts.push(`<span class='rc rc-p'>+${pa} pattern${pa===1?'':'s'}</span>`);
+    if (pba) counts.push(`<span class='rc rc-pb'>+${pba} playbook${pba===1?'':'s'}</span>`);
+    return `<article class='release ${idx===0 ? 'release-latest' : ''}' id='r-${e.date}' data-path='${e.path}'>
+      <header class='release-head'>
+        <a class='release-anchor' href='#r-${e.date}' aria-label='Permalink to ${e.date}'>#</a>
+        <time class='release-date' datetime='${e.date}'>${e.date}</time>
+        ${idx===0 ? `<span class='release-latest-tag'>latest</span>` : ''}
+        <h2 class='release-title'>${escapeHtml(e.title || 'release')}</h2>
+        ${counts.length ? `<div class='release-counts'>${counts.join('')}</div>` : ''}
+      </header>
+      <div class='release-body'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
+    </article>`;
+  }).join('');
+  app.innerHTML = `<section class='today-page'>
+    <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today</span></div>
+    <header class='today-head'>
+      <h1>release log</h1>
+      <p class='lede'>${entries.length} release${entries.length===1?'':'s'} since ${entries[entries.length-1]?.date}. Newest first. Each entry is a snapshot of what landed in the corpus that day — daily ingests from miniu, prompted batches, depth passes, and infrastructure work.</p>
+    </header>
+    <div class='today-grid'>
+      <aside class='today-toc' aria-label='Release dates'>
+        <h2 class='toc-h'>all releases</h2>
+        <ul>${toc}</ul>
+      </aside>
+      <div class='today-stream'>${cards_}</div>
+    </div>
+  </section>`;
+  // Lazy-load each release body, then strip frontmatter + leading H1 (rendered in head).
+  const stripFm = m => m.startsWith('---\n') ? m.slice(m.indexOf('\n---', 4) + 4).trimStart() : m;
+  for (const e of entries){
+    const target = document.querySelector(`article.release[data-path='${e.path.replace(/'/g, "\\'")}'] .release-body`);
+    if (!target) continue;
+    const md = await fetchBody(e.path);
+    const cleaned = stripFm(md).replace(/^#\s+[^\n]+\n+/, '');
+    target.innerHTML = mdToHtml(cleaned);
+  }
+  // Active TOC entry follows scroll
+  const tocLinks = Array.from(document.querySelectorAll('.today-toc a'));
+  const releaseEls = Array.from(document.querySelectorAll('article.release'));
+  const setTocActive = () => {
+    const headerOffset = 60 + 32 + 20; // hdr + hello bar + small breathing room
+    let active = releaseEls[0]?.id;
+    for (const el of releaseEls){
+      if (el.getBoundingClientRect().top - 4 <= headerOffset) active = el.id;
+      else break;
+    }
+    tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + active));
+  };
+  setTocActive();
+  let tocTick = false;
+  window.addEventListener('scroll', () => {
+    if (tocTick) return;
+    tocTick = true;
+    requestAnimationFrame(() => { setTocActive(); tocTick = false; });
+  }, { passive: true });
 }
 
 function render(){
@@ -1826,7 +1889,7 @@ function wireTheme(){
 }
 
 window.addEventListener('hashchange', () => { render(); setActive(); window.scrollTo({top:0, behavior:'instant'}); });
-loadIndex().then(() => { renderHelloBar(); render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
+loadIndex().then(() => { render(); setActive(); wireSearch(); wireHeader(); wireMobileMenu(); wireTheme(); dismissSplash(); }).catch(e => {
   document.getElementById('splash')?.remove();
   app.innerHTML = `<section class='about-page'><h1>codex couldn't load.</h1><p style='color:var(--muted)'>${escapeHtml(e.message)}</p></section>`;
 });

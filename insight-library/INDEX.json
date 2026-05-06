@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T13:53:06.144Z",
+  "generated_at": "2026-05-06T14:29:33.107Z",
   "counts": {
     "insights": 779,
     "operators": 460,
@@ -7,7 +7,7 @@
     "patterns": 39,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 1
+    "daily": 7
   },
   "latest_daily": {
     "path": "daily/2026-05-06.md",
@@ -34696,6 +34696,95 @@
         "pat_verification-as-human-job",
         "pat_execution-cheap-judgement-scarce"
       ],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-05-05.md",
+      "date": "2026-05-05",
+      "title": "Research scan v1-v6 — depth-pilot to new-operator workflow",
+      "summary": "Six research-scan batches ran across the day, ingesting roughly 134 cards, 17 patterns, 4 playbooks, 1 contradiction, and several new operator profiles. The batches followed a depth-first protocol — fewer operators per pass, more substantive cards per operator — and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.",
+      "sources": [
+        "Research scan v1 — 5-operator depth-pilot",
+        "Research scan v2 — 5-operator batch 2",
+        "Research scan v3 — 5-operator batch 3 (GTM-economics cluster)",
+        "Research scan v4 — 5-operator batch 4",
+        "Research scan v5 — copywriting cluster batch (5 operators)",
+        "Research scan v6 — new-operator workflow (David Ogilvy + Dave Trott)"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-05-04.md",
+      "date": "2026-05-04",
+      "title": "Quality pass — 40 shallow cards rewritten with substantive sources",
+      "summary": "A quality pass on the corpus. 40 shallow cards (mostly podcast-intro paraphrases or weakly-attributed claims) were rewritten with substantive primary-source quotes and stronger mechanism sections. 39 borderline cards were tagged as stubs to come back to. Two specific re-attribution fixes for Sam Mallikarjunan and Sourav Mohanty.",
+      "sources": [
+        "Quality audit — round 1"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-05-03.md",
+      "date": "2026-05-03",
+      "title": "Site rebuild + data triage — 181 missing operators added",
+      "summary": "Phase 1-3 site rebuild (per-view UX redesign, pattern radial converge viz + constellation mobile map, domain pages as mini-anthologies) plus three rounds of layout audit fixes. Three phases of data triage closed gaps the new UI exposed — fixed YAML parser, deduped 3 confirmed duplicates, patched 19 dead URLs and 16 operator externals, restored LinkedIn reactions, and ingested 181 missing operator profiles.",
+      "sources": [
+        "Site rebuild Phase 1-3",
+        "Layout audit — 4 rounds",
+        "Data triage — phases 1-3"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-05-02.md",
+      "date": "2026-05-02",
+      "title": "Pass C orphan ingestion + Curiosity backfill",
+      "summary": "A long day of ingestion against the orphan list — operators referenced in earlier passes but with no profile or cards yet. Pass C ran in 6 batches covering 109 orphan operators with substantive insights. Curiosity backfill ran in 8 batches adding external links (LinkedIn, blog, newsletter) for ~200 operator profiles. Plus a launch-ready scrub — 8 stubs removed, 30 URLs validated, 73 cards repaired.",
+      "sources": [
+        "Pass C orphan ingestion (batches 1-6)",
+        "Curiosity backfill external links (batches 1-8)",
+        "Audit: launch-ready scrub"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-05-01.md",
+      "date": "2026-05-01",
+      "title": "Phase 1 — codex foundation built",
+      "summary": "The day the corpus started. After two months of repository-only existence, the codex was reframed as a cross-domain operator-insight library and the first ~80 cards landed across 30+ ingest commits. Boris Cherny, Simon Willison, Cat Wu, April Dunford, Andy Raskin, Elena Verna, Brian Halligan, Asha Sharma, and many more got their first cards. The watchOS-inspired knowledge graph UI shipped alongside.",
+      "sources": [
+        "Phase 1 — codex foundation",
+        "30+ first-pass ingest commits",
+        "12-profile artemis expert ingestion"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
+    {
+      "path": "daily/2026-03-03.md",
+      "date": "2026-03-03",
+      "title": "Repository initialized",
+      "summary": "Empty repo created. Two months later the codex framing landed and the first cards followed.",
+      "sources": [
+        "Initial commit"
+      ],
+      "insights_added": [],
+      "operators_added": [],
+      "patterns_added": [],
       "playbooks_added": []
     }
   ]
