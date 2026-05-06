@@ -1075,52 +1075,41 @@ function timeline(){
     if (!months.has(ym)) months.set(ym, []);
     months.get(ym).push(c);
   }
-  const orderedMonths = [...months.keys()];
-  // Sparkline — per-month bars across corpus lifespan, evenly spaced
-  const monthKeys = [...months.keys()].sort();
+  const orderedMonths = [...months.keys()]; // newest first (matches dated sort)
+  // Density-scaled spark — each month bar's width is proportional to its card count, oldest → newest
+  const monthKeysAsc = [...months.keys()].sort();
   const dayKeys = [...new Set(dated.map(c => c.source_date.slice(0,10)))].sort();
-  let sparkSvg = '';
-  let sparkLabels = '';
-  if (monthKeys.length > 0){
-    const monthDate = ym => { const [y,m] = ym.split('-'); return new Date(+y, +m-1, 1); };
-    const first = monthDate(monthKeys[0]); const last = monthDate(monthKeys[monthKeys.length-1]);
-    const totalMonths = Math.max(1, (last.getFullYear() - first.getFullYear()) * 12 + (last.getMonth() - first.getMonth()));
-    const W = 1000, H = 70;
-    const maxCt = Math.max(...[...months.values()].map(arr => arr.length));
-    const barW = Math.max(3, Math.min(14, W / (totalMonths + 2)));
-    const bars = monthKeys.map(ym => {
-      const dt = monthDate(ym);
-      const monthsFromStart = (dt.getFullYear() - first.getFullYear()) * 12 + (dt.getMonth() - first.getMonth());
-      const x = (monthsFromStart / Math.max(1,totalMonths)) * (W - barW);
-      const ct = months.get(ym).length;
-      const h = Math.max(2, (ct / maxCt) * (H - 12));
-      return `<g><rect x='${x.toFixed(1)}' y='${(H - h).toFixed(1)}' width='${barW.toFixed(1)}' height='${h.toFixed(1)}' rx='1.5'><title>${ym}: ${ct}</title></rect></g>`;
-    }).join('');
-    sparkSvg = `<svg class='timeline-spark' viewBox='0 0 ${W} ${H}' preserveAspectRatio='none' aria-hidden='true'>${bars}</svg>`;
-    // Year tick labels
-    const years = [...new Set(monthKeys.map(k => k.slice(0,4)))];
-    sparkLabels = years.map(y => {
-      const dt = new Date(+y, 0, 1);
-      const monthsFromStart = (dt.getFullYear() - first.getFullYear()) * 12 + (dt.getMonth() - first.getMonth());
-      const pct = (Math.max(0, monthsFromStart) / Math.max(1,totalMonths)) * 100;
-      return `<span class='spark-year' style='left:${pct.toFixed(2)}%'>${y}</span>`;
-    }).join('');
-  }
+  const totalCards = dated.length;
+  const maxCt = Math.max(1, ...[...months.values()].map(arr => arr.length));
   const fmtMonth = ym => {
     const [y, m] = ym.split('-');
     const monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
     return `${monthNames[+m-1]} ${y}`;
   };
+  // Bars: flex-sized by card count. Height of inner fill encodes density.
+  const barEls = monthKeysAsc.map(ym => {
+    const ct = months.get(ym).length;
+    const heightPct = Math.max(8, (ct / maxCt) * 100);
+    return `<button class='tspark-bar' data-ym='${ym}' style='flex:${ct}' aria-label='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}' title='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}'>
+      <span class='tspark-fill' style='height:${heightPct.toFixed(1)}%'></span>
+    </button>`;
+  }).join('');
+  // Year tick row: each year occupies flex equal to its total card count, aligned with bars above
+  const years = [...new Set(monthKeysAsc.map(k => k.slice(0,4)))];
+  const yearTotals = years.map(y => monthKeysAsc.filter(k => k.startsWith(y+'-')).reduce((s,k) => s + months.get(k).length, 0));
+  const yearEls = years.map((y, i) => `<button class='tspark-year' data-year='${y}' style='flex:${yearTotals[i]}' aria-label='Jump to ${y}'>${y}</button>`).join('');
+  // Bar control row: undated link, total
+  const sparkSvg = monthKeysAsc.length > 0 ? `<div class='timeline-spark-wrap' role='tablist' aria-label='Timeline navigation'>
+    <div class='timeline-spark-bars'>${barEls}</div>
+    <div class='timeline-spark-years'>${yearEls}</div>
+  </div>` : '';
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
-    <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}.</p>
-    ${sparkSvg ? `<div class='timeline-spark-wrap'>
-      <div class='timeline-spark-svg'>${sparkSvg}</div>
-      <div class='timeline-spark-years'>${sparkLabels}</div>
-    </div>` : ''}
+    <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}. <span class='timeline-hint'>bar width = cards in month · click to jump · highlight follows scroll</span></p>
+    ${sparkSvg}
     <div class='timeline-stream'>${orderedMonths.map(ym => `
-      <section class='tmonth'>
+      <section class='tmonth' data-ym='${ym}' id='tm-${ym}'>
         <header class='tmonth-head'><h2>${fmtMonth(ym)}</h2><span class='ct'>${months.get(ym).length}</span></header>
         <div class='tmonth-rows'>${months.get(ym).map(c=>`
           <a class='trow reveal' href='#/ins/${c.id}'>
@@ -1130,7 +1119,7 @@ function timeline(){
             ${tierBadge(c.tier)}
           </a>`).join('')}</div>
       </section>`).join('')}
-      ${undated.length ? `<section class='tmonth'>
+      ${undated.length ? `<section class='tmonth' data-ym='undated' id='tm-undated'>
         <header class='tmonth-head'><h2>Undated</h2><span class='ct'>${undated.length}</span></header>
         <div class='tmonth-rows'>${undated.map(c=>`
           <a class='trow reveal' href='#/ins/${c.id}'>
@@ -1142,6 +1131,67 @@ function timeline(){
       </section>` : ''}
     </div>
   </section>`;
+
+  // Wire clicks — bar or year jumps to first matching .tmonth
+  const setActive = (ym) => {
+    document.querySelectorAll('.tspark-bar').forEach(b => b.classList.toggle('active', b.dataset.ym === ym));
+    const y = ym && ym.slice(0,4);
+    document.querySelectorAll('.tspark-year').forEach(el => el.classList.toggle('active', el.dataset.year === y));
+  };
+  const scrollToMonth = (ym) => {
+    const el = document.getElementById('tm-' + ym);
+    if (!el) return;
+    // Account for sticky header + hello bar + spark wrap height when scrolling.
+    const wrap = document.querySelector('.timeline-spark-wrap');
+    const wrapH = wrap ? wrap.getBoundingClientRect().height : 0;
+    const helloH = document.querySelector('.hello-bar:not([hidden])') ? 32 : 0;
+    const offset = 60 /* hdr */ + helloH + wrapH + 16;
+    const top = el.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  };
+  document.querySelectorAll('.tspark-bar').forEach(b => b.addEventListener('click', () => {
+    setActive(b.dataset.ym);
+    scrollToMonth(b.dataset.ym);
+  }));
+  document.querySelectorAll('.tspark-year').forEach(el => el.addEventListener('click', () => {
+    // Jump to the first month of that year present in the corpus (chronologically earliest, since we render newest-first)
+    const y = el.dataset.year;
+    const yMonths = orderedMonths.filter(k => k.startsWith(y+'-')).sort(); // ascending → first month of year
+    if (yMonths.length){ setActive(yMonths[0]); scrollToMonth(yMonths[0]); }
+  }));
+
+  // Scroll-driven active bar — find the .tmonth whose top is closest below the spark, fallback to last passed
+  if (orderedMonths.length){
+    setActive(orderedMonths[0]); // default: newest month (top of stream, since cards are sorted desc)
+    const sections = Array.from(document.querySelectorAll('.tmonth'));
+    let lastActive = orderedMonths[0];
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const wrap = document.querySelector('.timeline-spark-wrap');
+        const sparkBottom = wrap ? wrap.getBoundingClientRect().bottom : 0;
+        // Active = first section whose top is at or just below the spark (the one being entered into).
+        const threshold = sparkBottom - 8;
+        let active = null;
+        for (const s of sections){
+          if (s.getBoundingClientRect().top >= threshold){ active = s.dataset.ym; break; }
+        }
+        // If nothing is below the spark, we've scrolled past everything → use the last (oldest) section.
+        if (!active) active = sections[sections.length - 1]?.dataset.ym;
+        if (active && active !== lastActive){
+          lastActive = active;
+          setActive(active);
+        }
+        ticking = false;
+      });
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    // Initial sync (in case the page loaded scrolled)
+    onScroll();
+  }
+
   if (!reduced) ScrollTrigger.batch('.trow.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, x:-8 }, { opacity:1, x:0, duration:.4, ease:'power2.out', stagger:.008 }), start:'top 95%' });
 }
 
