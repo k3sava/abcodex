@@ -2,6 +2,7 @@
 id: ins_rich-context-beats-sophisticated-agents
 operator: Maja Voje
 operator_role: GTM Strategist; Founder, GTM Strategist
+co_operators: [Benjamin Gibert]
 source_url: https://knowledge.gtmstrategist.com/
 source_type: essay
 source_title: "Content engineering — rich context beats sophisticated agents"

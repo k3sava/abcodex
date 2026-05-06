@@ -43,6 +43,20 @@ The build script:
 
 5. Commit and push. The Pages workflow rebuilds and the SPA hello bar updates.
 
+## Every named operator gets a profile
+
+When ingesting a source, list **every** named human operator in it — primary author and co-authors. Each one gets:
+
+1. An operator profile under `operators/<slug>/README.md` (or update the existing one).
+2. The card's `operator` frontmatter field for the primary author.
+3. A `co_operators: [Name1, Name2]` frontmatter field on the card for any additional named co-authors.
+
+The build script and the SPA both surface `co_operators` so co-authors appear in the byline on the insight page and in the cards list on each operator's profile page. Skipping co-authors silently undercredits people who shipped the work.
+
+The same rule applies to multi-operator convergences: the synthesis pattern card in `synthesis/patterns/` lists each operator and the card the convergence draws on. Don't bundle three operators' work into one card under one name.
+
+For podcast guests / talk-show interviewees who are quoted but not the host: include them in the `Evidence` section with a clear attribution. Only create an operator profile if they ship original work elsewhere; if they're a one-off voice, the body credit is enough.
+
 ## Anti-fabrication rules still apply
 
 Every card needs a verifiable source URL and date. If you only have a paraphrase, write `source_url` to the operator's publication root and put the precise pub date in the body — do not invent a slug. If the date is uncertain, mark `source_date: unknown`.

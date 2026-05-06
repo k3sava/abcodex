@@ -4,7 +4,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 779 insight cards
-- 459 operator profiles
+- 460 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
 - 11 contradictions
@@ -872,6 +872,7 @@ _Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
 - [Ben Tossell](operators/ben-tossell/README.md)
+- [Benjamin Gibert](operators/benjamin-gibert/README.md)
 - [Benjamin Lauzier](operators/benjamin-lauzier/README.md)
 - [Benjamin Mann](operators/benjamin-mann/README.md)
 - [Bernadette Jiwa](operators/bernadette-jiwa/README.md)

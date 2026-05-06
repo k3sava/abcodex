@@ -21,6 +21,7 @@ async function loadIndex(){
     id:i.id, claim:i.title, operator:i.operator||'unknown', operator_slug:slugify(i.operator),
     operator_role:i.operator_role||'', source_url:i.source_url||'', source_title:i.source_title||'',
     source_date:i.source_date||'', source_type:i.source_type||'',
+    co_operators: Array.isArray(i.co_operators) ? i.co_operators : (i.co_operators ? [i.co_operators] : []),
     domain:Array.isArray(i.domain)?i.domain:(i.domain?[i.domain]:[]),
     lifecycle:Array.isArray(i.lifecycle)?i.lifecycle:(i.lifecycle?[i.lifecycle]:[]),
     tier:i.tier||'C', related:Array.isArray(i.related)?i.related:[], path:i.path
@@ -261,7 +262,7 @@ async function insight(id){
       <div>
         <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span></div>
         <h1>${escapeHtml(c.claim)}</h1>
-        <p class='byline'>${escapeHtml(c.operator)}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
+        <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>
         <div class='body' id='cardBody'><p style='color:var(--muted);font-family:var(--mono);font-size:.8rem'>loading…</p></div>
         <div class='actions'>
@@ -272,8 +273,9 @@ async function insight(id){
       </div>
       <aside>
         <div class='card-meta'>
-          <h4>operator</h4>
+          <h4>operator${(c.co_operators||[]).length ? 's' : ''}</h4>
           <p style='margin-bottom:4px'><a href='#/o/${c.operator_slug}' style='border-bottom:1px solid var(--line)'>${escapeHtml(c.operator)}</a></p>
+          ${(c.co_operators||[]).map(co => `<p style='margin-bottom:4px'><a href='#/o/${slugify(co)}' style='border-bottom:1px solid var(--line)'>${escapeHtml(co)}</a> <span style='font-family:var(--mono);font-size:.65rem;color:var(--muted)'>co-author</span></p>`).join('')}
           ${c.operator_role?`<p style='font-family:var(--mono);font-size:.7rem;color:var(--muted)'>${escapeHtml(c.operator_role)}</p>`:''}
           <h4>lifecycle</h4>
           <p style='font-family:var(--mono);font-size:.75rem;color:var(--muted)'>${c.lifecycle.join(' · ')||'—'}</p>
@@ -311,7 +313,8 @@ function stripMdSections(md, titlesLower){
 
 async function operatorPage(slug){
   const op = operators.find(o=>o.slug===slug) || { name:slug, slug, roles:[], path:`operators/${slug}/README.md`, domains_active:[] };
-  const opCards = cards.filter(c => c.operator_slug === slug);
+  // Cards where this operator is the primary author OR a co-author
+  const opCards = cards.filter(c => c.operator_slug === slug || (c.co_operators||[]).some(co => slugify(co) === slug));
   // Source-type glyph reused from operators list
   const srcGlyph = { podcast: '◔', essay: '✎', book: '▭', thread: '#', research: '⌘', talk: '▷', '': '·' };
   // Unique sources from cards (dedupe by source_url)

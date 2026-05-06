@@ -30,7 +30,7 @@ GTM strategist and author. Runs the GTM Strategist newsletter and consultancy. C
 ## Sources captured
 - 2026-04-17 — *AEO: How to Make AI Recommend Your Product* (`raw/essays/maja-voje--aeo-gtm-capability--2026-04-17.md`)
 - 2026-04 — *Claude for GTM Pulse Report 2026* (with Kyle Poyar) (`raw/essays/maja-voje--claude-gtm-pulse--2026-04.md`)
-- 2026-05-01 — *Content engineering — rich context beats sophisticated agents* (https://knowledge.gtmstrategist.com/)
+- 2026-05-01 — *Content engineering — rich context beats sophisticated agents* (with Benjamin Gibert, https://knowledge.gtmstrategist.com/)
 
 ## External
 - Newsletter: https://knowledge.gtmstrategist.com/

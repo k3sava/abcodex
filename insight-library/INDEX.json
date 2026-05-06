@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-06T13:20:43.693Z",
+  "generated_at": "2026-05-06T13:53:06.144Z",
   "counts": {
     "insights": 779,
-    "operators": 459,
+    "operators": 460,
     "raw_sources": 209,
     "patterns": 39,
     "contradictions": 11,
@@ -15513,6 +15513,9 @@
       "id": "ins_rich-context-beats-sophisticated-agents",
       "operator": "Maja Voje",
       "operator_role": "GTM Strategist; Founder, GTM Strategist",
+      "co_operators": [
+        "Benjamin Gibert"
+      ],
       "source_url": "https://knowledge.gtmstrategist.com/",
       "source_type": "essay",
       "source_title": "Content engineering — rich context beats sophisticated agents",
@@ -22476,6 +22479,26 @@
       "external": {
         "linkedin": "https://www.linkedin.com/in/ben-tossell-70453537/",
         "website": "https://bensbites.com/"
+      }
+    },
+    {
+      "path": "operators/benjamin-gibert/README.md",
+      "title": "Benjamin Gibert",
+      "name": "Benjamin Gibert",
+      "slug": "benjamin-gibert",
+      "roles": [
+        "GTM Strategist; collaborator with Maja Voje on AI-native content engineering work",
+        "Writer at GTM Strategist on agent design and content systems"
+      ],
+      "domains_active": [
+        "ai-native",
+        "gtm",
+        "pmm",
+        "engineering"
+      ],
+      "captured_first": "2026-05-06",
+      "external": {
+        "newsletter": "https://knowledge.gtmstrategist.com/"
       }
     },
     {
