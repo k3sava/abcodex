@@ -1636,6 +1636,23 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .op-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:64px;align-items:flex-start}
 .op-main{min-width:0}
 .op-aside{position:sticky;top:calc(var(--hdr-h) + 24px);max-height:calc(100vh - var(--hdr-h) - 48px);overflow-y:auto;display:flex;flex-direction:column;gap:14px}
+/* List-page domain filter — patterns + playbooks share this chip row. */
+.list-domfilter{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 22px;padding-bottom:18px;border-bottom:1px solid var(--line-2)}
+.list-domchip{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:.72rem;
+  padding:6px 12px;border-radius:999px;
+  background:var(--paper-2);
+  border:1px solid var(--line);
+  color:var(--ink-2);cursor:pointer;
+  transition:background .15s,border-color .15s,color .15s,transform .15s;
+}
+.list-domchip:hover{background:color-mix(in oklab,var(--accent) 12%,var(--paper-2));border-color:color-mix(in oklab,var(--accent) 35%,transparent);color:var(--ink);transform:translateY(-1px)}
+.list-domchip.on{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.list-domchip.on .ct{color:color-mix(in oklab,var(--paper) 70%,transparent)}
+.list-domchip .ct{color:var(--muted);font-size:.66rem;font-variant-numeric:tabular-nums}
+.list-active{display:flex;align-items:center;gap:8px;margin:-10px 0 22px}
+
 /* Insight page meta row — domain chips clickable to /d/<domain>. */
 .ins-meta{margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 .ins-meta-doms{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}

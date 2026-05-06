@@ -1005,8 +1005,24 @@ function domainPage(d){
 }
 
 /* ============ PATTERNS ============ */
+// Patterns list state — survives navigation within the SPA. URL hash carries
+// the domain filter so /patterns?d=pmm is shareable + back-button-safe.
+const patternsState = window.patternsState || (window.patternsState = { domain: 'all' });
+function patternDomains(){
+  const m = new Map();
+  for (const p of patterns){
+    for (const d of (p.domains || [])) m.set(d, (m.get(d) || 0) + 1);
+  }
+  return [...m.entries()].sort((a,b) => b[1] - a[1]);
+}
+function filteredPatterns(){
+  if (patternsState.domain === 'all') return patterns;
+  return patterns.filter(p => (p.domains || []).includes(patternsState.domain));
+}
 function patternsList(){
-  const byTier = { A: patterns.filter(p=>p.tier==='A'), B: patterns.filter(p=>p.tier==='B'), C: patterns.filter(p=>p.tier==='C'), other: patterns.filter(p=>!['A','B','C'].includes(p.tier)) };
+  const all = filteredPatterns();
+  const byTier = { A: all.filter(p=>p.tier==='A'), B: all.filter(p=>p.tier==='B'), C: all.filter(p=>p.tier==='C'), other: all.filter(p=>!['A','B','C'].includes(p.tier)) };
+  const domCounts = patternDomains();
 
   const dotCluster = (n) => {
     const dots = Math.min(n, 24);
@@ -1050,11 +1066,18 @@ function patternsList(){
       <p class='pat-inline'>${byTier.other.map(p=>`<a href='#/pat/${p.id}'>${escapeHtml(p.title)}</a>`).join('<span class="sep">,</span> ')}</p>
     </section>` : '';
 
+  const domChips = domCounts.length ? `<div class='list-domfilter' aria-label='Filter patterns by domain'>
+    <button class='list-domchip ${patternsState.domain === 'all' ? 'on' : ''}' data-d='all'>all<span class='ct'>${patterns.length}</span></button>
+    ${domCounts.map(([d, ct]) => `<button class='list-domchip ${patternsState.domain === d ? 'on' : ''}' data-d='${d}'>${d}<span class='ct'>${ct}</span></button>`).join('')}
+  </div>` : '';
+  const activePill = patternsState.domain !== 'all' ? `<div class='list-active'><span class='br-active-label'>filtered:</span><button class='br-active-pill' data-clear='1'>${patternsState.domain}<span aria-hidden='true'>×</span></button></div>` : '';
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>patterns</span></div>
     <h1>synthesis patterns</h1>
-    <p class='lede'>${STATS.patterns} convergences. ${STATS.contradictions} contradictions. Across ${STATS.cards} cards.</p>
-    ${tierA}${tierB}${tierC}${tierOther}
+    <p class='lede'>${all.length} of ${STATS.patterns} convergences ${patternsState.domain !== 'all' ? `in <strong>${patternsState.domain}</strong>` : `across ${STATS.cards} cards`}. ${STATS.contradictions} contradictions.</p>
+    ${domChips}
+    ${activePill}
+    ${all.length === 0 ? `<p class='browse-empty' style='margin-top:32px'>No patterns match this filter. <a href='#'>Clear filter →</a></p>` : `${tierA}${tierB}${tierC}${tierOther}`}
 
     ${contradictions.length ? `
     <section id='contradictions' class='contradictions-section reveal'>
@@ -1070,6 +1093,13 @@ function patternsList(){
         </a>`).join('')}</div>
     </section>` : ''}
   </section>`;
+  // Wire domain chips
+  document.querySelectorAll('.list-domfilter [data-d]').forEach(b => b.addEventListener('click', () => {
+    patternsState.domain = b.dataset.d;
+    patternsList();
+  }));
+  const clearBtn = document.querySelector('.list-active [data-clear]');
+  if (clearBtn) clearBtn.addEventListener('click', () => { patternsState.domain = 'all'; patternsList(); });
   if (!reduced) ScrollTrigger.batch('.pat-tile.reveal, .pat-row.reveal, .card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
@@ -1093,17 +1123,52 @@ const PLAYBOOK_CATEGORY_LABELS = {
   'sales-enablement': 'sales enablement',
 };
 
+const playbooksState = window.playbooksState || (window.playbooksState = { domain: 'all' });
+function playbookDomains(){
+  const m = new Map();
+  for (const p of playbooks){
+    const inferred = new Set();
+    for (const d of (p.domain || [])) inferred.add(d);
+    for (const cid of (p.uses_cards || [])){
+      const c = cards.find(cc => cc.id === cid);
+      if (c) for (const d of (c.domain || [])) inferred.add(d);
+    }
+    for (const d of inferred) m.set(d, (m.get(d) || 0) + 1);
+  }
+  return [...m.entries()].sort((a,b) => b[1] - a[1]);
+}
+function filteredPlaybooks(){
+  if (playbooksState.domain === 'all') return playbooks;
+  return playbooks.filter(p => {
+    const inFm = (p.domain || []).includes(playbooksState.domain);
+    const inCards = (p.uses_cards || []).some(cid => {
+      const c = cards.find(cc => cc.id === cid);
+      return c && (c.domain || []).includes(playbooksState.domain);
+    });
+    return inFm || inCards;
+  });
+}
 function playbooksList(){
+  const all = filteredPlaybooks();
   const byCat = {};
-  playbooks.forEach(p => {
+  all.forEach(p => {
     const key = playbookCategoryFromPath(p.path);
     (byCat[key] = byCat[key] || []).push(p);
   });
   const order = Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length || a.localeCompare(b));
+  const domCounts = playbookDomains();
+  const domChips = domCounts.length ? `<div class='list-domfilter' aria-label='Filter playbooks by domain'>
+    <button class='list-domchip ${playbooksState.domain === 'all' ? 'on' : ''}' data-d='all'>all<span class='ct'>${playbooks.length}</span></button>
+    ${domCounts.map(([d, ct]) => `<button class='list-domchip ${playbooksState.domain === d ? 'on' : ''}' data-d='${d}'>${d}<span class='ct'>${ct}</span></button>`).join('')}
+  </div>` : '';
+  const activePill = playbooksState.domain !== 'all' ? `<div class='list-active'><span class='br-active-label'>filtered:</span><button class='br-active-pill' data-clear='1'>${playbooksState.domain}<span aria-hidden='true'>×</span></button></div>` : '';
   app.innerHTML = `<section class='list-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>playbooks</span></div>
     <h1>methodology playbooks</h1>
-    <p class='lede'>${STATS.playbooks} playbooks across ${order.length} categories. Each bundles operator-attributed insights into a working procedure with inputs, process, outputs, and quality gates.</p>
+    <p class='lede'>${all.length} of ${STATS.playbooks} playbooks ${playbooksState.domain !== 'all' ? `in <strong>${playbooksState.domain}</strong>` : `across ${order.length} categor${order.length === 1 ? 'y' : 'ies'}`}. Each bundles operator-attributed insights into a working procedure with inputs, process, outputs, and quality gates.</p>
+    ${domChips}
+    ${activePill}
+    ${all.length === 0 ? `<p class='browse-empty' style='margin-top:32px'>No playbooks match this filter.</p>` : ''}
     ${order.map(cat => {
       const items = byCat[cat];
       const label = PLAYBOOK_CATEGORY_LABELS[cat] || cat;
@@ -1122,6 +1187,12 @@ function playbooksList(){
       </section>`;
     }).join('')}
   </section>`;
+  document.querySelectorAll('.list-domfilter [data-d]').forEach(b => b.addEventListener('click', () => {
+    playbooksState.domain = b.dataset.d;
+    playbooksList();
+  }));
+  const clearBtn = document.querySelector('.list-active [data-clear]');
+  if (clearBtn) clearBtn.addEventListener('click', () => { playbooksState.domain = 'all'; playbooksList(); });
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 

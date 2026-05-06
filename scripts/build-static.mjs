@@ -516,13 +516,59 @@ async function main(){
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/play/${p.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
+    // Extract H2 sections from the body as HowTo steps. Each step gets the
+    // section heading as name and the first paragraph after it as text.
+    // Skip generic wrappers like "References" or "Sources".
+    const skipSteps = new Set(["references", "sources", "links", "see also"]);
+    const steps = [];
+    const lines = cleaned.split("\n");
+    for (let i = 0; i < lines.length; i++){
+      const m = lines[i].match(/^##\s+(.+?)\s*$/);
+      if (!m) continue;
+      const name = m[1].trim();
+      if (skipSteps.has(name.toLowerCase())) continue;
+      // Gather subsequent non-heading lines until next heading or blank gap.
+      const buf = [];
+      for (let j = i + 1; j < lines.length; j++){
+        if (/^##/.test(lines[j])) break;
+        if (lines[j].trim()) buf.push(lines[j].trim());
+        if (buf.length >= 4) break;
+      }
+      const text = buf.join(" ").slice(0, 400);
+      if (text) steps.push({ "@type": "HowToStep", "position": steps.length + 1, "name": name, "text": text, "url": `${SITE_URL}/play/${p.id}/#step-${steps.length + 1}` });
+    }
+    const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
+    const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
+    const howTo = {
+      "@type": "HowTo",
+      "name": p.title || p.id,
+      "description": `Playbook bundling operator-attributed insights from ${opsForPlaybook.slice(0, 6).join(", ")}.`,
+      "url": `${SITE_URL}/play/${p.id}/`,
+      ...(steps.length ? { "step": steps } : {}),
+      "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL },
+    };
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@graph": [
+        howTo,
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "playbooks", "item": SITE_URL + "/playbooks/" },
+            { "@type": "ListItem", "position": 3, "name": p.title || p.id, "item": `${SITE_URL}/play/${p.id}/` },
+          ],
+        },
+        ...(cardsForPlaybook.length ? [{ "@type": "ItemList", "name": "Insights this playbook builds on", "itemListElement": cardsForPlaybook.map((c, i) => ({ "@type": "ListItem", "position": i + 1, "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id })) }] : []),
+      ],
+    };
     await writeOne({
       outPath: join(DOCS, "play", p.id, "index.html"),
       title: p.title || p.id,
-      description: `Playbook: ${p.title || p.id}.`,
+      description: `Playbook: ${p.title || p.id}. ${opsForPlaybook.slice(0, 4).join(", ")}.`,
       canonical: `${SITE_URL}/play/${p.id}/`,
       hashRoute: `#/play/${p.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "HowTo", "name": p.title || p.id, "url": `${SITE_URL}/play/${p.id}/`, "publisher": { "@type": "Organization", "name": "a builder's codex", "url": SITE_URL } },
+      jsonLd,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
   }
