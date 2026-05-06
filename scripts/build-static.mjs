@@ -195,7 +195,7 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <meta name="twitter:title" content="${fullTitle}">
 <meta name="twitter:description" content="${desc}">
 <meta name="twitter:image" content="${escapeAttr(og)}">
-<link rel="alternate" type="application/rss+xml" title="a builder's codex — release log" href="${SITE_URL}/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="${SITE_URL}/rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -320,7 +320,7 @@ async function main(){
     const tldr = tldrFor({ tier: i.tier, claim: i.title || i.id });
     const opName = i.operator || "unknown";
     const opSlug = (opName || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-    const sourceLink = i.source_url ? `<a href="${escapeAttr(i.source_url)}" rel="external nofollow">${escapeHtml(i.source_title || i.source_url)}</a>` : "—";
+    const sourceLink = i.source_url ? `<a href="${escapeAttr(i.source_url)}" rel="external nofollow">${escapeHtml(i.source_title || i.source_url)}</a>` : "·";
     // Co-authors as a "with X, Y" line in the byline.
     const coAuthors = (Array.isArray(i.co_operators) && i.co_operators.length)
       ? ` with ${i.co_operators.map(co => `<a href="${SITE_URL}/o/${(co||"").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}/">${escapeHtml(co)}</a>`).join(", ")}`
@@ -392,7 +392,7 @@ async function main(){
     await writeOne({
       outPath: join(DOCS, "ins", i.id, "index.html"),
       title: i.title || i.id,
-      description: `${opName} — "${i.title}" (${i.source_type || "source"}, ${i.source_date || "undated"}).`,
+      description: `${opName}: "${i.title}" (${i.source_type || "source"}, ${i.source_date || "undated"}).`,
       canonical: `${SITE_URL}/ins/${i.id}/`,
       hashRoute: `#/ins/${i.id}`,
       jsonLd,
@@ -410,7 +410,7 @@ async function main(){
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
     const cards = INDEX.insights.filter(i => (i.operator || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug || (Array.isArray(i.co_operators) && i.co_operators.some(co => co.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug)));
     // Cards by this operator (primary + co-author) as an a11y-friendly grid.
-    const cardsList = cards.length ? `<h2>Cards · ${cards.length}</h2><div class="static-cards-grid">${cards.map(c => `<a class="static-card" href="${SITE_URL}/ins/${c.id}/"><div class="tier">Tier ${c.tier || "C"} · ${(c.domain||[]).slice(0,2).join(" · ") || "—"}</div><div class="static-card-title">${escapeHtml(c.title || c.id)}</div></a>`).join("")}</div>` : "";
+    const cardsList = cards.length ? `<h2>Insights · ${cards.length}</h2><div class="static-cards-grid">${cards.map(c => `<a class="static-card" href="${SITE_URL}/ins/${c.id}/"><div class="tier">Tier ${c.tier || "C"} · ${(c.domain||[]).slice(0,2).join(" · ") || "·"}</div><div class="static-card-title">${escapeHtml(c.title || c.id)}</div></a>`).join("")}</div>` : "";
     const externalLinks = (op.external && typeof op.external === "object")
       ? Object.entries(op.external).filter(([,v]) => v && typeof v === "string").map(([k,v]) => `<a href="${escapeAttr(v)}" rel="external nofollow">${k}</a>`).join(" · ")
       : "";
@@ -446,7 +446,7 @@ async function main(){
     await writeOne({
       outPath: join(DOCS, "o", op.slug, "index.html"),
       title: op.name || op.slug,
-      description: `${op.name || op.slug} on a builder's codex — operator profile, cards, primary sources.`,
+      description: `${op.name || op.slug} on a builder's codex. Operator profile, insights, primary sources.`,
       canonical: `${SITE_URL}/o/${op.slug}/`,
       hashRoute: `#/o/${op.slug}`,
       jsonLd,
@@ -567,7 +567,7 @@ async function main(){
     const ops = [...INDEX.operators].sort((a, b) => (a.name || a.slug).localeCompare(b.name || b.slug));
     const groups = new Map();
     for (const o of ops){
-      const letter = (o.name || o.slug || "").charAt(0).toUpperCase() || "—";
+      const letter = (o.name || o.slug || "").charAt(0).toUpperCase() || "·";
       const key = /[A-Z]/.test(letter) ? letter : "#";
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(o);
@@ -579,7 +579,7 @@ async function main(){
       <h1>${INDEX.operators.length} operators</h1>
       <p class="static-meta">Each profile carries the operator's bio, operating themes, attributed cards, and primary sources.</p>
       ${sectionEls}`;
-    await listShell("operators", "operators", `Index of ${INDEX.operators.length} operator profiles in a builder's codex — primary-source, named-author insights.`, body);
+    await listShell("operators", "operators", `Index of ${INDEX.operators.length} operator profiles in a builder's codex. Primary-source, named-author insights.`, body);
   }
 
   // Patterns index
@@ -614,9 +614,9 @@ async function main(){
         const counts = [];
         if (ia) counts.push(`+${ia} insight${ia===1?"":"s"}`);
         if (oa) counts.push(`+${oa} operator${oa===1?"":"s"}`);
-        return `<li><a href="${SITE_URL}/today/${d.date}/">${escapeHtml(d.date)} — ${escapeHtml(d.title || "release")}</a>${counts.length ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${counts.join(" · ")})</span>` : ""}</li>`;
+        return `<li><a href="${SITE_URL}/today/${d.date}/">${escapeHtml(d.date)} · ${escapeHtml(d.title || "release")}</a>${counts.length ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${counts.join(" · ")})</span>` : ""}</li>`;
       }).join("")}</ul>`;
-    await listShell("today", "release log", `${list.length} releases in a builder's codex — daily ingests, prompted batches, depth passes.`, body);
+    await listShell("today", "release log", `${list.length} releases in a builder's codex. Daily ingests, prompted batches, depth passes.`, body);
   }
 
   console.log(`build-static: emitted ${count} static HTML files under docs/`);

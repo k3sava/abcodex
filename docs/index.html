@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#f3f5ee" media="(prefers-color-scheme: light)" />
   <meta name="theme-color" content="#0a0e0a" media="(prefers-color-scheme: dark)" />
-  <title>a builder's codex — operator insight library</title>
+  <title>a builder's codex · operator insight library</title>
   <meta name="description" content="A primary-source library of operator insights. Atomic claims, named operators, verifiable sources." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="a builder's codex" />
@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=35" />
+  <link rel="stylesheet" href="style.css?v=36" />
   <script>
     // Apply theme override before paint to avoid flash
     (function(){
@@ -81,6 +81,31 @@
   <main id="app" tabindex="-1"></main>
 
   <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+
+  <!-- Share menu — popover with native / copy / LinkedIn / X / email options.
+       Built once at the body root; positioned relative to the triggering button at open time. -->
+  <div id="shareMenu" class="share-menu" role="dialog" aria-label="Share this page" aria-modal="false" hidden>
+    <button class="share-opt" data-act="native" hidden>
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v9M5 5l3-3 3 3"/><path d="M3 9v3a1 1 0 001 1h8a1 1 0 001-1V9"/></svg>
+      <span>more apps…</span>
+    </button>
+    <button class="share-opt" data-act="copy">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 5h6v8H5z"/><path d="M3 3h6v2"/></svg>
+      <span>copy link</span>
+    </button>
+    <button class="share-opt" data-act="linkedin">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="currentColor"><path d="M3 5.7a1.7 1.7 0 100-3.4 1.7 1.7 0 000 3.4zM1.5 6.8h3v7h-3v-7zM6.4 6.8h2.8v1h.04c.4-.7 1.4-1.4 2.8-1.4 3 0 3.5 2 3.5 4.5v3.9h-3v-3.5c0-.8 0-1.9-1.2-1.9s-1.4.9-1.4 1.9v3.5h-3v-7z"/></svg>
+      <span>LinkedIn</span>
+    </button>
+    <button class="share-opt" data-act="x">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="currentColor"><path d="M11.6 2h2.2L9.3 7.2 14.5 14H10l-3.6-4.6L2.5 14H.3L5 8.4 0 2h4.6l3.2 4.2L11.6 2zM10.8 12.6h1.2L4.3 3.3H3l7.8 9.3z"/></svg>
+      <span>X</span>
+    </button>
+    <button class="share-opt" data-act="email">
+      <svg viewBox="0 0 16 16" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3.5" width="12" height="9" rx="1"/><path d="M2 5l6 4 6-4"/></svg>
+      <span>email</span>
+    </button>
+  </div>
 
   <!-- Page tools: a small floating toolbar with Share + Listen on detail pages
        that don't have a built-in rail. Mounted by JS per-route. -->
@@ -148,6 +173,6 @@
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-  <script src="app.js?v=48" type="module"></script>
+  <script src="app.js?v=49" type="module"></script>
 </body>
 </html>

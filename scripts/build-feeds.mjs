@@ -63,7 +63,7 @@ ${urls.map(u => `  <url>
 User-agent: *
 Allow: /
 
-# AI-search agents — explicitly allowed (the corpus exists to be cited).
+# AI-search agents are explicitly allowed. The corpus exists to be cited.
 User-agent: GPTBot
 Allow: /
 
@@ -88,7 +88,7 @@ Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 
-# Scratch / temp paths — none currently, but reserve the convention.
+# Scratch / temp paths. None currently, but reserve the convention.
 Disallow: /_dev/
 Disallow: /tmp/
 
@@ -155,10 +155,10 @@ Sitemap: ${SITE_URL}/sitemap.xml
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>a builder's codex — release log</title>
+    <title>a builder's codex · release log</title>
     <link>${SITE_URL}/today/</link>
     <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
-    <description>What's new in a builder's codex — daily ingests, prompted batches, depth passes.</description>
+    <description>What is new in a builder's codex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 ${items}

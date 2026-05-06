@@ -70,7 +70,7 @@ function renderHelloBar(){
   if (pba) counts.push(`${pba} playbook${pba===1?'':'s'}`);
   const lead = counts.length ? counts.join(' · ') : '';
   const title = LATEST_DAILY.title || 'what landed';
-  const text = lead ? `${lead} — ${title}` : title;
+  const text = lead ? `${lead} · ${title}` : title;
   // One "group" of content — duplicated below for seamless marquee loop.
   const group = `<span class="hello-group">
     <span class="hello-mark">NEW</span>
@@ -98,6 +98,89 @@ async function fetchBody(path){
   try { const r = await fetch(`insight-library/${path}`); return await r.text(); } catch { return ''; }
 }
 function stripFrontmatter(md){ if (md.startsWith('---\n')){ const e = md.indexOf('\n---',4); if (e>0) return md.slice(e+4).trimStart(); } return md; }
+
+// Share menu — popover triggered by Share buttons on every detail page.
+// Single instance lives in body; positioned at the trigger when opened.
+function openShareMenu(triggerEl, { url, title, text }){
+  const menu = document.getElementById('shareMenu');
+  if (!menu) return;
+  // Show the "more apps" option only if Web Share API works for this page.
+  const nativeBtn = menu.querySelector('[data-act="native"]');
+  const canNative = !!(navigator.share && navigator.canShare?.({ title, url }));
+  nativeBtn.hidden = !canNative;
+  // Position the menu just below + right-aligned with the trigger
+  const r = triggerEl.getBoundingClientRect();
+  menu.hidden = false;
+  // Read offsetWidth after un-hiding so we can right-align cleanly
+  const mw = menu.offsetWidth;
+  let left = r.right - mw + window.scrollX;
+  let top = r.bottom + 6 + window.scrollY;
+  // Keep on-screen if the trigger is near the right or bottom edge
+  if (left < 8) left = 8;
+  if (left + mw > window.innerWidth - 8) left = window.innerWidth - mw - 8;
+  if (top + 240 > window.innerHeight + window.scrollY){
+    // Flip above the trigger
+    top = r.top - menu.offsetHeight - 6 + window.scrollY;
+  }
+  menu.style.left = left + 'px';
+  menu.style.top = top + 'px';
+  // Wire all option clicks once, replacing prior bindings via cloneNode trick.
+  const acts = {
+    native: async () => {
+      try { await navigator.share({ title, url, text }); }
+      catch (e) { if (e?.name !== 'AbortError') toast('share failed', { icon: 'error' }); }
+    },
+    copy: async () => {
+      try { await navigator.clipboard.writeText(url); toast('link copied'); }
+      catch { toast('copy failed', { icon: 'error' }); }
+    },
+    linkedin: () => {
+      window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer');
+    },
+    x: () => {
+      const tweet = `${text || title}\n\n`;
+      window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(tweet)}&url=${encodeURIComponent(url)}`, '_blank', 'noopener,noreferrer');
+    },
+    email: () => {
+      const subject = title || 'a builder\'s codex';
+      const body = `${text || title}\n\n${url}`;
+      window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    },
+  };
+  // Replace listeners with a single delegated handler on the menu (re-bind safely).
+  if (!menu.dataset.wired){
+    menu.addEventListener('click', (e) => {
+      const btn = e.target.closest('.share-opt');
+      if (!btn) return;
+      const act = btn.dataset.act;
+      const handler = menu._acts?.[act];
+      closeShareMenu();
+      handler?.();
+    });
+    menu.dataset.wired = 'true';
+  }
+  menu._acts = acts;
+  // Focus the first visible option for keyboard access
+  setTimeout(() => menu.querySelector('.share-opt:not([hidden])')?.focus(), 20);
+}
+function closeShareMenu(){
+  const menu = document.getElementById('shareMenu');
+  if (menu) menu.hidden = true;
+}
+// One-time global listeners: Esc closes, outside-click closes.
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape'){
+    const menu = document.getElementById('shareMenu');
+    if (menu && !menu.hidden){ closeShareMenu(); e.preventDefault(); }
+  }
+});
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('shareMenu');
+  if (!menu || menu.hidden) return;
+  if (menu.contains(e.target)) return;
+  if (e.target.closest('#shareBtn, #ptShare')) return;
+  closeShareMenu();
+}, true);
 
 // Toast — site-wide passive feedback for copy/share/listen actions.
 // One toast at a time; reusing the element so they stack-replace.
@@ -236,9 +319,9 @@ function home(){
     <section class='hero'>
       <p class='eyebrow'>operator insight library</p>
       <h1 id='heroH'>learn from the <em>best</em></h1>
-      <p class='lede'>Every card is one idea from one person who shipped something. Named author. Verifiable source. Date. Plus the parts the source usually leaves out: <em>why</em> it works, <em>when</em> it applies, and <em>when it doesn't</em>. The idea is yours to use, not just read.</p>
+      <p class='lede'>Every insight here is one idea from one person who shipped something. Named author. Verifiable source. Date. Plus the parts the source usually leaves out. Why it works. When it applies. When it doesn't. The idea is yours to use, not just read.</p>
       <div class='stats'>
-        <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insight cards</span></a>
+        <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insights</span></a>
         <a class='stat' href='#/operators'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></a>
         <a class='stat' href='#/patterns'><span class='num' data-count='${STATS.patterns}'>0</span><span class='lbl'>patterns</span></a>
         <a class='stat' href='#/patterns#contradictions'><span class='num' data-count='${STATS.contradictions}'>0</span><span class='lbl'>contradictions</span></a>
@@ -259,8 +342,8 @@ function home(){
     <section class='section' id='tier-a-section'>
       <div class='section-head'>
         <div>
-          <h2>Tier A — the strongest claims</h2>
-          <p>The cards we trust most: clean attribution, real evidence, the kind of idea that holds up when you actually try it.</p>
+          <h2>Tier A. The strongest claims.</h2>
+          <p>The insights we trust most. Clean attribution, real evidence, the kind of idea that holds up when you try it.</p>
         </div>
         <div class='meta'>${STATS.tierA} cards · view all in <a href='#/browse'>browse</a></div>
       </div>
@@ -298,7 +381,7 @@ function home(){
       <div class='section-head'>
         <div>
           <h2>${STATS.contradictions} places where operators disagree</h2>
-          <p>Smart people reach opposite conclusions on the same question all the time. We document the disagreements so you can see both sides — and the conditions that decide which one applies to you.</p>
+          <p>Smart people reach opposite conclusions on the same question all the time. We document the disagreements so you can see both sides, and the conditions that decide which one applies to you.</p>
         </div>
         <div class='meta'><a href='#/patterns#contradictions'>see all →</a></div>
       </div>
@@ -398,7 +481,7 @@ async function insight(id){
               <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><rect x='2' y='3' width='12' height='10' rx='1.5'/><path d='M5 9V7l1.5 1.5L8 7v2'/><path d='M11 7v3M9.5 8.5L11 10l1.5-1.5'/></svg>
               <span>copy as markdown</span>
             </button>
-            <button class='rail-btn' id='shareBtn' aria-label='Share this card' title='Share — uses native share sheet on mobile, copies link otherwise'>
+            <button class='rail-btn' id='shareBtn' aria-label='Share this insight' title='Share. Pick the channel.'>
               <svg viewBox='0 0 16 16' aria-hidden='true' width='13' height='13' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='4' r='1.8'/><circle cx='4' cy='8' r='1.8'/><circle cx='12' cy='12' r='1.8'/><path d='M5.6 7.2l4.8-2.4M5.6 8.8l4.8 2.4'/></svg>
               <span>share</span>
             </button>
@@ -448,6 +531,43 @@ async function insight(id){
   const minutes = Math.max(1, Math.round(wordCount / 225));
   const rt = document.getElementById('readTime');
   if (rt){ rt.style.display = ''; rt.removeAttribute('aria-hidden'); rt.innerHTML = `<span>·</span><span>${minutes} min read</span>`; }
+
+  // Section anchors + auto-TOC. Cards with 4+ H2 sections get a small
+  // navigation block at the top of the body, with smooth-scroll links.
+  // Each section gets a stable id derived from its text so deep links work.
+  const h2s = Array.from(cardBodyEl.querySelectorAll('h2'));
+  if (h2s.length >= 4){
+    h2s.forEach((h, i) => {
+      if (!h.id){
+        const slug = h.textContent.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || `section-${i+1}`;
+        h.id = `s-${slug}`;
+      }
+    });
+    const tocItems = h2s.map((h, i) => `<li><a href="#${h.id}"><span class='card-toc-num'>${String(i+1).padStart(2,'0')}</span>${escapeHtml(h.textContent)}</a></li>`).join('');
+    const tocEl = document.createElement('nav');
+    tocEl.className = 'card-toc';
+    tocEl.setAttribute('aria-label', 'Sections in this card');
+    tocEl.innerHTML = `<div class='card-toc-label'>in this insight</div><ol>${tocItems}</ol>`;
+    cardBodyEl.insertBefore(tocEl, cardBodyEl.firstChild);
+    // Intercept TOC clicks to smooth-scroll without polluting the route.
+    tocEl.addEventListener('click', (e) => {
+      const a = e.target.closest('a');
+      if (!a) return;
+      e.preventDefault();
+      const id = a.getAttribute('href').slice(1);
+      const el = document.getElementById(id);
+      if (!el) return;
+      const top = el.getBoundingClientRect().top + window.scrollY - 80;
+      window.scrollTo({ top, behavior: 'smooth' });
+      history.replaceState(null, '', `#/ins/${c.id}#${id}`);
+    });
+    // If the URL already carries an anchor, jump there (deep-linkable sections).
+    const anchor = (location.hash.split('#')[2] || '').trim();
+    if (anchor){
+      const target = document.getElementById(anchor);
+      if (target) setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+    }
+  }
   document.getElementById('citeBtn').onclick = async () => {
     const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(', ') : ''}, "${c.source_title || c.claim}," ${c.source_url || ''}, ${c.source_date || 'n.d.'}. https://codex.iamkesava.com/ins/${c.id}/`;
     try { await navigator.clipboard.writeText(text); toast('citation copied'); }
@@ -462,20 +582,12 @@ async function insight(id){
       toast('markdown copied');
     } catch { toast('copy failed', { icon: 'error' }); }
   };
-  // Share — native Web Share where available, copy link fallback elsewhere.
-  document.getElementById('shareBtn').onclick = async () => {
+  // Share — opens a menu with native / copy / LinkedIn / X / email options.
+  document.getElementById('shareBtn').onclick = (e) => {
+    e.stopPropagation();
     const url = `https://codex.iamkesava.com/ins/${c.id}/`;
-    const shareData = { title: c.claim, text: `${c.operator}: "${c.claim}"`, url };
-    try {
-      if (navigator.share && navigator.canShare?.(shareData)){
-        await navigator.share(shareData);
-      } else {
-        await navigator.clipboard.writeText(url);
-        toast('link copied');
-      }
-    } catch (err){
-      if (err?.name !== 'AbortError') toast('share failed', { icon: 'error' });
-    }
+    const text = `${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}: "${c.claim}"`;
+    openShareMenu(e.currentTarget, { url, title: c.claim, text });
   };
   // Read aloud — Web Speech API. Reads claim + body. Toggles play/stop.
   // Hardened against Chrome's cancel-then-speak race condition (synth.cancel
@@ -502,10 +614,10 @@ async function insight(id){
       // Build readable text. Wait for body to be rendered before reading.
       const bodyText = (cardBodyEl.innerText || '').trim();
       if (!bodyText){
-        toast('still loading the card — try again in a moment');
+        toast('still loading. try again in a moment.');
         return;
       }
-      const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`.replace(/[—–]/g, ' — ').slice(0, 12000);
+      const text = `${c.claim}. By ${c.operator}${(c.co_operators||[]).length ? ' with ' + c.co_operators.join(' and ') : ''}. ${bodyText}`.replace(/[—–]/g, ', ').slice(0, 12000);
       // Reset state and speak. On Chrome, calling cancel() right before speak()
       // causes the next utterance to drop silently — set a small timeout so
       // the synthesizer settles. Tested across Chrome 130, Safari 17, Firefox 132.
@@ -575,15 +687,44 @@ async function operatorPage(slug){
         </section>` : ''}
       </div>
       <aside class='op-aside'>
-        <div class='op-aside-head'>${opCards.length} insight${opCards.length===1?'':'s'}</div>
-        <div class='op-card-list'>${opCards.map(c => `
-          <a class='op-mini' href='#/ins/${c.id}'>
-            <div class='op-mini-top'>${tierBadge(c.tier)}<span class='op-mini-dom'>${(c.domain||[]).slice(0,2).join(' · ')}</span></div>
-            <div class='op-mini-claim'>${escapeHtml(c.claim||c.id)}</div>
-          </a>`).join('') || `<p class='empty-inline'>No cards attributed to this operator yet. The profile is here, the cards will follow.</p>`}</div>
+        <div class='op-aside-head'>
+          <span>${opCards.length} insight${opCards.length===1?'':'s'}</span>
+          ${opCards.length > 1 ? `<div class='op-sort' role='tablist' aria-label='Sort insights'>
+            <button class='op-sort-btn' data-sort='tier' aria-selected='true'>tier</button>
+            <button class='op-sort-btn' data-sort='date' aria-selected='false'>newest</button>
+            <button class='op-sort-btn' data-sort='alpha' aria-selected='false'>A-Z</button>
+          </div>` : ''}
+        </div>
+        <div class='op-card-list' id='opCardList'></div>
       </aside>
     </div>
   </article>`;
+  // Sort + render — default by tier (A then B then C), break ties by source date desc.
+  const sorters = {
+    tier: (a, b) => {
+      const t = (x) => ({ A: 0, B: 1, C: 2 }[x.tier] ?? 3);
+      return t(a) - t(b) || (b.source_date || '').localeCompare(a.source_date || '');
+    },
+    date: (a, b) => (b.source_date || '').localeCompare(a.source_date || ''),
+    alpha: (a, b) => (a.claim || '').localeCompare(b.claim || ''),
+  };
+  const renderOpCards = (sort) => {
+    const sorted = [...opCards].sort(sorters[sort] || sorters.tier);
+    const list = document.getElementById('opCardList');
+    if (!list) return;
+    list.innerHTML = sorted.map(c => `
+      <a class='op-mini' href='#/ins/${c.id}'>
+        <div class='op-mini-top'>${tierBadge(c.tier)}<span class='op-mini-dom'>${(c.domain||[]).slice(0,2).join(' · ')}</span></div>
+        <div class='op-mini-claim'>${escapeHtml(c.claim||c.id)}</div>
+      </a>`).join('') || `<p class='empty-inline'>No insights attributed to this operator yet.</p>`;
+  };
+  renderOpCards('tier');
+  document.querySelectorAll('.op-sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.op-sort-btn').forEach(b => b.setAttribute('aria-selected', b === btn ? 'true' : 'false'));
+      renderOpCards(btn.dataset.sort);
+    });
+  });
   if (op.path){
     const md = await fetchBody(op.path);
     const cleaned = stripMdSections(md, ['cards','sources captured','sources']);
@@ -681,8 +822,8 @@ function operatorsList(){
             <td class='td-role'>${escapeHtml(role)}</td>
             <td class='td-doms'>${dchips}</td>
             <td class='td-srcs'>${srcdots}</td>
-            <td class='td-latest'>${o.latest||'—'}</td>
-            <td class='td-count'>${o.count || '—'}</td>
+            <td class='td-latest'>${o.latest||'·'}</td>
+            <td class='td-count'>${o.count || '·'}</td>
           </tr>`;
         }).join('')}</tbody>
       </table>
@@ -840,7 +981,7 @@ function patternsList(){
         <h2>Contradictions</h2>
         <span class='ct'>${STATS.contradictions} surfaced</span>
       </div>
-      <p class='lede'>Where operators disagree on substantive questions — not vocabulary, but mechanism. Often resolvable by stage, layer, or context.</p>
+      <p class='lede'>Where operators disagree on substantive questions. Not vocabulary, mechanism. Often resolvable by stage, layer, or context.</p>
       <div class='card-grid'>${contradictions.map(c=>`
         <a class='card reveal' href='#/con/${c.id}'>
           <div class='meta-row'><span>contradiction</span></div>
@@ -911,7 +1052,7 @@ async function playbookPage(id){
     app.innerHTML = `<div class='insight-page empty-state'>
       <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/playbooks'>playbooks</a> <span>·</span> <span>playbook</span></div>
       <h1>This playbook isn't in the codex.</h1>
-      <p class='lede'>27 methodology playbooks distilled across the corpus — pick from the list and start there.</p>
+      <p class='lede'>27 methodology playbooks distilled across the corpus. Pick from the list and start there.</p>
       <div class='actions empty-actions'><a class='btn' href='#/playbooks'>Browse playbooks</a><a class='btn ghost' href='#/'>Open the codex</a></div>
     </div>`;
     return;
@@ -1401,12 +1542,12 @@ function applyBrowse(){
     <span class='brow-domain'>${(c.domain[0]||'·')}</span>
     <span class='brow-claim'>${escapeHtml(c.claim)}</span>
     <span class='brow-op'>${escapeHtml(c.operator)}</span>
-    <span class='brow-date'>${c.source_date||'—'}</span>
+    <span class='brow-date'>${c.source_date||'·'}</span>
   </a>`;
   if (browseState.sort === 'tier'){
     const groups = { A: list.filter(c=>c.tier==='A'), B: list.filter(c=>c.tier==='B'), C: list.filter(c=>c.tier==='C'), other: list.filter(c=>!['A','B','C'].includes(c.tier)) };
     const block = (lab, arr) => arr.length ? `<section class='brow-group'><header class='brow-group-head'><h2>tier ${lab}</h2><span class='ct'>${arr.length}</span></header><div class='brow-rows'>${arr.map(rowHtml).join('')}</div></section>` : '';
-    out.innerHTML = block('A', groups.A) + block('B', groups.B) + block('C', groups.C) + block('—', groups.other);
+    out.innerHTML = block('A', groups.A) + block('B', groups.B) + block('C', groups.C) + block('·', groups.other);
   } else {
     out.innerHTML = `<div class='brow-rows'>${list.map(rowHtml).join('')}</div>`;
   }
@@ -1461,7 +1602,7 @@ function timeline(){
   const barEls = monthKeysAsc.map(ym => {
     const ct = months.get(ym).length;
     const heightPct = Math.max(15, Math.sqrt(ct / maxCt) * 100); // sqrt for height too — same logic
-    return `<button class='tspark-bar' data-ym='${ym}' style='flex:${flexFor(ct).toFixed(3)}' aria-label='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}' title='${fmtMonth(ym)} — ${ct} card${ct===1?'':'s'}'>
+    return `<button class='tspark-bar' data-ym='${ym}' style='flex:${flexFor(ct).toFixed(3)}' aria-label='${fmtMonth(ym)}, ${ct} insight${ct===1?'':'s'}' title='${fmtMonth(ym)}, ${ct} insight${ct===1?'':'s'}'>
       <span class='tspark-fill' style='height:${heightPct.toFixed(1)}%'></span>
     </button>`;
   }).join('');
@@ -1514,7 +1655,7 @@ function timeline(){
   app.innerHTML = `<section class='timeline-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>timeline</span></div>
     <h1>timeline</h1>
-    <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'—'} → ${dayKeys[dayKeys.length-1]||'—'}. <span class='timeline-hint'>bar width = cards in month · click to jump · highlight follows scroll</span></p>
+    <p class='lede'>${dated.length} dated insights · ${dayKeys.length} active days · ${dayKeys[0]||'·'} → ${dayKeys[dayKeys.length-1]||'·'}. <span class='timeline-hint'>bar width = insights per month · click to jump · highlight follows scroll</span></p>
     <div class='timeline-sticky'>
       ${filterRow}
       ${sparkSvg}
@@ -1536,7 +1677,7 @@ function timeline(){
           <a class='trow reveal' href='#/ins/${c.id}'>
             <span class='trow-claim'>${escapeHtml(c.claim)}</span>
             <span class='trow-who'>${escapeHtml(c.operator)}</span>
-            <span class='trow-date'>—</span>
+            <span class='trow-date'>·</span>
             ${tierBadge(c.tier)}
           </a>`).join('')}</div>
       </section>` : ''}
@@ -1707,42 +1848,42 @@ function about(){
   app.innerHTML = `<section class='about-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>about</span></div>
     <h1>About a builder's codex</h1>
-    <p class='lede'>A library of ideas from people who've shipped things — every idea attached to the person who said it, the place they said it, and the date.</p>
+    <p class='lede'>A library of usable insights from people who shipped something. Every idea attached to the person who said it, the place they said it, and the date.</p>
 
     <h2>What this is, in one paragraph</h2>
-    <p>Imagine you're learning a craft — product marketing, growth, design, building with AI. The smart move is to read what people who've actually done it think. The problem: the good thinking is scattered across podcasts, posts, talks, books, and threads. By the time you find a useful idea, you've forgotten where it came from, who said it, and whether it was even theirs. So you can't go back to verify it. You can't cite it cleanly. You can't tell when an idea has been re-said by ten different people (a real signal) versus invented by one (a hot take).</p>
-    <p>This codex fixes that. Every card is one idea from one named person, with a primary source URL and a date. We add three things the original source usually doesn't: <em>why</em> it works (mechanism), <em>when</em> it applies (conditions), and <em>when it fails</em> (counter-evidence). So you can use it, not just read it.</p>
+    <p>You are learning a craft. Product marketing. Growth. Design. Building with AI. The smart move is to read what people who have done it think. The problem is the good thinking is scattered across podcasts, posts, talks, books, and threads. By the time you find a useful idea, you have forgotten where it came from, who said it, and whether it was even theirs. So you cannot go back to verify it. You cannot cite it cleanly. You cannot tell when an idea has been re-said by ten different people (a real signal) versus invented by one (a hot take).</p>
+    <p>This codex fixes that. Every insight is one idea from one named person, with a primary source URL and a date. We add three things the source usually skips. Why it works (mechanism). When it applies (conditions). When it fails (counter-evidence). So you can use it, not just read it.</p>
 
-    <h2>How to read a card</h2>
-    <p>Every card has the same shape. <strong>Claim</strong> states the idea in one sentence. <strong>Mechanism</strong> explains why it works — the underlying causal model. <strong>Conditions</strong> says when it applies and when it doesn't. <strong>Evidence</strong> is the operator's quote or example, with the source. <strong>Signals</strong> are the things you'd see in your own work if it's working. <strong>Counter-evidence</strong> is where it fails or who disagrees. <strong>Cross-references</strong> link to related cards.</p>
-    <p>If you only have a minute, read the Claim and skip the rest. If you're considering acting on the idea, read Conditions. If you want to know whether to trust it, read Evidence + Counter-evidence.</p>
+    <h2>How to read an insight</h2>
+    <p>Every insight has the same shape. <strong>Claim</strong> states the idea in one sentence. <strong>Mechanism</strong> explains why it works. The underlying causal model. <strong>Conditions</strong> says when it applies and when it doesn't. <strong>Evidence</strong> is the operator's quote or example, with the source. <strong>Signals</strong> are the things you'd see in your own work if it's working. <strong>Counter-evidence</strong> is where it fails or who disagrees. <strong>Cross-references</strong> link to related insights.</p>
+    <p>If you only have a minute, read the Claim and skip the rest. If you're considering acting on the idea, read Conditions. If you want to know whether to trust it, read Evidence and Counter-evidence.</p>
 
-    <h2>Three things you can do here</h2>
+    <h2>What you can do here</h2>
     <ul>
       <li><strong>Search</strong>. Hit <kbd>⌘K</kbd> or <kbd>/</kbd> from anywhere. Type a phrase, an operator's name, or a domain.</li>
-      <li><strong>Find convergence</strong>. The <a href='#/patterns'>patterns</a> page surfaces ideas where 3+ operators independently agree — the strongest signal in the corpus.</li>
-      <li><strong>Cite it</strong>. Every card has Copy citation, Copy as markdown, and the original source link. Use them.</li>
+      <li><strong>Find convergence</strong>. The <a href='#/patterns'>patterns</a> page surfaces ideas where three or more operators independently agree. The strongest signal in the corpus.</li>
+      <li><strong>Cite it</strong>. Every insight has copy citation, copy as markdown, and the original source link. Use them.</li>
     </ul>
 
     <h2>The corpus right now</h2>
     <ul>
-      <li><strong>${STATS.cards}</strong> insight cards across <strong>${STATS.domains}</strong> domains</li>
+      <li><strong>${STATS.cards}</strong> insights across <strong>${STATS.domains}</strong> domains</li>
       <li><strong>${STATS.operators}</strong> operator profiles</li>
-      <li><strong>${STATS.patterns}</strong> synthesis patterns (3+ operator convergences)</li>
+      <li><strong>${STATS.patterns}</strong> synthesis patterns (three or more operator convergences)</li>
       <li><strong>${STATS.contradictions}</strong> documented contradictions (where operators disagree)</li>
       <li><strong>${STATS.playbooks}</strong> methodology playbooks</li>
       <li><strong>${STATS.tierA}</strong> Tier A claims (the highest-confidence, best-attributed)</li>
     </ul>
 
     <h2>The discipline</h2>
-    <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we're not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
+    <p>Every claim traces to its primary source. Nothing is paraphrased without attribution. Nothing is invented. If we are not sure of a date, we say "unknown" rather than guess. Where operators disagree, we document the disagreement as a contradiction. Where multiple operators converge, we document the convergence as a synthesis pattern. The codex is opinionated about epistemics so you don't have to be.</p>
 
     <h2>For agents and other tools</h2>
-    <p>The corpus is designed to be readable by AI search engines and other automated tools. <a href='https://codex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://codex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://codex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
-    <p>Every card has a static URL like <code>codex.iamkesava.com/ins/&lt;id&gt;/</code> with full content + Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
+    <p>The corpus is built to be readable by AI search engines and other automated tools. <a href='https://codex.iamkesava.com/insight-library/INDEX.json'>INDEX.json</a> is the canonical machine-readable index. Every record carries id, path, operator, source_url, source_date, domain, lifecycle, and tier. <a href='https://codex.iamkesava.com/llms.txt'>llms.txt</a> documents the structure. <a href='https://codex.iamkesava.com/.well-known/agent-permissions.json'>agent-permissions.json</a> declares the licensing terms (MIT, attribution required).</p>
+    <p>Every insight has a static URL at <code>codex.iamkesava.com/ins/&lt;id&gt;/</code> with full content plus Schema.org structured data, so crawlers and AI search agents can read the page without executing JavaScript.</p>
 
     <h2>License</h2>
-    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright; the codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
+    <p>Source on <a href='https://github.com/k3sava/ab-codex' target='_blank' rel='noopener'>GitHub</a>. Released MIT. Raw sources retain their original copyright. The codex archives short excerpts under fair use, always with attribution and a link to the canonical source.</p>
   </section>`;
 }
 
@@ -1913,7 +2054,7 @@ function buildForceGraph(){
       .attr('stroke', l => (l.source.id===d.id || l.target.id===d.id) ? edgeColorHi : edgeColor)
       .attr('stroke-width', l => (l.source.id===d.id || l.target.id===d.id) ? 1.4 : 0.4);
     if (d.type !== 'domain'){
-      tip.textContent = d.type==='insight' ? `${d.label} — ${d.card.operator}` : d.label;
+      tip.textContent = d.type==='insight' ? `${d.label} · ${d.card.operator}` : d.label;
       const rect = svgEl.getBoundingClientRect();
       const wrapRect = wrap.getBoundingClientRect();
       tip.style.left = (event.clientX - wrapRect.left + 14) + 'px';
@@ -1983,7 +2124,7 @@ async function today(){
     app.innerHTML = `<section class='insight-page'>
       <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today</span></div>
       <h1>nothing has landed yet</h1>
-      <p style='color:var(--muted);max-width:60ch'>The release log is empty. Insights, operators, patterns, and playbooks land here as they're added — daily ingests from miniu, plus prompted batches and depth passes.</p>
+      <p style='color:var(--muted);max-width:60ch'>The release log is empty. Insights, operators, patterns, and playbooks land here as they are added. Daily ingests, prompted batches, depth passes.</p>
     </section>`;
     return;
   }
@@ -2015,7 +2156,7 @@ async function today(){
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <span>today</span></div>
     <header class='today-head'>
       <h1>release log</h1>
-      <p class='lede'>${entries.length} release${entries.length===1?'':'s'} since ${entries[entries.length-1]?.date}. Newest first. Each entry is a snapshot of what landed in the corpus that day — daily ingests from miniu, prompted batches, depth passes, and infrastructure work.</p>
+      <p class='lede'>${entries.length} release${entries.length===1?'':'s'} since ${entries[entries.length-1]?.date}. Newest first. Each entry is a snapshot of what landed in the corpus that day. Daily ingests, prompted batches, depth passes, and infrastructure work.</p>
     </header>
     <div class='today-grid'>
       <aside class='today-toc' aria-label='Release dates'>
@@ -2084,7 +2225,7 @@ async function today(){
 // Update <title> and <meta description> per route — better SEO/AEO surface and
 // matches the descriptive-link best practice the corpus documents.
 function setPageMeta(title, description){
-  const fullTitle = title ? `${title} · a builder's codex` : `a builder's codex — operator insight library`;
+  const fullTitle = title ? `${title} · a builder's codex` : `a builder's codex · operator insight library`;
   document.title = fullTitle;
   const set = (selector, value) => {
     const el = document.querySelector(selector);
@@ -2112,8 +2253,8 @@ function updatePageTools(r){
 }
 
 function setMetaForRoute(r, anchor){
-  if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights — atomic claims attributed to named operators with verifiable sources.');
-  if (r==='/today') return setPageMeta('release log', 'What\'s new in the codex — daily ingests, prompted batches, and depth passes from inception forward.');
+  if (r==='/'||r==='') return setPageMeta(null, 'A primary-source library of operator insights. Atomic claims attributed to named operators with verifiable sources.');
+  if (r==='/today') return setPageMeta('release log', 'What is new in the codex. Daily ingests, prompted batches, and depth passes from inception forward.');
   if (r==='/timeline') return setPageMeta('timeline', `${cards.filter(c=>/^\d{4}-\d{2}/.test(c.source_date||'')).length} dated insights across the corpus, density-scaled by month.`);
   if (r==='/operators') return setPageMeta('operators', `${operators.length} operator profiles. Each one a named voice with attributed claims.`);
   if (r==='/patterns') return setPageMeta('patterns', `${patterns.length} synthesis patterns where 3+ operators converge on the same idea from different angles.`);
@@ -2121,16 +2262,16 @@ function setMetaForRoute(r, anchor){
   if (r==='/browse' || r==='/carousel') return setPageMeta('browse', 'Filter insight cards by tier or domain; sort by date, operator, tier.');
   if (r==='/map' || r==='/graph') return setPageMeta('map', 'Interactive force graph: operators outside, domains in the middle, insights orbiting between.');
   if (r==='/flash') return setPageMeta('flash', 'One card at a time. Prev / next / shuffle.');
-  if (r==='/about') return setPageMeta('about', 'About a builder\'s codex — primary-source library of operator insights.');
+  if (r==='/about') return setPageMeta('about', 'About a builder\'s codex. Primary-source library of operator insights.');
   if (r.startsWith('/ins/')){
     const id = decodeURIComponent(r.slice(5));
     const c = cards.find(x => x.id === id);
-    if (c) return setPageMeta(c.claim, `${c.operator} — "${c.claim}" (${c.source_type || 'source'}, ${c.source_date || 'undated'}).`);
+    if (c) return setPageMeta(c.claim, `${c.operator}: "${c.claim}" (${c.source_type || 'source'}, ${c.source_date || 'undated'}).`);
   }
   if (r.startsWith('/o/')){
     const slug = decodeURIComponent(r.slice(3));
     const op = operators.find(o => o.slug === slug);
-    if (op) return setPageMeta(op.name, `${op.name} on a builder's codex — operator profile, cards, and primary sources.`);
+    if (op) return setPageMeta(op.name, `${op.name} on a builder's codex. Operator profile, insights, and primary sources.`);
   }
   if (r.startsWith('/pat/')){
     const id = decodeURIComponent(r.slice(5));
@@ -2149,7 +2290,7 @@ function setMetaForRoute(r, anchor){
   }
   if (r.startsWith('/d/')){
     const d = decodeURIComponent(r.slice(3));
-    return setPageMeta(d, `Domain: ${d} — operator insights tagged ${d}.`);
+    return setPageMeta(d, `Domain: ${d}. Operator insights tagged ${d}.`);
   }
   setPageMeta(null, null);
 }
@@ -2235,9 +2376,9 @@ function wireSearch(){
 
     const groups = [];
     if (opHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Operators</div>${opHits.map(({o})=>`<a class='search-item' href='#/o/${o.slug}' data-href='#/o/${o.slug}' data-kind='operator' data-title='${escapeHtml(o.name)}'><span class='kind'>op</span><b>${escapeHtml(o.name)}</b><span class='mono'>${escapeHtml((o.roles||[])[0]||'')}</span></a>`).join('')}</div>`);
-    if (patHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Patterns</div>${patHits.map(({p})=>`<a class='search-item' href='#/pat/${p.id}' data-href='#/pat/${p.id}' data-kind='pattern' data-title='${escapeHtml(p.title)}'><span class='kind'>pat</span><b>${escapeHtml(p.title)}</b><span class='mono'>tier ${p.tier||'—'}</span></a>`).join('')}</div>`);
+    if (patHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Patterns</div>${patHits.map(({p})=>`<a class='search-item' href='#/pat/${p.id}' data-href='#/pat/${p.id}' data-kind='pattern' data-title='${escapeHtml(p.title)}'><span class='kind'>pat</span><b>${escapeHtml(p.title)}</b><span class='mono'>tier ${p.tier||'·'}</span></a>`).join('')}</div>`);
     if (cardHits.length) groups.push(`<div class='search-group'><div class='search-group-h'>Insights</div>${cardHits.map(({c})=>`<a class='search-item' href='#/ins/${c.id}' data-href='#/ins/${c.id}' data-kind='insight' data-title='${escapeHtml(c.claim)}' data-sub='${escapeHtml(c.operator)}'><span class='kind'>ins</span><b>${escapeHtml(c.claim)}</b><span class='mono'>${escapeHtml(c.operator)}</span></a>`).join('')}</div>`);
-    results.innerHTML = groups.length ? groups.join('') : `<div class='search-empty'>No matches for "${escapeHtml(q)}" — try a shorter phrase, an operator's last name, or a domain like ai-native.</div>`;
+    results.innerHTML = groups.length ? groups.join('') : `<div class='search-empty'>No matches for "${escapeHtml(q)}". Try a shorter phrase, an operator's last name, or a domain like ai-native.</div>`;
     flatItems = [...results.querySelectorAll('.search-item')];
     activeIdx = 0;
     setActiveItem();
@@ -2369,19 +2510,11 @@ function wirePageTools(){
   const ptListen = document.getElementById('ptListen');
   const ptListenLabel = ptListen?.querySelector('.pt-listen-label');
   if (ptShare){
-    ptShare.addEventListener('click', async () => {
+    ptShare.addEventListener('click', (e) => {
+      e.stopPropagation();
       const url = location.href;
-      const title = document.title;
-      try {
-        if (navigator.share && navigator.canShare?.({title, url})){
-          await navigator.share({ title, url });
-        } else {
-          await navigator.clipboard.writeText(url);
-          toast('link copied');
-        }
-      } catch (err){
-        if (err?.name !== 'AbortError') toast('share failed', { icon: 'error' });
-      }
+      const title = document.title.replace(/ · a builder's codex$/, '');
+      openShareMenu(e.currentTarget, { url, title, text: title });
     });
   }
   if (ptListen){

@@ -2,7 +2,7 @@
 
 > A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.
 
-The codex is a structured corpus of cross-domain operator wisdom — product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, founder craft. Every claim traces back to its primary source. Cards carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
+The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
 ## Index
 
