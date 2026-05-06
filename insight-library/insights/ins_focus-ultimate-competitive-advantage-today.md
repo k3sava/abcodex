@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # If Focus is the ultimate competitive advantage, today we're doubling down on it
 
 ## Claim
-If Focus is the ultimate competitive advantage, today we're doubling down on it. Over the past year, we've been building game-changing AI-powered products at Klenty— from parallel and predictive dialers to SDRx (our AI SDR platform) and SchedX. Our mission has always been focused: leverage technology and AI to help sales professionals create meaningful conversations, drive revenue, and boost productivity across industries.
+If Focus is the ultimate competitive advantage, today we're doubling down on it. Over the past year, we've been building game-changing AI-powered products at Klenty, from parallel and predictive dialers to SDRx (our AI SDR platform) and SchedX. Our mission has always been focused: leverage technology and AI to help sales professionals create meaningful conversations, drive revenue, and boost productivity across industries.
 
 ## Mechanism
 Introducing VoxyHealth, vertically integrated AI voice agents built for Healthcare patient and member engagement. I will be taking on the role of CEO of Voxy Health, while continuing to provide guidance to Klenty from a board level.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "If Focus is the ultimate competitive advantage, today we're doubling down on it."
 
-— Vengat Krishnaraj, LinkedIn, 2026-04-10
+· Vengat Krishnaraj, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -17,12 +17,12 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The irony why perhaps product adoption software hasn’t been that popular is also becaus
+# The irony why perhaps product adoption software hasn't been that popular is also becaus
 ## Claim
-Someone (from the tech industry) asked me where I worked and what Userpilot was this weekend. And for the first time (hold my coffee), without thinking much, I responded: it’s a “Lovable for Product Adoption”. I know it’s a bold statement…and a complement for Lovable for becoming a household name for the category of no-code software in such a short time.
+Someone (from the tech industry) asked me where I worked and what Userpilot was this weekend. And for the first time (hold my coffee), without thinking much, I responded: it's a "Lovable for Product Adoption". I know it's a bold statement…and a complement for Lovable for becoming a household name for the category of no-code software in such a short time.
 
 ## Mechanism
-The irony why perhaps product adoption software hasn’t been that popular is also because the legacy solutions in the industry were notoriously difficult to use (iykyk).
+The irony why perhaps product adoption software hasn't been that popular is also because the legacy solutions in the industry were notoriously difficult to use (iykyk).
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "The irony why perhaps product adoption software hasn’t been that popular is also because the legacy solutions in the industry were notoriously difficult to use (iykyk)."
 
-— Emilia Korczynska, LinkedIn, 2026-04-10
+· Emilia Korczynska, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

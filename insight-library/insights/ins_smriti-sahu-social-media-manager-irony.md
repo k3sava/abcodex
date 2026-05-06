@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # The person handling social media for a brand is often the least interested in it due to constant back-and-forth.
 
 ## Claim
-The irony is that the person handling social media, from ideation to execution, for a brand is often the least interested in social media and doesn’t want to do it at all, mainly because of the constant back-and-forth they have to deal with, something no one really talks about.
+The irony is that the person handling social media, from ideation to execution, for a brand is often the least interested in social media and doesn't want to do it at all, mainly because of the constant back-and-forth they have to deal with, something no one really talks about.
 
 ## Mechanism
 The constant back-and-forth in approvals, revisions, and stakeholder management drains the creative energy and enthusiasm of the social media manager, making them disengage from the very platform they're supposed to champion.

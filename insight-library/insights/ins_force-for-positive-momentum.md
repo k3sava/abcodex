@@ -17,13 +17,13 @@ related: [ins_company-house-foundation-beams-mechanicals, ins_make-the-implicit-
 raw_ref: raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md
 ---
 
-# When the decision-maker is unclear, you are it — be a force for positive momentum
+# When the decision-maker is unclear, you are it, be a force for positive momentum
 
 ## Claim
 For PMs, leads, and operators acting without formal authority: when it is not clear who decides, the answer is you. Don't get stuck. The shared interest of every team is progress, impact, and momentum, and acting on that interest is the career-positive move.
 
 ## Mechanism
-Most cross-functional work stalls in ambiguity. Waiting for a designated decider creates queues; the queue itself becomes the bottleneck. An operator who decides — and explicitly names the decision, the rationale, and the reversal path — converts ambiguity into action. The decision is reversible if wrong; the inaction usually is not. The team's energy aligns to whoever creates motion.
+Most cross-functional work stalls in ambiguity. Waiting for a designated decider creates queues; the queue itself becomes the bottleneck. An operator who decides, and explicitly names the decision, the rationale, and the reversal path, converts ambiguity into action. The decision is reversible if wrong; the inaction usually is not. The team's energy aligns to whoever creates motion.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Claire Hughes Johnson scaled Stripe from 160 to 7,000+ as COO. The "force for positive momentum" rule is an operating norm she repeated across the org and named explicitly in *Scaling People*.
 
-— Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
+· Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Cross-functional decisions get logged and shipped within days, not weeks.
@@ -52,5 +52,5 @@ Claire Hughes Johnson scaled Stripe from 160 to 7,000+ as COO. The "force for po
 In high-stakes regulated domains (finance, healthcare, security), defaulting to action without authority can be costly or illegal. The rule is conditional on Type 2 reversibility; Type 1 decisions still need their formal owners.
 
 ## Cross-references
-- `ins_company-house-foundation-beams-mechanicals` — the structure within which momentum is safe
-- `ins_make-the-implicit-explicit` — the meeting-hygiene complement
+- `ins_company-house-foundation-beams-mechanicals`, the structure within which momentum is safe
+- `ins_make-the-implicit-explicit`, the meeting-hygiene complement

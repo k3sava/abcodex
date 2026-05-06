@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Not because I’m on a break, but because I’m still a very hands-on founder
+# Not because I'm on a break, but because I'm still a very hands-on founder
 
 ## Claim
-The story of Reddit SEO & LLM playbook that was born from questions in Slack. I’ve been a bit quiet here on LinkedIn lately. Not because I’m on a break, but because I’m still a very hands-on founder. I’m even designing images and pushing content live.
+The story of Reddit SEO & LLM playbook that was born from questions in Slack. I've been a bit quiet here on LinkedIn lately. Not because I'm on a break, but because I'm still a very hands-on founder. I'm even designing images and pushing content live.
 
 ## Mechanism
-Not because I’m on a break, but because I’m still a very hands-on founder.
+Not because I'm on a break, but because I'm still a very hands-on founder.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Not because I’m on a break, but because I’m still a very hands-on founder."
 
-— Romana Kuts, LinkedIn, 2026-04-10
+· Romana Kuts, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

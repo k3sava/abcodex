@@ -41,7 +41,7 @@ Fails when:
 >
 > Claire ran nine agents on three Mac Minis: Polly (work EA), Finn (family), Sam (sales SDR), Howie (podcast research), Sage (course PM), Q (kids' tutor), and others. Sam-the-SDR replaced 10 hours/week of contractor work running PLG sweeps and drafting soft outreach.
 
-— Claire Vo on Lenny's Podcast, 2026-04-28
+· Claire Vo on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Per-agent context windows stay focused (no cross-domain bleed).
@@ -53,6 +53,6 @@ Fails when:
 A single very strong general agent (e.g., long-context Claude with broad tool access) can outperform a poorly-managed team of small agents. The win is in the management discipline, not the architecture itself. Operators who can't maintain identity + tool docs may get worse outcomes from the team approach.
 
 ## Cross-references
-- `ins_progressive-trust-onboarding` — how to ramp a new agent or teammate onto tools
-- `ins_manager-skill-not-technical` — why the unlock is management, not engineering
-- `ins_llm-wiki-pattern` — the substrate that makes per-agent context durable
+- `ins_progressive-trust-onboarding`, how to ramp a new agent or teammate onto tools
+- `ins_manager-skill-not-technical`, why the unlock is management, not engineering
+- `ins_llm-wiki-pattern`, the substrate that makes per-agent context durable

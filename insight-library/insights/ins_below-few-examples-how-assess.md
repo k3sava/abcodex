@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Below are a few examples of how we assess AI fluency by role
 
 ## Claim
-That’s the top question I’ve gotten this week. Below are a few examples of how we assess AI fluency by role. Please note that these are not requirements or ‘boxes to be checked’. These are quick examples of the skill types we’re assessing to see where an applicant is on their AI journey.
+That's the top question I've gotten this week. Below are a few examples of how we assess AI fluency by role. Please note that these are not requirements or 'boxes to be checked'. These are quick examples of the skill types we're assessing to see where an applicant is on their AI journey.
 
 ## Mechanism
 - How do you use AI to personalize messaging, generate content, or analyze performance?
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Below are a few examples of how we assess AI fluency by role."
 
-— Wade Foster, LinkedIn, 2026-04-10
+· Wade Foster, LinkedIn, 2026-04-10
 
 ## Signals
 - How is AI changing how you plan or execute campaigns?

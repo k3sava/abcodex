@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/donald-miller.md
 # The customer is the hero. Your brand is the guide. If you confuse, you lose.
 
 ## Claim
-The human brain is wired to conserve calories by ignoring information that doesn't help it survive — so messaging must immediately communicate value in survival terms. Story is the most efficient vehicle. The StoryBrand BrandScript: customer (Character) has a Problem, meets a Guide, who gives them a Plan, and Calls them to Action that ends in Success and helps them Avoid Failure. Critical structural rule: the customer is the hero, the brand is the guide.
+The human brain is wired to conserve calories by ignoring information that doesn't help it survive, so messaging must immediately communicate value in survival terms. Story is the most efficient vehicle. The StoryBrand BrandScript: customer (Character) has a Problem, meets a Guide, who gives them a Plan, and Calls them to Action that ends in Success and helps them Avoid Failure. Critical structural rule: the customer is the hero, the brand is the guide.
 
 ## Mechanism
 Most B2B copy positions the company as the hero ("we are the leader"). The brain ignores it because the reader is searching for *their* survival. Story formats hijack the brain's pattern recognition: a clear problem + a credible guide + a simple plan + a call-to-action with stakes. The Guide demonstrates empathy ("I understand your problem") and authority ("I have competence to help"). Diagnostic test: "Could a caveman look at your website and immediately know what you offer, how it'll make life better, and what to do to buy?" If no, the message fails.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The seven elements: A Character, Has a Problem, And Meets a Guide, Who Gives Them a Plan, And Calls Them to Action, That Ends in Success, And Helps Them Avoid Failure."
 
-— Donald Miller, *Building a StoryBrand* (synthesized from operator's published work)
+· Donald Miller, *Building a StoryBrand* (synthesized from operator's published work)
 
 ## Signals
 - Homepage hero section names the customer's aspirational outcome, not the company's awards.
@@ -47,7 +47,7 @@ Fails when:
 - Guide credentials (empathy + authority) appear above the fold, not buried in About.
 
 ## Counter-evidence
-Strategic-positioning frameworks (Dunford, Aaker) argue StoryBrand operates at messaging-execution layer only — it clarifies *how* you communicate but doesn't determine *what* you should stand for. Pure-narrative templates can also produce homogenized B2B messaging when adopted by every company in a category.
+Strategic-positioning frameworks (Dunford, Aaker) argue StoryBrand operates at messaging-execution layer only, it clarifies *how* you communicate but doesn't determine *what* you should stand for. Pure-narrative templates can also produce homogenized B2B messaging when adopted by every company in a category.
 
 ## Cross-references
 - (none in current corpus)

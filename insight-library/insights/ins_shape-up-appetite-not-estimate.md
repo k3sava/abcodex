@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/jason-fried.md
 ---
 
-# Don't ask "how long will this take?" — ask "how much time do we want to spend on this?"
+# Don't ask "how long will this take?", ask "how much time do we want to spend on this?"
 
 ## Claim
 Shape Up replaces estimation with appetite. Instead of asking "how long will this feature take?" the question is "how much time do we want to spend on this?" Scope flexes to fit a fixed time budget. Three phases: Shaping (small senior group defines solution at the right level of abstraction), Betting (shaped pitches go to a betting table; un-bet pitches are *discarded*, not backlogged), Building (a 2-3-person cross-functional team gets the full six weeks; no daily standups, no status meetings).
@@ -39,11 +39,11 @@ Fails when:
 
 > "There is no backlog — if a pitch does not get picked, it is discarded and must be re-pitched if someone still cares about it in a future cycle."
 
-— Jason Fried & Ryan Singer, *Shape Up* (synthesized from operator's published work)
+· Jason Fried & Ryan Singer, *Shape Up* (synthesized from operator's published work)
 
 ## Signals
 - Roadmap is "next 6 weeks" + "after that we'll bet again", not a year of features.
-- The team has no backlog tool — un-bet pitches don't survive past the betting table.
+- The team has no backlog tool, un-bet pitches don't survive past the betting table.
 - Pitches name their appetite (small batch / big batch) and shape, not estimates.
 
 ## Counter-evidence

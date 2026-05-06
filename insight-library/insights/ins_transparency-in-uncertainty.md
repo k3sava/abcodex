@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/aishwarya-naresh-reganti-kiriti-badam--ai-product-design-n
 Most AI products hide model uncertainty from users to look more authoritative. This is a miss. Showing confidence scores, multiple hypotheses, or honest "I'm not sure" responses builds trust and surfaces where the model is weak. Users learn to distrust opaque confidence; they learn to trust transparent uncertainty.
 
 ## Mechanism
-Hidden uncertainty puts the user in a position where they discover failure cases unpredictably and lose trust catastrophically. Transparent uncertainty primes the user to expect calibrated reliability — sometimes high, sometimes low, but legible — and gives them tools to adjust their workflow accordingly. A user with confidence scores learns to verify low-confidence outputs and trust high-confidence ones; a user with hidden confidence learns to verify everything or nothing.
+Hidden uncertainty puts the user in a position where they discover failure cases unpredictably and lose trust catastrophically. Transparent uncertainty primes the user to expect calibrated reliability, sometimes high, sometimes low, but legible, and gives them tools to adjust their workflow accordingly. A user with confidence scores learns to verify low-confidence outputs and trust high-confidence ones; a user with hidden confidence learns to verify everything or nothing.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 Example given: an AI recruiter that says "73% confidence this is a match, but I've flagged edge cases" is more useful than one that just predicts pass/fail.
 
-— Aishwarya Naresh Reganti and Kiriti Badam on Lenny's Podcast, 2026-04-28
+· Aishwarya Naresh Reganti and Kiriti Badam on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Users self-report higher trust in the product despite seeing more "I'm not sure" responses.
@@ -50,4 +50,4 @@ Example given: an AI recruiter that says "73% confidence this is a match, but I'
 Some categories actively reward authoritative-feeling AI (consumer chat, casual content). Adding uncertainty there costs engagement without producing trust gains. The pattern is most powerful in high-stakes professional tools (medical, legal, hiring), least powerful in casual consumer.
 
 ## Cross-references
-- `ins_cccd-continuous-calibration` — the operating loop that produces calibrated confidence
+- `ins_cccd-continuous-calibration`, the operating loop that produces calibrated confidence

@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/joel-klettke.md
 # Information in narrative form is 22x more memorable. Integrate the metric into the moment.
 
 ## Claim
-Most B2B case studies are company-centric press releases disguised as customer stories. Klettke flips: the customer is the hero, the product is the tool, and the story follows the emotional journey from frustration to resolution. Case studies should pull six mental levers: pain, anxiety, hesitation, discovery, transformation, advocacy. Each lever maps to a stage of the prospect's buying journey — and they're feeling those levers in real time as they read.
+Most B2B case studies are company-centric press releases disguised as customer stories. Klettke flips: the customer is the hero, the product is the tool, and the story follows the emotional journey from frustration to resolution. Case studies should pull six mental levers: pain, anxiety, hesitation, discovery, transformation, advocacy. Each lever maps to a stage of the prospect's buying journey, and they're feeling those levers in real time as they read.
 
 ## Mechanism
-Don't abandon facts for story; integrate them. The most powerful moment is when a specific metric lands inside an emotional narrative ("Within 30 days of switching, Volopay went from a 3-4% connect rate to 30-40%. Sarah's team stopped dreading Monday morning standups."). Applied to landing pages: the *interleaved proof pattern* places a 2-3 sentence customer micro-story right after each feature claim — proof arrives at the moment of skepticism, more effective than a separate Testimonials section. Seven distinguishers of top 1% case studies: customer voice preserved (not paraphrased), problem in customer's words, specific numbers in narrative context, hesitation included (what almost stopped them), before/after transformation, full attribution, ≤3-minute read.
+Don't abandon facts for story; integrate them. The most powerful moment is when a specific metric lands inside an emotional narrative ("Within 30 days of switching, Volopay went from a 3-4% connect rate to 30-40%. Sarah's team stopped dreading Monday morning standups."). Applied to landing pages: the *interleaved proof pattern* places a 2-3 sentence customer micro-story right after each feature claim, proof arrives at the moment of skepticism, more effective than a separate Testimonials section. Seven distinguishers of top 1% case studies: customer voice preserved (not paraphrased), problem in customer's words, specific numbers in narrative context, hesitation included (what almost stopped them), before/after transformation, full attribution, ≤3-minute read.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Within 30 days of switching, Volopay went from a 3-4% connect rate to 30-40%. Sarah's team stopped dreading Monday morning standups."
 
-— Joel Klettke / Case Study Buddy (synthesized from operator's published work)
+· Joel Klettke / Case Study Buddy (synthesized from operator's published work)
 
 ## Signals
 - Case studies open with the customer's name and pain, not the company's award count.

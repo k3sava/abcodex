@@ -121,10 +121,13 @@ async function main() {
     const text = await readFile(f, "utf8");
     const parsed = parseFrontmatter(text);
     if (!parsed) continue;
+    // Body H1 wins over frontmatter title — the body is the canonical claim.
+    // Spread frontmatter first, then explicitly override title so a stale
+    // `title:` in frontmatter doesn't shadow a swept body H1.
     insights.push({
       path: relative(ROOT, f),
-      title: firstHeading(parsed.body) ?? parsed.fm.id,
       ...parsed.fm,
+      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
     });
   }
 
@@ -135,8 +138,8 @@ async function main() {
     if (!parsed) continue;
     operators.push({
       path: relative(ROOT, f),
-      title: firstHeading(parsed.body) ?? parsed.fm.name,
       ...parsed.fm,
+      title: firstHeading(parsed.body) ?? parsed.fm.name,
     });
   }
 
@@ -159,8 +162,8 @@ async function main() {
     if (!parsed) continue;
     patterns.push({
       path: relative(ROOT, f),
-      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
       ...parsed.fm,
+      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
     });
   }
 
@@ -172,8 +175,8 @@ async function main() {
     if (!parsed) continue;
     contradictions.push({
       path: relative(ROOT, f),
-      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
       ...parsed.fm,
+      title: firstHeading(parsed.body) ?? parsed.fm.title ?? parsed.fm.id,
     });
   }
 
@@ -183,8 +186,8 @@ async function main() {
     const parsed = parseFrontmatter(text);
     playbooks.push({
       path: relative(ROOT, f),
-      title: firstHeading(parsed?.body ?? text) ?? f,
       ...(parsed?.fm ?? {}),
+      title: firstHeading(parsed?.body ?? text) ?? parsed?.fm?.title ?? f,
     });
   }
 

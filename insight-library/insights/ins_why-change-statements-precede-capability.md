@@ -17,7 +17,7 @@ related: [ins_test-positioning-in-live-sales-pitch]
 raw_ref: raw/research/gartner--3-pillars-ramp-up-user-adoption--2026-04.md
 ---
 
-# 60% of users get new apps without a "why it helps" — fix that before any capability rollout
+# 60% of users get new apps without a "why it helps", fix that before any capability rollout
 
 ## Claim
 Adoption fails by default because vendors and IT assume the value of a new application is self-evident. Sixty percent of tech users report that new applications were introduced without explanations of why and how they would help. Lead with a "why change" statement that connects the app to the user's job; do not lead with capability.
@@ -31,19 +31,19 @@ Holds when:
 - The product has real value to communicate (not a forced upgrade with no benefit).
 
 Fails when:
-- The "why" is generic ("be more productive!") rather than connected to the user's specific job — the rollout becomes corporate noise.
-- The capability is genuinely worse than the previous tool — no "why" overcomes that.
+- The "why" is generic ("be more productive!") rather than connected to the user's specific job, the rollout becomes corporate noise.
+- The capability is genuinely worse than the previous tool, no "why" overcomes that.
 
 ## Evidence
 > "Sixty percent of tech users report that new applications were introduced without explanations of why and how they would help them." (p.1)
 
-— Gartner, *3 Pillars to Ramp Up User Adoption* (G00808124), 2024-06-24. Authors: Charlie Xu, John Quaglietta, Jennifer MacIntosh.
+· Gartner, *3 Pillars to Ramp Up User Adoption* (G00808124), 2024-06-24. Authors: Charlie Xu, John Quaglietta, Jennifer MacIntosh.
 
 The three pillars: build user anticipation; motivate value-critical actions; build proficiency through contextual + real-time training.
 
 ## Signals
 - Every rollout artifact starts with a job-connected "why change" statement, not a feature list.
-- Adoption metrics include "users who can articulate why they got this tool" — measured via surveys or onboarding checks.
+- Adoption metrics include "users who can articulate why they got this tool", measured via surveys or onboarding checks.
 - Real-time / in-product training replaces classroom LMS modules.
 - Value-critical actions are explicitly named and tracked, not buried in a 40-feature changelog.
 
@@ -51,4 +51,4 @@ The three pillars: build user anticipation; motivate value-critical actions; bui
 The framing implies a slow, narrative-led rollout. For frontline workers in fast-changing operational contexts, capability-first training (do this, then this) sometimes outperforms why-first because the user wants procedural clarity, not motivation. The why-change frame is best for knowledge-worker tools and self-serve adoption.
 
 ## Cross-references
-- `ins_test-positioning-in-live-sales-pitch` — Dunford on why outbound positioning fails when buyers don't see the connection; same failure mode at internal rollout.
+- `ins_test-positioning-in-live-sales-pitch`, Dunford on why outbound positioning fails when buyers don't see the connection; same failure mode at internal rollout.

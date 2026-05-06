@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "► Cross-Functional Collaboration - In a world where teamwork is key, PMMs are at the center of collaboration to create better customer experiences."
 
-— Liza Adams, LinkedIn, 2026-04-10
+· Liza Adams, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

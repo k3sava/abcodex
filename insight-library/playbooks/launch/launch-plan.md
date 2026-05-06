@@ -21,10 +21,10 @@ Any product, feature, integration, or repositioning launch. Tier the launch firs
 
 ## Tier classification
 
-- **T0 — Company-defining launch.** New category, repositioning, flagship product. Full multi-channel, full enablement, executive comms.
-- **T1 — Major feature.** Full asset suite, sales enablement, multi-channel external promo.
-- **T2 — Notable feature.** Lighter assets, in-app + email + release notes.
-- **T3 — Maintenance / minor improvement.** Release notes only.
+- **T0, Company-defining launch.** New category, repositioning, flagship product. Full multi-channel, full enablement, executive comms.
+- **T1, Major feature.** Full asset suite, sales enablement, multi-channel external promo.
+- **T2, Notable feature.** Lighter assets, in-app + email + release notes.
+- **T3, Maintenance / minor improvement.** Release notes only.
 
 The most common failure mode is treating every launch as T0.
 
@@ -70,12 +70,12 @@ Internal: sales deck, battlecard, FAQ, CS playbook, training session, dry-run, e
 - Assets shipped but never activated (in-app tours toggled off).
 - Unattributable outcomes; no tracking plan.
 - One person blocking video/design escalates the whole timeline.
-- Launch cancelled after content created — insufficient pre-launch scope alignment.
+- Launch cancelled after content created, insufficient pre-launch scope alignment.
 - LP with views and zero conversions (missing CTA / form).
 - PMM brought in too late, PM excluded from GTM decisions.
 - Overloading launches with channels. Focus on 1–3 effective channels per tier.
 - Stale-positioning launch shipping messaging from a doc written before recent customer evidence.
-- Substrate not updated post-launch — same mistakes recur.
+- Substrate not updated post-launch, same mistakes recur.
 - Voice violations shipped (em-dashes, "agents" vs "reps", forced line breaks, mixed-customer pullquote+stats).
 - Marketing duplicating instrumentation product already runs. Read existing dashboards first; 1-line ask if a metric is missing.
 - Help-article precedence ignored when two articles cover the same topic. Lead with the recently-updated one; verify via Wayback Machine.

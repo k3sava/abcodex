@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Most GTM strategies fail because they're built for 2020, not 2025
 
 ## Claim
-Most GTM strategies fail because they're built for 2020, not 2025. I’ve been fortunate to speak to 50+ founders and operators in 2025 about their GTM. Here's what actually works when buyers have changed, budgets are tight, and your engineering team is drowning in technical debt that's killing your sales velocity.
+Most GTM strategies fail because they're built for 2020, not 2025. I've been fortunate to speak to 50+ founders and operators in 2025 about their GTM. Here's what actually works when buyers have changed, budgets are tight, and your engineering team is drowning in technical debt that's killing your sales velocity.
 
 ## Mechanism
 Most GTM strategies fail because they're built for 2020, not 2025.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Most GTM strategies fail because they're built for 2020, not 2025."
 
-— Kabir Uppal, LinkedIn, 2026-04-10
+· Kabir Uppal, LinkedIn, 2026-04-10
 
 ## Signals
 - Audit Your Technical GTM Stack

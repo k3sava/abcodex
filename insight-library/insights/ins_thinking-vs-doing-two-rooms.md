@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/david-c-baker.md
 # Close the execution door. Force prospects through the strategy door first.
 
 ## Claim
-The premium in professional services lives in the *thinking* (strategy, diagnosis, point of view) — which is less interchangeable. The *doing* (execution, implementation) is commodity work. Most agencies leak their value by giving away strategy in 80-page proposals and then losing the execution work to cheaper shops. The fix: the first engagement is a paid diagnostic or roadmap (5-10% of total project value) that demonstrates how you think without giving away the specific recommendations.
+The premium in professional services lives in the *thinking* (strategy, diagnosis, point of view), which is less interchangeable. The *doing* (execution, implementation) is commodity work. Most agencies leak their value by giving away strategy in 80-page proposals and then losing the execution work to cheaper shops. The fix: the first engagement is a paid diagnostic or roadmap (5-10% of total project value) that demonstrates how you think without giving away the specific recommendations.
 
 ## Mechanism
 Free strategy + paid execution sets the equilibrium where strategy is worthless and execution is commoditized. Paid strategy first inverts the economics: the prospect commits real money to learn how you think, which selects for serious buyers and converts the strategy into the most profitable line of work. Baker's quantitative guardrails for positioning narrow enough to do this well: 10-200 competitors in your niche (fewer = not viable, more = too crowded), 2,000-10,000 reachable prospects.
@@ -31,7 +31,7 @@ Holds when:
 - Buyers in the niche are senior enough to authorize a paid diagnostic.
 
 Fails when:
-- Generalist firms whose strategy isn't actually differentiated — the diagnostic falls flat.
+- Generalist firms whose strategy isn't actually differentiated, the diagnostic falls flat.
 - Industries where free pitching is rigidly standard and the firm can't unilaterally exit.
 
 ## Evidence
@@ -39,7 +39,7 @@ Fails when:
 
 > "Positioning is about what you publicly seek, not what you privately accept."
 
-— David C. Baker, *The Business of Expertise* (synthesized from operator's published work)
+· David C. Baker, *The Business of Expertise* (synthesized from operator's published work)
 
 ## Signals
 - Sales process opens with a paid diagnostic offer, not a free proposal.

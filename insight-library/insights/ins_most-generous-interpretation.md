@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md
 # Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention
 
 ## Claim
-When a teammate's behaviour frustrates you, run an MGI pass — the Most Generous Interpretation of why a good person might be doing this — before deciding the response. The MGI usually surfaces unmet needs or missing skills underneath the behaviour, which become the actual intervention. The default ungenerous read produces grievance, not action.
+When a teammate's behaviour frustrates you, run an MGI pass, the Most Generous Interpretation of why a good person might be doing this, before deciding the response. The MGI usually surfaces unmet needs or missing skills underneath the behaviour, which become the actual intervention. The default ungenerous read produces grievance, not action.
 
 ## Mechanism
-Frustration narrows perception to the worst-case explanation. The teammate who missed a deadline becomes "they don't care." MGI forces the brain through alternative explanations — "they might be overwhelmed, they might have unclear scope, they might be hitting a skill they have not built yet." Each alternative points to a different intervention. The grievance read points to no intervention except more grievance.
+Frustration narrows perception to the worst-case explanation. The teammate who missed a deadline becomes "they don't care." MGI forces the brain through alternative explanations, "they might be overwhelmed, they might have unclear scope, they might be hitting a skill they have not built yet." Each alternative points to a different intervention. The grievance read points to no intervention except more grievance.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "When I started using an MGI, I liked my kid again. We were on the same team. I came up with a whole different range of interventions."
 
-— Becky Kennedy on Lenny's Podcast, 2026-04-28
+· Becky Kennedy on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Difficult conversations open with shared problem-solving rather than accusation.
@@ -50,5 +50,5 @@ Fails when:
 Repeated bad-faith behaviour cannot be MGI'd indefinitely; doing so enables harm. The discipline is a starting move, not an end move.
 
 ## Cross-references
-- `ins_separate-behavior-from-identity` — the conversational complement
-- `ins_repair-as-primary-relationship-strategy` — the move when MGI fails and you reacted badly
+- `ins_separate-behavior-from-identity`, the conversational complement
+- `ins_repair-as-primary-relationship-strategy`, the move when MGI fails and you reacted badly

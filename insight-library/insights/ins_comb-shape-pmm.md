@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-
 # T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar
 
 ## Claim
-The traditional T-shape PMM (deep in one pillar — brand or demand gen or product marketing) no longer fits. Modern PMM needs comb-shape: analytical-comb (best-friends with data science), creative-comb, technical-comb, brand-comb. AI tools collapse the cost of being multi-domain; analytical brand marketers and creative growth marketers are now feasible.
+The traditional T-shape PMM (deep in one pillar, brand or demand gen or product marketing) no longer fits. Modern PMM needs comb-shape: analytical-comb (best-friends with data science), creative-comb, technical-comb, brand-comb. AI tools collapse the cost of being multi-domain; analytical brand marketers and creative growth marketers are now feasible.
 
 ## Mechanism
 T-shape worked when each pillar required deep domain expertise that AI couldn't accelerate. AI now compresses the cost of analytical work, creative production, and technical implementation simultaneously. A PMM who can prompt their way into a usable analysis, a usable creative, and a usable technical implementation outperforms a deep specialist who relies on others for adjacent work. Comb-shape is achievable; T-shape is increasingly a constraint.
@@ -39,7 +39,7 @@ Fails when:
 
 Stripe Connect launch example: solo PMM Krithika built a Python lead-scoring script using ChatGPT to handle 40x lead volume overnight. Used in production "longer than I'd care to admit."
 
-— Krithika Shankarraman on Lenny's Podcast, 2026-04-27
+· Krithika Shankarraman on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - The PMM team's average per-person output across domains rises without specialist hires.
@@ -50,4 +50,4 @@ Stripe Connect launch example: solo PMM Krithika built a Python lead-scoring scr
 Anton Osika's generalist hiring frame for product teams agrees on shape but warns about ceilings. The same warning applies here: comb-shape PMMs hit specialist ceilings on big brand identity work, deep technical content, and ambitious analytical projects. The best teams pair comb-shape PMMs with named specialist resources for the ceiling cases.
 
 ## Cross-references
-- `ins_generalists-over-specialists-ai-native` — same shape from product-team side
+- `ins_generalists-over-specialists-ai-native`, same shape from product-team side

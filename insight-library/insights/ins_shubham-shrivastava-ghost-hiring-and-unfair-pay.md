@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 I've been unemployed for 365 days. The job market is full of ghost hiring, no feedback after clearing all rounds, senior roles paying less than rent, and one person doing the work of an entire team for ₹5-7 LPA in tier 1 cities.
 
 ## Mechanism
-Companies post about inclusive workplaces and empathy, but their hiring practices show the opposite — they devalue candidates by offering prestige and culture instead of fair pay, and expect one person to do multiple roles.
+Companies post about inclusive workplaces and empathy, but their hiring practices show the opposite, they devalue candidates by offering prestige and culture instead of fair pay, and expect one person to do multiple roles.

@@ -21,11 +21,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Founding PMM roles require building the function from scratch and aligning GTM storytelling.
 
 ## Claim
-I’ll be building the product marketing function from the ground up and working closely with the GTM team to align and elevate how we tell Kinsta’s story in the market.
+I'll be building the product marketing function from the ground up and working closely with the GTM team to align and elevate how we tell Kinsta's story in the market.
 
 ## Mechanism
 See claim.
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

@@ -41,7 +41,7 @@ Fails when:
 
 > "Two-week rule: under 2 weeks of eng → engineer drives, PM advisory; over 2 weeks → PM accountable."
 
-— Amol Avasare on Lenny's Podcast, 2026-04-05
+· Amol Avasare on Lenny's Podcast, 2026-04-05
 
 ## Signals
 - PMs report being reactive, behind, and unable to write the "why" doc.
@@ -52,6 +52,6 @@ Fails when:
 The squeeze assumes engineering is the multiplied function. In some orgs, design or research is the genuine multiplier and the bottleneck moves elsewhere. Also, deputising engineers as mini-PMs only works in a culture where product taste is broadly shared; it can fail badly in deeply siloed orgs.
 
 ## Cross-references
-- `ins_cash-four-stage-growth-automation` — the automation that produces the squeeze
-- `ins_underfund-deliberately` — Boris Cherny's structural counterpart
-- `ins_pm-should-not-ship-at-scale` — how senior PMs spend the rebalanced time
+- `ins_cash-four-stage-growth-automation`, the automation that produces the squeeze
+- `ins_underfund-deliberately`, Boris Cherny's structural counterpart
+- `ins_pm-should-not-ship-at-scale`, how senior PMs spend the rebalanced time

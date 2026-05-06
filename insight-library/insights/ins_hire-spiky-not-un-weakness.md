@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md
 # Hire spiky candidates with real strengths and real weaknesses, not the un-weakness average
 
 ## Claim
-Hiring rubrics that reward "no major weakness" produce 3/4 candidates across every dimension and a low ceiling. Hiring rubrics that reward peaks — 4s and 2s — produce candidates with real strengths and real weaknesses. HubSpot's hit rate improved when they switched from un-weakness to spiky.
+Hiring rubrics that reward "no major weakness" produce 3/4 candidates across every dimension and a low ceiling. Hiring rubrics that reward peaks, 4s and 2s, produce candidates with real strengths and real weaknesses. HubSpot's hit rate improved when they switched from un-weakness to spiky.
 
 ## Mechanism
-Capability is bottlenecked by the highest spike, not by the average. A team built of well-rounded 3s rarely produces breakthrough work. A team built of complementary spikes — each member a 4 or 5 in their lane and a 2 in another — covers the full surface through pairing. The hiring conversation also gets sharper because the rubric forces the team to name what specific spike they need, rather than rejecting candidates for soft "concerns."
+Capability is bottlenecked by the highest spike, not by the average. A team built of well-rounded 3s rarely produces breakthrough work. A team built of complementary spikes, each member a 4 or 5 in their lane and a 2 in another, covers the full surface through pairing. The hiring conversation also gets sharper because the rubric forces the team to name what specific spike they need, rather than rejecting candidates for soft "concerns."
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Brian Halligan applied this at HubSpot across multiple hiring cycles before joining Sequoia as CEO coach.
 
-— Brian Halligan on Lenny's Podcast, 2026-04-28
+· Brian Halligan on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Reference checks surface specific stories of brilliance and specific limits, rather than generic competence.
@@ -52,4 +52,4 @@ Brian Halligan applied this at HubSpot across multiple hiring cycles before join
 For roles where consistency is the value (compliance, finance ops, customer support), un-weakness wins. The spiky rubric is conditional on roles where peaks compound.
 
 ## Cross-references
-- `ins_lock-s-ceo-evaluation-rubric` — the higher-level frame
+- `ins_lock-s-ceo-evaluation-rubric`, the higher-level frame

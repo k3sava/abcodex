@@ -18,10 +18,10 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# With AI, excuses about time or skill are dead—marketers must be fast executors who break things.
+# With AI, excuses about time or skill are dead, marketers must be fast executors who break things.
 
 ## Claim
-I need a creative partner, not just an employee. I’m looking for a fast executor who isn’t afraid to break things and who doesn't make excuses about time or skill—because with AI, those excuses are dead.
+I need a creative partner, not just an employee. I'm looking for a fast executor who isn't afraid to break things and who doesn't make excuses about time or skill, because with AI, those excuses are dead.
 
 ## Mechanism
 AI tools dramatically lower the barrier to execution, enabling rapid experimentation and iteration. Marketers who cling to 'not enough time' or 'don't have the skills' are ignoring the new reality where AI can handle production and analysis, freeing humans to focus on creative strategy and bold testing.

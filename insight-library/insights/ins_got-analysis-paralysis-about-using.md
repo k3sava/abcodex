@@ -17,9 +17,9 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla
+# If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla
 ## Claim
-If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenClaw), here are 10 jobs I started with. Caveat: Most of these require a connector to your CRM (HubSpot in my case) and/or a call transcript tool (Grain in my case). ⤷ Have your agent go through won deals and opptys to extract job titles.
+If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenClaw), here are 10 jobs I started with. Caveat: Most of these require a connector to your CRM (HubSpot in my case) and/or a call transcript tool (Grain in my case). ⤷ Have your agent go through won deals and opptys to extract job titles.
 
 ## Mechanism
 ⤷ Go through every oppty with a blank source, sift through activity logs, identify the source, and populate it. Build reports from it. (I wrote about this earlier in the week if you want to peep my last post.)
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "If you’ve got analysis paralysis about using agents (think Claude Code, Cowork, OpenClaw), here are 10 jobs I started with."
 
-— Kevin White, LinkedIn, 2026-04-10
+· Kevin White, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

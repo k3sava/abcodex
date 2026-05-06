@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/archie-abrams--churn-optimization-shopify--2026-04-28.md
 Run a permanent 5% holdout on every shipped change (or a 50/50 split on new-user cohorts) and revisit one to three years later. Roughly 30–40% of changes that produced a clear short-term lift will show no incremental long-term value. Most growth measurement misses this.
 
 ## Mechanism
-Short-term lifts are often pull-forward effects — accelerating signups that would have happened anyway — or low-quality user attraction that does not durable retain. Long-term holdouts catch this by separating "moved the metric" from "created incremental value." Without the holdout, the team takes credit for evaporated wins and re-invests behind theatre.
+Short-term lifts are often pull-forward effects, accelerating signups that would have happened anyway, or low-quality user attraction that does not durable retain. Long-term holdouts catch this by separating "moved the metric" from "created incremental value." Without the holdout, the team takes credit for evaporated wins and re-invests behind theatre.
 
 ## Conditions
 Holds when:
@@ -45,7 +45,7 @@ Fails when:
 
 Operating discipline at Shopify: 5% always-on holdout, automated email reports at 3 / 6 / 9 / 12 months. "You can't hide from reality."
 
-— Archie Abrams on Lenny's Podcast, 2026-04-28
+· Archie Abrams on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Quarterly growth dashboards diverge from one-year cohort GMV / ARPU dashboards.
@@ -53,7 +53,7 @@ Operating discipline at Shopify: 5% always-on holdout, automated email reports a
 - Teams that previously over-claimed wins re-calibrate downward without political damage when the long-term data is automated and shared.
 
 ## Counter-evidence
-For very early-stage products, you don't have the volume or runway to run multi-year holdouts; short-term metrics are all you have. And the 30–40% number is Shopify's, not a universal constant — sample-size and category dependent. Some operators argue holdouts at scale leak revenue Shopify can afford to leak; smaller orgs cannot.
+For very early-stage products, you don't have the volume or runway to run multi-year holdouts; short-term metrics are all you have. And the 30–40% number is Shopify's, not a universal constant, sample-size and category dependent. Some operators argue holdouts at scale leak revenue Shopify can afford to leak; smaller orgs cannot.
 
 ## Cross-references
-- `ins_absolute-counts-over-conversion-rates` — same operator, complementary measurement frame
+- `ins_absolute-counts-over-conversion-rates`, same operator, complementary measurement frame

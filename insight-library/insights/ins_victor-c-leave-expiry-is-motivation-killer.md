@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Expiring annual leave is like Amul Taaza — it's not perishable, it's an employee's time.
+# Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time.
 
 ## Claim
 If anything, the only thing that expires is the employee motivation waiting for permission to use the leaves.

@@ -23,11 +23,11 @@ raw_ref: raw/expert-content/experts/arvid-kahl.md
 For AI-augmented bootstrapped builds, divide work into three phases: the founder owns the first 10% (strategic direction, problem definition, architectural decisions), AI handles the middle 80% (code generation, data migration, testing, documentation), the founder owns the final 10% (quality review, edge cases, customer-facing polish). The split is what lets a solo operator produce team-scale output without losing the human contribution.
 
 ## Mechanism
-The 80% middle is well-understood, repetitive work where AI is fast and cheap. The bookend 10%s are where taste, context, and customer judgment compound. Kahl applies this at Podscan, where agentic coding tools handled infrastructure migration while he held direction and final review. The split also clarifies *what to outsource* mentally — anything that smells like the middle 80% goes to AI by default.
+The 80% middle is well-understood, repetitive work where AI is fast and cheap. The bookend 10%s are where taste, context, and customer judgment compound. Kahl applies this at Podscan, where agentic coding tools handled infrastructure migration while he held direction and final review. The split also clarifies *what to outsource* mentally, anything that smells like the middle 80% goes to AI by default.
 
 ## Conditions
 Holds when:
-- The work is technical and tool-tractable — code, data, testing, docs.
+- The work is technical and tool-tractable, code, data, testing, docs.
 - The founder has enough domain depth to write the first 10% credibly.
 
 Fails when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "You provide the first 10% (strategic direction, problem definition, architectural decisions), AI handles the middle 80% (code generation, data migration, testing, documentation), and you apply the final 10% (quality review, edge case handling, customer-facing polish)."
 
-— Arvid Kahl (synthesized from operator's published work)
+· Arvid Kahl (synthesized from operator's published work)
 
 ## Signals
 - Founder's calendar weighted toward briefing and review, not building.
@@ -48,4 +48,4 @@ Fails when:
 Cat Wu's 100% automation rule cuts against the bookend model: if the human polish step is needed every run, the workflow isn't really an automation, just a co-pilot. For repeatable production tasks, the right move is to push the final 10% itself into automation.
 
 ## Cross-references
-- ins_embedded-entrepreneur — same operator
+- ins_embedded-entrepreneur, same operator

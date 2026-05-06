@@ -17,13 +17,13 @@ related: [ins_systems-of-action-replace-seller-stack, ins_reps-want-questions-no
 raw_ref: raw/research/gartner--cool-vendors-ai-b2b-sales-productivity--2026-04.md
 ---
 
-# By 2027, 95% of seller workflows will begin with AI — up from <20% in 2024
+# By 2027, 95% of seller workflows will begin with AI, up from <20% in 2024
 
 ## Claim
 Gartner's strategic planning assumption: by 2027, 95% of seller workflows will begin with AI (up from less than 20% in 2024), whether sellers choose to or not. By 2028, 75% of RevOps tasks in workflow management, data stewardship, and analytics will be executed by agentic AI. Sales tooling investments not aligned with this entry point will be obsolete.
 
 ## Mechanism
-Once an LLM is the daily driver, every seller workflow starts with "ask the assistant" — pull the deal context, draft the email, summarise the call, identify the risk. The CRM stops being the entry point and becomes the data layer. RevOps tasks that were manual (lead routing, data enrichment, pipeline hygiene) fall to agents because they are bounded and repeatable. Sellers who cannot enter their stack via AI will fall behind on tempo.
+Once an LLM is the daily driver, every seller workflow starts with "ask the assistant", pull the deal context, draft the email, summarise the call, identify the risk. The CRM stops being the entry point and becomes the data layer. RevOps tasks that were manual (lead routing, data enrichment, pipeline hygiene) fall to agents because they are bounded and repeatable. Sellers who cannot enter their stack via AI will fall behind on tempo.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "By 2028, 75% of RevOps tasks in workflow management, data stewardship, and analytics will be executed by agentic AI." (Strategic Planning Assumption, p.2)
 
-— Gartner *Cool Vendors in AI for B2B Sales Productivity* (G00835102), 2025-10-24. Lead author: Dan Gottlieb.
+· Gartner *Cool Vendors in AI for B2B Sales Productivity* (G00835102), 2025-10-24. Lead author: Dan Gottlieb.
 
 ## Signals
 - Sales tools publish AI-entry-point metrics (% of seller actions initiated via AI assistant).
@@ -48,8 +48,8 @@ Fails when:
 - Sales managers' coaching tools surface agent-generated insights before the manager opens the CRM.
 
 ## Counter-evidence
-Gartner SPAs are directional, not deterministic — 95% by 2027 is aggressive and may slip. The "begins with AI" framing is also vulnerable to interpretation: a brief AI-drafted email at the start of a manual workflow technically counts. Operators should treat the trend as real and the specific number as plus-or-minus 20 points.
+Gartner SPAs are directional, not deterministic, 95% by 2027 is aggressive and may slip. The "begins with AI" framing is also vulnerable to interpretation: a brief AI-drafted email at the start of a manual workflow technically counts. Operators should treat the trend as real and the specific number as plus-or-minus 20 points.
 
 ## Cross-references
-- `ins_systems-of-action-replace-seller-stack` — Gottlieb's adjacent claim about the new tooling tier.
-- `ins_reps-want-questions-not-dashboards` — Yamini Rangan's HubSpot evidence of the same shift in production.
+- `ins_systems-of-action-replace-seller-stack`, Gottlieb's adjacent claim about the new tooling tier.
+- `ins_reps-want-questions-not-dashboards`, Yamini Rangan's HubSpot evidence of the same shift in production.

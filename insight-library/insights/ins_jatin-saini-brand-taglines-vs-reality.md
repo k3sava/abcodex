@@ -18,15 +18,15 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Investors decide trust in 100 milliseconds — your personal brand starts on LinkedIn, not in the boardroom
+# Investors decide trust in 100 milliseconds, your personal brand starts on LinkedIn, not in the boardroom
 
 ## Claim
 
-A first impression with an investor doesn't start in the boardroom — it starts the moment they Google you, often hours or days before the pitch. Princeton research shows the brain labels a stranger as 'competent' or 'trustworthy' in 100 milliseconds. For CEOs, VCs, and founders, that means LinkedIn isn't optional; it's where pitch-deck answers get pre-loaded into the investor's head before they even open the deck.
+A first impression with an investor doesn't start in the boardroom, it starts the moment they Google you, often hours or days before the pitch. Princeton research shows the brain labels a stranger as 'competent' or 'trustworthy' in 100 milliseconds. For CEOs, VCs, and founders, that means LinkedIn isn't optional; it's where pitch-deck answers get pre-loaded into the investor's head before they even open the deck.
 
 ## Mechanism
 
-Snap judgments are sticky. If the only data the investor has when they meet you is the deck, every objection lands fresh. If they've already absorbed your story, your customer wins, and your point of view via LinkedIn, those become the lens for the live conversation — and objections get pre-rebutted by your own content.
+Snap judgments are sticky. If the only data the investor has when they meet you is the deck, every objection lands fresh. If they've already absorbed your story, your customer wins, and your point of view via LinkedIn, those become the lens for the live conversation, and objections get pre-rebutted by your own content.
 
 ## Conditions
 

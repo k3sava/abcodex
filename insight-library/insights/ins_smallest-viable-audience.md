@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/seth-godin.md
 ---
 
-# The goal isn't to maximize numbers — it's to be missed if you stopped. Find the smallest viable audience.
+# The goal isn't to maximize numbers, it's to be missed if you stopped. Find the smallest viable audience.
 
 ## Claim
-Marketing is no longer about the stuff you make but the stories you tell. The goal isn't to maximize your numbers — it's to be missed if you stopped. People don't buy goods and services; they buy relationships, stories, and magic. The operating principle: find the smallest viable audience — the group whose problem you can solve so completely they'd be devastated to lose you — and serve them with everything.
+Marketing is no longer about the stuff you make but the stories you tell. The goal isn't to maximize your numbers, it's to be missed if you stopped. People don't buy goods and services; they buy relationships, stories, and magic. The operating principle: find the smallest viable audience, the group whose problem you can solve so completely they'd be devastated to lose you, and serve them with everything.
 
 ## Mechanism
-"Maximize reach" forces flattening — broad enough to please everyone, distinctive to no one. Smallest viable audience inverts: who is the specific group I can serve at a level no competitor can match? Their tribal language ("people like us do things like this") becomes the brand's positioning. Permission Marketing extends this: instead of interrupting strangers, earn permission to deliver anticipated, personal, relevant messages — a much higher-trust relationship that compounds.
+"Maximize reach" forces flattening, broad enough to please everyone, distinctive to no one. Smallest viable audience inverts: who is the specific group I can serve at a level no competitor can match? Their tribal language ("people like us do things like this") becomes the brand's positioning. Permission Marketing extends this: instead of interrupting strangers, earn permission to deliver anticipated, personal, relevant messages, a much higher-trust relationship that compounds.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "People like us do things like this."
 
-— Seth Godin (synthesized from operator's published work)
+· Seth Godin (synthesized from operator's published work)
 
 ## Signals
 - Brand can name the smallest viable audience and the named individuals in it.
@@ -52,4 +52,4 @@ Fails when:
 Some categories (mass consumer CPG, infrastructure) genuinely require maximum reach to economy-of-scale, where smallest-viable thinking under-rates volume. The "be missed" test is also hard to apply pre-launch; it works retrospectively more than prospectively.
 
 ## Cross-references
-- ins_resonance-over-reach — adjacent operator (Jay Acunzo)
+- ins_resonance-over-reach, adjacent operator (Jay Acunzo)

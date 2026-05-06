@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Starving Crowd (market selection) matters more than Offer Strength, which matters more than Persuasion Skills. Most entrepreneurs obsess over the bottom of this hierarchy when the highest-ROI intervention is almost always improving the offer itself or selecting a better market."
 
-— Alex Hormozi, $100M Offers (synthesized from operator's published work)
+· Alex Hormozi, $100M Offers (synthesized from operator's published work)
 
 ## Signals
 - Quarterly review opens with market-fit diagnostics (is this crowd hungry?) before creative tests.
@@ -48,4 +48,4 @@ Fails when:
 Category-design strategists (Play Bigger, Pierri) argue the founder's job is sometimes to *create* the crowd, not find one. Some of the largest outcomes (Figma, Notion, Stripe) came from teaching markets new behaviors rather than feeding pre-existing hunger.
 
 ## Cross-references
-- ins_value-equation-grand-slam-offer — same operator
+- ins_value-equation-grand-slam-offer, same operator

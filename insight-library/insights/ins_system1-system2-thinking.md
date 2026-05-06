@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/daniel-kahneman.md
 System 1 generates fast, automatic impressions that feel like truth. System 2 is the slow, deliberate, lazy process that can override System 1 but rarely bothers. Treating your initial reaction as objective is the first cognitive error in every hard decision. Knowing which situations trigger which biases (anchoring, availability, loss aversion, planning fallacy, WYSIATI) lets you design corrective process before the bias makes the call.
 
 ## Mechanism
-System 1 handles 95% of decisions efficiently — that's why it exists. The problem is that System 2 is too lazy to audit System 1 by default; it endorses the intuition unless explicitly forced into deliberation. The fix is *process*, not effort: structured decision-making (checklists, rubrics, written-before-discussion estimates, pre-mortems) shifts decisions from System 1 to System 2 by changing the architecture rather than relying on willpower.
+System 1 handles 95% of decisions efficiently, that's why it exists. The problem is that System 2 is too lazy to audit System 1 by default; it endorses the intuition unless explicitly forced into deliberation. The fix is *process*, not effort: structured decision-making (checklists, rubrics, written-before-discussion estimates, pre-mortems) shifts decisions from System 1 to System 2 by changing the architecture rather than relying on willpower.
 
 ## Conditions
 Holds when:
@@ -39,11 +39,11 @@ Fails when:
 
 > "Bias is the average error... noise is the unwanted variability in judgments that should be identical. Two doctors diagnosing the same patient... will often reach wildly different conclusions."
 
-— Daniel Kahneman, *Thinking, Fast and Slow* / *Noise* (synthesized from operator's published work)
+· Daniel Kahneman, *Thinking, Fast and Slow* / *Noise* (synthesized from operator's published work)
 
 ## Signals
 - Hiring loops use independent written ratings before debrief discussion.
-- Strategic reviews include a written pre-mortem ("imagine this fails — why?").
+- Strategic reviews include a written pre-mortem ("imagine this fails, why?").
 - Forecasts are reviewed for noise (variance across raters) as well as bias.
 
 ## Counter-evidence

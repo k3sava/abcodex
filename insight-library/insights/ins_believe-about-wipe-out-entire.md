@@ -20,10 +20,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # I believe that AI is about to wipe out an entire generation of SaaS companies
 
 ## Claim
-I believe that AI is about to wipe out an entire generation of SaaS companies. With tools like Lovable, UI Bakery, bolt.new, Cursor and Base44, I’ve seen marketers, sales folks, and even product managers create micro-SaaS without writing a single line of code. I’ve been experimenting myself, building a small attribution tool on Lovable.
+I believe that AI is about to wipe out an entire generation of SaaS companies. With tools like Lovable, UI Bakery, bolt.new, Cursor and Base44, I've seen marketers, sales folks, and even product managers create micro-SaaS without writing a single line of code. I've been experimenting myself, building a small attribution tool on Lovable.
 
 ## Mechanism
-That changes a lot in the B2B space. Because suddenly, a SaaS that only solves one problem isn’t enough.
+That changes a lot in the B2B space. Because suddenly, a SaaS that only solves one problem isn't enough.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I believe that AI is about to wipe out an entire generation of SaaS companies."
 
-— Praveen Das, LinkedIn, 2026-04-10
+· Praveen Das, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

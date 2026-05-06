@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "P.S. Since this is something we use daily, I'm not going to send this to more than 200 people."
 
-— Christian Oland, LinkedIn, 2026-04-10
+· Christian Oland, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

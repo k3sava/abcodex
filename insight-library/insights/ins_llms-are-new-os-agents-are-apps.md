@@ -20,10 +20,10 @@ raw_ref: raw/research/gartner--llms-are-the-new-os--2026-04.md
 # LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores
 
 ## Claim
-The platform-layer hierarchy is shifting. LLM platforms (Claude, ChatGPT, Gemini) are becoming the OS layer — the surface through which enterprise workflows are conducted. Domain-specific agents are becoming the apps. MCP registries are becoming the app stores. SaaS that depends on a UI is being demoted to back-end infrastructure that the LLM-OS calls.
+The platform-layer hierarchy is shifting. LLM platforms (Claude, ChatGPT, Gemini) are becoming the OS layer, the surface through which enterprise workflows are conducted. Domain-specific agents are becoming the apps. MCP registries are becoming the app stores. SaaS that depends on a UI is being demoted to back-end infrastructure that the LLM-OS calls.
 
 ## Mechanism
-Once an LLM is the daily driver for knowledge work, the user no longer goes to twelve different SaaS UIs — they ask the LLM, which calls APIs (often via MCP) on its agents' behalf. The SaaS app stops competing for the user's attention; it competes to be the best-callable infrastructure. UI investments depreciate; API surface, data quality, and agent-friendliness appreciate. Same pattern as Windows demoting MS-DOS apps, iOS demoting feature-phone apps.
+Once an LLM is the daily driver for knowledge work, the user no longer goes to twelve different SaaS UIs, they ask the LLM, which calls APIs (often via MCP) on its agents' behalf. The SaaS app stops competing for the user's attention; it competes to be the best-callable infrastructure. UI investments depreciate; API surface, data quality, and agent-friendliness appreciate. Same pattern as Windows demoting MS-DOS apps, iOS demoting feature-phone apps.
 
 ## Conditions
 Holds when:
@@ -33,7 +33,7 @@ Holds when:
 Fails when:
 - LLM platforms hit a regulatory ceiling that forces them back into narrower assistant roles.
 - Closed-data enterprises (regulated finance, healthcare) maintain UI-bound workflows because data residency and audit trails forbid LLM-mediated calls.
-- A vertical's complexity exceeds what an agent layer can mediate — UI primacy returns where domain depth dominates.
+- A vertical's complexity exceeds what an agent layer can mediate, UI primacy returns where domain depth dominates.
 
 ## Evidence
 > "Every SaaS product that depends on a user interface is about to become back-end infrastructure."
@@ -44,7 +44,7 @@ Fails when:
 >
 > "Anthropic and OpenAI are building operating systems."
 
-— Mark Petty, Gartner (G00828648), 2026-02-27.
+· Mark Petty, Gartner (G00828648), 2026-02-27.
 
 ## Signals
 - Vendor product roadmaps prioritise MCP servers, OpenAPI specs, and agent-friendly auth over UI redesigns.
@@ -53,9 +53,9 @@ Fails when:
 - Analyst categories add "agent-readable" as an evaluation dimension.
 
 ## Counter-evidence
-The OS analogy under-weights the lock-in counter-pressure: incumbents (Salesforce, Microsoft) are racing to be their own LLM-OS rather than ceding the surface to Anthropic/OpenAI. Whether the OS layer consolidates to 2–3 LLM platforms or fragments across 10+ vertical agents is unsettled. Operators should plan for both shapes. Also, "demoted to infrastructure" still sustains substantial businesses (AWS, Stripe) — the demotion isn't extinction.
+The OS analogy under-weights the lock-in counter-pressure: incumbents (Salesforce, Microsoft) are racing to be their own LLM-OS rather than ceding the surface to Anthropic/OpenAI. Whether the OS layer consolidates to 2–3 LLM platforms or fragments across 10+ vertical agents is unsettled. Operators should plan for both shapes. Also, "demoted to infrastructure" still sustains substantial businesses (AWS, Stripe), the demotion isn't extinction.
 
 ## Cross-references
-- `ins_software-is-not-a-moat` — Evan Spiegel; software alone doesn't defend the position.
-- `ins_post-training-as-the-moat` — Asha Sharma; the data layer is what survives the demotion.
-- `ins_rebuild-gtm-around-ai` — Kieran Flanagan; GTM has to follow the platform shift, not bolt onto it.
+- `ins_software-is-not-a-moat`, Evan Spiegel; software alone doesn't defend the position.
+- `ins_post-training-as-the-moat`, Asha Sharma; the data layer is what survives the demotion.
+- `ins_rebuild-gtm-around-ai`, Kieran Flanagan; GTM has to follow the platform shift, not bolt onto it.

@@ -64,7 +64,7 @@ Source synthesis: Tyner Blain (task-based docs), KCS / Consortium for Service In
 - Engineering vocabulary describing how features work internally.
 - More than 3 levels of nav. Each extra level cuts findability by ~20%.
 - Missing cross-links. Dead-end articles.
-- Claiming features not verified. A wrong claim creates a ticket; "may be available" is worse — delete.
+- Claiming features not verified. A wrong claim creates a ticket; "may be available" is worse, delete.
 - Descriptions instead of instructions.
 - Product jargon at the category level.
 - One article doing many tasks.

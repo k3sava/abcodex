@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/ann-handley.md
 # Quality content = Utility × Inspiration × Empathy. Any factor at zero produces nothing.
 
 ## Claim
-High-quality content is the *product* of three factors, not the sum: Utility (genuinely helps the reader decide or act), Inspiration (data or creative energy that could only come from this author), Empathy (relentless reader-perspective). Multiplicative structure means a zero on any factor wipes out the others — strong utility cannot rescue zero empathy.
+High-quality content is the *product* of three factors, not the sum: Utility (genuinely helps the reader decide or act), Inspiration (data or creative energy that could only come from this author), Empathy (relentless reader-perspective). Multiplicative structure means a zero on any factor wipes out the others, strong utility cannot rescue zero empathy.
 
 ## Mechanism
 Most content fails on a single dimension. Pure utility reads like a manual; pure inspiration reads like a personal essay nobody asked for; pure empathy without utility is therapy. Forcing teams to score content on all three before publish surfaces the missing factor and prevents the "compensate with volume" failure where teams overproduce in one dimension to mask weakness in another.
@@ -37,15 +37,15 @@ Fails when:
 ## Evidence
 > "Utility times Inspiration times Empathy is deliberately multiplicative rather than additive: if any factor is zero, the output is zero regardless of how strong the other components are."
 
-— Ann Handley (synthesized from operator's published work)
+· Ann Handley (synthesized from operator's published work)
 
 ## Signals
 - Editorial scorecards rate three axes separately, not a single quality grade.
 - Drafts get rejected for empathy gaps even when utility is high.
-- "So what?" appears as a required step in every brief — Handley's signature reframe.
+- "So what?" appears as a required step in every brief, Handley's signature reframe.
 
 ## Counter-evidence
-Performance content teams (especially in PLG and bottom-of-funnel SEO) often run on pure utility and convert fine — empathy and inspiration are luxuries when the user is already in-market and just wants the answer.
+Performance content teams (especially in PLG and bottom-of-funnel SEO) often run on pure utility and convert fine, empathy and inspiration are luxuries when the user is already in-market and just wants the answer.
 
 ## Cross-references
 - (none in current corpus)

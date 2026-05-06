@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI does 80% of positioning work but the last 20% is what matters.
 
 ## Claim
-I gave an AI three docs from a real company and it produced market research, ICP, messaging, and a homepage mockup in minutes—but it failed on customer voice, conviction, and taste. The output looks right, which is the danger.
+I gave an AI three docs from a real company and it produced market research, ICP, messaging, and a homepage mockup in minutes, but it failed on customer voice, conviction, and taste. The output looks right, which is the danger.
 
 ## Mechanism
-AI collapses days of desk research into hours, but it can't replace customer interviews, win/loss analysis, or strategic judgement calls. The 20% that AI gets wrong—customer voice, conviction, taste—is what makes positioning come alive and differentiated.
+AI collapses days of desk research into hours, but it can't replace customer interviews, win/loss analysis, or strategic judgement calls. The 20% that AI gets wrong, customer voice, conviction, taste, is what makes positioning come alive and differentiated.

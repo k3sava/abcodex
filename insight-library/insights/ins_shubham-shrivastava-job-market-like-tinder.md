@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Job market is like Tinder: few options, many swipes, and desperation makes anything negotiable.
 
 ## Claim
-The job market is like Tinder — options kam hain, swipes zyada. People are so desperate for employment that even location and basic requirements become negotiable.
+The job market is like Tinder, options kam hain, swipes zyada. People are so desperate for employment that even location and basic requirements become negotiable.
 
 ## Mechanism
 When supply of jobs is low and competition is high, candidates stop filtering and start applying indiscriminately, leading to absurd matches (like relocating to Jamaica without checking).

@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "That is why generic AI hits a ceiling here faster than almost anywhere else."
 
-— Gorish Aggarwal, LinkedIn, 2026-04-10
+· Gorish Aggarwal, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

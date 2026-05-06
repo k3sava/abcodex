@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Sales enablement requires experiencing sales firsthand, not just creating assets.
 
 ## Claim
-The best way to do sales enablement is to actually experience sales—sit with the team, listen to calls, and participate in them.
+The best way to do sales enablement is to actually experience sales, sit with the team, listen to calls, and participate in them.
 
 ## Mechanism
 Understanding the specific situations and challenges salespeople face allows you to build tools that support them exactly where they need it, rather than relying on generic templates or frameworks.

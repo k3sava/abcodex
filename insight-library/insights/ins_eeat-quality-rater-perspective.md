@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "E-E-A-T is not a direct ranking factor but rather a framework that helps raters distinguish reliable content from misleading content. Google uses indirect signals like domain reputation, author clarity, and source quality to approximate what raters would assess manually."
 
-— Cyrus Shepard (synthesized from operator's published work)
+· Cyrus Shepard (synthesized from operator's published work)
 
 ## Signals
 - Bylines link to author bio pages with credentials and external profiles.
@@ -45,7 +45,7 @@ Fails when:
 - First-hand experience markers (screenshots, original photography, "I tested this") appear in expertise content.
 
 ## Counter-evidence
-For non-YMYL queries (general informational, recipe, how-to-fix-this-error), E-E-A-T optimization has marginal returns — pure topical relevance and intent matching often dominate. Some SEO researchers (Marie Haynes) push back that E-E-A-T-correlated patches *do* directly affect rankings, not just rater scores.
+For non-YMYL queries (general informational, recipe, how-to-fix-this-error), E-E-A-T optimization has marginal returns, pure topical relevance and intent matching often dominate. Some SEO researchers (Marie Haynes) push back that E-E-A-T-correlated patches *do* directly affect rankings, not just rater scores.
 
 ## Cross-references
 - (none in current corpus)

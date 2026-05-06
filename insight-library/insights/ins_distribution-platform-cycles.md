@@ -20,13 +20,13 @@ raw_ref: raw/podcasts/brian-balfour--distribution-platform-cycles--2026-04-28.md
 # Every distribution platform follows a four-step cycle; cycles are getting shorter
 
 ## Claim
-Every dominant distribution platform — Facebook, Google, iOS, LinkedIn, Twitter, now ChatGPT — moves through a predictable four-step cycle: competition for category, moat identification, open platform with free distribution, and lock-down with monetization. Early movers in step two get free escape velocity; late entrants get crushed. Cycles are accelerating.
+Every dominant distribution platform, Facebook, Google, iOS, LinkedIn, Twitter, now ChatGPT, moves through a predictable four-step cycle: competition for category, moat identification, open platform with free distribution, and lock-down with monetization. Early movers in step two get free escape velocity; late entrants get crushed. Cycles are accelerating.
 
 ## Claim
-Every dominant distribution platform moves through four steps — category competition, moat identification, open platform, lock-down — and the only durable advantage is recognising the cycle and moving into the open phase before competitors do.
+Every dominant distribution platform moves through four steps, category competition, moat identification, open platform, lock-down, and the only durable advantage is recognising the cycle and moving into the open phase before competitors do.
 
 ## Mechanism
-A new platform must seed an ecosystem to win category dominance. During seeding, third-party distribution is effectively free — that is the open phase. Once the platform identifies its moat (network effects, data lock-in), it monetizes by absorbing the highest-value use cases and suppressing organic distribution. Operators who built their flywheel during the open phase have escape velocity by the time the close happens; late entrants face paid-only distribution against incumbents with audiences.
+A new platform must seed an ecosystem to win category dominance. During seeding, third-party distribution is effectively free, that is the open phase. Once the platform identifies its moat (network effects, data lock-in), it monetizes by absorbing the highest-value use cases and suppressing organic distribution. Operators who built their flywheel during the open phase have escape velocity by the time the close happens; late entrants face paid-only distribution against incumbents with audiences.
 
 ## Conditions
 Holds when:
@@ -36,7 +36,7 @@ Holds when:
 
 Fails when:
 - The "platform" is actually a feature that does not develop network effects (most marketing-channel hype falls here).
-- Open-phase entry is too early — there is no audience yet to harvest.
+- Open-phase entry is too early, there is no audience yet to harvest.
 - The operator's product does not benefit from rapid scale (pure consulting, low-throughput services).
 
 ## Evidence
@@ -46,7 +46,7 @@ Fails when:
 
 Examples Balfour cites: Facebook (social games, ~5 year cycle), Google (SEO → ads, ~10+ years), iOS (App Store → ATT), LinkedIn (organic feed → paid promotion). ChatGPT's window may be 1–2 years. Zynga rode the Facebook open phase to 100x growth; many missed it and were killed. Cursor beat GitHub Copilot in nine months by moving onto the AI-IDE channel faster.
 
-— Brian Balfour on Lenny's Podcast, 2026-04-28
+· Brian Balfour on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - A platform shifts from open API and free third-party distribution to paywalls, rate-limits, or feed-algorithm changes that suppress organic.
@@ -58,5 +58,5 @@ Examples Balfour cites: Facebook (social games, ~5 year cycle), Google (SEO → 
 The framework is descriptive and pattern-matched; not every new surface follows it. Some "platforms" (e.g., NFTs, certain crypto channels) never reach a real open phase. Operators who chase every cycle suffer from attention fragmentation; the discipline to *not* enter a fake cycle matters as much as the speed to enter a real one.
 
 ## Cross-references
-- `ins_build-for-model-six-months-out` — temporal-bet logic at the product level
-- `ins_rebuild-gtm-around-ai` — Kieran Flanagan's specific application to the AI distribution shift
+- `ins_build-for-model-six-months-out`, temporal-bet logic at the product level
+- `ins_rebuild-gtm-around-ai`, Kieran Flanagan's specific application to the AI distribution shift

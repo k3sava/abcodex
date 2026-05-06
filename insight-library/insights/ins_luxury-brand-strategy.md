@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/scott-galloway.md
 # Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin
 
 ## Claim
-In the digital age, brand is more important than ever, not less. The most valuable companies have mastered appealing to primal instincts. The most potent brand strategy is luxury: scarcity, irrational pricing, and an iconic founder create a margin structure that compounds over decades. Apple, Hermès, Ferrari operate on this stack — and digital-native brands now have access to the same playbook.
+In the digital age, brand is more important than ever, not less. The most valuable companies have mastered appealing to primal instincts. The most potent brand strategy is luxury: scarcity, irrational pricing, and an iconic founder create a margin structure that compounds over decades. Apple, Hermès, Ferrari operate on this stack, and digital-native brands now have access to the same playbook.
 
 ## Mechanism
-Scarcity creates desirability that survives commoditization. Irrational pricing (premium that exceeds the marginal-cost story) signals quality and selects for the customer base willing to pay it. An iconic founder produces an unforgeable brand story that competitors can't replicate post-hoc. Together they create a flywheel: scarcity drives margin → margin funds quality → quality reinforces scarcity. Brand laddering — climbing the brand pyramid from utility to luxury — is the strategic move; brands that fight to stay at utility-tier are commoditizing themselves.
+Scarcity creates desirability that survives commoditization. Irrational pricing (premium that exceeds the marginal-cost story) signals quality and selects for the customer base willing to pay it. An iconic founder produces an unforgeable brand story that competitors can't replicate post-hoc. Together they create a flywheel: scarcity drives margin → margin funds quality → quality reinforces scarcity. Brand laddering, climbing the brand pyramid from utility to luxury, is the strategic move; brands that fight to stay at utility-tier are commoditizing themselves.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "A luxury strategy is the most potent brand strategy: scarcity, irrational pricing, and an iconic founder create a margin structure that compounds over decades."
 
-— Scott Galloway (synthesized from operator's published work)
+· Scott Galloway (synthesized from operator's published work)
 
 ## Signals
 - Pricing is intentionally premium relative to marginal-cost benchmark.
@@ -47,7 +47,7 @@ Fails when:
 - Founder narrative is a load-bearing asset, not a marketing afterthought.
 
 ## Counter-evidence
-Volume-led consumer plays (Costco, IKEA, Aldi) achieve scale by inverting all three luxury levers — scarcity → ubiquity, irrational pricing → aggressive value pricing, founder → systems. Both strategies work; they're just different games.
+Volume-led consumer plays (Costco, IKEA, Aldi) achieve scale by inverting all three luxury levers, scarcity → ubiquity, irrational pricing → aggressive value pricing, founder → systems. Both strategies work; they're just different games.
 
 ## Cross-references
 - (none in current corpus)

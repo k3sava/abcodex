@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The B2B SaaS noise floor is rising — 2026 demands ruthless focus on pipeline mechanics.
+# The B2B SaaS noise floor is rising, 2026 demands ruthless focus on pipeline mechanics.
 
 ## Claim
 The B2B SaaS noise floor is rising. To hit 2026 targets, you need ruthless focus.
@@ -28,4 +28,4 @@ The key is turning paid ads into predictable, high-value pipeline through real m
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

@@ -17,7 +17,7 @@ related: [ins_roberge-sales-as-engineering-discipline, ins_roberge-structured-tr
 raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
-# Coach on 1-2 specific peer-relative metric gaps per rep — generic coaching produces generic results
+# Coach on 1-2 specific peer-relative metric gaps per rep, generic coaching produces generic results
 
 ## Claim
 Sales managers should run data-driven coaching: for each rep, identify 1-2 specific metrics where they underperform relative to peers (not relative to absolute targets), and build monthly coaching plans around those gaps. Generic coaching ("you're doing well, keep it up" / "do better on discovery") wastes manager time and produces no measurable improvement. Narrow, peer-relative, metric-anchored coaching compounds.
@@ -45,8 +45,8 @@ Fails when:
 - Managers' own performance is evaluated on cohort-level success rate, not only individual-rep attainment (per `ins_skok-sales-rep-failure-rate`).
 
 ## Counter-evidence
-Pure metric-driven coaching can ignore qualitative dimensions — relationship quality, deal narrative, judgment in ambiguous situations — that don't show up in the dashboard but matter for high-ACV deals. The most senior reps in any org typically need coaching that goes beyond peer-relative metrics; the framework is sharpest for ramping reps and median performers.
+Pure metric-driven coaching can ignore qualitative dimensions, relationship quality, deal narrative, judgment in ambiguous situations, that don't show up in the dashboard but matter for high-ACV deals. The most senior reps in any org typically need coaching that goes beyond peer-relative metrics; the framework is sharpest for ramping reps and median performers.
 
 ## Cross-references
-- `ins_roberge-sales-as-engineering-discipline` — the parent framework; this is the management-formula component.
-- `ins_noise-vs-bias-judgment-quality` — Kahneman's noise concept applies: peer benchmarking surfaces the noise in individual rep performance vs. team baseline.
+- `ins_roberge-sales-as-engineering-discipline`, the parent framework; this is the management-formula component.
+- `ins_noise-vs-bias-judgment-quality`, Kahneman's noise concept applies: peer benchmarking surfaces the noise in individual rep performance vs. team baseline.

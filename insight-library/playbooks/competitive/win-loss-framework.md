@@ -15,7 +15,7 @@ secondary_sources:
 
 Closes the loop from closed deals back to positioning, competitive, and CS. Win/loss without continuous synthesis stays ad hoc; the signal is in the deals, the gap is in the loop. This playbook standardizes the loop.
 
-Source synthesis: Bob Moesta (JTBD switch interview — `ins_jtbd-interviews-surface-customer-language`); Dunford (sales detects positioning failure first — `ins_sales-team-detects-positioning-failure-first`); the structural insight that "no decision" is the real competitor (`ins_no-decision-is-the-real-competitor`).
+Source synthesis: Bob Moesta (JTBD switch interview, `ins_jtbd-interviews-surface-customer-language`); Dunford (sales detects positioning failure first, `ins_sales-team-detects-positioning-failure-first`); the structural insight that "no decision" is the real competitor (`ins_no-decision-is-the-real-competitor`).
 
 ## When to use
 
@@ -48,7 +48,7 @@ Keep to 7 max, one primary per theme:
 3. **Alternatives.** Who else did you look at? What was the short list?
 4. **Decision drivers.** What were the 2–3 things that mattered most?
 5. **Vendor comparison.** What did the vendor you chose do better than us?
-6. **Our gap.** Where did we fall short — price, capability, team fit, confidence?
+6. **Our gap.** Where did we fall short, price, capability, team fit, confidence?
 7. **Would reopen?** What would we need to show you to get back in the conversation?
 
 ## Theme extraction (monthly)
@@ -68,15 +68,15 @@ Pattern-match every won deal against the best-deal cohort. Surface narrative rei
 
 ## Outputs
 
-1. `themes.md` — top 5 lost-reason themes with supporting transcripts.
-2. `won-patterns.md` — top 3 won-reason patterns with supporting transcripts.
+1. `themes.md`, top 5 lost-reason themes with supporting transcripts.
+2. `won-patterns.md`, top 3 won-reason patterns with supporting transcripts.
 3. Per-theme signals emitted to positioning, battlecard, objection library.
 4. Case-study candidate list.
 
 ## Non-goals
 
 - Customer surveys. Too many caveats. Interviews only.
-- Calling every lost deal. Capacity-bound — sample smartly, weight by ARR.
+- Calling every lost deal. Capacity-bound, sample smartly, weight by ARR.
 - Public case studies without written customer approval.
 
 ## Quality gates
@@ -85,7 +85,7 @@ Pattern-match every won deal against the best-deal cohort. Surface narrative rei
 - Theme extraction monthly, not ad hoc.
 - Drift between themes and current positioning surfaced explicitly.
 - Battlecard updates traced to specific lost deals.
-- No invented quotes — every quote in themes file traces to a recorded interview or call.
+- No invented quotes, every quote in themes file traces to a recorded interview or call.
 
 ## Common failure modes
 
@@ -94,5 +94,5 @@ Pattern-match every won deal against the best-deal cohort. Surface narrative rei
 - Surveying instead of interviewing. Surveys average out the signal.
 - Sampling skewed to closed-lost only. Closed-won patterns are equally informative.
 - "No-decision" deals excluded from analysis. The real competitor is often inertia.
-- Themes generated but not propagated — battlecards and positioning not updated.
+- Themes generated but not propagated, battlecards and positioning not updated.
 - Public case studies pulled from unapproved transcripts.

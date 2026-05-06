@@ -39,7 +39,7 @@ Fails when:
 
 Code review at Anthropic was tried multiple times before Opus 4.5 / 4.6 plus Sonnet 4.6 made multi-agent code review reliable enough to gate merges on. Each attempt informed the harness; the final release rode the new model into production immediately.
 
-— Cat Wu on Lenny's Podcast, 2026-04-27
+· Cat Wu on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - The team has a list of "almost works" features tracked across model versions.
@@ -47,7 +47,7 @@ Code review at Anthropic was tried multiple times before Opus 4.5 / 4.6 plus Son
 - Competitors who shipped early get lapped because their surface is built for the previous model and harder to rewrite than yours is to upgrade.
 
 ## Counter-evidence
-"Build for the next model" is the easy excuse for shipping nothing. The pattern only works if the team actually ships at each model launch — otherwise it is permanent vaporware. Sherwin Wu's variation ("the models will eat your scaffolding") cuts both ways: don't *over-invest* in the harness either, since the next model may obviate it entirely.
+"Build for the next model" is the easy excuse for shipping nothing. The pattern only works if the team actually ships at each model launch, otherwise it is permanent vaporware. Sherwin Wu's variation ("the models will eat your scaffolding") cuts both ways: don't *over-invest* in the harness either, since the next model may obviate it entirely.
 
 ## Cross-references
-- `ins_remove-features-as-models-improve` — the cleanup half of this build pattern
+- `ins_remove-features-as-models-improve`, the cleanup half of this build pattern

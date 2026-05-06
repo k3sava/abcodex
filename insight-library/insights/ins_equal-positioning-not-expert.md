@@ -17,7 +17,7 @@ related: [ins_calibrated-questions-illusion-of-control]
 raw_ref: raw/expert-content/experts/josh-braun.md
 ---
 
-# The moment you try to convince someone, you activate their resistance — ask, don't tell
+# The moment you try to convince someone, you activate their resistance, ask, don't tell
 
 ## Claim
 Sales isn't about persuading people; it's about guiding prospects to persuade themselves. Position as a peer who has a question, not an expert who has the answer. Equal positioning (peer-to-peer) beats expert positioning (expert-to-prospect). Cold email structure: greeting (one line, personal) → context (one line, relevant observation about the prospect) → question (one genuine question that opens conversation). No pitch. No feature list. No "I'd love 15 minutes."
@@ -39,7 +39,7 @@ Fails when:
 
 > "What happens to leads that don't get a callback within 5 minutes?"
 
-— Josh Braun (synthesized from operator's published work)
+· Josh Braun (synthesized from operator's published work)
 
 ## Signals
 - Outbound emails contain zero pitch in the first message, only a genuine question.
@@ -47,7 +47,7 @@ Fails when:
 - Demo openings ask the buyer to articulate cost-of-inaction in their own words.
 
 ## Counter-evidence
-Direct-response performance copy (Schwartz, Sugarman tradition) consistently outperforms peer-positioning at the volume end of B2C and SMB. Some buyers prefer expert authority — equal positioning can read as evasive in industries where bold claims are the norm.
+Direct-response performance copy (Schwartz, Sugarman tradition) consistently outperforms peer-positioning at the volume end of B2C and SMB. Some buyers prefer expert authority, equal positioning can read as evasive in industries where bold claims are the norm.
 
 ## Cross-references
-- ins_calibrated-questions-illusion-of-control — Voss on letting buyer talk themselves into solutions
+- ins_calibrated-questions-illusion-of-control, Voss on letting buyer talk themselves into solutions

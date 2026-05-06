@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # n8n + MCP + Claude lets GTM teams build workflows in plain English.
 
 ## Claim
-I just plugged Claude into n8n-MCP, and now I can type 'Create a workflow that scrapes LinkedIn comments, enriches contacts in Clay, and pushes to HubSpot' — and Claude builds the entire workflow, ready to run. No code, no consultants, no hours burned.
+I just plugged Claude into n8n-MCP, and now I can type 'Create a workflow that scrapes LinkedIn comments, enriches contacts in Clay, and pushes to HubSpot', and Claude builds the entire workflow, ready to run. No code, no consultants, no hours burned.
 
 ## Mechanism
 It works because n8n-MCP exposes n8n's workflow creation capabilities as a tool that Claude can call via the Model Context Protocol. Claude translates natural language instructions into the exact sequence of n8n nodes, eliminating the need for manual drag-and-drop or scripting.

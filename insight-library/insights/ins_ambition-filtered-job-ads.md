@@ -39,7 +39,7 @@ Fails when:
 
 Anton notes the ad has been an unfair advantage in Sweden, where ambient ambition is lower than in San Francisco. The 18 people on Lovable self-selected through this funnel.
 
-— Anton Osika on Lenny's Podcast, 2026-04-28
+· Anton Osika on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Application volume drops; quality of applications rises.
@@ -50,4 +50,4 @@ Anton notes the ad has been an unfair advantage in Sweden, where ambient ambitio
 Hiring research consistently shows aggressive ad framing depresses applications from underrepresented groups, even when the mission is genuinely demanding. The filter discards strong-but-unobvious candidates alongside weak ones. Counterbalance with proactive sourcing for the demographics the ad will repel.
 
 ## Cross-references
-- `ins_generalists-over-specialists-ai-native` — the team shape this filter is hiring for
+- `ins_generalists-over-specialists-ai-native`, the team shape this filter is hiring for

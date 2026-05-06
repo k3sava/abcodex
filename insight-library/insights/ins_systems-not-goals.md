@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/james-clear.md
 # You don't rise to the level of your goals; you fall to the level of your systems
 
 ## Claim
-Outcomes are lagging indicators of systems, not goals. Winners and losers have the same goals — what differentiates them is the daily habits they follow. Behavior change is most durable when it's identity change ("I am a writer" beats "I want to write a book"). Compounding math: 1% daily improvement = 37x in a year; 1% daily decline = nearly zero.
+Outcomes are lagging indicators of systems, not goals. Winners and losers have the same goals, what differentiates them is the daily habits they follow. Behavior change is most durable when it's identity change ("I am a writer" beats "I want to write a book"). Compounding math: 1% daily improvement = 37x in a year; 1% daily decline = nearly zero.
 
 ## Mechanism
-Four-step habit loop (Cue → Craving → Response → Reward) with four laws (make it obvious, attractive, easy, satisfying). Habit stacking — "After [CURRENT HABIT], I will [NEW HABIT]" — anchors new behavior to existing neural pathways, lowering activation energy. Three continuous-improvement levers: do more of what already works (boring solutions, underused insights); cut what doesn't (improvement by subtraction); measure backward not forward (today vs. yesterday, not today vs. ideal — creates accumulating-progress signal instead of perpetual inadequacy).
+Four-step habit loop (Cue → Craving → Response → Reward) with four laws (make it obvious, attractive, easy, satisfying). Habit stacking, "After [CURRENT HABIT], I will [NEW HABIT]", anchors new behavior to existing neural pathways, lowering activation energy. Three continuous-improvement levers: do more of what already works (boring solutions, underused insights); cut what doesn't (improvement by subtraction); measure backward not forward (today vs. yesterday, not today vs. ideal, creates accumulating-progress signal instead of perpetual inadequacy).
 
 ## Conditions
 Holds when:
@@ -32,7 +32,7 @@ Holds when:
 
 Fails when:
 - One-shot strategic decisions (acquisitions, launches) where habit-design is irrelevant.
-- Domains where exogenous shocks dominate (markets, regulation) — system discipline doesn't insulate.
+- Domains where exogenous shocks dominate (markets, regulation), system discipline doesn't insulate.
 
 ## Evidence
 > "You do not rise to the level of your goals; you fall to the level of your systems."
@@ -41,7 +41,7 @@ Fails when:
 
 > "The goal is not to read a book, the goal is to become a reader."
 
-— James Clear, *Atomic Habits* (synthesized from operator's published work)
+· James Clear, *Atomic Habits* (synthesized from operator's published work)
 
 ## Signals
 - Quarterly OKRs are paired with daily/weekly *system* metrics (publishing cadence, prospecting touches).

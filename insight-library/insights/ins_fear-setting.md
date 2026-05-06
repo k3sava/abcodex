@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/tim-ferriss.md
 ---
 
-# What we fear doing most is usually what we most need to do — fear-set, don't goal-set
+# What we fear doing most is usually what we most need to do, fear-set, don't goal-set
 
 ## Claim
-Effectiveness (doing the things that get you closer to your goals) and efficiency (performing a given task in the most economical manner) should never be confused. The highest-leverage practice for high-stakes decisions: *fear-setting* instead of goal-setting. Define the worst-case scenarios in writing — what could go wrong, how to prevent each, how to recover if each happened — to discover that the worst case is usually survivable, while the cost of inaction is permanent.
+Effectiveness (doing the things that get you closer to your goals) and efficiency (performing a given task in the most economical manner) should never be confused. The highest-leverage practice for high-stakes decisions: *fear-setting* instead of goal-setting. Define the worst-case scenarios in writing, what could go wrong, how to prevent each, how to recover if each happened, to discover that the worst case is usually survivable, while the cost of inaction is permanent.
 
 ## Mechanism
-Generic anxiety about a hard decision is a System 1 fog. Writing the specific feared scenarios in detail brings them into System 2 — and most of them turn out to be either unlikely, recoverable, or both. The cost-of-inaction column is the under-rated half: most operators measure the downside of action against zero, not against the steady accumulating cost of *not* acting. The exercise reframes "should I take this risk?" into "what's the expected cost of *not* taking this risk?"
+Generic anxiety about a hard decision is a System 1 fog. Writing the specific feared scenarios in detail brings them into System 2, and most of them turn out to be either unlikely, recoverable, or both. The cost-of-inaction column is the under-rated half: most operators measure the downside of action against zero, not against the steady accumulating cost of *not* acting. The exercise reframes "should I take this risk?" into "what's the expected cost of *not* taking this risk?"
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "What we fear doing most is usually what we most need to do; effectiveness is doing the things that get you closer to your goals, and efficiency is performing a given task in the most economical manner possible, and the two should never be confused."
 
-— Tim Ferriss (synthesized from operator's published work)
+· Tim Ferriss (synthesized from operator's published work)
 
 ## Signals
 - Major decisions (career, capital, founding) trigger a written fear-setting exercise.
@@ -48,4 +48,4 @@ Fails when:
 For chronic anxiety operators, repeated fear-setting can amplify rather than dissipate worry. Some decisions are genuinely irreversible (founding a company in the wrong category) where fear-setting under-rates the long-term consequence.
 
 ## Cross-references
-- ins_invert-always-invert — adjacent operator (Munger)
+- ins_invert-always-invert, adjacent operator (Munger)

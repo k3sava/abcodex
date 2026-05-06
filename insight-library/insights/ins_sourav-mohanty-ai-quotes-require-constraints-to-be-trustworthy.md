@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI quotes are only as good as the instruction that produced them.
 
 ## Claim
-When using AI to extract quotes from transcripts, 'verbatim' is too vague—AI fills gaps with its own judgment, stitching together sentences and trimming hedges, making the output look sourced but potentially fabricated.
+When using AI to extract quotes from transcripts, 'verbatim' is too vague, AI fills gaps with its own judgment, stitching together sentences and trimming hedges, making the output look sourced but potentially fabricated.
 
 ## Mechanism
 AI reads transcripts relative to the job given, not neutrally. To get trustworthy quotes, lock specific constraints: copy one uninterrupted customer turn only, no merging or cleanup, preserve hedges/fillers, include speaker label + timestamp + context, and explicitly mention any changes.

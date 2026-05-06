@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/jacco-van-der-kooij.md
 ---
 
-# 82% of recurring revenue comes after the initial sale — design GTM around the Bowtie, not the funnel
+# 82% of recurring revenue comes after the initial sale, design GTM around the Bowtie, not the funnel
 
 ## Claim
 In a perpetual-license model, 60% of total revenue is captured at the initial sale. In a recurring-revenue model, only 18% is captured at initial commitment; 82% comes from renewals and expansion. This single fact invalidates the linear sales funnel for SaaS. Replace it with the Bowtie: a symmetric shape where the "knot" is initial commitment, the left side is Awareness/Education/Selection (acquisition), and the right side is Onboarding/Impact/Expansion (the compound growth loop).
 
 ## Mechanism
-The funnel optimizes for one event (close) and stops. The Bowtie aligns Marketing, Sales, and Customer Success around shared metrics and a common language across the full lifecycle, with explicit post-sale stages: first impact, recurring impact, expanding impact. Recurring revenue is the result of recurring impact — so the right side of the Bowtie is where most of the work and most of the value live, and it is the side traditional org structures most under-invest in.
+The funnel optimizes for one event (close) and stops. The Bowtie aligns Marketing, Sales, and Customer Success around shared metrics and a common language across the full lifecycle, with explicit post-sale stages: first impact, recurring impact, expanding impact. Recurring revenue is the result of recurring impact, so the right side of the Bowtie is where most of the work and most of the value live, and it is the side traditional org structures most under-invest in.
 
 ## Conditions
 Holds when:
@@ -32,12 +32,12 @@ Holds when:
 
 Fails when:
 - Transactional or one-time-purchase products where the funnel-end is the actual end.
-- Pre-PMF startups still searching for the initial-sale motion — Bowtie's right-side architecture is premature.
+- Pre-PMF startups still searching for the initial-sale motion, Bowtie's right-side architecture is premature.
 
 ## Evidence
 > "In a perpetual license model, 60% of total revenue is captured at the initial sale; in a recurring model, only 18% is captured at the initial commitment, with 82% coming from renewals and expansion over subsequent years."
 
-— Jacco van der Kooij, *Revenue Architecture* (synthesized from operator's published work)
+· Jacco van der Kooij, *Revenue Architecture* (synthesized from operator's published work)
 
 ## Signals
 - Marketing/Sales/CS share dashboards keyed to Bowtie stages, not funnel stages.
@@ -45,7 +45,7 @@ Fails when:
 - Onboarding has a named "first impact" milestone that is gated and tracked.
 
 ## Counter-evidence
-Some PLG products collapse the Bowtie back into a self-serve loop where the human Sales+CS roles are minimal — the asymmetry is solved by product, not org redesign. For high-velocity transactional SaaS (small ACV, high churn category), heavy Bowtie investment can over-cost the model.
+Some PLG products collapse the Bowtie back into a self-serve loop where the human Sales+CS roles are minimal, the asymmetry is solved by product, not org redesign. For high-velocity transactional SaaS (small ACV, high churn category), heavy Bowtie investment can over-cost the model.
 
 ## Cross-references
 - (none in current corpus)

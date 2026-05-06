@@ -17,13 +17,13 @@ related: [ins_open-coding-then-axial-coding, ins_llm-as-judge-binary-not-likert]
 raw_ref: raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md
 ---
 
-# Evals are systematic data analysis on your LLM application — start with error analysis, not tests
+# Evals are systematic data analysis on your LLM application, start with error analysis, not tests
 
 ## Claim
 LLM evals are not a new mystical discipline; they are systematic data analysis on stochastic application output. The trap is to jump straight to writing tests. Start with open-ended error analysis on real traces, identify the failure modes that survive prompt fixes, then build narrow binary judges only for those.
 
 ## Mechanism
-Tests written before error analysis test the wrong hypotheses — the team's pre-existing model of what could go wrong, not what is actually going wrong. A trace-first approach surfaces the real failure distribution: most issues are fixed by prompt edits and never need a permanent eval. Writing evals before that triage means you spend engineering time hardening against problems that no longer exist while the live failures go uncaught.
+Tests written before error analysis test the wrong hypotheses, the team's pre-existing model of what could go wrong, not what is actually going wrong. A trace-first approach surfaces the real failure distribution: most issues are fixed by prompt edits and never need a permanent eval. Writing evals before that triage means you spend engineering time hardening against problems that no longer exist while the live failures go uncaught.
 
 ## Conditions
 Holds when:
@@ -43,7 +43,7 @@ Fails when:
 
 Hamel and Shreya teach the highest-grossing course on Maven (~2,000 PMs/eng across 500 companies, including OpenAI and Anthropic).
 
-— Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
+· Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Most "failures" found in trace review are fixed by prompt edits within a sprint and never make it to permanent evals.
@@ -51,8 +51,8 @@ Hamel and Shreya teach the highest-grossing course on Maven (~2,000 PMs/eng acro
 - Engineers stop building eval infrastructure speculatively and start with weekly trace reviews.
 
 ## Counter-evidence
-For safety-critical or regulated domains, certain checks (PII, toxicity, jailbreaks) must be in place before any production traffic — there is no "wait and see." That is a separate class of evals, not the failure-mode evals this insight addresses.
+For safety-critical or regulated domains, certain checks (PII, toxicity, jailbreaks) must be in place before any production traffic, there is no "wait and see." That is a separate class of evals, not the failure-mode evals this insight addresses.
 
 ## Cross-references
-- `ins_open-coding-then-axial-coding` — the specific pipeline this insight points to
-- `ins_llm-as-judge-binary-not-likert` — the judge construction rule
+- `ins_open-coding-then-axial-coding`, the specific pipeline this insight points to
+- `ins_llm-as-judge-binary-not-likert`, the judge construction rule

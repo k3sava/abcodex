@@ -17,13 +17,13 @@ related: [ins_intelligence-into-things-that-already-exist]
 raw_ref: raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md
 ---
 
-# Best work is done alone and quietly — caveat: only if you already have a network
+# Best work is done alone and quietly, caveat: only if you already have a network
 
 ## Claim
 The "build in public" orthodoxy is wrong by default for serious B2B work. Every minute spent on public-facing comms is a minute not on customers and product. Build quietly is the right default. Caveat: only safe if you have an existing network for recruiting and intel. Without a network, build in public to assemble one.
 
 ## Mechanism
-Public comms have real cost — content time, distribution time, reputation maintenance — that competes directly with customer and product time. For founders with established networks, the trade-off favors quiet work because the network already provides recruiting and intel. For founders without a network, the trade-off flips because the public surface IS the recruiting and intel funnel.
+Public comms have real cost, content time, distribution time, reputation maintenance, that competes directly with customer and product time. For founders with established networks, the trade-off favors quiet work because the network already provides recruiting and intel. For founders without a network, the trade-off flips because the public surface IS the recruiting and intel funnel.
 
 ## Conditions
 Holds when:
@@ -42,7 +42,7 @@ Caveat directly stated:
 
 Applied Intuition is a $15B AI company most people have never heard of. Built quietly for a decade.
 
-— Qasar Younis on Lenny's Podcast, 2026-04-28
+· Qasar Younis on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Founder time on customer calls and product work outweighs time on public content.
@@ -50,7 +50,7 @@ Applied Intuition is a $15B AI company most people have never heard of. Built qu
 - Competitors with louder public presence don't actually outperform on metrics that matter.
 
 ## Counter-evidence
-Naval Ravikant's "fame is a tool" frame — the founder who builds an audience strategically uses the audience as recruiting/distribution leverage. Both views are valid; the question is how much of the founder's time the public surface should consume. Default to quiet if the network exists; default to public if it doesn't.
+Naval Ravikant's "fame is a tool" frame, the founder who builds an audience strategically uses the audience as recruiting/distribution leverage. Both views are valid; the question is how much of the founder's time the public surface should consume. Default to quiet if the network exists; default to public if it doesn't.
 
 ## Cross-references
-- `ins_intelligence-into-things-that-already-exist` — the positioning rule that pairs with the build-quietly operating mode
+- `ins_intelligence-into-things-that-already-exist`, the positioning rule that pairs with the build-quietly operating mode

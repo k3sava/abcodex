@@ -13,7 +13,7 @@ domains: [sales-cs, research-discovery, pmm, leadership]
 
 ## Premise
 
-Most operators try to win discovery conversations by pre-call research and direct questioning. Voss's career evidence (24 years as the FBI's lead international kidnapping negotiator) and Moesta's research evidence (thousands of switch interviews) both reject this. The decision-relevant information — buyer constraints, hidden authority dynamics, real switching forces, actual incentive structures — is held by the counterpart and surfaces only when the rapport conditions are right. The playbook is not "ask better questions"; it is "build the conditions under which the counterpart volunteers what you need."
+Most operators try to win discovery conversations by pre-call research and direct questioning. Voss's career evidence (24 years as the FBI's lead international kidnapping negotiator) and Moesta's research evidence (thousands of switch interviews) both reject this. The decision-relevant information, buyer constraints, hidden authority dynamics, real switching forces, actual incentive structures, is held by the counterpart and surfaces only when the rapport conditions are right. The playbook is not "ask better questions"; it is "build the conditions under which the counterpart volunteers what you need."
 
 ## The five-tool stack
 
@@ -24,7 +24,7 @@ The Voss tools are designed to be deployed together as an integrated routine, no
 Before pitching, ask, or proposing, list the worst things the counterpart could be thinking about you and say those things first.
 
 - Cold outreach: "You probably get five of these emails a week and you're already deciding to ignore this one."
-- Sales discovery: "I imagine you're skeptical we can actually do what we claim — most vendors say similar things."
+- Sales discovery: "I imagine you're skeptical we can actually do what we claim, most vendors say similar things."
 - Customer escalation: "It sounds like you feel we wasted your time after promising to fix this in October."
 
 The audit drains the negative emotion before it ambushes the conversation. Card: `ins_voss-accusation-audit`.
@@ -41,7 +41,7 @@ The mirror surfaced the procurement / legal dynamic that direct questioning woul
 
 ### 3. Label the emotion when it surfaces
 
-When the counterpart's tone shifts — frustration, hesitation, eagerness, fear — name it neutrally before they have to defend it.
+When the counterpart's tone shifts, frustration, hesitation, eagerness, fear, name it neutrally before they have to defend it.
 
 - "It sounds like you're worried about how the team will react to another tool."
 - "It looks like the timeline is the part that doesn't work for you."
@@ -61,7 +61,7 @@ Calibrated questions reframe the conversation from positional ("I want X, you wa
 
 When you summarise the counterpart's situation accurately enough that they say "That's right" (not "Yes," which is often a stalling token), the conversation has shifted. The counterpart now feels fully understood and is ready to work *with* you. This is the signal to propose, not the signal to keep summarising.
 
-- You: "So if I'm hearing it right, the timeline isn't the real problem — the team's residual frustration from last year's rollout is what's making any new tool feel risky."
+- You: "So if I'm hearing it right, the timeline isn't the real problem, the team's residual frustration from last year's rollout is what's making any new tool feel risky."
 - Counterpart: "That's right."
 
 Card: `ins_voss-thats-right-breakthrough`.
@@ -76,7 +76,7 @@ The Voss stack handles the *real-time conversation*. Two adjacent disciplines co
 
 ## Black Swan integration
 
-Voss's claim is that every negotiation contains 3-5 hidden facts that, if discovered, would change the outcome — and these surface only from rapport. Treat each conversation as a Black Swan hunt:
+Voss's claim is that every negotiation contains 3-5 hidden facts that, if discovered, would change the outcome, and these surface only from rapport. Treat each conversation as a Black Swan hunt:
 
 - Track in your CRM: what is the unknown that could change this deal? (Hidden authority, internal politics, prior bad experience, regulatory constraint, budget timing.)
 - After each call, name what you learned that you did *not* prepare for. Those are your Black Swans.
@@ -87,7 +87,7 @@ Card: `ins_voss-black-swans-discovered-in-process`.
 ## What to skip
 
 - **Tools-as-checklist deployment.** The five tools work because they create real understanding. Performed mechanically without empathy, they read as theatre and damage trust faster than not using them.
-- **No-oriented questions misuse.** Voss's "no-oriented" framing (`ins_no-oriented-questions`) — asking questions that earn a "no" rather than pushing for "yes" — is powerful when used for high-stakes confirmations, easily overused for trivial ones. Reserve for moments that matter.
+- **No-oriented questions misuse.** Voss's "no-oriented" framing (`ins_no-oriented-questions`), asking questions that earn a "no" rather than pushing for "yes", is powerful when used for high-stakes confirmations, easily overused for trivial ones. Reserve for moments that matter.
 - **Manipulation framing.** The playbook fails the moment the counterpart suspects manipulation. Empathy must be real; the techniques amplify genuine listening, they do not substitute for it.
 
 ## Counter-stances

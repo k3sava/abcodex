@@ -30,4 +30,4 @@ Blank-canvas paralysis is real and well-documented. A high-quality draft convert
 
 ## Conditions
 
-Holds for early-stage founders with domain judgment but limited time. Fails when the founder lacks the judgment to recognize fit — there AI drafts become AI noise.
+Holds for early-stage founders with domain judgment but limited time. Fails when the founder lacks the judgment to recognize fit, there AI drafts become AI noise.

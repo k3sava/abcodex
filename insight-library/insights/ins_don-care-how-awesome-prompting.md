@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice, practice, practice. Write more at your job and in your personal life with LinkedIn posts, short stories, scripts, or literally anything."
 
-— Stefan Gladbach, LinkedIn, 2026-04-10
+· Stefan Gladbach, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -28,4 +28,4 @@ Empirical observation.
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

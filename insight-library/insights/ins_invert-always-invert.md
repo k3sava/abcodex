@@ -39,7 +39,7 @@ Fails when:
 
 > "Knowing what you don't know is more useful than being brilliant."
 
-— Charlie Munger (synthesized from operator's published work)
+· Charlie Munger (synthesized from operator's published work)
 
 ## Signals
 - Strategy reviews include a written "what would guarantee failure" list.
@@ -47,7 +47,7 @@ Fails when:
 - Capital decisions name the downside scenario before the upside.
 
 ## Counter-evidence
-Optimization cultures (high-frequency trading, growth marketing) argue that inversion biases toward conservatism — when the cost of action is reversible and small, forward optimization beats failure-avoidance. Reid Hoffman's "blitzscaling" thesis treats some categories as winner-take-all where avoiding failure is the surest way to lose.
+Optimization cultures (high-frequency trading, growth marketing) argue that inversion biases toward conservatism, when the cost of action is reversible and small, forward optimization beats failure-avoidance. Reid Hoffman's "blitzscaling" thesis treats some categories as winner-take-all where avoiding failure is the surest way to lose.
 
 ## Cross-references
-- ins_latticework-of-mental-models — same operator
+- ins_latticework-of-mental-models, same operator

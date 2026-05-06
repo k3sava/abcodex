@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Generational marketing is lazy — buyers within a generation differ more than across them
+# Generational marketing is lazy, buyers within a generation differ more than across them
 
 ## Claim
 
@@ -30,4 +30,4 @@ Generational segmentation is a heuristic that feels intuitive in the boardroom b
 
 ## Conditions
 
-Holds for consumer brands with rich behavioral data. Fails when the only available data is age and demographic — there generational shorthand is at least better than nothing.
+Holds for consumer brands with rich behavioral data. Fails when the only available data is age and demographic, there generational shorthand is at least better than nothing.

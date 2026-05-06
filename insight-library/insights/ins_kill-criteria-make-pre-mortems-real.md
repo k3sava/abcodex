@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28
 # Pre-mortems only work if you commit kill criteria before starting
 
 ## Claim
-A pre-mortem ("assume this failed; why?") becomes a feelings exercise unless you commit explicit kill criteria — quantified conditions under which you will stop or pivot — before launch. The criteria turn the pre-mortem into a real decision gate.
+A pre-mortem ("assume this failed; why?") becomes a feelings exercise unless you commit explicit kill criteria, quantified conditions under which you will stop or pivot, before launch. The criteria turn the pre-mortem into a real decision gate.
 
 ## Mechanism
 Without kill criteria, every "fail mode" surfaced in a pre-mortem can be rationalised away in flight ("the metric is bad but the launch is great in other ways"). Kill criteria, written down before commitment, remove the rationalisation surface. The pre-launch decision binds the post-launch self. The same dynamic that makes Ulysses tie himself to the mast applies to teams under sunk-cost pressure.
@@ -39,9 +39,9 @@ Fails when:
 ## Evidence
 > "If we see >30% churn in month 2, we pivot messaging."
 
-Annie's framing: a pre-mortem without kill criteria is a feelings exercise; with kill criteria it is a decision gate. Direct application: campaign launches, product bets, messaging changes — every pre-launch session ends with a written threshold for stop or pivot.
+Annie's framing: a pre-mortem without kill criteria is a feelings exercise; with kill criteria it is a decision gate. Direct application: campaign launches, product bets, messaging changes, every pre-launch session ends with a written threshold for stop or pivot.
 
-— Annie Duke on Lenny's Podcast, 2026-04-28
+· Annie Duke on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Every pre-mortem document ends with a numbered list of kill criteria.
@@ -52,5 +52,5 @@ Annie's framing: a pre-mortem without kill criteria is a feelings exercise; with
 For exploratory or research bets where outcomes are unpredictable, premature kill criteria can shut down genuinely useful learning. The discipline is conditional on bets where success looks knowable in advance.
 
 ## Cross-references
-- `ins_make-intuition-explicit` — the broader practice
-- `ins_no-such-thing-as-long-feedback-loop` — the measurement complement
+- `ins_make-intuition-explicit`, the broader practice
+- `ins_no-such-thing-as-long-feedback-loop`, the measurement complement

@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Job searching is a loop you survive by staying in it, not a straight line.
 
 ## Claim
-Most candidates think they're doing something wrong when they get no replies, but they're just mid-cycle. The ones who land offers don't have better resumes—they have better endurance.
+Most candidates think they're doing something wrong when they get no replies, but they're just mid-cycle. The ones who land offers don't have better resumes, they have better endurance.
 
 ## Mechanism
 The job search follows a predictable loop: apply, hear nothing, revamp, get interviews, get rejected, adjust, repeat. Treating rejection as a data point rather than a verdict keeps you moving through the cycle until you land an offer.

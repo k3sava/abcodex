@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # 💸 The Financial Services track is scaling fast, introducing new features like Business
 ## Claim
-💸 The Financial Services track is scaling fast, introducing new features like Business Accounts, smoother payments, better cash-in, and smarter expenses management. 🫵 To help us bring these products to market with clarity, ambition, and real business impact, we’re looking for a Senior PMM who loves full-funnel GTM, cross-team orchestration, and turning complex features into simple, compelling stories.
+💸 The Financial Services track is scaling fast, introducing new features like Business Accounts, smoother payments, better cash-in, and smarter expenses management. 🫵 To help us bring these products to market with clarity, ambition, and real business impact, we're looking for a Senior PMM who loves full-funnel GTM, cross-team orchestration, and turning complex features into simple, compelling stories.
 
 ## Mechanism
-🫵 To help us bring these products to market with clarity, ambition, and real business impact, we’re looking for a Senior PMM who loves full-funnel GTM, cross-team orchestration, and turning complex features into simple, compelling stories.
+🫵 To help us bring these products to market with clarity, ambition, and real business impact, we're looking for a Senior PMM who loves full-funnel GTM, cross-team orchestration, and turning complex features into simple, compelling stories.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "💸 The Financial Services track is scaling fast, introducing new features like Business Accounts, smoother payments, better cash-in, and smarter expenses management."
 
-— Jesse Bellaiche, LinkedIn, 2026-04-10
+· Jesse Bellaiche, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -36,7 +36,7 @@ Fails when:
 ## Evidence
 > "Never ever once have I seen a rebrand or redesign produce good performance results. Best case = net neutral, then 3–6 months of optimization to recover."
 
-— Elena Verna on Lenny's Podcast, 2026-04-28
+· Elena Verna on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - The leadership champion for the rebrand is the one whose taste it reflects.
@@ -44,7 +44,7 @@ Fails when:
 - The rebrand pitch contains the word "fresh" or "modern" without specific positioning rationale.
 
 ## Counter-evidence
-Specific rebrands tied to genuine strategic shifts (acquisition, repositioning, category creation) can lift growth — but the lift comes from the strategic shift, not the rebrand itself. Andy Raskin's strategic-narrative work is the right lens for those cases.
+Specific rebrands tied to genuine strategic shifts (acquisition, repositioning, category creation) can lift growth, but the lift comes from the strategic shift, not the rebrand itself. Andy Raskin's strategic-narrative work is the right lens for those cases.
 
 ## Cross-references
 - (positioning-related cards across operators)

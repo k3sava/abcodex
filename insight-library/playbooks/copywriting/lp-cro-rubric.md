@@ -12,7 +12,7 @@ secondary_sources:
 
 # Landing page CRO rubric playbook
 
-A section-by-section audit of a landing-page draft that produces weighted scores, a prioritized fix list, and a ship/block decision. Use as a gate inside the LP ship workflow — runs after voice enforcement, before any synthetic-audience or live test.
+A section-by-section audit of a landing-page draft that produces weighted scores, a prioritized fix list, and a ship/block decision. Use as a gate inside the LP ship workflow, runs after voice enforcement, before any synthetic-audience or live test.
 
 Source synthesis: Peep Laja (Wynter, quantified message testing), Craig Sullivan (CRO audit framework), Joanna Wiebe (above-the-fold copy), Brian Massey (Conversion Sciences rubric), and the ai-marketing-claude `market-landing` 7-point framework.
 

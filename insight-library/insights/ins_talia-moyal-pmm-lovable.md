@@ -18,15 +18,15 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# AI-native PMM means redesigning workflows around AI economics — not adding AI to existing ones
+# AI-native PMM means redesigning workflows around AI economics, not adding AI to existing ones
 
 ## Claim
 
-AI-native PMM isn't about using AI tools to augment existing workflows. It's about redesigning workflows and org structure around the new economics AI creates: drafting, summarizing, and automating are now cheap. Top three PMM use cases to fully automate: competitive intelligence, enablement, and product launches — because the apps you create around them get smarter with every campaign. Hiring shifts toward people with taste — those who can look at an output and know if it hits the quality bar.
+AI-native PMM isn't about using AI tools to augment existing workflows. It's about redesigning workflows and org structure around the new economics AI creates: drafting, summarizing, and automating are now cheap. Top three PMM use cases to fully automate: competitive intelligence, enablement, and product launches, because the apps you create around them get smarter with every campaign. Hiring shifts toward people with taste, those who can look at an output and know if it hits the quality bar.
 
 ## Mechanism
 
-Augmenting existing workflows preserves the cost structure of the old work. Redesigning around AI economics changes what's worth doing — anything that's now cheap should happen more, anything that's still expensive (judgment, taste, editorial nuance) becomes the bottleneck and the hiring filter. The org chart follows.
+Augmenting existing workflows preserves the cost structure of the old work. Redesigning around AI economics changes what's worth doing, anything that's now cheap should happen more, anything that's still expensive (judgment, taste, editorial nuance) becomes the bottleneck and the hiring filter. The org chart follows.
 
 ## Conditions
 

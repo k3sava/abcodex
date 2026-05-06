@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# My sense is we’re seeing three shifts at once
+# My sense is we're seeing three shifts at once
 
 ## Claim
-People say product marketing is having a moment. Is it? Over the past few months, what I’m hearing from PMMs across the field sounds more nuanced than that. Junior PMMs talk about how difficult it is to break into the function at all, while senior PMMs describe a market with fewer roles and hiring processes that can stretch for months.
+People say product marketing is having a moment. Is it? Over the past few months, what I'm hearing from PMMs across the field sounds more nuanced than that. Junior PMMs talk about how difficult it is to break into the function at all, while senior PMMs describe a market with fewer roles and hiring processes that can stretch for months.
 
 ## Mechanism
 Second, teams are being consolidated. Instead of building large PMM organizations, many companies hire one very senior operator responsible for narrative, positioning, launches, and GTM alignment across the company. When the role carries that much weight, hiring slows down and expectations increase.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "My sense is we’re seeing three shifts at once."
 
-— Yael Davidowitz-Neu, LinkedIn, 2026-04-10
+· Yael Davidowitz-Neu, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

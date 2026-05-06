@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "This is what happened when we stopped fighting how LLMs think."
 
-— Rabi Shanker Guha, LinkedIn, 2026-04-10
+· Rabi Shanker Guha, LinkedIn, 2026-04-10
 
 ## Signals
 - rendering was too slow

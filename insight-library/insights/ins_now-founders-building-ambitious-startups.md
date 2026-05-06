@@ -17,9 +17,9 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# For now, founders building ambitious startups – I’d love to hear from you and see how w
+# For now, founders building ambitious startups, I'd love to hear from you and see how w
 ## Claim
-Life has come full circle, and I’m excited to share that I’ve joined Google as Head of Google for Startups - India 🍋 The backstory: In 2013, I sat for two interviews: one at Google and one at Zomato. I didn’t make it through Google’s last round, but I did get into Zomato — and those 6 years changed everything for me. Zomato helped me identify my career moat, gave me lifelong friends, an incredibly steep learning curve and the resilience to eventually take the leap and co-found leap.club.
+Life has come full circle, and I'm excited to share that I've joined Google as Head of Google for Startups - India 🍋 The backstory: In 2013, I sat for two interviews: one at Google and one at Zomato. I didn't make it through Google's last round, but I did get into Zomato, and those 6 years changed everything for me. Zomato helped me identify my career moat, gave me lifelong friends, an incredibly steep learning curve and the resilience to eventually take the leap and co-found leap.club.
 
 ## Mechanism
 Sometime in August, I came across a role at Google that perfectly aligned with my journey. The role sat at the intersection of 0–10, founders and everything I've built over the years. It kinda felt like destiny iykwim.
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "For now, founders building ambitious startups – I’d love to hear from you and see how we can support your journey."
 
-— Ragini Das, LinkedIn, 2026-04-10
+· Ragini Das, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

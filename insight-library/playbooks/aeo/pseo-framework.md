@@ -30,10 +30,10 @@ Source synthesis: post-HCU forensics, Lily Ray on AI Overview substrate (`ins_ai
 
 Each template lives in a directory with:
 
-- `template.md` — skeleton with `{variable}` placeholders.
-- `variables.csv` — the combinatorial variable set.
-- `differentiation-rubric.md` — what makes pages non-duplicate.
-- `review-checklist.md` — manual pass criteria.
+- `template.md`, skeleton with `{variable}` placeholders.
+- `variables.csv`, the combinatorial variable set.
+- `differentiation-rubric.md`, what makes pages non-duplicate.
+- `review-checklist.md`, manual pass criteria.
 
 ## Build loop
 
@@ -54,7 +54,7 @@ publish via LP builder or content-publish flow
 ## Safety gates
 
 - **Template-level gate.** A reviewer approves the template after auditing 5 generated sample pages against the differentiation rubric and human-value test. Only after approval does the template unlock for volume generation.
-- **Per-page sample gate.** 1 in 10 generated pages requires a human read before publish. Randomized sample, not deterministic — prevents gaming.
+- **Per-page sample gate.** 1 in 10 generated pages requires a human read before publish. Randomized sample, not deterministic, prevents gaming.
 - **Post-publish watch.** Any template whose CTR or position regresses past a threshold gets flagged; investigate or kill.
 
 ## Common failure modes
@@ -64,7 +64,7 @@ publish via LP builder or content-publish flow
 - **Scaling without monitoring.** 10,000 pages, no oversight. Mitigation: weekly prune job + Search Console trends per template.
 - **Boilerplate over 50%.** Differentiation drops, embedding distance fails the threshold.
 - **Auto-publish.** Even one bad batch tanks domain trust under HCU.
-- **Variable sets that produce empty pages.** "Best [tool] for [niche]" with zero data when the niche has no real evidence — page is filler.
+- **Variable sets that produce empty pages.** "Best [tool] for [niche]" with zero data when the niche has no real evidence, page is filler.
 
 ## Quality gates
 

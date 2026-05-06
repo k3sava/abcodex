@@ -17,10 +17,10 @@ related: [ins_engineers-with-product-taste]
 raw_ref: raw/podcasts/sherwin-wu--openai-codex-engineers-as-managers--2026-04-28.md
 ---
 
-# AI tools widen the spread between top and bottom performers — invest in top performers
+# AI tools widen the spread between top and bottom performers, invest in top performers
 
 ## Claim
-The standard management orthodoxy is "raise the floor" — bring the bottom performers up. AI tools invert this: top performers benefit disproportionately, the spread widens, and management leverage now comes from investing in the top, not the floor. At OpenAI, heavy Codex users open 70% more PRs and the gap is *widening*.
+The standard management orthodoxy is "raise the floor", bring the bottom performers up. AI tools invert this: top performers benefit disproportionately, the spread widens, and management leverage now comes from investing in the top, not the floor. At OpenAI, heavy Codex users open 70% more PRs and the gap is *widening*.
 
 ## Mechanism
 AI tools amplify whatever judgment, taste, and ambition the user brings. A top performer with Codex can run 10–20 agent threads in parallel; a bottom performer with the same tool struggles to ship a single one because they don't know what to ask. The tool isn't the differentiator; the user's pre-existing skill is. As tools improve, the multiplier widens.
@@ -41,7 +41,7 @@ Heavy Codex users at OpenAI open 70% more PRs than average users. The spread is 
 
 > "Spend more time with top performers, not bottom performers."
 
-— Sherwin Wu on Lenny's Podcast, 2026-04-28
+· Sherwin Wu on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Output metrics published openly so the spread is visible.
@@ -52,4 +52,4 @@ Heavy Codex users at OpenAI open 70% more PRs than average users. The spread is 
 Asha Sharma's "polymath builder" thesis and Anton Osika's generalist hiring both argue for distributed capability across the team rather than concentration in top performers. The two views can coexist: hire generalists with depth, then accept that some of those generalists will compound faster than others. Don't artificially flatten the spread.
 
 ## Cross-references
-- `ins_engineers-with-product-taste` — the staffing precondition
+- `ins_engineers-with-product-taste`, the staffing precondition

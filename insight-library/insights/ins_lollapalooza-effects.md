@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/charlie-munger.md
 # Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning
 
 ## Claim
-Extreme outcomes — viral adoption, market bubbles, sudden churn cliffs, blowout product failures — usually come not from a single force but from multiple biases or incentives stacking in the same direction at the same time. Any single mental model will under-predict the magnitude; only a multi-model lens explains why the result was so far from "reasonable."
+Extreme outcomes, viral adoption, market bubbles, sudden churn cliffs, blowout product failures, usually come not from a single force but from multiple biases or incentives stacking in the same direction at the same time. Any single mental model will under-predict the magnitude; only a multi-model lens explains why the result was so far from "reasonable."
 
 ## Mechanism
 Each cognitive bias on its own has a measurable but bounded effect on behavior. When several align (e.g., social proof + authority bias + loss aversion + scarcity all pointing toward "buy now"), their effects compound multiplicatively rather than additively. The aggregate output exceeds anything the operator would have predicted from inspecting biases independently. Recognising lollapalooza requires (a) carrying multiple models simultaneously and (b) checking whether they are all pointing the same direction in this specific situation. When they are, raise the alarm: outcomes will be extreme either way (pro or con).
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "Lollapalooza Effects, Munger's term for the phenomenon where multiple cognitive biases or forces act in the same direction simultaneously, producing extreme outcomes that no single model would predict."
 
-— see `raw/expert-content/experts/charlie-munger.md` line 16.
+· see `raw/expert-content/experts/charlie-munger.md` line 16.
 
 ## Signals
 - Pre-launch reviews that explicitly enumerate which biases customers will face during the buying decision and check for alignment vs. opposition.
@@ -47,8 +47,8 @@ Fails when:
 - "Cool-off" periods or deliberate friction inserted into purchase paths when multiple persuasion biases are stacked.
 
 ## Counter-evidence
-Lollapalooza is hard to falsify — almost any extreme outcome can be reverse-engineered into a multi-bias narrative. The diagnostic-vs-predictive split matters: it is far more useful as an after-the-fact lens than as an ex-ante forecasting tool. Skeptics argue lollapalooza is more meta-narrative than testable mechanism.
+Lollapalooza is hard to falsify, almost any extreme outcome can be reverse-engineered into a multi-bias narrative. The diagnostic-vs-predictive split matters: it is far more useful as an after-the-fact lens than as an ex-ante forecasting tool. Skeptics argue lollapalooza is more meta-narrative than testable mechanism.
 
 ## Cross-references
-- `ins_latticework-of-mental-models` — lollapalooza is the operating reason Munger argues for *multiple* models, not just one.
-- `ins_loss-aversion-status-quo-bias`, `ins_anchoring-pricing-negotiation` — concrete bias-cards that can stack with social proof and scarcity to produce a buying lollapalooza.
+- `ins_latticework-of-mental-models`, lollapalooza is the operating reason Munger argues for *multiple* models, not just one.
+- `ins_loss-aversion-status-quo-bias`, `ins_anchoring-pricing-negotiation`, concrete bias-cards that can stack with social proof and scarcity to produce a buying lollapalooza.

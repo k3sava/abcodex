@@ -32,14 +32,14 @@ Holds when:
 
 Fails when:
 - Early-stage companies without enough closed-won data for reliable win-rate cohorts.
-- ABM-led motions where the unit is account, not lead — different metric architecture needed.
+- ABM-led motions where the unit is account, not lead, different metric architecture needed.
 
 ## Evidence
 > "HIRO (High Intent Revenue Opportunity) Pipeline metric, which standardizes pipeline measurement across companies by requiring that leads come through a high-intent source with win rates above 3% and reach a deal stage converting at 25% or higher."
 
 > "Across a cohort of 20 B2B SaaS clients, Refine Labs achieved a median 76% increase in HIRO Pipeline."
 
-— Chris Walker (synthesized from operator's published work)
+· Chris Walker (synthesized from operator's published work)
 
 ## Signals
 - Marketing reports show HIRO Pipeline as the headline number, not MQLs.
@@ -50,4 +50,4 @@ Fails when:
 Some categories with very long sales cycles (enterprise security, pharma) genuinely benefit from upper-funnel touch tracking that HIRO discards. Forrester and SiriusDecisions argue for stage-by-stage waterfall metrics rather than a single bright-line threshold.
 
 ## Cross-references
-- ins_demand-creation-vs-capture — same operator
+- ins_demand-creation-vs-capture, same operator

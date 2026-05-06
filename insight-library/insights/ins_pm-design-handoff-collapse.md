@@ -27,11 +27,11 @@ When prototype generation drops to single-digit minutes, the bottleneck moves fr
 
 ## Conditions
 Holds when: the design team has the maturity to operate as critics, and the PM has visual taste worth reviewing.
-Fails when: design system standards are immature — AI prototypes drift visually without a strong system to anchor them.
+Fails when: design system standards are immature, AI prototypes drift visually without a strong system to anchor them.
 
 ## Evidence
 Paraphrased from Aakash Gupta: Claude Design is "the tool most PMs will be using in 6 months." Start now or compete with PMs who already do.
-— Aakash Gupta, News from Aakash, 2026-04-24
+· Aakash Gupta, News from Aakash, 2026-04-24
 
 ## Signals
 - PRDs include a working prototype link as a default field.

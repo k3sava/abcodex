@@ -17,12 +17,12 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of c
+# Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c
 ## Claim
-Babe, wake up! There's a new software in town that can do what your existing software does, but with more ✨ease✨. Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of creators saying, “I don’t know how I lived without this.” Really?
+Babe, wake up! There's a new software in town that can do what your existing software does, but with more ✨ease✨. Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of creators saying, "I don't know how I lived without this." Really?
 
 ## Mechanism
-Why am I learning something I don’t need… just because everyone on my feed is excited about it?
+Why am I learning something I don't need… just because everyone on my feed is excited about it?
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Every few weeks there’s a new “must-try” design tool. And suddenly my feed is full of creators saying, “I don’t know how I lived without this.” Really? 🙄"
 
-— Seepiya Sahni, LinkedIn, 2026-04-10
+· Seepiya Sahni, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

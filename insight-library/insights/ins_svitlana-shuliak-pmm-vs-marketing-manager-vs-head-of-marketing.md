@@ -18,10 +18,10 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# PMM, Marketing Manager, and Head of Marketing are not the same job — and conflating them creates overload, not efficiency.
+# PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency.
 
 ## Claim
-Product Marketing Manager, Marketing Manager, Head of Marketing — not the same job. Not even close. They all sit under 'marketing,' but work, mindset, day-to-day — almost nothing overlaps.
+Product Marketing Manager, Marketing Manager, Head of Marketing, not the same job. Not even close. They all sit under 'marketing,' but work, mindset, day-to-day, almost nothing overlaps.
 
 ## Mechanism
 Each role has a distinct focus: PMM connects features to pain points and measures adoption; Marketing Manager owns channels and demand gen; Head of Marketing sets strategy and aligns with the CEO. When one person does all three, it's overload, not efficiency.

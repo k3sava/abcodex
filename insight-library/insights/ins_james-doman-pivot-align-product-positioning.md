@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Product pivots must align product and positioning simultaneously.
 
 ## Claim
-Most companies decide to pivot, set a product launch date, then 'iterate' positioning later—and wonder why sellers, customers, and marketing are misaligned.
+Most companies decide to pivot, set a product launch date, then 'iterate' positioning later, and wonder why sellers, customers, and marketing are misaligned.
 
 ## Mechanism
 Positioning defines the product and the product defines positioning. Building them together creates a narrow, opinionated direction that makes marketing more targeted, sales more confident, and insights faster.

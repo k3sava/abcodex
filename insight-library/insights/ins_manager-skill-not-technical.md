@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md
 # The unlock for AI agent productivity is management skill, not technical skill
 
 ## Claim
-Operators who already know how to make a new hire successful — role scoping, onboarding, progressive trust, document hygiene — can run AI agents productively without engineering background. The bottleneck is management discipline, not coding.
+Operators who already know how to make a new hire successful, role scoping, onboarding, progressive trust, document hygiene, can run AI agents productively without engineering background. The bottleneck is management discipline, not coding.
 
 ## Mechanism
 The hard part of multi-agent operating is the same hard part of running a team: defining roles tightly, writing down what each role owns, ramping permissions on observed performance, and keeping documentation current as the work changes. These are skills of experienced people-managers and operators, not skills of engineers. The technical surface (running an agent harness) is increasingly templated; the operating surface is not.
@@ -37,18 +37,18 @@ Fails when:
 ## Evidence
 > "I have 20 years plus of management experience. I know how to make an employee successful. That is what you need to make these agents work. You don't need the technical skills."
 
-— Claire Vo on Lenny's Podcast, 2026-04-28
+· Claire Vo on Lenny's Podcast, 2026-04-28
 
-Concrete proof point: Claire — a product leader, not an engineer — runs nine production agents covering work, sales, family, and household, replacing roughly 10 hours/week of paid contractor work with one of them (Sam, the SDR) alone.
+Concrete proof point: Claire, a product leader, not an engineer, runs nine production agents covering work, sales, family, and household, replacing roughly 10 hours/week of paid contractor work with one of them (Sam, the SDR) alone.
 
 ## Signals
 - Non-engineers in the org are running their own agents and improving them weekly.
-- Improvements come from edits to identity files, tool inventories, and role docs — not from prompt engineering or model swaps.
+- Improvements come from edits to identity files, tool inventories, and role docs, not from prompt engineering or model swaps.
 - New agent rollout time is measured in hours, not engineering sprints.
 
 ## Counter-evidence
 At the very frontier (multi-agent autonomy, novel tool integrations, evals at scale), engineering depth still matters. The "manager skill is enough" claim is for everyday operators using mature harnesses. It is not a claim about building harnesses.
 
 ## Cross-references
-- `ins_agents-as-team-not-tools` — the architectural shape this management style operates on
-- `ins_progressive-trust-onboarding` — the specific management ritual most often missed
+- `ins_agents-as-team-not-tools`, the architectural shape this management style operates on
+- `ins_progressive-trust-onboarding`, the specific management ritual most often missed

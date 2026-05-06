@@ -17,13 +17,13 @@ related: [ins_open-coding-then-axial-coding, ins_evals-are-data-analysis-on-llm-
 raw_ref: raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md
 ---
 
-# Build LLM-as-judge as binary true/false, one judge per pesky failure mode — and validate against human labels
+# Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels
 
 ## Claim
 LLM-as-judge evals should output a binary pass/fail per pesky failure mode, not a Likert scale. Build 4–7 narrow judges total, not dozens, because most failures are fixed by prompt edits and never need a permanent eval. Always validate the judge against human-labelled data using a confusion matrix, not a single agreement number.
 
 ## Mechanism
-A 1-to-5 Likert is "a weasel way of not making a decision" — it produces averages that look reasonable while masking the cases where the judge is wrong. A binary judge forces a callable decision and a falsifiable accuracy number. A confusion matrix surfaces the off-diagonal cells where a judge that says "pass" 90% of the time can hide near-total failure on the long tail. Without the matrix, teams trust scaffolding that has no real signal.
+A 1-to-5 Likert is "a weasel way of not making a decision", it produces averages that look reasonable while masking the cases where the judge is wrong. A binary judge forces a callable decision and a falsifiable accuracy number. A confusion matrix surfaces the off-diagonal cells where a judge that says "pass" 90% of the time can hide near-total failure on the long tail. Without the matrix, teams trust scaffolding that has no real signal.
 
 ## Conditions
 Holds when:
@@ -43,7 +43,7 @@ Fails when:
 
 Operating rule Hamel and Shreya teach: most products end with 4–7 LLM judges total. Always look at the off-diagonal cells in the confusion matrix; agreement % is misleading on long-tail errors.
 
-— Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
+· Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Judge prompts are short and binary; their accuracy is reported with confusion-matrix detail, not single-number summaries.
@@ -54,5 +54,5 @@ Operating rule Hamel and Shreya teach: most products end with 4–7 LLM judges t
 For ranking problems (which of these outputs is best?), pairwise comparison or graded scoring may be needed. The binary rule is conditional on detection-style judges, not preference-style ones.
 
 ## Cross-references
-- `ins_open-coding-then-axial-coding` — the categories that become judges
-- `ins_evals-are-data-analysis-on-llm-apps` — the broader frame
+- `ins_open-coding-then-axial-coding`, the categories that become judges
+- `ins_evals-are-data-analysis-on-llm-apps`, the broader frame

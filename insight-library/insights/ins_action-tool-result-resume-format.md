@@ -23,7 +23,7 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 "Reduced cost by 10%" is incomplete because the reader can't infer how. The Action + Tool + Result template ("Automated reporting with Python, saving 10+ hours/week and reducing manual errors by 30%") forces the candidate to expose method alongside outcome, which is what interviewers actually probe.
 
 ## Mechanism
-A bare metric is a claim without mechanism — recruiters discount it because it could be inherited or correlated rather than caused. Adding the action and the tool exposes the candidate's contribution path, which is the thing that transfers to a new role.
+A bare metric is a claim without mechanism, recruiters discount it because it could be inherited or correlated rather than caused. Adding the action and the tool exposes the candidate's contribution path, which is the thing that transfers to a new role.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Saying 'reduced cost by 10%' is good. But how did you do it? Fix: Use the Action + Tool + Result format."
 
-— Roshni Chellani, LinkedIn, 2026-04-10 (scrape date)
+· Roshni Chellani, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Resume bullets read as "did X using Y, achieving Z" rather than "Z%".

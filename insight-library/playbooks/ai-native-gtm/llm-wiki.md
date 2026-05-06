@@ -15,15 +15,15 @@ secondary_sources:
 
 A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy's LLM wiki pattern (`ins_llm-wiki-pattern`). The wiki is the brain. The agent is the programmer. Markdown editor is the IDE.
 
-Why: AI agents lose context between sessions. Memory files help but are shallow (key-value recall). A wiki is deeper — it synthesizes, cross-references, and evolves. The agent reads the wiki at session start, works with compressed context instead of re-deriving state, and writes back what it learns. This addresses `ins_bottleneck-is-context-not-capability`: when the agent isn't doing what you want, fix the context.
+Why: AI agents lose context between sessions. Memory files help but are shallow (key-value recall). A wiki is deeper, it synthesizes, cross-references, and evolves. The agent reads the wiki at session start, works with compressed context instead of re-deriving state, and writes back what it learns. This addresses `ins_bottleneck-is-context-not-capability`: when the agent isn't doing what you want, fix the context.
 
 ## Three layers
 
 1. **Raw sources (`raw/`).** Immutable, append-only. LinkedIn posts, articles, podcasts, screenshots, recruiter emails. One file per artifact. Attribution in frontmatter. Never edited after creation.
-   - `raw/articles/` — blog posts, essays, gists
-   - `raw/linkedin-posts/`
-   - `raw/podcasts/` — transcripts, chapter notes
-   - `raw/assets/` — images, screenshots, PDFs
+ - `raw/articles/`, blog posts, essays, gists
+ - `raw/linkedin-posts/`
+ - `raw/podcasts/`, transcripts, chapter notes
+ - `raw/assets/`, images, screenshots, PDFs
 2. **Synthesis wiki (everything else).** Agent-maintained. Projects, people, companies, concepts, decisions, tools. Each page is live. Stubs are fine. "Unknown" is a legal value.
 3. **Schema (`CLAUDE.md` constitution).** Small, stable, rarely edited. Defines page frontmatter, operations, rules. Every agent reads this first.
 
@@ -77,14 +77,14 @@ domain: <tags>
 
 - Treating raw/ as editable. Raw is append-only.
 - Index.md balloons past 200 lines.
-- Lint passes that fix nothing — file findings, fix high-impact, document low-impact.
+- Lint passes that fix nothing, file findings, fix high-impact, document low-impact.
 - "Just in case" bulk reads burning context.
-- Agent rewriting page sections it did not mean to touch — read before write.
+- Agent rewriting page sections it did not mean to touch, read before write.
 - Synthesis pages mirroring raw/ verbatim. Synthesis is compression + cross-reference, not transcription.
 
 ## Integration points
 
 - LLM agents (Claude Code, codex, cursor) load schema + index at session start.
-- Personal memory (short, dense) links to wiki — do not duplicate.
+- Personal memory (short, dense) links to wiki, do not duplicate.
 - Web/API layer can serve wiki via routes for cross-machine access.
 - Any link the agent encounters can be ingested into raw/ and stubbed in synthesis.

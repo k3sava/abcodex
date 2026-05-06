@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# The biggest sales gap isn't outbound—it's missing the callback.
+# The biggest sales gap isn't outbound, it's missing the callback.
 
 ## Claim
 We kept hearing from customers: 'We spend so much time driving outbound, but when leads call back, we miss half of them.' That's where the idea for JustCall AI SDR started.
@@ -28,4 +28,4 @@ See claim.
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

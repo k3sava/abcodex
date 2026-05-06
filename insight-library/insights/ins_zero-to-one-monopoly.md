@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/peter-thiel.md
 ---
 
-# Competition is for losers — build a monopoly on a truth most people don't yet see
+# Competition is for losers, build a monopoly on a truth most people don't yet see
 
 ## Claim
-The most valuable companies are built by going from zero to one — doing something entirely new — not by copying and incrementing. Competition forces commoditization, drives margins to zero, and grinds the founders. The goal is to build a monopoly on a *secret* — a truth most people don't yet see — and to dominate a small market completely before expanding.
+The most valuable companies are built by going from zero to one, doing something entirely new, not by copying and incrementing. Competition forces commoditization, drives margins to zero, and grinds the founders. The goal is to build a monopoly on a *secret*, a truth most people don't yet see, and to dominate a small market completely before expanding.
 
 ## Mechanism
 Thiel's contrarian question: "What important truth do very few people agree with you on?" If you can't answer it, you're operating in copy-mode. Monopoly characteristics: proprietary technology (10x improvement, not incremental), network effects, economies of scale, branding. Strategic sequencing: dominate a small niche so completely that you have monopoly economics, then expand into adjacent markets from a position of monopoly profit. Competing in a crowded category where everyone has the same insight is the path to ruin.
@@ -39,7 +39,7 @@ Fails when:
 
 > "What important truth do very few people agree with you on?"
 
-— Peter Thiel, *Zero to One* (synthesized from operator's published work)
+· Peter Thiel, *Zero to One* (synthesized from operator's published work)
 
 ## Signals
 - Founder can articulate a contrarian secret that the rest of the market doesn't yet believe.
@@ -47,7 +47,7 @@ Fails when:
 - Capital allocation prioritizes the niche before adjacent expansion.
 
 ## Counter-evidence
-Many enduring companies (Visa, Walmart, Costco) built durable moats through operational excellence in highly competitive categories — Thiel's "competition is for losers" can over-rate the rare-monopoly path and under-rate operational compounding.
+Many enduring companies (Visa, Walmart, Costco) built durable moats through operational excellence in highly competitive categories, Thiel's "competition is for losers" can over-rate the rare-monopoly path and under-rate operational compounding.
 
 ## Cross-references
-- ins_brand-relevance-vs-preference — adjacent operator (David Aaker)
+- ins_brand-relevance-vs-preference, adjacent operator (David Aaker)

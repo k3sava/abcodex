@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 Your feature launch email landed at 10:47am, but by then your buyer had already dealt with a school-run crisis, 47 unread emails, a board meeting prep, and a difficult 1:1. Your 'enhanced CSV export' never stood a chance.
 
 ## Mechanism
-Buyers are drowning in their day-to-day and genuinely don't care about insignificant features. The fix isn't better copy—it's designing launches to meet the customer at the right moment, in the right place, with the right message, instead of relying on low-ROI emails.
+Buyers are drowning in their day-to-day and genuinely don't care about insignificant features. The fix isn't better copy, it's designing launches to meet the customer at the right moment, in the right place, with the right message, instead of relying on low-ROI emails.

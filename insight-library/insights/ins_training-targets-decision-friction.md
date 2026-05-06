@@ -27,11 +27,11 @@ Generic curriculum is averaged across reps and across deals; the friction blocki
 
 ## Conditions
 Holds when: the org can observe individual deals (call recordings, deal notes) and identify the friction.
-Fails when: deal-level visibility is missing — generic training is the only feasible default.
+Fails when: deal-level visibility is missing, generic training is the only feasible default.
 
 ## Evidence
 > "Revenue rarely improves from generic sales training, it improves when training targets the exact decision friction blocking deals."
-— Rohit Shah, quoted in Chris Orlob's competency analytics piece, 2026-04-17
+· Rohit Shah, quoted in Chris Orlob's competency analytics piece, 2026-04-17
 
 ## Signals
 - Coaching plans name the specific deal and the specific friction.
@@ -39,7 +39,7 @@ Fails when: deal-level visibility is missing — generic training is the only fe
 - Training assignment routed individually rather than cohort-wide.
 
 ## Counter-evidence
-For new-hire onboarding, generic foundational training is still the right default — friction-specific work starts after baseline competence.
+For new-hire onboarding, generic foundational training is still the right default, friction-specific work starts after baseline competence.
 
 ## Cross-references
 - (none in current corpus)

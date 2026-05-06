@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/gaetano-dinardi.md
 If a content piece doesn't have a keyword-oriented opportunity behind it, don't publish it. The highest-leverage tactical move: produce a video, create a matching blog post embedding the video, link YouTube → article and article → YouTube, repurpose video for organic social and YouTube pre-roll. Both the video and the article rank for the same keyword, taking two of the ten organic positions and starving competitors.
 
 ## Mechanism
-At Nextiva, no competitor produced quality video content. Video-first SEO is a compounding channel — each piece builds on prior YouTube authority and YouTube SERP placement. The double-SERP outcome doubles click-share without doubling production. DiNardi separates "silent distribution" content (most B2B, optimized for search and left to accumulate) from promotional content. Average time-on-page and downstream content engagement are the quality signals, not social shares or lead-gen forms. Blog posts almost never directly drive purchases; measuring blog ROI by conversions misunderstands the role.
+At Nextiva, no competitor produced quality video content. Video-first SEO is a compounding channel, each piece builds on prior YouTube authority and YouTube SERP placement. The double-SERP outcome doubles click-share without doubling production. DiNardi separates "silent distribution" content (most B2B, optimized for search and left to accumulate) from promotional content. Average time-on-page and downstream content engagement are the quality signals, not social shares or lead-gen forms. Blog posts almost never directly drive purchases; measuring blog ROI by conversions misunderstands the role.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Both the video and the article rank for the same keyword, effectively taking two of the ten organic positions away from competitors."
 
-— Gaetano DiNardi (synthesized from operator's published work)
+· Gaetano DiNardi (synthesized from operator's published work)
 
 ## Signals
 - Content roadmap has explicit YouTube-first entries with matching blog companions.

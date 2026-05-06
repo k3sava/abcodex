@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Taste is the PMM moat in an AI world.
 
 ## Claim
-PMMs who spent years fighting 'make this pretty' requests now find that taste—obsessing over layout, design, visual hierarchy, and polish—is their competitive advantage against AI-generated outputs.
+PMMs who spent years fighting 'make this pretty' requests now find that taste, obsessing over layout, design, visual hierarchy, and polish, is their competitive advantage against AI-generated outputs.
 
 ## Mechanism
 AI can generate copy and one-pagers on demand, but it lacks the human judgment to know what to cut, what to emphasize, and what resonates with buyers. Taste, applied through visual and structural refinement, produces outputs that stand out and convert.

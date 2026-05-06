@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/bret-taylor--agents-outcomes-pricing--2026-04-28.md
 # Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything
 
 ## Claim
-The shift from SaaS to agentic software is not aspirational — it is structural — because outcomes-based pricing is the natural model for agents. When buyers pay for results instead of seats, the vendor's incentive flips from "push more licenses" to "ensure customer success," and the entire selling, building, and renewal motion is rewritten.
+The shift from SaaS to agentic software is not aspirational, it is structural, because outcomes-based pricing is the natural model for agents. When buyers pay for results instead of seats, the vendor's incentive flips from "push more licenses" to "ensure customer success," and the entire selling, building, and renewal motion is rewritten.
 
 ## Mechanism
 Per-seat SaaS rewards expansion of access regardless of value delivered. Outcomes pricing ties revenue to demonstrated buyer success, which forces the vendor to absorb the work an agent can do and let the buyer's outcomes carry the bill. Once the pricing flips, every downstream system (sales comp, CS staffing, product roadmap) re-aligns to the same direction. The shift compounds because per-seat vendors cannot match the demonstrated alignment without restructuring their own economics.
@@ -41,7 +41,7 @@ Fails when:
 
 Taylor's reference points: his time at Salesforce co-CEO with Benioff, where both became "extremely agent-pilled" because productivity software's adoption resistance is solved by agents that own outcomes rather than productivity loops users must internalize.
 
-— Bret Taylor on Lenny's Podcast, 2026-04-28
+· Bret Taylor on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Vendors begin pricing experiments in outcomes (per-resolution, per-conversion, per-shipped-unit).
@@ -49,7 +49,7 @@ Taylor's reference points: his time at Salesforce co-CEO with Benioff, where bot
 - CS teams shrink (agents own service) while ops teams grow (agents need governance).
 
 ## Counter-evidence
-Outcomes pricing has been tried for decades in legal, ad-tech, and consulting with mixed success — attribution remains hard. Many enterprises will resist any pricing model that breaks budget predictability. The structural inevitability claim is the operator-class prediction, not a near-term certainty.
+Outcomes pricing has been tried for decades in legal, ad-tech, and consulting with mixed success, attribution remains hard. Many enterprises will resist any pricing model that breaks budget predictability. The structural inevitability claim is the operator-class prediction, not a near-term certainty.
 
 ## Cross-references
-- `ins_economic-turing-test-for-ai` — the capability prerequisite for outcomes pricing to work
+- `ins_economic-turing-test-for-ai`, the capability prerequisite for outcomes pricing to work

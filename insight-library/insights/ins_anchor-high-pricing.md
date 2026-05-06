@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/blair-enns.md
 # Anchor with the most expensive option first; price the client, not the service
 
 ## Claim
-In a multi-option proposal — and even earlier, in the value conversation itself — start with the most expensive option. The first number anchors all subsequent perception. The principle is "price the client, not the service": identical work for two clients can carry a 10x price difference because what differs is the value at stake and the buyer's willingness to pay for risk reduction (a "premium" in the insurance sense).
+In a multi-option proposal, and even earlier, in the value conversation itself, start with the most expensive option. The first number anchors all subsequent perception. The principle is "price the client, not the service": identical work for two clients can carry a 10x price difference because what differs is the value at stake and the buyer's willingness to pay for risk reduction (a "premium" in the insurance sense).
 
 ## Mechanism
-Kahneman/Tversky anchoring is the underlying physics. A $5k starting point pulls downward; a $250k starting point reframes everything below as concession. The Value Conversation surfaces what's at stake (desired future state, success metrics, value created) so the seller can quote a range that prices the client's exposure, not the seller's hours. The "hack" for reluctant sellers: drop a one-page, three-option proposal early as a discussion catalyst, each option tagged "Choose this if X is important to you" — which reveals what the client values most.
+Kahneman/Tversky anchoring is the underlying physics. A $5k starting point pulls downward; a $250k starting point reframes everything below as concession. The Value Conversation surfaces what's at stake (desired future state, success metrics, value created) so the seller can quote a range that prices the client's exposure, not the seller's hours. The "hack" for reluctant sellers: drop a one-page, three-option proposal early as a discussion catalyst, each option tagged "Choose this if X is important to you", which reveals what the client values most.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "A logo designed for one company may be worth $10k while the same work for another is worth $100k, because the difference is $90k worth of reassurance that business goals will be met."
 
-— Blair Enns (synthesized from operator's published work)
+· Blair Enns (synthesized from operator's published work)
 
 ## Signals
 - Proposals lead with the highest option, not the recommended one.

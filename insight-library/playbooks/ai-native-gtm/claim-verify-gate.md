@@ -25,8 +25,8 @@ Source synthesis: anti-fabrication ladder; evidence ladder (verified / self-repo
 
 ## How the two gates compose
 
-- **Gate 6 — substrate-cite-check.** "Is there a substrate citation near this claim?" Catches uncited claims.
-- **Gate 7 — claim-verify.** "Does the cited substrate actually support the claim?" Catches plausible-but-wrong citations.
+- **Gate 6, substrate-cite-check.** "Is there a substrate citation near this claim?" Catches uncited claims.
+- **Gate 7, claim-verify.** "Does the cited substrate actually support the claim?" Catches plausible-but-wrong citations.
 
 Together: "the claim is cited AND the cite is plausibly true."
 
@@ -47,7 +47,7 @@ Together: "the claim is cited AND the cite is plausibly true."
 ## What does NOT count
 
 - A claim cited to a substrate file that does not contain the specific value, even if plausible.
-- A claim whose value contradicts substrate (asset says 70%; substrate says 65.1% — outside the 5% tolerance, flagged).
+- A claim whose value contradicts substrate (asset says 70%; substrate says 65.1%, outside the 5% tolerance, flagged).
 - A claim citing a path that does not exist (Gate 6 catches earlier).
 
 ## Output
@@ -66,15 +66,15 @@ Zero tolerance default. Substrate-fidelity failures cannot be averaged away.
 
 ## Worked example
 
-A canonical positioning statement claims competitor X has "no voice agent" and cites a battle-card file. Claim-verify opens the cited card, searches for "no voice agent" — not found. Searches "voice agent" within 30 chars of "no" — finds "AI for post-call" instead. Flags CITE-VALUE-MISMATCH: substrate says competitor has post-call AI, not "no voice agent." The error would otherwise have shipped externally.
+A canonical positioning statement claims competitor X has "no voice agent" and cites a battle-card file. Claim-verify opens the cited card, searches for "no voice agent", not found. Searches "voice agent" within 30 chars of "no", finds "AI for post-call" instead. Flags CITE-VALUE-MISMATCH: substrate says competitor has post-call AI, not "no voice agent." The error would otherwise have shipped externally.
 
 ## Common failure modes
 
 - "PASS at cite-check" interpreted as "VERIFIED-TRUE." Cited ≠ true.
 - Round-number claims with no source-system ID anywhere in substrate.
 - Substrate-evolution drift: cite was true 90 days ago, substrate has been refreshed, asset still claims the old value.
-- Operator pressure to "just approve it" — the gate's whole purpose is to be uncomfortable when the claim is unsupported.
-- Treating Gate 7 as a fact-checker. It is a narrow substrate-fidelity check — does the claim match the cite — not a full fact pipeline.
+- Operator pressure to "just approve it", the gate's whole purpose is to be uncomfortable when the claim is unsupported.
+- Treating Gate 7 as a fact-checker. It is a narrow substrate-fidelity check, does the claim match the cite, not a full fact pipeline.
 
 ## Calibration signal
 

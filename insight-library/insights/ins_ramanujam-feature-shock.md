@@ -17,13 +17,13 @@ related: [ins_price-before-product, ins_ramanujam-minivation, ins_ramanujam-hidd
 raw_ref: raw/expert-content/experts/madhavan-ramanujam.md
 ---
 
-# Feature Shock — too many features make the product hard to explain, costly to build, and overpriced (Amazon Fire Phone)
+# Feature Shock, too many features make the product hard to explain, costly to build, and overpriced (Amazon Fire Phone)
 
 ## Claim
 Feature Shock is the failure mode where a product crams too many features into one offering, making it hard to explain, expensive to build, and overpriced relative to perceived value. The product team feels the feature richness as ambition; the buyer experiences it as confusion and a price that exceeds any single use case's value. Amazon's Fire Phone is the canonical case.
 
 ## Mechanism
-Each added feature has three cumulative costs: development time, message complexity (one more thing to communicate), and price overhead (someone has to pay for the build). The buyer's mental model has limited slots — typically 1-2 features they care about — so the additional features add cost without adding perceived value. Worse, the feature surplus sometimes obscures the core feature that is actually load-bearing in the purchase decision. The remedy is willingness-to-pay research per feature: which features do buyers value enough to pay for, which are decorative, which are net-negative.
+Each added feature has three cumulative costs: development time, message complexity (one more thing to communicate), and price overhead (someone has to pay for the build). The buyer's mental model has limited slots, typically 1-2 features they care about, so the additional features add cost without adding perceived value. Worse, the feature surplus sometimes obscures the core feature that is actually load-bearing in the purchase decision. The remedy is willingness-to-pay research per feature: which features do buyers value enough to pay for, which are decorative, which are net-negative.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "Feature Shock occurs when too many features are crammed into a product, making it hard to explain, costly to build, and overpriced (Amazon Fire Phone being the canonical example)."
 
-— see `raw/expert-content/experts/madhavan-ramanujam.md` line 18.
+· see `raw/expert-content/experts/madhavan-ramanujam.md` line 18.
 
 ## Signals
 - Roadmap reviews include explicit feature-removal discussions, not only feature-additions.
@@ -50,6 +50,6 @@ Fails when:
 Some categories reward feature richness when the buyer is buying a platform, not a product (developer tools with many integrations, enterprise suites). The Feature Shock claim is sharpest for consumer and SMB B2B where the buyer's evaluation is feature-centric and time-limited.
 
 ## Cross-references
-- `ins_price-before-product` — the canonical Ramanujam claim that pricing should drive design, not vice versa.
-- `ins_ramanujam-minivation`, `ins_ramanujam-hidden-gems` — the other two failure modes in his innovation taxonomy.
-- `ins_taleb-via-negativa` — the broader principle: subtraction often beats addition in complex systems.
+- `ins_price-before-product`, the canonical Ramanujam claim that pricing should drive design, not vice versa.
+- `ins_ramanujam-minivation`, `ins_ramanujam-hidden-gems`, the other two failure modes in his innovation taxonomy.
+- `ins_taleb-via-negativa`, the broader principle: subtraction often beats addition in complex systems.

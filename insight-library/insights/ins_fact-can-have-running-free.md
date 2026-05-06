@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "The fact that you can have this running for free in 20 minutes, while last year you would have paid literally thousands to a paid ads agency, is outstanding for me."
 
-— Pietro Montaldo, LinkedIn, 2026-04-10
+· Pietro Montaldo, LinkedIn, 2026-04-10
 
 ## Signals
 - Scrape copy and visuals of active ads

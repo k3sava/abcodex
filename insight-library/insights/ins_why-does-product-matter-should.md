@@ -19,7 +19,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # Why does your product matter should come through data. Your ability to frame your work
 ## Claim
-From Intern to Year 2 Microsoft Product Manager 💼 Here's what I've learned after 2 years working in Big tech 1️⃣ AI isn’t a side project, it's engrained in every part of the roadmap You should be posing questions to your team if they aren't leveraging AI tools or starting to incorporate it into your suite of products. It's our responsibility as a PM to lead these initiatives - if no one has brought it up, be the one to infuse the change. ✨
+From Intern to Year 2 Microsoft Product Manager 💼 Here's what I've learned after 2 years working in Big tech 1️⃣ AI isn't a side project, it's engrained in every part of the roadmap You should be posing questions to your team if they aren't leveraging AI tools or starting to incorporate it into your suite of products. It's our responsibility as a PM to lead these initiatives - if no one has brought it up, be the one to infuse the change. ✨
 
 ## Mechanism
 Why does your product matter should come through data. Your ability to frame your work in measurable impact is what earns trust from your partner teams, leadership and ultimately reflect the value you bring to the table.
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Why does your product matter should come through data. Your ability to frame your work in measurable impact is what earns trust from your partner teams, leadership and ultimately reflect the value you bring to the table."
 
-— Mariana Antaya, LinkedIn, 2026-04-10
+· Mariana Antaya, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

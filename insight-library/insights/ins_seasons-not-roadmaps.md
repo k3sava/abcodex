@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md
 # Plan in seasons keyed to secular changes, not 6-month roadmaps
 
 ## Claim
-Six-month roadmaps die on contact with model launches. Replace them with seasons — periods defined by a set of secular changes (e.g., "season of agents," "season of reasoning models"). Seasons can last 3 to 12 months depending on capability waves. Within a season, set 4–6 week goals that ladder up; reserve slack for the slope.
+Six-month roadmaps die on contact with model launches. Replace them with seasons, periods defined by a set of secular changes (e.g., "season of agents," "season of reasoning models"). Seasons can last 3 to 12 months depending on capability waves. Within a season, set 4–6 week goals that ladder up; reserve slack for the slope.
 
 ## Mechanism
-A traditional roadmap commits the team to a fixed plan for a fixed duration. AI capability shifts invalidate that plan mid-quarter. Seasons commit instead to a *thesis* about the current wave — what's changing, what customer problems matter now, what winning looks like. Tactics underneath are revisable; the thesis is the stable artifact. The team gets shared orientation without locked-in deliverables.
+A traditional roadmap commits the team to a fixed plan for a fixed duration. AI capability shifts invalidate that plan mid-quarter. Seasons commit instead to a *thesis* about the current wave, what's changing, what customer problems matter now, what winning looks like. Tactics underneath are revisable; the thesis is the stable artifact. The team gets shared orientation without locked-in deliverables.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "How does anyone plan a roadmap when GPT-5 just came out? We think about it as: what season are we in? Season one was prototyping. Then models and reasoning. Now agents. A season is denoted by a set of secular changes. Can last 6 months, 3 months, a year. We ground everyone on: what changes are we in? What customer problems? What's winning look like? That shared sense is north star."
 
-— Asha Sharma on Lenny's Podcast, 2026-04-28
+· Asha Sharma on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Quarterly OKRs are loose; 4–6 week goals are sharp.
@@ -48,4 +48,4 @@ Fails when:
 Brian Halligan and other large-public-company operators argue the Gantt chart is irreducible past a certain scale because the org cannot coordinate without firm dates. Seasons are a small/mid-cap pattern. Hybrid approach: seasons at the top, traditional roadmap underneath for deliverables that need them.
 
 ## Cross-references
-- `ins_product-as-organism` — the underlying frame that requires this planning shift
+- `ins_product-as-organism`, the underlying frame that requires this planning shift

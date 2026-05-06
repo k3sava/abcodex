@@ -23,7 +23,7 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 PMM interviewers are not scoring how many launches a candidate ran. They are testing how the candidate reasons about why a launch worked or failed, what insight customer research produced, and how they hold a position when sales pushes back. A long resume of launches is necessary but not sufficient.
 
 ## Mechanism
-Senior PMM work is judgment under ambiguity — pricing calls, narrative bets, stakeholder pushback. The interview proxies for that by probing failure stories and research-to-insight chains. Candidates who can only describe activities ("led 5 launches", "ran customer research") fail because the interviewer can't see the thinking layer underneath.
+Senior PMM work is judgment under ambiguity, pricing calls, narrative bets, stakeholder pushback. The interview proxies for that by probing failure stories and research-to-insight chains. Candidates who can only describe activities ("led 5 launches", "ran customer research") fail because the interviewer can't see the thinking layer underneath.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "You can lead 5 launches and still fail to explain why they worked. You can say 'customer research' without showing what insight it gave you. You can talk collaboration but crumble when sales pushes back."
 
-— Sachin Jha, LinkedIn, 2026-04-10 (scrape date)
+· Sachin Jha, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Interviewers explicitly ask "why did this fail?" or "what insight changed your plan?"

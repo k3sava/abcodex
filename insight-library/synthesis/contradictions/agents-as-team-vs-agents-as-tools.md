@@ -6,12 +6,12 @@ captured_date: 2026-05-01
 
 # Agents-as-team vs. agents-as-tools
 
-## Position A — Agents are a team you manage
+## Position A, Agents are a team you manage
 - Operator: Claire Vo
 - Card: `ins_agents-as-team-not-tools`, `ins_manager-skill-not-technical`, `ins_progressive-trust-onboarding`
 - Claim: Don't throw every task at one super-agent. Build one agent per role, each with its own context window, identity, and tool scope, and manage them like teammates. The unlock is management skill, not technical skill.
 
-## Position B — Agents are tools you give a goal and stay out of
+## Position B, Agents are tools you give a goal and stay out of
 - Operator: Boris Cherny
 - Card: `ins_dont-box-the-model-in`, `ins_underfund-deliberately`
 - Claim: Give the model tools and a goal; do not hard-code the workflow. The right move is restraint: less scaffolding, less workflow, more abstraction. Underfund teams so substrate absorbs work; don't manage agents as headcount.
@@ -26,4 +26,4 @@ Both positions converge on substrate-runs-loop / humans-run-alignment (`pat_subs
 - Heterogeneous, persistent JTBD → agents-as-team (Vo): named identities, scoped contexts, progressive trust.
 - Homogeneous, ephemeral, goal-bound tasks → agents-as-tools (Cherny): minimal scaffolding, give the goal, stay out.
 
-This is genuinely orthogonal — same operator could deploy both shapes for different problems. The contradiction reveals a missing taxonomy axis: persistence + heterogeneity of the agent's job determines which shape applies.
+This is genuinely orthogonal, same operator could deploy both shapes for different problems. The contradiction reveals a missing taxonomy axis: persistence + heterogeneity of the agent's job determines which shape applies.

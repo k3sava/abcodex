@@ -17,12 +17,12 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# But Great insight is. And this is precisely why AI shouldn’t scale formats. It should s
+# But Great insight is. And this is precisely why AI shouldn't scale formats. It should s
 ## Claim
-“Scaling content with AI is the biggest lie.” You can’t take a blog post, auto-spin it into a YouTube video, slice it into 10 LinkedIn carousels, and expect any of it to land. That’s not strategy—it’s spam at scale. But there’s a bigger truth behind this...
+"Scaling content with AI is the biggest lie." You can't take a blog post, auto-spin it into a YouTube video, slice it into 10 LinkedIn carousels, and expect any of it to land. That's not strategy, it's spam at scale. But there's a bigger truth behind this...
 
 ## Mechanism
-They fail because they don’t know what their customer actually cares about.
+They fail because they don't know what their customer actually cares about.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "But Great insight is. And this is precisely why AI shouldn’t scale formats. It should scale insight."
 
-— Kaizad Hansotia, LinkedIn, 2026-04-10
+· Kaizad Hansotia, LinkedIn, 2026-04-10
 
 ## Signals
 - They ship videos before understanding objections.

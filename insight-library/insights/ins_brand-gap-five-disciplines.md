@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/marty-neumeier.md
 ---
 
-# A brand is not what you say it is — it is what they say it is. Close the gap with five disciplines.
+# A brand is not what you say it is, it is what they say it is. Close the gap with five disciplines.
 
 ## Claim
-Branding suffers from a structural gap between the left-brain world of business strategy (logic, analysis, spreadsheets) and the right-brain world of creative execution (design, experience, emotion). Closing the gap requires five disciplines: Differentiate (find your "only"), Collaborate (break silos between strategists and creatives), Innovate (stay ahead of category), Validate (test with customers, not internal opinions), Cultivate (build a living brand through ongoing stewardship — not a one-time exercise).
+Branding suffers from a structural gap between the left-brain world of business strategy (logic, analysis, spreadsheets) and the right-brain world of creative execution (design, experience, emotion). Closing the gap requires five disciplines: Differentiate (find your "only"), Collaborate (break silos between strategists and creatives), Innovate (stay ahead of category), Validate (test with customers, not internal opinions), Cultivate (build a living brand through ongoing stewardship, not a one-time exercise).
 
 ## Mechanism
-The five disciplines reject both the purely analytical MBA approach and the purely aesthetic design-school approach. The "Onlyness" test (we are the only ___ that ___) is the diagnostic for Differentiate — most brands fail because they can't fill in the blanks credibly. Validate replaces internal-opinion debates with customer signal; Cultivate insists branding is operations, not project work.
+The five disciplines reject both the purely analytical MBA approach and the purely aesthetic design-school approach. The "Onlyness" test (we are the only ___ that ___) is the diagnostic for Differentiate, most brands fail because they can't fill in the blanks credibly. Validate replaces internal-opinion debates with customer signal; Cultivate insists branding is operations, not project work.
 
 ## Conditions
 Holds when:
@@ -39,12 +39,12 @@ Fails when:
 
 > "The five disciplines: Differentiate (find your 'only'), Collaborate (break silos between strategists and creatives), Innovate (stay ahead of the category), Validate (test with real customers, not internal opinions), and Cultivate (build a living brand through ongoing stewardship, not a one-time exercise)."
 
-— Marty Neumeier, *The Brand Gap* (synthesized from operator's published work)
+· Marty Neumeier, *The Brand Gap* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly produces an Onlyness statement, tested for credibility.
 - Validation step uses customer interviews/surveys, not internal voting.
-- Brand stewardship has a named owner with ongoing budget — not a one-time agency project.
+- Brand stewardship has a named owner with ongoing budget, not a one-time agency project.
 
 ## Counter-evidence
 Some bottoms-up product-led brands (Linear, Notion) achieve clear differentiation entirely through product craft, with the five disciplines operating implicitly rather than explicitly. The "Onlyness" framing can also force claims that are technically true but customer-irrelevant.

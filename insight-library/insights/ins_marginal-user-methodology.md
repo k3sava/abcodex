@@ -17,13 +17,13 @@ related: [ins_understand-then-identify-then-execute, ins_lead-bullets-and-cannon
 raw_ref: raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md
 ---
 
-# Design for the marginal user — the person on the cusp of converting in the worst conditions
+# Design for the marginal user, the person on the cusp of converting in the worst conditions
 
 ## Claim
-The right object of attention for product growth is the marginal user — the person who wants to take your desired action but has not yet, in the worst conditions you support. Find them in high-traffic, low-conversion segments. Watch them use the product. The data will show you where they drop; only watching shows you why.
+The right object of attention for product growth is the marginal user, the person who wants to take your desired action but has not yet, in the worst conditions you support. Find them in high-traffic, low-conversion segments. Watch them use the product. The data will show you where they drop; only watching shows you why.
 
 ## Mechanism
-Average-user optimisation pulls product decisions toward the existing user base, which has already self-selected through the friction the team is trying to remove. Power-user optimisation pulls toward feature depth that few new users need. The marginal user — high-intent, low-success — is where the largest unconverted demand sits. Fixing their experience lifts everyone downstream because the friction that blocks them also taxes everyone else, more lightly.
+Average-user optimisation pulls product decisions toward the existing user base, which has already self-selected through the friction the team is trying to remove. Power-user optimisation pulls toward feature depth that few new users need. The marginal user, high-intent, low-success, is where the largest unconverted demand sits. Fixing their experience lifts everyone downstream because the friction that blocks them also taxes everyone else, more lightly.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Adriel watched someone sign up for Facebook in India. The user used their legal name; nobody in real life called them that; friend requests went unaccepted. The funnel data blamed the friend-request acceptance rate. Only watching the user surfaced that the registration name field was the actual bottleneck.
 
-— Adriel Frederick on Lenny's Podcast, 2026-04-28
+· Adriel Frederick on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Conversion lifts in the segment researched, plus collateral lifts in adjacent segments.
@@ -52,5 +52,5 @@ Adriel watched someone sign up for Facebook in India. The user used their legal 
 For mature products with high conversion across all conditions, marginal-user research returns diminishing signal. The discipline is most powerful at scale-up stage where the next 10x of growth depends on the next 10x of friction reduction.
 
 ## Cross-references
-- `ins_understand-then-identify-then-execute` — the broader frame
-- `ins_lead-bullets-and-cannonballs` — the same operator's portfolio rule
+- `ins_understand-then-identify-then-execute`, the broader frame
+- `ins_lead-bullets-and-cannonballs`, the same operator's portfolio rule

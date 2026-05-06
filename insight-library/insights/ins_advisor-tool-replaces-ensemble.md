@@ -27,11 +27,11 @@ Ensembles deliver stability by running multiple full inferences; the advisor pat
 
 ## Conditions
 Holds when: the workload has clear planning bottlenecks (consolidation, multi-step decisions) that benefit from a higher-capability mid-stream consult.
-Fails when: every step needs high-capability reasoning — there, ensemble or pure Opus still wins.
+Fails when: every step needs high-capability reasoning, there, ensemble or pure Opus still wins.
 
 ## Evidence
 Anthropic advisor-tool public beta with header `advisor-tool-2026-03-01`. Sonnet executor calls Opus mid-generation for a 400-700 token plan. Verified via Anthropic Python SDK 0.97.0.
-— Anthropic platform docs, 2026-04-26
+· Anthropic platform docs, 2026-04-26
 
 ## Signals
 - Long-running scheduler tasks adopt advisor-tool for the planning step.
@@ -39,7 +39,7 @@ Anthropic advisor-tool public beta with header `advisor-tool-2026-03-01`. Sonnet
 - Ensemble code paths retired once advisor-tool reaches GA pricing.
 
 ## Counter-evidence
-For workloads requiring diversity-of-output (where ensembles vote across genuinely independent reasoning paths), advisor cannot substitute — it is one path with a smarter midpoint.
+For workloads requiring diversity-of-output (where ensembles vote across genuinely independent reasoning paths), advisor cannot substitute, it is one path with a smarter midpoint.
 
 ## Cross-references
 - (none in current corpus)

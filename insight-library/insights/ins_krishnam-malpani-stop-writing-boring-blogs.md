@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Stop writing boring blogs — make content that makes people stop scrolling.
+# Stop writing boring blogs, make content that makes people stop scrolling.
 
 ## Claim
 Stop writing boring blogs. If your content hasn't already made people stop scrolling, this isn't for you.
@@ -28,4 +28,4 @@ See claim.
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

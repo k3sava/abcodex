@@ -28,7 +28,7 @@ Scaffolding around a weakness encodes that weakness into the product. A todo-lis
 ## Conditions
 Holds when:
 - The team has the discipline to audit every prompt and feature against the new model's behavior on launch day.
-- The product is exposed to users who will notice the upgrade — not buried in batch jobs.
+- The product is exposed to users who will notice the upgrade, not buried in batch jobs.
 
 Fails when:
 - The crutch was load-bearing for safety or compliance, not capability. Don't delete safety guardrails on the assumption that the model "got better."
@@ -39,15 +39,15 @@ Fails when:
 
 The to-do list inside Claude Code was added because Claude would stop after 5 of 20 refactor sites. Opus 4 made the 20-site loop natural; the to-do list is now de-emphasized. Every new model launch, Cat's team re-reads the full system prompt and cuts what is no longer needed.
 
-— Cat Wu on Lenny's Podcast, 2026-04-27
+· Cat Wu on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Each model launch's release notes include features removed, not just added.
 - The system prompt shrinks over the year, not grows.
-- User feedback shifts from "the AI gets stuck on X" to "the AI just does X" — and the corresponding crutch is gone.
+- User feedback shifts from "the AI gets stuck on X" to "the AI just does X", and the corresponding crutch is gone.
 
 ## Counter-evidence
 Removing a feature breaks workflows that depended on it, even if the model now does the work natively. Sherwin Wu's "models eat your scaffolding for breakfast" is the same shape but cuts both ways: it's a warning to *not over-build* the scaffolding in the first place, and a directive to remove it once obsolete. Aggressive removers without good change communication erode user trust faster than slow removers preserve it.
 
 ## Cross-references
-- `ins_build-products-that-dont-yet-work` — Cat's complementary directive: build things that *don't* work today so you ship the moment they do
+- `ins_build-products-that-dont-yet-work`, Cat's complementary directive: build things that *don't* work today so you ship the moment they do

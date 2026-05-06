@@ -18,10 +18,10 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# There is no 'AI-made' content, only good and bad posts — AI is a tool, not a crutch.
+# There is no 'AI-made' content, only good and bad posts, AI is a tool, not a crutch.
 
 ## Claim
-Absolutely no one complains about 'AI-made' because there is no such thing as 'AI-made'. There are GOOD posts and BAD posts. You use AI as a tool — not as a one-hit solution.
+Absolutely no one complains about 'AI-made' because there is no such thing as 'AI-made'. There are GOOD posts and BAD posts. You use AI as a tool, not as a one-hit solution.
 
 ## Mechanism
 The operator argues that quality depends on human judgment in topic selection, editing, and adding personal 'spice', not on whether AI was involved. The process uses AI for ideation and drafting but requires human curation and patchworking to produce a final post.

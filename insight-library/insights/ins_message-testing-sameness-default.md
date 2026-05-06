@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/peep-laja.md
 ---
 
-# In B2B, sameness is the default — you cannot win on features competitors will copy in 6 months
+# In B2B, sameness is the default, you cannot win on features competitors will copy in 6 months
 
 ## Claim
-B2B markets converge on sameness. Features get copied within months; messaging clarity, differentiation, and brand are what distinguish winners. The fix is treating messaging as a *testable* discipline (the basis for Wynter): test message variants with real ICP buyers before launch instead of debating internally. The B2B Message Layers framework gives the testable hierarchy — from category-level frame down to feature-level proof.
+B2B markets converge on sameness. Features get copied within months; messaging clarity, differentiation, and brand are what distinguish winners. The fix is treating messaging as a *testable* discipline (the basis for Wynter): test message variants with real ICP buyers before launch instead of debating internally. The B2B Message Layers framework gives the testable hierarchy, from category-level frame down to feature-level proof.
 
 ## Mechanism
-Internal-debate-driven messaging produces compromises that satisfy committees and resonate with no one. Wynter-style message testing uses the actual ICP as judge: 100+ ICP responses surface which messages resonate, which confuse, and which feel undifferentiated from competitors. The hierarchy — category → positioning → value prop → features — keeps each layer doing the work it should: category sets frame, positioning sets contrast, value prop sets buyer benefit, features prove the claim.
+Internal-debate-driven messaging produces compromises that satisfy committees and resonate with no one. Wynter-style message testing uses the actual ICP as judge: 100+ ICP responses surface which messages resonate, which confuse, and which feel undifferentiated from competitors. The hierarchy, category → positioning → value prop → features, keeps each layer doing the work it should: category sets frame, positioning sets contrast, value prop sets buyer benefit, features prove the claim.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Sameness is the default in B2B; you cannot win on features alone because competitors will copy them, so the companies that win compete on messaging clarity, differentiation, and brand."
 
-— Peep Laja (synthesized from operator's published work)
+· Peep Laja (synthesized from operator's published work)
 
 ## Signals
 - Messaging changes go through ICP testing before launch.

@@ -17,13 +17,13 @@ related: [ins_price-before-product, ins_anchor-high-pricing]
 raw_ref: raw/expert-content/experts/steven-forth.md
 ---
 
-# A pricing model without a value model is adrift — start with Economic Value Estimation
+# A pricing model without a value model is adrift, start with Economic Value Estimation
 
 ## Claim
 A pricing model without a value model is adrift. True value-based pricing begins with Economic Value Estimation (EVE) that *quantifies* the economic impact of your solution on the customer's P&L relative to their competitive alternative. Three approaches: Approximate (rough heuristic, fastest), Derived (data-driven from operational metrics), Direct (customer-validated through interviews and pilots). Approach choice depends on data availability, not preference.
 
 ## Mechanism
-Most pricing decisions begin with what the seller wants to charge or what competitors charge — both anchor on the wrong reference point. EVE anchors on what the customer *gains* relative to their next-best alternative. Quantifying that gain produces a range, and the price lives inside the range as a fraction of value created. Without EVE, value-pricing claims collapse to opinion. With it, the seller can defend pricing in CFO vocabulary and the buyer can justify the purchase against budget.
+Most pricing decisions begin with what the seller wants to charge or what competitors charge, both anchor on the wrong reference point. EVE anchors on what the customer *gains* relative to their next-best alternative. Quantifying that gain produces a range, and the price lives inside the range as a fraction of value created. Without EVE, value-pricing claims collapse to opinion. With it, the seller can defend pricing in CFO vocabulary and the buyer can justify the purchase against budget.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "A pricing model without a value model is adrift; true value-based pricing begins with Economic Value Estimation that quantifies the economic impact of your solution on the customer's P&L relative to their competitive alternative."
 
-— Steven Forth, Ibbaka (synthesized from operator's published work)
+· Steven Forth, Ibbaka (synthesized from operator's published work)
 
 ## Signals
 - Sales decks include a customer-specific EVE calculation, not a generic ROI claim.
@@ -45,8 +45,8 @@ Fails when:
 - Pricing-metric selection (per-user, per-event, per-outcome) is debated against the value driver.
 
 ## Counter-evidence
-For low-cost / high-volume products, EVE-level rigor on every deal is overhead — list pricing with discounting bands works better. Some buyers also explicitly reject ROI calculators as seller manipulation, regardless of underlying rigor.
+For low-cost / high-volume products, EVE-level rigor on every deal is overhead, list pricing with discounting bands works better. Some buyers also explicitly reject ROI calculators as seller manipulation, regardless of underlying rigor.
 
 ## Cross-references
-- ins_price-before-product — adjacent operator (Madhavan Ramanujam)
-- ins_anchor-high-pricing — adjacent operator (Blair Enns)
+- ins_price-before-product, adjacent operator (Madhavan Ramanujam)
+- ins_anchor-high-pricing, adjacent operator (Blair Enns)

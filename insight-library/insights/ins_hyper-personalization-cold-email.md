@@ -17,7 +17,7 @@ related: [ins_messaging-equation-personalization-tiers]
 raw_ref: raw/expert-content/experts/nick-abraham.md
 ---
 
-# Cold email at scale isn't about volume or copywriting — it's about layering intent + colleague + AI personalization
+# Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization
 
 ## Claim
 Cold email at scale isn't won by volume or by copywriting craft. It's won by *layering* signals so every automated email feels manually researched: intent signals (the prospect's company is hiring for a relevant role, raised funding, opened a relevant LinkedIn post), colleague references (mention a real teammate the prospect works with), AI-generated personalization on top. LeadBird sends 1.5M+ cold emails per month, and the framework produces 40% reply rates on the top tier of outreach.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Cold email at scale is not about volume or copywriting but about layering intent signals, colleague references, and AI-generated personalization so that every automated email feels like it was manually researched."
 
-— Nick Abraham (synthesized from operator's published work)
+· Nick Abraham (synthesized from operator's published work)
 
 ## Signals
 - Outbound stack ingests intent data (Crunchbase, hiring signals, LinkedIn engagement).
@@ -45,7 +45,7 @@ Fails when:
 - Reply-rate dashboards segment by personalization-layer count.
 
 ## Counter-evidence
-The cold-email "blood bath" Abraham himself names in another piece — saturation across all categories, increased filter aggression — is making even layered personalization less reliable. Some categories now see better ROI from outbound LinkedIn and warm-intro motions than email at any personalization level.
+The cold-email "blood bath" Abraham himself names in another piece, saturation across all categories, increased filter aggression, is making even layered personalization less reliable. Some categories now see better ROI from outbound LinkedIn and warm-intro motions than email at any personalization level.
 
 ## Cross-references
-- ins_messaging-equation-personalization-tiers — adjacent operator (John Barrows)
+- ins_messaging-equation-personalization-tiers, adjacent operator (John Barrows)

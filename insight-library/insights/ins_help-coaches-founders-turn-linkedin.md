@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | start with the system in my featured section"
 
-— Ryan Woodley Mitchell, LinkedIn, 2026-04-10
+· Ryan Woodley Mitchell, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

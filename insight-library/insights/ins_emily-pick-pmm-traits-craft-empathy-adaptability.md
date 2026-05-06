@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Top PMMs combine craft love, foresight, empathy, resourcefulness, and humor.
 
 ## Claim
-The PMMs I’ve most enjoyed working with have five traits in common: they love the craft, can see around corners, are deeply empathetic, figure it out, and have a sense of humor about the chaos.
+The PMMs I've most enjoyed working with have five traits in common: they love the craft, can see around corners, are deeply empathetic, figure it out, and have a sense of humor about the chaos.
 
 ## Mechanism
 These traits enable PMMs to produce work that is strategically sound, stakeholder-trusted, and resilient to change. Craft love ensures depth of thinking; foresight prevents reactive work; empathy builds the trust needed to ship; resourcefulness handles ambiguity; humor keeps the team adaptable when plans shift.

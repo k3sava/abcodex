@@ -23,7 +23,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀 Senior Solutions Marketer: identifies where we're winning and where there's white space, then builds the positioning, narrative, and solutions campaigns to shape that market Enterprise Solutions Marketer: owns the enterprise narrative end-to-end, embedded with GTM, Enterprise Marketing and sales to build the enablement, campaigns, and stories that help us accelerate enterprise adoption
 
 ## Mechanism
-🔍 Product-obsessed — you read the docs, use the product, and dig into the tech before you craft a single message
+🔍 Product-obsessed, you read the docs, use the product, and dig into the tech before you craft a single message
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀"
 
-— Vikas Bhagat, LinkedIn, 2026-04-10
+· Vikas Bhagat, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

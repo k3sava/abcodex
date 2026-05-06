@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "When I was laid off here is what I did to find a job in 15 days."
 
-— Sandeep Kochhar, LinkedIn, 2026-04-10
+· Sandeep Kochhar, LinkedIn, 2026-04-10
 
 ## Signals
 - Found startups that are hiring for my skillsets

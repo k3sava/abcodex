@@ -17,7 +17,7 @@ related: [ins_system1-system2-thinking]
 raw_ref: raw/expert-content/experts/daniel-kahneman.md
 ---
 
-# The planning fallacy guarantees every launch timeline is optimistic — the fix is the outside view
+# The planning fallacy guarantees every launch timeline is optimistic, the fix is the outside view
 
 ## Claim
 Teams systematically underestimate the time, cost, and risk of future projects while overestimating their benefits, because they plan from the inside view (this specific plan) and ignore the outside view (base rates from comparable past projects). The corrective is reference-class forecasting, not heroic discipline.
@@ -34,20 +34,20 @@ Holds when:
 Fails when:
 - The project is genuinely novel and no reference class exists.
 - The team is incentive-compelled to be optimistic (fundraising commitments, board promises, pre-announced launch dates).
-- The reference class is mis-chosen — too narrow (n=2) or too broad (averaging across irrelevant projects).
+- The reference class is mis-chosen, too narrow (n=2) or too broad (averaging across irrelevant projects).
 
 ## Evidence
 > "you systematically underestimate the time, cost, and risk of future projects while overestimating their benefits (why every product launch timeline is optimistic)"
 
-— synthesized from Kahneman's published work; see `raw/expert-content/experts/daniel-kahneman.md` line 16.
+· synthesized from Kahneman's published work; see `raw/expert-content/experts/daniel-kahneman.md` line 16.
 
 ## Signals
-- Post-launch retros that recover the original target date and the actual ship date for every shipped feature for the past 12 months — and the median multiple is >1.0.
-- Pre-mortems ("imagine this fails — why?") run before timelines are committed.
+- Post-launch retros that recover the original target date and the actual ship date for every shipped feature for the past 12 months, and the median multiple is >1.0.
+- Pre-mortems ("imagine this fails, why?") run before timelines are committed.
 - Estimates given as ranges with explicit confidence intervals, not single dates.
 
 ## Counter-evidence
 Scrum/agile attempts to neutralize the planning fallacy by shrinking the prediction horizon to two weeks; that works for stable feature work but breaks down for cross-cutting product launches with external dependencies. Hofstadter's law ("it always takes longer than you expect, even when you take into account Hofstadter's law") suggests reference-class forecasting itself is subject to the same bias if not done formally.
 
 ## Cross-references
-- `ins_system1-system2-thinking` — planning fallacy is a System-1 effect that requires explicit System-2 process to override.
+- `ins_system1-system2-thinking`, planning fallacy is a System-1 effect that requires explicit System-2 process to override.

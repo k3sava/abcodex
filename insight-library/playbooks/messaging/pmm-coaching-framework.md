@@ -20,7 +20,7 @@ A structured methodology for coaching product marketing managers through iterati
 - **Iteration:** one review comparing version N to version N+1.
 - **Core dimension:** 17 always-scored dimensions.
 - **Contextual dimension:** 12 scored only when applicable to the document type.
-- **Focus 3:** the 3 highest-leverage actions per review — the actual deliverable.
+- **Focus 3:** the 3 highest-leverage actions per review, the actual deliverable.
 - **Feedback retention:** whether prior coaching was applied in the next iteration.
 
 ## Process
@@ -75,7 +75,7 @@ Adjust the coaching approach, not just the feedback.
 ## Common failure modes
 
 - Inflated scores. Most work scores 8+ and signal is lost.
-- Feedback without rewrite examples — operator does not know what "good" looks like.
+- Feedback without rewrite examples, operator does not know what "good" looks like.
 - 10+ recommendations per review. Overload kills retention. Three is the limit.
 - Reviewing the person not the document.
 - No retention tracking. Same feedback recurs forever.

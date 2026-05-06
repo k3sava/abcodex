@@ -17,7 +17,7 @@ related: [ins_intelligence-cost-converging-electricity, ins_altman-scarce-resour
 raw_ref: raw/expert-content/experts/sam-altman.md
 ---
 
-# The singularity is one smooth curve — vertical looking forward, flat looking backward, never the disruptive shock people expect
+# The singularity is one smooth curve, vertical looking forward, flat looking backward, never the disruptive shock people expect
 
 ## Claim
 Technological acceleration in frontier AI is not a sudden event; it is a continuous process that appears vertical when looking forward and flat when looking backward. Each step feels incremental in hindsight even when cumulative change is dramatic. The framing reorients AI strategy from "wait for the breakthrough event" to "operate inside an ongoing curve."
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "it always looks vertical looking forward and flat going backwards, but it is one smooth curve."
 
-— see `raw/expert-content/experts/sam-altman.md` line 13.
+· see `raw/expert-content/experts/sam-altman.md` line 13.
 
 ## Signals
 - Strategy decks plan against capability trajectories with explicit 6-, 12-, and 24-month milestones, not against a fixed "today's capability."
@@ -50,6 +50,6 @@ Fails when:
 The smooth-curve thesis is a forecast, not a fact. There are reasonable scenarios where capability hits an asymptote (data scarcity, training-cost scaling, regulatory limits) that bend the curve flat. The "smooth" assumption holds within the scaling-laws regime; if that regime breaks, planning against a continuing curve produces over-investment. Munger's circle of competence vs. iterative deployment tension is adjacent: at the frontier, both Altman's smooth-curve and Munger's stay-in-circle make sense in different domains.
 
 ## Cross-references
-- `ins_intelligence-cost-converging-electricity` — Altman's adjacent thesis on the long-run trajectory.
-- `ins_altman-scarce-resources-abundant-intelligence` — what becomes scarce when intelligence is abundant.
-- `con_circle-of-competence-vs-iterative-deployment` — the productive tension between Munger's stay-inside vs. Altman's ship-into-unknown stance.
+- `ins_intelligence-cost-converging-electricity`, Altman's adjacent thesis on the long-run trajectory.
+- `ins_altman-scarce-resources-abundant-intelligence`, what becomes scarce when intelligence is abundant.
+- `con_circle-of-competence-vs-iterative-deployment`, the productive tension between Munger's stay-inside vs. Altman's ship-into-unknown stance.

@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/keenan.md
 # No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change.
 
 ## Claim
-All selling is about change. The seller's only job is to discover and quantify the *gap* between the buyer's current state and desired future state. Change Formula: Change = (Dissatisfaction with Current State × Desirability of Future State) > Cost of Change. If either dissatisfaction or desirability is zero, the product is zero — no change happens regardless of price or competitive positioning. Discovery should consume the first 25% of the cycle.
+All selling is about change. The seller's only job is to discover and quantify the *gap* between the buyer's current state and desired future state. Change Formula: Change = (Dissatisfaction with Current State × Desirability of Future State) > Cost of Change. If either dissatisfaction or desirability is zero, the product is zero, no change happens regardless of price or competitive positioning. Discovery should consume the first 25% of the cycle.
 
 ## Mechanism
-Current state (environment, problems, impact, root causes) and future state (desired outcomes, emotional outcomes, solution requirements) must both be mapped before any solution presentation. Four question types: Probing (current state), Provoking (make buyer think differently), Validating (confirm + build agreement), Process (map decision-making dynamics). Pre-call artifact: Problem Identification Chart maps every problem your product solves, business impact, and root cause — serves as outreach prep, discovery navigation, and qualification criteria simultaneously. The "never sell to need" principle: solving the surface need produces smaller deals, less satisfied customers, higher churn than addressing the root cause.
+Current state (environment, problems, impact, root causes) and future state (desired outcomes, emotional outcomes, solution requirements) must both be mapped before any solution presentation. Four question types: Probing (current state), Provoking (make buyer think differently), Validating (confirm + build agreement), Process (map decision-making dynamics). Pre-call artifact: Problem Identification Chart maps every problem your product solves, business impact, and root cause, serves as outreach prep, discovery navigation, and qualification criteria simultaneously. The "never sell to need" principle: solving the surface need produces smaller deals, less satisfied customers, higher churn than addressing the root cause.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Change = (Dissatisfaction with Current State × Desirability of Future State) > Cost of Change."
 
-— Keenan, *Gap Selling* (synthesized from operator's published work)
+· Keenan, *Gap Selling* (synthesized from operator's published work)
 
 ## Signals
 - CRM tracks current/future state mapping completeness as a stage gate.

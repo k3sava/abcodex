@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/ramli-john.md
 # In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly
 
 ## Claim
-Onboarding is the bridge between acquisition and monetization in product-led growth. If users don't reach the Eureka moment (first meaningful value) quickly, no pricing model recovers. The onboarding-to-upgrade path must be designed as deliberately as the product itself — the EUREKA framework gives a structured workflow for designing it.
+Onboarding is the bridge between acquisition and monetization in product-led growth. If users don't reach the Eureka moment (first meaningful value) quickly, no pricing model recovers. The onboarding-to-upgrade path must be designed as deliberately as the product itself, the EUREKA framework gives a structured workflow for designing it.
 
 ## Mechanism
-Acquisition delivers users to a landing page. Pricing decides who pays. Onboarding is what determines whether users *experience the value* in time to convert. Most PLG companies treat onboarding as a feature tour — explain the product. Ramli's reframe: design backwards from the Eureka moment (the specific first action that delivers undeniable value), then strip every step that doesn't lead there. Welcome emails, in-product walkthroughs, milestone tracking, and team activation all serve the same goal: shortest path to first value.
+Acquisition delivers users to a landing page. Pricing decides who pays. Onboarding is what determines whether users *experience the value* in time to convert. Most PLG companies treat onboarding as a feature tour, explain the product. Ramli's reframe: design backwards from the Eureka moment (the specific first action that delivers undeniable value), then strip every step that doesn't lead there. Welcome emails, in-product walkthroughs, milestone tracking, and team activation all serve the same goal: shortest path to first value.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Onboarding is the bridge between acquisition and monetization in product-led growth; if users do not reach the Eureka moment quickly, no pricing model can save you."
 
-— Ramli John, *EUREKA: The Product Onboarding Playbook for B2B Companies* (synthesized from operator's published work)
+· Ramli John, *EUREKA: The Product Onboarding Playbook for B2B Companies* (synthesized from operator's published work)
 
 ## Signals
 - Activation funnel has a named Eureka event, tracked as the headline activation metric.

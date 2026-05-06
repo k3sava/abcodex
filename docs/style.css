@@ -1153,6 +1153,34 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .br-item.active{background:var(--ink);color:var(--paper)}
 .br-item.active .ct{color:color-mix(in oklab,var(--paper) 70%,transparent)}
 .browse-rail-toggle{display:none}
+.browse-rail-close{display:none}
+
+/* Active-filter pill row — what the user has filtered by, visible above the
+   list at all viewports so the filter state is never hidden behind the rail. */
+.browse-active{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;padding:0 0 14px;border-bottom:1px solid var(--line-2)}
+.browse-active[hidden]{display:none}
+.br-active-label{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-right:4px}
+.br-active-pill{
+  display:inline-flex;align-items:center;gap:6px;
+  font-family:var(--mono);font-size:.72rem;
+  padding:5px 12px;border-radius:999px;
+  background:color-mix(in oklab,var(--accent) 10%,var(--paper-2));
+  border:1px solid color-mix(in oklab,var(--accent) 30%,transparent);
+  color:var(--ink);cursor:pointer;
+}
+.br-active-pill:hover{background:color-mix(in oklab,var(--accent) 18%,var(--paper-2));border-color:color-mix(in oklab,var(--accent) 55%,transparent)}
+.br-active-pill span{font-size:.85em;opacity:.6;line-height:1}
+.br-active-edit{
+  font-family:var(--mono);font-size:.7rem;
+  background:transparent;border:1px solid var(--line);
+  padding:5px 12px;border-radius:999px;color:var(--ink-2);cursor:pointer;margin-left:4px;
+}
+.br-active-edit:hover{border-color:var(--accent);color:var(--accent-2)}
+.br-active-clear{
+  font-family:var(--mono);font-size:.7rem;
+  background:transparent;border:none;padding:5px 8px;color:var(--muted);cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;
+}
+.br-active-clear:hover{color:var(--ink)}
 @media (max-width:720px){
   .browse-shell{grid-template-columns:1fr;gap:18px}
   .browse-rail{position:static;max-height:none;padding-right:0;gap:14px}
@@ -1417,10 +1445,16 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 
   /* Browse — collapse rail to bottom-sheet trigger */
   .browse-shell{grid-template-columns:1fr;gap:0}
-  .browse-rail{position:fixed;left:0;right:0;bottom:0;top:auto;max-height:75vh;background:var(--paper);border-top:1px solid var(--line);border-radius:18px 18px 0 0;padding:24px var(--gut);box-shadow:0 -16px 40px -20px #0003;transform:translateY(100%);transition:transform .28s cubic-bezier(.2,.8,.2,1);z-index:60;overflow-y:auto}
+  .browse-rail{position:fixed;left:0;right:0;bottom:0;top:auto;max-height:78vh;background:var(--paper);border-top:1px solid var(--line);border-radius:18px 18px 0 0;padding:30px var(--gut) max(28px, env(safe-area-inset-bottom));box-shadow:0 -16px 40px -20px #0003;transform:translateY(100%);transition:transform .28s cubic-bezier(.2,.8,.2,1);z-index:60;overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .browse-rail::before{content:'';position:absolute;top:10px;left:50%;transform:translateX(-50%);width:48px;height:5px;border-radius:99px;background:color-mix(in oklab,var(--ink) 15%,transparent)}
   .browse-rail.open{transform:translateY(0)}
-  .browse-rail-toggle{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:var(--paper-2);color:var(--ink);font-family:var(--mono);font-size:.78rem;text-transform:lowercase;letter-spacing:.04em;position:fixed;right:var(--gut);bottom:24px;z-index:50;box-shadow:0 8px 24px -10px #00000022}
+  .browse-rail-toggle{display:inline-flex;align-items:center;gap:8px;padding:11px 18px;border-radius:999px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font-family:var(--mono);font-size:.78rem;text-transform:lowercase;letter-spacing:.04em;position:fixed;right:var(--gut);bottom:max(24px, env(safe-area-inset-bottom));z-index:50;box-shadow:0 12px 28px -10px #00000033;font-weight:500}
   .browse-rail-toggle::before{content:'⏷';font-size:.7rem}
+  .browse-rail-close{display:inline-flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.72rem;letter-spacing:.06em;text-transform:lowercase;color:var(--ink);background:var(--paper-2);border:1px solid var(--line);padding:8px 16px;border-radius:999px;cursor:pointer;align-self:flex-end;margin:0 0 6px}
+  .browse-rail-close:hover{border-color:var(--accent);color:var(--accent-2)}
+  /* When the drawer is open, dim the page behind it so it's clear the list is filtered. */
+  .browse-rail.open ~ .browse-list::before{content:'';position:fixed;inset:0;background:#0008;backdrop-filter:blur(2px);z-index:55;pointer-events:none}
+  .browse-active{margin-bottom:14px;padding-bottom:10px}
   .brow{grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:10px;row-gap:4px;padding:13px 6px}
   .brow > .tier{grid-row:1;grid-column:1}
   .brow-domain{grid-row:1;grid-column:2;justify-self:start;font-size:.62rem;text-transform:uppercase;letter-spacing:.08em}
@@ -1586,6 +1620,53 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .op-grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:64px;align-items:flex-start}
 .op-main{min-width:0}
 .op-aside{position:sticky;top:calc(var(--hdr-h) + 24px);max-height:calc(100vh - var(--hdr-h) - 48px);overflow-y:auto;display:flex;flex-direction:column;gap:14px}
+/* Insight page meta row — domain chips clickable to /d/<domain>. */
+.ins-meta{margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ins-meta-doms{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ins-meta-dom{
+  font-family:var(--mono);font-size:.7rem;
+  color:var(--accent-2);text-decoration:none;
+  padding:1px 0;border-bottom:1px solid color-mix(in oklab,var(--accent) 35%,transparent);
+  transition:color .15s,border-color .15s;
+}
+.ins-meta-dom:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.ins-meta-sep{color:var(--muted);opacity:.6}
+
+/* Rail panel — peers from the same domain by other operators. Operator name
+   on first line in mono, claim in serif on second line. */
+.rail-peer-op{display:block;font-family:var(--mono);font-size:.66rem;color:var(--muted);text-transform:lowercase;letter-spacing:.04em;margin-bottom:2px}
+.rail-peer-claim{display:block;font-family:var(--serif);font-size:.86rem;line-height:1.3;color:var(--ink-2)}
+.rail-related a:hover .rail-peer-op{color:var(--accent-2)}
+.rail-related a:hover .rail-peer-claim{color:var(--accent-2)}
+
+/* Operator-page domain chips (cross-link entry point) */
+.op-domains{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 32px}
+.op-domain-chip{
+  font-family:var(--mono);font-size:.7rem;
+  padding:4px 10px;border-radius:999px;
+  background:color-mix(in oklab,var(--accent) 8%,var(--paper-2));
+  border:1px solid color-mix(in oklab,var(--accent) 20%,transparent);
+  color:var(--accent-2);text-decoration:none;
+  transition:background .15s,border-color .15s,transform .15s;
+}
+.op-domain-chip:hover{background:color-mix(in oklab,var(--accent) 16%,var(--paper-2));border-color:color-mix(in oklab,var(--accent) 45%,transparent);transform:translateY(-1px)}
+
+/* Operator bio first-letter drop-cap. The first paragraph in #opBio gets a
+   serif initial that matches editorial publishing typography. Operators whose
+   bio begins with their name get a recognisable visual marker. */
+.operator-page .body > p:first-child::first-letter{
+  font-family:var(--serif);font-weight:400;
+  font-size:3.6em;line-height:.86;
+  float:left;padding:6px 10px 0 0;
+  color:var(--ink);
+}
+
+.op-aside-extra{margin-top:24px;padding-top:18px;border-top:1px solid var(--line-2)}
+.op-aside-extra h4{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;font-weight:600}
+.op-rev-list{list-style:none;display:flex;flex-direction:column;gap:6px;padding:0;margin:0}
+.op-rev-list a{display:inline-block;font-family:var(--serif);font-size:.92rem;line-height:1.35;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s}
+.op-rev-list a:hover{color:var(--accent-2);border-bottom-color:currentColor}
+
 .op-aside-head{font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);padding-bottom:10px;margin-bottom:14px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .op-sort{display:flex;gap:2px;background:color-mix(in oklab,var(--ink) 5%,transparent);padding:2px;border-radius:6px}
 .op-sort-btn{

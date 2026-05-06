@@ -17,13 +17,13 @@ related: [ins_abm-account-not-lead]
 raw_ref: raw/expert-content/experts/tk-kader.md
 ---
 
-# An ICP isn't a buyer persona — it's an account-level definition that must be operationalized in CRM and product roadmap
+# An ICP isn't a buyer persona, it's an account-level definition that must be operationalized in CRM and product roadmap
 
 ## Claim
-An ICP is not a buyer persona. ICP defines the *target company* (firmographics, triggers, macro trends). Buyer persona defines the *individual* within that company. ICP must come first — a buyer persona without an ICP leads to cold-calling people with no organizational budget or urgency. ICP must be operationalized as a *living mandate* in your CRM, sales meetings, and product roadmap — not a static slide deck.
+An ICP is not a buyer persona. ICP defines the *target company* (firmographics, triggers, macro trends). Buyer persona defines the *individual* within that company. ICP must come first, a buyer persona without an ICP leads to cold-calling people with no organizational budget or urgency. ICP must be operationalized as a *living mandate* in your CRM, sales meetings, and product roadmap, not a static slide deck.
 
 ## Mechanism
-Conflating ICP and persona is the most common mistake in early B2B GTM. Without an ICP, sales prospects randomly across firmographic segments and the data becomes noise. Without operationalization, the ICP slide gets a quarterly nod and then ignored — sales chases whoever responds, marketing targets whoever shows intent, product builds for whoever complains loudest. ICP-as-living-mandate means CRM filters enforce the ICP, sales meetings open with ICP scoring on the pipeline, and the product roadmap prioritizes ICP-segment requests over outliers.
+Conflating ICP and persona is the most common mistake in early B2B GTM. Without an ICP, sales prospects randomly across firmographic segments and the data becomes noise. Without operationalization, the ICP slide gets a quarterly nod and then ignored, sales chases whoever responds, marketing targets whoever shows intent, product builds for whoever complains loudest. ICP-as-living-mandate means CRM filters enforce the ICP, sales meetings open with ICP scoring on the pipeline, and the product roadmap prioritizes ICP-segment requests over outliers.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "An ICP is not a buyer persona — it is an account-level definition that must be operationalized as a living mandate in your CRM, sales meetings, and product roadmap, not a static slide deck."
 
-— TK Kader (synthesized from operator's published work)
+· TK Kader (synthesized from operator's published work)
 
 ## Signals
 - CRM has an ICP-fit score on every account, computed from firmographic + trigger data.
@@ -48,4 +48,4 @@ Fails when:
 PLG products often genuinely operate at the user-as-account level, where persona-first thinking outperforms account-first. Multi-product enterprises also strain the single-ICP framing.
 
 ## Cross-references
-- ins_abm-account-not-lead — adjacent operator (Sangram Vajre)
+- ins_abm-account-not-lead, adjacent operator (Sangram Vajre)

@@ -22,19 +22,19 @@ raw_ref: https://content.buysellads.com/regrowth/hubspot-marketing-experiments
 
 ## Claim
 
-At HubSpot Labs, running growth experiments to find new opportunities, Sam reframed the question every CMO asks. The threat isn't a competitor with more features or a lower price. The threat is that *most companies still do marketing and sales the same way they did ten years ago* — which means a product like HubSpot's is incompatible with their operating practice. The growth ceiling isn't market share; it's market readiness.
+At HubSpot Labs, running growth experiments to find new opportunities, Sam reframed the question every CMO asks. The threat isn't a competitor with more features or a lower price. The threat is that *most companies still do marketing and sales the same way they did ten years ago*, which means a product like HubSpot's is incompatible with their operating practice. The growth ceiling isn't market share; it's market readiness.
 
 > "The biggest impediment to growth that we have is not someone selling a cheaper software or a software with more features. The biggest impediment to growth is that the majority of companies are still pretty bad at sales and marketing."
 
-— Sam Mallikarjunan, BuySellAds Re:Growth interview
+· Sam Mallikarjunan, BuySellAds Re:Growth interview
 
 ## Mechanism
 
-If your category's growth is gated by buyer sophistication rather than feature parity, the highest-ROI marketing investment is *advancing the thinking in the market* — even if individual pieces don't drive immediate revenue. HubSpot Labs launched ThinkGrowth.org (a Medium publication for executives) as an explicit market-development play, not a lead-gen channel. The bet: if more companies become competent at modern marketing, the entire TAM grows, and you'll capture your share of that larger base.
+If your category's growth is gated by buyer sophistication rather than feature parity, the highest-ROI marketing investment is *advancing the thinking in the market*, even if individual pieces don't drive immediate revenue. HubSpot Labs launched ThinkGrowth.org (a Medium publication for executives) as an explicit market-development play, not a lead-gen channel. The bet: if more companies become competent at modern marketing, the entire TAM grows, and you'll capture your share of that larger base.
 
 ## Conditions
 
-Holds when: you're a category leader (or contender) in a category where buyer practice lags the product. Fails when: you're early-stage in a saturated category where standard practice is already set — the lift goes to the share-stealer, not the market-developer.
+Holds when: you're a category leader (or contender) in a category where buyer practice lags the product. Fails when: you're early-stage in a saturated category where standard practice is already set, the lift goes to the share-stealer, not the market-developer.
 
 ## Why it matters for PMM
 

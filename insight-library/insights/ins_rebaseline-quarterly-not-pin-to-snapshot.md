@@ -20,10 +20,10 @@ raw_ref: raw/essays/ethan-mollick--gpt55-leaps-grow--2026-04-23.md
 # Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot
 
 ## Claim
-Each new model release moves capabilities discontinuously — what was impossible becomes easy, and the size of leaps grows each cycle — so AI workflows must be pinned to capability targets you re-baseline quarterly, not to one model snapshot whose performance you optimize against.
+Each new model release moves capabilities discontinuously, what was impossible becomes easy, and the size of leaps grows each cycle, so AI workflows must be pinned to capability targets you re-baseline quarterly, not to one model snapshot whose performance you optimize against.
 
 ## Mechanism
-A workflow optimized for the current model's exact behavior (its prompt patterns, context-window tricks, output shapes) accumulates dependencies that break when the next model arrives. The next model often makes the workaround unnecessary — the capability is now native — but the workflow has hardened around the workaround. Re-baselining quarterly means: define the capability target (e.g., "produce a credible 15-page strategy doc with primary research"), test it against the current model, then strip workarounds whose justification disappeared. Workflows pinned to capabilities outlive their underlying model snapshots; workflows pinned to a snapshot decay.
+A workflow optimized for the current model's exact behavior (its prompt patterns, context-window tricks, output shapes) accumulates dependencies that break when the next model arrives. The next model often makes the workaround unnecessary, the capability is now native, but the workflow has hardened around the workaround. Re-baselining quarterly means: define the capability target (e.g., "produce a credible 15-page strategy doc with primary research"), test it against the current model, then strip workarounds whose justification disappeared. Workflows pinned to capabilities outlive their underlying model snapshots; workflows pinned to a snapshot decay.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Honest concession: rough edges remain in long-form fiction generation. The frame applies to capability-led workflow design, not blind upgrade.
 
-— Ethan Mollick, *Sign of the Future: GPT-5.5*, https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55, 2026-04-23
+· Ethan Mollick, *Sign of the Future: GPT-5.5*, https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55, 2026-04-23
 
 ## Signals
 - A standing quarterly re-baseline task strips workarounds when their justification disappears.
@@ -52,6 +52,6 @@ Honest concession: rough edges remain in long-form fiction generation. The frame
 Frequent re-baselining costs operator time and can destabilize workflows that depend on consistent behavior. For high-stakes regulated workflows, pinning to a known model snapshot is the safer move. The cadence (quarterly) is a default, not a universal.
 
 ## Cross-references
-- `ins_build-for-next-model-not-current` — Anthropic's parallel framing.
-- `ins_remove-features-as-models-improve` — companion: strip the workaround when the model catches up.
-- `ins_dotclaude-as-deployable-artifact` — Huryn's config-layer hygiene that makes re-baselining tractable.
+- `ins_build-for-next-model-not-current`, Anthropic's parallel framing.
+- `ins_remove-features-as-models-improve`, companion: strip the workaround when the model catches up.
+- `ins_dotclaude-as-deployable-artifact`, Huryn's config-layer hygiene that makes re-baselining tractable.

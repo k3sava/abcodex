@@ -14,10 +14,10 @@ domains: [growth, attribution-measurement, product]
 Three operators converge on a measurement reset: stop optimising stage conversion rates, stop pretending you have long feedback loops, and stop running experiments that won't reach sample size. Optimise absolute counts at each stage. Find correlated short signals for the long outcome you care about. Use pre/post when sample size won't cooperate.
 
 ## Operators
-- Archie Abrams (Shopify) — `ins_absolute-counts-over-conversion-rates` and `ins_long-term-holdouts-30-40-evaporate`. Optimise absolute counts; 30-40% of short-term-lift wins evaporate at 1 year.
-- Annie Duke — `ins_no-such-thing-as-long-feedback-loop`. There is no such thing as a long feedback loop — find a correlated short signal.
-- Elena Verna — `ins_experimentation-paralysis`. Don't test what won't reach sample size in a month — pre/post is fine.
-- Chris Orlob — `ins_competency-analytics-over-activity-dashboards`. Coach reps on skill-friction, not call counts (the same principle in sales-coaching shape).
+- Archie Abrams (Shopify), `ins_absolute-counts-over-conversion-rates` and `ins_long-term-holdouts-30-40-evaporate`. Optimise absolute counts; 30-40% of short-term-lift wins evaporate at 1 year.
+- Annie Duke, `ins_no-such-thing-as-long-feedback-loop`. There is no such thing as a long feedback loop, find a correlated short signal.
+- Elena Verna, `ins_experimentation-paralysis`. Don't test what won't reach sample size in a month, pre/post is fine.
+- Chris Orlob, `ins_competency-analytics-over-activity-dashboards`. Coach reps on skill-friction, not call counts (the same principle in sales-coaching shape).
 
 ## Variation
 - Abrams provides the *metric reframe* + the *validation evidence* (long-term holdouts).
@@ -30,8 +30,8 @@ Three operators converge on a measurement reset: stop optimising stage conversio
 For every experiment you run, ask: (1) will it reach sample size in 30 days? if not, run pre/post. (2) am I optimising rate or count? optimise count. (3) is the outcome I care about months out? find a correlated 7-day proxy and validate it. Audit one quarter of "wins" against a 1-year holdout and expect 30-40% evaporation.
 
 ## Sources
-- ins_absolute-counts-over-conversion-rates — Archie Abrams
-- ins_long-term-holdouts-30-40-evaporate — Archie Abrams
-- ins_no-such-thing-as-long-feedback-loop — Annie Duke
-- ins_experimentation-paralysis — Elena Verna
-- ins_competency-analytics-over-activity-dashboards — Chris Orlob
+- ins_absolute-counts-over-conversion-rates, Archie Abrams
+- ins_long-term-holdouts-30-40-evaporate, Archie Abrams
+- ins_no-such-thing-as-long-feedback-loop, Annie Duke
+- ins_experimentation-paralysis, Elena Verna
+- ins_competency-analytics-over-activity-dashboards, Chris Orlob

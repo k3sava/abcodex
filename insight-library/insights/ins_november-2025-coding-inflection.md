@@ -17,7 +17,7 @@ related: [ins_build-for-next-model-not-current, ins_dark-factory-pattern]
 raw_ref: raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md
 ---
 
-# November 2025 was the qualitative threshold — coding agents now almost always do what you tell them
+# November 2025 was the qualitative threshold, coding agents now almost always do what you tell them
 
 ## Claim
 Between GPT 5.1 and Claude Opus 4.5, coding agents crossed a discrete threshold from "mostly works" to "almost always works." That single shift, dating from November 2025, is the qualifier separating "AI-native" as aspiration from "AI-native" as operating reality.
@@ -32,14 +32,14 @@ Holds when:
 
 Fails when:
 - The task is unverifiable (legal, strategy, taste). The threshold for those domains comes later, at the rate eval rigor improves for each.
-- The harness around the model is poor — even a good model with no test loop produces brittle output.
+- The harness around the model is poor, even a good model with no test loop produces brittle output.
 
 ## Evidence
 > "Previously coding agents mostly worked, now they almost always do what you told them to do."
 
-Simon reports ~95% of his own code is no longer typed by him personally. StrongDM has been practicing "nobody reads the code" since August 2025 — security software, no less — gated by a simulated-QA swarm running thousands of agent-driven test users in a vibe-coded simulated Slack/Jira/Okta. ~$10K/day in tokens, robust enough to ship security-critical infrastructure.
+Simon reports ~95% of his own code is no longer typed by him personally. StrongDM has been practicing "nobody reads the code" since August 2025, security software, no less, gated by a simulated-QA swarm running thousands of agent-driven test users in a vibe-coded simulated Slack/Jira/Okta. ~$10K/day in tokens, robust enough to ship security-critical infrastructure.
 
-— Simon Willison on Lenny's Podcast, 2026-04-02
+· Simon Willison on Lenny's Podcast, 2026-04-02
 
 ## Signals
 - Engineers who spent 3 weeks on a feature now ship the same feature in 3 hours.
@@ -51,5 +51,5 @@ Simon reports ~95% of his own code is no longer typed by him personally. StrongD
 The threshold is task-specific. Code is the bellwether because code is verifiable; essays, lawsuits, and plans don't have a unit test. Operators who extrapolate "November happened for code" to "November happened for marketing" will overpay for current-model marketing agents and underbuild eval infrastructure. The right move is to invest in the eval/verification layer for each domain so that domain's threshold can arrive.
 
 ## Cross-references
-- `ins_build-for-next-model-not-current` — the operating principle this threshold validates
-- `ins_dark-factory-pattern` — the StrongDM example of post-threshold operations
+- `ins_build-for-next-model-not-current`, the operating principle this threshold validates
+- `ins_dark-factory-pattern`, the StrongDM example of post-threshold operations

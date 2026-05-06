@@ -12,22 +12,22 @@ domains: [pmm, gtm, growth-demand, strategy]
 
 ## Convergence
 
-Three operators from very different traditions — Alex Hormozi (offer engineering), Seth Godin (audience design), April Dunford (B2B positioning) — converge on the same hierarchy: market selection > offer strength > persuasion / funnel optimisation. Each names it differently. Hormozi: Starving Crowd > Offer > Persuasion. Godin: smallest viable audience first, then product, then story, then spread. Dunford: differentiated capabilities for a target segment, then the positioning narrative, then the demo / pitch. All three reject the "fix the ads, fix the funnel" instinct as misdirected effort.
+Three operators from very different traditions, Alex Hormozi (offer engineering), Seth Godin (audience design), April Dunford (B2B positioning), converge on the same hierarchy: market selection > offer strength > persuasion / funnel optimisation. Each names it differently. Hormozi: Starving Crowd > Offer > Persuasion. Godin: smallest viable audience first, then product, then story, then spread. Dunford: differentiated capabilities for a target segment, then the positioning narrative, then the demo / pitch. All three reject the "fix the ads, fix the funnel" instinct as misdirected effort.
 
 ## Operators
 
-- **Alex Hormozi** — Starving-Crowd hierarchy and the Value Equation.
-  - `ins_starving-crowd-beats-offer`: Market choice > offer strength > persuasion. Most entrepreneurs invert this hierarchy and over-invest in the bottom layer.
-  - `ins_offer-and-market-as-highest-roi-lever`: When growth stalls, fix the offer or change the market — not the ad spend.
-  - `ins_value-equation-grand-slam-offer`: Value = (Dream Outcome × Likelihood) / (Time Delay × Effort). Pull all four levers, not just price.
+- **Alex Hormozi**, Starving-Crowd hierarchy and the Value Equation.
+ - `ins_starving-crowd-beats-offer`: Market choice > offer strength > persuasion. Most entrepreneurs invert this hierarchy and over-invest in the bottom layer.
+ - `ins_offer-and-market-as-highest-roi-lever`: When growth stalls, fix the offer or change the market, not the ad spend.
+ - `ins_value-equation-grand-slam-offer`: Value = (Dream Outcome × Likelihood) / (Time Delay × Effort). Pull all four levers, not just price.
 
-- **Seth Godin** — Audience design and worldview matching.
-  - `ins_smallest-viable-audience`: The goal is not to maximize numbers; it is to be missed if you stopped. Pick the smallest audience that can sustain the business.
-  - `ins_worldview-led-marketing`: Don't try to change minds; find the worldview that already wants your story.
-  - `ins_godin-five-step-marketing-process`: Invent → design for the few → tell the matching story → spread → show up for years. Steps 1-3 happen *before* any visible marketing activity; operators commonly start at step 4.
+- **Seth Godin**, Audience design and worldview matching.
+ - `ins_smallest-viable-audience`: The goal is not to maximize numbers; it is to be missed if you stopped. Pick the smallest audience that can sustain the business.
+ - `ins_worldview-led-marketing`: Don't try to change minds; find the worldview that already wants your story.
+ - `ins_godin-five-step-marketing-process`: Invent → design for the few → tell the matching story → spread → show up for years. Steps 1-3 happen *before* any visible marketing activity; operators commonly start at step 4.
 
-- **April Dunford** — Positioning as a structured workflow.
-  - `ins_no-decision-is-the-real-competitor`: 40-60% of B2B losses are no-decision; the buyer is not feature-shopping. Re-order the pitch to establish the problem first.
+- **April Dunford**, Positioning as a structured workflow.
+ - `ins_no-decision-is-the-real-competitor`: 40-60% of B2B losses are no-decision; the buyer is not feature-shopping. Re-order the pitch to establish the problem first.
 
 ## Variation
 
@@ -45,7 +45,7 @@ When growth stalls, the diagnostic order is:
 1. **Is the market right?** Is the audience starving (Hormozi), tightly defined (Godin), and big enough to sustain the business? If no, reposition before doing anything else.
 2. **Is the offer right?** Audit using Hormozi's Value Equation (Dream Outcome × Likelihood / Time × Effort). Is the gain ≥2× the buyer's loss-aversion tax (per Kahneman)? If no, rewrite the offer before touching ads.
 3. **Is the story right?** Does it match the audience's existing worldview (Godin)? Does it lead with the cost of inaction (Dunford)? If no, rewrite the pitch.
-4. **Only then optimise the funnel.** Headline tests, ad creative, landing page conversion. These produce single-digit improvements that compound — but only on top of correct upstream layers.
+4. **Only then optimise the funnel.** Headline tests, ad creative, landing page conversion. These produce single-digit improvements that compound, but only on top of correct upstream layers.
 
 The common failure mode is to skip 1-3 because they require harder thinking and longer cycles, and to spend instead on the visible-progress optimisation of step 4.
 

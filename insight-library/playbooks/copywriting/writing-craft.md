@@ -66,10 +66,10 @@ Delete on sight: powerful, robust, seamless, cutting-edge, innovative, comprehen
 
 ## Voice rules
 
-- "You" not "we" — buyer as agent.
-- Conversational — write like you talk to a smart friend.
-- Specific — names, numbers, places.
-- Honest — concede limits before they're asked.
+- "You" not "we", buyer as agent.
+- Conversational, write like you talk to a smart friend.
+- Specific, names, numbers, places.
+- Honest, concede limits before they're asked.
 - Cut throat-clearing openers ("In today's fast-paced world...").
 
 ## CTA craft

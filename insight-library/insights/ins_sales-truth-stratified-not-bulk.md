@@ -23,7 +23,7 @@ raw_ref:
 The AI-native version of "extract themes from sales calls" is not "feed all 500 transcripts to an LLM." It is: stratify by won/lost, take the most recent 20 of each, extract the 5 strongest signals per call, then let a human pattern-match. AI does the volume work; humans hold the pattern judgment.
 
 ## Mechanism
-Bulk LLM theming regresses to the mean and surfaces what is frequent rather than what is decisive. Stratifying preserves the won-vs-lost contrast — the only signal that names differentiation. Limiting to recent calls keeps the pattern current. Humans hold pattern recognition because a frequency-based system collapses signal across these axes.
+Bulk LLM theming regresses to the mean and surfaces what is frequent rather than what is decisive. Stratifying preserves the won-vs-lost contrast, the only signal that names differentiation. Limiting to recent calls keeps the pattern current. Humans hold pattern recognition because a frequency-based system collapses signal across these axes.
 
 ## Conditions
 Holds when: there are enough recent won/lost calls to stratify (~20 each), and a human reviewer who knows the deal context.
@@ -31,7 +31,7 @@ Fails when: the call corpus is too sparse, or the human reviewer doesn't know th
 
 ## Evidence
 Paraphrased from Anthony Pierri's homepage framework interview: the buyer needs use case, alternative, and result in five seconds; sales-call truth is the input that matters, every other input is noise.
-— Anthony Pierri, EarlyNode interview, 2026-04-22
+· Anthony Pierri, EarlyNode interview, 2026-04-22
 
 ## Signals
 - Reviewer checklist names won-vs-lost contrast as the primary axis.

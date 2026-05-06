@@ -37,15 +37,15 @@ Fails when:
 ## Evidence
 > "If a project is under 2 engineering weeks, the engineer owns the PM work — security, legal, alignment. Over 2 weeks, PM is squarely accountable. Productminded engineers' value goes up an order of magnitude."
 
-— Amole Naik on Lenny's Podcast, 2026-04-27
+· Amole Naik on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - PM time concentrates on a smaller number of high-leverage projects.
 - Engineers ship more PRs that touch non-engineering surfaces (copy, legal review) without PM authoring.
-- The two-week gate becomes part of the team's vocabulary — "this is a two-week project" carries meaning.
+- The two-week gate becomes part of the team's vocabulary, "this is a two-week project" carries meaning.
 
 ## Counter-evidence
 The two-week cutoff is arbitrary; the right number depends on the org's complexity and the engineer's range. Some teams use one week; some use a month. The principle (cycle-time gate) is more durable than the specific number.
 
 ## Cross-references
-- `ins_engineers-with-product-taste` — the staffing precondition for this gate to work
+- `ins_engineers-with-product-taste`, the staffing precondition for this gate to work

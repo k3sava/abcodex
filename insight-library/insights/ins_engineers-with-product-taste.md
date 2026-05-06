@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/cat-wu--anthropic-product-team--2026-04-27.md
 As code generation gets cheap, the bottleneck moves to "deciding what to write." Hire engineers who can take user feedback and ship a feature end-to-end without PM input. PM and engineering job descriptions are merging; designers and PMs both write code; the durable scarce skill is taste.
 
 ## Mechanism
-The previous PM-engineer split assumed code was expensive and product judgment was specialized. Both have inverted. Code is now table stakes; product judgment — knowing which feature to write, which user pain to chase, which polish to prioritize — is the gate. An engineer with taste outputs more user value per week than a PM-plus-engineer pair where the PM is gating.
+The previous PM-engineer split assumed code was expensive and product judgment was specialized. Both have inverted. Code is now table stakes; product judgment, knowing which feature to write, which user pain to chase, which polish to prioritize, is the gate. An engineer with taste outputs more user value per week than a PM-plus-engineer pair where the PM is gating.
 
 ## Conditions
 Holds when:
@@ -37,9 +37,9 @@ Fails when:
 ## Evidence
 > "As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write."
 
-— Cat Wu on Lenny's Podcast, 2026-04-27
+· Cat Wu on Lenny's Podcast, 2026-04-27
 
-Anthropic's product org is ~30-40 PMs across Research PM, Cloud Developer Platform, Cloud Code, Enterprise, and Growth — small relative to engineering. The pattern is reinforced at OpenAI by Sherwin Wu (95% Codex authorship; ICs becoming tech leads of agent fleets).
+Anthropic's product org is ~30-40 PMs across Research PM, Cloud Developer Platform, Cloud Code, Enterprise, and Growth, small relative to engineering. The pattern is reinforced at OpenAI by Sherwin Wu (95% Codex authorship; ICs becoming tech leads of agent fleets).
 
 ## Signals
 - Engineers regularly read user feedback unprompted.
@@ -50,5 +50,5 @@ Anthropic's product org is ~30-40 PMs across Research PM, Cloud Developer Platfo
 Anthropic and OpenAI hire from a deep talent pool with high prior selection on taste. Most companies do not have this hiring funnel. Camille Fournier's platform-engineering work argues the opposite for infrastructure teams: there, manager / specialist split still wins because the work is coordination-dense. Treat this as an applied pattern for product-shipping teams, not a universal hiring rule.
 
 ## Cross-references
-- `ins_prds-replaced-by-metrics-and-principles` — the operating pattern that enables engineer-led shipping
-- `ins_taste-as-scarce-skill` — the broader thesis on what compounds in the AI era
+- `ins_prds-replaced-by-metrics-and-principles`, the operating pattern that enables engineer-led shipping
+- `ins_taste-as-scarce-skill`, the broader thesis on what compounds in the AI era

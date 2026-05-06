@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 "How do I help my management understand why Product Managers and Product Marketers need to work closely together?" I hear this question a lot from PMMs who read my content. It will be an uphill climb if your organization doesn't fully comprehend the essence of a PMM role and isn't ready to change their product rituals. But it always starts with internal education.
 
 ## Mechanism
-[5] The value proposition isn’t complete until you bring pricing into the equation.
+[5] The value proposition isn't complete until you bring pricing into the equation.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "→ The words matter. The most innovative features won't do much if customers don't understand why they should care."
 
-— Aatir Abdul Rauf, LinkedIn, 2026-04-10
+· Aatir Abdul Rauf, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

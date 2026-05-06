@@ -17,13 +17,13 @@ related: [ins_latticework-of-mental-models, ins_wysiati-overconfidence]
 raw_ref: raw/expert-content/experts/charlie-munger.md
 ---
 
-# Knowing what you don't know beats being brilliant — the discipline is the boundary, not the expansion
+# Knowing what you don't know beats being brilliant, the discipline is the boundary, not the expansion
 
 ## Claim
-The hardest discipline in expertise is not learning more; it is naming the perimeter of what you actually know and refusing to operate outside it. Knowing what you don't know is more useful than being brilliant — because brilliance applied outside its circle becomes confident error, while honest boundary-keeping compounds trust and decision quality over decades.
+The hardest discipline in expertise is not learning more; it is naming the perimeter of what you actually know and refusing to operate outside it. Knowing what you don't know is more useful than being brilliant, because brilliance applied outside its circle becomes confident error, while honest boundary-keeping compounds trust and decision quality over decades.
 
 ## Mechanism
-Most decision failures come from operating just past the edge of competence — the zone where the operator has enough exposure to *feel* informed but not enough mastery to be calibrated. The fix is asymmetric: small wins from staying in-circle compound; small losses from venturing out-of-circle compound faster (because confident wrong decisions get bigger bets behind them). Drawing the boundary requires explicit work: list domains, name where your edge comes from, name what you'd need to learn to genuinely extend the circle, and treat any decision past the line as out-of-circle until proven otherwise. The discipline is rejecting the seduction of looking smart in adjacent domains.
+Most decision failures come from operating just past the edge of competence, the zone where the operator has enough exposure to *feel* informed but not enough mastery to be calibrated. The fix is asymmetric: small wins from staying in-circle compound; small losses from venturing out-of-circle compound faster (because confident wrong decisions get bigger bets behind them). Drawing the boundary requires explicit work: list domains, name where your edge comes from, name what you'd need to learn to genuinely extend the circle, and treat any decision past the line as out-of-circle until proven otherwise. The discipline is rejecting the seduction of looking smart in adjacent domains.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "knowing what you don't know is more useful than being brilliant."
 
-— see `raw/expert-content/experts/charlie-munger.md` line 16.
+· see `raw/expert-content/experts/charlie-munger.md` line 16.
 
 ## Signals
 - Investment / strategy decisions that explicitly state which decisions are out-of-circle and decline them rather than rationalising involvement.
@@ -47,9 +47,9 @@ Fails when:
 - Hiring decisions that recruit explicitly to fill out-of-circle gaps rather than projecting confidence into them.
 
 ## Counter-evidence
-In fast-moving categories (early-stage AI tooling, emerging platforms), strict circle discipline can mean missing windows where the circle hasn't formed yet — first-mover learning *creates* the circle. Sam Altman's "iterative deployment" philosophy is the opposite of circle discipline: ship into the unknown, learn from contact. Both can be right depending on the cost of being wrong.
+In fast-moving categories (early-stage AI tooling, emerging platforms), strict circle discipline can mean missing windows where the circle hasn't formed yet, first-mover learning *creates* the circle. Sam Altman's "iterative deployment" philosophy is the opposite of circle discipline: ship into the unknown, learn from contact. Both can be right depending on the cost of being wrong.
 
 ## Cross-references
-- `ins_latticework-of-mental-models` — circle of competence is one of Munger's foundational meta-models alongside inversion and incentives.
-- `ins_wysiati-overconfidence` — Kahneman's WYSIATI is the cognitive failure that makes circle-of-competence violations feel correct.
-- `ins_specific-knowledge-and-leverage` — Naval's "specific knowledge" is what defines the circle's interior.
+- `ins_latticework-of-mental-models`, circle of competence is one of Munger's foundational meta-models alongside inversion and incentives.
+- `ins_wysiati-overconfidence`, Kahneman's WYSIATI is the cognitive failure that makes circle-of-competence violations feel correct.
+- `ins_specific-knowledge-and-leverage`, Naval's "specific knowledge" is what defines the circle's interior.

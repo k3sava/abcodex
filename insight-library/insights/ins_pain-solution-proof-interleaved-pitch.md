@@ -17,13 +17,13 @@ related: [ins_setup-follow-through-pitch]
 raw_ref: raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md
 ---
 
-# Pitch a vision as pain → solution → proof, interleaved per beat — not three sequential acts
+# Pitch a vision as pain → solution → proof, interleaved per beat, not three sequential acts
 
 ## Claim
-Vision pitches land harder when each pain claim is paired with its own solution claim and a concrete proof point — testimonial, prototype, demo — rather than presenting all pains, then all solutions, then all proof. Words alone get you part of the way; visual or working artifacts close the gap.
+Vision pitches land harder when each pain claim is paired with its own solution claim and a concrete proof point, testimonial, prototype, demo, rather than presenting all pains, then all solutions, then all proof. Words alone get you part of the way; visual or working artifacts close the gap.
 
 ## Mechanism
-Sequential pain-then-solution-then-proof structure asks the audience to hold abstract claims in memory for too long. By the time the proof arrives, the original pain has faded and the proof reads as a feature list. Interleaved structure compresses the rhetorical loop: each beat builds belief on the previous. The proof artifact also doubles as a feedback object — reviewers can react to the artifact, not the deck.
+Sequential pain-then-solution-then-proof structure asks the audience to hold abstract claims in memory for too long. By the time the proof arrives, the original pain has faded and the proof reads as a feature list. Interleaved structure compresses the rhetorical loop: each beat builds belief on the previous. The proof artifact also doubles as a feedback object, reviewers can react to the artifact, not the deck.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Mihika built FigJam launches and her current zero-to-one product launch using this structure. Single shared artifact across the team replaces parallel research / design / product decks.
 
-— Mihika Kapoor on Lenny's Podcast, 2026-04-28
+· Mihika Kapoor on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Demos are inserted at every internal forum even when not polished, and audience feedback shifts from abstract to artifact-specific.
@@ -49,7 +49,7 @@ Mihika built FigJam launches and her current zero-to-one product launch using th
 - Pitch-to-greenlight cycles shorten because reviewers see the work, not the argument.
 
 ## Counter-evidence
-April Dunford's setup / follow-through model argues the opposite for B2B sales — establish the frame fully before any product detail. The right read is conditional on audience: internal stakeholders want artifacts; cold buyers want framing first.
+April Dunford's setup / follow-through model argues the opposite for B2B sales, establish the frame fully before any product detail. The right read is conditional on audience: internal stakeholders want artifacts; cold buyers want framing first.
 
 ## Cross-references
-- `ins_setup-follow-through-pitch` — the contrasting B2B sales model
+- `ins_setup-follow-through-pitch`, the contrasting B2B sales model

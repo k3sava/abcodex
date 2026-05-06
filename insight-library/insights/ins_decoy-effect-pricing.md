@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/dan-ariely.md
 # Add a strictly-worse third tier to make the premium tier look like the obvious choice
 
 ## Claim
-Humans cannot evaluate prices in isolation, only relatively. Adding a decoy tier — strictly inferior to one of two existing options — shifts preference toward the dominating option. Ariely's Economist experiment: when only web-only ($59) and print+web ($125) were offered, most chose web-only. Adding a print-only option at $125 (identical price, strictly worse than print+web) flipped 84% to print+web — an estimated 43% revenue lift per subscriber.
+Humans cannot evaluate prices in isolation, only relatively. Adding a decoy tier, strictly inferior to one of two existing options, shifts preference toward the dominating option. Ariely's Economist experiment: when only web-only ($59) and print+web ($125) were offered, most chose web-only. Adding a print-only option at $125 (identical price, strictly worse than print+web) flipped 84% to print+web, an estimated 43% revenue lift per subscriber.
 
 ## Mechanism
 The decoy tier is not designed to sell. It is designed to give the brain a reference point that makes the target tier look obviously better. Buyers can't compute absolute value, but they reliably detect "A is strictly better than B at the same price" and lock onto it. SaaS pricing pages can stage the same effect: an intentionally inferior middle tier (or feature-stripped Pro tier) makes the Premium tier read as the rational choice without changing its actual price.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "When offered web-only ($59) and print-plus-web ($125), most chose web-only. But when a print-only option at $125 was added as a decoy (identical price to print-plus-web but strictly worse), 84% chose print-plus-web. The decoy generated approximately 43% more revenue per subscriber."
 
-— Dan Ariely, *Predictably Irrational* (synthesized from operator's published work)
+· Dan Ariely, *Predictably Irrational* (synthesized from operator's published work)
 
 ## Signals
 - Pricing pages are explicitly designed with three tiers, the middle engineered as a decoy.

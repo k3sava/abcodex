@@ -27,11 +27,11 @@ LLM retrieval scores chunks against entities and relations, not keyword density.
 
 ## Conditions
 Holds when: the brand owns a defined entity graph (products, features, problems, audiences) and can express it in schema.
-Fails when: the offering is ambiguous or pre-PMF — entities are still in flux.
+Fails when: the offering is ambiguous or pre-PMF, entities are still in flux.
 
 ## Evidence
 Paraphrased from Mike King's framing: treat GEO as IR engineering, not content marketing. Entities, structured chunks, citation worth are the levers.
-— Mike King, iPullRank, April 2026
+· Mike King, iPullRank, April 2026
 
 ## Signals
 - AEO investment going into schema and entity graphs, not blog volume.
@@ -39,7 +39,7 @@ Paraphrased from Mike King's framing: treat GEO as IR engineering, not content m
 - Content briefs shaped around entities and questions rather than keyword clusters.
 
 ## Counter-evidence
-For new categories with no shared entity vocabulary yet, content has to do double duty — define the entities first, then engineer relevance around them.
+For new categories with no shared entity vocabulary yet, content has to do double duty, define the entities first, then engineer relevance around them.
 
 ## Cross-references
 - (none in current corpus)

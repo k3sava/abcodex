@@ -23,7 +23,7 @@ raw_ref:
 Fifteen years of GTM and pricing expertise can be packaged as Claude Skills, not prompts. Skills are versioned, portable, and composable; prompts are not. The strategic implication for any team building a knowledge substrate: ship Skills with decision ledgers, not prompt libraries.
 
 ## Mechanism
-Prompts are ephemeral text; Skills are addressable artifacts with metadata, versioning, and composition. That makes them distributable, auditable, and improvable — the properties operator expertise needs to scale beyond the original author.
+Prompts are ephemeral text; Skills are addressable artifacts with metadata, versioning, and composition. That makes them distributable, auditable, and improvable, the properties operator expertise needs to scale beyond the original author.
 
 ## Conditions
 Holds when: the host platform (Claude or similar) supports Skills as first-class objects.
@@ -31,7 +31,7 @@ Fails when: the workflow is one-shot enough that the Skill overhead exceeds the 
 
 ## Evidence
 > "I turned 15 years of GTM expertise into Claude skills you can use."
-— Kyle Poyar, Growth Unhinged, 2026-04-29
+· Kyle Poyar, Growth Unhinged, 2026-04-29
 
 ## Signals
 - Internal expertise published as Skills with named owners, not as Notion prompt libraries.
@@ -39,7 +39,7 @@ Fails when: the workflow is one-shot enough that the Skill overhead exceeds the 
 - Decision ledgers (Brier-scored or similar) attached to each Skill's outputs.
 
 ## Counter-evidence
-For rapidly evolving tactical knowledge that changes weekly, a Skill's versioning overhead may be too heavy — a living doc still wins.
+For rapidly evolving tactical knowledge that changes weekly, a Skill's versioning overhead may be too heavy, a living doc still wins.
 
 ## Cross-references
 - (none in current corpus)

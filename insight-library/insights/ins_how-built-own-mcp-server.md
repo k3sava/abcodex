@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents)
 
 ## Claim
-How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) Spin up an MCP server + hack my lead gen workflow via ai agents… in under 15 minutes! No brittle hacks — connected AI agents to any API safely. Dropped in my OpenAPI specs, and boom — MCP-compatible tool definitions were ready.
+How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) Spin up an MCP server + hack my lead gen workflow via ai agents… in under 15 minutes! No brittle hacks, connected AI agents to any API safely. Dropped in my OpenAPI specs, and boom, MCP-compatible tool definitions were ready.
 
 ## Mechanism
 > Substack Scraping – Pulls niche newsletter author & subscriber lists, enriches with contact info, and segments by niche.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents)"
 
-— Divyanshi Sharma, LinkedIn, 2026-04-10
+· Divyanshi Sharma, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

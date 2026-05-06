@@ -34,7 +34,7 @@ A 6–12 month campaign system: channel selection, calendar, webinars, content, 
 
 Up Next → Testing → Scaling → Core → Big Bet → Not Working. At any point at least one channel should be a Big Bet that could change the growth trajectory. Every 18 months, plan a new growth model and protect it from KPIs for 12 (`ins_add-new-growth-model-every-18-months`).
 
-## Webinar — customers-first, prospects-next
+## Webinar, customers-first, prospects-next
 
 Run webinars for customers first; repurpose for prospects 4 weeks later. Customer feedback validates the messaging before exposing to cold audiences.
 
@@ -69,12 +69,12 @@ Segment plays are defined BEFORE the campaign launches, not figured out after th
 
 ## Common failure modes
 
-- Random Acts of Marketing — unstrategic channel selection (5 R.A.M. signs from MKT1).
+- Random Acts of Marketing, unstrategic channel selection (5 R.A.M. signs from MKT1).
 - Asset production before messaging brief.
 - Generic "thanks for attending" follow-up that ignores segmentation.
 - Calendar disconnected from roadmap.
 - Webinars going live without dry run.
-- Hero copy mismatched to audience tier — outcome-first works for SMB/mid-market; category-claim heroes for enterprise.
+- Hero copy mismatched to audience tier, outcome-first works for SMB/mid-market; category-claim heroes for enterprise.
 - All paid channels, no earned. Every dollar in algorithm channels makes Google richer (`ins_earned-channels-over-algorithm-channels`).
 
 ## Outputs

@@ -17,10 +17,10 @@ related: [ins_negotiation-starts-before-first-call]
 raw_ref: raw/podcasts/jacob-warwick--comp-negotiation-information-asymmetry--2026-04-28.md
 ---
 
-# In any infrequent negotiation, you are the werewolf with no card — close the asymmetry first
+# In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first
 
 ## Claim
-The other side negotiates dozens of times a day; you negotiate four or five times in your career. That information asymmetry, not your individual skill, is the structural problem. In Werewolf, players with information win 60–70% even when outnumbered. Pre-call research, peer-band intel, and inside coaching aren't supplementary tactics — they are the entire game.
+The other side negotiates dozens of times a day; you negotiate four or five times in your career. That information asymmetry, not your individual skill, is the structural problem. In Werewolf, players with information win 60–70% even when outnumbered. Pre-call research, peer-band intel, and inside coaching aren't supplementary tactics, they are the entire game.
 
 ## Mechanism
 Without information, you anchor wrong, miss procedural moves, and accept terms that the buyer's institutional memory has already optimized against. With information, you arrive knowing the comp band, the prior precedents, the typical procedural traps, and the buyer's recent comparable closes. Each piece of intel collapses a portion of the asymmetry; enough collapse moves the negotiation closer to symmetric.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Meta negotiates thousands of times a day. You negotiate four or five times in your career. Werewolf game: even outnumbered 6-to-1, the players with information win 60–70%."
 
-— Jacob Warwick on Lenny's Podcast, 2026-04-28
+· Jacob Warwick on Lenny's Podcast, 2026-04-28
 
 Practical moves: paid workshops with advisors before negotiation, peer band-intel ("what comp did the last person sit at?"), and review monthly during long processes.
 
@@ -50,4 +50,4 @@ Practical moves: paid workshops with advisors before negotiation, peer band-inte
 Excessive preparation can backfire as adversarial-feeling rather than collaborative. Pair the intel work with the discovery-first interview shape so the conversation feels like a consultation, not an interrogation.
 
 ## Cross-references
-- `ins_negotiation-starts-before-first-call` — the upstream positioning work that makes the asymmetry-closing easier
+- `ins_negotiation-starts-before-first-call`, the upstream positioning work that makes the asymmetry-closing easier

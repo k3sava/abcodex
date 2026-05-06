@@ -13,11 +13,11 @@ secondary_sources:
 
 # Synthetic audience test playbook
 
-Pre-flight test of a positioning, LP, ad copy, or outbound opener variant against grounded buyer personas before live calibration. Returns a structured read (clarity, objections, comprehension gaps, predicted intent delta). **Directional only** — not a gate verdict. Use BEFORE filing a gate packet on the variant.
+Pre-flight test of a positioning, LP, ad copy, or outbound opener variant against grounded buyer personas before live calibration. Returns a structured read (clarity, objections, comprehension gaps, predicted intent delta). **Directional only**, not a gate verdict. Use BEFORE filing a gate packet on the variant.
 
-The synthetic audience is BUYERS, not marketers — like Nooks for SDR cold-call practice. Trusted-5 reviewers in the loop are sales/CS roles closest to the buyer voice, not internal marketers.
+The synthetic audience is BUYERS, not marketers, like Nooks for SDR cold-call practice. Trusted-5 reviewers in the loop are sales/CS roles closest to the buyer voice, not internal marketers.
 
-Source synthesis: Wynter B2B Message Layers (Clarity / Relevance / Value / Differentiation + Friction inverse), Gartner G00823537 Market Guide for B2B Message Testing (Clarity / Credibility / Urgency / Uniqueness / Value / Relevance), `ins_jtbd-interviews-surface-customer-language` (Moesta — verbatim language as primary signal).
+Source synthesis: Wynter B2B Message Layers (Clarity / Relevance / Value / Differentiation + Friction inverse), Gartner G00823537 Market Guide for B2B Message Testing (Clarity / Credibility / Urgency / Uniqueness / Value / Relevance), `ins_jtbd-interviews-surface-customer-language` (Moesta, verbatim language as primary signal).
 
 ## When to use
 
@@ -36,7 +36,7 @@ Source synthesis: Wynter B2B Message Layers (Clarity / Relevance / Value / Diffe
 
 1. The variant under test (one block of copy, or N variants for comparison).
 2. Optional: target persona slice. Default: all personas.
-3. Optional: comparison anchor (current live copy, competitor claim) — improves the read.
+3. Optional: comparison anchor (current live copy, competitor claim), improves the read.
 
 ## 7-dimension scoring rubric
 
@@ -72,10 +72,10 @@ Per iter-3 debrief: synthetic panels rank-invert on narrow high-intent product L
 
 ## Composes with
 
-- **Voice-enforce / humanizer** — passes voice gates first.
-- **Claim-verify** — substrate-truth verified before panel test.
-- **CRO rubric** — runs after lp-cro on LP variants.
-- **Gate packets** — synthetic-audience read goes IN the packet; downstream consumers must not tag the read as a gate verdict.
+- **Voice-enforce / humanizer**, passes voice gates first.
+- **Claim-verify**, substrate-truth verified before panel test.
+- **CRO rubric**, runs after lp-cro on LP variants.
+- **Gate packets**, synthetic-audience read goes IN the packet; downstream consumers must not tag the read as a gate verdict.
 
 ## Refusal patterns
 
@@ -88,8 +88,8 @@ Per iter-3 debrief: synthetic panels rank-invert on narrow high-intent product L
 - Treating the read as a gate verdict.
 - Running synthetic instead of cheap live tests.
 - Personas built from internal assumptions, not VoC. Synthetic audience drifts from real buyer.
-- Marketers as the trusted-5 reviewers. The signal is buyer voice — sales and CS are closer.
-- Skipping the Wynter cascade — scoring later dimensions when clarity already failed.
+- Marketers as the trusted-5 reviewers. The signal is buyer voice, sales and CS are closer.
+- Skipping the Wynter cascade, scoring later dimensions when clarity already failed.
 - N too low. Low-N inverts on narrow high-intent product LPs.
 
 ## Calibration

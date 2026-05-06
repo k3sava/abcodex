@@ -22,11 +22,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-AI rollouts don't fail because of the tech — they fail because new behaviors never become normal. Recognition turns curiosity into capability by rewarding the specific AI-using behaviors you want, building psychological safety for experimentation, tying AI effort to real business priorities, scaling peer learning, and acting as a live signal of what's actually spreading inside the org.
+AI rollouts don't fail because of the tech, they fail because new behaviors never become normal. Recognition turns curiosity into capability by rewarding the specific AI-using behaviors you want, building psychological safety for experimentation, tying AI effort to real business priorities, scaling peer learning, and acting as a live signal of what's actually spreading inside the org.
 
 ## Mechanism
 
-Behavior change at scale follows reinforcement, not training. Strategic recognition is a high-frequency, low-cost reinforcement loop that publicly marks the behaviors you want to spread. Aggregated recognition data also doubles as workforce signal — leadership can see which AI behaviors are sticking without surveys.
+Behavior change at scale follows reinforcement, not training. Strategic recognition is a high-frequency, low-cost reinforcement loop that publicly marks the behaviors you want to spread. Aggregated recognition data also doubles as workforce signal, leadership can see which AI behaviors are sticking without surveys.
 
 ## Conditions
 

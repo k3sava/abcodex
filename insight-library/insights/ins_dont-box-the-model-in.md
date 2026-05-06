@@ -41,17 +41,17 @@ Fails when:
 
 Claude Code's design choice was minimal scaffolding around the LLM, the smallest possible toolset, and direct exposure of capability. "The product is the model." That choice is why it scaled where heavier wrappers stalled.
 
-— Boris Cherny on Lenny's Podcast, 2026-04-27
+· Boris Cherny on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Each new model release improves your product without engineering work.
 - New use cases emerge from users that the team did not anticipate (a sign the model has room to roam).
-- Bug reports shift from "the workflow is wrong for my case" to "the model made a judgment I disagree with" — a healthier failure mode.
+- Bug reports shift from "the workflow is wrong for my case" to "the model made a judgment I disagree with", a healthier failure mode.
 
 ## Counter-evidence
 For early or weak models, scaffolding genuinely lifts quality. April Dunford's positioning work, Claire Vo's progressive-trust onboarding, and other operator playbooks all suggest that *some* structure (named tiers, guardrails, evals) keeps quality bounded. The right reading is: bound the model's safety surface, but do not bound its reasoning path.
 
 ## Cross-references
-- `ins_build-for-model-six-months-out` — the temporal reason this works
-- `ins_agents-as-team-not-tools` — Claire Vo's complement: minimal scope per agent + room to reason
-- `ins_progressive-trust-onboarding` — where guardrails do belong
+- `ins_build-for-model-six-months-out`, the temporal reason this works
+- `ins_agents-as-team-not-tools`, Claire Vo's complement: minimal scope per agent + room to reason
+- `ins_progressive-trust-onboarding`, where guardrails do belong

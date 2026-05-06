@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/andy-crestodina.md
 # Reconceive the blog as a structured knowledge base, not a chronological feed
 
 ## Claim
-The default editorial-calendar paradigm — weekly posts, dated, mixed quality — produces commodity content. Crestodina recommends inverting it: remove dates, focus exclusively on evergreen topics, and treat the blog as a structured knowledge base whose pages get refreshed rather than replaced. Content resource allocation should start at the bottom of funnel, mining the last 20 sales calls for objections and questions to write toward.
+The default editorial-calendar paradigm, weekly posts, dated, mixed quality, produces commodity content. Crestodina recommends inverting it: remove dates, focus exclusively on evergreen topics, and treat the blog as a structured knowledge base whose pages get refreshed rather than replaced. Content resource allocation should start at the bottom of funnel, mining the last 20 sales calls for objections and questions to write toward.
 
 ## Mechanism
-Dated posts age into liability — readers and search engines penalize stale dates even when content is still correct. Removing dates and committing to a maintenance cadence (refresh top 20 pages quarterly) compounds authority on a smaller URL set. Starting at bottom-of-funnel uses sales-call patterns as a free demand signal — every objection that recurs is an outline for a piece of content with measurable revenue impact.
+Dated posts age into liability, readers and search engines penalize stale dates even when content is still correct. Removing dates and committing to a maintenance cadence (refresh top 20 pages quarterly) compounds authority on a smaller URL set. Starting at bottom-of-funnel uses sales-call patterns as a free demand signal, every objection that recurs is an outline for a piece of content with measurable revenue impact.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Start by analyzing their active sales pipeline, identifying common questions and objections from the last 20 sales calls, and creating content that directly addresses those patterns."
 
-— Andy Crestodina (synthesized from operator's published work)
+· Andy Crestodina (synthesized from operator's published work)
 
 ## Signals
 - Blog URLs are organized topically, not by month/year archive.
@@ -47,7 +47,7 @@ Fails when:
 - Content briefs cite specific sales-call quotes from the last 90 days.
 
 ## Counter-evidence
-SEO research from 2024-2025 (Search Engine Journal, Aleyda Solis) found that *some* freshness signal helps for queries with implicit recency intent — pure date-removal can hurt rankings on those terms. Brand-builders like Ann Handley would also push back: cadence and voice matter independent of search math.
+SEO research from 2024-2025 (Search Engine Journal, Aleyda Solis) found that *some* freshness signal helps for queries with implicit recency intent, pure date-removal can hurt rankings on those terms. Brand-builders like Ann Handley would also push back: cadence and voice matter independent of search math.
 
 ## Cross-references
-- ins_original-research-as-link-bait — same operator
+- ins_original-research-as-link-bait, same operator

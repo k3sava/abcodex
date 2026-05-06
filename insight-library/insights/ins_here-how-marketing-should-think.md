@@ -22,11 +22,11 @@ title: 'In 2026, GTM bets are made by leaders who own a team, a budget, and a nu
 
 ## Claim
 
-The 2026 marketing playbook isn't trends or predictions — it's real bets from leaders who own teams, budgets, and pipeline numbers. Across Cognism, Sequel, Reachdesk, Navattic, ChampionHQ, and ABM-for-SaaS leads, the consistent pattern is: stop running campaigns by quarter, double down on the channels that prove revenue contribution this week, and kill the ones that have been on life support for two quarters.
+The 2026 marketing playbook isn't trends or predictions, it's real bets from leaders who own teams, budgets, and pipeline numbers. Across Cognism, Sequel, Reachdesk, Navattic, ChampionHQ, and ABM-for-SaaS leads, the consistent pattern is: stop running campaigns by quarter, double down on the channels that prove revenue contribution this week, and kill the ones that have been on life support for two quarters.
 
 ## Mechanism
 
-Trend-based planning collapses under AI-shaped buyer behavior because the buyer's research path now changes inside a quarter. The leaders who win are the ones who treat the budget like a venture portfolio — concentrated bets, fast kills — rather than an annual plan refreshed in slides.
+Trend-based planning collapses under AI-shaped buyer behavior because the buyer's research path now changes inside a quarter. The leaders who win are the ones who treat the budget like a venture portfolio, concentrated bets, fast kills, rather than an annual plan refreshed in slides.
 
 ## Conditions
 

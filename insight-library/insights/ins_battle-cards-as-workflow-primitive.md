@@ -20,7 +20,7 @@ raw_ref: raw/research/gartner--innovation-insight-rethinking-battle-cards-ai--20
 # Battle cards become workflow primitives, not Notion pages
 
 ## Claim
-Static battle cards stored in content repos go obsolete fast and stay unread. AI shifts battle cards from documents to dynamic, in-workflow tools — surfacing the right competitive intel inside the seller's deal context, generated and updated from market signals rather than quarterly PMM rewrites.
+Static battle cards stored in content repos go obsolete fast and stay unread. AI shifts battle cards from documents to dynamic, in-workflow tools, surfacing the right competitive intel inside the seller's deal context, generated and updated from market signals rather than quarterly PMM rewrites.
 
 ## Mechanism
 A static battle card has three failures: it's not where the seller is, it's not the version they need, and nobody updates it past launch. A workflow-embedded battle card runs as a query against live competitive intel, structured by deal context (competitor in deal, persona, stage), and generated on-demand. PMMs shift from authoring static documents to curating the inputs (sources, claims, evidence) and verifying the synthesis.
@@ -31,7 +31,7 @@ Holds when:
 - PMMs treat curation and verification as the new primary craft.
 
 Fails when:
-- Inputs are unstructured or stale — the AI synthesises confidently wrong cards.
+- Inputs are unstructured or stale, the AI synthesises confidently wrong cards.
 - PMMs cling to authoring static docs and treat the AI layer as a delivery channel for the same artifact.
 
 ## Evidence
@@ -39,7 +39,7 @@ Fails when:
 
 > "Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets." (p.1)
 
-— Gartner *Innovation Insight: Rethinking Battle Cards in the Age of AI* (G00832921), 2025-06-19. Lead author: Rahim Kaba.
+· Gartner *Innovation Insight: Rethinking Battle Cards in the Age of AI* (G00832921), 2025-06-19. Lead author: Rahim Kaba.
 
 ## Signals
 - Sellers cite battle cards by competitor + deal stage rather than by document name.
@@ -48,8 +48,8 @@ Fails when:
 - Sales reps' competitive talk-track quality is measured (call transcript analysis) and feeds back into the inputs.
 
 ## Counter-evidence
-Workflow-embedded battle cards depend on an AI layer that can be trusted with positioning claims — most current implementations still need PMM verification before each customer-facing use. The full automation promise may be premature; in 2026 the pattern looks more like "AI drafts, PMM ships". Operators should not over-trust the dynamic version.
+Workflow-embedded battle cards depend on an AI layer that can be trusted with positioning claims, most current implementations still need PMM verification before each customer-facing use. The full automation promise may be premature; in 2026 the pattern looks more like "AI drafts, PMM ships". Operators should not over-trust the dynamic version.
 
 ## Cross-references
-- `ins_systems-of-action-replace-seller-stack` — Gottlieb on the larger tooling shift battle cards live inside.
-- `ins_test-positioning-in-live-sales-pitch` — Dunford on why static positioning fails.
+- `ins_systems-of-action-replace-seller-stack`, Gottlieb on the larger tooling shift battle cards live inside.
+- `ins_test-positioning-in-live-sales-pitch`, Dunford on why static positioning fails.

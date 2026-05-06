@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/brian-halligan--ceo-craft-lock-algorithm--2026-04-28.md
 Use a five-letter rubric for evaluating CEOs and senior operators: Lovable (would a 28-year-old version of you crawl across glass to follow them?), Obsessed (deep founder-market fit, evidence of going down rabbit holes), Chip on the shoulder, Knowledge of the domain, Student (learn-it-all, not just know-it-all). The Student dimension is the under-rated differentiator.
 
 ## Mechanism
-Conventional CEO rubrics weight pedigree, charisma, and visible domain knowledge — all of which are pattern-matchable and easily faked. The LOCK+S rubric forces an operator to demonstrate the harder-to-fake dimensions: would the best people you have ever known follow them? Have they actually obsessed over their problem or are they performing? Are they still curious, or have they stopped learning? The Student check filters for operators who will adapt to the next era; the Knowledge check filters for operators who can lead today.
+Conventional CEO rubrics weight pedigree, charisma, and visible domain knowledge, all of which are pattern-matchable and easily faked. The LOCK+S rubric forces an operator to demonstrate the harder-to-fake dimensions: would the best people you have ever known follow them? Have they actually obsessed over their problem or are they performing? Are they still curious, or have they stopped learning? The Student check filters for operators who will adapt to the next era; the Knowledge check filters for operators who can lead today.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Brian Halligan ran HubSpot for ~20 years and now coaches Sequoia portfolio CEOs. The rubric is what he uses across that cohort.
 
-— Brian Halligan on Lenny's Podcast, 2026-04-28
+· Brian Halligan on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Reference checks return concrete stories on each letter rather than generic praise.
@@ -52,4 +52,4 @@ Brian Halligan ran HubSpot for ~20 years and now coaches Sequoia portfolio CEOs.
 The rubric encodes Halligan's preferences for founder-style leadership and may filter out steady operators who run mature companies well. Operators who succeed in turnarounds, regulated industries, or pure execution roles may not fit cleanly into LOCK+S.
 
 ## Cross-references
-- `ins_hire-spiky-not-un-weakness` — the same operator's complementary hiring rule
+- `ins_hire-spiky-not-un-weakness`, the same operator's complementary hiring rule

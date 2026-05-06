@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/claire-suellentrop.md
 ---
 
-# Use the JTBD switch interview on recently-converted high-value customers — segments emerge from jobs, not demographics
+# Use the JTBD switch interview on recently-converted high-value customers, segments emerge from jobs, not demographics
 
 ## Claim
 For SaaS, the most reliable segmentation comes from the switch interview applied to recently-converted, actively-paying customers (so they still remember life before the product). The four questions are: What struggle pushed you to look for a solution? How did you find us? What was the moment you knew this product was right? What can you do now that you couldn't before? Distinct customer segments emerge from shared jobs, not from demographic data.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The cardinal sin is asking about specific features rather than letting customers describe their own journey."
 
-— Claire Suellentrop (synthesized from operator's published work)
+· Claire Suellentrop (synthesized from operator's published work)
 
 ## Signals
 - Onboarding emails branch by detected job, not by signup form fields.
@@ -47,7 +47,7 @@ Fails when:
 - New-feature priorities map to named jobs, not internal roadmap themes.
 
 ## Counter-evidence
-Behavioral-segmentation school (Sarah Levinger, BJ Fogg) argues observed in-product behavior beats self-reported job stories — what users *do* reveals what they actually need, regardless of how they describe it.
+Behavioral-segmentation school (Sarah Levinger, BJ Fogg) argues observed in-product behavior beats self-reported job stories, what users *do* reveals what they actually need, regardless of how they describe it.
 
 ## Cross-references
 - (none in current corpus)

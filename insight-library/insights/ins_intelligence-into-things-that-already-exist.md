@@ -37,9 +37,9 @@ Fails when:
 ## Evidence
 > "It's actually just putting intelligence into things that already exist all around us."
 
-Tesla FSD beats the humanoid robot path because Tesla starts with a car (engineering done) and adds intelligence; humanoid starts with a body (engineering not done) plus intelligence. Welding robots in factories don't scare anyone — same physical capability as the viral nunchuck-robot videos, but the technology is legible.
+Tesla FSD beats the humanoid robot path because Tesla starts with a car (engineering done) and adds intelligence; humanoid starts with a body (engineering not done) plus intelligence. Welding robots in factories don't scare anyone, same physical capability as the viral nunchuck-robot videos, but the technology is legible.
 
-— Qasar Younis on Lenny's Podcast, 2026-04-28
+· Qasar Younis on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Adoption curves are faster than competitors who built new surfaces.
@@ -50,4 +50,4 @@ Tesla FSD beats the humanoid robot path because Tesla starts with a car (enginee
 Some categories genuinely require new surfaces. ChatGPT's chat UI was new and won. The rule is "default to existing surfaces"; exceptions exist when the AI capability fundamentally needs a new affordance to land.
 
 ## Cross-references
-- `ins_build-quietly` — Qasar's complementary positioning rule
+- `ins_build-quietly`, Qasar's complementary positioning rule

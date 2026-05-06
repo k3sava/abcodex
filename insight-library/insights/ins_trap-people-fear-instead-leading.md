@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "They trap people with fear instead of leading them with care."
 
-— Dora Vanourek, LinkedIn, 2026-04-10
+· Dora Vanourek, LinkedIn, 2026-04-10
 
 ## Signals
 - ways to build a people-first workplace:

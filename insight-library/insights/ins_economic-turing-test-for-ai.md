@@ -17,13 +17,13 @@ related: [ins_use-new-tools-as-new-tools, ins_dont-box-the-model-in]
 raw_ref: raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md
 ---
 
-# The Economic Turing Test — would you hire the agent if you didn't know it was a machine?
+# The Economic Turing Test, would you hire the agent if you didn't know it was a machine?
 
 ## Claim
 The right benchmark for "is this AI system transformative?" is not a generic capability test but the Economic Turing Test: contract an agent for one to three months on a specific job; if you would hire it back, having believed it was a person, it has passed for that role. Aggregate to a money-weighted basket of jobs and call 50% the threshold for transformative AI.
 
 ## Mechanism
-Generic AGI debates are unfalsifiable. The Economic Turing Test grounds the question in revealed-preference: would a real buyer pay a real wage for the agent's output, blind to its origin? The answer is per-role and per-workstream, which makes it actionable for product teams. It also re-orders the conversation from "is the model smart enough?" to "for which specific workstream does this agent already pass?" — a question with concrete answers and concrete economic stakes.
+Generic AGI debates are unfalsifiable. The Economic Turing Test grounds the question in revealed-preference: would a real buyer pay a real wage for the agent's output, blind to its origin? The answer is per-role and per-workstream, which makes it actionable for product teams. It also re-orders the conversation from "is the model smart enough?" to "for which specific workstream does this agent already pass?", a question with concrete answers and concrete economic stakes.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Reference points Mann anchors against: Fin/Intercom resolves 82% of customer-service tickets fully automated; the remaining 18% is genuinely harder. Anthropic's own engineering reports 95% of Claude Code's code is written by Claude with 10–20x output multiplier.
 
-— Benjamin Mann on Lenny's Podcast, 2026-04-28
+· Benjamin Mann on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Specific workstreams cross the threshold and become "agent-default" with humans on review.
@@ -52,5 +52,5 @@ Reference points Mann anchors against: Fin/Intercom resolves 82% of customer-ser
 The test isolates economic substitution but ignores trust, legal exposure, and failure-mode novelty. An agent might pass the test for ninety days and then produce a catastrophic compounding error a human would not. Aggregation to a 50% threshold for "transformative AI" is provocative but arbitrary; reasonable operators can disagree about the right denominator and weighting.
 
 ## Cross-references
-- `ins_use-new-tools-as-new-tools` — the operator-side complement
-- `ins_dont-box-the-model-in` — the architectural prerequisite for passing the test at scale
+- `ins_use-new-tools-as-new-tools`, the operator-side complement
+- `ins_dont-box-the-model-in`, the architectural prerequisite for passing the test at scale

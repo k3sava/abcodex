@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/asha-sharma--product-as-organism--2026-04-28.md
 Stop thinking "ship a feature, measure impact, decide to keep or kill." Treat the product as an organism whose metabolism is "ingest data → reward design → outcome tuning." Every user interaction is training signal. No shipped version is final; it is a member of a population the system continuously adjusts.
 
 ## Mechanism
-A static feature has a fixed payoff curve. A self-tuning feature improves with each interaction; the team's job is no longer "design the feature" but "design the metabolism." Multiple tuning tracks run in parallel — synthetic data generation, A/B testing, job-to-be-done discovery, reward design — instead of sequentially. Bets compound, not in dollars, but in tuned behavior the competition has no way to copy.
+A static feature has a fixed payoff curve. A self-tuning feature improves with each interaction; the team's job is no longer "design the feature" but "design the metabolism." Multiple tuning tracks run in parallel, synthetic data generation, A/B testing, job-to-be-done discovery, reward design, instead of sequentially. Bets compound, not in dollars, but in tuned behavior the competition has no way to copy.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "I haven't ever seen it be one loop for any product. I think it's multiple tracks running in parallel... like assembly lines."
 
-— Asha Sharma on Lenny's Podcast, 2026-04-28
+· Asha Sharma on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Weekly metric movement is driven by tuning, not by ship cadence.
@@ -50,5 +50,5 @@ Fails when:
 Aishwarya Naresh Reganti and Kiriti Badam's CCCD framework warns about negative-feedback loops: a poorly-designed metabolism makes the product worse, not better. The organism only compounds positively if you seed it well and watch the loop carefully. Without that discipline, "product as organism" is theatre; with it, it is the moat.
 
 ## Cross-references
-- `ins_post-training-as-the-moat` — the economic implication
-- `ins_seasons-not-roadmaps` — the planning cadence that fits the organism frame
+- `ins_post-training-as-the-moat`, the economic implication
+- `ins_seasons-not-roadmaps`, the planning cadence that fits the organism frame

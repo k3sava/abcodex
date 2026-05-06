@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/tim-soulo.md
 ---
 
-# Ranking #1 isn't about beating competitors with tricks — it's about being genuinely worthy of #1
+# Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1
 
 ## Claim
-Ranking number one is not about being smarter than competitors through tricks but about being *worthy* of ranking number one. That requires genuine expertise, credible ideas, and product-focused content that lets users experience your product in their imagination. The Ahrefs blog scaled to 1.5M+ monthly visitors by writing about the problems Ahrefs actually solves — not by chasing keyword universes the brand had no authority on.
+Ranking number one is not about being smarter than competitors through tricks but about being *worthy* of ranking number one. That requires genuine expertise, credible ideas, and product-focused content that lets users experience your product in their imagination. The Ahrefs blog scaled to 1.5M+ monthly visitors by writing about the problems Ahrefs actually solves, not by chasing keyword universes the brand had no authority on.
 
 ## Mechanism
-Generic "rank the keyword" SEO produces undifferentiated content competing on minor signal advantages. Product-focused content (Ahrefs writing about backlink analysis, not "best running shoes") aligns the brand's natural expertise with the search demand. When a user reads a piece written by the team that built the tool, the experience is qualitatively different — and Google's quality signals reflect it. The five-level content quality framework gates production: skip levels at your peril.
+Generic "rank the keyword" SEO produces undifferentiated content competing on minor signal advantages. Product-focused content (Ahrefs writing about backlink analysis, not "best running shoes") aligns the brand's natural expertise with the search demand. When a user reads a piece written by the team that built the tool, the experience is qualitatively different, and Google's quality signals reflect it. The five-level content quality framework gates production: skip levels at your peril.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Ranking number one is not about being smarter than competitors through tricks but about being worthy of ranking number one through genuine expertise, credible ideas, and product-focused content."
 
-— Tim Soulo, Ahrefs (synthesized from operator's published work)
+· Tim Soulo, Ahrefs (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar concentrates on product-adjacent topics, not keyword-chasing.
@@ -48,4 +48,4 @@ Fails when:
 Programmatic-SEO companies (Zapier, NerdWallet, Wise) have scaled by keyword breadth and aggregator-style content rather than expertise depth. AI Overviews are reshaping the SERP economics in ways that "be worthy" alone may not address.
 
 ## Cross-references
-- ins_original-research-as-link-bait — adjacent operator (Andy Crestodina)
+- ins_original-research-as-link-bait, adjacent operator (Andy Crestodina)

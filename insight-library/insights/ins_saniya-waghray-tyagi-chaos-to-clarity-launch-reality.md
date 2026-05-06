@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Working out loud beats hindsight — the breadcrumb trail compounds
+# Working out loud beats hindsight, the breadcrumb trail compounds
 
 ## Claim
 
-The learnings that shape a career most aren't in hindsight; they're happening in real time. 'Working out loud' — leaving intentional digital trails of thought and work — is what others (and your future self) can follow. For PMM and product careers, that means investing in weekend craft, executive coaching, peer communities navigating similar crossroads, and reconnecting with alma maters — none of which makes an immediate splash but each compounds.
+The learnings that shape a career most aren't in hindsight; they're happening in real time. 'Working out loud', leaving intentional digital trails of thought and work, is what others (and your future self) can follow. For PMM and product careers, that means investing in weekend craft, executive coaching, peer communities navigating similar crossroads, and reconnecting with alma maters, none of which makes an immediate splash but each compounds.
 
 ## Mechanism
 

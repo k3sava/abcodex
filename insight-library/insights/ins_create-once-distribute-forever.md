@@ -20,15 +20,15 @@ raw_ref: raw/expert-content/experts/ross-simmonds.md
 # Invert the content ratio: 20% creation, 80% distribution. Distribution is the multiplier.
 
 ## Claim
-The biggest waste in content marketing isn't bad content — it's good content that nobody sees. Most teams spend 80% of their time on creation and 20% on distribution. Simmonds argues the ratio should be inverted: 20% creation, 80% distribution. Distribution is the multiplier that determines whether content investment compounds or evaporates.
+The biggest waste in content marketing isn't bad content, it's good content that nobody sees. Most teams spend 80% of their time on creation and 20% on distribution. Simmonds argues the ratio should be inverted: 20% creation, 80% distribution. Distribution is the multiplier that determines whether content investment compounds or evaporates.
 
 ## Mechanism
-A single piece of content can be repurposed into 30+ formats and distributed across 10+ channels over 12+ months. Most teams ship a blog post, share it once on LinkedIn, and move to the next. Create Once Distribute Forever inverts: design content with distribution multiplicity in mind from the brief; allocate the majority of post-publish hours to surfacing the piece across audiences and timeframes. Each republished/repurposed instance is incremental reach for the same fixed creation cost — pure leverage.
+A single piece of content can be repurposed into 30+ formats and distributed across 10+ channels over 12+ months. Most teams ship a blog post, share it once on LinkedIn, and move to the next. Create Once Distribute Forever inverts: design content with distribution multiplicity in mind from the brief; allocate the majority of post-publish hours to surfacing the piece across audiences and timeframes. Each republished/repurposed instance is incremental reach for the same fixed creation cost, pure leverage.
 
 ## Conditions
 Holds when:
 - The team has the systems to track repurposing across channels.
-- Content is genuinely worth distributing — distribution amplifies signal, not noise.
+- Content is genuinely worth distributing, distribution amplifies signal, not noise.
 
 Fails when:
 - Pre-PMF content where distribution can't compensate for unclear positioning or weak product.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The biggest waste in content marketing is not bad content but good content that nobody sees; most teams spend 80% of their time on creation and 20% on distribution when the ratio should be inverted."
 
-— Ross Simmonds, *Create Once, Distribute Forever* (synthesized from operator's published work)
+· Ross Simmonds, *Create Once, Distribute Forever* (synthesized from operator's published work)
 
 ## Signals
 - Content briefs include a distribution plan with named channels and repurposing formats.

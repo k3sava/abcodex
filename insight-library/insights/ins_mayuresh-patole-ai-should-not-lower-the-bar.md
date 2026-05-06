@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI presentation tools must preserve credibility, not make work look disposable.
 
 ## Claim
-When everything looks AI generated, your work starts to look disposable. Presentations aren't disposable – they're in board meetings, investor pitches, client proposals. Moments where credibility is on the line.
+When everything looks AI generated, your work starts to look disposable. Presentations aren't disposable, they're in board meetings, investor pitches, client proposals. Moments where credibility is on the line.
 
 ## Mechanism
 By focusing on fine-grained control, on-brand output, and seamless integration with existing tools, Chronicle aims to raise the bar for impactful storytelling rather than just layering AI onto slides.

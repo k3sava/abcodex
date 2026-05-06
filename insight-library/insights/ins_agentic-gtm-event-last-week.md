@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing team from 22 to 2 while generating 1,400 sales-qualified opportunities in 2024. I want to break down what actually made that possible because it wasn't just \"using AI.\""
 
-— Gil Allouche, LinkedIn, 2026-04-10
+· Gil Allouche, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

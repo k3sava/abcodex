@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Pre-sales solutioning frameworks must balance customer sentiment with business priorities.
 
 ## Claim
-Moving from an individual contributor to a lead reshaped my perspective on impact — it's about leading by example, balancing customer sentiment with business priorities, and fostering cross-functional collaboration that unites product and sales into a cohesive solutioning ecosystem.
+Moving from an individual contributor to a lead reshaped my perspective on impact, it's about leading by example, balancing customer sentiment with business priorities, and fostering cross-functional collaboration that unites product and sales into a cohesive solutioning ecosystem.
 
 ## Mechanism
 Establishing scalable trial and POC processes, building trust within the team, and driving change management through adaptability and shared ownership are the key levers. A pivotal offsite conversation about rethinking demos, trials, and deal execution through tighter collaboration flipped the switch.

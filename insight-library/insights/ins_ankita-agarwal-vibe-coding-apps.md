@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Vibe coding apps like Rork let non-developers build functional personal apps in minutes
 
 ## Claim
-Rork let me build a habit tracker iPhone app in 10 minutes with no debugging—faster than writing a PRD.
+Rork let me build a habit tracker iPhone app in 10 minutes with no debugging, faster than writing a PRD.
 
 ## Mechanism
 The tool abstracts away coding complexity, making app creation accessible to product managers and non-developers. The main limitation is credit-based usage for enhancements.

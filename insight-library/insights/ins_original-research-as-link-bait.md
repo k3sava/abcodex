@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/andy-crestodina.md
 The two content formats that resist AI commoditization are original research (data that does not yet exist on the internet) and opinionated thought leadership. Of the two, original research is the most under-used and most defensible because it generates new statistics that journalists and other publishers must cite. One annual study can out-link a full year of weekly publishing.
 
 ## Mechanism
-Most content describes existing knowledge. Original research *creates* knowledge — a stat, a benchmark, a survey result that did not exist before publication. Citation behavior is asymmetric: anyone writing about the topic in the next decade may link to the source of the stat, compounding backlinks and authority. Crestodina's annual Blogger Survey, run for 10+ years, has accumulated 2,500+ backlinks to a single URL.
+Most content describes existing knowledge. Original research *creates* knowledge, a stat, a benchmark, a survey result that did not exist before publication. Citation behavior is asymmetric: anyone writing about the topic in the next decade may link to the source of the stat, compounding backlinks and authority. Crestodina's annual Blogger Survey, run for 10+ years, has accumulated 2,500+ backlinks to a single URL.
 
 ## Conditions
 Holds when:
@@ -32,14 +32,14 @@ Holds when:
 
 Fails when:
 - The audience is too small to generate statistically defensible sample sizes.
-- The "research" is thinly disguised marketing — readers and journalists detect and ignore.
+- The "research" is thinly disguised marketing, readers and journalists detect and ignore.
 
 ## Evidence
 > "He has practiced this himself for over a decade with the annual Blogger Survey, which has attracted 2,500+ backlinks to a single URL."
 
 > "Publish fewer pieces, but invest disproportionately in two formats that resist AI commoditization. The first is original research..."
 
-— Andy Crestodina (synthesized from operator's published work)
+· Andy Crestodina (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar reserves a "research project" slot once or twice a year, with a separate budget.

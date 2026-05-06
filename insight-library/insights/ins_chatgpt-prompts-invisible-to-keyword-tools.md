@@ -20,7 +20,7 @@ raw_ref:
 # 65 to 85 percent of ChatGPT prompts are invisible to keyword tools
 
 ## Claim
-Between 65% and 85% of the prompts that drive AI-search activity have no keyword equivalent in standard SEO tools. Keyword tools see Google's autocomplete and search-volume data; they don't see what people type into ChatGPT, Claude, or Perplexity, and the shape of those prompts is materially different — longer, more conversational, more often loaded with specifics, more often follow-ups in a session. Operators relying on keyword tools to plan AI-search strategy are looking through the wrong instrument; they're seeing a small biased slice of the actual demand surface.
+Between 65% and 85% of the prompts that drive AI-search activity have no keyword equivalent in standard SEO tools. Keyword tools see Google's autocomplete and search-volume data; they don't see what people type into ChatGPT, Claude, or Perplexity, and the shape of those prompts is materially different, longer, more conversational, more often loaded with specifics, more often follow-ups in a session. Operators relying on keyword tools to plan AI-search strategy are looking through the wrong instrument; they're seeing a small biased slice of the actual demand surface.
 
 ## Mechanism
 A keyword tool reads search-engine logs (or scrapes autocomplete) and aggregates query strings. AI-search interfaces don't expose query logs in any equivalent way. The query patterns also diverge structurally: a Google query is optimised for one-shot keyword matching ("crm comparison"), an AI-search prompt is optimised for natural-language back-and-forth ("which CRM has the best integration with X if my team is mostly remote and we already use Y"). The longer, specifier-loaded prompt produces different content needs (specifier-rich pages, comparison-shaped pages, scenario-specific guides) than the keyword approach surfaces. Planning AI search by extrapolating from keyword tools systematically over-rotates to head-term-shaped content and under-rotates to specifier-rich content the AI prompts are actually using.
@@ -29,7 +29,7 @@ A keyword tool reads search-engine logs (or scrapes autocomplete) and aggregates
 Holds when:
 - The category has meaningful AI-search volume (B2B SaaS, anything where buyers use ChatGPT/Claude as a research tool).
 - The team can run prompt-coverage measurement instruments (Profound, Otterly, internal scripts) to see what queries actually fire.
-- The work has any specifier richness — the gap matters less in genuinely commodity categories where head terms still describe the demand.
+- The work has any specifier richness, the gap matters less in genuinely commodity categories where head terms still describe the demand.
 
 Fails when:
 - The category is tiny enough that AI-search volume isn't yet meaningful; keyword tools remain the dominant signal.
@@ -38,7 +38,7 @@ Fails when:
 
 ## Evidence
 > "65 to 85 percent of ChatGPT prompts are invisible to keyword tools."
-— Kevin Indig, *Growth Intelligence Brief #17*, https://www.growth-memo.com/p/growth-intelligence-brief-17, 2026-04-17.
+· Kevin Indig, *Growth Intelligence Brief #17*, https://www.growth-memo.com/p/growth-intelligence-brief-17, 2026-04-17.
 
 The brief includes the underlying analysis: prompt samples from third-party data, side-by-side comparison against keyword-tool coverage of the same intent, and the structural shape difference (length, specifier density, follow-up frequency).
 
@@ -53,6 +53,6 @@ The brief includes the underlying analysis: prompt samples from third-party data
 - For some commodity categories the keyword-tool signal is genuinely sufficient; the AI-prompt gap doesn't manifest as content-strategy difference. Use the framing where it actually changes the work.
 
 ## Cross-references
-- `ins_ghost-citation-gap` — same author, complementary finding on which content types AI surfaces actually cite.
-- `ins_aeo-three-layer-presence-readiness-impact` — Solis's measurement framework operationalises Presence layer using prompt sweeps that close exactly this visibility gap.
-- `ins_owned-brand-authority-organic-moat` — Lily Ray's parallel on how the demand shift is reweighting content economics.
+- `ins_ghost-citation-gap`, same author, complementary finding on which content types AI surfaces actually cite.
+- `ins_aeo-three-layer-presence-readiness-impact`, Solis's measurement framework operationalises Presence layer using prompt sweeps that close exactly this visibility gap.
+- `ins_owned-brand-authority-organic-moat`, Lily Ray's parallel on how the demand shift is reweighting content economics.

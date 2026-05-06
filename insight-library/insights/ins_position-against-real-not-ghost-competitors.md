@@ -31,7 +31,7 @@ Fails when: the company is pre-sales, or the deal flow is too low to detect the 
 
 ## Evidence
 > "Your sales team knows months before anyone else when a position is failing."
-— April Dunford, LinkedIn thread, April 2026
+· April Dunford, LinkedIn thread, April 2026
 
 Paraphrased: split the VC pitch (where you'll be) from the sales pitch (why you win today).
 
@@ -41,7 +41,7 @@ Paraphrased: split the VC pitch (where you'll be) from the sales pitch (why you 
 - The "alternative we're winning against" rotates faster than the marketing site updates.
 
 ## Counter-evidence
-For greenfield categories with no incumbent, the relevant "alternative" is status quo or DIY — positioning still applies but the input lives in customer interviews, not sales calls.
+For greenfield categories with no incumbent, the relevant "alternative" is status quo or DIY, positioning still applies but the input lives in customer interviews, not sales calls.
 
 ## Cross-references
 - (none in current corpus)

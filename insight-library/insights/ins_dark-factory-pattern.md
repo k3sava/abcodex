@@ -29,16 +29,16 @@ The cost of simulating dependencies has collapsed. Building a fake Slack, fake J
 Holds when:
 - The product has well-defined surfaces with API docs that can be simulated.
 - The team has the operating discipline and budget to run agent swarms continuously.
-- The token economics work — token spend < salary saved.
+- The token economics work, token spend < salary saved.
 
 Fails when:
 - The product's correctness depends on physical-world or human-judgment outputs the simulator can't cover.
-- The org has not invested in the simulation harness — without it, "nobody reads code" is reckless.
+- The org has not invested in the simulation harness, without it, "nobody reads code" is reckless.
 
 ## Evidence
 > "The cost of simulating those dependencies has crashed... They've built simulated employees that work in a simulated Slack, simulated Jira, simulated Okta — and these are running 24/7 testing their access management software."
 
-— Simon Willison on Lenny's Podcast, 2026-04-02
+· Simon Willison on Lenny's Podcast, 2026-04-02
 
 Token spend reported as ~$10K/day. StrongDM ships security software, the case where you'd most expect line-level review to be irreducible.
 
@@ -46,11 +46,11 @@ Token spend reported as ~$10K/day. StrongDM ships security software, the case wh
 - Token cost runs higher than the salary cost they replace, but is rising slower than throughput.
 - New regressions are caught by the simulated swarm before reaching staging.
 - Human time shifts from PR review to harness improvement, eval design, and exception triage.
-- Engineers rarely open the code — they read the swarm's reports.
+- Engineers rarely open the code, they read the swarm's reports.
 
 ## Counter-evidence
-For most companies, "nobody reads code" is premature. The simulator is the load-bearing piece, and most teams have neither the budget nor the discipline to maintain a live simulated environment. The pattern transfers earliest in security, where adversarial coverage is the existing review model anyway. Marketing-side analog requires a synthetic-buyer simulator, not a synthetic-employee simulator — different shape, partly built (Nooks-style SDR practice tools), not yet at "nobody reads the copy" maturity.
+For most companies, "nobody reads code" is premature. The simulator is the load-bearing piece, and most teams have neither the budget nor the discipline to maintain a live simulated environment. The pattern transfers earliest in security, where adversarial coverage is the existing review model anyway. Marketing-side analog requires a synthetic-buyer simulator, not a synthetic-employee simulator, different shape, partly built (Nooks-style SDR practice tools), not yet at "nobody reads the copy" maturity.
 
 ## Cross-references
-- `ins_november-2025-coding-inflection` — the model-quality threshold that made this safe
-- `ins_simulated-qa-swarm` — the harness pattern abstracted from the StrongDM specifics
+- `ins_november-2025-coding-inflection`, the model-quality threshold that made this safe
+- `ins_simulated-qa-swarm`, the harness pattern abstracted from the StrongDM specifics

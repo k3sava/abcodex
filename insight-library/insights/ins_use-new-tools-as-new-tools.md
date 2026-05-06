@@ -17,10 +17,10 @@ related: [ins_economic-turing-test-for-ai, ins_dont-box-the-model-in]
 raw_ref: raw/podcasts/benjamin-mann--economic-turing-test--2026-04-28.md
 ---
 
-# Use new tools as new tools, not as old tools — be ambitious and retry from scratch
+# Use new tools as new tools, not as old tools, be ambitious and retry from scratch
 
 ## Claim
-Operators who use AI tools as upgraded versions of old tools (fancier autocomplete, slightly faster search) under-perform operators who treat them as new tools — pushing for ambitious, end-to-end outcomes and retrying from a clean prompt when stuck rather than iterating against broken context.
+Operators who use AI tools as upgraded versions of old tools (fancier autocomplete, slightly faster search) under-perform operators who treat them as new tools, pushing for ambitious, end-to-end outcomes and retrying from a clean prompt when stuck rather than iterating against broken context.
 
 ## Mechanism
 LLMs degrade fast when context is polluted by failed attempts. Repeated retries against the same broken state stack errors. Starting fresh with an ambitious end-state goal ("build the whole thing") gives the model room to plan its own decomposition, which is often better than the operator's. The discipline is two-part: ambitious framing, plus the willingness to throw away and re-prompt.
@@ -41,7 +41,7 @@ Fails when:
 
 Specific pattern Mann names: Claude Code users who ask for ambitious changes and retry the prompt 3+ times outperform those who try once and bang on the same failure.
 
-— Benjamin Mann on Lenny's Podcast, 2026-04-28
+· Benjamin Mann on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Team velocity per AI-fluent operator climbs sharply versus AI-skeptical or AI-incremental peers.
@@ -52,5 +52,5 @@ Specific pattern Mann names: Claude Code users who ask for ambitious changes and
 For some classes of debugging, preserving context is essential and resetting destroys hard-won state. The discipline is a heuristic, not an absolute.
 
 ## Cross-references
-- `ins_economic-turing-test-for-ai` — same operator, the destination this discipline reaches
-- `ins_dont-box-the-model-in` — Boris Cherny's architectural complement
+- `ins_economic-turing-test-for-ai`, same operator, the destination this discipline reaches
+- `ins_dont-box-the-model-in`, Boris Cherny's architectural complement

@@ -31,7 +31,7 @@ Fails when: the POV is highly technical or confidential and can only ship as gat
 
 ## Evidence
 Paraphrased from Kieran Flanagan with Aja Frost and Beeri Amiel on Marketing Against The Grain Ep. 417: assistants pull citations from YouTube and Reddit rather than your site; map the third-party citation surface before deciding where to publish.
-— Kieran Flanagan, MATG Ep. 417, 2026-04-29
+· Kieran Flanagan, MATG Ep. 417, 2026-04-29
 
 ## Signals
 - Editorial calendar lists the primary surface (YouTube, podcast, Reddit) before the brand-site version.

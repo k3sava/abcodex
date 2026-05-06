@@ -20,7 +20,7 @@ raw_ref: raw/essays/glenn-gabe--mt-ai-crumbles--2026-04-22.md
 # Google manual actions propagate downstream to AI Overviews and ChatGPT citations
 
 ## Claim
-A site that suffers a Google manual action (or quality-driven demotion) drops not only in classic SERP but also in AI Overviews, AI Mode, and ChatGPT/Perplexity citations — quality penalties on Google now have downstream blast radius across most AI surfaces.
+A site that suffers a Google manual action (or quality-driven demotion) drops not only in classic SERP but also in AI Overviews, AI Mode, and ChatGPT/Perplexity citations, quality penalties on Google now have downstream blast radius across most AI surfaces.
 
 ## Mechanism
 AI surfaces use Google (and adjacent crawl indexes) as one of their retrieval and trust layers. When a domain is demoted in Google's index for quality reasons, the same trust signals that drop its rank also reduce its inclusion likelihood in synthesis pipelines that consume Google-index data. Some AI surfaces also separately apply quality filters that downrank known-spam patterns. The effect is a cascade: surge-then-decay in GSC is the early signal, then citation logs across AI surfaces show the same pattern within days to weeks.
@@ -41,7 +41,7 @@ Fails when:
 
 Case study: a site that scaled AI-generated content to climb Google rankings, then collapsed across organic, AI Overviews, AI Mode, and ChatGPT citations once Google issued a manual action.
 
-— Glenn Gabe, https://www.gsqi.com/marketing-blog/when-mt-ai-crumbles-chatgpt-follows/, 2026-04-22
+· Glenn Gabe, https://www.gsqi.com/marketing-blog/when-mt-ai-crumbles-chatgpt-follows/, 2026-04-22
 
 ## Signals
 - AEO/SEO workflows include a risk-pass step that watches for Google manual-action patterns before AI-citation collapse.
@@ -52,6 +52,6 @@ Case study: a site that scaled AI-generated content to climb Google rankings, th
 Some AI surfaces (notably some Perplexity sources, Anthropic web fetch with custom retrieval) are partially decoupled from Google's index. A site demoted in Google may still appear in those surfaces. The propagation is strong but not universal.
 
 ## Cross-references
-- `ins_relevance-engineering-passage-level` — Mike King's passage engineering still helps, but only above a quality floor.
-- `ins_ai-slop-loop` — Lily Ray's parallel finding on how AI surfaces can amplify quality problems in the other direction.
-- `ins_aeo-three-layer-presence-readiness-impact` — the measurement framework needs a quality-risk component.
+- `ins_relevance-engineering-passage-level`, Mike King's passage engineering still helps, but only above a quality floor.
+- `ins_ai-slop-loop`, Lily Ray's parallel finding on how AI surfaces can amplify quality problems in the other direction.
+- `ins_aeo-three-layer-presence-readiness-impact`, the measurement framework needs a quality-risk component.

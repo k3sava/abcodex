@@ -22,7 +22,7 @@ title: 'Community is the most powerful ingredient in B2B marketing because it ta
 
 ## Claim
 
-Most B2B companies shouldn't launch a community. The ones that should treat it like a product, not a Slack group — at Exit Five, that meant hiring real operators (a COO, content team), running it on Circle, and growing 80% YoY by helping people do their jobs better. Community works when you tap shared interest in the role, not push the product.
+Most B2B companies shouldn't launch a community. The ones that should treat it like a product, not a Slack group, at Exit Five, that meant hiring real operators (a COO, content team), running it on Circle, and growing 80% YoY by helping people do their jobs better. Community works when you tap shared interest in the role, not push the product.
 
 ## Mechanism
 

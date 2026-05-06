@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Clay is not just for lead gen — it's a general-purpose automation platform for any data discovery task.
+# Clay is not just for lead gen, it's a general-purpose automation platform for any data discovery task.
 
 ## Claim
 Most people think Clay is just for lead generation and CRM enrichment, but you can literally use it to find the perfect restaurant that meets ANY specific criteria you want.

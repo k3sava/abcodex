@@ -17,13 +17,13 @@ related: [ins_meta-cost-caps-everywhere]
 raw_ref: raw/expert-content/experts/andrew-faris.md
 ---
 
-# Media buying is the setter; creative is the hitter — the score comes from creative
+# Media buying is the setter; creative is the hitter, the score comes from creative
 
 ## Claim
-DTC scaling fails when teams confuse two distinct stages. Stage 1 is finding 2-3 creative concepts that can each profitably spend $1k+/day — a creative problem, not a media-buying problem. Stage 2 is producing 5+ net-new creative assets per week without quality degradation — a creative-operations problem. Brands stall by trying to scale media before they have winning creative, or by finding winners but not being able to feed the algorithm with enough variation.
+DTC scaling fails when teams confuse two distinct stages. Stage 1 is finding 2-3 creative concepts that can each profitably spend $1k+/day, a creative problem, not a media-buying problem. Stage 2 is producing 5+ net-new creative assets per week without quality degradation, a creative-operations problem. Brands stall by trying to scale media before they have winning creative, or by finding winners but not being able to feed the algorithm with enough variation.
 
 ## Mechanism
-Meta's algorithm fatigues on any single ad in days-to-weeks. Once a winning concept is found, the ROI of additional media spend is gated by how fast the team can ship variations of that concept. This makes "creative ops" — briefing, shooting, editing, naming — the actual scale lever, not media-buyer skill.
+Meta's algorithm fatigues on any single ad in days-to-weeks. Once a winning concept is found, the ROI of additional media spend is gated by how fast the team can ship variations of that concept. This makes "creative ops", briefing, shooting, editing, naming, the actual scale lever, not media-buyer skill.
 
 ## Conditions
 Holds when:
@@ -31,7 +31,7 @@ Holds when:
 - The team can stand up an in-house or agency creative pipeline.
 
 Fails when:
-- Pre-PMF — the bottleneck is product/offer, not creative volume.
+- Pre-PMF, the bottleneck is product/offer, not creative volume.
 - Brands relying on a single hero asset (high-budget commercial) where weekly variation is impractical.
 
 ## Evidence
@@ -39,7 +39,7 @@ Fails when:
 
 > "His diagnostic for Stage 1 is whether you have found at least two to three creative concepts that can profitably spend $1K+/day each."
 
-— Andrew Faris (synthesized from operator's published work)
+· Andrew Faris (synthesized from operator's published work)
 
 ## Signals
 - Weekly KPI dashboard tracks net-new creative assets, not just spend and ROAS.
@@ -50,4 +50,4 @@ Fails when:
 Some performance brands (Native, Liquid Death) achieved scale on a few iconic, slow-iterated assets, betting on brand-level memorability over volume. In smaller niches, audience saturation kills high-volume strategies before they pay back.
 
 ## Cross-references
-- ins_meta-cost-caps-everywhere — same operator
+- ins_meta-cost-caps-everywhere, same operator

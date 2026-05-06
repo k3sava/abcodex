@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Everything you do should map back to the business. And you should be able to explain why."
 
-— Tamara Grominsky, LinkedIn, 2026-04-10
+· Tamara Grominsky, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

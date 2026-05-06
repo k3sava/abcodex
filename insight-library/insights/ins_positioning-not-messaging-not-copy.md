@@ -17,13 +17,13 @@ related: [ins_positioning-is-a-business-identity-decision]
 raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 ---
 
-# Positioning, messaging, and copy are three distinct layers — collapsing them produces hollow output
+# Positioning, messaging, and copy are three distinct layers, collapsing them produces hollow output
 
 ## Claim
-Positioning, messaging, and copy operate at three different altitudes and have three different decision rights. Treating them as the same artifact — usually by jumping straight from a vague positioning idea to ChatGPT-generated headlines — produces copy that sounds interesting but lacks substance and truth. The PMM job is to maintain the layers cleanly.
+Positioning, messaging, and copy operate at three different altitudes and have three different decision rights. Treating them as the same artifact, usually by jumping straight from a vague positioning idea to ChatGPT-generated headlines, produces copy that sounds interesting but lacks substance and truth. The PMM job is to maintain the layers cleanly.
 
 ## Mechanism
-Positioning decides what mental box the product occupies. Messaging is the grayscale substance — capability, primary benefit, primary use case, differentiation, worldview. Copy is messaging dressed in brand personality, tone, and channel context. Skipping a layer hands the next layer no source material; LLMs can't fill the gap because the gap is judgment, not text generation.
+Positioning decides what mental box the product occupies. Messaging is the grayscale substance, capability, primary benefit, primary use case, differentiation, worldview. Copy is messaging dressed in brand personality, tone, and channel context. Skipping a layer hands the next layer no source material; LLMs can't fill the gap because the gap is judgment, not text generation.
 
 ## Conditions
 Holds when:
@@ -37,10 +37,10 @@ Fails when:
 ## Evidence
 > "Positioning ≠ Messaging ≠ Copy. ... Without a grounded message, I was just picking copy that sounded 'interesting' but lacked substance or truth."
 
-— Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
+· Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
-- The team can point to where positioning lives, where messaging lives, and where copy lives — three different artifacts.
+- The team can point to where positioning lives, where messaging lives, and where copy lives, three different artifacts.
 - Copy reviews escalate to messaging fixes, which escalate to positioning conversations.
 - AI-generated headlines are inputs to messaging review, not outputs to ship.
 

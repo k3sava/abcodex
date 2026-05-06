@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/devin-reed.md
 # Most content should serve the 95% who aren't buying yet, not the 5% who are
 
 ## Claim
-At any moment, only 5% of your addressable market is in-market and ready to buy; 95% are not buying but are willing to learn. Sustainable B2B content is built on resonance with that 95% — educational, trust-building material that earns attention before the buying window opens. When the 95% later enter market, your brand is already pre-selected. The 5% gets bottom-of-funnel content; the 95% gets everything else.
+At any moment, only 5% of your addressable market is in-market and ready to buy; 95% are not buying but are willing to learn. Sustainable B2B content is built on resonance with that 95%, educational, trust-building material that earns attention before the buying window opens. When the 95% later enter market, your brand is already pre-selected. The 5% gets bottom-of-funnel content; the 95% gets everything else.
 
 ## Mechanism
 Optimizing for "viral" or capture-only content burns budget on the small in-market segment and leaves the 95% to discover competitors. Resonance content (opinion-led, educational, executive-led) compounds attention with the 95% across months and quarters. Reed's playbook at Gong (scaled $20M → $200M) and Clari demonstrated this with explicit channel playbooks: Events, Webinars, LinkedIn Company Pages, Executive LinkedIn (6.1M views in 12 months for Clari's CEO).
@@ -39,15 +39,15 @@ Fails when:
 
 > "His LinkedIn playbook for Clari's CEO generated 6.1 million views in 12 months."
 
-— Devin Reed (synthesized from operator's published work)
+· Devin Reed (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar splits content explicitly by 95% vs 5% intent.
 - Executive LinkedIn presence has a documented playbook and KPIs, not vibes.
-- Content programs have roadmaps, ship "features," measure outcomes — treated like a product.
+- Content programs have roadmaps, ship "features," measure outcomes, treated like a product.
 
 ## Counter-evidence
 Performance-marketing-led growth orgs hit revenue without ever serving the 95%; the 95/5 framing under-weights the legitimate value of capture-mode content for buyer-intent products. Channel mix matters more than content split.
 
 ## Cross-references
-- ins_demand-creation-vs-capture — adjacent framework
+- ins_demand-creation-vs-capture, adjacent framework

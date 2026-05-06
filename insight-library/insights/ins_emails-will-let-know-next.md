@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "- Emails: Will let you know next week. Aleksandar Lepidovski running it right now!"
 
-— Alan Zhao, LinkedIn, 2026-04-10
+· Alan Zhao, LinkedIn, 2026-04-10
 
 ## Signals
 - Automatically sync the contacts directly to LinkedIn Ads.

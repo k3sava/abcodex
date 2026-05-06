@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/robert-rose.md
 ---
 
-# Content strategy and content marketing are different disciplines — most orgs conflate them and pay for it
+# Content strategy and content marketing are different disciplines, most orgs conflate them and pay for it
 
 ## Claim
-Content strategy and content marketing are fundamentally different disciplines that most organizations conflate. Content marketers "draw on the wall with magic markers" — execute campaigns, ship content. Content strategists "use fine pens" — design how content is created, governed, distributed, and measured as a strategic enterprise asset. Scaling content requires an *operating model* that manages content as enterprise infrastructure, not a marketing tactic.
+Content strategy and content marketing are fundamentally different disciplines that most organizations conflate. Content marketers "draw on the wall with magic markers", execute campaigns, ship content. Content strategists "use fine pens", design how content is created, governed, distributed, and measured as a strategic enterprise asset. Scaling content requires an *operating model* that manages content as enterprise infrastructure, not a marketing tactic.
 
 ## Mechanism
-Conflation produces "content programs" that ship content but lack governance — duplicated topics, inconsistent voice, no shared editorial standards, no enterprise reuse. Treating content as enterprise asset means defining ownership, lifecycle, taxonomy, governance, and reuse mechanisms. The strategist designs the system; the marketer ships within it. Without that split, every campaign is artisanal, every reuse is manual, and scaling content means hiring more writers — not building leverage.
+Conflation produces "content programs" that ship content but lack governance, duplicated topics, inconsistent voice, no shared editorial standards, no enterprise reuse. Treating content as enterprise asset means defining ownership, lifecycle, taxonomy, governance, and reuse mechanisms. The strategist designs the system; the marketer ships within it. Without that split, every campaign is artisanal, every reuse is manual, and scaling content means hiring more writers, not building leverage.
 
 ## Conditions
 Holds when:
@@ -37,15 +37,15 @@ Fails when:
 ## Evidence
 > "Content strategy and content marketing are fundamentally different disciplines that most organizations conflate; content marketers draw on the wall with magic markers while content strategists use fine pens."
 
-— Robert Rose (synthesized from operator's published work)
+· Robert Rose (synthesized from operator's published work)
 
 ## Signals
 - Org chart names a content strategist (governance) separate from content marketers (production).
 - Content has a documented lifecycle (creation → publication → measurement → retirement).
-- Reuse is systematic — single canonical assets feed multiple channel adaptations.
+- Reuse is systematic, single canonical assets feed multiple channel adaptations.
 
 ## Counter-evidence
 For early-stage startups, the dual-discipline split is overhead. Some content thinkers (Jimmy Daly, Jay Acunzo) argue that "strategy" risk-aversion can paralyze actual shipping; the marketer-strategist split can become an excuse to never ship.
 
 ## Cross-references
-- ins_blog-as-library-business-model-revealed — adjacent operator (Jimmy Daly)
+- ins_blog-as-library-business-model-revealed, adjacent operator (Jimmy Daly)

@@ -27,11 +27,11 @@ When ad ranking is AI-driven, creative iteration speed beats budget size. MCP en
 
 ## Conditions
 Holds when: the advertiser has the engineering capacity to build a creative-test loop and a steady stream of variant inputs.
-Fails when: the team has no in-house creative pipeline — managed agency workflows still win on production volume.
+Fails when: the team has no in-house creative pipeline, managed agency workflows still win on production volume.
 
 ## Evidence
 Meta Q1 2026: ad revenue +32.9% YoY to $55B, DAP +3.8%, 8M advertisers on generative creative tools, MCP endpoints for ad-buying agents announced.
-— Eric Seufert, Mobile Dev Memo, 2026-04-30
+· Eric Seufert, Mobile Dev Memo, 2026-04-30
 
 ## Signals
 - Small-team launches running daily creative iteration cycles via API rather than weekly via dashboard.

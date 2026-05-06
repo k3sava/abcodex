@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-The most durable AI-first companies will emerge by serving institutions — universities, hospitals, governments — not by trying to disrupt them. Institutions don't resist innovation; they resist fragility. Founders who engage deeply and patiently with these environments build products that have to be secure, financially responsible, proven, and built to last 10+ years — and that constraint is what produces real moats.
+The most durable AI-first companies will emerge by serving institutions, universities, hospitals, governments, not by trying to disrupt them. Institutions don't resist innovation; they resist fragility. Founders who engage deeply and patiently with these environments build products that have to be secure, financially responsible, proven, and built to last 10+ years, and that constraint is what produces real moats.
 
 ## Mechanism
 

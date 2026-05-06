@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/sahil-bloom.md
 ---
 
-# Compounding applies to everything — the greatest results come from showing up when it's boring
+# Compounding applies to everything, the greatest results come from showing up when it's boring
 
 ## Claim
-The most powerful frameworks are simple enough to remember in the moment of decision. Compounding applies to everything, not just money: knowledge, relationships, reputation, skill. The greatest results come from the discipline of showing up when it's boring — early-stage compounding looks identical to "doing nothing useful." The mental razor for action: when in doubt, take the option that maximizes future optionality.
+The most powerful frameworks are simple enough to remember in the moment of decision. Compounding applies to everything, not just money: knowledge, relationships, reputation, skill. The greatest results come from the discipline of showing up when it's boring, early-stage compounding looks identical to "doing nothing useful." The mental razor for action: when in doubt, take the option that maximizes future optionality.
 
 ## Mechanism
 Linear thinking models reward visible short-term progress. Compounding rewards invisible early consistency that erupts into nonlinear returns at year 3-5. Most operators quit before the curve turns visible. The "investor or borrower" mental model: in any decision, are you investing (paying short-term cost for compounding return) or borrowing (taking short-term comfort against future debt)? Long-horizon framing makes the right choice obvious in cases where short-horizon framing rationalizes the wrong one.
@@ -28,7 +28,7 @@ Linear thinking models reward visible short-term progress. Compounding rewards i
 ## Conditions
 Holds when:
 - The operator has multi-year horizon to actually capture compounding.
-- The activity has compounding mechanics (relationships, knowledge, brand) — not extractive ones.
+- The activity has compounding mechanics (relationships, knowledge, brand), not extractive ones.
 
 Fails when:
 - Time-boxed decisions where compounding is irrelevant to the outcome.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Compounding applies to everything, not just money, and the greatest results come from the discipline of showing up when it is boring."
 
-— Sahil Bloom, *The Curiosity Chronicle* (synthesized from operator's published work)
+· Sahil Bloom, *The Curiosity Chronicle* (synthesized from operator's published work)
 
 ## Signals
 - Operator's calendar has "boring consistency" blocks (writing, learning, relationship-tending) protected.
@@ -48,4 +48,4 @@ Fails when:
 Some opportunities have hard time windows where compounding-mode patience misses them. The "show up when it's boring" advice can also be used to rationalize avoiding necessary creative leaps that genuinely require non-compounding bursts.
 
 ## Cross-references
-- ins_systems-not-goals — adjacent operator (James Clear)
+- ins_systems-not-goals, adjacent operator (James Clear)

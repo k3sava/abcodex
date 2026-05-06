@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/john-barrows.md
 # Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more.
 
 ## Claim
-Prospecting effectiveness reduces to three variables: know who you're reaching (persona dictates what they care about), know why now (trigger event creates relevance and urgency), know what specific outcome you can offer (tied to their situation, not your feature list). Personalization runs in three tiers: Tailored (15-30 min research, 15-25% reply rates), Targeted (5-10 min segment-level, 7-12%), Templated (1-2 min broad coverage, 2-5%). The sweet spot is ~25% personalization — make the opening specific, then transition into persona-relevant value. More has diminishing returns.
+Prospecting effectiveness reduces to three variables: know who you're reaching (persona dictates what they care about), know why now (trigger event creates relevance and urgency), know what specific outcome you can offer (tied to their situation, not your feature list). Personalization runs in three tiers: Tailored (15-30 min research, 15-25% reply rates), Targeted (5-10 min segment-level, 7-12%), Templated (1-2 min broad coverage, 2-5%). The sweet spot is ~25% personalization, make the opening specific, then transition into persona-relevant value. More has diminishing returns.
 
 ## Mechanism
 Generic messaging fails because the prospect can't pattern-match to themselves. Over-personalized messaging burns research time without higher reply rates because the prospect can't tell why *they* in particular are getting it. The ~25% rule isolates the highest-leverage personalization (a specific, named opening hook) and lets the rest of the email stay productized at the persona level. Trigger events (funding, hiring, leadership change, product launch) are the why-now anchor that lets even templated outreach feel timely.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Tailored (15-30 minutes of research for high-value targets, 15-25% response rates)... Templated (1-2 minutes for broad coverage, 2-5% response rates)."
 
-— John Barrows (synthesized from operator's published work)
+· John Barrows (synthesized from operator's published work)
 
 ## Signals
 - Outreach is segmented into three tiers with named volume + reply-rate targets per tier.
@@ -47,7 +47,7 @@ Fails when:
 - Email templates have one clearly-personalized opening line and a productized body.
 
 ## Counter-evidence
-Modern intent-data and AI-personalization tools have collapsed the cost of "Tailored" toward "Templated," changing the economics. Some categories (small ACV, high-volume) genuinely work at near-zero personalization — adding it doesn't pay back.
+Modern intent-data and AI-personalization tools have collapsed the cost of "Tailored" toward "Templated," changing the economics. Some categories (small ACV, high-volume) genuinely work at near-zero personalization, adding it doesn't pay back.
 
 ## Cross-references
 - (none in current corpus)

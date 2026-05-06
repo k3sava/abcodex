@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "You never know how far it can take you."
 
-— Nalin Senthamil, LinkedIn, 2026-04-10
+· Nalin Senthamil, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

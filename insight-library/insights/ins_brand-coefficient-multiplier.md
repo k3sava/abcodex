@@ -17,13 +17,13 @@ related: [ins_demand-creation-vs-capture]
 raw_ref: raw/expert-content/experts/sam-kuehnle.md
 ---
 
-# Brand is the force multiplier on demand gen — strengthen the brand coefficient, not just spend more on ads
+# Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads
 
 ## Claim
-Brand isn't a separate budget line item from demand gen — it's the *force multiplier* on demand gen. Stop separating brand and demand in org charts, budgets, and strategy. Instead, track the "brand coefficient" — how much each dollar of demand-gen spend gets amplified by accumulated brand equity. A brand-strong account converts at higher rates, requires less qualification, and shortens cycles. Strengthening the coefficient lets you reclaim 50-450% of ad budget by getting more conversion per click.
+Brand isn't a separate budget line item from demand gen, it's the *force multiplier* on demand gen. Stop separating brand and demand in org charts, budgets, and strategy. Instead, track the "brand coefficient", how much each dollar of demand-gen spend gets amplified by accumulated brand equity. A brand-strong account converts at higher rates, requires less qualification, and shortens cycles. Strengthening the coefficient lets you reclaim 50-450% of ad budget by getting more conversion per click.
 
 ## Mechanism
-Demand-gen attribution treats each click as independent. Reality: brand awareness pre-warms buyers so the click converts at a higher rate than the same click into a cold account. The brand coefficient is the multiplier hidden in that conversion-rate gap. Investments in brand (PR, podcasts, executive thought leadership) raise the coefficient, which raises ROAS on every demand-gen dollar that follows. Separating goals (brand) from metrics (demand) — Kuehnle's named distinction — prevents the false trade-off where brand work loses budget to last-click attribution.
+Demand-gen attribution treats each click as independent. Reality: brand awareness pre-warms buyers so the click converts at a higher rate than the same click into a cold account. The brand coefficient is the multiplier hidden in that conversion-rate gap. Investments in brand (PR, podcasts, executive thought leadership) raise the coefficient, which raises ROAS on every demand-gen dollar that follows. Separating goals (brand) from metrics (demand), Kuehnle's named distinction, prevents the false trade-off where brand work loses budget to last-click attribution.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Brand is the force multiplier that makes demand gen actually work; stop separating brand and demand in org charts, budgets, and strategy, and instead ask how to strengthen your brand coefficient."
 
-— Sam Kuehnle (synthesized from operator's published work)
+· Sam Kuehnle (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks brand-coefficient gap (conversion rate brand-strong vs. brand-weak segments).
@@ -45,7 +45,7 @@ Fails when:
 - Budget defense uses coefficient framing rather than brand-vs-demand opposition.
 
 ## Counter-evidence
-The brand-coefficient construct is hard to measure cleanly — many "brand-strong" segments are correlated with other signals (incumbency, larger ACV) that explain the conversion gap independently. Some categories show no measurable coefficient.
+The brand-coefficient construct is hard to measure cleanly, many "brand-strong" segments are correlated with other signals (incumbency, larger ACV) that explain the conversion gap independently. Some categories show no measurable coefficient.
 
 ## Cross-references
-- ins_demand-creation-vs-capture — adjacent operator (Chris Walker, same lineage)
+- ins_demand-creation-vs-capture, adjacent operator (Chris Walker, same lineage)

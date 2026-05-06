@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/else-van-der-berg.md
 # Data shows what; the why lives in qualitative context. Merge them in one AI conversation.
 
 ## Claim
-The gap between PMs who stare at dashboards and PMs who act comes down to (1) interpreting what the data shows and (2) connecting quantitative signal to qualitative context. AI tools that merge both — Claude Code with an analytics MCP server like PostHog — collapse the workflow: the same conversation can pull a funnel chart and synthesize 20 user-research transcripts against it.
+The gap between PMs who stare at dashboards and PMs who act comes down to (1) interpreting what the data shows and (2) connecting quantitative signal to qualitative context. AI tools that merge both, Claude Code with an analytics MCP server like PostHog, collapse the workflow: the same conversation can pull a funnel chart and synthesize 20 user-research transcripts against it.
 
 ## Mechanism
 Quantitative data shows *what* is happening (drop-off at step 3, 12% retention). Qualitative research shows *why* (users don't realize step 3 needs an integration). Historically, PMs bridge the two manually across separate tools and synthesis sessions, which is slow and where most teams fail. Connecting LLM-driven synthesis with live data via MCP servers turns the bridge into one conversation: "show me the drop-off, then summarize the interview themes from users who dropped off." Pattern-extraction from interview transcripts becomes a systematic exercise rather than craft instinct.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Data shows what is happening, never why — the why lives in qualitative context, and AI tools that merge both are transformative."
 
-— Else van der Berg, *Synthesizing qual/quant and strategy with Claude Code + PostHog MCP*
+· Else van der Berg, *Synthesizing qual/quant and strategy with Claude Code + PostHog MCP*
 
 ## Signals
 - PM uses a single AI session to pull metrics AND synthesize interview themes.

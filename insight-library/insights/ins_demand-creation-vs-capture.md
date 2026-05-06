@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/chris-walker.md
 Most B2B marketing organizations are misallocating budget by over-indexing on demand *capture* (reaching the ~5% of buyers actively searching) and neglecting demand *creation* (educating and building preference with the ~95% who are not yet buying). The fix is to separate the two motions, give them different KPIs and measurement systems, and stop forcing demand creation through trackable-channel attribution that punishes it by default.
 
 ## Mechanism
-Attribution software rewards what it can track. Trackable channels (Google Ads, gated content, content syndication) bias the budget toward demand capture and starve dark-social channels (LinkedIn, podcasts, communities) where 95% of buyers actually form preference. By the time a buyer raises their hand, the brand decision is mostly made — capture marketing only harvests demand that creation built. Splitting the funnel by Declared Intent vs. Low Intent surfaces exactly how much is wasted on low-intent lead-gen that never converts.
+Attribution software rewards what it can track. Trackable channels (Google Ads, gated content, content syndication) bias the budget toward demand capture and starve dark-social channels (LinkedIn, podcasts, communities) where 95% of buyers actually form preference. By the time a buyer raises their hand, the brand decision is mostly made, capture marketing only harvests demand that creation built. Splitting the funnel by Declared Intent vs. Low Intent surfaces exactly how much is wasted on low-intent lead-gen that never converts.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Across a cohort of 20 B2B SaaS clients, Refine Labs achieved a median 76% increase in HIRO Pipeline."
 
-— Chris Walker (synthesized from operator's published work)
+· Chris Walker (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard separates Declared Intent from Low Intent pipeline sources.
@@ -47,7 +47,7 @@ Fails when:
 - Brand and demand sit on the same team with shared KPIs (HIRO Pipeline).
 
 ## Counter-evidence
-Performance-marketing-led growth orgs (early-stage SaaS, PLG) often need every dollar to be trackable to survive runway constraints. The 95/5 split also varies by category — categories with short consideration cycles (e.g. impulse SaaS purchases) skew toward capture.
+Performance-marketing-led growth orgs (early-stage SaaS, PLG) often need every dollar to be trackable to survive runway constraints. The 95/5 split also varies by category, categories with short consideration cycles (e.g. impulse SaaS purchases) skew toward capture.
 
 ## Cross-references
 - (none in current corpus)

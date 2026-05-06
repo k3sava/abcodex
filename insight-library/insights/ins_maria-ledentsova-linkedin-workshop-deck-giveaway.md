@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 I gave away the entire 63-slide deck from my LinkedIn workshop for free, which drove massive engagement and sign-ups from 450+ people across 23 countries.
 
 ## Mechanism
-By offering high-value, actionable content (the deck) in exchange for a simple comment ('DECK'), you trigger the algorithm's engagement signals, grow your reach, and build trust with your audience—all while positioning yourself as an authority.
+By offering high-value, actionable content (the deck) in exchange for a simple comment ('DECK'), you trigger the algorithm's engagement signals, grow your reach, and build trust with your audience, all while positioning yourself as an authority.

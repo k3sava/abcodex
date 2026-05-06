@@ -32,12 +32,12 @@ Holds when:
 
 Fails when:
 - The target market is fragmented across too many small communities to embed in any one.
-- Enterprise B2B with gated buyers — community embedding rarely reaches the budget owner.
+- Enterprise B2B with gated buyers, community embedding rarely reaches the budget owner.
 
 ## Evidence
 > "Instead of building in isolation and hoping customers appear, you embed yourself in the community you want to serve, discover their critical problems through observation and conversation, and build solutions that address those problems directly."
 
-— Arvid Kahl, *The Embedded Entrepreneur* (synthesized from operator's published work)
+· Arvid Kahl, *The Embedded Entrepreneur* (synthesized from operator's published work)
 
 ## Signals
 - Founder is a known regular in the community before any product is launched.

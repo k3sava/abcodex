@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/tommy-walker.md
 ---
 
-# Content is social currency — buyers share what makes them look smart, and decisions are made in Slack
+# Content is social currency, buyers share what makes them look smart, and decisions are made in Slack
 
 ## Claim
-Content operations at scale rests on three axioms. (1) A solid premise gets you 80% of the way there — bad content with great structure still fails. (2) Decisions are made in Slack — meaning you must understand where organizational buying actually happens, not just where marketing intercepts buyers. (3) Content is a form of *social currency* that people use to express identity and enhance professional standing. Buyers share what makes them look smart inside their org.
+Content operations at scale rests on three axioms. (1) A solid premise gets you 80% of the way there, bad content with great structure still fails. (2) Decisions are made in Slack, meaning you must understand where organizational buying actually happens, not just where marketing intercepts buyers. (3) Content is a form of *social currency* that people use to express identity and enhance professional standing. Buyers share what makes them look smart inside their org.
 
 ## Mechanism
-Most content fails on premise — the angle isn't fresh, the data isn't original, the take isn't sharp. Operations can't rescue weak premise. The "decisions are made in Slack" frame shifts targeting: the buyer who reads your content isn't the buyer who decides; they share to a Slack channel where the actual decision happens. Content optimized for individual conversion misses the social-share moment. Content as social currency: design pieces a senior IC would proudly share with their VP, not pieces that feel like sales material the VP would skip.
+Most content fails on premise, the angle isn't fresh, the data isn't original, the take isn't sharp. Operations can't rescue weak premise. The "decisions are made in Slack" frame shifts targeting: the buyer who reads your content isn't the buyer who decides; they share to a Slack channel where the actual decision happens. Content optimized for individual conversion misses the social-share moment. Content as social currency: design pieces a senior IC would proudly share with their VP, not pieces that feel like sales material the VP would skip.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Content operations at scale requires three axioms: a solid premise gets you 80% of the way there, decisions are made in Slack (meaning you must understand where organizational buying happens), and content is a form of social currency that people use to express their identity and enhance their professional standing."
 
-— Tommy Walker (synthesized from operator's published work)
+· Tommy Walker (synthesized from operator's published work)
 
 ## Signals
 - Content briefs lead with the premise, tested for sharpness against alternatives.
@@ -45,7 +45,7 @@ Fails when:
 - Sharing data (LinkedIn forwards, Slack posts in customer environments) is tracked, not just open rates.
 
 ## Counter-evidence
-For very-narrow B2B niches with small audience, content-as-social-currency dynamics are weak — the buyer's network may not include enough people to share to. Some product-led companies skip premise-driven content entirely and win on product virality.
+For very-narrow B2B niches with small audience, content-as-social-currency dynamics are weak, the buyer's network may not include enough people to share to. Some product-led companies skip premise-driven content entirely and win on product virality.
 
 ## Cross-references
 - (none in current corpus)

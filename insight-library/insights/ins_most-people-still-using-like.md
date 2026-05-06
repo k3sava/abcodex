@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Most people are still using AI like this: ask → answer → forget."
 
-— Alok Yadav, LinkedIn, 2026-04-10
+· Alok Yadav, LinkedIn, 2026-04-10
 
 ## Signals
 - Raw data stays untouched (your source of truth)

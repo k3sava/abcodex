@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/nik-sharma.md
 The number one thing holding DTC brands under $5M back is trying to do too many marketing activities at once. Pick one product, one channel, one customer avatar, master that funnel, then expand. Concrete benchmark: don't think about turning on another channel until you can profitably spend $5K/day on Meta. Reasoning: Meta has the fastest feedback loops, fastest optimization, easiest setup, and meaningful insight starts at $2,500/day across 2-3 audiences.
 
 ## Mechanism
-Tactical playbook: start Meta-only with manual campaign setup (new pixels aren't trained enough for automated types). TikTok-style videos showing product use, problem solved, delivery speed. Litmus test for creative quality: would it perform organically? If not, don't run it as paid. Use static-vs-video CPM differential (statics ~50% lower) to test messaging cheaply with text overlays before video production. Source creators directly from TikTok by searching the category — no more than $500 per creator for initial content. Once funnel works, *don't* immediately launch new products or channels — squeeze the juice out of what's working and scale.
+Tactical playbook: start Meta-only with manual campaign setup (new pixels aren't trained enough for automated types). TikTok-style videos showing product use, problem solved, delivery speed. Litmus test for creative quality: would it perform organically? If not, don't run it as paid. Use static-vs-video CPM differential (statics ~50% lower) to test messaging cheaply with text overlays before video production. Source creators directly from TikTok by searching the category, no more than $500 per creator for initial content. Once funnel works, *don't* immediately launch new products or channels, squeeze the juice out of what's working and scale.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Do not even think about turning on another channel until you can profitably spend $5K/day on Meta."
 
-— Nik Sharma (synthesized from operator's published work)
+· Nik Sharma (synthesized from operator's published work)
 
 ## Signals
 - Brand has explicit single-channel discipline named in the marketing plan.
@@ -47,7 +47,7 @@ Fails when:
 - Expansion to new channels is gated on the $5K/day Meta benchmark.
 
 ## Counter-evidence
-Brands like Liquid Death and Native achieved scale through brand-led, multi-channel motion early — Sharma's prescription is too narrow for some category-creating consumer brands. AI-generated creative is also collapsing the static-vs-video CPM differential.
+Brands like Liquid Death and Native achieved scale through brand-led, multi-channel motion early, Sharma's prescription is too narrow for some category-creating consumer brands. AI-generated creative is also collapsing the static-vs-video CPM differential.
 
 ## Cross-references
-- ins_meta-cost-caps-everywhere — adjacent operator (Andrew Faris)
+- ins_meta-cost-caps-everywhere, adjacent operator (Andrew Faris)

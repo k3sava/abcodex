@@ -31,13 +31,13 @@ Holds when:
 - A named customer with a measurable result will go on the record.
 
 Fails when:
-- Buyer is consumer or self-serve at low ACV — proof types shift toward reviews.
-- Customers can't share due to legal, secrecy, or attribution gaps (use anonymous benchmark — see related).
+- Buyer is consumer or self-serve at low ACV, proof types shift toward reviews.
+- Customers can't share due to legal, secrecy, or attribution gaps (use anonymous benchmark, see related).
 
 ## Evidence
 > "UserEvidence surveyed 619 B2B buyers and 51% said it's the most trustworthy form of evidence."
 
-— Jason Oakley, LinkedIn, 2026-04-10 (scrape date)
+· Jason Oakley, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Marketing teams rank proof-point types and budget customer-evidence acquisition explicitly.

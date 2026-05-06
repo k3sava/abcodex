@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # My first one is going to be to rebuild my custom audio daily briefing that looks at my
 ## Claim
-Dunno if we’ve announced it yet or not (if so then mea culpa Marketing Team 🙏) but we’re about to release a bajillion (technical term) connectors to enable you to build Agents using almost any other tools you can imagine. My first one is going to be to rebuild my custom audio daily briefing that looks at my calendar and briefs me on my day based on who I’m meeting, what we said last time, and an analysis of our comparative business models.
+Dunno if we've announced it yet or not (if so then mea culpa Marketing Team 🙏) but we're about to release a bajillion (technical term) connectors to enable you to build Agents using almost any other tools you can imagine. My first one is going to be to rebuild my custom audio daily briefing that looks at my calendar and briefs me on my day based on who I'm meeting, what we said last time, and an analysis of our comparative business models.
 
 ## Mechanism
-My second is going to be my “context aware meeting summarizer” that knows my job, our org chart, our KPIs etc. and attends meetings for me — but only summarizes bits I care about (if any) vs summarizing everything.
+My second is going to be my "context aware meeting summarizer" that knows my job, our org chart, our KPIs etc. and attends meetings for me, but only summarizes bits I care about (if any) vs summarizing everything.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "My first one is going to be to rebuild my custom audio daily briefing that looks at my calendar and briefs me on my day based on who I’m meeting, what we said last time, and an analysis of our comparative business models."
 
-— Sam Mallikarjunan, LinkedIn, 2026-04-10
+· Sam Mallikarjunan, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

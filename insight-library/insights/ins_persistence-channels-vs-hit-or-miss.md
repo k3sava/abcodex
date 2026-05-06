@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/julian-shapiro.md
 # Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second.
 
 ## Claim
-Channels split into two structural types. Persistence channels (Twitter, SEO, newsletter, YouTube) produce compounding returns — each piece of content builds on the previous audience. Hit-or-miss channels (Product Hunt, Reddit, Hacker News) offer no compounding; viral hits don't increase odds of future success. Treat persistence channels as originators (compounding investment), hit-or-miss channels as accelerators (cross-post breakouts for bonus distribution).
+Channels split into two structural types. Persistence channels (Twitter, SEO, newsletter, YouTube) produce compounding returns, each piece of content builds on the previous audience. Hit-or-miss channels (Product Hunt, Reddit, Hacker News) offer no compounding; viral hits don't increase odds of future success. Treat persistence channels as originators (compounding investment), hit-or-miss channels as accelerators (cross-post breakouts for bonus distribution).
 
 ## Mechanism
-Compounding compounds. A Twitter follower from month 1 sees content from months 2 and 3 and 12, multiplying value of every subsequent post. A Hacker News front-page hit is a one-time spike; tomorrow's submission starts at zero again. Founders who treat all channels as equivalent waste effort on one-shot leaderboard plays without building the persistence base that would make the leaderboard hit a flywheel. Channel-fit evaluation: content match, targeting granularity, demographic match, device match — then ICE-prioritize.
+Compounding compounds. A Twitter follower from month 1 sees content from months 2 and 3 and 12, multiplying value of every subsequent post. A Hacker News front-page hit is a one-time spike; tomorrow's submission starts at zero again. Founders who treat all channels as equivalent waste effort on one-shot leaderboard plays without building the persistence base that would make the leaderboard hit a flywheel. Channel-fit evaluation: content match, targeting granularity, demographic match, device match, then ICE-prioritize.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Purchase Rate = Desire − (Labor + Confusion)."
 
-— Julian Shapiro (synthesized from operator's published work)
+· Julian Shapiro (synthesized from operator's published work)
 
 ## Signals
 - Marketing roadmap names one persistence channel as the originator and 1-2 hit-or-miss as accelerators.

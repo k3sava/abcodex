@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# GTM is broken at the handoffs — invest in a single owner of the prospect-to-renewal journey
+# GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey
 
 ## Claim
 
-After listening to marketing leaders at Drive 2025, the diagnosis is that nothing has changed in corporate pain points. Marketing teams are still talking about the same broken handoffs to other departments that hurt customer experience. Sangram Vaze's argument about the GTM officer being more critical than ever is right — orgs need to invest in a single team that streamlines and optimizes the entire prospect-to-client journey, from cold lead through renewal motion. Comp plans, leadership roles, and team structures all have to support that one journey.
+After listening to marketing leaders at Drive 2025, the diagnosis is that nothing has changed in corporate pain points. Marketing teams are still talking about the same broken handoffs to other departments that hurt customer experience. Sangram Vaze's argument about the GTM officer being more critical than ever is right, orgs need to invest in a single team that streamlines and optimizes the entire prospect-to-client journey, from cold lead through renewal motion. Comp plans, leadership roles, and team structures all have to support that one journey.
 
 ## Mechanism
 

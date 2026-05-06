@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-Your customers are the best value-add your brand awareness programs didn't know they needed. After activating advocates at ASICS, Levi's, Booking.com, AirFrance-KLM, and PostNL, the pattern is clear: customer-driven podcasts, conference talks, and case studies deliver value to the brand's audience while simultaneously building the company's internal knowledge of customer stories — which then feeds prospect-stage materials. The story has to feel great to the advocate AND important to the audience for it to actually work.
+Your customers are the best value-add your brand awareness programs didn't know they needed. After activating advocates at ASICS, Levi's, Booking.com, AirFrance-KLM, and PostNL, the pattern is clear: customer-driven podcasts, conference talks, and case studies deliver value to the brand's audience while simultaneously building the company's internal knowledge of customer stories, which then feeds prospect-stage materials. The story has to feel great to the advocate AND important to the audience for it to actually work.
 
 ## Mechanism
 

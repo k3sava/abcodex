@@ -32,7 +32,7 @@ Holds when:
 - The design lead/team has the authority to own the visual system and approve before any user sees it.
 
 Fails when:
-- The category requires deep design craft early (luxury, brand-led products) — AI prototypes look like AI prototypes.
+- The category requires deep design craft early (luxury, brand-led products), AI prototypes look like AI prototypes.
 - The PM lacks design literacy to critique their own AI output and ships unreviewed work.
 - The design team treats AI prototypes as threats and the political cost overwhelms the speed gain.
 
@@ -41,7 +41,7 @@ Fails when:
 
 The frame: PMs who keep outsourcing first artifact to design will compete with PMs who arrive at design review with a working prototype. Same collapse PMs saw with engineering two years ago.
 
-— Aakash Gupta, https://www.news.aakashg.com/p/claude-design, 2026-04-24
+· Aakash Gupta, https://www.news.aakashg.com/p/claude-design, 2026-04-24
 
 ## Signals
 - PM PRDs ship with working prototypes attached; design reviews open on the prototype, not the doc.
@@ -52,6 +52,6 @@ The frame: PMs who keep outsourcing first artifact to design will compete with P
 For high-craft product categories, the PM prototype can become an anchor that drags the final design toward AI defaults. Designers who feel critique-only roles are degrading the work may push back. The collapse story may move slower than predicted in regulated or design-heavy categories.
 
 ## Cross-references
-- `ins_two-week-engineer-as-mini-pm` — adjacent reframe of the PM role under AI tooling.
-- `ins_pmm-as-infrastructure-not-gate` — Verna's analog for the PMM function.
-- `ins_design-as-bottleneck` — earlier card on the design-as-bottleneck pattern this insight resolves.
+- `ins_two-week-engineer-as-mini-pm`, adjacent reframe of the PM role under AI tooling.
+- `ins_pmm-as-infrastructure-not-gate`, Verna's analog for the PMM function.
+- `ins_design-as-bottleneck`, earlier card on the design-as-bottleneck pattern this insight resolves.

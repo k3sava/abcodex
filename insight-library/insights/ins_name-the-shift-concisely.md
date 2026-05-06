@@ -32,14 +32,14 @@ Holds when:
 
 Fails when:
 - The shift is multi-dimensional and the compression hides the most important axis. Buyers then misunderstand the product.
-- The compression is so generic it borrows another category's narrative ("software → AI" — applied to everything, meaningful for nothing).
+- The compression is so generic it borrows another category's narrative ("software → AI", applied to everything, meaningful for nothing).
 
 ## Evidence
 > "Zuora: transactions to subscriptions. Gong: opinions to reality. Salesforce: software to cloud. Airbnb: belong anywhere."
 
 Andy notes the trade-off explicitly: "You lose completeness to gain memorability. The naming is hard but essential."
 
-— Andy Raskin on Lenny's Podcast, 2026-04-28
+· Andy Raskin on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Sales reps repeat the phrase in their own pitches without a script.
@@ -50,4 +50,4 @@ Andy notes the trade-off explicitly: "You lose completeness to gain memorability
 A bad short phrase is worse than a clear long one. Test the compression on five customers. If they recognize the shift as something they're already feeling, ship it. If they need explanation, the phrase is wrong.
 
 ## Cross-references
-- `ins_old-game-to-new-game-narrative` — the framework this discipline supports
+- `ins_old-game-to-new-game-narrative`, the framework this discipline supports

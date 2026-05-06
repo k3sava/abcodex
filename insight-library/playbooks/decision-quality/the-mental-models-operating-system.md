@@ -13,7 +13,7 @@ domains: [leadership, strategy, founder-craft]
 
 ## Premise
 
-Most operators try to improve decision quality by *thinking harder in the moment*. Kahneman and Munger both reject this. Kahneman's evidence: System 2 (deliberate thinking) is too lazy to override System 1 (intuitive thinking) by willpower alone — the only durable fix is *process*. Munger's evidence: late-career outperformance comes from *accumulated wisdom* (more models, better pattern recognition), not harder effort.
+Most operators try to improve decision quality by *thinking harder in the moment*. Kahneman and Munger both reject this. Kahneman's evidence: System 2 (deliberate thinking) is too lazy to override System 1 (intuitive thinking) by willpower alone, the only durable fix is *process*. Munger's evidence: late-career outperformance comes from *accumulated wisdom* (more models, better pattern recognition), not harder effort.
 
 The implication is operational: build a personal and organisational decision-quality OS, ship the routines that run on it, and let the OS catch errors before they propagate.
 
@@ -50,7 +50,7 @@ If the inside view is 8 weeks and the class median is 16 weeks, the gap is the p
 
 ### 4. Incentive audit on every puzzle (Munger)
 
-When behaviour puzzles you — a competitor's odd move, a customer's irrational purchase, a colleague's disengagement — before reaching for psychology or strategy, do the incentive audit:
+When behaviour puzzles you, a competitor's odd move, a customer's irrational purchase, a colleague's disengagement, before reaching for psychology or strategy, do the incentive audit:
 
 - What is actually rewarded here? (Not the stated KPI; the actual one.)
 - Who decides what gets rewarded?
@@ -60,7 +60,7 @@ Most puzzling behaviour resolves into rational choice given the actual payoff ma
 
 ### 5. Lollapalooza watch on launches and pivots (Munger)
 
-When the team agrees enthusiastically and the answer feels obviously right — that is the moment to suspect 3+ biases stacking the same direction (social proof + authority + anchoring + loss aversion). Force structured contradiction:
+When the team agrees enthusiastically and the answer feels obviously right, that is the moment to suspect 3+ biases stacking the same direction (social proof + authority + anchoring + loss aversion). Force structured contradiction:
 
 - Devil's advocate: assigned to argue *against* the consensus.
 - Red team: independent group reviews from a hostile prior.
@@ -77,14 +77,14 @@ On top of the five routines, two boundary practices keep the OS calibrated:
 
 ## The bias index card
 
-Carry — literally or in a pinned doc — a one-page list of the biases the OS is checking for:
+Carry, literally or in a pinned doc, a one-page list of the biases the OS is checking for:
 
-- **Anchoring** — first number sets the range. Control who anchors. (`ins_anchoring-pricing-negotiation`)
-- **Loss aversion** — losses 2× as painful as gains; the value lift has to clear this. (`ins_loss-aversion-status-quo-bias`)
-- **Planning fallacy** — every timeline is optimistic. Run the outside view. (`ins_planning-fallacy-launch-timelines`)
-- **WYSIATI** — confidence rises as data thins. Enumerate unknowns. (`ins_wysiati-overconfidence`)
-- **Noise** — unwanted variance between identical judgments. Audit it. (`ins_noise-vs-bias-judgment-quality`)
-- **Lollapalooza** — when biases stack, outcomes break single-model reasoning. (`ins_lollapalooza-effects`)
+- **Anchoring**, first number sets the range. Control who anchors. (`ins_anchoring-pricing-negotiation`)
+- **Loss aversion**, losses 2× as painful as gains; the value lift has to clear this. (`ins_loss-aversion-status-quo-bias`)
+- **Planning fallacy**, every timeline is optimistic. Run the outside view. (`ins_planning-fallacy-launch-timelines`)
+- **WYSIATI**, confidence rises as data thins. Enumerate unknowns. (`ins_wysiati-overconfidence`)
+- **Noise**, unwanted variance between identical judgments. Audit it. (`ins_noise-vs-bias-judgment-quality`)
+- **Lollapalooza**, when biases stack, outcomes break single-model reasoning. (`ins_lollapalooza-effects`)
 
 When making any high-stakes call, check each entry. If two or more apply, slow down and route the decision through one of the five routines.
 
@@ -96,9 +96,9 @@ When making any high-stakes call, check each entry. If two or more apply, slow d
 
 ## Counter-stances
 
-- **Gary Klein, *Sources of Power*** — in expert pattern-rich domains, trained intuition outperforms structured deliberation. The OS is most useful for slow, high-stakes, infrequent decisions; it is least useful for fast pattern-matching by genuine experts.
-- **Tetlock, *Superforecasting*** — explicit Bayesian reasoning sometimes beats internalised pattern matching, particularly for forecasting outside the operator's lived domain. Calibration via track-record is the missing leg of the OS.
-- **Bezos's Type 1 / Type 2 decisions** — the OS as described above is heavy. For Type 2 (reversible) decisions, ship-and-learn beats deliberate. The discipline is matching weight to type.
+- **Gary Klein, *Sources of Power***, in expert pattern-rich domains, trained intuition outperforms structured deliberation. The OS is most useful for slow, high-stakes, infrequent decisions; it is least useful for fast pattern-matching by genuine experts.
+- **Tetlock, *Superforecasting***, explicit Bayesian reasoning sometimes beats internalised pattern matching, particularly for forecasting outside the operator's lived domain. Calibration via track-record is the missing leg of the OS.
+- **Bezos's Type 1 / Type 2 decisions**, the OS as described above is heavy. For Type 2 (reversible) decisions, ship-and-learn beats deliberate. The discipline is matching weight to type.
 
 ## Sources
 

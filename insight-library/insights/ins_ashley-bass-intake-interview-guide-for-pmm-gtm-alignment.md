@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # An intake interview guide aligns PM and PMM before any GTM work begins.
 
 ## Claim
-Before building messaging, launch plans, or enablement, use an Intake Interview Guide to extract critical information from Product Management — the real customer problem, what's launch-ready, who will care first, and what success looks like.
+Before building messaging, launch plans, or enablement, use an Intake Interview Guide to extract critical information from Product Management, the real customer problem, what's launch-ready, who will care first, and what success looks like.
 
 ## Mechanism
 The structured interview surfaces assumptions and exposes unknowns early, giving PMM the inputs needed to make smart GTM decisions. Sharing it in advance and using it in confidence creates alignment quickly and sets up shared knowledge for positioning, messaging, and launch plans.

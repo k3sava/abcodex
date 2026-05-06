@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Product launches have become marketing theatre — build for momentum, not noise
+# Product launches have become marketing theatre, build for momentum, not noise
 
 ## Claim
 

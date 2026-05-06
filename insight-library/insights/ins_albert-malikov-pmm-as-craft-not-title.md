@@ -22,11 +22,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-Most AI tools for finance ignore the fundamentals of accounting — controls, evidence, and accuracy — and try to bolt intelligence on from the outside. Stacks built Agentic AI that lives inside the accounting workflow itself, automating up to 90% of reconciliation work and 99% of manual journal effort while preserving complete audit traceability for every decision.
+Most AI tools for finance ignore the fundamentals of accounting, controls, evidence, and accuracy, and try to bolt intelligence on from the outside. Stacks built Agentic AI that lives inside the accounting workflow itself, automating up to 90% of reconciliation work and 99% of manual journal effort while preserving complete audit traceability for every decision.
 
 ## Mechanism
 
-Finance refuses to adopt tools that break controls. By embedding agents inside reconciliation, journal-entry, and variance workflows — not as a parallel layer — every action carries the audit trail finance teams already need. That moves the close from reactive scramble to one-click without forcing a process rewrite.
+Finance refuses to adopt tools that break controls. By embedding agents inside reconciliation, journal-entry, and variance workflows, not as a parallel layer, every action carries the audit trail finance teams already need. That moves the close from reactive scramble to one-click without forcing a process rewrite.
 
 ## Conditions
 

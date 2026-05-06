@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # The key challenge will be actually getting in front of our target audience
 
 ## Claim
-Product Marketing is about to enter its most exciting phase yet. 🔮 AI is already automating much of the trivial work that keeps PMMs busy. That’s good news. But it also means there are no excuses left for PMMs not to focus on the work that really moves the needle: insights, positioning, storytelling, product distribution strategy.
+Product Marketing is about to enter its most exciting phase yet. 🔮 AI is already automating much of the trivial work that keeps PMMs busy. That's good news. But it also means there are no excuses left for PMMs not to focus on the work that really moves the needle: insights, positioning, storytelling, product distribution strategy.
 
 ## Mechanism
 PMMs are going to be responsible for identifying the best way to scale via *distribution*
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "The key challenge will be actually getting in front of our target audience"
 
-— Rory Woodbridge, LinkedIn, 2026-04-10
+· Rory Woodbridge, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

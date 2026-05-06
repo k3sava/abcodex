@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # Five things CEO, CMO, CRO, and PMM will never agree on
 ## Claim
-Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on: The CEO wants to keep the TAM wide for investors. The CRO wants every deal that walks through the door. The CMO wants a story that scales across segments. And the product marketer is begging someone, anyone, to pick a lane.
+Here are five things that you'll never get a CEO, CMO, CRO, and product marketer to agree on: The CEO wants to keep the TAM wide for investors. The CRO wants every deal that walks through the door. The CMO wants a story that scales across segments. And the product marketer is begging someone, anyone, to pick a lane.
 
 ## Mechanism
-Marketing wants to talk vision because that’s what brands are built on.
+Marketing wants to talk vision because that's what brands are built on.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Here are five things that you’ll never get a CEO, CMO, CRO, and product marketer to agree on:"
 
-— Anna Tankel, LinkedIn, 2026-04-10
+· Anna Tankel, LinkedIn, 2026-04-10
 
 ## Signals
 - 𝐇𝐨𝐰 𝐧𝐢𝐜𝐡𝐞 𝐢𝐬 𝐧𝐢𝐜𝐡𝐞 𝐞𝐧𝐨𝐮𝐠𝐡
@@ -46,4 +46,4 @@ No opposing view in current corpus.
 
 ---
 
-*Thin source — this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*
+*Thin source, this card is a stub. The operator is in the corpus but a substantive published claim hasn't surfaced yet. Pull request welcome with a better source.*

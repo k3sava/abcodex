@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/codie-sanchez.md
 ---
 
-# Buying eliminates the Valley of Death — the highest-risk phase of entrepreneurship is already done
+# Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done
 
 ## Claim
-The fastest path to financial freedom is acquiring an existing cash-flowing "boring" business — laundromats, car washes, HVAC, vending — not building a startup from scratch. The acquirer skips what Sanchez calls the Valley of Death (zero to PMF, where most new businesses die) because product-market fit, customer base, and cash flow are already proven by the seller.
+The fastest path to financial freedom is acquiring an existing cash-flowing "boring" business, laundromats, car washes, HVAC, vending, not building a startup from scratch. The acquirer skips what Sanchez calls the Valley of Death (zero to PMF, where most new businesses die) because product-market fit, customer base, and cash flow are already proven by the seller.
 
 ## Mechanism
 Pre-existing cash flow does the heavy lifting that early-stage equity has to fund in a startup. The Income Stream Framework gates each deal: cash flow must simultaneously cover (a) interest on acquisition loan, (b) buyer's personal income, (c) operator salary so the buyer doesn't "buy a job," (d) working capital. If any quadrant fails, the deal doesn't work. Seller financing (often 70-90% of deal value) keeps out-of-pocket capital low and aligns seller incentives with post-close performance.
@@ -31,15 +31,15 @@ Holds when:
 - Local market has aging owners willing to sell with seller financing.
 
 Fails when:
-- Buyer wants venture-style outcomes — boring businesses don't 100x.
-- Cash flow can't cover all four Income Stream quadrants — the deal looks fine on a P&L but starves the buyer.
+- Buyer wants venture-style outcomes, boring businesses don't 100x.
+- Cash flow can't cover all four Income Stream quadrants, the deal looks fine on a P&L but starves the buyer.
 
 ## Evidence
 > "The fastest path to financial freedom is not building a startup from scratch but acquiring an existing 'boring' business with proven cash flow, because buying removes the highest-risk phase of entrepreneurship entirely."
 
 > "The Income Stream Framework: cash flow must cover (a) interest expense, (b) buyer's personal income, (c) operator salary, and (d) working capital."
 
-— Codie Sanchez (synthesized from operator's published work)
+· Codie Sanchez (synthesized from operator's published work)
 
 ## Signals
 - Deal pipeline includes broker outreach, direct owner outreach, and "driving for deals."

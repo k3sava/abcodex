@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md
 # Automate the four stages of a growth experiment; keep humans on alignment
 
 ## Claim
-Run growth experimentation through a four-stage substrate — identify opportunity, build the change, test against a quality + brand bar, ship and analyze — driven by Claude. The fifth stage (cross-functional alignment) stays human, and that is the lasting bottleneck.
+Run growth experimentation through a four-stage substrate, identify opportunity, build the change, test against a quality + brand bar, ship and analyze, driven by Claude. The fifth stage (cross-functional alignment) stays human, and that is the lasting bottleneck.
 
 ## Mechanism
-Most growth experimentation is loosely coupled steps that already have rich playbooks: ideation, implementation, QA, analysis. A capable model can drive each step end-to-end against a written brand and quality bar, with current win rates around "junior PM 2–3 years in." The expensive human input is no longer building the experiment — it is the political and aesthetic work of getting six people in a room to agree on what to ship.
+Most growth experimentation is loosely coupled steps that already have rich playbooks: ideation, implementation, QA, analysis. A capable model can drive each step end-to-end against a written brand and quality bar, with current win rates around "junior PM 2–3 years in." The expensive human input is no longer building the experiment, it is the political and aesthetic work of getting six people in a room to agree on what to ship.
 
 ## Conditions
 Holds when:
@@ -34,7 +34,7 @@ Holds when:
 Fails when:
 - Brand and quality guardrails are tacit, not written. The model has nothing to align to.
 - The work depends on novel research or category creation, not iteration on a known surface.
-- Stakeholder alignment was already the bottleneck — automation does not solve org-design problems.
+- Stakeholder alignment was already the bottleneck, automation does not solve org-design problems.
 
 ## Evidence
 > "Identify opportunities → build the feature → test against quality + brand bar → ship + analyze."
@@ -43,7 +43,7 @@ Fails when:
 
 The team is led by Alexey Komissarouk inside Anthropic. Win rate today is named at "junior PM 2–3 years in." The substrate wasn't viable before Opus 4.5; it is now. Human-in-loop review need is decreasing weekly.
 
-— Amol Avasare on Lenny's Podcast, 2026-04-05
+· Amol Avasare on Lenny's Podcast, 2026-04-05
 
 ## Signals
 - Number of shipped experiments per growth-PM-month rises 3–5x without quality regression.
@@ -54,5 +54,5 @@ The team is led by Alexey Komissarouk inside Anthropic. Win rate today is named 
 Operators outside frontier labs may not have the brand-bar maturity, the model access, or the org buy-in to run this. Without the codified guardrails, automating stages 1–4 produces fast slop. The win is not in the automation; it is in the prerequisite of having explicit quality definitions.
 
 ## Cross-references
-- `ins_squeezed-pm-thesis` — the staffing implication
-- `ins_dont-box-the-model-in` — why the substrate exposes Claude with light scaffolding
+- `ins_squeezed-pm-thesis`, the staffing implication
+- `ins_dont-box-the-model-in`, why the substrate exposes Claude with light scaffolding

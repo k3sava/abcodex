@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# If you ask candidates to do work, pay them — that's the recruiting hot take
+# If you ask candidates to do work, pay them, that's the recruiting hot take
 
 ## Claim
 
@@ -26,7 +26,7 @@ If a hiring process asks candidates to complete any project or substantive work 
 
 ## Mechanism
 
-Unpaid candidate work compounds two failures: it filters out the best candidates (they have other options) and it sends a values signal to those who stay through the process. Paying for work flips both — the best candidates self-select in, and the values signal becomes a marketing surface for hiring.
+Unpaid candidate work compounds two failures: it filters out the best candidates (they have other options) and it sends a values signal to those who stay through the process. Paying for work flips both, the best candidates self-select in, and the values signal becomes a marketing surface for hiring.
 
 ## Conditions
 

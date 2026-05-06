@@ -17,13 +17,13 @@ related: [ins_specific-knowledge-and-leverage, ins_circle-of-competence]
 raw_ref: raw/expert-content/experts/naval-ravikant.md
 ---
 
-# If you can be replaced by training, you will be — specific knowledge is what survives commoditisation
+# If you can be replaced by training, you will be, specific knowledge is what survives commoditisation
 
 ## Claim
-Specific knowledge is the kind that cannot be mass-trained. If society can train someone to do what you do, society *will* — and your wage / margin will collapse to the cost of the training. Defensible careers and businesses are built on the intersection of curiosities that no school teaches as a single curriculum.
+Specific knowledge is the kind that cannot be mass-trained. If society can train someone to do what you do, society *will*, and your wage / margin will collapse to the cost of the training. Defensible careers and businesses are built on the intersection of curiosities that no school teaches as a single curriculum.
 
 ## Mechanism
-Markets price labour and services according to substitutability. A skill that can be acquired through a standard curriculum has near-infinite supply at training cost; the wage approaches that floor over time. Specific knowledge — the rare combination of talents, deep domain immersion, and accumulated context that emerges from genuine curiosity — has a thin supply curve. The operator who possesses it captures the surplus because the buyer cannot substitute another operator at lower cost. The defence does not come from gatekeeping; it comes from the fact that the path to the knowledge is not legible to schools, bootcamps, or LLMs trained on existing curricula.
+Markets price labour and services according to substitutability. A skill that can be acquired through a standard curriculum has near-infinite supply at training cost; the wage approaches that floor over time. Specific knowledge, the rare combination of talents, deep domain immersion, and accumulated context that emerges from genuine curiosity, has a thin supply curve. The operator who possesses it captures the surplus because the buyer cannot substitute another operator at lower cost. The defence does not come from gatekeeping; it comes from the fact that the path to the knowledge is not legible to schools, bootcamps, or LLMs trained on existing curricula.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "knowledge that cannot be mass-trained: if society can train someone to replace you, it will."
 
-— see `raw/expert-content/experts/naval-ravikant.md` line 18.
+· see `raw/expert-content/experts/naval-ravikant.md` line 18.
 
 ## Signals
 - Competitors / peers cannot find someone to copy your offer at lower price within 12 months.
@@ -47,8 +47,8 @@ Fails when:
 - Pricing power that increases (not decreases) as the AI tooling for adjacent commodity skills improves.
 
 ## Counter-evidence
-The "specific knowledge cannot be mass-trained" claim assumes societal training capacity is the bottleneck. AI-assisted curriculum creation increasingly compresses the time from "rare" to "trainable" — from years to months for tasks like code review, copywriting, and basic positioning. Naval's heuristic still holds in spirit but the half-life of any given specific-knowledge edge is shrinking. The corollary: the knowledge has to be a *moving* intersection, not a fixed one.
+The "specific knowledge cannot be mass-trained" claim assumes societal training capacity is the bottleneck. AI-assisted curriculum creation increasingly compresses the time from "rare" to "trainable", from years to months for tasks like code review, copywriting, and basic positioning. Naval's heuristic still holds in spirit but the half-life of any given specific-knowledge edge is shrinking. The corollary: the knowledge has to be a *moving* intersection, not a fixed one.
 
 ## Cross-references
-- `ins_specific-knowledge-and-leverage` — specific knowledge × leverage × judgment; this card unpacks the first term.
-- `ins_circle-of-competence` — Munger's circle is the boundary inside which specific knowledge actually lives; outside it, the "specific" part fails.
+- `ins_specific-knowledge-and-leverage`, specific knowledge × leverage × judgment; this card unpacks the first term.
+- `ins_circle-of-competence`, Munger's circle is the boundary inside which specific knowledge actually lives; outside it, the "specific" part fails.

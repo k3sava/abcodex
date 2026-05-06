@@ -17,7 +17,7 @@ related: [ins_no-decision-is-the-real-competitor, ins_old-game-to-new-game-narra
 raw_ref: raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md
 ---
 
-# PMM owns both halves of the loop — market to the product, product to the market
+# PMM owns both halves of the loop, market to the product, product to the market
 
 ## Claim
 Product marketing's job is two-way: bring the product to market (positioning, messaging, launch, sales enablement) AND bring the market to the product (buyer signals, competitive intel, customer language, switch triggers). PMMs that only run the outbound half become brochure-makers; PMMs that only run inbound become researchers. The role requires both legs.
@@ -31,13 +31,13 @@ Holds when:
 - Leadership treats PMM as a peer craft to PM, not a downstream function.
 
 Fails when:
-- The org puts PMM under demand gen — outbound dominates, inbound atrophies.
-- The org puts PMM under product without sales-call access — inbound dominates, outbound becomes academic.
+- The org puts PMM under demand gen, outbound dominates, inbound atrophies.
+- The org puts PMM under product without sales-call access, inbound dominates, outbound becomes academic.
 
 ## Evidence
 > "Product marketing's job is to bring the product to market and the market to the product."
 
-— Martina Lauchengco, *Loved: How to Rethink Marketing for Tech Products*, SVPG/Wiley 2022
+· Martina Lauchengco, *Loved: How to Rethink Marketing for Tech Products*, SVPG/Wiley 2022
 
 Marty Cagan's complementary framing in SVPG essays: "Product marketing is the most under-appreciated and understaffed role… differentiation is the product marketing role and is responsible for go-to-market strategy."
 
@@ -47,9 +47,9 @@ Marty Cagan's complementary framing in SVPG essays: "Product marketing is the mo
 - Product managers cite PMM as a source for "what are buyers actually saying that's missing in the roadmap".
 
 ## Counter-evidence
-At very small startups (pre-Series A) the founder absorbs both halves and a dedicated PMM is premature. The Lauchengco frame governs once the role exists and the org is past founder-led GTM. The split can also fail in companies where PMs are explicitly trained in outbound (Shreyas Doshi school) — there the PMM may be redundant on outbound and should specialise on inbound.
+At very small startups (pre-Series A) the founder absorbs both halves and a dedicated PMM is premature. The Lauchengco frame governs once the role exists and the org is past founder-led GTM. The split can also fail in companies where PMs are explicitly trained in outbound (Shreyas Doshi school), there the PMM may be redundant on outbound and should specialise on inbound.
 
 ## Cross-references
-- `ins_no-decision-is-the-real-competitor` — April Dunford complementary frame; PMM owns the status-quo narrative.
-- `ins_setup-follow-through-pitch` — Dunford on the outbound craft side.
-- `ins_old-game-to-new-game-narrative` — Andy Raskin's positioning frame; the outbound half done well.
+- `ins_no-decision-is-the-real-competitor`, April Dunford complementary frame; PMM owns the status-quo narrative.
+- `ins_setup-follow-through-pitch`, Dunford on the outbound craft side.
+- `ins_old-game-to-new-game-narrative`, Andy Raskin's positioning frame; the outbound half done well.

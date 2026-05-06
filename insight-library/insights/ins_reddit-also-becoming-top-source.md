@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Reddit is also becoming a top source for AI-generated answers
 
 ## Claim
-I turned a viral LinkedIn post into a free tool, and it’s finally live. 3 weeks ago, I shared how I drove thousands of visitors to my side project by reverse-engineering high-ranking Reddit posts. Close to a thousand founders, marketers, and indie hackers commented “REDDIT” asking for help.
+I turned a viral LinkedIn post into a free tool, and it's finally live. 3 weeks ago, I shared how I drove thousands of visitors to my side project by reverse-engineering high-ranking Reddit posts. Close to a thousand founders, marketers, and indie hackers commented "REDDIT" asking for help.
 
 ## Mechanism
 🔎 Drop in your product URL, and it surfaces viral Reddit threads that already rank on Google, so you can tap into buyer intent, not just random traffic.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Reddit is also becoming a top source for AI-generated answers."
 
-— Haider Shawl, LinkedIn, 2026-04-10
+· Haider Shawl, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

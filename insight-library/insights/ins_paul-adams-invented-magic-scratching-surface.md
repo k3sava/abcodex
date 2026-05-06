@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# AI-first product means blowing up the roadmap — not adding AI features
+# AI-first product means blowing up the roadmap, not adding AI features
 
 ## Claim
 
-When ChatGPT launched, Intercom blew up its entire roadmap to go all-in on AI. The result was Fin, an AI agent that resolves over 50% of customer support queries without a human, and an AI-first customer service suite. The lesson for PMs and designers: building AI products doesn't always start with the problem — sometimes it starts with the capability and the discipline to throw out plans that no longer matter.
+When ChatGPT launched, Intercom blew up its entire roadmap to go all-in on AI. The result was Fin, an AI agent that resolves over 50% of customer support queries without a human, and an AI-first customer service suite. The lesson for PMs and designers: building AI products doesn't always start with the problem, sometimes it starts with the capability and the discipline to throw out plans that no longer matter.
 
 ## Mechanism
 

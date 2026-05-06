@@ -20,7 +20,7 @@ raw_ref:
 # Score reps on a fixed competency rubric, not on activity dashboards
 
 ## Claim
-Sales coaching reframes around skill-level data, not activity dashboards. Score every recorded buyer call on a fixed rubric — discovery quality, multi-threading, objection handling, next-step specificity — then route a personalized coaching plan to each manager. The enablement leader becomes the checkpoint for which gaps trigger an actual coaching cycle.
+Sales coaching reframes around skill-level data, not activity dashboards. Score every recorded buyer call on a fixed rubric, discovery quality, multi-threading, objection handling, next-step specificity, then route a personalized coaching plan to each manager. The enablement leader becomes the checkpoint for which gaps trigger an actual coaching cycle.
 
 ## Mechanism
 Activity dashboards measure inputs (calls dialed, meetings booked) that are weakly correlated with deal outcome. Competency scoring measures the behaviors that move deals; AI listening makes the rubric scalable across every call instead of a sampled few.
@@ -31,7 +31,7 @@ Fails when: the rubric is invented per-call (no consistency) or no human routes 
 
 ## Evidence
 > "Revenue rarely improves from generic sales training, it improves when training targets the exact decision friction blocking deals."
-— Rohit Shah, quoted in Chris Orlob's competency analytics piece, 2026-04-17
+· Rohit Shah, quoted in Chris Orlob's competency analytics piece, 2026-04-17
 
 ## Signals
 - Coaching plans cite specific rubric scores, not activity counts.
@@ -39,7 +39,7 @@ Fails when: the rubric is invented per-call (no consistency) or no human routes 
 - Rep performance trends tracked at the competency level over quarters.
 
 ## Counter-evidence
-Early-stage teams with no playbook lack a stable rubric — activity tracking is the temporary substitute until the playbook stabilizes.
+Early-stage teams with no playbook lack a stable rubric, activity tracking is the temporary substitute until the playbook stabilizes.
 
 ## Cross-references
 - (none in current corpus)

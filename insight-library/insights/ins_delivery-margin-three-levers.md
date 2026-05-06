@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/marcel-petitpas.md
 ---
 
-# Most agencies suffer from indigestion, not starvation — measure delivery margin and the three levers that move it
+# Most agencies suffer from indigestion, not starvation, measure delivery margin and the three levers that move it
 
 ## Claim
 Agency profitability problems are rarely revenue problems. They're delivery problems. The unifying metric is delivery margin (revenue minus delivery cost), and three operational levers move it: average billable rate (ABR), utilization rate, and capacity forecasting. Agencies that don't track these can't tell whether they're winning more revenue while losing money on every project.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Most agencies suffer from indigestion, not starvation; the path to profitability lies in measuring delivery margin and the three levers that drive it."
 
-— Marcel Petitpas (synthesized from operator's published work)
+· Marcel Petitpas (synthesized from operator's published work)
 
 ## Signals
 - Monthly P&L includes delivery margin as a headline metric, not just revenue.
@@ -48,4 +48,4 @@ Fails when:
 Productized-services and SaaS-like agency models (37signals' ONCE, Basecamp playbook) deliberately abandon time-tracking and find that the operating model produces healthier margins through pricing power instead.
 
 ## Cross-references
-- ins_agency-chaos-is-leadership — adjacent operator (Karl Sakas)
+- ins_agency-chaos-is-leadership, adjacent operator (Karl Sakas)

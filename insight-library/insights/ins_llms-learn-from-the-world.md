@@ -20,18 +20,18 @@ raw_ref:
 # LLMs learn about your brand from the world, not from your site
 
 ## Claim
-AEO is not SEO 2.0. The brand-context signal LLMs encode comes from the broader corpus — what other people say about the brand — far more than from the brand's own copy. The unit of optimization is brand-context density across the world, not on-page text.
+AEO is not SEO 2.0. The brand-context signal LLMs encode comes from the broader corpus, what other people say about the brand, far more than from the brand's own copy. The unit of optimization is brand-context density across the world, not on-page text.
 
 ## Mechanism
 Pretraining and retrieval both weight cross-source agreement. A brand consistently described in comparable terms across third-party sources gets a coherent embedding; a brand whose only signal is on-domain copy gets a thin and easily overridden one.
 
 ## Conditions
 Holds when: there is enough third-party surface area (reviews, mentions, podcasts) to shape the model's understanding.
-Fails when: the brand is too new or too niche to have third-party density — bootstrapping has to start on-domain anyway.
+Fails when: the brand is too new or too niche to have third-party density, bootstrapping has to start on-domain anyway.
 
 ## Evidence
 Paraphrased from Eli Schwartz: LLMs learn about your brand from the world. AEO is a brand-context discipline, not a content optimization discipline.
-— Eli Schwartz, Product-Led SEO, 2026-04-09
+· Eli Schwartz, Product-Led SEO, 2026-04-09
 
 ## Signals
 - Brand-context audits track how assistants describe the brand vs. how the brand describes itself.

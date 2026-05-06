@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Talent freedom beats freelancing arbitrage — and that's a defensible business model
+# Talent freedom beats freelancing arbitrage, and that's a defensible business model
 
 ## Claim
 
-Most American startups built for hiring international contractors design for cost arbitrage. Arbonum is built on a different premise: talent freedom. We refuse to work with companies that try to substitute employment relationships with freelancing — depriving people of social support — and that values constraint is also a moat, because we understand local banking, tax legislation, and worker concerns in regions whose annual budgets equal Seattle's.
+Most American startups built for hiring international contractors design for cost arbitrage. Arbonum is built on a different premise: talent freedom. We refuse to work with companies that try to substitute employment relationships with freelancing, depriving people of social support, and that values constraint is also a moat, because we understand local banking, tax legislation, and worker concerns in regions whose annual budgets equal Seattle's.
 
 ## Mechanism
 

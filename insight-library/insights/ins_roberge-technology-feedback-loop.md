@@ -17,10 +17,10 @@ related: [ins_roberge-sales-as-engineering-discipline, ins_roberge-data-driven-c
 raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
-# Instrument every buyer interaction so the data feeds back into the four formulas — sales technology compounds, it doesn't just record
+# Instrument every buyer interaction so the data feeds back into the four formulas, sales technology compounds, it doesn't just record
 
 ## Claim
-The fifth formula in Roberge's system is technology, but its purpose is not to record sales activity — it is to instrument every buyer interaction so the resulting data feeds back into the four preceding formulas (hiring, training, management, demand-generation). Each formula gets more accurate over time as the data accumulates, creating compounding improvement that no individual formula can produce alone.
+The fifth formula in Roberge's system is technology, but its purpose is not to record sales activity, it is to instrument every buyer interaction so the resulting data feeds back into the four preceding formulas (hiring, training, management, demand-generation). Each formula gets more accurate over time as the data accumulates, creating compounding improvement that no individual formula can produce alone.
 
 ## Mechanism
 Without instrumented data, each formula is bounded by the manager's anecdotal observation. Hiring scorecards stop evolving because no one knows which traits actually correlated with success. Training curricula stay static because no one knows which modules cut ramp time. Coaching is generic because no one knows which metric gaps matter most. Demand generation is opaque because no one knows which channels produce qualified leads. Instrumentation closes each of these loops: CRM activity feeds hiring trait correlations, conversation intelligence feeds training updates, deal-stage analytics feed coaching priorities, lead-source attribution feeds channel decisions. The compounding lever is that each new quarter of data refines all four formulas simultaneously.
@@ -32,14 +32,14 @@ Holds when:
 - Leadership invests in the data layer before the system reaches scale, not after.
 
 Fails when:
-- Data quality is poor (reps don't log, fields don't get filled, timestamps drift) — the loop produces noise.
+- Data quality is poor (reps don't log, fields don't get filled, timestamps drift), the loop produces noise.
 - Reps resist instrumentation as surveillance rather than as a feedback mechanism.
 - The org lacks the analytical capability to translate data into formula updates.
 
 ## Evidence
 > "The Technology Formula instruments every buyer interaction to feed data back into all four preceding formulas, creating compounding improvement."
 
-— see `raw/expert-content/experts/mark-roberge.md` line 15.
+· see `raw/expert-content/experts/mark-roberge.md` line 15.
 
 ## Signals
 - Quarterly hiring-scorecard updates are informed by trait-correlation analytics, not by gut feel.
@@ -47,8 +47,8 @@ Fails when:
 - Coaching priorities update based on which metric gaps correlate most with deal outcome.
 
 ## Counter-evidence
-The technology formula is the most context-dependent of the five — what works at HubSpot's scale and motion may not work at smaller scale or different motion. The principle (instrumentation feeding compounding improvement) is portable; the specific tooling is not.
+The technology formula is the most context-dependent of the five, what works at HubSpot's scale and motion may not work at smaller scale or different motion. The principle (instrumentation feeding compounding improvement) is portable; the specific tooling is not.
 
 ## Cross-references
-- `ins_roberge-sales-as-engineering-discipline` — the parent framework; this is the technology component.
-- `ins_roberge-data-driven-coaching` — the management formula that the technology formula directly enables.
+- `ins_roberge-sales-as-engineering-discipline`, the parent framework; this is the technology component.
+- `ins_roberge-data-driven-coaching`, the management formula that the technology formula directly enables.

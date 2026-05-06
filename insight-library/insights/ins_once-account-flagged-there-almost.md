@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "4/ once your account is flagged there's almost no way to get it back. Meta's support for banned ad accounts is basically nonexistent. you're starting from zero."
 
-— Hardik Gupta, LinkedIn, 2026-04-10
+· Hardik Gupta, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

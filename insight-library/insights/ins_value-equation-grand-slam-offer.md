@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/alex-hormozi.md
 ---
 
-# Value = (Dream Outcome × Likelihood) / (Time Delay × Effort) — pull all four levers, not just price
+# Value = (Dream Outcome × Likelihood) / (Time Delay × Effort), pull all four levers, not just price
 
 ## Claim
 The Grand Slam Offer is built by manipulating four variables in a single equation: Value = (Dream Outcome × Perceived Likelihood of Achievement) / (Time Delay × Effort & Sacrifice). Most teams only pull the price lever, which barely moves perceived value. The big gains come from making the dream outcome bigger, raising credibility through proof and guarantees, shrinking time-to-result, and removing customer effort.
 
 ## Mechanism
-Each variable maps to a concrete construction step. (1) Identify the dream outcome in the customer's words. (2) List every obstacle between current state and outcome. (3) Convert obstacles into named solutions. (4) Choose delivery vehicle for each (DFY / DWY / DIY). (5) Trim low-value, stack high-value to a 10:1 value-to-price ratio. (6) Add scarcity, urgency, bonuses, guarantees. (7) Name with a result-timeframe-container formula. The equation is the diagnostic — when a deal stalls, you can name *which variable* is failing.
+Each variable maps to a concrete construction step. (1) Identify the dream outcome in the customer's words. (2) List every obstacle between current state and outcome. (3) Convert obstacles into named solutions. (4) Choose delivery vehicle for each (DFY / DWY / DIY). (5) Trim low-value, stack high-value to a 10:1 value-to-price ratio. (6) Add scarcity, urgency, bonuses, guarantees. (7) Name with a result-timeframe-container formula. The equation is the diagnostic, when a deal stalls, you can name *which variable* is failing.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Starving Crowd matters more than Offer Strength, which matters more than Persuasion Skills."
 
-— Alex Hormozi, $100M Offers (synthesized from operator's published work)
+· Alex Hormozi, $100M Offers (synthesized from operator's published work)
 
 ## Signals
 - Pricing conversations explicitly reference dream outcome and likelihood, not just deliverables.
@@ -47,7 +47,7 @@ Fails when:
 - Guarantees shoulder buyer risk; bonuses are priced to a stated standalone value.
 
 ## Counter-evidence
-April Dunford's positioning-first frame argues the offer-equation move is downstream of category choice — a perfect Grand Slam Offer in the wrong category still loses. Blair Enns's "price the client, not the service" reaches similar premium-pricing conclusions through buyer psychology rather than equation engineering.
+April Dunford's positioning-first frame argues the offer-equation move is downstream of category choice, a perfect Grand Slam Offer in the wrong category still loses. Blair Enns's "price the client, not the service" reaches similar premium-pricing conclusions through buyer psychology rather than equation engineering.
 
 ## Cross-references
 - (none in current corpus)

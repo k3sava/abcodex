@@ -17,21 +17,21 @@ related: []
 raw_ref: 
 ---
 
-# AEO is decided off your domain — third-party mention density is the missing surface
+# AEO is decided off your domain, third-party mention density is the missing surface
 
 ## Claim
-On-page AEO (relevance engineering, schema delta) is necessary but not sufficient. Assistants pull citations from YouTube, Reddit, LinkedIn, and podcasts more than from the brand's own site. The missing surface is third-party mention density across those venues. Demand-side input comes from sales, success, and support transcripts (the 3S move) — not from keyword tools, which lag reality.
+On-page AEO (relevance engineering, schema delta) is necessary but not sufficient. Assistants pull citations from YouTube, Reddit, LinkedIn, and podcasts more than from the brand's own site. The missing surface is third-party mention density across those venues. Demand-side input comes from sales, success, and support transcripts (the 3S move), not from keyword tools, which lag reality.
 
 ## Mechanism
 LLM training and retrieval weight third-party corpora heavily; brand-owned content is one input among many. A brand mentioned across YouTube, Reddit, and LinkedIn long-form gains citation authority an on-domain push cannot replicate. Sales/success/support transcripts surface real demand language that keyword tools miss.
 
 ## Conditions
 Holds when: the brand has access to its own conversation transcripts and can mobilize a third-party presence loop (PR, partnership, founder presence).
-Fails when: the brand has no off-domain budget or founder capacity — on-domain remains the only lever.
+Fails when: the brand has no off-domain budget or founder capacity, on-domain remains the only lever.
 
 ## Evidence
 Paraphrased from Brendan Hufford's 3S Strategy: pull demand surface from sales/success/support conversations rather than from keyword tools.
-— Brendan Hufford, Growth Sprints, April 2026
+· Brendan Hufford, Growth Sprints, April 2026
 
 ## Signals
 - Audit workflow probes assistants for cited URLs per cluster, not just SERP rank.

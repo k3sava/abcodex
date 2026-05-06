@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 # Anonymous benchmark stats unlock ROI proof when named-customer attribution is blocked
 
 ## Claim
-When customers won't go on record with named ROI quotes — due to competitive secrecy, internal-credit politics, legal review, or quantification difficulty — aggregated anonymous benchmark data substitutes. Platforms like UserEvidence collect ROI signal across many customers and produce defensible aggregate claims. The proof loses some named-source weight but gains breadth and bypass-ability.
+When customers won't go on record with named ROI quotes, due to competitive secrecy, internal-credit politics, legal review, or quantification difficulty, aggregated anonymous benchmark data substitutes. Platforms like UserEvidence collect ROI signal across many customers and produce defensible aggregate claims. The proof loses some named-source weight but gains breadth and bypass-ability.
 
 ## Mechanism
 Aggregation strips the politically blocked attributes (named customer, exact metric) while preserving the buyer-trusted core (a measurable outcome happened, at scale, in a comparable cohort). The buyer doesn't need to verify the source customer; they need to believe the pattern is real.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "You don't necessarily need specific customer metrics in order to prove that your product works — this is where anonymous proof points and benchmark stats can save you."
 
-— Jason Oakley, LinkedIn, 2026-04-10 (scrape date)
+· Jason Oakley, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Case studies pair anonymized aggregate stats with named-logo headers.

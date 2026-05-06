@@ -17,7 +17,7 @@ related: [ins_decoy-effect-pricing]
 raw_ref: raw/expert-content/experts/dan-ariely.md
 ---
 
-# Every transaction inflicts psychological pain — design payment to decouple it from consumption
+# Every transaction inflicts psychological pain, design payment to decouple it from consumption
 
 ## Claim
 Pain of paying varies systematically by payment method (cash hurts most, credit cards least), timing (paying before consumption hurts more than paying after), and granularity (per-transaction billing creates more pain than subscription bundles). For SaaS, this means metered/usage-based pricing where customers see each charge produces more felt pain than a committed annual subscription, even at identical total cost.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The difference between 1 cent and 0 cents is psychologically enormous, not because of the penny but because 'free' triggers a qualitatively different emotional response."
 
-— Dan Ariely (synthesized from operator's published work)
+· Dan Ariely (synthesized from operator's published work)
 
 ## Signals
 - Annual plans are presented as default with monthly as the friction option, not the reverse.
@@ -50,4 +50,4 @@ Fails when:
 Modern usage-based pricing (Snowflake, Twilio, AWS) has built billion-dollar businesses precisely because buyers want pay-for-what-you-use, even with the felt-pain cost. Patrick Campbell's data shows usage-based outperforming subscriptions on net retention in many SaaS categories.
 
 ## Cross-references
-- ins_decoy-effect-pricing — same operator
+- ins_decoy-effect-pricing, same operator

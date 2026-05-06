@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/swyx.md
 ---
 
-# We are in the transition from Software 2.0 to Software 3.0 — AI Engineers will build the majority of new applications
+# We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications
 
 ## Claim
-We're transitioning from Software 2.0 (ML models replace hand-written logic) to Software 3.0 (LLMs *control* the application's logic flow). AI engineers — not traditional software engineers — will build the majority of new applications. The key new discipline is *agent engineering*: designing systems where LLMs control flow, with deterministic tools as their action space.
+We're transitioning from Software 2.0 (ML models replace hand-written logic) to Software 3.0 (LLMs *control* the application's logic flow). AI engineers, not traditional software engineers, will build the majority of new applications. The key new discipline is *agent engineering*: designing systems where LLMs control flow, with deterministic tools as their action space.
 
 ## Mechanism
-In Software 1.0, engineers wrote explicit logic. In 2.0, ML replaced parts of that logic with learned models. In 3.0, the LLM is the orchestrator — it reads inputs, plans steps, calls deterministic tools, evaluates outputs, retries. The skill set required: prompt engineering, evaluation/observability, tool design, context management, and graceful degradation. These overlap with traditional engineering but center the LLM as the runtime, which is a fundamentally different mental model.
+In Software 1.0, engineers wrote explicit logic. In 2.0, ML replaced parts of that logic with learned models. In 3.0, the LLM is the orchestrator, it reads inputs, plans steps, calls deterministic tools, evaluates outputs, retries. The skill set required: prompt engineering, evaluation/observability, tool design, context management, and graceful degradation. These overlap with traditional engineering but center the LLM as the runtime, which is a fundamentally different mental model.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "We are in the transition from Software 2.0 to Software 3.0, where AI engineers — not traditional software engineers — will build the majority of new applications, and the key discipline is agent engineering."
 
-— Swyx (Shawn Wang) (synthesized from operator's published work)
+· Swyx (Shawn Wang) (synthesized from operator's published work)
 
 ## Signals
 - Engineering org has named "AI Engineer" roles, not just engineers using AI tools.
@@ -48,4 +48,4 @@ Fails when:
 For most enterprise software, traditional deterministic logic still dominates and 3.0 patterns are inappropriate. The "AI Engineer" framing is also still consolidating; some argue it's a temporary specialization that will dissolve back into general engineering as tools mature.
 
 ## Cross-references
-- ins_pm-as-orchestrator-of-agents — adjacent operator (Lenny Rachitsky)
+- ins_pm-as-orchestrator-of-agents, adjacent operator (Lenny Rachitsky)

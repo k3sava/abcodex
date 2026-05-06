@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # A brand refresh can be completed in under a month with strong team trust and collaboration.
 
 ## Claim
-We wrapped up the entire brand refresh in under a month. Great brands aren’t built by individuals, they’re shaped by teams that trust each other.
+We wrapped up the entire brand refresh in under a month. Great brands aren't built by individuals, they're shaped by teams that trust each other.
 
 ## Mechanism
 Rapid execution is enabled by clear guidance from leadership, constant support across roles, and a committed design team that collaborates from planning to execution.

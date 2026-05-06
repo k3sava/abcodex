@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "This code node utilizes your API key and User ID to establish a connection with your Icypeas account."
 
-— Suprava Sabat, LinkedIn, 2026-04-10
+· Suprava Sabat, LinkedIn, 2026-04-10
 
 ## Signals
 - Set up your manual trigger in n8n

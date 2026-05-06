@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "The problem I'm trying to solve: I write a lot of content, but most of it reaches only a subset of its potential audience because many people prefer video."
 
-— Dharmesh Shah, LinkedIn, 2026-04-10
+· Dharmesh Shah, LinkedIn, 2026-04-10
 
 ## Signals
 - Paste in your blog post URL or text

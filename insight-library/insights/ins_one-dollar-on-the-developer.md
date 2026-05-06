@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "At Sentry, we build for the individual developer. Internally, we make it very clear that if we have 1 dollar to spend, we spend that whole dollar on the developer."
 
-— Rahul Chhabria, Calyx Substack interview, 2024-05-01
+· Rahul Chhabria, Calyx Substack interview, 2024-05-01
 
 ## Signals
 - Channel mix tilts to where developers actually are (Reddit, Next.js community, language-specific newsletters and podcasts) rather than Gartner-tier brand spend.
@@ -45,7 +45,7 @@ Fails when:
 - PMM scope drifts toward education and DevRel partnership, not sales enablement decks.
 
 ## Counter-evidence
-Some categories (security, compliance tooling) are genuinely top-down — chasing the developer-first dollar there leaves the actual buyer uneducated. The rule generalizes within developer-tools PLG, not across all B2B SaaS.
+Some categories (security, compliance tooling) are genuinely top-down, chasing the developer-first dollar there leaves the actual buyer uneducated. The rule generalizes within developer-tools PLG, not across all B2B SaaS.
 
 ## Cross-references
 - (none in current corpus)

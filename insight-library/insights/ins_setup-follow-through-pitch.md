@@ -27,7 +27,7 @@ Setup primes the buyer to evaluate the rest of the pitch against a frame the sel
 
 ## Conditions
 Holds when:
-- The seller has a real, defensible insight — not a tagline.
+- The seller has a real, defensible insight, not a tagline.
 - The pitch is conversational enough to land Setup before the demo (typical 30–60 minute first meetings).
 - The buyer is willing to engage in framing, not just feature comparison.
 
@@ -37,9 +37,9 @@ Fails when:
 - Setup runs too long and the demo never lands.
 
 ## Evidence
-April's pitch architecture: Insight → Alternatives → Perfect World (Setup) → Solution → Proof → Objections → Ask (Follow-Through). The Help Scout case in her workshop: positioning shifted from "customer support software" to "the alternative to expensive enterprise ticketing systems for companies that want to delight customers without hiring a huge support team" — Setup re-frames the choice before any product detail lands.
+April's pitch architecture: Insight → Alternatives → Perfect World (Setup) → Solution → Proof → Objections → Ask (Follow-Through). The Help Scout case in her workshop: positioning shifted from "customer support software" to "the alternative to expensive enterprise ticketing systems for companies that want to delight customers without hiring a huge support team", Setup re-frames the choice before any product detail lands.
 
-— April Dunford on Lenny's Podcast, 2026-04-28
+· April Dunford on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Reps report buyers nodding through Setup before any product is shown.
@@ -50,4 +50,4 @@ April's pitch architecture: Insight → Alternatives → Perfect World (Setup) �
 For PLG products with a strong free experience, the Setup happens inside the product itself, not in a sales pitch. For very technical buyers (developers, security teams) who explicitly want feature comparison, Setup can read as marketing fluff.
 
 ## Cross-references
-- `ins_no-decision-is-the-real-competitor` — the buyer-side reason Setup is needed
+- `ins_no-decision-is-the-real-competitor`, the buyer-side reason Setup is needed

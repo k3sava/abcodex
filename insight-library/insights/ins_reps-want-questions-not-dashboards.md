@@ -17,7 +17,7 @@ related: [ins_agent-first-gtm-flywheel, ins_nlx-is-the-new-ux]
 raw_ref: raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md
 ---
 
-# Sellers don't want a better dashboard — they want to ask the deal questions
+# Sellers don't want a better dashboard, they want to ask the deal questions
 
 ## Claim
 Replace the deal-pipeline dashboard with a conversational interface where reps can ask "what's the risk on this deal," "how did we win in similar situations," and "what should I do next." The shift from data display to data dialog is what makes a sales-AI investment compound.
@@ -39,17 +39,17 @@ Fails when:
 >
 > HubSpot's Guided Sales Assistant — conversational interface over deal pipeline. Reps ask "what's the risk on this deal," "how did we win in similar situations," "what should I do next." Result: 13% increase in win rate where AI guidance is used.
 
-— Yamini Rangan, HubSpot blog, 2026-04-28
+· Yamini Rangan, HubSpot blog, 2026-04-28
 
 ## Signals
 - Rep-initiated queries per deal increase month over month (engagement, not coercion).
 - "Comparable deals" become a recurring artifact in deal reviews.
 - Win rate on AI-guided deals exceeds non-guided cohort by a measurable margin.
-- Sales managers move from data-pulls to coaching — the rep can self-serve the data.
+- Sales managers move from data-pulls to coaching, the rep can self-serve the data.
 
 ## Counter-evidence
-For high-volume transactional sales with simple deal shapes, a fast dashboard may outperform a chat surface — fewer keystrokes, no hallucination risk. The conversational pattern's value scales with deal complexity and the cost of missing comparable-deal context.
+For high-volume transactional sales with simple deal shapes, a fast dashboard may outperform a chat surface, fewer keystrokes, no hallucination risk. The conversational pattern's value scales with deal complexity and the cost of missing comparable-deal context.
 
 ## Cross-references
-- `ins_agent-first-gtm-flywheel` — Guided Sales Assistant is one of nine HubSpot agents.
-- `ins_nlx-is-the-new-ux` — Aparna Chennapragada's principle that conversation is now the design surface.
+- `ins_agent-first-gtm-flywheel`, Guided Sales Assistant is one of nine HubSpot agents.
+- `ins_nlx-is-the-new-ux`, Aparna Chennapragada's principle that conversation is now the design surface.

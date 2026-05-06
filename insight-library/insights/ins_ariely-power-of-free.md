@@ -17,13 +17,13 @@ related: [ins_pain-of-paying, ins_ariely-pain-of-paying-modulators, ins_smallest
 raw_ref: raw/expert-content/experts/dan-ariely.md
 ---
 
-# The Power of Free — the gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap
+# The Power of Free, the gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap
 
 ## Claim
-The difference between 1 cent and 0 cents is psychologically enormous — not because of the penny, but because "free" triggers a qualitatively different emotional response: zero risk, zero loss, zero cognitive load. This is why freemium converts at dramatically higher rates than free trial with credit-card requirement, and why $0-to-$1 is the hardest conversion in SaaS.
+The difference between 1 cent and 0 cents is psychologically enormous, not because of the penny, but because "free" triggers a qualitatively different emotional response: zero risk, zero loss, zero cognitive load. This is why freemium converts at dramatically higher rates than free trial with credit-card requirement, and why $0-to-$1 is the hardest conversion in SaaS.
 
 ## Mechanism
-At any positive price — even one cent — the brain engages a cost-benefit trade-off: is this worth the cost? The trade-off itself is cognitive work, and it activates loss aversion (a payment is a felt loss). At zero, the trade-off is short-circuited entirely. There is no cost to evaluate, so the decision flips from "should I buy?" to "why not take it?" The shift is qualitative, not quantitative — a $0.01 price feels like a small purchase decision, while $0.00 feels like a no-decision. Operators who exploit this build acquisition motions around free entry points (freemium, free trials without credit card, free basic tiers) and capture monetisation later, when the user has accrued enough value to make the $0-to-$1 jump justified.
+At any positive price, even one cent, the brain engages a cost-benefit trade-off: is this worth the cost? The trade-off itself is cognitive work, and it activates loss aversion (a payment is a felt loss). At zero, the trade-off is short-circuited entirely. There is no cost to evaluate, so the decision flips from "should I buy?" to "why not take it?" The shift is qualitative, not quantitative, a $0.01 price feels like a small purchase decision, while $0.00 feels like a no-decision. Operators who exploit this build acquisition motions around free entry points (freemium, free trials without credit card, free basic tiers) and capture monetisation later, when the user has accrued enough value to make the $0-to-$1 jump justified.
 
 ## Conditions
 Holds when:
@@ -32,24 +32,24 @@ Holds when:
 - The category is not one where price signals quality (free is acceptable signalling).
 
 Fails when:
-- The product requires significant user effort to derive value — free users who never activate are a cost, not an asset.
+- The product requires significant user effort to derive value, free users who never activate are a cost, not an asset.
 - Premium / luxury categories where free signals low quality and damages the brand.
 - B2B enterprise where procurement scrutiny reverses the benefit (free triggers compliance review and procurement skepticism).
 
 ## Evidence
 > "The difference between 1 cent and 0 cents is psychologically enormous, not because of the penny but because \"free\" triggers a qualitatively different emotional response: zero risk, zero loss, zero cognitive load."
 
-— see `raw/expert-content/experts/dan-ariely.md` line 17.
+· see `raw/expert-content/experts/dan-ariely.md` line 17.
 
 ## Signals
 - Acquisition funnel has a true zero-friction entry tier (no credit card, no email-only-sign-up gate).
-- Conversion-rate-vs-paid analytics show the $0-to-$1 jump as the largest single drop-off in the funnel — that is the binding constraint to design around.
+- Conversion-rate-vs-paid analytics show the $0-to-$1 jump as the largest single drop-off in the funnel, that is the binding constraint to design around.
 - Pricing experiments that move from "$1 trial" to "free trial" produce step-changes in top-of-funnel volume.
 
 ## Counter-evidence
 Free can be a trap when it attracts users who never convert and the operator over-optimises top-of-funnel at the expense of revenue. Some PLG companies have explicitly walked back free tiers because the support cost of free users exceeded the conversion lift. The discipline is matching free-tier design to genuine future monetisation, not collecting free users for vanity metrics.
 
 ## Cross-references
-- `ins_pain-of-paying` — Ariely's foundational claim; Power of Free is the floor of the pain function (zero pain).
-- `ins_ariely-pain-of-paying-modulators` — the modulators that compound below the free threshold.
-- `ins_smallest-viable-audience` — Godin's adjacent claim; free entry is one mechanism for reaching the smallest viable audience at scale.
+- `ins_pain-of-paying`, Ariely's foundational claim; Power of Free is the floor of the pain function (zero pain).
+- `ins_ariely-pain-of-paying-modulators`, the modulators that compound below the free threshold.
+- `ins_smallest-viable-audience`, Godin's adjacent claim; free entry is one mechanism for reaching the smallest viable audience at scale.

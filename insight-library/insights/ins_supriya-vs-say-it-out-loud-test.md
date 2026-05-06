@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 Before you ship any messaging, run a quick real-world test: read it aloud, do a mock pitch, ask someone with zero context to explain it back, and sit in on sales calls to see how reps use your material.
 
 ## Mechanism
-Saying messaging out loud reveals clarity gaps, narrative slips, and flow issues that written review misses. The fastest signal comes from pressure-testing your own work for clarity, flow, and impact — a two-minute check can save weeks of rewrites.
+Saying messaging out loud reveals clarity gaps, narrative slips, and flow issues that written review misses. The fastest signal comes from pressure-testing your own work for clarity, flow, and impact, a two-minute check can save weeks of rewrites.

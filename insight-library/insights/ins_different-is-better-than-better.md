@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/sally-hogshead.md
 ---
 
-# Different is better than better — you don't learn how to be fascinating, you unlearn how to be boring
+# Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring
 
 ## Claim
-In a distracted, overcrowded world, brands win not by being the best but by being impossible to ignore. Different is better than better. You don't learn how to be fascinating; you unlearn how to be boring. Fascination is the most powerful way to capture attention — and most brands actively destroy their fascination through committee-driven messaging that selects for safety over distinctiveness.
+In a distracted, overcrowded world, brands win not by being the best but by being impossible to ignore. Different is better than better. You don't learn how to be fascinating; you unlearn how to be boring. Fascination is the most powerful way to capture attention, and most brands actively destroy their fascination through committee-driven messaging that selects for safety over distinctiveness.
 
 ## Mechanism
 Better-than competitors triggers comparison shopping; different-from competitors triggers categorization. Once a brand is categorized as fascinating, the brain processes it through a different evaluation pathway than commodity comparison. Fascination Advantage (built on 1M+ assessment respondents) identifies seven personality triggers that produce fascination: Innovation, Passion, Power, Prestige, Trust, Mystique, Alarm. Brands that lean hard into one or two are fascinating; brands that try to be all seven flatten into background noise.
@@ -39,15 +39,15 @@ Fails when:
 
 > "In a distracted, overcrowded world, brands win not by being the best but by being impossible to ignore."
 
-— Sally Hogshead, *Fascinate* (synthesized from operator's published work)
+· Sally Hogshead, *Fascinate* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly names the fascination trigger(s) the brand leans into.
-- Messaging passes a "could a competitor say this?" test — and is rewritten if yes.
+- Messaging passes a "could a competitor say this?" test, and is rewritten if yes.
 - Committee-driven flattening is actively resisted in editorial review.
 
 ## Counter-evidence
-For B2B procurement-led purchases, "different" can register as risky — buyers actually want safe-and-credible. April Dunford's positioning frame argues distinctiveness must serve a specific buyer's job, not just attract attention.
+For B2B procurement-led purchases, "different" can register as risky, buyers actually want safe-and-credible. April Dunford's positioning frame argues distinctiveness must serve a specific buyer's job, not just attract attention.
 
 ## Cross-references
-- ins_brand-relevance-vs-preference — adjacent operator (David Aaker)
+- ins_brand-relevance-vs-preference, adjacent operator (David Aaker)

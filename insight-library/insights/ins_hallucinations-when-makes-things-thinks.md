@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Hallucinations are when the AI makes up things that it *thinks* are true -- but just aren't."
 
-— Dharmesh Shah, LinkedIn, 2026-04-10
+· Dharmesh Shah, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

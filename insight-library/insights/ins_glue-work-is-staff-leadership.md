@@ -20,7 +20,7 @@ raw_ref: raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05
 # Glue work is technical leadership, not a tax on the IC
 
 ## Claim
-The unglamorous, often unrecognized work that holds teams together — design reviews, mentorship, escalation routing, ambiguity reduction, cross-team translation — is not a distraction from the real engineering job. It is the technical leadership.
+The unglamorous, often unrecognized work that holds teams together, design reviews, mentorship, escalation routing, ambiguity reduction, cross-team translation, is not a distraction from the real engineering job. It is the technical leadership.
 
 ## Mechanism
 At staff/principal scope, the bottleneck is rarely missing code; it's missing alignment, missing context, missing escalation paths. Glue work resolves those bottlenecks. When orgs label glue as a tax (something you tolerate to do real work), they push staff engineers back into IC mode and the systemic problems persist. When orgs name glue as the leadership surface and review on it, the bottleneck moves and the team accelerates.
@@ -31,13 +31,13 @@ Holds when:
 - Glue is performed by senior people with judgment, not dumped on junior contributors as scut work.
 
 Fails when:
-- Glue is uncompensated and unrecognized — it then becomes a career trap, especially for women and minoritised groups (Reilly's earlier "Being Glue" talk addresses this).
-- The IC has no scope to refuse glue or shape it — it becomes Swiss cheese on the calendar with no shipped artifacts (Charity Majors's warning).
+- Glue is uncompensated and unrecognized, it then becomes a career trap, especially for women and minoritised groups (Reilly's earlier "Being Glue" talk addresses this).
+- The IC has no scope to refuse glue or shape it, it becomes Swiss cheese on the calendar with no shipped artifacts (Charity Majors's warning).
 
 ## Evidence
 > "Glue work — the unglamorous, often unrecognized work that holds teams together — is an invaluable form of technical leadership."
 
-— Tanya Reilly, *The Staff Engineer's Path*, O'Reilly 2022
+· Tanya Reilly, *The Staff Engineer's Path*, O'Reilly 2022
 
 Companion warning from Reilly's 2019 SREcon "Being Glue" talk: glue work without recognition disproportionately falls on women and gets labelled as "not technical enough" at promotion time.
 
@@ -50,6 +50,6 @@ Companion warning from Reilly's 2019 SREcon "Being Glue" talk: glue work without
 Charity Majors warns glue work uncapped turns the staff IC's calendar into Swiss cheese. The Reilly framing only protects against career trap when the org has explicit competency definitions for staff+ that name glue. In orgs that lack that, glue remains a ladder hazard.
 
 ## Cross-references
-- `ins_principal-ic-is-force-multiplier` — Silvia Botros's adjacent framing of the role.
-- `ins_staff-archetypes-rotate-by-design` — Will Larson's archetype map; Solver and Right Hand are explicitly glue-shaped.
-- `ins_all-problems-become-people-problems` — Botros on why people work is the work.
+- `ins_principal-ic-is-force-multiplier`, Silvia Botros's adjacent framing of the role.
+- `ins_staff-archetypes-rotate-by-design`, Will Larson's archetype map; Solver and Right Hand are explicitly glue-shaped.
+- `ins_all-problems-become-people-problems`, Botros on why people work is the work.

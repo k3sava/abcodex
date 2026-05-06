@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Two-bucket GA launches break enablement — avoid them at all cost
+# Two-bucket GA launches break enablement, avoid them at all cost
 
 ## Claim
 

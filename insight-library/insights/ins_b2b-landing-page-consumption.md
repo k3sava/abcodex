@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/tas-bober.md
 ---
 
-# Conversion isn't the goal of a B2B landing page — consumption is. Send them to the next section.
+# Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section.
 
 ## Claim
-Conversion is not the name of the game in B2B; *consumption* is. The goal of each section on a landing page is not to convert the user but to send them to the next section. The brands that win put their buyers first by being clear, transparent, and empathetic — not by piling on conversion mechanics. Calendly's 235% revenue lift came from this approach.
+Conversion is not the name of the game in B2B; *consumption* is. The goal of each section on a landing page is not to convert the user but to send them to the next section. The brands that win put their buyers first by being clear, transparent, and empathetic, not by piling on conversion mechanics. Calendly's 235% revenue lift came from this approach.
 
 ## Mechanism
-B2B buyers don't convert on a single landing page visit. They consume — read, evaluate, return, share with colleagues, then convert weeks later. Optimizing each section for "convert now" reads as desperate and triggers procurement skepticism. Optimizing each section to *send the reader to the next section* keeps them on the page, which builds the deep familiarity that produces eventual conversion. Each section's job: clear claim, supporting proof, transition that earns the next scroll.
+B2B buyers don't convert on a single landing page visit. They consume, read, evaluate, return, share with colleagues, then convert weeks later. Optimizing each section for "convert now" reads as desperate and triggers procurement skepticism. Optimizing each section to *send the reader to the next section* keeps them on the page, which builds the deep familiarity that produces eventual conversion. Each section's job: clear claim, supporting proof, transition that earns the next scroll.
 
 ## Conditions
 Holds when:
@@ -37,10 +37,10 @@ Fails when:
 ## Evidence
 > "Conversion is not the name of the game in B2B; consumption is. The goal of each section on a landing page is not to convert the user but to send them to the next section."
 
-— Tas Bober (synthesized from operator's published work)
+· Tas Bober (synthesized from operator's published work)
 
 ## Signals
-- Landing-page metrics include scroll depth, time-on-page, return visits — not just form-fill rate.
+- Landing-page metrics include scroll depth, time-on-page, return visits, not just form-fill rate.
 - Each section's CTA-equivalent is a transition to the next section, not a top-of-funnel form.
 - Multiple visits per converted buyer is treated as feature, not friction.
 

@@ -18,11 +18,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 title: 'Solve a problem you faced — not one you imagine — when pivoting'
 ---
 
-# Solve a problem you faced — not one you imagine — when pivoting
+# Solve a problem you faced, not one you imagine, when pivoting
 
 ## Claim
 
-After three weeks of pivot hell at YC, the breakthrough came from Michael Seibel's advice: solve a problem you actually faced at your previous startup. That insight — that demo videos drove feature adoption at Desklamp but took two weeks each to produce — is what became Clueso, an AI-powered explainer-video platform that grew to a $1.4M seed round.
+After three weeks of pivot hell at YC, the breakthrough came from Michael Seibel's advice: solve a problem you actually faced at your previous startup. That insight, that demo videos drove feature adoption at Desklamp but took two weeks each to produce, is what became Clueso, an AI-powered explainer-video platform that grew to a $1.4M seed round.
 
 ## Mechanism
 

@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Founders who need brand positioning always end up asking for lead generation — so offer both.
+# Founders who need brand positioning always end up asking for lead generation, so offer both.
 
 ## Claim
 Founders who require brand positioning or product marketing always end up asking for lead generation. That was our eureka moment.

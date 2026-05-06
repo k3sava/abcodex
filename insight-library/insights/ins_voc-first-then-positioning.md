@@ -17,13 +17,13 @@ related: [ins_relational-keywords-replace-internal-language]
 raw_ref: raw/expert-content/experts/momoko-price.md
 ---
 
-# Customer language first, positioning built upward from it — not the reverse
+# Customer language first, positioning built upward from it, not the reverse
 
 ## Claim
 Most teams write a positioning statement and then translate it into customer language. Price works in reverse: collect customer language first (interviews, review-mining with specific search queries, support-ticket analysis), identify recurring emotional themes, build positioning from those themes upward. Result: positioning that sounds native to the audience because it literally came from them. Six-figure messaging engagements are built on this method.
 
 ## Mechanism
-Conventional copywriting starts from creative intuition or internal positioning. Price's process starts from a linguistic database of exact phrases customers use to describe problems, desires, and objections. Copy is then *assembled* from those authentic fragments, not invented from scratch. The positioning emerges from the data rather than being imposed on it. Combines analytics rigor (A/B testing) with emotional authenticity (verbatim phrases) — most copywriters leave this intersection empty.
+Conventional copywriting starts from creative intuition or internal positioning. Price's process starts from a linguistic database of exact phrases customers use to describe problems, desires, and objections. Copy is then *assembled* from those authentic fragments, not invented from scratch. The positioning emerges from the data rather than being imposed on it. Combines analytics rigor (A/B testing) with emotional authenticity (verbatim phrases), most copywriters leave this intersection empty.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Instead of writing a positioning statement and then translating it into customer language, Price works in reverse."
 
-— Momoko Price (synthesized from operator's published work)
+· Momoko Price (synthesized from operator's published work)
 
 ## Signals
 - Copy briefs include a linguistic database of verbatim customer phrases.
@@ -47,7 +47,7 @@ Fails when:
 - Positioning statement is an output of the research, not an input.
 
 ## Counter-evidence
-Anthony Pierri / April Dunford category-creation school argues that always echoing customer vocabulary cements you in the wrong category — sometimes you must teach a new word. PLG products often discover language through usage analytics, not interviews.
+Anthony Pierri / April Dunford category-creation school argues that always echoing customer vocabulary cements you in the wrong category, sometimes you must teach a new word. PLG products often discover language through usage analytics, not interviews.
 
 ## Cross-references
-- ins_relational-keywords-replace-internal-language — adjacent operator (Adrienne Barnes)
+- ins_relational-keywords-replace-internal-language, adjacent operator (Adrienne Barnes)

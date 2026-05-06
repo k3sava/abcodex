@@ -17,13 +17,13 @@ related: [ins_jolt-effect-customer-indecision, ins_no-decision-is-the-real-compe
 raw_ref: raw/expert-content/experts/matt-dixon.md
 ---
 
-# 40-60% of B2B deals are lost to "no decision" — and 87% of deals show medium-to-high indecision
+# 40-60% of B2B deals are lost to "no decision", and 87% of deals show medium-to-high indecision
 
 ## Claim
-Dixon's machine-learning analysis of 2.5M recorded sales conversations found that 40-60% of B2B deals are lost to "no decision" (not to competitor wins) and that 87% of deals show medium-to-high levels of indecision somewhere in the cycle. The buyer's fear of messing up (FOMU) — distinct from fear of missing out (FOMO) — is the dominant cause of stalled deals, not insufficient differentiation against named alternatives.
+Dixon's machine-learning analysis of 2.5M recorded sales conversations found that 40-60% of B2B deals are lost to "no decision" (not to competitor wins) and that 87% of deals show medium-to-high levels of indecision somewhere in the cycle. The buyer's fear of messing up (FOMU), distinct from fear of missing out (FOMO), is the dominant cause of stalled deals, not insufficient differentiation against named alternatives.
 
 ## Mechanism
-The Challenger Sale framework addressed FOMO — the fear of missing out on a better solution, which Challenger reps overcame by making the status quo intolerable. JOLT addresses the *opposite* fear: FOMU, the fear of making the wrong purchase decision, getting blamed, or having the implementation fail. FOMU paralyses the buyer in a different way than FOMO — they don't say "your solution isn't good enough"; they say "we need more information," "let's revisit next quarter," or simply ghost the rep. Standard sales tactics that pressure the status quo *amplify* FOMU because they raise the stakes of the decision rather than lowering them. The right response is the JOLT framework: Judge the level of indecision, Offer your personal recommendation, Limit the exploration, Take risk off the table.
+The Challenger Sale framework addressed FOMO, the fear of missing out on a better solution, which Challenger reps overcame by making the status quo intolerable. JOLT addresses the *opposite* fear: FOMU, the fear of making the wrong purchase decision, getting blamed, or having the implementation fail. FOMU paralyses the buyer in a different way than FOMO, they don't say "your solution isn't good enough"; they say "we need more information," "let's revisit next quarter," or simply ghost the rep. Standard sales tactics that pressure the status quo *amplify* FOMU because they raise the stakes of the decision rather than lowering them. The right response is the JOLT framework: Judge the level of indecision, Offer your personal recommendation, Limit the exploration, Take risk off the table.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "40-60% of deals are lost to \"no decision\" and that 87% of deals show medium to high levels of indecision."
 
-— see `raw/expert-content/experts/matt-dixon.md` line 21.
+· see `raw/expert-content/experts/matt-dixon.md` line 21.
 
 ## Signals
 - Win/loss analytics tag every "lost" reason as either lost-to-competitor, lost-to-no-decision, or lost-to-other; if no-decision is >40%, the playbook needs JOLT.
@@ -47,10 +47,10 @@ Fails when:
 - Indecision-flagging is built into the CRM as a stage-attribute, not just a closed-lost reason.
 
 ## Counter-evidence
-The 40-60% figure is consistent with April Dunford's positioning research (`ins_no-decision-is-the-real-competitor`) — different methodology, similar empirical finding. The convergence is strong evidence the no-decision phenomenon is real. The diagnostic question is whether the FOMU framing (Dixon) or the problem-framing-failure framing (Dunford) better fits the specific deal.
+The 40-60% figure is consistent with April Dunford's positioning research (`ins_no-decision-is-the-real-competitor`), different methodology, similar empirical finding. The convergence is strong evidence the no-decision phenomenon is real. The diagnostic question is whether the FOMU framing (Dixon) or the problem-framing-failure framing (Dunford) better fits the specific deal.
 
 ## Cross-references
-- `ins_jolt-effect-customer-indecision` — the canonical Dixon card; this card details the empirical finding behind it.
-- `ins_no-decision-is-the-real-competitor` — Dunford's adjacent claim with different mechanism (problem-framing failure).
-- `ins_dixon-hammering-status-quo-backfires` — what happens when reps respond to FOMU with FOMO tactics.
-- `pat_status-quo-is-the-competitor` — the broader convergence pattern.
+- `ins_jolt-effect-customer-indecision`, the canonical Dixon card; this card details the empirical finding behind it.
+- `ins_no-decision-is-the-real-competitor`, Dunford's adjacent claim with different mechanism (problem-framing failure).
+- `ins_dixon-hammering-status-quo-backfires`, what happens when reps respond to FOMU with FOMO tactics.
+- `pat_status-quo-is-the-competitor`, the broader convergence pattern.

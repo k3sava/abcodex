@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 The future isn't about AI replacing human creativity, it's about humans using AI as a powerful tool while bringing irreplaceable strategic thinking to the table themselves. Even OpenAI knows this.
 
 ## Mechanism
-Because authentic human insight drives meaningful content strategy—AI can generate text, but it can't understand the messy, complex, and contradictory nature of human motivation that makes content truly resonate.
+Because authentic human insight drives meaningful content strategy, AI can generate text, but it can't understand the messy, complex, and contradictory nature of human motivation that makes content truly resonate.

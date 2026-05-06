@@ -27,11 +27,11 @@ Audits surface dozens of findings; leadership funds at most a handful per quarte
 
 ## Conditions
 Holds when: a human owner can adjudicate which start/stop items deserve sprint slots.
-Fails when: the audit has no executive sponsor — even a packaged readout dies in a slide deck.
+Fails when: the audit has no executive sponsor, even a packaged readout dies in a slide deck.
 
 ## Evidence
 > "If you are starting at zero with AI Search and you implement all these suggestions we give you, you're going to be poised to be successful."
-— Patrick Schofield, quoted in Mike King's iPullRank AI Search Strategic Roadmap, 2026-04-28
+· Patrick Schofield, quoted in Mike King's iPullRank AI Search Strategic Roadmap, 2026-04-28
 
 ## Signals
 - Monthly auto-deck step appended to the AEO audit workflow.
@@ -39,7 +39,7 @@ Fails when: the audit has no executive sponsor — even a packaged readout dies 
 - Executive sponsor named per recommendation.
 
 ## Counter-evidence
-For mature programs, the start/stop frame can over-simplify nuanced calls — a more granular roadmap may be needed.
+For mature programs, the start/stop frame can over-simplify nuanced calls, a more granular roadmap may be needed.
 
 ## Cross-references
 - (none in current corpus)

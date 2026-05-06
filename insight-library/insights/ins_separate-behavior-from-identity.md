@@ -41,7 +41,7 @@ Fails when:
 
 > "When you look at bad behavior, the actual problem is someone doesn't have the skill they need to manage something happening internally."
 
-— Becky Kennedy on Lenny's Podcast, 2026-04-28
+· Becky Kennedy on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Feedback conversations end with concrete behaviour change plans, not bruised feelings.
@@ -49,8 +49,8 @@ Fails when:
 - Repeated patterns surface unmet needs or missing skills, which become the actual intervention.
 
 ## Counter-evidence
-There are cases where character and behaviour cannot be separated — repeated lying, harassment, sustained bad-faith conduct. Insisting on "good person + bad behaviour" in those cases enables harm. The discipline is conditional on most performance issues, not all conduct issues.
+There are cases where character and behaviour cannot be separated, repeated lying, harassment, sustained bad-faith conduct. Insisting on "good person + bad behaviour" in those cases enables harm. The discipline is conditional on most performance issues, not all conduct issues.
 
 ## Cross-references
-- `ins_repair-as-primary-relationship-strategy` — the move when you slipped on this rule yourself
-- `ins_most-generous-interpretation` — the lens that lets you hold the frame
+- `ins_repair-as-primary-relationship-strategy`, the move when you slipped on this rule yourself
+- `ins_most-generous-interpretation`, the lens that lets you hold the frame

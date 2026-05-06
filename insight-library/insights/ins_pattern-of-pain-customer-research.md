@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/hiten-shah.md
 ---
 
-# Find the Pattern of Pain — and don't rush past it. Most teams fail by not digging deep enough.
+# Find the Pattern of Pain, and don't rush past it. Most teams fail by not digging deep enough.
 
 ## Claim
-Product comes before Strategy; Strategy comes before Business Model. Companies routinely rush to monetization before proving the product is indispensable. The customer-research move that prevents this: surface the "Pattern of Pain" — the recurring problem that emerges after enough qualitative interviews with a demographically similar cohort. Interview discipline: ask for stories not feedback, request opinions not help, hit 10-20% talk time, repeat back what you heard to trigger correction.
+Product comes before Strategy; Strategy comes before Business Model. Companies routinely rush to monetization before proving the product is indispensable. The customer-research move that prevents this: surface the "Pattern of Pain", the recurring problem that emerges after enough qualitative interviews with a demographically similar cohort. Interview discipline: ask for stories not feedback, request opinions not help, hit 10-20% talk time, repeat back what you heard to trigger correction.
 
 ## Mechanism
-The most common research mistake is not digging deep enough when a customer mentions a problem — moving to the next question instead of asking why. Shah's Draftsend failure: built a voice-to-document product without discovering that the real Pattern of Pain in documents was finding/organizing files, not presenting them. That failure produced FYI, which solved the actual most painful problem. Working-backwards adaptation: write the launch blog post and Product Hunt materials (including fake reviews) before any code, to force the team to articulate the customer's future reality.
+The most common research mistake is not digging deep enough when a customer mentions a problem, moving to the next question instead of asking why. Shah's Draftsend failure: built a voice-to-document product without discovering that the real Pattern of Pain in documents was finding/organizing files, not presenting them. That failure produced FYI, which solved the actual most painful problem. Working-backwards adaptation: write the launch blog post and Product Hunt materials (including fake reviews) before any code, to force the team to articulate the customer's future reality.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "The most common customer research mistake — not digging deep enough when a customer mentions a problem, rushing to the next question instead of asking why."
 
-— Hiten Shah (synthesized from operator's published work)
+· Hiten Shah (synthesized from operator's published work)
 
 ## Signals
 - Founder logs interview talk-time and aims for ≤20%.

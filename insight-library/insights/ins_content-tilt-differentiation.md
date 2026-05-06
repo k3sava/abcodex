@@ -39,7 +39,7 @@ Fails when:
 
 > "95% of content creators he works with believe they have a true content tilt but do not."
 
-— Joe Pulizzi (synthesized from operator's published work)
+· Joe Pulizzi (synthesized from operator's published work)
 
 ## Signals
 - Content brief opens with a written tilt statement, tested against the "what's different here?" question.
@@ -47,7 +47,7 @@ Fails when:
 - Email opt-in is the primary metric, not raw traffic or social followers.
 
 ## Counter-evidence
-Programmatic SEO and aggregator-style content (Zapier, NerdWallet) win at scale without distinctive tilt — pure topical comprehensiveness and search authority can substitute. AI Overview and answer-engine search are also reshaping the SEO economics that historically rewarded distinctive content.
+Programmatic SEO and aggregator-style content (Zapier, NerdWallet) win at scale without distinctive tilt, pure topical comprehensiveness and search authority can substitute. AI Overview and answer-engine search are also reshaping the SEO economics that historically rewarded distinctive content.
 
 ## Cross-references
 - (none in current corpus)

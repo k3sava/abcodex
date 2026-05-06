@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/nate-substack.md
 ---
 
-# Prompts are code — Skills deserve testing, documentation, dependency mapping, performance profiling
+# Prompts are code, Skills deserve testing, documentation, dependency mapping, performance profiling
 
 ## Claim
-Skills are super-leveraged prompts and require engineering rigor: treat prompts as code. Observed across 100+ early Skills adopters, the same week-one problems repeat — name collisions, dependency confusion, untested behavior, performance surprises. The fix is to apply software-engineering discipline (testing, documentation, dependency mapping, performance profiling) to prompt artifacts rather than treating them as one-off natural-language requests.
+Skills are super-leveraged prompts and require engineering rigor: treat prompts as code. Observed across 100+ early Skills adopters, the same week-one problems repeat, name collisions, dependency confusion, untested behavior, performance surprises. The fix is to apply software-engineering discipline (testing, documentation, dependency mapping, performance profiling) to prompt artifacts rather than treating them as one-off natural-language requests.
 
 ## Mechanism
 A Skill that runs in production for many sessions accumulates the same maintenance burden as a small library: silent regressions, breaking changes downstream, undocumented assumptions. Without engineering discipline these failures are invisible until they cause user-visible breakage. Applying explicit testing (does the Skill produce the expected behavior on N inputs?), documentation (what does the Skill assume? what depends on it?), and performance checks (is the latency budget respected?) catches the failures before they propagate.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Skills are super-leveraged prompts requiring engineering rigor — treat prompts as code."
 
-— Nate (operator synthesis, *natesnewsletter.substack.com*)
+· Nate (operator synthesis, *natesnewsletter.substack.com*)
 
 ## Signals
 - Skills repository has tests, version control, and documented dependencies.

@@ -30,10 +30,10 @@ Synthesizes the CIA 4-phase cycle (Orient → Gather → Analyze → Execute), C
 3. **Research competitors.** Primary: competitor sites, free trials, pricing, review sites. Secondary: analyst reports, job postings, tech-stack analysis (BuiltWith, Wappalyzer).
 4. **Analyze win/loss.** Pull CRM data on competitive deal outcomes. Interview 5–10 recently-won and recently-lost prospects. CRM disposition codes tell you who; interviews tell you why.
 5. **Build competitor profiles.** Per Tier-1 competitor: positioning, product, pricing, strengths, weaknesses, customer sentiment.
-6. **Differentiation matrix.** Map your capabilities vs. each competitor across dimensions that matter to buyers — not internal feature lists.
+6. **Differentiation matrix.** Map your capabilities vs. each competitor across dimensions that matter to buyers, not internal feature lists.
 7. **SWOT.** Per competitor and landscape-wide.
 8. **Battlecards.** Per Tier-1 competitor. Crayon structure: Why We Win, Competitor Strengths + Responses, Recent Wins, Field Intel, Landmines, Quick Dismiss. Apply ABC: Accurate, Brief, Consistent (`ins_battle-cards-as-workflow-primitive`).
-9. **Strategic recommendations.** Specific enough to act on. Not "improve messaging" — "reposition against X on dimension Y because Z."
+9. **Strategic recommendations.** Specific enough to act on. Not "improve messaging", "reposition against X on dimension Y because Z."
 10. **Enable and distribute.** Brief sales/CS/product. Embed battlecards in CRM and Slack. Establish ongoing monitoring cadence (weekly scout, monthly battlecard refresh, quarterly full analysis).
 
 ## Tiering model
@@ -67,14 +67,14 @@ Tone calibration: market leader = maximum deference; direct competitor = more ag
 
 - Boiling the ocean instead of focusing on the 5 that drive 80% of competitive deals.
 - Feature-checklist syndrome with no connection to buyer value.
-- Ignoring non-obvious alternatives — manual processes, spreadsheets, doing nothing (`ins_no-decision-is-the-real-competitor`).
+- Ignoring non-obvious alternatives, manual processes, spreadsheets, doing nothing (`ins_no-decision-is-the-real-competitor`).
 - CRM data without prospect interviews.
 - One-and-done analysis. Stale within 60 days.
 - Battlecard bloat. Brevity is non-negotiable.
 - Accuracy failures destroying seller trust.
 - Attacking competitors directly instead of reframing buying criteria.
 - Same tone across all competitor comparisons regardless of market position.
-- No adoption plan — battlecards built but not embedded where sellers actually work.
+- No adoption plan, battlecards built but not embedded where sellers actually work.
 
 ## Outputs
 

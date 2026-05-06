@@ -12,28 +12,28 @@ domains: [sales-cs, research-discovery, pmm, leadership]
 
 ## Convergence
 
-Three operators from very different starting points — high-stakes negotiation (Voss), JTBD research (Moesta), and behavioral diagnostics (Munger) — converge on the same operating claim: the most decision-relevant information is held by the counterpart and will not surface from prep, research, or direct questioning. It surfaces only when the conditions for emotional safety are right. The discipline is therefore not "do better research" but "build the conditions that produce voluntary disclosure."
+Three operators from very different starting points, high-stakes negotiation (Voss), JTBD research (Moesta), and behavioral diagnostics (Munger), converge on the same operating claim: the most decision-relevant information is held by the counterpart and will not surface from prep, research, or direct questioning. It surfaces only when the conditions for emotional safety are right. The discipline is therefore not "do better research" but "build the conditions that produce voluntary disclosure."
 
 ## Operators
 
-- **Chris Voss** — five integrated tools that produce rapport conditions:
-  - `ins_voss-mirroring-forces-elaboration`: repeat the last 1-3 words; silence forces elaboration.
-  - `ins_voss-accusation-audit`: name the worst thing they could be thinking; drain emotion preemptively.
-  - `ins_voss-tactical-empathy-labels`: name the emotion to disarm defensive reactions.
-  - `ins_voss-thats-right-breakthrough`: "That's right" — not "yes" — signals the moment the conversation has shifted from positional to cooperative.
-  - `ins_voss-black-swans-discovered-in-process`: every negotiation contains 3-5 hidden facts that change everything; they surface from rapport, not research.
+- **Chris Voss**, five integrated tools that produce rapport conditions:
+ - `ins_voss-mirroring-forces-elaboration`: repeat the last 1-3 words; silence forces elaboration.
+ - `ins_voss-accusation-audit`: name the worst thing they could be thinking; drain emotion preemptively.
+ - `ins_voss-tactical-empathy-labels`: name the emotion to disarm defensive reactions.
+ - `ins_voss-thats-right-breakthrough`: "That's right", not "yes", signals the moment the conversation has shifted from positional to cooperative.
+ - `ins_voss-black-swans-discovered-in-process`: every negotiation contains 3-5 hidden facts that change everything; they surface from rapport, not research.
 
-- **Bob Moesta** — `ins_jtbd-interviews-surface-customer-language`. JTBD switch interviews use the same mechanism in customer research: build enough rapport that recent buyers and non-buyers volunteer their actual resistance language and forces of progress, not the rationalised version they would offer in a survey.
+- **Bob Moesta**, `ins_jtbd-interviews-surface-customer-language`. JTBD switch interviews use the same mechanism in customer research: build enough rapport that recent buyers and non-buyers volunteer their actual resistance language and forces of progress, not the rationalised version they would offer in a survey.
 
-- **Charlie Munger** — `ins_incentives-as-master-switch`. The cognitive lens that completes the picture: when behaviour puzzles you, look at incentives. Rapport surfaces what the counterpart is willing to share; incentives explain why their behaviour makes sense regardless of what they share.
+- **Charlie Munger**, `ins_incentives-as-master-switch`. The cognitive lens that completes the picture: when behaviour puzzles you, look at incentives. Rapport surfaces what the counterpart is willing to share; incentives explain why their behaviour makes sense regardless of what they share.
 
 ## Variation
 
 The three operators handle different parts of the same problem:
 
-- **Voss — real-time conversation toolkit.** Five tools deployed in conversation that produce the rapport conditions where information leaks.
-- **Moesta — research method.** Switch interviews are an extended-format application of the same mechanisms — empathy, mirrors, and patient silence — applied across 8-15 buyer / non-buyer conversations.
-- **Munger — analytical lens.** Once the information surfaces, incentive analysis is what makes it actionable. "Why would they do that?" is the question rapport answers; "what is the payoff matrix?" is the question incentives answer.
+- **Voss, real-time conversation toolkit.** Five tools deployed in conversation that produce the rapport conditions where information leaks.
+- **Moesta, research method.** Switch interviews are an extended-format application of the same mechanisms, empathy, mirrors, and patient silence, applied across 8-15 buyer / non-buyer conversations.
+- **Munger, analytical lens.** Once the information surfaces, incentive analysis is what makes it actionable. "Why would they do that?" is the question rapport answers; "what is the payoff matrix?" is the question incentives answer.
 
 A complete operating answer uses all three: build rapport (Voss), structure it as repeatable research (Moesta), and analyse the surfaced behaviour through the incentive lens (Munger).
 

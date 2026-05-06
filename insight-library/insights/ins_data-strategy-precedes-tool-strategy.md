@@ -20,10 +20,10 @@ raw_ref: raw/research/gartner--tech-ceos-maximize-b2b-sales-marketing-automation
 # Data strategy precedes tool strategy in marketing automation
 
 ## Claim
-The often-overlooked critical foundation of any marketing automation investment is the data itself — and a strategy for keeping it clean, connected, and usable. Marketing automation tools fail when they sit on top of unstrategised data; process and org-structure decisions are upstream of tooling.
+The often-overlooked critical foundation of any marketing automation investment is the data itself, and a strategy for keeping it clean, connected, and usable. Marketing automation tools fail when they sit on top of unstrategised data; process and org-structure decisions are upstream of tooling.
 
 ## Mechanism
-A marketing automation platform is only as good as the data feeding it. Without a data strategy (what gets captured, how it's deduped, who owns it, what feeds it back into product/sales), tools generate noise: duplicate leads, wrong scoring, misrouted campaigns. Tools magnify whatever the data layer is — including its problems. Companies that buy the platform first and figure out data later spend two years cleaning up before the platform delivers ROI.
+A marketing automation platform is only as good as the data feeding it. Without a data strategy (what gets captured, how it's deduped, who owns it, what feeds it back into product/sales), tools generate noise: duplicate leads, wrong scoring, misrouted campaigns. Tools magnify whatever the data layer is, including its problems. Companies that buy the platform first and figure out data later spend two years cleaning up before the platform delivers ROI.
 
 ## Conditions
 Holds when:
@@ -31,15 +31,15 @@ Holds when:
 - Multiple teams (marketing, sales, CS) feed and consume the same data.
 
 Fails when:
-- The company is small enough that the founder is the data layer — a tool with simple defaults works fine.
-- The data quality is genuinely fine but tooling is the bottleneck — the rule reverses.
+- The company is small enough that the founder is the data layer, a tool with simple defaults works fine.
+- The data quality is genuinely fine but tooling is the bottleneck, the rule reverses.
 
 ## Evidence
 > "The often-overlooked critical foundation to using any of it effectively is the data itself and having a data strategy around it."
 
 > "The lead workflow from brand impression to closed-won business is the heart of the system."
 
-— Gartner, *Tech CEOs: Maximize B2B Sales With Marketing Automation* (G00785095), 2024-10-10. Authors: Julian Poulter, Amy Jenkins.
+· Gartner, *Tech CEOs: Maximize B2B Sales With Marketing Automation* (G00785095), 2024-10-10. Authors: Julian Poulter, Amy Jenkins.
 
 ## Signals
 - The org has a named data steward (RevOps or Marketing Ops lead) before it has a marketing automation platform.
@@ -47,7 +47,7 @@ Fails when:
 - Tool selection includes data-fit evaluation, not just feature-fit evaluation.
 
 ## Counter-evidence
-"Data strategy first" can become procrastination — orgs spend a year cleaning data before launching anything. For early-stage companies, shipping with imperfect data and iterating beats waiting for the perfect data layer. The Gartner frame holds best at scaling companies; small-company orgs should pick a default tool and iterate.
+"Data strategy first" can become procrastination, orgs spend a year cleaning data before launching anything. For early-stage companies, shipping with imperfect data and iterating beats waiting for the perfect data layer. The Gartner frame holds best at scaling companies; small-company orgs should pick a default tool and iterate.
 
 ## Cross-references
-- `ins_systems-of-action-replace-seller-stack` — Gottlieb on the tooling tier above; data strategy is the substrate that lets it work.
+- `ins_systems-of-action-replace-seller-stack`, Gottlieb on the tooling tier above; data strategy is the substrate that lets it work.

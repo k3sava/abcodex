@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Get painfully clear on the 'why' before any design or copy work on a website relaunch.
 
 ## Claim
-Before design, before copy, before anything, define the core purpose — for us, being the always-on go-to-market education platform. Once that's clear, every decision has a framework to run through.
+Before design, before copy, before anything, define the core purpose, for us, being the always-on go-to-market education platform. Once that's clear, every decision has a framework to run through.
 
 ## Mechanism
 A clear strategic 'why' provides a decision-making filter that prevents scope creep and ensures all elements (customer journey, messaging, conversion goals) align with the overarching objective.

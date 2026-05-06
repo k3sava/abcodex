@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/articles/aaron-ross--seeds-nets-spears-lead-types.md
 # Treat leads as a three-asset portfolio, not a single funnel
 
 ## Claim
-Pipeline planning fails when all leads are treated as equivalent. Leads come in three distinct asset classes — Seeds (referral/organic), Nets (inbound marketing), Spears (outbound) — each with its own conversion rate, time-to-develop, scalability profile, and cost curve. A mature B2B company should rely on at least two; single-source dependency is an existential risk.
+Pipeline planning fails when all leads are treated as equivalent. Leads come in three distinct asset classes, Seeds (referral/organic), Nets (inbound marketing), Spears (outbound), each with its own conversion rate, time-to-develop, scalability profile, and cost curve. A mature B2B company should rely on at least two; single-source dependency is an existential risk.
 
 ## Mechanism
-Each lead type has different physics. Seeds compound but cannot be bought; conversion rates run 2-5x higher than Spears but they require months-to-years of relationship work. Nets scale with budget but hit diminishing returns and a market-wide ceiling on inbound demand. Spears have the lowest conversion rate but are uniquely *predictable* — output is directly proportional to SDR input, so they are the only lever you can pull on a quarterly horizon. Mixing them in one pipeline metric obscures which engine is broken; running the three formulas separately reveals where to invest next.
+Each lead type has different physics. Seeds compound but cannot be bought; conversion rates run 2-5x higher than Spears but they require months-to-years of relationship work. Nets scale with budget but hit diminishing returns and a market-wide ceiling on inbound demand. Spears have the lowest conversion rate but are uniquely *predictable*, output is directly proportional to SDR input, so they are the only lever you can pull on a quarterly horizon. Mixing them in one pipeline metric obscures which engine is broken; running the three formulas separately reveals where to invest next.
 
 ## Conditions
 Holds when:
@@ -31,7 +31,7 @@ Holds when:
 - There is enough scale (≥1 SDR, content engine, customer base) for all three to be measurable.
 
 Fails when:
-- Pre-PMF — founder Seeds dominate and forcing portfolio diversification wastes capital.
+- Pre-PMF, founder Seeds dominate and forcing portfolio diversification wastes capital.
 - The product is consumer or PLG-led where the unit of pipeline is not a sales-qualified meeting.
 
 ## Evidence
@@ -39,7 +39,7 @@ Fails when:
 
 > "Spears [are the] foundation of predictable revenue because output is directly proportional to input. The only lead type where you can directly control output by controlling input."
 
-— Aaron Ross, *Seeds, Nets, and Spears* (predictablerevenue.com)
+· Aaron Ross, *Seeds, Nets, and Spears* (predictablerevenue.com)
 
 ## Signals
 - Pipeline review reports separate Seeds / Nets / Spears with distinct conversion rates, not one blended funnel.
@@ -47,7 +47,7 @@ Fails when:
 - Stage-of-company shifts the mix: early = Seeds-heavy, growth = adding Nets, scale = full portfolio.
 
 ## Counter-evidence
-PLG and bottom-up products (Figma, Linear) intentionally collapse the taxonomy — there is no "lead", just usage. For those motions the three-portfolio frame can over-engineer pipeline reporting where product telemetry is the better instrument. Chris Walker's "create demand vs. capture demand" frame also reframes the same data into a two-bucket system that treats Seeds and Nets as a single demand-creation engine.
+PLG and bottom-up products (Figma, Linear) intentionally collapse the taxonomy, there is no "lead", just usage. For those motions the three-portfolio frame can over-engineer pipeline reporting where product telemetry is the better instrument. Chris Walker's "create demand vs. capture demand" frame also reframes the same data into a two-bucket system that treats Seeds and Nets as a single demand-creation engine.
 
 ## Cross-references
 - (none in current corpus)

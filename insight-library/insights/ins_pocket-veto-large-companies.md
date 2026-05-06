@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md
 # Be explicit about what's not up for debate; the pocket veto kills large-company AI work
 
 ## Claim
-In large companies, asking enough people whether to do something will produce a "no." Cisco's response on AI: name what is *not* up for debate (we're going AI-first), and what is (which workstreams first, in what sequence). Without the pre-decision, the pocket veto — anyone can quietly block by raising concerns indefinitely — kills the bet before it ships.
+In large companies, asking enough people whether to do something will produce a "no." Cisco's response on AI: name what is *not* up for debate (we're going AI-first), and what is (which workstreams first, in what sequence). Without the pre-decision, the pocket veto, anyone can quietly block by raising concerns indefinitely, kills the bet before it ships.
 
 ## Mechanism
 Distributed organizations default to consensus, which means any individual voter has effective veto. AI bets cross many functions (legal, IT, product, sales, customer success); each function can pocket-veto by demanding more analysis, more legal review, more pilots. Naming "this is not up for debate" upstream removes the veto path on the strategic question and forces the org to debate tactics, where decisions can actually close.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "What can end up happening is you can have a pocket veto in a large company where if you ask enough number of people, people say no. On AI, we didn't hedge — we said all-in."
 
-— Jeetu Patel on Lenny's Podcast, 2026-04-28
+· Jeetu Patel on Lenny's Podcast, 2026-04-28
 
 Cisco's parallel rule: "Large companies experiment a lot. What they don't do is when an experiment works, they don't go all in and double down. They keep hedging."
 
@@ -50,4 +50,4 @@ Cisco's parallel rule: "Large companies experiment a lot. What they don't do is 
 This pattern can suppress real risk signals. The discipline is to name strategic intent as not-up-for-debate while keeping tactical and risk concerns explicitly debatable. Without that nuance, "not up for debate" becomes leadership cover for ignoring real problems.
 
 ## Cross-references
-- `ins_innovation-is-a-choice` — the upstream principle this operationalizes
+- `ins_innovation-is-a-choice`, the upstream principle this operationalizes

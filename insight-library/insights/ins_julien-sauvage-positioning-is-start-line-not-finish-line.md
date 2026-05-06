@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Positioning is the start line, not the finish line for PMM.
 
 ## Claim
-Stop treating positioning as the deliverable. It’s the start line, not the finish line. A doc on its own changes nothing.
+Stop treating positioning as the deliverable. It's the start line, not the finish line. A doc on its own changes nothing.
 
 ## Mechanism
 Positioning only works when it is activated across every internal and external channel, evangelized by leadership, and proved through impact metrics like stage conversions, CTRs, win rates, and ASP lift. At Gong, reps using the new narrative drove a +46% win rate jump; at Clari, activating the 'Run Revenue' story helped hit 140%+ of pipeline target.

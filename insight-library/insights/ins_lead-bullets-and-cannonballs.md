@@ -17,7 +17,7 @@ related: [ins_marginal-user-methodology]
 raw_ref: raw/podcasts/adriel-frederick--marginal-user-algorithms-growth-discipline--2026-04-28.md
 ---
 
-# Growth needs both lead bullets and cannonballs — the laziness trap is shipping only lead bullets
+# Growth needs both lead bullets and cannonballs, the laziness trap is shipping only lead bullets
 
 ## Claim
 Healthy growth portfolios mix many small lead-bullet experiments (button copy, placement, friction reductions) with rare cannonball bets (signup with phone numbers, SMS delivery, fundamental product changes). The trap is that lead bullets are easier to design and ship, so teams default to them and never make the cannonball bets that actually compound.
@@ -39,9 +39,9 @@ Fails when:
 ## Evidence
 > "There's a laziness that can creep in where you're just finding a lot of little things because they're easier to come up with."
 
-Adriel cites cannonballs at Facebook: signup with phone numbers, SMS delivery, friend recommendations — each one fundamental product change with multi-quarter payback. Lead bullets cluster around copy, placement, funnel friction.
+Adriel cites cannonballs at Facebook: signup with phone numbers, SMS delivery, friend recommendations, each one fundamental product change with multi-quarter payback. Lead bullets cluster around copy, placement, funnel friction.
 
-— Adriel Frederick on Lenny's Podcast, 2026-04-28
+· Adriel Frederick on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Quarterly portfolio reviews show explicit cannonball-versus-lead-bullet allocation.
@@ -49,7 +49,7 @@ Adriel cites cannonballs at Facebook: signup with phone numbers, SMS delivery, f
 - Lead bullets become healthier because they sit downstream of the cannonball bets, not in lieu of them.
 
 ## Counter-evidence
-For very early products, almost everything is a cannonball — there is no funnel yet to optimise. For deeply mature categories, almost everything is a lead bullet. The discipline is most useful in the scale-up zone where both shapes of bet are available.
+For very early products, almost everything is a cannonball, there is no funnel yet to optimise. For deeply mature categories, almost everything is a lead bullet. The discipline is most useful in the scale-up zone where both shapes of bet are available.
 
 ## Cross-references
-- `ins_marginal-user-methodology` — what to research before designing a cannonball
+- `ins_marginal-user-methodology`, what to research before designing a cannonball

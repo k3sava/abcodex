@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/mike-michalowicz.md
 The traditional formula (Sales − Expenses = Profit) is mathematically correct but behaviorally backwards. Demand for resources expands to fill supply; if all revenue flows into one operating account, expenses always expand to consume it, leaving profit as an afterthought. Inversion: Sales − Profit = Expenses. Take profit out first into a separate account; the business is forced to operate on what remains.
 
 ## Mechanism
-Five-step implementation: (1) read the book — system requires understanding the principles. (2) Determine target percentages by revenue tier ($0-250K: 5% profit / 50% owner / 15% tax / 30% opex; $1-5M: 10-15% profit / 35% owner / 15% tax / 40% opex). (3) Open five separate bank accounts (Income, Profit, Owner's Pay, Tax, OpEx) — physical separation is the behavioral mechanism. (4) Twice-monthly allocation rhythm (10th + 25th): transfer target percentages from Income to dedicated accounts. (5) Quarterly review and adjust 1-3 percentage points toward target — gradual, not overnight.
+Five-step implementation: (1) read the book, system requires understanding the principles. (2) Determine target percentages by revenue tier ($0-250K: 5% profit / 50% owner / 15% tax / 30% opex; $1-5M: 10-15% profit / 35% owner / 15% tax / 40% opex). (3) Open five separate bank accounts (Income, Profit, Owner's Pay, Tax, OpEx), physical separation is the behavioral mechanism. (4) Twice-monthly allocation rhythm (10th + 25th): transfer target percentages from Income to dedicated accounts. (5) Quarterly review and adjust 1-3 percentage points toward target, gradual, not overnight.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Demand for a resource expands to consume the supply available." (C. Northcote Parkinson, applied)
 
-— Mike Michalowicz, *Profit First* (synthesized from operator's published work)
+· Mike Michalowicz, *Profit First* (synthesized from operator's published work)
 
 ## Signals
 - Business has 5 named bank accounts with target percentages documented.
@@ -47,7 +47,7 @@ Fails when:
 - Quarterly review tracks actual vs. target percentages and adjusts 1-3 points.
 
 ## Counter-evidence
-VC-backed growth-stage SaaS deliberately runs negative profit to capture market — Profit First would force premature optimization. Some accountants argue the system creates false comfort by hiding cash crunches inside a profit account that has to be tapped.
+VC-backed growth-stage SaaS deliberately runs negative profit to capture market, Profit First would force premature optimization. Some accountants argue the system creates false comfort by hiding cash crunches inside a profit account that has to be tapped.
 
 ## Cross-references
 - (none in current corpus)

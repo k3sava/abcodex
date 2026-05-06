@@ -20,10 +20,10 @@ raw_ref: raw/essays/maja-voje--aeo-gtm-capability--2026-04-17.md
 # AEO is a GTM capability, not an SEO experiment
 
 ## Claim
-Answer Engine Optimization (AEO) belongs to GTM/PMM ownership, not as an SEO subtask, because the unit of competition shifts from rankings to mentions and the inputs are positioning, narrative, and customer truth — PMM's lane.
+Answer Engine Optimization (AEO) belongs to GTM/PMM ownership, not as an SEO subtask, because the unit of competition shifts from rankings to mentions and the inputs are positioning, narrative, and customer truth, PMM's lane.
 
 ## Mechanism
-SEO competes for SERP slots on a known query. AEO competes for inclusion and brand mention inside a generated answer, which depends on how the brand's claims, comparisons, and category framing are represented across the public corpus the model trained on or retrieves from. Those inputs — positioning, comparative framing, named alternatives, customer-language vocabulary — are PMM artifacts. If SEO or growth eats AEO first, the work optimizes for chunker-friendly text and misses the positioning and narrative levers that drive mention rate.
+SEO competes for SERP slots on a known query. AEO competes for inclusion and brand mention inside a generated answer, which depends on how the brand's claims, comparisons, and category framing are represented across the public corpus the model trained on or retrieves from. Those inputs, positioning, comparative framing, named alternatives, customer-language vocabulary, are PMM artifacts. If SEO or growth eats AEO first, the work optimizes for chunker-friendly text and misses the positioning and narrative levers that drive mention rate.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "AEO isn't a content thing or an SEO experiment. It's a GTM capability."
 
-— Maja Voje, *AEO: How to Make AI Recommend Your Product*, https://knowledge.gtmstrategist.com/p/aeo-how-to-make-ai-recommend-your-product, 2026-04-17
+· Maja Voje, *AEO: How to Make AI Recommend Your Product*, https://knowledge.gtmstrategist.com/p/aeo-how-to-make-ai-recommend-your-product, 2026-04-17
 
 ## Signals
 - AEO measurement (Presence/Readiness/Impact) lives in the PMM dashboard, not the SEO dashboard.
@@ -52,7 +52,7 @@ Fails when:
 Mike King's relevance engineering frame (`ins_relevance-engineering-passage-level`) treats AEO as an information-retrieval engineering problem, which would slot it under technical SEO or a dedicated retrieval team. Both readings can be true: PMM owns positioning and mention-rate strategy; technical SEO owns passage engineering and structured data. The risk is letting one function eat the other.
 
 ## Cross-references
-- `ins_aeo-three-layer-presence-readiness-impact` — Aleyda's measurement framework gives PMM a substrate.
-- `ins_relevance-engineering-passage-level` — Mike King's complementary engineering frame.
-- `ins_ghost-citation-gap` — why mention-rate (not citation-rate) is the PMM-owned KPI.
-- `ins_rebuild-gtm-around-ai` — Kieran Flanagan's broader argument for rebuilding GTM functions.
+- `ins_aeo-three-layer-presence-readiness-impact`, Aleyda's measurement framework gives PMM a substrate.
+- `ins_relevance-engineering-passage-level`, Mike King's complementary engineering frame.
+- `ins_ghost-citation-gap`, why mention-rate (not citation-rate) is the PMM-owned KPI.
+- `ins_rebuild-gtm-around-ai`, Kieran Flanagan's broader argument for rebuilding GTM functions.

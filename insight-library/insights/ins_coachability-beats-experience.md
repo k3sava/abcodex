@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
-# Coachability — not prior experience or charisma — is the strongest predictor of sales success
+# Coachability, not prior experience or charisma, is the strongest predictor of sales success
 
 ## Claim
 Sales success is a function of system design, not individual talent. Roberge's data-driven hiring scorecard rates five traits 1-10 through structured behavioral interviews: Coachability, Curiosity, Intelligence, Work Ethic, Prior Success. The most counterintuitive finding from scaling HubSpot from $0 to $100M+: *coachability*, not prior experience or charisma, is the strongest predictor. Hire coachable, train with structured curriculum, manage through metrics, and the system produces top performers.
 
 ## Mechanism
-Five interconnected formulas: Hiring (5-trait scorecard), Training (structured curriculum organized around buyer personas + journeys, certifications with pass/fail gates instead of time-based ramp), Management (coach against 1-2 specific metrics where each rep underperforms peers, monthly coaching plans), Demand Generation (formal SLAs between marketing and sales), Technology (instrument every buyer interaction to feed all four prior formulas — compounding improvement). Coachability is upstream because it's the input that makes the other four formulas actually compound on the rep.
+Five interconnected formulas: Hiring (5-trait scorecard), Training (structured curriculum organized around buyer personas + journeys, certifications with pass/fail gates instead of time-based ramp), Management (coach against 1-2 specific metrics where each rep underperforms peers, monthly coaching plans), Demand Generation (formal SLAs between marketing and sales), Technology (instrument every buyer interaction to feed all four prior formulas, compounding improvement). Coachability is upstream because it's the input that makes the other four formulas actually compound on the rep.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "His most counterintuitive finding is that coachability, not prior experience or charisma, is the strongest predictor of sales success."
 
-— Mark Roberge, *The Sales Acceleration Formula* (synthesized from operator's published work)
+· Mark Roberge, *The Sales Acceleration Formula* (synthesized from operator's published work)
 
 ## Signals
 - Sales hiring loop scores all five traits explicitly with named behavioral evidence.

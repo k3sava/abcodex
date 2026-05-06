@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "1. For short-form stuff (Facebook, Instagram, etc.), AI is doing most of the heavy lifting."
 
-— Josue Valles, LinkedIn, 2026-04-10
+· Josue Valles, LinkedIn, 2026-04-10
 
 ## Signals
 - For short-form stuff (Facebook, Instagram, etc.), AI is doing most of the heavy lifting.

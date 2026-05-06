@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/christoph-janz.md
 ---
 
-# You can't hunt elephants the way you hunt rabbits — pick your animal first, GTM follows
+# You can't hunt elephants the way you hunt rabbits, pick your animal first, GTM follows
 
 ## Claim
 There are five viable paths to $100M ARR, defined by the combination of average revenue per account and number of customers. Flies ($10/yr × 10M), Mice ($100/yr × 1M), Rabbits ($1k/yr × 100k), Deer ($10k/yr × 10k), Elephants ($100k+/yr × 1k). The animal you hunt determines GTM architecture, hiring profile, marketing channels, and product complexity. The mistake is choosing tactics before choosing the animal.
 
 ## Mechanism
-Each animal type carries an entire operating model. Flies need viral consumer-grade acquisition; you cannot field-sell a $10/yr product. Elephants need solution-selling field reps; you cannot self-serve a $100k contract. The arithmetic is simple but the strategic implication is severe: a misaligned ARPA → GTM combination wastes the runway. Janz's portfolio companies have used the framework as a *migration* tool too — Rabbits going upmarket to Deer to Elephants when they hit growth ceilings.
+Each animal type carries an entire operating model. Flies need viral consumer-grade acquisition; you cannot field-sell a $10/yr product. Elephants need solution-selling field reps; you cannot self-serve a $100k contract. The arithmetic is simple but the strategic implication is severe: a misaligned ARPA → GTM combination wastes the runway. Janz's portfolio companies have used the framework as a *migration* tool too, Rabbits going upmarket to Deer to Elephants when they hit growth ceilings.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "You cannot hunt elephants the way you hunt rabbits."
 
-— Christoph Janz (synthesized from operator's published work)
+· Christoph Janz (synthesized from operator's published work)
 
 ## Signals
 - Strategy doc opens with declared animal and ARPA target.
@@ -47,7 +47,7 @@ Fails when:
 - Upmarket migrations are explicit re-architectures, not gradual drift.
 
 ## Counter-evidence
-PLG-led companies (Notion, Figma) deliberately straddle Mice and Deer simultaneously — the framework's clean ARPA tiers don't capture the multi-segment reality of bottom-up SaaS.
+PLG-led companies (Notion, Figma) deliberately straddle Mice and Deer simultaneously, the framework's clean ARPA tiers don't capture the multi-segment reality of bottom-up SaaS.
 
 ## Cross-references
 - (none in current corpus)

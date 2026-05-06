@@ -6,15 +6,15 @@ captured_date: 2026-05-01
 
 # PM should prototype vs. PM should up-level
 
-## Position A — PMs must prototype or be bypassed
+## Position A, PMs must prototype or be bypassed
 - Operator: Aakash Gupta
 - Card: `ins_pm-prototype-or-be-bypassed`
 - Claim: PMs who keep outsourcing the first artifact will lose to PMs who arrive at design review with a working prototype. The PM job has shifted toward making, not specifying.
 
-## Position B — At scale, PMs should up-level the why and what, not ship more
+## Position B, At scale, PMs should up-level the why and what, not ship more
 - Operator: Amol Avasare (Ramp)
 - Card: `ins_pm-should-not-ship-at-scale`, `ins_squeezed-pm-thesis`
-- Claim: At scale, PMs should up-level the why and what; not ship more features. Claude Code multiplies engineers 2-3x; PM and design become the bottleneck — but the answer is up-leveling, not catching up via personal output.
+- Claim: At scale, PMs should up-level the why and what; not ship more features. Claude Code multiplies engineers 2-3x; PM and design become the bottleneck, but the answer is up-leveling, not catching up via personal output.
 
 ## Conditions distinguishing them
 - **Company stage**: Gupta's prototype-or-be-bypassed is most acute at startup / mid-stage where one PM works with 5-10 engineers and personal artifact velocity is the limiting factor. Avasare's up-level claim is scale-stage (Ramp) where the PM is one of many and the bottleneck is alignment + prioritisation.

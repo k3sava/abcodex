@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI products are completely limited by the data going in; output metrics mean nothing without trustworthy input data.
 
 ## Claim
-We’re all obsessed with measuring the outputs of AI (accuracy, bias, drift etc) but if the data going in isn’t trustworthy (or observable) then those outputs mean zilch, nothing at all.
+We're all obsessed with measuring the outputs of AI (accuracy, bias, drift etc) but if the data going in isn't trustworthy (or observable) then those outputs mean zilch, nothing at all.
 
 ## Mechanism
 Data confidence is the missing link in AI observability. Making data observable and governable at the source ensures that downstream AI outputs are meaningful and reliable.

@@ -44,7 +44,7 @@ Pre-OKR season. After a reorg. When PMM and sales pipeline numbers do not reconc
 
 - Every KPI traces to revenue, pipeline, or customer value. No orphan vanity metrics.
 - Output metrics cover all three dimensions (retention, engagement, monetization).
-- Input metrics are actionable — the team can directly influence them.
+- Input metrics are actionable, the team can directly influence them.
 - Tradeoff metrics monitored alongside primary metrics.
 - Attribution model matches actual sales-cycle length.
 - Cadence matches decision rhythm.
@@ -61,7 +61,7 @@ Pre-OKR season. After a reorg. When PMM and sales pipeline numbers do not reconc
 - No attribution plan before launch. Tracking added post-go-live cannot prove impact.
 - 50+ KPIs creating paralysis. Focus on 3–7 per workstream.
 - Misaligned MQL definitions across marketing/sales.
-- Short-termism — measuring performance only, ignoring brand and long-term pipeline.
+- Short-termism, measuring performance only, ignoring brand and long-term pipeline.
 - Static framework that never gets revisited.
 - Siloed reporting tools.
 - Optimizing conversion rates while absolute counts shrink (`ins_absolute-counts-over-conversion-rates`).

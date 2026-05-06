@@ -17,7 +17,7 @@ related: [ins_embedded-entrepreneur]
 raw_ref: raw/expert-content/experts/greg-isenberg.md
 ---
 
-# Audience first, Community second, Product last — and AI makes the inversion much faster
+# Audience first, Community second, Product last, and AI makes the inversion much faster
 
 ## Claim
 The traditional startup sequence (build product → find customers) maximizes the chance of building something nobody wants. Inversion: build an audience through content first, convert the most engaged into a community, then build the product the community asks for. Demand is validated before code is written. Products can be replicated overnight, especially with AI; the trust, relationships, and shared identity inside a community cannot.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Identify a manual process that knowledge workers do daily, wrap AI around it, and price it as a tool ($300/month SaaS) rather than a platform."
 
-— Greg Isenberg (synthesized from operator's published work)
+· Greg Isenberg (synthesized from operator's published work)
 
 ## Signals
 - Founder has named platform + posting cadence before any code is written.
@@ -47,7 +47,7 @@ Fails when:
 - First 100 customers are nameable individuals from the founder's audience/community.
 
 ## Counter-evidence
-Pure-product founders (Notion, Figma, Linear early days) achieved scale without an audience-first motion — product craft and word-of-mouth substituted for community-building. Some categories (deep-tech, regulated industries) have no public communities to seed.
+Pure-product founders (Notion, Figma, Linear early days) achieved scale without an audience-first motion, product craft and word-of-mouth substituted for community-building. Some categories (deep-tech, regulated industries) have no public communities to seed.
 
 ## Cross-references
-- ins_embedded-entrepreneur — closely related (Arvid Kahl)
+- ins_embedded-entrepreneur, closely related (Arvid Kahl)

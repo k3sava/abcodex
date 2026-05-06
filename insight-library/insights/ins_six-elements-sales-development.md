@@ -17,10 +17,10 @@ related: [ins_specialization-creates-predictability]
 raw_ref: raw/expert-content/experts/trish-bertuzzi.md
 ---
 
-# SDR teams are precision operating systems — six interdependent elements; optimize one without the others = systemic mediocrity
+# SDR teams are precision operating systems, six interdependent elements; optimize one without the others = systemic mediocrity
 
 ## Claim
-The sales development function isn't a hiring problem or a script problem — it's a precision operating system with six interdependent elements: Strategy, Specialization, Recruiting, Retention, Execution, Leadership. Optimizing any one without the others produces local improvements but systemic mediocrity. The Bridge Group's industry-benchmark SDR data shows the failure modes statistically — most are preventable with system-level design.
+The sales development function isn't a hiring problem or a script problem, it's a precision operating system with six interdependent elements: Strategy, Specialization, Recruiting, Retention, Execution, Leadership. Optimizing any one without the others produces local improvements but systemic mediocrity. The Bridge Group's industry-benchmark SDR data shows the failure modes statistically, most are preventable with system-level design.
 
 ## Mechanism
 Hire great SDRs but skimp on training (Execution failure) and they leave (Retention failure). Build great training but lack a defined ICP (Strategy failure) and they generate noise. Define ICP cleanly but skip role specialization (Specialization failure) and reps fall back to mixed prospect-and-close hybrids that erode predictability. Six elements form a cycle; weakness in any breaks the system. Bertuzzi's prescription: design all six together, with named owners and named metrics, before hiring the first SDR.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The sales development function is a precision operating system with six interdependent elements; optimizing any one without the others produces local improvements but systemic mediocrity."
 
-— Trish Bertuzzi, *The Sales Development Playbook* (synthesized from operator's published work)
+· Trish Bertuzzi, *The Sales Development Playbook* (synthesized from operator's published work)
 
 ## Signals
 - Each of the six elements has a named owner and named KPI.
@@ -48,4 +48,4 @@ Fails when:
 Modern intent-data + AI-personalization tools are partially absorbing functions traditionally done by SDR teams (Nick Abraham's hyper-personalization model). The six-element prescription may over-engineer for early-stage teams that need scrappy iteration first.
 
 ## Cross-references
-- ins_specialization-creates-predictability — adjacent operator (Aaron Ross)
+- ins_specialization-creates-predictability, adjacent operator (Aaron Ross)

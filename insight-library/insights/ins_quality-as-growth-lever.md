@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/amole-naik--anthropic-automating-growth--2026-04-27.md
 # Brand and quality are growth levers, not constraints on growth
 
 ## Claim
-The default growth-team frame treats brand and quality as taxes on velocity — "we'd grow faster if compliance weren't holding us back." The data Amole has run says the opposite. Quality investments (onboarding redesigns, brand consistency, longer first-run flows) test out as growth wins, not losses, even when they add steps.
+The default growth-team frame treats brand and quality as taxes on velocity, "we'd grow faster if compliance weren't holding us back." The data Amole has run says the opposite. Quality investments (onboarding redesigns, brand consistency, longer first-run flows) test out as growth wins, not losses, even when they add steps.
 
 ## Mechanism
 Quality compounds adoption. A user with a great onboarding experience tells five others; a user with a confusing one tells nobody. Brand consistency reduces cognitive load across touch points so the product feels more trustworthy at each surface. Both effects show up downstream of any single funnel test, which is why short A/B tests miss them. The growth lever is not "ship more variants"; it is "ship the variants more carefully."
@@ -39,7 +39,7 @@ Fails when:
 
 Mercury onboarding revamp + Anthropic onboarding both tested out as wins despite added length. Both teams flagged quality investment as direct growth lever, not growth tax.
 
-— Amole Naik on Lenny's Podcast, 2026-04-27
+· Amole Naik on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Long-horizon retention metrics (D30, D90) lift in step with quality investments.
@@ -47,7 +47,7 @@ Mercury onboarding revamp + Anthropic onboarding both tested out as wins despite
 - "Quality" gets a budget line in the growth team, not the brand team's residual.
 
 ## Counter-evidence
-Elena Verna's earned-channel work argues most "growth wins" cited from quality investments are actually attribution artifacts — the channel underneath was the lift, not the polish on top. Pair quality investment with explicit channel attribution to confirm the lift isn't borrowed.
+Elena Verna's earned-channel work argues most "growth wins" cited from quality investments are actually attribution artifacts, the channel underneath was the lift, not the polish on top. Pair quality investment with explicit channel attribution to confirm the lift isn't borrowed.
 
 ## Cross-references
-- `ins_friction-as-feature` — concrete tactical version of the quality-drives-growth principle
+- `ins_friction-as-feature`, concrete tactical version of the quality-drives-growth principle

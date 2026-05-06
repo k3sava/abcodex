@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Most B2B marketing is stuck in 2010; hire a vibe marketer to build an AI-first, almost-autonomous marketing engine.
 
 ## Claim
-Everyone follows the same boring playbook—SEO for Google instead of people, and ads that just follow you around online. It's safe, predictable, and why companies stagnate. With AI, excuses about time or skill are dead.
+Everyone follows the same boring playbook, SEO for Google instead of people, and ads that just follow you around online. It's safe, predictable, and why companies stagnate. With AI, excuses about time or skill are dead.
 
 ## Mechanism
 By hiring a creative, fast executor who isn't afraid to break things, you can build an autonomous marketing function that generates demand at scale with minimal human intervention.

@@ -22,7 +22,7 @@ title: 'Pattern interrupts beat optimization in early-stage SaaS marketing'
 
 ## Claim
 
-Scaling SaaS from $5M to $15M ARR isn't about optimizing the same playbook everyone runs — it's about pattern interrupts. Bhandari grew Storylane from $2M to $10M+ ARR in two years and earlier took Hubstaff from $200K to $5M+ by anchoring marketing in insight, creativity, and disruption — bold experiments that align marketing with product and sales rather than incremental funnel tuning.
+Scaling SaaS from $5M to $15M ARR isn't about optimizing the same playbook everyone runs, it's about pattern interrupts. Bhandari grew Storylane from $2M to $10M+ ARR in two years and earlier took Hubstaff from $200K to $5M+ by anchoring marketing in insight, creativity, and disruption, bold experiments that align marketing with product and sales rather than incremental funnel tuning.
 
 ## Mechanism
 
@@ -30,4 +30,4 @@ Early-stage attention is scarce, so marketing that looks like everyone else's ge
 
 ## Conditions
 
-Holds for early-stage SaaS where category isn't yet defined. Fails for mature categories where buyers already have schemas — there optimization beats interrupt.
+Holds for early-stage SaaS where category isn't yet defined. Fails for mature categories where buyers already have schemas, there optimization beats interrupt.

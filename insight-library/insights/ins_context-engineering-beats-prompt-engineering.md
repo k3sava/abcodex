@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The initial setup took maybe a week or so. But getting it actually to work well? That took a quarter and a half. Two full-time people reviewed every output, every single day. We kept finding gaps in the training documents."
 
-— Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
+· Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Teams measure AI workflow quality and tie it back to specific context-doc gaps.

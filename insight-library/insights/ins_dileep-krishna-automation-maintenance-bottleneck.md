@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing.
 
 ## Claim
-The real bottleneck isn't writing test scripts—it's keeping them up to date as your product evolves. If your automation can't adapt with your codebase, you're just trading one headache for another.
+The real bottleneck isn't writing test scripts, it's keeping them up to date as your product evolves. If your automation can't adapt with your codebase, you're just trading one headache for another.
 
 ## Mechanism
 Product updates break test scripts, requiring constant manual upkeep. Autonomous agents that maintain and evolve test coverage eliminate this maintenance loop by adapting automatically to codebase changes.

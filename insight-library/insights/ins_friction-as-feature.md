@@ -37,9 +37,9 @@ Fails when:
 ## Evidence
 > "Cut friction when it doesn't add to a user's experience of why the product is for them. Add friction when it helps users understand whether the product is for them."
 
-Mercury's onboarding rebuild — a whole quarter of fixing onboarding *quality* (not optimization) — became their highest-impact growth project. Anthropic's onboarding asks who-you-are / what-you're-here-for to recommend the right products and features.
+Mercury's onboarding rebuild, a whole quarter of fixing onboarding *quality* (not optimization), became their highest-impact growth project. Anthropic's onboarding asks who-you-are / what-you're-here-for to recommend the right products and features.
 
-— Amole Naik on Lenny's Podcast, 2026-04-27
+· Amole Naik on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Activation-per-signup rises despite total signups holding flat or falling.
@@ -50,4 +50,4 @@ Mercury's onboarding rebuild — a whole quarter of fixing onboarding *quality* 
 Bret Taylor and others argue outcomes-based pricing and zero-friction trials are the dominant pattern in commodity SaaS. There, any front-end friction loses to a competitor offering instant access. Apply Amole's rule when the product genuinely serves narrow ICPs; don't apply it when the product is generic and the value is speed-to-first-action.
 
 ## Cross-references
-- `ins_quality-as-growth-lever` — the broader thesis Amole makes that brand and quality drive growth, not slow it
+- `ins_quality-as-growth-lever`, the broader thesis Amole makes that brand and quality drive growth, not slow it

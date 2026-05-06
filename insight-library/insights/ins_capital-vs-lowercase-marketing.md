@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/krithika-shankarraman--openai-stripe-first-marketer--2026-
 # Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion)
 
 ## Claim
-Most orgs conflate two different things under the word "marketing." **Capital-M Marketing** is the function — channels, artifacts, funnel engines. **lowercase-m marketing** is whole-company: what does the company stand for, what's the founder storyline, what's the ICP sales is hunting. The conflation produces marketing teams asked to fix product positioning, founders asked to ship campaigns, and confused org charts.
+Most orgs conflate two different things under the word "marketing." **Capital-M Marketing** is the function, channels, artifacts, funnel engines. **lowercase-m marketing** is whole-company: what does the company stand for, what's the founder storyline, what's the ICP sales is hunting. The conflation produces marketing teams asked to fix product positioning, founders asked to ship campaigns, and confused org charts.
 
 ## Mechanism
 Capital-M is downstream; lowercase-m is upstream. Capital-M can scale only if lowercase-m is clear. When the org tries to scale Capital-M (more campaigns, more headcount) without lowercase-m clarity, the campaigns produce noise. Naming the distinction lets each function get the right resourcing: lowercase-m belongs to founders and senior PMMs; Capital-M belongs to the marketing function with execution support.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Capital-M is the marketing function — channels, artifacts, funnel engines. Lowercase-m is what the company stands for, the founder storyline, the ICP sales hunts. Most people conflate them."
 
-— Krithika Shankarraman on Lenny's Podcast, 2026-04-27
+· Krithika Shankarraman on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Founders engage with positioning and narrative work directly.

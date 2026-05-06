@@ -13,9 +13,9 @@ secondary_sources:
 
 # Narrative compose playbook
 
-Take positioning + ICP + VoC and compose the master narrative that every asset references. The message house is canonical — if a downstream asset's claim is not in the message house, the asset is rejected. Format-agnostic; the source of truth for every channel.
+Take positioning + ICP + VoC and compose the master narrative that every asset references. The message house is canonical, if a downstream asset's claim is not in the message house, the asset is rejected. Format-agnostic; the source of truth for every channel.
 
-Source synthesis: Andy Raskin (strategic narrative — old game / new game / promised land — `ins_old-game-to-new-game-narrative`), April Dunford (positioning → narrative bridge — `ins_company-story-is-the-strategy`), Robert McKee (story structure), Donald Miller (StoryBrand 7-part), Joanna Wiebe (message hierarchy).
+Source synthesis: Andy Raskin (strategic narrative, old game / new game / promised land, `ins_old-game-to-new-game-narrative`), April Dunford (positioning → narrative bridge, `ins_company-story-is-the-strategy`), Robert McKee (story structure), Donald Miller (StoryBrand 7-part), Joanna Wiebe (message hierarchy).
 
 ## When to use
 
@@ -35,7 +35,7 @@ Source synthesis: Andy Raskin (strategic narrative — old game / new game / pro
 ## Steps
 
 1. **Read substrate.** Positioning, ICP, VoC, competitive, brand voice.
-2. **Compose the strategic narrative (Raskin frame).** Change in the world → new game rules → promised land → obstacles → resolution. The change must be undeniable — visible in the world, not invented in the deck.
+2. **Compose the strategic narrative (Raskin frame).** Change in the world → new game rules → promised land → obstacles → resolution. The change must be undeniable, visible in the world, not invented in the deck.
 3. **Compose the message house.** 1 positioning statement + 3 pillars. Each pillar has: headline, support, evidence, proof point.
 4. **Compose audience-specific reframings.** 1 per major ICP cell, max 3. Same canonical position, different entry door.
 5. **Compose the master CTA system.** 3 CTAs across awareness / consideration / decision.

@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI-generated marketing materials strip out the humanity that makes content compelling.
 
 ## Claim
-Stop sending AI-generated marketing materials to the marketing team. AI takes the essence of what you're saying, polishes it up, and strips out the humanity. I want the unpolished takes, raw insights, ugly first draft, stream-of-consciousness rant—the essence.
+Stop sending AI-generated marketing materials to the marketing team. AI takes the essence of what you're saying, polishes it up, and strips out the humanity. I want the unpolished takes, raw insights, ugly first draft, stream-of-consciousness rant, the essence.
 
 ## Mechanism
 AI tends to smooth over rough edges and remove idiosyncratic language, which is exactly what makes human communication feel authentic and relatable. Marketers need the raw, imperfect, human voice to connect with audiences; polish without personality fails to resonate.

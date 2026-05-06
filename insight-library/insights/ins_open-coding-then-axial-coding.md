@@ -17,13 +17,13 @@ related: [ins_evals-are-data-analysis-on-llm-apps, ins_benevolent-dictator-not-c
 raw_ref: raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md
 ---
 
-# Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes — humans first, machines second
+# Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second
 
 ## Claim
 Run trace review as a two-stage pipeline: a human samples 100+ traces and writes a free-form note on the first thing wrong with each (open coding); then an LLM groups those notes into failure-mode buckets (axial coding). An LLM cannot do the open-coding pass for you because it lacks product context; humans cannot scale the categorisation pass.
 
 ## Mechanism
-Open coding captures domain-specific failure that an LLM judge would miss because the LLM has no privileged access to product reality (e.g., "we don't actually offer virtual tours" — hallucination invisible without context). Axial coding is pure clustering, which LLMs do reliably. The split assigns each task to the actor that can do it, and the resulting pivot table converts qualitative review into quantitative priority.
+Open coding captures domain-specific failure that an LLM judge would miss because the LLM has no privileged access to product reality (e.g., "we don't actually offer virtual tours", hallucination invisible without context). Axial coding is pure clustering, which LLMs do reliably. The split assigns each task to the actor that can do it, and the resulting pivot table converts qualitative review into quantitative priority.
 
 ## Conditions
 Holds when:
@@ -43,7 +43,7 @@ Fails when:
 
 Stopping rule: theoretical saturation, not a fixed count. Once 15–60 traces stop yielding new categories, you stop.
 
-— Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
+· Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Failure-mode pivot table covers >80% of observed problems with a small set of clusters.
@@ -54,6 +54,6 @@ Stopping rule: theoretical saturation, not a fixed count. Once 15–60 traces st
 Coding-agent teams (Claude Code, Codex) operate with much lighter eval discipline because the developer is also the user; the dogfood loop closes inside one head. That pattern does not generalise to products where the buyer is not the builder.
 
 ## Cross-references
-- `ins_evals-are-data-analysis-on-llm-apps` — why this pipeline matters
-- `ins_benevolent-dictator-not-committee` — who runs the human step
-- `ins_llm-as-judge-binary-not-likert` — what the categories become
+- `ins_evals-are-data-analysis-on-llm-apps`, why this pipeline matters
+- `ins_benevolent-dictator-not-committee`, who runs the human step
+- `ins_llm-as-judge-binary-not-likert`, what the categories become

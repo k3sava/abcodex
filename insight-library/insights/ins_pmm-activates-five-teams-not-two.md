@@ -23,16 +23,16 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 Most PMMs stop after creating positioning and messaging strategy; the real impact comes from translating it into tools that activate every team. Five surfaces matter: sales (decks, battlecards, objection handling), product management (persona/insight inputs to roadmap prioritization), customer success (onboarding scripts, upsell playbooks), marketing (campaign messaging playbooks), and leadership/internal (narrative docs that build clarity, momentum, and visibility).
 
 ## Mechanism
-Strategy without activation is invisible to the rest of the company; activation without strategy is incoherent. Tailoring the artifact per team's frontline experience — and making each team feel part of the process — converts the positioning into compounding behavior change. The internal-leadership surface is the most under-served and is also how PMMs build cross-functional visibility.
+Strategy without activation is invisible to the rest of the company; activation without strategy is incoherent. Tailoring the artifact per team's frontline experience, and making each team feel part of the process, converts the positioning into compounding behavior change. The internal-leadership surface is the most under-served and is also how PMMs build cross-functional visibility.
 
 ## Conditions
 Holds when: the PMM has the bandwidth to produce 4-5 different artifact formats and the political capital to ask each team for feedback.
-Fails when: the PMM is solo on a 100+ person company — pick the two highest-leverage surfaces (usually sales + product) and deepen there before expanding.
+Fails when: the PMM is solo on a 100+ person company, pick the two highest-leverage surfaces (usually sales + product) and deepen there before expanding.
 
 ## Evidence
 > "Most PMMs stop at CREATING the strategy. The real impact comes when you TRANSLATE that strategy into tools that ACTIVATE every team to execute with clarity and confidence. […] tailor your output to each team's needs and seek feedback based on their frontline experiences, and better yet, make them feel like they are PART of the process."
 
-— Yi Lin Pei, LinkedIn, 2026-04-10
+· Yi Lin Pei, LinkedIn, 2026-04-10
 
 ## Signals
 - Each of the five teams (sales, product, CS, marketing, leadership) can name a PMM-produced artifact they actively use.

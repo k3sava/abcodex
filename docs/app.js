@@ -274,8 +274,11 @@ function fixAcronymsAndSmallWords(text){
     const re = new RegExp(`\\b${a.replace(/[A-Z]/g, c => `[${c}${c.toLowerCase()}]`)}\\b`, 'g');
     text = text.replace(re, a);
   }
-  // Lowercase common small words inside title-cased phrases (not at start)
-  text = text.replace(/(\S)\s+(And|Or|Of|To|The|A|An|In|On|By|For|With|At|As|But|Vs|Via|From)\s+/g, (m, prev, w) => `${prev} ${w.toLowerCase()} `);
+  // Lowercase common small words inside title-cased phrases (not at start).
+  // Match only spaces/tabs, NEVER newlines — otherwise a heading on one line
+  // and a paragraph on the next get joined into a single heading because the
+  // regex eats the line break (real bug seen on Counter-evidence sections).
+  text = text.replace(/(\S)[ \t]+(And|Or|Of|To|The|A|An|In|On|By|For|With|At|As|But|Vs|Via|From)[ \t]+/g, (m, prev, w) => `${prev} ${w.toLowerCase()} `);
   return text;
 }
 function mdToHtml(md){
@@ -453,11 +456,18 @@ async function insight(id){
   const relatedItems = (c.related || [])
     .map(r => ({ id: r, card: cards.find(x => x.id === r) }))
     .filter(x => x.card);
+  // Reverse cross-links: patterns and playbooks that reference this insight.
+  const inPatterns = patterns.filter(p => (p.uses_cards || []).includes(c.id));
+  const inPlaybooks = playbooks.filter(p => (p.uses_cards || []).includes(c.id));
+  // Sibling cards in the same domain by other operators (cross-domain bridges).
+  const domainPeers = cards
+    .filter(x => x.id !== c.id && x.operator_slug !== c.operator_slug && x.domain.some(d => c.domain.includes(d)))
+    .slice(0, 4);
   app.innerHTML = `<article class='insight-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <a href='#/o/${c.operator_slug}'>${escapeHtml(c.operator)}</a> <span>·</span> <span>${c.id}</span></div>
     <div class='layout'>
       <div>
-        <div class='meta-row' style='margin-bottom:14px;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:10px;align-items:center;flex-wrap:wrap'>${tierBadge(c.tier)}<span>${c.domain.join(' · ')}</span>${c.source_date ? `<span>·</span><span>${c.source_date}</span>` : ''}<span id='readTime' style='display:none' aria-hidden='true'></span></div>
+        <div class='meta-row ins-meta'>${tierBadge(c.tier)}<span class='ins-meta-doms'>${c.domain.map(d => `<a class='ins-meta-dom' href='#/d/${d}'>${d}</a>`).join('<span class="ins-meta-sep">·</span>')}</span>${c.source_date ? `<span class='ins-meta-sep'>·</span><span>${c.source_date}</span>` : ''}<span id='readTime' style='display:none' aria-hidden='true'></span></div>
         <h1>${escapeHtml(c.claim)}</h1>
         <p class='byline'>${escapeHtml(c.operator)}${(c.co_operators||[]).length ? ` <span class='co-byline'>with ${c.co_operators.map(co => `<a href='#/o/${slugify(co)}'>${escapeHtml(co)}</a>`).join(', ')}</span>` : ''}${c.operator_role?`<span class='role'>${escapeHtml(c.operator_role)}</span>`:''}</p>
         <p class='source'>${c.source_url?`<a href='${c.source_url}' target='_blank' rel='noopener'>${escapeHtml(c.source_title||c.source_url)}</a>`:''} ${c.source_date?`<span>·</span><span>${c.source_date}</span>`:''} ${c.source_type?`<span>·</span><span>${c.source_type}</span>`:''}</p>
@@ -503,9 +513,21 @@ async function insight(id){
           <h4>lifecycle</h4>
           <p class='rail-tags'>${c.lifecycle.join(' · ')}</p>
         </section>` : ''}
+        ${inPatterns.length ? `<section class='rail-panel'>
+          <h4>appears in patterns</h4>
+          <ul class='rail-related'>${inPatterns.map(p => `<li><a href='#/pat/${p.id}'>${escapeHtml(p.title || p.id)}</a></li>`).join('')}</ul>
+        </section>` : ''}
+        ${inPlaybooks.length ? `<section class='rail-panel'>
+          <h4>used in playbooks</h4>
+          <ul class='rail-related'>${inPlaybooks.map(p => `<li><a href='#/play/${p.id}'>${escapeHtml(p.title || p.id)}</a></li>`).join('')}</ul>
+        </section>` : ''}
         ${relatedItems.length ? `<section class='rail-panel'>
           <h4>related</h4>
           <ul class='rail-related'>${relatedItems.map(({card: r}) => `<li><a href='#/ins/${r.id}'>${escapeHtml(r.claim)}</a></li>`).join('')}</ul>
+        </section>` : ''}
+        ${domainPeers.length ? `<section class='rail-panel'>
+          <h4>same domain, other operators</h4>
+          <ul class='rail-related'>${domainPeers.map(p => `<li><a href='#/ins/${p.id}'><span class='rail-peer-op'>${escapeHtml(p.operator)}</span> <span class='rail-peer-claim'>${escapeHtml(p.claim)}</span></a></li>`).join('')}</ul>
         </section>` : ''}
         ${(sibPrev || sibNext) ? `<section class='rail-panel rail-sib'>
           <h4>more from ${escapeHtml(c.operator)}</h4>
@@ -671,10 +693,21 @@ async function operatorPage(slug){
   }
   const sources = [...sourceMap.values()].sort((a,b)=> (b.date||'').localeCompare(a.date||''));
 
+  // Compute domains this operator appears in (from their card domains, not just self-declared).
+  const opDomains = new Set();
+  for (const c of opCards){ for (const d of (c.domain || [])) opDomains.add(d); }
+  // Patterns and playbooks they participate in (reverse-link).
+  const opPatterns = patterns.filter(p => (p.uses_cards || []).some(cid => opCards.find(c => c.id === cid)));
+  const opPlaybooks = playbooks.filter(p => {
+    const inCards = (p.uses_cards || []).some(cid => opCards.find(c => c.id === cid));
+    const inOriginators = (p.originating_operators || []).includes(slug);
+    return inCards || inOriginators;
+  });
   app.innerHTML = `<article class='operator-page'>
     <div class='crumbs'><a href='#/'>codex</a> <span>·</span> <a href='#/operators'>operators</a> <span>·</span> <span>${escapeHtml(op.name||slug)}</span></div>
     <h1>${escapeHtml(op.name||slug)}</h1>
     ${op.roles.length?`<div class='roles'>${op.roles.map(r=>`<span class='chip'>${escapeHtml(r)}</span>`).join('')}</div>`:''}
+    ${opDomains.size ? `<div class='op-domains' aria-label='Domains'>${[...opDomains].sort().map(d => `<a class='op-domain-chip' href='#/d/${d}'>${d}</a>`).join('')}</div>` : ''}
     <div class='op-grid'>
       <div class='op-main'>
         <div class='body' id='opBio'><p class='loading-line'>reading the profile…</p></div>
@@ -697,6 +730,14 @@ async function operatorPage(slug){
           </div>` : ''}
         </div>
         <div class='op-card-list' id='opCardList'></div>
+        ${opPatterns.length ? `<div class='op-aside-extra'>
+          <h4>appears in patterns</h4>
+          <ul class='op-rev-list'>${opPatterns.map(p => `<li><a href='#/pat/${p.id}'>${escapeHtml(p.title || p.id)}</a></li>`).join('')}</ul>
+        </div>` : ''}
+        ${opPlaybooks.length ? `<div class='op-aside-extra'>
+          <h4>used in playbooks</h4>
+          <ul class='op-rev-list'>${opPlaybooks.map(p => `<li><a href='#/play/${p.id}'>${escapeHtml(p.title || p.id)}</a></li>`).join('')}</ul>
+        </div>` : ''}
       </aside>
     </div>
   </article>`;
@@ -1482,8 +1523,10 @@ function browse(){
       <h1>browse</h1>
       <div class='browse-meta'><span id='browseResults'>${STATS.cards}</span> of ${STATS.cards} cards</div>
     </header>
+    <div class='browse-active' id='browseActive' hidden></div>
     <div class='browse-shell'>
       <aside class='browse-rail' id='browseRail'>
+        <button class='browse-rail-close' id='browseRailClose' aria-label='Close filters' type='button'>done</button>
         <div class='br-search'><input id='browseQ' type='search' placeholder='search claims, operators…' value='${escapeHtml(browseState.q)}' /></div>
         <div class='br-section'>
           <div class='br-label'>sort</div>
@@ -1514,13 +1557,24 @@ function browse(){
       <main class='browse-list' id='browseList'></main>
     </div>
   </section>`;
-  applyBrowse();
-  document.querySelectorAll('#browseRail [data-tier]').forEach(b => b.onclick = () => { browseState.tier = b.dataset.tier; updateBrowse(); });
-  document.querySelectorAll('#browseRail [data-domain]').forEach(b => b.onclick = () => { browseState.domain = b.dataset.domain; updateBrowse(); });
+  // updateBrowse handles applyBrowse + active-pill row render in one pass.
+  updateBrowse();
+  // Mobile detection — when narrow, close the rail after a selection so the
+  // user can see the filtered list without manually dismissing. Sort changes
+  // don't auto-close (sort is a quick toggle, not a navigational decision).
+  const isMobile = () => window.matchMedia && window.matchMedia('(max-width: 720px)').matches;
+  const rail = document.getElementById('browseRail');
+  const closeRailIfMobile = () => { if (isMobile()) rail.classList.remove('open'); };
+  document.querySelectorAll('#browseRail [data-tier]').forEach(b => b.onclick = () => { browseState.tier = b.dataset.tier; updateBrowse(); closeRailIfMobile(); });
+  document.querySelectorAll('#browseRail [data-domain]').forEach(b => b.onclick = () => { browseState.domain = b.dataset.domain; updateBrowse(); closeRailIfMobile(); });
   document.querySelectorAll('#browseRail [data-sort]').forEach(b => b.onclick = () => { browseState.sort = b.dataset.sort; updateBrowse(); });
   const qel = document.getElementById('browseQ');
   qel.addEventListener('input', e => { browseState.q = e.target.value; clearTimeout(window._brT); window._brT = setTimeout(updateBrowse, 100); });
-  document.getElementById('browseRailToggle').onclick = () => document.getElementById('browseRail').classList.toggle('open');
+  document.getElementById('browseRailToggle').onclick = () => rail.classList.toggle('open');
+  const closeBtn = document.getElementById('browseRailClose');
+  if (closeBtn) closeBtn.onclick = () => rail.classList.remove('open');
+  // Tap-outside dismiss: click on the list area while the rail is open closes it.
+  document.getElementById('browseList').addEventListener('click', () => { if (isMobile() && rail.classList.contains('open')) rail.classList.remove('open'); }, true);
 }
 function applyBrowse(){
   let list = cards.slice();
@@ -1559,6 +1613,33 @@ function updateBrowse(){
   document.querySelectorAll('#browseRail [data-domain]').forEach(b => b.classList.toggle('active', b.dataset.domain === browseState.domain));
   document.querySelectorAll('#browseRail [data-sort]').forEach(b => b.classList.toggle('active', b.dataset.sort === browseState.sort));
   applyBrowse();
+  // Re-render the active-filter pill row so users see what's filtered without
+  // having to open the drawer again. Each pill is removable.
+  const active = document.getElementById('browseActive');
+  if (!active) return;
+  const pills = [];
+  if (browseState.q) pills.push(`<button class='br-active-pill' data-clear='q'>“${escapeHtml(browseState.q)}”<span aria-hidden='true'>×</span></button>`);
+  if (browseState.tier !== 'all') pills.push(`<button class='br-active-pill' data-clear='tier'>tier ${browseState.tier}<span aria-hidden='true'>×</span></button>`);
+  if (browseState.domain !== 'all') pills.push(`<button class='br-active-pill' data-clear='domain'>${escapeHtml(browseState.domain)}<span aria-hidden='true'>×</span></button>`);
+  if (browseState.sort !== 'date') pills.push(`<button class='br-active-pill br-active-sort' data-clear='sort'>sort: ${browseState.sort}<span aria-hidden='true'>×</span></button>`);
+  if (pills.length){
+    active.hidden = false;
+    active.innerHTML = `<span class='br-active-label'>filtered:</span>${pills.join('')}<button class='br-active-edit' data-edit-filters='1'>edit</button>${pills.length > 1 ? `<button class='br-active-clear' data-clear='all'>clear all</button>` : ''}`;
+    active.querySelectorAll('[data-clear]').forEach(el => el.onclick = () => {
+      const k = el.dataset.clear;
+      if (k === 'q'){ browseState.q = ''; const q = document.getElementById('browseQ'); if (q) q.value = ''; }
+      else if (k === 'tier') browseState.tier = 'all';
+      else if (k === 'domain') browseState.domain = 'all';
+      else if (k === 'sort') browseState.sort = 'date';
+      else if (k === 'all'){ browseState.q = ''; const q = document.getElementById('browseQ'); if (q) q.value = ''; browseState.tier = 'all'; browseState.domain = 'all'; browseState.sort = 'date'; }
+      updateBrowse();
+    });
+    const edit = active.querySelector('[data-edit-filters]');
+    if (edit) edit.onclick = () => document.getElementById('browseRail').classList.add('open');
+  } else {
+    active.hidden = true;
+    active.innerHTML = '';
+  }
 }
 
 /* ============ TIMELINE ============ */
@@ -2385,9 +2466,13 @@ function wireSearch(){
     setActiveItem();
   };
 
-  const setActiveItem = () => {
+  // setActiveItem(scroll=false) — only scrollIntoView when explicitly requested
+  // (arrow-key navigation). Calling scrollIntoView on every keystroke dismisses
+  // the iOS keyboard because Safari treats programmatic scrolling during input
+  // as a focus shift.
+  const setActiveItem = (scroll = false) => {
     flatItems.forEach((el,i)=>el.classList.toggle('active', i===activeIdx));
-    if (flatItems[activeIdx]) flatItems[activeIdx].scrollIntoView({ block:'nearest' });
+    if (scroll && flatItems[activeIdx]) flatItems[activeIdx].scrollIntoView({ block:'nearest' });
   };
 
   const openItem = (el, newTab) => {
@@ -2400,9 +2485,10 @@ function wireSearch(){
   };
 
   document.getElementById('searchOpen').onclick = ()=>{ dlg.showModal(); input.value=''; renderEmpty(); input.focus(); };
-  // Click outside (on backdrop) closes — mouse and touch parity with esc
+  // Click outside (on backdrop) closes. iOS dispatches a click on touchend
+  // automatically, so a separate touchend handler is redundant and can fire
+  // mid-keyboard-resize and dismiss the dialog when the user is still typing.
   dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
-  dlg.addEventListener('touchend', e => { if (e.target === dlg) dlg.close(); }, { passive:true });
   document.addEventListener('keydown', e => {
     if ((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){ e.preventDefault(); if (!dlg.open){ dlg.showModal(); input.value=''; renderEmpty(); } input.focus(); }
     if (e.key==='Escape' && dlg.open) dlg.close();
@@ -2415,8 +2501,8 @@ function wireSearch(){
   };
 
   input.addEventListener('keydown', e => {
-    if (e.key === 'ArrowDown'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx+1) % flatItems.length; setActiveItem(); } }
-    else if (e.key === 'ArrowUp'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx-1+flatItems.length) % flatItems.length; setActiveItem(); } }
+    if (e.key === 'ArrowDown'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx+1) % flatItems.length; setActiveItem(true); } }
+    else if (e.key === 'ArrowUp'){ e.preventDefault(); if (flatItems.length){ activeIdx = (activeIdx-1+flatItems.length) % flatItems.length; setActiveItem(true); } }
     else if (e.key === 'Enter'){ e.preventDefault(); openItem(flatItems[activeIdx], e.metaKey||e.ctrlKey); }
   });
 
@@ -2430,8 +2516,12 @@ function wireSearch(){
     const a = e.target.closest('.search-item');
     if (!a) return;
     const i = flatItems.indexOf(a);
-    if (i >= 0 && i !== activeIdx){ activeIdx = i; setActiveItem(); }
+    if (i >= 0 && i !== activeIdx){ activeIdx = i; setActiveItem(false); }
   });
+  // The touchend backdrop-close handler can fire when the iOS keyboard repositions
+  // the dialog and the touch lifts on a now-uncovered area. Use click for backdrop
+  // close (works on tap), keep touchend for desktop touch laptops only.
+  // (No code change needed; the original click handler already covers it.)
 }
 
 /* ============ HEADER + SCROLL ============ */

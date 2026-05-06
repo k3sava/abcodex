@@ -20,7 +20,7 @@ raw_ref: raw/essays/lily-ray--ai-slop-loop--2026-04-23.md
 # A single seeded fake claim can self-confirm in AI Overviews
 
 ## Claim
-AI Overviews and similar synthesis surfaces have a thin verification layer for sparsely-covered claims, so a single seeded fake claim can self-confirm by citing the source that introduced it — meaning brand-protection now requires actively monitoring for hallucinated claims about the brand.
+AI Overviews and similar synthesis surfaces have a thin verification layer for sparsely-covered claims, so a single seeded fake claim can self-confirm by citing the source that introduced it, meaning brand-protection now requires actively monitoring for hallucinated claims about the brand.
 
 ## Mechanism
 LLM-mediated synthesis surfaces look for sources to support a query. When a query has thin corpus coverage, the synthesizer can latch onto the only available source, including a single newly published page. If that page is the fake source, the surface confirms the fake. The result is a self-confirming loop: the user asks "is X true," the surface answers "yes, per [seeded source]," and the seeded source is now socially validated. Competitors or random actors can deliberately exploit this; brands without monitoring can't see the propagation until it produces real damage.
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 Lily Ray published an AI-written post claiming a fake Google core update for January 2026. Within weeks, AI Overviews started confirming the fake update and citing her site as the only source. The cycle was: AI-written claim → indexed → AI synthesis surface picks it up as the only available source → user query confirms it → claim socially validated.
 
-— Lily Ray, *The AI Slop Loop*, https://lilyraynyc.substack.com/p/the-ai-slop-loop, 2026-04-23
+· Lily Ray, *The AI Slop Loop*, https://lilyraynyc.substack.com/p/the-ai-slop-loop, 2026-04-23
 
 ## Signals
 - Brand-protection workflows include weekly AI-surface sweeps for hallucinated brand claims.
@@ -50,6 +50,6 @@ Lily Ray published an AI-written post claiming a fake Google core update for Jan
 The mechanism depends on the synthesizer behavior continuing as documented. Model providers are aware and add verification, citation diversity, and recency weighting; the gap may shrink. Operators who over-invest in tracer-claim probes can trigger their own goodhart problem.
 
 ## Cross-references
-- `ins_manual-action-propagates-to-ai-surfaces` — Glenn Gabe's parallel propagation case (negative-quality direction).
-- `ins_ghost-citation-gap` — Kevin Indig's data on which content types get AI surfaces to name brands.
-- `ins_aeo-three-layer-presence-readiness-impact` — the measurement framework needs a hallucination/brand-risk lane.
+- `ins_manual-action-propagates-to-ai-surfaces`, Glenn Gabe's parallel propagation case (negative-quality direction).
+- `ins_ghost-citation-gap`, Kevin Indig's data on which content types get AI surfaces to name brands.
+- `ins_aeo-three-layer-presence-readiness-impact`, the measurement framework needs a hallucination/brand-risk lane.

@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Build for AI agents, not chatbots — that's where the moat is when features get copied
+# Build for AI agents, not chatbots, that's where the moat is when features get copied
 
 ## Claim
 
-After hitting $5M+ ARR with Chatbase in two years, the lesson is that 'chat with PDF' is a feature anyone can copy. The pivot to building a platform for customer-facing AI agents — bots that can take real actions like updating subscriptions or rescheduling appointments — is what created a durable business. The technical barrier to entry is higher, the market is larger, and the long-term defensibility is real. When features are easy to copy, the only moat is product quality and the depth of the action layer.
+After hitting $5M+ ARR with Chatbase in two years, the lesson is that 'chat with PDF' is a feature anyone can copy. The pivot to building a platform for customer-facing AI agents, bots that can take real actions like updating subscriptions or rescheduling appointments, is what created a durable business. The technical barrier to entry is higher, the market is larger, and the long-term defensibility is real. When features are easy to copy, the only moat is product quality and the depth of the action layer.
 
 ## Mechanism
 

@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 I built my own PMM skill framework because HR's generic levels never covered the specific skillsets I expect from Junior, PMM, and Senior PMMs.
 
 ## Mechanism
-By defining what 'good' looks like at each level, PMMs can self-assess, identify growth areas, and get assigned quarterly projects that build those skills within real work—making development part of the job, not an add-on.
+By defining what 'good' looks like at each level, PMMs can self-assess, identify growth areas, and get assigned quarterly projects that build those skills within real work, making development part of the job, not an add-on.

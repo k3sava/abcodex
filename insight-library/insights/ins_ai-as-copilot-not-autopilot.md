@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/ben-tossell.md
 ---
 
-# AI is the co-pilot, not the autopilot — automate the 80% you understand, hold the 20% that needs taste
+# AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste
 
 ## Claim
 The path to a profitable AI-augmented business is to use AI on the 80% of work that is well-understood and repetitive, hold human judgment for the 20% that requires taste, context, and customer understanding, and automate operational overhead (scheduling, formatting, routing) that consumes time without creating value. Ship deliberately imperfect to learn faster than you can plan.
 
 ## Mechanism
-Treating AI as autopilot — a system that handles the whole job — produces output that lacks the editorial taste readers and customers detect immediately. Treating AI as co-pilot keeps the founder in the loop on the parts that compound: voice, judgment, customer relationship. Ben's Bites scaled to 100K subscribers in 13 months using this model: AI assists the curation/format work, the founder owns the editorial point of view and community relationship.
+Treating AI as autopilot, a system that handles the whole job, produces output that lacks the editorial taste readers and customers detect immediately. Treating AI as co-pilot keeps the founder in the loop on the parts that compound: voice, judgment, customer relationship. Ben's Bites scaled to 100K subscribers in 13 months using this model: AI assists the curation/format work, the founder owns the editorial point of view and community relationship.
 
 ## Conditions
 Holds when:
@@ -31,13 +31,13 @@ Holds when:
 - Operational overhead is scriptable with current AI tools.
 
 Fails when:
-- The taste-laden component is too implicit to extract — AI handoffs leak the brand.
+- The taste-laden component is too implicit to extract, AI handoffs leak the brand.
 - Pure infrastructure or B2B-API products where there is no editorial 20% to defend.
 
 ## Evidence
 > "AI is the co-pilot, not the autopilot — the path to a profitable AI business is teaching others to use tools effectively, building in public, and structuring your business around what you love doing while automating what you hate."
 
-— Ben Tossell (synthesized from operator's published work)
+· Ben Tossell (synthesized from operator's published work)
 
 ## Signals
 - Founder publicly names which 20% they refuse to delegate.

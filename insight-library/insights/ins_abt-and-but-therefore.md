@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/park-howell.md
 # ABT (And, But, Therefore) is the DNA of compelling communication
 
 ## Claim
-The ABT framework — And (set up agreement / context), But (introduce the conflict or tension), Therefore (resolve with a clear consequence or solution) — is the DNA of all compelling communication. Most business prose fails because it's pure And-And-And (additive context with no tension) or And-But-And (raises tension and never resolves). The ABT structure forces every communication into a story shape the brain processes naturally.
+The ABT framework, And (set up agreement / context), But (introduce the conflict or tension), Therefore (resolve with a clear consequence or solution), is the DNA of all compelling communication. Most business prose fails because it's pure And-And-And (additive context with no tension) or And-But-And (raises tension and never resolves). The ABT structure forces every communication into a story shape the brain processes naturally.
 
 ## Mechanism
-Brain science (Paul Zak's oxytocin research, Kahneman's dual-process cognition, Kendall Haven's "neuro-story net") supports that the human brain processes information through narrative structure regardless of medium. Without explicit conflict (the "But"), prose reads as a list and is forgotten. Without resolution (the "Therefore"), prose creates anxiety without payoff. ABT also pairs with the 10-step Story Cycle System, which maps Joseph Campbell's Hero's Journey to business — placing the customer as hero, the brand as mentor, never the reverse.
+Brain science (Paul Zak's oxytocin research, Kahneman's dual-process cognition, Kendall Haven's "neuro-story net") supports that the human brain processes information through narrative structure regardless of medium. Without explicit conflict (the "But"), prose reads as a list and is forgotten. Without resolution (the "Therefore"), prose creates anxiety without payoff. ABT also pairs with the 10-step Story Cycle System, which maps Joseph Campbell's Hero's Journey to business, placing the customer as hero, the brand as mentor, never the reverse.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "The 10-step Story Cycle System maps Joseph Campbell's Hero's Journey to business to place the customer as hero and the brand as mentor."
 
-— Park Howell, *Brand Bewitchery* (synthesized from operator's published work)
+· Park Howell, *Brand Bewitchery* (synthesized from operator's published work)
 
 ## Signals
 - Pitch decks open with a literal And-But-Therefore beat structure on the first three slides.

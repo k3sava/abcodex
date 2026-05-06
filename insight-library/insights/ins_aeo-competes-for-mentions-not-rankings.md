@@ -27,14 +27,14 @@ LLM answer engines synthesize from multiple sources rather than rank-ordering on
 
 ## Conditions
 Holds when: the brand has an opinionated POV worth citing and structured presence to back it.
-Fails when: the brand has no differentiated POV — generic copy gets averaged out of the answer.
+Fails when: the brand has no differentiated POV, generic copy gets averaged out of the answer.
 
 ## Evidence
 > "In SEO, you compete for rankings. In AEO, you compete for mentions."
-— Maja Voje, GTM Strategist, 2026-04-17
+· Maja Voje, GTM Strategist, 2026-04-17
 
 > "AEO isn't a content thing or an SEO experiment. It's a GTM capability."
-— Maja Voje, GTM Strategist, 2026-04-17
+· Maja Voje, GTM Strategist, 2026-04-17
 
 ## Signals
 - AEO budget reports to PMM or revenue marketing, not to SEO.
@@ -42,7 +42,7 @@ Fails when: the brand has no differentiated POV — generic copy gets averaged o
 - Brand POV documents become the canonical input to AEO content briefs.
 
 ## Counter-evidence
-For commodity categories with no real differentiation, AEO collapses back into SEO mechanics — schema and crawlability dominate.
+For commodity categories with no real differentiation, AEO collapses back into SEO mechanics, schema and crawlability dominate.
 
 ## Cross-references
 - (none in current corpus)

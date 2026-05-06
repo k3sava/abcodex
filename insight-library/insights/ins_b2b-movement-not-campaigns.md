@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/dave-gerhardt.md
 ---
 
-# Build a movement around a polarizing POV — brand equity compounds, paid acquisition doesn't
+# Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't
 
 ## Claim
 B2B marketing's creativity deficit comes from over-indexing on lead-gen mechanics. The companies that win build a movement around a bold, polarizing point of view, then use the resulting brand equity to drive demand at a fraction of competitor paid spend. Three tenets: (1) the founder's story is a strategic weapon, (2) social media is a content *testing lab*, not a distribution channel, (3) distribution beats creation.
@@ -39,7 +39,7 @@ Fails when:
 
 > "Whose content are you actually looking forward to reading and why?"
 
-— Dave Gerhardt (synthesized from operator's published work)
+· Dave Gerhardt (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks earned reach (LinkedIn organic, podcast mentions) alongside paid.

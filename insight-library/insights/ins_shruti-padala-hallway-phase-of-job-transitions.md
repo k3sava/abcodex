@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Job transitions have a 'hallway phase' where nothing is wrong but nothing feels familiar.
 
 ## Claim
-During a job move, there's an unsettling in-between space where your routine loosens, your mind wanders into doubts, and even confident decisions feel shaky. It's like moving houses — you've left the old place but haven't arrived at the new one yet.
+During a job move, there's an unsettling in-between space where your routine loosens, your mind wanders into doubts, and even confident decisions feel shaky. It's like moving houses, you've left the old place but haven't arrived at the new one yet.
 
 ## Mechanism
 The lack of structure in the transition period makes thoughts louder and creates emotional weirdness, even when the next step is right. The feeling resolves once you step into the new role and start making it your own.

@@ -16,9 +16,9 @@ Actionable rules for non-designers producing landing pages, emails, ads, decks, 
 
 ## When to use
 
-Any visual asset before publish. Pair with the messaging matrix output — copy first, then design.
+Any visual asset before publish. Pair with the messaging matrix output, copy first, then design.
 
-## 1. Visual hierarchy — three levers
+## 1. Visual hierarchy, three levers
 
 Size, weight, color. Design in grayscale first. Add color only after hierarchy works without it.
 
@@ -80,7 +80,7 @@ Line length 50–75 characters; 66 is the sweet spot. Mobile 35–50 acceptable.
 
 - Reuse the same button styles, card styles, section padding across the site.
 - Variants for state (default, hover, active, disabled) are consistent.
-- Define and stick to a section rhythm — the same visual cadence throughout.
+- Define and stick to a section rhythm, the same visual cadence throughout.
 
 ## Quality gates
 

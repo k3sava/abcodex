@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "• You'll be misunderstood by the exact people you are fighting for"
 
-— Ani Filipova, LinkedIn, 2026-04-10
+· Ani Filipova, LinkedIn, 2026-04-10
 
 ## Signals
 - You'll be misunderstood by the exact people you are fighting for

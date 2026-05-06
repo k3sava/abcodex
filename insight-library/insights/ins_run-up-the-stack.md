@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/packy-mccormick.md
 ---
 
-# Run up the stack — use commoditized capabilities as inputs to create higher-order human value
+# Run up the stack, use commoditized capabilities as inputs to create higher-order human value
 
 ## Claim
-As each layer of capability gets commoditized by AI (writing, coding, analysis, design), the winners are those who use the newly cheap layer as an *input* to create higher-order value. Don't compete with machines at the commoditized layer — climb to the layer above where human judgment, taste, creativity, relationships, and strategic thinking remain scarce. The stack keeps moving up; the strategy requires continuous learning and adaptation.
+As each layer of capability gets commoditized by AI (writing, coding, analysis, design), the winners are those who use the newly cheap layer as an *input* to create higher-order value. Don't compete with machines at the commoditized layer, climb to the layer above where human judgment, taste, creativity, relationships, and strategic thinking remain scarce. The stack keeps moving up; the strategy requires continuous learning and adaptation.
 
 ## Mechanism
-Static positions get eaten. The mechanic: identify what was scarce yesterday and is commoditized today, treat it as a cheap input, build higher-order combinations that weren't economically viable before. AI brings economies of scale and network effects to industries that previously couldn't achieve them — accounting, law, consulting, labor — because they depended on scarce human expertise. McCormick's prescription: don't shrink from new commoditization; play with it, experiment, discover what it now enables.
+Static positions get eaten. The mechanic: identify what was scarce yesterday and is commoditized today, treat it as a cheap input, build higher-order combinations that weren't economically viable before. AI brings economies of scale and network effects to industries that previously couldn't achieve them, accounting, law, consulting, labor, because they depended on scarce human expertise. McCormick's prescription: don't shrink from new commoditization; play with it, experiment, discover what it now enables.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Understand what was formerly scarce and is now commoditized, do not shrink from it, play with it, experiment, and discover what it enables that you could not do before."
 
-— Packy McCormick (synthesized from operator's published work)
+· Packy McCormick (synthesized from operator's published work)
 
 ## Signals
 - Operator names which capability they treat as cheap input vs. defended differentiator.
@@ -47,7 +47,7 @@ Fails when:
 - New offerings combine multiple just-commoditized capabilities the previous-layer competitors haven't combined yet.
 
 ## Counter-evidence
-Some category leaders defend by going *down* the stack — vertical integration into capabilities others rent (Apple's silicon, Tesla's batteries) — proving "run up" isn't always the right vector. Run-up is a knowledge-work prescription; capital-intensive industries follow different physics.
+Some category leaders defend by going *down* the stack, vertical integration into capabilities others rent (Apple's silicon, Tesla's batteries), proving "run up" isn't always the right vector. Run-up is a knowledge-work prescription; capital-intensive industries follow different physics.
 
 ## Cross-references
 - (none in current corpus)

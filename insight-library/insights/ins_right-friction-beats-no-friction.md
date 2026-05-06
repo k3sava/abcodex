@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md
 # Keep friction that helps users understand the product; cut the rest
 
 ## Claim
-"Cut all friction" is the wrong default for onboarding and activation. Friction that helps the user understand the product *for them* — quizzes, intent questions, multi-step tailoring — increases activation and powers downstream lifecycle. Cut the friction that does not teach.
+"Cut all friction" is the wrong default for onboarding and activation. Friction that helps the user understand the product *for them*, quizzes, intent questions, multi-step tailoring, increases activation and powers downstream lifecycle. Cut the friction that does not teach.
 
 ## Mechanism
-Some friction is signal collection: it teaches the product about the user, and teaches the user that the product fits them. Removing it shortens time-to-signup but lowers conversion to real value because the user arrives unsegmented and unmotivated. The captured intent also feeds lifecycle, lookalike targeting, and downstream personalisation — value that is invisible at the activation step but compounds over months.
+Some friction is signal collection: it teaches the product about the user, and teaches the user that the product fits them. Removing it shortens time-to-signup but lowers conversion to real value because the user arrives unsegmented and unmotivated. The captured intent also feeds lifecycle, lookalike targeting, and downstream personalisation, value that is invisible at the activation step but compounds over months.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "Cut friction that doesn't help users understand the product *for them*; keep friction that does. Bonus: the data captured up-funnel powers lifecycle + lookalike targeting downstream."
 
-— Amol Avasare on Lenny's Podcast, 2026-04-05
+· Amol Avasare on Lenny's Podcast, 2026-04-05
 
 ## Signals
 - Step-1 conversion drops slightly but downstream activation and 30-day retention rise.
@@ -52,5 +52,5 @@ Fails when:
 Most growth orthodoxy says "remove every step you can." For commodity products and well-understood use cases (e.g., a free utility), that orthodoxy is right. The "right friction" insight is conditional on segmentable products. Also, friction designed for the team's analytics, not the user, fails this test and should be cut.
 
 ## Cross-references
-- `ins_quality-as-growth-lever` — the same operator's claim that quality-fixing beats funnel optimisation
-- `ins_progressive-trust-onboarding` — Claire Vo's analogous staging for agents
+- `ins_quality-as-growth-lever`, the same operator's claim that quality-fixing beats funnel optimisation
+- `ins_progressive-trust-onboarding`, Claire Vo's analogous staging for agents

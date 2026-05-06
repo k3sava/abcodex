@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something better for you."
 
-— Lola Han, LinkedIn, 2026-04-10
+· Lola Han, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

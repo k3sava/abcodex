@@ -20,10 +20,10 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 # Context documents are reusable battery packs that need named owners
 
 ## Claim
-Well-built context documents are reusable across AI and agentic workflows — one ICP doc, one positioning doc, one competitive map can power outbound email, competitive analysis, launch video scripts, and more. But this only compounds if each document has a named owner who maintains it. Without ownership, the docs decay and the workflows downstream go with them.
+Well-built context documents are reusable across AI and agentic workflows, one ICP doc, one positioning doc, one competitive map can power outbound email, competitive analysis, launch video scripts, and more. But this only compounds if each document has a named owner who maintains it. Without ownership, the docs decay and the workflows downstream go with them.
 
 ## Mechanism
-Context documents are write-once, read-many. The marginal cost of reuse approaches zero, so the ROI scales with workflow count. But context decays — products change, competitors move, ICP shifts — and unowned docs become trust-negative within a quarter. Ownership turns the doc from artifact into living substrate.
+Context documents are write-once, read-many. The marginal cost of reuse approaches zero, so the ROI scales with workflow count. But context decays, products change, competitors move, ICP shifts, and unowned docs become trust-negative within a quarter. Ownership turns the doc from artifact into living substrate.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Context documents need clear owners. Someone has to maintain, update, and ensure they're accurate. And since they are reusable, those context documents act like battery packs that can power multiple AI and agentic workflows."
 
-— Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
+· Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Context-doc inventory exists and each entry has an owner column.

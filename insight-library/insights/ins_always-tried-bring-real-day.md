@@ -17,12 +17,12 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And a
+# I've always tried to bring real, day-to-day PMM insights that no one talks about. And a
 ## Claim
-Excited to share that I’ve been recognised again in the Top 100 Product Marketing Influencers for 2025. When I stepped into Product Marketing, I had no roadmap. Just curiosity, a willingness to learn fast, and a belief that PMM can be one of the highest-impact functions in any company.
+Excited to share that I've been recognised again in the Top 100 Product Marketing Influencers for 2025. When I stepped into Product Marketing, I had no roadmap. Just curiosity, a willingness to learn fast, and a belief that PMM can be one of the highest-impact functions in any company.
 
 ## Mechanism
-Since last year, I’ve also been mentoring folks and supporting the community, so thank you for all the appreciation and for everything you’ve learned from me.
+Since last year, I've also been mentoring folks and supporting the community, so thank you for all the appreciation and for everything you've learned from me.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I’ve always tried to bring real, day-to-day PMM insights that no one talks about. And as PMM shifts again, I’ll keep being vocal about what matters: learn AI, learn GTM systems, step up."
 
-— Sachin Jha, LinkedIn, 2026-04-10
+· Sachin Jha, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

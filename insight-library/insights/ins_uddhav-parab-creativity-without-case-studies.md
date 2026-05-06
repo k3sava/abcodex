@@ -18,15 +18,15 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Direct the creative work — don't hog the juicy writing from juniors
+# Direct the creative work, don't hog the juicy writing from juniors
 
 ## Claim
 
-Most creative directors hoard the meaty work and leave juniors with content calendars and no real campaign ideas to put in their portfolios. The fix at Interactive Avenues is the opposite: be the Creative Director who directs the work instead of greedily hogging it. Use AI for the boring parts, but don't let it override gut and common sense. Real awards for real client work is the only goal worth chasing — and chasing it requires giving juniors the campaigns that build their portfolios.
+Most creative directors hoard the meaty work and leave juniors with content calendars and no real campaign ideas to put in their portfolios. The fix at Interactive Avenues is the opposite: be the Creative Director who directs the work instead of greedily hogging it. Use AI for the boring parts, but don't let it override gut and common sense. Real awards for real client work is the only goal worth chasing, and chasing it requires giving juniors the campaigns that build their portfolios.
 
 ## Mechanism
 
-When CDs hoard creative work, juniors leave because their portfolio stalls. The agency loses the talent pipeline. Directing instead of doing means juniors get reps on real campaigns, which produces both the next generation of creatives and a more interesting agency body of work — because direction multiplies through more hands than any one CD's keyboard.
+When CDs hoard creative work, juniors leave because their portfolio stalls. The agency loses the talent pipeline. Directing instead of doing means juniors get reps on real campaigns, which produces both the next generation of creatives and a more interesting agency body of work, because direction multiplies through more hands than any one CD's keyboard.
 
 ## Conditions
 

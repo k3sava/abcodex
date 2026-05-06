@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/tiago-forte.md
 ---
 
-# Brains are for having ideas, not storing them — externalize knowledge so AI can compound it for you
+# Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you
 
 ## Claim
-Our brains are for having ideas, not storing them. An external, organized knowledge system compounds over time and becomes the foundation for creative output — especially now that AI can search, synthesize, and surface that knowledge on demand. PARA organizes the system: Projects (active), Areas (ongoing), Resources (reference), Archives (inactive). Progressive Summarization layers — capture verbatim, then bold the bold, then highlight the highlighted — produces discoverable notes that AI can mine.
+Our brains are for having ideas, not storing them. An external, organized knowledge system compounds over time and becomes the foundation for creative output, especially now that AI can search, synthesize, and surface that knowledge on demand. PARA organizes the system: Projects (active), Areas (ongoing), Resources (reference), Archives (inactive). Progressive Summarization layers, capture verbatim, then bold the bold, then highlight the highlighted, produces discoverable notes that AI can mine.
 
 ## Mechanism
-Brain-as-storage produces unreliable retrieval and creates anxiety that suppresses idea-generation. Externalized notes free the brain to do what it's good at — making connections — while the system handles recall. PARA organizes by *actionability*, not subject matter: where does this note help me right now? Progressive Summarization creates retrieval-friendly artifacts: skim the bolded layer when you need the gist, dive into the verbatim when depth matters. AI synthesis on top of a Second Brain compounds: years of notes become a queryable knowledge base for the operator.
+Brain-as-storage produces unreliable retrieval and creates anxiety that suppresses idea-generation. Externalized notes free the brain to do what it's good at, making connections, while the system handles recall. PARA organizes by *actionability*, not subject matter: where does this note help me right now? Progressive Summarization creates retrieval-friendly artifacts: skim the bolded layer when you need the gist, dive into the verbatim when depth matters. AI synthesis on top of a Second Brain compounds: years of notes become a queryable knowledge base for the operator.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Our brains are for having ideas, not storing them — an external, organized knowledge system compounds over time and becomes the foundation for creative output, especially when AI can now search, synthesize, and surface that knowledge on demand."
 
-— Tiago Forte, *Building a Second Brain* (synthesized from operator's published work)
+· Tiago Forte, *Building a Second Brain* (synthesized from operator's published work)
 
 ## Signals
 - Operator has a Second Brain (PARA-organized, or equivalent) actively maintained.

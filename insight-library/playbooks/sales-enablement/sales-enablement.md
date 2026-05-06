@@ -39,7 +39,7 @@ Core principle: enablement exists to influence deals, not to produce documents. 
 
 ## Frameworks
 
-- **PMM-Sales operating model (Dock):** 6 functions — Positioning, Content, Intelligence, Coaching, Systems, Feedback.
+- **PMM-Sales operating model (Dock):** 6 functions, Positioning, Content, Intelligence, Coaching, Systems, Feedback.
 - **5-key strategy (Dock):** Research → Audit → Create → Manage → Measure.
 - **Sales vs. Buyer enablement distinction:** Assets that help reps sell vs. assets that help prospects advocate internally. Build both.
 - **Content-to-cycle mapping:** Awareness → Consideration → Decision asset types.

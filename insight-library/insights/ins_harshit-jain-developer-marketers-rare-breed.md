@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Technical PMM is the rare hire that lets you market to engineers — without translation loss
+# Technical PMM is the rare hire that lets you market to engineers, without translation loss
 
 ## Claim
 

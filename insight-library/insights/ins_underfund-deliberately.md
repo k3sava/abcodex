@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.
 # Underfund teams deliberately so AI substrate, not headcount, absorbs the work
 
 ## Claim
-When a team has access to a strong AI substrate, deliberately under-staff each project — one person plus the substrate beats a fully-staffed team — because constraint forces clarity and lets the substrate absorb the rest.
+When a team has access to a strong AI substrate, deliberately under-staff each project, one person plus the substrate beats a fully-staffed team, because constraint forces clarity and lets the substrate absorb the rest.
 
 ## Mechanism
 Adding humans to a workstream the substrate can do creates coordination overhead, slower decisions, and weaker individual ownership. A single under-resourced operator with strong tooling has to clarify scope to ship at all; that forced clarification is where the productivity comes from. The substrate eats the throughput gap.
@@ -43,7 +43,7 @@ Fails when:
 
 Anthropic measured *both* more people and more output per person. Boris ships 10–30 PRs/day with ~5 Claude Code agents in parallel and is still one of the most prolific committers on his team.
 
-— Boris Cherny on Lenny's Podcast, 2026-04-27
+· Boris Cherny on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Time-to-first-decision on a new workstream drops; a single named owner is set within hours, not weeks.
@@ -55,5 +55,5 @@ Anthropic measured *both* more people and more output per person. Boris ships 10
 Operators with no substrate access, or in regulated domains where every artifact must be co-reviewed, will hit a quality wall fast. Underfunding without compensating substrate is just the old "do more with less" trap. Boris is explicit that the win comes from substrate + token budget, not constraint alone.
 
 ## Cross-references
-- `ins_agents-as-team-not-tools` — the substrate side of the same equation
-- `ins_manager-skill-not-technical` — the operating-discipline prerequisite
+- `ins_agents-as-team-not-tools`, the substrate side of the same equation
+- `ins_manager-skill-not-technical`, the operating-discipline prerequisite

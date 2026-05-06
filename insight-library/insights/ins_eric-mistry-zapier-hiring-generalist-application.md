@@ -22,11 +22,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-Customer education's next leap depends on breaking down the organizational silos between education, customer success, and marketing — and on treating learning interventions like a product with clean data architecture underneath. AI and automation only scale education when teams collaborate as a community of practice rather than running parallel content factories.
+Customer education's next leap depends on breaking down the organizational silos between education, customer success, and marketing, and on treating learning interventions like a product with clean data architecture underneath. AI and automation only scale education when teams collaborate as a community of practice rather than running parallel content factories.
 
 ## Mechanism
 
-Education content fragments when each function owns its own slice — onboarding from CS, evergreen from marketing, in-product from edu. Customers see the seams. A shared data architecture and editorial process lets each team contribute the right asset at the right moment in the journey, and AI amplifies that instead of multiplying the seams.
+Education content fragments when each function owns its own slice, onboarding from CS, evergreen from marketing, in-product from edu. Customers see the seams. A shared data architecture and editorial process lets each team contribute the right asset at the right moment in the journey, and AI amplifies that instead of multiplying the seams.
 
 ## Conditions
 

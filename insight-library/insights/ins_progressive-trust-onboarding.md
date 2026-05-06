@@ -39,7 +39,7 @@ Fails when:
 >
 > "First you get my calendar, then you can read my email, then I guess you could draft some emails, then you can send the emails."
 
-— Claire Vo on Lenny's Podcast, 2026-04-28
+· Claire Vo on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Each agent has a documented permission tier, not a yes/no access list.
@@ -50,5 +50,5 @@ Fails when:
 No opposing view in current corpus.
 
 ## Cross-references
-- `ins_agents-as-team-not-tools` — the team frame this protocol implements
-- `ins_manager-skill-not-technical` — the operator skill needed to run the ramp
+- `ins_agents-as-team-not-tools`, the team frame this protocol implements
+- `ins_manager-skill-not-technical`, the operator skill needed to run the ramp

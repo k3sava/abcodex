@@ -17,7 +17,7 @@ related: [ins_fish-where-the-fish-are]
 raw_ref: raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md
 ---
 
-# Same service, different segment, 5x price — the variable is buyer economics, not effort
+# Same service, different segment, 5x price, the variable is buyer economics, not effort
 
 ## Claim
 A near-identical service can charge $1K/month to one buyer segment and $5K/month to another based on the buyer's transaction economics, not the service's complexity. Pick the segment by where the money is, not by where your passion is.
@@ -39,7 +39,7 @@ Fails when:
 
 Wilkinson notes the necessary input is industry research before launch, not category passion. "Anti-idea, pro-research."
 
-— Andrew Wilkinson on Lenny's Podcast, 2026-04-28
+· Andrew Wilkinson on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Sales conversations in the higher-paying segment converge to "yes, this pays for itself in one transaction."
@@ -50,4 +50,4 @@ Wilkinson notes the necessary input is industry research before launch, not cate
 Some founders thrive in the cheaper segment because they enjoy the customer base or have organic distribution there. Don Draper-grade demand creation can turn a low-margin segment into a high-margin one. The rule is "pick by economics" as a default; founder-fit can override it.
 
 ## Cross-references
-- `ins_fish-where-the-fish-are` — the niche-picking rule this complements
+- `ins_fish-where-the-fish-are`, the niche-picking rule this complements

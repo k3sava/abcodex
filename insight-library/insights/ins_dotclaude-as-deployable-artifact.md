@@ -20,7 +20,7 @@ raw_ref: raw/essays/pawel-huryn--claude-code-as-config--2026-04-27.md
 # Treat `.claude/` as a deployable artifact with versioning and rollback
 
 ## Claim
-LLM tool configuration (`.claude/`, agent identities, tool inventories) is production infrastructure, not a one-time setup — versioning it as a deployable artifact with rollback expectations catches cost regressions, capability shifts, and quality drift before they propagate.
+LLM tool configuration (`.claude/`, agent identities, tool inventories) is production infrastructure, not a one-time setup, versioning it as a deployable artifact with rollback expectations catches cost regressions, capability shifts, and quality drift before they propagate.
 
 ## Mechanism
 LLM tool configuration directly controls cost, capability, and quality. Unversioned config drift is invisible until a cost spike or quality regression surfaces (often weeks later, at month-close billing). Treating config as code (versioned, reviewed, rolled forward and back) catches drift at change time, makes cost shifts auditable, and lets teams compare configurations across machines or operators. The same hygiene that production codebases enforce applies to the agent-config layer.
@@ -41,7 +41,7 @@ April 27 entry: cut "$1,389/mo to $200/mo on the same Claude Code workflow" by f
 
 April 14 entry: treat `.claude/` as a deployable artifact with versioning and rollback expectations.
 
-— Pawel Huryn, *Product Compass*, https://www.productcompass.pm/archive, April 2026
+· Pawel Huryn, *Product Compass*, https://www.productcompass.pm/archive, April 2026
 
 ## Signals
 - `.claude/` (or equivalent) lives in version control with a CHANGELOG.
@@ -52,5 +52,5 @@ April 14 entry: treat `.claude/` as a deployable artifact with versioning and ro
 For solo operators, config-as-code overhead can exceed value; manual edits and verbal memory work fine. The discipline becomes load-bearing only at team scale or when cost is material.
 
 ## Cross-references
-- `ins_llm-wiki-pattern` — Karpathy's parallel for the knowledge layer.
-- `ins_use-new-tools-as-new-tools` — adjacent claim about treating new tools as their own thing.
+- `ins_llm-wiki-pattern`, Karpathy's parallel for the knowledge layer.
+- `ins_use-new-tools-as-new-tools`, adjacent claim about treating new tools as their own thing.

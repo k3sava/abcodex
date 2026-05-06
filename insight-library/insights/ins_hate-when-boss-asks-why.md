@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "- They hate when the boss asks why a tiny edit took seventeen minutes, but will take a seventeen minute break not-so-important-call that they would never have taken in an office."
 
-— Divyank Jain, LinkedIn, 2026-04-10
+· Divyank Jain, LinkedIn, 2026-04-10
 
 ## Signals
 - They hate being micromanaged, but will watch a full Bigg Boss (or whatever else) episode while taking a meeting.

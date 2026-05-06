@@ -17,13 +17,13 @@ related: [ins_skok-salesperson-unit-economics, ins_coachability-beats-experience
 raw_ref: raw/expert-content/experts/david-skok.md
 ---
 
-# 30-40% of sales hires never reach quota — plan against the failure rate, not the headcount
+# 30-40% of sales hires never reach quota, plan against the failure rate, not the headcount
 
 ## Claim
 Skok's empirical observation: 30-40% of sales hires fail to reach quota. Hiring plans that assume linear productivity from the headcount on the org chart are systematically optimistic. The real plan must account for the failure rate by hiring more reps than the linear math suggests, and by structuring early-tenure milestones that surface non-performers before the cumulative ramp burn becomes prohibitive.
 
 ## Mechanism
-Sales hiring success is multifactorial: skill, fit, timing, territory quality, manager quality. The aggregate effect across these is that 30-40% of hires never reach quota — a structural feature, not a hiring-process bug. Plans that ignore this assume each hire contributes their quota's worth of revenue, which over-estimates revenue and under-estimates required hiring. The corrective is twofold: (a) hire 30-40% more reps than the linear math implies; (b) install ramp milestones (quota-attainment-by-month-6, quota-attainment-by-month-9) that surface failures early enough to redeploy or replace before cumulative ramp burn becomes prohibitive.
+Sales hiring success is multifactorial: skill, fit, timing, territory quality, manager quality. The aggregate effect across these is that 30-40% of hires never reach quota, a structural feature, not a hiring-process bug. Plans that ignore this assume each hire contributes their quota's worth of revenue, which over-estimates revenue and under-estimates required hiring. The corrective is twofold: (a) hire 30-40% more reps than the linear math implies; (b) install ramp milestones (quota-attainment-by-month-6, quota-attainment-by-month-9) that surface failures early enough to redeploy or replace before cumulative ramp burn becomes prohibitive.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "what percentage of sales hires fail to reach quota (which he estimates at 30-40%)"
 
-— see `raw/expert-content/experts/david-skok.md` line 17.
+· see `raw/expert-content/experts/david-skok.md` line 17.
 
 ## Signals
 - Hiring plan explicitly includes a "failure-rate assumption" buffer (130-140% of linear-required hires).
@@ -47,9 +47,9 @@ Fails when:
 - Manager performance reviews include cohort-level success rate, not only individual-rep attainment.
 
 ## Counter-evidence
-Mark Roberge's Sales Acceleration Formula explicitly argues that systematic hiring, training, and management can drive the failure rate well below 30-40% — in HubSpot's case, into the single digits. Skok's number is the industry baseline; companies that invest in Roberge-style sales-system design can beat it. Use 30-40% as the planning default, but treat it as a target to drive down, not a fixed parameter.
+Mark Roberge's Sales Acceleration Formula explicitly argues that systematic hiring, training, and management can drive the failure rate well below 30-40%, in HubSpot's case, into the single digits. Skok's number is the industry baseline; companies that invest in Roberge-style sales-system design can beat it. Use 30-40% as the planning default, but treat it as a target to drive down, not a fixed parameter.
 
 ## Cross-references
-- `ins_skok-salesperson-unit-economics` — the failure rate is the key input to the salesperson unit economics model.
-- `ins_coachability-beats-experience` — Roberge's hiring trait that drives failure rate down.
-- `ins_roberge-sales-as-engineering-discipline` — the system-design alternative to accepting the baseline failure rate.
+- `ins_skok-salesperson-unit-economics`, the failure rate is the key input to the salesperson unit economics model.
+- `ins_coachability-beats-experience`, Roberge's hiring trait that drives failure rate down.
+- `ins_roberge-sales-as-engineering-discipline`, the system-design alternative to accepting the baseline failure rate.

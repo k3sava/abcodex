@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-05-06T18:46:52.912Z",
+  "generated_at": "2026-05-06T19:56:33.540Z",
   "latest_daily": {
     "path": "daily/2026-05-06.md",
     "date": "2026-05-06",
-    "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+    "title": "Verification, judgement, scarcity, voice, three converging frames in one week",
     "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
     "sources": [
       "Morning brief 2026-05-06 (multi-run)",
       "Morning brief 2026-05-04",
-      "Backfill audit — past digests April 26 to May 4"
+      "Backfill audit, past digests April 26 to May 4"
     ],
     "insights_added": [
       "ins_traces-need-feedback-to-learn",
@@ -43,12 +43,12 @@
     {
       "path": "daily/2026-05-06.md",
       "date": "2026-05-06",
-      "title": "Verification, judgement, scarcity, voice — three converging frames in one week",
+      "title": "Verification, judgement, scarcity, voice, three converging frames in one week",
       "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
       "sources": [
         "Morning brief 2026-05-06 (multi-run)",
         "Morning brief 2026-05-04",
-        "Backfill audit — past digests April 26 to May 4"
+        "Backfill audit, past digests April 26 to May 4"
       ],
       "insights_added": [
         "ins_traces-need-feedback-to-learn",
@@ -82,15 +82,15 @@
     {
       "path": "daily/2026-05-05.md",
       "date": "2026-05-05",
-      "title": "Research scan v1-v6 — depth-pilot to new-operator workflow",
-      "summary": "Six research-scan batches ran across the day, ingesting **134** insight cards, **13** synthesis patterns, **4** methodology playbooks, **2** contradictions, and **2** new operator profiles. The batches followed a depth-first protocol — fewer operators per pass, more substantive cards per operator — and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.",
+      "title": "Research scan v1-v6, depth-pilot to new-operator workflow",
+      "summary": "Six research-scan batches ran across the day, ingesting **134** insight cards, **13** synthesis patterns, **4** methodology playbooks, **2** contradictions, and **2** new operator profiles. The batches followed a depth-first protocol, fewer operators per pass, more substantive cards per operator, and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.",
       "sources": [
-        "Research scan v1 — 5-operator depth-pilot",
-        "Research scan v2 — 5-operator batch 2",
-        "Research scan v3 — 5-operator batch 3 (GTM-economics cluster)",
-        "Research scan v4 — 5-operator batch 4",
-        "Research scan v5 — copywriting cluster batch (5 operators)",
-        "Research scan v6 — new-operator workflow (David Ogilvy + Dave Trott)"
+        "Research scan v1, 5-operator depth-pilot",
+        "Research scan v2, 5-operator batch 2",
+        "Research scan v3, 5-operator batch 3 (GTM-economics cluster)",
+        "Research scan v4, 5-operator batch 4",
+        "Research scan v5, copywriting cluster batch (5 operators)",
+        "Research scan v6, new-operator workflow (David Ogilvy + Dave Trott)"
       ],
       "counts_verified_from_git": {
         "insights_added": "134",
@@ -108,10 +108,10 @@
     {
       "path": "daily/2026-05-04.md",
       "date": "2026-05-04",
-      "title": "Quality pass — 79 cards rewritten / stub-flagged",
-      "summary": "A quality pass on the corpus. 79 cards (verified from `git log --diff-filter=M`) were modified — shallow ones rewritten with substantive primary-source quotes and stronger mechanism sections; borderline ones stub-flagged for a follow-up. Two specific re-attribution fixes for Sam Mallikarjunan and Sourav Mohanty. Only 1 new card landed; the day was about depth, not adds.",
+      "title": "Quality pass, 79 cards rewritten / stub-flagged",
+      "summary": "A quality pass on the corpus. 79 cards (verified from `git log --diff-filter=M`) were modified, shallow ones rewritten with substantive primary-source quotes and stronger mechanism sections; borderline ones stub-flagged for a follow-up. Two specific re-attribution fixes for Sam Mallikarjunan and Sourav Mohanty. Only 1 new card landed; the day was about depth, not adds.",
       "sources": [
-        "Quality audit — round 1"
+        "Quality audit, round 1"
       ],
       "counts_verified_from_git": {
         "insights_added": "1",
@@ -129,12 +129,12 @@
     {
       "path": "daily/2026-05-03.md",
       "date": "2026-05-03",
-      "title": "Site rebuild + data triage — 216 cards, 182 operator profiles",
-      "summary": "Phase 1-3 site rebuild (per-view UX redesign, pattern radial converge viz + constellation mobile map, domain pages as mini-anthologies) plus three rounds of layout audit fixes. Three phases of data triage closed gaps the new UI exposed — fixed YAML parser, deduped 3 confirmed duplicates, patched 19 dead URLs and 16 operator externals, restored LinkedIn reactions, and ingested 182 operator profiles + 216 cards. Plus 19 card modifications.",
+      "title": "Site rebuild + data triage, 216 cards, 182 operator profiles",
+      "summary": "Phase 1-3 site rebuild (per-view UX redesign, pattern radial converge viz + constellation mobile map, domain pages as mini-anthologies) plus three rounds of layout audit fixes. Three phases of data triage closed gaps the new UI exposed, fixed YAML parser, deduped 3 confirmed duplicates, patched 19 dead URLs and 16 operator externals, restored LinkedIn reactions, and ingested 182 operator profiles + 216 cards. Plus 19 card modifications.",
       "sources": [
         "Site rebuild Phase 1-3",
-        "Layout audit — 4 rounds",
-        "Data triage — phases 1-3"
+        "Layout audit, 4 rounds",
+        "Data triage, phases 1-3"
       ],
       "counts_verified_from_git": {
         "insights_added": "216",
@@ -175,10 +175,10 @@
     {
       "path": "daily/2026-05-01.md",
       "date": "2026-05-01",
-      "title": "Phase 1 — codex foundation built",
+      "title": "Phase 1, codex foundation built",
       "summary": "The day the corpus started. After two months of repository-only existence, the codex was reframed as a cross-domain operator-insight library. 109 insight cards and 174 operator profiles landed across 30+ ingest commits. Boris Cherny, Simon Willison, Cat Wu, April Dunford, Andy Raskin, Elena Verna, Brian Halligan, Asha Sharma, and many more got their first cards. The watchOS-inspired knowledge graph UI shipped alongside.",
       "sources": [
-        "Phase 1 — codex foundation",
+        "Phase 1, codex foundation",
         "30+ first-pass ingest commits",
         "12-profile artemis expert ingestion"
       ],

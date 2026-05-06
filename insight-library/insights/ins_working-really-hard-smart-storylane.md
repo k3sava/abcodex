@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight across global time zones."
 
-— Nalin Senthamil, LinkedIn, 2026-04-10
+· Nalin Senthamil, LinkedIn, 2026-04-10
 
 ## Signals
 - AM - 10 AM: Engineering & Product

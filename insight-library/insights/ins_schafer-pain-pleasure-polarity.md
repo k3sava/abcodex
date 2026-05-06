@@ -17,13 +17,13 @@ related: [ins_20-percent-rule-headline, ins_loss-aversion-status-quo-bias, ins_m
 raw_ref: raw/expert-content/experts/cole-schafer.md
 ---
 
-# Every buying decision reduces to one polarity — moving toward pleasure or away from pain. Copy that activates neither doesn't convert.
+# Every buying decision reduces to one polarity, moving toward pleasure or away from pain. Copy that activates neither doesn't convert.
 
 ## Claim
 Persuasive copy operates on a single binary axis: the reader is either moving *toward* pleasure or *away from* pain. Every line that doesn't activate one of the two poles is filtered out as noise. The discipline isn't ornament; it's diagnosing which pole the buyer is on and writing every sentence to align with it.
 
 ## Mechanism
-Decision-making in unfamiliar contexts (a new product, a new offer, a new ad) is governed by emotional approach/avoid responses before analytical evaluation engages. Copy that names the pleasure the buyer wants (status, relief, delight, mastery) or the pain they're escaping (tedium, embarrassment, loss, fear) lands on the emotional first-pass and gets through the attention filter. Copy that lists features, hedges, or describes the company itself fails to align with either pole and is treated as cognitively expensive — the brain stops reading. The pain/pleasure axis maps onto Kahneman's loss-aversion / gain framing, with one operative simplification: pick a pole and commit.
+Decision-making in unfamiliar contexts (a new product, a new offer, a new ad) is governed by emotional approach/avoid responses before analytical evaluation engages. Copy that names the pleasure the buyer wants (status, relief, delight, mastery) or the pain they're escaping (tedium, embarrassment, loss, fear) lands on the emotional first-pass and gets through the attention filter. Copy that lists features, hedges, or describes the company itself fails to align with either pole and is treated as cognitively expensive, the brain stops reading. The pain/pleasure axis maps onto Kahneman's loss-aversion / gain framing, with one operative simplification: pick a pole and commit.
 
 ## Conditions
 Holds when:
@@ -34,12 +34,12 @@ Holds when:
 Fails when:
 - The audience is captive (regulatory disclosures, mandated communications) where engagement is forced.
 - The copy oscillates between poles within the same line, diluting both.
-- The promised pleasure or pain-relief doesn't match the buyer's actual state — feels manipulative.
+- The promised pleasure or pain-relief doesn't match the buyer's actual state, feels manipulative.
 
 ## Evidence
 > "People buy for exactly one reason: to move closer to pleasure or further from pain. Everything else is noise."
 
-— see `raw/expert-content/experts/cole-schafer.md` line 5.
+· see `raw/expert-content/experts/cole-schafer.md` line 5.
 
 ## Signals
 - Copy review process explicitly tags each section as pleasure-led or pain-led; sections that hedge are rewritten.
@@ -50,6 +50,6 @@ Fails when:
 For high-consideration B2B purchases, the analytical layer eventually engages and pure pleasure/pain framing without supporting evidence becomes shallow. Schafer's claim is sharpest for consumer copy and direct-response; in considered B2B, the pole-led approach works as the *opener* with detailed substance behind it.
 
 ## Cross-references
-- `ins_20-percent-rule-headline` — Schafer's adjacent claim; the headline carries the pole.
-- `ins_loss-aversion-status-quo-bias` — Kahneman's mechanism behind why pain-pole copy works.
-- `ins_miller-survival-value-messaging` — Miller's adjacent framing: survival-relevance is the dominant filter.
+- `ins_20-percent-rule-headline`, Schafer's adjacent claim; the headline carries the pole.
+- `ins_loss-aversion-status-quo-bias`, Kahneman's mechanism behind why pain-pole copy works.
+- `ins_miller-survival-value-messaging`, Miller's adjacent framing: survival-relevance is the dominant filter.

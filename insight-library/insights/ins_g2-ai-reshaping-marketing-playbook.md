@@ -18,7 +18,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# AI search is now a software marketplace — demand gen must adapt or vanish
+# AI search is now a software marketplace, demand gen must adapt or vanish
 
 ## Claim
 

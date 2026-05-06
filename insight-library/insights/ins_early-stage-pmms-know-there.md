@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Early-stage PMMs: I know there are a lot of us! What did I miss?
 
 ## Claim
-I’m the founding PMM at HockeyStack and I’m building out product marketing here. Here’s 3 things I wish every early-stage founder knew: Product marketing can lead positioning, messaging, and narrative, but the vision needs to come from a founder or CEO. It doesn’t need to be fancy or polished… but the ideas need to be there and touch every part of your org.
+I'm the founding PMM at HockeyStack and I'm building out product marketing here. Here's 3 things I wish every early-stage founder knew: Product marketing can lead positioning, messaging, and narrative, but the vision needs to come from a founder or CEO. It doesn't need to be fancy or polished… but the ideas need to be there and touch every part of your org.
 
 ## Mechanism
 Too often, PMM KPIs are hand-wavy. I recently spoke with a PMM manager who was losing a great hire because they were heads down in SEO work while the impact lived in a growth marketing silo. Revenue influence should be a KPI and it shows up in pipeline impact and deal progression. Measure it!
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Early-stage PMMs: I know there are a lot of us! What did I miss?"
 
-— Amulya Vadrevu, LinkedIn, 2026-04-10
+· Amulya Vadrevu, LinkedIn, 2026-04-10
 
 ## Signals
 - PMMs shouldn't build vision.

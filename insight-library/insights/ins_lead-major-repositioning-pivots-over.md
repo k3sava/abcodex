@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "i've lead major repositioning and pivots over the last 12 years and these are the most common patterns i see."
 
-— James Doman-Pipe, LinkedIn, 2026-04-10
+· James Doman-Pipe, LinkedIn, 2026-04-10
 
 ## Signals
 - set a product launch date

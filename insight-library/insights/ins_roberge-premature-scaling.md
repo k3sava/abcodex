@@ -17,7 +17,7 @@ related: [ins_roberge-sales-as-engineering-discipline, ins_skok-sales-rep-failur
 raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
-# Premature scaling — hiring sales before the corresponding stage of fit — is the single most destructive go-to-market mistake
+# Premature scaling, hiring sales before the corresponding stage of fit, is the single most destructive go-to-market mistake
 
 ## Claim
 The most destructive mistake in GTM is premature scaling: hiring salespeople before achieving the corresponding stage of fit (product-market fit, then go-to-market fit, then growth fit). Each stage requires a different organisational readiness; hiring sales talent before the product or process is proven leads to wasted investment, demoralised reps, false negatives about market demand, and the founder's loss of confidence in markets that were actually fit-able.
@@ -29,7 +29,7 @@ Each fit stage has a different bottleneck:
 - **Pre-GTM-fit.** PMF exists but the repeatable motion (which channel, which buyer, which message) hasn't been figured out. Sales hires here churn through approaches without finding the one that compounds.
 - **Pre-growth-fit.** GTM motion is repeatable but the growth-stage scaling system (hiring engine, training engine, manager pipeline) isn't built. Sales hires here outgrow the system's capacity to absorb them and ramp slowly.
 
-Roberge's claim is that hiring against any of these gaps with sales talent is the wrong intervention. The right intervention at each stage is different — and the sales hires that compounded at the *next* stage would have failed at the prior one.
+Roberge's claim is that hiring against any of these gaps with sales talent is the wrong intervention. The right intervention at each stage is different, and the sales hires that compounded at the *next* stage would have failed at the prior one.
 
 ## Conditions
 Holds when:
@@ -45,7 +45,7 @@ Fails when:
 ## Evidence
 > "His most urgent warning is against premature scaling: hiring salespeople before achieving the corresponding stage of fit."
 
-— see `raw/expert-content/experts/mark-roberge.md` line 17.
+· see `raw/expert-content/experts/mark-roberge.md` line 17.
 
 ## Signals
 - Hiring plan includes explicit stage-of-fit gates; sales hires are ramped only after each gate is passed.
@@ -53,9 +53,9 @@ Fails when:
 - Headcount is held flat during fit-discovery periods even when the revenue plan calls for more.
 
 ## Counter-evidence
-Some founders successfully use early sales hires as discovery agents to *find* the GTM-fit they don't yet have — the hires are not "scaling" but "exploring." The discipline is calling that work what it is (exploration with budget) rather than mistaking it for scaling.
+Some founders successfully use early sales hires as discovery agents to *find* the GTM-fit they don't yet have, the hires are not "scaling" but "exploring." The discipline is calling that work what it is (exploration with budget) rather than mistaking it for scaling.
 
 ## Cross-references
-- `ins_roberge-sales-as-engineering-discipline` — the parent framework; premature scaling tries to apply the engineering discipline to a stage that hasn't earned it.
-- `ins_skok-sales-rep-failure-rate`, `ins_skok-salesperson-unit-economics` — the unit economics that make premature scaling so expensive.
-- `ins_thiel-poor-sales-not-bad-product` — Thiel's adjacent claim: distribution failure beats product failure as a cause of company death; premature scaling is one form of distribution failure.
+- `ins_roberge-sales-as-engineering-discipline`, the parent framework; premature scaling tries to apply the engineering discipline to a stage that hasn't earned it.
+- `ins_skok-sales-rep-failure-rate`, `ins_skok-salesperson-unit-economics`, the unit economics that make premature scaling so expensive.
+- `ins_thiel-poor-sales-not-bad-product`, Thiel's adjacent claim: distribution failure beats product failure as a cause of company death; premature scaling is one form of distribution failure.

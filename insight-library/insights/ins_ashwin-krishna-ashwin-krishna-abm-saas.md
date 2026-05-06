@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-Account-Based Marketing has been the biggest buzzword for B2B marketers for years, yet the gap between what's spoken and what's actually implemented is enormous. The teams winning with ABM run a six-step framework anchored in tight account selection, multi-channel orchestration, and a sales-marketing pact — not the 'broadcast at named accounts' theatre most teams confuse for ABM.
+Account-Based Marketing has been the biggest buzzword for B2B marketers for years, yet the gap between what's spoken and what's actually implemented is enormous. The teams winning with ABM run a six-step framework anchored in tight account selection, multi-channel orchestration, and a sales-marketing pact, not the 'broadcast at named accounts' theatre most teams confuse for ABM.
 
 ## Mechanism
 

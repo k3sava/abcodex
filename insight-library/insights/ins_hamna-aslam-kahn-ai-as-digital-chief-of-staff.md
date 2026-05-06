@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # The most powerful AI prompts are those that pull from integrated workspace data, not generic queries.
 
 ## Claim
-Satya Nadella's secret AI prompts show that the real power of AI at work comes from using integrated data across your entire workspace—emails, chats, meetings, calendar—to act as a 'digital chief of staff' that gives you the real picture, not sugar-coated updates.
+Satya Nadella's secret AI prompts show that the real power of AI at work comes from using integrated data across your entire workspace, emails, chats, meetings, calendar, to act as a 'digital chief of staff' that gives you the real picture, not sugar-coated updates.
 
 ## Mechanism
-By pulling from actual communications and history, AI can predict meeting topics, surface project risks with probabilities, audit time allocation, and prep you with full context—eliminating awkward moments and blind spots that generic prompts can't address.
+By pulling from actual communications and history, AI can predict meeting topics, surface project risks with probabilities, audit time allocation, and prep you with full context, eliminating awkward moments and blind spots that generic prompts can't address.

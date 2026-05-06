@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 Most webinar tools still stop at the event. They don't connect engagement to pipeline or make the whole thing repeatable. That's what we're building toward.
 
 ## Mechanism
-By owning the end-to-end workflow—events, lead capture, integrations, and ROI—a product marketing leader can shape both product direction and narrative to close the gap between engagement and measurable pipeline.
+By owning the end-to-end workflow, events, lead capture, integrations, and ROI, a product marketing leader can shape both product direction and narrative to close the gap between engagement and measurable pipeline.

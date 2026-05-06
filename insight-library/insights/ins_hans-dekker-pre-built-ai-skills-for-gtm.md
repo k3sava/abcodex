@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Pre-built Claude skills eliminate blank-page paralysis for GTM teams
 
 ## Claim
-I just packaged up 30+ Claude skills for GTM and sales teams. Each one is a pre-built skill you load into Claude — no prompting from scratch, no staring at a blank chat. Just describe your situation and let it run.
+I just packaged up 30+ Claude skills for GTM and sales teams. Each one is a pre-built skill you load into Claude, no prompting from scratch, no staring at a blank chat. Just describe your situation and let it run.
 
 ## Mechanism
 By providing structured, reusable AI skills (e.g., Prospect Research Autopilot, Objection Response Generator), operators can bypass the friction of prompt engineering and get consistent, high-quality outputs tailored to their specific GTM task.

@@ -70,7 +70,7 @@ After positioning is locked. Before any homepage rewrite, sales-deck refresh, or
 - Feature overload, no capability bridge.
 - "Guitar teacher" anti-pattern: too many new concepts in one scroll.
 - Treating positioning/messaging/copy as interchangeable. They are three distinct layers.
-- Skipping the rollout tracker — messaging gets written but never systematically deployed.
+- Skipping the rollout tracker, messaging gets written but never systematically deployed.
 
 ## Outputs
 

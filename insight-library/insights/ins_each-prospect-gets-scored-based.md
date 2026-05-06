@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Each prospect gets scored 1-10 based on company fit, role relevance, how good their engagement actually is."
 
-— Prerona Basu, LinkedIn, 2026-04-10
+· Prerona Basu, LinkedIn, 2026-04-10
 
 ## Signals
 - It watches your competitor's LinkedIn like a hawk.

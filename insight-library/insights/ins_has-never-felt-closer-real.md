@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "AI has never felt closer to a real employee."
 
-— Dan Rosenthal, LinkedIn, 2026-04-10
+· Dan Rosenthal, LinkedIn, 2026-04-10
 
 ## Signals
 - Newest LLM models

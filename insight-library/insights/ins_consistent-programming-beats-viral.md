@@ -23,7 +23,7 @@ raw_ref: raw/curiosity/devran-karaca/devran-karaca--12-lessons-media-company--20
 A library of 200 videos with steady positive growth is more valuable than one viral hit. Viral hits do not build community; consistent regular programming does, and community is what makes the business durable.
 
 ## Mechanism
-Virality is a one-time spike in attention without retention guarantees. Consistent cadence trains the audience to return on a schedule, which compounds into recognition, expectation, and loyalty. Advertisers and partners price reliability, not novelty — predictable audience-show ratios are what enable repeatable sponsorship deals like Kyra's repeat Converse partnerships.
+Virality is a one-time spike in attention without retention guarantees. Consistent cadence trains the audience to return on a schedule, which compounds into recognition, expectation, and loyalty. Advertisers and partners price reliability, not novelty, predictable audience-show ratios are what enable repeatable sponsorship deals like Kyra's repeat Converse partnerships.
 
 ## Conditions
 Holds when:
@@ -36,7 +36,7 @@ Fails when:
 ## Evidence
 > "I’d take 200 videos with positive, steady growth over one big Gangnam Style hit any day. What I’ve basically learnt is: viral hits do not build community and that is essentially all that matters."
 
-— Devran Karaca, *What I learnt in the first 12 months of starting a media company*, LinkedIn Pulse, 2018-02-26
+· Devran Karaca, *What I learnt in the first 12 months of starting a media company*, LinkedIn Pulse, 2018-02-26
 
 ## Signals
 - Audience returns on the same day/time the show publishes without push.

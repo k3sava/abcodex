@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/sarah-levinger.md
 ---
 
-# Transactional data tells half the story — winning ads uncover the emotional context behind decisions
+# Transactional data tells half the story, winning ads uncover the emotional context behind decisions
 
 ## Claim
-Most paid-ad creative is built from demographics and transactional data. Transactional data only tells half the story; the brands winning at paid advertising uncover the *emotional context* behind customer decisions. Psychology-based creative speaks to identity, subconscious behavior, and personal narratives — not demographics. Levinger's work for Fabletics, Hexclad, True Classic, Kettle and Fire, Slumberkins demonstrates measurable ROI lift from emotional-data-driven creative.
+Most paid-ad creative is built from demographics and transactional data. Transactional data only tells half the story; the brands winning at paid advertising uncover the *emotional context* behind customer decisions. Psychology-based creative speaks to identity, subconscious behavior, and personal narratives, not demographics. Levinger's work for Fabletics, Hexclad, True Classic, Kettle and Fire, Slumberkins demonstrates measurable ROI lift from emotional-data-driven creative.
 
 ## Mechanism
-Demographic targeting tells you a 35-year-old woman in Chicago bought running shoes. Emotional data tells you she's running because her father just got a cardiac diagnosis and she can't sit with the fear. Same purchase, radically different creative. Levinger's process mines reviews, interviews, and behavioral signals for the subconscious narrative — then designs creative to mirror it. The result: creative that feels personally addressed without being demographically specific.
+Demographic targeting tells you a 35-year-old woman in Chicago bought running shoes. Emotional data tells you she's running because her father just got a cardiac diagnosis and she can't sit with the fear. Same purchase, radically different creative. Levinger's process mines reviews, interviews, and behavioral signals for the subconscious narrative, then designs creative to mirror it. The result: creative that feels personally addressed without being demographically specific.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Transactional data only tells half the story; the brands that win at paid advertising are the ones that uncover the emotional context behind customer decisions, using psychology-based creative to speak to identity, subconscious behavior, and personal narratives rather than demographics alone."
 
-— Sarah Levinger (synthesized from operator's published work)
+· Sarah Levinger (synthesized from operator's published work)
 
 ## Signals
 - Creative briefs include an emotional-context paragraph alongside demographic targeting.
@@ -48,4 +48,4 @@ Fails when:
 For high-frequency e-commerce categories, simple offer-led creative (price, shipping, scarcity) consistently outperforms psychology-driven approaches at the volume end. Some categories also have insufficient first-party emotional signal to mine reliably.
 
 ## Cross-references
-- ins_voc-first-then-positioning — adjacent operator (Momoko Price)
+- ins_voc-first-then-positioning, adjacent operator (Momoko Price)

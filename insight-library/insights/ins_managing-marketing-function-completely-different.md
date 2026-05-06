@@ -23,7 +23,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 One of the hardest transitions in marketing that nobody prepares you for: You can be brilliant at managing marketing. Running campaigns, owning channels, delivering results. But managing a marketing function is a completely different job. When I made the jump, I went from being a one-man band to having people report into me.
 
 ## Mechanism
-You’re now the person setting direction. Setting reporting, deciding what the team focuses on, communicating your decisions, how they affect the business, what the expected outcomes are and why we’re doing them, etc. etc.
+You're now the person setting direction. Setting reporting, deciding what the team focuses on, communicating your decisions, how they affect the business, what the expected outcomes are and why we're doing them, etc. etc.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "But managing a marketing function is a completely different job."
 
-— Corey Hearne, LinkedIn, 2026-04-10
+· Corey Hearne, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

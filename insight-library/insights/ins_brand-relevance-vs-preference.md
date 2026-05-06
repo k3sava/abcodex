@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/david-aaker.md
 ---
 
-# Stop competing on brand preference. Compete on brand relevance — make rivals irrelevant.
+# Stop competing on brand preference. Compete on brand relevance, make rivals irrelevant.
 
 ## Claim
-Two modes of competition exist. Brand preference: try to be the best option within an existing category through incremental innovation, better messaging, stronger associations. Brand relevance: create entirely new categories or subcategories that make competitors irrelevant because they lack a "must-have" feature or benefit. Aaker's research: virtually all significant market-share shifts in business history have come from relevance battles, not preference battles — yet most marketing budget chases preference.
+Two modes of competition exist. Brand preference: try to be the best option within an existing category through incremental innovation, better messaging, stronger associations. Brand relevance: create entirely new categories or subcategories that make competitors irrelevant because they lack a "must-have" feature or benefit. Aaker's research: virtually all significant market-share shifts in business history have come from relevance battles, not preference battles, yet most marketing budget chases preference.
 
 ## Mechanism
 In a preference battle, every competitor's improvements are matched within months and the category remains essentially stable; share moves at single-digit increments. In a relevance battle, the new category's "must-haves" disqualify incumbents from serious consideration, producing structural share shifts. Four tasks for winning: (1) concept generation (find category or subcategory opportunities), (2) concept evaluation (verify customer pull), (3) define and manage the new category (shape what it is, who belongs, what's must-have), (4) build barriers to fast followers.
@@ -31,13 +31,13 @@ Holds when:
 - The team can hold the category-defining narrative for years before it pays off.
 
 Fails when:
-- Mature categories with no realistic redefinition vector — preference battles are all that's available.
+- Mature categories with no realistic redefinition vector, preference battles are all that's available.
 - Teams that lack the budget or patience for the multi-year category-building horizon.
 
 ## Evidence
 > "Virtually all significant market share shifts in business history have come from brand relevance battles, not brand preference battles, yet the overwhelming majority of marketing budgets and strategic attention is devoted to brand preference competition."
 
-— David Aaker (synthesized from operator's published work)
+· David Aaker (synthesized from operator's published work)
 
 ## Signals
 - Strategy doc names a target *category* the brand intends to define, not just competitors to beat.

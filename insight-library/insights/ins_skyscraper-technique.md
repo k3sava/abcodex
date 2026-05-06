@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/brian-dean.md
 A repeatable three-step link-building method: (1) use backlink tools to find content already attracting links, (2) create a clearly superior version on depth, freshness, design, or data, (3) email the sites that linked to the original and pitch the upgrade. Original case: 110% organic traffic increase from a single post; 17 links from 160 outreach emails (~11% conversion).
 
 ## Mechanism
-Outreach without a value-add fails because the recipient has no reason to update an existing link. Skyscraper inverts this: the recipient already cares about the topic (proven by linking once) and the upgrade gives them a reason to refresh their post. The outreach email is short and benefit-led — "I noticed you linked to X, here's a fuller version that includes [new data]." The economics turn on selecting topics where backlink density is high enough that ~10% conversion yields meaningful link volume.
+Outreach without a value-add fails because the recipient has no reason to update an existing link. Skyscraper inverts this: the recipient already cares about the topic (proven by linking once) and the upgrade gives them a reason to refresh their post. The outreach email is short and benefit-led, "I noticed you linked to X, here's a fuller version that includes [new data]." The economics turn on selecting topics where backlink density is high enough that ~10% conversion yields meaningful link volume.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "His original case study demonstrated a 110% increase in organic traffic from a single post using this approach, with a 17-link yield from 160 outreach emails (approximately 11% success rate)."
 
-— Brian Dean / Backlinko (synthesized from operator's published work)
+· Brian Dean / Backlinko (synthesized from operator's published work)
 
 ## Signals
 - Content briefs name the incumbent post being targeted and its backlink count.

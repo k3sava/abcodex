@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# 10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 A
+# 10 years ago this kind of research took interns, VAs, or SDR armies. Now it's a $0.47 A
 ## Claim
 This n8n workflow saves our sales team 10 hours+ a week. 10 hours X 8 reps = 80 hrs. That's at least $10,000 saved monthly. The Problem: Spending 20+ minutes researching each prospect manually.
 
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "10 years ago this kind of research took interns, VAs, or SDR armies. Now it’s a $0.47 API chain. Wild to think how fast the sales ops function is evolving."
 
-— Kenny Damian, LinkedIn, 2026-04-10
+· Kenny Damian, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

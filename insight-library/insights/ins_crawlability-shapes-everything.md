@@ -23,7 +23,7 @@ raw_ref:
 Google's March 2026 core update penalized aggregator and quick-answer utility sites while rewarding destination brands and specialist sites. The one-line operator rule for the AI-search era: crawlability shapes everything. Thin programmatic pages are now actively penalized; one strong canonical page per use case beats ten shallow ones.
 
 ## Mechanism
-LLM-mediated discovery rewards entity-level authority and structured retrievability over keyword density. When an answer engine pulls a citation, it favors pages that are unambiguously "the" page for a use case — rich, canonical, structurally legible — over thin pages that fragment authority across many URLs.
+LLM-mediated discovery rewards entity-level authority and structured retrievability over keyword density. When an answer engine pulls a citation, it favors pages that are unambiguously "the" page for a use case, rich, canonical, structurally legible, over thin pages that fragment authority across many URLs.
 
 ## Conditions
 Holds when: a brand has a clear use-case taxonomy and can consolidate authority into canonical pages.
@@ -31,7 +31,7 @@ Fails when: programmatic SEO is the only viable distribution (high-cardinality l
 
 ## Evidence
 > "Crawlability shapes everything."
-— Aleyda Solis, Google March 2026 Core Update Analysis, 2026-04-11
+· Aleyda Solis, Google March 2026 Core Update Analysis, 2026-04-11
 
 Paraphrased: aggregator and quick-answer utility sites dropped, destination brands and specialist sites gained.
 

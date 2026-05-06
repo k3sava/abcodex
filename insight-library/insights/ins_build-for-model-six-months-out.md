@@ -23,7 +23,7 @@ raw_ref: raw/podcasts/boris-cherny--claude-code-after-coding-solved--2026-04-27.
 Design AI-product features for the model capability you expect six months from now; accept that PMF will be mediocre at launch and inflect when the next model arrives.
 
 ## Mechanism
-Model capability is on a steep curve. A product designed for today's model has its scaffolding wiped out by the next release; a product designed for the model six months ahead reads as broken at launch but becomes the obvious leader the moment the underlying capability lands. The early investment in surface area, tools, and evals compounds because the model — not the product team — does the catching up.
+Model capability is on a steep curve. A product designed for today's model has its scaffolding wiped out by the next release; a product designed for the model six months ahead reads as broken at launch but becomes the obvious leader the moment the underlying capability lands. The early investment in surface area, tools, and evals compounds because the model, not the product team, does the catching up.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 Claude Code felt mediocre on Sonnet 3.5 and inflected at Opus 4. Boris's team kept shipping into the weak window because they were betting on the next model, not optimizing the current one.
 
-— Boris Cherny on Lenny's Podcast, 2026-04-27
+· Boris Cherny on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Internal evals improve faster than user-facing metrics during the wait.
@@ -52,5 +52,5 @@ Claude Code felt mediocre on Sonnet 3.5 and inflected at Opus 4. Boris's team ke
 The Bitter Lesson cuts both ways: if you bet on the wrong dimension of capability improvement, you waste two quarters. Most teams do not have the runway, conviction, or model-roadmap visibility to make this bet correctly. Operators outside frontier labs may be guessing about what "six months out" looks like.
 
 ## Cross-references
-- `ins_dont-box-the-model-in` — the architectural corollary
-- `ins_underfund-deliberately` — the staffing pattern that makes this affordable
+- `ins_dont-box-the-model-in`, the architectural corollary
+- `ins_underfund-deliberately`, the staffing pattern that makes this affordable

@@ -17,13 +17,13 @@ related: [ins_spin-implication-questions, ins_rackham-investigation-stage-create
 raw_ref: raw/expert-content/experts/neil-rackham.md
 ---
 
-# Objections are not a natural part of selling — they are a symptom of feature-heavy presentation without explicit need development
+# Objections are not a natural part of selling, they are a symptom of feature-heavy presentation without explicit need development
 
 ## Claim
 Most sales training treats objections as inevitable obstacles to overcome with rebuttal techniques. Rackham's research shows the opposite: objections are not natural; they are a *symptom* of poor presentation technique. Feature-heavy presentations generate objections because the buyer evaluates each feature against their specific environment. Benefit-led presentations (capabilities linked to explicit needs) prevent objections because the need has already been agreed upon.
 
 ## Mechanism
-When a seller presents a feature ("our system has X capability"), the buyer mentally tests it against their context: do they need X? does X fit their workflow? does X cost more than its value? Each test is a potential mismatch — and each mismatch surfaces as an objection ("but we don't have that problem," "but we already have something that does that"). When a seller presents a benefit tied to an *already-agreed-upon explicit need* ("you mentioned the team is losing 4 hours a week to manual reconciliation; X eliminates that"), the buyer's evaluation shifts entirely. The buyer is no longer asking "do I need this?" but "does this solve what I already agreed I want solved?" That second question rarely produces objections. The implication: invest in need-development questions earlier (via SPIN's Implication and Need-Payoff questions) and the objection-handling burden later collapses.
+When a seller presents a feature ("our system has X capability"), the buyer mentally tests it against their context: do they need X? does X fit their workflow? does X cost more than its value? Each test is a potential mismatch, and each mismatch surfaces as an objection ("but we don't have that problem," "but we already have something that does that"). When a seller presents a benefit tied to an *already-agreed-upon explicit need* ("you mentioned the team is losing 4 hours a week to manual reconciliation; X eliminates that"), the buyer's evaluation shifts entirely. The buyer is no longer asking "do I need this?" but "does this solve what I already agreed I want solved?" That second question rarely produces objections. The implication: invest in need-development questions earlier (via SPIN's Implication and Need-Payoff questions) and the objection-handling burden later collapses.
 
 ## Conditions
 Holds when:
@@ -33,13 +33,13 @@ Holds when:
 
 Fails when:
 - The buyer has not articulated an explicit need (the seller is presenting blind).
-- The product cannot actually deliver on the promised benefit — the objection re-emerges later as buyer remorse.
+- The product cannot actually deliver on the promised benefit, the objection re-emerges later as buyer remorse.
 - High-volume transactional sales where there isn't time for need-development; objection-handling techniques remain useful.
 
 ## Evidence
 > "objections are not a natural part of selling but a symptom of poor presentation technique: feature-heavy presentations generate objections because buyers evaluate each feature against their specific environment, while benefits (capabilities linked to explicit needs) prevent objections because the need has already been established."
 
-— see `raw/expert-content/experts/neil-rackham.md` line 17.
+· see `raw/expert-content/experts/neil-rackham.md` line 17.
 
 ## Signals
 - Sales-call analytics show that calls with more pre-presentation Implication questions have fewer mid-presentation objections.
@@ -47,9 +47,9 @@ Fails when:
 - Reps' presentation decks lead with the buyer's stated needs in their language, not with feature lists.
 
 ## Counter-evidence
-Some objections are genuinely informational — the buyer is asking a question, not pushing back. Treating those as "symptoms" can frustrate the buyer who just wants clarity. The discipline is distinguishing between objections-as-resistance (which Rackham's framework addresses) and questions-as-curiosity (which deserve direct factual answers).
+Some objections are genuinely informational, the buyer is asking a question, not pushing back. Treating those as "symptoms" can frustrate the buyer who just wants clarity. The discipline is distinguishing between objections-as-resistance (which Rackham's framework addresses) and questions-as-curiosity (which deserve direct factual answers).
 
 ## Cross-references
-- `ins_spin-implication-questions` — the question type that develops explicit needs and prevents objections.
-- `ins_rackham-investigation-stage-creates-stars` — the broader Rackham claim that question-asking, not closing or rebuttal, separates star reps.
-- `ins_voss-accusation-audit` — Voss's adjacent move: pre-empt objections by naming them first.
+- `ins_spin-implication-questions`, the question type that develops explicit needs and prevents objections.
+- `ins_rackham-investigation-stage-creates-stars`, the broader Rackham claim that question-asking, not closing or rebuttal, separates star reps.
+- `ins_voss-accusation-audit`, Voss's adjacent move: pre-empt objections by naming them first.

@@ -17,9 +17,9 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# As Product Marketing Managers, “GTM” is one of those words that follows us everywhere w
+# As Product Marketing Managers, "GTM" is one of those words that follows us everywhere w
 ## Claim
-There is no such thing as a “GTM strategy.” As Product Marketing Managers, “GTM” is one of those words that follows us everywhere we go. It can be found in every job description. “Vicky, what’s our GTM strategy?”, I’ve been asked time and time again. As if it’s a single, static strategy you can neatly construct out of fairy dust and hand over to your boss.
+There is no such thing as a "GTM strategy." As Product Marketing Managers, "GTM" is one of those words that follows us everywhere we go. It can be found in every job description. "Vicky, what's our GTM strategy?", I've been asked time and time again. As if it's a single, static strategy you can neatly construct out of fairy dust and hand over to your boss.
 
 ## Mechanism
 – A content strategy to solve messaging and positioning, supporting both your colleagues in Sales and other marketing functions.
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "As Product Marketing Managers, “GTM” is one of those words that follows us everywhere we go."
 
-— Victoria Penker, LinkedIn, 2026-04-10
+· Victoria Penker, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md
 # Hire across three archetypes: block-shape generalist, deep specialist, craft new-grad
 
 ## Claim
-The over-hired profile is "senior generalist designer." The under-hired profile is the craft new-grad. Hire across three archetypes intentionally: (a) **block-shape generalist** — 80th percentile in many things, broader than T-shape; (b) **deep specialist** — top 10% in one thing (e.g., a designer who is also a software engineer); (c) **craft new-grad** — early-career, humble, eager, unburdened by old processes.
+The over-hired profile is "senior generalist designer." The under-hired profile is the craft new-grad. Hire across three archetypes intentionally: (a) **block-shape generalist**, 80th percentile in many things, broader than T-shape; (b) **deep specialist**, top 10% in one thing (e.g., a designer who is also a software engineer); (c) **craft new-grad**, early-career, humble, eager, unburdened by old processes.
 
 ## Mechanism
 Most companies hire only senior T-shapes because they're "safe." A team of senior T-shapes peaks fast and then can't absorb new operating patterns (AI-native shipping, code-pairing, prototype-against-model). The block-shape covers ambiguous work; the deep specialist gives the team an unfair edge on one axis; the craft new-grad imports new operating norms before they're conventional. The mix beats the monoculture.
@@ -42,7 +42,7 @@ Anthropic Design's three-archetype hiring matrix, named explicitly:
 
 > "Most companies over-hire seniors; new grads can be more adaptive."
 
-— Jenny Wen on Lenny's Podcast, 2026-04-27
+· Jenny Wen on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - The team has explicit headcount targets per archetype, not generic "designer 3."
@@ -53,4 +53,4 @@ Anthropic Design's three-archetype hiring matrix, named explicitly:
 The hiring pattern requires a level of design-leadership maturity many orgs don't have. Senior teams default to over-hiring senior generalists because the recruitment loop is easier. Without explicit allocation, the new-grad seat goes unfilled and the team monocultures. The framework is the prescription; the discipline is in defending the seat.
 
 ## Cross-references
-- `ins_design-pie-chart-shifted` — the operating model that requires this mix
+- `ins_design-pie-chart-shifted`, the operating model that requires this mix

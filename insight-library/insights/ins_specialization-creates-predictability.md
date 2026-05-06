@@ -24,9 +24,9 @@ Revenue becomes predictable only when prospecting (SDR), inbound qualification (
 
 ## Mechanism
 Three failure modes stack on top of each other when one rep does everything:
-1. *Time allocation collapses* — closers stop prospecting while in deals, then face empty pipelines and restart from zero.
-2. *Skills are different* — prospecting rewards persistence, volume, and pattern recognition; closing rewards consultative depth and stakeholder management. A rep can rarely be elite at both.
-3. *Metrics break* — when one person owns the full funnel you cannot tell which stage is broken, so coaching and forecasting become guesswork.
+1. *Time allocation collapses*, closers stop prospecting while in deals, then face empty pipelines and restart from zero.
+2. *Skills are different*, prospecting rewards persistence, volume, and pattern recognition; closing rewards consultative depth and stakeholder management. A rep can rarely be elite at both.
+3. *Metrics break*, when one person owns the full funnel you cannot tell which stage is broken, so coaching and forecasting become guesswork.
 
 The three-role split (SDR generates qualified meetings → MRR qualifies inbounds → AE closes) gives each function a dedicated metric (qualified opps / response time / revenue closed) and unlocks the pipeline formula: SDR count × qualified opps per SDR per month × deal size × win rate = revenue.
 
@@ -36,7 +36,7 @@ Holds when:
 - Average deal size is large enough to fund SDR + AE specialization (typically ≥$10k ACV).
 
 Fails when:
-- Founder-led sales pre-PMF — premature specialization removes the founder's learning loop.
+- Founder-led sales pre-PMF, premature specialization removes the founder's learning loop.
 - Very small/transactional deals where one rep can run the full motion in minutes.
 
 ## Evidence
@@ -44,15 +44,15 @@ Fails when:
 
 > "SDRs report to a Sales Development Manager, not AE managers. Prevents AEs from using SDRs as personal assistants."
 
-— Aaron Ross, *Predictable Revenue: 15-Minute Summary*
+· Aaron Ross, *Predictable Revenue: 15-Minute Summary*
 
 ## Signals
 - SDRs report into a Sales Development Manager, not into AE managers.
-- SDRs are compensated on qualified opportunities, AEs on revenue — separate plans, not blended.
+- SDRs are compensated on qualified opportunities, AEs on revenue, separate plans, not blended.
 - Pipeline meetings can name which stage (prospecting / qualification / closing) is the bottleneck.
 
 ## Counter-evidence
-Pete Kazanjy and others argue early-stage startups should keep founders and first sellers running the full funnel until ~$1-2M ARR — the learning from doing every step compounds faster than the productivity gain from specialization. Bottoms-up SaaS (Figma, Notion) skips the SDR/AE split entirely.
+Pete Kazanjy and others argue early-stage startups should keep founders and first sellers running the full funnel until ~$1-2M ARR, the learning from doing every step compounds faster than the productivity gain from specialization. Bottoms-up SaaS (Figma, Notion) skips the SDR/AE split entirely.
 
 ## Cross-references
-- ins_seeds-nets-spears-lead-portfolio — same operator, complementary lens
+- ins_seeds-nets-spears-lead-portfolio, same operator, complementary lens

@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 The number of things that AI can do well till the 80% mark and then leave you out to dry = the number of startup ideas that can be built to help complete the workflow and take it as close to 100% as possible. And that number is HIGH!!
 
 ## Mechanism
-AI excels at the bulk of a task but fails at the final, nuanced completion. Startups that build the finishing layer—bridging the gap from 80% to 100%—capture massive value by delivering full, reliable outcomes.
+AI excels at the bulk of a task but fails at the final, nuanced completion. Startups that build the finishing layer, bridging the gap from 80% to 100%, capture massive value by delivering full, reliable outcomes.

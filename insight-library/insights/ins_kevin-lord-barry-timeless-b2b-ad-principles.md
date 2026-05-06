@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Winning B2B ads are built on timeless principles that work today, not trendy tactics.
 
 ## Claim
-These ads are built on timeless principles that work TODAY. My team uses this exact deck if they’re struggling with new ad ideas and inspiration, and as a result they have no problems with producing winners time after time again.
+These ads are built on timeless principles that work TODAY. My team uses this exact deck if they're struggling with new ad ideas and inspiration, and as a result they have no problems with producing winners time after time again.
 
 ## Mechanism
 By studying and copying proven ad formats from a vetted swipe file, B2B CMOs can reliably produce winning ads without reinventing the wheel. The principles are durable and don't rely on fleeting trends.

@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but
 ## Claim
-GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but this is tried and true (and free). RSS (Really Simple Syndication) feeds have been around since the 90’s and are criminally undervalued and underutilized in GTM. They give your GTM team free competitor intelligence, relevant signals, and timely updates.
+GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but this is tried and true (and free). RSS (Really Simple Syndication) feeds have been around since the 90's and are criminally undervalued and underutilized in GTM. They give your GTM team free competitor intelligence, relevant signals, and timely updates.
 
 ## Mechanism
-RSS feeds allow you to, essentially, ‘subscribe’ to websites so every time that website changes or gets updated, you get notified with the new content.
+RSS feeds allow you to, essentially, 'subscribe' to websites so every time that website changes or gets updated, you get notified with the new content.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "GTM teams are winning with a THIRTY-year-old technology. New AI tools can be great, but this is tried and true (and free)."
 
-— Mathias Powell, LinkedIn, 2026-04-10
+· Mathias Powell, LinkedIn, 2026-04-10
 
 ## Signals
 - Monitor competitor product pages for feature launches

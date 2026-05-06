@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest — 2026-05-06 · 15 insights · 4 operators · 2 patterns
 
-**Verification, judgement, scarcity, voice — three converging frames in one week** — 15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.
+**Verification, judgement, scarcity, voice, three converging frames in one week** — 15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.
 
 [Read what landed →](insight-library/daily/2026-05-06.md) · [See on the site →](https://codex.iamkesava.com/#/today)
 <!-- LATEST:END -->

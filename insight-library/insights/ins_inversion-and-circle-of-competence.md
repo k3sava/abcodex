@@ -17,13 +17,13 @@ related: [ins_invert-always-invert, ins_latticework-of-mental-models]
 raw_ref: raw/expert-content/experts/shane-parrish.md
 ---
 
-# The quality of your thinking determines the quality of your life — operate inside your circle of competence
+# The quality of your thinking determines the quality of your life, operate inside your circle of competence
 
 ## Claim
 The quality of your thinking determines the quality of your life. Mental models from multiple disciplines provide the latticework to make better decisions and avoid stupidity. Three highest-leverage models for operators: inversion (avoid the stupid path before pursuing the smart one), second-order thinking (what happens *next*, not just first-order consequences), circle of competence (knowing what you don't know is more useful than knowing what you do).
 
 ## Mechanism
-First-principles thinking decomposes problems to their irreducible elements rather than reasoning by analogy. Second-order thinking forces explicit consideration of "and then what?" — most decisions look fine on first-order but unravel on second-order. Circle of competence is operationalized as a written list of what you genuinely know vs. what you have surface-level familiarity with; decisions inside the circle deploy your edge, decisions outside default to humility (or get delegated/declined).
+First-principles thinking decomposes problems to their irreducible elements rather than reasoning by analogy. Second-order thinking forces explicit consideration of "and then what?", most decisions look fine on first-order but unravel on second-order. Circle of competence is operationalized as a written list of what you genuinely know vs. what you have surface-level familiarity with; decisions inside the circle deploy your edge, decisions outside default to humility (or get delegated/declined).
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The quality of your thinking determines the quality of your life; mental models from multiple disciplines give you the latticework to make better decisions and avoid stupidity."
 
-— Shane Parrish, *The Great Mental Models* (synthesized from operator's published work)
+· Shane Parrish, *The Great Mental Models* (synthesized from operator's published work)
 
 ## Signals
 - Operator has a written circle-of-competence document, updated over time.
@@ -48,5 +48,5 @@ Fails when:
 Munger and Parrish converge on the same prescription, so the framework's distinctiveness vs. Munger is partly continuity. Some critics argue mental-models thinking can become a procrastination device for operators who'd benefit more from action.
 
 ## Cross-references
-- ins_invert-always-invert — closely related (Munger)
-- ins_latticework-of-mental-models — closely related (Munger)
+- ins_invert-always-invert, closely related (Munger)
+- ins_latticework-of-mental-models, closely related (Munger)

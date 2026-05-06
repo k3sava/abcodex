@@ -22,7 +22,7 @@ raw_ref: ../wiki/concepts/ai-native-pmm-practice.md
 
 ## Claim
 
-People keep using AI to do the existing job 2x faster. That's not the win. The win is that the function rebuilds around the substrate — PMM and design and content and competitive aren't separate roles anymore, they're loops on the same data layer that one person plus a model can run. The org chart goes from 7 PMMs to 2 super-ICs and a flywheel. The metric that matters is revenue per employee, not headcount.
+People keep using AI to do the existing job 2x faster. That's not the win. The win is that the function rebuilds around the substrate, PMM and design and content and competitive aren't separate roles anymore, they're loops on the same data layer that one person plus a model can run. The org chart goes from 7 PMMs to 2 super-ICs and a flywheel. The metric that matters is revenue per employee, not headcount.
 
 ## Mechanism
 

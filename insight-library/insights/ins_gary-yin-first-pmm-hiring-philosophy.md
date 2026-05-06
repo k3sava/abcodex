@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer
 
 ## Claim
-Our first PMM needs to get into the product, find and report bugs voraciously, and be a truly great writer — not just a marketer.
+Our first PMM needs to get into the product, find and report bugs voraciously, and be a truly great writer, not just a marketer.
 
 ## Mechanism
 At an early-stage AI startup, PMM must live inside the product to understand its quirks and communicate them clearly; writing quality and hunger matter more than traditional PMM experience.

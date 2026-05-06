@@ -17,10 +17,10 @@ related: [ins_simon-pricing-is-structural-org-failure, ins_simon-discounting-mos
 raw_ref: raw/expert-content/experts/hermann-simon.md
 ---
 
-# Pricing needs a four-phase process and a named owner — strategy, analysis, decision, implementation
+# Pricing needs a four-phase process and a named owner, strategy, analysis, decision, implementation
 
 ## Claim
-Companies need a formal pricing process with four phases (strategy, analysis, decision, implementation), a pricing function (full department or at minimum a "Pricing Officer" who facilitates the process and maintains pricing intelligence), and CEO involvement in pricing strategy at least quarterly. Without these, pricing is ad hoc and reactive — and the structural under-investment per the related card becomes the operating reality.
+Companies need a formal pricing process with four phases (strategy, analysis, decision, implementation), a pricing function (full department or at minimum a "Pricing Officer" who facilitates the process and maintains pricing intelligence), and CEO involvement in pricing strategy at least quarterly. Without these, pricing is ad hoc and reactive, and the structural under-investment per the related card becomes the operating reality.
 
 ## Mechanism
 Each phase requires a different kind of work and a different kind of input:
@@ -46,7 +46,7 @@ Fails when:
 ## Evidence
 > "companies need a formal pricing process with four phases (strategy, analysis, decision, implementation), a pricing function (even if not a full department, at minimum a \"Pricing Officer\" who facilitates the process and maintains pricing intelligence), and CEO involvement in pricing strategy at least quarterly."
 
-— see `raw/expert-content/experts/hermann-simon.md` line 15.
+· see `raw/expert-content/experts/hermann-simon.md` line 15.
 
 ## Signals
 - A named Pricing Officer at director level or higher with cross-functional authority.
@@ -54,9 +54,9 @@ Fails when:
 - Pricing intelligence (competitor data, WTP studies, segment elasticity) maintained as a living document, not as one-time reports.
 
 ## Counter-evidence
-For early-stage companies still finding product-market fit, premature process-build-out is over-engineering and slows iteration. The four-phase process is most operative once the company has a stable motion and multiple segments — typically post-Series A scale.
+For early-stage companies still finding product-market fit, premature process-build-out is over-engineering and slows iteration. The four-phase process is most operative once the company has a stable motion and multiple segments, typically post-Series A scale.
 
 ## Cross-references
-- `ins_simon-pricing-is-structural-org-failure` — the diagnosis this process is meant to address.
-- `ins_simon-discounting-most-dangerous-practice` — the daily failure mode the process prevents.
-- `ins_simon-single-price-always-suboptimal` — what the analysis and decision phases produce.
+- `ins_simon-pricing-is-structural-org-failure`, the diagnosis this process is meant to address.
+- `ins_simon-discounting-most-dangerous-practice`, the daily failure mode the process prevents.
+- `ins_simon-single-price-always-suboptimal`, what the analysis and decision phases produce.

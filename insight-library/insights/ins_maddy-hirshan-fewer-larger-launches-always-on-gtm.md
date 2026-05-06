@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Smart teams move to fewer, larger launches and always-on GTM.
 
 ## Claim
-Where smart teams are moving: 1) Fewer, larger launches — quarterly or bi-annual packaging of multiple releases into one narrative. 2) Always-on GTM over reactive treadmill — lifecycle comms, value-based education, evolving content strategy, routine enablement.
+Where smart teams are moving: 1) Fewer, larger launches, quarterly or bi-annual packaging of multiple releases into one narrative. 2) Always-on GTM over reactive treadmill, lifecycle comms, value-based education, evolving content strategy, routine enablement.
 
 ## Mechanism
 Fewer, larger launches create stronger signal, better efficiency, and more momentum by bundling releases into a single compelling narrative. Always-on GTM replaces the reactive launch treadmill with sustained lifecycle communication and enablement, driving continuous adoption rather than episodic spikes.

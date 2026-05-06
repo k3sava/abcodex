@@ -19,21 +19,21 @@ Pricing produces the highest ROI of any business function (Simon: 1% price → 8
 
 ### 1. Org structure (Simon)
 
-Pricing needs a named owner with cross-functional authority — a Pricing Officer at director level minimum, ideally reporting to the CEO or COO. The role:
+Pricing needs a named owner with cross-functional authority, a Pricing Officer at director level minimum, ideally reporting to the CEO or COO. The role:
 
 - Owns the pricing process (see pillar 2).
 - Maintains pricing intelligence (competitor data, WTP research, segment elasticity studies).
 - Convenes quarterly CEO + executive pricing reviews.
 - Has authority to set discount bands and overrule rep-level discount decisions.
 
-If the company is too small for a dedicated role, the CEO is the de facto Pricing Officer — but the role exists either way. Cards: `ins_simon-pricing-is-structural-org-failure`, `ins_simon-formal-pricing-process`.
+If the company is too small for a dedicated role, the CEO is the de facto Pricing Officer, but the role exists either way. Cards: `ins_simon-pricing-is-structural-org-failure`, `ins_simon-formal-pricing-process`.
 
 ### 2. The four-phase process (Simon)
 
 Pricing decisions move through four phases:
 
 - **Strategy.** What positioning are we pricing for (premium / mid / penetration)? Which segments? What value-capture rate is the goal?
-- **Analysis.** Customer WTP research (use Ramanujam's three-question protocol — see pillar 3). Competitor pricing intelligence. Segment elasticity studies. Cost models.
+- **Analysis.** Customer WTP research (use Ramanujam's three-question protocol, see pillar 3). Competitor pricing intelligence. Segment elasticity studies. Cost models.
 - **Decision.** Tier structure, list prices, discount bands, feature gating, fences against arbitrage.
 - **Implementation.** Pricing pages, sales-system enforcement, comp plans, rep training, customer communication.
 
@@ -61,7 +61,7 @@ Cards: `ins_price-before-product`, `ins_ramanujam-three-wtp-questions`, `ins_ram
 
 For SaaS specifically, pricing model decisions determine unit economics in ways that pricing-page tier structure alone cannot:
 
-- **Per-seat / usage-based / tier-modular pricing** creates the expansion path that produces NRR > 100% — the structural marker of best-in-class SaaS (`ins_skok-negative-churn`).
+- **Per-seat / usage-based / tier-modular pricing** creates the expansion path that produces NRR > 100%, the structural marker of best-in-class SaaS (`ins_skok-negative-churn`).
 - **Flat-rate pricing** locks the seller out of expansion upside; renewable but capped.
 - **Annual prepay with seat-expansion** is the most common high-NRR pattern; align Customer Success comp to expansion.
 
@@ -85,7 +85,7 @@ Cards: `ins_value-equation-grand-slam-offer`, `ins_premium-pricing-virtuous-cycl
 
 ## Discount discipline (Simon)
 
-The single most important behavioural discipline is bounding discounting. Per Simon, discounting is the most dangerous pricing practice — easy to start, nearly impossible to stop, customer expectations reset permanently.
+The single most important behavioural discipline is bounding discounting. Per Simon, discounting is the most dangerous pricing practice, easy to start, nearly impossible to stop, customer expectations reset permanently.
 
 - Reps cannot discount above a defined band without director-level approval.
 - Discount-rate distribution monitored monthly; outliers reviewed.
@@ -119,5 +119,5 @@ Card: `ins_ramanujam-ai-pricing-against-labor-budgets`.
 ## Sources
 
 Cards listed under uses_cards above. See also:
-- `pat_pricing-as-the-most-leveraged-org-failure` — the underlying convergence.
-- `pat_market-and-offer-beat-funnel-optimisation` — the broader principle pricing fits into.
+- `pat_pricing-as-the-most-leveraged-org-failure`, the underlying convergence.
+- `pat_market-and-offer-beat-funnel-optimisation`, the broader principle pricing fits into.

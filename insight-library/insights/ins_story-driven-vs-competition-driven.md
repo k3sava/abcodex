@@ -17,10 +17,10 @@ related: [ins_fortune-cookie-principle]
 raw_ref: raw/expert-content/experts/bernadette-jiwa.md
 ---
 
-# Story-driven companies don't compete — they play a different game
+# Story-driven companies don't compete, they play a different game
 
 ## Claim
-Companies fall into two operating modes. Competition-driven companies define themselves in relation to rivals, react to market moves, and decide based on what others do. Story-driven companies define themselves through Backstory, Vision, Purpose, Values, and Strategy — they decide based on internal alignment and attract customers who share their values. Story-driven firms do not need to compete because they are not in the same game.
+Companies fall into two operating modes. Competition-driven companies define themselves in relation to rivals, react to market moves, and decide based on what others do. Story-driven companies define themselves through Backstory, Vision, Purpose, Values, and Strategy, they decide based on internal alignment and attract customers who share their values. Story-driven firms do not need to compete because they are not in the same game.
 
 ## Mechanism
 Five structural elements lock the orientation: where you came from (backstory), where you're going (vision), why you exist beyond money (purpose), what you will not compromise (values), and how you'll get there while staying true to the first four (strategy). When all five are explicit, decisions filter through them rather than through competitor moves. The result is a customer base self-selected for fit, with much higher retention and word-of-mouth than competitor-comparison customers.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Two types of companies: competition-driven companies (who define themselves in relation to rivals... and make decisions based on what others are doing) and story-driven companies (who define themselves by their purpose, backstory, and values, and make decisions based on internal alignment)."
 
-— Bernadette Jiwa, *Story Driven* (synthesized from operator's published work)
+· Bernadette Jiwa, *Story Driven* (synthesized from operator's published work)
 
 ## Signals
 - Strategic decisions reference internal documents (vision, values) before competitor analysis.
@@ -45,7 +45,7 @@ Fails when:
 - Marketing voice persists across leadership changes because it sits in shared documents.
 
 ## Counter-evidence
-Hamilton Helmer's *7 Powers* framework argues sustainable moats are structural (counter-positioning, scale economies, switching costs) — story alone is not durable. Competitor-aware operators (Bezos's Day 1) explicitly track rivals while also holding strong internal narrative.
+Hamilton Helmer's *7 Powers* framework argues sustainable moats are structural (counter-positioning, scale economies, switching costs), story alone is not durable. Competitor-aware operators (Bezos's Day 1) explicitly track rivals while also holding strong internal narrative.
 
 ## Cross-references
-- ins_fortune-cookie-principle — same operator
+- ins_fortune-cookie-principle, same operator

@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "I think there is something to a launch operations role to enable PMM to deliver the value the role was intended to deliver..."
 
-— Julie Grondin, LinkedIn, 2026-04-10
+· Julie Grondin, LinkedIn, 2026-04-10
 
 ## Signals
 - PMs who define the product/features

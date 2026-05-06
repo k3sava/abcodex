@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Claude Skills let non-technical PMMs build a reusable library of AI tools.
 
 ## Claim
-I nerded out on Claude Skills this weekend and created a small library for Docebo's PMM team. The experience is guided and tailored to your level of technical proficiency — mine is not high, so it was completely natural language based.
+I nerded out on Claude Skills this weekend and created a small library for Docebo's PMM team. The experience is guided and tailored to your level of technical proficiency, mine is not high, so it was completely natural language based.
 
 ## Mechanism
 Claude's skill-creator skill prompts for additional information and generates a markdown file that can be copied into skills with one click. This allows PMMs to codify positioning, messaging frameworks, and buyer personas into reusable AI tools that enforce consistency across content.

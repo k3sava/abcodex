@@ -46,7 +46,7 @@ Examples Andy walks through:
 
 The original 2015 Medium post "The Greatest Sales Deck I've Ever Seen" (Zuora) crossed 2 million views and proved CEOs would budget for narrative consulting.
 
-— Andy Raskin on Lenny's Podcast, 2026-04-28
+· Andy Raskin on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Sales conversations open with "have you noticed [shift]?" rather than "are you in market for X?"
@@ -54,8 +54,8 @@ The original 2015 Medium post "The Greatest Sales Deck I've Ever Seen" (Zuora) c
 - Competitors' decks read like feature comparisons; yours reads like a manifesto.
 
 ## Counter-evidence
-April Dunford's positioning work argues the right starting point is competitive alternatives and unique value, *then* narrative wraps. Andy's framework can become unmoored from product reality if applied without that grounding — the shift gets named and nobody actually wins the new game. Pair with positioning hygiene; do not substitute for it.
+April Dunford's positioning work argues the right starting point is competitive alternatives and unique value, *then* narrative wraps. Andy's framework can become unmoored from product reality if applied without that grounding, the shift gets named and nobody actually wins the new game. Pair with positioning hygiene; do not substitute for it.
 
 ## Cross-references
-- `ins_name-the-shift-concisely` — the compression discipline inside this framework
-- `ins_obstacles-as-gates-not-problems` — how features get framed inside the narrative
+- `ins_name-the-shift-concisely`, the compression discipline inside this framework
+- `ins_obstacles-as-gates-not-problems`, how features get framed inside the narrative

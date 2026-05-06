@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/jill-konrath.md
 Today's B2B buyer is overwhelmed and defaults to no-decision under cognitive overload. The seller's primary job is to *reduce mental effort*, not persuade. SNAP design principles for every interaction: Simple (understandable in <60 seconds), iNvaluable (worth their time even if they don't buy), Aligned (connects to what they're trying to achieve this quarter), Priority (why now, not eventually). These map to three sequential decisions: Allow Access → Initiate Change → Select Resources. Each decision needs different seller behavior.
 
 ## Mechanism
-Most sales process collapses three buyer decisions into one. A demo-centric approach fails at "Allow Access" — no one takes a demo from someone they haven't decided to engage with. A discovery-heavy approach fails too if it imposes load before earning the right. A feature-focused presentation fails at "Initiate Change" because it doesn't address whether change itself is worth the disruption. Konrath's Buyer's Matrix (role, objectives, problems, trigger events, status quo, decision process) is the pre-engagement research artifact that lets sellers enter with hypotheses instead of cognitively-loading questions.
+Most sales process collapses three buyer decisions into one. A demo-centric approach fails at "Allow Access", no one takes a demo from someone they haven't decided to engage with. A discovery-heavy approach fails too if it imposes load before earning the right. A feature-focused presentation fails at "Initiate Change" because it doesn't address whether change itself is worth the disruption. Konrath's Buyer's Matrix (role, objectives, problems, trigger events, status quo, decision process) is the pre-engagement research artifact that lets sellers enter with hypotheses instead of cognitively-loading questions.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Decision 1: Allow Access (will I grant this seller my time?), Decision 2: Initiate Change (is the problem bad enough to justify the disruption of changing?), Decision 3: Select Resources."
 
-— Jill Konrath, *SNAP Selling* (synthesized from operator's published work)
+· Jill Konrath, *SNAP Selling* (synthesized from operator's published work)
 
 ## Signals
 - Outreach explicitly designed against the SNAP four principles.

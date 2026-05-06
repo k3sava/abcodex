@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "3. Iterate with the AI meaningfully. Don't just ask for changes - tell it WHY you're making changes. Teach it strategic principles, not just execution."
 
-— James Doman-Pipe, LinkedIn, 2026-04-10
+· James Doman-Pipe, LinkedIn, 2026-04-10
 
 ## Signals
 - Product manifesto

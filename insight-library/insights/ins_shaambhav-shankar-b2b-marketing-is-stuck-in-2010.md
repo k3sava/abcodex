@@ -18,10 +18,10 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Most B2B marketing is still functioning like it’s 2010, following a boring playbook that causes stagnation.
+# Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation.
 
 ## Claim
-Most B2B marketing is still functioning like it’s 2010. Everyone follows the same boring playbook—SEO for Google instead of people, and ads that just follow you around online. It’s safe, predictable, and ultimately, it's why companies start stagnating.
+Most B2B marketing is still functioning like it's 2010. Everyone follows the same boring playbook, SEO for Google instead of people, and ads that just follow you around online. It's safe, predictable, and ultimately, it's why companies start stagnating.
 
 ## Mechanism
 The old playbook prioritizes search engine optimization over human connection and uses retargeting ads that annoy rather than engage. This lack of creativity and personalization leads to diminishing returns and eventual stagnation, especially in home services.

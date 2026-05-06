@@ -33,25 +33,25 @@ Holds when:
 
 Fails when:
 - The product's "complement" is actually its core (the team mis-tags and concedes the moat).
-- Foundation-model commoditization moves slower than the team's bet — the complement is still a real revenue line.
+- Foundation-model commoditization moves slower than the team's bet, the complement is still a real revenue line.
 - The category has no defensible core and the team is genuinely a complement business; conceding gracefully means winding down.
 
 ## Evidence
 > "A free, good-enough product is enough to change market dynamics."
 
-— Tomasz Tunguz, https://tomtunguz.com/competitive-strategy-in-ai/, 2026-04-24
+· Tomasz Tunguz, https://tomtunguz.com/competitive-strategy-in-ai/, 2026-04-24
 
 The historical reference is Google commoditizing operating systems (Android), browsers (Chrome), and productivity (Workspace) to defend the search/ads core. Tunguz argues Anthropic and OpenAI are running the same playbook against application-layer SaaS in 2026.
 
 ## Signals
 - Feature audits explicitly tag each feature core/complement and route deprecation decisions accordingly.
 - Pricing and packaging shifts reflect concession of complements (bundle them or ship for free) rather than premium pricing on commoditized capabilities.
-- Investment concentrates on data, distribution, regulated trust, or workflow depth — surfaces the model layer can't easily replicate.
+- Investment concentrates on data, distribution, regulated trust, or workflow depth, surfaces the model layer can't easily replicate.
 
 ## Counter-evidence
 The diagnosis depends on correctly identifying what the model layer can or can't commoditize, and that boundary moves with each model release. Teams that conceded too early have given up real revenue. The right cadence is quarterly re-tagging, not one-time strategic surgery.
 
 ## Cross-references
-- `ins_software-is-not-a-moat` — closely related: the moat sits beyond the software itself.
-- `ins_specificity-becomes-profitable` — Seufert's parallel claim from the creative side.
-- `ins_post-training-as-the-moat` — the labs' own answer for what is hard to commoditize.
+- `ins_software-is-not-a-moat`, closely related: the moat sits beyond the software itself.
+- `ins_specificity-becomes-profitable`, Seufert's parallel claim from the creative side.
+- `ins_post-training-as-the-moat`, the labs' own answer for what is hard to commoditize.

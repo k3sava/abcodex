@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Building in public is the only growth channel you need if you share real insights.
 
 ## Claim
-I don’t pay for any kind of ads to promote my business. Instead, I 100% build in public — content is my lead engine. I share insights on product growth openly here and break down frameworks I use with clients.
+I don't pay for any kind of ads to promote my business. Instead, I 100% build in public, content is my lead engine. I share insights on product growth openly here and break down frameworks I use with clients.
 
 ## Mechanism
 By openly sharing frameworks and real client work, you attract the exact audience that needs your expertise. Trust and authority replace ad spend.

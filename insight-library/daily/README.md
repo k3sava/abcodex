@@ -1,6 +1,6 @@
 # Daily additions log
 
-One file per day in this directory. Each file is the entry point for "what landed in the corpus today" — the SPA reads the latest one, the README hello bar links to it, and `latest.json` carries its metadata for any downstream agent.
+One file per day in this directory. Each file is the entry point for "what landed in the corpus today", the SPA reads the latest one, the README hello bar links to it, and `latest.json` carries its metadata for any downstream agent.
 
 ## File contract
 
@@ -45,7 +45,7 @@ The build script:
 
 ## Every named operator gets a profile
 
-When ingesting a source, list **every** named human operator in it — primary author and co-authors. Each one gets:
+When ingesting a source, list **every** named human operator in it, primary author and co-authors. Each one gets:
 
 1. An operator profile under `operators/<slug>/README.md` (or update the existing one).
 2. The card's `operator` frontmatter field for the primary author.
@@ -59,4 +59,4 @@ For podcast guests / talk-show interviewees who are quoted but not the host: inc
 
 ## Anti-fabrication rules still apply
 
-Every card needs a verifiable source URL and date. If you only have a paraphrase, write `source_url` to the operator's publication root and put the precise pub date in the body — do not invent a slug. If the date is uncertain, mark `source_date: unknown`.
+Every card needs a verifiable source URL and date. If you only have a paraphrase, write `source_url` to the operator's publication root and put the precise pub date in the body, do not invent a slug. If the date is uncertain, mark `source_date: unknown`.

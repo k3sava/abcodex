@@ -39,11 +39,11 @@ Ten most-actionable gaps surfaced from the matrix:
 
 ## Strengths (top 5 most-covered cells)
 
-- **ai-workflow × ai-native** — 35 cards (Tier A: 22, Tier B: 13)
-- **process-cadence × leadership** — 32 cards (Tier A: 19, Tier B: 13)
-- **hiring-team-design × leadership** — 29 cards (Tier A: 17, Tier B: 12)
-- **positioning × pmm** — 23 cards (Tier A: 8, Tier B: 15)
-- **process-cadence × product** — 22 cards (Tier A: 14, Tier B: 8)
+- **ai-workflow × ai-native**, 35 cards (Tier A: 22, Tier B: 13)
+- **process-cadence × leadership**, 32 cards (Tier A: 19, Tier B: 13)
+- **hiring-team-design × leadership**, 29 cards (Tier A: 17, Tier B: 12)
+- **positioning × pmm**, 23 cards (Tier A: 8, Tier B: 15)
+- **process-cadence × product**, 22 cards (Tier A: 14, Tier B: 8)
 
 ## Counts summary
 

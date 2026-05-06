@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Influencing the roadmap as a product marketer is often a privilege earned, not granted."
 
-— Aatir Abdul Rauf, LinkedIn, 2026-04-10
+· Aatir Abdul Rauf, LinkedIn, 2026-04-10
 
 ## Signals
 - "They bring up random ideas without focusing on current priorities."

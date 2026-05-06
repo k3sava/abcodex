@@ -17,13 +17,13 @@ related: [ins_roberge-sales-as-engineering-discipline, ins_skok-sales-rep-failur
 raw_ref: raw/expert-content/experts/mark-roberge.md
 ---
 
-# Replace "shadow a top rep" with structured curriculum + pass/fail certifications — competence before customer contact
+# Replace "shadow a top rep" with structured curriculum + pass/fail certifications, competence before customer contact
 
 ## Claim
-The default sales-training pattern — apprenticeship with a top rep — produces variable, slow ramp because the top rep's tacit knowledge isn't legible, the time-based ramp milestones don't reflect actual competence, and underprepared reps are sent to customer conversations too early. Replace it with a structured curriculum organised around buyer personas and buyer journeys, with certifications that have pass/fail gates rather than time-based milestones. Reps don't engage buyers until they have demonstrated competence.
+The default sales-training pattern, apprenticeship with a top rep, produces variable, slow ramp because the top rep's tacit knowledge isn't legible, the time-based ramp milestones don't reflect actual competence, and underprepared reps are sent to customer conversations too early. Replace it with a structured curriculum organised around buyer personas and buyer journeys, with certifications that have pass/fail gates rather than time-based milestones. Reps don't engage buyers until they have demonstrated competence.
 
 ## Mechanism
-"Shadow a top rep" depends on the top rep being a willing, structured teacher and on the new rep extracting tacit knowledge from observation — neither of which is reliable. Structured curricula make the knowledge legible: discovery question banks per persona, objection-handling playbooks per buyer journey stage, demo scripts per use case. Pass/fail certifications enforce competence: the rep cannot move to live customer calls until they pass a roleplay assessment with a manager. The two changes compound: ramp time becomes more predictable (everyone hits the same gates at roughly the same time), failure rate drops (underprepared reps are caught at the gate rather than at the customer call), and top reps' knowledge gets codified rather than left to apprenticeship transmission.
+"Shadow a top rep" depends on the top rep being a willing, structured teacher and on the new rep extracting tacit knowledge from observation, neither of which is reliable. Structured curricula make the knowledge legible: discovery question banks per persona, objection-handling playbooks per buyer journey stage, demo scripts per use case. Pass/fail certifications enforce competence: the rep cannot move to live customer calls until they pass a roleplay assessment with a manager. The two changes compound: ramp time becomes more predictable (everyone hits the same gates at roughly the same time), failure rate drops (underprepared reps are caught at the gate rather than at the customer call), and top reps' knowledge gets codified rather than left to apprenticeship transmission.
 
 ## Conditions
 Holds when:
@@ -39,16 +39,16 @@ Fails when:
 ## Evidence
 > "The Training Formula replaces \"shadow a top rep\" apprenticeship with a structured curriculum organized around buyer personas and buyer journeys, using certifications with pass/fail gates rather than time-based ramp milestones."
 
-— see `raw/expert-content/experts/mark-roberge.md` line 15.
+· see `raw/expert-content/experts/mark-roberge.md` line 15.
 
 ## Signals
 - New-hire ramp curves cluster tightly around the curriculum's expected timeline (low variance is the signal of working training).
 - Failure-to-quota rate trends down over time as the curriculum surfaces issues earlier.
-- Top reps actively contribute to curriculum updates each quarter — the curriculum is a living asset.
+- Top reps actively contribute to curriculum updates each quarter, the curriculum is a living asset.
 
 ## Counter-evidence
-Curricula can ossify around the patterns that worked at one moment in time and miss new buyer behaviours, new competitive dynamics, or new product capabilities. The discipline is curriculum maintenance — quarterly review with input from top reps — not curriculum existence alone.
+Curricula can ossify around the patterns that worked at one moment in time and miss new buyer behaviours, new competitive dynamics, or new product capabilities. The discipline is curriculum maintenance, quarterly review with input from top reps, not curriculum existence alone.
 
 ## Cross-references
-- `ins_roberge-sales-as-engineering-discipline` — the parent framework; this is the training-formula component.
-- `ins_skok-sales-rep-failure-rate` — Skok's 30-40% baseline failure rate, which Roberge's framework is designed to drive down.
+- `ins_roberge-sales-as-engineering-discipline`, the parent framework; this is the training-formula component.
+- `ins_skok-sales-rep-failure-rate`, Skok's 30-40% baseline failure rate, which Roberge's framework is designed to drive down.

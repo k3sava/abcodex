@@ -14,7 +14,7 @@ secondary_sources:
 
 # ICP definition playbook
 
-Produce an ICP document that operationalizes — narrow enough that sales can identify a fit account in under 30 seconds in the CRM. Synthesizes TK Kader's three-part frame (firmographics + triggers + macro trends), Lenny Rachitsky's "comically narrow" attribute model, and JTBD statements anchored to named customers.
+Produce an ICP document that operationalizes, narrow enough that sales can identify a fit account in under 30 seconds in the CRM. Synthesizes TK Kader's three-part frame (firmographics + triggers + macro trends), Lenny Rachitsky's "comically narrow" attribute model, and JTBD statements anchored to named customers.
 
 ## When to use
 
@@ -32,10 +32,10 @@ Pre-$10M ARR with diffuse customer base. Post-pivot. Before any beachhead campai
 
 ## Steps
 
-1. **Align on business context.** What question must the ICP answer — pricing, sales hiring, vertical bet, expansion?
+1. **Align on business context.** What question must the ICP answer, pricing, sales hiring, vertical bet, expansion?
 2. **Analyze customer data.** Segment current base by firmographics, subscription characteristics, LTV, and usage patterns. Find the high-value clusters.
 3. **Identify winning verticals.** Rank industries/segments by account volume × revenue × ARPA × retention × strategic fit.
-4. **Define firmographic criteria.** Company-level attributes: size, industry, geography, tech stack, business model. Minimum 3 specific attributes — "SMBs" is not an ICP.
+4. **Define firmographic criteria.** Company-level attributes: size, industry, geography, tech stack, business model. Minimum 3 specific attributes, "SMBs" is not an ICP.
 5. **Map triggers and macro trends.** Triggers = events creating urgency (funding, hiring spike, leadership change, regulatory shift). Macro trends = market-level "why now" (AI shift, channel deprecation, regulatory).
 6. **Run customer interviews.** 5–10 best customers. JTBD, purchase trigger, evaluation process, value realization. Use Moesta's switch-trigger frame (`ins_jtbd-interviews-surface-customer-language`).
 7. **Build buyer personas.** Champion + secondary personas. Real job titles, real pains, real day-to-day. Persona comes AFTER the ICP, never before.

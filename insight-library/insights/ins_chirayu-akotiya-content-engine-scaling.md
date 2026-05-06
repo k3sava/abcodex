@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-The traditional marketing-then-sales handoff is broken. At Leena AI, building a growth team with five sub-functions — product marketing, content, brand, demand gen, and revenue marketing (the SDR/BDR/ABM unit) — and setting cross-functional KPIs that depend on other functions (sales enablement owns lead-to-meeting; product marketing owns sales velocity and win rate) is what actually drives alignment.
+The traditional marketing-then-sales handoff is broken. At Leena AI, building a growth team with five sub-functions, product marketing, content, brand, demand gen, and revenue marketing (the SDR/BDR/ABM unit), and setting cross-functional KPIs that depend on other functions (sales enablement owns lead-to-meeting; product marketing owns sales velocity and win rate) is what actually drives alignment.
 
 ## Mechanism
 

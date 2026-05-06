@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/alex-hormozi.md
 # Higher prices select for better clients who produce better case studies that justify even higher prices
 
 ## Claim
-Price acts as an ICP filter, not just a revenue lever. Raising the price selects for clients who are more committed and more capable of implementation; those clients produce stronger outcomes; those outcomes become case studies; the case studies justify the next price increase. The cycle compounds — but only if the seller actually delivers results that match the premium.
+Price acts as an ICP filter, not just a revenue lever. Raising the price selects for clients who are more committed and more capable of implementation; those clients produce stronger outcomes; those outcomes become case studies; the case studies justify the next price increase. The cycle compounds, but only if the seller actually delivers results that match the premium.
 
 ## Mechanism
 Low-priced buyers and high-priced buyers behave differently. Low-priced buyers are more likely to skip steps, demand more support per dollar, and produce weaker outcomes (because their commitment level matches their spend). High-priced buyers are pre-committed by their own capital outlay, do the work, get results, and are willing to be referenced. Each iteration of the cycle (raise price → better clients → better results → better proof → raise again) ratchets the seller into a higher-leverage position. The cycle breaks when the seller raises price without the proof catching up, attracting skeptical buyers who churn at the new price point.
@@ -39,16 +39,16 @@ Fails when:
 ## Evidence
 > "higher prices create better clients who get better results, which creates better case studies, which attracts better clients at higher prices"
 
-— see `raw/expert-content/experts/alex-hormozi.md` line 17.
+· see `raw/expert-content/experts/alex-hormozi.md` line 17.
 
 ## Signals
 - Conversion-rate-by-price-tier analytics showing higher tiers convert *better* than lower tiers (the inverse of the naive expectation).
-- Case-study production cadence aligned to price increases — every increase backed by 3-5 fresh outcomes.
+- Case-study production cadence aligned to price increases, every increase backed by 3-5 fresh outcomes.
 - Implementation success rates that climb each year as the tier mix shifts upward.
 
 ## Counter-evidence
-In commoditising categories (most B2B SaaS at scale), price-as-filter loses signal as procurement gets sophisticated and reference-based pricing dominates. The cycle is most powerful at agency / coaching / consulting scale, where proof is qualitative — at SaaS scale, public pricing pages and review sites flatten the asymmetry.
+In commoditising categories (most B2B SaaS at scale), price-as-filter loses signal as procurement gets sophisticated and reference-based pricing dominates. The cycle is most powerful at agency / coaching / consulting scale, where proof is qualitative, at SaaS scale, public pricing pages and review sites flatten the asymmetry.
 
 ## Cross-references
-- `ins_value-equation-grand-slam-offer` — premium pricing is sustainable only when the value equation's numerator (dream outcome × likelihood) credibly justifies the price.
-- `ins_starving-crowd-beats-offer` — premium pricing is downstream of starving-crowd selection; the wrong market won't pay regardless of offer quality.
+- `ins_value-equation-grand-slam-offer`, premium pricing is sustainable only when the value equation's numerator (dream outcome × likelihood) credibly justifies the price.
+- `ins_starving-crowd-beats-offer`, premium pricing is downstream of starving-crowd selection; the wrong market won't pay regardless of offer quality.

@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 Three months in as a Senior PMM in tech. Here are some of my reflections especially for those starting a new role: 1. Do not underestimate the power of context. Context is your compass.
 
 ## Mechanism
-3. The fastest way to ship meaningful work is by building trust with the people who make it real. Context and listening give you direction, but relationships give you lift. The magic happens when everyone feels like you’re on the same side of the table and that you’re on their side too.
+3. The fastest way to ship meaningful work is by building trust with the people who make it real. Context and listening give you direction, but relationships give you lift. The magic happens when everyone feels like you're on the same side of the table and that you're on their side too.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Three months in as a Senior PMM in tech. Here are some of my reflections especially for those starting a new role:"
 
-— Hira Saeed, LinkedIn, 2026-04-10
+· Hira Saeed, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

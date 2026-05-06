@@ -20,10 +20,10 @@ raw_ref: raw/podcasts/annie-duke--decision-quality-explicit-thinking--2026-04-28
 # Force intuitions into explicit predictions so you can find out where you are wrong
 
 ## Claim
-Intuition is useful, but if it stays implicit you never get feedback on when it fails. Force every important intuition into an explicit, falsifiable prediction with a number and a horizon — then check it.
+Intuition is useful, but if it stays implicit you never get feedback on when it fails. Force every important intuition into an explicit, falsifiable prediction with a number and a horizon, then check it.
 
 ## Mechanism
-Implicit intuition is unfalsifiable: any outcome can be retrofitted into "I knew that." Explicit predictions are anchors. They force the intuition into a shape that can be wrong, which is the only shape that can teach. Over time, calibration emerges — the operator learns where their gut is sharp and where it is biased. Without the explicit step, both gains and losses go unrecorded.
+Implicit intuition is unfalsifiable: any outcome can be retrofitted into "I knew that." Explicit predictions are anchors. They force the intuition into a shape that can be wrong, which is the only shape that can teach. Over time, calibration emerges, the operator learns where their gut is sharp and where it is biased. Without the explicit step, both gains and losses go unrecorded.
 
 ## Conditions
 Holds when:
@@ -41,16 +41,16 @@ Fails when:
 
 Annie's framing: explicitness forces specificity, specificity enables falsification.
 
-— Annie Duke on Lenny's Podcast, 2026-04-28
+· Annie Duke on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Decision documents include explicit predictions with numbers and horizons.
 - Post-mortems compare actual outcomes to recorded predictions, not to vague memories.
-- Operators develop measurable calibration over months — better tracking, fewer surprised reactions.
+- Operators develop measurable calibration over months, better tracking, fewer surprised reactions.
 
 ## Counter-evidence
 Forcing every intuition into a number can produce false precision and crowd out genuine ambiguity-tolerance. Some operators reason better by analogy and metaphor than by quantified prediction.
 
 ## Cross-references
-- `ins_kill-criteria-make-pre-mortems-real` — the launch-gate companion
-- `ins_no-such-thing-as-long-feedback-loop` — how to keep the horizon short
+- `ins_kill-criteria-make-pre-mortems-real`, the launch-gate companion
+- `ins_no-such-thing-as-long-feedback-loop`, how to keep the horizon short

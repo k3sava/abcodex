@@ -36,7 +36,7 @@ Fails when:
 ## Evidence
 > "If the content you publish is negative, you will breed an audience fuelled by negativity. Haters in the comments. Low sentiment ratios. If your content is positive, uplifting, inspirational, aspirational, you’re likely to receive the same response from the audience."
 
-— Devran Karaca, *What I learnt in the first 12 months of starting a media company*, LinkedIn Pulse, 2018-02-26
+· Devran Karaca, *What I learnt in the first 12 months of starting a media company*, LinkedIn Pulse, 2018-02-26
 
 ## Signals
 - Comment-section sentiment ratios converge to the editorial tone within months.

@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/andrew-faris.md
 The most expensive line item in DTC advertising is creative testing. Cost caps (or bid caps / minimum-ROAS) collapse that cost: instead of running test campaigns to evaluate new creative, you launch all creative into the same campaigns under a cap and let Meta automatically suppress spend on losers. This converts creative testing from a manual, capital-heavy process into an automated, capital-efficient one.
 
 ## Mechanism
-Lowest-cost delivery rewards the algorithm for spending fast, regardless of efficiency. Cost caps anchor delivery to a unit-economics target — Meta only spends where it can hit the cap, so weak creative starves and strong creative scales. The brand can ship limitless variations without separate test budgets, because each ad self-selects against the same threshold.
+Lowest-cost delivery rewards the algorithm for spending fast, regardless of efficiency. Cost caps anchor delivery to a unit-economics target, Meta only spends where it can hit the cap, so weak creative starves and strong creative scales. The brand can ship limitless variations without separate test budgets, because each ad self-selects against the same threshold.
 
 ## Conditions
 Holds when:
@@ -39,15 +39,15 @@ Fails when:
 
 > "You launch every new piece of creative in the same campaigns as evergreen content using bid caps, and Meta automatically suppresses spend on likely losers while scaling spend on likely winners."
 
-— Andrew Faris (synthesized from operator's published work)
+· Andrew Faris (synthesized from operator's published work)
 
 ## Signals
 - Account structure has a small number of consolidated campaigns rather than per-creative test sets.
-- Test budgets are not a separate line item — testing happens inside evergreen campaigns.
+- Test budgets are not a separate line item, testing happens inside evergreen campaigns.
 - Reports show creative variation count per week, not per-campaign spend tests.
 
 ## Counter-evidence
-Performance shops at agency scale (Common Thread, Common Thread alumni) have argued cost caps under-spend during scaling pushes and require lowest-cost mode during BFCM. Channel diversification (TikTok, YouTube) also breaks the assumption — cost caps are most defensible inside Meta's specific delivery model.
+Performance shops at agency scale (Common Thread, Common Thread alumni) have argued cost caps under-spend during scaling pushes and require lowest-cost mode during BFCM. Channel diversification (TikTok, YouTube) also breaks the assumption, cost caps are most defensible inside Meta's specific delivery model.
 
 ## Cross-references
 - (none in current corpus)

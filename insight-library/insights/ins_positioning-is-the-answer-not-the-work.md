@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/emily-kramer.md
 # Positioning is the right answer (one statement), not the work (the 30-slide deck)
 
 ## Claim
-Most positioning exercises take companies too deep into research and never produce a clear, usable answer. Like long division: the research is the work, but positioning is the answer. The biggest leverage is the "product type and comparator" choice — Kramer's four product types (10x better, vertical solution, new way, buy vs. build) each map to a specific comparator. Picking the wrong comparator for the wrong audience is what causes the most downstream damage.
+Most positioning exercises take companies too deep into research and never produce a clear, usable answer. Like long division: the research is the work, but positioning is the answer. The biggest leverage is the "product type and comparator" choice, Kramer's four product types (10x better, vertical solution, new way, buy vs. build) each map to a specific comparator. Picking the wrong comparator for the wrong audience is what causes the most downstream damage.
 
 ## Mechanism
 Four phases must be kept separate: (1) product-marketing research, (2) product-type and comparator selection, (3) positioning statement (three blanks: who is it for, what is it, why is it better), (4) messaging (positioning adapted to audiences, funnel stages, channels). Step 2 is the most-skipped and most-damaging. Bonus: "new way" positioning is the hardest of the four. Early competitors in an emerging category *help* you grow; the real challenge is making the audience problem-aware and solution-aware. Position "new way" products against "nothing" or the "old way," not against fellow new entrants.
@@ -39,7 +39,7 @@ Fails when:
 
 > "If you position against the wrong comparator to the wrong audience, nothing else works."
 
-— Emily Kramer, *The MKT1 Guide to Positioning*
+· Emily Kramer, *The MKT1 Guide to Positioning*
 
 ## Signals
 - Positioning artifact is one statement, not a deck.

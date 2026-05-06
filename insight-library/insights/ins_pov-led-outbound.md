@@ -20,7 +20,7 @@ raw_ref: raw/essays/chris-orlob--pov-led-outbound--2026-04-21.md
 # Lead with a per-account point of view, not a templated cold ask
 
 ## Claim
-Cold outbound is structurally collapsing; the replacement is a sharp, durable point of view per target account, earned from public signals (10-K, hiring patterns, product changes), that reframes the buyer's problem before any ask — teams running this report ~3x pipeline versus generic cold outreach.
+Cold outbound is structurally collapsing; the replacement is a sharp, durable point of view per target account, earned from public signals (10-K, hiring patterns, product changes), that reframes the buyer's problem before any ask, teams running this report ~3x pipeline versus generic cold outreach.
 
 ## Mechanism
 LLM-generated and template-generated outbound has saturated buyer inboxes; reply rates collapse because the medium is full of indistinguishable noise. A POV opens with a reframe earned from the buyer's own public record, which proves the rep already understands their world and forces the recipient to engage with the substance rather than dismiss the channel. The mechanism is asymmetry: the rep paid the cost of original analysis; the buyer can't get the reframe from a template. AI-native execution: an agent mines 90 days of public signal per account and proposes 3 POV openings; a human approves which POV is sharp enough to send.
@@ -29,7 +29,7 @@ LLM-generated and template-generated outbound has saturated buyer inboxes; reply
 Holds when:
 - The target account list is tight (the analysis cost only amortizes against high-value accounts).
 - Public signals exist for the buyer (10-K, hiring, releases, podcasts).
-- The rep can write — POVs that read like templated AI miss the entire mechanism.
+- The rep can write, POVs that read like templated AI miss the entire mechanism.
 
 Fails when:
 - Target list is broad and the per-account analysis cost can't amortize.
@@ -43,7 +43,7 @@ Fails when:
 
 Teams running tight-list POV outbound report 3x pipeline versus generic cold; reply rates lift from a 1-2% baseline to triple-digit improvements over baseline.
 
-— Chris Orlob, https://www.pclub.io/blog/pov-led-outbound-how-to-triple-your-pipeline-generation-with-target-accounts, 2026-04-21
+· Chris Orlob, https://www.pclub.io/blog/pov-led-outbound-how-to-triple-your-pipeline-generation-with-target-accounts, 2026-04-21
 
 ## Signals
 - Reply-rate distribution skews bimodal: more silence, more substantive engagements (fewer "thanks but no" replies).
@@ -54,6 +54,6 @@ Teams running tight-list POV outbound report 3x pipeline versus generic cold; re
 At very early stages with no brand and no analyst capacity, volume-plus-low-personalization can still generate sufficient meetings to find product-market fit. Florin Tatulea's tech-stack-plus-renewal-window play (`ins_tech-stack-renewal-window-play`) shows a different cut: highly targeted signal-based plays can outperform POV-led when the trigger is precise (5x conversion claim).
 
 ## Cross-references
-- `ins_3s-content-from-sales-success-support` — Hufford's content-side analog.
-- `ins_tech-stack-renewal-window-play` — Tatulea's signal-based alternative.
-- `ins_setup-follow-through-pitch` — Dunford's pitch structure that POV outbound resolves into.
+- `ins_3s-content-from-sales-success-support`, Hufford's content-side analog.
+- `ins_tech-stack-renewal-window-play`, Tatulea's signal-based alternative.
+- `ins_setup-follow-through-pitch`, Dunford's pitch structure that POV outbound resolves into.

@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/pia-silva.md
 ---
 
-# Compress delivery into 2-day intensives, paid in full upfront — kill multi-month projects with endless revisions
+# Compress delivery into 2-day intensives, paid in full upfront, kill multi-month projects with endless revisions
 
 ## Claim
 The traditional agency model (multi-month projects, scope creep, endless revisions) is structurally broken. The fix: paid-in-full intensives that compress delivery into a fixed window. Worstofall Design builds complete brands in 2-day intensives at $15-30K. The constraint protects time, margins, and creative energy by removing the structural cause of agency profitability collapse.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "The traditional agency model of multi-month projects with endless revisions is structurally broken; the fix is compressing delivery into paid-in-full intensives that protect your time, your margins, and your creative energy."
 
-— Pia Silva, *Worstofall Design* (synthesized from operator's published work)
+· Pia Silva, *Worstofall Design* (synthesized from operator's published work)
 
 ## Signals
 - Sales process gates on paid-in-full upfront, not phased invoicing.
@@ -48,4 +48,4 @@ Fails when:
 Some categories (digital design, ongoing marketing ops) genuinely need continuous engagement and can't be compressed into intensives. Enterprise procurement processes also routinely forbid paid-in-full structures.
 
 ## Cross-references
-- ins_thinking-vs-doing-two-rooms — adjacent operator (David C. Baker)
+- ins_thinking-vs-doing-two-rooms, adjacent operator (David C. Baker)

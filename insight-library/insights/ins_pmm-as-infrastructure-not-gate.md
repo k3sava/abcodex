@@ -18,11 +18,11 @@ raw_ref: raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md
 title: 'PLG sales-led companies need PLG, and PLG companies need sales — both, not one'
 ---
 
-# PLG sales-led companies need PLG, and PLG companies need sales — both, not one
+# PLG sales-led companies need PLG, and PLG companies need sales, both, not one
 
 ## Claim
 
-The future of B2B growth is product-led AND sales-led, not one or the other. Pure PLG gets crushed when it moves upmarket because enterprise buyers need humans in the deal. Pure SLG companies leak the bottom of the funnel where self-serve users would have converted on their own. The winning model is freemium plus product-qualified accounts (PQAs) routed to sales at the right signal — and freemium beats trial because retention is easier than reactivation.
+The future of B2B growth is product-led AND sales-led, not one or the other. Pure PLG gets crushed when it moves upmarket because enterprise buyers need humans in the deal. Pure SLG companies leak the bottom of the funnel where self-serve users would have converted on their own. The winning model is freemium plus product-qualified accounts (PQAs) routed to sales at the right signal, and freemium beats trial because retention is easier than reactivation.
 
 ## Mechanism
 

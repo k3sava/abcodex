@@ -20,10 +20,10 @@ raw_ref: raw/expert-content/experts/charlie-munger.md
 # Reliable thinking requires 80-90 mental models from multiple disciplines, not one
 
 ## Claim
-A person who thinks only through one lens will see every problem through that lens — and will be catastrophically wrong when another discipline dominates. The remedy is to internalize 80-90 fundamental models from physics, biology, psychology, economics, math, statistics, engineering, etc., and run them as an integrated cognitive operating system that pattern-matches on every decision automatically.
+A person who thinks only through one lens will see every problem through that lens, and will be catastrophically wrong when another discipline dominates. The remedy is to internalize 80-90 fundamental models from physics, biology, psychology, economics, math, statistics, engineering, etc., and run them as an integrated cognitive operating system that pattern-matches on every decision automatically.
 
 ## Mechanism
-Single-discipline thinking produces predictable failure modes: the economist sees incentive problems everywhere, the psychologist sees biases everywhere. Munger's "lollapalooza effect" — multiple cognitive forces aligning in the same direction — is invisible to single-model thinkers and produces the extreme outcomes that derail companies. The latticework is built deliberately over decades through cross-disciplinary reading, and it compounds: a 60-year-old with 80 internalized models makes qualitatively different decisions than a 30-year-old with 10.
+Single-discipline thinking produces predictable failure modes: the economist sees incentive problems everywhere, the psychologist sees biases everywhere. Munger's "lollapalooza effect", multiple cognitive forces aligning in the same direction, is invisible to single-model thinkers and produces the extreme outcomes that derail companies. The latticework is built deliberately over decades through cross-disciplinary reading, and it compounds: a 60-year-old with 80 internalized models makes qualitatively different decisions than a 30-year-old with 10.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Never, ever, think about something else when you should be thinking about the power of incentives."
 
-— Charlie Munger (synthesized from operator's published work)
+· Charlie Munger (synthesized from operator's published work)
 
 ## Signals
 - Decision-maker can name the 5-10 models they applied to a recent hard call.
@@ -47,7 +47,7 @@ Fails when:
 - Post-mortems identify which model would have caught the error and add it to the toolkit.
 
 ## Counter-evidence
-Specialist-depth advocates (Cal Newport's *Deep Work*) argue that breadth at the expense of depth produces dilettantes — the highest-leverage knowledge work happens when one expert has mastered one domain so deeply that they out-think 80-model generalists in their slice.
+Specialist-depth advocates (Cal Newport's *Deep Work*) argue that breadth at the expense of depth produces dilettantes, the highest-leverage knowledge work happens when one expert has mastered one domain so deeply that they out-think 80-model generalists in their slice.
 
 ## Cross-references
 - (none in current corpus)

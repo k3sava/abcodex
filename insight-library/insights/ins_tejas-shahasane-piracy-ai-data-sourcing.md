@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 The only remaining option for a large, organized, and digitized repository of books is pirated P2P torrents and archives like Z-Library or Anna's Archive.
 
 ## Mechanism
-Legally obtaining books at scale is cumbersome and not scalable—Anthropic spent millions buying and manually digitizing books. Amazon can't provide a digital library because they're a marketplace, not a reseller, so they'd need to negotiate opt-ins with every publisher and author. That leaves piracy as the only viable source for massive training datasets.
+Legally obtaining books at scale is cumbersome and not scalable, Anthropic spent millions buying and manually digitizing books. Amazon can't provide a digital library because they're a marketplace, not a reseller, so they'd need to negotiate opt-ins with every publisher and author. That leaves piracy as the only viable source for massive training datasets.

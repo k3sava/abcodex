@@ -20,7 +20,7 @@ raw_ref: raw/podcasts/becky-kennedy--good-inside-leadership--2026-04-28.md
 # Secure relationships are built by repair after rupture, not by avoiding rupture
 
 ## Claim
-Trust between humans — including in working relationships — is not built by getting it right every time. It is built by an explicit repair after the inevitable misstep. "Perfect is creepy" optimisation prevents repair muscle from developing; high-frequency repair compounds trust faster than low-frequency near-perfection.
+Trust between humans, including in working relationships, is not built by getting it right every time. It is built by an explicit repair after the inevitable misstep. "Perfect is creepy" optimisation prevents repair muscle from developing; high-frequency repair compounds trust faster than low-frequency near-perfection.
 
 ## Mechanism
 Ruptures are inevitable in any relationship under pressure. A repair signals that the relationship is durable enough to survive misstep, that the leader is capable of self-observation, and that the team can raise concerns without the relationship breaking. Without repair, ruptures accumulate as quiet resentment. With repair, the same ruptures become evidence that the team can survive hard moments. The verbal pattern: name what you did, take responsibility, name what was happening for you, commit to working on it.
@@ -43,7 +43,7 @@ Fails when:
 
 Becky's verbatim repair model: "Earlier in the meeting I cut you off and used a harsh tone. Stuff was going on before the meeting. I'm sorry. I'm working on that."
 
-— Becky Kennedy on Lenny's Podcast, 2026-04-28
+· Becky Kennedy on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Teams report higher psychological safety on surveys that ask about post-conflict outcomes, not absence of conflict.
@@ -51,8 +51,8 @@ Becky's verbatim repair model: "Earlier in the meeting I cut you off and used a 
 - Ruptures stop accumulating into churn or quiet quitting.
 
 ## Counter-evidence
-For some leaders, frequent repair without behaviour change becomes its own corrosive pattern — the team learns the leader will rupture, apologise, and rupture again. Repair is a complement to behaviour change, not a substitute. Cultures that prize stoicism may also resist explicit repair as performative weakness.
+For some leaders, frequent repair without behaviour change becomes its own corrosive pattern, the team learns the leader will rupture, apologise, and rupture again. Repair is a complement to behaviour change, not a substitute. Cultures that prize stoicism may also resist explicit repair as performative weakness.
 
 ## Cross-references
-- `ins_separate-behavior-from-identity` — the conversation that often follows repair
-- `ins_most-generous-interpretation` — the lens that makes repair land
+- `ins_separate-behavior-from-identity`, the conversation that often follows repair
+- `ins_most-generous-interpretation`, the lens that makes repair land

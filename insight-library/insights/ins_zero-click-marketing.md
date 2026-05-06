@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/rand-fishkin.md
 ---
 
-# 58.5% of US Google searches end without a click — create standalone value where audiences already are
+# 58.5% of US Google searches end without a click, create standalone value where audiences already are
 
 ## Claim
 Two-thirds of Google searches now end without a click. Platforms algorithmically punish outbound links. Attribution infrastructure is breaking. The only rational response is *zero-click marketing*: create standalone value where audiences already are (LinkedIn posts, Twitter threads, podcast episodes complete in themselves) and measure brand lift rather than clicks.
 
 ## Mechanism
-The traditional content/SEO funnel assumed users would click through to your owned property. As that assumption breaks, content optimized for clicks is content optimized for an obsolete metric. Zero-click marketing inverts: produce content that delivers full value inside the platform — the LinkedIn post is the deliverable, not a teaser for a blog. Measurement shifts from clicks-to-site to brand-lift surveys, branded-search volume, and direct traffic. Attribution becomes "How did you hear about us?" rather than UTM tagging.
+The traditional content/SEO funnel assumed users would click through to your owned property. As that assumption breaks, content optimized for clicks is content optimized for an obsolete metric. Zero-click marketing inverts: produce content that delivers full value inside the platform, the LinkedIn post is the deliverable, not a teaser for a blog. Measurement shifts from clicks-to-site to brand-lift surveys, branded-search volume, and direct traffic. Attribution becomes "How did you hear about us?" rather than UTM tagging.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "58.5% of US Google searches end without a click."
 
-— Rand Fishkin (synthesized from operator's published work)
+· Rand Fishkin (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard tracks branded-search volume and direct-traffic share, not just sessions.
@@ -47,7 +47,7 @@ Fails when:
 - "How did you hear about us?" appears in onboarding, with software attribution as a secondary layer.
 
 ## Counter-evidence
-For SEO-driven SaaS products, owned-property visits remain a high-quality conversion signal — over-pivoting to zero-click can starve a working channel. AI Overview and answer-engine search are also reshaping the landscape in ways even Fishkin's framework hasn't fully addressed.
+For SEO-driven SaaS products, owned-property visits remain a high-quality conversion signal, over-pivoting to zero-click can starve a working channel. AI Overview and answer-engine search are also reshaping the landscape in ways even Fishkin's framework hasn't fully addressed.
 
 ## Cross-references
-- ins_demand-creation-vs-capture — adjacent operator (Chris Walker)
+- ins_demand-creation-vs-capture, adjacent operator (Chris Walker)

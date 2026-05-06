@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# That’s when I understood that sales training is just 10% of the equation
+# That's when I understood that sales training is just 10% of the equation
 
 ## Claim
-I wanted to build the business before I even had a website. I had heard all the whispers around “stealth mode.” In all honesty, it’s brutally hard to build something without external validation. Because this company is born out of the failures. My goal was to train early-stage SaaS founders and sales teams to sell better.
+I wanted to build the business before I even had a website. I had heard all the whispers around "stealth mode." In all honesty, it's brutally hard to build something without external validation. Because this company is born out of the failures. My goal was to train early-stage SaaS founders and sales teams to sell better.
 
 ## Mechanism
-Because who comes on LinkedIn saying, “Hey, I failed miserably today”?
+Because who comes on LinkedIn saying, "Hey, I failed miserably today"?
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "That’s when I understood that sales training is just 10% of the equation."
 
-— Akshaya Sampath, LinkedIn, 2026-04-10
+· Akshaya Sampath, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -17,13 +17,13 @@ related: [ins_permission-as-measurable-asset, ins_godin-five-step-marketing-proc
 raw_ref: raw/expert-content/experts/seth-godin.md
 ---
 
-# Strangers → friends → customers — three trust thresholds, three different message types
+# Strangers → friends → customers, three trust thresholds, three different message types
 
 ## Claim
-Permission marketing operates as a three-rung trust ladder: strangers become friends, friends become customers, but only through messages that are anticipated, personal, and relevant — not through promotion. Each rung needs a different communication mode; jumping rungs (selling to a stranger before earning friend status) breaks the ladder.
+Permission marketing operates as a three-rung trust ladder: strangers become friends, friends become customers, but only through messages that are anticipated, personal, and relevant, not through promotion. Each rung needs a different communication mode; jumping rungs (selling to a stranger before earning friend status) breaks the ladder.
 
 ## Mechanism
-Each rung represents a different willingness to engage. Strangers have low willingness; their attention has to be earned through value-first content with no ask. Friends have established trust and will tolerate longer-form engagement and occasional asks. Customers have transactional commitment and accept direct offers. Messages calibrated for the wrong rung fail predictably: a sales pitch to a stranger reads as spam; a content-only message to a long-term customer reads as wasted attention. The marketer's job is to know what rung each segment of the audience is on and route messages accordingly. The compounding lever is moving people up the ladder over time — content that converts strangers to friends, then nurture that converts friends to customers, then retention that keeps customers paying attention.
+Each rung represents a different willingness to engage. Strangers have low willingness; their attention has to be earned through value-first content with no ask. Friends have established trust and will tolerate longer-form engagement and occasional asks. Customers have transactional commitment and accept direct offers. Messages calibrated for the wrong rung fail predictably: a sales pitch to a stranger reads as spam; a content-only message to a long-term customer reads as wasted attention. The marketer's job is to know what rung each segment of the audience is on and route messages accordingly. The compounding lever is moving people up the ladder over time, content that converts strangers to friends, then nurture that converts friends to customers, then retention that keeps customers paying attention.
 
 ## Conditions
 Holds when:
@@ -32,14 +32,14 @@ Holds when:
 - The audience has time-horizon long enough that rung-progression matters (months to years, not minutes).
 
 Fails when:
-- The buying decision is single-touch and immediate (some commodity B2C, some impulse purchases) — rungs collapse to a single conversion event.
-- Segmentation infrastructure is missing — undifferentiated blasts erase the ladder entirely.
+- The buying decision is single-touch and immediate (some commodity B2C, some impulse purchases), rungs collapse to a single conversion event.
+- Segmentation infrastructure is missing, undifferentiated blasts erase the ladder entirely.
 - The marketer's KPI is short-term conversion only, which forces stranger-to-customer jumps and burns the ladder.
 
 ## Evidence
 > "Godin's framework describes a trust ladder: strangers become friends become customers, but only through anticipated, personal, and relevant messages that people actually want to receive."
 
-— see `raw/expert-content/experts/seth-godin.md` line 17.
+· see `raw/expert-content/experts/seth-godin.md` line 17.
 
 ## Signals
 - Audience metrics include ladder-stage distribution (% strangers, % friends, % customers) and movement rates between stages.
@@ -47,8 +47,8 @@ Fails when:
 - Customer-acquisition-cost trend declines as the friend-tier audience grows large enough to supply customers organically.
 
 ## Counter-evidence
-Direct-response advertising consistently demonstrates that some categories convert strangers to customers in a single touch (deal-of-the-day, impulse e-commerce, consumer mobile apps). The trust-ladder framing is most operative in considered-purchase categories — B2B SaaS, education, premium services — and less binding for transactional B2C.
+Direct-response advertising consistently demonstrates that some categories convert strangers to customers in a single touch (deal-of-the-day, impulse e-commerce, consumer mobile apps). The trust-ladder framing is most operative in considered-purchase categories, B2B SaaS, education, premium services, and less binding for transactional B2C.
 
 ## Cross-references
-- `ins_permission-as-measurable-asset` — the ladder is the structural model for how permission accumulates rung by rung.
-- `ins_godin-five-step-marketing-process` — step 5 ("show up for years") is what powers stage-progression on the trust ladder.
+- `ins_permission-as-measurable-asset`, the ladder is the structural model for how permission accumulates rung by rung.
+- `ins_godin-five-step-marketing-process`, step 5 ("show up for years") is what powers stage-progression on the trust ladder.

@@ -20,19 +20,19 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 # PMMs lose influence when they report activities; translate every activity into a business outcome
 
 ## Claim
-PMMs commonly describe their work as activities ("rolled out new positioning," "created 3 battlecards," "led 2 launches"). To sales leaders and C-suite execs, those are activities, not outcomes. To gain influence and buy-in, every activity must be translated into exec speak — tied to a business outcome, supported with real data, and explained for why it matters.
+PMMs commonly describe their work as activities ("rolled out new positioning," "created 3 battlecards," "led 2 launches"). To sales leaders and C-suite execs, those are activities, not outcomes. To gain influence and buy-in, every activity must be translated into exec speak, tied to a business outcome, supported with real data, and explained for why it matters.
 
 ## Mechanism
 Execs allocate attention and budget against business outcomes (revenue, win rate, deal velocity, retention). Activity-language forces the exec to do the translation work themselves; most won't, so the PMM contribution becomes invisible at planning time. Translation pre-empts the budget review.
 
 ## Conditions
 Holds when: the PMM has data tying activities to outcomes (win-rate lift, pipeline created, deal velocity) and the exec audience speaks business-outcome language.
-Fails when: the activity legitimately has no measurable outcome yet (early positioning work) — forcing a metric here invites fabrication.
+Fails when: the activity legitimately has no measurable outcome yet (early positioning work), forcing a metric here invites fabrication.
 
 ## Evidence
 > "These all sound solid, but to a sales leader or a C suite person, these just describe activities, not outcomes. So, to communicate with more impact, get more influence and buy-in, you need to translate each of your activities to 'exec speak' by tying it to business outcomes, supporting it with real data, and describing why it's important."
 
-— Yi Lin Pei, LinkedIn, 2026-04-10
+· Yi Lin Pei, LinkedIn, 2026-04-10
 
 ## Signals
 - QBR slides lead with business outcome and cite the PMM activity as the lever.
@@ -40,7 +40,7 @@ Fails when: the activity legitimately has no measurable outcome yet (early posit
 - Sales and CS leaders cite PMM work in their own QBRs without prompting.
 
 ## Counter-evidence
-Over-translating can create false precision — attributing pipeline lift to a battlecard when sales coaching, product changes, and market timing all moved together. Use ranges and contribution language, not single-cause attribution.
+Over-translating can create false precision, attributing pipeline lift to a battlecard when sales coaching, product changes, and market timing all moved together. Use ranges and contribution language, not single-cause attribution.
 
 ## Cross-references
 - (none in current corpus)

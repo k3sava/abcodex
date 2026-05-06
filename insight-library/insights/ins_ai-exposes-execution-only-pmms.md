@@ -23,7 +23,7 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 The PMM job described as launch emails, win-loss recaps, messaging-doc updates, roadmap-slide tweaks, and deck/landing-page copy is the part AI now does faster, cheaper, and better. PMMs whose work is indistinguishable from that list are at risk. The durable PMM job is shaping product narrative pre-ship, surfacing what buyers actually care about, connecting product/sales/marketing with shared story, educating the market early, and translating complex value into obvious value.
 
 ## Mechanism
-When execution becomes cheap, judgment is the differentiator. When content is everywhere, clarity is the advantage. AI compresses the price of an output to near zero; the residual value is the input — which angle to test, which buyer signal to amplify, which narrative to commit to. PMMs who own that input survive; PMMs who only handed it off to a template don't.
+When execution becomes cheap, judgment is the differentiator. When content is everywhere, clarity is the advantage. AI compresses the price of an output to near zero; the residual value is the input, which angle to test, which buyer signal to amplify, which narrative to commit to. PMMs who own that input survive; PMMs who only handed it off to a template don't.
 
 ## Conditions
 Holds when:
@@ -31,13 +31,13 @@ Holds when:
 - The PMM has the authority/proximity to shape narrative pre-ship.
 
 Fails when:
-- The PMM role is bounded to operations (asset coordination, calendar) — different skill, different risk profile.
+- The PMM role is bounded to operations (asset coordination, calendar), different skill, different risk profile.
 - The org's AI-readiness is so low that even bad execution beats no execution.
 
 ## Evidence
 > "When execution becomes easy, thinking becomes the differentiator. When content is everywhere, clarity becomes the advantage."
 
-— Sachin Jha, LinkedIn, 2026-04-10 (scrape date)
+· Sachin Jha, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Hiring rubrics weight pre-ship narrative over post-ship asset volume.

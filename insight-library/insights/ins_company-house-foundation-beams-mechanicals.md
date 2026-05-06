@@ -17,7 +17,7 @@ related: [ins_force-for-positive-momentum]
 raw_ref: raw/podcasts/claire-hughes-johnson--scaling-people--2026-04-28.md
 ---
 
-# A company is a house: foundation, supporting beams, mechanicals — install all three early
+# A company is a house: foundation, supporting beams, mechanicals, install all three early
 
 ## Claim
 Treat the operating system of a company as a house with three layers: foundation (mission, long-term goals, written operating principles), supporting beams (goal/QBR/planning structures), and mechanicals (the cadence of meetings, reviews, demos, customer events). If you do not install these early, people invent them ad-hoc and you end up with "a house added on to 17 times."
@@ -33,7 +33,7 @@ Holds when:
 
 Fails when:
 - The company is too early; premature structure suffocates the founding intuition.
-- The "operating system" becomes performative — documents nobody reads, meetings nobody attends.
+- The "operating system" becomes performative, documents nobody reads, meetings nobody attends.
 - The cadence is wrong for the work (too fast = no progress between reviews; too slow = stale content).
 
 ## Evidence
@@ -41,7 +41,7 @@ Fails when:
 
 Claire Hughes Johnson installed this scaffold at Stripe between roughly 160 and 7,000+ headcount. Levels and ladders went in around 200 people; one peer company waited until 800 and called it "a bloodbath."
 
-— Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
+· Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - New hires report being onboarded into a clear, written operating system rather than tribal knowledge.
@@ -52,4 +52,4 @@ Claire Hughes Johnson installed this scaffold at Stripe between roughly 160 and 
 At pre-PMF stages, this scaffold is overkill and slows the founding team. Brian Chesky-style founder-led product cultures argue that taste and direct ownership beat operating-system theatre. The right read is staged: install the layers when the org outgrows founder-direct coordination.
 
 ## Cross-references
-- `ins_force-for-positive-momentum` — the operating norm that lives inside this house
+- `ins_force-for-positive-momentum`, the operating norm that lives inside this house

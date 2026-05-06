@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Sales is craft — the front line is the tip of the spear, not a commodity layer
+# Sales is craft, the front line is the tip of the spear, not a commodity layer
 
 ## Claim
 
-Salespeople are the tip of the spear inside every organization — they carry the product story, earn customer trust, and build relationships that move businesses forward. The job isn't to be a quota-bot; it's to communicate value, earn trust, and solve real customer problems. When salespeople improve their craft, companies grow and lives change. That's why the Daily Sales Show exists: to give the front line a daily dose of the best thinking in the field.
+Salespeople are the tip of the spear inside every organization, they carry the product story, earn customer trust, and build relationships that move businesses forward. The job isn't to be a quota-bot; it's to communicate value, earn trust, and solve real customer problems. When salespeople improve their craft, companies grow and lives change. That's why the Daily Sales Show exists: to give the front line a daily dose of the best thinking in the field.
 
 ## Mechanism
 

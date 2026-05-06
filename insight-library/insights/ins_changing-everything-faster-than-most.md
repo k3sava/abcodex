@@ -20,10 +20,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # AI is changing everything. Faster than most people are ready for
 
 ## Claim
-We’re excited to announce we’ve hired a Head of Marketing to lead Exit Five into our next phase of growth. Why would Exit Five need a Head of Marketing? Most of the team has marketing backgrounds. Do we really need more marketing leadership?
+We're excited to announce we've hired a Head of Marketing to lead Exit Five into our next phase of growth. Why would Exit Five need a Head of Marketing? Most of the team has marketing backgrounds. Do we really need more marketing leadership?
 
 ## Mechanism
-But more importantly, she’s fully in on reinventing how marketing works with AI at the center.
+But more importantly, she's fully in on reinventing how marketing works with AI at the center.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "AI is changing everything. Faster than most people are ready for."
 
-— Dan Murphy, LinkedIn, 2026-04-10
+· Dan Murphy, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

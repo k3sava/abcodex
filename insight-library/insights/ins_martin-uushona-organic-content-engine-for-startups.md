@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 Vector built an organic content engine that most Series B companies can't figure out, using a ghostwriting framework, comment-driven growth, and a repurposing flywheel.
 
 ## Mechanism
-The system works because it removes founder friction: bi-weekly interviews processed through Claude produce 4-5 posts per founder, making posting so easy founders get hooked on results. Comments drove 58% of follower growth, not original posts. The podcast episode is not an end product—repurposed content reached 46x more people than the full episode itself.
+The system works because it removes founder friction: bi-weekly interviews processed through Claude produce 4-5 posts per founder, making posting so easy founders get hooked on results. Comments drove 58% of follower growth, not original posts. The podcast episode is not an end product, repurposed content reached 46x more people than the full episode itself.

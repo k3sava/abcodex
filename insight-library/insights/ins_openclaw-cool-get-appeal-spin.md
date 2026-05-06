@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their own workspace and tools, and route messages across Slack. It feels like building a real company."
 
-— 📈 Jason B. Hart, LinkedIn, 2026-04-10
+· 📈 Jason B. Hart, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

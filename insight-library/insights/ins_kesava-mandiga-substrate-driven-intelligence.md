@@ -22,7 +22,7 @@ raw_ref: ../wiki/CLAUDE.md
 
 ## Claim
 
-I don't trust working memory for anything important. Every customer interview, every competitive datapoint, every claim I might one day put in a deck — it goes into a file with a category, a date, and a source. Then synthesis is a query, not a recollection. The wiki, the codex you're reading, every research repo I run — same pattern, different scopes.
+I don't trust working memory for anything important. Every customer interview, every competitive datapoint, every claim I might one day put in a deck, it goes into a file with a category, a date, and a source. Then synthesis is a query, not a recollection. The wiki, the codex you're reading, every research repo I run, same pattern, different scopes.
 
 ## Mechanism
 

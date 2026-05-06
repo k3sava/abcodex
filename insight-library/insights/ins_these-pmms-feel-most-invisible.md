@@ -19,7 +19,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # These PMMs feel the most invisible. No influence, no execution power. Always blocked, o
 ## Claim
-We PMMs need to become The Ideal PMM© more than ever in today's job market. Here's why... 👀 Workhorse PMMs who execute flawlessly but don’t have influence, getting let go in tech layoffs… While the yappers, the ones who talk a big game but don’t deliver, somehow survive.
+We PMMs need to become The Ideal PMM© more than ever in today's job market. Here's why... 👀 Workhorse PMMs who execute flawlessly but don't have influence, getting let go in tech layoffs… While the yappers, the ones who talk a big game but don't deliver, somehow survive.
 
 ## Mechanism
 The go-to for execution but never part of strategic conversations. They get stuff done but have no seat at the table, stuck reacting instead of leading.
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "These PMMs feel the most invisible. No influence, no execution power. Always blocked, overlooked, and struggling to prove their value."
 
-— Hattie the PMM, LinkedIn, 2026-04-10
+· Hattie the PMM, LinkedIn, 2026-04-10
 
 ## Signals
 - Do I feel listened to and valued in meetings?

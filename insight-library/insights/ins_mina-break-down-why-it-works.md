@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Strong product marketers break down why marketing works, not just admire it.
 
 ## Claim
-When asked 'Name a company that does great product marketing,' the real signal is how you think—breaking down why it works, connecting positioning, customer insight, and go-to-market strategy.
+When asked 'Name a company that does great product marketing,' the real signal is how you think, breaking down why it works, connecting positioning, customer insight, and go-to-market strategy.
 
 ## Mechanism
 Interviewers use this question to assess strategic thinking, not brand fandom. A strong answer demonstrates analytical deconstruction of a company's marketing approach.

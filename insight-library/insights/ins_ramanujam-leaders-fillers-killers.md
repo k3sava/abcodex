@@ -17,13 +17,13 @@ related: [ins_ramanujam-three-wtp-questions, ins_simon-single-price-always-subop
 raw_ref: raw/expert-content/experts/madhavan-ramanujam.md
 ---
 
-# Leaders, Fillers, Killers — segment customers by WTP, then bundle features by their role per segment
+# Leaders, Fillers, Killers, segment customers by WTP, then bundle features by their role per segment
 
 ## Claim
-After segmenting customers by needs, values, and willingness to pay, configure product bundles for each segment using the Leaders / Fillers / Killers framework. **Leaders** are the high-value features that drive purchase. **Fillers** are low-cost features that round out the bundle and signal completeness. **Killers** are expensive features the segment will not pay for. The categorisation enables efficient bundle design — different bundles for different segments, with each segment's bundle led by its Leaders and protected from its Killers.
+After segmenting customers by needs, values, and willingness to pay, configure product bundles for each segment using the Leaders / Fillers / Killers framework. **Leaders** are the high-value features that drive purchase. **Fillers** are low-cost features that round out the bundle and signal completeness. **Killers** are expensive features the segment will not pay for. The categorisation enables efficient bundle design, different bundles for different segments, with each segment's bundle led by its Leaders and protected from its Killers.
 
 ## Mechanism
-Within any product, features fall into three roles per segment (and the role is segment-specific — what is a Leader for one segment may be a Killer for another). High-WTP enterprise segments treat advanced security and admin features as Leaders; SMB segments treat the same features as Killers. Conversely, consumer-grade UX features may be Killers for enterprise (they look unprofessional) and Leaders for SMB. The framework forces explicit feature-by-segment classification, which produces tier structures that are economically efficient (no segment pays for what they don't value) and competitively defensible (each tier's Leaders match what its target segment actually buys on).
+Within any product, features fall into three roles per segment (and the role is segment-specific, what is a Leader for one segment may be a Killer for another). High-WTP enterprise segments treat advanced security and admin features as Leaders; SMB segments treat the same features as Killers. Conversely, consumer-grade UX features may be Killers for enterprise (they look unprofessional) and Leaders for SMB. The framework forces explicit feature-by-segment classification, which produces tier structures that are economically efficient (no segment pays for what they don't value) and competitively defensible (each tier's Leaders match what its target segment actually buys on).
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "segment customers by needs, values, and willingness to pay, then configure product bundles for each segment using the Leaders-Fillers-Killers framework."
 
-— see `raw/expert-content/experts/madhavan-ramanujam.md` line 20.
+· see `raw/expert-content/experts/madhavan-ramanujam.md` line 20.
 
 ## Signals
 - Per-segment bundle composition is documented; each tier's Leaders are explicitly named and tested.
@@ -50,6 +50,6 @@ Fails when:
 The framework can over-engineer products with too many segments and too many bundles. Aggressive simplification (Stripe, Notion, early Slack) sometimes wins by collapsing tiers despite WTP heterogeneity. Use the framework when segment-WTP variation is genuinely large; skip it when simplicity is the differentiator.
 
 ## Cross-references
-- `ins_ramanujam-three-wtp-questions` — the research method that produces the per-feature WTP data the framework requires.
-- `ins_simon-single-price-always-suboptimal` — Simon's WTP-heterogeneity principle that the framework operationalises.
-- `ins_dfy-dwy-diy-delivery-stack` — Hormozi's adjacent tier-design framework.
+- `ins_ramanujam-three-wtp-questions`, the research method that produces the per-feature WTP data the framework requires.
+- `ins_simon-single-price-always-suboptimal`, Simon's WTP-heterogeneity principle that the framework operationalises.
+- `ins_dfy-dwy-diy-delivery-stack`, Hormozi's adjacent tier-design framework.

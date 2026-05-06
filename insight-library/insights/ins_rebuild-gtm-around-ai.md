@@ -23,7 +23,7 @@ raw_ref: raw/threads/kieran-flanagan--no-longer-a-marketer--2026-05-01.md
 The bigger swing for go-to-market in the AI era is structural: build a cross-functional pod (product + engineering + data + marketing tech + operations) that owns "AI in GTM" as a single mandate, rather than asking each existing GTM function to bolt AI onto its current playbook.
 
 ## Mechanism
-Bolting AI onto each function preserves the seams between functions, which is exactly where the leverage is highest. A cross-functional pod can collapse those seams: product builds the agent, marketing tests the prompts, ops integrates the data, sales feeds back the win signal — all on one cadence, with one P&L for the bet. The pod's job is to find the swings, ship them, and pass the playbook back to the rest of the org and to the company's own customers.
+Bolting AI onto each function preserves the seams between functions, which is exactly where the leverage is highest. A cross-functional pod can collapse those seams: product builds the agent, marketing tests the prompts, ops integrates the data, sales feeds back the win signal, all on one cadence, with one P&L for the bet. The pod's job is to find the swings, ship them, and pass the playbook back to the rest of the org and to the company's own customers.
 
 ## Conditions
 Works when:
@@ -48,7 +48,7 @@ Fails when:
 > - 60% of internal support inquiries resolved without a human
 > - 7-point lift in customer save rate
 
-— Kieran Flanagan, LinkedIn, 2026-05-01. (Yamini Rangan, HubSpot CEO, reported the same numbers in a separate post — see `raw/articles/agent-first-gtm-hubspot-2026-04-28.md`.)
+· Kieran Flanagan, LinkedIn, 2026-05-01. (Yamini Rangan, HubSpot CEO, reported the same numbers in a separate post, see `raw/articles/agent-first-gtm-hubspot-2026-04-28.md`.)
 
 ## Signals
 - A named pod with members from at least three traditional functions (product, eng, marketing, ops).
@@ -60,5 +60,5 @@ Fails when:
 For smaller GTM teams without the capital for a cross-functional pod, "integrate AI across existing functions" may be the only realistic path. The rebuild claim is a frontier-org pattern; not every org has the org-design slack to execute it. There is also early evidence that pods staffed without strong product/engineering depth produce theater rather than wins.
 
 ## Cross-references
-- `ins_agents-as-team-not-tools` — the per-role agent shape the pod's bets often take
-- `ins_manager-skill-not-technical` — how non-engineer marketers contribute to a cross-functional pod
+- `ins_agents-as-team-not-tools`, the per-role agent shape the pod's bets often take
+- `ins_manager-skill-not-technical`, how non-engineer marketers contribute to a cross-functional pod

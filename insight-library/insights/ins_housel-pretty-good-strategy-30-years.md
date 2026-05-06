@@ -17,7 +17,7 @@ related: [ins_getting-vs-staying-wealthy, ins_career-sequence-leverage-then-judg
 raw_ref: raw/expert-content/experts/morgan-housel.md
 ---
 
-# A "pretty good" strategy maintained for 30 years beats a "brilliant" strategy maintained for 5 — endurance compounds, brilliance abandoned doesn't
+# A "pretty good" strategy maintained for 30 years beats a "brilliant" strategy maintained for 5, endurance compounds, brilliance abandoned doesn't
 
 ## Claim
 The optimal strategy is not the one with the highest theoretical returns but the one you can actually sustain for the longest period. A "pretty good" strategy maintained for 30 years almost always outperforms a "brilliant" strategy maintained for 5 years and then abandoned because the holder couldn't tolerate the drawdowns or the boredom. Compounding requires endurance, not brilliance.
@@ -29,7 +29,7 @@ Long time horizons amplify small consistent advantages through compounding while
 - Boredom intervenes (you switch to something that feels exciting after 18 months of grind).
 - Life events force you out (job loss, divorce, health) at the worst time.
 
-A pretty-good strategy you can sustain through all of these — through your bad years, your boring years, and the years your friends are doing better — is mathematically superior to a brilliant strategy you abandon. The principle generalises beyond investing: career strategies, business strategies, relationship strategies all share the structure.
+A pretty-good strategy you can sustain through all of these, through your bad years, your boring years, and the years your friends are doing better, is mathematically superior to a brilliant strategy you abandon. The principle generalises beyond investing: career strategies, business strategies, relationship strategies all share the structure.
 
 ## Conditions
 Holds when:
@@ -40,12 +40,12 @@ Holds when:
 Fails when:
 - The environment changes so fast that a 30-year strategy becomes obsolete (some technology categories, some regulatory environments).
 - The "pretty good" strategy is actually below a viability threshold; sustainability of a losing strategy is just slower failure.
-- The holder genuinely lacks the skill or temperament for endurance — the right strategy depends on the actual operator, not just the theoretical math.
+- The holder genuinely lacks the skill or temperament for endurance, the right strategy depends on the actual operator, not just the theoretical math.
 
 ## Evidence
 > "A \"pretty good\" strategy maintained for 30 years will almost always outperform a \"brilliant\" strategy maintained for 5 years and then abandoned."
 
-— see `raw/expert-content/experts/morgan-housel.md` line 16.
+· see `raw/expert-content/experts/morgan-housel.md` line 16.
 
 ## Signals
 - Strategy choices are evaluated on "can I run this through the bad years?" alongside "what is the expected return?"
@@ -53,9 +53,9 @@ Fails when:
 - Investment / capital allocation favours boring sustainable approaches (index funds, dollar-cost averaging) over high-variance theses that require constant rebalancing.
 
 ## Counter-evidence
-"Pretty good for 30 years" can become an excuse for never raising the quality bar. The discipline is matching duration tolerance to actual strategy quality — the strategy must clear the viability threshold before sustainability becomes the operative variable. Some categories (early-stage venture, frontier tech) genuinely require high-variance plays where the brilliance-then-abandon pattern is rational because the abandon happens *with* the upside captured (exit, IPO).
+"Pretty good for 30 years" can become an excuse for never raising the quality bar. The discipline is matching duration tolerance to actual strategy quality, the strategy must clear the viability threshold before sustainability becomes the operative variable. Some categories (early-stage venture, frontier tech) genuinely require high-variance plays where the brilliance-then-abandon pattern is rational because the abandon happens *with* the upside captured (exit, IPO).
 
 ## Cross-references
-- `ins_getting-vs-staying-wealthy` — Housel's foundational claim; the staying-wealthy half requires this kind of endurance.
-- `ins_career-sequence-leverage-then-judgment` — Naval's adjacent claim; the second half of career is where this framing dominates.
-- `ins_taleb-lindy-effect` — Taleb's adjacent claim that survival predicts further survival; Housel's frame is the personal-strategy version.
+- `ins_getting-vs-staying-wealthy`, Housel's foundational claim; the staying-wealthy half requires this kind of endurance.
+- `ins_career-sequence-leverage-then-judgment`, Naval's adjacent claim; the second half of career is where this framing dominates.
+- `ins_taleb-lindy-effect`, Taleb's adjacent claim that survival predicts further survival; Housel's frame is the personal-strategy version.

@@ -37,9 +37,9 @@ Fails when:
 ## Evidence
 > "I hated TDD as a human; I love it for agents."
 
-Simon notes agents don't get bored writing 1,000 lines of test boilerplate. Adjacent rule he flags: keep tests generously now that updating them is free — what used to be a code smell (verbose test suites) is now a feature.
+Simon notes agents don't get bored writing 1,000 lines of test boilerplate. Adjacent rule he flags: keep tests generously now that updating them is free, what used to be a code smell (verbose test suites) is now a feature.
 
-— Simon Willison on Lenny's Podcast, 2026-04-02
+· Simon Willison on Lenny's Podcast, 2026-04-02
 
 ## Signals
 - Agent prompts shrink over time as the team adopts shorthand.
@@ -50,4 +50,4 @@ Simon notes agents don't get bored writing 1,000 lines of test boilerplate. Adja
 Over-compressed prompts hide intent and produce wrong outputs when the symbol means something different in the agent's training data. Always sanity-check the agent's first output on a new shorthand before scaling it.
 
 ## Cross-references
-- `ins_personal-pattern-hoarding` — the same idea applied at the artifact level instead of the language level
+- `ins_personal-pattern-hoarding`, the same idea applied at the artifact level instead of the language level

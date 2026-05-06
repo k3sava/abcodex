@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "-> Context on pain points and product: what and who are we solving for, and how"
 
-— Shivangi Sahu, LinkedIn, 2026-04-10
+· Shivangi Sahu, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

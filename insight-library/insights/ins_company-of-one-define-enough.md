@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/paul-jarvis.md
 ---
 
-# A company of one questions whether growth is good — and defines "enough" before "more"
+# A company of one questions whether growth is good, and defines "enough" before "more"
 
 ## Claim
-The default setting in entrepreneurship is "more" — more revenue, clients, employees, products. The default creates businesses that own their founders rather than the reverse: the machine must be fed. Company of One inverts: define a specific personal threshold for revenue, clients, work hours beyond which additional growth produces diminishing returns on happiness, autonomy, and creative satisfaction. Four defining traits: resilience, autonomy, speed, simplicity.
+The default setting in entrepreneurship is "more", more revenue, clients, employees, products. The default creates businesses that own their founders rather than the reverse: the machine must be fed. Company of One inverts: define a specific personal threshold for revenue, clients, work hours beyond which additional growth produces diminishing returns on happiness, autonomy, and creative satisfaction. Four defining traits: resilience, autonomy, speed, simplicity.
 
 ## Mechanism
-Solve a real problem for a specific audience first (don't start by hiring or raising capital). Build systems and processes that serve clients without proportionally increasing time investment — productize, create digital products, build subscriptions, design self-service. Set upper limits: Sean D'Souza's Psychotactics caps at $500K annual profit and takes time off when revenue exceeds it. Reinvest in quality over quantity — serve existing clients better, not more clients worse.
+Solve a real problem for a specific audience first (don't start by hiring or raising capital). Build systems and processes that serve clients without proportionally increasing time investment, productize, create digital products, build subscriptions, design self-service. Set upper limits: Sean D'Souza's Psychotactics caps at $500K annual profit and takes time off when revenue exceeds it. Reinvest in quality over quantity, serve existing clients better, not more clients worse.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Sean D'Souza, whose consultancy Psychotactics has a hard cap of $500K in annual profit; when revenue exceeds the cap, D'Souza takes time off rather than scaling up."
 
-— Paul Jarvis, *Company of One* (synthesized from operator's published work)
+· Paul Jarvis, *Company of One* (synthesized from operator's published work)
 
 ## Signals
 - Founder has documented their "enough" number for revenue and work hours.
@@ -50,4 +50,4 @@ Fails when:
 For genuinely winner-take-most categories (network-effect SaaS, marketplaces) the Company of One approach concedes the market to competitors who scale aggressively. The "define enough" framing can also under-rate the optionality and resilience that come from reinvested growth.
 
 ## Cross-references
-- ins_shape-up-appetite-not-estimate — adjacent operator (Jason Fried)
+- ins_shape-up-appetite-not-estimate, adjacent operator (Jason Fried)

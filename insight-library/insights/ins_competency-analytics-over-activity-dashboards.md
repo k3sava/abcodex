@@ -20,7 +20,7 @@ raw_ref: raw/essays/chris-orlob--sales-competency-analytics--2026-04-17.md
 # Coach reps on skill-friction, not call counts
 
 ## Claim
-Sales coaching driven by per-rep competency analytics — discovery quality, multi-threading, objection handling, next-step specificity — produces revenue lift that activity-dashboard coaching does not, because training that targets the exact decision friction blocking deals is the only training that moves the metric.
+Sales coaching driven by per-rep competency analytics, discovery quality, multi-threading, objection handling, next-step specificity, produces revenue lift that activity-dashboard coaching does not, because training that targets the exact decision friction blocking deals is the only training that moves the metric.
 
 ## Mechanism
 Activity dashboards (calls per day, emails sent, meetings booked) measure motion, not skill. A rep can hit activity targets while failing on the discovery question that decides the deal, and managers without skill-level signal coach to the wrong thing. Competency analytics scores recorded buyer calls against a fixed rubric, surfaces per-rep skill gaps, and routes a personalized coaching plan. The plan targets the specific friction blocking the deal (discovery depth, multi-threading on a multi-stakeholder deal, objection-handling for the recurring objection), so the training has revenue consequence.
@@ -39,7 +39,7 @@ Fails when:
 ## Evidence
 > "Revenue rarely improves from generic sales training, it improves when training targets the exact decision friction blocking deals."
 
-— Rohit Shah, quoted in Chris Orlob, *Sales Competency Analytics*, https://www.pclub.io/blog/sales-competency-analytics, 2026-04-17
+· Rohit Shah, quoted in Chris Orlob, *Sales Competency Analytics*, https://www.pclub.io/blog/sales-competency-analytics, 2026-04-17
 
 The AI-native version: every recorded buyer call is auto-scored against the rubric; managers receive a per-rep coaching plan focused on the highest-leverage skill gap.
 
@@ -52,5 +52,5 @@ The AI-native version: every recorded buyer call is auto-scored against the rubr
 Competency rubrics can become stale if the buyer or category shifts. For very early-stage sales teams without enough call volume to score, activity discipline still matters. The mechanism depends on coaching capacity that some orgs don't have.
 
 ## Cross-references
-- `ins_pov-led-outbound` — Orlob's adjacent framework; both depend on quality, not volume.
-- `ins_make-intuition-explicit` — competency rubrics formalize what coaches previously held in their heads.
+- `ins_pov-led-outbound`, Orlob's adjacent framework; both depend on quality, not volume.
+- `ins_make-intuition-explicit`, competency rubrics formalize what coaches previously held in their heads.

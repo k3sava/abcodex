@@ -22,7 +22,7 @@ raw_ref: ../wiki/concepts/anti-fabrication.md
 
 ## Claim
 
-This is the rule I'm strictest about with myself. Every metric, every "we drove" number, every aggressive round — it has to trace to a customer quote, a Wayback snapshot, a press release, a repo commit. If it doesn't, the claim is "unverified" and I either find the source or drop the claim. Composite quotes don't exist. Invented metrics don't exist. Round-numbers-that-feel-true don't exist.
+This is the rule I'm strictest about with myself. Every metric, every "we drove" number, every aggressive round, it has to trace to a customer quote, a Wayback snapshot, a press release, a repo commit. If it doesn't, the claim is "unverified" and I either find the source or drop the claim. Composite quotes don't exist. Invented metrics don't exist. Round-numbers-that-feel-true don't exist.
 
 ## Mechanism
 

@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "These three models are the reason the product shipped cleanly, even with no team behind it."
 
-— Vijay Jay, LinkedIn, 2026-04-10
+· Vijay Jay, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

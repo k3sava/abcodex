@@ -19,7 +19,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # PMMs are under more pressure than ever to show impact, align cross-functionally, and st
 ## Claim
-I'm still processing this: Product Marketing Alliance asked me to open their London Summit. 🤩 Actually for a couple months, my brain told me I misunderstood – this was a slot reserved for the likes of April Dunford and Emma Stratton (aka my heroes). But, as of right now, I'm helping to kick off Day 1 of the PMA London Summit with a keynote talk at 9:15 am, and I hope you can join in!
+I'm still processing this: Product Marketing Alliance asked me to open their London Summit. 🤩 Actually for a couple months, my brain told me I misunderstood, this was a slot reserved for the likes of April Dunford and Emma Stratton (aka my heroes). But, as of right now, I'm helping to kick off Day 1 of the PMA London Summit with a keynote talk at 9:15 am, and I hope you can join in!
 
 ## Mechanism
 The summit is designed to help us understand the type of PMM we are, address the day-to-day realities of proving our worth across product, sales, and marketing, and prepare for the evolving skills needed to thrive long-term.
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "PMMs are under more pressure than ever to show impact, align cross-functionally, and stay ahead of where the role is going."
 
-— Alicia Carney, LinkedIn, 2026-04-10
+· Alicia Carney, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

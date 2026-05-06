@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Marketing must speak the language of finance, not the language of marketing; the CMO who can translate pipeline metrics into financial outcomes earns strategic credibility, budget protection, and a seat at the revenue table."
 
-— Rowan Tonkin (synthesized from operator's published work)
+· Rowan Tonkin (synthesized from operator's published work)
 
 ## Signals
 - Marketing dashboard headlines are in revenue/payback terms, not MQL terms.
@@ -45,7 +45,7 @@ Fails when:
 - Budget defense uses CFO vocabulary (burn multiple, payback period) without translation overhead.
 
 ## Counter-evidence
-Brand-led marketing investments (Apple, Patagonia, Liquid Death) genuinely defy financial-translation in the short term — over-rotating to CFO-language can starve the brand work that produces long-term outcomes. HIRO Pipeline (Walker) provides an alternate translation that's marketing-native rather than CFO-native.
+Brand-led marketing investments (Apple, Patagonia, Liquid Death) genuinely defy financial-translation in the short term, over-rotating to CFO-language can starve the brand work that produces long-term outcomes. HIRO Pipeline (Walker) provides an alternate translation that's marketing-native rather than CFO-native.
 
 ## Cross-references
-- ins_hiro-pipeline-metric — adjacent operator (Chris Walker)
+- ins_hiro-pipeline-metric, adjacent operator (Chris Walker)

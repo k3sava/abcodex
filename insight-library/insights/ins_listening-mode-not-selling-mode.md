@@ -20,7 +20,7 @@ raw_ref: raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--cl
 # Switch from selling mode to listening mode when the market breaks
 
 ## Claim
-When the macro breaks and your largest customer's sales team is being cut by 80%, the right move is not to push harder on the pipeline. It is to switch the company into structured listening mode — usage analysis, customer interviews, asking what would help — and let the next product cycle come from what you hear.
+When the macro breaks and your largest customer's sales team is being cut by 80%, the right move is not to push harder on the pipeline. It is to switch the company into structured listening mode, usage analysis, customer interviews, asking what would help, and let the next product cycle come from what you hear.
 
 ## Mechanism
 Selling pressure into a contracting buyer is value-destructive: you burn relationship equity on deals that won't close. Listening pressure into the same buyer surfaces actual jobs (e.g. "managers want to coach but can't find time"), which become the next product features (Wingman's Battlecards, GameTapes, deal intelligence alerts). The downturn becomes free user research, and the post-downturn product is sharper than the pre-downturn one.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "We realized, we cannot be out there necessarily selling right now. What we need to be doing is to be much more receptive to what customers are saying, versus trying to sell them on our product. So we changed gears into listening mode to say, ‘Let's use this time to just go back and understand how people are using our product.’"
 
-— Shruti Kapoor on Clari blog, 2022
+· Shruti Kapoor on Clari blog, 2022
 
 ## Signals
 - Lost-deal reviews become the standing input to the product roadmap.

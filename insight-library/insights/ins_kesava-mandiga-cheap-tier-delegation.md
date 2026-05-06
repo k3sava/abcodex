@@ -22,7 +22,7 @@ raw_ref: ../delegation/README.md
 
 ## Claim
 
-Claude Code's weekly limit is the constraint. The fix isn't a smaller Claude — Haiku still hits the same meter. The fix is a different provider for the dumb-pipe work. DeepSeek V4 Flash reads files, summarizes transcripts, generates boilerplate at $0.001 a call against a separate balance, and Claude only spends its limited tokens on the things that need judgment. Subagents don't help. Bash-shell-out to a non-Anthropic API does.
+Claude Code's weekly limit is the constraint. The fix isn't a smaller Claude, Haiku still hits the same meter. The fix is a different provider for the dumb-pipe work. DeepSeek V4 Flash reads files, summarizes transcripts, generates boilerplate at $0.001 a call against a separate balance, and Claude only spends its limited tokens on the things that need judgment. Subagents don't help. Bash-shell-out to a non-Anthropic API does.
 
 ## Mechanism
 

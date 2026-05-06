@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars figuring this out."
 
-— Madhav Bhandari, LinkedIn, 2026-04-10
+· Madhav Bhandari, LinkedIn, 2026-04-10
 
 ## Signals
 - Citations as a service

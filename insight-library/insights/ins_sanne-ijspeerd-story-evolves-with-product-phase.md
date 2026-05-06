@@ -22,11 +22,11 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-When a new segment isn't converting, the default reaction is to fix the campaign — but the real problem is usually segment selection. Geoffrey Moore's chasm-crossing framework, pressure-tested across European B2B SaaS, says urgency is the one variable that decides whether market expansion will work. Without urgency in the segment, no positioning, copy, or offer compensates.
+When a new segment isn't converting, the default reaction is to fix the campaign, but the real problem is usually segment selection. Geoffrey Moore's chasm-crossing framework, pressure-tested across European B2B SaaS, says urgency is the one variable that decides whether market expansion will work. Without urgency in the segment, no positioning, copy, or offer compensates.
 
 ## Mechanism
 
-A segment with low urgency stretches the sales cycle past the point where ROI on acquisition costs makes sense. Marketers respond by adding tactics, which adds CAC without changing close rate. Choosing a segment with high urgency upfront — even if it's smaller — collapses the sales cycle and lets the same playbook hit pipeline targets.
+A segment with low urgency stretches the sales cycle past the point where ROI on acquisition costs makes sense. Marketers respond by adding tactics, which adds CAC without changing close rate. Choosing a segment with high urgency upfront, even if it's smaller, collapses the sales cycle and lets the same playbook hit pipeline targets.
 
 ## Conditions
 

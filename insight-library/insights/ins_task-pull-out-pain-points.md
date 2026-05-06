@@ -20,10 +20,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # My task is to pull out the pain points and draft 3 positioning statements
 
 ## Claim
-Stop Waiting for the Perfect Course. Use ChatGPT, Claude and NotebookLM to learn. You need 𝟑𝟎 𝐝𝐚𝐲𝐬 𝐨𝐟 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 + 𝐝𝐨𝐢𝐧𝐠 with tools you already have. Here’s a full Product Marketing learning sprint using ChatGPT, Claude, and NotebookLM 𝐒𝐭𝐞𝐩 𝟏: Learn the Foundations (ChatGPT / Claude) “Give me a 30-day plan to learn Product Marketing in the age of AI.
+Stop Waiting for the Perfect Course. Use ChatGPT, Claude and NotebookLM to learn. You need 𝟑𝟎 𝐝𝐚𝐲𝐬 𝐨𝐟 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 + 𝐝𝐨𝐢𝐧𝐠 with tools you already have. Here's a full Product Marketing learning sprint using ChatGPT, Claude, and NotebookLM 𝐒𝐭𝐞𝐩 𝟏: Learn the Foundations (ChatGPT / Claude) "Give me a 30-day plan to learn Product Marketing in the age of AI.
 
 ## Mechanism
-Include: ICP, messaging, launch motion, enablement, and post-launch feedback loops.”
+Include: ICP, messaging, launch motion, enablement, and post-launch feedback loops."
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "My task is to pull out the pain points and draft 3 positioning statements."
 
-— Sachin Jha, LinkedIn, 2026-04-10
+· Sachin Jha, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

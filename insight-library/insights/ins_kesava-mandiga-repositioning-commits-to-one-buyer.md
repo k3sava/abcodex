@@ -22,7 +22,7 @@ raw_ref: ../wiki/projects/portfolio-foundation.md
 
 ## Claim
 
-Wingman went from "Conversation intelligence for fast-growing sales teams" to "Your Revenue Accelerator" and homepage conversions doubled. The lift wasn't from the words. It was from finally cutting the other three buyers we'd been hedging for. Same product, same site, same team — we just stopped trying to talk to RevOps + AEs + frontline managers + heads of sales all at once. Pick one, write to that one, lose the others on purpose.
+Wingman went from "Conversation intelligence for fast-growing sales teams" to "Your Revenue Accelerator" and homepage conversions doubled. The lift wasn't from the words. It was from finally cutting the other three buyers we'd been hedging for. Same product, same site, same team, we just stopped trying to talk to RevOps + AEs + frontline managers + heads of sales all at once. Pick one, write to that one, lose the others on purpose.
 
 ## Mechanism
 

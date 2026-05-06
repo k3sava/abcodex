@@ -31,13 +31,13 @@ Holds when:
 - The chosen LLM holds enough context across the chain.
 
 Fails when:
-- Volume applying ("spray-and-pray") is the strategy — chain ROI dies under quantity.
+- Volume applying ("spray-and-pray") is the strategy, chain ROI dies under quantity.
 - The candidate hasn't done step 1 (loading profile + resume into the model with intent).
 
 ## Evidence
 > "Applying to multiple roles? Ask ChatGPT to create a 'master resume' with modular sections. Swap them in/out basis need."
 
-— Nishchal Dua, LinkedIn, 2026-04-10 (scrape date)
+· Nishchal Dua, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Application-to-callback rate rises when chain is used vs. cold sends.

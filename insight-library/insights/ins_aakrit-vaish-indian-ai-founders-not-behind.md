@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# India's AI advantage is applied — not foundational — and that's where founders should bet
+# India's AI advantage is applied, not foundational, and that's where founders should bet
 
 ## Claim
 
-Indian AI founders aren't behind their US counterparts; in applied AI specifically, they may be ahead because the constraints of the Indian market force solutions that have to work end-to-end on real, messy data and at price points US founders rarely face. The Activate Signal survey of 244 Indian AI CTOs found a stack more sophisticated than expected, with builders operating across the full layer — from sovereign LLMs to agentic automation to voice-first consumer apps.
+Indian AI founders aren't behind their US counterparts; in applied AI specifically, they may be ahead because the constraints of the Indian market force solutions that have to work end-to-end on real, messy data and at price points US founders rarely face. The Activate Signal survey of 244 Indian AI CTOs found a stack more sophisticated than expected, with builders operating across the full layer, from sovereign LLMs to agentic automation to voice-first consumer apps.
 
 ## Mechanism
 

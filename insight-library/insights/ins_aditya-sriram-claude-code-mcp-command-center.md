@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Claude Code + Meta Ads MCP turns your terminal into a full-blown Meta Ads command center
 
 ## Claim
-Claude Code connected to GoMarble MCP pulls live data from your Meta Ads account and performs analysis directly — no UI, no clicks, just results.
+Claude Code connected to GoMarble MCP pulls live data from your Meta Ads account and performs analysis directly, no UI, no clicks, just results.
 
 ## Mechanism
 The MCP (Model Context Protocol) server bridges Claude Code to live Meta Ads data, enabling natural language queries for performance insights, audit flags, and recommendations without any manual dashboard navigation.

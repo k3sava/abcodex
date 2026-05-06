@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "→ Come to our next marketing meetup (see the picture - these are some of the lovely people you'll be working with)."
 
-— Emil Kristensen, LinkedIn, 2026-04-10
+· Emil Kristensen, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -20,7 +20,7 @@ raw_ref: raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md
 # Citation rate and mention rate are different metrics; comparative content closes the gap
 
 ## Claim
-Across 454 prompt-domain pairs and four AI engines, 62% of citations never name the brand — measuring citation rate alone hides whether the brand is actually getting recall, while comparative content produces ~30x more brand mentions than informational content.
+Across 454 prompt-domain pairs and four AI engines, 62% of citations never name the brand, measuring citation rate alone hides whether the brand is actually getting recall, while comparative content produces ~30x more brand mentions than informational content.
 
 ## Mechanism
 LLMs synthesize answers from many sources. A citation means the model drew on the page; a mention means the model named the brand inside its answer. Recall and trust come from mentions, not silent ingestion. Comparative content (X vs Y, alternatives-to teardowns, ranked listings) forces the model to keep brand tokens together with claims, so the brand survives summarization. Informational content can be summarized brand-free without losing the answer's substance, so the brand is dropped.
@@ -33,7 +33,7 @@ Holds when:
 
 Fails when:
 - The product wins on pure top-of-funnel SEO with click-through to a known landing page (and the AI surface is not yet a real channel).
-- Comparative content is thin or biased — gets cited but won't survive editorial scrutiny when the user clicks through.
+- Comparative content is thin or biased, gets cited but won't survive editorial scrutiny when the user clicks through.
 - The brand is so dominant in a category that even informational content carries the name (rare).
 
 ## Evidence
@@ -41,7 +41,7 @@ Fails when:
 
 Sample: 3,981 domains, four AI engines, 454 prompt-domain pairs. 62% of citations across the sample do not name the brand. Certain query formats and content types produced ~30x more brand mentions than the baseline.
 
-— Kevin Indig, *The Ghost Citation Problem*, https://www.growth-memo.com/p/the-ghost-citation-problem, 2026-04-26
+· Kevin Indig, *The Ghost Citation Problem*, https://www.growth-memo.com/p/the-ghost-citation-problem, 2026-04-26
 
 ## Signals
 - AEO dashboards track citation rate and mention rate as separate series, with the gap between them as an explicit operator KPI.
@@ -52,6 +52,6 @@ Sample: 3,981 domains, four AI engines, 454 prompt-domain pairs. 62% of citation
 The 30x mention multiplier is from a single research sample with a specific prompt set; mention-rate uplift will vary by category and query type. Other operators may find informational content carries brand mentions in domains where the brand is the entity (e.g., open-source projects, named methodologies).
 
 ## Cross-references
-- `ins_aeo-three-layer-presence-readiness-impact` — Aleyda's framework treats Presence as multi-metric; Indig's data tells you which sub-metrics to split.
-- `ins_relevance-engineering-passage-level` — Mike King's chunking model explains why comparative passages survive.
-- `ins_death-of-the-ultimate-guide` — Amanda Natividad's "POV beats exhaustive" reaches the same conclusion from the content side.
+- `ins_aeo-three-layer-presence-readiness-impact`, Aleyda's framework treats Presence as multi-metric; Indig's data tells you which sub-metrics to split.
+- `ins_relevance-engineering-passage-level`, Mike King's chunking model explains why comparative passages survive.
+- `ins_death-of-the-ultimate-guide`, Amanda Natividad's "POV beats exhaustive" reaches the same conclusion from the content side.

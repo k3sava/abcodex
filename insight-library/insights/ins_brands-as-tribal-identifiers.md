@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/debbie-millman.md
 Branding is not a modern marketing invention. It is a 7,000-year-old human impulse to mark, organize, and signal identity. Brands are tribal identifiers; the customer who identifies with a brand is making a statement about who they are, not just what they prefer. Brand loyalty is affiliative (identity, belonging) not rational (product quality, value).
 
 ## Mechanism
-The same impulse that makes humans wear team jerseys, display flags, and adopt cultural signifiers makes them buy and defend brands. This reframes brand strategy: visual identity, voice, and ritual are not downstream decoration — they're how the tribal signal is transmitted, and they're integral to strategy itself. Practical operating principle: design is brand strategy made visible. A redesign that makes a brand "look better" but fails to communicate the strategic intent more clearly is a failure regardless of awards won.
+The same impulse that makes humans wear team jerseys, display flags, and adopt cultural signifiers makes them buy and defend brands. This reframes brand strategy: visual identity, voice, and ritual are not downstream decoration, they're how the tribal signal is transmitted, and they're integral to strategy itself. Practical operating principle: design is brand strategy made visible. A redesign that makes a brand "look better" but fails to communicate the strategic intent more clearly is a failure regardless of awards won.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "We don't buy products; we buy into what they represent about our identity, our values, and our place in the world."
 
-— Debbie Millman (synthesized from operator's published work)
+· Debbie Millman (synthesized from operator's published work)
 
 ## Signals
 - Brand work integrates psychology + economics + design as one strategic act.
@@ -47,7 +47,7 @@ Fails when:
 - Visual decisions are debated for strategic communication, not just aesthetic preference.
 
 ## Counter-evidence
-Anthony Pierri's "value prop, not story" school argues that for early-stage B2B SaaS the identity layer is a luxury — buyers want functional clarity. PLG and bottom-up products (Linear, Figma) often win without explicit tribal-identity work.
+Anthony Pierri's "value prop, not story" school argues that for early-stage B2B SaaS the identity layer is a luxury, buyers want functional clarity. PLG and bottom-up products (Linear, Figma) often win without explicit tribal-identity work.
 
 ## Cross-references
 - (none in current corpus)

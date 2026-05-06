@@ -28,7 +28,7 @@ Buyers (employers, clients) form a price anchor before any direct interaction. T
 ## Conditions
 Holds when:
 - The buyer does pre-call diligence. (Most senior hires, all consulting and contract work.)
-- You have control over your public surface — not blocked by an employer NDA from updating it.
+- You have control over your public surface, not blocked by an employer NDA from updating it.
 
 Fails when:
 - The role is commodity-procurement (entry-level, contract labor with set rates).
@@ -39,7 +39,7 @@ Fails when:
 
 > "They don't understand when it starts. LinkedIn snapshot, headshot, recent posts, recruiter notes — all of it is pre-negotiation positioning."
 
-— Jacob Warwick on Lenny's Podcast, 2026-04-28
+· Jacob Warwick on Lenny's Podcast, 2026-04-28
 
 Across $1B+ in client comp delivered, Warwick reports the highest-leverage moves are upstream of the offer conversation, not in it.
 
@@ -52,4 +52,4 @@ Across $1B+ in client comp delivered, Warwick reports the highest-leverage moves
 Some operators are uniquely effective in-room and weak in their public artifacts. They can win negotiations through tactics in the actual conversation. Warwick's argument is that even those operators leave significant comp on the table because the anchor was set low. Pre-negotiation positioning gets you a higher floor; in-room tactics raise from there.
 
 ## Cross-references
-- `ins_information-asymmetry-werewolf` — the structural problem this discipline addresses
+- `ins_information-asymmetry-werewolf`, the structural problem this discipline addresses

@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/matt-gray.md
 Modern businesses should be built media-first: audience before product, distribution before monetization. Most creators fail by monetizing too soon. Long-form first (YouTube as primary lead channel, LinkedIn second) because long-form is easier to repurpose into short-form clips than the reverse. Audience-first funnel: short-form for discovery → long-form for trust + depth → newsletter for retention → community for conversion → in-person events for high-ticket relationships.
 
 ## Mechanism
-Distribution is the moat — building it before product means the launch happens to a pre-existing audience. Long-form establishes voice, taste, and trust depth that short-form can't carry alone; clipping long-form into shorts gives platform reach without losing brand quality. Voice authenticity is the hardest thing to delegate, so even with a content team, the founder writes the social copy. AI is a first-draft accelerator (Claude for email sequence drafts, content iteration), not a replacement for editorial voice.
+Distribution is the moat, building it before product means the launch happens to a pre-existing audience. Long-form establishes voice, taste, and trust depth that short-form can't carry alone; clipping long-form into shorts gives platform reach without losing brand quality. Voice authenticity is the hardest thing to delegate, so even with a content team, the founder writes the social copy. AI is a first-draft accelerator (Claude for email sequence drafts, content iteration), not a replacement for editorial voice.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "Long-form is easier to repurpose into short-form clips for TikTok, Reels, and Shorts than the reverse."
 
-— Matt Gray (synthesized from operator's published work)
+· Matt Gray (synthesized from operator's published work)
 
 ## Signals
 - Editorial calendar leads with long-form weekly cadence; short-form is downstream.
@@ -47,7 +47,7 @@ Fails when:
 - Founder writes social copy directly; team handles production but not voice.
 
 ## Counter-evidence
-Pure-product founders (Linear, Notion early days) achieved scale without media-first investment — product craft + word-of-mouth substituted. Media-first models are also founder-dependent; the strategy doesn't transfer cleanly when the founder leaves.
+Pure-product founders (Linear, Notion early days) achieved scale without media-first investment, product craft + word-of-mouth substituted. Media-first models are also founder-dependent; the strategy doesn't transfer cleanly when the founder leaves.
 
 ## Cross-references
-- ins_audience-community-product — adjacent operator (Greg Isenberg)
+- ins_audience-community-product, adjacent operator (Greg Isenberg)

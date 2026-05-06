@@ -21,7 +21,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # The frame you give AI becomes the filter everything gets read through.
 
 ## Claim
-Two PMMs with the same transcripts and different frames get back completely different insights—AI doesn't read transcripts neutrally but relative to the job given.
+Two PMMs with the same transcripts and different frames get back completely different insights, AI doesn't read transcripts neutrally but relative to the job given.
 
 ## Mechanism
 To get useful output, tell AI what decision the research must inform, what would prove or disprove it, and who each participant is (e.g., churned competitor migrator vs. loyal power user saying the same words means opposite things). When AI knows what it's deciding, it reads data differently; otherwise, it just summarizes, and a summary is not an answer.

@@ -20,7 +20,7 @@ raw_ref: raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.
 # The sales team detects positioning failure months before the dashboard does
 
 ## Claim
-Sales reps are the leading indicator for failing positioning — they hear the rejection language, the alternative comparisons, and the buyer-side reframes weeks or months before any conversion or pipeline metric reflects the drift, so the positioning audit loop runs through reps, not dashboards.
+Sales reps are the leading indicator for failing positioning, they hear the rejection language, the alternative comparisons, and the buyer-side reframes weeks or months before any conversion or pipeline metric reflects the drift, so the positioning audit loop runs through reps, not dashboards.
 
 ## Mechanism
 Positioning fails at the language layer first: a buyer says "we already have something like this" or "we'd just use [unexpected alternative]" or "we need it to do X first." Reps absorb this language in real time. Pipeline metrics aggregate over weeks and lag the language shift. By the time a dashboard shows a drop, the positioning has been failing for months. Building the audit loop on rep input (call transcripts, win/loss notes, weekly objection summaries) catches drift early; building on dashboards catches it after damage is done.
@@ -34,7 +34,7 @@ Holds when:
 Fails when:
 - The product is pure self-serve and there is no sales floor.
 - Sales reports are filtered through forecast politics and lose objection signal.
-- PMM treats sales feedback as anecdotal and waits for "data" — by then the drift is structural.
+- PMM treats sales feedback as anecdotal and waits for "data", by then the drift is structural.
 
 ## Evidence
 > "Your sales team knows months before anyone else when a position is failing."
@@ -43,7 +43,7 @@ Companion frames Dunford pushed in April 2026:
 - Stop positioning against ghost competitors customers don't actually consider.
 - The VC pitch is where you'll be; the sales pitch is why you win today.
 
-— April Dunford, LinkedIn (April 2026); cited in miniu daily digest 2026-04-26
+· April Dunford, LinkedIn (April 2026); cited in miniu daily digest 2026-04-26
 
 ## Signals
 - Weekly or monthly rep-objection log feeds the positioning audit.
@@ -54,7 +54,7 @@ Companion frames Dunford pushed in April 2026:
 For PLG and self-serve products with thin sales motions, the equivalent signal must come from in-product behavior, support tickets, and review sites; the Dunford claim doesn't transfer cleanly. For products with very long enterprise cycles, sales objection signal can be too noisy to trust without aggregation.
 
 ## Cross-references
-- `ins_no-decision-is-the-real-competitor` — Dunford's status-quo-as-competitor frame; this is how you detect when status-quo is winning.
-- `ins_setup-follow-through-pitch` — the structure that fails first when positioning drifts.
-- `ins_test-positioning-in-live-sales-pitch` — the operational complement: test before you ship.
-- `ins_3s-content-from-sales-success-support` — Hufford's content-side analog using the same signal source.
+- `ins_no-decision-is-the-real-competitor`, Dunford's status-quo-as-competitor frame; this is how you detect when status-quo is winning.
+- `ins_setup-follow-through-pitch`, the structure that fails first when positioning drifts.
+- `ins_test-positioning-in-live-sales-pitch`, the operational complement: test before you ship.
+- `ins_3s-content-from-sales-success-support`, Hufford's content-side analog using the same signal source.

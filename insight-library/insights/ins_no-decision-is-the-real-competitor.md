@@ -17,10 +17,10 @@ related: [ins_setup-follow-through-pitch]
 raw_ref: raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md
 ---
 
-# 40–60% of B2B buyers say "no decision" — your real competitor is the status quo
+# 40–60% of B2B buyers say "no decision", your real competitor is the status quo
 
 ## Claim
-When you survey buyers who did not buy, 40–60% report they made no purchase decision at all — they were not comparing you to a competitor; they were not convinced the problem was worth solving. The pitch must first establish that the problem is real and worth paying for.
+When you survey buyers who did not buy, 40–60% report they made no purchase decision at all, they were not comparing you to a competitor; they were not convinced the problem was worth solving. The pitch must first establish that the problem is real and worth paying for.
 
 ## Mechanism
 B2B selling is dominated by status-quo inertia, not competitive choice. Pitches that lead with feature differentiation answer a question the buyer never asked: "why you over them?" The buyer is asking "should I do anything at all?" Until the problem is framed and the cost of inaction made tangible, no feature comparison matters. Re-ordering the pitch to establish the problem first changes the game from "win against competitors" to "win against doing nothing."
@@ -41,7 +41,7 @@ Fails when:
 
 April's pitch architecture (in *Sales Pitch*) starts with insight + alternatives + perfect world before any product demonstration, precisely to convert "no decision" prospects into engaged ones. Her workshop research across 200+ B2B companies is the body of evidence.
 
-— April Dunford on Lenny's Podcast, 2026-04-28
+· April Dunford on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Win/loss interviews surface "we just didn't get around to it" or "we decided to wait" more often than "we picked a competitor."
@@ -52,4 +52,4 @@ April's pitch architecture (in *Sales Pitch*) starts with insight + alternatives
 For some categories (PLG bottom-up adoption, viral products), buyers self-qualify and "no decision" is solved at signup. For deal-led enterprise sales of must-have infrastructure, competitive comparison genuinely is the gating step.
 
 ## Cross-references
-- `ins_setup-follow-through-pitch` — the structural fix
+- `ins_setup-follow-through-pitch`, the structural fix

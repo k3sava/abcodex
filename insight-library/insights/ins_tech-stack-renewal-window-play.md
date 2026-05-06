@@ -23,7 +23,7 @@ raw_ref: raw/essays/florin-tatulea--tech-stack-renewal-window--2026-04-22.md
 Outbound that fires only when both (a) the prospect is using a specific tech-stack signal and (b) is inside a contract-renewal window, with the signal pushed to reps in real time by an agent, converts at roughly 5x standard outbound rates.
 
 ## Mechanism
-Generic outbound has near-zero precision and fights inbox saturation. The dual-trigger play raises precision two ways: tech-stack signal screens for fit (the prospect is the right buyer); renewal-window timing screens for opportunity (the prospect can act now without budget cycle delay). When both fire, the contact has both willingness and ability — the conversion math improves dramatically. Real-time agent push closes the operator latency that previously killed signal value (by the time a manual report compiled, the window had passed).
+Generic outbound has near-zero precision and fights inbox saturation. The dual-trigger play raises precision two ways: tech-stack signal screens for fit (the prospect is the right buyer); renewal-window timing screens for opportunity (the prospect can act now without budget cycle delay). When both fire, the contact has both willingness and ability, the conversion math improves dramatically. Real-time agent push closes the operator latency that previously killed signal value (by the time a manual report compiled, the window had passed).
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "Every single Rev Ops, GTM Engineer or GTM leader should be building out an agent that is pushing this data to your reps in real time."
 
-— Florin Tatulea, https://salesflo.substack.com/p/130-cheatcode-play-of-the-week-tech-stack-contract-renewal-signals, 2026-04-22
+· Florin Tatulea, https://salesflo.substack.com/p/130-cheatcode-play-of-the-week-tech-stack-contract-renewal-signals, 2026-04-22
 
 ## Signals
 - Outbound CRM has a dual-trigger filter and reps see only contacts where both fire.
@@ -52,5 +52,5 @@ Fails when:
 The 5x claim is operator-reported, not independently audited. Tech-stack signal accuracy varies by source and category. Pure POV-led outbound (Orlob, `ins_pov-led-outbound`) is a different mechanism that doesn't require the dual-trigger and may outperform when the targeting signal is weak.
 
 ## Cross-references
-- `ins_pov-led-outbound` — complementary high-precision approach; combine signal-targeting with POV messaging.
-- `ins_3s-content-from-sales-success-support` — Hufford's content-side analog: the signal is the right input, not the channel.
+- `ins_pov-led-outbound`, complementary high-precision approach; combine signal-targeting with POV messaging.
+- `ins_3s-content-from-sales-success-support`, Hufford's content-side analog: the signal is the right input, not the channel.

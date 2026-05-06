@@ -24,4 +24,4 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 When anyone can build a feature in minutes with AI, the traditional PMM launch cycle breaks. You can't process faster than AI can build.
 
 ## Mechanism
-The PMM job shifts from coordinating launches to curating them: deciding which features deserve a story and which belong in a changelog. The PMM who survives knows what's worth a full launch treatment—positioning, enablement, customer marketing—versus what should be quietly shipped.
+The PMM job shifts from coordinating launches to curating them: deciding which features deserve a story and which belong in a changelog. The PMM who survives knows what's worth a full launch treatment, positioning, enablement, customer marketing, versus what should be quietly shipped.

@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # Being crisp and concise is underrated. The lack of it signals something more concerning
 ## Claim
-Being crisp and concise is underrated. The lack of it signals something more concerning: a thinking problem. When you don’t know what truly matters, you try to say 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨. When you're clear on the core point, you can say it 𝘴𝘪𝘮𝘱𝘭𝘺.
+Being crisp and concise is underrated. The lack of it signals something more concerning: a thinking problem. When you don't know what truly matters, you try to say 𝘦𝘷𝘦𝘳𝘺𝘵𝘩𝘪𝘯𝘨. When you're clear on the core point, you can say it 𝘴𝘪𝘮𝘱𝘭𝘺.
 
 ## Mechanism
-This isn’t just about reducing noise or improving readability. It is about clarity of thought.
+This isn't just about reducing noise or improving readability. It is about clarity of thought.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Being crisp and concise is underrated. The lack of it signals something more concerning: a thinking problem."
 
-— Chantal Cox, LinkedIn, 2026-04-10
+· Chantal Cox, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -31,7 +31,7 @@ Fails when: a workflow depends on a model-specific quirk that capability framing
 
 ## Evidence
 > "Every few months a new model arrives... something that was impossible becomes easy, while the size of the leaps grows each new release cycle."
-— Ethan Mollick, One Useful Thing, 2026-04-23
+· Ethan Mollick, One Useful Thing, 2026-04-23
 
 ## Signals
 - Workflow specs name capability requirements, not model IDs.
@@ -39,7 +39,7 @@ Fails when: a workflow depends on a model-specific quirk that capability framing
 - Long-form fiction or other rough-edge tasks flagged with explicit caveats per release.
 
 ## Counter-evidence
-For regulated or audited workflows, model-pinning is required for reproducibility — capability framing can't override compliance.
+For regulated or audited workflows, model-pinning is required for reproducibility, capability framing can't override compliance.
 
 ## Cross-references
 - (none in current corpus)

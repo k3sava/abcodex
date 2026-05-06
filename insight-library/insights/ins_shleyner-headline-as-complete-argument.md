@@ -17,29 +17,29 @@ related: [ins_emotion-is-the-cornerstone, ins_20-percent-rule-headline, ins_mill
 raw_ref: raw/expert-content/experts/eddie-shleyner.md
 ---
 
-# Every headline must function as a complete persuasive argument — in the age of infinite scroll, the headline is often the only element a reader sees
+# Every headline must function as a complete persuasive argument, in the age of infinite scroll, the headline is often the only element a reader sees
 
 ## Claim
-The headline can no longer be a hook that depends on the body to deliver the persuasive argument. It must be a *self-contained argument* — problem, solution, benefit, all communicated in the headline alone — because in feeds, search results, and email previews, the headline is often the only element the reader actually reads. A headline that needs the next paragraph to make sense converts only the readers who would have converted anyway.
+The headline can no longer be a hook that depends on the body to deliver the persuasive argument. It must be a *self-contained argument*, problem, solution, benefit, all communicated in the headline alone, because in feeds, search results, and email previews, the headline is often the only element the reader actually reads. A headline that needs the next paragraph to make sense converts only the readers who would have converted anyway.
 
 ## Mechanism
-Attention markets have collapsed. Where pre-internet readers committed to reading an entire ad once they started, today's readers scan headlines at a rate of 3-5 per second and continue past 95%+ of them. The headline therefore must do the entire persuasive work for the 95% who never scroll into the body — and even for the 5% who do, the headline shapes their interpretation of everything that follows. The implication is structural: stop writing hook headlines (which depend on body copy to land) and start writing argument headlines (which complete the persuasion in themselves). The body becomes amplification of an already-made case, not the case itself.
+Attention markets have collapsed. Where pre-internet readers committed to reading an entire ad once they started, today's readers scan headlines at a rate of 3-5 per second and continue past 95%+ of them. The headline therefore must do the entire persuasive work for the 95% who never scroll into the body, and even for the 5% who do, the headline shapes their interpretation of everything that follows. The implication is structural: stop writing hook headlines (which depend on body copy to land) and start writing argument headlines (which complete the persuasion in themselves). The body becomes amplification of an already-made case, not the case itself.
 
 ## Conditions
 Holds when:
 - Reader attention is fragmented (social feeds, email previews, mobile scrolling).
-- The offer can be summarised meaningfully in a headline — the substance is compressible.
+- The offer can be summarised meaningfully in a headline, the substance is compressible.
 - The audience treats the headline as the primary content (most consumer, most B2B SaaS, most direct-response).
 
 Fails when:
 - The offer requires extensive context (complex enterprise procurement, regulated industries) and a complete argument cannot fit in a headline.
 - The headline is part of a long-form artefact where the reader has explicitly committed to the long form (e.g., paid subscriber reading a feature article).
-- "Complete argument" gets misread as "stuff every benefit into the headline" — overload is its own failure mode.
+- "Complete argument" gets misread as "stuff every benefit into the headline", overload is its own failure mode.
 
 ## Evidence
 > "Every headline must function as a complete persuasive argument in itself."
 
-— see `raw/expert-content/experts/eddie-shleyner.md` line 14.
+· see `raw/expert-content/experts/eddie-shleyner.md` line 14.
 
 ## Signals
 - Headline review process explicitly tests whether the headline alone produces a clicked-or-converted decision.
@@ -50,7 +50,7 @@ Fails when:
 For long-form content where the reader has committed (paid newsletter, feature article, narrative-led ad), hook headlines that build curiosity work because the reader will continue. Shleyner's claim is sharpest for cold-traffic short-attention surfaces; it overstates for committed-reader contexts.
 
 ## Cross-references
-- `ins_emotion-is-the-cornerstone` — Shleyner's foundational claim; the headline carries the emotion.
-- `ins_20-percent-rule-headline` — Schafer's adjacent claim on headline weight.
-- `ins_miller-caveman-test` — Miller's adjacent claim; the homepage / headline must communicate value in seconds.
-- `ins_schafer-three-headline-archetypes` — the typology of complete-argument headlines.
+- `ins_emotion-is-the-cornerstone`, Shleyner's foundational claim; the headline carries the emotion.
+- `ins_20-percent-rule-headline`, Schafer's adjacent claim on headline weight.
+- `ins_miller-caveman-test`, Miller's adjacent claim; the homepage / headline must communicate value in seconds.
+- `ins_schafer-three-headline-archetypes`, the typology of complete-argument headlines.

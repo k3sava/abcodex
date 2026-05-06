@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/hermann-simon.md
 ---
 
-# A 1% price increase produces 8-11% profit improvement — yet most companies have no pricing function
+# A 1% price increase produces 8-11% profit improvement, yet most companies have no pricing function
 
 ## Claim
 Price is the most powerful profit lever and the most neglected. A 1% price increase, holding volume constant, drives 8-11% profit improvement for the average company. By comparison, 1% volume increase drives only 3-4%, and 1% cost reduction drives 5-7%. Yet fewer than 5% of Fortune 500 companies have a dedicated pricing department, pricing decisions are routinely delegated to junior sales, and CEOs rarely spend meaningful time on pricing strategy.
 
 ## Mechanism
-The asymmetry is structural. Costs and volume are treated as line items with named owners; pricing is treated as a policy. Simon's prescription is institutional: build a formal pricing process (strategy → analysis → decision → implementation), name a Pricing Officer who at minimum facilitates the process and maintains pricing intelligence, and require CEO involvement on pricing strategy at least quarterly. Premium-price champions sustain superiority through continuous innovation, brand investment as quality signal, and refusal of discounting. Discounting is "the most dangerous pricing practice — easy to start, nearly impossible to stop."
+The asymmetry is structural. Costs and volume are treated as line items with named owners; pricing is treated as a policy. Simon's prescription is institutional: build a formal pricing process (strategy → analysis → decision → implementation), name a Pricing Officer who at minimum facilitates the process and maintains pricing intelligence, and require CEO involvement on pricing strategy at least quarterly. Premium-price champions sustain superiority through continuous innovation, brand investment as quality signal, and refusal of discounting. Discounting is "the most dangerous pricing practice, easy to start, nearly impossible to stop."
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "Discounting is the most dangerous pricing practice because it is easy to start, nearly impossible to stop, and trains customers to expect lower prices."
 
-— Hermann Simon (synthesized from operator's published work)
+· Hermann Simon (synthesized from operator's published work)
 
 ## Signals
 - Org chart names a pricing owner with named reports or partners.

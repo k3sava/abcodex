@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/david-skok.md
 ---
 
-# LTV ≥ 3× CAC, recover CAC in <12 months — and expect a multi-year cash flow trough before it pays off
+# LTV ≥ 3× CAC, recover CAC in <12 months, and expect a multi-year cash flow trough before it pays off
 
 ## Claim
-A SaaS business is viable only if the lifetime value of a customer significantly exceeds the cost to acquire them. Skok's golden ratios: LTV:CAC ≥ 3, months-to-recover-CAC < 12. Halving churn doubles LTV — making retention the highest-leverage lever. Hiring sales reps and acquiring customers creates a *cash flow trough* (deeper the faster you grow), with first profit often only 18-21 months in.
+A SaaS business is viable only if the lifetime value of a customer significantly exceeds the cost to acquire them. Skok's golden ratios: LTV:CAC ≥ 3, months-to-recover-CAC < 12. Halving churn doubles LTV, making retention the highest-leverage lever. Hiring sales reps and acquiring customers creates a *cash flow trough* (deeper the faster you grow), with first profit often only 18-21 months in.
 
 ## Mechanism
-SaaS economics are cash-intensive because customers pay monthly while CAC is incurred upfront. Each new customer creates a temporary cash deficit; faster growth means deeper trough but steeper eventual profitability curve. The unit economics decompose into three levers: acquire efficiently (CAC, payback period), retain (churn, NRR > 100% = "negative churn"), monetize over time (expansion revenue from existing customers). LTV:CAC < 3 is a diagnostic that something is broken in product, sales, or fit — not just finance.
+SaaS economics are cash-intensive because customers pay monthly while CAC is incurred upfront. Each new customer creates a temporary cash deficit; faster growth means deeper trough but steeper eventual profitability curve. The unit economics decompose into three levers: acquire efficiently (CAC, payback period), retain (churn, NRR > 100% = "negative churn"), monetize over time (expansion revenue from existing customers). LTV:CAC < 3 is a diagnostic that something is broken in product, sales, or fit, not just finance.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "When a company hires two new salespeople per month to drive growth, his model shows a worst monthly loss of $190K and first profit only after 21 months."
 
-— David Skok, *SaaS Metrics 2.0* (synthesized from operator's published work)
+· David Skok, *SaaS Metrics 2.0* (synthesized from operator's published work)
 
 ## Signals
 - Board reporting includes LTV:CAC, payback period, NRR, and burn multiple as headline metrics.

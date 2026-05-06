@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Hiring a growth marketer before you have a foundation is like building the second floor before you've poured the concrete. The activity looks like progress. The structure won't hold."
 
-— Dan Darnell, LinkedIn, 2026-04-10
+· Dan Darnell, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

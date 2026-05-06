@@ -23,7 +23,7 @@ raw_ref: raw/expert-content/experts/bernadette-jiwa.md
 The cookie is the product (a tangible thing with constant value); the fortune is the meaning, story, and feeling. People buy fortune cookies for the fortune, not the cookie. Therefore: Product + Meaning = Brand; Product − Meaning = Commodity. Differentiation comes from the meaning layer, not the feature layer.
 
 ## Mechanism
-Two products with identical functional output can occupy radically different price points and customer relationships. The difference is the meaning the buyer attaches to the purchase — origin story, values, transformation promised, identity affirmed. Jiwa's Fortune Cookie Principle systematically inventories that meaning across 20 keys (purpose, backstory, values, customer transformation, brand promise, etc.). Without that inventory, the company defaults to feature competition and commodity pricing.
+Two products with identical functional output can occupy radically different price points and customer relationships. The difference is the meaning the buyer attaches to the purchase, origin story, values, transformation promised, identity affirmed. Jiwa's Fortune Cookie Principle systematically inventories that meaning across 20 keys (purpose, backstory, values, customer transformation, brand promise, etc.). Without that inventory, the company defaults to feature competition and commodity pricing.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "People don't buy products; they buy the story behind them."
 
-— Bernadette Jiwa, *The Fortune Cookie Principle* (synthesized from operator's published work)
+· Bernadette Jiwa, *The Fortune Cookie Principle* (synthesized from operator's published work)
 
 ## Signals
 - Brand work explicitly inventories the 20 keys (or analog) before any tactical campaign.
@@ -47,7 +47,7 @@ Fails when:
 - Customer testimonials describe transformation, not feature satisfaction.
 
 ## Counter-evidence
-Anthony Pierri's "value-prop, not story" school argues that for early-stage B2B SaaS, meaning is a luxury — buyers want the functional promise stated plainly. Story Driven branding can mask a weak product if applied prematurely.
+Anthony Pierri's "value-prop, not story" school argues that for early-stage B2B SaaS, meaning is a luxury, buyers want the functional promise stated plainly. Story Driven branding can mask a weak product if applied prematurely.
 
 ## Cross-references
 - (none in current corpus)

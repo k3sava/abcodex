@@ -20,10 +20,10 @@ raw_ref: raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--cl
 # Reframe the conversation around customer revenue, not your own
 
 ## Claim
-In a downturn, stop selling against your own ARR target and start selling against your customer's revenue outcome. Translate every product capability into "this is how it makes you money" — both because the message lands harder, and because the exercise reveals which customers you actually move the needle for.
+In a downturn, stop selling against your own ARR target and start selling against your customer's revenue outcome. Translate every product capability into "this is how it makes you money", both because the message lands harder, and because the exercise reveals which customers you actually move the needle for.
 
 ## Mechanism
-Customers under revenue pressure filter every vendor pitch through one question: does this help us survive the quarter? Pitches framed as "renew so we hit our number" trigger churn. Pitches framed as "here is the dollar lift we drive in your funnel" align incentives. The translation forces sellers to do segment math — for whom can we credibly make a revenue claim? — and exposes accounts where the answer is "no one," which is information you act on by reallocating effort.
+Customers under revenue pressure filter every vendor pitch through one question: does this help us survive the quarter? Pitches framed as "renew so we hit our number" trigger churn. Pitches framed as "here is the dollar lift we drive in your funnel" align incentives. The translation forces sellers to do segment math, for whom can we credibly make a revenue claim?, and exposes accounts where the answer is "no one," which is information you act on by reallocating effort.
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Start thinking about how you actually impact revenue for your customers, and talk in that language. The more you can think in terms of not, ‘how do I get more revenue for myself?’ but, ‘how do I get more revenue for my customers?’, the more your message is likely to land."
 
-— Shruti Kapoor on Clari blog, 2022
+· Shruti Kapoor on Clari blog, 2022
 
 ## Signals
 - Win-rates climb on conversations that use customer-specific revenue framing.
@@ -45,7 +45,7 @@ Fails when:
 - Renewal pitches read like ROI memos, not contract reminders.
 
 ## Counter-evidence
-Lenny Rachitsky and others note that early-stage products often can't prove ROI yet — pushing this frame too early forces fabricated math. The right move at pre-traction stage is co-developing the metric with the design partner, not asserting one.
+Lenny Rachitsky and others note that early-stage products often can't prove ROI yet, pushing this frame too early forces fabricated math. The right move at pre-traction stage is co-developing the metric with the design partner, not asserting one.
 
 ## Cross-references
 - (none in current corpus)

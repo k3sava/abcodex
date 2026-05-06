@@ -20,10 +20,10 @@ raw_ref: raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md
 # Agents are first-class product users; design for output reliability, not navigation
 
 ## Claim
-AI agents speaking MCP (or equivalent protocols) are now first-class product users who consume product output without ever touching the UI; the product surface to optimize is reliable, fast, format-correct output — not onboarding flow or navigation.
+AI agents speaking MCP (or equivalent protocols) are now first-class product users who consume product output without ever touching the UI; the product surface to optimize is reliable, fast, format-correct output, not onboarding flow or navigation.
 
 ## Mechanism
-A human user values UX affordances (onboarding, progressive disclosure, navigation) because the human pays attention costs to learn the product. An agent pays no attention cost but has zero tolerance for ambiguity, slowness, or malformed output. The agent path traverses APIs, MCP endpoints, structured outputs — surfaces most product teams treat as plumbing, not product. As agents do more buying-side work, products that defend the human path while neglecting the agent path get reproduced and bypassed.
+A human user values UX affordances (onboarding, progressive disclosure, navigation) because the human pays attention costs to learn the product. An agent pays no attention cost but has zero tolerance for ambiguity, slowness, or malformed output. The agent path traverses APIs, MCP endpoints, structured outputs, surfaces most product teams treat as plumbing, not product. As agents do more buying-side work, products that defend the human path while neglecting the agent path get reproduced and bypassed.
 
 ## Conditions
 Holds when:
@@ -41,7 +41,7 @@ Fails when:
 
 > "If an agent can reproduce your core functionality without ever touching your product, what exactly are you defending?"
 
-— Elena Verna, https://www.elenaverna.com/p/your-product-has-a-new-user-its-not, 2026-04-26
+· Elena Verna, https://www.elenaverna.com/p/your-product-has-a-new-user-its-not, 2026-04-26
 
 ## Signals
 - Product roadmap has an explicit agent-readiness lane (MCP endpoints, structured output, latency budgets for programmatic calls).
@@ -52,6 +52,6 @@ Fails when:
 Some product categories have moats that depend on the human experience itself (community, brand, taste). For those, agent-readiness investment may be premature or actively dilutive. Aparna Chennapragada's NLX-is-the-new-UX (`ins_nlx-is-the-new-ux`) is a parallel claim from the human-conversation side, suggesting both surfaces matter and the right architecture is dual-surface, not agent-only.
 
 ## Cross-references
-- `ins_pmm-as-infrastructure-not-gate` — Verna's GTM-side parallel.
-- `ins_nlx-is-the-new-ux` — the human-conversation surface that complements agent surfaces.
-- `ins_software-is-not-a-moat` — why the moat isn't the software but the durable asset around it.
+- `ins_pmm-as-infrastructure-not-gate`, Verna's GTM-side parallel.
+- `ins_nlx-is-the-new-ux`, the human-conversation surface that complements agent surfaces.
+- `ins_software-is-not-a-moat`, why the moat isn't the software but the durable asset around it.

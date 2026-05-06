@@ -18,7 +18,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 title: 'Fix weak messaging by reordering — value, then benefit, then feature'
 ---
 
-# Fix weak messaging by reordering — value, then benefit, then feature
+# Fix weak messaging by reordering, value, then benefit, then feature
 
 ## Claim
 
@@ -26,7 +26,7 @@ You don't fix weak product messaging with more words; you fix it by changing the
 
 ## Mechanism
 
-Buyers process information top-down — they decide whether to keep reading inside the first phrase. Leading with value answers 'what changes for me' before the brain ever has to decode features. Reverse the order and the buyer drops out before the value lands, regardless of how good the feature is.
+Buyers process information top-down, they decide whether to keep reading inside the first phrase. Leading with value answers 'what changes for me' before the brain ever has to decode features. Reverse the order and the buyer drops out before the value lands, regardless of how good the feature is.
 
 ## Conditions
 

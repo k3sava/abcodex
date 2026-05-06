@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/podcasts/jeetu-patel--cisco-ai-first-transformation--2026-04-28.md
 ---
 
-# Establish enough trust to critique and debate in public — not "praise public, criticize private"
+# Establish enough trust to critique and debate in public, not "praise public, criticize private"
 
 ## Claim
 The default management orthodoxy "praise in public, criticize in private" produces a culture where real disagreement is hidden. Replace it with: build enough trust on the team that critique and debate happen in public. Public critique under sufficient trust accelerates learning across the team; private critique compresses learning to the two people in the room.
 
 ## Mechanism
-Trust is the precondition. With it, a public critique reads as engaged collaboration; without it, the same critique reads as humiliation. The work is in building the trust upstream — through psychological safety, named values, demonstrated leadership — so that critique can be public when it lands. Once it can, the team learns 10x faster because every disagreement is a teaching moment for everyone in earshot.
+Trust is the precondition. With it, a public critique reads as engaged collaboration; without it, the same critique reads as humiliation. The work is in building the trust upstream, through psychological safety, named values, demonstrated leadership, so that critique can be public when it lands. Once it can, the team learns 10x faster because every disagreement is a teaching moment for everyone in earshot.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 Jeetu's authority for this: 30K direct/indirect reports at Cisco. Pattern persists at scale.
 
-— Jeetu Patel on Lenny's Podcast, 2026-04-28
+· Jeetu Patel on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Disagreements happen in standing meetings, not in side DMs.

@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/lenny-rachitsky.md
 ---
 
-# AI raises the bar for PMs — tactical work is delegatable; judgment, taste, and customer empathy become more valuable
+# AI raises the bar for PMs, tactical work is delegatable; judgment, taste, and customer empathy become more valuable
 
 ## Claim
-AI is not shrinking the PM role; it's raising the bar. Tactical work (PRDs, data analysis, mockups) is increasingly delegatable to agents. The remaining human work — judgment, taste, customer empathy, cross-functional alignment — becomes *more* valuable, not less. The PM's role shifts from specification-writer to orchestrator of agents. Six behaviors separate true agents from ordinary tools: plan multi-step workflows, use external tools, maintain memory across sessions, self-correct on errors, operate autonomously for extended periods, interact with other agents.
+AI is not shrinking the PM role; it's raising the bar. Tactical work (PRDs, data analysis, mockups) is increasingly delegatable to agents. The remaining human work, judgment, taste, customer empathy, cross-functional alignment, becomes *more* valuable, not less. The PM's role shifts from specification-writer to orchestrator of agents. Six behaviors separate true agents from ordinary tools: plan multi-step workflows, use external tools, maintain memory across sessions, self-correct on errors, operate autonomously for extended periods, interact with other agents.
 
 ## Mechanism
 The PM who can "vibe code" a prototype to validate a hypothesis before writing a brief is now more effective than one who writes perfect specifications for an engineering team. Adoption strategy: identify "low-risk, high-impact" tasks first; use a five-question safety checklist to keep agents scoped. Growth hierarchy under this new model: retention is foundation (if users don't stay nothing else matters), activation is highest-leverage early, acquisition channels follow product-channel fit. AI-product playbook (Lovable et al.): innovation over optimization, shift resources from activation to building new features, treat free-tier generosity as the most powerful growth lever.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "Six behaviors that separate true AI agents from ordinary tools: they can plan multi-step workflows, use external tools, maintain memory across sessions, self-correct on errors, operate autonomously for extended periods, and interact with other agents."
 
-— Lenny Rachitsky (synthesized from operator's published work)
+· Lenny Rachitsky (synthesized from operator's published work)
 
 ## Signals
 - PM role descriptions name "judgment, taste, and orchestration" as primary, not spec authoring.
@@ -45,7 +45,7 @@ Fails when:
 - Free-tier generosity is treated as a growth lever and tracked, not a budget line item.
 
 ## Counter-evidence
-Cat Wu's "100% automation rule" cuts against the agent-orchestration model when human polish remains required every run — at that point the work isn't really agent-orchestrated. Some product orgs find that AI-prototype validation under-weights long-term architectural thinking.
+Cat Wu's "100% automation rule" cuts against the agent-orchestration model when human polish remains required every run, at that point the work isn't really agent-orchestrated. Some product orgs find that AI-prototype validation under-weights long-term architectural thinking.
 
 ## Cross-references
-- ins_10-80-10-ai-workflow — adjacent operator (Arvid Kahl)
+- ins_10-80-10-ai-workflow, adjacent operator (Arvid Kahl)

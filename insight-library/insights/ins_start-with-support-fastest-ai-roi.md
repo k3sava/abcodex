@@ -17,7 +17,7 @@ related: [ins_agent-first-gtm-flywheel, ins_rebuild-gtm-around-ai]
 raw_ref: raw/essays/yamini-rangan--agent-first-gtm-hubspot--2026-04.md
 ---
 
-# Start your AI-in-GTM build with customer support — fastest path to defensible value
+# Start your AI-in-GTM build with customer support, fastest path to defensible value
 
 ## Claim
 When a business is deciding where to deploy the first AI agent, start with customer support. The outcomes are predictable, the data is structured, and the path to value is the fastest of any GTM stage.
@@ -31,15 +31,15 @@ Holds when:
 - Volume is high enough that even 30–60% deflection is material.
 
 Fails when:
-- The brand depends on white-glove support as differentiation (premium SaaS, regulated finance) — speed-of-deflection metrics can hurt retention. The Klarna-style reversal is the cautionary tale.
-- The resolution corpus is contradictory or out of date — the agent will confidently give wrong answers.
+- The brand depends on white-glove support as differentiation (premium SaaS, regulated finance), speed-of-deflection metrics can hurt retention. The Klarna-style reversal is the cautionary tale.
+- The resolution corpus is contradictory or out of date, the agent will confidently give wrong answers.
 
 ## Evidence
 > "For businesses thinking about where to start with AI, we recommend support. The results are predictable and the path to value is the fastest."
 >
 > Internal Customer Agent at HubSpot resolves ~60% of internal support inquiries without human intervention.
 
-— Yamini Rangan, HubSpot blog, 2026-04-28
+· Yamini Rangan, HubSpot blog, 2026-04-28
 
 ## Signals
 - Deflection rate climbs steadily, not in fragile spikes.
@@ -48,8 +48,8 @@ Fails when:
 - Support ops headcount stable or shifts toward escalation/QA, not bulk triage.
 
 ## Counter-evidence
-The 2026 Klarna reversal — they fired the customer-support team, replaced with AI for speed-of-response, then had to rehire because customer satisfaction collapsed. The metric they optimised (response speed) was the wrong one (satisfaction). "Start with support" only works if the team chooses outcome metrics carefully and resists the cost-cut narrative.
+The 2026 Klarna reversal, they fired the customer-support team, replaced with AI for speed-of-response, then had to rehire because customer satisfaction collapsed. The metric they optimised (response speed) was the wrong one (satisfaction). "Start with support" only works if the team chooses outcome metrics carefully and resists the cost-cut narrative.
 
 ## Cross-references
-- `ins_agent-first-gtm-flywheel` — Yamini's full nine-agent picture; this card is the "where to start" subset.
-- `ins_rebuild-gtm-around-ai` — Kieran Flanagan's structural frame for AI in GTM.
+- `ins_agent-first-gtm-flywheel`, Yamini's full nine-agent picture; this card is the "where to start" subset.
+- `ins_rebuild-gtm-around-ai`, Kieran Flanagan's structural frame for AI in GTM.

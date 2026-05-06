@@ -22,7 +22,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 ## Claim
 
-After 12 months as acting CMO at Chili Piper with no formal marketing training, the biggest learning was a step-change in communication skill — going from a geek who only understood code and UX to someone writing books and articles. Communication is what unlocks the move from co-founder to co-CEO of real impact.
+After 12 months as acting CMO at Chili Piper with no formal marketing training, the biggest learning was a step-change in communication skill, going from a geek who only understood code and UX to someone writing books and articles. Communication is what unlocks the move from co-founder to co-CEO of real impact.
 
 ## Mechanism
 

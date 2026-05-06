@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Here are my top 3 deployed workflows: https://resources.leadgenman.com/lindyai"
 
-— Manthan Patel, LinkedIn, 2026-04-10
+· Manthan Patel, LinkedIn, 2026-04-10
 
 ## Signals
 - Make/n8n need you to think in nodes and connections.

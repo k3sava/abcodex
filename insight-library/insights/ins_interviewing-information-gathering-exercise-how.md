@@ -19,10 +19,10 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 
 # Interviewing is an information gathering exercise, and how a candidate makes you feel (
 ## Claim
-I want to give every startup founder permission to hire candidates based off vibes. But I'm going to give you the vocabulary to feel better about it. Leaders resist "vibes hiring" because it sounds lazy. Like you’re not doing due diligence.
+I want to give every startup founder permission to hire candidates based off vibes. But I'm going to give you the vocabulary to feel better about it. Leaders resist "vibes hiring" because it sounds lazy. Like you're not doing due diligence.
 
 ## Mechanism
-Leaders resist "vibes hiring" because it sounds lazy. Like you’re not doing due diligence. People don’t love feelings-based decisions and revert to only what the evidence says. But recruiting is a human game and humans have feelings. That’s why you must incorporate how someone makes you feel in the decision.
+Leaders resist "vibes hiring" because it sounds lazy. Like you're not doing due diligence. People don't love feelings-based decisions and revert to only what the evidence says. But recruiting is a human game and humans have feelings. That's why you must incorporate how someone makes you feel in the decision.
 
 ## Conditions
 Holds when: the operating context matches the post's stated frame (team shape, stage, tooling, buyer type).
@@ -31,7 +31,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Interviewing is an information gathering exercise, and how a candidate makes you feel (The Vibes) is as important as their take home assessment, behavioral interview and specific competencies."
 
-— Varun Anand, LinkedIn, 2026-04-10
+· Varun Anand, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

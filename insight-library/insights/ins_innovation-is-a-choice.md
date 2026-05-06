@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "I always find it interesting when people say, 'Well, you're a large company, you can innovate. You're a small company, you can't innovate.' No, it's a choice. Every day you come into work and you can choose to be thinking about being creative, or you can choose to not be creative."
 
-— Jeetu Patel on Lenny's Podcast, 2026-04-28
+· Jeetu Patel on Lenny's Podcast, 2026-04-28
 
 Cisco: 90,000 employees, founded 1984, turned AI-first under Jeetu's product leadership.
 
@@ -50,4 +50,4 @@ Cisco: 90,000 employees, founded 1984, turned AI-first under Jeetu's product lea
 There is a real difference between "innovation is possible at any size" and "innovation is equally easy at any size." The latter isn't true. Coordination costs at scale are real and the operator's choice has to account for them.
 
 ## Cross-references
-- `ins_pocket-veto-large-companies` — the specific mechanism that kills large-company innovation
+- `ins_pocket-veto-large-companies`, the specific mechanism that kills large-company innovation

@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/pmm-mining/linkedin-saved-posts-2026-04-10.md
 # Personal user manuals belong in company onboarding to compress alignment time
 
 ## Claim
-A personal user manual — a written description of how someone works, communicates, and collaborates — speeds team alignment when made part of onboarding and kept accessible across the org. It reduces miscommunication and signals clarity rather than rigidity. The artifact is living: it evolves as the person grows.
+A personal user manual, a written description of how someone works, communicates, and collaborates, speeds team alignment when made part of onboarding and kept accessible across the org. It reduces miscommunication and signals clarity rather than rigidity. The artifact is living: it evolves as the person grows.
 
 ## Mechanism
 Implicit norms cost weeks of trial-and-error per new pairing. Writing them down compresses the discovery curve to one read. Keeping the doc current means the alignment cost is paid once per person, not once per pairing.
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "It helped me reflect on how I work, communicate, and collaborate. ... It speeds up team alignment, reduces miscommunication, and shows clarity, not rigidity."
 
-— Saket Banka, LinkedIn, 2026-04-10 (scrape date)
+· Saket Banka, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - New hires receive and write user manuals in week one.

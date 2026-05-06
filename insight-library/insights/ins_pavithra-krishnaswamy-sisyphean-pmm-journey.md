@@ -18,15 +18,15 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# Nobody chose product marketing — it chooses you
+# Nobody chose product marketing, it chooses you
 
 ## Claim
 
-After a decade in PMM and conversations with solo PMMs, fractional PMMs, consultants, and leaders across career stages, the universal pattern is that nobody planned to be in product marketing — every single one stumbled into it or had been doing PMM work without it being called that. The role attracts people who can fly without enough data and still stick the landing, which is the job description in disguise.
+After a decade in PMM and conversations with solo PMMs, fractional PMMs, consultants, and leaders across career stages, the universal pattern is that nobody planned to be in product marketing, every single one stumbled into it or had been doing PMM work without it being called that. The role attracts people who can fly without enough data and still stick the landing, which is the job description in disguise.
 
 ## Mechanism
 
-PMM sits at an intersection (product, sales, marketing, customer) that no formal training program prepares anyone for. People who can navigate ambiguity get pulled into the gaps, then build careers in them. The role's identity confusion ('what does a PMM actually do?') is downstream of this — it can't be defined cleanly because the gaps are different in every company.
+PMM sits at an intersection (product, sales, marketing, customer) that no formal training program prepares anyone for. People who can navigate ambiguity get pulled into the gaps, then build careers in them. The role's identity confusion ('what does a PMM actually do?') is downstream of this, it can't be defined cleanly because the gaps are different in every company.
 
 ## Conditions
 

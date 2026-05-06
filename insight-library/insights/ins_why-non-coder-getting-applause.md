@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "This is why, as a non-coder, getting applause from engineers is amazing to say the least."
 
-— Aniket Parihar, LinkedIn, 2026-04-10
+· Aniket Parihar, LinkedIn, 2026-04-10
 
 ## Signals
 - The team observes the pattern repeating across multiple cycles before naming it.

@@ -17,13 +17,13 @@ related: [ins_design-pie-chart-shifted]
 raw_ref: raw/podcasts/jenny-wen--design-process-is-dead--2026-04-27.md
 ---
 
-# Watch for "illegible energy" — ideas the team can't articulate but can't stop talking about
+# Watch for "illegible energy", ideas the team can't articulate but can't stop talking about
 
 ## Claim
 On a 2x2 of founder-credibility × idea-legibility, the interesting square is "credible founder × illegible idea." Track the internal experiments and prototypes that have *energy* but no clear shape yet. Those are the next thing worth designing for. Treat product discovery like internal-VC: seed the illegible-energy bets before they're legible.
 
 ## Mechanism
-Legible ideas (clear roadmap items, asked-for features) get crowded fast. By the time something is legible, multiple teams are building it. Illegible ideas — frontier work where smart people have conviction without articulation — are where the asymmetric upside lives. Treating Slack channels and internal demos as a discovery feed surfaces those bets before they're public. Then the design (or PMM, or strategy) work shapes them into something legible.
+Legible ideas (clear roadmap items, asked-for features) get crowded fast. By the time something is legible, multiple teams are building it. Illegible ideas, frontier work where smart people have conviction without articulation, are where the asymmetric upside lives. Treating Slack channels and internal demos as a discovery feed surfaces those bets before they're public. Then the design (or PMM, or strategy) work shapes them into something legible.
 
 ## Conditions
 Holds when:
@@ -32,14 +32,14 @@ Holds when:
 
 Fails when:
 - The substrate is filtered to legible work only (curated demos, polished previews). Illegible work hides.
-- The lead probes too soon — illegible energy needs space to develop before it gets shaped.
+- The lead probes too soon, illegible energy needs space to develop before it gets shaped.
 
 ## Evidence
 Jenny credits Evan Armacost for the illegibility framework. Her example: the cloud-studio prototype → skills framework → Co-work form-factor was a chain of illegible-energy bets she watched evolve before any of them had names.
 
 > "The best AI news is internal Slack at one of these labs. What are the ideas with energy that I don't yet understand? Dive deeper."
 
-— Jenny Wen on Lenny's Podcast, 2026-04-27
+· Jenny Wen on Lenny's Podcast, 2026-04-27
 
 ## Signals
 - Leaders consume internal Slack like a news feed, not just a comms channel.
@@ -47,7 +47,7 @@ Jenny credits Evan Armacost for the illegibility framework. Her example: the clo
 - The team has a watch-list of unnamed prototypes; some convert to product, most don't, and that's expected.
 
 ## Counter-evidence
-"Illegible" is a tempting cover for "no signal." Without discipline, the framework becomes "we follow whatever's interesting" — pure dilettantism. Pair illegibility-tracking with an explicit promotion bar: at some point, energy must become a hypothesis the team can test. Otherwise it's permanent prototyping.
+"Illegible" is a tempting cover for "no signal." Without discipline, the framework becomes "we follow whatever's interesting", pure dilettantism. Pair illegibility-tracking with an explicit promotion bar: at some point, energy must become a hypothesis the team can test. Otherwise it's permanent prototyping.
 
 ## Cross-references
-- `ins_design-pie-chart-shifted` — the operating mode this discovery fits inside
+- `ins_design-pie-chart-shifted`, the operating mode this discovery fits inside

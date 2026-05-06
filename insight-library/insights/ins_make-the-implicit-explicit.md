@@ -41,7 +41,7 @@ Fails when:
 
 Claire's meeting hygiene rule from *Scaling People* and the practice she carried from Google self-driving (Waymo) into Stripe.
 
-— Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
+· Claire Hughes Johnson on Lenny's Podcast, 2026-04-28
 
 ## Signals
 - Meeting agendas open with the four elements in writing.
@@ -52,5 +52,5 @@ Claire's meeting hygiene rule from *Scaling People* and the practice she carried
 For high-trust small teams, the formality can feel performative. For exploratory or creative sessions, naming the decider too early shuts down divergent thinking. The rule is conditional on the meeting type.
 
 ## Cross-references
-- `ins_force-for-positive-momentum` — what to do once the decider is named
-- `ins_make-intuition-explicit` — Annie Duke's analogous discipline for predictions
+- `ins_force-for-positive-momentum`, what to do once the decider is named
+- `ins_make-intuition-explicit`, Annie Duke's analogous discipline for predictions

@@ -18,11 +18,11 @@ related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 ---
 
-# All-electric trailers fail because they steal the boondocking battery — fix it with onboard generation
+# All-electric trailers fail because they steal the boondocking battery, fix it with onboard generation
 
 ## Claim
 
-Traditional travel trailers are heavy, un-aerodynamic bricks that destroy EV range. All-electric trailers try to fix this by using their battery to assist with towing, but that drains the power needed for actual off-grid camping, forcing customers back to crowded campsite hookups. Evotrex eliminates that compromise by integrating an ultra-efficient onboard power generator that automatically recharges the trailer's battery — seamless tow assist on the highway, limitless boondocking power off it.
+Traditional travel trailers are heavy, un-aerodynamic bricks that destroy EV range. All-electric trailers try to fix this by using their battery to assist with towing, but that drains the power needed for actual off-grid camping, forcing customers back to crowded campsite hookups. Evotrex eliminates that compromise by integrating an ultra-efficient onboard power generator that automatically recharges the trailer's battery, seamless tow assist on the highway, limitless boondocking power off it.
 
 ## Mechanism
 

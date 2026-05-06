@@ -20,7 +20,7 @@ raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
 # Suddenly everyone I know is panicking, wondering if their job disappears tomorrow
 
 ## Claim
-Matt Shumer's tweet hit over 80 million views last week. Suddenly everyone I know is panicking, wondering if their job disappears tomorrow. But here's what I'm actually hearing when I talk to customers about AI. “We built a quiz tool / created a product recommender / automated data reporting.
+Matt Shumer's tweet hit over 80 million views last week. Suddenly everyone I know is panicking, wondering if their job disappears tomorrow. But here's what I'm actually hearing when I talk to customers about AI. "We built a quiz tool / created a product recommender / automated data reporting.
 
 ## Mechanism
 Because the gap between "experiment" and "replacing complex workflows" is bigger than social media makes it seem.
@@ -32,7 +32,7 @@ Fails when: the practice is lifted into a different stage or buyer context witho
 ## Evidence
 > "Suddenly everyone I know is panicking, wondering if their job disappears tomorrow."
 
-— Shivangi Sahu, LinkedIn, 2026-04-10
+· Shivangi Sahu, LinkedIn, 2026-04-10
 
 ## Signals
 - Overhead tasks: the admin work that keeps things running.

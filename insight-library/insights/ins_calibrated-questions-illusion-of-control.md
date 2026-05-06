@@ -17,10 +17,10 @@ related: []
 raw_ref: raw/expert-content/experts/chris-voss.md
 ---
 
-# "How am I supposed to do that?" — give the other party the illusion of control and they solve your problem for you
+# "How am I supposed to do that?", give the other party the illusion of control and they solve your problem for you
 
 ## Claim
-Calibrated questions — especially "How am I supposed to do that?" and "What do you want me to do?" — shift the problem-solving burden to the counterpart, force them to confront the practical implications of their demand, and transform confrontation into collaboration. Voss reports an 80% success rate where the counterpart either modifies the demand voluntarily, brainstorms alternatives, or reveals additional resources that make the request feasible.
+Calibrated questions, especially "How am I supposed to do that?" and "What do you want me to do?", shift the problem-solving burden to the counterpart, force them to confront the practical implications of their demand, and transform confrontation into collaboration. Voss reports an 80% success rate where the counterpart either modifies the demand voluntarily, brainstorms alternatives, or reveals additional resources that make the request feasible.
 
 ## Mechanism
 Direct refusal triggers defensive escalation. Calibrated questions invert the dynamic: instead of saying no, you ask how. The counterpart, now invited into joint problem-solving, mentally simulates the demand and usually concludes it is unreasonable on their own. Of the remaining 20%: half explain calmly how to do it (signaling a hard limit you should respect), half respond with anger (handled by mirroring + label: "Just do it?" pause, "It sounds like you are under a lot of pressure"). The technique is grounded in 24 years of FBI hostage work, not academic theory.
@@ -39,7 +39,7 @@ Fails when:
 
 > "No one anywhere is teaching anyone that presenting a logical argument is an emotionally intelligent way to accomplish anything."
 
-— Chris Voss, *Never Split the Difference* (synthesized from operator's published work)
+· Chris Voss, *Never Split the Difference* (synthesized from operator's published work)
 
 ## Signals
 - Sellers can reach for calibrated questions on demand under pressure (drilled, not improvised).
@@ -47,7 +47,7 @@ Fails when:
 - Discovery calls feel like conversation, not interrogation.
 
 ## Counter-evidence
-For high-volume transactional sales (e-commerce, simple SMB software), full Black Swan technique is overkill — directness and clear pricing close faster. Some buyers experience repeated calibrated questions as manipulative once they recognize the pattern.
+For high-volume transactional sales (e-commerce, simple SMB software), full Black Swan technique is overkill, directness and clear pricing close faster. Some buyers experience repeated calibrated questions as manipulative once they recognize the pattern.
 
 ## Cross-references
 - (none in current corpus)

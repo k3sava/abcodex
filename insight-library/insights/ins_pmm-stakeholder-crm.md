@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/shireesh-gupta.md
 ---
 
-# 35% of PMM time goes to stakeholder management — make it trackable with a CRM-like Claude Code system
+# 35% of PMM time goes to stakeholder management, make it trackable with a CRM-like Claude Code system
 
 ## Claim
-Roughly 35% of Product Marketing time goes into stakeholder management — but most PMMs treat it as informal, untrackable interpersonal work. Gupta's fix: build a CRM-like system inside Claude Code that scores stakeholder relationships on three dimensions — frequency (how often you connect), depth (substantive vs. transactional), and reciprocity (do they help you back?). The system makes invisible relationship work visible and tractable.
+Roughly 35% of Product Marketing time goes into stakeholder management, but most PMMs treat it as informal, untrackable interpersonal work. Gupta's fix: build a CRM-like system inside Claude Code that scores stakeholder relationships on three dimensions, frequency (how often you connect), depth (substantive vs. transactional), and reciprocity (do they help you back?). The system makes invisible relationship work visible and tractable.
 
 ## Mechanism
-Untracked stakeholder work creates two failure modes: relationships go cold without warning, and the PMM can't justify the time investment to leadership ("what did you ship this quarter?"). A scored system surfaces which relationships are decaying, which need investment, and which to deprioritize. Claude Code as the substrate lets the PMM update the system in natural language during/after meetings — much faster than a dedicated CRM tool. AI-driven prompts surface "you haven't talked to X in 6 weeks; here's what was last discussed."
+Untracked stakeholder work creates two failure modes: relationships go cold without warning, and the PMM can't justify the time investment to leadership ("what did you ship this quarter?"). A scored system surfaces which relationships are decaying, which need investment, and which to deprioritize. Claude Code as the substrate lets the PMM update the system in natural language during/after meetings, much faster than a dedicated CRM tool. AI-driven prompts surface "you haven't talked to X in 6 weeks; here's what was last discussed."
 
 ## Conditions
 Holds when:
@@ -37,7 +37,7 @@ Fails when:
 ## Evidence
 > "35% of PMM time goes to stakeholder management — make it trackable by building a CRM-like system with Claude Code that scores relationships on frequency, depth, and reciprocity."
 
-— Shireesh Gupta (synthesized from operator's published work)
+· Shireesh Gupta (synthesized from operator's published work)
 
 ## Signals
 - Stakeholder list exists with named scoring across three axes.
@@ -48,4 +48,4 @@ Fails when:
 Some PMM cultures explicitly reject systematizing relationships ("it should feel personal, not CRM-tracked"). Heavy stakeholder-tracking can also become its own form of busy work that crowds out the actual product marketing.
 
 ## Cross-references
-- ins_qual-quant-synthesis-claude-code — adjacent operator (Else van der Berg)
+- ins_qual-quant-synthesis-claude-code, adjacent operator (Else van der Berg)

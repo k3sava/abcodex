@@ -20,7 +20,7 @@ raw_ref: raw/expert-content/experts/chris-do.md
 # Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation.
 
 ## Claim
-The path from time-based pricing to value-based pricing is not a new pricing template — it is a workflow shift. Before proposing any creative solution, the practitioner runs a diagnostic conversation that uncovers the client's business goals, success metrics, and the economic value at stake. Whoever asks the most questions controls the conversation; whoever serves first sells last.
+The path from time-based pricing to value-based pricing is not a new pricing template, it is a workflow shift. Before proposing any creative solution, the practitioner runs a diagnostic conversation that uncovers the client's business goals, success metrics, and the economic value at stake. Whoever asks the most questions controls the conversation; whoever serves first sells last.
 
 ## Mechanism
 Default creative pricing breaks because the practitioner identifies as a maker of artifacts (logos, websites, videos), so the client priced the artifact. Diagnostic conversation reframes the practitioner as a solver of business problems and the client begins to price the outcome. The four-step sequence: (1) what is the client trying to achieve, (2) what is the gap between current and desired state, (3) what is the economic value of closing the gap, (4) propose a price that is a fraction of value created.
@@ -41,7 +41,7 @@ Fails when:
 
 > "Whoever asks the most questions controls the conversation."
 
-— Chris Do (synthesized from operator's published work)
+· Chris Do (synthesized from operator's published work)
 
 ## Signals
 - First call has zero solution-talk; the practitioner only asks questions.
@@ -49,7 +49,7 @@ Fails when:
 - Pricing is a percentage of value created, not a multiple of hours.
 
 ## Counter-evidence
-For repeat work with established clients, diagnostic conversation each time becomes ritual — at that point fixed-fee retainer or productized pricing is faster and equally effective. Productized-services advocates (Brian Casel) argue the diagnostic is itself a constraint to remove.
+For repeat work with established clients, diagnostic conversation each time becomes ritual, at that point fixed-fee retainer or productized pricing is faster and equally effective. Productized-services advocates (Brian Casel) argue the diagnostic is itself a constraint to remove.
 
 ## Cross-references
 - (none in current corpus)

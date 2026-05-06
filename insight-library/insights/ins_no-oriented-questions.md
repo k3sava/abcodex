@@ -17,7 +17,7 @@ related: [ins_calibrated-questions-illusion-of-control]
 raw_ref: raw/expert-content/experts/chris-voss.md
 ---
 
-# Ask questions that earn a "No" — saying no makes people feel safe; being pushed for yes makes them defensive
+# Ask questions that earn a "No", saying no makes people feel safe; being pushed for yes makes them defensive
 
 ## Claim
 Sales conventional wisdom hunts for "yes." Voss inverts it: ask questions where "no" is the safe answer ("Is now a bad time to talk?", "Have you given up on this project?"). Hearing themselves say no puts the counterpart in control, lowers defenses, and produces more honest engagement than any "yes-oriented" script.
@@ -31,7 +31,7 @@ Holds when:
 - The relationship is early enough that "no" is informative, not a final death.
 
 Fails when:
-- Late-stage closing where the buyer has already said no to specific terms — additional "no"-seeking can feel like fishing.
+- Late-stage closing where the buyer has already said no to specific terms, additional "no"-seeking can feel like fishing.
 - Cultures where direct refusal is socially costly and softer scripts work better.
 
 ## Evidence
@@ -39,7 +39,7 @@ Fails when:
 
 > "No-Oriented Questions: 'Is now a bad time to talk?', 'Have you given up on this project?'"
 
-— Chris Voss (synthesized from operator's published work)
+· Chris Voss (synthesized from operator's published work)
 
 ## Signals
 - Outbound openers are reframed to earn no, not yes.
@@ -50,4 +50,4 @@ Fails when:
 Daniel Pink's *To Sell Is Human* argues for honest, value-led openers over technique-driven ones; some buyers detect the pattern and disengage. In high-trust referral selling, direct openers ("I'm following up on the intro from X") outperform technique.
 
 ## Cross-references
-- ins_calibrated-questions-illusion-of-control — same operator
+- ins_calibrated-questions-illusion-of-control, same operator

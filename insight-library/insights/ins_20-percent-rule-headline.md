@@ -17,7 +17,7 @@ related: []
 raw_ref: raw/expert-content/experts/cole-schafer.md
 ---
 
-# Spend 20% of total writing time on the headline alone — it carries 80% of the persuasive weight
+# Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight
 
 ## Claim
 Headlines deserve a dedicated session, not a final-step polish. If a page takes five hours to write, the headline gets a full hour. The headline carries 80% of the persuasive weight because most readers never get past it; treating it as a separate creative act (not a wrap-up task) is the highest-ROI craft move in copywriting.
@@ -39,7 +39,7 @@ Fails when:
 
 > "The headline carries 80% of the persuasive weight because most readers never get past it."
 
-— Cole Schafer / Honeycopy (synthesized from operator's published work)
+· Cole Schafer / Honeycopy (synthesized from operator's published work)
 
 ## Signals
 - Writers log a separate time block for headline iteration.
@@ -47,7 +47,7 @@ Fails when:
 - Briefs include a target archetype, not just a topic.
 
 ## Counter-evidence
-SEO-driven content increasingly has its title rewritten by the search engine (Cyrus Shepard found Google rewrites 61% of title tags) — past a point, headline craft is overridden by the platform. For owned-distribution channels (newsletter, ads), the rule holds.
+SEO-driven content increasingly has its title rewritten by the search engine (Cyrus Shepard found Google rewrites 61% of title tags), past a point, headline craft is overridden by the platform. For owned-distribution channels (newsletter, ads), the rule holds.
 
 ## Cross-references
 - (none in current corpus)

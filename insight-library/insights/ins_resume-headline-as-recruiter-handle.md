@@ -36,7 +36,7 @@ Fails when:
 ## Evidence
 > "Without a clear title like 'Data Analyst' or 'Business Intelligence Specialist', you're just another generic profile. Fix: Add a headline below your name."
 
-— Roshni Chellani, LinkedIn, 2026-04-10 (scrape date)
+· Roshni Chellani, LinkedIn, 2026-04-10 (scrape date)
 
 ## Signals
 - Resume A/B tests show callback rate lifts when headline is added.

@@ -17,13 +17,13 @@ related: []
 raw_ref: raw/expert-content/experts/doug-holt.md
 ---
 
-# Iconic brands compete for culture share, not market share — they soothe collective anxieties through identity myths
+# Iconic brands compete for culture share, not market share, they soothe collective anxieties through identity myths
 
 ## Claim
 The strongest brands are not built through distinctive benefits, brand personalities, or emotional connections. They succeed by forging deep connections with culture, creating identity myths that soothe collective anxieties arising from acute social change. The operational model: identify cultural orthodoxies (stale conventions in the category), detect ideological opportunities created by social shifts, craft a new cultural expression that taps subcultural source materials.
 
 ## Mechanism
-Conventional branding plays for share within an existing category — a preference battle. Cultural branding plays for *culture share*, attaching the brand to an emerging ideology that addresses tensions buyers actually feel. Patagonia, after every outdoor brand copied its subcultural aesthetic, found a new approach via cultural analysis (30% sales growth Y1). REI's #OptOutside repositioned the co-op around John Muir's public-land activism (30%+ growth in membership and revenue). The model reverses standard innovation: don't start with technology, start with cultural transformation.
+Conventional branding plays for share within an existing category, a preference battle. Cultural branding plays for *culture share*, attaching the brand to an emerging ideology that addresses tensions buyers actually feel. Patagonia, after every outdoor brand copied its subcultural aesthetic, found a new approach via cultural analysis (30% sales growth Y1). REI's #OptOutside repositioned the co-op around John Muir's public-land activism (30%+ growth in membership and revenue). The model reverses standard innovation: don't start with technology, start with cultural transformation.
 
 ## Conditions
 Holds when:
@@ -39,7 +39,7 @@ Fails when:
 
 > "His strategy repositioned the co-op around John Muir's vision of public land activism, leading to the award-winning #OptOutside campaign and 30%+ growth in membership and revenue."
 
-— Doug Holt, *How Brands Become Icons* / *Cultural Strategy* (synthesized from operator's published work)
+· Doug Holt, *How Brands Become Icons* / *Cultural Strategy* (synthesized from operator's published work)
 
 ## Signals
 - Brand strategy doc names the cultural orthodoxy being challenged and the emerging ideology being championed.
@@ -47,7 +47,7 @@ Fails when:
 - Brand can credibly speak to subcultural source material without appropriation.
 
 ## Counter-evidence
-For B2B SaaS, cultural branding rarely applies — buyers are evaluating utility under procurement constraints. Even consumer brands like Quip, Casper, and Allbirds reached scale on functional + design positioning without cultural-myth depth.
+For B2B SaaS, cultural branding rarely applies, buyers are evaluating utility under procurement constraints. Even consumer brands like Quip, Casper, and Allbirds reached scale on functional + design positioning without cultural-myth depth.
 
 ## Cross-references
 - (none in current corpus)

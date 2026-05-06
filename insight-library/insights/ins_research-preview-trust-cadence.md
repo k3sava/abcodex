@@ -32,12 +32,12 @@ Holds when:
 
 Fails when:
 - The audience expects production stability (e.g., enterprise compliance, regulated industries).
-- "Research preview" becomes a permanent label dodging accountability — at some point the work has to graduate.
+- "Research preview" becomes a permanent label dodging accountability, at some point the work has to graduate.
 
 ## Evidence
 > "We try to ship most features in research preview within a week. The way you lose trust around quality is by releasing something early and then nothing happens after."
 
-— Cat Wu on Lenny's Podcast, 2026-04-27
+· Cat Wu on Lenny's Podcast, 2026-04-27
 
 Cat's team timelines collapsed from 6 months to 1 month to 1 week to 1 day. Engineers post in an "evergreen launch room" the moment a feature is dog-fooded; Sarah (Docs), Alex (PMM), and DevRel turn around the marketing announcement the next day.
 
@@ -50,5 +50,5 @@ Cat's team timelines collapsed from 6 months to 1 month to 1 week to 1 day. Engi
 Jenny Wen (Anthropic Design): non-deterministic AI products *cannot* be mocked, so research-preview is the only honest mode. For deterministic products with stable APIs, traditional GA discipline still wins because users expect contracts, not iterations. The pattern transfers most cleanly to AI-native and consumer-discovery products and least cleanly to platform / API surfaces with SLAs.
 
 ## Cross-references
-- `ins_prds-replaced-by-metrics-and-principles` — the doc-light culture this cadence assumes
-- `ins_engineers-with-product-taste` — the staffing pattern that makes weekly preview shipping feasible
+- `ins_prds-replaced-by-metrics-and-principles`, the doc-light culture this cadence assumes
+- `ins_engineers-with-product-taste`, the staffing pattern that makes weekly preview shipping feasible
