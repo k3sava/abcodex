@@ -1670,7 +1670,7 @@ async function today(){
   const tocLinks = Array.from(document.querySelectorAll('.today-toc a'));
   const releaseEls = Array.from(document.querySelectorAll('article.release'));
   const setTocActive = () => {
-    const headerOffset = 60 + 32 + 20; // hdr + hello bar + small breathing room
+    const headerOffset = 60 + 20; // hdr + small breathing room
     let active = releaseEls[0]?.id;
     for (const el of releaseEls){
       if (el.getBoundingClientRect().top - 4 <= headerOffset) active = el.id;
@@ -1685,6 +1685,26 @@ async function today(){
     tocTick = true;
     requestAnimationFrame(() => { setTocActive(); tocTick = false; });
   }, { passive: true });
+
+  // Intercept clicks on TOC links and on each card's permalink "#" anchor.
+  // The SPA's hashchange listener treats any unknown hash like "#r-2026-05-04"
+  // as a route (→ falls through to `about`). Smooth-scroll instead and use
+  // replaceState to keep the URL consistent without re-rendering.
+  const handleAnchorClick = (e, link) => {
+    const href = link.getAttribute('href') || '';
+    if (!href.startsWith('#r-')) return;
+    e.preventDefault();
+    const id = href.slice(1);
+    const el = document.getElementById(id);
+    if (!el) return;
+    const top = el.getBoundingClientRect().top + window.scrollY - 80;
+    window.scrollTo({ top, behavior: 'smooth' });
+    history.replaceState(null, '', '#/today#' + id);
+    setTocActive();
+  };
+  document.querySelectorAll('.today-toc a, .release-anchor').forEach(link => {
+    link.addEventListener('click', e => handleAnchorClick(e, link));
+  });
 }
 
 function render(){
