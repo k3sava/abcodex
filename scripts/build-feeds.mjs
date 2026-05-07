@@ -223,7 +223,44 @@ Sitemap: ${SITE_URL}/sitemap.xml
   await mkdir(join(DOCS, ".well-known", "agent-skills"), { recursive: true });
   const agentSkills = {
     "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
-    skills: []
+    skills: [
+      {
+        name: "search-insights",
+        type: "skill-md",
+        description: "Search the operator insight corpus by claim, mechanism, or tier across all 788 insights.",
+        url: `${SITE_URL}/search-index.json`
+      },
+      {
+        name: "browse-by-operator",
+        type: "skill-md",
+        description: "Browse 461 named operators with their attributed claims, sources, and convergence patterns.",
+        url: `${SITE_URL}/operators/`
+      },
+      {
+        name: "browse-by-domain",
+        type: "skill-md",
+        description: "Cross-domain index across product, PMM, GTM, AI-native, design, engineering, growth, and founder craft.",
+        url: `${SITE_URL}/insight-library/INDEX.json`
+      },
+      {
+        name: "synthesis-patterns",
+        type: "skill-md",
+        description: "39 synthesis patterns where 3 or more operators converge on the same claim.",
+        url: `${SITE_URL}/patterns/`
+      },
+      {
+        name: "methodology-playbooks",
+        type: "skill-md",
+        description: "27 step-by-step playbooks with HowTo schema, sourced from operator practice.",
+        url: `${SITE_URL}/playbooks/`
+      },
+      {
+        name: "release-log",
+        type: "skill-md",
+        description: "Daily release log; what was added today and over the last 30 days.",
+        url: `${SITE_URL}/insight-library/latest.json`
+      }
+    ]
   };
   await writeFile(join(DOCS, ".well-known", "agent-skills", "index.json"), JSON.stringify(agentSkills, null, 2));
 
