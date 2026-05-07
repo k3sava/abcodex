@@ -212,6 +212,9 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <meta name="twitter:description" content="${desc}">
 <meta name="twitter:image" content="${escapeAttr(og)}">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="${SITE_URL}/rss.xml">
+<link rel="service-doc" href="${SITE_URL}/llms.txt">
+<link rel="api-catalog" href="${SITE_URL}/.well-known/api-catalog">
+<link rel="describedby" href="${SITE_URL}/.well-known/agent-permissions.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
