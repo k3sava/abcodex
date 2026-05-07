@@ -919,13 +919,17 @@ body.graph-fs #hdr,body.graph-fs footer,body.graph-fs .ghead{display:none}
 /* About page — same width container as every other page; prose inside the
    container is capped at 65ch for comfortable reading. Headers + crumbs
    span the full container so the visual rhythm matches the rest of the site. */
+/* About page: section spans the page width per the global max-width rule,
+   but body text is held to 65ch for readability AND centered so wide
+   viewports don't squeeze content into the left half. */
 .about-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
+.about-page > *{max-width:72ch;margin-left:auto;margin-right:auto}
 .about-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
 .about-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,4rem);line-height:1;letter-spacing:-.025em;margin-bottom:18px}
-.about-page h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,2.4vw,1.85rem);letter-spacing:-.015em;margin:48px 0 14px;line-height:1.2;max-width:65ch}
-.about-page .lede{font-family:var(--serif);font-size:clamp(1.1rem,1.5vw,1.3rem);line-height:1.5;color:var(--ink-2);margin-bottom:40px;max-width:65ch}
-.about-page p{font-family:var(--serif);font-size:1.05rem;line-height:1.65;color:var(--ink-2);margin-bottom:16px;max-width:65ch}
-.about-page ul{font-family:var(--serif);font-size:1.02rem;color:var(--ink-2);padding-left:22px;margin-bottom:18px;line-height:1.65;max-width:65ch}
+.about-page h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,2.4vw,1.85rem);letter-spacing:-.015em;margin:48px auto 14px;line-height:1.2}
+.about-page .lede{font-family:var(--serif);font-size:clamp(1.1rem,1.5vw,1.3rem);line-height:1.5;color:var(--ink-2);margin-bottom:40px}
+.about-page p{font-family:var(--serif);font-size:1.05rem;line-height:1.65;color:var(--ink-2);margin-bottom:16px}
+.about-page ul{font-family:var(--serif);font-size:1.02rem;color:var(--ink-2);padding-left:22px;margin-bottom:18px;line-height:1.65}
 .about-page li{margin-bottom:6px}
 .about-page a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;transition:color .15s,border-color .15s}
 .about-page a:hover{color:var(--accent-2);border-bottom-color:currentColor}
