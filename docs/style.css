@@ -495,10 +495,10 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 /* ===== HERO ===== */
 .hero{max-width:var(--maxw);margin:0 auto;padding:14vh var(--gut) 12vh;position:relative}
 .hero .eyebrow{font-family:var(--mono);font-size:.75rem;color:var(--muted);text-transform:lowercase;letter-spacing:.04em;margin-bottom:32px}
-.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.4rem,7vw,6.4rem);line-height:1;letter-spacing:-.025em;margin-bottom:32px;max-width:14ch}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.4rem,7vw,6.4rem);line-height:1;letter-spacing:-.025em;margin-bottom:32px}
 .hero h1 .word{display:inline-block;will-change:transform,opacity}
 .hero h1 em{font-style:italic;color:var(--accent);font-weight:400}
-.hero .lede{max-width:60ch;font-size:clamp(1rem,1.4vw,1.2rem);line-height:1.55;color:var(--ink-2)}
+.hero .lede{font-size:clamp(1rem,1.4vw,1.2rem);line-height:1.55;color:var(--ink-2)}
 .hero .stats{margin-top:64px;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;border-top:1px solid var(--line);padding-top:32px}
 .hero .stats .stat{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:inherit;transition:transform .18s var(--ease)}
 .hero .stats .num{font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.4rem);font-weight:400;line-height:1;color:var(--ink);transition:color .18s var(--ease)}
@@ -540,7 +540,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .section{max-width:var(--maxw);margin:0 auto;padding:80px var(--gut)}
 .section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:40px;gap:24px;flex-wrap:wrap}
 .section-head h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.6rem,3vw,2.4rem);letter-spacing:-.015em;line-height:1.05}
-.section-head p{color:var(--muted);max-width:68ch;font-size:.95rem}
+.section-head p{color:var(--muted);font-size:.95rem}
 .section-head .meta{font-family:var(--mono);font-size:.75rem;color:var(--muted)}
 .section-head .meta a{color:var(--accent-2);border-bottom:1px solid currentColor}
 
@@ -601,7 +601,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .today-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
 .today-head{margin-bottom:48px;border-bottom:1px solid var(--line);padding-bottom:32px}
 .today-head h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,4vw,3.2rem);letter-spacing:-.02em;margin-bottom:16px}
-.today-head .lede{font-family:var(--mono);font-size:.82rem;color:var(--muted);max-width:72ch;line-height:1.6}
+.today-head .lede{font-family:var(--mono);font-size:.82rem;color:var(--muted);line-height:1.6}
 .today-grid{display:grid;grid-template-columns:220px 1fr;gap:64px;align-items:start}
 .today-toc{position:sticky;top:calc(var(--hdr-h) + 24px);max-height:calc(100vh - var(--hdr-h) - 48px);overflow-y:auto;padding-right:8px}
 .today-toc .toc-h{font-family:var(--mono);font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:14px;font-weight:500}
@@ -680,7 +680,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .release-body h2{font-size:1.2rem;padding-top:8px;border-top:1px solid var(--line-2)}
 .release-body h2:first-child{border-top:0;padding-top:0;margin-top:0}
 .release-body h3{font-size:1.05rem}
-.release-body p{margin:.7em 0;max-width:72ch}
+.release-body p{margin:.7em 0}
 .release-body ul{margin:.6em 0 1em 1.4em;display:flex;flex-direction:column;gap:.4em}
 .release-body li{padding-left:.2em}
 .release-body a{color:var(--ink);border-bottom:1px solid var(--line);transition:color .2s,border-color .2s}
@@ -715,11 +715,11 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .insight-page .body{font-family:var(--serif);font-size:clamp(1rem,1.2vw,1.125rem);line-height:1.65;color:var(--ink-2)}
 .insight-page .body h1{display:none}
 .insight-page .body h2{font-family:var(--sans);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:48px 0 14px;max-width:none}
-.insight-page .body h3{font-family:var(--serif);font-size:1.2rem;font-weight:500;margin:24px 0 8px;max-width:65ch}
-.insight-page .body p{margin-bottom:16px;max-width:65ch}
-.insight-page .body ul,.insight-page .body ol{padding-left:20px;margin-bottom:16px;max-width:65ch}
+.insight-page .body h3{font-family:var(--serif);font-size:1.2rem;font-weight:500;margin:24px 0 8px}
+.insight-page .body p{margin-bottom:16px}
+.insight-page .body ul,.insight-page .body ol{padding-left:20px;margin-bottom:16px}
 .insight-page .body li{margin-bottom:6px}
-.insight-page .body blockquote{border-left:3px solid var(--accent);padding-left:22px;margin:24px 0;color:var(--ink);font-style:normal;font-size:1.1em;font-weight:500;line-height:1.45;max-width:60ch;letter-spacing:-.005em}
+.insight-page .body blockquote{border-left:3px solid var(--accent);padding-left:22px;margin:24px 0;color:var(--ink);font-style:normal;font-size:1.1em;font-weight:500;line-height:1.45;letter-spacing:-.005em}
 .insight-page .body code{background:var(--paper-2);padding:2px 5px;border-radius:3px;font-size:.9em}
 .insight-page .body pre{background:var(--paper-2);padding:16px;border-radius:8px;overflow:auto;margin-bottom:16px}
 .insight-page .body a{color:var(--accent-2);border-bottom:1px solid color-mix(in oklab,var(--accent-2) 50%,transparent)}
@@ -796,7 +796,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .operator-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,4rem);line-height:1;letter-spacing:-.025em;margin-bottom:18px}
 .operator-page .roles{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:32px}
 .operator-page .roles .chip{font-family:var(--sans);text-transform:none;cursor:default}
-.operator-page .body{font-family:var(--serif);font-size:1.05rem;line-height:1.6;color:var(--ink-2);max-width:62ch;margin-bottom:64px}
+.operator-page .body{font-family:var(--serif);font-size:1.05rem;line-height:1.6;color:var(--ink-2);margin-bottom:64px}
 .operator-page .body h1{display:none} /* hide markdown body H1 to avoid duplicate name */
 .operator-page .body h2{font-family:var(--sans);font-size:.7rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:32px 0 12px}
 .operator-page .body ul{padding-left:20px;margin-bottom:14px}
@@ -807,7 +807,7 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .list-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
 .list-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
 .list-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,4rem);line-height:1;letter-spacing:-.025em;margin-bottom:14px}
-.list-page .lede{color:var(--muted);margin-bottom:32px;font-size:1.05rem;max-width:60ch}
+.list-page .lede{color:var(--muted);margin-bottom:32px;font-size:1.05rem}
 
 /* ===== OPERATORS GRID ===== */
 .op-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
@@ -846,14 +846,14 @@ main{padding-top:var(--hdr-h);min-height:100vh}
 .contradictions-section .head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px}
 .contradictions-section h2{font-family:var(--serif);font-weight:400;font-size:1.6rem;letter-spacing:-.015em}
 .contradictions-section .ct{font-family:var(--mono);font-size:.75rem;color:var(--accent-2);text-transform:uppercase;letter-spacing:.06em}
-.contradictions-section p.lede{color:var(--ink-2);margin-bottom:24px;max-width:60ch;font-size:.95rem}
+.contradictions-section p.lede{color:var(--ink-2);margin-bottom:24px;font-size:.95rem}
 .contradictions-section .card{background:color-mix(in oklab,var(--paper) 96%,white)}
 
 /* ===== MAP (interactive force graph) ===== */
 .graph-page{position:relative;display:flex;flex-direction:column}
 .graph-page .ghead{max-width:var(--maxw);margin:0 auto;padding:24px var(--gut) 12px;width:100%}
 .graph-page .ghead h1{font-family:var(--serif);font-weight:400;font-size:clamp(1.4rem,2.4vw,2rem);letter-spacing:-.02em;margin-bottom:4px}
-.graph-page .ghead p{color:var(--muted);max-width:60ch;font-size:.88rem}
+.graph-page .ghead p{color:var(--muted);font-size:.88rem}
 .graphWrap{position:relative;margin:0 auto 24px;width:100%;max-width:var(--maxw);padding:0 var(--gut);height:min(calc(100vh - var(--hdr-h) - 220px), 56.25vw);min-height:420px;display:block}
 #graph{width:100%;height:100%;background:var(--paper-2);border-radius:14px;cursor:grab;touch-action:none}
 #graph:active{cursor:grabbing}
@@ -919,14 +919,14 @@ body.graph-fs #hdr,body.graph-fs footer,body.graph-fs .ghead{display:none}
 /* About page — same width container as every other page; prose inside the
    container is capped at 65ch for comfortable reading. Headers + crumbs
    span the full container so the visual rhythm matches the rest of the site. */
-/* About page: section spans the page width per the global max-width rule,
-   but body text is held to 65ch for readability AND centered so wide
-   viewports don't squeeze content into the left half. */
-.about-page{max-width:var(--maxw);margin:0 auto;padding:48px var(--gut) 120px}
-.about-page > *{max-width:72ch;margin-left:auto;margin-right:auto}
+/* About page: tighter container than the global 80vw rule. Prose pages
+   need a single readable column; data-dense pages (browse, operators,
+   patterns) keep the wider 80vw container. Using rem (not ch) so the
+   column stays the same physical width regardless of element font size. */
+.about-page{max-width:min(60rem, 92vw);margin:0 auto;padding:48px var(--gut) 120px}
 .about-page .crumbs{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-bottom:24px}
 .about-page h1{font-family:var(--serif);font-weight:400;font-size:clamp(2rem,5vw,4rem);line-height:1;letter-spacing:-.025em;margin-bottom:18px}
-.about-page h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,2.4vw,1.85rem);letter-spacing:-.015em;margin:48px auto 14px;line-height:1.2}
+.about-page h2{font-family:var(--serif);font-weight:400;font-size:clamp(1.3rem,2.4vw,1.85rem);letter-spacing:-.015em;margin:48px 0 14px;line-height:1.2}
 .about-page .lede{font-family:var(--serif);font-size:clamp(1.1rem,1.5vw,1.3rem);line-height:1.5;color:var(--ink-2);margin-bottom:40px}
 .about-page p{font-family:var(--serif);font-size:1.05rem;line-height:1.65;color:var(--ink-2);margin-bottom:16px}
 .about-page ul{font-family:var(--serif);font-size:1.02rem;color:var(--ink-2);padding-left:22px;margin-bottom:18px;line-height:1.65}
@@ -973,8 +973,8 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .playbook-content h2{font-family:var(--serif);font-weight:500;font-size:1.6rem;margin-top:32px;margin-bottom:14px;letter-spacing:-.01em;color:var(--ink)}
 .playbook-content h3{font-family:var(--serif);font-weight:500;font-size:1.2rem;margin-top:24px;margin-bottom:10px;color:var(--ink)}
 .playbook-content h4{font-family:var(--mono);font-weight:500;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-top:20px;margin-bottom:8px;color:var(--muted)}
-.playbook-content p{margin-bottom:14px;max-width:74ch}
-.playbook-content ul,.playbook-content ol{margin:8px 0 18px 24px;max-width:74ch}
+.playbook-content p{margin-bottom:14px}
+.playbook-content ul,.playbook-content ol{margin:8px 0 18px 24px}
 .playbook-content li{margin-bottom:8px}
 .playbook-content code{font-family:var(--mono);font-size:.86em;background:var(--paper-2);padding:1px 6px;border-radius:4px;color:var(--ink-2)}
 .playbook-content pre{background:var(--paper-2);padding:16px;border-radius:10px;overflow-x:auto;font-size:.85rem;margin:12px 0 18px}
@@ -1061,7 +1061,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .pat-radial-label{font-family:'JetBrains Mono','SF Mono',ui-monospace,monospace;font-size:11px;fill:var(--ink-2);transition:fill .15s}
 .pat-radial-op:hover .pat-radial-label{fill:var(--accent);font-weight:500}
 .pat-layout{display:grid;grid-template-columns:1fr 320px;gap:48px;align-items:start;margin-top:24px}
-.pat-body{font-family:var(--serif);font-size:1.04rem;line-height:1.65;color:var(--ink);max-width:74ch}
+.pat-body{font-family:var(--serif);font-size:1.04rem;line-height:1.65;color:var(--ink)}
 .pat-body h2{font-family:var(--serif);font-weight:500;font-size:1.4rem;margin-top:28px;margin-bottom:12px;letter-spacing:-.01em}
 .pat-body h3{font-family:var(--serif);font-weight:500;font-size:1.15rem;margin-top:20px;margin-bottom:8px}
 .pat-body p{margin-bottom:14px}
@@ -1400,7 +1400,7 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .con-vs span{font-family:var(--serif);font-style:italic;font-size:2rem;color:var(--accent);background:var(--paper);padding:14px 18px;border-radius:50%;border:1px solid var(--line)}
 .con-section{margin-top:36px}
 .con-section h3{font-family:var(--mono);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:14px}
-.con-prose{font-family:var(--serif);font-size:1rem;line-height:1.6;color:var(--ink);max-width:74ch}
+.con-prose{font-family:var(--serif);font-size:1rem;line-height:1.6;color:var(--ink)}
 .con-prose p{margin-bottom:14px}
 .con-prose ul{margin:8px 0 14px 20px}
 .con-prose li{margin-bottom:6px}

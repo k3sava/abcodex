@@ -94,4 +94,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-05-06.
+Last updated: 2026-05-07.

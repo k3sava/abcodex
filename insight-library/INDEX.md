@@ -1,6 +1,6 @@
 # Codex Index
 
-_Generated 2026-05-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 779 insight cards
