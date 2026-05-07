@@ -46,8 +46,13 @@ words. If it doesn't trace, write "unverified" and stop.
 
 * Max content width `min(1600px, 80vw)`. Every page obeys, About page
   included.
+* Body text fills the section container. Do NOT cap paragraphs at
+  60ch / 65ch / 72ch on data-dense pages — that wraps text at ~520px
+  inside a 1500px section and looks visually broken on wide viewports.
+  Prose-only pages (about) use a single column container (e.g. 60rem)
+  but never per-element `ch` caps because `ch` is font-size relative
+  and produces inconsistent widths across h1/h2/p.
 * Typography: Newsreader serif body, Inter UI, JetBrains Mono labels.
-  Body lines 65ch max.
 * Tier badge: pill with leading color dot (A green, B slate, C sand).
   Same component on every page.
 * Animations under 280ms. Honor `prefers-reduced-motion: reduce` by
