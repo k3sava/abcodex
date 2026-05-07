@@ -285,7 +285,7 @@ async function main(){
       `title: ${JSON.stringify(result.release.title)}`,
       `summary: ${result.release.summary.includes(":") || result.release.summary.includes('"') ? JSON.stringify(result.release.summary) : result.release.summary}`,
       `sources:`,
-      `  - "miniu morning brief ${TARGET_DATE}"`,
+      `  - "morning research scan ${TARGET_DATE}"`,
       `insights_added:`,
       ...validInsightIds.map(id => `  - ${id}`),
       `operators_added:`,
