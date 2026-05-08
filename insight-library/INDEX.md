@@ -3,7 +3,7 @@
 _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 798 insight cards
+- 809 insight cards
 - 461 operator profiles
 - 209 raw source files
 - 39 synthesis patterns
@@ -339,7 +339,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (401)
+### Tier B (412)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -392,6 +392,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_balsamiq-longevity-over-hypergrowth-since-2008`](insights/ins_balsamiq-longevity-over-hypergrowth-since-2008.md) — Balsamiq codified "longevity over hypergrowth" as an operating principle since 2008 _(Giacomo Guilizzoni)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_battlecard-abc-and-distribution`](insights/ins_battlecard-abc-and-distribution.md) — Battlecard adoption fails on distribution, not content quality, embed in the workflow or the card dies _(Crayon)_
 - [`ins_been-quietly-building-something-big`](insights/ins_been-quietly-building-something-big.md) — Solve a problem you faced, not one you imagine, when pivoting _(Akash Anand)_
@@ -419,6 +420,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
+- [`ins_cliniko-renovation-loan-instead-of-vc`](insights/ins_cliniko-renovation-loan-instead-of-vc.md) — Cliniko was funded by a $100k home-renovation loan instead of venture capital _(Joel Friedlaender)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
 - [`ins_commoditize-the-complement-ai`](insights/ins_commoditize-the-complement-ai.md) — AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly _(Tomasz Tunguz)_
@@ -453,6 +455,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_design-as-bottleneck`](insights/ins_design-as-bottleneck.md) — Make design an explicit ship-blocking bottleneck _(Evan Spiegel)_
 - [`ins_different-is-better-than-better`](insights/ins_different-is-better-than-better.md) — Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring _(Sally Hogshead)_
 - [`ins_dileep-krishna-automation-maintenance-bottleneck`](insights/ins_dileep-krishna-automation-maintenance-bottleneck.md) — Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing. _(Dileep Krishna)_
+- [`ins_discourse-open-source-from-day-one`](insights/ins_discourse-open-source-from-day-one.md) — Discourse shipped open-source from day one in 2013 and now powers 22,000+ communities including OpenAI and Mozilla _(Jeff Atwood)_
 - [`ins_doist-no-exit-strategy-async-since-2007`](insights/ins_doist-no-exit-strategy-async-since-2007.md) — Doist rejected an exit strategy in 2009 and has been async-and-remote-first since founding _(Amir Salihefendić)_
 - [`ins_don-care-how-awesome-prompting`](insights/ins_don-care-how-awesome-prompting.md) — I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice _(Stefan Gladbach)_
 - [`ins_don-ignore-stuck-feeling-pointing`](insights/ins_don-ignore-stuck-feeling-pointing.md) — 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet _(Lola Han)_
@@ -476,11 +479,13 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
 - [`ins_explore-and-exploit-channels`](insights/ins_explore-and-exploit-channels.md) — Content is a compounding asset, quality bar is binary: genuinely new OR measurably better _(Steph Smith)_
 - [`ins_fact-can-have-running-free`](insights/ins_fact-can-have-running-free.md) — The fact that you can have this running for free in 20 minutes, while last year you wou _(Pietro Montaldo)_
+- [`ins_fastmail-independent-email-since-1999`](insights/ins_fastmail-independent-email-since-1999.md) — Fastmail has been the leading independent email service since 1999, subscriber-funded with founder still in operating role _(Rob Mueller)_
 - [`ins_fear-setting`](insights/ins_fear-setting.md) — What we fear doing most is usually what we most need to do, fear-set, don't goal-set _(Tim Ferriss)_
 - [`ins_felix-lee-designer-founders-rfs`](insights/ins_felix-lee-designer-founders-rfs.md) — YC's RFS for designer founders signals a shift in startup building _(Felix Lee)_
 - [`ins_financial-services-track-scaling-fast`](insights/ins_financial-services-track-scaling-fast.md) — 💸 The Financial Services track is scaling fast, introducing new features like Business _(Jesse Bellaiche)_
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
+- [`ins_flex-ai-native-agents-for-finance-back-office`](insights/ins_flex-ai-native-agents-for-finance-back-office.md) — Flex ships AI-native agents for AP, expense, and cash-flow loops as the financial back-office for business owners _(Zaid Rahman)_
 - [`ins_float-bootstrapped-distributed-bcorp`](insights/ins_float-bootstrapped-distributed-bcorp.md) — Float bootstrapped to 4,500+ customers as a globally distributed B Corp without venture capital _(Glenn Rogers)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
@@ -489,6 +494,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_g2-ai-reshaping-marketing-playbook`](insights/ins_g2-ai-reshaping-marketing-playbook.md) — AI search is now a software marketplace, demand gen must adapt or vanish _(G2)_
 - [`ins_gary-yin-first-pmm-hiring-philosophy`](insights/ins_gary-yin-first-pmm-hiring-philosophy.md) — First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer _(Gary Yin)_
 - [`ins_gaurav-sharma-vibe-marketer-ai-first`](insights/ins_gaurav-sharma-vibe-marketer-ai-first.md) — Most B2B marketing is stuck in 2010; hire a vibe marketer to build an AI-first, almost-autonomous marketing engine. _(Gaurav Sharma)_
+- [`ins_ghost-non-profit-foundation-cannot-be-acquired`](insights/ins_ghost-non-profit-foundation-cannot-be-acquired.md) — Ghost is structured as a non-profit foundation that legally cannot be bought or sold _(John O'Nolan)_
 - [`ins_gideon-harris-hiring-for-bots`](insights/ins_gideon-harris-hiring-for-bots.md) — If the only way to be seen is to sound like a bot, what exactly are we hiring for? _(Gideon Harris)_
 - [`ins_giorgio-zanella-clay-beyond-lead-gen`](insights/ins_giorgio-zanella-clay-beyond-lead-gen.md) — Clay is not just for lead gen, it's a general-purpose automation platform for any data discovery task. _(Giorgio Zanella)_
 - [`ins_gordon-m-gtm-tactics-are-theory`](insights/ins_gordon-m-gtm-tactics-are-theory.md) — Go-to-market tactics for new features is a theory question; real launches depend on timeline, resources, and favors. _(Gordon M.)_
@@ -503,10 +509,12 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_handley-white-space-as-oxygen`](insights/ins_handley-white-space-as-oxygen.md) — White space is oxygen, dense unbroken text creates cognitive load; strategic white space lets the eye rest and the reader continue _(Ann Handley)_
 - [`ins_harland-ideas-need-to-simmer`](insights/ins_harland-ideas-need-to-simmer.md) — Ideas need to simmer, walking away from a draft and returning later is necessary for critical editing, not optional _(Dave Harland)_
 - [`ins_harshit-jain-developer-marketers-rare-breed`](insights/ins_harshit-jain-developer-marketers-rare-breed.md) — Technical PMM is the rare hire that lets you market to engineers, without translation loss _(Harshit Jain)_
+- [`ins_harvest-bootstrapped-time-tracking-since-2006`](insights/ins_harvest-bootstrapped-time-tracking-since-2006.md) — Harvest grew from agency revenue to 70,000+ customers and $64B+ invoiced, no outside capital across 18+ years _(Danny Wen)_
 - [`ins_has-never-felt-closer-real`](insights/ins_has-never-felt-closer-real.md) — AI has never felt closer to a real employee _(Dan Rosenthal)_
 - [`ins_hate-when-boss-asks-why`](insights/ins_hate-when-boss-asks-why.md) — - They hate when the boss asks why a tiny edit took seventeen minutes, but will take a _(Divyank Jain)_
 - [`ins_heer-chheda-self-advocacy-as-privilege`](insights/ins_heer-chheda-self-advocacy-as-privilege.md) — Self-advocacy at work is a privilege, not a universal right _(Heer Chheda)_
 - [`ins_help-coaches-founders-turn-linkedin`](insights/ins_help-coaches-founders-turn-linkedin.md) — I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st _(Ryan Woodley Mitchell)_
+- [`ins_help-scout-distributed-customer-centric-since-2011`](insights/ins_help-scout-distributed-customer-centric-since-2011.md) — Help Scout has run fully remote since 2011 and serves 12,000+ teams over 950 million customer conversations _(Nick Francis)_
 - [`ins_here-five-things-never-get`](insights/ins_here-five-things-never-get.md) — Here are five things that you'll never get a CEO, CMO, CRO, and product marketer to agr _(Diana Polansky)_
 - [`ins_here-how-marketing-should-think`](insights/ins_here-how-marketing-should-think.md) — In 2026, GTM bets are made by leaders who own a team, a budget, and a number _(Roxana Irimia)_
 - [`ins_here-top-deployed-workflows-https`](insights/ins_here-top-deployed-workflows-https.md) — Here are my top 3 deployed workflows: https://resources.leadgenman.com/lindyai _(Manthan Patel)_
@@ -705,6 +713,7 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_three-class-agent-taxonomy`](insights/ins_three-class-agent-taxonomy.md) — Agents come in three classes, tag each loop or under-resource it _(Hamza Farooq)_
 - [`ins_three-levels-financial-success`](insights/ins_three-levels-financial-success.md) — Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur _(Blair Enns)_
 - [`ins_three-months-senior-pmm-tech`](insights/ins_three-months-senior-pmm-tech.md) — Three months in as a Senior PMM in tech. Here are some of my reflections especially for _(Hira Saeed)_
+- [`ins_toggl-estonian-bootstrap-since-2006`](insights/ins_toggl-estonian-bootstrap-since-2006.md) — Toggl bootstrapped from Tallinn to $32M revenue and 146 fully remote employees with $0 in venture capital _(Alari Aho)_
 - [`ins_training-targets-decision-friction`](insights/ins_training-targets-decision-friction.md) — Training works when it targets the exact decision friction blocking deals _(Rohit Shah)_
 - [`ins_translate-pmm-activities-to-exec-speak`](insights/ins_translate-pmm-activities-to-exec-speak.md) — PMMs lose influence when they report activities; translate every activity into a business outcome _(Yi Lin Pei)_
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
@@ -732,7 +741,9 @@ _Generated 2026-05-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-generic-hits-ceiling-here`](insights/ins_why-generic-hits-ceiling-here.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Collin Mayjack)_
 - [`ins_why-generic-hits-ceiling-here-gorish`](insights/ins_why-generic-hits-ceiling-here-gorish.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Gorish Aggarwal)_
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
+- [`ins_wildbit-multi-product-calm-shop`](insights/ins_wildbit-multi-product-calm-shop.md) — Wildbit shipped four bootstrapped products from one calm-company team across 15+ years _(Natalie Nagele)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
+- [`ins_wistia-debt-buyout-investors-2017`](insights/ins_wistia-debt-buyout-investors-2017.md) — Wistia raised $17.3M in debt to buy out their investors and stay independent _(Chris Savage)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
 - [`ins_y-combinator-ai-form-fill-autonomy`](insights/ins_y-combinator-ai-form-fill-autonomy.md) — Autonomous AI agents for niche B2B workflows can save double-digit hours weekly _(Y Combinator)_

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T05:28:55.915Z",
+  "generated_at": "2026-05-08T05:44:50.607Z",
   "counts": {
-    "insights": 792,
+    "insights": 803,
     "operators": 460,
     "raw_sources": 209,
     "patterns": 39,
@@ -2517,6 +2517,38 @@
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
     },
     {
+      "path": "insights/ins_balsamiq-longevity-over-hypergrowth-since-2008.md",
+      "id": "ins_balsamiq-longevity-over-hypergrowth-since-2008",
+      "operator": "Giacomo Guilizzoni",
+      "operator_role": "Founder, Balsamiq",
+      "source_url": "https://balsamiq.com/company/",
+      "source_type": "essay",
+      "source_title": "Company — Balsamiq",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Balsamiq codified \"longevity over hypergrowth\" as an operating principle since 2008"
+    },
+    {
       "path": "insights/ins_battle-cards-as-workflow-primitive.md",
       "id": "ins_battle-cards-as-workflow-primitive",
       "operator": "Gartner",
@@ -3670,6 +3702,38 @@
       ],
       "raw_ref": "raw/essays/maja-voje--claude-gtm-pulse--2026-04.md",
       "title": "AI tools combine with CRMs through orchestration; they do not replace them"
+    },
+    {
+      "path": "insights/ins_cliniko-renovation-loan-instead-of-vc.md",
+      "id": "ins_cliniko-renovation-loan-instead-of-vc",
+      "operator": "Joel Friedlaender",
+      "operator_role": "Founder, Cliniko (Red Guava)",
+      "source_url": "https://www.intercom.com/blog/podcasts/cliniko-founder-joel-friedlaender-on-bringing-digital-transformation-to-healthcare/",
+      "source_type": "podcast",
+      "source_title": "Cliniko founder Joel Friedlaender on bringing digital transformation to healthcare",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_wistia-debt-buyout-investors-2017",
+        "ins_company-of-one-define-enough",
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Cliniko was funded by a $100k home-renovation loan instead of venture capital"
     },
     {
       "path": "insights/ins_coachability-beats-experience.md",
@@ -5159,6 +5223,41 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_discourse-open-source-from-day-one.md",
+      "id": "ins_discourse-open-source-from-day-one",
+      "operator": "Jeff Atwood",
+      "co_operators": [
+        "Robin Ward",
+        "Sam Saffron"
+      ],
+      "operator_role": "Co-founder, Discourse; previously co-founder, Stack Overflow",
+      "source_url": "https://www.discourse.org/about",
+      "source_type": "essay",
+      "source_title": "About — Discourse",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "product"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-non-profit-foundation-cannot-be-acquired",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Discourse shipped open-source from day one in 2013 and now powers 22,000+ communities including OpenAI and Mozilla"
+    },
+    {
       "path": "insights/ins_disha-thakkar-competitive-displacement-readiness-signals.md",
       "id": "ins_disha-thakkar-competitive-displacement-readiness-signals",
       "title": "True switching readiness requires five aligned signals, not just competitor usage.",
@@ -6375,6 +6474,41 @@
       "title": "The fact that you can have this running for free in 20 minutes, while last year you wou"
     },
     {
+      "path": "insights/ins_fastmail-independent-email-since-1999.md",
+      "id": "ins_fastmail-independent-email-since-1999",
+      "operator": "Rob Mueller",
+      "co_operators": [
+        "Bron Gondwana"
+      ],
+      "operator_role": "Founder and CTO, Fastmail (Bron Gondwana, CEO)",
+      "source_url": "https://www.fastmail.com/about/",
+      "source_type": "essay",
+      "source_title": "About — Fastmail",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_ghost-non-profit-foundation-cannot-be-acquired",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Fastmail has been the leading independent email service since 1999, subscriber-funded with founder still in operating role"
+    },
+    {
       "path": "insights/ins_fear-setting.md",
       "id": "ins_fear-setting",
       "operator": "Tim Ferriss",
@@ -6557,6 +6691,39 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "Five things CEO, CMO, CRO, and PMM will never agree on"
+    },
+    {
+      "path": "insights/ins_flex-ai-native-agents-for-finance-back-office.md",
+      "id": "ins_flex-ai-native-agents-for-finance-back-office",
+      "operator": "Zaid Rahman",
+      "operator_role": "Co-founder and CEO, Flex",
+      "source_url": "https://www.flex.one/resource-hub/flex-raises-60m-series-b",
+      "source_type": "research",
+      "source_title": "Flex Raises $60M Series B to Scale AI-Native Finance",
+      "source_date": "2025-12-04",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "ai-native",
+        "finance",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "product",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine",
+        "ins_kesava-mandiga-substrate-driven-intelligence",
+        "ins_rebuild-gtm-around-ai",
+        "ins_outcomes-pricing-restructures-saas"
+      ],
+      "raw_ref": "unknown",
+      "title": "Flex ships AI-native agents for AP, expense, and cash-flow loops as the financial back-office for business owners"
     },
     {
       "path": "insights/ins_float-bootstrapped-distributed-bcorp.md",
@@ -7176,6 +7343,41 @@
       ],
       "raw_ref": "raw/essays/kevin-indig--ghost-citation-problem--2026-04-26.md",
       "title": "Citation rate and mention rate are different metrics; comparative content closes the gap"
+    },
+    {
+      "path": "insights/ins_ghost-non-profit-foundation-cannot-be-acquired.md",
+      "id": "ins_ghost-non-profit-foundation-cannot-be-acquired",
+      "operator": "John O'Nolan",
+      "co_operators": [
+        "Hannah Wolfe"
+      ],
+      "operator_role": "CEO and co-founder, Ghost Foundation",
+      "source_url": "https://ghost.org/about/",
+      "source_type": "essay",
+      "source_title": "About — Ghost",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_wistia-debt-buyout-investors-2017",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Ghost is structured as a non-profit foundation that legally cannot be bought or sold"
     },
     {
       "path": "insights/ins_gideon-harris-hiring-for-bots.md",
@@ -8002,6 +8204,41 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_harvest-bootstrapped-time-tracking-since-2006.md",
+      "id": "ins_harvest-bootstrapped-time-tracking-since-2006",
+      "operator": "Danny Wen",
+      "co_operators": [
+        "Shawn Liu"
+      ],
+      "operator_role": "Co-founder, Harvest (Iridesco)",
+      "source_url": "https://www.getharvest.com/about",
+      "source_type": "essay",
+      "source_title": "About — Harvest",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "gtm"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_metalab-flow-design-agency-incubates-saas",
+        "ins_company-of-one-define-enough",
+        "ins_toggl-estonian-bootstrap-since-2006",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Harvest grew from agency revenue to 70,000+ customers and $64B+ invoiced, no outside capital across 18+ years"
+    },
+    {
       "path": "insights/ins_has-never-felt-closer-real.md",
       "id": "ins_has-never-felt-closer-real",
       "operator": "Dan Rosenthal",
@@ -8100,6 +8337,42 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st"
+    },
+    {
+      "path": "insights/ins_help-scout-distributed-customer-centric-since-2011.md",
+      "id": "ins_help-scout-distributed-customer-centric-since-2011",
+      "operator": "Nick Francis",
+      "co_operators": [
+        "Jared McDaniel",
+        "Denny Swindle"
+      ],
+      "operator_role": "CEO and co-founder, Help Scout",
+      "source_url": "https://www.helpscout.com/about/",
+      "source_type": "essay",
+      "source_title": "About — Help Scout",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "customer-success"
+      ],
+      "lifecycle": [
+        "hiring-team-design",
+        "ownership-org",
+        "customer-experience"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_zapier-fully-remote-since-day-one",
+        "ins_company-of-one-define-enough",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Help Scout has run fully remote since 2011 and serves 12,000+ teams over 950 million customer conversations"
     },
     {
       "path": "insights/ins_here-five-things-never-get.md",
@@ -20025,6 +20298,41 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_toggl-estonian-bootstrap-since-2006.md",
+      "id": "ins_toggl-estonian-bootstrap-since-2006",
+      "operator": "Alari Aho",
+      "co_operators": [
+        "Krister Haav"
+      ],
+      "operator_role": "CEO and co-founder, Toggl",
+      "source_url": "https://toggl.com/track/about/",
+      "source_type": "essay",
+      "source_title": "About — Toggl",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_harvest-bootstrapped-time-tracking-since-2006",
+        "ins_company-of-one-define-enough",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Toggl bootstrapped from Tallinn to $32M revenue and 146 fully remote employees with $0 in venture capital"
+    },
+    {
       "path": "insights/ins_top-performers-benefit-disproportionately.md",
       "id": "ins_top-performers-benefit-disproportionately",
       "operator": "Sherwin Wu",
@@ -21359,6 +21667,41 @@
       "title": "This is why, as a non-coder, getting applause from engineers is amazing to say the least"
     },
     {
+      "path": "insights/ins_wildbit-multi-product-calm-shop.md",
+      "id": "ins_wildbit-multi-product-calm-shop",
+      "operator": "Natalie Nagele",
+      "co_operators": [
+        "Chris Nagele"
+      ],
+      "operator_role": "CEO and co-founder, Wildbit",
+      "source_url": "https://wildbit.com",
+      "source_type": "essay",
+      "source_title": "Wildbit — A people-first business",
+      "source_date": "unknown",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_metalab-flow-design-agency-incubates-saas",
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Wildbit shipped four bootstrapped products from one calm-company team across 15+ years"
+    },
+    {
       "path": "insights/ins_willingness-to-pay-by-segment.md",
       "id": "ins_willingness-to-pay-by-segment",
       "operator": "Andrew Wilkinson",
@@ -21385,6 +21728,41 @@
       ],
       "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md",
       "title": "Same service, different segment, 5x price, the variable is buyer economics, not effort"
+    },
+    {
+      "path": "insights/ins_wistia-debt-buyout-investors-2017.md",
+      "id": "ins_wistia-debt-buyout-investors-2017",
+      "operator": "Chris Savage",
+      "co_operators": [
+        "Brendan Schwartz"
+      ],
+      "operator_role": "CEO and co-founder, Wistia",
+      "source_url": "https://wistia.com/learn/culture/taking-on-debt-to-grow-our-own-way",
+      "source_type": "essay",
+      "source_title": "How an Offer to Sell Wistia Inspired Us to Take On $17M in Debt",
+      "source_date": "2018-07-01",
+      "captured_date": "2026-05-08",
+      "domain": [
+        "founder-craft",
+        "leadership",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ownership-org"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_company-of-one-define-enough",
+        "ins_doist-no-exit-strategy-async-since-2007",
+        "ins_37signals-23-years-no-vc-basecamp",
+        "ins_kesava-mandiga-solo-operator-billion-dollar-doctrine"
+      ],
+      "raw_ref": "unknown",
+      "title": "Wistia raised $17.3M in debt to buy out their investors and stay independent"
     },
     {
       "path": "insights/ins_words-matter-most-innovative-features.md",
