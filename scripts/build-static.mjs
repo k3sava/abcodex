@@ -174,6 +174,47 @@ function markOperatorQuotes(html){
   // Blockquotes whose first paragraph starts with a quotation mark → operator attribution style
   return html.replace(/<blockquote>(\s*)<p>"/g, '<blockquote class="pb-operator-quote">$1<p>"');
 }
+function mergeQuoteAttributions(html){
+  // In pb-operator-quote blockquotes: merge the attribution <p> and the cross-ref <p>
+  // into one inline line: "— Speaker, Source · "Short title…"" (linked).
+  return html.replace(
+    /(<blockquote class="pb-operator-quote">)([\s\S]*?)(<\/blockquote>)/g,
+    (match, open, inner, close) => {
+      const pBlocks = [];
+      const pRe = /<p>[\s\S]*?<\/p>/g;
+      let pm;
+      while ((pm = pRe.exec(inner)) !== null) pBlocks.push(pm[0]);
+      if (pBlocks.length < 3) return match;
+      const lastP = pBlocks[pBlocks.length - 1];
+      const linkM = lastP.match(/<a class="inline-cross-ref" href="([^"]+)">([^<]+)<\/a>/);
+      if (!linkM) return match;
+      const href = linkM[1];
+      const words = linkM[2].trim().split(/\s+/);
+      const shortTitle = words.length > 4 ? words.slice(0, 4).join(" ") + "…" : linkM[2];
+      const attrP = pBlocks[pBlocks.length - 2];
+      const mergedAttrP = attrP
+        .replace(/^<p>/, '<p class="pb-quote-attr">')
+        .replace(/<\/p>$/, ` · <a class="inline-cross-ref" href="${href}">“${shortTitle}”<\/a><\/p>`);
+      return open + "\n" + pBlocks.slice(0, -2).join("\n") + (pBlocks.length > 2 ? "\n" : "") + mergedAttrP + "\n" + close;
+    }
+  );
+}
+function splitVisualHtml(html){
+  if (!html) return ["", ""];
+  const first = html.indexOf('<div class="pbv"');
+  if (first < 0) return ["", ""];
+  const second = html.indexOf('<div class="pbv"', first + 1);
+  if (second < 0) return [html.trim(), ""];
+  return [html.slice(0, second).trim(), html.slice(second).trim()];
+}
+function injectBeforeNthStep(html, insertion, n){
+  // Insert `insertion` immediately before the nth occurrence of <div class="pb-step">
+  let count = 0;
+  return html.replace(/<div class="pb-step">/g, m => {
+    count++;
+    return count === n ? insertion + m : m;
+  });
+}
 function escapeAttr(s){ return s.replace(/"/g, "&quot;"); }
 
 // Map a markdown-relative path inside body to its canonical SPA route, so links
@@ -251,7 +292,7 @@ function rewriteBodyLinks(html, INDEX){
   return html;
 }
 
-function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }){
+function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual, extraStyle }){
   const fullTitle = title ? `${escapeHtml(title)} · a builder's codex` : "a builder's codex";
   const desc = escapeHtml(description || "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.");
   const url = canonical;
@@ -323,16 +364,21 @@ main.static strong{color:var(--ink);font-weight:600}
 .md-table td{padding:9px 16px;border-bottom:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
 .md-table tbody tr:last-child td{border-bottom:none}
 .md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
+.md-table th:first-child,.md-table td:first-child{white-space:nowrap}
 .step-num-badge{font-family:JetBrains Mono,monospace;font-size:1.9rem;line-height:1;color:var(--accent);opacity:.5;font-weight:700;flex-shrink:0;min-width:2.6ch;letter-spacing:-.02em}
 .pb-step{padding:28px 0;margin:0;border-top:1px solid var(--line-2)}
 .pb-step:first-of-type{border-top:none;padding-top:0}
 .pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem}
 .pb-step>p:first-of-type{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:1.05rem;line-height:1.6;color:var(--ink);margin-top:0}
+main.static article>h2{margin-top:2.4em}
+main.static article>h2:first-child{margin-top:0}
 main.static article hr{border:none;text-align:center;margin:48px 0;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.85rem;letter-spacing:.3em}
 main.static article hr::after{content:"· · ·"}
 main.static blockquote.pb-operator-quote{border-left:none;padding:20px 24px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.8em 0}
 main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.1rem;font-style:italic;color:var(--ink);margin-bottom:10px;line-height:1.5}
-main.static blockquote.pb-operator-quote p:not(:first-child){font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote p:not(:first-child),main.static blockquote.pb-operator-quote .pb-quote-attr{font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref{font-size:inherit;color:var(--accent);font-family:inherit;border-bottom-color:transparent}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
 .pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
 .pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
@@ -344,6 +390,17 @@ main.static blockquote.pb-operator-quote p:not(:first-child){font-family:Newsrea
 .pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
 .pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
 .pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+h2#common-failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#common-failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.6}
+h2#common-failure-modes+ul li:first-child{border-top:none;padding-top:0}
+h2#common-failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--accent);text-transform:uppercase;letter-spacing:.05em;font-weight:600;display:inline-block;margin-right:.5em}
+h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+.pb-layout{display:block}
+.pb-article-col{display:block}
+.pb-sidebar{display:none}
 main.static code{font-family:JetBrains Mono,monospace;font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 6px;border-radius:3px}
 main.static pre{background:color-mix(in oklab,var(--ink) 4%,transparent);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:1em 0}
 main.static pre code{background:transparent;padding:0}
@@ -375,6 +432,7 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+${extraStyle || ""}
 </style>
 ${ld}
 </head>
@@ -434,8 +492,8 @@ async function main(){
   let count = 0;
 
   // Helper to write static HTML for a markdown file at canonical URL.
-  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }) => {
-    const html = shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual });
+  const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual, extraStyle }) => {
+    const html = shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual, extraStyle });
     await ensureDir(dirname(outPath));
     await writeFile(outPath, html);
     count++;
@@ -641,7 +699,7 @@ async function main(){
     const { body } = parseFrontmatter(text);
     const cleaned = body.replace(/^#\s+[^\n]+\n+/, "");
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
-    const processedBody = wrapStepContainers(markOperatorQuotes(renderedBody));
+    const processedBody = wrapStepContainers(mergeQuoteAttributions(markOperatorQuotes(renderedBody)));
     // Split intro paragraph(s) (before first H2) from the rest of the body
     const h2idx = processedBody.indexOf("<h2 ");
     const introHtml = h2idx > 0 ? processedBody.slice(0, h2idx).trim() : "";
@@ -674,8 +732,14 @@ async function main(){
     // Build in-article TOC from H2 headings (shown when ≥3 sections)
     const slugifyToc = t => t.toLowerCase().replace(/\*\*/g,"").replace(/`[^`]+`/g,"").replace(/[^\w\s-]/g,"").trim().replace(/[\s_]+/g,"-").replace(/^-+|-+$/g,"");
     const h2s = cleaned.split("\n").filter(l => /^##\s+/.test(l)).map(l => l.replace(/^##\s+/,"").trim()).filter(Boolean);
-    const tocHtml = h2s.length >= 3
-      ? `<nav class="pb-toc"><p class="pb-toc-label">In this playbook</p><ol>${h2s.map(h => `<li><a href="#${slugifyToc(h)}">${escapeHtml(h)}</a></li>`).join("")}</ol></nav>`
+    const tocItems = h2s.map(h => `<li><a href="#${slugifyToc(h)}">${escapeHtml(h)}</a></li>`).join("");
+    // Mobile TOC: inline, hidden on wide screens when sidebar is present
+    const mobileTocHtml = h2s.length >= 3
+      ? `<nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol>${tocItems}</ol></nav>`
+      : "";
+    // Sidebar TOC: sticky, shown only on wide screens (≥1160px)
+    const sidebarTocHtml = h2s.length >= 3
+      ? `<aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol>${tocItems}</ol></nav></aside>`
       : "";
     const cardsForPlaybook = (p.uses_cards || []).slice(0, 8).map(cid => INDEX.insights.find(i => i.id === cid)).filter(Boolean);
     const opsForPlaybook = [...new Set((p.originating_operators || []).concat(cardsForPlaybook.map(c => c.operator).filter(Boolean)))];
@@ -683,12 +747,17 @@ async function main(){
     const insightChips = cardsForPlaybook.length
       ? `<div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span>${cardsForPlaybook.map(c=>`<a class="pb-insight-chip" href="${SITE_URL}/ins/${c.id}/">${escapeHtml(c.title||c.id)}</a>`).join("")}</div>`
       : "";
-    // Inject animated visual contextually inside the Steps section (or prepend if no Steps H2)
-    const mainBodyWithVisual = visualHtml
-      ? (mainBody.match(/<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>/)
-          ? mainBody.replace(/(<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>)/, `$1${visualHtml}`)
-          : visualHtml + mainBody)
-      : mainBody;
+    // Split visual into Phase 1 and Phase 2; inject Phase 1 after Steps H2, Phase 2 after step 5
+    const [visual1, visual2] = splitVisualHtml(visualHtml);
+    let mainBodyWithVisual = mainBody;
+    if (visual1) {
+      mainBodyWithVisual = mainBodyWithVisual.match(/<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>/)
+        ? mainBodyWithVisual.replace(/(<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>)/, `$1${visual1}`)
+        : visual1 + mainBodyWithVisual;
+    }
+    if (visual2) {
+      mainBodyWithVisual = injectBeforeNthStep(mainBodyWithVisual, visual2, 6);
+    }
     const howTo = {
       "@type": "HowTo",
       "name": p.title || p.id,
@@ -712,6 +781,10 @@ async function main(){
         ...(cardsForPlaybook.length ? [{ "@type": "ItemList", "name": "Insights this playbook builds on", "itemListElement": cardsForPlaybook.map((c, i) => ({ "@type": "ListItem", "position": i + 1, "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id })) }] : []),
       ],
     };
+    // Wide layout (sidebar TOC) is added as per-playbook extra CSS only when there are sections
+    const extraStyle = h2s.length >= 3
+      ? `@media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem}}`
+      : "";
     await writeOne({
       outPath: join(DOCS, "play", p.id, "index.html"),
       title: p.title || p.id,
@@ -720,8 +793,9 @@ async function main(){
       hashRoute: `#/play/${p.id}`,
       jsonLd,
       ogImage: socialOgUrl || `${SITE_URL}/og/play/${p.id}.svg`,
-      hasVisual: !!visualHtml,
-      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${introHtml}${insightChips}${tocHtml}<article>${mainBodyWithVisual}</article>${cta}`,
+      hasVisual: !!(visual1 || visual2),
+      extraStyle,
+      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${introHtml}${insightChips}<div class="pb-layout"><div class="pb-article-col">${mobileTocHtml}<article>${mainBodyWithVisual}</article>${cta}</div>${sidebarTocHtml}</div>`,
     });
   }
 

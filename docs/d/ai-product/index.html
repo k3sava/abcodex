@@ -64,16 +64,21 @@ main.static strong{color:var(--ink);font-weight:600}
 .md-table td{padding:9px 16px;border-bottom:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
 .md-table tbody tr:last-child td{border-bottom:none}
 .md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
+.md-table th:first-child,.md-table td:first-child{white-space:nowrap}
 .step-num-badge{font-family:JetBrains Mono,monospace;font-size:1.9rem;line-height:1;color:var(--accent);opacity:.5;font-weight:700;flex-shrink:0;min-width:2.6ch;letter-spacing:-.02em}
 .pb-step{padding:28px 0;margin:0;border-top:1px solid var(--line-2)}
 .pb-step:first-of-type{border-top:none;padding-top:0}
 .pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem}
 .pb-step>p:first-of-type{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:1.05rem;line-height:1.6;color:var(--ink);margin-top:0}
+main.static article>h2{margin-top:2.4em}
+main.static article>h2:first-child{margin-top:0}
 main.static article hr{border:none;text-align:center;margin:48px 0;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.85rem;letter-spacing:.3em}
 main.static article hr::after{content:"· · ·"}
 main.static blockquote.pb-operator-quote{border-left:none;padding:20px 24px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.8em 0}
 main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.1rem;font-style:italic;color:var(--ink);margin-bottom:10px;line-height:1.5}
-main.static blockquote.pb-operator-quote p:not(:first-child){font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote p:not(:first-child),main.static blockquote.pb-operator-quote .pb-quote-attr{font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref{font-size:inherit;color:var(--accent);font-family:inherit;border-bottom-color:transparent}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
 .pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
 .pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
@@ -85,6 +90,17 @@ main.static blockquote.pb-operator-quote p:not(:first-child){font-family:Newsrea
 .pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
 .pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
 .pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+h2#common-failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#common-failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.6}
+h2#common-failure-modes+ul li:first-child{border-top:none;padding-top:0}
+h2#common-failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--accent);text-transform:uppercase;letter-spacing:.05em;font-weight:600;display:inline-block;margin-right:.5em}
+h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+.pb-layout{display:block}
+.pb-article-col{display:block}
+.pb-sidebar{display:none}
 main.static code{font-family:JetBrains Mono,monospace;font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 6px;border-radius:3px}
 main.static pre{background:color-mix(in oklab,var(--ink) 4%,transparent);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:1em 0}
 main.static pre code{background:transparent;padding:0}
@@ -116,6 +132,7 @@ main.static pre code{background:transparent;padding:0}
   .static-actions{flex-direction:column;align-items:stretch}
   .static-actions a,.static-actions button{justify-content:center}
 }
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"ai-product","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 2 insights from 1 operators.","url":"https://abcodex.iamkesava.com/d/ai-product/"},{"@type":"CollectionPage","name":"ai-product · abcodex","url":"https://abcodex.iamkesava.com/d/ai-product/","about":{"@type":"DefinedTerm","name":"ai-product"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_dreaming-cross-session-memory-curation/","name":"Scheduled cross-session transcript reading extracts patterns and proposes memory updates for human review before they land","author":{"@type":"Person","name":"Anthropic"}},{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_outcomes-grader-agent-evaluation/","name":"A separate grader agent in its own context window closes the output verification loop at production scale","author":{"@type":"Person","name":"Anthropic"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"ai-product","item":"https://abcodex.iamkesava.com/d/ai-product/"}]}]}</script>
 </head>
