@@ -13,7 +13,7 @@
   <rect x="0" y="0" width="1200" height="6" fill="url(#band)"/>
   <g transform="translate(80, 60)">
     <circle cx="0" cy="14" r="6" fill="#2c8b4f"/>
-    <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">a builder's codex</text>
+    <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">abcodex</text>
   </g>
   <text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">PMM</text>
   
@@ -27,5 +27,5 @@
   <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">business priorities.</text>
   <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Prithivi Rajan</text>
   <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-04-10</text>
-  <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">codex.iamkesava.com</text>
+  <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">abcodex.iamkesava.com</text>
 </svg>

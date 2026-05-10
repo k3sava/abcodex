@@ -100,12 +100,12 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 ## Authoring
 
-- [Ingest protocol](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
-- [Insight card schema](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/insight-card-schema.md)
-- [Daily release-log contract](https://github.com/k3sava/ab-codex/blob/main/insight-library/daily/README.md)
+- [Ingest protocol](https://github.com/k3sava/abcodex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
+- [Insight card schema](https://github.com/k3sava/abcodex/blob/main/insight-library/00_meta/insight-card-schema.md)
+- [Daily release-log contract](https://github.com/k3sava/abcodex/blob/main/insight-library/daily/README.md)
 
 ## Optional
 
-- [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
+- [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
 Last updated: 2026-05-10.
