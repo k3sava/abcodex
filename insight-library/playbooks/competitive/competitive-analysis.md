@@ -75,7 +75,7 @@ Then go where competitors talk to buyers instead of selling to them. G2, Capterr
 
 Track reviews by source. G2 reviews, support forums, and field rep reports all have different credibility and utility. Keep them separate.
 
-Secondary research amplifies primary. Job postings reveal capabilities competitors are building in the next 12 to 18 months. A cluster of three data-engineering hires signals a BI play before any announcement. BuiltWith and Wappalyzer (tech-stack detection tools) show which products a prospect currently runs — useful if you are selling against an incumbent. Analyst reports give you the category language they are adopting.
+Secondary research amplifies primary. Job postings reveal capabilities competitors are building in the next 12 to 18 months. A cluster of three data-engineering hires signals a BI play before any announcement. BuiltWith and Wappalyzer (tech-stack detection tools) show which products a prospect currently runs, useful if you are selling against an incumbent. Analyst reports give you the category language they are adopting.
 
 Stop when you have one concrete answer per dimension in your differentiation matrix. Research has a diminishing-returns cliff. Hit it early and move to analysis. Partial intel shared fast is more useful than complete intel shared late.
 
@@ -97,7 +97,8 @@ For each Tier-1 competitor, build a profile that answers: what do they do, who d
 
 The most dangerous failure in a competitor profile is dishonesty about their strengths. One wrong claim about a competitor's pricing or capability permanently breaks seller trust in everything you produce.
 
-> "All it takes is one piece of bad intel to lose the trust of your sellers." — Crayon, State of Competitive Intelligence
+> "All it takes is one piece of bad intel to lose the trust of your sellers."
+> — [Crayon, State of Competitive Intelligence](https://www.crayon.co/state-of-competitive-intelligence)
 
 Acknowledge competitor strengths honestly. The stronger your concession, the more your differentiation claims carry weight. This is not a positioning strategy. It is an epistemic practice. Your salespeople will fact-check you in live conversations.
 
@@ -107,7 +108,8 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 2. Is it actually better on a measurable axis?
 3. Does it matter viscerally to the buyer's job?
 
-> "Being different is not enough. Being better is not enough. It has to be better in a way that matters to the end user."
+> "Being different is not enough. Being better is not enough.
+> It has to be better in a way that matters to the end user."
 > — Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
@@ -125,8 +127,9 @@ Limit to 6 to 8 dimensions. More than that and the matrix becomes a checklist no
 
 Gartner's sameness research documents a specific failure mode here: buyers default to perceiving comparable features across competing products. You have to test that your differentiators actually read as differentiated to external audiences, not just to your team.
 
-> "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."
-> — Gartner, Market Guide for B2B Message Testing Solutions (G00823537), 2025
+> "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts
+> if product marketers do not test their differentiators with external audiences."
+> — Gartner, Market Guide for B2B Message Testing, 2025
 > `ins_sameness-perception-is-the-differentiation-barrier`
 
 Before the matrix ships, run at least one external test: a prospect conversation, a quick panel, or a 5-second test on the homepage. If the differentiators land internally but not externally, you have positioned for yourselves, not for buyers.
@@ -143,8 +146,9 @@ Battlecards are the most important competitive deliverable. They are not the com
 
 The traditional model treats battlecards as documents: a PMM writes one, a sales rep reads it, it goes stale. The better model treats battlecards as curated intel that updates when the inputs update.
 
-> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows. Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
-> — Gartner, Innovation Insight: Rethinking Battle Cards in the Age of AI (G00832921), 2025
+> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows.
+> Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
+> — Gartner, Innovation Insight: Rethinking Battle Cards, 2025
 > `ins_battle-cards-as-workflow-primitive`
 
 The practical implication: your job as the PMM shifts from authoring the document to curating the inputs. The inputs are win/loss interviews, competitor product updates, and field rep reports. When those update, the battlecard updates. Not quarterly. On event.
@@ -163,7 +167,7 @@ Three rules: Accurate (one wrong claim ends trust permanently). Brief (sellers w
 
 Translate the analysis into one recommendation per audience:
 
-**For sales:** which competitors to deprioritize (high win rate — double down on what works) vs. which to investigate (low win rate — find the root cause before running campaigns against them). Include specific talk-track adjustments and where to plant landmines.
+**For sales:** which competitors to deprioritize (high win rate, double down on what works) vs. which to investigate (low win rate, find the root cause before running campaigns against them). Include specific talk-track adjustments and where to plant landmines.
 
 **For product:** which capability gaps are appearing in loss reasons. Which investments competitors are making based on job postings and product updates.
 
@@ -197,13 +201,13 @@ The five-section arc that earns the comparison instead of demanding it. Each sec
 
 | Section | Reader's mental state | What you do |
 |---------|----------------------|-------------|
-| Disarm | "They're biased — why should I trust this?" | Name your stake upfront. First sentence. |
+| Disarm | "They're biased. Why should I trust this?" | Name your stake upfront. First sentence. |
 | Concede | "Wait, they're being honest about weaknesses?" | Call out real competitor strengths. Buyers will test you live. |
 | Reframe | "I hadn't thought about it that way." | Shift which criteria matter. The criteria are the argument. |
-| Differentiate | "They're right — X matters more for my situation." | Stack proof under the new frame. Each differentiator needs a deal reference. |
+| Differentiate | "They're right. X matters more for my situation." | Stack proof under the new frame. Each differentiator needs a deal reference. |
 | Unify | "I understand what problem this solves." | One shared problem. Two very different answers. |
 
-Tone calibration: market leader requires maximum deference — concede more than feels comfortable. Direct competitor allows direct contrast but no attacks. Adjacent category calls for reframing, not competing.
+Tone calibration: market leader requires maximum deference. Concede more than feels comfortable. Direct competitor allows direct contrast but no attacks. Adjacent category calls for reframing, not competing.
 
 ## Check your work
 
