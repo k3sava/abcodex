@@ -1433,7 +1433,12 @@ function renderMarkdown(md){
       const m = ln.match(/^(#{1,6})\s+(.*)$/);
       const lv = Math.min(m[1].length + 1, 6);
       const id = makeId(m[2]);
-      out.push(`<h${lv} id='${id}'>${inlineMd(m[2])}</h${lv}>`); continue;
+      // Step number badge: h4 (### in source) with leading "N. Title"
+      const stepM = lv === 4 ? m[2].match(/^(\d+)\.\s+(.+)/) : null;
+      const inner = stepM
+        ? `<span class='step-num-badge'>${String(stepM[1]).padStart(2,'0')}</span> ${inlineMd(stepM[2])}`
+        : inlineMd(m[2]);
+      out.push(`<h${lv} id='${id}'>${inner}</h${lv}>`); continue;
     }
     if (/^\s*[-*]\s+/.test(ln)){
       flushPara(); closeQuote(); flushTable();

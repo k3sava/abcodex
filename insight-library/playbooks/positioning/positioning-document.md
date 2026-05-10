@@ -11,9 +11,11 @@ originating_operators: [april-dunford, anthony-pierri, emily-kramer, martina-lau
 
 # Positioning Document — full pipeline
 
-Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for. Every decision downstream (homepage, sales deck, campaign brief, onboarding sequence) rests on the positioning you commit to. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after.
+Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for.
 
-This playbook is a 14-step pipeline from raw customer evidence to a published positioning document and live validation. It takes approximately three to four weeks for a PMM with access to customers and the sales floor. Compress it and you skip the steps that produce the non-obvious insights. Stretch it and you're analyzing instead of acting.
+Every decision downstream rests on the positioning you commit to: homepage, sales deck, campaign brief, onboarding sequence. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after.
+
+This playbook is a 14-step pipeline from raw customer evidence to a published positioning document and live validation. It takes three to four weeks for a PMM with access to customers and the sales floor. Compress it and you skip the steps that produce the non-obvious insights. Stretch it and you're analyzing instead of acting.
 
 ## When to use
 
@@ -38,7 +40,9 @@ Run this before any homepage rewrite, sales-deck overhaul, or category push. Als
 
 Before research, before interviews, before anything: pull a list of 5–10 customers who understood quickly, bought quickly, stayed, and told others. These are not your biggest contracts. They are the buyers the product is most right for, right now.
 
-The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors who pushed it through. That is expensive fit, not natural fit. Customers who found the product, saw the point immediately, signed without a lengthy procurement cycle, and still recommend it. Those are your signal. They represent a buyer type you can find more of.
+The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors to push it through. That is expensive fit, not natural fit.
+
+Look instead for buyers who found the product, saw the point immediately, signed without a lengthy procurement cycle, and still recommend it. They are your signal. They represent a buyer type you can find more of.
 
 If you're pre-revenue, use the prospects who had the strongest "aha" moment during evaluation. You're looking for the same pattern at an earlier stage: recognition, not persuasion.
 
@@ -48,13 +52,17 @@ Write down what these customers have in common. Industry, team size, tech stack,
 
 Interview 5–10 buyers from your best-customer list. Cover recent switchers from the past 90 days if you can. The goal is not feature feedback. The goal is language: the words buyers use to describe the problem before they knew your product existed.
 
-Jobs-to-be-Done switch interviews work by tracing a timeline backward from the purchase decision. You ask: what happened right before you started looking? What did you try first? What almost made you not buy? What did you tell your colleagues when you recommended it? Each answer peels back a layer of rationalization and gets closer to the real trigger.
+Jobs-to-be-Done switch interviews trace a timeline backward from the purchase decision. You ask: what happened right before you started looking? What did you try first? What almost made you not buy? What did you tell colleagues when you recommended it?
+
+Each answer peels back a layer of rationalization and gets closer to the real trigger.
 
 > "JTBD interviews help you define a customer's language — what they actually mean by 'easy' — the root cause of why they switched, and how their story connects, all of which directly impact your product marketing."
 > — Bob Moesta, Intercom podcast, 2020
 > `ins_jtbd-interviews-surface-customer-language`
 
-The trigger language is operationally valuable. "We had a critical demo and the call quality dropped" is not just an anecdote. It tells you what channel to run ads on (search for "call quality for demos"), what copy to write ("never drop a call at the wrong moment"), and what objection to preempt. The decision language ("we just needed something that worked without us thinking about it") tells you what the headline should promise.
+The trigger language is operationally valuable. "We had a critical demo and the call quality dropped" is not just an anecdote. It tells you what channel to run ads on, what copy to write, and what objection to preempt.
+
+The decision language ("we just needed something that worked without us thinking about it") tells you what the headline should promise.
 
 Cover five areas in each interview: background and role, what they were trying to accomplish, what triggered the search, how the decision unfolded, and how they describe the product to others now. Do not show the product or discuss your solution in the first 30 minutes. Buyers narrate the problem more honestly before they're defending a purchase decision.
 
@@ -70,7 +78,9 @@ Most positioning exercises stop at direct competitors. That is the wrong place t
 > — April Dunford, Lenny's Podcast, 2026-04-28
 > `ins_no-decision-is-the-real-competitor`
 
-When 40–60% of the buyers who passed on you made no decision at all, your real positioning problem is not "why us over them." It's "why do anything at all." The pitch must first establish that the cost of the status quo is real and specific, before it argues why your solution is better than the alternatives. A positioning process that skips this step will produce messaging that wins competitive head-to-head deals but loses to inertia at twice the rate.
+When 40-60% of buyers who passed on you made no decision at all, your real positioning problem is not "why us over them." It is "why do anything at all."
+
+The pitch must first establish that the cost of the status quo is real and specific. Only then does arguing why your solution is better than alternatives become useful. Skip this step and you build messaging that wins competitive head-to-head deals while losing to inertia at twice the rate.
 
 Cluster your alternatives into 3–5 groups. Each cluster becomes a lens for isolating your unique attributes in the next step. Include the status quo as an explicit cluster with its own description. What does "doing nothing" actually look like for this buyer? What's the daily cost? What breaks?
 
@@ -110,7 +120,9 @@ Then apply Omojola's three-check filter to each attribute:
 > — Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
-An attribute that passes checks 1 and 2 but not 3 is a feature, not a differentiator. Note it as a supporting proof point but do not lead with it. The visceral check is not theoretical. It's a test the buyer can perform in a single sentence. Cash App's differentiator was "send me a dollar I can use now." You should be able to articulate yours the same way.
+An attribute that passes checks 1 and 2 but not 3 is a feature, not a differentiator. Note it as a supporting proof point but do not lead with it.
+
+The visceral check is not theoretical. It is a test the buyer can perform in a single sentence. Cash App's differentiator was "send me a dollar I can use now." Yours should be just as concrete.
 
 A second thing most teams miss: you can differentiate on what you deliberately do not have. If simplicity is a differentiator (because your competitor requires a 12-week implementation and a dedicated admin), the absence of that complexity is a valid capability to name.
 
@@ -153,7 +165,9 @@ One practical rule: don't name a new category before the market accepts it exist
 
 The unique belief is the philosophical ground your company stands on. It answers a different question than "what does your product do?" It answers: "what does this company believe about how the world should work?"
 
-A value prop is "we help teams close more deals." A unique belief is "every revenue-critical conversation deserves an immediate, intelligent response, whether a human or an agent handles it." The first is a claim. The second is a worldview. The belief is what makes the company internally consistent: the product decisions, the sales narrative, the content, the brand voice all connect back to it.
+A value prop is "we help teams close more deals." A unique belief is "every revenue-critical conversation deserves an immediate, intelligent response, whether a human or an agent handles it." The first is a claim. The second is a worldview.
+
+The belief is what makes the company internally consistent. The product decisions, the sales narrative, the content, the brand voice: all connect back to it.
 
 The belief is also the check. Once written, it should make the sales deck, the homepage hero, and the product release notes obviously agree with each other, or reveal where they've drifted.
 
@@ -232,9 +246,11 @@ Eight-section structure:
 | Trust | Handle remaining objections | Security, integrations, compliance, customer count |
 | Closing CTA | Reinforce the hero | Same message, different words |
 
-Lead with capabilities: what someone actually does with the product, not aspirational outcomes. "Build pipeline faster" describes an aspiration. "Answer every inbound call in 2 seconds and log the conversation to your CRM automatically" describes a capability. The capability is what converts.
+Lead with capabilities: what someone actually does with the product, not aspirational outcomes. "Build pipeline faster" describes an aspiration. "Answer every inbound call in 2 seconds and log the conversation to your CRM automatically" describes a capability. The capability converts.
 
-Buyers default to perceiving comparable features across competitors. Gartner names this "sameness." Before the homepage goes live, test the hero with 5 people who aren't on your team. Ask them: what does this product do, who is it for, and what does it replace? If they can't answer all three from the hero alone, rewrite it.
+Buyers default to perceiving comparable features across competitors. Gartner names this "sameness." Before the homepage goes live, test the hero with 5 people outside your team. Ask them: what does this product do, who is it for, and what does it replace?
+
+If they cannot answer all three from the hero alone, rewrite it.
 
 > "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."
 > — Gartner, Market Guide for B2B Message Testing Solutions, 2025
@@ -254,7 +270,9 @@ Those moments are where the positioning broke. Fix them. Then test again.
 > — April Dunford, Sales-First Storytelling, 2024
 > `ins_test-positioning-in-live-sales-pitch`
 
-The sales team will detect positioning failures months before any dashboard does. When reps say "I keep getting asked about X and I don't have a good answer" or "buyers keep saying we're just like Y," that is a positioning failure showing up in real time. Build the rep-input loop from day one: a weekly objection log, a competitive channel in Slack, shadowing calls monthly. Without that loop, positioning drift accumulates silently.
+The sales team will detect positioning failures months before any dashboard does. When reps say "I keep getting asked about X and I don't have a good answer" or "buyers keep saying we're just like Y," that is a positioning failure in real time.
+
+Build the rep-input loop from day one: a weekly objection log, a competitive channel in Slack, shadowing calls monthly. Without that loop, positioning drift accumulates silently.
 
 > "Your sales team knows months before anyone else when a position is failing."
 > — April Dunford, LinkedIn, April 2026
@@ -262,7 +280,9 @@ The sales team will detect positioning failures months before any dashboard does
 
 ### 14. Enable the organization. Positioning in a folder is a hypothesis.
 
-A positioning document that lives in a Google Drive folder and gets visited twice a year is not a strategy. It's a hypothesis. The work isn't done until the positioning is installed across the organization.
+A positioning document that lives in a Google Drive folder and gets visited twice a year is not a strategy. It is a hypothesis.
+
+The work isn't done until the positioning is installed across the organization.
 
 Enablement checklist:
 
@@ -273,7 +293,9 @@ Enablement checklist:
 - Live-pitch test completed and revisions incorporated
 - Monthly narrative-drift audit scheduled: compare sales deck, homepage hero, and most recent release notes. When they diverge, fix before the next campaign launches.
 
-The monthly audit is not optional. The artifacts that face buyers drift from each other within a quarter if nobody owns the canonical story. The PMM lead or founder is the right owner. The audit is a 30-minute read across three documents. The cost of skipping it compounds.
+The monthly audit is not optional. The artifacts that face buyers drift from each other within a quarter if nobody owns the canonical story. The PMM lead or founder is the right owner.
+
+The audit is a 30-minute read across three documents. The cost of skipping it compounds.
 
 ---
 

@@ -969,17 +969,61 @@ dialog .search-head kbd{font-family:var(--mono);font-size:.65rem;padding:3px 7px
 .playbook-section .chips{display:flex;flex-wrap:wrap;gap:8px}
 .chip-link{display:inline-flex;align-items:center;padding:6px 12px;border-radius:999px;background:var(--paper-2);border:1px solid var(--line);font-family:var(--mono);font-size:.72rem;color:var(--ink-2);text-transform:lowercase;letter-spacing:.04em;transition:border-color .18s,background .18s,color .18s}
 .chip-link:hover{border-color:var(--accent);color:var(--ink);background:var(--paper)}
-.playbook-content{font-family:var(--serif);font-size:1.04rem;line-height:1.65;color:var(--ink)}
-.playbook-content h2{font-family:var(--serif);font-weight:500;font-size:1.6rem;margin-top:32px;margin-bottom:14px;letter-spacing:-.01em;color:var(--ink)}
-.playbook-content h3{font-family:var(--serif);font-weight:500;font-size:1.2rem;margin-top:24px;margin-bottom:10px;color:var(--ink)}
-.playbook-content h4{font-family:var(--mono);font-weight:500;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-top:20px;margin-bottom:8px;color:var(--muted)}
-.playbook-content p{margin-bottom:14px}
-.playbook-content ul,.playbook-content ol{margin:8px 0 18px 24px}
+/* ===== Playbook content — full typographic system ===== */
+.playbook-content{font-family:var(--serif);font-size:1.05rem;line-height:1.72;color:var(--ink)}
+
+/* Section headings — chapter-level breaks */
+.playbook-content h2{
+  font-family:var(--serif);font-weight:400;font-size:1.65rem;
+  margin-top:64px;margin-bottom:18px;
+  padding-top:24px;border-top:1px solid var(--line);
+  letter-spacing:-.02em;line-height:1.15;color:var(--ink);
+}
+.playbook-content h3{
+  font-family:var(--serif);font-weight:400;font-size:1.35rem;
+  margin-top:52px;margin-bottom:14px;
+  padding-top:20px;border-top:1px solid var(--line);
+  letter-spacing:-.015em;line-height:1.2;color:var(--ink);
+}
+/* Step headings — h4 in SPA (### shifts to h4 via +1 offset) */
+.playbook-content h4{
+  font-family:var(--serif);font-weight:500;font-size:1.18rem;
+  text-transform:none;letter-spacing:-.01em;
+  margin-top:44px;margin-bottom:12px;
+  line-height:1.3;color:var(--ink);
+}
+
+/* Step number badge — injected by JS for ### N. headings */
+.step-num-badge{
+  display:block;
+  font-family:var(--mono);font-size:.76rem;font-weight:600;
+  letter-spacing:.06em;text-transform:uppercase;
+  color:var(--accent-2);margin-bottom:5px;
+}
+
+/* Prose max-width — 68ch ≈ 620px, comfortable newspaper column */
+.playbook-content p,
+.playbook-content ul,
+.playbook-content ol{max-width:68ch}
+
+/* Lead paragraph — first p after any heading gets slightly larger */
+.playbook-content h2 + p,
+.playbook-content h3 + p,
+.playbook-content h4 + p{font-size:1.07em;line-height:1.7}
+
+/* Intro lede — first paragraph in the content block */
+.playbook-content > p:first-of-type{
+  font-size:1.12em;line-height:1.68;
+  color:var(--ink);margin-bottom:22px;
+}
+
+.playbook-content p{margin-bottom:18px}
+.playbook-content ul,.playbook-content ol{margin:10px 0 20px 24px}
 .playbook-content ul ul,.playbook-content ol ol,.playbook-content ul ol,.playbook-content ol ul{margin:6px 0 6px 22px}
 .playbook-content ul ul li,.playbook-content ol ol li{margin-bottom:4px;font-size:.97em;color:var(--ink-2)}
-.playbook-content li{margin-bottom:8px}
+.playbook-content li{margin-bottom:9px}
 .playbook-content code{font-family:var(--mono);font-size:.86em;background:var(--paper-2);padding:1px 6px;border-radius:4px;color:var(--ink-2)}
-.playbook-content pre{background:var(--paper-2);padding:16px;border-radius:10px;overflow-x:auto;font-size:.85rem;margin:12px 0 18px}
+.playbook-content pre{background:var(--paper-2);padding:16px;border-radius:10px;overflow-x:auto;font-size:.85rem;margin:12px 0 20px}
 .playbook-content pre code{background:transparent;padding:0}
 .playbook-content a{color:var(--accent-2);border-bottom:1px solid color-mix(in oklab,var(--accent-2) 30%,transparent);transition:border-color .18s}
 .playbook-content a:hover{border-bottom-color:var(--accent-2)}
@@ -1773,11 +1817,11 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 .playbook-content blockquote.operator-quote,
 .release-body blockquote.operator-quote,
 .body blockquote.operator-quote{
-  margin:1.8em 0;padding:18px 22px;
+  margin:2em 0;padding:20px 26px;
   border-left:3px solid var(--accent);
   background:color-mix(in oklab,var(--accent) 5%,var(--paper));
   border-radius:0 8px 8px 0;
-  font-family:var(--serif);font-size:1.08rem;line-height:1.5;
+  font-family:var(--serif);font-size:1.14rem;line-height:1.55;
   font-style:italic;color:var(--ink);
 }
 .operator-quote p{margin:0 0 8px;font-style:italic}

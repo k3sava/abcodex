@@ -133,7 +133,13 @@ function mdToHtml(md){
     if(inTable && !/^\|/.test(line)) flushTable();
     if (/^#\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^#\s+/,""); out.push(`<h1 id="${makeId(t)}">${inline(t)}</h1>`); continue; }
     if (/^##\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^##\s+/,""); out.push(`<h2 id="${makeId(t)}">${inline(t)}</h2>`); continue; }
-    if (/^###\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^###\s+/,""); out.push(`<h3 id="${makeId(t)}">${inline(t)}</h3>`); continue; }
+    if (/^###\s+/.test(line)){
+      if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable();
+      const t=line.replace(/^###\s+/,"");
+      const stepM=t.match(/^(\d+)\.\s+(.+)/);
+      const inner=stepM?`<span class='step-num-badge'>${String(stepM[1]).padStart(2,"0")}</span> ${inline(stepM[2])}`:inline(t);
+      out.push(`<h3 id="${makeId(t)}">${inner}</h3>`); continue;
+    }
     if (/^>\s?/.test(line)){
       if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} flushTable();
       if(!inQuote){ out.push("<blockquote>"); inQuote=true; }
