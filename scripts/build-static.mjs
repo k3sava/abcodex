@@ -681,8 +681,8 @@ async function main(){
       : "";
     // Inject animated visual contextually inside the Steps section (or prepend if no Steps H2)
     const mainBodyWithVisual = visualHtml
-      ? (mainBody.match(/<h2 [^>]*id="steps"[^>]*>/)
-          ? mainBody.replace(/(<h2 [^>]*id="steps"[^>]*>)/, `$1${visualHtml}`)
+      ? (mainBody.match(/<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>/)
+          ? mainBody.replace(/(<h2 [^>]*id="steps"[^>]*>[^<]*<\/h2>)/, `$1${visualHtml}`)
           : visualHtml + mainBody)
       : mainBody;
     const howTo = {
