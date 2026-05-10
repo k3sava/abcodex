@@ -149,7 +149,9 @@ In a market saturated with AI-generated prose, the only defensible advantage is 
 > — Ann Handley
 > `ins_handley-voice-as-moat-against-ai`
 
-Voice is not a style guide. It is a function of a specific person's perspective, word habits, and lived experience. It cannot be replicated without that person's continued involvement. Voice degrades when it is delegated to a content team following a guide, the guide can describe the voice, it cannot produce it.
+Voice is not a style guide. It is a function of a specific person's perspective, word habits, and lived experience. It cannot be replicated without that person's continued involvement.
+
+Voice degrades when it is delegated to a content team following a guide. The guide can describe the voice. It cannot produce it.
 
 For brand copy, the founder voice is the highest-signal version. It contains a specific point of view that competitors cannot authentically claim, because it emerges from a specific company's history and the founder's specific experiences.
 

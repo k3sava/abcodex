@@ -28,7 +28,9 @@ Before you gather anything, define what decision this analysis needs to inform. 
 
 Ask: which three decisions does this analysis need to enable in the next 30 days? Typical examples: which competitor to name-drop in demos, how to handle a specific objection, whether to compete or avoid in enterprise deals. If a section of the analysis does not connect to one of those three decisions, cut it. State the questions at the top of the deliverable and check against them at the end.
 
-Then tier your competitors by revenue impact, not by marketing noise. Pull three months of CRM data on competitive mentions in won and lost deals. Ask sales which five competitors come up most. Ask prospects during interviews who else they evaluated. Cross-reference. Competitors appearing in all three sources are Tier 1. A competitor that is loud on LinkedIn but rarely surfaces in actual deals is Tier 2 or Tier 3.
+Then tier your competitors by revenue impact, not by marketing noise. Pull three months of CRM data on competitive mentions in won and lost deals. Ask sales which five competitors come up most. Ask prospects during interviews who else they evaluated. Cross-reference.
+
+Competitors appearing in all three sources are Tier 1. A competitor that is loud on LinkedIn but rarely surfaces in actual deals is Tier 2 or Tier 3.
 
 One thing most competitive tiers miss: include the status quo. When you survey buyers who did not buy, 40 to 60% report they made no purchase decision at all. They were not comparing you to a competitor. They were not convinced the problem was worth solving.
 
@@ -51,7 +53,9 @@ That means "do nothing" belongs in your competitive tier list. Not as a named co
 
 Before conducting external research, harvest what your team already has. People are gathering competitive intelligence without naming it that. They just do not share it anywhere useful.
 
-Sales reps hear objections, competitor name-drops, and buyer-side reframes every week. Customer success hears why customers switched from competitors and what competitor features customers now ask about. Product has a rough landscape view. CRM has deal notes with competitor mentions. Most organizations have this scattered across Slack threads, deal notes, and memory. Your first step is to put it in one place.
+Sales reps hear objections, competitor name-drops, and buyer-side reframes every week. Customer success hears why customers switched from competitors and what competitor features customers now ask about. Product has a rough landscape view. CRM has deal notes with competitor mentions. Most organizations have this scattered across Slack threads, deal notes, and memory.
+
+Your first step is to put it in one place.
 
 The most important source is the sales floor. Reps are the leading indicator for positioning problems. They hear the language of failure months before any dashboard reflects it.
 
@@ -67,7 +71,9 @@ Interview 3 to 5 top-performing reps specifically about competitive deals. Ask: 
 
 Primary research means hands-on. Sign up for free trials of Tier-1 competitors. Not to steal UX. To experience the promise they make to new users on day one and whether the product delivers it. A gap between the demo and the trial experience is a sales angle.
 
-Then go where competitors talk to buyers instead of selling to them. G2, Capterra, TrustRadius. Read the 2- and 3-star reviews specifically. Those contain the specific objections your sales team will face and the specific promises the competitor made that fell short. One negative review with detail is worth ten testimonials. Track reviews by source. G2 reviews, support forums, and field rep reports all have different credibility and utility. Keep them separate.
+Then go where competitors talk to buyers instead of selling to them. G2, Capterra, TrustRadius. Read the 2- and 3-star reviews specifically. Those contain the specific objections your sales team will face and the specific promises the competitor made that fell short. One negative review with detail is worth ten testimonials.
+
+Track reviews by source. G2 reviews, support forums, and field rep reports all have different credibility and utility. Keep them separate.
 
 Secondary research amplifies primary. Job postings reveal capabilities competitors are building in the next 12 to 18 months. A cluster of three data-engineering hires signals a BI play before any announcement. BuiltWith and Wappalyzer expose the tech stack if you are doing displacement sales. Analyst reports give you the category language they are adopting.
 

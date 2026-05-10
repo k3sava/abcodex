@@ -104,7 +104,9 @@ For each champion persona, map the full chain from pain to message:
 
 The key constraint: the message column must be specific to the persona's situation. If the same message works for two different personas without editing, it is too generic for either.
 
-Features connect to benefits through capabilities. The capability is what the user actually does. The feature is what enables it. The benefit is what changes because of it. Most messaging jumps from feature to benefit and skips capability, leaving the buyer to make the connection themselves. Do not make them.
+Features connect to benefits through capabilities. The capability is what the user actually does. The feature is what enables it. The benefit is what changes because of it.
+
+Most messaging jumps from feature to benefit and skips capability, leaving the buyer to make the connection themselves. Do not make them.
 
 Example:
 
