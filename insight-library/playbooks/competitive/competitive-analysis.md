@@ -113,6 +113,8 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 
 A property that passes the first two checks but not the third is a feature comparison, not a differentiator. Drop it from the profile's attack angles and note it separately.
 
+---
+
 ### 6. Build a differentiation matrix. Use buyer criteria, not feature inventories.
 
 The dimensions in your matrix must come from win/loss interviews and sales conversations. Not from your product team's feature list. Ask buyers: what were the top three factors in your decision? Those are your dimensions.
