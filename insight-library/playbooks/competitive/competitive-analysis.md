@@ -1,6 +1,6 @@
 ---
 id: pb_competitive-analysis
-title: Competitive analysis — landscape, profiles, battlecards
+title: Run competitive analysis that arms sellers and sharpens positioning
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 depth: full
@@ -11,7 +11,7 @@ originating_operators: [april-dunford, gartner-research, ayo-omojola]
 
 # Competitive analysis
 
-A 10-step process for turning competitive intel into decisions. Draws on Crayon's battlecard structure and Dunford's positioning research. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen messaging. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
+A 10-step process for turning competitive intel into decisions. Draws on Crayon's battlecard research (a competitive intelligence platform), Gartner's differentiation studies, and April Dunford's positioning work. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen messaging. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
 
 ## When to use
 
@@ -24,7 +24,7 @@ A 10-step process for turning competitive intel into decisions. Draws on Crayon'
 
 ### 1. Scope the landscape. Anchor on a business question, not a competitor list.
 
-Before you gather anything, define what decision this analysis needs to inform. CI without a business question is data collection. It is not intelligence.
+Before you gather anything, define what decision this analysis needs to inform. Competitive intelligence (CI) without a business question is data collection. It is not intelligence.
 
 Ask: which three decisions does this analysis need to enable in the next 30 days? Typical examples: which competitor to name-drop in demos, how to handle a specific objection, whether to compete or avoid in enterprise deals. If a section of the analysis does not connect to one of those three decisions, cut it. State the questions at the top of the deliverable and check against them at the end.
 
@@ -75,7 +75,7 @@ Then go where competitors talk to buyers instead of selling to them. G2, Capterr
 
 Track reviews by source. G2 reviews, support forums, and field rep reports all have different credibility and utility. Keep them separate.
 
-Secondary research amplifies primary. Job postings reveal capabilities competitors are building in the next 12 to 18 months. A cluster of three data-engineering hires signals a BI play before any announcement. BuiltWith and Wappalyzer expose the tech stack if you are doing displacement sales. Analyst reports give you the category language they are adopting.
+Secondary research amplifies primary. Job postings reveal capabilities competitors are building in the next 12 to 18 months. A cluster of three data-engineering hires signals a BI play before any announcement. BuiltWith and Wappalyzer (tech-stack detection tools) show which products a prospect currently runs — useful if you are selling against an incumbent. Analyst reports give you the category language they are adopting.
 
 Stop when you have one concrete answer per dimension in your differentiation matrix. Research has a diminishing-returns cliff. Hit it early and move to analysis. Partial intel shared fast is more useful than complete intel shared late.
 
@@ -97,11 +97,11 @@ For each Tier-1 competitor, build a profile that answers: what do they do, who d
 
 The most dangerous failure in a competitor profile is dishonesty about their strengths. One wrong claim about a competitor's pricing or capability permanently breaks seller trust in everything you produce.
 
-> "All it takes is one piece of bad intel to lose the trust of your sellers." — Crayon battlecard research
+> "All it takes is one piece of bad intel to lose the trust of your sellers." — Crayon, State of Competitive Intelligence
 
 Acknowledge competitor strengths honestly. The stronger your concession, the more your differentiation claims carry weight. This is not a positioning strategy. It is an epistemic practice. Your salespeople will fact-check you in live conversations.
 
-Use Ayo Omojola's three-check filter on every differentiator you plan to include:
+Use Ayo Omojola's three-check filter on every differentiator you plan to include. Omojola is a product leader who appeared on Lenny's Podcast in April 2026; his filter is the clearest single test for whether a differentiator deserves to be in a battlecard:
 
 1. Is it actually different from what competitors offer?
 2. Is it actually better on a measurable axis?
@@ -163,7 +163,7 @@ Three rules: Accurate (one wrong claim ends trust permanently). Brief (sellers w
 
 Translate the analysis into one recommendation per audience:
 
-**For sales:** which competitors to prioritize for depositioning (high win rate, double down), which to investigate (low win rate, find the root cause before investing further). Include specific talk-track adjustments and where to plant landmines.
+**For sales:** which competitors to deprioritize (high win rate — double down on what works) vs. which to investigate (low win rate — find the root cause before running campaigns against them). Include specific talk-track adjustments and where to plant landmines.
 
 **For product:** which capability gaps are appearing in loss reasons. Which investments competitors are making based on job postings and product updates.
 
@@ -225,7 +225,7 @@ Tone calibration: market leader requires maximum deference — concede more than
 - **One-and-done analysis.** Static analysis is stale within 60 days. Define the refresh cadence before you ship.
 - **Battlecard bloat.** Five-page documents sellers never open. Keep cards to two scannable pages.
 - **Accuracy failures.** One wrong claim destroys all credibility with sellers. Verify everything.
-- **Depositioning the wrong competitors.** A 3% win rate signals a structural problem. Fix the root cause before campaigns.
+- **Running campaigns against the wrong competitors.** A 3% win rate signals a structural problem. Fix the root cause before spending on repositioning campaigns.
 - **No adoption plan.** Not in Slack and CRM at the deal level means not used.
 - **Same tone across all comparisons.** Market leaders need deference. Niche players get directness.
 
