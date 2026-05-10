@@ -708,26 +708,56 @@ async function main(){
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
     const visualHtml = await loadVisual(p.id);
     const socialOgUrl = await copySocialOg(p.id);
-    // Extract H2 sections from the body as HowTo steps. Each step gets the
-    // section heading as name and the first paragraph after it as text.
-    // Skip generic wrappers like "References" or "Sources".
-    const skipSteps = new Set(["references", "sources", "links", "see also"]);
+    // Extract numbered H3 steps (### N. Title) as HowToStep schema objects with
+    // correct #step-NN anchor URLs. Falls back to H2 sections for playbooks
+    // without the numbered-step structure.
     const steps = [];
     const lines = cleaned.split("\n");
+    // Capture intro paragraph (before first heading) for description + meta.
+    const introTextBuf = [];
+    for (const l of lines){
+      if (/^#+/.test(l) || /^---+$/.test(l.trim())) break;
+      const t = l.trim();
+      if (t) introTextBuf.push(t);
+      if (introTextBuf.length >= 3) break;
+    }
+    const introText = introTextBuf.join(" ").replace(/\*\*/g,"").replace(/\*([^*]+)\*/g,"$1").replace(/`[^`]+`/g,"").slice(0, 400);
     for (let i = 0; i < lines.length; i++){
-      const m = lines[i].match(/^##\s+(.+?)\s*$/);
+      const m = lines[i].match(/^###\s+(\d+)\.\s+(.+?)\s*$/);
       if (!m) continue;
-      const name = m[1].trim();
-      if (skipSteps.has(name.toLowerCase())) continue;
-      // Gather subsequent non-heading lines until next heading or blank gap.
+      const stepNum = String(parseInt(m[1], 10)).padStart(2, "0");
+      const name = m[2].trim().replace(/\*\*/g,"").replace(/`([^`]+)`/g,"$1");
       const buf = [];
       for (let j = i + 1; j < lines.length; j++){
-        if (/^##/.test(lines[j])) break;
-        if (lines[j].trim()) buf.push(lines[j].trim());
-        if (buf.length >= 4) break;
+        if (/^#+/.test(lines[j])) break;
+        if (/^---+$/.test(lines[j].trim())) break;
+        if (/^[>|]/.test(lines[j])) continue;
+        if (/^[-*]\s/.test(lines[j])) continue;
+        const t = lines[j].trim();
+        if (t) buf.push(t);
+        if (buf.length >= 3) break;
       }
-      const text = buf.join(" ").slice(0, 400);
-      if (text) steps.push({ "@type": "HowToStep", "position": steps.length + 1, "name": name, "text": text, "url": `${SITE_URL}/play/${p.id}/#step-${steps.length + 1}` });
+      const text = buf.join(" ").replace(/\*\*/g,"").replace(/\*([^*]+)\*/g,"$1").replace(/`[^`]+`/g,"").slice(0, 500);
+      steps.push({ "@type": "HowToStep", "position": parseInt(m[1], 10), "name": name, "text": text || name, "url": `${SITE_URL}/play/${p.id}/#step-${stepNum}` });
+    }
+    // Fallback: H2 sections when no numbered steps present
+    if (!steps.length){
+      const skipSteps = new Set(["references", "sources", "links", "see also"]);
+      for (let i = 0; i < lines.length; i++){
+        const m = lines[i].match(/^##\s+(.+?)\s*$/);
+        if (!m) continue;
+        const name = m[1].trim();
+        if (skipSteps.has(name.toLowerCase())) continue;
+        const buf = [];
+        for (let j = i + 1; j < lines.length; j++){
+          if (/^##/.test(lines[j])) break;
+          if (lines[j].trim()) buf.push(lines[j].trim());
+          if (buf.length >= 4) break;
+        }
+        const text = buf.join(" ").slice(0, 400);
+        const slugH2 = name.toLowerCase().replace(/[^\w\s-]/g,"").trim().replace(/\s+/g,"-").replace(/^-+|-+$/g,"");
+        if (text) steps.push({ "@type": "HowToStep", "position": steps.length + 1, "name": name, "text": text, "url": `${SITE_URL}/play/${p.id}/#${slugH2}` });
+      }
     }
     // Build in-article TOC from H2 headings (shown when ≥3 sections)
     const slugifyToc = t => t.toLowerCase().replace(/\*\*/g,"").replace(/`[^`]+`/g,"").replace(/[^\w\s-]/g,"").trim().replace(/[\s_]+/g,"-").replace(/^-+|-+$/g,"");
@@ -761,7 +791,7 @@ async function main(){
     const howTo = {
       "@type": "HowTo",
       "name": p.title || p.id,
-      "description": `Playbook bundling operator-attributed insights from ${opsForPlaybook.slice(0, 6).join(", ")}.`,
+      "description": introText || `Playbook bundling operator-attributed insights from ${opsForPlaybook.slice(0, 6).join(", ")}.`,
       "url": `${SITE_URL}/play/${p.id}/`,
       ...(steps.length ? { "step": steps } : {}),
       "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
@@ -779,6 +809,14 @@ async function main(){
           ],
         },
         ...(cardsForPlaybook.length ? [{ "@type": "ItemList", "name": "Insights this playbook builds on", "itemListElement": cardsForPlaybook.map((c, i) => ({ "@type": "ListItem", "position": i + 1, "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id })) }] : []),
+        {
+          "@type": "WebPage",
+          "@id": `${SITE_URL}/play/${p.id}/#webpage`,
+          "url": `${SITE_URL}/play/${p.id}/`,
+          "name": p.title || p.id,
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".pb-step h3", ".pb-operator-quote p:first-child"] },
+          "isPartOf": { "@id": ORG_CODEX_ID },
+        },
       ],
     };
     // Wide layout (sidebar TOC) is added as per-playbook extra CSS only when there are sections
@@ -788,7 +826,7 @@ async function main(){
     await writeOne({
       outPath: join(DOCS, "play", p.id, "index.html"),
       title: p.title || p.id,
-      description: `Playbook: ${p.title || p.id}. ${opsForPlaybook.slice(0, 4).join(", ")}.`,
+      description: introText ? `${p.title || p.id}: ${introText.slice(0, 155)}` : `Playbook: ${p.title || p.id}. ${opsForPlaybook.slice(0, 4).join(", ")}.`,
       canonical: `${SITE_URL}/play/${p.id}/`,
       hashRoute: `#/play/${p.id}`,
       jsonLd,
