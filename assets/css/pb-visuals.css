@@ -340,6 +340,7 @@
   overflow: hidden;
 }
 
+.pbv-arch-grid.cols-2 { grid-template-columns: repeat(2, 1fr); }
 .pbv-arch-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
 
 .pbv-arch-col {
@@ -394,7 +395,9 @@
 }
 
 @media (max-width: 580px) {
-  .pbv-arch-grid, .pbv-arch-grid.cols-4 { grid-template-columns: 1fr; }
+  .pbv-arch-grid,
+  .pbv-arch-grid.cols-2,
+  .pbv-arch-grid.cols-4 { grid-template-columns: 1fr; }
 }
 
 

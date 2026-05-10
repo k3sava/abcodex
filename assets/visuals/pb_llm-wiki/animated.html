@@ -1,0 +1,52 @@
+<div class="pbv" data-observe aria-label="LLM wiki — four operations">
+  <span class="pbv-eyebrow">Annotated framework · four operations</span>
+  <p class="pbv-vis-title">The LLM Wiki</p>
+
+  <div class="pbv-pipeline-inner">
+    <div class="pbv-spine"></div>
+
+    <div class="pbv-step" style="--step:0">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">INGEST</span>
+      <div>
+        <p class="pbv-step-name">Source → raw file → wiki stub → log entry</p>
+        <p class="pbv-step-note">Source lands in raw/{subdir}/{slug}.md with frontmatter. Stub a synthesis page if warranted. Append one line to log.md. raw/ is append-only: never edit after creation.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:1">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">QUERY</span>
+      <div>
+        <p class="pbv-step-name">Index → 1–3 pages → cite, don't dump</p>
+        <p class="pbv-step-note">Read index.md first. Read 1–3 relevant pages. Extract and cite paths. If the answer isn't there, say so. Do not fabricate. Re-reading pages you already read this session wastes tokens.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:2">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">LINT</span>
+      <div>
+        <p class="pbv-step-name">Walk every page. Fix high-impact in place.</p>
+        <p class="pbv-step-note">Check: orphans, contradictions, stale claims, missing pages, naming drift, schema violations, index mismatches. Fix high-impact inline. Low-impact: document in lint/lint-NNN.md.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:3">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">INDEX + LOG</span>
+      <div>
+        <p class="pbv-step-name">One line per page. Append-only timeline.</p>
+        <p class="pbv-step-note">index.md = content catalog, one line per page, under 200 lines. log.md = chronological, append-only, greppable. Wrong entry? Append a correction — never rewrite history.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pbv-pipeline-more">Wire into sessions: @/path/to/wiki/system-prompt.md + @/path/to/wiki/index.md in CLAUDE.md →</p>
+
+  <div class="pbv-footer">
+    <span>Channels: Andrej Karpathy · Kesava Mandiga</span>
+    <span>ab-codex</span>
+  </div>
+</div>

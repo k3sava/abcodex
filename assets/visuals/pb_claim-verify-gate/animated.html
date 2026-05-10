@@ -1,0 +1,61 @@
+<div class="pbv" data-observe aria-label="Claim verify gate — two-gate substrate-fidelity system">
+  <span class="pbv-eyebrow">Annotated process · two-gate system</span>
+  <p class="pbv-vis-title">The Claim-Verify System</p>
+
+  <div class="pbv-pipeline-inner">
+    <div class="pbv-spine"></div>
+
+    <div class="pbv-step" style="--step:0">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">Gate 6</span>
+      <div>
+        <p class="pbv-step-name">Substrate-cite-check</p>
+        <p class="pbv-step-note">"Is there a substrate citation near this claim?" Catches claims that float free of any source. A claim without a citation is a guess with formatting.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:1">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">Gate 7</span>
+      <div>
+        <p class="pbv-step-name">Claim-verify</p>
+        <p class="pbv-step-note">"Does the cited substrate actually contain the claimed value?" Catches plausible-but-wrong citations. A citation is not a verified claim. The cite must contain the value.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:2">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">03</span>
+      <div>
+        <p class="pbv-step-name">Parse the asset</p>
+        <p class="pbv-step-note">Extract (claim, nearest-substrate-path) pairs. Every external-facing claim with a specific number, date, named entity, or source-system ID gets a pair.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:3">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">04</span>
+      <div>
+        <p class="pbv-step-name">Open the substrate file</p>
+        <p class="pbv-step-note">Check if the claim's specific value appears in that file. Exact match required for dates and named entities. Within 5% tolerance for percentages and quantity units.</p>
+      </div>
+    </div>
+
+    <div class="pbv-step" style="--step:4">
+      <div class="pbv-step-dot"></div>
+      <span class="pbv-step-num">Gate</span>
+      <div>
+        <p class="pbv-step-name">VERIFIED or CITE-VALUE-MISMATCH</p>
+        <p class="pbv-step-note">Verified: value appears in substrate within tolerance. CITE-VALUE-MISMATCH: value is absent or outside tolerance. Flag with specific path and discrepancy. Do not publish mismatches.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <p class="pbv-pipeline-more">Gate 6 + Gate 7 together: "the claim is cited AND the cite is plausibly true" →</p>
+
+  <div class="pbv-footer">
+    <span>Channels: Hamel Husain · Shreya Shankar · Wikipedia AI Cleanup</span>
+    <span>ab-codex</span>
+  </div>
+</div>
