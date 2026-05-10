@@ -44,7 +44,8 @@ Do not write messaging from your own vocabulary. Write it from the buyer's vocab
 JTBD switch interviews are the best source. They trace the timeline from trigger through decision. The trigger language ("we had a critical demo and the call quality broke on us") tells you where and how to advertise. The decision language ("we just needed something that worked without us thinking about it") tells you what the headline should say.
 
 > "JTBD interviews help you define a customer's language, what they actually mean by 'easy,' the root cause of why they switched, and how their story connects, all of which directly impact your product marketing."
-> — Bob Moesta, Intercom podcast (`ins_jtbd-interviews-surface-customer-language`)
+> — Bob Moesta, Intercom podcast
+> `ins_jtbd-interviews-surface-customer-language`
 
 After 5 to 10 interviews, look for the phrases that appear across multiple buyers without being prompted. Those are your message candidates. Test them. If you can copy-paste a customer phrase into a headline and it sounds sharper than your current headline, that is not a coincidence.
 
@@ -61,7 +62,8 @@ Example: instead of "improve team productivity," the situation is "we have 8 rep
 Before you can sell the new way, the buyer needs to recognize that the current way is failing them. Andy Raskin calls this the "old game to new game" narrative. April Dunford calls it the Setup.
 
 > "A live sales pitch is the best way for B2B companies to test their positioning… sales is a back-and-forth with a prospect; sales can and should be asking questions, looking for feedback, and handling objections. Marketing doesn't fully understand the sales team's needs when it comes to a narrative."
-> — April Dunford, "Sales-First Storytelling" (`ins_test-positioning-in-live-sales-pitch`)
+> — April Dunford, "Sales-First Storytelling"
+> `ins_test-positioning-in-live-sales-pitch`
 
 The Setup has three parts:
 
@@ -72,7 +74,8 @@ The Setup has three parts:
 Document the Setup before writing any product messaging. If the Setup lands, the product claims follow naturally. If the Setup is weak, no feature list will compensate.
 
 > "When you survey buyers who didn't buy, 40–60% say they made no purchase decision at all."
-> — April Dunford, Lenny's Podcast, 2026-04-28 (`ins_no-decision-is-the-real-competitor`)
+> — April Dunford, Lenny's Podcast, 2026-04-28
+> `ins_no-decision-is-the-real-competitor`
 
 The most important alternative to include in the Setup is the status quo. Most deals are lost to inertia, not to named competitors. The Setup must make the cost of inaction concrete.
 
@@ -123,7 +126,8 @@ Run the four-question test against the one-liner:
 4. Why is it better? (differentiator)
 
 > "B2B homepages should lead with the trinity of the specific use case, the alternative the buyer is currently using, and the result the product produces, communicable in roughly five seconds."
-> — Anthony Pierri, FletchPMM (`ins_homepage-five-second-trinity`)
+> — Anthony Pierri, FletchPMM
+> `ins_homepage-five-second-trinity`
 
 ### 8. Map the capability layer. This is where copy hangs.
 
@@ -163,7 +167,8 @@ One paragraph: problem, stakes, solution, outcome. This is the seed. Every chann
 The company story is the strategy. When sales decks, the homepage, and product release notes start diverging from each other, positioning is drifting.
 
 > "The company story is the company strategy."
-> — Andy Raskin, citing Amplitude, Clearbit, Auvik cases (`ins_company-story-is-the-strategy`)
+> — Andy Raskin, citing Amplitude, Clearbit, Auvik cases
+> `ins_company-story-is-the-strategy`
 
 Set a monthly audit: compare the sales deck, the homepage hero, and the most recent release notes. Do they share the same problem framing and the same differentiator claim? When they diverge, fix before the next campaign launches.
 
@@ -198,7 +203,8 @@ The homepage structure follows Pierri's buyer-journey logic:
 Each pain claim should be followed immediately by its solution and a proof point. Not pain for three sections, then solution for three sections, then proof. Interleaved.
 
 > "Vision pitches land harder when each pain claim is paired with its own solution claim and a concrete proof point, interleaved per beat, not three sequential acts."
-> — Mihika Kapoor, Figma, Lenny's Podcast (`ins_pain-solution-proof-interleaved-pitch`)
+> — Mihika Kapoor, Figma, Lenny's Podcast
+> `ins_pain-solution-proof-interleaved-pitch`
 
 ### 13. Embed social proof per persona section.
 

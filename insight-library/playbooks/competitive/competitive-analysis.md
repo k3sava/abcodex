@@ -33,7 +33,8 @@ Then tier your competitors by revenue impact, not by marketing noise. Pull three
 One thing most competitive tiers miss: include the status quo. When you survey buyers who did not buy, 40 to 60% report they made no purchase decision at all. They were not comparing you to a competitor. They were not convinced the problem was worth solving.
 
 > "When you survey buyers who didn't buy, 40–60% say they made no purchase decision at all."
-> — April Dunford, Lenny's Podcast, 2026-04-28 (`ins_no-decision-is-the-real-competitor`)
+> — April Dunford, Lenny's Podcast, 2026-04-28
+> `ins_no-decision-is-the-real-competitor`
 
 That means "do nothing" belongs in your competitive tier list. Not as a named competitor, but as a real option the buyer weighs. The analysis must account for it.
 
@@ -55,7 +56,8 @@ Sales reps hear objections, competitor name-drops, and buyer-side reframes every
 The most important source is the sales floor. Reps are the leading indicator for positioning problems. They hear the language of failure months before any dashboard reflects it.
 
 > "Your sales team knows months before anyone else when a position is failing."
-> — April Dunford, LinkedIn (April 2026) (`ins_sales-team-detects-positioning-failure-first`)
+> — April Dunford, LinkedIn (April 2026)
+> `ins_sales-team-detects-positioning-failure-first`
 
 When you centralize this intel, you are also building the feedback loop you will need to keep analysis current. Set up a competitive Slack channel now. The channel does two things: it is where you publish insights going forward, and it is where reps drop what they hear. Neither works without the other.
 
@@ -100,7 +102,8 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 3. Does it matter viscerally to the buyer's job?
 
 > "Being different is not enough. Being better is not enough. It has to be better in a way that matters to the end user."
-> — Ayo Omojola, Lenny's Podcast, 2026-04-28 (`ins_different-better-and-matters`)
+> — Ayo Omojola, Lenny's Podcast, 2026-04-28
+> `ins_different-better-and-matters`
 
 A property that passes the first two checks but not the third is a feature comparison, not a differentiator. Drop it from the profile's attack angles and note it separately.
 
@@ -115,7 +118,8 @@ Limit to 6 to 8 dimensions. More than that and the matrix becomes a checklist no
 Gartner's sameness research documents a specific failure mode here: buyers default to perceiving comparable features across competing products. You have to test that your differentiators actually read as differentiated to external audiences, not just to your team.
 
 > "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."
-> — Gartner, Market Guide for B2B Message Testing Solutions (G00823537), 2025 (`ins_sameness-perception-is-the-differentiation-barrier`)
+> — Gartner, Market Guide for B2B Message Testing Solutions (G00823537), 2025
+> `ins_sameness-perception-is-the-differentiation-barrier`
 
 Before the matrix ships, run at least one external test: a prospect conversation, a quick panel, or a 5-second test on the homepage. If the differentiators land internally but not externally, you have positioned for yourselves, not for buyers.
 
@@ -132,7 +136,8 @@ Battlecards are the most important competitive deliverable. They are not the com
 The traditional model treats battlecards as documents: a PMM writes one, a sales rep reads it, it goes stale. The better model treats battlecards as curated intel that updates when the inputs update.
 
 > "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows. Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
-> — Gartner, Innovation Insight: Rethinking Battle Cards in the Age of AI (G00832921), 2025 (`ins_battle-cards-as-workflow-primitive`)
+> — Gartner, Innovation Insight: Rethinking Battle Cards in the Age of AI (G00832921), 2025
+> `ins_battle-cards-as-workflow-primitive`
 
 The practical implication: your job as the PMM shifts from authoring the document to curating the inputs. The inputs are win/loss interviews, competitor product updates, and field rep reports. When those update, the battlecard updates. Not quarterly. On event.
 

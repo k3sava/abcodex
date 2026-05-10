@@ -53,13 +53,16 @@ How to diagnose: where is the audience finding this copy? A cold ad on a social 
 The headline is found, not invented. Ogilvy's rule: read every input document, every customer interview, every G2 review, every support ticket before writing a headline. Highlight the specific facts. The best headline is usually a fact that surprises you when you first encounter it.
 
 > "Spend 20% of your total writing time on the headline alone. If a page takes five hours to write, the headline gets a full hour of that time."
-> — Cole Schafer (`ins_20-percent-rule-headline`)
+> — Cole Schafer
+> `ins_20-percent-rule-headline`
 
 > "Every headline must function as a complete persuasive argument in itself."
-> — Eddie Shleyner (`ins_shleyner-headline-as-complete-argument`)
+> — Eddie Shleyner
+> `ins_shleyner-headline-as-complete-argument`
 
 > "Clarity beats cleverness, always. A headline that requires interpretation is a headline that fails."
-> — Eddie Shleyner (`ins_shleyner-clarity-beats-cleverness`)
+> — Eddie Shleyner
+> `ins_shleyner-clarity-beats-cleverness`
 
 In scanning contexts, the headline is often the only element the reader encounters. The headline therefore must complete the persuasive argument on its own, for the 95% who never scroll past it. Body copy amplifies an already-made case. It does not make the case.
 
@@ -78,7 +81,8 @@ Pick the archetype that fits the awareness level of the audience. Do not mix the
 Every buying decision reduces to one axis: moving toward pleasure or moving away from pain. Copy that does not activate either pole is ignored.
 
 > "People buy for exactly one reason: to move closer to pleasure or further from pain. Everything else is noise."
-> — Cole Schafer (`ins_schafer-pain-pleasure-polarity`)
+> — Cole Schafer
+> `ins_schafer-pain-pleasure-polarity`
 
 Diagnosing the pole is a research job. Look at the interviews and the reviews. What language do buyers use? Relief language ("finally," "no more," "we can stop...") signals a pain buyer. Aspiration language ("imagine," "the kind of team that," "now we can...") signals a pleasure buyer. Write to the language you find. Do not impose a pole the buyer is not on.
 
@@ -93,7 +97,8 @@ The mistake is oscillating between both poles in the same piece. Pick one and co
 The most common B2B copy failure is company-side framing: "We are proud to announce..." / "Our award-winning team..." / "We have been delivering excellence since..." The reader does not care. The reader wants to know what you will do for them.
 
 > "People don't want to know how proud you are of your company. They want to know how you'll change their life."
-> — Dave Harland (`ins_harland-benefits-over-pride`)
+> — Dave Harland
+> `ins_harland-benefits-over-pride`
 
 The discipline is simple and consistently violated: start sentences with "you" and "your" more often than with "we" and "our." Each "we" sentence asks: is this sentence serving the reader, or serving the company? If it is serving the company, cut it or rewrite it to serve the reader.
 
@@ -117,7 +122,8 @@ Round numbers without sources read as invented. "40% faster" from no source is a
 Proof is most persuasive when it is adjacent to the claim it supports. Not stacked into a testimonials section at the bottom of the page. Every capability claim gets its own proof point, interleaved.
 
 > "Vision pitches land harder when each pain claim is paired with its own solution claim and a concrete proof point, interleaved per beat, not three sequential acts."
-> — Mihika Kapoor, Figma (`ins_pain-solution-proof-interleaved-pitch`)
+> — Mihika Kapoor, Figma
+> `ins_pain-solution-proof-interleaved-pitch`
 
 ---
 
@@ -140,7 +146,8 @@ The believability gap is wider for outrageous promises. The bigger the claim, th
 In a market saturated with AI-generated prose, the only defensible advantage is a distinctive voice.
 
 > "The only defensible advantage is a distinctive, authentic voice that sounds like it could only come from one source."
-> — Ann Handley (`ins_handley-voice-as-moat-against-ai`)
+> — Ann Handley
+> `ins_handley-voice-as-moat-against-ai`
 
 Voice is not a style guide. It is a function of a specific person's perspective, word habits, and lived experience. It cannot be replicated without that person's continued involvement. Voice degrades when it is delegated to a content team following a guide, the guide can describe the voice, it cannot produce it.
 
@@ -165,7 +172,8 @@ Run a 5-second test: show the page to 5 people for 5 seconds, then ask what the 
 **Hero.** Communicate use case, alternative, and result in 5 seconds.
 
 > "B2B homepages should lead with the trinity of the specific use case, the alternative the buyer is currently using, and the result the product produces, communicable in roughly five seconds."
-> — Anthony Pierri, FletchPMM (`ins_homepage-five-second-trinity`)
+> — Anthony Pierri, FletchPMM
+> `ins_homepage-five-second-trinity`
 
 Lead with capabilities, what someone does with the product, not aspirational outcomes. "Build pipeline" describes an aspiration. "Call 300 leads per day without manual dialing" describes a capability. The capability is what converts.
 
@@ -189,3 +197,35 @@ Lead with capabilities, what someone does with the product, not aspirational out
 - **Proof segregated to a testimonials section.** Proof that lives at the bottom of the page cannot do the work of proof adjacent to the claim it supports.
 - **Oscillating between pain and pleasure poles.** Mixing "escape the chaos" with "unlock new growth" in the same piece delivers neither. Pick a pole and commit.
 - **Cleverness over clarity.** The witty headline that requires 2 seconds of interpretation loses the reader in a scanning context. Clarity wins.
+
+---
+
+## Quality gates
+
+Before publishing any copy, verify:
+
+- [ ] Awareness level diagnosed. Opening matches the channel and funnel stage.
+- [ ] Polarity committed. One pole: pain or pleasure. Not both.
+- [ ] Headline spent 20% of total writing time. At least 10 versions written before choosing.
+- [ ] Hero copy passes the 5-second test. A stranger can describe the product and who it's for in one sentence.
+- [ ] Every major claim has at least one proof point interleaved adjacent to it, not segregated.
+- [ ] Numbers are specific, not round, and sourced when possible.
+- [ ] CTAs are honest verbs. The action on click matches the button.
+- [ ] "We/Our" sentences have all been audited. Each earns its place by serving the reader.
+- [ ] Kill-list words gone: powerful, robust, comprehensive, seamless, innovative, holistic, synergy, cutting-edge, leverage, transform.
+- [ ] VoC language used in headline and hero. At least one phrase from buyer interviews, not invented internally.
+
+---
+
+## Outputs
+
+1. Awareness-level diagnosis for each channel and audience.
+2. Polarity decision: pain or pleasure, with supporting evidence from buyer language.
+3. 10 headline variations per section before final selection.
+4. Value matrix: pain, capability, benefit, and message per persona (see `pb_messaging-matrix`).
+5. Hero copy: H1, H2, and CTA that pass the 5-second test.
+6. Proof stack per capability claim: specific data point, named example, third-party source.
+7. Section copy: feature sections in Three-W format (What, Why, So what).
+8. Voice draft: first pass written without correctness edits, voice captured before polish.
+9. CTA audit: honest verb matched to the actual action on click.
+10. Full 5-second test results with rewrite if comprehension failed.
