@@ -35,7 +35,7 @@ Competitors appearing in all three sources are Tier 1. A competitor that is loud
 One thing most competitive tiers miss: include the status quo. When you survey buyers who did not buy, 40 to 60% report they made no purchase decision at all. They were not comparing you to a competitor. They were not convinced the problem was worth solving.
 
 > "When you survey buyers who didn't buy, 40–60% say they made no purchase decision at all."
-> — April Dunford, Lenny's Podcast, 2026-04-28
+> · April Dunford, Lenny's Podcast, 2026-04-28
 > `ins_no-decision-is-the-real-competitor`
 
 That means "do nothing" belongs in your competitive tier list. Not as a named competitor, but as a real option the buyer weighs. The analysis must account for it.
@@ -60,7 +60,7 @@ Your first step is to put it in one place.
 The most important source is the sales floor. Reps are the leading indicator for positioning problems. They hear the language of failure months before any dashboard reflects it.
 
 > "Your sales team knows months before anyone else when a position is failing."
-> — April Dunford, LinkedIn (April 2026)
+> · April Dunford, LinkedIn (April 2026)
 > `ins_sales-team-detects-positioning-failure-first`
 
 When you centralize this intel, you are also building the feedback loop you will need to keep analysis current. Set up a competitive Slack channel now. The channel does two things: it is where you publish insights going forward, and it is where reps drop what they hear. Neither works without the other.
@@ -98,7 +98,7 @@ For each Tier-1 competitor, build a profile that answers: what do they do, who d
 The most dangerous failure in a competitor profile is dishonesty about their strengths. One wrong claim about a competitor's pricing or capability permanently breaks seller trust in everything you produce.
 
 > "All it takes is one piece of bad intel to lose the trust of your sellers."
-> — [Crayon, State of Competitive Intelligence](https://www.crayon.co/state-of-competitive-intelligence)
+> · [Crayon, State of Competitive Intelligence](https://www.crayon.co/state-of-competitive-intelligence)
 
 Acknowledge competitor strengths honestly. The stronger your concession, the more your differentiation claims carry weight. This is not a positioning strategy. It is an epistemic practice. Your salespeople will fact-check you in live conversations.
 
@@ -110,7 +110,7 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 
 > "Being different is not enough. Being better is not enough.
 > It has to be better in a way that matters to the end user."
-> — Ayo Omojola, Lenny's Podcast, 2026-04-28
+> · Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
 A property that passes the first two checks but not the third is a feature comparison, not a differentiator. Drop it from the profile's attack angles and note it separately.
@@ -129,7 +129,7 @@ Gartner's sameness research documents a specific failure mode here: buyers defau
 
 > "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts
 > if product marketers do not test their differentiators with external audiences."
-> — Gartner, Market Guide for B2B Message Testing, 2025
+> · Gartner, Market Guide for B2B Message Testing, 2025
 > `ins_sameness-perception-is-the-differentiation-barrier`
 
 Before the matrix ships, run at least one external test: a prospect conversation, a quick panel, or a 5-second test on the homepage. If the differentiators land internally but not externally, you have positioned for yourselves, not for buyers.
@@ -148,7 +148,7 @@ The traditional model treats battlecards as documents: a PMM writes one, a sales
 
 > "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows.
 > Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
-> — Gartner, Innovation Insight: Rethinking Battle Cards, 2025
+> · Gartner, Innovation Insight: Rethinking Battle Cards, 2025
 > `ins_battle-cards-as-workflow-primitive`
 
 The practical implication: your job as the PMM shifts from authoring the document to curating the inputs. The inputs are win/loss interviews, competitor product updates, and field rep reports. When those update, the battlecard updates. Not quarterly. On event.
