@@ -1,6 +1,6 @@
-# ab-codex working agreement
+# abcodex working agreement
 
-Public operator insight library at codex.iamkesava.com. Open-source, machine-discoverable, mobile-first. Higher bar than the average dev project. Atomic operator-attributed insights — every claim traces to a named human who shipped something.
+Public operator insight library at abcodex.iamkesava.com. Open-source, machine-discoverable, mobile-first. Higher bar than the average dev project. Atomic operator-attributed insights — every claim traces to a named human who shipped something.
 
 ## Voice (always-on)
 
@@ -34,8 +34,8 @@ Every fact traces to raw source, codebase, or operator's own words. If it doesn'
 
 ## Detail layer
 
-Load `ab-codex-playbook` skill (`.claude/skills/ab-codex-playbook/SKILL.md`) when implementing features, building pages, or auditing surfaces. It carries: UX & design rules, IA edge model, accessibility floor, sharing & AEO surfaces, 10 QC failure modes, error-eye patterns, loop discipline, round structure.
+Load `abcodex-playbook` skill (`.claude/skills/abcodex-playbook/SKILL.md`) when implementing features, building pages, or auditing surfaces. It carries: UX & design rules, IA edge model, accessibility floor, sharing & AEO surfaces, 10 QC failure modes, error-eye patterns, loop discipline, round structure.
 
 ## Updates
 
-New rules go in `.claude/skills/ab-codex-playbook/SKILL.md` (or a new sibling skill), not here. This file stays ≤100 lines.
+New rules go in `.claude/skills/abcodex-playbook/SKILL.md` (or a new sibling skill), not here. This file stays ≤100 lines.

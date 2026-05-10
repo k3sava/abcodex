@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://codex.iamkesava.com";
+const SITE_URL = "https://abcodex.iamkesava.com";
 
 const escapeXml = s => (s || "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&apos;"}[c]));
 
@@ -197,7 +197,7 @@ Sitemap: ${SITE_URL}/sitemap.xml
       "playbook_url_template": `${SITE_URL}/play/{id}/`,
       "release_url_template": `${SITE_URL}/today/{date}/`
     },
-    "contact": "https://github.com/k3sava/ab-codex/issues",
+    "contact": "https://github.com/k3sava/abcodex/issues",
     "last_updated": today
   };
   await mkdir(join(DOCS, ".well-known"), { recursive: true });
@@ -276,10 +276,10 @@ Sitemap: ${SITE_URL}/sitemap.xml
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>a builder's codex · release log</title>
+    <title>abcodex · release log</title>
     <link>${SITE_URL}/today/</link>
     <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
-    <description>What is new in a builder's codex. Daily ingests, prompted batches, depth passes.</description>
+    <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
 ${items}
@@ -360,13 +360,13 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 ## Authoring
 
-- [Ingest protocol](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
-- [Insight card schema](https://github.com/k3sava/ab-codex/blob/main/insight-library/00_meta/insight-card-schema.md)
-- [Daily release-log contract](https://github.com/k3sava/ab-codex/blob/main/insight-library/daily/README.md)
+- [Ingest protocol](https://github.com/k3sava/abcodex/blob/main/insight-library/00_meta/INGEST-PROTOCOL.md)
+- [Insight card schema](https://github.com/k3sava/abcodex/blob/main/insight-library/00_meta/insight-card-schema.md)
+- [Daily release-log contract](https://github.com/k3sava/abcodex/blob/main/insight-library/daily/README.md)
 
 ## Optional
 
-- [GitHub repository](https://github.com/k3sava/ab-codex): MIT licensed. Insights are open source; raw sources retain original copyright.
+- [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
 Last updated: ${today}.
 `;

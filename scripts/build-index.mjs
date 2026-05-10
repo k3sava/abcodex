@@ -340,7 +340,7 @@ async function main() {
         ``,
         `**${ld.title ?? "What's new"}** — ${ld.summary ?? ""}`,
         ``,
-        `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://codex.iamkesava.com/#/today)`,
+        `[Read what landed →](insight-library/${latestPath}) · [See on the site →](https://abcodex.iamkesava.com/#/today)`,
       ].join("\n");
       readme = spliceMarkers(readme, "LATEST", latestBlock);
     }

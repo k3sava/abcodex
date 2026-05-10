@@ -1,13 +1,13 @@
-# a builder's codex
+# abcodex
 
-> **[Open the interactive site → codex.iamkesava.com](https://codex.iamkesava.com/)**
+> **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
 ### Latest — 2026-05-10 · 4 insights
 
 **Context engineering quantified, AEO continuity, volume versus curation** — Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.
 
-[Read what landed →](insight-library/daily/2026-05-10.md) · [See on the site →](https://codex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-10.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -27,31 +27,31 @@ Every card carries: operator, role, source URL, source date, claim, mechanism, c
 
 ## Browse
 
-The site at [codex.iamkesava.com](https://codex.iamkesava.com/) gives you several ways to read the same corpus:
+The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you several ways to read the same corpus:
 
 | View | What it's for |
 |------|---------------|
-| [Home](https://codex.iamkesava.com/) | Tier A claims and a domain index |
-| [Map](https://codex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://codex.iamkesava.com/#/operators) | All 465 profiles, sorted by card count |
-| [Patterns](https://codex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
-| [Browse](https://codex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
-| [Timeline](https://codex.iamkesava.com/#/timeline) | Newest captures first |
-| [Flash](https://codex.iamkesava.com/#/flash) | One card at a time, prev/next/shuffle |
+| [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
+| [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 465 profiles, sorted by card count |
+| [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
+| [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
+| [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
+| [Flash](https://abcodex.iamkesava.com/#/flash) | One card at a time, prev/next/shuffle |
 
 Press `⌘K` (or `Ctrl-K`) anywhere to search across operators, claims, and patterns.
 
 ### Map
 
-[![map](docs/screenshots/map.png)](https://codex.iamkesava.com/#/map)
+[![map](docs/screenshots/map.png)](https://abcodex.iamkesava.com/#/map)
 
 ### Patterns
 
-[![patterns](docs/screenshots/patterns.png)](https://codex.iamkesava.com/#/patterns)
+[![patterns](docs/screenshots/patterns.png)](https://abcodex.iamkesava.com/#/patterns)
 
 ### A single insight
 
-[![insight](docs/screenshots/insight.png)](https://codex.iamkesava.com/#/ins/ins_agents-as-team-not-tools)
+[![insight](docs/screenshots/insight.png)](https://abcodex.iamkesava.com/#/ins/ins_agents-as-team-not-tools)
 
 ## What you'll find
 
@@ -62,7 +62,7 @@ A few of the operators currently in the corpus: April Dunford, Andrej Karpathy, 
 ## Repository structure
 
 ```
-ab-codex/
+abcodex/
 ├── insight-library/
 │   ├── 00_meta/        — schema, taxonomy, scoring model, ingest protocol
 │   ├── insights/       — atomic insight cards (one claim each)
@@ -97,4 +97,4 @@ The site reads from `insight-library/INDEX.json` and rebuilds itself on every pu
 
 ## License
 
-Insight cards and synthesis pages are released under MIT. Raw sources retain their original copyright; codex archives short excerpts under fair use, always with attribution and a link back to the canonical source.
+Insight cards and synthesis pages are released under MIT. Raw sources retain their original copyright; abcodex archives short excerpts under fair use, always with attribution and a link back to the canonical source.

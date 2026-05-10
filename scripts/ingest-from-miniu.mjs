@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-// ingest-from-miniu.mjs — pull miniu's morning brief into ab-codex.
+// ingest-from-miniu.mjs — pull miniu's morning brief into abcodex.
 //
 // Pipeline:
 //   1. Read ~/r2d2/miniu/data/ai-digest/YYYY-MM-DD.md (target date, default today)
-//   2. Read ab-codex INDEX.json + operator slug list (for dedup)
+//   2. Read abcodex INDEX.json + operator slug list (for dedup)
 //   3. Call Claude API with the digest + the ingest prompt; receive JSON
 //   4. Validate JSON; write insight + operator + daily files
 //   5. Run scripts/build-all.sh
@@ -53,7 +53,7 @@ async function log(msg){
 
 async function loadEnv(){
   // Read miniu's .env for ANTHROPIC_API_KEY + AGENTMAIL_API_KEY since that's
-  // where the keys live. No need to duplicate them in ab-codex.
+  // where the keys live. No need to duplicate them in abcodex.
   const envPath = join(HOME, "r2d2", "miniu", ".env");
   try {
     const text = await readFile(envPath, "utf8");
@@ -171,8 +171,8 @@ async function loadIndex(){
 async function emailLinkedinDraft(date, post, releaseTitle){
   const apiKey = process.env.AGENTMAIL_API_KEY;
   if (!apiKey){ await log("warn: AGENTMAIL_API_KEY not set, skipping email"); return; }
-  const subject = `[ab-codex] LinkedIn draft — ${date}`;
-  const body = `Today's release shipped: ${releaseTitle}\n\nLinkedIn draft (50-100 words, in your voice):\n\n---\n\n${post}\n\n---\n\nLive at https://codex.iamkesava.com/today/${date}/\n\nReply with edits or post when ready.`;
+  const subject = `[abcodex] LinkedIn draft — ${date}`;
+  const body = `Today's release shipped: ${releaseTitle}\n\nLinkedIn draft (50-100 words, in your voice):\n\n---\n\n${post}\n\n---\n\nLive at https://abcodex.iamkesava.com/today/${date}/\n\nReply with edits or post when ready.`;
   const res = await fetch("https://api.agentmail.to/v0/inboxes/miniu@agentmail.to/messages/send", {
     method: "POST",
     headers: { "Authorization": `Bearer ${apiKey}`, "Content-Type": "application/json" },

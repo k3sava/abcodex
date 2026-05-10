@@ -30,7 +30,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://codex.iamkesava.com";
+const SITE_URL = "https://abcodex.iamkesava.com";
 
 // Shared Person + Organization references. Every static page's @graph cites
 // these by @id so AI search agents see one canonical entity per author/org
@@ -187,7 +187,7 @@ function rewriteBodyLinks(html, INDEX){
 }
 
 function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }){
-  const fullTitle = title ? `${escapeHtml(title)} · a builder's codex` : "a builder's codex";
+  const fullTitle = title ? `${escapeHtml(title)} · abcodex` : "abcodex";
   const desc = escapeHtml(description || "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.");
   const url = canonical;
   const og = ogImage || `${SITE_URL}/og.svg`;
@@ -206,12 +206,12 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <meta property="og:description" content="${desc}">
 <meta property="og:url" content="${escapeAttr(url)}">
 <meta property="og:image" content="${escapeAttr(og)}">
-<meta property="og:site_name" content="a builder's codex">
+<meta property="og:site_name" content="abcodex">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${fullTitle}">
 <meta name="twitter:description" content="${desc}">
 <meta name="twitter:image" content="${escapeAttr(og)}">
-<link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="${SITE_URL}/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="abcodex · release log" href="${SITE_URL}/rss.xml">
 <link rel="service-doc" href="${SITE_URL}/llms.txt">
 <link rel="api-catalog" href="${SITE_URL}/.well-known/api-catalog">
 <link rel="describedby" href="${SITE_URL}/.well-known/agent-permissions.json">
@@ -288,7 +288,7 @@ ${ld}
 </head>
 <body>
 <header class="static-topbar">
-  <a class="brand" href="${SITE_URL}/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
+  <a class="brand" href="${SITE_URL}/"><span class="dot" aria-hidden="true"></span>abcodex</a>
   <nav>
     <a href="${SITE_URL}/operators/">operators</a>
     <a href="${SITE_URL}/patterns/">patterns</a>
@@ -304,7 +304,7 @@ ${hasVisual ? '<script src="/assets/js/pb-visuals.js" defer></script>' : ''}
 <footer class="static-footer">
   <div class="static-feeds"><a href="${SITE_URL}/llms.txt" rel="noopener">llms.txt</a> · <a href="${SITE_URL}/sitemap.xml" rel="noopener">sitemap</a> · <a href="${SITE_URL}/rss.xml" rel="noopener">rss</a> · <a href="${SITE_URL}/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>`;
@@ -372,7 +372,7 @@ async function main(){
     const cta = `<div class="static-actions">
       <a class="primary" href="${SITE_URL}/#/ins/${i.id}">Open the interactive view →</a>
       <a href="${escapeAttr(i.source_url || "#")}" rel="external nofollow">View original source →</a>
-      <a href="https://raw.githubusercontent.com/k3sava/ab-codex/main/insight-library/${i.path}" rel="noopener">Markdown source →</a>
+      <a href="https://raw.githubusercontent.com/k3sava/abcodex/main/insight-library/${i.path}" rel="noopener">Markdown source →</a>
     </div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/operators/">operators</a> · <a href="${SITE_URL}/o/${opSlug}/">${escapeHtml(opName)}</a> · ${i.id}</div>`;
     // Pull ## Section bodies out of the markdown for FAQPage extraction.
@@ -410,7 +410,7 @@ async function main(){
           "author": [{ "@type": "Person", "name": opName, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
             ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => ({ "@type": "Person", "name": co })) : [])],
           "isBasedOn": i.source_url || undefined,
-          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
+          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
           "url": `${SITE_URL}/ins/${i.id}/`,
           "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
           "keywords": (i.domain || []).join(", "),
@@ -421,7 +421,7 @@ async function main(){
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
             { "@type": "ListItem", "position": 2, "name": "operators", "item": SITE_URL + "/operators/" },
             { "@type": "ListItem", "position": 3, "name": opName, "item": `${SITE_URL}/o/${opSlug}/` },
             { "@type": "ListItem", "position": 4, "name": i.title || i.id, "item": `${SITE_URL}/ins/${i.id}/` },
@@ -478,7 +478,7 @@ async function main(){
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
             { "@type": "ListItem", "position": 2, "name": "operators", "item": SITE_URL + "/operators/" },
             { "@type": "ListItem", "position": 3, "name": op.name || op.slug, "item": `${SITE_URL}/o/${op.slug}/` },
           ],
@@ -488,7 +488,7 @@ async function main(){
     await writeOne({
       outPath: join(DOCS, "o", op.slug, "index.html"),
       title: op.name || op.slug,
-      description: `${op.name || op.slug} on a builder's codex. Operator profile, insights, primary sources.`,
+      description: `${op.name || op.slug} on abcodex. Operator profile, insights, primary sources.`,
       canonical: `${SITE_URL}/o/${op.slug}/`,
       hashRoute: `#/o/${op.slug}`,
       jsonLd,
@@ -513,7 +513,7 @@ async function main(){
       description: `Synthesis pattern: ${p.title || p.id}. Where multiple operators converge on the same idea from different angles.`,
       canonical: `${SITE_URL}/pat/${p.id}/`,
       hashRoute: `#/pat/${p.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       ogImage: `${SITE_URL}/og/pat/${p.id}.svg`,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
@@ -535,7 +535,7 @@ async function main(){
       description: `Contradiction: ${c.title || c.id}. Where operators disagree on the same question.`,
       canonical: `${SITE_URL}/con/${c.id}/`,
       hashRoute: `#/con/${c.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": c.title || c.id, "url": `${SITE_URL}/con/${c.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": c.title || c.id, "url": `${SITE_URL}/con/${c.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       body: `${crumbs}<h1>${escapeHtml(c.title || c.id)}</h1><article>${renderedBody}</article>${cta}`,
     });
   }
@@ -582,7 +582,7 @@ async function main(){
       "description": `Playbook bundling operator-attributed insights from ${opsForPlaybook.slice(0, 6).join(", ")}.`,
       "url": `${SITE_URL}/play/${p.id}/`,
       ...(steps.length ? { "step": steps } : {}),
-      "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
+      "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
     };
     const jsonLd = {
       "@context": "https://schema.org",
@@ -591,7 +591,7 @@ async function main(){
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
             { "@type": "ListItem", "position": 2, "name": "playbooks", "item": SITE_URL + "/playbooks/" },
             { "@type": "ListItem", "position": 3, "name": p.title || p.id, "item": `${SITE_URL}/play/${p.id}/` },
           ],
@@ -639,7 +639,7 @@ async function main(){
       description: d.summary || `Release notes for ${d.date}.`,
       canonical: `${SITE_URL}/today/${d.date}/`,
       hashRoute: `#/today#r-${d.date}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": d.title || `release ${d.date}`, "datePublished": d.date, "url": `${SITE_URL}/today/${d.date}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
+      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": d.title || `release ${d.date}`, "datePublished": d.date, "url": `${SITE_URL}/today/${d.date}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
       body: `${crumbs}<h1>${escapeHtml(d.title || `release ${d.date}`)}</h1>${meta}<article>${renderedBody}</article>${cta}`,
     });
   }
@@ -652,7 +652,7 @@ async function main(){
     title, description,
     canonical: `${SITE_URL}/${path}/`,
     hashRoute: path === "" ? "" : `#/${path === "today" ? "today" : path}`,
-    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": `${SITE_URL}/${path}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
+    jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": `${SITE_URL}/${path}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
     body,
   });
 
@@ -673,7 +673,7 @@ async function main(){
       <h1>${INDEX.operators.length} operators</h1>
       <p class="static-meta">Each profile carries the operator's bio, operating themes, attributed cards, and primary sources.</p>
       ${sectionEls}`;
-    await listShell("operators", "operators", `Index of ${INDEX.operators.length} operator profiles in a builder's codex. Primary-source, named-author insights.`, body);
+    await listShell("operators", "operators", `Index of ${INDEX.operators.length} operator profiles in abcodex. Primary-source, named-author insights.`, body);
   }
 
   // Patterns index
@@ -683,7 +683,7 @@ async function main(){
       <h1>${list.length} synthesis patterns</h1>
       <p class="static-meta">Where 3+ operators converge on the same idea from different angles. Each pattern names the operators, the cards, and the implication.</p>
       <ul>${list.map(p => `<li><a href="${SITE_URL}/pat/${p.id}/">${escapeHtml(p.title || p.id)}</a>${p.convergence_count ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${p.convergence_count} ops)</span>` : ""}</li>`).join("")}</ul>`;
-    await listShell("patterns", "patterns", `${list.length} cross-operator convergences in a builder's codex.`, body);
+    await listShell("patterns", "patterns", `${list.length} cross-operator convergences in abcodex.`, body);
   }
 
   // Playbooks index
@@ -693,7 +693,7 @@ async function main(){
       <h1>${list.length} playbooks</h1>
       <p class="static-meta">Methodology playbooks distilled across the corpus.</p>
       <ul>${list.map(p => `<li><a href="${SITE_URL}/play/${p.id}/">${escapeHtml(p.title || p.id)}</a></li>`).join("")}</ul>`;
-    await listShell("playbooks", "playbooks", `${list.length} methodology playbooks in a builder's codex.`, body);
+    await listShell("playbooks", "playbooks", `${list.length} methodology playbooks in abcodex.`, body);
   }
 
   // Release log index
@@ -710,7 +710,7 @@ async function main(){
         if (oa) counts.push(`+${oa} operator${oa===1?"":"s"}`);
         return `<li><a href="${SITE_URL}/today/${d.date}/">${escapeHtml(d.date)} · ${escapeHtml(d.title || "release")}</a>${counts.length ? ` <span style="color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.75em">(${counts.join(" · ")})</span>` : ""}</li>`;
       }).join("")}</ul>`;
-    await listShell("today", "release log", `${list.length} releases in a builder's codex. Daily ingests, prompted batches, depth passes.`, body);
+    await listShell("today", "release log", `${list.length} releases in abcodex. Daily ingests, prompted batches, depth passes.`, body);
   }
 
   // === domain pages — one per unique domain across the corpus ===
@@ -756,21 +756,21 @@ async function main(){
             "@type": "DefinedTerm",
             "name": dom,
             "inDefinedTermSet": `${SITE_URL}/`,
-            "description": `Domain in a builder's codex. ${cardsInDom.length} insights from ${opsInDom.size} operators.`,
+            "description": `Domain in abcodex. ${cardsInDom.length} insights from ${opsInDom.size} operators.`,
             "url": `${SITE_URL}/d/${dom}/`,
           },
           {
             "@type": "CollectionPage",
-            "name": `${dom} · a builder's codex`,
+            "name": `${dom} · abcodex`,
             "url": `${SITE_URL}/d/${dom}/`,
             "about": { "@type": "DefinedTerm", "name": dom },
-            "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "a builder's codex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
+            "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
             "hasPart": cardsInDom.slice(0, 30).map(c => ({ "@type": "Article", "url": `${SITE_URL}/ins/${c.id}/`, "name": c.title || c.id, "author": { "@type": "Person", "name": c.operator || "·" } })),
           },
           {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "a builder's codex", "item": SITE_URL + "/" },
+              { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
               { "@type": "ListItem", "position": 2, "name": "browse", "item": SITE_URL + "/browse/" },
               { "@type": "ListItem", "position": 3, "name": dom, "item": `${SITE_URL}/d/${dom}/` },
             ],
@@ -779,7 +779,7 @@ async function main(){
       };
       await writeOne({
         outPath: join(DOCS, "d", dom, "index.html"),
-        title: `${dom} · a builder's codex`,
+        title: `${dom} · abcodex`,
         description: `${cardsInDom.length} insights from ${opsInDom.size} operators in the ${dom} domain. Tier-A claims, synthesis patterns, adjacent domains.`,
         canonical: `${SITE_URL}/d/${dom}/`,
         hashRoute: `#/d/${dom}`,

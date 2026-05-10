@@ -1,9 +1,9 @@
 ---
-name: ab-codex-playbook
-description: Detailed UX, IA, accessibility, AEO, sharing, QC, and round-structure rules for ab-codex (codex.iamkesava.com). Load when implementing features, building pages, or auditing surfaces. Anti-fabrication and voice rules are in CLAUDE.md and apply unconditionally.
+name: abcodex-playbook
+description: Detailed UX, IA, accessibility, AEO, sharing, QC, and round-structure rules for abcodex (abcodex.iamkesava.com). Load when implementing features, building pages, or auditing surfaces. Anti-fabrication and voice rules are in CLAUDE.md and apply unconditionally.
 ---
 
-# ab-codex playbook (detail layer)
+# abcodex playbook (detail layer)
 
 CLAUDE.md has the always-on rules (voice, anti-fabrication, working agreement). This skill carries the detail.
 

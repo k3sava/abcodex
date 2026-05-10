@@ -266,8 +266,8 @@ body {{ width:1200px; height:628px; background:{PAPER}; overflow:hidden; }}
     <div class="sub">{sub}</div>
   </div>
   <div class="footer">
-    <span>ab-codex</span>
-    <span>codex.iamkesava.com</span>
+    <span>abcodex</span>
+    <span>abcodex.iamkesava.com</span>
   </div>
 </div>
 </body>

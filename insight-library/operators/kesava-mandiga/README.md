@@ -20,7 +20,7 @@ external:
 
 Kesava Mandiga. Product marketing operator with 20 years across support, sales, operations, social media, content, and PMM. Founding PMM at Wingman through the Clari acquisition. First marketer at Fincent. Head of PMM at JustCall. The method is the same everywhere: customer interviews, a Value Proposition Canvas (Jobs, Pains, Triggers, Gains, Solution, Evidence), then messaging where every claim traces to a quote.
 
-Builds in parallel: Flywheel (PMM operating model, on Claude Code and GitHub), the ab-codex corpus you're reading, and a personal agent ecosystem (miniu, Commons, Curiosity).
+Builds in parallel: Flywheel (PMM operating model, on Claude Code and GitHub), the abcodex corpus you're reading, and a personal agent ecosystem (miniu, Commons, Curiosity).
 
 ## Voice
 

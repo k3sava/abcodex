@@ -78,14 +78,14 @@ function ogSvg({ kind, eyebrow, title, byline, tier, footer }){
   <rect x="0" y="0" width="${W}" height="6" fill="url(#band)"/>
   <g transform="translate(80, 60)">
     <circle cx="0" cy="14" r="6" fill="#2c8b4f"/>
-    <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">a builder's codex</text>
+    <text x="16" y="20" font-family="Newsreader, serif" font-size="22" fill="#0d1410">abcodex</text>
   </g>
   ${eyebrow ? `<text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">${escapeXml(eyebrow.toUpperCase())}</text>` : ""}
   ${tierBadge}
   ${titleLines.map((line, i) => `<text x="80" y="${titleStartY + i * lineHeight}" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">${escapeXml(line)}</text>`).join("\n  ")}
   ${byline ? `<text x="80" y="${titleStartY + titleLines.length * lineHeight + 36}" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">${escapeXml(byline)}</text>` : ""}
   ${footer ? `<text x="80" y="${H - 60}" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">${escapeXml(footer)}</text>` : ""}
-  <text x="${W - 80}" y="${H - 60}" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">codex.iamkesava.com</text>
+  <text x="${W - 80}" y="${H - 60}" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">abcodex.iamkesava.com</text>
 </svg>`;
 }
 

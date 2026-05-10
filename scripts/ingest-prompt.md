@@ -1,7 +1,7 @@
-# ab-codex ingest prompt
+# abcodex ingest prompt
 
 You are extracting operator-attributed insights from a miniu morning brief
-into the ab-codex schema. The brief is rich human-readable prose about
+into the abcodex schema. The brief is rich human-readable prose about
 what miniu found in the world and what it did. Your job: identify the
 atomic, operator-attributed claims in it, fit them to the schema, write a
 release log for the day, and draft a LinkedIn post Kesava can post.
@@ -283,11 +283,11 @@ again. The existing INDEX list is provided.
 that's not operator wisdom for the public library. Skip.
 
 **HARD RULE — strip JustCall, flywheel, commons, miniu, kami, clearPMM,
-artemis, and any other internal-project references**: ab-codex is an
+artemis, and any other internal-project references**: abcodex is an
 independent public library of operator insights. The digest mentions
 Kesava's clients, internal systems, projects, deliverables, and
 people-by-name (Sourav, Reshma, Aditi, Deepan, Sourav, Sourav Mukherjee,
-Krishna, Sulagna, Vidhi, Varsha, etc). Insights extracted into ab-codex
+Krishna, Sulagna, Vidhi, Varsha, etc). Insights extracted into abcodex
 must NOT mention any of these by name.
 
 When an operator's claim is wrapped in internal-context framing
