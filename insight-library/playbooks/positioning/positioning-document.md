@@ -212,16 +212,7 @@ If any of the four questions is unanswerable from the statement alone, the posit
 
 The messaging house is the internal architecture. It's not customer-facing copy. It's what copy hangs off.
 
-Structure:
-
-```
-     [Overall value proposition · one sentence]
-    /                  |                  \
-[Pillar 1]       [Pillar 2]         [Pillar 3]
-    |                  |                  |
-[Feature,         [Feature,         [Feature,
- proof, quote]     proof, quote]     proof, quote]
-```
+Structure: one overall value proposition, supported by three pillars. Each pillar is a named benefit, not a feature. Under each pillar: the features that enable it, and at least one customer quote or data point as evidence.
 
 Three pillars. Not four or five. If you have more value themes, choose the three that matter most to the champion. The rest live on persona-specific landing pages or vertical plays.
 
