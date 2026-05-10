@@ -325,6 +325,15 @@ async function loadVisual(playbook_id){
   return await readFile(p, "utf8");
 }
 
+async function copySocialOg(playbook_id){
+  const src = join(ROOT, "assets/visuals", playbook_id, "social.png");
+  if (!existsSync(src)) return null;
+  const dest = join(DOCS, "og", "play", `${playbook_id}.png`);
+  await ensureDir(dirname(dest));
+  await copyFile(src, dest);
+  return `${SITE_URL}/og/play/${playbook_id}.png`;
+}
+
 async function main(){
   // Read INDEX.json (must be built first).
   const INDEX = JSON.parse(await readFile(join(LIB, "INDEX.json"), "utf8"));
@@ -543,6 +552,7 @@ async function main(){
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/play/${p.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/playbooks/">playbooks</a> · ${escapeHtml(p.title || p.id)}</div>`;
     const visualHtml = await loadVisual(p.id);
+    const socialOgUrl = await copySocialOg(p.id);
     // Extract H2 sections from the body as HowTo steps. Each step gets the
     // section heading as name and the first paragraph after it as text.
     // Skip generic wrappers like "References" or "Sources".
@@ -596,7 +606,7 @@ async function main(){
       canonical: `${SITE_URL}/play/${p.id}/`,
       hashRoute: `#/play/${p.id}`,
       jsonLd,
-      ogImage: `${SITE_URL}/og/play/${p.id}.svg`,
+      ogImage: socialOgUrl || `${SITE_URL}/og/play/${p.id}.svg`,
       hasVisual: !!visualHtml,
       body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1>${visualHtml}<article>${renderedBody}</article>${cta}`,
     });
