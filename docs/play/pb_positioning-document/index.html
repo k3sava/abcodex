@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positioning Document — full pipeline · a builder's codex</title>
+<meta name="description" content="Positioning Document — full pipeline: Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you&#39;re for. Every">
+<link rel="canonical" href="https://abcodex.iamkesava.com/play/pb_positioning-document/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Positioning Document — full pipeline · a builder's codex">
+<meta property="og:description" content="Positioning Document — full pipeline: Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you&#39;re for. Every">
+<meta property="og:url" content="https://abcodex.iamkesava.com/play/pb_positioning-document/">
+<meta property="og:image" content="https://abcodex.iamkesava.com/og/play/pb_positioning-document.png">
+<meta property="og:site_name" content="a builder's codex">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Positioning Document — full pipeline · a builder's codex">
+<meta name="twitter:description" content="Positioning Document — full pipeline: Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you&#39;re for. Every">
+<meta name="twitter:image" content="https://abcodex.iamkesava.com/og/play/pb_positioning-document.png">
+<link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
+<link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
+<link rel="api-catalog" href="https://abcodex.iamkesava.com/.well-known/api-catalog">
+<link rel="describedby" href="https://abcodex.iamkesava.com/.well-known/agent-permissions.json">
+<link rel="me" href="https://github.com/k3sava">
+<link rel="me" href="https://www.linkedin.com/in/k3sava">
+<link rel="me" href="https://iamkesava.com/">
+<link rel="author" href="https://iamkesava.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+/* Static page styling — self-contained so the HTML reads cleanly without
+   the SPA's stylesheet (which targets different selectors). Carries the
+   codex typography palette but in a layout tuned for crawlers + readers. */
+:root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
+.static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
+.static-topbar .brand:hover{color:var(--accent-2)}
+.static-topbar .brand .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px color-mix(in oklab,var(--accent) 60%,transparent)}
+.static-topbar nav{display:flex;gap:18px;font-family:JetBrains Mono,monospace;font-size:.72rem}
+.static-topbar nav a{color:var(--muted);text-decoration:none}
+.static-topbar nav a:hover{color:var(--ink)}
+main.static{max-width:880px;margin:0 auto;padding:48px 24px 120px}
+.static-crumbs{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--muted);margin-bottom:18px}
+.static-crumbs a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .2s,border-color .2s}
+.static-crumbs a:hover{color:var(--accent);border-bottom-color:currentColor}
+main.static h1{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:clamp(2rem,4vw,3rem);letter-spacing:-.02em;line-height:1.12;margin-bottom:18px;color:var(--ink)}
+main.static h2{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.5rem;margin:1.8em 0 .5em;line-height:1.25;color:var(--ink)}
+main.static h3{font-family:Newsreader,Georgia,serif;font-weight:400;font-size:1.15rem;margin:1.4em 0 .4em;color:var(--ink)}
+main.static p{margin:.7em 0;line-height:1.65;max-width:72ch;color:var(--ink-2)}
+main.static a{color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:1px;text-decoration:none;transition:color .2s,border-color .2s}
+main.static a:hover{color:var(--accent);border-bottom-color:currentColor}
+main.static a.inline-cross-ref{font-family:Newsreader,serif}
+main.static ul,main.static ol{padding-left:1.5em;margin:.5em 0 1em 0;display:flex;flex-direction:column;gap:.45em}
+main.static li{padding-left:.15em;color:var(--ink-2);line-height:1.6}
+main.static blockquote{margin:1.6em 0;padding:.6em 0 .6em 20px;border-left:3px solid var(--accent);color:var(--ink-2);font-style:italic;font-family:Newsreader,Georgia,serif;font-size:1.05rem;line-height:1.55}
+main.static strong{color:var(--ink);font-weight:600}
+.md-table-wrap{overflow-x:auto;margin:1.6em 0;border-radius:5px;border:1px solid color-mix(in oklab,var(--accent) 20%,var(--line))}
+.md-table{width:100%;border-collapse:collapse;font-size:.88rem;line-height:1.5}
+.md-table thead th{background:color-mix(in oklab,var(--accent) 9%,var(--paper));color:var(--ink);font-family:JetBrains Mono,monospace;font-size:.68rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;padding:10px 16px;text-align:left;border-bottom:2px solid color-mix(in oklab,var(--accent) 22%,var(--paper))}
+.md-table td{padding:9px 16px;border-bottom:1px solid var(--line-2);color:var(--ink-2);vertical-align:top}
+.md-table tbody tr:last-child td{border-bottom:none}
+.md-table tbody tr:hover{background:color-mix(in oklab,var(--accent) 4%,var(--paper))}
+.md-table th:first-child,.md-table td:first-child{white-space:nowrap}
+.step-num-badge{font-family:JetBrains Mono,monospace;font-size:1.9rem;line-height:1;color:var(--accent);opacity:.5;font-weight:700;flex-shrink:0;min-width:2.6ch;letter-spacing:-.02em}
+.pb-step{padding:28px 0;margin:0;border-top:1px solid var(--line-2)}
+.pb-step:first-of-type{border-top:none;padding-top:0}
+.pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem}
+.pb-step>p:first-of-type{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:1.05rem;line-height:1.6;color:var(--ink);margin-top:0}
+main.static article>h2{margin-top:2.4em}
+main.static article>h2:first-child{margin-top:0}
+main.static article hr{border:none;text-align:center;margin:48px 0;color:var(--muted);font-family:JetBrains Mono,monospace;font-size:.85rem;letter-spacing:.3em}
+main.static article hr::after{content:"· · ·"}
+main.static blockquote.pb-operator-quote{border-left:none;padding:20px 24px;background:color-mix(in oklab,var(--accent) 5%,var(--paper));border-radius:6px;font-style:normal;margin:1.8em 0}
+main.static blockquote.pb-operator-quote p:first-child{font-family:Newsreader,Georgia,serif;font-size:1.1rem;font-style:italic;color:var(--ink);margin-bottom:10px;line-height:1.5}
+main.static blockquote.pb-operator-quote p:not(:first-child),main.static blockquote.pb-operator-quote .pb-quote-attr{font-family:Newsreader,Georgia,serif;font-size:.85rem;font-style:normal;color:var(--muted);margin:.2em 0;line-height:1.4}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref{font-size:inherit;color:var(--accent);font-family:inherit;border-bottom-color:transparent}
+main.static blockquote.pb-operator-quote .pb-quote-attr .inline-cross-ref:hover{color:var(--accent-2);border-bottom-color:currentColor}
+.pb-insight-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:.4em 0 28px}
+.pb-insight-chips-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-right:4px;white-space:nowrap}
+.pb-insight-chip{font-family:Newsreader,Georgia,serif;font-size:.85rem;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:2px 12px;transition:border-color .15s,color .15s;display:inline-block}
+.pb-insight-chip:hover{color:var(--accent);border-color:var(--accent);border-bottom-color:var(--accent)}
+.pb-toc{margin:0 0 44px;padding:20px 24px;background:var(--paper-2);border-radius:5px;border:1px solid var(--line)}
+.pb-toc-label{font-family:JetBrains Mono,monospace;font-size:.6rem;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;font-weight:600;margin-bottom:14px}
+.pb-toc ol{padding:0;margin:0;list-style:none;display:flex;flex-direction:column;gap:2px;counter-reset:toc}
+.pb-toc li{padding:0;margin:0;display:flex;align-items:baseline;gap:10px}
+.pb-toc li::before{counter-increment:toc;content:counter(toc,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.62rem;color:var(--muted);min-width:20px}
+.pb-toc a{font-family:Newsreader,Georgia,serif;font-size:1rem;color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent;padding-bottom:1px;transition:color .15s,border-color .15s;line-height:1.45}
+.pb-toc a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+h2#failure-modes+ul{list-style:none;padding-left:0;margin-top:.8em}
+h2#failure-modes+ul li{border-top:1px solid var(--line-2);padding:14px 0;padding-left:0;margin:0;color:var(--ink-2);line-height:1.5}
+h2#failure-modes+ul li:first-child{border-top:none;padding-top:0}
+h2#failure-modes+ul li strong:first-child{font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-weight:600;display:block;margin-bottom:2px}
+h2#outputs+ol{list-style:none;padding-left:0;counter-reset:outputs;margin-top:.8em}
+h2#outputs+ol li{counter-increment:outputs;display:flex;gap:14px;align-items:baseline;padding:10px 0;border-top:1px solid var(--line-2);color:var(--ink-2);line-height:1.6;margin:0}
+h2#outputs+ol li:first-child{border-top:none;padding-top:0}
+h2#outputs+ol li::before{content:counter(outputs,decimal-leading-zero);font-family:JetBrains Mono,monospace;font-size:.7rem;color:var(--accent);opacity:.7;min-width:20px;flex-shrink:0}
+.pb-layout{display:block}
+.pb-article-col{display:block}
+.pb-sidebar{display:none}
+main.static code{font-family:JetBrains Mono,monospace;font-size:.85em;background:color-mix(in oklab,var(--ink) 6%,transparent);padding:1px 6px;border-radius:3px}
+main.static pre{background:color-mix(in oklab,var(--ink) 4%,transparent);padding:14px 16px;border-radius:6px;overflow-x:auto;margin:1em 0}
+main.static pre code{background:transparent;padding:0}
+.static-meta{font-family:JetBrains Mono,monospace;font-size:.78rem;color:var(--muted);margin:0 0 8px;padding:8px 0;border-bottom:1px solid var(--line-2)}
+.static-meta a{font-family:inherit;color:var(--ink-2);border-bottom:0}
+.static-meta a:hover{color:var(--accent)}
+.static-tldr{margin:28px 0 32px;padding:20px 24px;border-left:3px solid var(--accent);background:var(--paper-2);border-radius:0 8px 8px 0}
+.static-tldr-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.12em;color:var(--accent-2);text-transform:uppercase;margin-bottom:10px;font-weight:600}
+.static-tldr-claim{font-family:Newsreader,serif;font-size:1.2rem;line-height:1.4;color:var(--ink);font-weight:500}
+.static-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+.static-actions a,.static-actions button{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;border:1px solid var(--line);border-radius:999px;color:var(--ink-2);text-decoration:none;font-family:JetBrains Mono,monospace;font-size:.72rem;background:transparent;cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+.static-actions a:hover,.static-actions button:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
+.static-actions .primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.static-actions .primary:hover{background:var(--accent-2);border-color:var(--accent-2);color:#fff}
+.static-cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin:18px 0}
+.static-card{padding:14px 16px;border:1px solid var(--line);border-radius:6px;text-decoration:none;color:var(--ink);transition:border-color .15s,transform .15s}
+.static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
+.static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
+.static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#0a0e0a;--paper-2:#0d1410;--ink:#e6ecdf;--ink-2:#c5cbbe;--muted:#7a8174;--accent:#3aaf6d;--accent-2:#52c084;--line:#ffffff22;--line-2:#ffffff10}
+}
+@media (max-width:680px){
+  .static-topbar nav{display:none}
+  main.static{padding:32px 18px 80px}
+  .static-actions{flex-direction:column;align-items:stretch}
+  .static-actions a,.static-actions button{justify-content:center}
+}
+@media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:182px}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Positioning Document — full pipeline","description":"Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for. Every decision downstream rests on the positioning you commit to: homepage, sales deck, campaign brief, onboarding sequence. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after. This playbook is a 14","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/","step":[{"@type":"HowToStep","position":1,"name":"Start with your best customers, not your largest","text":"Before research, before interviews, before anything: pull a list of 5–10 customers who understood quickly, bought quickly, stayed, and told others. These are not your biggest contracts. They are the buyers the product is most right for, right now. The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors to push it through. That is expensive fit, not natural fit. Look instead for buyers who found the product, saw the poi","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-01"},{"@type":"HowToStep","position":2,"name":"Run JTBD switch interviews. Bring up the product last.","text":"Interview 5–10 buyers from your best-customer list. Cover recent switchers from the past 90 days if you can. The goal is not feature feedback. The goal is language: the words buyers use to describe the problem before they knew your product existed. Jobs-to-be-Done switch interviews trace a timeline backward from the purchase decision. You ask: what happened right before you started looking? What did you try first? What almost made you not buy? What did you tell colleagues when you recommended it","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-02"},{"@type":"HowToStep","position":3,"name":"Map the full alternative set. Include doing nothing.","text":"For every group of competitors or alternatives, ask: what would our best customers do if this product didn't exist? The answers cluster into four types: direct competitors, adjacent tools that partially solve it, manual processes (spreadsheets, hiring, building internally), and doing nothing. Most positioning exercises stop at direct competitors. That is the wrong place to stop. The real distribution of how you lose deals is radically different from what the CRM shows. When 40-60% of buyers who ","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-03"},{"@type":"HowToStep","position":4,"name":"Build buyer personas from interview data, not from job titles","text":"Synthesize your interview findings into persona profiles. Goals, pain points, functional day-to-day, purchase path, emotional drivers. Every entry should trace to something a real buyer said or did. If you cannot cite a source interview, label it \"hypothesis\" and flag it for testing. The most common persona failure is defining the champion by job title alone. \"Head of Revenue Operations\" or \"VP of Sales\" is a job title, not a champion. Two people with the same title at different companies can ha","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-04"},{"@type":"HowToStep","position":5,"name":"Isolate unique attributes. Apply the three-check filter.","text":"For each cluster of competitive alternatives from step 3, list every feature or capability that differentiates your product from that cluster. Stay at the capability level: what does the user actually do, not what the product technically has. Then apply Omojola's three-check filter to each attribute: 1. Is it actually different from what alternatives offer?","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-05"},{"@type":"HowToStep","position":6,"name":"Map attributes to value themes. Phrase them as user verbs.","text":"Group the attributes that deliver similar value. Then phrase each cluster as an action verb, what the user can do, not an abstract benefit or a product feature. Wrong: \"Advanced pipeline analytics\" Right: \"See why deals stall before they fall out of the pipeline\"","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-06"},{"@type":"HowToStep","position":7,"name":"Choose the market frame. This determines who the buyer compares you to.","text":"The market frame is your strategic positioning category. It is not a naming exercise. Choosing a frame determines which competitor the buyer mentally places you against, what evaluations they put you in, and what table-stakes they expect you to have. Get it wrong and you spend your entire sales cycle fighting the wrong comparison. Five frames and when each works: One practical rule: don't name a new category before the market accepts it exists. The cost of educating buyers on what a category eve","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-07"},{"@type":"HowToStep","position":8,"name":"Write the unique belief. The worldview, not the value prop.","text":"The unique belief is the philosophical ground your company stands on. It answers a different question than \"what does your product do?\" It answers: \"what does this company believe about how the world should work?\" A value prop is \"we help teams close more deals.\" A unique belief is \"every revenue-critical conversation deserves an immediate, intelligent response, whether a human or an agent handles it.\" The first is a claim. The second is a worldview. The belief is what makes the company internal","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-08"},{"@type":"HowToStep","position":9,"name":"Determine differentiation type. Binary or by degree.","text":"Two types of differentiation. Choose based on the evidence, not on what sounds more dramatic. Binary: you are the opposite of something. DuckDuckGo vs. Chrome on privacy. Basecamp vs. project management bloatware. Binary differentiation is sharp and memorable. It polarizes. That's the point. The risk is that competitors can reframe, claiming they also care about the same dimension. By degree: you are measurably better on a specific axis. \"3x more calls per hour.\" \"Deploys in 20 minutes, not 12 w","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-09"},{"@type":"HowToStep","position":10,"name":"Write the positioning statement. All four questions, answered.","text":"The positioning statement is the internal anchor document for all messaging downstream. It's not customer-facing copy. It's the test for whether the positioning is complete. Format: Validate against Pierri's four questions. The statement must answer all four from a single reading:","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-10"},{"@type":"HowToStep","position":11,"name":"Build the messaging house. Three pillars, feature-level evidence under each.","text":"The messaging house is the internal architecture. It's not customer-facing copy. It's what copy hangs off. Structure: one overall value proposition, supported by three pillars. Each pillar is a named benefit, not a feature. Under each pillar: the features that enable it, and at least one customer quote or data point as evidence. Three pillars. Not four or five. If you have more value themes, choose the three that matter most to the champion. The rest live on persona-specific landing pages or ver","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-11"},{"@type":"HowToStep","position":12,"name":"Translate to homepage. The homepage is the positioning artifact.","text":"The homepage is the one artifact that is always one click away from every investor, customer, employee, and prospect simultaneously. It has to hold the positioning under scrutiny. Eight-section structure: Lead with capabilities: what someone actually does with the product, not aspirational outcomes. \"Build pipeline faster\" describes an aspiration. \"Answer every inbound call in 2 seconds and log the conversation to your CRM automatically\" describes a capability. The capability converts.","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-12"},{"@type":"HowToStep","position":13,"name":"Test in live pitches. Messaging is theory until a real buyer hears it.","text":"Before declaring positioning done, sit in 3–5 first-meeting discovery calls. Not to validate. Observe. Watch for three signals: Those moments are where the positioning broke. Fix them. Then test again. The sales team will detect positioning failures months before any dashboard does. When reps say \"I keep getting asked about X and I don't have a good answer\" or \"buyers keep saying we're just like Y,\" that is a positioning failure in real time.","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-13"},{"@type":"HowToStep","position":14,"name":"Enable the organization. Positioning in a folder is a hypothesis.","text":"A positioning document that lives in a Google Drive folder and gets visited twice a year is not a strategy. It is a hypothesis. The work isn't done until the positioning is installed across the organization. Enablement checklist:","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/#step-14"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Positioning Document — full pipeline","item":"https://abcodex.iamkesava.com/play/pb_positioning-document/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_company-story-is-the-strategy/","name":"Run a monthly narrative-drift audit across decks, homepage, and release notes"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_homepage-five-second-trinity/","name":"B2B homepages must communicate use case, alternative, and result in five seconds"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_different-better-and-matters/","name":"Differentiation requires three checks: different, better, and matters viscerally to users"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_no-decision-is-the-real-competitor/","name":"40–60% of B2B buyers say \"no decision\", your real competitor is the status quo"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_test-positioning-in-live-sales-pitch/","name":"Test positioning in a live sales pitch, marketing stories are unfalsified theory until then"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_sales-team-detects-positioning-failure-first/","name":"The sales team detects positioning failure months before the dashboard does"},{"@type":"ListItem","position":7,"url":"https://abcodex.iamkesava.com/ins/ins_sameness-perception-is-the-differentiation-barrier/","name":"Buyers see \"sameness\", test differentiators with external audiences before any campaign launch"},{"@type":"ListItem","position":8,"url":"https://abcodex.iamkesava.com/ins/ins_market-to-product-product-to-market/","name":"PMM owns both halves of the loop, market to the product, product to the market"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_positioning-document/#webpage","url":"https://abcodex.iamkesava.com/play/pb_positioning-document/","name":"Positioning Document — full pipeline","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
+</head>
+<body>
+<header class="static-topbar">
+  <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
+  <nav>
+    <a href="https://abcodex.iamkesava.com/operators/">operators</a>
+    <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
+    <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
+    <a href="https://abcodex.iamkesava.com/today/">today</a>
+    <a href="https://abcodex.iamkesava.com/#/about">about</a>
+  </nav>
+</header>
+<main class="static">
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Positioning Document — full pipeline</div><h1>Positioning Document — full pipeline</h1><p>Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for.</p>
+
+<p>Every decision downstream rests on the positioning you commit to: homepage, sales deck, campaign brief, onboarding sequence. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after.</p>
+
+<p>This playbook is a 14-step pipeline from raw customer evidence to a published positioning document and live validation. It takes three to four weeks for a PMM with access to customers and the sales floor. Compress it and you skip the steps that produce the non-obvious insights. Stretch it and you're analyzing instead of acting.</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_company-story-is-the-strategy/" title="Run a monthly narrative-drift audit across decks, homepage, and release notes">Andy Raskin · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_homepage-five-second-trinity/" title="B2B homepages must communicate use case, alternative, and result in five seconds">Anthony Pierri · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_different-better-and-matters/" title="Differentiation requires three checks: different, better, and matters viscerally to users">Ayo Omojola · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_no-decision-is-the-real-competitor/" title="40–60% of B2B buyers say &quot;no decision&quot;, your real competitor is the status quo">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_test-positioning-in-live-sales-pitch/" title="Test positioning in a live sales pitch, marketing stories are unfalsified theory until then">April Dunford · 2024</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sales-team-detects-positioning-failure-first/" title="The sales team detects positioning failure months before the dashboard does">April Dunford · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sameness-perception-is-the-differentiation-barrier/" title="Buyers see &quot;sameness&quot;, test differentiators with external audiences before any campaign launch">Gartner · 2025</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_market-to-product-product-to-market/" title="PMM owns both halves of the loop, market to the product, product to the market">Martina Lauchengco · 2022</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#inputs-required">Inputs required</a></li><li><a href="#steps">Steps</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#outputs">Outputs</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
+
+<p>Run this before any homepage rewrite, sales-deck overhaul, or category push. Also run it when:</p>
+
+<ul>
+<li>Sales says "buyers don't understand what we do" more than twice in a quarter</li>
+<li>You're entering a new segment or ICP and the current positioning doesn't fit</li>
+<li>A competitor moves into your space and the existing differentiation story looks thin</li>
+<li>You shipped a major capability and the market isn't recognizing it</li>
+</ul>
+
+<h2 id="inputs-required">Inputs required</h2>
+
+<ul>
+<li>A list of your 5–10 best customers (fast to close, stayed, became advocates)</li>
+<li>Access to at least 5 buyer interviews (recent switchers preferred)</li>
+<li>Win/loss patterns from the CRM, even rough ones</li>
+<li>Product access: you need to experience it, not just read about it</li>
+<li>A draft competitive alternatives map, even if just bullet points</li>
+</ul>
+
+<h2 id="steps">Steps</h2>
+
+<div class="pb-step"><h3 id="step-01"><span class='step-num-badge'>01</span> Start with your best customers, not your largest</h3>
+
+<p>Before research, before interviews, before anything: pull a list of 5–10 customers who understood quickly, bought quickly, stayed, and told others. These are not your biggest contracts. They are the buyers the product is most right for, right now.</p>
+
+<p>The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors to push it through. That is expensive fit, not natural fit.</p>
+
+<p>Look instead for buyers who found the product, saw the point immediately, signed without a lengthy procurement cycle, and still recommend it. They are your signal. They represent a buyer type you can find more of.</p>
+
+<p>If you're pre-revenue, use the prospects who had the strongest "aha" moment during evaluation. You're looking for the same pattern at an earlier stage: recognition, not persuasion.</p>
+
+<p>Write down what these customers have in common. Industry, team size, tech stack, trigger that started the search. That commonality is the first outline of your ICP, before you've asked them a single question.</p>
+
+</div><div class="pb-step"><h3 id="step-02"><span class='step-num-badge'>02</span> Run JTBD switch interviews. Bring up the product last.</h3>
+
+<p>Interview 5–10 buyers from your best-customer list. Cover recent switchers from the past 90 days if you can. The goal is not feature feedback. The goal is language: the words buyers use to describe the problem before they knew your product existed.</p>
+
+<p>Jobs-to-be-Done switch interviews trace a timeline backward from the purchase decision. You ask: what happened right before you started looking? What did you try first? What almost made you not buy? What did you tell colleagues when you recommended it?</p>
+
+<p>Each answer peels back a layer of rationalization and gets closer to the real trigger.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"JTBD interviews help you define a customer's language — what they actually mean by 'easy' — the root cause of why they switched, and how their story connects, all of which directly impact your product marketing."</p>
+<p class="pb-quote-attr">— Bob Moesta, Intercom podcast, 2020 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_jtbd-interviews-surface-customer-language/">“JTBD interviews surface the…”</a></p>
+</blockquote>
+<p>The trigger language is operationally valuable. "We had a critical demo and the call quality dropped" is not just an anecdote. It tells you what channel to run ads on, what copy to write, and what objection to preempt.</p>
+
+<p>The decision language ("we just needed something that worked without us thinking about it") tells you what the headline should promise.</p>
+
+<p>Cover five areas in each interview: background and role, what they were trying to accomplish, what triggered the search, how the decision unfolded, and how they describe the product to others now. Do not show the product or discuss your solution in the first 30 minutes. Buyers narrate the problem more honestly before they're defending a purchase decision.</p>
+
+<p>After 5–10 interviews, highlight every phrase that appears across multiple buyers without being prompted. Those phrases are your message candidates.</p>
+
+</div><div class="pb-step"><h3 id="step-03"><span class='step-num-badge'>03</span> Map the full alternative set. Include doing nothing.</h3>
+
+<p>For every group of competitors or alternatives, ask: what would our best customers do if this product didn't exist? The answers cluster into four types: direct competitors, adjacent tools that partially solve it, manual processes (spreadsheets, hiring, building internally), and doing nothing.</p>
+
+<p>Most positioning exercises stop at direct competitors. That is the wrong place to stop. The real distribution of how you lose deals is radically different from what the CRM shows.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"When you survey buyers who didn't buy, 40–60% say they made no purchase decision at all."</p>
+<p class="pb-quote-attr">— April Dunford, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_no-decision-is-the-real-competitor/">“40–60% of B2B buyers…”</a></p>
+</blockquote>
+<p>When 40-60% of buyers who passed on you made no decision at all, your real positioning problem is not "why us over them." It is "why do anything at all."</p>
+
+<p>The pitch must first establish that the cost of the status quo is real and specific. Only then does arguing why your solution is better than alternatives become useful. Skip this step and you build messaging that wins competitive head-to-head deals while losing to inertia at twice the rate.</p>
+
+<p>Cluster your alternatives into 3–5 groups. Each cluster becomes a lens for isolating your unique attributes in the next step. Include the status quo as an explicit cluster with its own description. What does "doing nothing" actually look like for this buyer? What's the daily cost? What breaks?</p>
+
+</div><div class="pb-step"><h3 id="step-04"><span class='step-num-badge'>04</span> Build buyer personas from interview data, not from job titles</h3>
+
+<p>Synthesize your interview findings into persona profiles. Goals, pain points, functional day-to-day, purchase path, emotional drivers. Every entry should trace to something a real buyer said or did. If you cannot cite a source interview, label it "hypothesis" and flag it for testing.</p>
+
+<p>The most common persona failure is defining the champion by job title alone. "Head of Revenue Operations" or "VP of Sales" is a job title, not a champion. Two people with the same title at different companies can have completely different buying situations: different company stage, different trigger, different alternatives, different urgency.</p>
+
+<p>Define the champion in three layers:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Layer</th><th>What to define</th><th>Example</th></tr></thead><tbody><tr><td>Company type</td><td>Stage, industry, team size, tech stack</td><td>Series B SaaS, 40-person sales team, using Salesforce</td></tr><tr><td>Persona</td><td>Role, reporting structure, what success looks like in their job</td><td>VP Sales, reports to CEO, owns quarterly bookings number</td></tr><tr><td>JTBD situation</td><td>What they're trying to do, what's currently breaking, what triggered the search</td><td>Reps are calling without notes; deals stall because no one can tell where they stand</td></tr></tbody></table></div>
+
+<p>The situation layer is the one most messaging skips. "Reps are calling without notes" is a champion. "VP Sales" is an audience.</p>
+
+<p>PMM's job runs in both directions. You bring the product to market (positioning, messaging, launch) and you bring the market to the product (buyer signals, competitive intel, customer language, switch triggers). The persona is where both halves meet.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Product marketing's job is to bring the product to market and the market to the product."</p>
+<p class="pb-quote-attr">— Martina Lauchengco, <em>Loved: How to Rethink Marketing for Tech Products</em>, 2022 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_market-to-product-product-to-market/">“PMM owns both halves…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-05"><span class='step-num-badge'>05</span> Isolate unique attributes. Apply the three-check filter.</h3>
+
+<p>For each cluster of competitive alternatives from step 3, list every feature or capability that differentiates your product from that cluster. Stay at the capability level: what does the user actually do, not what the product technically has.</p>
+
+<p>Then apply Omojola's three-check filter to each attribute:</p>
+
+<ol>
+<li>Is it actually different from what alternatives offer?</li>
+<li>Is it actually better on a measurable axis?</li>
+<li>Does it matter viscerally to the user's job?</li>
+</ol>
+
+<blockquote class="pb-operator-quote">
+<p>"Being different is not enough. Being better is not enough. It has to be better in a way that matters to the end user. When someone says 'why bet on Venmo?' I'd say 'try and send me a dollar I can use now.'"</p>
+<p class="pb-quote-attr">— Ayo Omojola, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_different-better-and-matters/">“Differentiation requires three checks:…”</a></p>
+</blockquote>
+<p>An attribute that passes checks 1 and 2 but not 3 is a feature, not a differentiator. Note it as a supporting proof point but do not lead with it.</p>
+
+<p>The visceral check is not theoretical. It is a test the buyer can perform in a single sentence. Cash App's differentiator was "send me a dollar I can use now." Yours should be just as concrete.</p>
+
+<p>A second thing most teams miss: you can differentiate on what you deliberately do not have. If simplicity is a differentiator (because your competitor requires a 12-week implementation and a dedicated admin), the absence of that complexity is a valid capability to name.</p>
+
+<p>List no more than 5–7 differentiators that pass all three checks. Those are your foundation.</p>
+
+</div><div class="pb-step"><h3 id="step-06"><span class='step-num-badge'>06</span> Map attributes to value themes. Phrase them as user verbs.</h3>
+
+<p>Group the attributes that deliver similar value. Then phrase each cluster as an action verb, what the user can do, not an abstract benefit or a product feature.</p>
+
+<p>Wrong: "Advanced pipeline analytics"</p>
+<p>Right: "See why deals stall before they fall out of the pipeline"</p>
+
+<p>Build a value matrix per persona:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Pain / Situation</th><th>Product Benefit</th><th>Feature / Capability</th><th>Message</th></tr></thead><tbody><tr><td>What blocks them today</td><td>What the product solves</td><td>What enables it</td><td>One line they'd say to a colleague</td></tr></tbody></table></div>
+
+<p>The message column is the hardest. It must be written in buyer language from your interviews, not in the vocabulary your product team uses internally. If the same message works for two different personas without editing, it's too generic for either.</p>
+
+<p>This matrix is the foundation for every downstream artifact. Every headline, every pillar in the messaging house, every CTA should trace to a row here.</p>
+
+</div><div class="pb-step"><h3 id="step-07"><span class='step-num-badge'>07</span> Choose the market frame. This determines who the buyer compares you to.</h3>
+
+<p>The market frame is your strategic positioning category. It is not a naming exercise. Choosing a frame determines which competitor the buyer mentally places you against, what evaluations they put you in, and what table-stakes they expect you to have. Get it wrong and you spend your entire sales cycle fighting the wrong comparison.</p>
+
+<p>Five frames and when each works:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Frame</th><th>When to use</th><th>Risk</th></tr></thead><tbody><tr><td>Head to head</td><td>You can demonstrably win on features vs. a named competitor</td><td>Must actually be better. Claims will be tested.</td></tr><tr><td>10x better</td><td>Same category, measurably superior on the dimension that matters most</td><td>Requires proof; the bar for "10x" is higher than it sounds</td></tr><tr><td>Big fish / small pond</td><td>Dominate an underserved subsegment</td><td>Limits TAM; works until the segment grows</td></tr><tr><td>New way</td><td>Position against the old way of doing the job, not a competitor</td><td>Requires category education; buyers must first agree the old way is broken</td></tr><tr><td>New category</td><td>Create a new market entirely</td><td>Only viable with resources and years; most products that claim a new category need cleaner framing in an existing one</td></tr></tbody></table></div>
+
+<p>One practical rule: don't name a new category before the market accepts it exists. The cost of educating buyers on what a category even is runs into millions of dollars of top-of-funnel investment. Most products that think they need a new category name actually need clearer positioning within an existing frame.</p>
+
+</div><div class="pb-step"><h3 id="step-08"><span class='step-num-badge'>08</span> Write the unique belief. The worldview, not the value prop.</h3>
+
+<p>The unique belief is the philosophical ground your company stands on. It answers a different question than "what does your product do?" It answers: "what does this company believe about how the world should work?"</p>
+
+<p>A value prop is "we help teams close more deals." A unique belief is "every revenue-critical conversation deserves an immediate, intelligent response, whether a human or an agent handles it." The first is a claim. The second is a worldview.</p>
+
+<p>The belief is what makes the company internally consistent. The product decisions, the sales narrative, the content, the brand voice: all connect back to it.</p>
+
+<p>The belief is also the check. Once written, it should make the sales deck, the homepage hero, and the product release notes obviously agree with each other, or reveal where they've drifted.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"The company story is the company strategy."</p>
+<p class="pb-quote-attr">— Andy Raskin, April 2026 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_company-story-is-the-strategy/">“Run a monthly narrative-drift…”</a></p>
+</blockquote>
+<p>Optionally layer a trend for urgency: "We believe X [unique belief], and right now Y is happening [trend], which makes this the right moment to act." Trend layering works for new-way and new-category positioning. It is less useful when the product fits a well-established category where buyers are already searching.</p>
+
+</div><div class="pb-step"><h3 id="step-09"><span class='step-num-badge'>09</span> Determine differentiation type. Binary or by degree.</h3>
+
+<p>Two types of differentiation. Choose based on the evidence, not on what sounds more dramatic.</p>
+
+<p><strong>Binary</strong>: you are the opposite of something. DuckDuckGo vs. Chrome on privacy. Basecamp vs. project management bloatware. Binary differentiation is sharp and memorable. It polarizes. That's the point. The risk is that competitors can reframe, claiming they also care about the same dimension.</p>
+
+<p><strong>By degree</strong>: you are measurably better on a specific axis. "3x more calls per hour." "Deploys in 20 minutes, not 12 weeks." By degree is safer because it ties to proof. The risk is that without the proof, it reads like marketing noise.</p>
+
+<p>Most B2B software companies end up with by-degree differentiation because binary claims require genuinely different architectural or philosophical choices that are hard to sustain. Pick whichever the evidence supports, not whichever sounds stronger in a board deck.</p>
+
+</div><div class="pb-step"><h3 id="step-10"><span class='step-num-badge'>10</span> Write the positioning statement. All four questions, answered.</h3>
+
+<p>The positioning statement is the internal anchor document for all messaging downstream. It's not customer-facing copy. It's the test for whether the positioning is complete.</p>
+
+<p>Format:</p>
+
+<blockquote>
+<p>For [champion in specific situation], [Product] is the [category] that [value]. Unlike [primary competitive alternative], [Product] [key differentiator].</p>
+</blockquote>
+<p>Validate against Pierri's four questions. The statement must answer all four from a single reading:</p>
+
+<ol>
+<li>What is it? (category: the frame you chose in step 7)</li>
+<li>Who is it for? (champion in situation, not a job title)</li>
+<li>What does it replace? (the primary alternative, could be the status quo)</li>
+<li>Why is it better? (the differentiator that passed all three checks)</li>
+</ol>
+
+<blockquote class="pb-operator-quote">
+<p>"B2B homepages should lead with the trinity of the specific use case, the alternative the buyer is currently using, and the result the product produces, communicable in roughly five seconds."</p>
+<p class="pb-quote-attr">— Anthony Pierri, FletchPMM, April 2026 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_homepage-five-second-trinity/">“B2B homepages must communicate…”</a></p>
+</blockquote>
+<p>If any of the four questions is unanswerable from the statement alone, the positioning is incomplete. Do not move to the messaging house until the statement is tight. The most common failure at this step: the champion is too broad ("sales teams") and the differentiator is unsubstantiated ("best-in-class AI").</p>
+
+</div><div class="pb-step"><h3 id="step-11"><span class='step-num-badge'>11</span> Build the messaging house. Three pillars, feature-level evidence under each.</h3>
+
+<p>The messaging house is the internal architecture. It's not customer-facing copy. It's what copy hangs off.</p>
+
+<p>Structure: one overall value proposition, supported by three pillars. Each pillar is a named benefit, not a feature. Under each pillar: the features that enable it, and at least one customer quote or data point as evidence.</p>
+
+<p>Three pillars. Not four or five. If you have more value themes, choose the three that matter most to the champion. The rest live on persona-specific landing pages or vertical plays.</p>
+
+<p>Each pillar needs: a pillar name phrased as a benefit, a one-line message for that pillar, the features that enable it, and at least one customer quote or data point underneath it. The evidence is load-bearing. Without it, the pillar is a claim, not a position.</p>
+
+<p>The messaging house is an internal document. Sales uses it to stay consistent. Marketing uses it to brief content. When reps say different things about the same product on the same day, the messaging house is what's missing.</p>
+
+</div><div class="pb-step"><h3 id="step-12"><span class='step-num-badge'>12</span> Translate to homepage. The homepage is the positioning artifact.</h3>
+
+<p>The homepage is the one artifact that is always one click away from every investor, customer, employee, and prospect simultaneously. It has to hold the positioning under scrutiny.</p>
+
+<p>Eight-section structure:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Section</th><th>Job</th><th>What to get right</th></tr></thead><tbody><tr><td>Hero</td><td>Answer all four positioning questions in 5 seconds</td><td>Lead with use case + alternative + result, not vision</td></tr><tr><td>Social proof</td><td>Build immediate trust</td><td>Logo bar, metric-backed quotes with named people</td></tr><tr><td>Problem</td><td>Name the champion's cost of inaction</td><td>Their situation in their language; make the status quo feel expensive</td></tr><tr><td>Solution by persona</td><td>Show the product as the answer per champion</td><td>Persona-specific value props with embedded customer quotes</td></tr><tr><td>Capability sections ×3</td><td>Prove each messaging pillar</td><td>Feature shown as user action, not product feature</td></tr><tr><td>Differentiation</td><td>Why you vs. the alternative they use today</td><td>Before / After, or direct comparison. Name the alternative.</td></tr><tr><td>Trust</td><td>Handle remaining objections</td><td>Security, integrations, compliance, customer count</td></tr><tr><td>Closing CTA</td><td>Reinforce the hero</td><td>Same message, different words</td></tr></tbody></table></div>
+
+<p>Lead with capabilities: what someone actually does with the product, not aspirational outcomes. "Build pipeline faster" describes an aspiration. "Answer every inbound call in 2 seconds and log the conversation to your CRM automatically" describes a capability. The capability converts.</p>
+
+<p>Buyers default to perceiving comparable features across competitors. Gartner names this "sameness." Before the homepage goes live, test the hero with 5 people outside your team. Ask them: what does this product do, who is it for, and what does it replace?</p>
+
+<p>If they cannot answer all three from the hero alone, rewrite it.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."</p>
+<p class="pb-quote-attr">— Gartner, Market Guide for B2B Message Testing Solutions, 2025 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_sameness-perception-is-the-differentiation-barrier/">“Buyers see &quot;sameness&quot;, test…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-13"><span class='step-num-badge'>13</span> Test in live pitches. Messaging is theory until a real buyer hears it.</h3>
+
+<p>Before declaring positioning done, sit in 3–5 first-meeting discovery calls. Not to validate. Observe. Watch for three signals:</p>
+
+<ul>
+<li>Where the buyer interrupts with "wait, what do you mean by..."</li>
+<li>Where the buyer's energy drops or they stop asking questions</li>
+<li>Where reps deviate from the script (they deviate because the script isn't working for them)</li>
+</ul>
+
+<p>Those moments are where the positioning broke. Fix them. Then test again.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"A live sales pitch is the best way for B2B companies to test their positioning… sales is a back-and-forth with a prospect; sales can and should be asking questions, looking for feedback, and handling objections. Marketing doesn't fully understand the sales team's needs when it comes to a narrative."</p>
+<p class="pb-quote-attr">— April Dunford, Sales-First Storytelling, 2024 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_test-positioning-in-live-sales-pitch/">“Test positioning in a…”</a></p>
+</blockquote>
+<p>The sales team will detect positioning failures months before any dashboard does. When reps say "I keep getting asked about X and I don't have a good answer" or "buyers keep saying we're just like Y," that is a positioning failure in real time.</p>
+
+<p>Build the rep-input loop from day one: a weekly objection log, a competitive channel in Slack, shadowing calls monthly. Without that loop, positioning drift accumulates silently.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Your sales team knows months before anyone else when a position is failing."</p>
+<p class="pb-quote-attr">— April Dunford, LinkedIn, April 2026 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_sales-team-detects-positioning-failure-first/">“The sales team detects…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-14"><span class='step-num-badge'>14</span> Enable the organization. Positioning in a folder is a hypothesis.</h3>
+
+<p>A positioning document that lives in a Google Drive folder and gets visited twice a year is not a strategy. It is a hypothesis.</p>
+
+<p>The work isn't done until the positioning is installed across the organization.</p>
+
+<p>Enablement checklist:</p>
+
+<ul>
+<li>Sales narrative built from the positioning statement and messaging house</li>
+<li>Product team briefed on positioning implications for roadmap sequencing</li>
+<li>Marketing team has a copy-standards brief that traces every claim back to an insight card</li>
+<li>Homepage, sales deck, and comparison pages audited against the positioning</li>
+<li>Live-pitch test completed and revisions incorporated</li>
+<li>Monthly narrative-drift audit scheduled: compare sales deck, homepage hero, and most recent release notes. When they diverge, fix before the next campaign launches.</li>
+</ul>
+
+<p>The monthly audit is not optional. The artifacts that face buyers drift from each other within a quarter if nobody owns the canonical story. The PMM lead or founder is the right owner.</p>
+
+<p>The audit is a 30-minute read across three documents. The cost of skipping it compounds.</p>
+
+<hr>
+
+</div><h2 id="quality-gates">Quality gates</h2>
+
+<ul>
+<li>[ ] All customer interviews (minimum 5) completed before writing the positioning statement</li>
+<li>[ ] Competitive alternatives include the status quo, described specifically, not vaguely</li>
+<li>[ ] Champion profile has a concrete situation description, not just a job title</li>
+<li>[ ] Every differentiator passes the three-check filter: different, better, matters viscerally</li>
+<li>[ ] Positioning statement answers all four questions: what is it, who, replaces what, why better</li>
+<li>[ ] Messaging house has exactly 3 pillars with feature-level evidence under each</li>
+<li>[ ] Hero copy tested with 5 external observers before publishing</li>
+<li>[ ] Live-pitch test (3–5 calls) completed before homepage or deck goes live</li>
+<li>[ ] Enablement plan exists, is dated, and has named owners</li>
+</ul>
+
+<hr>
+
+<h2 id="common-failure-modes">Common failure modes</h2>
+
+<p><strong>Outcomes-led homepage.</strong> "Build pipeline and close more revenue." Every sales tool says this. Lead with the capability — what someone actually does with the product.</p>
+
+<p><strong>Clever copy that says nothing.</strong> Clarity beats cleverness. If a visitor can't say what you do after 5 seconds, the copy failed, not the reader.</p>
+
+<p><strong>Audience sprawl.</strong> Targeting sales, marketing, CS, and RevOps simultaneously on one page. Pick a champion. Route others to dedicated pages.</p>
+
+<p><strong>Status-quo blindness.</strong> Mapping competitors but not the status quo. When 40–60% of your losses are to inertia, building a competitive positioning without addressing it means 40–60% of the work is misdirected.</p>
+
+<p><strong>Differentiation that only lands internally.</strong> Differentiators that the team loves but buyers can't feel. Apply the three-check filter and test externally before the campaign launches.</p>
+
+<p><strong>Premature category naming.</strong> Inventing a category before the market accepts it exists. The cost of education is enormous and usually falls on the company that named the category while competitors free-ride on their investment.</p>
+
+<p><strong>Positioning in a folder.</strong> Completing the process but never installing it. The homepage hero, the sales deck, and the rep's opening line should all reflect the same positioning. When they don't, you don't have positioning. You have a document.</p>
+
+<p><strong>Skipping the rep-input loop.</strong> Treating the monthly narrative-drift audit as optional. Sales hears positioning failures in language first, months before dashboards show it.</p>
+
+<hr>
+
+<h2 id="outputs">Outputs</h2>
+
+<ol>
+<li><strong>ICP snapshot</strong> · 5–10 best customers analyzed, commonalities documented</li>
+<li><strong>JTBD interview transcripts</strong> · 5+ interviews with highlighted buyer language and switch triggers</li>
+<li><strong>Competitive alternatives map</strong> · four clusters including status quo, with specific descriptions</li>
+<li><strong>Champion profile</strong> · company type, persona, JTBD situation (not just job title)</li>
+<li><strong>Value matrix per persona</strong> · Pain · Benefit · Capability · Message</li>
+<li><strong>Positioning statement</strong> · one sentence, passes all four questions</li>
+<li><strong>Messaging house</strong> · three pillars with feature-level evidence and customer quotes</li>
+<li><strong>Homepage brief</strong> · eight-section structure with copy for each section</li>
+<li><strong>Sales narrative brief</strong> · how the positioning statement maps to the discovery-to-close arc</li>
+<li><strong>Collateral audit scorecard</strong> · existing materials checked against the positioning</li>
+</ol>
+</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_positioning-document">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#inputs-required">Inputs required</a></li><li><a href="#steps">Steps</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#outputs">Outputs</a></li></ol></nav></aside></div>
+</main>
+
+<footer class="static-footer">
+  <div class="static-feeds"><a href="https://abcodex.iamkesava.com/llms.txt" rel="noopener">llms.txt</a> · <a href="https://abcodex.iamkesava.com/sitemap.xml" rel="noopener">sitemap</a> · <a href="https://abcodex.iamkesava.com/rss.xml" rel="noopener">rss</a> · <a href="https://abcodex.iamkesava.com/insight-library/INDEX.json" rel="noopener">index.json</a></div>
+  <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
+</footer>
+</body>
+</html>

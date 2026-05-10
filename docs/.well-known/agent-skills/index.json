@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "search-insights",
+      "type": "skill-md",
+      "description": "Search the operator insight corpus by claim, mechanism, or tier across all 788 insights.",
+      "url": "https://abcodex.iamkesava.com/search-index.json"
+    },
+    {
+      "name": "browse-by-operator",
+      "type": "skill-md",
+      "description": "Browse 461 named operators with their attributed claims, sources, and convergence patterns.",
+      "url": "https://abcodex.iamkesava.com/operators/"
+    },
+    {
+      "name": "browse-by-domain",
+      "type": "skill-md",
+      "description": "Cross-domain index across product, PMM, GTM, AI-native, design, engineering, growth, and founder craft.",
+      "url": "https://abcodex.iamkesava.com/insight-library/INDEX.json"
+    },
+    {
+      "name": "synthesis-patterns",
+      "type": "skill-md",
+      "description": "39 synthesis patterns where 3 or more operators converge on the same claim.",
+      "url": "https://abcodex.iamkesava.com/patterns/"
+    },
+    {
+      "name": "methodology-playbooks",
+      "type": "skill-md",
+      "description": "27 step-by-step playbooks with HowTo schema, sourced from operator practice.",
+      "url": "https://abcodex.iamkesava.com/playbooks/"
+    },
+    {
+      "name": "release-log",
+      "type": "skill-md",
+      "description": "Daily release log; what was added today and over the last 30 days.",
+      "url": "https://abcodex.iamkesava.com/insight-library/latest.json"
+    }
+  ]
+}

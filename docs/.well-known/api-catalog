@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://abcodex.iamkesava.com/",
+      "links": [
+        {
+          "rel": "service-doc",
+          "href": "https://abcodex.iamkesava.com/llms.txt"
+        },
+        {
+          "rel": "describedby",
+          "href": "https://abcodex.iamkesava.com/.well-known/agent-permissions.json"
+        },
+        {
+          "rel": "sitemap",
+          "href": "https://abcodex.iamkesava.com/sitemap.xml"
+        },
+        {
+          "rel": "index",
+          "href": "https://abcodex.iamkesava.com/insight-library/INDEX.json"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://addyosmani.com/agent-permissions/schema.json",
+  "policy_version": "1.0",
+  "site": "https://abcodex.iamkesava.com",
+  "license": "MIT",
+  "attribution_required": true,
+  "allowed_uses": [
+    "read",
+    "summarize",
+    "cite",
+    "answer-engine-indexing",
+    "training-with-attribution",
+    "embed-with-attribution"
+  ],
+  "disallowed_uses": [
+    "republish-without-attribution",
+    "synthetic-byline-attribution"
+  ],
+  "preferred_format": "markdown",
+  "canonical_index": "https://abcodex.iamkesava.com/insight-library/INDEX.json",
+  "discovery": [
+    "https://abcodex.iamkesava.com/llms.txt",
+    "https://abcodex.iamkesava.com/sitemap.xml",
+    "https://abcodex.iamkesava.com/insight-library/INDEX.json",
+    "https://abcodex.iamkesava.com/insight-library/latest.json",
+    "https://abcodex.iamkesava.com/rss.xml"
+  ],
+  "tldr_location": "main .static-tldr or first paragraph of body",
+  "schema": {
+    "insight_url_template": "https://abcodex.iamkesava.com/ins/{id}/",
+    "operator_url_template": "https://abcodex.iamkesava.com/o/{slug}/",
+    "pattern_url_template": "https://abcodex.iamkesava.com/pat/{id}/",
+    "playbook_url_template": "https://abcodex.iamkesava.com/play/{id}/",
+    "release_url_template": "https://abcodex.iamkesava.com/today/{date}/"
+  },
+  "contact": "https://github.com/k3sava/abcodex/issues",
+  "last_updated": "2026-05-10"
+}
