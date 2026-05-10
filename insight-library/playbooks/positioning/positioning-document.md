@@ -11,7 +11,7 @@ originating_operators: [april-dunford, anthony-pierri, emily-kramer, martina-lau
 
 # Positioning Document — full pipeline
 
-Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for. Every decision downstream — homepage, sales deck, campaign brief, onboarding sequence — rests on the positioning you commit to. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after.
+Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for. Every decision downstream (homepage, sales deck, campaign brief, onboarding sequence) rests on the positioning you commit to. Getting it right before you build all that is an order of magnitude cheaper than retrofitting it after.
 
 This playbook is a 14-step pipeline from raw customer evidence to a published positioning document and live validation. It takes approximately three to four weeks for a PMM with access to customers and the sales floor. Compress it and you skip the steps that produce the non-obvious insights. Stretch it and you're analyzing instead of acting.
 
@@ -29,7 +29,7 @@ Run this before any homepage rewrite, sales-deck overhaul, or category push. Als
 - A list of your 5–10 best customers (fast to close, stayed, became advocates)
 - Access to at least 5 buyer interviews (recent switchers preferred)
 - Win/loss patterns from the CRM, even rough ones
-- Product access — you need to experience it, not just read about it
+- Product access: you need to experience it, not just read about it
 - A draft competitive alternatives map, even if just bullet points
 
 ## Steps
@@ -38,15 +38,15 @@ Run this before any homepage rewrite, sales-deck overhaul, or category push. Als
 
 Before research, before interviews, before anything: pull a list of 5–10 customers who understood quickly, bought quickly, stayed, and told others. These are not your biggest contracts. They are the buyers the product is most right for, right now.
 
-The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors who pushed it through. That is expensive fit, not natural fit. Customers who found the product, saw the point immediately, signed without a lengthy procurement cycle, and still recommend it — those are your signal. They represent a buyer type you can find more of.
+The distinction matters. Your largest customer may have required heavy customization, a long proof-of-concept, and executive sponsors who pushed it through. That is expensive fit, not natural fit. Customers who found the product, saw the point immediately, signed without a lengthy procurement cycle, and still recommend it. Those are your signal. They represent a buyer type you can find more of.
 
 If you're pre-revenue, use the prospects who had the strongest "aha" moment during evaluation. You're looking for the same pattern at an earlier stage: recognition, not persuasion.
 
-Write down what these customers have in common. Industry, team size, tech stack, trigger that started the search. That commonality is the first outline of your ICP — before you've asked them a single question.
+Write down what these customers have in common. Industry, team size, tech stack, trigger that started the search. That commonality is the first outline of your ICP, before you've asked them a single question.
 
-### 2. Run JTBD switch interviews — bring up the product last
+### 2. Run JTBD switch interviews. Bring up the product last.
 
-Interview 5–10 buyers from your best-customer list. Cover recent switchers from the past 90 days if you can. The goal is not feature feedback. The goal is language — the words buyers use to describe the problem before they knew your product existed.
+Interview 5–10 buyers from your best-customer list. Cover recent switchers from the past 90 days if you can. The goal is not feature feedback. The goal is language: the words buyers use to describe the problem before they knew your product existed.
 
 Jobs-to-be-Done switch interviews work by tracing a timeline backward from the purchase decision. You ask: what happened right before you started looking? What did you try first? What almost made you not buy? What did you tell your colleagues when you recommended it? Each answer peels back a layer of rationalization and gets closer to the real trigger.
 
@@ -54,13 +54,13 @@ Jobs-to-be-Done switch interviews work by tracing a timeline backward from the p
 > — Bob Moesta, Intercom podcast, 2020
 > `ins_jtbd-interviews-surface-customer-language`
 
-The trigger language is operationally valuable. "We had a critical demo and the call quality dropped" is not just an anecdote. It tells you what channel to run ads on (search for "call quality for demos"), what copy to write ("never drop a call at the wrong moment"), and what objection to preempt. The decision language — "we just needed something that worked without us thinking about it" — tells you what the headline should promise.
+The trigger language is operationally valuable. "We had a critical demo and the call quality dropped" is not just an anecdote. It tells you what channel to run ads on (search for "call quality for demos"), what copy to write ("never drop a call at the wrong moment"), and what objection to preempt. The decision language ("we just needed something that worked without us thinking about it") tells you what the headline should promise.
 
 Cover five areas in each interview: background and role, what they were trying to accomplish, what triggered the search, how the decision unfolded, and how they describe the product to others now. Do not show the product or discuss your solution in the first 30 minutes. Buyers narrate the problem more honestly before they're defending a purchase decision.
 
 After 5–10 interviews, highlight every phrase that appears across multiple buyers without being prompted. Those phrases are your message candidates.
 
-### 3. Map the full alternative set — include doing nothing
+### 3. Map the full alternative set. Include doing nothing.
 
 For every group of competitors or alternatives, ask: what would our best customers do if this product didn't exist? The answers cluster into four types: direct competitors, adjacent tools that partially solve it, manual processes (spreadsheets, hiring, building internally), and doing nothing.
 
@@ -72,13 +72,13 @@ Most positioning exercises stop at direct competitors. That is the wrong place t
 
 When 40–60% of the buyers who passed on you made no decision at all, your real positioning problem is not "why us over them." It's "why do anything at all." The pitch must first establish that the cost of the status quo is real and specific, before it argues why your solution is better than the alternatives. A positioning process that skips this step will produce messaging that wins competitive head-to-head deals but loses to inertia at twice the rate.
 
-Cluster your alternatives into 3–5 groups. Each cluster becomes a lens for isolating your unique attributes in the next step. Include the status quo as an explicit cluster with its own description — what does "doing nothing" actually look like for this buyer? What's the daily cost? What breaks?
+Cluster your alternatives into 3–5 groups. Each cluster becomes a lens for isolating your unique attributes in the next step. Include the status quo as an explicit cluster with its own description. What does "doing nothing" actually look like for this buyer? What's the daily cost? What breaks?
 
 ### 4. Build buyer personas from interview data, not from job titles
 
 Synthesize your interview findings into persona profiles. Goals, pain points, functional day-to-day, purchase path, emotional drivers. Every entry should trace to something a real buyer said or did. If you cannot cite a source interview, label it "hypothesis" and flag it for testing.
 
-The most common persona failure is defining the champion by job title alone. "Head of Revenue Operations" or "VP of Sales" is a job title, not a champion. Two people with the same title at different companies can have completely different buying situations — different company stage, different trigger, different alternatives, different urgency.
+The most common persona failure is defining the champion by job title alone. "Head of Revenue Operations" or "VP of Sales" is a job title, not a champion. Two people with the same title at different companies can have completely different buying situations: different company stage, different trigger, different alternatives, different urgency.
 
 Define the champion in three layers:
 
@@ -90,13 +90,13 @@ Define the champion in three layers:
 
 The situation layer is the one most messaging skips. "Reps are calling without notes" is a champion. "VP Sales" is an audience.
 
-PMM's job runs in both directions. You bring the product to market — positioning, messaging, launch — and you bring the market to the product — buyer signals, competitive intel, customer language, switch triggers. The persona is where both halves meet.
+PMM's job runs in both directions. You bring the product to market (positioning, messaging, launch) and you bring the market to the product (buyer signals, competitive intel, customer language, switch triggers). The persona is where both halves meet.
 
 > "Product marketing's job is to bring the product to market and the market to the product."
 > — Martina Lauchengco, *Loved: How to Rethink Marketing for Tech Products*, 2022
 > `ins_market-to-product-product-to-market`
 
-### 5. Isolate unique attributes — apply the three-check filter
+### 5. Isolate unique attributes. Apply the three-check filter.
 
 For each cluster of competitive alternatives from step 3, list every feature or capability that differentiates your product from that cluster. Stay at the capability level: what does the user actually do, not what the product technically has.
 
@@ -110,15 +110,15 @@ Then apply Omojola's three-check filter to each attribute:
 > — Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
-An attribute that passes checks 1 and 2 but not 3 is a feature, not a differentiator. Note it as a supporting proof point but do not lead with it. The visceral check is not theoretical — it's a test the buyer can perform in a single sentence. Cash App's differentiator was "send me a dollar I can use now." You should be able to articulate yours the same way.
+An attribute that passes checks 1 and 2 but not 3 is a feature, not a differentiator. Note it as a supporting proof point but do not lead with it. The visceral check is not theoretical. It's a test the buyer can perform in a single sentence. Cash App's differentiator was "send me a dollar I can use now." You should be able to articulate yours the same way.
 
-A second thing most teams miss: you can differentiate on what you deliberately do not have. If simplicity is a differentiator — because your competitor requires a 12-week implementation and a dedicated admin — the absence of that complexity is a valid capability to name.
+A second thing most teams miss: you can differentiate on what you deliberately do not have. If simplicity is a differentiator (because your competitor requires a 12-week implementation and a dedicated admin), the absence of that complexity is a valid capability to name.
 
 List no more than 5–7 differentiators that pass all three checks. Those are your foundation.
 
-### 6. Map attributes to value themes — phrase as user verbs
+### 6. Map attributes to value themes. Phrase them as user verbs.
 
-Group the attributes that deliver similar value. Then phrase each cluster as an action verb — what the user can do — not an abstract benefit or a product feature.
+Group the attributes that deliver similar value. Then phrase each cluster as an action verb, what the user can do, not an abstract benefit or a product feature.
 
 Wrong: "Advanced pipeline analytics"
 Right: "See why deals stall before they fall out of the pipeline"
@@ -133,7 +133,7 @@ The message column is the hardest. It must be written in buyer language from you
 
 This matrix is the foundation for every downstream artifact. Every headline, every pillar in the messaging house, every CTA should trace to a row here.
 
-### 7. Choose the market frame — this determines who the buyer compares you to
+### 7. Choose the market frame. This determines who the buyer compares you to.
 
 The market frame is your strategic positioning category. It is not a naming exercise. Choosing a frame determines which competitor the buyer mentally places you against, what evaluations they put you in, and what table-stakes they expect you to have. Get it wrong and you spend your entire sales cycle fighting the wrong comparison.
 
@@ -141,7 +141,7 @@ Five frames and when each works:
 
 | Frame | When to use | Risk |
 |-------|------------|------|
-| Head to head | You can demonstrably win on features vs. a named competitor | Must actually be better — claims will be tested |
+| Head to head | You can demonstrably win on features vs. a named competitor | Must actually be better. Claims will be tested. |
 | 10x better | Same category, measurably superior on the dimension that matters most | Requires proof; the bar for "10x" is higher than it sounds |
 | Big fish / small pond | Dominate an underserved subsegment | Limits TAM; works until the segment grows |
 | New way | Position against the old way of doing the job, not a competitor | Requires category education; buyers must first agree the old way is broken |
@@ -149,13 +149,13 @@ Five frames and when each works:
 
 One practical rule: don't name a new category before the market accepts it exists. The cost of educating buyers on what a category even is runs into millions of dollars of top-of-funnel investment. Most products that think they need a new category name actually need clearer positioning within an existing frame.
 
-### 8. Write the unique belief — the worldview, not the value prop
+### 8. Write the unique belief. The worldview, not the value prop.
 
 The unique belief is the philosophical ground your company stands on. It answers a different question than "what does your product do?" It answers: "what does this company believe about how the world should work?"
 
-A value prop is "we help teams close more deals." A unique belief is "every revenue-critical conversation deserves an immediate, intelligent response — whether a human or an agent handles it." The first is a claim. The second is a worldview. The belief is what makes the company internally consistent: the product decisions, the sales narrative, the content, the brand voice all connect back to it.
+A value prop is "we help teams close more deals." A unique belief is "every revenue-critical conversation deserves an immediate, intelligent response, whether a human or an agent handles it." The first is a claim. The second is a worldview. The belief is what makes the company internally consistent: the product decisions, the sales narrative, the content, the brand voice all connect back to it.
 
-The belief is also the check. Once written, it should make the sales deck, the homepage hero, and the product release notes obviously agree with each other — or reveal where they've drifted.
+The belief is also the check. Once written, it should make the sales deck, the homepage hero, and the product release notes obviously agree with each other, or reveal where they've drifted.
 
 > "The company story is the company strategy."
 > — Andy Raskin, April 2026
@@ -163,17 +163,17 @@ The belief is also the check. Once written, it should make the sales deck, the h
 
 Optionally layer a trend for urgency: "We believe X [unique belief], and right now Y is happening [trend], which makes this the right moment to act." Trend layering works for new-way and new-category positioning. It is less useful when the product fits a well-established category where buyers are already searching.
 
-### 9. Determine differentiation type — binary or by degree
+### 9. Determine differentiation type. Binary or by degree.
 
 Two types of differentiation. Choose based on the evidence, not on what sounds more dramatic.
 
-**Binary**: you are the opposite of something. DuckDuckGo vs. Chrome on privacy. Basecamp vs. project management bloatware. Binary differentiation is sharp and memorable. It polarizes — which is the point. The risk is that competitors can reframe, claiming they also care about the same dimension.
+**Binary**: you are the opposite of something. DuckDuckGo vs. Chrome on privacy. Basecamp vs. project management bloatware. Binary differentiation is sharp and memorable. It polarizes. That's the point. The risk is that competitors can reframe, claiming they also care about the same dimension.
 
 **By degree**: you are measurably better on a specific axis. "3x more calls per hour." "Deploys in 20 minutes, not 12 weeks." By degree is safer because it ties to proof. The risk is that without the proof, it reads like marketing noise.
 
 Most B2B software companies end up with by-degree differentiation because binary claims require genuinely different architectural or philosophical choices that are hard to sustain. Pick whichever the evidence supports, not whichever sounds stronger in a board deck.
 
-### 10. Write the positioning statement — four questions must all answer
+### 10. Write the positioning statement. All four questions, answered.
 
 The positioning statement is the internal anchor document for all messaging downstream. It's not customer-facing copy. It's the test for whether the positioning is complete.
 
@@ -183,9 +183,9 @@ Format:
 
 Validate against Pierri's four questions. The statement must answer all four from a single reading:
 
-1. What is it? (category — the frame you chose in step 7)
-2. Who is it for? (champion in situation — not a job title)
-3. What does it replace? (the primary alternative — could be the status quo)
+1. What is it? (category: the frame you chose in step 7)
+2. Who is it for? (champion in situation, not a job title)
+3. What does it replace? (the primary alternative, could be the status quo)
 4. Why is it better? (the differentiator that passed all three checks)
 
 > "B2B homepages should lead with the trinity of the specific use case, the alternative the buyer is currently using, and the result the product produces, communicable in roughly five seconds."
@@ -194,14 +194,14 @@ Validate against Pierri's four questions. The statement must answer all four fro
 
 If any of the four questions is unanswerable from the statement alone, the positioning is incomplete. Do not move to the messaging house until the statement is tight. The most common failure at this step: the champion is too broad ("sales teams") and the differentiator is unsubstantiated ("best-in-class AI").
 
-### 11. Build the messaging house — three pillars, feature-level evidence under each
+### 11. Build the messaging house. Three pillars, feature-level evidence under each.
 
 The messaging house is the internal architecture. It's not customer-facing copy. It's what copy hangs off.
 
 Structure:
 
 ```
-     [Overall value proposition — one sentence]
+     [Overall value proposition · one sentence]
     /                  |                  \
 [Pillar 1]       [Pillar 2]         [Pillar 3]
     |                  |                  |
@@ -211,11 +211,11 @@ Structure:
 
 Three pillars. Not four or five. If you have more value themes, choose the three that matter most to the champion. The rest live on persona-specific landing pages or vertical plays.
 
-Each pillar needs: a pillar name phrased as a benefit, a one-line message for that pillar, the features that enable it, and at least one customer quote or data point underneath it. The evidence is load-bearing — without it, the pillar is a claim, not a position.
+Each pillar needs: a pillar name phrased as a benefit, a one-line message for that pillar, the features that enable it, and at least one customer quote or data point underneath it. The evidence is load-bearing. Without it, the pillar is a claim, not a position.
 
 The messaging house is an internal document. Sales uses it to stay consistent. Marketing uses it to brief content. When reps say different things about the same product on the same day, the messaging house is what's missing.
 
-### 12. Translate to homepage — the homepage is the positioning artifact
+### 12. Translate to homepage. The homepage is the positioning artifact.
 
 The homepage is the one artifact that is always one click away from every investor, customer, employee, and prospect simultaneously. It has to hold the positioning under scrutiny.
 
@@ -228,21 +228,21 @@ Eight-section structure:
 | Problem | Name the champion's cost of inaction | Their situation in their language; make the status quo feel expensive |
 | Solution by persona | Show the product as the answer per champion | Persona-specific value props with embedded customer quotes |
 | Capability sections ×3 | Prove each messaging pillar | Feature shown as user action, not product feature |
-| Differentiation | Why you vs. the alternative they use today | Before / After, or direct comparison — name the alternative |
+| Differentiation | Why you vs. the alternative they use today | Before / After, or direct comparison. Name the alternative. |
 | Trust | Handle remaining objections | Security, integrations, compliance, customer count |
 | Closing CTA | Reinforce the hero | Same message, different words |
 
 Lead with capabilities: what someone actually does with the product, not aspirational outcomes. "Build pipeline faster" describes an aspiration. "Answer every inbound call in 2 seconds and log the conversation to your CRM automatically" describes a capability. The capability is what converts.
 
-Buyers default to perceiving comparable features across competitors — Gartner names this "sameness." Before the homepage goes live, test the hero with 5 people who aren't on your team. Ask them: what does this product do, who is it for, and what does it replace? If they can't answer all three from the hero alone, rewrite it.
+Buyers default to perceiving comparable features across competitors. Gartner names this "sameness." Before the homepage goes live, test the hero with 5 people who aren't on your team. Ask them: what does this product do, who is it for, and what does it replace? If they can't answer all three from the hero alone, rewrite it.
 
 > "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."
 > — Gartner, Market Guide for B2B Message Testing Solutions, 2025
 > `ins_sameness-perception-is-the-differentiation-barrier`
 
-### 13. Test in live pitches — messaging is theory until a real buyer hears it
+### 13. Test in live pitches. Messaging is theory until a real buyer hears it.
 
-Before declaring positioning done, sit in 3–5 first-meeting discovery calls. Not to validate — to observe. Watch for three signals:
+Before declaring positioning done, sit in 3–5 first-meeting discovery calls. Not to validate. Observe. Watch for three signals:
 
 - Where the buyer interrupts with "wait, what do you mean by..."
 - Where the buyer's energy drops or they stop asking questions
@@ -260,7 +260,7 @@ The sales team will detect positioning failures months before any dashboard does
 > — April Dunford, LinkedIn, April 2026
 > `ins_sales-team-detects-positioning-failure-first`
 
-### 14. Enable the organization — positioning in a folder is a hypothesis
+### 14. Enable the organization. Positioning in a folder is a hypothesis.
 
 A positioning document that lives in a Google Drive folder and gets visited twice a year is not a strategy. It's a hypothesis. The work isn't done until the positioning is installed across the organization.
 
@@ -273,14 +273,14 @@ Enablement checklist:
 - Live-pitch test completed and revisions incorporated
 - Monthly narrative-drift audit scheduled: compare sales deck, homepage hero, and most recent release notes. When they diverge, fix before the next campaign launches.
 
-The monthly audit is not optional. The artifacts that face buyers drift from each other within a quarter if nobody owns the canonical story. The PMM lead or founder is the right owner. The audit is a 30-minute read across three documents — the cost of skipping it compounds.
+The monthly audit is not optional. The artifacts that face buyers drift from each other within a quarter if nobody owns the canonical story. The PMM lead or founder is the right owner. The audit is a 30-minute read across three documents. The cost of skipping it compounds.
 
 ---
 
 ## Quality gates
 
 - [ ] All customer interviews (minimum 5) completed before writing the positioning statement
-- [ ] Competitive alternatives include the status quo, described specifically — not vaguely
+- [ ] Competitive alternatives include the status quo, described specifically, not vaguely
 - [ ] Champion profile has a concrete situation description, not just a job title
 - [ ] Every differentiator passes the three-check filter: different, better, matters viscerally
 - [ ] Positioning statement answers all four questions: what is it, who, replaces what, why better
@@ -305,7 +305,7 @@ The monthly audit is not optional. The artifacts that face buyers drift from eac
 
 **Premature category naming.** Inventing a category before the market accepts it exists. The cost of education is enormous and usually falls on the company that named the category while competitors free-ride on their investment.
 
-**Positioning in a folder.** Completing the process but never installing it. The homepage hero, the sales deck, and the rep's opening line should all reflect the same positioning. When they don't, you don't have positioning — you have a document.
+**Positioning in a folder.** Completing the process but never installing it. The homepage hero, the sales deck, and the rep's opening line should all reflect the same positioning. When they don't, you don't have positioning. You have a document.
 
 **Skipping the rep-input loop.** Treating the monthly narrative-drift audit as optional. Sales hears positioning failures in language first, months before dashboards show it.
 
@@ -313,13 +313,13 @@ The monthly audit is not optional. The artifacts that face buyers drift from eac
 
 ## Outputs
 
-1. **ICP snapshot** — 5–10 best customers analyzed, commonalities documented
-2. **JTBD interview transcripts** — 5+ interviews with highlighted buyer language and switch triggers
-3. **Competitive alternatives map** — four clusters including status quo, with specific descriptions
-4. **Champion profile** — company type, persona, JTBD situation (not just job title)
-5. **Value matrix per persona** — Pain · Benefit · Capability · Message
-6. **Positioning statement** — one sentence, passes all four questions
-7. **Messaging house** — three pillars with feature-level evidence and customer quotes
-8. **Homepage brief** — eight-section structure with copy for each section
-9. **Sales narrative brief** — how the positioning statement maps to the discovery-to-close arc
-10. **Collateral audit scorecard** — existing materials checked against the positioning
+1. **ICP snapshot** · 5–10 best customers analyzed, commonalities documented
+2. **JTBD interview transcripts** · 5+ interviews with highlighted buyer language and switch triggers
+3. **Competitive alternatives map** · four clusters including status quo, with specific descriptions
+4. **Champion profile** · company type, persona, JTBD situation (not just job title)
+5. **Value matrix per persona** · Pain · Benefit · Capability · Message
+6. **Positioning statement** · one sentence, passes all four questions
+7. **Messaging house** · three pillars with feature-level evidence and customer quotes
+8. **Homepage brief** · eight-section structure with copy for each section
+9. **Sales narrative brief** · how the positioning statement maps to the discovery-to-close arc
+10. **Collateral audit scorecard** · existing materials checked against the positioning

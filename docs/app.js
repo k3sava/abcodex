@@ -260,9 +260,13 @@ function rewriteRelativeLinks(root){
     }
     if (route && title){
       const a = document.createElement('a');
-      a.className = 'inline-cross-ref';
+      const isChip = code.classList.contains('ins-ref');
+      a.className = isChip ? 'ins-ref-chip' : 'inline-cross-ref';
       a.setAttribute('href', route);
-      a.textContent = title;
+      a.setAttribute('title', title);
+      a.textContent = isChip
+        ? (title.length > 44 ? title.slice(0, 42).trimEnd() + '…' : title)
+        : title;
       code.replaceWith(a);
     }
   });
@@ -1285,7 +1289,12 @@ async function playbookPage(id){
         toc.className = 'playbook-toc';
         toc.setAttribute('aria-label', 'Jump to section');
         toc.innerHTML = `<p class='toc-label'>In this playbook</p><ol class='toc-list'>${items}</ol>`;
-        target.parentElement.insertBefore(toc, target);
+        // Wrap TOC + content in sidebar grid layout
+        const layout = document.createElement('div');
+        layout.className = 'playbook-layout';
+        target.parentElement.insertBefore(layout, target);
+        layout.appendChild(toc);
+        layout.appendChild(target);
         // Highlight active section on scroll
         if (!reduced){
           const io = new IntersectionObserver(entries => {
@@ -1296,7 +1305,6 @@ async function playbookPage(id){
           }, { rootMargin: '-5% 0px -70% 0px' });
           headings.forEach(h => io.observe(h));
         }
-        document.querySelector('.playbook-body')?.classList.add('has-toc');
       }
       // Render any ```mermaid``` blocks that the markdown converted to .mermaid divs.
       // Mermaid is loaded lazily and only when a diagram is actually present.
@@ -1389,7 +1397,7 @@ function renderMarkdown(md){
     for (const l of lines) if (l.trim()) html += `<p>${inlineMd(l)}</p>`;
     if (hasAttr){
       html += `<footer>`;
-      if (attrLine) html += `<cite>${inlineMd(attrLine)}</cite>`;
+      if (attrLine) html += `<cite>${inlineMd(attrLine.replace(/^[—–\-]\s*/,''))}</cite>`;
       if (cardRefId) html += `<code class='ins-ref'>${escapeHtml(cardRefId)}</code>`;
       html += `</footer>`;
     }
