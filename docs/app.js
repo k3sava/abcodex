@@ -1274,6 +1274,30 @@ async function playbookPage(id){
     if (target){
       target.innerHTML = renderMarkdown(body);
       rewriteRelativeLinks(target);
+      // Auto-generate TOC from rendered h3/h4 headings (## → h3, ### → h4 after level shift)
+      const headings = [...target.querySelectorAll('h3[id], h4[id]')];
+      if (headings.length >= 3){
+        const items = headings.map(h => {
+          const cls = h.tagName === 'H4' ? 'toc-h4' : 'toc-h3';
+          return `<li class='${cls}'><a href='#${escapeHtml(h.id)}'>${escapeHtml(h.textContent)}</a></li>`;
+        }).join('');
+        const toc = document.createElement('nav');
+        toc.className = 'playbook-toc';
+        toc.setAttribute('aria-label', 'Jump to section');
+        toc.innerHTML = `<p class='toc-label'>In this playbook</p><ol class='toc-list'>${items}</ol>`;
+        target.parentElement.insertBefore(toc, target);
+        // Highlight active section on scroll
+        if (!reduced){
+          const io = new IntersectionObserver(entries => {
+            entries.forEach(e => {
+              const a = toc.querySelector(`a[href='#${e.target.id}']`);
+              if (a) a.classList.toggle('toc-active', e.isIntersecting);
+            });
+          }, { rootMargin: '-5% 0px -70% 0px' });
+          headings.forEach(h => io.observe(h));
+        }
+        document.querySelector('.playbook-body')?.classList.add('has-toc');
+      }
       // Render any ```mermaid``` blocks that the markdown converted to .mermaid divs.
       // Mermaid is loaded lazily and only when a diagram is actually present.
       if (target.querySelector('.mermaid')){
@@ -1312,105 +1336,120 @@ async function playbookPage(id){
   if (!reduced) ScrollTrigger.batch('.card.reveal', { onEnter: els => gsap.fromTo(els, { opacity:0, y:18 }, { opacity:1, y:0, duration:.6, ease:'power3.out', stagger:.03 }), start:'top 92%' });
 }
 
-// Minimal markdown renderer for playbook bodies — headings, lists, paragraphs,
-// links, code, bold. Plus: ```mermaid blocks become live diagrams and
-// blockquotes that contain a single emphatic line render as pull-quotes.
+// Markdown → HTML renderer for playbook bodies.
+// Handles: headings (with slug IDs), tables, lists, blockquotes with
+// operator attribution structure, code (mermaid live), inline bold/code/links.
+function slugifyMd(t){ return t.toLowerCase().replace(/[^\w\s-]/g,'').trim().replace(/[\s_]+/g,'-').replace(/^-+|-+$/g,''); }
 function renderMarkdown(md){
   const lines = md.split('\n');
   const out = [];
-  let inList = false;
-  let inCode = false;
-  let codeLang = '';
-  let codeBuf = [];
-  let inQuote = false;
-  let quoteBuf = [];
+  let inList = false, inCode = false, codeLang = '', codeBuf = [];
+  let inQuote = false, quoteBuf = [];
+  let inTable = false, tableBuf = [];
   let para = [];
+  const usedIds = new Set();
+  const makeId = text => {
+    let id = slugifyMd(text.replace(/\*\*/g,'').replace(/`[^`]+`/g,''));
+    if (!id) id = 'section';
+    if (usedIds.has(id)){ let n=2; while(usedIds.has(id+'-'+n)) n++; id=id+'-'+n; }
+    usedIds.add(id); return id;
+  };
   const flushPara = () => { if (para.length){ out.push(`<p>${inlineMd(para.join(' '))}</p>`); para = []; } };
   const closeList = () => { if (inList){ out.push(inList === 'ol' ? '</ol>' : '</ul>'); inList = false; } };
+  const flushTable = () => {
+    if (!tableBuf.length){ inTable = false; return; }
+    const rows = tableBuf.map(r => r.replace(/^\||\|$/g,'').split('|').map(c=>c.trim()));
+    const sepIdx = rows.findIndex(r => r.every(c => /^[:\- ]+$/.test(c)));
+    if (sepIdx < 0){ for(const r of tableBuf) out.push(`<p>${inlineMd(r)}</p>`); tableBuf=[]; inTable=false; return; }
+    const head = rows.slice(0,sepIdx), body = rows.slice(sepIdx+1);
+    let h = `<div class='md-table-wrap'><table class='md-table'>`;
+    if (head.length) h += '<thead>'+head.map(r=>'<tr>'+r.map(c=>`<th>${inlineMd(c)}</th>`).join('')+'</tr>').join('')+'</thead>';
+    h += '<tbody>'+body.map(r=>'<tr>'+r.map(c=>`<td>${inlineMd(c)}</td>`).join('')+'</tr>').join('')+'</tbody>';
+    h += '</table></div>'; out.push(h); tableBuf=[]; inTable=false;
+  };
   const closeQuote = () => {
     if (!inQuote) return;
-    const text = quoteBuf.join(' ').trim();
-    // A blockquote with a single short, declarative line gets the pull-quote treatment.
-    const isPullQuote = text.length < 240 && !/\n/.test(text);
-    if (isPullQuote){
-      out.push(`<blockquote class='pull-quote'><p>${inlineMd(text)}</p></blockquote>`);
-    } else {
-      out.push(`<blockquote>${quoteBuf.map(l => `<p>${inlineMd(l)}</p>`).join('')}</blockquote>`);
+    const lines = quoteBuf.slice(); inQuote = false; quoteBuf = [];
+    if (!lines.length) return;
+    // Detect card ref on its own line: `ins_xxx` or `pat_xxx` or `con_xxx`
+    let cardRefId = '';
+    if (lines.length > 0 && /^`(ins_|pat_|con_)[^`]+`$/.test(lines[lines.length-1].trim())){
+      cardRefId = lines.pop().trim().slice(1,-1);
     }
-    inQuote = false; quoteBuf = [];
+    // Detect attribution line: starts with em-dash, en-dash, or plain dash
+    let attrLine = '';
+    if (lines.length > 0 && /^[—–\-]/.test(lines[lines.length-1].trim())){
+      attrLine = lines.pop().trim();
+    }
+    const hasAttr = attrLine || cardRefId;
+    if (!hasAttr && lines.length === 1 && lines[0].length < 240){
+      out.push(`<blockquote class='pull-quote'><p>${inlineMd(lines[0])}</p></blockquote>`); return;
+    }
+    let html = `<blockquote class='operator-quote'>`;
+    for (const l of lines) if (l.trim()) html += `<p>${inlineMd(l)}</p>`;
+    if (hasAttr){
+      html += `<footer>`;
+      if (attrLine) html += `<cite>${inlineMd(attrLine)}</cite>`;
+      if (cardRefId) html += `<code class='ins-ref'>${escapeHtml(cardRefId)}</code>`;
+      html += `</footer>`;
+    }
+    html += `</blockquote>`; out.push(html);
   };
   for (const ln of lines){
     if (ln.startsWith('```')){
-      flushPara(); closeList(); closeQuote();
-      if (!inCode){
-        codeLang = ln.replace(/^```/, '').trim().toLowerCase();
-        codeBuf = [];
-        inCode = true;
-      }
+      flushPara(); closeList(); closeQuote(); flushTable();
+      if (!inCode){ codeLang = ln.replace(/^```/,'').trim().toLowerCase(); codeBuf = []; inCode = true; }
       else {
-        // Mermaid → live diagram placeholder. mermaid.run() picks these up.
-        if (codeLang === 'mermaid'){
-          out.push(`<div class='mermaid'>${escapeHtml(codeBuf.join('\n'))}</div>`);
-        } else {
-          out.push(`<pre><code${codeLang ? ` class="language-${escapeHtml(codeLang)}"` : ''}>${escapeHtml(codeBuf.join('\n'))}</code></pre>`);
-        }
+        if (codeLang === 'mermaid') out.push(`<div class='mermaid'>${escapeHtml(codeBuf.join('\n'))}</div>`);
+        else out.push(`<pre><code${codeLang?` class="language-${escapeHtml(codeLang)}"`:''} >${escapeHtml(codeBuf.join('\n'))}</code></pre>`);
         codeBuf = []; codeLang = ''; inCode = false;
       }
       continue;
     }
     if (inCode){ codeBuf.push(ln); continue; }
     if (/^>\s?/.test(ln)){
-      flushPara(); closeList();
+      flushPara(); closeList(); flushTable();
       if (!inQuote) inQuote = true;
-      quoteBuf.push(ln.replace(/^>\s?/, ''));
+      quoteBuf.push(ln.replace(/^>\s?/,''));
       continue;
     }
-    if (inQuote && ln.trim() !== '' && !/^>\s?/.test(ln)){
-      // soft continuation
-      quoteBuf[quoteBuf.length - 1] += ' ' + ln.trim();
-      continue;
-    }
+    if (inQuote && ln.trim() !== '' && !/^>\s?/.test(ln)){ quoteBuf[quoteBuf.length-1] += ' '+ln.trim(); continue; }
     if (inQuote && ln.trim() === ''){ closeQuote(); continue; }
+    if (/^\|/.test(ln)){
+      flushPara(); closeList(); closeQuote();
+      tableBuf.push(ln); inTable = true; continue;
+    }
+    if (inTable && !/^\|/.test(ln)) flushTable();
     if (/^#{1,6}\s/.test(ln)){
-      flushPara(); closeList();
+      flushPara(); closeList(); flushTable();
       const m = ln.match(/^(#{1,6})\s+(.*)$/);
       const lv = Math.min(m[1].length + 1, 6);
-      out.push(`<h${lv}>${inlineMd(m[2])}</h${lv}>`);
-      continue;
+      const id = makeId(m[2]);
+      out.push(`<h${lv} id='${id}'>${inlineMd(m[2])}</h${lv}>`); continue;
     }
     if (/^\s*[-*]\s+/.test(ln)){
-      flushPara(); closeQuote();
+      flushPara(); closeQuote(); flushTable();
       if (inList === 'ol'){ out.push('</ol>'); inList = false; }
       if (!inList){ out.push('<ul>'); inList = true; }
-      out.push(`<li>${inlineMd(ln.replace(/^\s*[-*]\s+/, ''))}</li>`);
-      continue;
+      out.push(`<li>${inlineMd(ln.replace(/^\s*[-*]\s+/,''))}</li>`); continue;
     }
     if (/^\s*\d+\.\s+/.test(ln)){
-      flushPara(); closeQuote();
+      flushPara(); closeQuote(); flushTable();
       if (inList === true){ out.push('</ul>'); inList = false; }
       if (!inList){ out.push('<ol class="step-list">'); inList = 'ol'; }
-      out.push(`<li>${inlineMd(ln.replace(/^\s*\d+\.\s+/, ''))}</li>`);
-      continue;
+      out.push(`<li>${inlineMd(ln.replace(/^\s*\d+\.\s+/,''))}</li>`); continue;
     }
-    if (ln.trim() === ''){
-      flushPara(); closeList(); closeQuote();
-      continue;
-    }
+    if (/^---+$/.test(ln.trim())){ flushPara(); closeList(); closeQuote(); flushTable(); out.push('<hr>'); continue; }
+    if (ln.trim() === ''){ flushPara(); closeList(); closeQuote(); flushTable(); continue; }
     para.push(ln);
   }
-  flushPara(); closeList(); closeQuote();
+  flushPara(); closeList(); closeQuote(); flushTable();
   return out.join('\n');
 }
 function inlineMd(s){
-  // links [text](url)
   s = s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, t, u) => `<a href='${escapeHtml(u)}' target='_blank' rel='noopener'>${escapeHtml(t)}</a>`);
-  // bold **x**
   s = s.replace(/\*\*([^*]+)\*\*/g, (_, t) => `<strong>${escapeHtml(t)}</strong>`);
-  // inline code `x`
   s = s.replace(/`([^`]+)`/g, (_, t) => `<code>${escapeHtml(t)}</code>`);
-  // remaining text — already escaped where needed inside replacers; outside text isn't escaped, do it now
-  // Actually our replacers escape inside themselves; unmatched text passes through with original chars.
-  // To keep it simple, wrap in a final pass that escapes lone < > & not inside a tag — skip for now (input is trusted markdown).
   return s;
 }
 

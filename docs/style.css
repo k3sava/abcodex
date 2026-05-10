@@ -1757,3 +1757,77 @@ footer a:hover{color:var(--accent-2);border-bottom-color:currentColor}
 @media (max-width:720px){
   .pb-grid{grid-template-columns:1fr}
 }
+
+/* ===== Markdown tables in playbook bodies ===== */
+.md-table-wrap{overflow-x:auto;margin:1.4em 0;border-radius:10px;border:1px solid color-mix(in oklab,var(--ink) 8%,transparent)}
+.md-table{width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.45}
+.md-table th,.md-table td{padding:10px 14px;text-align:left;border-bottom:1px solid color-mix(in oklab,var(--ink) 6%,transparent)}
+.md-table th{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);background:var(--paper-2);font-weight:600}
+.md-table tr:last-child td{border-bottom:none}
+.md-table td:first-child{font-weight:500;color:var(--ink)}
+.md-table tr:hover td{background:color-mix(in oklab,var(--accent) 4%,transparent)}
+
+/* ===== Operator quotes with attribution + insight chip ===== */
+.playbook-content blockquote.operator-quote,
+.release-body blockquote.operator-quote,
+.body blockquote.operator-quote{
+  margin:1.8em 0;padding:18px 22px;
+  border-left:3px solid var(--accent);
+  background:color-mix(in oklab,var(--accent) 5%,var(--paper));
+  border-radius:0 8px 8px 0;
+  font-family:var(--serif);font-size:1.08rem;line-height:1.5;
+  font-style:italic;color:var(--ink);
+}
+.operator-quote p{margin:0 0 8px;font-style:italic}
+.operator-quote p:last-of-type{margin-bottom:0}
+.operator-quote footer{
+  margin-top:12px;
+  display:flex;flex-direction:column;gap:6px;
+  font-family:var(--mono);font-size:.72rem;font-style:normal;
+}
+.operator-quote footer cite{
+  color:var(--ink-2);font-style:normal;display:block;
+  line-height:1.4;
+}
+.operator-quote footer code.ins-ref,
+.operator-quote footer a.inline-cross-ref{
+  display:inline-block;font-family:var(--mono);font-size:.68rem;
+  color:var(--accent-2);background:var(--accent-soft);
+  border-radius:4px;padding:2px 7px;text-decoration:none;
+  border:1px solid color-mix(in oklab,var(--accent) 25%,transparent);
+  width:fit-content;font-style:normal;
+}
+.operator-quote footer a.inline-cross-ref:hover{
+  background:color-mix(in oklab,var(--accent) 14%,transparent);
+  border-color:var(--accent-2);color:var(--accent-2);
+}
+
+/* ===== Playbook TOC — jump-to nav at top of playbook content ===== */
+.playbook-toc{
+  margin:0 0 2.4em;padding:18px 20px;
+  background:var(--paper-2);
+  border:1px solid color-mix(in oklab,var(--ink) 7%,transparent);
+  border-radius:10px;
+}
+.toc-label{
+  font-family:var(--mono);font-size:.68rem;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 10px;
+}
+.toc-list{
+  list-style:none;padding:0;margin:0;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:2px 24px;
+  counter-reset:none;
+}
+.toc-list li{padding:0}
+.toc-list li::before{display:none}
+.toc-list a{
+  font-family:var(--mono);font-size:.76rem;color:var(--ink-2);text-decoration:none;
+  padding:3px 0;display:block;line-height:1.35;
+  border-bottom:1px solid transparent;
+  transition:color .15s,border-color .15s;
+}
+.toc-list a:hover,.toc-list a.toc-active{color:var(--accent-2);border-bottom-color:var(--accent-soft)}
+.toc-h4 a{padding-left:14px;color:var(--muted);font-size:.72rem}
+@media (max-width:720px){
+  .toc-list{grid-template-columns:1fr}
+}

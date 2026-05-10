@@ -30,7 +30,7 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(fileURLToPath(import.meta.url), "..", "..");
 const LIB = join(ROOT, "insight-library");
 const DOCS = join(ROOT, "docs");
-const SITE_URL = "https://abcodex.iamkesava.com";
+const SITE_URL = "https://codex.iamkesava.com";
 
 // Shared Person + Organization references. Every static page's @graph cites
 // these by @id so AI search agents see one canonical entity per author/org
@@ -82,31 +82,80 @@ function parseFrontmatter(text){
   return { fm: obj, body };
 }
 
-// Minimal markdown → HTML, mirroring the SPA's mdToHtml just enough for static.
-// Returns sanitized HTML; markdown is trusted because it comes from the repo.
+// Minimal markdown → HTML for static pages. Handles headings, lists, blockquotes,
+// tables, code blocks, inline bold/code/links. Tables are converted to responsive
+// <div class="md-table-wrap"><table> structures.
 function mdToHtml(md){
-  let html = md;
-  html = html.replace(/```([\s\S]*?)```/g, (_, c) => `<pre><code>${escapeHtml(c)}</code></pre>`);
-  const lines = html.split("\n");
+  const lines = md.split("\n");
   const out = [];
-  let inList = false, inQuote = false;
+  let inList = false, inOl = false, inQuote = false, inCode = false, codeLang = "", codeBuf = [];
+  let inTable = false, tableBuf = [];
   const inline = s => s
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/(^|[\s({\[])\*([^*]+)\*/g, "$1<em>$2</em>")
     .replace(/`([^`]+)`/g, "<code>$1</code>")
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, t, u) => `<a href="${escapeAttr(u)}">${t}</a>`);
+  const slugify = t => t.toLowerCase().replace(/[^\w\s-]/g,"").trim().replace(/[\s_]+/g,"-").replace(/^-+|-+$/g,"");
+  const usedIds = new Set();
+  const makeId = text => {
+    let id = slugify(text.replace(/\*\*/g,"").replace(/`[^`]+`/g,""));
+    if (!id) id = "section";
+    if (usedIds.has(id)){ let n=2; while(usedIds.has(id+"-"+n)) n++; id=id+"-"+n; }
+    usedIds.add(id); return id;
+  };
+  const flushTable = () => {
+    if (!tableBuf.length){ inTable=false; return; }
+    const rows = tableBuf.map(r => r.replace(/^\||\|$/g,"").split("|").map(c=>c.trim()));
+    const sepIdx = rows.findIndex(r => r.every(c => /^[:\- ]+$/.test(c)));
+    if (sepIdx < 0){ for(const r of tableBuf) out.push(`<p>${inline(r)}</p>`); tableBuf=[]; inTable=false; return; }
+    const head = rows.slice(0, sepIdx), body = rows.slice(sepIdx+1);
+    let h = `<div class="md-table-wrap"><table class="md-table">`;
+    if (head.length) h += "<thead>"+head.map(r=>"<tr>"+r.map(c=>`<th>${inline(c)}</th>`).join("")+"</tr>").join("")+"</thead>";
+    h += "<tbody>"+body.map(r=>"<tr>"+r.map(c=>`<td>${inline(c)}</td>`).join("")+"</tr>").join("")+"</tbody>";
+    h += "</table></div>"; out.push(h); tableBuf=[]; inTable=false;
+  };
+  const closeQuote = () => {
+    if (!inQuote) return;
+    out.push("</blockquote>"); inQuote = false;
+  };
   for (const line of lines){
-    if (/^#\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inQuote){out.push("</blockquote>");inQuote=false;} out.push(`<h1>${inline(line.replace(/^#\s+/, ""))}</h1>`); continue; }
-    if (/^##\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inQuote){out.push("</blockquote>");inQuote=false;} out.push(`<h2>${inline(line.replace(/^##\s+/, ""))}</h2>`); continue; }
-    if (/^###\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inQuote){out.push("</blockquote>");inQuote=false;} out.push(`<h3>${inline(line.replace(/^###\s+/, ""))}</h3>`); continue; }
-    if (/^>\s?/.test(line)){ if(!inQuote){out.push("<blockquote>");inQuote=true;} out.push(`<p>${inline(line.replace(/^>\s?/, ""))}</p>`); continue; } else if (inQuote){ out.push("</blockquote>"); inQuote = false; }
-    if (/^[-*]\s+/.test(line)){ if(!inList){out.push("<ul>");inList=true;} out.push(`<li>${inline(line.replace(/^[-*]\s+/, ""))}</li>`); continue; }
-    if (inList && line.trim() === ""){ out.push("</ul>"); inList = false; out.push(""); continue; }
-    if (line.trim() === ""){ out.push(""); continue; }
-    out.push(`<p>${inline(line)}</p>`);
+    if (line.startsWith("```")){
+      if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable();
+      if(!inCode){ codeLang=line.replace(/^```/,"").trim(); codeBuf=[]; inCode=true; }
+      else { out.push(`<pre><code${codeLang?` class="language-${escapeHtml(codeLang)}"`:""} >${escapeHtml(codeBuf.join("\n"))}</code></pre>`); codeBuf=[]; codeLang=""; inCode=false; }
+      continue;
+    }
+    if(inCode){ codeBuf.push(line); continue; }
+    if (/^\|/.test(line)){
+      if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote();
+      tableBuf.push(line); inTable=true; continue;
+    }
+    if(inTable && !/^\|/.test(line)) flushTable();
+    if (/^#\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^#\s+/,""); out.push(`<h1 id="${makeId(t)}">${inline(t)}</h1>`); continue; }
+    if (/^##\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^##\s+/,""); out.push(`<h2 id="${makeId(t)}">${inline(t)}</h2>`); continue; }
+    if (/^###\s+/.test(line)){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); const t=line.replace(/^###\s+/,""); out.push(`<h3 id="${makeId(t)}">${inline(t)}</h3>`); continue; }
+    if (/^>\s?/.test(line)){
+      if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} flushTable();
+      if(!inQuote){ out.push("<blockquote>"); inQuote=true; }
+      out.push(`<p>${inline(line.replace(/^>\s?/,""))}</p>`); continue;
+    }
+    if(inQuote && line.trim()===""){ closeQuote(); continue; }
+    if(!inQuote && line.trim()===""){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} flushTable(); out.push(""); continue; }
+    if (/^[-*]\s+/.test(line)){
+      if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable();
+      if(!inList){out.push("<ul>");inList=true;} out.push(`<li>${inline(line.replace(/^[-*]\s+/,""))}</li>`); continue;
+    }
+    if (/^\d+\.\s+/.test(line)){
+      if(inList){out.push("</ul>");inList=false;} closeQuote(); flushTable();
+      if(!inOl){out.push("<ol>");inOl=true;} out.push(`<li>${inline(line.replace(/^\d+\.\s+/,""))}</li>`); continue;
+    }
+    if (/^---+$/.test(line.trim())){ if(inList){out.push("</ul>");inList=false;} if(inOl){out.push("</ol>");inOl=false;} closeQuote(); flushTable(); out.push("<hr>"); continue; }
+    if(!inQuote) out.push(`<p>${inline(line)}</p>`);
   }
   if (inList) out.push("</ul>");
+  if (inOl) out.push("</ol>");
   if (inQuote) out.push("</blockquote>");
+  flushTable();
   return out.join("\n");
 }
 function escapeAttr(s){ return s.replace(/"/g, "&quot;"); }
@@ -187,7 +236,7 @@ function rewriteBodyLinks(html, INDEX){
 }
 
 function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual }){
-  const fullTitle = title ? `${escapeHtml(title)} · abcodex` : "abcodex";
+  const fullTitle = title ? `${escapeHtml(title)} · a builder's codex` : "a builder's codex";
   const desc = escapeHtml(description || "A primary-source library of operator insights. Atomic claims, named operators, verifiable sources.");
   const url = canonical;
   const og = ogImage || `${SITE_URL}/og.svg`;
@@ -206,12 +255,12 @@ function shell({ title, description, canonical, hashRoute, jsonLd, body, ogImage
 <meta property="og:description" content="${desc}">
 <meta property="og:url" content="${escapeAttr(url)}">
 <meta property="og:image" content="${escapeAttr(og)}">
-<meta property="og:site_name" content="abcodex">
+<meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${fullTitle}">
 <meta name="twitter:description" content="${desc}">
 <meta name="twitter:image" content="${escapeAttr(og)}">
-<link rel="alternate" type="application/rss+xml" title="abcodex · release log" href="${SITE_URL}/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="${SITE_URL}/rss.xml">
 <link rel="service-doc" href="${SITE_URL}/llms.txt">
 <link rel="api-catalog" href="${SITE_URL}/.well-known/api-catalog">
 <link rel="describedby" href="${SITE_URL}/.well-known/agent-permissions.json">
@@ -288,7 +337,7 @@ ${ld}
 </head>
 <body>
 <header class="static-topbar">
-  <a class="brand" href="${SITE_URL}/"><span class="dot" aria-hidden="true"></span>abcodex</a>
+  <a class="brand" href="${SITE_URL}/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
   <nav>
     <a href="${SITE_URL}/operators/">operators</a>
     <a href="${SITE_URL}/patterns/">patterns</a>
@@ -304,7 +353,7 @@ ${hasVisual ? '<script src="/assets/js/pb-visuals.js" defer></script>' : ''}
 <footer class="static-footer">
   <div class="static-feeds"><a href="${SITE_URL}/llms.txt" rel="noopener">llms.txt</a> · <a href="${SITE_URL}/sitemap.xml" rel="noopener">sitemap</a> · <a href="${SITE_URL}/rss.xml" rel="noopener">rss</a> · <a href="${SITE_URL}/insight-library/INDEX.json" rel="noopener">index.json</a></div>
   <nav aria-label="Sister sites" class="static-sister"><a href="https://apps.iamkesava.com/">apps</a> · <a href="https://tools.iamkesava.com/">tools</a> · <a href="https://toys.iamkesava.com/">toys</a> · <span aria-current="page">codex</span></nav>
-  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/abcodex" rel="noopener">github</a></div>
+  <div>made by <a href="https://iamkesava.com" rel="noopener author">kesava</a> · <a href="https://github.com/k3sava/ab-codex" rel="noopener">github</a></div>
 </footer>
 </body>
 </html>`;

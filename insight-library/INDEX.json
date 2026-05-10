@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T06:29:32.210Z",
+  "generated_at": "2026-05-10T07:16:53.220Z",
   "counts": {
     "insights": 805,
     "operators": 465,
@@ -35444,7 +35444,7 @@
     {
       "path": "playbooks/positioning/positioning-document.md",
       "id": "pb_positioning-document",
-      "title": "Positioning playbook",
+      "title": "Positioning Document — full pipeline",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
@@ -35469,7 +35469,10 @@
         "anthony-pierri",
         "emily-kramer",
         "martina-lauchengco",
-        "ayo-omojola"
+        "ayo-omojola",
+        "bob-moesta",
+        "andy-raskin",
+        "gartner-research"
       ]
     },
     {
