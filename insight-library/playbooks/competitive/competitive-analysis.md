@@ -11,7 +11,7 @@ originating_operators: [april-dunford, gartner-research, ayo-omojola]
 
 # Run competitive analysis that arms sellers and sharpens positioning
 
-A 10-step process for turning competitive intel into decisions. Draws on Crayon's battlecard research, Gartner's differentiation studies, and April Dunford's positioning work. Output is a competitive package that helps sales win, product prioritize, and marketing sharpen messaging. The quality bar is not comprehensiveness. It is whether the analysis changes a decision within 30 days of delivery.
+A 10-step process for turning competitive intel into decisions. Quality bar: does the analysis change a decision within 30 days of delivery?
 
 ## When to use
 
@@ -108,8 +108,7 @@ Use Ayo Omojola's three-check filter on every differentiator you plan to include
 2. Is it actually better on a measurable axis?
 3. Does it matter viscerally to the buyer's job?
 
-> "Being different is not enough. Being better is not enough.
-> It has to be better in a way that matters to the end user."
+> "Being different is not enough. Being better is not enough. It has to be better in a way that matters to the end user."
 > · Ayo Omojola, Lenny's Podcast, 2026-04-28
 > `ins_different-better-and-matters`
 
@@ -127,8 +126,7 @@ Limit to 6 to 8 dimensions. More than that and the matrix becomes a checklist no
 
 Gartner's sameness research documents a specific failure mode here: buyers default to perceiving comparable features across competing products. You have to test that your differentiators actually read as differentiated to external audiences, not just to your team.
 
-> "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts
-> if product marketers do not test their differentiators with external audiences."
+> "Buyer skepticism and the perception of 'sameness' will limit differentiation efforts if product marketers do not test their differentiators with external audiences."
 > · Gartner, Market Guide for B2B Message Testing, 2025
 > `ins_sameness-perception-is-the-differentiation-barrier`
 
@@ -146,8 +144,7 @@ Battlecards are the most important competitive deliverable. They are not the com
 
 The traditional model treats battlecards as documents: a PMM writes one, a sales rep reads it, it goes stale. The better model treats battlecards as curated intel that updates when the inputs update.
 
-> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows.
-> Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
+> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows. Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
 > · Gartner, Innovation Insight: Rethinking Battle Cards, 2025
 > `ins_battle-cards-as-workflow-primitive`
 
@@ -229,7 +226,7 @@ Tone calibration: market leader requires maximum deference. Concede more than fe
 - **One-and-done analysis.** Static analysis is stale within 60 days. Define the refresh cadence before you ship.
 - **Battlecard bloat.** Five-page documents sellers never open. Keep cards to two scannable pages.
 - **Accuracy failures.** One wrong claim destroys all credibility with sellers. Verify everything.
-- **Running campaigns against the wrong competitors.** A 3% win rate signals a structural problem. Fix the root cause before spending on repositioning campaigns.
+- **Running campaigns against the wrong competitors.** A 3% win rate is a structural problem. Fix root cause before repositioning spend.
 - **No adoption plan.** Not in Slack and CRM at the deal level means not used.
 - **Same tone across all comparisons.** Market leaders need deference. Niche players get directness.
 

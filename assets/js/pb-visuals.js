@@ -112,7 +112,10 @@
             var a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
             a.download = fname;
+            a.style.display = 'none';
+            document.body.appendChild(a);
             a.click();
+            document.body.removeChild(a);
             setTimeout(function () { URL.revokeObjectURL(a.href); }, 60000);
           }
         }, 'image/png');

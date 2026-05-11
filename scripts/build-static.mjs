@@ -375,7 +375,7 @@ main.static strong{color:var(--ink);font-weight:600}
 .step-num-badge{font-family:JetBrains Mono,monospace;font-size:1.9rem;line-height:1;color:var(--accent);opacity:.5;font-weight:700;flex-shrink:0;min-width:2.6ch;letter-spacing:-.02em}
 .pb-step{padding:28px 0;margin:0;border-top:1px solid var(--line-2)}
 .pb-step:first-of-type{border-top:none;padding-top:0}
-.pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem;font-weight:600}
+.pb-step h3{display:flex;align-items:baseline;gap:16px;margin-top:0;margin-bottom:.65em;font-size:1.08rem;font-weight:700}
 .pb-step>p:first-of-type{margin-top:0}
 main.static article>h2{margin-top:2.4em}
 main.static article>h2:first-child{margin-top:0}
