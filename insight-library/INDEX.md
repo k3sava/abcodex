@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 805 insight cards
-- 465 operator profiles
+- 809 insight cards
+- 467 operator profiles
 - 209 raw source files
 - 40 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (325)
+### Tier A (326)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -150,6 +150,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_key-challenge-will-actually-getting`](insights/ins_key-challenge-will-actually-getting.md) — The key challenge will be actually getting in front of our target audience _(Rory Woodbridge)_
 - [`ins_kill-criteria-make-pre-mortems-real`](insights/ins_kill-criteria-make-pre-mortems-real.md) — Pre-mortems only work if you commit kill criteria before starting _(Annie Duke)_
 - [`ins_kill-things-to-build-trust`](insights/ins_kill-things-to-build-trust.md) — Killing your own initiatives loudly is the highest-trust move with executives _(Jessica Fain)_
+- [`ins_kyle-poyar-ai-discovery-signup-channel`](insights/ins_kyle-poyar-ai-discovery-signup-channel.md) — AI discovery is a live signup channel: Webflow sees 10% of signups from AI, growing 4x year-over-year _(Kyle Poyar)_
 - [`ins_label-confidence-explicitly`](insights/ins_label-confidence-explicitly.md) — Label every strong opinion with a confidence level so the room knows when to push back _(Mihika Kapoor)_
 - [`ins_latent-demand-as-search-algorithm`](insights/ins_latent-demand-as-search-algorithm.md) — Latent demand, what users hack around the product to get, is the next loop _(Boris Cherny)_
 - [`ins_latticework-of-mental-models`](insights/ins_latticework-of-mental-models.md) — Reliable thinking requires 80-90 mental models from multiple disciplines, not one _(Charlie Munger)_
@@ -339,7 +340,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (408)
+### Tier B (411)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -392,6 +393,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_battlecard-abc-and-distribution`](insights/ins_battlecard-abc-and-distribution.md) — Battlecard adoption fails on distribution, not content quality, embed in the workflow or the card dies _(Crayon)_
 - [`ins_been-quietly-building-something-big`](insights/ins_been-quietly-building-something-big.md) — Solve a problem you faced, not one you imagine, when pivoting _(Akash Anand)_
@@ -407,6 +409,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brand-coefficient-multiplier`](insights/ins_brand-coefficient-multiplier.md) — Brand is the force multiplier on demand gen, strengthen the brand coefficient, not just spend more on ads _(Sam Kuehnle)_
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
+- [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
@@ -614,6 +617,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_peer-mentorship-supply-scaling`](insights/ins_peer-mentorship-supply-scaling.md) — Use peer mentorship instead of HR overhead to scale supply quality _(Benjamin Lauzier)_
 - [`ins_persistence-channels-vs-hit-or-miss`](insights/ins_persistence-channels-vs-hit-or-miss.md) — Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second. _(Julian Shapiro)_
 - [`ins_phil-schmid-four-subagent-patterns`](insights/ins_phil-schmid-four-subagent-patterns.md) — Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost. _(Phil Schmid)_
+- [`ins_pierri-ai-positioning-needs-human-checkpoints`](insights/ins_pierri-ai-positioning-needs-human-checkpoints.md) — Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors _(Anthony Pierri)_
 - [`ins_pin-workflows-to-capabilities-not-models`](insights/ins_pin-workflows-to-capabilities-not-models.md) — Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot _(Ethan Mollick)_
 - [`ins_pm-as-orchestrator-of-agents`](insights/ins_pm-as-orchestrator-of-agents.md) — AI raises the bar for PMs, tactical work is delegatable; judgment, taste, and customer empathy become more valuable _(Lenny Rachitsky)_
 - [`ins_pm-design-handoff-collapse`](insights/ins_pm-design-handoff-collapse.md) — PM-to-design handoff is collapsing; PRDs ship with a working prototype attached _(Aakash Gupta)_
@@ -897,6 +901,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [Ayo Omojola](operators/ayo-omojola/README.md)
 - [Ayush Barnwal](operators/ayush-barnwal/README.md)
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
+- [Barry Schwartz](operators/barry-schwartz/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
 - [Ben Tossell](operators/ben-tossell/README.md)
 - [Benjamin Gibert](operators/benjamin-gibert/README.md)
@@ -973,6 +978,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [Donald Miller](operators/donald-miller/README.md)
 - [Dora Vanourek](operators/dora-vanourek/README.md)
 - [Doug Holt](operators/doug-holt/README.md)
+- [Drew Breunig](operators/drew-breunig/README.md)
 - [Dyutismita Das](operators/dyutismita-das/README.md)
 - [Eddie Shleyner](operators/eddie-shleyner/README.md)
 - [Elad Gil](operators/elad-gil/README.md)
@@ -1336,7 +1342,7 @@ _Generated 2026-05-10. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (7 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (9 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools

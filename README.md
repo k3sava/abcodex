@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest — 2026-05-10 · 4 insights
+### Latest — 2026-05-11 · 4 insights · 2 operators
 
-**Context engineering quantified, AEO continuity, volume versus curation** — Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.
+**AI implementation realism and AEO benchmarks, 2026-05-11** — Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.
 
-[Read what landed →](insight-library/daily/2026-05-10.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-11.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights — atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights — atomic claims, each one attrib
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **805** insight cards
-- **465** operator profiles
+- **809** insight cards
+- **467** operator profiles
 - **40** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 465 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 467 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

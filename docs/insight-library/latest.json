@@ -1,24 +1,48 @@
 {
-  "generated_at": "2026-05-10T17:07:28.529Z",
+  "generated_at": "2026-05-11T03:14:15.161Z",
   "latest_daily": {
-    "path": "daily/2026-05-10.md",
-    "date": "2026-05-10",
-    "title": "Context engineering quantified, AEO continuity, volume versus curation",
-    "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
+    "path": "daily/2026-05-11.md",
+    "date": "2026-05-11",
+    "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
+    "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
     "sources": [
-      "morning research scan 2026-05-10"
+      "morning research scan 2026-05-11"
     ],
     "insights_added": [
-      "ins_poyar-voje-context-engineering-gap",
-      "ins_swyx-scaling-without-slop",
-      "ins_lily-ray-aeo-seo-continuity",
-      "ins_anthropic-routines-cloud-agent-tasks"
+      "ins_pierri-ai-positioning-needs-human-checkpoints",
+      "ins_breunig-agentic-code-free-as-puppies",
+      "ins_kyle-poyar-ai-discovery-signup-channel",
+      "ins_barry-schwartz-google-ai-mode-citation-surfaces"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "drew-breunig",
+      "barry-schwartz"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-11.md",
+      "date": "2026-05-11",
+      "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
+      "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
+      "sources": [
+        "morning research scan 2026-05-11"
+      ],
+      "insights_added": [
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_breunig-agentic-code-free-as-puppies",
+        "ins_kyle-poyar-ai-discovery-signup-channel",
+        "ins_barry-schwartz-google-ai-mode-citation-surfaces"
+      ],
+      "operators_added": [
+        "drew-breunig",
+        "barry-schwartz"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-10.md",
       "date": "2026-05-10",

@@ -1,29 +1,32 @@
 {
-  "generated_at": "2026-05-10T17:59:24.000Z",
+  "generated_at": "2026-05-11T03:14:15.130Z",
   "counts": {
-    "insights": 805,
-    "operators": 465,
+    "insights": 809,
+    "operators": 467,
     "raw_sources": 209,
     "patterns": 40,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 10
+    "daily": 11
   },
   "latest_daily": {
-    "path": "daily/2026-05-10.md",
-    "date": "2026-05-10",
-    "title": "Context engineering quantified, AEO continuity, volume versus curation",
-    "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
+    "path": "daily/2026-05-11.md",
+    "date": "2026-05-11",
+    "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
+    "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
     "sources": [
-      "morning research scan 2026-05-10"
+      "morning research scan 2026-05-11"
     ],
     "insights_added": [
-      "ins_poyar-voje-context-engineering-gap",
-      "ins_swyx-scaling-without-slop",
-      "ins_lily-ray-aeo-seo-continuity",
-      "ins_anthropic-routines-cloud-agent-tasks"
+      "ins_pierri-ai-positioning-needs-human-checkpoints",
+      "ins_breunig-agentic-code-free-as-puppies",
+      "ins_kyle-poyar-ai-discovery-signup-channel",
+      "ins_barry-schwartz-google-ai-mode-citation-surfaces"
     ],
-    "operators_added": "",
+    "operators_added": [
+      "drew-breunig",
+      "barry-schwartz"
+    ],
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -2509,6 +2512,36 @@
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
     },
     {
+      "path": "insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md",
+      "id": "ins_barry-schwartz-google-ai-mode-citation-surfaces",
+      "operator": "Barry Schwartz",
+      "operator_role": "Founder, Search Engine Roundtable; News Editor, Search Engine Land",
+      "co_operators": [],
+      "source_url": "https://www.seroundtable.com/google-improves-links-ai-mode-ai-overviews-41280.html",
+      "source_type": "recap",
+      "source_title": "Google Improves Links In AI Mode and AI Overviews",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-11",
+      "domain": [
+        "aeo",
+        "seo",
+        "technical-seo"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "recap",
+      "score": "{ originality: 2, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_casey-hill-aeo-structural-prominence",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search"
+    },
+    {
       "path": "insights/ins_battle-cards-as-workflow-primitive.md",
       "id": "ins_battle-cards-as-workflow-primitive",
       "operator": "Gartner",
@@ -3073,6 +3106,34 @@
       ],
       "raw_ref": "",
       "title": "Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce."
+    },
+    {
+      "path": "insights/ins_breunig-agentic-code-free-as-puppies.md",
+      "id": "ins_breunig-agentic-code-free-as-puppies",
+      "operator": "Drew Breunig",
+      "operator_role": "Writer and AI product thinker, dbreunig.com",
+      "co_operators": [],
+      "source_url": "https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html",
+      "source_type": "essay",
+      "source_title": "10 Lessons for Agentic Coding",
+      "source_date": "2026-05-04",
+      "captured_date": "2026-05-11",
+      "domain": [
+        "ai-engineering",
+        "ai-product"
+      ],
+      "lifecycle": [
+        "build"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_pierri-ai-positioning-needs-human-checkpoints"
+      ],
+      "raw_ref": "",
+      "title": "Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost"
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -10164,6 +10225,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_kyle-poyar-ai-discovery-signup-channel.md",
+      "id": "ins_kyle-poyar-ai-discovery-signup-channel",
+      "operator": "Kyle Poyar",
+      "operator_role": "Partner at OpenView; author of Growth Unhinged",
+      "co_operators": [],
+      "source_url": "https://www.growthunhinged.com/p/what-s-working-right-now-in-ai-search",
+      "source_type": "essay",
+      "source_title": "What's Working Right Now in AI Search",
+      "source_date": "2026-05-03",
+      "captured_date": "2026-05-11",
+      "domain": [
+        "growth-demand",
+        "aeo"
+      ],
+      "lifecycle": [
+        "acquisition"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-is-gtm-capability",
+        "ins_kyle-poyar-ai-recommendation-share"
+      ],
+      "raw_ref": "",
+      "title": "AI discovery is a live signup channel: Webflow sees 10% of signups from AI, growing 4x year-over-year"
+    },
+    {
       "path": "insights/ins_kyle-poyar-ai-recommendation-share.md",
       "id": "ins_kyle-poyar-ai-recommendation-share",
       "operator": "Kyle Poyar",
@@ -14150,6 +14240,35 @@
       ],
       "raw_ref": "",
       "title": "Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost."
+    },
+    {
+      "path": "insights/ins_pierri-ai-positioning-needs-human-checkpoints.md",
+      "id": "ins_pierri-ai-positioning-needs-human-checkpoints",
+      "operator": "Anthony Pierri",
+      "operator_role": "PMM Consultant at FletchPMM",
+      "co_operators": [],
+      "source_url": "https://www.linkedin.com/in/anthonypierri/",
+      "source_type": "post",
+      "source_title": "AI needs A LOT of help to do a good job",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-11",
+      "domain": [
+        "pmm",
+        "ai-product"
+      ],
+      "lifecycle": [
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-agentic-code-free-as-puppies",
+        "ins_traces-need-feedback-to-learn"
+      ],
+      "raw_ref": "",
+      "title": "Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors"
     },
     {
       "path": "insights/ins_pin-workflows-to-capabilities-not-models.md",
@@ -23247,6 +23366,25 @@
       "title": "Bangaly Kaba"
     },
     {
+      "path": "operators/barry-schwartz/README.md",
+      "slug": "barry-schwartz",
+      "name": "Barry Schwartz",
+      "roles": [
+        "\"Founder",
+        "Search Engine Roundtable\"",
+        "\"News Editor",
+        "Search Engine Land\""
+      ],
+      "domains_active": [
+        "seo",
+        "aeo",
+        "technical-seo"
+      ],
+      "captured_first": "2026-05-11",
+      "external": "{ newsletter: \"https://www.seroundtable.com\" }",
+      "title": "Barry Schwartz"
+    },
+    {
       "path": "operators/becky-kennedy/README.md",
       "name": "Becky Kennedy",
       "slug": "becky-kennedy",
@@ -24705,6 +24843,22 @@
         "linkedin": "https://www.linkedin.com/in/douglas-holt-7b999464/"
       },
       "title": "Doug Holt"
+    },
+    {
+      "path": "operators/drew-breunig/README.md",
+      "slug": "drew-breunig",
+      "name": "Drew Breunig",
+      "roles": [
+        "\"Writer and AI product thinker",
+        "dbreunig.com\""
+      ],
+      "domains_active": [
+        "ai-engineering",
+        "ai-product"
+      ],
+      "captured_first": "2026-05-11",
+      "external": "{ newsletter: \"https://dbreunig.com\" }",
+      "title": "Drew Breunig"
     },
     {
       "path": "operators/dyutismita-das/README.md",
@@ -34751,8 +34905,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-07",
-      "convergence_count": "7",
+      "last_updated": "2026-05-11",
+      "convergence_count": "9",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -34761,7 +34915,9 @@
         "ins_make-verification-easy-ai-production",
         "ins_error-analysis-highest-leverage-eval-step",
         "ins_capability-spikes-where-verification-loops-exist",
-        "ins_outcomes-grader-agent-evaluation"
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_breunig-agentic-code-free-as-puppies"
       ],
       "domains": [
         "ai-native",
@@ -35565,6 +35721,27 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-11.md",
+      "date": "2026-05-11",
+      "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
+      "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
+      "sources": [
+        "morning research scan 2026-05-11"
+      ],
+      "insights_added": [
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_breunig-agentic-code-free-as-puppies",
+        "ins_kyle-poyar-ai-discovery-signup-channel",
+        "ins_barry-schwartz-google-ai-mode-citation-surfaces"
+      ],
+      "operators_added": [
+        "drew-breunig",
+        "barry-schwartz"
+      ],
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-10.md",
       "date": "2026-05-10",
