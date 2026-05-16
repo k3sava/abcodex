@@ -342,7 +342,11 @@ ${hasVisual ? '<link rel="stylesheet" href="/assets/css/pb-visuals.css">' : ''}
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -452,9 +456,10 @@ ${extraStyle || ""}
 ${ld}
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="${SITE_URL}/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="${SITE_URL}/operators/">operators</a>
     <a href="${SITE_URL}/patterns/">patterns</a>
     <a href="${SITE_URL}/playbooks/">playbooks</a>
@@ -462,7 +467,7 @@ ${ld}
     <a href="${SITE_URL}/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 ${body}
 </main>
 ${hasVisual ? '<script src="/assets/js/pb-visuals.js" defer></script>' : ''}
@@ -663,18 +668,34 @@ async function main(){
     }
     // Schema.org graph: Article + BreadcrumbList + FAQPage (when sections exist) +
     // Speakable so voice assistants pick up the title and the claim section first.
+    // Authors are referenced by stable @id (operator page anchor) so a graph
+    // crawler can cluster every card by one operator without de-duping by name.
+    const authorRefs = [
+      { "@type": "Person", "@id": `${SITE_URL}/o/${opSlug}/#person`, "name": opName, "url": `${SITE_URL}/o/${opSlug}/`, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
+      ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => {
+        const cs = opSlugify(co);
+        return { "@type": "Person", "@id": `${SITE_URL}/o/${cs}/#person`, "name": co, "url": `${SITE_URL}/o/${cs}/` };
+      }) : []),
+    ];
+    const isBasedOnObj = i.source_url ? {
+      "@type": "CreativeWork",
+      "url": i.source_url,
+      ...(i.source_title ? { "name": i.source_title } : {}),
+      ...(i.source_type ? { "encodingFormat": i.source_type } : {}),
+      ...(i.source_date ? { "datePublished": i.source_date } : {}),
+    } : undefined;
     const jsonLd = {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "Article",
+          "@id": `${SITE_URL}/ins/${i.id}/#article`,
           "headline": i.title || i.id,
           "datePublished": i.source_date || undefined,
           "dateModified": i.captured_date || i.source_date || undefined,
-          "author": [{ "@type": "Person", "name": opName, ...(i.operator_role ? { "jobTitle": i.operator_role } : {}) },
-            ...(Array.isArray(i.co_operators) ? i.co_operators.map(co => ({ "@type": "Person", "name": co })) : [])],
-          "isBasedOn": i.source_url || undefined,
-          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
+          "author": authorRefs,
+          ...(isBasedOnObj ? { "isBasedOn": isBasedOnObj } : {}),
+          "publisher": { "@id": ORG_CODEX_ID },
           "url": `${SITE_URL}/ins/${i.id}/`,
           "mainEntityOfPage": `${SITE_URL}/ins/${i.id}/`,
           "keywords": (i.domain || []).join(", "),
@@ -682,6 +703,7 @@ async function main(){
           "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".static-tldr-claim"] },
           ...(i.tier ? { "additionalType": `${SITE_URL}/tier/${i.tier}` } : {}),
         },
+        { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "logo": { "@type": "ImageObject", "url": `${SITE_URL}/og.png` }, "founder": { "@id": PERSON_KESAVA_ID } },
         {
           "@type": "BreadcrumbList",
           "itemListElement": [
@@ -765,10 +787,12 @@ ${relatedGroup("Playbooks using their cards", opPlaybooks.map(playbookTile).join
       "@graph": [
         {
           "@type": "Person",
+          "@id": `${SITE_URL}/o/${op.slug}/#person`,
           "name": op.name || op.slug,
           "url": `${SITE_URL}/o/${op.slug}/`,
           ...(Array.isArray(op.roles) && op.roles.length ? { "description": op.roles.join("; ") } : {}),
           ...(sameAs.length ? { "sameAs": sameAs } : {}),
+          "mainEntityOfPage": `${SITE_URL}/o/${op.slug}/`,
         },
         {
           "@type": "BreadcrumbList",

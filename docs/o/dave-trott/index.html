@@ -35,7 +35,11 @@
    codex typography palette but in a layout tuned for crawlers + readers. */
 :root{--paper:#f3f5ee;--paper-2:#e6ebe0;--ink:#0d1410;--ink-2:#2a3530;--muted:#6b7868;--accent:#1f9d55;--accent-2:#15803d;--line:#0d141022;--line-2:#0d141012}
 *{box-sizing:border-box;margin:0;padding:0}
+*:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 body{font-family:Inter,system-ui,sans-serif;background:var(--paper);color:var(--ink);margin:0;-webkit-font-smoothing:antialiased;line-height:1.55}
+.skip-link{position:fixed;top:-100px;left:8px;z-index:100;padding:10px 14px;background:var(--ink);color:var(--paper);font-family:JetBrains Mono,monospace;font-size:.74rem;text-decoration:none;border-radius:6px;transition:top .15s ease}
+.skip-link:focus{top:8px;outline:2px solid var(--accent);outline-offset:2px}
+main:focus{outline:none}
 .static-topbar{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;border-bottom:1px solid var(--line-2);background:color-mix(in oklab,var(--paper) 92%,transparent);backdrop-filter:blur(8px);position:sticky;top:0;z-index:10}
 .static-topbar .brand{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:1.05rem;letter-spacing:-.01em;color:var(--ink);text-decoration:none;display:flex;align-items:center;gap:8px}
 .static-topbar .brand:hover{color:var(--accent-2)}
@@ -142,12 +146,13 @@ main.static pre code{background:transparent;padding:0}
 }
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","name":"Dave Trott","url":"https://abcodex.iamkesava.com/o/dave-trott/","description":"British creative director and copywriter; co-founder of Gold Greenlees Trott (1980, voted Most Creative Agency in the World by Advertising Age); Author of Predatory Thinking (2013), Creative Mischief (2010), One + One = Three (2016), Crossover Creativity; Trained at Pratt Institute (NY) and Carl Ally Inc.; D&AD President's Award 2004; Active essayist at davetrott.co.uk; daily / weekly posts on creativity, strategy, and competition","sameAs":["https://davetrott.co.uk/","https://en.wikipedia.org/wiki/Dave_Trott_(advertising_executive)"]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Dave Trott","item":"https://abcodex.iamkesava.com/o/dave-trott/"}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/dave-trott/#person","name":"Dave Trott","url":"https://abcodex.iamkesava.com/o/dave-trott/","description":"British creative director and copywriter; co-founder of Gold Greenlees Trott (1980, voted Most Creative Agency in the World by Advertising Age); Author of Predatory Thinking (2013), Creative Mischief (2010), One + One = Three (2016), Crossover Creativity; Trained at Pratt Institute (NY) and Carl Ally Inc.; D&AD President's Award 2004; Active essayist at davetrott.co.uk; daily / weekly posts on creativity, strategy, and competition","sameAs":["https://davetrott.co.uk/","https://en.wikipedia.org/wiki/Dave_Trott_(advertising_executive)"],"mainEntityOfPage":"https://abcodex.iamkesava.com/o/dave-trott/"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Dave Trott","item":"https://abcodex.iamkesava.com/o/dave-trott/"}]}]}</script>
 </head>
 <body>
+<a class="skip-link" href="#main">skip to content</a>
 <header class="static-topbar">
   <a class="brand" href="https://abcodex.iamkesava.com/"><span class="dot" aria-hidden="true"></span>a builder's codex</a>
-  <nav>
+  <nav aria-label="Primary">
     <a href="https://abcodex.iamkesava.com/operators/">operators</a>
     <a href="https://abcodex.iamkesava.com/patterns/">patterns</a>
     <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a>
@@ -155,7 +160,7 @@ main.static pre code{background:transparent;padding:0}
     <a href="https://abcodex.iamkesava.com/#/about">about</a>
   </nav>
 </header>
-<main class="static">
+<main class="static" id="main" tabindex="-1">
 <div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · Dave Trott</div><h1>Dave Trott</h1><article><h2 id="bio">Bio</h2>
 <p>Dave Trott (b. 1947) is a British creative director, copywriter, and author whose 40+ year career spans some of the most awarded UK advertising agencies of the modern era. He co-founded Gold Greenlees Trott (GGT) in 1980, which Advertising Age voted Most Creative Agency in the World; co-founded Bainsfair Sharkey Trott (1990) and Walsh Trott Chick Smith (which merged into The Gate, where he served as Chairman until 2014). His campaign work includes Pepsi ("Lipsmackinthirstquenchin"), Toshiba ("Hello Tosh gotta Toshiba"), Cadbury's Flake, and Holsten Pils. Trott's published work and his prolific blog focus on a single thesis: in a market dominated by sameness and incremental optimisation, the only durable creative strategy is to <em>change the game</em>, predatory thinking that competes for attention rather than for share within an existing frame.</p>
 

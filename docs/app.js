@@ -419,7 +419,14 @@ function home(){
 }
 
 function animateHome(){
-  if (reduced) return;
+  if (reduced) {
+    // Show final values without animation. Otherwise the stats would stay at 0.
+    document.querySelectorAll('.hero .num').forEach(el => {
+      const target = +el.dataset.count;
+      if (Number.isFinite(target)) el.textContent = target;
+    });
+    return;
+  }
   const h = document.getElementById('heroH');
   if (h){
     h.innerHTML = h.innerHTML.replace(/(\S+)/g, '<span class="word">$1</span>');
@@ -2691,6 +2698,13 @@ function render(){
   else view = about;
   if (!reduced) gsap.fromTo(app, { opacity:0 }, { opacity:1, duration:.3, ease:'power2.out', clearProps:'transform,translate,rotate,scale' });
   view();
+  // Move focus to <main> on route change so keyboard users land at the new
+  // page heading and screen readers announce it. Preserve tabindex so the
+  // skip-link target stays valid. Skip when an anchor exists; scrolling to it
+  // already moves focus closer to the right place.
+  if (!anchor){
+    requestAnimationFrame(() => { try { app.focus({ preventScroll: true }); } catch(e){} });
+  }
   // Allow render then refresh ScrollTrigger so currently-visible reveals fire
   setTimeout(() => {
     ScrollTrigger.refresh();
