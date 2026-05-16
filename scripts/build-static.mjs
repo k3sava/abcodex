@@ -427,6 +427,14 @@ main.static pre code{background:transparent;padding:0}
 .static-card:hover{border-color:var(--accent);transform:translateY(-1px)}
 .static-card .tier{font-family:JetBrains Mono,monospace;font-size:.6rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
 .static-card-title{font-family:Newsreader,serif;font-size:1rem;line-height:1.3}
+.static-related{margin-top:56px;padding-top:32px;border-top:1px solid var(--line)}
+.static-related h2{font-family:Newsreader,serif;font-weight:500;font-size:1.35rem;line-height:1.25;margin:0 0 22px}
+.static-related-group{margin-bottom:28px}
+.static-related-group:last-child{margin-bottom:0}
+.static-related-label{font-family:JetBrains Mono,monospace;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:12px;font-weight:600}
+.static-domains{display:flex;flex-wrap:wrap;gap:8px 10px;font-family:JetBrains Mono,monospace;font-size:.74rem;margin:0;padding:0}
+.static-domains a{color:var(--ink-2);text-decoration:none;padding:4px 12px;border:1px solid var(--line);border-radius:999px;transition:border-color .12s,color .12s,background .12s}
+.static-domains a:hover{border-color:var(--accent);color:var(--accent-2);background:color-mix(in oklab,var(--accent) 8%,transparent)}
 .static-footer{max-width:880px;margin:0 auto;padding:32px 24px 64px;border-top:1px solid var(--line-2);font-family:JetBrains Mono,monospace;font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}
 .static-footer a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid transparent}
 .static-footer a:hover{color:var(--accent);border-bottom-color:currentColor}
@@ -505,9 +513,97 @@ async function copyVisualImages(playbook_id){
 async function main(){
   // Read INDEX.json (must be built first).
   const INDEX = JSON.parse(await readFile(join(LIB, "INDEX.json"), "utf8"));
-  // Normalise — patterns and contradictions store their title in `title`.
+  // Normalise. Patterns and contradictions store their title in `title`.
   // Operators are keyed by `slug`.
   let count = 0;
+
+  // Reverse-lookup maps (built once). Power the "Where this connects" footer
+  // on insight, operator, pattern, and playbook pages. The ≥6-outbound-link
+  // floor lives or dies here.
+  const opSlugify = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const cardById = new Map(INDEX.insights.map(x => [x.id, x]));
+  const patternsForCard = new Map();
+  for (const p of INDEX.patterns) for (const cid of (p.uses_cards || [])) {
+    if (!patternsForCard.has(cid)) patternsForCard.set(cid, []);
+    patternsForCard.get(cid).push(p);
+  }
+  const playbooksForCard = new Map();
+  for (const pb of INDEX.playbooks) for (const cid of (pb.uses_cards || [])) {
+    if (!playbooksForCard.has(cid)) playbooksForCard.set(cid, []);
+    playbooksForCard.get(cid).push(pb);
+  }
+  const cardsForOperator = new Map();
+  const patternsForOperator = new Map();
+  const playbooksForOperator = new Map();
+  for (const ins of INDEX.insights) {
+    const opSlugs = new Set();
+    const primary = opSlugify(ins.operator);
+    if (primary) opSlugs.add(primary);
+    for (const co of (ins.co_operators || [])) {
+      const s = opSlugify(co);
+      if (s) opSlugs.add(s);
+    }
+    for (const s of opSlugs) {
+      if (!cardsForOperator.has(s)) cardsForOperator.set(s, []);
+      cardsForOperator.get(s).push(ins);
+    }
+  }
+  // Patterns + playbooks the operator contributes to (transitively, via their cards).
+  for (const p of INDEX.patterns) {
+    const ops = new Set();
+    for (const cid of (p.uses_cards || [])) {
+      const c = cardById.get(cid);
+      if (!c) continue;
+      const s = opSlugify(c.operator);
+      if (s) ops.add(s);
+      for (const co of (c.co_operators || [])) {
+        const cs = opSlugify(co);
+        if (cs) ops.add(cs);
+      }
+    }
+    for (const s of ops) {
+      if (!patternsForOperator.has(s)) patternsForOperator.set(s, []);
+      patternsForOperator.get(s).push(p);
+    }
+  }
+  for (const pb of INDEX.playbooks) {
+    const ops = new Set();
+    for (const cid of (pb.uses_cards || [])) {
+      const c = cardById.get(cid);
+      if (!c) continue;
+      const s = opSlugify(c.operator);
+      if (s) ops.add(s);
+      for (const co of (c.co_operators || [])) {
+        const cs = opSlugify(co);
+        if (cs) ops.add(cs);
+      }
+    }
+    // Also: originating_operators (named on the playbook frontmatter).
+    for (const name of (pb.originating_operators || [])) {
+      const s = opSlugify(name);
+      if (s) ops.add(s);
+    }
+    for (const s of ops) {
+      if (!playbooksForOperator.has(s)) playbooksForOperator.set(s, []);
+      playbooksForOperator.get(s).push(pb);
+    }
+  }
+
+  // Render helpers for the "Where this connects" block. Same tile shape across
+  // primitive types so the visual grammar reads as one thing.
+  const cardTile = (c) => `<a class="static-card" href="${SITE_URL}/ins/${c.id}/"><div class="tier">Tier ${escapeHtml(c.tier || "C")} · ${escapeHtml((c.domain||[]).slice(0,2).join(" · ") || "·")}</div><div class="static-card-title">${escapeHtml(c.title || c.id)}</div></a>`;
+  const patternTile = (p) => `<a class="static-card" href="${SITE_URL}/pat/${p.id}/"><div class="tier">Pattern · ${escapeHtml((p.domains||[]).slice(0,2).join(" · ") || "·")}</div><div class="static-card-title">${escapeHtml(p.title || p.id)}</div></a>`;
+  const playbookTile = (pb) => `<a class="static-card" href="${SITE_URL}/play/${pb.id}/"><div class="tier">Playbook · ${escapeHtml((Array.isArray(pb.domain) ? pb.domain : (pb.domain ? [pb.domain] : [])).slice(0,2).join(" · ") || "·")}</div><div class="static-card-title">${escapeHtml(pb.title || pb.id)}</div></a>`;
+  const operatorTile = (op, count) => `<a class="static-card" href="${SITE_URL}/o/${op.slug}/"><div class="tier">Operator · ${count} insight${count === 1 ? "" : "s"}</div><div class="static-card-title">${escapeHtml(op.name || op.slug)}</div></a>`;
+  const relatedGroup = (label, htmlItems) => htmlItems
+    ? `<div class="static-related-group"><div class="static-related-label">${label}</div><div class="static-cards-grid">${htmlItems}</div></div>`
+    : "";
+  const domainStrip = (domains) => {
+    const ds = (domains || []).slice(0, 6);
+    if (!ds.length) return "";
+    const links = ds.map(d => `<a href="${SITE_URL}/d/${d}/">${escapeHtml(d)}</a>`).join(" · ");
+    return `<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains">${links}</p></div>`;
+  };
 
   // Helper to write static HTML for a markdown file at canonical URL.
   const writeOne = async ({ outPath, title, description, canonical, hashRoute, jsonLd, body, ogImage, hasVisual, extraStyle }) => {
@@ -598,6 +694,25 @@ async function main(){
         ...(faqEntries.length ? [{ "@type": "FAQPage", "mainEntity": faqEntries }] : []),
       ],
     };
+    // Related block. Domain links + same-operator siblings + patterns + playbooks
+    // + frontmatter `related`. Drives ≥6 outbound links per insight page.
+    const siblingCards = (cardsForOperator.get(opSlug) || [])
+      .filter(c => c.id !== i.id)
+      .slice(0, 6);
+    const patternsHere = (patternsForCard.get(i.id) || []).slice(0, 6);
+    const playbooksHere = (playbooksForCard.get(i.id) || []).slice(0, 6);
+    const relatedCards = (Array.isArray(i.related) ? i.related : [])
+      .map(rid => cardById.get(rid))
+      .filter(Boolean)
+      .filter(c => c.id !== i.id)
+      .slice(0, 6);
+    const relatedBlock = `<section class="static-related"><h2>Where this connects</h2>
+${domainStrip(i.domain)}
+${relatedGroup(`More from ${escapeHtml(opName)}`, siblingCards.map(cardTile).join(""))}
+${relatedGroup("Where this converges", patternsHere.map(patternTile).join(""))}
+${relatedGroup("Playbooks using this card", playbooksHere.map(playbookTile).join(""))}
+${relatedGroup("Related insights", relatedCards.map(cardTile).join(""))}
+</section>`;
     await writeOne({
       outPath: join(DOCS, "ins", i.id, "index.html"),
       title: i.title || i.id,
@@ -606,7 +721,7 @@ async function main(){
       hashRoute: `#/ins/${i.id}`,
       jsonLd,
       ogImage: `${SITE_URL}/og/ins/${i.id}.svg`,
-      body: `${crumbs}<h1>${escapeHtml(i.title || i.id)}</h1>${meta}${tldr}<article>${renderedBody}</article>${cta}`,
+      body: `${crumbs}<h1>${escapeHtml(i.title || i.id)}</h1>${meta}${tldr}<article>${renderedBody}</article>${relatedBlock}${cta}`,
     });
   }
 
@@ -618,9 +733,21 @@ async function main(){
     const { body } = parseFrontmatter(text);
     const cleaned = body.replace(/^#\s+[^\n]+\n+/, "");
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
-    const cards = INDEX.insights.filter(i => (i.operator || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug || (Array.isArray(i.co_operators) && i.co_operators.some(co => co.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") === op.slug)));
+    const cards = cardsForOperator.get(op.slug) || [];
     // Cards by this operator (primary + co-author) as an a11y-friendly grid.
-    const cardsList = cards.length ? `<h2>Insights · ${cards.length}</h2><div class="static-cards-grid">${cards.map(c => `<a class="static-card" href="${SITE_URL}/ins/${c.id}/"><div class="tier">Tier ${c.tier || "C"} · ${(c.domain||[]).slice(0,2).join(" · ") || "·"}</div><div class="static-card-title">${escapeHtml(c.title || c.id)}</div></a>`).join("")}</div>` : "";
+    const cardsList = cards.length ? `<h2>Insights · ${cards.length}</h2><div class="static-cards-grid">${cards.map(cardTile).join("")}</div>` : "";
+    // Reverse lookups. Patterns and playbooks the operator contributes to,
+    // transitively via their cards (plus playbook frontmatter originating_operators).
+    const opPatterns = (patternsForOperator.get(op.slug) || []).slice(0, 12);
+    const opPlaybooks = (playbooksForOperator.get(op.slug) || []).slice(0, 12);
+    const domainsForOp = [...new Set(cards.flatMap(c => c.domain || []))];
+    const opRelatedBlock = (opPatterns.length || opPlaybooks.length || domainsForOp.length)
+      ? `<section class="static-related"><h2>Where this operator connects</h2>
+${domainStrip(domainsForOp)}
+${relatedGroup("Patterns this operator contributes to", opPatterns.map(patternTile).join(""))}
+${relatedGroup("Playbooks using their cards", opPlaybooks.map(playbookTile).join(""))}
+</section>`
+      : "";
     const externalLinks = (op.external && typeof op.external === "object")
       ? Object.entries(op.external).filter(([,v]) => v && typeof v === "string").map(([k,v]) => `<a href="${escapeAttr(v)}" rel="external nofollow">${k}</a>`).join(" · ")
       : "";
@@ -661,7 +788,7 @@ async function main(){
       hashRoute: `#/o/${op.slug}`,
       jsonLd,
       ogImage: `${SITE_URL}/og/o/${op.slug}.svg`,
-      body: `${crumbs}<h1>${escapeHtml(op.name || op.slug)}</h1><article>${renderedBody}</article>${cardsList}${cta}`,
+      body: `${crumbs}<h1>${escapeHtml(op.name || op.slug)}</h1><article>${renderedBody}</article>${cardsList}${opRelatedBlock}${cta}`,
     });
   }
 
@@ -675,15 +802,69 @@ async function main(){
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/pat/${p.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/patterns/">patterns</a> · ${escapeHtml(p.title || p.id)}</div>`;
+    // Convergence cards + the operators who arrived there + adjacent playbooks.
+    const convergenceCards = (p.uses_cards || []).map(cid => cardById.get(cid)).filter(Boolean);
+    const opsInPattern = [...new Set(convergenceCards.flatMap(c => [c.operator, ...(c.co_operators || [])]).filter(Boolean))]
+      .map(name => {
+        const slug = opSlugify(name);
+        const opRec = INDEX.operators.find(o => o.slug === slug);
+        return opRec ? { ...opRec, _cardCount: (cardsForOperator.get(slug) || []).length } : null;
+      })
+      .filter(Boolean)
+      .slice(0, 12);
+    const adjacentPlaybooks = [...new Set(
+      convergenceCards.flatMap(c => (playbooksForCard.get(c.id) || []).map(pb => pb.id))
+    )].map(id => INDEX.playbooks.find(pb => pb.id === id)).filter(Boolean).slice(0, 6);
+    const patRelatedBlock = `<section class="static-related"><h2>Inside this convergence</h2>
+${domainStrip(p.domains)}
+${relatedGroup(`Cards in this pattern (${convergenceCards.length})`, convergenceCards.slice(0, 18).map(cardTile).join(""))}
+${relatedGroup("Operators who arrive here", opsInPattern.map(o => operatorTile(o, o._cardCount)).join(""))}
+${relatedGroup("Playbooks that use these cards", adjacentPlaybooks.map(playbookTile).join(""))}
+</section>`;
+    const patJsonLd = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": p.title || p.id,
+          "url": `${SITE_URL}/pat/${p.id}/`,
+          "mainEntityOfPage": `${SITE_URL}/pat/${p.id}/`,
+          ...(p.captured_date ? { "datePublished": p.captured_date } : {}),
+          ...(p.last_updated ? { "dateModified": p.last_updated } : {}),
+          "keywords": (p.domains || []).join(", "),
+          "license": "https://opensource.org/licenses/MIT",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", "article p:first-of-type"] },
+          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "patterns", "item": SITE_URL + "/patterns/" },
+            { "@type": "ListItem", "position": 3, "name": p.title || p.id, "item": `${SITE_URL}/pat/${p.id}/` },
+          ],
+        },
+        ...(convergenceCards.length ? [{
+          "@type": "ItemList",
+          "name": `Cards in pattern: ${p.title || p.id}`,
+          "numberOfItems": convergenceCards.length,
+          "itemListElement": convergenceCards.map((c, idx) => ({
+            "@type": "ListItem", "position": idx + 1,
+            "url": `${SITE_URL}/ins/${c.id}/`,
+            "name": c.title || c.id,
+          })),
+        }] : []),
+      ],
+    };
     await writeOne({
       outPath: join(DOCS, "pat", p.id, "index.html"),
       title: p.title || p.id,
-      description: `Synthesis pattern: ${p.title || p.id}. Where multiple operators converge on the same idea from different angles.`,
+      description: `Synthesis pattern: ${p.title || p.id}. Where ${convergenceCards.length} operators converge on the same idea from different angles.`,
       canonical: `${SITE_URL}/pat/${p.id}/`,
       hashRoute: `#/pat/${p.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": p.title || p.id, "url": `${SITE_URL}/pat/${p.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
+      jsonLd: patJsonLd,
       ogImage: `${SITE_URL}/og/pat/${p.id}.svg`,
-      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${cta}`,
+      body: `${crumbs}<h1>${escapeHtml(p.title || p.id)}</h1><article>${renderedBody}</article>${patRelatedBlock}${cta}`,
     });
   }
 
@@ -697,14 +878,50 @@ async function main(){
     const renderedBody = rewriteBodyLinks(mdToHtml(cleaned), INDEX);
     const cta = `<div class="static-actions"><a class="primary" href="${SITE_URL}/#/con/${c.id}">Open the interactive view →</a></div>`;
     const crumbs = `<div class="static-crumbs"><a href="${SITE_URL}/">codex</a> · <a href="${SITE_URL}/patterns/">patterns</a> · ${escapeHtml(c.title || c.id)}</div>`;
+    // Contradictions store side A / side B card IDs in uses_cards arrays.
+    const conCardIds = [
+      ...(Array.isArray(c.uses_cards) ? c.uses_cards : []),
+      ...(Array.isArray(c.side_a_cards) ? c.side_a_cards : []),
+      ...(Array.isArray(c.side_b_cards) ? c.side_b_cards : []),
+    ];
+    const conCards = [...new Set(conCardIds)].map(id => cardById.get(id)).filter(Boolean);
+    const conRelatedBlock = conCards.length
+      ? `<section class="static-related"><h2>Where the disagreement lives</h2>
+${domainStrip(c.domains)}
+${relatedGroup("Cards on both sides", conCards.slice(0, 12).map(cardTile).join(""))}
+</section>`
+      : "";
+    const conJsonLd = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Article",
+          "headline": c.title || c.id,
+          "url": `${SITE_URL}/con/${c.id}/`,
+          "mainEntityOfPage": `${SITE_URL}/con/${c.id}/`,
+          ...(c.captured_date ? { "datePublished": c.captured_date } : {}),
+          "license": "https://opensource.org/licenses/MIT",
+          "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", "article p:first-of-type"] },
+          "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } },
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "abcodex", "item": SITE_URL + "/" },
+            { "@type": "ListItem", "position": 2, "name": "patterns", "item": SITE_URL + "/patterns/" },
+            { "@type": "ListItem", "position": 3, "name": c.title || c.id, "item": `${SITE_URL}/con/${c.id}/` },
+          ],
+        },
+      ],
+    };
     await writeOne({
       outPath: join(DOCS, "con", c.id, "index.html"),
       title: c.title || c.id,
       description: `Contradiction: ${c.title || c.id}. Where operators disagree on the same question.`,
       canonical: `${SITE_URL}/con/${c.id}/`,
       hashRoute: `#/con/${c.id}`,
-      jsonLd: { "@context": "https://schema.org", "@type": "Article", "headline": c.title || c.id, "url": `${SITE_URL}/con/${c.id}/`, "publisher": { "@type": "Organization", "@id": ORG_CODEX_ID, "name": "abcodex", "url": SITE_URL, "founder": { "@id": PERSON_KESAVA_ID } } },
-      body: `${crumbs}<h1>${escapeHtml(c.title || c.id)}</h1><article>${renderedBody}</article>${cta}`,
+      jsonLd: conJsonLd,
+      body: `${crumbs}<h1>${escapeHtml(c.title || c.id)}</h1><article>${renderedBody}</article>${conRelatedBlock}${cta}`,
     });
   }
 
