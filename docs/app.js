@@ -325,8 +325,8 @@ function home(){
   app.innerHTML = `
     <section class='hero'>
       <p class='eyebrow'>operator insight library</p>
-      <h1 id='heroH'>learn from the <em>best</em></h1>
-      <p class='lede'>Every insight here is one idea from one person who shipped something. Named author. Verifiable source. Date. Plus the parts the source usually leaves out. Why it works. When it applies. When it doesn't. The idea is yours to use, not just read.</p>
+      <h1 id='heroH'>Read the people who <em>shipped</em> it</h1>
+      <p class='lede'>Every insight here is one idea from one named operator. Source URL attached. Date attached. Plus the parts the source leaves out: why it works, when it applies, when it doesn't. Yours to use, not just read.</p>
       <div class='stats'>
         <a class='stat' href='#/browse'><span class='num' data-count='${STATS.cards}'>0</span><span class='lbl'>insights</span></a>
         <a class='stat' href='#/operators'><span class='num' data-count='${STATS.operators}'>0</span><span class='lbl'>operators</span></a>
