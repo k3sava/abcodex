@@ -2,9 +2,10 @@
 id: pat_execution-cheap-judgement-scarce
 title: Execution is becoming free; judgement is the part that doesn't compress
 captured_date: 2026-05-06
-convergence_count: 4
+last_updated: 2026-05-17
+convergence_count: 6
 tier: A
-uses_cards: [ins_judgment-doesnt-compress, ins_judgment-vs-understanding, ins_middle-is-hollowing-out, ins_scarcity-supercycle]
+uses_cards: [ins_judgment-doesnt-compress, ins_judgment-vs-understanding, ins_middle-is-hollowing-out, ins_scarcity-supercycle, ins_rory-woodbridge-pmm-craft-common-language, ins_sangram-vajre-ai-multiplies-existing-alignment]
 domains: [growth, pmm, ai-native, leadership]
 ---
 

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 825 insight cards
+- 834 insight cards
 - 470 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
@@ -347,7 +347,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (420)
+### Tier B (428)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -375,6 +375,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya 👾 Hariharan)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
+- [`ins_aleyda-solis-ai-links-not-automatically-traffic`](insights/ins_aleyda-solis-ai-links-not-automatically-traffic.md) — More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score _(Aleyda Solis)_
 - [`ins_alina-vandenberghe-recruiting-process-transparency`](insights/ins_alina-vandenberghe-recruiting-process-transparency.md) — Communication is the leverage skill that turns founder-CEO into co-CEO _(Alina Vandenberghe 🌶️)_
 - [`ins_all-problems-become-people-problems`](insights/ins_all-problems-become-people-problems.md) — Above a certain level, every problem is a people problem _(Silvia Botros)_
 - [`ins_altman-belief-as-sales-engine`](insights/ins_altman-belief-as-sales-engine.md) — Sales is conviction transfer, the best way to be good at sales is to genuinely believe in what you're selling _(Sam Altman)_
@@ -493,6 +494,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_felix-lee-designer-founders-rfs`](insights/ins_felix-lee-designer-founders-rfs.md) — YC's RFS for designer founders signals a shift in startup building _(Felix Lee)_
 - [`ins_financial-services-track-scaling-fast`](insights/ins_financial-services-track-scaling-fast.md) — 💸 The Financial Services track is scaling fast, introducing new features like Business _(Jesse Bellaiche)_
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
+- [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
@@ -501,6 +503,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_g2-ai-reshaping-marketing-playbook`](insights/ins_g2-ai-reshaping-marketing-playbook.md) — AI search is now a software marketplace, demand gen must adapt or vanish _(G2)_
 - [`ins_gary-yin-first-pmm-hiring-philosophy`](insights/ins_gary-yin-first-pmm-hiring-philosophy.md) — First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer _(Gary Yin)_
 - [`ins_gaurav-sharma-vibe-marketer-ai-first`](insights/ins_gaurav-sharma-vibe-marketer-ai-first.md) — Most B2B marketing is stuck in 2010; hire a vibe marketer to build an AI-first, almost-autonomous marketing engine. _(Gaurav Sharma)_
+- [`ins_gerhardt-customer-marketing-listening-program`](insights/ins_gerhardt-customer-marketing-listening-program.md) — The highest-value customer marketing motion is a systematic listening program, not a campaign calendar _(Dave Gerhardt)_
 - [`ins_gideon-harris-hiring-for-bots`](insights/ins_gideon-harris-hiring-for-bots.md) — If the only way to be seen is to sound like a bot, what exactly are we hiring for? _(Gideon Harris)_
 - [`ins_giorgio-zanella-clay-beyond-lead-gen`](insights/ins_giorgio-zanella-clay-beyond-lead-gen.md) — Clay is not just for lead gen, it's a general-purpose automation platform for any data discovery task. _(Giorgio Zanella)_
 - [`ins_google-ai-mode-subscription-highlight`](insights/ins_google-ai-mode-subscription-highlight.md) — Google's subscription highlight in AI Mode gives paywalled content a visual trust tag inline, changing the ROI on publisher partnerships for AEO _(Google)_
@@ -591,6 +594,8 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
 - [`ins_mike-king-499-ai-bot-silence`](insights/ins_mike-king-499-ai-bot-silence.md) — A 499 from an AI bot UA means the bot decided the page was not worth waiting for and silently excluded it from the LLM candidate set _(Mike King)_
 - [`ins_mike-king-ai-crawler-499-speed-gate`](insights/ins_mike-king-ai-crawler-499-speed-gate.md) — AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier. _(Mike King)_
+- [`ins_mike-king-llm-cloaking-ip-protection`](insights/ins_mike-king-llm-cloaking-ip-protection.md) — Wrap proprietary research in JavaScript-rendered divs to protect IP from LLM crawlers; 69% cannot execute JavaScript _(Mike King)_
+- [`ins_mike-king-markdown-serving-llm-crawlers`](insights/ins_mike-king-markdown-serving-llm-crawlers.md) — Serve Markdown to AI crawlers you want indexing your content; Cloudflare measured an 80% token size reduction versus full HTML _(Mike King)_
 - [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result, the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
 - [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for, strategy still has to come first _(Donald Miller)_
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
@@ -632,6 +637,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_persistence-channels-vs-hit-or-miss`](insights/ins_persistence-channels-vs-hit-or-miss.md) — Persistence channels compound; hit-or-miss channels don't. Originate in the first, accelerate in the second. _(Julian Shapiro)_
 - [`ins_phil-schmid-four-subagent-patterns`](insights/ins_phil-schmid-four-subagent-patterns.md) — Four subagent patterns are settling as standard: Inline Tool, Fan-Out, Agent Pool, and Teams. Each adds control surface at a real debugging cost. _(Phil Schmid)_
 - [`ins_pierri-ai-positioning-needs-human-checkpoints`](insights/ins_pierri-ai-positioning-needs-human-checkpoints.md) — Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors _(Anthony Pierri)_
+- [`ins_pierri-batch-transcripts-produce-fabrications`](insights/ins_pierri-batch-transcripts-produce-fabrications.md) — Batch-processing interview transcripts with Claude produces fabrications; reliable output requires a dedicated per-transcript skill at three minutes per file _(Anthony Pierri)_
 - [`ins_pin-workflows-to-capabilities-not-models`](insights/ins_pin-workflows-to-capabilities-not-models.md) — Pin workflows to capabilities you re-baseline quarterly, not to a model snapshot _(Ethan Mollick)_
 - [`ins_pm-as-orchestrator-of-agents`](insights/ins_pm-as-orchestrator-of-agents.md) — AI raises the bar for PMs, tactical work is delegatable; judgment, taste, and customer empathy become more valuable _(Lenny Rachitsky)_
 - [`ins_pm-design-handoff-collapse`](insights/ins_pm-design-handoff-collapse.md) — PM-to-design handoff is collapsing; PRDs ship with a working prototype attached _(Aakash Gupta)_
@@ -674,6 +680,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
+- [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
 - [`ins_saishah-joseph-exhaustion-disguised-as-enthusiasm`](insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md) — Small business owners' social media exhaustion is disguised as enthusiasm _(Saishah Joseph)_
 - [`ins_sajjan-jain-ai-80-percent-startup-opportunity`](insights/ins_sajjan-jain-ai-80-percent-startup-opportunity.md) — AI's 80% ceiling is the startup opportunity: complete the last mile to 100%. _(Sajjan Jain)_
 - [`ins_sales-team-detects-positioning-failure-first`](insights/ins_sales-team-detects-positioning-failure-first.md) — The sales team detects positioning failure months before the dashboard does _(April Dunford)_
@@ -681,6 +688,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sameer-maira-quick-traction-through-immediate-usability`](insights/ins_sameer-maira-quick-traction-through-immediate-usability.md) — The fastest path to traction is giving people something they can use today, not a massive product. _(Sameer Maira)_
 - [`ins_sameness-perception-is-the-differentiation-barrier`](insights/ins_sameness-perception-is-the-differentiation-barrier.md) — Buyers see "sameness", test differentiators with external audiences before any campaign launch _(Gartner)_
 - [`ins_samuel-cahoon-activation-is-crucial`](insights/ins_samuel-cahoon-activation-is-crucial.md) — Activation is crucial: we built in-app onboarding to guide users to the Aha moment and reduce TTV. _(Samuel Cahoon)_
+- [`ins_sangram-vajre-fractional-packaging-gap`](insights/ins_sangram-vajre-fractional-packaging-gap.md) — The gap between $50-80K freelancers and $250K+ fractionals is positioning and packaging, not skill _(Sangram Vajre)_
 - [`ins_sanne-ijspeerd-story-evolves-with-product-phase`](insights/ins_sanne-ijspeerd-story-evolves-with-product-phase.md) — Most B2B SaaS expansion fails because companies pick the wrong segment, not the wrong tactics _(Sanne IJspeerd)_
 - [`ins_schafer-three-headline-archetypes`](insights/ins_schafer-three-headline-archetypes.md) — Three headline archetypes, Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition), pick the one that matches funnel stage _(Cole Schafer)_
 - [`ins_schafer-three-pass-writing-process`](insights/ins_schafer-three-pass-writing-process.md) — Three sequential passes, pole + headline first, voice second, integration third, single-pass writing collapses persuasion and personality into mush _(Cole Schafer)_
@@ -769,7 +777,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 
-### Tier C (72)
+### Tier C (73)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -829,6 +837,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ryan-kelly-marketing-architects-of-perception`](insights/ins_ryan-kelly-marketing-architects-of-perception.md) — Marketing team as architects of how the world sees the company _(Ryan Kelly)_
 - [`ins_ryan-quindlen-linkedin-algorithm-satire`](insights/ins_ryan-quindlen-linkedin-algorithm-satire.md) — LinkedIn algorithm prioritizes old posts, repeats, broken notifications, and bad video _(Ryan Quindlen 🦇)_
 - [`ins_sajjan-jain-individual-investor-tool-gap`](insights/ins_sajjan-jain-individual-investor-tool-gap.md) — Individual investors lack a simple, Buffett-style tool for deep business analysis. _(Sajjan Jain)_
+- [`ins_sangram-vajre-ai-multiplies-existing-alignment`](insights/ins_sangram-vajre-ai-multiplies-existing-alignment.md) — AI multiplies whatever a GTM team already has; misaligned teams become faster chaos, not a shortcut to alignment _(Sangram Vajre)_
 - [`ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality`](insights/ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality.md) — Working out loud beats hindsight, the breadcrumb trail compounds _(Saniya Waghray Tyagi)_
 - [`ins_sara-popken-ai-first-pmm-opportunity`](insights/ins_sara-popken-ai-first-pmm-opportunity.md) — Shaping the future of learning in an AI-first world as a PMM at Quizlet _(Sara Popken)_
 - [`ins_shali-rana-reed-gap-in-resume-retort`](insights/ins_shali-rana-reed-gap-in-resume-retort.md) — GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey _(Shali Rana Reed)_
@@ -1323,7 +1332,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Synthesis patterns
 - [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (13 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (17 ops) [Tier A]
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (8 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
@@ -1339,7 +1348,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]
-- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (4 ops) [Tier A]
+- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (6 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
@@ -1362,7 +1371,7 @@ _Generated 2026-05-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (11 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (12 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools

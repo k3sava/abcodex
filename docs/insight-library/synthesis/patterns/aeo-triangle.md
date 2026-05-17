@@ -2,10 +2,10 @@
 id: pat_aeo-triangle
 title: The AEO triangle — presence, relevance, manual-action propagation
 captured_date: 2026-05-01
-last_updated: 2026-05-15
-convergence_count: 13
+last_updated: 2026-05-17
+convergence_count: 17
 tier: A
-uses_cards: [ins_aeo-three-layer-presence-readiness-impact, ins_ghost-citation-gap, ins_relevance-engineering-passage-level, ins_aeo-is-gtm-capability, ins_death-of-the-ultimate-guide, ins_manual-action-propagates-to-ai-surfaces, ins_ai-slop-loop, ins_mike-king-ai-crawler-499-speed-gate, ins_casey-hill-structural-prominence-llm-citations, ins_lily-ray-aeo-seo-continuity, ins_google-ai-mode-subscription-highlight, ins_lily-ray-geo-penalty-multi-surface-cascade, ins_aleyda-solis-aeo-offsite-corroboration-floor]
+uses_cards: [ins_aeo-three-layer-presence-readiness-impact, ins_ghost-citation-gap, ins_relevance-engineering-passage-level, ins_aeo-is-gtm-capability, ins_death-of-the-ultimate-guide, ins_manual-action-propagates-to-ai-surfaces, ins_ai-slop-loop, ins_mike-king-ai-crawler-499-speed-gate, ins_casey-hill-structural-prominence-llm-citations, ins_lily-ray-aeo-seo-continuity, ins_google-ai-mode-subscription-highlight, ins_lily-ray-geo-penalty-multi-surface-cascade, ins_aleyda-solis-aeo-offsite-corroboration-floor, ins_mike-king-llm-cloaking-ip-protection, ins_mike-king-markdown-serving-llm-crawlers, ins_aleyda-solis-ai-links-not-automatically-traffic, ins_fishkin-natividad-measurement-reframe-not-clicks]
 domains: [pmm, growth, gtm]
 ---
 

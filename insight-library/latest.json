@@ -1,28 +1,52 @@
 {
   "generated_at": "2026-05-16T18:44:17.103Z",
   "latest_daily": {
-    "path": "daily/2026-05-16.md",
-    "date": "2026-05-16",
-    "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
-    "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
+    "path": "daily/2026-05-17.md",
+    "date": "2026-05-17",
+    "title": "ingest 2026-05-17: +9 insights, +0 operators",
+    "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
     "sources": [
-      "morning research scan 2026-05-16"
+      "morning research scan 2026-05-17"
     ],
     "insights_added": [
-      "ins_rewind-ai-adoption-chilling-effect",
-      "ins_mccormick-ai-makes-consensus-cheap",
-      "ins_nicolas-cole-voc-source-llm-assembly",
-      "ins_pawel-huryn-task-driven-skill-minimalism",
-      "ins_chris-orlob-five-touch-sequence"
+      "ins_mike-king-llm-cloaking-ip-protection",
+      "ins_mike-king-markdown-serving-llm-crawlers",
+      "ins_fishkin-natividad-measurement-reframe-not-clicks",
+      "ins_gerhardt-customer-marketing-listening-program",
+      "ins_sangram-vajre-fractional-packaging-gap",
+      "ins_sangram-vajre-ai-multiplies-existing-alignment",
+      "ins_rory-woodbridge-pmm-craft-common-language",
+      "ins_pierri-batch-transcripts-produce-fabrications",
+      "ins_aleyda-solis-ai-links-not-automatically-traffic"
     ],
-    "operators_added": [
-      "rewind",
-      "nicolas-cole"
-    ],
+    "operators_added": "",
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-17.md",
+      "date": "2026-05-17",
+      "title": "ingest 2026-05-17: +9 insights, +0 operators",
+      "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
+      "sources": [
+        "morning research scan 2026-05-17"
+      ],
+      "insights_added": [
+        "ins_mike-king-llm-cloaking-ip-protection",
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_gerhardt-customer-marketing-listening-program",
+        "ins_sangram-vajre-fractional-packaging-gap",
+        "ins_sangram-vajre-ai-multiplies-existing-alignment",
+        "ins_rory-woodbridge-pmm-craft-common-language",
+        "ins_pierri-batch-transcripts-produce-fabrications",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-16.md",
       "date": "2026-05-16",

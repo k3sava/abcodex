@@ -1,33 +1,34 @@
 {
   "generated_at": "2026-05-16T18:44:17.078Z",
   "counts": {
-    "insights": 825,
+    "insights": 834,
     "operators": 470,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 14
+    "daily": 15
   },
   "latest_daily": {
-    "path": "daily/2026-05-16.md",
-    "date": "2026-05-16",
-    "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
-    "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
+    "path": "daily/2026-05-17.md",
+    "date": "2026-05-17",
+    "title": "ingest 2026-05-17: +9 insights, +0 operators",
+    "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
     "sources": [
-      "morning research scan 2026-05-16"
+      "morning research scan 2026-05-17"
     ],
     "insights_added": [
-      "ins_rewind-ai-adoption-chilling-effect",
-      "ins_mccormick-ai-makes-consensus-cheap",
-      "ins_nicolas-cole-voc-source-llm-assembly",
-      "ins_pawel-huryn-task-driven-skill-minimalism",
-      "ins_chris-orlob-five-touch-sequence"
+      "ins_mike-king-llm-cloaking-ip-protection",
+      "ins_mike-king-markdown-serving-llm-crawlers",
+      "ins_fishkin-natividad-measurement-reframe-not-clicks",
+      "ins_gerhardt-customer-marketing-listening-program",
+      "ins_sangram-vajre-fractional-packaging-gap",
+      "ins_sangram-vajre-ai-multiplies-existing-alignment",
+      "ins_rory-woodbridge-pmm-craft-common-language",
+      "ins_pierri-batch-transcripts-produce-fabrications",
+      "ins_aleyda-solis-ai-links-not-automatically-traffic"
     ],
-    "operators_added": [
-      "rewind",
-      "nicolas-cole"
-    ],
+    "operators_added": "",
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -1298,6 +1299,36 @@
       ],
       "raw_ref": "",
       "title": "AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse"
+    },
+    {
+      "path": "insights/ins_aleyda-solis-ai-links-not-automatically-traffic.md",
+      "id": "ins_aleyda-solis-ai-links-not-automatically-traffic",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant, Orainti",
+      "co_operators": [],
+      "source_url": "https://seofomo.co/posts/your-top-seo-ai-search-news-of-the-week-seofomo-may-10-2026",
+      "source_type": "recap",
+      "source_title": "SEOFOMO May 10, 2026",
+      "source_date": "2026-05-10",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_aeo-competes-for-mentions-not-rankings",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+      ],
+      "raw_ref": "",
+      "title": "More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score"
     },
     {
       "path": "insights/ins_alina-vandenberghe-recruiting-process-transparency.md",
@@ -6733,6 +6764,40 @@
       "title": "Pick a niche where the fish are; do not deadlift 300 pounds on day one"
     },
     {
+      "path": "insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md",
+      "id": "ins_fishkin-natividad-measurement-reframe-not-clicks",
+      "operator": "Rand Fishkin",
+      "operator_role": "Co-founder, SparkToro",
+      "co_operators": [
+        "Amanda Natividad"
+      ],
+      "source_url": "https://ppc.land/zero-click-marketing-becomes-a-book-as-web-traffic-falls-46-in-three-years/",
+      "source_type": "book",
+      "source_title": "Zero Click Marketing",
+      "source_date": "2026-05-15",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "aeo",
+        "growth-demand",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "measurement",
+        "content-ops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_zero-click-marketing",
+        "ins_aeo-is-gtm-capability",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "raw_ref": "",
+      "title": "Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul"
+    },
+    {
       "path": "insights/ins_five-animals-of-saas.md",
       "id": "ins_five-animals-of-saas",
       "operator": "Christoph Janz",
@@ -7188,6 +7253,37 @@
       ],
       "raw_ref": "raw/expert-content/experts/dave-gerhardt.md",
       "title": "Private community is the ultimate distribution moat, generates demand, content flywheel, and trust simultaneously in untrackable spaces"
+    },
+    {
+      "path": "insights/ins_gerhardt-customer-marketing-listening-program.md",
+      "id": "ins_gerhardt-customer-marketing-listening-program",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder, Exit Five",
+      "co_operators": [],
+      "source_url": "https://www.exitfive.com/podcast/customer-marketing-deep-dive",
+      "source_type": "podcast",
+      "source_title": "Exit Five #354",
+      "source_date": "2026-05-16",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "pmm",
+        "growth-demand",
+        "customer-marketing"
+      ],
+      "lifecycle": [
+        "retention",
+        "research"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_daniel-cmejla-customer-marketing-is-new-product-marketing",
+        "ins_pattern-of-pain-customer-research"
+      ],
+      "raw_ref": "",
+      "title": "The highest-value customer marketing motion is a systematic listening program, not a campaign calendar"
     },
     {
       "path": "insights/ins_gerhardt-distribution-beats-creation.md",
@@ -12388,6 +12484,67 @@
       "title": "AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier."
     },
     {
+      "path": "insights/ins_mike-king-llm-cloaking-ip-protection.md",
+      "id": "ins_mike-king-llm-cloaking-ip-protection",
+      "operator": "Mike King",
+      "operator_role": "Founder, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/cloaking-for-llms",
+      "source_type": "essay",
+      "source_title": "Cloaking for LLMs",
+      "source_date": "2026-05-14",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "content-ops",
+        "technical-seo"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_aeo-roadmap-as-executive-readout",
+        "ins_mike-king-ai-crawler-499-speed-gate"
+      ],
+      "raw_ref": "",
+      "title": "Wrap proprietary research in JavaScript-rendered divs to protect IP from LLM crawlers; 69% cannot execute JavaScript"
+    },
+    {
+      "path": "insights/ins_mike-king-markdown-serving-llm-crawlers.md",
+      "id": "ins_mike-king-markdown-serving-llm-crawlers",
+      "operator": "Mike King",
+      "operator_role": "Founder, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/cloaking-for-llms",
+      "source_type": "essay",
+      "source_title": "Cloaking for LLMs",
+      "source_date": "2026-05-14",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "content-ops",
+        "technical-seo"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mike-king-llm-cloaking-ip-protection",
+        "ins_mike-king-499-ai-bot-silence"
+      ],
+      "raw_ref": "",
+      "title": "Serve Markdown to AI crawlers you want indexing your content; Cloudflare measured an 80% token size reduction versus full HTML"
+    },
+    {
       "path": "insights/ins_miller-caveman-test.md",
       "id": "ins_miller-caveman-test",
       "operator": "Donald Miller",
@@ -14666,6 +14823,36 @@
       ],
       "raw_ref": "",
       "title": "Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors"
+    },
+    {
+      "path": "insights/ins_pierri-batch-transcripts-produce-fabrications.md",
+      "id": "ins_pierri-batch-transcripts-produce-fabrications",
+      "operator": "Anthony Pierri",
+      "operator_role": "Co-founder, FletchPMM",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "",
+      "source_date": "2026-05-12",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "pmm",
+        "ai-ops"
+      ],
+      "lifecycle": [
+        "research",
+        "content-ops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 2 }",
+      "tier": "B",
+      "related": [
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_evals-are-data-analysis-on-llm-apps"
+      ],
+      "raw_ref": "",
+      "title": "Batch-processing interview transcripts with Claude produces fabrications; reliable output requires a dedicated per-transcript skill at three minutes per file"
     },
     {
       "path": "insights/ins_pin-workflows-to-capabilities-not-models.md",
@@ -17096,6 +17283,35 @@
       "title": "Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate."
     },
     {
+      "path": "insights/ins_rory-woodbridge-pmm-craft-common-language.md",
+      "id": "ins_rory-woodbridge-pmm-craft-common-language",
+      "operator": "Rory Woodbridge",
+      "operator_role": "Product Marketing Leader",
+      "co_operators": [],
+      "source_url": "https://productmarketer.substack.com/p/respect-the-craft",
+      "source_type": "essay",
+      "source_title": "Respect the Craft",
+      "source_date": "2026-05-14",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "pmm"
+      ],
+      "lifecycle": [
+        "hiring",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_comb-shape-pmm"
+      ],
+      "raw_ref": "",
+      "title": "The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product"
+    },
+    {
       "path": "insights/ins_run-up-the-stack.md",
       "id": "ins_run-up-the-stack",
       "operator": "Packy McCormick",
@@ -17394,6 +17610,66 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_sangram-vajre-ai-multiplies-existing-alignment.md",
+      "id": "ins_sangram-vajre-ai-multiplies-existing-alignment",
+      "operator": "Sangram Vajre",
+      "operator_role": "CEO, GTM Partners",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "",
+      "source_date": "2026-05-14",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "go-to-market"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 2 }",
+      "tier": "C",
+      "related": [
+        "ins_sangram-vajre-fractional-packaging-gap",
+        "ins_abm-account-not-lead"
+      ],
+      "raw_ref": "",
+      "title": "AI multiplies whatever a GTM team already has; misaligned teams become faster chaos, not a shortcut to alignment"
+    },
+    {
+      "path": "insights/ins_sangram-vajre-fractional-packaging-gap.md",
+      "id": "ins_sangram-vajre-fractional-packaging-gap",
+      "operator": "Sangram Vajre",
+      "operator_role": "CEO, GTM Partners",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "",
+      "source_date": "2026-05-15",
+      "captured_date": "2026-05-17",
+      "domain": [
+        "pmm",
+        "consulting",
+        "positioning"
+      ],
+      "lifecycle": [
+        "go-to-market"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 2 }",
+      "tier": "B",
+      "related": [
+        "ins_abm-account-not-lead",
+        "ins_hourly-billing-is-nuts",
+        "ins_sangram-vajre-ai-multiplies-existing-alignment"
+      ],
+      "raw_ref": "",
+      "title": "The gap between $50-80K freelancers and $250K+ fractionals is positioning and packaging, not skill"
     },
     {
       "path": "insights/ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality.md",
@@ -34543,8 +34819,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-15",
-      "convergence_count": "13",
+      "last_updated": "2026-05-17",
+      "convergence_count": "17",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -34559,7 +34835,11 @@
         "ins_lily-ray-aeo-seo-continuity",
         "ins_google-ai-mode-subscription-highlight",
         "ins_lily-ray-geo-penalty-multi-surface-cascade",
-        "ins_aleyda-solis-aeo-offsite-corroboration-floor"
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_mike-king-llm-cloaking-ip-protection",
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
       ],
       "domains": [
         "pmm",
@@ -34945,13 +35225,16 @@
       "id": "pat_execution-cheap-judgement-scarce",
       "title": "Execution is becoming free; judgement is the part that doesn't compress",
       "captured_date": "2026-05-06",
-      "convergence_count": "4",
+      "last_updated": "2026-05-17",
+      "convergence_count": "6",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-doesnt-compress",
         "ins_judgment-vs-understanding",
         "ins_middle-is-hollowing-out",
-        "ins_scarcity-supercycle"
+        "ins_scarcity-supercycle",
+        "ins_rory-woodbridge-pmm-craft-common-language",
+        "ins_sangram-vajre-ai-multiplies-existing-alignment"
       ],
       "domains": [
         "growth",
@@ -35469,8 +35752,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-13",
-      "convergence_count": "11",
+      "last_updated": "2026-05-17",
+      "convergence_count": "12",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -35483,7 +35766,8 @@
         "ins_pierri-ai-positioning-needs-human-checkpoints",
         "ins_breunig-agentic-code-free-as-puppies",
         "ins_willison-reliability-erodes-review-discipline",
-        "ins_breunig-harness-lock-in-model-layer"
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_pierri-batch-transcripts-produce-fabrications"
       ],
       "domains": [
         "ai-native",
@@ -36297,6 +36581,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-17.md",
+      "date": "2026-05-17",
+      "title": "ingest 2026-05-17: +9 insights, +0 operators",
+      "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
+      "sources": [
+        "morning research scan 2026-05-17"
+      ],
+      "insights_added": [
+        "ins_mike-king-llm-cloaking-ip-protection",
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_gerhardt-customer-marketing-listening-program",
+        "ins_sangram-vajre-fractional-packaging-gap",
+        "ins_sangram-vajre-ai-multiplies-existing-alignment",
+        "ins_rory-woodbridge-pmm-craft-common-language",
+        "ins_pierri-batch-transcripts-produce-fabrications",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-16.md",
       "date": "2026-05-16",

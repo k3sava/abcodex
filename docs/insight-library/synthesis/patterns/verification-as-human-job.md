@@ -2,10 +2,10 @@
 id: pat_verification-as-human-job
 title: Verification, not execution, is the irreplaceable human job
 captured_date: 2026-05-06
-last_updated: 2026-05-13
-convergence_count: 11
+last_updated: 2026-05-17
+convergence_count: 12
 tier: A
-uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer]
+uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer, ins_pierri-batch-transcripts-produce-fabrications]
 domains: [ai-native, engineering, leadership, research]
 ---
 

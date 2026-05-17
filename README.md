@@ -7,7 +7,7 @@
 
 **Five new insights: recovery floors, AI consensus, and task-driven minimalism.** Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.
 
-[Read what landed →](insight-library/daily/2026-05-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **825** insight cards
+- **834** insight cards
 - **470** operator profiles
 - **41** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
