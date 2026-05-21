@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-05-19 · 2 insights · 1 operator
+### Latest · 2026-05-21 · 5 insights
 
-**One level down: two operators on why surface-level matching misses what matters.** Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.
+**Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer..** Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).
 
-[Read what landed →](insight-library/daily/2026-05-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-05-21.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **836** insight cards
+- **841** insight cards
 - **471** operator profiles
 - **41** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

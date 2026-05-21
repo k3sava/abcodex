@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2026 03:15:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 03:10:39 GMT</lastBuildDate>
+    <item>
+      <title>Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.</title>
+      <link>https://abcodex.iamkesava.com/today/2026-05-21/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-21/</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).</description>
+    </item>
     <item>
       <title>One level down: two operators on why surface-level matching misses what matters</title>
       <link>https://abcodex.iamkesava.com/today/2026-05-19/</link>

@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-05-19T03:15:28.022Z",
+  "generated_at": "2026-05-21T03:10:34.720Z",
   "counts": {
-    "insights": 836,
+    "insights": 841,
     "operators": 471,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 16
+    "daily": 17
   },
   "latest_daily": {
-    "path": "daily/2026-05-19.md",
-    "date": "2026-05-19",
-    "title": "One level down: two operators on why surface-level matching misses what matters",
-    "summary": "Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.",
+    "path": "daily/2026-05-21.md",
+    "date": "2026-05-21",
+    "title": "Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.",
+    "summary": "Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).",
     "sources": [
-      "morning research scan 2026-05-19"
+      "morning research scan 2026-05-21"
     ],
     "insights_added": [
-      "ins_doshi-truth-one-level-down",
-      "ins_anthropic-claude-security-data-flow-scanning"
+      "ins_mike-king-agentic-rag-5-gatekeeper",
+      "ins_fishkin-platform-first-zero-click",
+      "ins_barry-schwartz-preferred-source-labels",
+      "ins_maja-voje-content-growth-sequencing",
+      "ins_nicolas-cole-voc-mirroring-beats-paraphrase"
     ],
-    "operators_added": [
-      "shreyas-doshi"
-    ],
+    "operators_added": "",
     "patterns_added": [],
     "playbooks_added": []
   },
@@ -2688,6 +2689,35 @@
       ],
       "raw_ref": "",
       "title": "Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search"
+    },
+    {
+      "path": "insights/ins_barry-schwartz-preferred-source-labels.md",
+      "id": "ins_barry-schwartz-preferred-source-labels",
+      "operator": "Barry Schwartz",
+      "operator_role": "Contributing editor, Search Engine Land; founder, RustyBrick; Google algorithm update tracker",
+      "co_operators": [],
+      "source_url": "https://www.seroundtable.com/google-search-gemini-3-5-flash-agents-41346.html",
+      "source_type": "recap",
+      "source_title": "Google Search: Gemini 3.5 Flash, Information Agents, Preferred Source Labels",
+      "source_date": "2026-05-19",
+      "captured_date": "2026-05-21",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_barry-schwartz-google-ai-mode-citation-surfaces",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it"
     },
     {
       "path": "insights/ins_battle-cards-as-workflow-primitive.md",
@@ -6850,6 +6880,38 @@
       ],
       "raw_ref": "",
       "title": "Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul"
+    },
+    {
+      "path": "insights/ins_fishkin-platform-first-zero-click.md",
+      "id": "ins_fishkin-platform-first-zero-click",
+      "operator": "Rand Fishkin",
+      "operator_role": "Co-founder, SparkToro; founder, Moz; audience research practitioner",
+      "co_operators": [],
+      "source_url": "https://www.linkedin.com/posts/randfishkin_smmw-activity-7455689521087643648-XGHa",
+      "source_type": "post",
+      "source_title": "Zero-click marketing: made for platforms first",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-21",
+      "domain": [
+        "aeo",
+        "content-strategy",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "awareness",
+        "content-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_zero-click-marketing",
+        "ins_aeo-is-gtm-capability"
+      ],
+      "raw_ref": "",
+      "title": "Web traffic is down 46 percent in three years: produce content made for platforms first, articles second"
     },
     {
       "path": "insights/ins_five-animals-of-saas.md",
@@ -11448,6 +11510,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_maja-voje-content-growth-sequencing.md",
+      "id": "ins_maja-voje-content-growth-sequencing",
+      "operator": "Maja Voje",
+      "operator_role": "GTM Strategist; founder, GTM Strategist newsletter; author, GTM Strategist book",
+      "co_operators": [],
+      "source_url": "https://knowledge.gtmstrategist.com/p/from-zero-to-80k-the-7-content-growth-levers",
+      "source_type": "essay",
+      "source_title": "From Zero to 80K: The 7 Content Growth Levers",
+      "source_date": "2026-05-15",
+      "captured_date": "2026-05-21",
+      "domain": [
+        "content-strategy",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_maja-voje-strip-what-doesnt-compound",
+        "ins_maja-voje-substrate-first-content-engineering"
+      ],
+      "raw_ref": "",
+      "title": "Content growth sequences in three phases: voice and design first, then free assets and collaborations, then brand partnerships"
+    },
+    {
       "path": "insights/ins_maja-voje-strip-what-doesnt-compound.md",
       "id": "ins_maja-voje-strip-what-doesnt-compound",
       "operator": "Maja Voje",
@@ -12508,6 +12601,38 @@
       "title": "A 499 from an AI bot UA means the bot decided the page was not worth waiting for and silently excluded it from the LLM candidate set"
     },
     {
+      "path": "insights/ins_mike-king-agentic-rag-5-gatekeeper.md",
+      "id": "ins_mike-king-agentic-rag-5-gatekeeper",
+      "operator": "Mike King",
+      "operator_role": "Founder, iPullRank; technical SEO and GEO practitioner",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/agentic-rag",
+      "source_type": "essay",
+      "source_title": "Agentic RAG and the Future of GEO",
+      "source_date": "2026-05-20",
+      "captured_date": "2026-05-21",
+      "domain": [
+        "aeo",
+        "seo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content-strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-roadmap-as-executive-readout",
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_mike-king-ai-crawler-499-speed-gate"
+      ],
+      "raw_ref": "",
+      "title": "AI search runs a five-gatekeeper pipeline and the Critic is where most content dies, invisibly"
+    },
+    {
       "path": "insights/ins_mike-king-ai-crawler-499-speed-gate.md",
       "id": "ins_mike-king-ai-crawler-499-speed-gate",
       "operator": "Mike King",
@@ -13399,6 +13524,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "You never know how far it can take you"
+    },
+    {
+      "path": "insights/ins_nicolas-cole-voc-mirroring-beats-paraphrase.md",
+      "id": "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+      "operator": "Nicolas Cole",
+      "operator_role": "Co-founder, Ship 30 for 30; ghostwriter; founder, Write With AI newsletter",
+      "co_operators": [],
+      "source_url": "https://writewithai.substack.com/p/build-and-launch-a-voc-landing-page",
+      "source_type": "essay",
+      "source_title": "Build and Launch a VOC Landing Page",
+      "source_date": "2026-05-07",
+      "captured_date": "2026-05-21",
+      "domain": [
+        "pmm",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "messaging",
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_jtbd-interviews-surface-customer-language"
+      ],
+      "raw_ref": "",
+      "title": "AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase"
     },
     {
       "path": "insights/ins_nicolas-cole-voc-source-llm-assembly.md",
@@ -34889,8 +35044,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-17",
-      "convergence_count": "17",
+      "last_updated": "2026-05-21",
+      "convergence_count": "20",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -34909,7 +35064,10 @@
         "ins_mike-king-llm-cloaking-ip-protection",
         "ins_mike-king-markdown-serving-llm-crawlers",
         "ins_aleyda-solis-ai-links-not-automatically-traffic",
-        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_mike-king-agentic-rag-5-gatekeeper",
+        "ins_barry-schwartz-preferred-source-labels",
+        "ins_fishkin-platform-first-zero-click"
       ],
       "domains": [
         "pmm",
@@ -36654,6 +36812,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-21.md",
+      "date": "2026-05-21",
+      "title": "Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.",
+      "summary": "Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).",
+      "sources": [
+        "morning research scan 2026-05-21"
+      ],
+      "insights_added": [
+        "ins_mike-king-agentic-rag-5-gatekeeper",
+        "ins_fishkin-platform-first-zero-click",
+        "ins_barry-schwartz-preferred-source-labels",
+        "ins_maja-voje-content-growth-sequencing",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-19.md",
       "date": "2026-05-19",

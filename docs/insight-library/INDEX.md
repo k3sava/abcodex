@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 836 insight cards
+- 841 insight cards
 - 471 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (334)
+### Tier A (335)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -183,6 +183,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_michele-nieberding-ai-tools-for-pmm-workflows`](insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md) — Claude tools map to distinct PMM workflows: think, analyze, scale, collaborate. _(Michele Nieberding 🚀)_
 - [`ins_michele-nieberding-branch-in-new-chat-for-pmm`](insights/ins_michele-nieberding-branch-in-new-chat-for-pmm.md) — Branching chats with stable taxonomy scales PMM strategy without chaos. _(Michele Nieberding 🚀)_
 - [`ins_middle-is-hollowing-out`](insights/ins_middle-is-hollowing-out.md) — The middle is hollowing out, execution gets automated, leaving spec-writing and verification as the high-value human tasks _(Eugene Yan)_
+- [`ins_mike-king-agentic-rag-5-gatekeeper`](insights/ins_mike-king-agentic-rag-5-gatekeeper.md) — AI search runs a five-gatekeeper pipeline and the Critic is where most content dies, invisibly _(Mike King)_
 - [`ins_miller-caveman-test`](insights/ins_miller-caveman-test.md) — Could a caveman understand your homepage?, three questions, no marketing vocabulary _(Donald Miller)_
 - [`ins_miller-guide-empathy-and-authority`](insights/ins_miller-guide-empathy-and-authority.md) — The brand's job is to be a credible guide, empathy ("I get it") + authority ("I can help"), not to be the hero _(Donald Miller)_
 - [`ins_miller-survival-value-messaging`](insights/ins_miller-survival-value-messaging.md) — The brain ignores anything that doesn't signal survival, your message has to land in survival terms in seconds _(Donald Miller)_
@@ -348,7 +349,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (429)
+### Tier B (433)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -406,6 +407,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
+- [`ins_barry-schwartz-preferred-source-labels`](insights/ins_barry-schwartz-preferred-source-labels.md) — Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it _(Barry Schwartz)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_battlecard-abc-and-distribution`](insights/ins_battlecard-abc-and-distribution.md) — Battlecard adoption fails on distribution, not content quality, embed in the workflow or the card dies _(Crayon)_
 - [`ins_been-quietly-building-something-big`](insights/ins_been-quietly-building-something-big.md) — Solve a problem you faced, not one you imagine, when pivoting _(Akash Anand)_
@@ -497,6 +499,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_financial-services-track-scaling-fast`](insights/ins_financial-services-track-scaling-fast.md) — 💸 The Financial Services track is scaling fast, introducing new features like Business _(Jesse Bellaiche)_
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
 - [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
+- [`ins_fishkin-platform-first-zero-click`](insights/ins_fishkin-platform-first-zero-click.md) — Web traffic is down 46 percent in three years: produce content made for platforms first, articles second _(Rand Fishkin)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
@@ -575,6 +578,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_machine-customers-displace-storefront-interactions`](insights/ins_machine-customers-displace-storefront-interactions.md) — By 2028, AI agent "machine customers" will replace 20% of human-readable storefront interactions _(Gartner)_
 - [`ins_madeleine-work-ai-strips-humanity-from-marketing`](insights/ins_madeleine-work-ai-strips-humanity-from-marketing.md) — AI-generated marketing materials strip out the humanity that makes content compelling. _(Madeleine Work)_
 - [`ins_maha-shahid-ai-prompt-context-matters`](insights/ins_maha-shahid-ai-prompt-context-matters.md) — AI output quality depends on prompt context, not the tool. _(Maha Shahid)_
+- [`ins_maja-voje-content-growth-sequencing`](insights/ins_maja-voje-content-growth-sequencing.md) — Content growth sequences in three phases: voice and design first, then free assets and collaborations, then brand partnerships _(Maja Voje)_
 - [`ins_maja-voje-substrate-first-content-engineering`](insights/ins_maja-voje-substrate-first-content-engineering.md) — 90% of AI content system output quality comes from the knowledge fed in, not from agent sophistication. One canonical artifact, many consumers. _(Maja Voje)_
 - [`ins_make-intuition-explicit`](insights/ins_make-intuition-explicit.md) — Force intuitions into explicit predictions so you can find out where you are wrong _(Annie Duke)_
 - [`ins_make-the-implicit-explicit`](insights/ins_make-the-implicit-explicit.md) — In every meeting, name the why, the decider, the criterion, and the informed _(Claire Hughes Johnson)_
@@ -614,6 +618,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_neumeier-strategic-pyramid`](insights/ins_neumeier-strategic-pyramid.md) — Purpose at the top (forever), mission and vision in the middle (5-20 years), tactics at the bottom (1-3 years) _(Marty Neumeier)_
 - [`ins_never-imagined-chocolate-bar-could`](insights/ins_never-imagined-chocolate-bar-could.md) — I never imagined a ₹50 chocolate bar could teach a ₹10 crore marketing lesson _(Sulagna Das)_
 - [`ins_never-know-how-far-can`](insights/ins_never-know-how-far-can.md) — You never know how far it can take you _(Nalin Senthamil)_
+- [`ins_nicolas-cole-voc-mirroring-beats-paraphrase`](insights/ins_nicolas-cole-voc-mirroring-beats-paraphrase.md) — AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase _(Nicolas Cole)_
 - [`ins_nicolas-cole-voc-source-llm-assembly`](insights/ins_nicolas-cole-voc-source-llm-assembly.md) — Customer language is the source material for conversion copy; the LLM is the assembly layer, not the author _(Nicolas Cole)_
 - [`ins_nicolas-schell-turn-triggers-into-revenue`](insights/ins_nicolas-schell-turn-triggers-into-revenue.md) — Most teams chase wrong triggers and send generic emails that kill reply rates. _(Nicolas Schell)_
 - [`ins_nihal-ahamed-m-linkedin-ads-attribution-pain`](insights/ins_nihal-ahamed-m-linkedin-ads-attribution-pain.md) — LinkedIn Ads attribution is a spreadsheet nightmare that AI can solve _(Nihal Ahamed M)_
@@ -1335,7 +1340,7 @@ _Generated 2026-05-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Synthesis patterns
 - [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (17 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (20 ops) [Tier A]
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (8 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
