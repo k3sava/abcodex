@@ -1,25 +1,42 @@
 {
-  "generated_at": "2026-05-21T03:10:34.745Z",
+  "generated_at": "2026-05-25T03:15:56.250Z",
   "latest_daily": {
-    "path": "daily/2026-05-21.md",
-    "date": "2026-05-21",
-    "title": "Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.",
-    "summary": "Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).",
+    "path": "daily/2026-05-25.md",
+    "date": "2026-05-25",
+    "title": "What landed today, 2026-05-25",
+    "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
     "sources": [
-      "morning research scan 2026-05-21"
+      "morning research scan 2026-05-25"
     ],
     "insights_added": [
-      "ins_mike-king-agentic-rag-5-gatekeeper",
-      "ins_fishkin-platform-first-zero-click",
-      "ins_barry-schwartz-preferred-source-labels",
-      "ins_maja-voje-content-growth-sequencing",
-      "ins_nicolas-cole-voc-mirroring-beats-paraphrase"
+      "ins_kevin-indig-reasoning-lift-two-universes",
+      "ins_florin-tatulea-mcp-outbound-staging-rule",
+      "ins_mike-king-google-guide-contradicts-own-research",
+      "ins_anthropic-glasswing-verification-bottleneck-shift"
     ],
     "operators_added": "",
     "patterns_added": [],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-25.md",
+      "date": "2026-05-25",
+      "title": "What landed today, 2026-05-25",
+      "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
+      "sources": [
+        "morning research scan 2026-05-25"
+      ],
+      "insights_added": [
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_florin-tatulea-mcp-outbound-staging-rule",
+        "ins_mike-king-google-guide-contradicts-own-research",
+        "ins_anthropic-glasswing-verification-bottleneck-shift"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-21.md",
       "date": "2026-05-21",

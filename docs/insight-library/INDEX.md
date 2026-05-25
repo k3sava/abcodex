@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 841 insight cards
+- 845 insight cards
 - 471 operator profiles
 - 209 raw source files
 - 41 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (335)
+### Tier A (336)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -151,6 +151,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kesava-mandiga-repositioning-commits-to-one-buyer`](insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md) — Repositioning doesn't work until you cut three buyers and pick one _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-substrate-driven-intelligence`](insights/ins_kesava-mandiga-substrate-driven-intelligence.md) — Files first, vibes never. The substrate IS the work. _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-workflow-collapse-not-speedup`](insights/ins_kesava-mandiga-workflow-collapse-not-speedup.md) — AI-native isn't doing the same job faster, it's collapsing roles _(Kesava Mandiga)_
+- [`ins_kevin-indig-reasoning-lift-two-universes`](insights/ins_kevin-indig-reasoning-lift-two-universes.md) — High-reasoning AI mode and standard mode share only 25.6% of cited domains; AEO built for one misses three in four sources the other cites _(Kevin Indig)_
 - [`ins_kevin-indig-verification-cost-rising`](insights/ins_kevin-indig-verification-cost-rising.md) — The cost to produce AI output is falling. The cost to verify it is rising. Judgment is the binding constraint. _(Kevin Indig)_
 - [`ins_key-challenge-will-actually-getting`](insights/ins_key-challenge-will-actually-getting.md) — The key challenge will be actually getting in front of our target audience _(Rory Woodbridge)_
 - [`ins_kill-criteria-make-pre-mortems-real`](insights/ins_kill-criteria-make-pre-mortems-real.md) — Pre-mortems only work if you commit kill criteria before starting _(Annie Duke)_
@@ -349,7 +350,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (433)
+### Tier B (435)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -501,6 +502,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
 - [`ins_fishkin-platform-first-zero-click`](insights/ins_fishkin-platform-first-zero-click.md) — Web traffic is down 46 percent in three years: produce content made for platforms first, articles second _(Rand Fishkin)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
+- [`ins_florin-tatulea-mcp-outbound-staging-rule`](insights/ins_florin-tatulea-mcp-outbound-staging-rule.md) — Connect one MCP tool and validate one workflow before building a full outbound stack; complexity compounds error before it delivers value _(Florin Tatulea)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
 - [`ins_four-bb-prioritization`](insights/ins_four-bb-prioritization.md) — Sort the roadmap into four buckets, Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad _(Anuj Rathi)_
@@ -600,6 +602,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_messaging-equation-personalization-tiers`](insights/ins_messaging-equation-personalization-tiers.md) — Persona + Trigger + Value = Relevant Message. Personalize ~25%, no more. _(John Barrows)_
 - [`ins_mike-king-499-ai-bot-silence`](insights/ins_mike-king-499-ai-bot-silence.md) — A 499 from an AI bot UA means the bot decided the page was not worth waiting for and silently excluded it from the LLM candidate set _(Mike King)_
 - [`ins_mike-king-ai-crawler-499-speed-gate`](insights/ins_mike-king-ai-crawler-499-speed-gate.md) — AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier. _(Mike King)_
+- [`ins_mike-king-google-guide-contradicts-own-research`](insights/ins_mike-king-google-guide-contradicts-own-research.md) — Google's AI optimization guide contradicts its own technical research in four places; calling it 'still SEO' is a rhetorical strategy, not a neutral description _(Mike King)_
 - [`ins_mike-king-llm-cloaking-ip-protection`](insights/ins_mike-king-llm-cloaking-ip-protection.md) — Wrap proprietary research in JavaScript-rendered divs to protect IP from LLM crawlers; 69% cannot execute JavaScript _(Mike King)_
 - [`ins_mike-king-markdown-serving-llm-crawlers`](insights/ins_mike-king-markdown-serving-llm-crawlers.md) — Serve Markdown to AI crawlers you want indexing your content; Cloudflare measured an 80% token size reduction versus full HTML _(Mike King)_
 - [`ins_miller-one-liner-formula`](insights/ins_miller-one-liner-formula.md) — Problem → Solution → Result, the one-liner answers "what do you do?" in narrative shape _(Donald Miller)_
@@ -784,7 +787,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 
-### Tier C (73)
+### Tier C (74)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -800,6 +803,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_anirban-banerjee-chatgpt-clickbait-cliffhanger`](insights/ins_anirban-banerjee-chatgpt-clickbait-cliffhanger.md) — ChatGPT is learning the art of clickbait with conspiratorial cliffhangers _(Anirban Banerjee)_
 - [`ins_anirudh-rayaprolu-figuring-out-things`](insights/ins_anirudh-rayaprolu-figuring-out-things.md) — Exploring and understanding complex systems _(Anirudh Rayaprolu)_
 - [`ins_ankita-agarwal-vibe-coding-apps`](insights/ins_ankita-agarwal-vibe-coding-apps.md) — Vibe coding apps like Rork let non-developers build functional personal apps in minutes _(Ankita Agarwal)_
+- [`ins_anthropic-glasswing-verification-bottleneck-shift`](insights/ins_anthropic-glasswing-verification-bottleneck-shift.md) — AI has removed the vulnerability discovery bottleneck in security; the rate limiter is now verification, disclosure, and patching speed _(Anthropic)_
 - [`ins_ashwin-sl-people-over-scale`](insights/ins_ashwin-sl-people-over-scale.md) — The real value of building a company is the people and shared struggles, not the scale or numbers. _(Ashwin SL)_
 - [`ins_ayush-barnwal-remote-culture-needs-intentionality`](insights/ins_ayush-barnwal-remote-culture-needs-intentionality.md) — Remote work and human connection require intentional off-sites to coexist _(Ayush Barnwal)_
 - [`ins_bhavin-turakhia-ai-code-leak-speed`](insights/ins_bhavin-turakhia-ai-code-leak-speed.md) — AI code leaks spread faster than any company can contain them _(Bhavin Turakhia)_
@@ -1340,8 +1344,8 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Synthesis patterns
 - [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (20 ops) [Tier A]
-- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (8 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (22 ops) [Tier A]
+- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (9 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
@@ -1379,7 +1383,7 @@ _Generated 2026-05-21. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (13 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (14 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools

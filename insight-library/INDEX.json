@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-05-21T03:10:34.720Z",
+  "generated_at": "2026-05-25T03:15:56.214Z",
   "counts": {
-    "insights": 841,
+    "insights": 845,
     "operators": 471,
     "raw_sources": 209,
     "patterns": 41,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 17
+    "daily": 18
   },
   "latest_daily": {
-    "path": "daily/2026-05-21.md",
-    "date": "2026-05-21",
-    "title": "Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.",
-    "summary": "Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).",
+    "path": "daily/2026-05-25.md",
+    "date": "2026-05-25",
+    "title": "What landed today, 2026-05-25",
+    "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
     "sources": [
-      "morning research scan 2026-05-21"
+      "morning research scan 2026-05-25"
     ],
     "insights_added": [
-      "ins_mike-king-agentic-rag-5-gatekeeper",
-      "ins_fishkin-platform-first-zero-click",
-      "ins_barry-schwartz-preferred-source-labels",
-      "ins_maja-voje-content-growth-sequencing",
-      "ins_nicolas-cole-voc-mirroring-beats-paraphrase"
+      "ins_kevin-indig-reasoning-lift-two-universes",
+      "ins_florin-tatulea-mcp-outbound-staging-rule",
+      "ins_mike-king-google-guide-contradicts-own-research",
+      "ins_anthropic-glasswing-verification-bottleneck-shift"
     ],
     "operators_added": "",
     "patterns_added": [],
@@ -2078,6 +2077,33 @@
       ],
       "raw_ref": "",
       "title": "Security scanning via data flow tracing finds business logic flaws that pattern-matching tools miss for years"
+    },
+    {
+      "path": "insights/ins_anthropic-glasswing-verification-bottleneck-shift.md",
+      "id": "ins_anthropic-glasswing-verification-bottleneck-shift",
+      "operator": "Anthropic",
+      "operator_role": "AI safety and research company",
+      "co_operators": [],
+      "source_url": "https://www.anthropic.com/research/glasswing-initial-update",
+      "source_type": "research",
+      "source_title": "Project Glasswing: Initial Update",
+      "source_date": "2026-05-22",
+      "captured_date": "2026-05-25",
+      "domain": [
+        "ai-engineering"
+      ],
+      "lifecycle": [],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "C",
+      "related": [
+        "ins_anthropic-claude-security-data-flow-scanning",
+        "ins_judgment-doesnt-compress",
+        "ins_pat_verification-as-human-job"
+      ],
+      "raw_ref": "",
+      "title": "AI has removed the vulnerability discovery bottleneck in security; the rate limiter is now verification, disclosure, and patching speed"
     },
     {
       "path": "insights/ins_anthropic-routines-cloud-agent-tasks.md",
@@ -6968,6 +6994,32 @@
       "title": "Five things CEO, CMO, CRO, and PMM will never agree on"
     },
     {
+      "path": "insights/ins_florin-tatulea-mcp-outbound-staging-rule.md",
+      "id": "ins_florin-tatulea-mcp-outbound-staging-rule",
+      "operator": "Florin Tatulea",
+      "operator_role": "Sales practitioner and newsletter author, Prospecting from the Trenches",
+      "co_operators": [],
+      "source_url": "https://salesflo.substack.com/p/132-how-gtm-teams-are-building-outbound",
+      "source_type": "essay",
+      "source_title": "Prospecting from the Trenches #132",
+      "source_date": "2026-05-20",
+      "captured_date": "2026-05-25",
+      "domain": [
+        "growth-demand",
+        "sales-enablement"
+      ],
+      "lifecycle": [
+        "sales-enablement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Connect one MCP tool and validate one workflow before building a full outbound stack; complexity compounds error before it delivers value"
+    },
+    {
       "path": "insights/ins_flywheel-ai-cross-functional-pod.md",
       "id": "ins_flywheel-ai-cross-functional-pod",
       "operator": "Kieran Flanagan",
@@ -10453,6 +10505,36 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_kevin-indig-reasoning-lift-two-universes.md",
+      "id": "ins_kevin-indig-reasoning-lift-two-universes",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor and SEO researcher, Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/reasoning-lift-what-happens-to-ai",
+      "source_type": "research",
+      "source_title": "Reasoning Lift",
+      "source_date": "2026-05-18",
+      "captured_date": "2026-05-25",
+      "domain": [
+        "aeo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_chatgpt-prompts-invisible-to-keyword-tools"
+      ],
+      "raw_ref": "",
+      "title": "High-reasoning AI mode and standard mode share only 25.6% of cited domains; AEO built for one misses three in four sources the other cites"
+    },
+    {
       "path": "insights/ins_kevin-indig-verification-cost-rising.md",
       "id": "ins_kevin-indig-verification-cost-rising",
       "operator": "Kevin Indig",
@@ -12661,6 +12743,34 @@
       ],
       "raw_ref": "",
       "title": "AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier."
+    },
+    {
+      "path": "insights/ins_mike-king-google-guide-contradicts-own-research.md",
+      "id": "ins_mike-king-google-guide-contradicts-own-research",
+      "operator": "Mike King",
+      "operator_role": "CEO, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/google-ai-search-guidance",
+      "source_type": "essay",
+      "source_title": "Google AI Search Guidance",
+      "source_date": "2026-05-18",
+      "captured_date": "2026-05-25",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mike-king-agentic-rag-5-gatekeeper",
+        "ins_mike-king-markdown-serving-llm-crawlers",
+        "ins_mike-king-499-ai-bot-silence"
+      ],
+      "raw_ref": "",
+      "title": "Google's AI optimization guide contradicts its own technical research in four places; calling it 'still SEO' is a rhetorical strategy, not a neutral description"
     },
     {
       "path": "insights/ins_mike-king-llm-cloaking-ip-protection.md",
@@ -35044,8 +35154,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-21",
-      "convergence_count": "20",
+      "last_updated": "2026-05-25",
+      "convergence_count": "22",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -35067,7 +35177,9 @@
         "ins_fishkin-natividad-measurement-reframe-not-clicks",
         "ins_mike-king-agentic-rag-5-gatekeeper",
         "ins_barry-schwartz-preferred-source-labels",
-        "ins_fishkin-platform-first-zero-click"
+        "ins_fishkin-platform-first-zero-click",
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_mike-king-google-guide-contradicts-own-research"
       ],
       "domains": [
         "pmm",
@@ -35080,8 +35192,8 @@
       "id": "pat_agent-first-gtm",
       "title": "Agent-first GTM (rebuild, don't bolt-on)",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-09",
-      "convergence_count": "8",
+      "last_updated": "2026-05-25",
+      "convergence_count": "9",
       "tier": "A",
       "uses_cards": [
         "ins_rebuild-gtm-around-ai",
@@ -35091,7 +35203,8 @@
         "ins_seller-workflows-begin-with-ai",
         "ins_systems-of-action-replace-seller-stack",
         "ins_reps-want-questions-not-dashboards",
-        "ins_kyle-poyar-continuous-monitoring-agents"
+        "ins_kyle-poyar-continuous-monitoring-agents",
+        "ins_florin-tatulea-mcp-outbound-staging-rule"
       ],
       "domains": [
         "gtm",
@@ -35982,8 +36095,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-19",
-      "convergence_count": "13",
+      "last_updated": "2026-05-25",
+      "convergence_count": "14",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -35998,7 +36111,8 @@
         "ins_willison-reliability-erodes-review-discipline",
         "ins_breunig-harness-lock-in-model-layer",
         "ins_pierri-batch-transcripts-produce-fabrications",
-        "ins_anthropic-claude-security-data-flow-scanning"
+        "ins_anthropic-claude-security-data-flow-scanning",
+        "ins_anthropic-glasswing-verification-bottleneck-shift"
       ],
       "domains": [
         "ai-native",
@@ -36812,6 +36926,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-25.md",
+      "date": "2026-05-25",
+      "title": "What landed today, 2026-05-25",
+      "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
+      "sources": [
+        "morning research scan 2026-05-25"
+      ],
+      "insights_added": [
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_florin-tatulea-mcp-outbound-staging-rule",
+        "ins_mike-king-google-guide-contradicts-own-research",
+        "ins_anthropic-glasswing-verification-bottleneck-shift"
+      ],
+      "operators_added": "",
+      "patterns_added": [],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-21.md",
       "date": "2026-05-21",
