@@ -2,9 +2,10 @@
 id: pat_pricing-as-the-most-leveraged-org-failure
 title: Pricing is the most leveraged and most under-invested function — Simon, Ramanujam, Skok, and Hormozi on the same structural failure
 captured_date: 2026-05-05
-convergence_count: 4
+last_updated: 2026-05-27
+convergence_count: 17
 tier: A
-uses_cards: [ins_one-percent-price-eight-percent-profit, ins_simon-pricing-is-structural-org-failure, ins_simon-discounting-most-dangerous-practice, ins_simon-single-price-always-suboptimal, ins_simon-formal-pricing-process, ins_price-before-product, ins_ramanujam-three-wtp-questions, ins_ramanujam-feature-shock, ins_ramanujam-minivation, ins_ramanujam-leaders-fillers-killers, ins_ramanujam-ai-pricing-against-labor-budgets, ins_ltv-cac-ratio-and-cash-flow-trough, ins_skok-negative-churn, ins_value-equation-grand-slam-offer, ins_premium-pricing-virtuous-cycle, ins_offer-and-market-as-highest-roi-lever]
+uses_cards: [ins_one-percent-price-eight-percent-profit, ins_simon-pricing-is-structural-org-failure, ins_simon-discounting-most-dangerous-practice, ins_simon-single-price-always-suboptimal, ins_simon-formal-pricing-process, ins_price-before-product, ins_ramanujam-three-wtp-questions, ins_ramanujam-feature-shock, ins_ramanujam-minivation, ins_ramanujam-leaders-fillers-killers, ins_ramanujam-ai-pricing-against-labor-budgets, ins_ltv-cac-ratio-and-cash-flow-trough, ins_skok-negative-churn, ins_value-equation-grand-slam-offer, ins_premium-pricing-virtuous-cycle, ins_offer-and-market-as-highest-roi-lever, ins_rory-woodbridge-seats-pricing-ai-trap]
 domains: [pmm, gtm, strategy, growth-demand, product]
 ---
 

@@ -1,30 +1,36 @@
 {
-  "generated_at": "2026-05-25T03:15:56.214Z",
+  "generated_at": "2026-05-27T03:28:13.451Z",
   "counts": {
-    "insights": 845,
-    "operators": 471,
+    "insights": 850,
+    "operators": 473,
     "raw_sources": 209,
-    "patterns": 41,
+    "patterns": 42,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 18
+    "daily": 19
   },
   "latest_daily": {
-    "path": "daily/2026-05-25.md",
-    "date": "2026-05-25",
-    "title": "What landed today, 2026-05-25",
-    "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
+    "path": "daily/2026-05-27.md",
+    "date": "2026-05-27",
+    "title": "What landed today, 2026-05-27",
+    "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
     "sources": [
-      "morning research scan 2026-05-25"
+      "morning research scan 2026-05-27"
     ],
     "insights_added": [
-      "ins_kevin-indig-reasoning-lift-two-universes",
-      "ins_florin-tatulea-mcp-outbound-staging-rule",
-      "ins_mike-king-google-guide-contradicts-own-research",
-      "ins_anthropic-glasswing-verification-bottleneck-shift"
+      "ins_fishkin-inimitable-product-new-moat",
+      "ins_pete-caputa-referral-attribution-gap",
+      "ins_rory-woodbridge-seats-pricing-ai-trap",
+      "ins_maja-voje-ai-buyer-controls-interaction",
+      "ins_andrew-ng-top-down-workflow-redesign"
     ],
-    "operators_added": "",
-    "patterns_added": [],
+    "operators_added": [
+      "pete-caputa",
+      "andrew-ng"
+    ],
+    "patterns_added": [
+      "pat_saas-growth-trifecta-collapse"
+    ],
     "playbooks_added": []
   },
   "insights": [
@@ -1810,6 +1816,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_andrew-ng-top-down-workflow-redesign.md",
+      "id": "ins_andrew-ng-top-down-workflow-redesign",
+      "operator": "Andrew Ng",
+      "operator_role": "Managing General Partner, AI Fund; Founder, DeepLearning.AI",
+      "co_operators": [],
+      "source_url": "https://8thlight.com/insights/production-is-the-new-prototype-notes-from-langchain-interrupt-2026",
+      "source_type": "recap",
+      "source_title": "Production is the New Prototype: Notes from LangChain Interrupt 2026",
+      "source_date": "2026-05-22",
+      "captured_date": "2026-05-27",
+      "domain": [
+        "ai-gtm",
+        "operations"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_maja-voje-ai-buyer-controls-interaction",
+        "ins_rebuild-gtm-around-ai",
+        "ins_cash-four-stage-growth-automation"
+      ],
+      "raw_ref": "",
+      "title": "Top-down workflow redesign from desired outcome delivers 20 to 50 percent transformation; bottom-up task automation delivers only incremental gains"
     },
     {
       "path": "insights/ins_andy-mccotter-taste-as-moat.md",
@@ -6874,6 +6910,37 @@
       "title": "Pick a niche where the fish are; do not deadlift 300 pounds on day one"
     },
     {
+      "path": "insights/ins_fishkin-inimitable-product-new-moat.md",
+      "id": "ins_fishkin-inimitable-product-new-moat",
+      "operator": "Rand Fishkin",
+      "operator_role": "Founder, SparkToro",
+      "co_operators": [],
+      "source_url": "https://sparktoro.com/blog/inimitable-product-is-the-new-make-great-content/",
+      "source_type": "essay",
+      "source_title": "Inimitable Product is the New \"Make Great Content\"",
+      "source_date": "2026-05-25",
+      "captured_date": "2026-05-27",
+      "domain": [
+        "growth-demand",
+        "aeo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "acquisition"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_fishkin-platform-first-zero-click",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_death-of-the-ultimate-guide"
+      ],
+      "raw_ref": "",
+      "title": "Content paraphrasable by an AI answer engine is no longer a distribution moat"
+    },
+    {
       "path": "insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md",
       "id": "ins_fishkin-natividad-measurement-reframe-not-clicks",
       "operator": "Rand Fishkin",
@@ -11592,6 +11659,36 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_maja-voje-ai-buyer-controls-interaction.md",
+      "id": "ins_maja-voje-ai-buyer-controls-interaction",
+      "operator": "Maja Voje",
+      "operator_role": "Founder, GTM Strategist",
+      "co_operators": [],
+      "source_url": "https://knowledge.gtmstrategist.com/p/bye-ai-sdrs-hello-superhuman-agents",
+      "source_type": "essay",
+      "source_title": "Bye AI SDRs, Hello Superhuman Agents",
+      "source_date": "2026-05-22",
+      "captured_date": "2026-05-27",
+      "domain": [
+        "growth-demand",
+        "ai-gtm"
+      ],
+      "lifecycle": [
+        "acquisition"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "C",
+      "related": [
+        "ins_agents-are-the-new-product-user",
+        "ins_andrew-ng-top-down-workflow-redesign",
+        "ins_rebuild-gtm-around-ai"
+      ],
+      "raw_ref": "",
+      "title": "AI-augmented sales is most defensible as unlocked conversation capacity, not headcount replacement"
+    },
+    {
       "path": "insights/ins_maja-voje-content-growth-sequencing.md",
       "id": "ins_maja-voje-content-growth-sequencing",
       "operator": "Maja Voje",
@@ -15085,6 +15182,37 @@
       "title": "Personal user manuals belong in company onboarding to compress alignment time"
     },
     {
+      "path": "insights/ins_pete-caputa-referral-attribution-gap.md",
+      "id": "ins_pete-caputa-referral-attribution-gap",
+      "operator": "Pete Caputa",
+      "operator_role": "CEO, Databox",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "post",
+      "source_title": "Partnerships as primary channel (LinkedIn, May 2026)",
+      "source_date": "2026-05-26",
+      "captured_date": "2026-05-27",
+      "domain": [
+        "growth-demand",
+        "pmm",
+        "analytics"
+      ],
+      "lifecycle": [
+        "acquisition"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "A",
+      "related": [
+        "ins_fishkin-inimitable-product-new-moat",
+        "ins_rory-woodbridge-seats-pricing-ai-trap",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+      ],
+      "raw_ref": "",
+      "title": "A single survey question on the demo booking form surfaces referral revenue invisible in every attribution dashboard"
+    },
+    {
       "path": "insights/ins_phil-schmid-four-subagent-patterns.md",
       "id": "ins_phil-schmid-four-subagent-patterns",
       "operator": "Phil Schmid",
@@ -17629,6 +17757,38 @@
       ],
       "raw_ref": "",
       "title": "The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product"
+    },
+    {
+      "path": "insights/ins_rory-woodbridge-seats-pricing-ai-trap.md",
+      "id": "ins_rory-woodbridge-seats-pricing-ai-trap",
+      "operator": "Rory Woodbridge",
+      "operator_role": "Founder, Product Marketer",
+      "co_operators": [
+        "Saagar Mehta"
+      ],
+      "source_url": "https://productmarketer.substack.com/p/pricing-in-the-age-of-ai",
+      "source_type": "essay",
+      "source_title": "Pricing in the Age of AI",
+      "source_date": "2026-05-26",
+      "captured_date": "2026-05-27",
+      "domain": [
+        "pricing",
+        "pmm"
+      ],
+      "lifecycle": [
+        "monetization"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_outcomes-pricing-restructures-saas",
+        "ins_ramanujam-three-wtp-questions",
+        "ins_fishkin-inimitable-product-new-moat"
+      ],
+      "raw_ref": "",
+      "title": "Seats-based pricing is a logical trap when AI reduces the headcount tied to the metric"
     },
     {
       "path": "insights/ins_run-up-the-stack.md",
@@ -23885,6 +24045,28 @@
       "title": "Andrew Jones"
     },
     {
+      "path": "operators/andrew-ng/README.md",
+      "slug": "andrew-ng",
+      "name": "Andrew Ng",
+      "roles": [
+        "\"Managing General Partner",
+        "AI Fund\"",
+        "\"Founder",
+        "DeepLearning.AI\"",
+        "\"Co-founder",
+        "Google Brain\"",
+        "\"Former Chief Scientist",
+        "Baidu\""
+      ],
+      "domains_active": [
+        "ai-gtm",
+        "operations"
+      ],
+      "captured_first": "2026-05-27",
+      "external": "{  }",
+      "title": "Andrew Ng"
+    },
+    {
       "path": "operators/andrew-wilkinson/README.md",
       "name": "Andrew Wilkinson",
       "slug": "andrew-wilkinson",
@@ -29382,6 +29564,25 @@
         "linkedin": "https://www.linkedin.com/in/peeplaja/"
       },
       "title": "Peep Laja"
+    },
+    {
+      "path": "operators/pete-caputa/README.md",
+      "slug": "pete-caputa",
+      "name": "Pete Caputa",
+      "roles": [
+        "\"CEO",
+        "Databox\"",
+        "\"Former Channel Chief",
+        "HubSpot\""
+      ],
+      "domains_active": [
+        "growth-demand",
+        "pmm",
+        "analytics"
+      ],
+      "captured_first": "2026-05-27",
+      "external": "{ linkedin: \"https://www.linkedin.com/in/pc4media/\" }",
+      "title": "Pete Caputa"
     },
     {
       "path": "operators/peter-thiel/README.md",
@@ -35154,8 +35355,8 @@
       "id": "pat_aeo-triangle",
       "title": "The AEO triangle, presence, relevance, manual-action propagation",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-25",
-      "convergence_count": "22",
+      "last_updated": "2026-05-27",
+      "convergence_count": "23",
       "tier": "A",
       "uses_cards": [
         "ins_aeo-three-layer-presence-readiness-impact",
@@ -35179,7 +35380,8 @@
         "ins_barry-schwartz-preferred-source-labels",
         "ins_fishkin-platform-first-zero-click",
         "ins_kevin-indig-reasoning-lift-two-universes",
-        "ins_mike-king-google-guide-contradicts-own-research"
+        "ins_mike-king-google-guide-contradicts-own-research",
+        "ins_fishkin-inimitable-product-new-moat"
       ],
       "domains": [
         "pmm",
@@ -35192,8 +35394,8 @@
       "id": "pat_agent-first-gtm",
       "title": "Agent-first GTM (rebuild, don't bolt-on)",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-25",
-      "convergence_count": "9",
+      "last_updated": "2026-05-27",
+      "convergence_count": "10",
       "tier": "A",
       "uses_cards": [
         "ins_rebuild-gtm-around-ai",
@@ -35204,7 +35406,8 @@
         "ins_systems-of-action-replace-seller-stack",
         "ins_reps-want-questions-not-dashboards",
         "ins_kyle-poyar-continuous-monitoring-agents",
-        "ins_florin-tatulea-mcp-outbound-staging-rule"
+        "ins_florin-tatulea-mcp-outbound-staging-rule",
+        "ins_andrew-ng-top-down-workflow-redesign"
       ],
       "domains": [
         "gtm",
@@ -35792,7 +35995,8 @@
       "id": "pat_pricing-as-the-most-leveraged-org-failure",
       "title": "Pricing is the most leveraged and most under-invested function",
       "captured_date": "2026-05-05",
-      "convergence_count": "4",
+      "last_updated": "2026-05-27",
+      "convergence_count": "17",
       "tier": "A",
       "uses_cards": [
         "ins_one-percent-price-eight-percent-profit",
@@ -35810,7 +36014,8 @@
         "ins_skok-negative-churn",
         "ins_value-equation-grand-slam-offer",
         "ins_premium-pricing-virtuous-cycle",
-        "ins_offer-and-market-as-highest-roi-lever"
+        "ins_offer-and-market-as-highest-roi-lever",
+        "ins_rory-woodbridge-seats-pricing-ai-trap"
       ],
       "domains": [
         "pmm",
@@ -35901,6 +36106,24 @@
         "product",
         "launch",
         "ai-native"
+      ]
+    },
+    {
+      "path": "synthesis/patterns/saas-growth-trifecta-collapse.md",
+      "id": "pat_saas-growth-trifecta-collapse",
+      "title": "The 2018 SaaS Playbook Is Breaking Across All Three Levers",
+      "captured_date": "2026-05-27",
+      "convergence_count": "3",
+      "tier": "A",
+      "uses_cards": [
+        "ins_fishkin-inimitable-product-new-moat",
+        "ins_pete-caputa-referral-attribution-gap",
+        "ins_rory-woodbridge-seats-pricing-ai-trap"
+      ],
+      "domains": [
+        "growth-demand",
+        "pmm",
+        "pricing"
       ]
     },
     {
@@ -36926,6 +37149,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-05-27.md",
+      "date": "2026-05-27",
+      "title": "What landed today, 2026-05-27",
+      "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
+      "sources": [
+        "morning research scan 2026-05-27"
+      ],
+      "insights_added": [
+        "ins_fishkin-inimitable-product-new-moat",
+        "ins_pete-caputa-referral-attribution-gap",
+        "ins_rory-woodbridge-seats-pricing-ai-trap",
+        "ins_maja-voje-ai-buyer-controls-interaction",
+        "ins_andrew-ng-top-down-workflow-redesign"
+      ],
+      "operators_added": [
+        "pete-caputa",
+        "andrew-ng"
+      ],
+      "patterns_added": [
+        "pat_saas-growth-trifecta-collapse"
+      ],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-25.md",
       "date": "2026-05-25",

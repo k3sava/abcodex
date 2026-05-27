@@ -1,24 +1,54 @@
 {
-  "generated_at": "2026-05-25T03:15:56.250Z",
+  "generated_at": "2026-05-27T03:28:13.493Z",
   "latest_daily": {
-    "path": "daily/2026-05-25.md",
-    "date": "2026-05-25",
-    "title": "What landed today, 2026-05-25",
-    "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
+    "path": "daily/2026-05-27.md",
+    "date": "2026-05-27",
+    "title": "What landed today, 2026-05-27",
+    "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
     "sources": [
-      "morning research scan 2026-05-25"
+      "morning research scan 2026-05-27"
     ],
     "insights_added": [
-      "ins_kevin-indig-reasoning-lift-two-universes",
-      "ins_florin-tatulea-mcp-outbound-staging-rule",
-      "ins_mike-king-google-guide-contradicts-own-research",
-      "ins_anthropic-glasswing-verification-bottleneck-shift"
+      "ins_fishkin-inimitable-product-new-moat",
+      "ins_pete-caputa-referral-attribution-gap",
+      "ins_rory-woodbridge-seats-pricing-ai-trap",
+      "ins_maja-voje-ai-buyer-controls-interaction",
+      "ins_andrew-ng-top-down-workflow-redesign"
     ],
-    "operators_added": "",
-    "patterns_added": [],
+    "operators_added": [
+      "pete-caputa",
+      "andrew-ng"
+    ],
+    "patterns_added": [
+      "pat_saas-growth-trifecta-collapse"
+    ],
     "playbooks_added": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-05-27.md",
+      "date": "2026-05-27",
+      "title": "What landed today, 2026-05-27",
+      "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
+      "sources": [
+        "morning research scan 2026-05-27"
+      ],
+      "insights_added": [
+        "ins_fishkin-inimitable-product-new-moat",
+        "ins_pete-caputa-referral-attribution-gap",
+        "ins_rory-woodbridge-seats-pricing-ai-trap",
+        "ins_maja-voje-ai-buyer-controls-interaction",
+        "ins_andrew-ng-top-down-workflow-redesign"
+      ],
+      "operators_added": [
+        "pete-caputa",
+        "andrew-ng"
+      ],
+      "patterns_added": [
+        "pat_saas-growth-trifecta-collapse"
+      ],
+      "playbooks_added": []
+    },
     {
       "path": "daily/2026-05-25.md",
       "date": "2026-05-25",

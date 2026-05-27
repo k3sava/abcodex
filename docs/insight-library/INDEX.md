@@ -1,18 +1,18 @@
 # Codex Index
 
-_Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 845 insight cards
-- 471 operator profiles
+- 850 insight cards
+- 473 operator profiles
 - 209 raw source files
-- 41 synthesis patterns
+- 42 synthesis patterns
 - 11 contradictions
 - 27 playbooks
 
 ## Insights by tier
 
-### Tier A (336)
+### Tier A (338)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -91,6 +91,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_excited-finally-share-lin-pei`](insights/ins_excited-finally-share-lin-pei.md) — I'm SO excited to *finally* share that Yi Lin Pei and I are launching a company together _(Kevin Chan)_
 - [`ins_experimentation-paralysis`](insights/ins_experimentation-paralysis.md) — Don't test what won't reach sample size in a month, pre/post is fine _(Elena Verna)_
 - [`ins_fish-where-the-fish-are`](insights/ins_fish-where-the-fish-are.md) — Pick a niche where the fish are; do not deadlift 300 pounds on day one _(Andrew Wilkinson)_
+- [`ins_fishkin-inimitable-product-new-moat`](insights/ins_fishkin-inimitable-product-new-moat.md) — Content paraphrasable by an AI answer engine is no longer a distribution moat _(Rand Fishkin)_
 - [`ins_five-animals-of-saas`](insights/ins_five-animals-of-saas.md) — You can't hunt elephants the way you hunt rabbits, pick your animal first, GTM follows _(Christoph Janz)_
 - [`ins_flywheel-ai-cross-functional-pod`](insights/ins_flywheel-ai-cross-functional-pod.md) — Cross-functional pod (product + eng + data + ops + marketing) is the org unit for agentic GTM _(Kieran Flanagan)_
 - [`ins_force-for-positive-momentum`](insights/ins_force-for-positive-momentum.md) — When the decision-maker is unclear, you are it, be a force for positive momentum _(Claire Hughes Johnson)_
@@ -221,6 +222,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_paul-adams-invented-magic-scratching-surface`](insights/ins_paul-adams-invented-magic-scratching-surface.md) — AI-first product means blowing up the roadmap, not adding AI features _(Paul Adams)_
 - [`ins_permission-as-measurable-asset`](insights/ins_permission-as-measurable-asset.md) — Permission is a balance you can deplete, every email either deposits or withdraws _(Seth Godin)_
 - [`ins_personal-pattern-hoarding`](insights/ins_personal-pattern-hoarding.md) — Hoard a personal repository of things that worked, coding agents will recombine them _(Simon Willison)_
+- [`ins_pete-caputa-referral-attribution-gap`](insights/ins_pete-caputa-referral-attribution-gap.md) — A single survey question on the demo booking form surfaces referral revenue invisible in every attribution dashboard _(Pete Caputa)_
 - [`ins_planning-fallacy-launch-timelines`](insights/ins_planning-fallacy-launch-timelines.md) — The planning fallacy guarantees every launch timeline is optimistic, the fix is the outside view _(Daniel Kahneman)_
 - [`ins_pmm-as-infrastructure-not-gate`](insights/ins_pmm-as-infrastructure-not-gate.md) — PLG sales-led companies need PLG, and PLG companies need sales, both, not one _(Elena Verna)_
 - [`ins_positioning-is-the-answer-not-the-work`](insights/ins_positioning-is-the-answer-not-the-work.md) — Positioning is the right answer (one statement), not the work (the 30-slide deck) _(Emily Kramer)_
@@ -350,7 +352,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (435)
+### Tier B (437)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -389,6 +391,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
 - [`ins_anastasia-kudrow-testimonial-section-answers-three-questions`](insights/ins_anastasia-kudrow-testimonial-section-answers-three-questions.md) — A testimonial section must answer three questions to drive conversion. _(Anastasia Kudrow)_
 - [`ins_andrew-jones-data-trustworthiness-over-output-metrics`](insights/ins_andrew-jones-data-trustworthiness-over-output-metrics.md) — AI products are completely limited by the data going in; output metrics mean nothing without trustworthy input data. _(Andrew Jones)_
+- [`ins_andrew-ng-top-down-workflow-redesign`](insights/ins_andrew-ng-top-down-workflow-redesign.md) — Top-down workflow redesign from desired outcome delivers 20 to 50 percent transformation; bottom-up task automation delivers only incremental gains _(Andrew Ng)_
 - [`ins_andy-mccotter-taste-as-moat`](insights/ins_andy-mccotter-taste-as-moat.md) — Taste is the PMM moat in an AI world. _(Andy McCotter)_
 - [`ins_anisha-jain-ai-as-tool-not-crutch`](insights/ins_anisha-jain-ai-as-tool-not-crutch.md) — There is no 'AI-made' content, only good and bad posts, AI is a tool, not a crutch. _(Anisha Jain)_
 - [`ins_anjli-jain-growth-architect-marketing`](insights/ins_anjli-jain-growth-architect-marketing.md) — AI-first companies should be born inside institutions, not against them _(Anjli Jain)_
@@ -691,6 +694,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
+- [`ins_rory-woodbridge-seats-pricing-ai-trap`](insights/ins_rory-woodbridge-seats-pricing-ai-trap.md) — Seats-based pricing is a logical trap when AI reduces the headcount tied to the metric _(Rory Woodbridge)_
 - [`ins_saishah-joseph-exhaustion-disguised-as-enthusiasm`](insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md) — Small business owners' social media exhaustion is disguised as enthusiasm _(Saishah Joseph)_
 - [`ins_sajjan-jain-ai-80-percent-startup-opportunity`](insights/ins_sajjan-jain-ai-80-percent-startup-opportunity.md) — AI's 80% ceiling is the startup opportunity: complete the last mile to 100%. _(Sajjan Jain)_
 - [`ins_sales-team-detects-positioning-failure-first`](insights/ins_sales-team-detects-positioning-failure-first.md) — The sales team detects positioning failure months before the dashboard does _(April Dunford)_
@@ -787,7 +791,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 
-### Tier C (74)
+### Tier C (75)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -830,6 +834,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_krishnam-malpani-stop-writing-boring-blogs`](insights/ins_krishnam-malpani-stop-writing-boring-blogs.md) — Stop writing boring blogs, make content that makes people stop scrolling. _(Krishnam Malpani)_
 - [`ins_kushal-saini-kakkar-ai-nostalgia-builder`](insights/ins_kushal-saini-kakkar-ai-nostalgia-builder.md) — AI can serve as a nostalgia builder, surfacing past work and memories. _(Kushal Saini Kakkar)_
 - [`ins_langley-barth-human-tokens`](insights/ins_langley-barth-human-tokens.md) — Product marketers should think of their energy and focus as 'human tokens' to be spent wisely. _(Langley Barth)_
+- [`ins_maja-voje-ai-buyer-controls-interaction`](insights/ins_maja-voje-ai-buyer-controls-interaction.md) — AI-augmented sales is most defensible as unlocked conversation capacity, not headcount replacement _(Maja Voje)_
 - [`ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore`](insights/ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore.md) — Hiring two seasoned Technical PMMs in Boston and Bangalore _(Manisha Talwar Rana)_
 - [`ins_marketoonist-generations-not-monoliths`](insights/ins_marketoonist-generations-not-monoliths.md) — Generational marketing is lazy, buyers within a generation differ more than across them _(Marketoonist)_
 - [`ins_meghana-kansagara-ambiguity-into-creativity`](insights/ins_meghana-kansagara-ambiguity-into-creativity.md) — Turning ambiguity into creativity and opportunity is the most joyful part of product building. _(Meghana Kansagara)_
@@ -905,6 +910,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [Andrew Chen](operators/andrew-chen/README.md)
 - [Andrew Faris](operators/andrew-faris/README.md)
 - [Andrew Jones](operators/andrew-jones/README.md)
+- [Andrew Ng](operators/andrew-ng/README.md)
 - [Andrew Wilkinson](operators/andrew-wilkinson/README.md)
 - [Andy Crestodina](operators/andy-crestodina/README.md)
 - [Andy McCotter](operators/andy-mccotter/README.md)
@@ -1202,6 +1208,7 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [Pavithra Krishnaswamy](operators/pavithra-krishnaswamy/README.md)
 - [Pawel Huryn](operators/pawel-huryn/README.md)
 - [Peep Laja](operators/peep-laja/README.md)
+- [Pete Caputa](operators/pete-caputa/README.md)
 - [Peter Thiel](operators/peter-thiel/README.md)
 - [Phil Schmid](operators/phil-schmid/README.md)
 - [Pia Silva](operators/pia-silva/README.md)
@@ -1344,8 +1351,8 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Synthesis patterns
 - [`pat_aeo-experience-gate`](synthesis/patterns/aeo-experience-gate.md) — AEO experience and structure gate (4 ops) [Tier A]
-- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (22 ops) [Tier A]
-- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (9 ops) [Tier A]
+- [`pat_aeo-triangle`](synthesis/patterns/aeo-triangle.md) — The AEO triangle, presence, relevance, manual-action propagation (23 ops) [Tier A]
+- [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (10 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
@@ -1370,11 +1377,12 @@ _Generated 2026-05-25. Auto-built from frontmatter — do not edit by hand._
 - [`pat_monopoly-economics-differentiation-beats-competition`](synthesis/patterns/monopoly-economics-differentiation-beats-competition.md) — Differentiation, not competition, is what compounds (6 ops) [Tier A]
 - [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy, name the shift, run the audit (4 ops) [Tier A]
 - [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior, parenting frames as leadership ops (3 ops) [Tier B]
-- [`pat_pricing-as-the-most-leveraged-org-failure`](synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md) — Pricing is the most leveraged and most under-invested function (4 ops) [Tier A]
+- [`pat_pricing-as-the-most-leveraged-org-failure`](synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md) — Pricing is the most leveraged and most under-invested function (17 ops) [Tier A]
 - [`pat_principal-ic-as-force-multiplier`](synthesis/patterns/principal-ic-as-force-multiplier.md) — Principal/staff IC as force-multiplier archetype (4 ops) [Tier A]
 - [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
 - [`pat_rapport-surfaces-what-research-cannot`](synthesis/patterns/rapport-surfaces-what-research-cannot.md) — Rapport surfaces what research cannot (3 ops) [Tier A]
 - [`pat_research-preview-cadence`](synthesis/patterns/research-preview-and-cadence.md) — Research preview, frontier programs, seasons not roadmaps (3 ops) [Tier B]
+- [`pat_saas-growth-trifecta-collapse`](synthesis/patterns/saas-growth-trifecta-collapse.md) — The 2018 SaaS Playbook Is Breaking Across All Three Levers (3 ops) [Tier A]
 - [`pat_sales-as-engineered-system-not-art`](synthesis/patterns/sales-as-engineered-system-not-art.md) — Sales is an engineered system, not individual art (15 ops) [Tier A]
 - [`pat_specific-knowledge-and-circle-of-competence`](synthesis/patterns/specific-knowledge-and-circle-of-competence.md) — Specific knowledge × circle of competence: the moat is the boundary (3 ops) [Tier A]
 - [`pat_specificity-becomes-profitable`](synthesis/patterns/specificity-becomes-profitable.md) — Specificity becomes profitable, long tail, niche, segment-aware pricing (3 ops) [Tier B]
