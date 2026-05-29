@@ -3,7 +3,7 @@ name: Shruti Kapoor
 slug: shruti-kapoor
 roles:
   - Founder Coach, The Momentum Studio
-  - Ex-Founder/CEO, Wingman (YC S19) — acquired by Clari
+  - Ex-Founder/CEO, Wingman (YC S19), acquired by Clari
   - Ex-Head of International Business, Clari
 domains_active: [founder-craft, leadership, sales, customer-success]
 captured_first: 2026-05-02

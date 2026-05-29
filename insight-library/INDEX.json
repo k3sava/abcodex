@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T19:04:42.180Z",
+  "generated_at": "2026-05-29T19:08:33.412Z",
   "counts": {
     "insights": 845,
     "operators": 469,
@@ -26421,7 +26421,7 @@
         "leadership"
       ],
       "captured_first": "2026-05-02",
-      "note": "operator: Gartner — individual analysts attributed in operator_role per card",
+      "note": "operator: Gartner. Individual analysts attributed in operator_role per card",
       "external": {
         "website": "https://www.gartner.com/"
       },
@@ -30671,7 +30671,7 @@
       "slug": "shruti-kapoor",
       "roles": [
         "Founder Coach, The Momentum Studio",
-        "Ex-Founder/CEO, Wingman (YC S19) — acquired by Clari",
+        "Ex-Founder/CEO, Wingman (YC S19), acquired by Clari",
         "Ex-Head of International Business, Clari"
       ],
       "domains_active": [
