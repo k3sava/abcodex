@@ -1418,7 +1418,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Plan a campaign across channels, calendar, webinars, and nurture](playbooks/launch/campaign-strategy.md)
 - [Run a tiered launch that matches effort to impact](playbooks/launch/launch-plan.md)
 - [Measurement framework playbook](playbooks/measurement/measurement-framework.md)
-- [Messaging matrix playbook](playbooks/messaging/messaging-matrix.md)
+- [Messaging matrix and homepage rollout](playbooks/messaging/messaging-matrix.md)
 - [Coach PMM work through iterative review that retains feedback](playbooks/messaging/pmm-coaching-framework.md)
 - [Compose a narrative from master story to message house to pillar copy](playbooks/narrative/narrative-compose.md)
 - [Build a positioning document from customer evidence to live validation](playbooks/positioning/positioning-document.md)

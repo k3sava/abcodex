@@ -288,7 +288,7 @@ Before declaring positioning done, sit in 3–5 first-meeting discovery calls. N
 
 Those moments are where the positioning broke. Fix them. Then test again.
 
-> "A live sales pitch is the best way for B2B companies to test their positioning… sales is a back-and-forth with a prospect; sales can and should be asking questions, looking for feedback, and handling objections. Marketing doesn't fully understand the sales team's needs when it comes to a narrative."
+> "A live sales pitch is the best way for B2B companies to test their positioning… sales is a back-and-forth with a prospect; sales can and should be asking questions, looking for feedback, and handling objections. Marketing doesn't fully understand the sales team's needs when it comes to a narrative, and marketing stories don't fully serve what a salesperson needs to do in a first-call pitch."
 > · April Dunford, Sales-First Storytelling, 2024
 > `ins_test-positioning-in-live-sales-pitch`
 

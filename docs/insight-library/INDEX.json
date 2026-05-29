@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:01:16.099Z",
+  "generated_at": "2026-05-29T18:12:00.652Z",
   "counts": {
     "insights": 845,
     "operators": 469,
@@ -36655,23 +36655,48 @@
       "title": "Define an ICP from firmographics, triggers, and macro trends",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "icp",
         "jtbd",
         "gtm"
       ],
       "uses_cards": [
+        "ins_icp-account-not-persona",
         "ins_jtbd-interviews-surface-customer-language",
+        "ins_fish-where-the-fish-are",
+        "ins_five-animals-of-saas",
+        "ins_disha-thakkar-competitive-displacement-readiness-signals",
+        "ins_kesava-mandiga-repositioning-commits-to-one-buyer",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_doshi-truth-one-level-down",
+        "ins_starving-crowd-beats-offer",
+        "ins_obaid-durrani-realm-of-relevancy-doc",
         "ins_marginal-user-methodology",
-        "ins_marketplace-liquidity-before-dynamics"
+        "ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_market-and-offer-beat-funnel-optimisation",
+        "pat_status-quo-is-the-competitor",
+        "pat_buyer-mindset-not-product-features"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
-        "bob-moesta"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/icp-definition.md",
-        "team-brain/workflows/vpc-methodology.md",
-        "flywheel/skills/icp-cut/SKILL.md"
+        "tk-kader",
+        "bob-moesta",
+        "andrew-wilkinson",
+        "christoph-janz",
+        "disha-thakkar",
+        "kesava-mandiga",
+        "april-dunford",
+        "shreyas-doshi",
+        "alex-hormozi",
+        "obaid-durrani",
+        "adriel-frederick",
+        "ashley-bass"
       ]
     },
     {
@@ -36753,7 +36778,7 @@
     {
       "path": "playbooks/messaging/messaging-matrix.md",
       "id": "pb_messaging-matrix",
-      "title": "Messaging matrix playbook",
+      "title": "Messaging matrix and homepage rollout",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
@@ -36763,21 +36788,46 @@
         "gtm"
       ],
       "uses_cards": [
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_ask-revenue-impact-how-much",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_setup-follow-through-pitch",
+        "ins_position-against-real-not-ghost-competitors",
+        "ins_kesava-mandiga-repositioning-commits-to-one-buyer",
+        "ins_b2b-buyer-emotion-personal-stakes",
         "ins_homepage-five-second-trinity",
         "ins_pain-solution-proof-interleaved-pitch",
-        "ins_setup-follow-through-pitch",
+        "ins_content-as-social-currency",
+        "ins_messaging-equation-personalization-tiers",
         "ins_company-story-is-the-strategy",
-        "ins_jtbd-interviews-surface-customer-language",
-        "ins_market-to-product-product-to-market",
-        "ins_no-decision-is-the-real-competitor"
+        "ins_sameness-perception-is-the-differentiation-barrier",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_market-to-product-product-to-market"
+      ],
+      "uses_patterns": [
+        "pat_buyer-mindset-not-product-features",
+        "pat_status-quo-is-the-competitor",
+        "pat_make-implicit-explicit",
+        "pat_narrative-as-strategy",
+        "pat_differentiation-vs-sameness",
+        "pat_frontline-as-pmm-substrate"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
+        "april-dunford",
         "anthony-pierri",
         "bob-moesta",
-        "april-dunford",
         "andy-raskin",
         "mihika-kapoor",
-        "martina-lauchengco"
+        "martina-lauchengco",
+        "kesava-mandiga",
+        "dave-gerhardt",
+        "john-barrows",
+        "richard-king",
+        "tommy-walker",
+        "gartner"
       ]
     },
     {
