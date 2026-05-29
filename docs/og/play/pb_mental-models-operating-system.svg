@@ -18,8 +18,9 @@
   <text x="80" y="170" font-family="JetBrains Mono, monospace" font-size="16" fill="#5a6757" letter-spacing="2">METHODOLOGY PLAYBOOK</text>
   
   <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">The Mental Models Operating</text>
-  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">System</text>
-  <text x="80" y="416" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">12 insights · 0 operators</text>
-  
+  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">System: Kahneman&apos;s biases meet</text>
+  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Munger&apos;s latticework</text>
+  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">18 insights · 6 operators</text>
+  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">decision-quality · strategy · pmm</text>
   <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">abcodex.iamkesava.com</text>
 </svg>

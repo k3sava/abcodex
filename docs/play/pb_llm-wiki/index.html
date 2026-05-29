@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Build a persistent knowledge base your AI agents can actually use · a builder's codex</title>
-<meta name="description" content="Build a persistent knowledge base your AI agents can actually use: A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy&#39;s LLM wiki pattern ">
+<meta name="description" content="Build a persistent knowledge base your AI agents can actually use: A wiki the agent reads at session start and writes back to as it learns. The quality bar is one test: does the agent answer the same question the same way ">
 <link rel="canonical" href="https://abcodex.iamkesava.com/play/pb_llm-wiki/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Build a persistent knowledge base your AI agents can actually use · a builder's codex">
-<meta property="og:description" content="Build a persistent knowledge base your AI agents can actually use: A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy&#39;s LLM wiki pattern ">
+<meta property="og:description" content="Build a persistent knowledge base your AI agents can actually use: A wiki the agent reads at session start and writes back to as it learns. The quality bar is one test: does the agent answer the same question the same way ">
 <meta property="og:url" content="https://abcodex.iamkesava.com/play/pb_llm-wiki/">
 <meta property="og:image" content="https://abcodex.iamkesava.com/og/play/pb_llm-wiki.png">
 <meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Build a persistent knowledge base your AI agents can actually use · a builder's codex">
-<meta name="twitter:description" content="Build a persistent knowledge base your AI agents can actually use: A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy&#39;s LLM wiki pattern ">
+<meta name="twitter:description" content="Build a persistent knowledge base your AI agents can actually use: A wiki the agent reads at session start and writes back to as it learns. The quality bar is one test: does the agent answer the same question the same way ">
 <meta name="twitter:image" content="https://abcodex.iamkesava.com/og/play/pb_llm-wiki.png">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
 <link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
@@ -173,7 +173,7 @@ main.static pre code{background:transparent;padding:0}
 }
 @media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:182px}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Build a persistent knowledge base your AI agents can actually use","description":"A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy's LLM wiki pattern (). The wiki is the brain. The agent is the programmer. Markdown editor is the IDE. Why: AI agents lose context between sessions. Memory files help but are shallow (key-value recall). A wiki is deeper, it synthesizes, cross-references, and evolv","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/","step":[{"@type":"HowToStep","position":1,"name":"Three layers","text":"1. **Raw sources (`raw/`).** Immutable, append-only. LinkedIn posts, articles, podcasts, screenshots, recruiter emails. One file per artifact. Attribution in frontmatter. Never edited after creation. - `raw/articles/`, blog posts, essays, gists - `raw/linkedin-posts/` - `raw/podcasts/`, transcripts, chapter notes","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#three-layers"},{"@type":"HowToStep","position":2,"name":"Four operations","text":"1. **INGEST.** Source → `raw/{subdir}/{slug}.md` with frontmatter → stub a wiki page if warranted → append to `log.md`. 2. **QUERY.** Read `index.md` (catalog) → read 1–3 relevant pages → extract, cite paths. If the answer isn't there, say so. Do not fabricate. 3. **LINT.** Walk every page. Check for orphans, contradictions, stale claims, missing pages, naming drift, schema violations, index misma","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#four-operations"},{"@type":"HowToStep","position":3,"name":"Setup","text":"1. **Directory.** `wiki/` with `CLAUDE.md`, `system-prompt.md`, `index.md`, `log.md`, `README.md`, plus `raw/`, `projects/`, `concepts/`, `decisions/`, `people/`, `companies/`, `tools/`, `lint/`. 2. **Schema (`CLAUDE.md`).** Page frontmatter format, four operations, domain-specific rules (anti-fab, voice, confidentiality), integration points, change protocol. 3. **Agent distillation (`system-promp","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#setup"},{"@type":"HowToStep","position":4,"name":"Greppable log format","text":"```","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#greppable-log-format"},{"@type":"HowToStep","position":5,"name":"YYYY-MM-DD","text":"- [harness] kind | subject — short description ``` Harness = which agent/tool wrote this. Kind ∈ {ingest, query, lint, decision, ship, correction, upgrade, debrief, observation}. Subject = short noun phrase matching a wiki page name. Enables: `grep \"[harness]\" log.md`, `grep \"| decision |\" log.md`.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#yyyy-mm-dd"},{"@type":"HowToStep","position":6,"name":"Page frontmatter","text":"```yaml title: type: person | company | project | concept | decision | tool | raw status: active | paused | archived | stub","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#page-frontmatter"},{"@type":"HowToStep","position":7,"name":"Anti-fabrication rules","text":"- Every claim traces to `raw/`, memory, code, or the operator's own words. - If a claim does not trace, write \"unverified\" and stop. - Tag metrics with attribution tier (verified / self-reported / contextual / indirect / direct). - Don't re-read pages already read this session. Grep before bulk reads.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#anti-fabrication-rules"},{"@type":"HowToStep","position":8,"name":"Common failure modes","text":"- Treating raw/ as editable. Raw is append-only. - Index.md balloons past 200 lines. - Lint passes that fix nothing, file findings, fix high-impact, document low-impact. - \"Just in case\" bulk reads burning context.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#common-failure-modes"},{"@type":"HowToStep","position":9,"name":"Integration points","text":"- LLM agents (Claude Code, codex, cursor) load schema + index at session start. - Personal memory (short, dense) links to wiki, do not duplicate. - Web/API layer can serve wiki via routes for cross-machine access. - Any link the agent encounters can be ingested into raw/ and stubbed in synthesis.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#integration-points"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Build a persistent knowledge base your AI agents can actually use","item":"https://abcodex.iamkesava.com/play/pb_llm-wiki/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/","name":"An LLM should maintain a wiki, not re-derive knowledge per query"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/","name":"When the agent isn't doing what you want, fix the context, not the model"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/","name":"LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#webpage","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/","name":"Build a persistent knowledge base your AI agents can actually use","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Build a persistent knowledge base your AI agents can actually use","description":"A wiki the agent reads at session start and writes back to as it learns. The quality bar is one test: does the agent answer the same question the same way across days, without re-deriving the answer from scratch each time? When the answer is yes, the wiki is the brain, the agent is the programmer, and the markdown editor is the IDE. When the answer is no, you have a folder of stale files nobody re","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/","step":[{"@type":"HowToStep","position":1,"name":"Diagnose the failure as a context gap before you touch the model.","text":"When the agent isn't doing what you want, the first investigation is the context, not the prompt and not the model.  Frontier models reason well in general. They fail on specifics they were never told: how this codebase is organized, what the team's conventions are, which approaches a past decision already ruled out. Each missing piece produces one wrong answer. The shift this forces is from prompt engineering, which is volatile, to context engineering, which is durable.  Standing up the tool ta","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-01"},{"@type":"HowToStep","position":2,"name":"Reject the ask-answer-forget loop. The knowledge base is the alternative.","text":"The default way people use AI is a cold start every time: ask, get an answer, forget it, ask again tomorrow.  That loop rebuilds the same synthesis over and over and resolves the same contradictions over and over, because none of it ever lands anywhere durable. The knowledge base inverts the loop. The agent writes a synthesis page once, links it to the raw sources, lints it for contradictions, and on the next session reads the page instead of re-grounding from scratch.  This is the Karpathy LLM-","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-02"},{"@type":"HowToStep","position":3,"name":"Build it in three layers so synthesis and source never collide.","text":"The structure is what keeps the base from rotting. Three layers, each with one job. Raw is the source of truth and stays untouched. Synthesis is compression plus cross-reference, not transcription. A synthesis page that mirrors its raw source verbatim is doing no work. The whole point of the layer is that the agent skims the synthesis when it needs the gist and drops to the raw file when it needs the exact words.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-03"},{"@type":"HowToStep","position":4,"name":"Define four operations the agent runs against the base.","text":"Name the operations explicitly in the constitution so the agent has a fixed verb for each kind of work. 1. INGEST. Source becomes  with frontmatter, then stub a synthesis page if warranted, then append a log entry. 2. QUERY. Read the index catalog, read one to three relevant pages, extract and cite paths. If the answer is not in the base, say so. Do not fabricate.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-04"},{"@type":"HowToStep","position":5,"name":"Write everything down. Treat the substrate as the work, not a record of it.","text":"The discipline that makes the base trustworthy is refusing to trust working memory for anything that matters. Files first, never vibes. Every interview, every competitive datapoint, every claim you might one day put in a deck goes into a file with a category, a date, and a source, so synthesis becomes a query, not a recollection. The substrate is the work.  This is the same move Tiago Forte calls a Second Brain: the brain is for having ideas, the system is for storing them, and AI compounds the ","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-05"},{"@type":"HowToStep","position":6,"name":"Make the context rich and specific, not thin and generic.","text":"Depth of context, not sophistication of the agent, is the deciding factor. A simple agent reading dense, domain-specific material beats a complex agent reading boilerplate every time.  Generic context gets generic output. Worse, a sophisticated agent over thin context produces confidently wrong results, because the chain amplifies whatever the thin context implied. The gap is measurable. Among 200 GTM operators surveyed, 93% of advanced users had detailed company context built into their workflo","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-06"},{"@type":"HowToStep","position":7,"name":"Give each context document a named owner.","text":"A document with no owner decays. Products change, competitors move, ICP shifts, and an unmaintained doc goes trust-negative within a quarter. Ownership turns the artifact into living substrate, and a well-built document then powers many workflows at near-zero marginal cost.  One ICP doc, one positioning doc, one competitive map can feed outbound email, competitive analysis, and launch scripts.  The economics only compound when each document has someone accountable to a refresh cadence. Add an ow","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-07"},{"@type":"HowToStep","position":8,"name":"Run lint on a cadence. Without it the base rots into a write-only pile.","text":"The wiki pattern works only when the operator commits to lint passes.  Without lint the base becomes write-only, and a write-only base degrades agent quality instead of improving it. Encoded misinformation is worse than no encoding.  A lint pass walks every page and checks for orphans, contradictions, stale claims, missing pages, naming drift, schema violations, and index mismatches. The output is a findings file. Fix the high-impact items in place. Document the low-impact ones and move on. A li","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-08"},{"@type":"HowToStep","position":9,"name":"Close the feedback loop. A log of what happened is not a system that learns.","text":"Capturing what the agent did is logging. Learning needs a signal of whether what it did was good, bound to the specific record.  A trace alone teaches nothing. The operational move is to mine session transcripts for patterns worth keeping, then promote those patterns back into the base, into pages, conventions, the constitution, so the next session inherits what the last one figured out.  Promotion is a reviewable, reversible edit, not a one-off tweak that gets forgotten on the next change.","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-09"},{"@type":"HowToStep","position":10,"name":"Keep a human on verification. The base produces drafts; you decide what is true.","text":"Across PMM, evals, frameworks, and research, operators converge on one role split: the substrate runs the inner loop of execution and retrieval, and humans run the outer loop of alignment and taste.  The human is not a reviewer in every step. The human owns the call about whether a synthesized page is right in this specific context. This maps directly onto the anti-fabrication rule the base must enforce: every claim traces to a raw source, code, memory, or the operator's own words.  If a claim d","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-10"},{"@type":"HowToStep","position":11,"name":"Wire the base into every session and keep it portable.","text":"The base only helps if the agent reads it before working. Import the schema and the index into your agent's startup context so they expand inline at session start, without burning tokens on the full constitution every time. A compressed agent-facing distillation, roughly 50 to 80 lines, is what gets imported. The full constitution stays on disk for lint passes and rule changes. Keep the base in plain markdown the agent owns, not locked inside one vendor's harness. Frontier labs are training nati","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#step-11"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Build a persistent knowledge base your AI agents can actually use","item":"https://abcodex.iamkesava.com/play/pb_llm-wiki/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/","name":"An LLM should maintain a wiki, not re-derive knowledge per query"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/","name":"When the agent isn't doing what you want, fix the context, not the model"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/","name":"LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_context-engineering-beats-prompt-engineering/","name":"Context engineering beats prompt engineering for marketing AI workflows"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_context-docs-as-battery-packs/","name":"Context documents are reusable battery packs that need named owners"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_poyar-voje-context-engineering-gap/","name":"Among 200 GTM operators surveyed, detailed company context adoption separates systemic AI builders from task runners by 21 percentage points."},{"@type":"ListItem","position":7,"url":"https://abcodex.iamkesava.com/ins/ins_rich-context-beats-sophisticated-agents/","name":"Simple agents reading rich, specific context outperform complex agents reading thin context"},{"@type":"ListItem","position":8,"url":"https://abcodex.iamkesava.com/ins/ins_second-brain-para/","name":"Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_llm-wiki/#webpage","url":"https://abcodex.iamkesava.com/play/pb_llm-wiki/","name":"Build a persistent knowledge base your AI agents can actually use","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -188,9 +188,19 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static" id="main" tabindex="-1">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Build a persistent knowledge base your AI agents can actually use</div><h1>Build a persistent knowledge base your AI agents can actually use</h1><p>A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy's LLM wiki pattern (<a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">An LLM should maintain a wiki, not re-derive knowledge per query</a>). The wiki is the brain. The agent is the programmer. Markdown editor is the IDE.</p>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Build a persistent knowledge base your AI agents can actually use</div><h1>Build a persistent knowledge base your AI agents can actually use</h1><p>A wiki the agent reads at session start and writes back to as it learns. The quality bar is one test: does the agent answer the same question the same way across days, without re-deriving the answer from scratch each time? When the answer is yes, the wiki is the brain, the agent is the programmer, and the markdown editor is the IDE. When the answer is no, you have a folder of stale files nobody reads.</p>
 
-<p>Why: AI agents lose context between sessions. Memory files help but are shallow (key-value recall). A wiki is deeper, it synthesizes, cross-references, and evolves. The agent reads the wiki at session start, works with compressed context instead of re-deriving state, and writes back what it learns. This addresses <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/">When the agent isn&#39;t doing what you want, fix the context, not the model</a>: when the agent isn't doing what you want, fix the context.</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/" title="An LLM should maintain a wiki, not re-derive knowledge per query">Andrej Karpathy · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/" title="When the agent isn&#39;t doing what you want, fix the context, not the model">Sherwin Wu · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/" title="LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores">Mark Petty · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#three-layers">Three layers</a></li><li><a href="#four-operations">Four operations</a></li><li><a href="#setup">Setup</a></li><li><a href="#greppable-log-format">Greppable log format</a></li><li><a href="#yyyy-mm-dd">YYYY-MM-DD</a></li><li><a href="#page-frontmatter">Page frontmatter</a></li><li><a href="#anti-fabrication-rules">Anti-fabrication rules</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#integration-points">Integration points</a></li></ol></nav><article><div class="pbv" data-observe aria-label="LLM wiki — four operations">
+<p>Most teams reach for the wrong fix. When an agent gives a bad answer, they swap the model or rewrite the prompt. Four operators from separate lanes converge on a different diagnosis: the bottleneck is context, not capability. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_context-not-capability/">Context, not capability, is the bottleneck</a> The agent is not under-powered. It is under-informed. A persistent knowledge base is how you fix that once instead of every session.</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/" title="An LLM should maintain a wiki, not re-derive knowledge per query">Andrej Karpathy · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/" title="When the agent isn&#39;t doing what you want, fix the context, not the model">Sherwin Wu · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/" title="LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores">Mark Petty · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_context-engineering-beats-prompt-engineering/" title="Context engineering beats prompt engineering for marketing AI workflows">Aatir Abdul Rauf · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_poyar-voje-context-engineering-gap/" title="Among 200 GTM operators surveyed, detailed company context adoption separates systemic AI builders from task runners by 21 percentage points.">Kyle Poyar · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_rich-context-beats-sophisticated-agents/" title="Simple agents reading rich, specific context outperform complex agents reading thin context">Maja Voje · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_second-brain-para/" title="Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you">Tiago Forte · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li><li><a href="#two-shapes-one-base">Two shapes, one base</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
+
+<ul>
+<li>Agents lose context between sessions and you keep re-explaining the same facts, conventions, or past decisions.</li>
+<li>Output quality is inconsistent: the same prompt gives on-brand work one day and generic slop the next.</li>
+<li>Tribal knowledge lives in Slack threads, deal notes, and one person's head, and the agent cannot reach any of it.</li>
+<li>You run more than one AI workflow that consumes the same kind of context (ICP, positioning, competitive map, voice rules).</li>
+<li>You are about to scale agent use across a team and need new people, and new agents, to onboard the same way.</li>
+</ul>
+
+<h2 id="how-to-use">How to use</h2><div class="pbv" data-observe aria-label="LLM wiki — four operations">
   <span class="pbv-eyebrow">Annotated framework · four operations</span>
   <p class="pbv-vis-title">The LLM Wiki</p>
 
@@ -241,86 +251,189 @@ main.static pre code{background:transparent;padding:0}
     <span>Channels: Andrej Karpathy · Kesava Mandiga</span>
     <span>abcodex</span>
   </div>
-</div><h2 id="three-layers">Three layers</h2>
+</div>
+
+<div class="pb-step"><h3 id="step-01"><span class='step-num-badge'>01</span> Diagnose the failure as a context gap before you touch the model.</h3>
+
+<p>When the agent isn't doing what you want, the first investigation is the context, not the prompt and not the model. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_context-not-capability/">Context, not capability, is the bottleneck</a> Frontier models reason well in general. They fail on specifics they were never told: how this codebase is organized, what the team's conventions are, which approaches a past decision already ruled out. Each missing piece produces one wrong answer.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"When the agent isn't doing what you want, it's usually a problem with context — you've underspecified or there's just not enough information available."</p>
+<p class="pb-quote-attr">· Sherwin Wu, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/">“When the agent isn&#39;t…”</a></p>
+</blockquote>
+<p>The shift this forces is from prompt engineering, which is volatile, to context engineering, which is durable. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_context-engineering-beats-prompt-engineering/">Context engineering beats prompt engineering for marketing AI workflows</a> Standing up the tool takes a week. Making it work well takes a quarter and a half, and that work is almost entirely about the context substrate, not the prompts.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"The initial setup took maybe a week or so. But getting it actually to work well? That took a quarter and a half. Two full-time people reviewed every output, every single day. We kept finding gaps in the training documents."</p>
+<p class="pb-quote-attr">· Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date) · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_context-engineering-beats-prompt-engineering/">“Context engineering beats prompt…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-02"><span class='step-num-badge'>02</span> Reject the ask-answer-forget loop. The knowledge base is the alternative.</h3>
+
+<p>The default way people use AI is a cold start every time: ask, get an answer, forget it, ask again tomorrow. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_most-people-still-using-like/">Most people are still using AI like this: ask → answer → forget</a> That loop rebuilds the same synthesis over and over and resolves the same contradictions over and over, because none of it ever lands anywhere durable.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Most people are still using AI like this: ask → answer → forget."</p>
+<p class="pb-quote-attr">· Alok Yadav, LinkedIn, 2026-04-10 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_most-people-still-using-like/">“Most people are still…”</a></p>
+</blockquote>
+<p>The knowledge base inverts the loop. The agent writes a synthesis page once, links it to the raw sources, lints it for contradictions, and on the next session reads the page instead of re-grounding from scratch. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">An LLM should maintain a wiki, not re-derive knowledge per query</a> This is the Karpathy LLM-wiki pattern: replace stateless retrieve-and-forget with a persistent wiki the agent owns and edits.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Traditional RAG rediscovers knowledge repeatedly rather than accumulating it. The LLM builds and maintains a persistent wiki instead of just retrieving documents. Knowledge compiles once and stays current, not re-derived per query."</p>
+<p class="pb-quote-attr">· Andrej Karpathy, LLM Wiki gist, 2026-04 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">“An LLM should maintain…”</a></p>
+</blockquote>
+<p>The deeper reason to build this now: the LLM platform is becoming the surface through which work gets done, and durable, agent-readable context is the thing that survives that shift. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/">LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"The LLM platform is the new OS. Domain-specific agents are the new apps. MCP registries are the new app stores."</p>
+<p class="pb-quote-attr">· Mark Petty, Gartner (G00828648), 2026-02-27 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llms-are-new-os-agents-are-apps/">“LLM platform is the…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-03"><span class='step-num-badge'>03</span> Build it in three layers so synthesis and source never collide.</h3>
+
+<p>The structure is what keeps the base from rotting. Three layers, each with one job.</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Layer</th><th>What lives here</th><th>Edit rule</th></tr></thead><tbody><tr><td>Raw sources (<code>raw/</code>)</td><td>LinkedIn posts, articles, podcast transcripts, screenshots, recruiter emails. One file per artifact, attribution in frontmatter.</td><td>Append-only. Never edited after creation.</td></tr><tr><td>Synthesis (everything else)</td><td>Projects, people, companies, concepts, decisions, tools. One live page per subject. Stubs are fine. "Unknown" is a legal value.</td><td>Agent-owned. Re-edited as reality changes.</td></tr><tr><td>Schema (<code>CLAUDE.md</code> constitution)</td><td>Page frontmatter, the operations, the domain rules (anti-fabrication, voice, confidentiality).</td><td>Small, stable, rarely edited. Every agent reads it first.</td></tr></tbody></table></div>
+
+<p>Raw is the source of truth and stays untouched. Synthesis is compression plus cross-reference, not transcription. A synthesis page that mirrors its raw source verbatim is doing no work. The whole point of the layer is that the agent skims the synthesis when it needs the gist and drops to the raw file when it needs the exact words.</p>
+
+</div><div class="pb-step"><h3 id="step-04"><span class='step-num-badge'>04</span> Define four operations the agent runs against the base.</h3>
+
+<p>Name the operations explicitly in the constitution so the agent has a fixed verb for each kind of work.</p>
 
 <ol>
-<li><strong>Raw sources (<code>raw/</code>).</strong> Immutable, append-only. LinkedIn posts, articles, podcasts, screenshots, recruiter emails. One file per artifact. Attribution in frontmatter. Never edited after creation.</li>
-<p> - <code>raw/articles/</code>, blog posts, essays, gists</p>
-<p> - <code>raw/linkedin-posts/</code></p>
-<p> - <code>raw/podcasts/</code>, transcripts, chapter notes</p>
-<p> - <code>raw/assets/</code>, images, screenshots, PDFs</p>
-<li><strong>Synthesis wiki (everything else).</strong> Agent-maintained. Projects, people, companies, concepts, decisions, tools. Each page is live. Stubs are fine. "Unknown" is a legal value.</li>
-<li><strong>Schema (<code>CLAUDE.md</code> constitution).</strong> Small, stable, rarely edited. Defines page frontmatter, operations, rules. Every agent reads this first.</li>
+<li><strong>INGEST.</strong> Source becomes <code>raw/{subdir}/{slug}.md</code> with frontmatter, then stub a synthesis page if warranted, then append a log entry.</li>
+<li><strong>QUERY.</strong> Read the index catalog, read one to three relevant pages, extract and cite paths. If the answer is not in the base, say so. Do not fabricate.</li>
+<li><strong>LINT.</strong> Walk every page for orphans, contradictions, stale claims, missing pages, naming drift, schema violations, index mismatches. Fix high-impact in place, leave low-impact documented.</li>
+<li><strong>INDEX plus LOG.</strong> The index is the content catalog, one line per page, kept under 200 lines. The log is the chronological append-only timeline.</li>
 </ol>
 
-<h2 id="four-operations">Four operations</h2>
+</div><div class="pb-step"><h3 id="step-05"><span class='step-num-badge'>05</span> Write everything down. Treat the substrate as the work, not a record of it.</h3>
+
+<p>The discipline that makes the base trustworthy is refusing to trust working memory for anything that matters. Files first, never vibes. Every interview, every competitive datapoint, every claim you might one day put in a deck goes into a file with a category, a date, and a source, so synthesis becomes a query, not a recollection. The substrate is the work. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_kesava-mandiga-substrate-driven-intelligence/">Files first, vibes never. The substrate IS the work.</a></p>
+
+<p>This is the same move Tiago Forte calls a Second Brain: the brain is for having ideas, the system is for storing them, and AI compounds the stored layer on demand. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_second-brain-para/">Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Our brains are for having ideas, not storing them — an external, organized knowledge system compounds over time and becomes the foundation for creative output, especially when AI can now search, synthesize, and surface that knowledge on demand."</p>
+<p class="pb-quote-attr">· Tiago Forte, Building a Second Brain · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_second-brain-para/">“Brains are for having…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-06"><span class='step-num-badge'>06</span> Make the context rich and specific, not thin and generic.</h3>
+
+<p>Depth of context, not sophistication of the agent, is the deciding factor. A simple agent reading dense, domain-specific material beats a complex agent reading boilerplate every time. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_rich-context-beats-sophisticated-agents/">Simple agents reading rich, specific context outperform complex agents reading thin context</a> Generic context gets generic output. Worse, a sophisticated agent over thin context produces confidently wrong results, because the chain amplifies whatever the thin context implied.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Simple agents reading rich, specific context will outperform complex agents reading thin context every time."</p>
+<p class="pb-quote-attr">· Maja Voje + Benjamin Gibert, GTM Strategist, 2026-05-01 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_rich-context-beats-sophisticated-agents/">“Simple agents reading rich,…”</a></p>
+</blockquote>
+<p>The gap is measurable. Among 200 GTM operators surveyed, 93% of advanced users had detailed company context built into their workflow as a foundation, versus 72% of task runners, a 21-point gap that separates teams reporting previously impossible work from teams running one-off prompts. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_poyar-voje-context-engineering-gap/">Among 200 GTM operators surveyed, detailed company context adoption separates systemic AI builders from task runners by 21 percentage points.</a> The first pull request on a new agent should be a context bundle, not a prompt.</p>
+
+</div><div class="pb-step"><h3 id="step-07"><span class='step-num-badge'>07</span> Give each context document a named owner.</h3>
+
+<p>A document with no owner decays. Products change, competitors move, ICP shifts, and an unmaintained doc goes trust-negative within a quarter. Ownership turns the artifact into living substrate, and a well-built document then powers many workflows at near-zero marginal cost. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_context-docs-as-battery-packs/">Context documents are reusable battery packs that need named owners</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Context documents need clear owners. Someone has to maintain, update, and ensure they're accurate. And since they are reusable, those context documents act like battery packs that can power multiple AI and agentic workflows."</p>
+<p class="pb-quote-attr">· Aatir Abdul Rauf, LinkedIn, 2026-04-10 (scrape date) · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_context-docs-as-battery-packs/">“Context documents are reusable…”</a></p>
+</blockquote>
+<p>One ICP doc, one positioning doc, one competitive map can feed outbound email, competitive analysis, and launch scripts. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_poyar-voje-context-engineering-gap/">Among 200 GTM operators surveyed, detailed company context adoption separates systemic AI builders from task runners by 21 percentage points.</a> The economics only compound when each document has someone accountable to a refresh cadence. Add an owner column to the index.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"The top GTM AI tool stack in 2026 is Claude + CRM + orchestration. These tools are not competing. They are combining."</p>
+<p class="pb-quote-attr">· Kyle Poyar, Claude for GTM Pulse Report 2026 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_poyar-voje-context-engineering-gap/">“Among 200 GTM operators…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-08"><span class='step-num-badge'>08</span> Run lint on a cadence. Without it the base rots into a write-only pile.</h3>
+
+<p>The wiki pattern works only when the operator commits to lint passes. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">An LLM should maintain a wiki, not re-derive knowledge per query</a> Without lint the base becomes write-only, and a write-only base degrades agent quality instead of improving it. Encoded misinformation is worse than no encoding. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_bottleneck-is-context-not-capability/">When the agent isn&#39;t doing what you want, fix the context, not the model</a></p>
+
+<p>A lint pass walks every page and checks for orphans, contradictions, stale claims, missing pages, naming drift, schema violations, and index mismatches. The output is a findings file. Fix the high-impact items in place. Document the low-impact ones and move on. A lint pass that fixes nothing and files no findings is theater. Watch the trend: lint reports should show declining drift over time, not growing.</p>
+
+</div><div class="pb-step"><h3 id="step-09"><span class='step-num-badge'>09</span> Close the feedback loop. A log of what happened is not a system that learns.</h3>
+
+<p>Capturing what the agent did is logging. Learning needs a signal of whether what it did was good, bound to the specific record. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_traces-need-feedback-to-learn/">A trace alone teaches nothing; learning requires feedback attached to the trace</a> A trace alone teaches nothing.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"A trace tells you what happened. It does not, by itself, tell you whether what happened was good. To learn from traces, you need feedback attached to them."</p>
+<p class="pb-quote-attr">· Harrison Chase, LangChain blog, 2026-05-05 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_traces-need-feedback-to-learn/">“A trace alone teaches…”</a></p>
+</blockquote>
+<p>The operational move is to mine session transcripts for patterns worth keeping, then promote those patterns back into the base, into pages, conventions, the constitution, so the next session inherits what the last one figured out. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_mine-transcripts-to-promote-config/">Close the feedback loop by mining session transcripts for patterns to promote into config</a> Promotion is a reviewable, reversible edit, not a one-off tweak that gets forgotten on the next change.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"Close the feedback loop — mine session transcripts for patterns to promote into config."</p>
+<p class="pb-quote-attr">· Eugene Yan, eugeneyan.com, 2026-05-03 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_mine-transcripts-to-promote-config/">“Close the feedback loop…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-10"><span class='step-num-badge'>10</span> Keep a human on verification. The base produces drafts; you decide what is true.</h3>
+
+<p>Across PMM, evals, frameworks, and research, operators converge on one role split: the substrate runs the inner loop of execution and retrieval, and humans run the outer loop of alignment and taste. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_substrate-runs-loop-humans-run-alignment/">Substrate runs the loop; humans run alignment and taste</a> The human is not a reviewer in every step. The human owns the call about whether a synthesized page is right in this specific context.</p>
+
+<blockquote class="pb-operator-quote">
+<p>"You can outsource your thinking, but you can't outsource your understanding."</p>
+<p class="pb-quote-attr">· Andrej Karpathy, Sequoia AI Ascent 2026 fireside, 2026-04-30 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_judgment-vs-understanding/">“You can outsource thinking,…”</a></p>
+</blockquote>
+<p>This maps directly onto the anti-fabrication rule the base must enforce: every claim traces to a raw source, code, memory, or the operator's own words. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_kesava-mandiga-substrate-driven-intelligence/">Files first, vibes never. The substrate IS the work.</a> If a claim does not trace, the agent writes "unverified" and stops. Verification, not production, is the irreplaceable human job. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></p>
+
+</div><div class="pb-step"><h3 id="step-11"><span class='step-num-badge'>11</span> Wire the base into every session and keep it portable.</h3>
+
+<p>The base only helps if the agent reads it before working. Import the schema and the index into your agent's startup context so they expand inline at session start, without burning tokens on the full constitution every time. A compressed agent-facing distillation, roughly 50 to 80 lines, is what gets imported. The full constitution stays on disk for lint passes and rule changes.</p>
+
+<p>Keep the base in plain markdown the agent owns, not locked inside one vendor's harness. Frontier labs are training native interface preferences directly into model weights, so the more your context lives inside a single harness, the more you pay when the model or the tool changes. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_breunig-harness-lock-in-model-layer/">Frontier labs are baking native harness preferences into model weights, not layering them on top</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"frontier models will resemble appliances, not general platforms"</p>
+<p class="pb-quote-attr">· Drew Breunig, Overfitting the Harness, 2026-05-10 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_breunig-harness-lock-in-model-layer/">“Frontier labs are baking…”</a></p>
+</blockquote>
+<p>A harness-independent markdown base is the hedge. Any agent, Claude Code, codex, cursor, reads the same files. When the next model lands and eats half your scaffolding, the context survives because it was never welded to the tool. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_build-for-next-model/">Build for the next model, not the current one</a></p>
+
+</div><h2 id="check-your-work">Check your work</h2>
+
+<ul>
+<li>Agent failures get diagnosed against the context base first, not the prompt or the model.</li>
+<li>Raw sources are append-only. No synthesis edits leak into raw files.</li>
+<li>Synthesis pages compress and cross-reference. None mirror their raw source verbatim.</li>
+<li>The index catalog stays under 200 lines, one line per page.</li>
+<li>Every context document has a named owner and a refresh cadence.</li>
+<li>Lint runs on a cadence, files findings, and shows declining drift over time.</li>
+<li>Every claim in a synthesis page traces to a source. Untraceable claims read "unverified."</li>
+<li>The feedback loop is closed: transcript review is a calendar item and promotions are reviewable edits.</li>
+<li>A human verifies generated claims against source before they enter the base.</li>
+<li>The schema and index import into every relevant session automatically.</li>
+</ul>
+
+<h2 id="what-goes-wrong">What goes wrong</h2>
+
+<ul>
+<li><strong>Swapping the model when the answer is bad.</strong> The bottleneck is usually missing context, not capability. Diagnose the context gap first. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_context-not-capability/">Context, not capability, is the bottleneck</a></li>
+<li><strong>Ask-answer-forget.</strong> Using the agent as a chat box that forgets everything by tomorrow. Build the base so synthesis lands somewhere durable. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_most-people-still-using-like/">Most people are still using AI like this: ask → answer → forget</a></li>
+<li><strong>Editing raw sources.</strong> Raw is the source of truth and must stay append-only. Edits there corrupt the trail every synthesis page depends on. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">An LLM should maintain a wiki, not re-derive knowledge per query</a></li>
+<li><strong>Index balloon.</strong> The catalog grows past 200 lines and stops being scannable. Move detail into pages, keep the index to one line each.</li>
+<li><strong>Write-only base.</strong> Skipping lint until the base is a stale pile nobody reads. Lint on a cadence or the wiki rots. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-wiki-pattern/">An LLM should maintain a wiki, not re-derive knowledge per query</a></li>
+<li><strong>Thin context, sophisticated agent.</strong> Adding chain depth and tool calls over generic context. The chain just amplifies the missing signal into confident error. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_rich-context-beats-sophisticated-agents/">Simple agents reading rich, specific context outperform complex agents reading thin context</a></li>
+<li><strong>Unowned context docs.</strong> Collective ownership means nobody updates, and the doc goes trust-negative within a quarter. Name one owner per document. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_context-docs-as-battery-packs/">Context documents are reusable battery packs that need named owners</a></li>
+<li><strong>Logging mistaken for learning.</strong> Capturing traces with no feedback attached. The system accumulates records and improves nothing. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_traces-need-feedback-to-learn/">A trace alone teaches nothing; learning requires feedback attached to the trace</a></li>
+<li><strong>Removing the human from verification.</strong> Letting the base produce claims with no human checking they trace to source. That is how fabrication enters the substrate and compounds. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></li>
+<li><strong>Welding the base to one harness.</strong> Locking context inside a single vendor's tooling. When the model shifts, the detour gets expensive. Keep it portable markdown. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_breunig-harness-lock-in-model-layer/">Frontier labs are baking native harness preferences into model weights, not layering them on top</a></li>
+</ul>
+
+<h2 id="what-you-get">What you get</h2>
 
 <ol>
-<li><strong>INGEST.</strong> Source → <code>raw/{subdir}/{slug}.md</code> with frontmatter → stub a wiki page if warranted → append to <code>log.md</code>.</li>
-<li><strong>QUERY.</strong> Read <code>index.md</code> (catalog) → read 1–3 relevant pages → extract, cite paths. If the answer isn't there, say so. Do not fabricate.</li>
-<li><strong>LINT.</strong> Walk every page. Check for orphans, contradictions, stale claims, missing pages, naming drift, schema violations, index mismatches. Write findings. Fix high-impact in place. Leave low-impact documented.</li>
-<li><strong>INDEX + LOG.</strong> <code>index.md</code> is the content catalog (one line per page, under 200 lines). <code>log.md</code> is the chronological append-only timeline.</li>
+<li>Three-layer base: append-only raw sources, agent-owned synthesis pages, a small stable constitution.</li>
+<li>Four named operations the agent runs: INGEST, QUERY, LINT, INDEX plus LOG.</li>
+<li>An index catalog under 200 lines, one line per page.</li>
+<li>A greppable append-only log of every change, tagged by agent and kind.</li>
+<li>A context-document inventory with a named owner and refresh cadence per entry.</li>
+<li>A lint cadence that files findings and shows drift declining over time.</li>
+<li>A closed feedback loop: transcript review plus reviewable promotions back into the base.</li>
+<li>A session-start import that loads the schema and index into the agent automatically.</li>
+<li>A portable markdown base any harness can read, hedged against model and tool churn.</li>
 </ol>
 
-<h2 id="setup">Setup</h2>
+<h2 id="two-shapes-one-base">Two shapes, one base</h2>
 
-<ol>
-<li><strong>Directory.</strong> <code>wiki/</code> with <code>CLAUDE.md</code>, <code>system-prompt.md</code>, <code>index.md</code>, <code>log.md</code>, <code>README.md</code>, plus <code>raw/</code>, <code>projects/</code>, <code>concepts/</code>, <code>decisions/</code>, <code>people/</code>, <code>companies/</code>, <code>tools/</code>, <code>lint/</code>.</li>
-<li><strong>Schema (<code>CLAUDE.md</code>).</strong> Page frontmatter format, four operations, domain-specific rules (anti-fab, voice, confidentiality), integration points, change protocol.</li>
-<li><strong>Agent distillation (<code>system-prompt.md</code>).</strong> Compressed (~50–80 lines). What gets <code>@</code>-imported into your CLAUDE.md so the agent loads it at session start without burning context on the full constitution.</li>
-<li><strong>Wire into sessions.</strong> Add <code>@/path/to/wiki/system-prompt.md</code> and <code>@/path/to/wiki/index.md</code> to <code>~/CLAUDE.md</code>. These imports expand inline at session start.</li>
-<li><strong>Seed initial pages.</strong> Start with what you reference most. Stubs are fine. The agent fills in as it works.</li>
-<li><strong>Optional: register as Obsidian vault</strong> with attachment folder → <code>raw/assets/</code>, graph color groups by path, backlinks enabled.</li>
-</ol>
+<p>The base feeds two agent patterns, and they read context differently. Name which shape you are building before you scope the context. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/con/con_agents-as-team-vs-tools/">Agents-as-team vs. agents-as-tools</a></p>
 
-<h2 id="greppable-log-format">Greppable log format</h2>
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Shape</th><th>When it fits</th><th>How it reads the base</th></tr></thead><tbody><tr><td>Agents as a team</td><td>Heterogeneous, persistent jobs. Each agent has a standing role and tool scope.</td><td>Each agent reads the slice of the base its role needs, plus the shared constitution.</td></tr><tr><td>Agents as a tool</td><td>Homogeneous, short-lived, goal-bound tasks. Give the goal, stay out.</td><td>The single agent reads the full relevant context at run time, then exits.</td></tr></tbody></table></div>
 
-<pre><code >## YYYY-MM-DD
-
-- [harness] kind | subject — short description</code></pre>
-
-<p>Harness = which agent/tool wrote this. Kind ∈ {ingest, query, lint, decision, ship, correction, upgrade, debrief, observation}. Subject = short noun phrase matching a wiki page name.</p>
-
-<p>Enables: <code>grep "[harness]" log.md</code>, <code>grep "| decision |" log.md</code>.</p>
-
-<h2 id="page-frontmatter">Page frontmatter</h2>
-
-<pre><code class="language-yaml" >title:
-type: person | company | project | concept | decision | tool | raw
-status: active | paused | archived | stub
-last_updated: YYYY-MM-DD
-related: [other-page.md]
-domain: &lt;tags&gt;</code></pre>
-
-<h2 id="anti-fabrication-rules">Anti-fabrication rules</h2>
-
-<ul>
-<li>Every claim traces to <code>raw/</code>, memory, code, or the operator's own words.</li>
-<li>If a claim does not trace, write "unverified" and stop.</li>
-<li>Tag metrics with attribution tier (verified / self-reported / contextual / indirect / direct).</li>
-<li>Don't re-read pages already read this session. Grep before bulk reads.</li>
-</ul>
-
-<h2 id="common-failure-modes">Common failure modes</h2>
-
-<ul>
-<li>Treating raw/ as editable. Raw is append-only.</li>
-<li>Index.md balloons past 200 lines.</li>
-<li>Lint passes that fix nothing, file findings, fix high-impact, document low-impact.</li>
-<li>"Just in case" bulk reads burning context.</li>
-<li>Agent rewriting page sections it did not mean to touch, read before write.</li>
-<li>Synthesis pages mirroring raw/ verbatim. Synthesis is compression + cross-reference, not transcription.</li>
-</ul>
-
-<h2 id="integration-points">Integration points</h2>
-
-<ul>
-<li>LLM agents (Claude Code, codex, cursor) load schema + index at session start.</li>
-<li>Personal memory (short, dense) links to wiki, do not duplicate.</li>
-<li>Web/API layer can serve wiki via routes for cross-machine access.</li>
-<li>Any link the agent encounters can be ingested into raw/ and stubbed in synthesis.</li>
-</ul>
-</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_llm-wiki">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#three-layers">Three layers</a></li><li><a href="#four-operations">Four operations</a></li><li><a href="#setup">Setup</a></li><li><a href="#greppable-log-format">Greppable log format</a></li><li><a href="#yyyy-mm-dd">YYYY-MM-DD</a></li><li><a href="#page-frontmatter">Page frontmatter</a></li><li><a href="#anti-fabrication-rules">Anti-fabrication rules</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#integration-points">Integration points</a></li></ol></nav></aside></div>
+<p>Both shapes converge on the same boundary: the substrate runs the loop, the human runs alignment. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_substrate-runs-loop-humans-run-alignment/">Substrate runs the loop; humans run alignment and taste</a> They diverge only on whether the substrate looks like a team or a tool, and that is decided by how persistent and how varied the agent's job is. The base does not change. Only the read pattern does.</p>
+</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_llm-wiki">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li><li><a href="#two-shapes-one-base">Two shapes, one base</a></li></ol></nav></aside></div>
 </main>
 <script src="/assets/js/pb-visuals.js" defer></script>
 <footer class="static-footer">

@@ -215,7 +215,7 @@ For outbound channels, the relevance equation is the same triage: who they are, 
 
 ### 12. Structure the homepage problem-led, not solution-led.
 
-The homepage follows Pierri's buyer-journey logic:
+The homepage follows Pierri's buyer-decision logic:
 
 | Section | Job | What to include |
 |---------|-----|-----------------|

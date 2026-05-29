@@ -37,7 +37,7 @@ Each pattern has ≥3 operators with cards that genuinely converge. Each contrad
 ## Contradictions (9)
 
 - [build-quietly-vs-distribution-first.md](contradictions/build-quietly-vs-distribution-first.md), Younis vs. Verna/Balfour/Halligan: stage-conditioned.
-- [agents-as-team-vs-agents-as-tools.md](contradictions/agents-as-team-vs-agents-as-tools.md), Vo vs. Cherny: persistence + heterogeneity of agent job decides.
+- [agents-as-team-vs-tools.md](contradictions/agents-as-team-vs-tools.md), Vo vs. Cherny: persistence + heterogeneity of agent job decides.
 - [quality-as-growth-vs-marginal-user-friction-removal.md](contradictions/quality-as-growth-vs-marginal-user-friction-removal.md), Naik/Avasare vs. Frederick: funnel-stage layered rule.
 - [no-decision-vs-named-competitor.md](contradictions/no-decision-vs-named-competitor.md), Dunford vs. Gartner: deal-stage allocation.
 - [post-training-moat-vs-distribution-moat.md](contradictions/post-training-moat-vs-distribution-moat.md), Sharma vs. Spiegel/Balfour/Verna: layer-of-stack dependent.

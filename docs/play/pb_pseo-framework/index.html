@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Build programmatic pages at scale without a helpful-content penalty · a builder's codex</title>
-<meta name="description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO ">
+<meta name="description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO is generating many pages from one template and a variable set. The risk is not scale. The risk is shipping thin pages that fragment author">
 <link rel="canonical" href="https://abcodex.iamkesava.com/play/pb_pseo-framework/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Build programmatic pages at scale without a helpful-content penalty · a builder's codex">
-<meta property="og:description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO ">
+<meta property="og:description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO is generating many pages from one template and a variable set. The risk is not scale. The risk is shipping thin pages that fragment author">
 <meta property="og:url" content="https://abcodex.iamkesava.com/play/pb_pseo-framework/">
 <meta property="og:image" content="https://abcodex.iamkesava.com/og/play/pb_pseo-framework.png">
 <meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Build programmatic pages at scale without a helpful-content penalty · a builder's codex">
-<meta name="twitter:description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO ">
+<meta name="twitter:description" content="Build programmatic pages at scale without a helpful-content penalty: Programmatic SEO is generating many pages from one template and a variable set. The risk is not scale. The risk is shipping thin pages that fragment author">
 <meta name="twitter:image" content="https://abcodex.iamkesava.com/og/play/pb_pseo-framework.png">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
 <link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
@@ -173,7 +173,7 @@ main.static pre code{background:transparent;padding:0}
 }
 @media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:182px}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Build programmatic pages at scale without a helpful-content penalty","description":"Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO sites; hybrid sites with review-gated templates recovered within hours. The differentiator is human-in-the-loop, not scale. Source synthesis: post-HCU forensics, Lily Ray on AI Overview substrate (), the citation/mention gap ().","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/","step":[{"@type":"HowToStep","position":1,"name":"Non-negotiable rule set","text":"1. **Mandatory human edit pass** per generated page. No auto-publish. 2. **≥500 unique words** per page that are not template boilerplate. 3. **≥30% differentiation** between any two pages from the same template (measured on paragraph-level embedding distance). 4. **Monthly pruning.** Any pSEO page below N impressions after 90 days is noindexed or deleted.","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#non-negotiable-rule-set"},{"@type":"HowToStep","position":2,"name":"Template structure","text":"Each template lives in a directory with: - `template.md`, skeleton with `{variable}` placeholders. - `variables.csv`, the combinatorial variable set. - `differentiation-rubric.md`, what makes pages non-duplicate.","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#template-structure"},{"@type":"HowToStep","position":3,"name":"Build loop","text":"``` template builder agent ↓ assemble variables + template + examples ↓ generate candidate page","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#build-loop"},{"@type":"HowToStep","position":4,"name":"Safety gates","text":"- **Template-level gate.** A reviewer approves the template after auditing 5 generated sample pages against the differentiation rubric and human-value test. Only after approval does the template unlock for volume generation. - **Per-page sample gate.** 1 in 10 generated pages requires a human read before publish. Randomized sample, not deterministic, prevents gaming. - **Post-publish watch.** Any ","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#safety-gates"},{"@type":"HowToStep","position":5,"name":"Common failure modes","text":"- **Template drift into spam.** Same format, no real signal. Mitigation: human-value test at the template gate. - **Cannibalization.** Two templates target overlapping SERPs. Mitigation: search-intent audit across all live templates before adding a new one. - **Scaling without monitoring.** 10,000 pages, no oversight. Mitigation: weekly prune job + Search Console trends per template. - **Boilerpla","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#common-failure-modes"},{"@type":"HowToStep","position":6,"name":"Quality gates","text":"- Human approves every template. - Every page over 500 unique non-boilerplate words. - Differentiation ≥30% on embedding distance. - 1-in-10 random page review before publish.","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#quality-gates"},{"@type":"HowToStep","position":7,"name":"What this connects to","text":"- **Keyword research and search-intent map** upstream (avoid cannibalization). - **Copy reviewer** for voice and claim validation. - **AEO relevance engineering** for passages and schema on the long-tail.","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#what-this-connects-to"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Build programmatic pages at scale without a helpful-content penalty","item":"https://abcodex.iamkesava.com/play/pb_pseo-framework/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/","name":"A single seeded fake claim can self-confirm in AI Overviews"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/","name":"Citation rate and mention rate are different metrics; comparative content closes the gap"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#webpage","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/","name":"Build programmatic pages at scale without a helpful-content penalty","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Build programmatic pages at scale without a helpful-content penalty","description":"Programmatic SEO is generating many pages from one template and a variable set. The risk is not scale. The risk is shipping thin pages that fragment authority and read like filler to both Google and the models that now mediate discovery. This playbook succeeds when each generated page is the page a stranger would want for that exact use case, when a human approved the template against real samples","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/","step":[{"@type":"HowToStep","position":1,"name":"Anchor on the use case the page must answer, not the keyword combination.","text":"Before you write a template, define the one decision a visitor lands on this page to make. A programmatic page exists to answer a specific buyer question for a specific situation. If you cannot name the question a given variable combination answers, that combination produces filler.  State the test at the top of the template spec and check every sample against it: does this page answer a real question better than the alternatives a searcher already has? The March 2026 Google core update penalize","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-01"},{"@type":"HowToStep","position":2,"name":"Audit crawler access and page speed before you write a word of content.","text":"Content investment is downstream of passing the infrastructure gate. AI crawlers operate under stricter time budgets than traditional search bots, and they return a 499 on pages that exceed their patience threshold. A 499 is a client-initiated close. The crawler decided your page was not worth waiting for, so the page never enters the candidate pool a model considers when generating a citation.   Programmatic templates are where this bites hardest, because one slow template multiplies across tho","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-02"},{"@type":"HowToStep","position":3,"name":"Build the template directory with the human-value test wired in.","text":"Each template lives in its own directory so the gate has something to inspect: The build loop runs as: assemble variables plus template plus examples, generate a candidate page, run a differentiation audit (paragraph-level embedding distance), run a human-value audit (does this answer a real question), then stop at the template-publish gate. A reviewer approves the template, not each page, after auditing the samples. Only then does the template open for batch generation. This is the non-negotiab","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-03"},{"@type":"HowToStep","position":4,"name":"Write passages that survive the chunker, not paragraphs that fill a word count.","text":"The unit of optimization in AI-mediated search is the passage, not the page. AI systems chunk a document into passages, embed each, score the embeddings against a fanned-out set of sub-queries, then assemble the passages that match into the answer. A page that ranks for a head term can still be invisible if its passages are too short, too long, or too thin on entities to embed cleanly.  For a programmatic template this means each variable-driven section should be a self-contained, H2-bounded ans","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-04"},{"@type":"HowToStep","position":5,"name":"Grade for semantic coverage, not keyword density.","text":"Modern engines evaluate relevance through topical comprehensiveness, the entity and concept set that appears across authoritative answers, not through keyword count. For programmatic pages, that means the template should target a coverage list per page type, not a keyword target.  Build the coverage list into the differentiation rubric: which entities, concepts, and questions a page of this type must address. A page that hits the coverage list with real data passes. A page that hits a keyword de","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-05"},{"@type":"HowToStep","position":6,"name":"Add first-hand experience and clear authorship the rater is trained to reward.","text":"E-E-A-T is not a direct ranking input. It is the rubric human quality raters use, and Google's algorithms approximate it through detectable proxies. So the work goes into the proxies, not a phantom score: explicit author bylines with credentials, sources cited inline, and content that demonstrates first-hand experience, which raters are explicitly trained to identify and reward.  This is the hardest signal to fake at scale, which is exactly why it separates a defensible programmatic section from","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-06"},{"@type":"HowToStep","position":7,"name":"Map the off-domain corroboration surface before you assume on-page is the work.","text":"A volume of on-domain pages is necessary but not sufficient. AI search visibility is structurally an off-site corroboration problem with an on-site quality floor, not the inverse. The page a model cites is often not the page with the strongest on-site signals. It is the page that best resolves the buyer's uncertainty, and many of those live off your domain: third-party reviews, forums, editorial comparisons, analyst writeups.  For programmatic work this is the reality check on ambition. Generati","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-07"},{"@type":"HowToStep","position":8,"name":"Choose POV and comparative shapes over exhaustive coverage where the model summarizes.","text":"When an LLM mediates discovery, exhaustive coverage becomes feedstock the model summarizes brand-free. The \"ultimate guide\" loses its mechanic. Sharper POV content gets retrieved and named because the perspective is what the model cannot synthesize from coverage alone.  This shapes which templates are worth building. Citation rate and mention rate are different metrics: across a large sample, 62% of citations never name the brand, and comparative content produced far more brand mentions than inf","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-08"},{"@type":"HowToStep","position":9,"name":"Run one original-research asset to feed the long-tail with facts only you have.","text":"Programmatic templates are strongest when the variable data is something the model cannot get elsewhere. Original research creates that. It generates statistics that journalists and other publishers must cite, and citation behavior is asymmetric: anyone writing about the topic for years may link to the source of the stat. One annual study can out-link a full year of weekly posts.  Feed that proprietary dataset into the programmatic layer: a benchmark per industry, a survey result per segment, a ","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-09"},{"@type":"HowToStep","position":10,"name":"Gate at the template, then sample at the page level. Randomize the sample.","text":"Two gates, not one. A reviewer approves the template after auditing five generated sample pages against the differentiation rubric and the human-value test. Only after approval does the template open for volume. Then, per page, 1 in 10 generated pages requires a human read before publish. Randomize that sample rather than making it deterministic, so the loop cannot be gamed. Make the verification path the easy path so it actually gets done, and keep a human checking generated claims before they ","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-10"},{"@type":"HowToStep","position":11,"name":"Measure per template, weekly, and never trust a single snapshot.","text":"AI search measurement needs three layers, not a rank: Presence (where the brand appears), Readiness (why it looks that way), and Business Impact (what it produces), each kept in separate confidence buckets.  Point-in-time citation counts are noise. Around 74% of cited sources rotate week to week, so a monthly cycle samples a different distribution each time. The actionable layer is weekly and segmented by platform, prompt type, citation count, recommendation rate, readiness, and impact.  For a p","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-11"},{"@type":"HowToStep","position":12,"name":"Prune on schedule and watch for penalty cascade across every surface.","text":"A programmatic section is never finished. Run the monthly prune: any page below the impression floor after 90 days is noindexed or deleted, so the section's authority concentrates rather than spreading thin. Concentrated internal link equity is one of the signals the March 2026 update rewarded.  The reason pruning is not optional: a Google enforcement action does not stop at Google. AI systems retrieve from Google's index via RAG, so a penalty removes the page from the source pool that ChatGPT, ","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#step-12"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Build programmatic pages at scale without a helpful-content penalty","item":"https://abcodex.iamkesava.com/play/pb_pseo-framework/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/","name":"In the AI-search era, crawlability shapes everything"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_eeat-quality-rater-perspective/","name":"E-E-A-T isn't a ranking factor; it's the rubric raters use, and Google approximates it via indirect signals"},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_nlp-content-grading-over-keyword-density/","name":"Optimize content for semantic comprehensiveness, not keyword density"},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_relevance-engineering-passage-level/","name":"The unit of optimization is the passage, not the page"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_aeo-three-layer-presence-readiness-impact/","name":"Measure AI search on three layers: Presence, Readiness, Business Impact"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/","name":"Citation rate and mention rate are different metrics; comparative content closes the gap"},{"@type":"ListItem","position":7,"url":"https://abcodex.iamkesava.com/ins/ins_death-of-the-ultimate-guide/","name":"Sharper POV beats exhaustive coverage when an LLM is the summarizer"},{"@type":"ListItem","position":8,"url":"https://abcodex.iamkesava.com/ins/ins_casey-hill-structural-prominence-llm-citations/","name":"Nav and footer placement is a first-class LLM relevance signal, independent of page content."}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_pseo-framework/#webpage","url":"https://abcodex.iamkesava.com/play/pb_pseo-framework/","name":"Build programmatic pages at scale without a helpful-content penalty","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -188,9 +188,19 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static" id="main" tabindex="-1">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Build programmatic pages at scale without a helpful-content penalty</div><h1>Build programmatic pages at scale without a helpful-content penalty</h1><p>Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO sites; hybrid sites with review-gated templates recovered within hours. The differentiator is human-in-the-loop, not scale.</p>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Build programmatic pages at scale without a helpful-content penalty</div><h1>Build programmatic pages at scale without a helpful-content penalty</h1><p>Programmatic SEO is generating many pages from one template and a variable set. The risk is not scale. The risk is shipping thin pages that fragment authority and read like filler to both Google and the models that now mediate discovery. This playbook succeeds when each generated page is the page a stranger would want for that exact use case, when a human approved the template against real samples before any batch ran, and when the page survives an AI crawler, a chunker, and a quality rater without your domain taking a hit.</p>
 
-<p>Source synthesis: post-HCU forensics, Lily Ray on AI Overview substrate (<a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/">A single seeded fake claim can self-confirm in AI Overviews</a>), the citation/mention gap (<a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/">Citation rate and mention rate are different metrics; comparative content closes the gap</a>).</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/" title="A single seeded fake claim can self-confirm in AI Overviews">Lily Ray · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/" title="Citation rate and mention rate are different metrics; comparative content closes the gap">Kevin Indig · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#non-negotiable-rule-set">Non-negotiable rule set</a></li><li><a href="#template-structure">Template structure</a></li><li><a href="#build-loop">Build loop</a></li><li><a href="#safety-gates">Safety gates</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#what-this-connects-to">What this connects to</a></li></ol></nav><article><div class="pbv" data-observe aria-label="pSEO framework — build loop and five non-negotiables">
+<p>The page count is a vanity number. The number that matters is how many of those pages earn a citation, a mention, or a ranking, and how few of them you have to prune. Quality is the growth lever here, not the constraint. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_quality-as-growth-lever/">Quality and friction-as-feature are growth levers, not constraints</a></p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/" title="In the AI-search era, crawlability shapes everything">Aleyda Solis · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_eeat-quality-rater-perspective/" title="E-E-A-T isn&#39;t a ranking factor; it&#39;s the rubric raters use, and Google approximates it via indirect signals">Cyrus Shepard · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_nlp-content-grading-over-keyword-density/" title="Optimize content for semantic comprehensiveness, not keyword density">Bernard Huang · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_relevance-engineering-passage-level/" title="The unit of optimization is the passage, not the page">Mike King · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/" title="Citation rate and mention rate are different metrics; comparative content closes the gap">Kevin Indig · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_death-of-the-ultimate-guide/" title="Sharper POV beats exhaustive coverage when an LLM is the summarizer">Amanda Natividad · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_casey-hill-structural-prominence-llm-citations/" title="Nav and footer placement is a first-class LLM relevance signal, independent of page content.">Casey Hill · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
+
+<ul>
+<li>You have a high-cardinality use case (one page per city, integration, role, comparison) where a single hand-written page per combination is not feasible.</li>
+<li>A new template is proposed and you need a gate before it unlocks for volume generation.</li>
+<li>An existing programmatic section lost rankings or citations after a core update and you need to diagnose before you rebuild.</li>
+<li>You are moving from blue-link SEO into AI answer surfaces and need the long-tail to survive chunking, not just rank.</li>
+<li>Before any batch generation run that would publish more than a handful of pages from one template.</li>
+</ul>
+
+<h2 id="how-to-use">How to use</h2><div class="pbv" data-observe aria-label="pSEO framework — build loop and five non-negotiables">
   <span class="pbv-eyebrow">Annotated framework · build loop + five rules</span>
   <p class="pbv-vis-title">pSEO Without Getting Nuked</p>
 
@@ -250,79 +260,207 @@ main.static pre code{background:transparent;padding:0}
     <span>Channels: Lily Ray · Aleyda Solis · Google Search Central</span>
     <span>abcodex</span>
   </div>
-</div><h2 id="non-negotiable-rule-set">Non-negotiable rule set</h2>
+</div>
+
+<div class="pb-step"><h3 id="step-01"><span class='step-num-badge'>01</span> Anchor on the use case the page must answer, not the keyword combination.</h3>
+
+<p>Before you write a template, define the one decision a visitor lands on this page to make. A programmatic page exists to answer a specific buyer question for a specific situation. If you cannot name the question a given variable combination answers, that combination produces filler. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_diagnose-before-execute/">Diagnose before executing, refuse the playbook ask</a></p>
+
+<p>State the test at the top of the template spec and check every sample against it: does this page answer a real question better than the alternatives a searcher already has? The March 2026 Google core update penalized aggregator and quick-answer utility sites and rewarded destination brands and specialist sites. The operator rule that came out of it: one strong canonical page per use case beats ten shallow ones, and thin programmatic pages are now actively penalized. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/">In the AI-search era, crawlability shapes everything</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Crawlability shapes everything."</p>
+<p class="pb-quote-attr">· Aleyda Solis, Google March 2026 Core Update Analysis, 2026-04-11 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/">“In the AI-search era,…”</a></p>
+</blockquote>
+<p>If consolidating into one rich canonical page is possible for a use case, do that instead of generating ten thin ones. Reserve programmatic generation for genuine high-cardinality long-tail where consolidation is impossible: local listings, integration pairs, role-by-industry combinations. The variable set is the test. If a variable produces a page with no real data behind it, that variable does not belong in the set.</p>
+
+</div><div class="pb-step"><h3 id="step-02"><span class='step-num-badge'>02</span> Audit crawler access and page speed before you write a word of content.</h3>
+
+<p>Content investment is downstream of passing the infrastructure gate. AI crawlers operate under stricter time budgets than traditional search bots, and they return a 499 on pages that exceed their patience threshold. A 499 is a client-initiated close. The crawler decided your page was not worth waiting for, so the page never enters the candidate pool a model considers when generating a citation. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_mike-king-ai-crawler-499-speed-gate/">AI crawlers return 499 errors on slow pages. Speed is a gate, not a ranking modifier.</a> <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_aeo-experience-gate/">AEO experience and structure gate</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"A 499 doesn't mean your server failed. It means the system requesting your content decided it wasn't worth waiting for."</p>
+<p class="pb-quote-attr">· Mike King, Page Speed Impacts, 2026-05-08 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_mike-king-ai-crawler-499-speed-gate/">“AI crawlers return 499…”</a></p>
+</blockquote>
+<p>Programmatic templates are where this bites hardest, because one slow template multiplies across thousands of URLs. Monitor server logs for 499 responses by template, filtered to AI-bot user-agents (GPTBot, PerplexityBot, ClaudeBot). Set a TTFB and payload budget per template, not site-wide. A template that renders in 200ms on the staging sample can balloon when the variable set hits a slow data join in production. Confirm the fast path before batch generation, then re-check after.</p>
+
+</div><div class="pb-step"><h3 id="step-03"><span class='step-num-badge'>03</span> Build the template directory with the human-value test wired in.</h3>
+
+<p>Each template lives in its own directory so the gate has something to inspect:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>File</th><th>What it holds</th></tr></thead><tbody><tr><td><code>template.md</code></td><td>The skeleton with <code>{variable}</code> placeholders.</td></tr><tr><td><code>variables.csv</code></td><td>The combinatorial variable set, with the real data each row resolves to.</td></tr><tr><td><code>differentiation-rubric.md</code></td><td>What makes any two generated pages genuinely non-duplicate.</td></tr><tr><td><code>review-checklist.md</code></td><td>The manual pass criteria a human ticks per template and per sampled page.</td></tr></tbody></table></div>
+
+<p>The build loop runs as: assemble variables plus template plus examples, generate a candidate page, run a differentiation audit (paragraph-level embedding distance), run a human-value audit (does this answer a real question), then stop at the template-publish gate. A reviewer approves the template, not each page, after auditing the samples. Only then does the template open for batch generation.</p>
+
+<p>This is the non-negotiable rule set:</p>
 
 <ol>
-<li><strong>Mandatory human edit pass</strong> per generated page. No auto-publish.</li>
-<li><strong>≥500 unique words</strong> per page that are not template boilerplate.</li>
-<li><strong>≥30% differentiation</strong> between any two pages from the same template (measured on paragraph-level embedding distance).</li>
-<li><strong>Monthly pruning.</strong> Any pSEO page below N impressions after 90 days is noindexed or deleted.</li>
-<li><strong>Weekly signal monitoring.</strong> Search Console impressions + positions trend per template.</li>
+<li>Mandatory human edit pass on the sample set per template. No template auto-publishes to volume.</li>
+<li>At least 500 unique words per page that are not template boilerplate.</li>
+<li>At least 30% differentiation between any two pages from the same template, measured on paragraph-level embedding distance.</li>
+<li>Monthly pruning: any programmatic page below a set impression floor after 90 days is noindexed or deleted.</li>
+<li>Weekly signal monitoring: Search Console impressions and positions, trended per template.</li>
 </ol>
 
-<h2 id="template-structure">Template structure</h2>
+</div><div class="pb-step"><h3 id="step-04"><span class='step-num-badge'>04</span> Write passages that survive the chunker, not paragraphs that fill a word count.</h3>
 
-<p>Each template lives in a directory with:</p>
+<p>The unit of optimization in AI-mediated search is the passage, not the page. AI systems chunk a document into passages, embed each, score the embeddings against a fanned-out set of sub-queries, then assemble the passages that match into the answer. A page that ranks for a head term can still be invisible if its passages are too short, too long, or too thin on entities to embed cleanly. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_relevance-engineering-passage-level/">The unit of optimization is the passage, not the page</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Answers are generated, not linked."</p>
+<p class="pb-quote-attr">· Mike King, How AI Mode Works, 2026-04-22 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_relevance-engineering-passage-level/">“The unit of optimization…”</a></p>
+</blockquote>
+<p>For a programmatic template this means each variable-driven section should be a self-contained, H2-bounded answer block: a clear question, a direct answer, the entity named early, kept inside a chunker-friendly range rather than padded to hit a word count. The 500-unique-word floor is a floor for substance, not a target you reach with filler. Pad to hit it and you defeat the point.</p>
+
+<p>Optimize the passage for a human reader and for chunker survival at the same time. Writing for the chunker alone is fragile: every model generation shifts embedding spaces and chunk sizes, so a passage tuned only for today's chunker depreciates fast. Readability is the hedge that holds across model changes. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></p>
+
+</div><div class="pb-step"><h3 id="step-05"><span class='step-num-badge'>05</span> Grade for semantic coverage, not keyword density.</h3>
+
+<p>Modern engines evaluate relevance through topical comprehensiveness, the entity and concept set that appears across authoritative answers, not through keyword count. For programmatic pages, that means the template should target a coverage list per page type, not a keyword target. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nlp-content-grading-over-keyword-density/">Optimize content for semantic comprehensiveness, not keyword density</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Rather than keyword density (a TF-IDF era concept), Huang's approach focuses on topical comprehensiveness: does the content cover the semantic territory that search engines associate with authoritative answers to a query?"</p>
+<p class="pb-quote-attr">· Bernard Huang / Clearscope, synthesized from operator's published work · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nlp-content-grading-over-keyword-density/">“Optimize content for semantic…”</a></p>
+</blockquote>
+<p>Build the coverage list into the differentiation rubric: which entities, concepts, and questions a page of this type must address. A page that hits the coverage list with real data passes. A page that hits a keyword density target but skips half the semantic territory is thin, regardless of word count. As the unit of retrieval shifts toward passages cited by a model, page-level comprehensiveness matters less and passage-level extractability matters more, which is why steps 4 and 5 run together.</p>
+
+</div><div class="pb-step"><h3 id="step-06"><span class='step-num-badge'>06</span> Add first-hand experience and clear authorship the rater is trained to reward.</h3>
+
+<p>E-E-A-T is not a direct ranking input. It is the rubric human quality raters use, and Google's algorithms approximate it through detectable proxies. So the work goes into the proxies, not a phantom score: explicit author bylines with credentials, sources cited inline, and content that demonstrates first-hand experience, which raters are explicitly trained to identify and reward. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_eeat-quality-rater-perspective/">E-E-A-T isn&#39;t a ranking factor; it&#39;s the rubric raters use, and Google approximates it via indirect signals</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"E-E-A-T is not a direct ranking factor but rather a framework that helps raters distinguish reliable content from misleading content. Google uses indirect signals like domain reputation, author clarity, and source quality to approximate what raters would assess manually."</p>
+<p class="pb-quote-attr">· Cyrus Shepard, synthesized from operator's published work · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_eeat-quality-rater-perspective/">“E-E-A-T isn&#39;t a ranking…”</a></p>
+</blockquote>
+<p>This is the hardest signal to fake at scale, which is exactly why it separates a defensible programmatic section from a spam farm. On a programmatic template, manufactured author attribution reads as manufactured and the proxy backfires. Inject real first-hand markers instead: original data per page, a screenshot, a tested result, a named practitioner perspective where one genuinely applies. The structural placement of topics also reads as a relevance signal. What sits in nav and footer is read site-wide as a declaration of what the publisher considers important, independent of any single page's body. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_casey-hill-structural-prominence-llm-citations/">Nav and footer placement is a first-class LLM relevance signal, independent of page content.</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"structural prominence or what you put in your headers, subheaders, top nav, and footer, matters for LLM citations"</p>
+<p class="pb-quote-attr">· Casey Hill, What's Working Right Now in AI Search, 2026-05-03 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_casey-hill-structural-prominence-llm-citations/">“Nav and footer placement…”</a></p>
+</blockquote>
+<p>Anchor the use-case taxonomy your programmatic section covers into the global nav and footer, not just the body of individual pages.</p>
+
+</div><div class="pb-step"><h3 id="step-07"><span class='step-num-badge'>07</span> Map the off-domain corroboration surface before you assume on-page is the work.</h3>
+
+<p>A volume of on-domain pages is necessary but not sufficient. AI search visibility is structurally an off-site corroboration problem with an on-site quality floor, not the inverse. The page a model cites is often not the page with the strongest on-site signals. It is the page that best resolves the buyer's uncertainty, and many of those live off your domain: third-party reviews, forums, editorial comparisons, analyst writeups. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aleyda-solis-aeo-offsite-corroboration-floor/">AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse</a></p>
+
+<blockquote>
+<p>AI search visibility for ecommerce is structurally an off-site corroboration problem with an on-site quality floor, not the inverse.</p>
+<p>· Aleyda Solis, Ecommerce AI Search Citations Optimization, 2026-05-12</p>
+<p><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aleyda-solis-aeo-offsite-corroboration-floor/">AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse</a></p>
+</blockquote>
+<p>For programmatic work this is the reality check on ambition. Generating ten thousand on-domain pages will not move citation share in a category where the cited sources are third-party. Map which surfaces earn citations for your clusters first. If the answer is off-domain, the volume play is the wrong investment and a third-party mention loop matters more. The exception is thin or new markets where corroboration infrastructure does not yet exist, where on-site content is the default citation source.</p>
+
+</div><div class="pb-step"><h3 id="step-08"><span class='step-num-badge'>08</span> Choose POV and comparative shapes over exhaustive coverage where the model summarizes.</h3>
+
+<p>When an LLM mediates discovery, exhaustive coverage becomes feedstock the model summarizes brand-free. The "ultimate guide" loses its mechanic. Sharper POV content gets retrieved and named because the perspective is what the model cannot synthesize from coverage alone. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_death-of-the-ultimate-guide/">Sharper POV beats exhaustive coverage when an LLM is the summarizer</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"The ultimate-guide play loses its mechanic when an LLM summarizes for the user, so sharper POV beats exhaustive coverage."</p>
+<p class="pb-quote-attr">· Amanda Natividad, The Death of the Ultimate Guide, 2026-04-25 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_death-of-the-ultimate-guide/">“Sharper POV beats exhaustive…”</a></p>
+</blockquote>
+<p>This shapes which templates are worth building. Citation rate and mention rate are different metrics: across a large sample, 62% of citations never name the brand, and comparative content produced far more brand mentions than informational content. Comparative formats force the model to keep brand tokens together with claims, so the brand survives summarization. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/">Citation rate and mention rate are different metrics; comparative content closes the gap</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Being cited means an AI is drawing on your content. Being mentioned means it is naming you."</p>
+<p class="pb-quote-attr">· Kevin Indig, The Ghost Citation Problem, 2026-04-26 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ghost-citation-gap/">“Citation rate and mention…”</a></p>
+</blockquote>
+<p>Favor programmatic templates with a comparative or opinionated spine (X vs Y, best tool for a named situation, alternatives teardowns) over purely informational ones, because the informational page gets summarized without your name. The full AEO model behind this, measurement plus content shape plus integrity, holds across all three. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_aeo-triangle/">The AEO triangle, presence, relevance, manual-action propagation</a></p>
+
+</div><div class="pb-step"><h3 id="step-09"><span class='step-num-badge'>09</span> Run one original-research asset to feed the long-tail with facts only you have.</h3>
+
+<p>Programmatic templates are strongest when the variable data is something the model cannot get elsewhere. Original research creates that. It generates statistics that journalists and other publishers must cite, and citation behavior is asymmetric: anyone writing about the topic for years may link to the source of the stat. One annual study can out-link a full year of weekly posts. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_original-research-as-link-bait/">Run one original-research study a year; it will out-link a year of weekly posts</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Publish fewer pieces, but invest disproportionately in two formats that resist AI commoditization. The first is original research..."</p>
+<p class="pb-quote-attr">· Andy Crestodina, synthesized from operator's published work · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_original-research-as-link-bait/">“Run one original-research study…”</a></p>
+</blockquote>
+<p>Feed that proprietary dataset into the programmatic layer: a benchmark per industry, a survey result per segment, a price index per region. Now each generated page carries a fact that exists nowhere else, which is the opposite of filler and the strongest defense against an embedding-distance duplication flag.</p>
+
+</div><div class="pb-step"><h3 id="step-10"><span class='step-num-badge'>10</span> Gate at the template, then sample at the page level. Randomize the sample.</h3>
+
+<p>Two gates, not one. A reviewer approves the template after auditing five generated sample pages against the differentiation rubric and the human-value test. Only after approval does the template open for volume. Then, per page, 1 in 10 generated pages requires a human read before publish. Randomize that sample rather than making it deterministic, so the loop cannot be gamed.</p>
+
+<p>Make the verification path the easy path so it actually gets done, and keep a human checking generated claims before they ship. AI surfaces have a thin verification layer for sparsely-covered claims, and a single seeded fake claim can self-confirm by citing the source that introduced it. A programmatic page that fabricates a stat about a thin niche is the exact input that loop feeds on. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/">A single seeded fake claim can self-confirm in AI Overviews</a> <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></p>
+
+<p>The failure that ends a domain is auto-publish. One bad batch under a helpful-content update can tank domain trust, and a human gate at the template level is what stops that batch from ever running.</p>
+
+</div><div class="pb-step"><h3 id="step-11"><span class='step-num-badge'>11</span> Measure per template, weekly, and never trust a single snapshot.</h3>
+
+<p>AI search measurement needs three layers, not a rank: Presence (where the brand appears), Readiness (why it looks that way), and Business Impact (what it produces), each kept in separate confidence buckets. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aeo-three-layer-presence-readiness-impact/">Measure AI search on three layers: Presence, Readiness, Business Impact</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Presence tells you where the brand appears, Readiness tells you why it looks that way, and Business Impact tells you whether that visibility creates measurable value."</p>
+<p class="pb-quote-attr">· Aleyda Solis, A 3-Layer Framework to Measure AI Presence, Readiness, and Business Impact, 2026-04-23 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aeo-three-layer-presence-readiness-impact/">“Measure AI search on…”</a></p>
+</blockquote>
+<p>Point-in-time citation counts are noise. Around 74% of cited sources rotate week to week, so a monthly cycle samples a different distribution each time. The actionable layer is weekly and segmented by platform, prompt type, citation count, recommendation rate, readiness, and impact. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aeo-citation-rotation-makes-snapshots-worthless/">Point-in-time AEO citation counts are noise: 74 percent of cited sources rotate weekly</a></p>
+
+<blockquote>
+<p>Track platforms, prompt types, citations, recommendations, readiness and business impact separately. The goal is not another vanity score.</p>
+<p>· Aleyda Solis, SEOFOMO Issue, May 3 2026</p>
+<p><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aeo-citation-rotation-makes-snapshots-worthless/">Point-in-time AEO citation counts are noise: 74 percent of cited sources rotate weekly</a></p>
+</blockquote>
+<p>For a programmatic section, trend the Readiness and Presence layers per template, weekly, in Search Console and in prompt sweeps. A template whose CTR, position, or citation share regresses past a threshold gets flagged for investigation or kill. The calendar prune is a floor. The real signal is per-template trend.</p>
+
+</div><div class="pb-step"><h3 id="step-12"><span class='step-num-badge'>12</span> Prune on schedule and watch for penalty cascade across every surface.</h3>
+
+<p>A programmatic section is never finished. Run the monthly prune: any page below the impression floor after 90 days is noindexed or deleted, so the section's authority concentrates rather than spreading thin. Concentrated internal link equity is one of the signals the March 2026 update rewarded. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/">In the AI-search era, crawlability shapes everything</a></p>
+
+<p>The reason pruning is not optional: a Google enforcement action does not stop at Google. AI systems retrieve from Google's index via RAG, so a penalty removes the page from the source pool that ChatGPT, Perplexity, and Copilot all draw from. One enforcement decision becomes a multi-surface loss at once. Self-referential and manipulative tactics that Google flags are flagged implicitly for every AI surface drawing from the same pool. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_lily-ray-geo-penalty-multi-surface-cascade/">A Google penalty removes a page from every AI surface at once, not just Google search</a></p>
+
+<p>That raises the cost of a bad programmatic batch far above lost Google traffic. Keep the section clean, prune the dead weight, and never let a self-promotional or fabricated page sit in the index, because the blast radius is every surface you depend on.</p>
+
+</div><h2 id="check-your-work">Check your work</h2>
 
 <ul>
-<li><code>template.md</code>, skeleton with <code>{variable}</code> placeholders.</li>
-<li><code>variables.csv</code>, the combinatorial variable set.</li>
-<li><code>differentiation-rubric.md</code>, what makes pages non-duplicate.</li>
-<li><code>review-checklist.md</code>, manual pass criteria.</li>
+<li>Every variable combination answers a nameable use-case question. Combinations with no real data behind them were cut.</li>
+<li>Crawler access and per-template TTFB confirmed before content was written. Server logs checked for 499s from AI-bot UAs.</li>
+<li>A human approved each template against at least five generated sample pages before it unlocked for volume.</li>
+<li>Every page clears 500 unique non-boilerplate words of substance, not padding.</li>
+<li>Differentiation is at least 30% on paragraph-level embedding distance between any two pages from a template.</li>
+<li>Passages are H2-bounded answer blocks sized for the chunker and readable by a human, not paragraphs padded to a word count.</li>
+<li>Coverage is graded on the entity and concept set, not keyword density.</li>
+<li>First-hand experience markers and clear authorship are real, not manufactured attribution.</li>
+<li>Off-domain corroboration surfaces were mapped before assuming the on-page volume play is the work.</li>
+<li>1-in-10 randomized page review runs before publish. No template auto-publishes to volume.</li>
+<li>Measurement is weekly, per template, on three layers, never a single citation snapshot.</li>
+<li>Monthly prune is scheduled with a named owner, and a penalty-cascade watch is live.</li>
 </ul>
 
-<h2 id="build-loop">Build loop</h2>
-
-<pre><code >template builder agent
-  ↓ assemble variables + template + examples
-  ↓ generate candidate page
-  ↓ differentiation audit (embedding distance)
-  ↓ human-value audit (does this answer a real question?)
-template-publish gate (human approves the TEMPLATE, not each page)
-  ↓ template unlocked for batch generation
-seo writer → page instances with mandatory copy-reviewer pre-check
-  ↓ sample review (1 in 10)
-  ↓ final brand-voice check at template level
-publish via LP builder or content-publish flow</code></pre>
-
-<h2 id="safety-gates">Safety gates</h2>
+<h2 id="what-goes-wrong">What goes wrong</h2>
 
 <ul>
-<li><strong>Template-level gate.</strong> A reviewer approves the template after auditing 5 generated sample pages against the differentiation rubric and human-value test. Only after approval does the template unlock for volume generation.</li>
-<li><strong>Per-page sample gate.</strong> 1 in 10 generated pages requires a human read before publish. Randomized sample, not deterministic, prevents gaming.</li>
-<li><strong>Post-publish watch.</strong> Any template whose CTR or position regresses past a threshold gets flagged; investigate or kill.</li>
+<li><strong>Auto-publish.</strong> Even one bad batch can tank domain trust under a helpful-content update. The template gate exists to stop that batch from ever running. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></li>
+<li><strong>Template drift into spam.</strong> Same format, no real signal. The human-value test at the template gate is the mitigation. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_quality-as-growth-lever/">Quality and friction-as-feature are growth levers, not constraints</a></li>
+<li><strong>Boilerplate over 50%.</strong> Differentiation drops below threshold and embedding distance fails. The 500-word floor is for substance, not filler.</li>
+<li><strong>Variable sets that produce empty pages.</strong> "Best tool for niche" with zero data when the niche has no evidence is filler the next core update punishes. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_crawlability-shapes-everything/">In the AI-search era, crawlability shapes everything</a></li>
+<li><strong>Cannibalization.</strong> Two templates target overlapping SERPs. Run a search-intent audit across all live templates before adding a new one.</li>
+<li><strong>Writing for the chunker, not the reader.</strong> Passages tuned only for today's chunker depreciate at the next model generation. Optimize for readability and chunker survival together. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_relevance-engineering-passage-level/">The unit of optimization is the passage, not the page</a></li>
+<li><strong>Manufactured authorship.</strong> Fake bylines on a programmatic template read as manufactured and the E-E-A-T proxy backfires. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_eeat-quality-rater-perspective/">E-E-A-T isn&#39;t a ranking factor; it&#39;s the rubric raters use, and Google approximates it via indirect signals</a></li>
+<li><strong>On-domain volume in an off-domain category.</strong> Ten thousand pages move nothing where the cited sources are third-party. Map the corroboration surface first. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aleyda-solis-aeo-offsite-corroboration-floor/">AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse</a></li>
+<li><strong>Fabricated stats on thin niches.</strong> A single seeded fake claim can self-confirm in AI surfaces, and a programmatic page is the exact input that loop feeds on. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_ai-slop-loop/">A single seeded fake claim can self-confirm in AI Overviews</a></li>
+<li><strong>Scaling without monitoring.</strong> Ten thousand pages, no oversight. Weekly per-template Search Console trends plus a monthly prune is the floor.</li>
+<li><strong>Snapshot measurement.</strong> A single citation count is noise when 74% of sources rotate weekly. Measure weekly and segmented. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aeo-citation-rotation-makes-snapshots-worthless/">Point-in-time AEO citation counts are noise: 74 percent of cited sources rotate weekly</a></li>
+<li><strong>Treating a Google penalty as a Google-only loss.</strong> A penalty removes the page from every AI surface drawing on Google's index. Prune and stay clean. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_lily-ray-geo-penalty-multi-surface-cascade/">A Google penalty removes a page from every AI surface at once, not just Google search</a></li>
 </ul>
 
-<h2 id="common-failure-modes">Common failure modes</h2>
+<h2 id="what-you-get">What you get</h2>
 
-<ul>
-<li><strong>Template drift into spam.</strong> Same format, no real signal. Mitigation: human-value test at the template gate.</li>
-<li><strong>Cannibalization.</strong> Two templates target overlapping SERPs. Mitigation: search-intent audit across all live templates before adding a new one.</li>
-<li><strong>Scaling without monitoring.</strong> 10,000 pages, no oversight. Mitigation: weekly prune job + Search Console trends per template.</li>
-<li><strong>Boilerplate over 50%.</strong> Differentiation drops, embedding distance fails the threshold.</li>
-<li><strong>Auto-publish.</strong> Even one bad batch tanks domain trust under HCU.</li>
-<li><strong>Variable sets that produce empty pages.</strong> "Best [tool] for [niche]" with zero data when the niche has no real evidence, page is filler.</li>
-</ul>
-
-<h2 id="quality-gates">Quality gates</h2>
-
-<ul>
-<li>Human approves every template.</li>
-<li>Every page over 500 unique non-boilerplate words.</li>
-<li>Differentiation ≥30% on embedding distance.</li>
-<li>1-in-10 random page review before publish.</li>
-<li>Monthly prune of underperforming pages.</li>
-<li>Weekly Search Console trend review per template.</li>
-</ul>
-
-<h2 id="what-this-connects-to">What this connects to</h2>
-
-<ul>
-<li><strong>Keyword research and search-intent map</strong> upstream (avoid cannibalization).</li>
-<li><strong>Copy reviewer</strong> for voice and claim validation.</li>
-<li><strong>AEO relevance engineering</strong> for passages and schema on the long-tail.</li>
-</ul>
-</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_pseo-framework">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#non-negotiable-rule-set">Non-negotiable rule set</a></li><li><a href="#template-structure">Template structure</a></li><li><a href="#build-loop">Build loop</a></li><li><a href="#safety-gates">Safety gates</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#quality-gates">Quality gates</a></li><li><a href="#what-this-connects-to">What this connects to</a></li></ol></nav></aside></div>
+<ol>
+<li>Use-case map: every variable combination tied to a real buyer question, with empty combinations cut.</li>
+<li>Infrastructure gate report: per-template TTFB and payload budgets, plus a 499-by-AI-bot-UA log check.</li>
+<li>Template directory per page type: <code>template.md</code>, <code>variables.csv</code>, <code>differentiation-rubric.md</code>, <code>review-checklist.md</code>.</li>
+<li>Differentiation rubric with a per-page coverage list (entities, concepts, questions), not a keyword target.</li>
+<li>Passage-structured template: H2-bounded answer blocks sized for the chunker and readable by a human.</li>
+<li>Authorship and experience layer: real bylines, first-hand markers, use-case anchors in nav and footer.</li>
+<li>Off-domain corroboration map: which surfaces earn citations per cluster before the volume play runs.</li>
+<li>Original-research dataset feeding proprietary facts into the programmatic layer.</li>
+<li>Two-gate review system: template approval on five samples, then 1-in-10 randomized page review.</li>
+<li>Three-layer weekly measurement per template: Presence, Readiness, Business Impact, with confidence buckets.</li>
+<li>Monthly prune job with a named owner and an impression floor.</li>
+<li>Penalty-cascade watch covering Google plus every AI surface drawing from its index.</li>
+</ol>
+</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_pseo-framework">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav></aside></div>
 </main>
 <script src="/assets/js/pb-visuals.js" defer></script>
 <footer class="static-footer">

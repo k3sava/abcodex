@@ -1385,7 +1385,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (14 ops) [Tier A]
 
 ## Contradictions
-- [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-agents-as-tools.md) — Agents-as-team vs. agents-as-tools
+- [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-tools.md) — Agents-as-team vs. agents-as-tools
 - [`con_build-quietly-vs-distribution-first`](synthesis/contradictions/build-quietly-vs-distribution-first.md) — Build quietly vs. distribution-as-moat
 - [`con_circle-of-competence-vs-iterative-deployment`](synthesis/contradictions/circle-of-competence-vs-iterative-deployment.md) — Stay inside the circle vs. ship into the unknown
 - [`con_concentrate-vs-barbell-allocation`](synthesis/contradictions/concentrate-vs-barbell-allocation.md) — Power-law concentration vs. barbell diversification
@@ -1408,20 +1408,20 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Write conversion copy on direct-response fundamentals](playbooks/copywriting/copywriting-mastery.md)
 - [Strip the AI-writing tells out of any draft](playbooks/copywriting/humanizer.md)
 - [Grade a landing page on seven sections before launch](playbooks/copywriting/lp-cro-rubric.md)
-- [The Converting-Copy Playbook](playbooks/copywriting/the-converting-copy-playbook.md)
+- [The Converting-Copy Playbook: five fundamentals as one routine](playbooks/copywriting/the-converting-copy-playbook.md)
 - [Apply sentence-level craft that holds up in any format](playbooks/copywriting/writing-craft.md)
-- [The Mental Models Operating System](playbooks/decision-quality/the-mental-models-operating-system.md)
-- [Design principles playbook](playbooks/design/design-principles.md)
+- [The Mental Models Operating System: Kahneman's biases meet Munger's latticework](playbooks/decision-quality/the-mental-models-operating-system.md)
+- [Design principles for marketing assets](playbooks/design/design-principles.md)
 - [Architect content with design thinking, from page structure to prototype](playbooks/design/design-thinking-for-content.md)
 - [Build help docs from taxonomy to published article](playbooks/design/help-documentation.md)
 - [Define an ICP from firmographics, triggers, and macro trends](playbooks/jtbd/icp-definition.md)
 - [Plan a campaign across channels, calendar, webinars, and nurture](playbooks/launch/campaign-strategy.md)
 - [Run a tiered launch that matches effort to impact](playbooks/launch/launch-plan.md)
-- [Measurement framework playbook](playbooks/measurement/measurement-framework.md)
+- [PMM measurement framework](playbooks/measurement/measurement-framework.md)
 - [Messaging matrix and homepage rollout](playbooks/messaging/messaging-matrix.md)
 - [Coach PMM work through iterative review that retains feedback](playbooks/messaging/pmm-coaching-framework.md)
 - [Compose a narrative from master story to message house to pillar copy](playbooks/narrative/narrative-compose.md)
 - [Build a positioning document from customer evidence to live validation](playbooks/positioning/positioning-document.md)
-- [Run pricing as a function, not a sales-team task](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
-- [The Tactical Empathy Discovery Playbook](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
+- [Run pricing as a function, not a sales-team task. Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine](playbooks/pricing/the-pricing-as-strategic-function-playbook.md)
+- [The Tactical Empathy Discovery Playbook: Voss's five tools for discovery and hard conversations](playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md)
 - [Equip sellers with battlecards, ROI tools, decks, and training](playbooks/sales-enablement/sales-enablement.md)

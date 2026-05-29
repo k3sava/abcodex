@@ -4,18 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Strip the AI-writing tells out of any draft · a builder's codex</title>
-<meta name="description" content="Strip the AI-writing tells out of any draft: Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detecti">
+<meta name="description" content="Strip the AI-writing tells out of any draft: A humanizer audits a draft against the full anti-AI-writing canon, then rewrites the failing parts so the output reads like a sharp human typed it. Quality">
 <link rel="canonical" href="https://abcodex.iamkesava.com/play/pb_humanizer/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Strip the AI-writing tells out of any draft · a builder's codex">
-<meta property="og:description" content="Strip the AI-writing tells out of any draft: Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detecti">
+<meta property="og:description" content="Strip the AI-writing tells out of any draft: A humanizer audits a draft against the full anti-AI-writing canon, then rewrites the failing parts so the output reads like a sharp human typed it. Quality">
 <meta property="og:url" content="https://abcodex.iamkesava.com/play/pb_humanizer/">
 <meta property="og:image" content="https://abcodex.iamkesava.com/og/play/pb_humanizer.png">
 <meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Strip the AI-writing tells out of any draft · a builder's codex">
-<meta name="twitter:description" content="Strip the AI-writing tells out of any draft: Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detecti">
+<meta name="twitter:description" content="Strip the AI-writing tells out of any draft: A humanizer audits a draft against the full anti-AI-writing canon, then rewrites the failing parts so the output reads like a sharp human typed it. Quality">
 <meta name="twitter:image" content="https://abcodex.iamkesava.com/og/play/pb_humanizer.png">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
 <link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
@@ -173,7 +173,7 @@ main.static pre code{background:transparent;padding:0}
 }
 @media(min-width:1160px){main.static{max-width:1100px}.pb-layout{display:grid;grid-template-columns:1fr 196px;gap:56px;align-items:start}.pb-toc-mobile{display:none}.pb-sidebar{display:block;position:sticky;top:72px;max-height:calc(100vh - 90px);overflow-y:auto}.pb-sidebar .pb-toc{margin:0;background:transparent;border:none;padding:0 0 0 14px;border-left:2px solid var(--line)}.pb-sidebar .pb-toc li::before{display:none}.pb-sidebar .pb-toc a{font-size:.82rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:182px}}
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Strip the AI-writing tells out of any draft","description":"Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detection: rule packs (Vale) → semantic check → LLM rewrite. Single-pass operator workflow. Source synthesis: Wikipedia WikiProject AI Cleanup field guide (rule-source-of-truth), blader/humanizer v2.5.1 (workflow + audit pattern), Cole Schaefer (Honey ","url":"https://abcodex.iamkesava.com/play/pb_humanizer/","step":[{"@type":"HowToStep","position":1,"name":"When to use","text":"Any customer-facing draft before publish: LP, email, blog, content, ad, video script. Especially before any LLM-drafted content that the team will sign their name to.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#when-to-use"},{"@type":"HowToStep","position":2,"name":"The 11 detection rule packs","text":"| Rule pack | Severity | Source | |---|---|---| | KillList | error | operator-voice canon | | WeakVerbs | warning | sentence craft |","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#the-11-detection-rule-packs"},{"@type":"HowToStep","position":3,"name":"Three layers","text":"1. **Detection.** Vale rule packs flag every violation with line, match, severity, and fix hint. 2. **Semantic check.** LLM ingests surrounding paragraph + Vale finding + voice DNA principles → produces a single replacement sentence/clause that fixes the violation, preserves the underlying claim, matches the asset's voice. Non-destructive: writes to a sibling file for human review. 3. **Audit sign","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#three-layers"},{"@type":"HowToStep","position":4,"name":"Output","text":"- Per-violation table: rule × severity × line × match × why × fix-hint. - Single-line summary: PASS / FAIL N errors M warnings. - Sibling file `<asset>.humanized.md` with rewrites applied span by span (when rewrite flag is on).","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#output"},{"@type":"HowToStep","position":5,"name":"Exit codes","text":"- 0, clean (warnings allowed unless strict). - 1, error-level violations found. - 2, file/tool not available.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#exit-codes"},{"@type":"HowToStep","position":6,"name":"Composes with","text":"- **Voice-enforce gate**, voice-enforce is the gate; humanizer is the editor that produces the rewrite. - **CRO rubric**, distinct surface. CRO fails on structure; humanizer fails on voice. - **Preflight**, humanizer is the strict superset of voice-enforce.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#composes-with"},{"@type":"HowToStep","position":7,"name":"Refusal patterns","text":"- **Substrate gap.** If brand-voice canon is missing or stale, refuse to rewrite, would invent voice instead of inheriting it. - Internal-spec asset (substrate, raw, intel), bypass automatically. - Empty asset / non-markdown, exit 2 with explanation.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#refusal-patterns"},{"@type":"HowToStep","position":8,"name":"Calibration","text":"Track under taste-type \"voice-enforcement\" and \"humanizer-rewrite.\" Brier signal: post-publish reader-detection rate. Look for low AI-detection rate on the published page.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#calibration"},{"@type":"HowToStep","position":9,"name":"Common failure modes","text":"- Rewriting without the brand-voice canon loaded → drift. The rewrite invents voice instead of inheriting it. - Treating the rule packs as static. Every new model variant produces new tells; the audit-layer feedback loop must run. - Auto-merging rewrites without human review. - Running humanizer AFTER claim-verify. Run voice gates before truth gates so substrate-cited claims are not over-rewritten","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#common-failure-modes"},{"@type":"HowToStep","position":10,"name":"Why this matters","text":"Detection alone catches the gap. Without the rewrite layer, operators get a fail report and fix by hand, that is the gate's role, not the editor's. With the humanizer, the operator gets a draft + a reviewable rewrite in one pass. The compound is read-time-to-ship reduction.","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#why-this-matters"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Strip the AI-writing tells out of any draft","item":"https://abcodex.iamkesava.com/play/pb_humanizer/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/","name":"Evals are systematic data analysis on your LLM application, start with error analysis, not tests"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/","name":"Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_humanizer/#webpage","url":"https://abcodex.iamkesava.com/play/pb_humanizer/","name":"Strip the AI-writing tells out of any draft","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"HowTo","name":"Strip the AI-writing tells out of any draft","description":"A humanizer audits a draft against the full anti-AI-writing canon, then rewrites the failing parts so the output reads like a sharp human typed it. Quality bar: a reader who did not write it cannot tell a model touched it, and the verbatim claims still trace to a source. Detection without rewrite leaves an operator a fail report and a manual fix. A rewrite without a verification pass swaps one set","url":"https://abcodex.iamkesava.com/play/pb_humanizer/","step":[{"@type":"HowToStep","position":1,"name":"Load the brand-voice canon before you touch a word.","text":"The first move is to refuse to start without the voice source. A humanizer that rewrites against no canon does not remove AI voice. It invents a new one. The rewrite layer needs a specific human's word habits, rhythm, and point of view to inherit, or it produces a different flavor of generic.  Voice is not decoration you add at the end. It is the thing AI cannot clone, because it comes from one person's lived experience and a specific way of seeing. Pull the canon: prior pieces by the named voic","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-01"},{"@type":"HowToStep","position":2,"name":"Run rule-pack detection. Flag every violation with line, match, and fix hint.","text":"Detection is layer one. Vale-style rule packs scan the draft and flag each violation with its line number, the matched string, a severity, and a fix hint. This is mechanical work a tool does well, and it is where you start, the same way an eval shop starts with data analysis on real output, not with a theory of what could be wrong.  The eleven rule packs, from most to least severe: Negative parallelism is the big one because it is the single most reliable AI tell, and it survives a casual read. ","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-02"},{"@type":"HowToStep","position":3,"name":"Score each failure mode binary. The output either has the tell or it does not.","text":"Do not grade voice on a 1-to-5 scale. A Likert score hides the decision and produces an average that looks reasonable while the worst cases slip through. Each rule pack is a binary judge: the kill-list word is present or absent, the sentence is negative-parallel or it is not. Build narrow checks per failure mode, validate them against human-labeled drafts, and look at the cases where the check and the human disagree.  The same card carries the consequence of getting this wrong: A humanizer that ","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-03"},{"@type":"HowToStep","position":4,"name":"Rewrite the failing spans with the voice canon and the surrounding paragraph loaded.","text":"Layer two is the semantic rewrite. For each flagged span, feed the model three things: the surrounding paragraph, the specific violation, and the voice DNA. Ask for one replacement sentence or clause that fixes the violation, preserves the underlying claim, and matches the asset's voice. Write the result to a sibling file. Never overwrite the source. This is where the three-pass discipline pays off. The structural pass set the argument. The rewrite is the voice pass: same claim, this brand's mou","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-04"},{"@type":"HowToStep","position":5,"name":"Protect every verbatim quote and cited claim from the rewrite.","text":"The rewrite layer wants to smooth everything, including the things that must stay exact. Quarantine them first. An operator quote is immutable: never strip its em dashes, never paraphrase it, never stitch two turns into one. The same rule governs any factual claim that traces to a source card. This is the failure Sourav names. When you ask AI for \"verbatim,\" it fills gaps with its own judgment, trims hedges, and stitches sentences, producing output that looks sourced but is fabricated.  Lock the","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-05"},{"@type":"HowToStep","position":6,"name":"Verify the rewrite against the source. Run voice gates before truth gates.","text":"Sequencing matters. Run the voice rewrite first, then verify facts, not the other way around. If you verify first, the rewrite re-opens claims you already checked. Once the spans are rewritten, every generated sentence gets checked against the source it came from, by a human, before it enters the document.  The risk scales with how thin and contradictory the inputs are. Run a model across many loose inputs with no checkpoint and it stops analyzing and starts inventing.  The checkpoint is not opt","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-06"},{"@type":"HowToStep","position":7,"name":"Run the signature pass. Ask the model what still gives it away.","text":"After detection and rewrite, ask one question: what makes this obviously AI generated? Record the answer. If it names a tell the rule packs missed, add that tell to the pack queue. This is the loop that keeps the play current. Every new model variant produces new tells, and a static rule set goes stale the way a static battlecard does. Watch for the paradox that names the real failure. If you write only through a model, you have no samples of your own voice left to feed it. You have become the t","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-07"},{"@type":"HowToStep","position":8,"name":"Ship the deliverables and route the asset to the right gate.","text":"Produce three artifacts: a per-violation table (rule, severity, line, match, why, fix hint), a one-line summary (PASS, or FAIL with the error and warning counts), and a sibling file with the rewrites applied span by span when the rewrite flag is on. Then place the play in the stack. A humanizer is the editor, not the gate. Voice-enforce is the gate that blocks; the humanizer produces the reviewable rewrite. Internal-spec assets, raw notes, and intel files bypass automatically, because they were ","url":"https://abcodex.iamkesava.com/play/pb_humanizer/#step-08"}],"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"playbooks","item":"https://abcodex.iamkesava.com/playbooks/"},{"@type":"ListItem","position":3,"name":"Strip the AI-writing tells out of any draft","item":"https://abcodex.iamkesava.com/play/pb_humanizer/"}]},{"@type":"ItemList","name":"Insights this playbook builds on","itemListElement":[{"@type":"ListItem","position":1,"url":"https://abcodex.iamkesava.com/ins/ins_handley-voice-as-moat-against-ai/","name":"In an AI-flooded content market, voice is the only defensible advantage, distinct, authentic, sounds like one source"},{"@type":"ListItem","position":2,"url":"https://abcodex.iamkesava.com/ins/ins_madeleine-work-ai-strips-humanity-from-marketing/","name":"AI-generated marketing materials strip out the humanity that makes content compelling."},{"@type":"ListItem","position":3,"url":"https://abcodex.iamkesava.com/ins/ins_shivangi-gautam-word-salad-critique/","name":"LinkedIn thought leadership is often word salad with no real point."},{"@type":"ListItem","position":4,"url":"https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-mirroring-beats-paraphrase/","name":"AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase"},{"@type":"ListItem","position":5,"url":"https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-source-llm-assembly/","name":"Customer language is the source material for conversion copy; the LLM is the assembly layer, not the author"},{"@type":"ListItem","position":6,"url":"https://abcodex.iamkesava.com/ins/ins_schafer-three-pass-writing-process/","name":"Three sequential passes, pole + headline first, voice second, integration third, single-pass writing collapses persuasion and personality into mush"},{"@type":"ListItem","position":7,"url":"https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy/","name":"AI quotes are only as good as the instruction that produced them."},{"@type":"ListItem","position":8,"url":"https://abcodex.iamkesava.com/ins/ins_pierri-ai-positioning-needs-human-checkpoints/","name":"Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors"}]},{"@type":"WebPage","@id":"https://abcodex.iamkesava.com/play/pb_humanizer/#webpage","url":"https://abcodex.iamkesava.com/play/pb_humanizer/","name":"Strip the AI-writing tells out of any draft","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".pb-step h3",".pb-operator-quote p:first-child"]},"isPartOf":{"@id":"https://abcodex.iamkesava.com/#org"}}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -188,9 +188,24 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static" id="main" tabindex="-1">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Strip the AI-writing tells out of any draft</div><h1>Strip the AI-writing tells out of any draft</h1><p>Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detection: rule packs (Vale) → semantic check → LLM rewrite. Single-pass operator workflow.</p>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/playbooks/">playbooks</a> · Strip the AI-writing tells out of any draft</div><h1>Strip the AI-writing tells out of any draft</h1><p>A humanizer audits a draft against the full anti-AI-writing canon, then rewrites the failing parts so the output reads like a sharp human typed it. Quality bar: a reader who did not write it cannot tell a model touched it, and the verbatim claims still trace to a source. Detection without rewrite leaves an operator a fail report and a manual fix. A rewrite without a verification pass swaps one set of tells for fabricated facts. The play earns its keep only when both run in one pass.</p>
 
-<p>Source synthesis: Wikipedia WikiProject AI Cleanup field guide (rule-source-of-truth), blader/humanizer v2.5.1 (workflow + audit pattern), Cole Schaefer (Honey Copy sentence craft), Joanna Wiebe (Copyhackers conversion canon), per-claim factuality eval (Hamel + Shreya, <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/">Evals are systematic data analysis on your LLM application, start with error analysis, not tests</a>, <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</a>).</p><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/" title="Evals are systematic data analysis on your LLM application, start with error analysis, not tests">Hamel Husain · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#the-11-detection-rule-packs">The 11 detection rule packs</a></li><li><a href="#three-layers">Three layers</a></li><li><a href="#output">Output</a></li><li><a href="#exit-codes">Exit codes</a></li><li><a href="#composes-with">Composes with</a></li><li><a href="#refusal-patterns">Refusal patterns</a></li><li><a href="#calibration">Calibration</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#why-this-matters">Why this matters</a></li></ol></nav><article><div class="pbv" data-observe aria-label="Humanizer — 11 detection rule packs">
+<p>The reason this matters is structural, not stylistic. As models commoditize competent prose, the scarce thing is prose that sounds like one specific human. Voice is the moat that survives an AI-flooded feed. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_ai-defensibility-comes-from-non-ai/">AI defensibility comes from non-AI moats</a> <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_copywriting-craft-fundamentals/">Copywriting craft is built on five reinforcing fundamentals</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"the only defensible advantage is a distinctive, authentic voice that sounds like it could only come from one source"</p>
+<p class="pb-quote-attr">· Ann Handley, Everybody Writes, 2024 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_handley-voice-as-moat-against-ai/">“In an AI-flooded content…”</a></p>
+</blockquote><div class="pb-insight-chips"><span class="pb-insight-chips-label">Insights used</span><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_handley-voice-as-moat-against-ai/" title="In an AI-flooded content market, voice is the only defensible advantage, distinct, authentic, sounds like one source">Ann Handley · 2024</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_madeleine-work-ai-strips-humanity-from-marketing/" title="AI-generated marketing materials strip out the humanity that makes content compelling.">Madeleine Work · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_shivangi-gautam-word-salad-critique/" title="LinkedIn thought leadership is often word salad with no real point.">Shivangi Gautam · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-mirroring-beats-paraphrase/" title="AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase">Nicolas Cole · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_schafer-three-pass-writing-process/" title="Three sequential passes, pole + headline first, voice second, integration third, single-pass writing collapses persuasion and personality into mush">Cole Schafer · 2024</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy/" title="AI quotes are only as good as the instruction that produced them.">Sourav Mohanty · 2026</a><a class="pb-insight-chip" href="https://abcodex.iamkesava.com/ins/ins_pierri-ai-positioning-needs-human-checkpoints/" title="Running AI on multiple inputs simultaneously without structured validation checkpoints produces fabricated output, not analysis errors">Anthony Pierri · 2026</a></div><div class="pb-layout"><div class="pb-article-col"><nav class="pb-toc pb-toc-mobile"><p class="pb-toc-label">In this playbook</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav><article><h2 id="when-to-use">When to use</h2>
+
+<ul>
+<li>Any customer-facing draft before publish: landing page, email, blog, ad, video script.</li>
+<li>Especially before LLM-drafted content the team will sign its name to.</li>
+<li>When a piece reads competent but flat, and nobody can say why.</li>
+<li>When a reviewer says "this sounds like AI" and you need a checklist, not a vibe.</li>
+<li>Before sending raw drafts up the chain, where polish without personality reads as effort to hide that nobody thought hard.</li>
+</ul>
+
+<h2 id="how-to-use">How to use</h2><div class="pbv" data-observe aria-label="Humanizer — 11 detection rule packs">
   <span class="pbv-eyebrow">Architectural diagram · 11 detection rule packs</span>
   <p class="pbv-vis-title">Strip the AI Tells</p>
 
@@ -233,77 +248,142 @@ main.static pre code{background:transparent;padding:0}
     <span>Channels: Wikipedia AI Cleanup · Cole Schafer · Joanna Wiebe</span>
     <span>abcodex</span>
   </div>
-</div><h2 id="when-to-use">When to use</h2>
+</div>
 
-<p>Any customer-facing draft before publish: LP, email, blog, content, ad, video script. Especially before any LLM-drafted content that the team will sign their name to.</p>
+<div class="pb-step"><h3 id="step-01"><span class='step-num-badge'>01</span> Load the brand-voice canon before you touch a word.</h3>
 
-<h2 id="the-11-detection-rule-packs">The 11 detection rule packs</h2>
+<p>The first move is to refuse to start without the voice source. A humanizer that rewrites against no canon does not remove AI voice. It invents a new one. The rewrite layer needs a specific human's word habits, rhythm, and point of view to inherit, or it produces a different flavor of generic. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_ai-defensibility-comes-from-non-ai/">AI defensibility comes from non-AI moats</a></p>
 
-<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Rule pack</th><th>Severity</th><th>Source</th></tr></thead><tbody><tr><td>KillList</td><td>error</td><td>operator-voice canon</td></tr><tr><td>WeakVerbs</td><td>warning</td><td>sentence craft</td></tr><tr><td>AbstractNouns</td><td>warning</td><td>conversion canon</td></tr><tr><td>ThroatClearing</td><td>error</td><td>operator-voice</td></tr><tr><td>Cliches</td><td>warning</td><td>AI-fingerprint canon</td></tr><tr><td>BannedVocabulary</td><td>error</td><td>brand voice DNA, dead AI vocabulary</td></tr><tr><td>NegativeParallelism</td><td>error (the big one)</td><td>the most common AI tell, "It's not X, it's Y"</td></tr><tr><td>MetaCommentary</td><td>error</td><td>"In conclusion," "It's worth noting that…"</td></tr><tr><td>ParticiplePhrases</td><td>warning</td><td>overused construction in AI prose</td></tr><tr><td>ChatbotArtifacts</td><td>error</td><td>"Certainly!", "Great question!", "I'd be happy to…"</td></tr><tr><td>CopulaAvoidance</td><td>warning</td><td>overuse of "to be" verbs</td></tr><tr><td>DeadPhrases</td><td>error</td><td>"delve," "unleash," "tapestry," "navigate the landscape"</td></tr></tbody></table></div>
+<p>Voice is not decoration you add at the end. It is the thing AI cannot clone, because it comes from one person's lived experience and a specific way of seeing. Pull the canon: prior pieces by the named voice, the kill-list, the cadence rules, the words this brand never uses. If that substrate is missing or stale, stop. Refuse to rewrite. You would be guessing.</p>
 
-<p>Negative parallelism is THE BIG ONE because every LLM produces it dozens of times per response. Detection alone catches the gap; humanizer closes it with a rewrite layer.</p>
+<blockquote>
+<p>I want the ugly first draft.</p>
+<p>· Madeleine Work, LinkedIn, 2026-04-10</p>
+<p><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_madeleine-work-ai-strips-humanity-from-marketing/">AI-generated marketing materials strip out the humanity that makes content compelling.</a></p>
+</blockquote>
+<p>Madeleine's point is the operating principle for this whole play. AI takes the essence of a message, polishes it, and strips out the humanity. The raw take is the asset. The humanizer's job is to keep the rough human edge while removing the machine residue, not to sand both off. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_linde-hasker-human-insight-over-ai/">Even OpenAI knows AI can&#39;t replace human strategic thinking for content strategy.</a></p>
 
-<h2 id="three-layers">Three layers</h2>
+</div><div class="pb-step"><h3 id="step-02"><span class='step-num-badge'>02</span> Run rule-pack detection. Flag every violation with line, match, and fix hint.</h3>
+
+<p>Detection is layer one. Vale-style rule packs scan the draft and flag each violation with its line number, the matched string, a severity, and a fix hint. This is mechanical work a tool does well, and it is where you start, the same way an eval shop starts with data analysis on real output, not with a theory of what could be wrong. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_eval-as-data-analysis/">Evals are data analysis, single judge, binary rubrics, error analysis first</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"It really doesn't have to be scary or unapproachable. It really is, at its core, data analytics on your LLM application."</p>
+<p class="pb-quote-attr">· Hamel Husain & Shreya Shankar, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/">“Evals are systematic data…”</a></p>
+</blockquote>
+<p>The eleven rule packs, from most to least severe:</p>
+
+<div class="md-table-wrap"><table class="md-table"><thead><tr><th>Rule pack</th><th>Severity</th><th>What it catches</th></tr></thead><tbody><tr><td>NegativeParallelism</td><td>error (the big one)</td><td>"It's not X, it's Y." Every model produces dozens per response.</td></tr><tr><td>BannedVocabulary</td><td>error</td><td>Dead AI vocabulary and brand words the team never uses.</td></tr><tr><td>KillList</td><td>error</td><td>The brand's banned-word list: the inflated verbs and consultant nouns the team has sworn off.</td></tr><tr><td>ThroatClearing</td><td>error</td><td>"It's worth noting," "Furthermore," openers that say nothing.</td></tr><tr><td>MetaCommentary</td><td>error</td><td>"In conclusion," "It's worth noting that…"</td></tr><tr><td>ChatbotArtifacts</td><td>error</td><td>"Certainly!", "Great question!", "I'd be happy to…"</td></tr><tr><td>DeadPhrases</td><td>error</td><td>"tapestry," "navigate the landscape," "in today's fast-paced world."</td></tr><tr><td>WeakVerbs</td><td>warning</td><td>"to be" where a real verb does the work.</td></tr><tr><td>AbstractNouns</td><td>warning</td><td>Nouns that hide the thing actually happening.</td></tr><tr><td>Cliches</td><td>warning</td><td>The AI-fingerprint canon.</td></tr><tr><td>ParticiplePhrases</td><td>warning</td><td>Overused construction in machine prose.</td></tr></tbody></table></div>
+
+<p>Negative parallelism is the big one because it is the single most reliable AI tell, and it survives a casual read. Detection alone catches the gap. It does not close it.</p>
+
+</div><div class="pb-step"><h3 id="step-03"><span class='step-num-badge'>03</span> Score each failure mode binary. The output either has the tell or it does not.</h3>
+
+<p>Do not grade voice on a 1-to-5 scale. A Likert score hides the decision and produces an average that looks reasonable while the worst cases slip through. Each rule pack is a binary judge: the kill-list word is present or absent, the sentence is negative-parallel or it is not. Build narrow checks per failure mode, validate them against human-labeled drafts, and look at the cases where the check and the human disagree. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"1-2-3-4-5 is a weasel way of not making a decision."</p>
+<p class="pb-quote-attr">· Hamel Husain & Shreya Shankar, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">“Build LLM-as-judge as binary…”</a></p>
+</blockquote>
+<p>The same card carries the consequence of getting this wrong:</p>
+
+<blockquote class="pb-operator-quote">
+<p>"When people lose trust in your evals, they lose trust in you."</p>
+<p class="pb-quote-attr">· Hamel Husain & Shreya Shankar, Lenny's Podcast, 2026-04-28 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">“Build LLM-as-judge as binary…”</a></p>
+</blockquote>
+<p>A humanizer that flags false positives gets ignored inside a week. Keep the judges few, narrow, and binary, and retire a pack once the model stops producing that tell.</p>
+
+</div><div class="pb-step"><h3 id="step-04"><span class='step-num-badge'>04</span> Rewrite the failing spans with the voice canon and the surrounding paragraph loaded.</h3>
+
+<p>Layer two is the semantic rewrite. For each flagged span, feed the model three things: the surrounding paragraph, the specific violation, and the voice DNA. Ask for one replacement sentence or clause that fixes the violation, preserves the underlying claim, and matches the asset's voice. Write the result to a sibling file. Never overwrite the source.</p>
+
+<p>This is where the three-pass discipline pays off. The structural pass set the argument. The rewrite is the voice pass: same claim, this brand's mouth. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_schafer-three-pass-writing-process/">Three sequential passes, pole + headline first, voice second, integration third, single-pass writing collapses persuasion and personality into mush</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Pass 1 identifies the pain/pleasure polarity and crafts the headline. Pass 2 injects the brand's distinctive voice and personality. Pass 3 integrates, ensuring pain clarity and personality are in harmony, cutting anything that entertains but does not persuade."</p>
+<p class="pb-quote-attr">· Cole Schafer, Sticky Notes, 2024 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_schafer-three-pass-writing-process/">“Three sequential passes, pole…”</a></p>
+</blockquote>
+<p>The rewrite mirrors how the best conversion copy gets made. It is assembled from real human language, not composed from a brief. The model recognizes and arranges. It does not author. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-source-llm-assembly/">Customer language is the source material for conversion copy; the LLM is the assembly layer, not the author</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"The world's best conversion copywriters don't write copy. They steal it."</p>
+<p class="pb-quote-attr">· Nicolas Cole, Build and Launch a VOC Landing Page, 2026-05-07 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-source-llm-assembly/">“Customer language is the…”</a></p>
+</blockquote>
+<p>When the source draft was built from voice-of-customer data, hold the verbatim phrases. A summarizer smooths the exact words into clean themes, and the clean theme is a description. The phrase is the hook. Descriptions do not convert. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-mirroring-beats-paraphrase/">AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"Resonance comes from mirroring, not paraphrase."</p>
+<p class="pb-quote-attr">· Nicolas Cole, Build and Launch a VOC Landing Page, 2026-05-07 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-mirroring-beats-paraphrase/">“AI synthesis smooths over…”</a></p>
+</blockquote>
+</div><div class="pb-step"><h3 id="step-05"><span class='step-num-badge'>05</span> Protect every verbatim quote and cited claim from the rewrite.</h3>
+
+<p>The rewrite layer wants to smooth everything, including the things that must stay exact. Quarantine them first. An operator quote is immutable: never strip its em dashes, never paraphrase it, never stitch two turns into one. The same rule governs any factual claim that traces to a source card.</p>
+
+<p>This is the failure Sourav names. When you ask AI for "verbatim," it fills gaps with its own judgment, trims hedges, and stitches sentences, producing output that looks sourced but is fabricated. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy/">AI quotes are only as good as the instruction that produced them.</a> Lock the constraints: one uninterrupted turn only, no merging, no cleanup, preserve the hedges and fillers, keep the speaker label and context. A humanizer that rewrites inside a quote has manufactured a fake quote.</p>
+
+</div><div class="pb-step"><h3 id="step-06"><span class='step-num-badge'>06</span> Verify the rewrite against the source. Run voice gates before truth gates.</h3>
+
+<p>Sequencing matters. Run the voice rewrite first, then verify facts, not the other way around. If you verify first, the rewrite re-opens claims you already checked. Once the spans are rewritten, every generated sentence gets checked against the source it came from, by a human, before it enters the document. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></p>
+
+<p>The risk scales with how thin and contradictory the inputs are. Run a model across many loose inputs with no checkpoint and it stops analyzing and starts inventing. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_execution-cheap-judgement-scarce/">Execution is becoming free; judgement is the part that doesn&#39;t compress</a></p>
+
+<blockquote class="pb-operator-quote">
+<p>"AI needs A LOT of help to do a good job (way more than the average person realizes)."</p>
+<p class="pb-quote-attr">· Anthony Pierri, AI needs A LOT of help to do a good job, 2026-05-10 · <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_pierri-ai-positioning-needs-human-checkpoints/">“Running AI on multiple…”</a></p>
+</blockquote>
+<p>The checkpoint is not optional and it is not automatable. The model compresses the production. It does not compress the judgment about whether the rewritten line is true and whether it sounds like the brand. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_linde-hasker-human-insight-over-ai/">Even OpenAI knows AI can&#39;t replace human strategic thinking for content strategy.</a></p>
+
+</div><div class="pb-step"><h3 id="step-07"><span class='step-num-badge'>07</span> Run the signature pass. Ask the model what still gives it away.</h3>
+
+<p>After detection and rewrite, ask one question: what makes this obviously AI generated? Record the answer. If it names a tell the rule packs missed, add that tell to the pack queue. This is the loop that keeps the play current. Every new model variant produces new tells, and a static rule set goes stale the way a static battlecard does.</p>
+
+<p>Watch for the paradox that names the real failure. If you write only through a model, you have no samples of your own voice left to feed it. You have become the thing you were trying to hide. The signature pass is the discipline that keeps a human in the draft. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_aishwarya-hariharan-claude-voice-paradox/">If you use Claude to write and it asks for your samples, are you Claude?</a></p>
+
+</div><div class="pb-step"><h3 id="step-08"><span class='step-num-badge'>08</span> Ship the deliverables and route the asset to the right gate.</h3>
+
+<p>Produce three artifacts: a per-violation table (rule, severity, line, match, why, fix hint), a one-line summary (PASS, or FAIL with the error and warning counts), and a sibling file with the rewrites applied span by span when the rewrite flag is on.</p>
+
+<p>Then place the play in the stack. A humanizer is the editor, not the gate. Voice-enforce is the gate that blocks; the humanizer produces the reviewable rewrite. Internal-spec assets, raw notes, and intel files bypass automatically, because they were never meant to read like polished prose. The point is not zero AI involvement. The point is that the published page does not read like a machine wrote it.</p>
+
+</div><h2 id="check-your-work">Check your work</h2>
+
+<ul>
+<li>Brand-voice canon was loaded before any rewrite. If it was missing or stale, the play stopped.</li>
+<li>Every rule pack ran. Negative parallelism specifically was checked, not assumed clean.</li>
+<li>Each failure mode scored binary, present or absent, not on a 1-to-5 scale.</li>
+<li>Every verbatim operator quote is byte-for-byte intact: em dashes kept, no paraphrase, no stitching.</li>
+<li>Every rewritten sentence was verified against its source by a human before entering the document.</li>
+<li>Voice gates ran before truth gates, so substrate-cited claims were not over-rewritten.</li>
+<li>The signature pass ran and any new tells went into the rule-pack queue.</li>
+<li>The rewrite kept the human roughness and removed only the machine residue.</li>
+</ul>
+
+<h2 id="what-goes-wrong">What goes wrong</h2>
+
+<ul>
+<li><strong>Rewriting with no voice canon loaded.</strong> The rewrite invents a voice instead of inheriting one, and the output drifts into a different generic. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_ai-defensibility-comes-from-non-ai/">AI defensibility comes from non-AI moats</a></li>
+<li><strong>Treating the rule packs as static.</strong> Every model variant produces new tells. Without the signature-pass feedback loop, the packs go stale. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_verification-as-human-job/">Verification, not execution, is the irreplaceable human job</a></li>
+<li><strong>Auto-merging rewrites without human review.</strong> The model compresses production, not judgment. A merge with no checkpoint ships fabrication that reads clean. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/pat/pat_execution-cheap-judgement-scarce/">Execution is becoming free; judgement is the part that doesn&#39;t compress</a></li>
+<li><strong>Running the humanizer after the truth gate.</strong> Voice gates must run before truth gates, or the rewrite re-opens claims you already verified.</li>
+<li><strong>Stopping at detection.</strong> A fail report with no rewrite leaves the operator to fix by hand, which is the gate's job, not the editor's.</li>
+<li><strong>Smoothing the verbatim phrase.</strong> A summarizer turns the exact buyer words into a clean theme, and the copy stops resonating. Mirror the words. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_nicolas-cole-voc-mirroring-beats-paraphrase/">AI synthesis smooths over verbatim buyer phrases: mine Reddit and review sites directly, mirror the words, do not paraphrase</a></li>
+<li><strong>Fabricating quotes under the banner of "verbatim."</strong> Asking AI for a verbatim quote without locked constraints produces stitched, hedge-trimmed fakes that look sourced. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy/">AI quotes are only as good as the instruction that produced them.</a></li>
+<li><strong>Polishing the humanity out.</strong> The fix removes machine residue, not the rough human edge. The raw take was the asset. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_madeleine-work-ai-strips-humanity-from-marketing/">AI-generated marketing materials strip out the humanity that makes content compelling.</a></li>
+<li><strong>Grading voice on a Likert scale.</strong> A 1-to-5 average hides the worst sentences and erodes trust in the whole audit. <a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</a></li>
+</ul>
+
+<h2 id="what-you-get">What you get</h2>
 
 <ol>
-<li><strong>Detection.</strong> Vale rule packs flag every violation with line, match, severity, and fix hint.</li>
-<li><strong>Semantic check.</strong> LLM ingests surrounding paragraph + Vale finding + voice DNA principles → produces a single replacement sentence/clause that fixes the violation, preserves the underlying claim, matches the asset's voice. Non-destructive: writes to a sibling file for human review.</li>
-<li><strong>Audit signature pass.</strong> After detection + optional rewrite, ask the LLM the blader/humanizer audit question:</li>
-<p> > "What makes this obviously AI generated?"</p>
+<li>Per-violation table: rule, severity, line, match, why, and fix hint, one row per finding.</li>
+<li>Single-line summary: PASS, or FAIL with N errors and M warnings.</li>
+<li>Sibling file <code><asset>.humanized.md</code> with the rewrites applied span by span.</li>
+<li>A protected-spans list: every verbatim quote and cited claim quarantined from the rewrite.</li>
+<li>A verification log: each rewritten sentence checked against its source by a human.</li>
+<li>A signature-pass note: what still reads as AI, fed back into the rule-pack queue.</li>
+<li>An exit code for the stack: 0 clean, 1 error-level violations found, 2 file or tool not available.</li>
 </ol>
-
-<p> Record the answer. If it names new tells the rule packs missed, add them to the rule-pack queue. This is the auto-improvement loop.</p>
-
-<h2 id="output">Output</h2>
-
-<ul>
-<li>Per-violation table: rule × severity × line × match × why × fix-hint.</li>
-<li>Single-line summary: PASS / FAIL N errors M warnings.</li>
-<li>Sibling file <code><asset>.humanized.md</code> with rewrites applied span by span (when rewrite flag is on).</li>
-</ul>
-
-<h2 id="exit-codes">Exit codes</h2>
-
-<ul>
-<li>0, clean (warnings allowed unless strict).</li>
-<li>1, error-level violations found.</li>
-<li>2, file/tool not available.</li>
-</ul>
-
-<h2 id="composes-with">Composes with</h2>
-
-<ul>
-<li><strong>Voice-enforce gate</strong>, voice-enforce is the gate; humanizer is the editor that produces the rewrite.</li>
-<li><strong>CRO rubric</strong>, distinct surface. CRO fails on structure; humanizer fails on voice.</li>
-<li><strong>Preflight</strong>, humanizer is the strict superset of voice-enforce.</li>
-</ul>
-
-<h2 id="refusal-patterns">Refusal patterns</h2>
-
-<ul>
-<li><strong>Substrate gap.</strong> If brand-voice canon is missing or stale, refuse to rewrite, would invent voice instead of inheriting it.</li>
-<li>Internal-spec asset (substrate, raw, intel), bypass automatically.</li>
-<li>Empty asset / non-markdown, exit 2 with explanation.</li>
-</ul>
-
-<h2 id="calibration">Calibration</h2>
-
-<p>Track under taste-type "voice-enforcement" and "humanizer-rewrite." Brier signal: post-publish reader-detection rate. Look for low AI-detection rate on the published page.</p>
-
-<h2 id="common-failure-modes">Common failure modes</h2>
-
-<ul>
-<li>Rewriting without the brand-voice canon loaded → drift. The rewrite invents voice instead of inheriting it.</li>
-<li>Treating the rule packs as static. Every new model variant produces new tells; the audit-layer feedback loop must run.</li>
-<li>Auto-merging rewrites without human review.</li>
-<li>Running humanizer AFTER claim-verify. Run voice gates before truth gates so substrate-cited claims are not over-rewritten.</li>
-<li>Stopping at detection. Detection without rewrite leaves operators to fix by hand.</li>
-</ul>
-
-<h2 id="why-this-matters">Why this matters</h2>
-
-<p>Detection alone catches the gap. Without the rewrite layer, operators get a fail report and fix by hand, that is the gate's role, not the editor's. With the humanizer, the operator gets a draft + a reviewable rewrite in one pass. The compound is read-time-to-ship reduction.</p>
-</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_humanizer">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#the-11-detection-rule-packs">The 11 detection rule packs</a></li><li><a href="#three-layers">Three layers</a></li><li><a href="#output">Output</a></li><li><a href="#exit-codes">Exit codes</a></li><li><a href="#composes-with">Composes with</a></li><li><a href="#refusal-patterns">Refusal patterns</a></li><li><a href="#calibration">Calibration</a></li><li><a href="#common-failure-modes">Common failure modes</a></li><li><a href="#why-this-matters">Why this matters</a></li></ol></nav></aside></div>
+</article><div class="static-actions"><a class="primary" href="https://abcodex.iamkesava.com/#/play/pb_humanizer">Open the interactive view →</a></div></div><aside class="pb-sidebar"><nav class="pb-toc"><p class="pb-toc-label">Contents</p><ol><li><a href="#when-to-use">When to use</a></li><li><a href="#how-to-use">How to use</a></li><li><a href="#check-your-work">Check your work</a></li><li><a href="#what-goes-wrong">What goes wrong</a></li><li><a href="#what-you-get">What you get</a></li></ol></nav></aside></div>
 </main>
 <script src="/assets/js/pb-visuals.js" defer></script>
 <footer class="static-footer">

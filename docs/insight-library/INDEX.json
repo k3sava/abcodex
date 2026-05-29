@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:17:57.089Z",
+  "generated_at": "2026-05-29T19:04:42.180Z",
   "counts": {
     "insights": 845,
     "operators": 469,
@@ -36152,7 +36152,7 @@
   ],
   "contradictions": [
     {
-      "path": "synthesis/contradictions/agents-as-team-vs-agents-as-tools.md",
+      "path": "synthesis/contradictions/agents-as-team-vs-tools.md",
       "id": "con_agents-as-team-vs-tools",
       "title": "Agents-as-team vs. agents-as-tools",
       "captured_date": "2026-05-01"
@@ -36254,6 +36254,7 @@
       "title": "Engineer pages so AI assistants cite you, not just rank you",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "aeo",
         "seo",
@@ -36261,17 +36262,40 @@
       ],
       "uses_cards": [
         "ins_aeo-is-gtm-capability",
+        "ins_relevance-engineering-passage-level",
         "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_ghost-citation-gap",
+        "ins_aeo-decided-off-your-domain",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_mike-king-ai-crawler-499-speed-gate",
+        "ins_mike-king-agentic-rag-5-gatekeeper",
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_death-of-the-ultimate-guide",
+        "ins_kyle-poyar-ai-recommendation-share",
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic",
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
         "ins_ai-slop-loop",
-        "ins_ghost-citation-gap"
+        "ins_eli-schwartz-personalized-search-dissolves-position"
+      ],
+      "uses_patterns": [
+        "pat_aeo-triangle",
+        "pat_aeo-experience-gate",
+        "pat_measurement-correlated-short-signals"
       ],
       "originating_operators": [
+        "maja-voje",
+        "mike-king",
         "aleyda-solis",
-        "lily-ray"
-      ],
-      "secondary_sources": [
-        "flywheel/skills/aeo-relevance-engineering/SKILL.md",
-        "flywheel/skills/schema-delta-aeo/SKILL.md"
+        "kevin-indig",
+        "casey-hill",
+        "lily-ray",
+        "rand-fishkin",
+        "kyle-poyar",
+        "eli-schwartz",
+        "brendan-hufford",
+        "amanda-natividad"
       ]
     },
     {
@@ -36280,22 +36304,44 @@
       "title": "Build programmatic pages at scale without a helpful-content penalty",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "seo",
         "aeo",
         "content"
       ],
       "uses_cards": [
+        "ins_crawlability-shapes-everything",
+        "ins_eeat-quality-rater-perspective",
+        "ins_nlp-content-grading-over-keyword-density",
+        "ins_relevance-engineering-passage-level",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_ghost-citation-gap",
+        "ins_death-of-the-ultimate-guide",
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_mike-king-ai-crawler-499-speed-gate",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
         "ins_ai-slop-loop",
-        "ins_ghost-citation-gap"
+        "ins_original-research-as-link-bait"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_aeo-triangle",
+        "pat_aeo-experience-gate",
+        "pat_quality-as-growth-lever",
+        "pat_verification-as-human-job"
       ],
       "originating_operators": [
-        "lily-ray"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/pseo-framework.md",
-        "team-brain/workflows/keyword-research.md",
-        "team-brain/workflows/search-intent-map.md"
+        "aleyda-solis",
+        "lily-ray",
+        "kevin-indig",
+        "mike-king",
+        "amanda-natividad",
+        "casey-hill",
+        "cyrus-shepard",
+        "andy-crestodina"
       ]
     },
     {
@@ -36304,21 +36350,47 @@
       "title": "Gate every public claim against the source that backs it",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "ai-native-gtm",
         "substrate",
         "anti-fabrication"
       ],
       "uses_cards": [
+        "ins_kesava-mandiga-anti-fabrication-as-rule",
         "ins_evals-are-data-analysis-on-llm-apps",
-        "ins_llm-as-judge-binary-not-likert"
+        "ins_llm-as-judge-binary-not-likert",
+        "ins_error-analysis-highest-leverage-eval-step",
+        "ins_make-verification-easy-ai-production",
+        "ins_outcomes-grader-agent-evaluation",
+        "ins_judgment-vs-understanding",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_pierri-batch-transcripts-produce-fabrications",
+        "ins_maja-voje-substrate-first-content-engineering",
+        "ins_ai-slop-loop",
+        "ins_transparency-in-uncertainty",
+        "ins_benevolent-dictator-not-committee"
+      ],
+      "uses_patterns": [
+        "pat_verification-as-human-job",
+        "pat_eval-as-data-analysis",
+        "pat_substrate-runs-loop-humans-run-alignment",
+        "pat_execution-cheap-judgement-scarce"
       ],
       "originating_operators": [
-        "hamel-husain"
-      ],
-      "secondary_sources": [
-        "flywheel/skills/claim-verify/SKILL.md",
-        "flywheel/skills/substrate-cite-check/SKILL.md"
+        "kesava-mandiga",
+        "hamel-husain",
+        "andrej-karpathy",
+        "kevin-indig",
+        "simon-willison",
+        "anthony-pierri",
+        "eugene-yan",
+        "anthropic",
+        "maja-voje",
+        "lily-ray",
+        "aishwarya-naresh-reganti"
       ]
     },
     {
@@ -36327,6 +36399,7 @@
       "title": "Build a persistent knowledge base your AI agents can actually use",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "ai-native-gtm",
         "knowledge",
@@ -36335,14 +36408,38 @@
       "uses_cards": [
         "ins_llm-wiki-pattern",
         "ins_bottleneck-is-context-not-capability",
-        "ins_llms-are-new-os-agents-are-apps"
+        "ins_llms-are-new-os-agents-are-apps",
+        "ins_context-engineering-beats-prompt-engineering",
+        "ins_context-docs-as-battery-packs",
+        "ins_poyar-voje-context-engineering-gap",
+        "ins_rich-context-beats-sophisticated-agents",
+        "ins_second-brain-para",
+        "ins_traces-need-feedback-to-learn",
+        "ins_mine-transcripts-to-promote-config",
+        "ins_judgment-vs-understanding",
+        "ins_kesava-mandiga-substrate-driven-intelligence",
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_most-people-still-using-like"
+      ],
+      "uses_patterns": [
+        "pat_context-not-capability",
+        "pat_verification-as-human-job",
+        "pat_substrate-runs-loop-humans-run-alignment",
+        "pat_build-for-next-model"
+      ],
+      "uses_contradictions": [
+        "con_agents-as-team-vs-tools"
       ],
       "originating_operators": [
-        "andrej-karpathy"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/llm-wiki.md",
-        "team-brain/workflows/self-evolution.md"
+        "andrej-karpathy",
+        "sherwin-wu",
+        "aatir-abdul-rauf",
+        "maja-voje",
+        "kyle-poyar",
+        "harrison-chase",
+        "eugene-yan",
+        "tiago-forte",
+        "kesava-mandiga"
       ]
     },
     {
@@ -36351,19 +36448,49 @@
       "title": "Pressure-test a message on a synthetic buyer panel before you ship",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "messaging",
         "ai-native-gtm",
         "conversion"
       ],
       "uses_cards": [
+        "ins_message-testing-sameness-default",
+        "ins_sameness-perception-is-the-differentiation-barrier",
         "ins_jtbd-interviews-surface-customer-language",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_b2b-buyer-emotion-personal-stakes",
+        "ins_homepage-five-second-trinity",
+        "ins_messaging-equation-personalization-tiers",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy",
+        "ins_judgment-doesnt-compress",
+        "ins_qual-quant-synthesis-claude-code",
         "ins_test-positioning-in-live-sales-pitch"
       ],
-      "originating_operators": [],
-      "secondary_sources": [
-        "flywheel/skills/synthetic-audience-test/SKILL.md",
-        "flywheel/skills/synth-audience/SKILL.md"
+      "uses_patterns": [
+        "pat_differentiation-vs-sameness",
+        "pat_buyer-mindset-not-product-features",
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_frontline-as-pmm-substrate"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
+      ],
+      "originating_operators": [
+        "peep-laja",
+        "gartner",
+        "bob-moesta",
+        "nicolas-cole",
+        "anthony-pierri",
+        "kevin-indig",
+        "sourav-mohanty",
+        "dave-gerhardt",
+        "john-barrows",
+        "else-van-der-berg",
+        "april-dunford"
       ]
     },
     {
@@ -36397,7 +36524,7 @@
       ],
       "originating_operators": [
         "april-dunford",
-        "gartner-research",
+        "gartner",
         "ayo-omojola"
       ]
     },
@@ -36407,6 +36534,7 @@
       "title": "Close the loop from won and lost deals back to positioning",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "competitive",
         "sales-enablement",
@@ -36414,15 +36542,38 @@
       ],
       "uses_cards": [
         "ins_jtbd-interviews-surface-customer-language",
+        "ins_jtbd-switch-interview-saas",
         "ins_no-decision-is-the-real-competitor",
-        "ins_sales-team-detects-positioning-failure-first"
+        "ins_dixon-no-decision-87-percent-indecision",
+        "ins_dixon-hammering-status-quo-backfires",
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_position-against-real-not-ghost-competitors",
+        "ins_battlecard-abc-and-distribution",
+        "ins_battle-cards-as-workflow-primitive",
+        "ins_disha-thakkar-competitive-displacement-readiness-signals",
+        "ins_listening-mode-not-selling-mode",
+        "ins_gerhardt-customer-marketing-listening-program"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_status-quo-is-the-competitor",
+        "pat_buyer-mindset-not-product-features",
+        "pat_frontline-as-pmm-substrate",
+        "pat_verification-as-human-job"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
-        "bob-moesta"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/win-loss-framework.md",
-        "team-brain/workflows/call-intelligence.md"
+        "bob-moesta",
+        "april-dunford",
+        "matt-dixon",
+        "claire-suellentrop",
+        "crayon",
+        "gartner",
+        "disha-thakkar",
+        "shruti-kapoor",
+        "dave-gerhardt"
       ]
     },
     {
@@ -36438,26 +36589,64 @@
         "conversion"
       ],
       "uses_cards": [
-        "ins_homepage-five-second-trinity",
-        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_voc-first-then-positioning",
+        "ins_relational-keywords-replace-internal-language",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
         "ins_schafer-pain-pleasure-polarity",
+        "ins_schafer-three-headline-archetypes",
         "ins_20-percent-rule-headline",
-        "ins_shleyner-clarity-beats-cleverness",
         "ins_shleyner-headline-as-complete-argument",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_miller-caveman-test",
+        "ins_storybrand-customer-is-hero",
+        "ins_homepage-five-second-trinity",
         "ins_harland-benefits-over-pride",
-        "ins_handley-voice-as-moat-against-ai"
+        "ins_write-like-you-speak",
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_case-study-customer-as-hero",
+        "ins_roi-evidence-most-trusted-by-b2b-buyers",
+        "ins_nikolai-golos-specific-cta-outperforms-generic",
+        "ins_mengqi-pei-sticky-cta-friction-removal",
+        "ins_anastasia-kudrow-testimonial-section-answers-three-questions",
+        "ins_ogilvy-we-sell-or-else",
+        "ins_ogilvy-family-test",
+        "ins_schafer-uncomfortable-honesty",
+        "ins_schafer-three-pass-writing-process",
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-ai-cant-violate-expectation",
+        "ins_handley-write-to-one-subscriber",
+        "ins_b2b-landing-page-consumption",
+        "ins_message-testing-sameness-default",
+        "ins_positioning-not-messaging-not-copy"
+      ],
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_buyer-mindset-not-product-features",
+        "pat_differentiation-vs-sameness",
+        "pat_market-and-offer-beat-funnel-optimisation",
+        "pat_frontline-as-pmm-substrate",
+        "pat_narrative-as-strategy",
+        "pat_ai-defensibility-comes-from-non-ai",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_verification-as-human-job"
       ],
       "originating_operators": [
         "cole-schafer",
         "eddie-shleyner",
         "dave-harland",
         "ann-handley",
-        "eugene-schwartz",
         "david-ogilvy",
-        "gary-halbert",
-        "joanna-wiebe",
+        "donald-miller",
         "anthony-pierri",
-        "mihika-kapoor"
+        "nicolas-cole",
+        "momoko-price",
+        "adrienne-barnes",
+        "joel-klettke",
+        "jason-oakley",
+        "aatir-abdul-rauf"
       ]
     },
     {
@@ -36466,22 +36655,44 @@
       "title": "Strip the AI-writing tells out of any draft",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "copywriting",
         "ai-native-gtm",
         "voice"
       ],
       "uses_cards": [
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_madeleine-work-ai-strips-humanity-from-marketing",
+        "ins_shivangi-gautam-word-salad-critique",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_schafer-three-pass-writing-process",
+        "ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
         "ins_evals-are-data-analysis-on-llm-apps",
-        "ins_llm-as-judge-binary-not-likert"
+        "ins_llm-as-judge-binary-not-likert",
+        "ins_aishwarya-hariharan-claude-voice-paradox",
+        "ins_linde-hasker-human-insight-over-ai"
       ],
-      "originating_operators": [],
-      "secondary_sources": [
-        "flywheel/skills/humanizer/SKILL.md",
-        "flywheel/skills/voice-enforce/SKILL.md",
-        "flywheel/skills/voice-enforce-vale/SKILL.md",
-        "https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup",
-        "https://github.com/blader/humanizer"
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_ai-defensibility-comes-from-non-ai",
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_eval-as-data-analysis"
+      ],
+      "originating_operators": [
+        "ann-handley",
+        "madeleine-work",
+        "nicolas-cole",
+        "cole-schafer",
+        "anthony-pierri",
+        "hamel-husain",
+        "sourav-mohanty",
+        "shivangi-gautam",
+        "aishwarya-hariharan",
+        "linde-hasker"
       ]
     },
     {
@@ -36490,6 +36701,7 @@
       "title": "Grade a landing page on seven sections before launch",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "conversion",
         "copywriting",
@@ -36497,56 +36709,132 @@
       ],
       "uses_cards": [
         "ins_homepage-five-second-trinity",
-        "ins_pain-solution-proof-interleaved-pitch",
-        "ins_friction-as-feature"
+        "ins_miller-caveman-test",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_20-percent-rule-headline",
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_schafer-uncomfortable-honesty",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_relational-keywords-replace-internal-language",
+        "ins_case-study-customer-as-hero",
+        "ins_roi-evidence-most-trusted-by-b2b-buyers",
+        "ins_anonymous-benchmark-rescues-roi-evidence",
+        "ins_anastasia-kudrow-testimonial-section-answers-three-questions",
+        "ins_nikolai-golos-specific-cta-outperforms-generic",
+        "ins_mengqi-pei-sticky-cta-friction-removal",
+        "ins_b2b-landing-page-consumption",
+        "ins_friction-as-feature",
+        "ins_right-friction-beats-no-friction",
+        "ins_message-testing-sameness-default",
+        "ins_no-rebrands-for-growth",
+        "ins_absolute-counts-over-conversion-rates",
+        "ins_harland-humor-must-serve-argument",
+        "ins_pain-solution-proof-interleaved-pitch"
+      ],
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_quality-as-growth-lever",
+        "pat_market-and-offer-beat-funnel-optimisation",
+        "pat_buyer-mindset-not-product-features",
+        "pat_measurement-correlated-short-signals"
       ],
       "originating_operators": [
-        "anthony-pierri"
-      ],
-      "secondary_sources": [
-        "flywheel/skills/lp-cro/SKILL.md"
+        "anthony-pierri",
+        "donald-miller",
+        "eddie-shleyner",
+        "cole-schafer",
+        "nicolas-cole",
+        "joel-klettke",
+        "jason-oakley",
+        "tas-bober",
+        "amole-naik",
+        "amol-avasare",
+        "peep-laja",
+        "elena-verna",
+        "archie-abrams"
       ]
     },
     {
       "path": "playbooks/copywriting/the-converting-copy-playbook.md",
       "id": "pb_converting-copy-playbook",
-      "title": "The Converting-Copy Playbook",
+      "title": "The Converting-Copy Playbook: five fundamentals as one routine",
+      "maintained_by": "codex maintainers",
       "captured_date": "2026-05-05",
-      "operators": [
-        "Cole Schafer",
-        "Dave Gerhardt",
-        "Eddie Shleyner",
-        "Ann Handley",
-        "Dave Harland",
-        "Donald Miller"
+      "depth": "full",
+      "domain": [
+        "copywriting",
+        "conversion",
+        "messaging",
+        "pmm",
+        "marketing"
       ],
       "uses_cards": [
         "ins_schafer-pain-pleasure-polarity",
-        "ins_schafer-uncomfortable-honesty",
         "ins_schafer-three-pass-writing-process",
         "ins_20-percent-rule-headline",
+        "ins_schafer-three-headline-archetypes",
         "ins_shleyner-headline-as-complete-argument",
         "ins_shleyner-clarity-beats-cleverness",
         "ins_shleyner-conciseness-as-respect",
         "ins_shleyner-vividness-creates-memorability",
         "ins_emotion-is-the-cornerstone",
         "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-ai-cant-violate-expectation",
         "ins_handley-write-to-one-subscriber",
+        "ins_handley-self-laughter-as-quality-kpi",
         "ins_utility-times-inspiration-times-empathy",
         "ins_so-what-as-content-diagnostic",
         "ins_harland-benefits-over-pride",
         "ins_harland-scream-principle",
         "ins_harland-ideas-need-to-simmer",
+        "ins_harland-humor-must-serve-argument",
+        "ins_write-like-you-speak",
         "ins_storybrand-customer-is-hero",
         "ins_miller-three-level-problem",
         "ins_miller-caveman-test",
-        "ins_gerhardt-distribution-beats-creation"
+        "ins_miller-survival-value-messaging",
+        "ins_miller-guide-empathy-and-authority",
+        "ins_miller-one-liner-formula",
+        "ins_ogilvy-we-sell-or-else",
+        "ins_gerhardt-distribution-beats-creation",
+        "ins_gerhardt-founder-story-as-weapon",
+        "ins_gerhardt-social-as-testing-lab",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_relational-keywords-replace-internal-language",
+        "ins_voc-first-then-positioning",
+        "ins_positioning-not-messaging-not-copy",
+        "ins_b2b-landing-page-consumption",
+        "ins_nikolai-golos-specific-cta-outperforms-generic",
+        "ins_supriya-vs-say-it-out-loud-test",
+        "ins_b2b-buyer-emotion-personal-stakes",
+        "ins_jtbd-interviews-surface-customer-language",
+        "ins_voss-accusation-audit"
       ],
-      "domains": [
-        "pmm",
-        "marketing",
-        "design",
-        "growth-demand"
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_buyer-mindset-not-product-features",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_verification-as-human-job",
+        "pat_differentiation-vs-sameness"
+      ],
+      "originating_operators": [
+        "cole-schafer",
+        "eddie-shleyner",
+        "ann-handley",
+        "dave-harland",
+        "donald-miller",
+        "dave-gerhardt",
+        "david-ogilvy",
+        "nicolas-cole",
+        "momoko-price",
+        "adrienne-barnes",
+        "tas-bober",
+        "aatir-abdul-rauf",
+        "bob-moesta",
+        "chris-voss"
       ]
     },
     {
@@ -36555,26 +36843,76 @@
       "title": "Apply sentence-level craft that holds up in any format",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "copywriting",
         "messaging"
       ],
-      "uses_cards": [],
-      "originating_operators": [],
-      "secondary_sources": [
-        "team-brain/workflows/copywriting-mastery.md",
-        "flywheel/skills/voice-enforce/SKILL.md",
-        "flywheel/skills/humanizer/SKILL.md"
+      "uses_cards": [
+        "ins_so-what-as-content-diagnostic",
+        "ins_miller-caveman-test",
+        "ins_miller-three-level-problem",
+        "ins_harland-benefits-over-pride",
+        "ins_storybrand-customer-is-hero",
+        "ins_schafer-pain-pleasure-polarity",
+        "ins_emotion-is-the-cornerstone",
+        "ins_shleyner-writing-while-emotional",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_shleyner-headline-as-complete-argument",
+        "ins_20-percent-rule-headline",
+        "ins_schafer-three-headline-archetypes",
+        "ins_schafer-three-pass-writing-process",
+        "ins_write-like-you-speak",
+        "ins_handley-write-to-one-subscriber",
+        "ins_harland-scream-principle",
+        "ins_handley-voice-as-moat-against-ai",
+        "ins_handley-ai-cant-violate-expectation",
+        "ins_handley-self-laughter-as-quality-kpi",
+        "ins_utility-times-inspiration-times-empathy",
+        "ins_resonance-over-reach",
+        "ins_abt-and-but-therefore",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_nicolas-cole-voc-source-llm-assembly",
+        "ins_mccormick-ai-makes-consensus-cheap",
+        "ins_swyx-scaling-without-slop",
+        "ins_madeleine-work-ai-strips-humanity-from-marketing",
+        "ins_ux-change-target-emotion-is-relief"
+      ],
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_buyer-mindset-not-product-features",
+        "pat_ai-defensibility-comes-from-non-ai",
+        "pat_strip-what-doesnt-compound",
+        "pat_verification-as-human-job"
+      ],
+      "originating_operators": [
+        "cole-schafer",
+        "eddie-shleyner",
+        "dave-harland",
+        "ann-handley",
+        "donald-miller",
+        "jay-acunzo",
+        "park-howell",
+        "nicolas-cole",
+        "packy-mccormick",
+        "swyx",
+        "emily-pick",
+        "madeleine-work"
       ]
     },
     {
       "path": "playbooks/decision-quality/the-mental-models-operating-system.md",
       "id": "pb_mental-models-operating-system",
-      "title": "The Mental Models Operating System",
+      "title": "The Mental Models Operating System: Kahneman's biases meet Munger's latticework",
+      "maintained_by": "codex maintainers",
       "captured_date": "2026-05-05",
-      "operators": [
-        "Daniel Kahneman",
-        "Charlie Munger"
+      "depth": "full",
+      "domain": [
+        "decision-quality",
+        "strategy",
+        "pmm"
       ],
       "uses_cards": [
         "ins_system1-system2-thinking",
@@ -36588,33 +36926,77 @@
         "ins_circle-of-competence",
         "ins_lollapalooza-effects",
         "ins_mental-models-as-os-not-library",
-        "ins_incentives-as-master-switch"
+        "ins_incentives-as-master-switch",
+        "ins_dixon-no-decision-87-percent-indecision",
+        "ins_taleb-barbell-strategy",
+        "ins_taleb-skin-in-the-game",
+        "ins_housel-biggest-risk-nobody-talks-about",
+        "ins_judgment-doesnt-compress",
+        "ins_kevin-indig-verification-cost-rising"
       ],
-      "domains": [
-        "leadership",
-        "strategy",
-        "founder-craft"
+      "uses_patterns": [
+        "pat_decision-quality-through-process-not-willpower",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_verification-as-human-job",
+        "pat_status-quo-is-the-competitor"
+      ],
+      "uses_contradictions": [
+        "con_circle-of-competence-vs-iterative-deployment"
+      ],
+      "originating_operators": [
+        "daniel-kahneman",
+        "charlie-munger",
+        "nassim-taleb",
+        "matt-dixon",
+        "morgan-housel",
+        "kevin-indig"
       ]
     },
     {
       "path": "playbooks/design/design-principles.md",
       "id": "pb_design-principles",
-      "title": "Design principles playbook",
+      "title": "Design principles for marketing assets",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "design",
         "conversion"
       ],
       "uses_cards": [
+        "ins_miller-caveman-test",
+        "ins_miller-survival-value-messaging",
+        "ins_miller-three-level-problem",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_harland-scream-principle",
+        "ins_handley-white-space-as-oxygen",
+        "ins_ramanujam-feature-shock",
+        "ins_ogilvy-discipline-of-knowledge",
+        "ins_ariely-relativity-principle",
+        "ins_ariely-power-of-free",
+        "ins_ariely-pennies-a-day-effect",
+        "ins_design-pie-chart-shifted",
         "ins_design-as-bottleneck",
-        "ins_design-pie-chart-shifted"
+        "ins_agentic-engine-optimization-6-layer"
+      ],
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_quality-as-growth-lever",
+        "pat_subtraction-first-operating-discipline",
+        "pat_aeo-experience-gate"
       ],
       "originating_operators": [
-        "jenny-wen"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/frontend-qa-checklist.md"
+        "donald-miller",
+        "eddie-shleyner",
+        "dave-harland",
+        "ann-handley",
+        "dan-ariely",
+        "madhavan-ramanujam",
+        "david-ogilvy",
+        "jenny-wen",
+        "evan-spiegel",
+        "addy-osmani"
       ]
     },
     {
@@ -36623,18 +37005,51 @@
       "title": "Architect content with design thinking, from page structure to prototype",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "design",
         "copywriting",
         "conversion"
       ],
       "uses_cards": [
+        "ins_ogilvy-discipline-of-knowledge",
+        "ins_miller-three-level-problem",
+        "ins_miller-survival-value-messaging",
         "ins_homepage-five-second-trinity",
-        "ins_friction-as-feature"
+        "ins_miller-caveman-test",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-vividness-creates-memorability",
+        "ins_miller-guide-empathy-and-authority",
+        "ins_harland-scream-principle",
+        "ins_handley-white-space-as-oxygen",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_ariely-relativity-principle",
+        "ins_ariely-power-of-free",
+        "ins_friction-as-feature",
+        "ins_pain-solution-proof-interleaved-pitch",
+        "ins_schafer-three-pass-writing-process",
+        "ins_ogilvy-we-sell-or-else",
+        "ins_agentic-engine-optimization-6-layer"
+      ],
+      "uses_patterns": [
+        "pat_copywriting-craft-fundamentals",
+        "pat_buyer-mindset-not-product-features",
+        "pat_behavioral-pricing-architecture",
+        "pat_quality-as-growth-lever",
+        "pat_subtraction-first-operating-discipline",
+        "pat_strip-what-doesnt-compound"
       ],
       "originating_operators": [
+        "david-ogilvy",
+        "donald-miller",
         "anthony-pierri",
-        "amole-naik"
+        "eddie-shleyner",
+        "dave-harland",
+        "ann-handley",
+        "dan-ariely",
+        "amole-naik",
+        "cole-schafer",
+        "addy-osmani"
       ],
       "secondary_sources": [
         "team-brain/workflows/design-thinking-for-content.md"
@@ -36646,14 +37061,49 @@
       "title": "Build help docs from taxonomy to published article",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "help-docs",
         "design",
         "post-sale"
       ],
-      "uses_cards": [],
-      "originating_operators": [],
-      "secondary_sources": []
+      "uses_cards": [
+        "ins_eureka-onboarding",
+        "ins_customer-led-growth-experience-map",
+        "ins_mark-kosoglow-adoption-vs-value",
+        "ins_start-with-support-fastest-ai-roi",
+        "ins_zappos-rotation-through-support",
+        "ins_marginal-user-methodology",
+        "ins_miller-caveman-test",
+        "ins_miller-three-level-problem",
+        "ins_shleyner-clarity-beats-cleverness",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_handley-white-space-as-oxygen",
+        "ins_ogilvy-consumer-is-your-wife",
+        "ins_ogilvy-discipline-of-knowledge",
+        "ins_product-is-the-marketing",
+        "ins_agentic-engine-optimization-6-layer"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_frontline-as-pmm-substrate",
+        "pat_buyer-mindset-not-product-features",
+        "pat_quality-as-growth-lever",
+        "pat_subtraction-first-operating-discipline",
+        "pat_verification-as-human-job"
+      ],
+      "originating_operators": [
+        "ramli-john",
+        "georgiana-laudi",
+        "adriel-frederick",
+        "donald-miller",
+        "eddie-shleyner",
+        "ann-handley",
+        "david-ogilvy",
+        "addy-osmani",
+        "yamini-rangan",
+        "tony-hsieh"
+      ]
     },
     {
       "path": "playbooks/jtbd/icp-definition.md",
@@ -36711,26 +37161,48 @@
       "title": "Plan a campaign across channels, calendar, webinars, and nurture",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "campaigns",
         "gtm",
         "demand-gen"
       ],
       "uses_cards": [
+        "ins_demand-creation-vs-capture",
+        "ins_seeds-nets-spears-lead-portfolio",
         "ins_earned-channels-over-algorithm-channels",
         "ins_distribution-platform-cycles",
-        "ins_add-new-growth-model-every-18-months"
+        "ins_add-new-growth-model-every-18-months",
+        "ins_gerhardt-distribution-beats-creation",
+        "ins_godin-five-step-marketing-process",
+        "ins_maddy-hirshan-fewer-larger-launches-always-on-gtm",
+        "ins_james-doman-feature-launch-attention-scarcity",
+        "ins_3s-content-from-sales-success-support",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_marketing-cfo-language"
+      ],
+      "uses_patterns": [
+        "pat_distribution-as-moat",
+        "pat_market-and-offer-beat-funnel-optimisation",
+        "pat_measurement-correlated-short-signals",
+        "pat_diagnose-before-execute",
+        "pat_frontline-as-pmm-substrate"
+      ],
+      "uses_contradictions": [
+        "con_build-quietly-vs-distribution-first"
       ],
       "originating_operators": [
         "emily-kramer",
+        "chris-walker",
+        "aaron-ross",
+        "elena-verna",
         "brian-balfour",
-        "elena-verna"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/campaign-gtm.md",
-        "team-brain/workflows/audience-bid-playbook.md",
-        "team-brain/workflows/demand-architecture.md",
-        "team-brain/workflows/content-distribution.md"
+        "dave-gerhardt",
+        "seth-godin",
+        "maddy-hirshan",
+        "james-doman",
+        "brendan-hufford",
+        "rowan-tonkin"
       ]
     },
     {
@@ -36739,30 +37211,65 @@
       "title": "Run a tiered launch that matches effort to impact",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "launch",
         "gtm",
         "pmm"
       ],
       "uses_cards": [
+        "ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment",
+        "ins_rory-woodbridge-launch-tier-not-debate",
+        "ins_ai-native-launch-triage-not-fewer-gates",
+        "ins_james-doman-pmm-curate-not-process-launches",
+        "ins_james-doman-feature-launch-attention-scarcity",
+        "ins_maddy-hirshan-fewer-larger-launches-always-on-gtm",
+        "ins_amanda-groves-kill-a-product-launch",
+        "ins_lead-major-repositioning-pivots-over",
         "ins_company-story-is-the-strategy",
-        "ins_homepage-five-second-trinity",
-        "ins_test-positioning-in-live-sales-pitch"
+        "ins_supriya-vs-say-it-out-loud-test",
+        "ins_test-positioning-in-live-sales-pitch",
+        "ins_ux-change-target-emotion-is-relief",
+        "ins_nat-lia-kimli-kov-product-launches-fail-due-to-tooling-not-strategy",
+        "ins_pmm-activates-five-teams-not-two",
+        "ins_translate-pmm-activities-to-exec-speak",
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_maja-voje-strip-what-doesnt-compound",
+        "ins_homepage-five-second-trinity"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_strip-what-doesnt-compound",
+        "pat_subtraction-first-operating-discipline",
+        "pat_frontline-as-pmm-substrate",
+        "pat_narrative-as-strategy",
+        "pat_buyer-mindset-not-product-features",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_verification-as-human-job"
       ],
       "originating_operators": [
-        "yi-lin-pei"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/campaign-gtm.md",
-        "team-brain/workflows/narrative-rollout.md"
+        "rory-woodbridge",
+        "aatir-abdul-rauf",
+        "james-doman",
+        "james-doman-pipe",
+        "maddy-hirshan",
+        "emily-pick",
+        "nat-lia-kimli-kov",
+        "ashley-bass",
+        "supriya-vs",
+        "maja-voje",
+        "yi-lin-pei",
+        "amanda-groves",
+        "april-dunford"
       ]
     },
     {
       "path": "playbooks/measurement/measurement-framework.md",
       "id": "pb_measurement-framework",
-      "title": "Measurement framework playbook",
+      "title": "PMM measurement framework",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "measurement",
         "pmm",
@@ -36771,14 +37278,41 @@
       "uses_cards": [
         "ins_absolute-counts-over-conversion-rates",
         "ins_long-term-holdouts-30-40-evaporate",
-        "ins_experimentation-paralysis"
+        "ins_no-such-thing-as-long-feedback-loop",
+        "ins_experimentation-paralysis",
+        "ins_competency-analytics-over-activity-dashboards",
+        "ins_pete-caputa-referral-attribution-gap",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks",
+        "ins_aeo-citation-rotation-makes-snapshots-worthless",
+        "ins_roi-evidence-most-trusted-by-b2b-buyers",
+        "ins_anonymous-benchmark-rescues-roi-evidence",
+        "ins_customer-revenue-not-yours",
+        "ins_mark-kosoglow-adoption-vs-value",
+        "ins_andrew-jones-data-trustworthiness-over-output-metrics",
+        "ins_start-with-support-fastest-ai-roi",
+        "ins_skok-sales-rep-failure-rate"
+      ],
+      "uses_patterns": [
+        "pat_measurement-correlated-short-signals",
+        "pat_diagnose-before-execute",
+        "pat_frontline-as-pmm-substrate",
+        "pat_market-and-offer-beat-funnel-optimisation",
+        "pat_verification-as-human-job"
+      ],
+      "uses_contradictions": [
+        "con_short-feedback-vs-long-term-holdouts"
       ],
       "originating_operators": [
         "archie-abrams",
-        "elena-verna"
-      ],
-      "secondary_sources": [
-        "team-brain/workflows/cro-experiment.md"
+        "elena-verna",
+        "annie-duke",
+        "chris-orlob",
+        "pete-caputa",
+        "rand-fishkin",
+        "aleyda-solis",
+        "jason-oakley",
+        "shruti-kapoor",
+        "mark-kosoglow"
       ]
     },
     {
@@ -36842,17 +37376,50 @@
       "title": "Coach PMM work through iterative review that retains feedback",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "messaging",
         "copywriting",
         "pmm"
       ],
       "uses_cards": [
-        "ins_evals-are-data-analysis-on-llm-apps"
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_judgment-doesnt-compress",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_pierri-batch-transcripts-produce-fabrications",
+        "ins_schafer-three-pass-writing-process",
+        "ins_schafer-uncomfortable-honesty",
+        "ins_shleyner-conciseness-as-respect",
+        "ins_handley-self-laughter-as-quality-kpi",
+        "ins_so-what-as-content-diagnostic",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels",
+        "ins_shruti-vashi-pmm-must-balance-strategy-and-execution",
+        "ins_ai-exposes-execution-only-pmms",
+        "ins_20-percent-rule-headline",
+        "ins_sourav-mohanty-ai-frame-determines-insight-quality"
       ],
-      "originating_operators": [],
-      "secondary_sources": [
-        "team-brain/workflows/pmm-coaching-framework.md"
+      "uses_patterns": [
+        "pat_eval-as-data-analysis",
+        "pat_verification-as-human-job",
+        "pat_copywriting-craft-fundamentals",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_make-implicit-explicit",
+        "pat_decision-quality-through-process-not-willpower"
+      ],
+      "originating_operators": [
+        "hamel-husain",
+        "kevin-indig",
+        "anthony-pierri",
+        "cole-schafer",
+        "eddie-shleyner",
+        "ann-handley",
+        "nicolas-cole",
+        "ashley-herbert-popa",
+        "shruti-vashi",
+        "sachin-jha",
+        "sourav-mohanty"
       ]
     },
     {
@@ -36861,6 +37428,7 @@
       "title": "Compose a narrative from master story to message house to pillar copy",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "narrative",
         "messaging",
@@ -36868,16 +37436,49 @@
       ],
       "uses_cards": [
         "ins_old-game-to-new-game-narrative",
+        "ins_narrative-design-old-way-new-way",
         "ins_company-story-is-the-strategy",
-        "ins_market-to-product-product-to-market"
+        "ins_market-to-product-product-to-market",
+        "ins_worldview-led-marketing",
+        "ins_storybrand-customer-is-hero",
+        "ins_miller-storybrand-is-execution-not-strategy",
+        "ins_message-testing-sameness-default",
+        "ins_sameness-perception-is-the-differentiation-barrier",
+        "ins_email-storyselling-belief-shift",
+        "ins_doshi-truth-one-level-down",
+        "ins_b2b-buyer-emotion-personal-stakes",
+        "ins_trott-change-the-game",
+        "ins_james-doman-ai-positioning-80-percent-slop",
+        "ins_pierri-ai-positioning-needs-human-checkpoints",
+        "ins_sangram-vajre-fractional-packaging-gap"
+      ],
+      "uses_patterns": [
+        "pat_narrative-as-strategy",
+        "pat_differentiation-vs-sameness",
+        "pat_buyer-mindset-not-product-features",
+        "pat_status-quo-is-the-competitor",
+        "pat_frontline-as-pmm-substrate",
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_diagnose-before-execute"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
         "andy-raskin",
-        "april-dunford"
-      ],
-      "secondary_sources": [
-        "flywheel/skills/narrative-compose/SKILL.md",
-        "team-brain/workflows/narrative-rollout.md"
+        "marcus-andrews",
+        "april-dunford",
+        "martina-lauchengco",
+        "seth-godin",
+        "donald-miller",
+        "dave-trott",
+        "peep-laja",
+        "gartner",
+        "shreyas-doshi",
+        "anthony-pierri",
+        "dave-gerhardt",
+        "sangram-vajre"
       ]
     },
     {
@@ -36944,21 +37545,22 @@
     },
     {
       "path": "playbooks/pricing/the-pricing-as-strategic-function-playbook.md",
-      "id": "pb_pricing-as-strategic-function-playbook",
-      "title": "Run pricing as a function, not a sales-team task",
+      "id": "pb_pricing-as-a-function-playbook",
+      "title": "Run pricing as a function, not a sales-team task. Simon, Ramanujam, Skok, and Hormozi integrated into a usable pricing operating routine",
+      "maintained_by": "codex maintainers",
       "captured_date": "2026-05-05",
-      "operators": [
-        "Hermann Simon",
-        "Madhavan Ramanujam",
-        "David Skok",
-        "Alex Hormozi"
+      "depth": "full",
+      "domain": [
+        "pricing",
+        "gtm",
+        "monetization"
       ],
       "uses_cards": [
         "ins_one-percent-price-eight-percent-profit",
         "ins_simon-pricing-is-structural-org-failure",
+        "ins_simon-formal-pricing-process",
         "ins_simon-discounting-most-dangerous-practice",
         "ins_simon-single-price-always-suboptimal",
-        "ins_simon-formal-pricing-process",
         "ins_simon-premium-price-champion",
         "ins_price-before-product",
         "ins_ramanujam-three-wtp-questions",
@@ -36967,43 +37569,83 @@
         "ins_ramanujam-leaders-fillers-killers",
         "ins_ramanujam-ai-pricing-against-labor-budgets",
         "ins_ltv-cac-ratio-and-cash-flow-trough",
+        "ins_skok-churn-reduction-doubles-ltv",
         "ins_skok-negative-churn",
         "ins_value-equation-grand-slam-offer",
-        "ins_premium-pricing-virtuous-cycle"
+        "ins_premium-pricing-virtuous-cycle",
+        "ins_anchoring-pricing-negotiation",
+        "ins_decoy-effect-pricing",
+        "ins_pricing-needs-weekly-customer-calls",
+        "ins_pricing-iteration-finds-right-model",
+        "ins_ungate-ai-iterate-pricing",
+        "ins_vikas-kansal-freemium-ai-paywall-multistep",
+        "ins_rory-woodbridge-seats-pricing-ai-trap",
+        "ins_outcomes-pricing-restructures-saas"
       ],
-      "domains": [
-        "pmm",
-        "gtm",
-        "strategy",
-        "product"
+      "uses_patterns": [
+        "pat_pricing-as-the-most-leveraged-org-failure",
+        "pat_behavioral-pricing-architecture",
+        "pat_market-and-offer-beat-funnel-optimisation"
+      ],
+      "originating_operators": [
+        "hermann-simon",
+        "madhavan-ramanujam",
+        "david-skok",
+        "alex-hormozi",
+        "elena-verna",
+        "daniel-kahneman",
+        "patrick-campbell",
+        "rory-woodbridge",
+        "vikas-kansal",
+        "bret-taylor",
+        "dan-ariely"
       ]
     },
     {
       "path": "playbooks/sales-discovery/the-tactical-empathy-discovery-playbook.md",
       "id": "pb_tactical-empathy-discovery-playbook",
-      "title": "The Tactical Empathy Discovery Playbook",
+      "title": "The Tactical Empathy Discovery Playbook: Voss's five tools for discovery and hard conversations",
+      "maintained_by": "codex maintainers",
       "captured_date": "2026-05-05",
-      "operators": [
-        "Chris Voss",
-        "Bob Moesta",
-        "Charlie Munger"
+      "depth": "full",
+      "domain": [
+        "sales-discovery",
+        "sales-enablement",
+        "voc"
       ],
       "uses_cards": [
-        "ins_voss-mirroring-forces-elaboration",
         "ins_voss-accusation-audit",
-        "ins_voss-thats-right-breakthrough",
-        "ins_voss-black-swans-discovered-in-process",
+        "ins_voss-mirroring-forces-elaboration",
         "ins_voss-tactical-empathy-labels",
         "ins_calibrated-questions-illusion-of-control",
+        "ins_voss-thats-right-breakthrough",
         "ins_no-oriented-questions",
+        "ins_voss-black-swans-discovered-in-process",
         "ins_jtbd-interviews-surface-customer-language",
-        "ins_incentives-as-master-switch"
+        "ins_incentives-as-master-switch",
+        "ins_dixon-no-decision-87-percent-indecision",
+        "ins_dixon-hammering-status-quo-backfires",
+        "ins_jolt-effect-customer-indecision",
+        "ins_rackham-implication-questions-4x-leverage",
+        "ins_rackham-investigation-stage-creates-stars",
+        "ins_listening-mode-not-selling-mode",
+        "ins_sourav-mohanty-ai-quotes-require-constraints-to-be-trustworthy"
       ],
-      "domains": [
-        "sales-cs",
-        "research-discovery",
-        "pmm",
-        "leadership"
+      "uses_patterns": [
+        "pat_rapport-surfaces-what-research-cannot",
+        "pat_sales-as-engineered-system-not-art",
+        "pat_status-quo-is-the-competitor"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
+      ],
+      "originating_operators": [
+        "chris-voss",
+        "bob-moesta",
+        "charlie-munger",
+        "matt-dixon",
+        "neil-rackham",
+        "shruti-kapoor"
       ]
     },
     {
@@ -37012,22 +37654,56 @@
       "title": "Equip sellers with battlecards, ROI tools, decks, and training",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
+      "depth": "full",
       "domain": [
         "sales-enablement",
         "pmm",
         "gtm"
       ],
       "uses_cards": [
+        "ins_renae-mcbride-sales-enablement-through-experience",
+        "ins_3s-content-from-sales-success-support",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_jolt-effect-customer-indecision",
         "ins_battle-cards-as-workflow-primitive",
-        "ins_sales-team-detects-positioning-failure-first",
-        "ins_test-positioning-in-live-sales-pitch",
-        "ins_company-story-is-the-strategy"
+        "ins_rackham-objections-symptom-of-poor-presentation",
+        "ins_spin-implication-questions",
+        "ins_setup-follow-through-pitch",
+        "ins_ask-revenue-impact-how-much",
+        "ins_one-percent-price-eight-percent-profit",
+        "ins_roberge-structured-training",
+        "ins_roberge-data-driven-coaching",
+        "ins_competency-analytics-over-activity-dashboards",
+        "ins_seller-workflows-begin-with-ai",
+        "ins_systems-of-action-replace-seller-stack",
+        "ins_florin-tatulea-mcp-outbound-staging-rule",
+        "ins_translate-pmm-activities-to-exec-speak",
+        "ins_sales-team-detects-positioning-failure-first"
+      ],
+      "uses_patterns": [
+        "pat_frontline-as-pmm-substrate",
+        "pat_diagnose-before-execute",
+        "pat_status-quo-is-the-competitor",
+        "pat_buyer-mindset-not-product-features",
+        "pat_sales-as-engineered-system-not-art",
+        "pat_verification-as-human-job",
+        "pat_measurement-correlated-short-signals"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
-        "april-dunford"
-      ],
-      "secondary_sources": [
-        "flywheel/skills/competitive-displace/SKILL.md"
+        "renae-mcbride",
+        "april-dunford",
+        "matt-dixon",
+        "neil-rackham",
+        "mark-roberge",
+        "chris-orlob",
+        "gartner",
+        "hermann-simon",
+        "brendan-hufford",
+        "florin-tatulea",
+        "yi-lin-pei"
       ]
     }
   ],

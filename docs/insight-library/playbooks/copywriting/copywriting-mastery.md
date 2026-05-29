@@ -5,229 +5,236 @@ maintained_by: codex maintainers
 captured_date: 2026-05-01
 depth: full
 domain: [copywriting, messaging, conversion]
-uses_cards: [ins_homepage-five-second-trinity, ins_pain-solution-proof-interleaved-pitch, ins_schafer-pain-pleasure-polarity, ins_20-percent-rule-headline, ins_shleyner-clarity-beats-cleverness, ins_shleyner-headline-as-complete-argument, ins_harland-benefits-over-pride, ins_handley-voice-as-moat-against-ai]
-originating_operators: [cole-schafer, eddie-shleyner, dave-harland, ann-handley, eugene-schwartz, david-ogilvy, gary-halbert, joanna-wiebe, anthony-pierri, mihika-kapoor]
+uses_cards: [ins_voc-first-then-positioning, ins_relational-keywords-replace-internal-language, ins_nicolas-cole-voc-source-llm-assembly, ins_nicolas-cole-voc-mirroring-beats-paraphrase, ins_schafer-pain-pleasure-polarity, ins_schafer-three-headline-archetypes, ins_20-percent-rule-headline, ins_shleyner-headline-as-complete-argument, ins_shleyner-clarity-beats-cleverness, ins_shleyner-vividness-creates-memorability, ins_shleyner-conciseness-as-respect, ins_miller-caveman-test, ins_storybrand-customer-is-hero, ins_homepage-five-second-trinity, ins_harland-benefits-over-pride, ins_write-like-you-speak, ins_pain-solution-proof-interleaved-pitch, ins_case-study-customer-as-hero, ins_roi-evidence-most-trusted-by-b2b-buyers, ins_nikolai-golos-specific-cta-outperforms-generic, ins_mengqi-pei-sticky-cta-friction-removal, ins_anastasia-kudrow-testimonial-section-answers-three-questions, ins_ogilvy-we-sell-or-else, ins_ogilvy-family-test, ins_schafer-uncomfortable-honesty, ins_schafer-three-pass-writing-process, ins_handley-voice-as-moat-against-ai, ins_handley-ai-cant-violate-expectation, ins_handley-write-to-one-subscriber, ins_b2b-landing-page-consumption, ins_message-testing-sameness-default, ins_positioning-not-messaging-not-copy]
+uses_patterns: [pat_copywriting-craft-fundamentals, pat_buyer-mindset-not-product-features, pat_differentiation-vs-sameness, pat_market-and-offer-beat-funnel-optimisation, pat_frontline-as-pmm-substrate, pat_narrative-as-strategy, pat_ai-defensibility-comes-from-non-ai, pat_execution-cheap-judgement-scarce, pat_verification-as-human-job]
+originating_operators: [cole-schafer, eddie-shleyner, dave-harland, ann-handley, david-ogilvy, donald-miller, anthony-pierri, nicolas-cole, momoko-price, adrienne-barnes, joel-klettke, jason-oakley, aatir-abdul-rauf]
 ---
 
 # Write conversion copy on direct-response fundamentals
 
-Copy principles from the direct-response tradition (Schwartz, Ogilvy, Halbert, Bencivenga) and modern conversion practice (Shleyner, Schafer, Harland, Handley). Use alongside `pb_writing-craft` for the craft layer and `pb_messaging-matrix` for the strategic layer. This playbook covers the practitioner moves.
+Conversion copy is found, not invented. The best lines are buyer phrases you collected, not phrases you wrote at a keyboard. Copy succeeds when a first-time visitor can say what the product does, who it is for, and why it beats the thing they use now, in one breath, after five seconds on the page. Everything below is in service of that one test.
 
-## Quick reference, the 10 rules
+A note before the steps. The cheap part now is generating drafts. The slow, load-bearing part is the judgment: which buyer, which pole, which exact phrase, which proof. AI compresses the production and leaves the judgment untouched. `pat_execution-cheap-judgement-scarce` Treat the model as the assembly layer and keep a human deciding what gets assembled. `ins_nicolas-cole-voc-source-llm-assembly`
 
-1. **Diagnose the polarity first.** Every buyer is either moving toward pleasure or away from pain. Pick the pole and write to it. Copy that activates neither does not convert.
-2. **Match the hook to awareness level.** Unaware: story or question. Problem-aware: name the pain precisely. Solution-aware: hint at a better way. Product-aware: strongest unique claim. Most-aware: the offer leads.
-3. **Headline carries 80% of the weight.** Spend 20% of writing time there alone. The headline is often the only element the reader sees.
-4. **Clarity beats cleverness, always.** A headline that requires interpretation has already failed. The reader does not allocate decoding time in a scanning context.
-5. **Stack proof in layers.** Claim, then specific data, then named example, then third-party validation. One proof type is a claim. Three is evidence.
-6. **Buyer as agent.** "Get your team to close 30% faster" beats "Our platform closes deals 30% faster." Put the buyer in motion.
-7. **Benefits over pride.** People do not want to know how proud you are. They want to know how you will change their situation.
-8. **Setup before solution.** Problem, then emotional escalation, then relief. Do not skip to the product.
-9. **Interleave proof.** Pain claim, then solution claim, then proof. Not all pain, then all solution, then all proof.
-10. **Honest CTAs.** "Book a demo" if it is a demo. "Start free trial" if it is a trial. The action on click must match the button.
+## When to use
 
----
+- Before any homepage, landing page, ad, or email sequence that has to convert cold or warm traffic
+- A page gets traffic but visitors bounce without acting, and the analytics say comprehension is the gap
+- Sales says buyers arrive confused about what the product even does
+- You are rewriting copy that reads polished but flat, and nobody can say why it does not move
+- A competitor's page reads sharper than yours and you cannot name the difference
 
-## The awareness framework (Schwartz)
+## How to use
 
-Eugene Schwartz's key insight: copy cannot create desire. It can only channel desire that already exists. The strategic job is to identify the strongest existing desire the product can connect to and write to that desire, not to the product's features.
+### 1. Diagnose the layer before you touch a word. Copy is not positioning.
 
-Awareness level determines how directly you can mention the product. The further from awareness, the more indirect the opening must be.
+Positioning, messaging, and copy sit at three altitudes with three different decision rights. Positioning decides which mental box the product occupies. Messaging is the grayscale substance: capability, primary benefit, primary use case, differentiation. Copy is messaging dressed in brand voice and channel context. Jumping from a vague positioning idea straight to generated headlines produces lines that sound interesting and carry no truth. `ins_positioning-not-messaging-not-copy`
+
+> "Positioning ≠ Messaging ≠ Copy. ... Without a grounded message, I was just picking copy that sounded 'interesting' but lacked substance or truth."
+> · Aatir Abdul Rauf, LinkedIn, 2026-04-10
+
+So the first move is to check which layer is actually broken. If reps say different things about the same product on the same day, the messaging is missing and no amount of copy polish will fix it. If the page reads clearly but the offer does not land, the problem is upstream of copy entirely. Market choice beats offer strength beats persuasion. `pat_market-and-offer-beat-funnel-optimisation` Do not optimize a headline for a starving-crowd problem.
+
+### 2. Mine customer language first. The phrase is the hook; the synthesis is the description.
+
+Before writing, collect the words buyers already use. Reviews, support tickets, sales-call transcripts, Reddit threads, onboarding chats. Momoko Price works in reverse from most teams: collect the language, find the recurring emotional themes, build the copy upward from verbatim fragments. The copy sounds native to the audience because it literally came from them. `ins_voc-first-then-positioning`
+
+> "Your customers' words should become your copy. Messaging-first optimization combines analytics rigor with emotional authenticity."
+> · Momoko Price (synthesized from operator's published work)
+
+Adrienne Barnes calls the highest-value extraction the relational keyword set: the exact words customers use for the product, which should overwrite internal jargon in every line of copy, every SEO term, every sales script. Internal teams converge on "platform" and "solution." Buyers say "the thing that stops me from getting yelled at on Monday morning." Substitute the buyer's vocabulary and relevance jumps because the buyer recognizes their own language. `ins_relational-keywords-replace-internal-language` The frontline conversation is the substrate; the desk is downstream. `pat_frontline-as-pmm-substrate`
+
+The trap with AI here is specific. Deep-research synthesis smooths verbatim phrases into clean themes and strips out the exact words that make a buyer feel seen. Mine the sources directly and keep the phrases whole. `ins_nicolas-cole-voc-mirroring-beats-paraphrase`
+
+> "Resonance comes from mirroring, not paraphrase."
+> · Nicolas Cole, Build and Launch a VOC Landing Page, 2026-05-07
+
+Collect 50 to 100 phrases before writing a single headline. The phrases that repeat across multiple buyers, unprompted, are your headline candidates.
+
+### 3. Diagnose awareness level. Match the opening to where the reader is, not to the product.
+
+Eugene Schwartz's rule still governs: copy cannot create desire, only channel desire that already exists. The job is to find the strongest existing desire the product connects to and write to that, not to the feature list. Awareness level decides how directly you can name the product. The further from awareness, the more indirect the open.
 
 | Level | What the buyer already knows | Lead type | How to open |
-|-------|---------------------------|-----------|------------|
-| Unaware | Nothing. They don't know the problem exists. | Story or proclamation | Emotional narrative; never mention the product in the first half |
-| Problem-aware | They know the problem, not the solution category. | Problem-solution | Name the pain precisely in their exact language; do not invent language |
-| Solution-aware | They know a solution exists, not this one. | Indirect promise | "There's a better way" without naming the product |
-| Product-aware | They know the product, not convinced. | Direct promise | Strongest unique claim; address objections head-on |
-| Most-aware | They know everything, just haven't acted. | The offer | Deal, guarantee, urgency; the offer is the lead |
+|-------|------------------------------|-----------|------------|
+| Unaware | Nothing. They don't know the problem exists. | Story or proclamation | Emotional narrative. Do not name the product in the first half. |
+| Problem-aware | They know the problem, not the solution category. | Problem-solution | Name the pain precisely in their words, mined in step 2. |
+| Solution-aware | They know a solution exists, not this one. | Indirect promise | "There's a better way," without naming the product yet. |
+| Product-aware | They know the product, not convinced. | Direct promise | Strongest unique claim. Address objections head-on. |
+| Most-aware | They know everything, just haven't acted. | The offer | The deal, the guarantee, the urgency. The offer leads. |
 
-Diagnosing awareness level before writing is not optional. The same product needs five different openings for five different audiences. A headline written for a most-aware buyer will mean nothing to an unaware one. An unaware buyer's opening will bore a most-aware buyer who wants the price.
+Diagnose by channel. A cold social ad reaches unaware buyers. A retargeting ad reaches product-aware or most-aware buyers. A comparison page reaches product-aware buyers actively evaluating. The same product needs five different openings for five audiences. A most-aware headline means nothing to an unaware reader, and an unaware open bores a most-aware buyer who wants the price.
 
-How to diagnose: where is the audience finding this copy? A cold ad on a social feed reaches unaware buyers. A retargeting ad reaches product-aware or most-aware buyers. A comparison page reaches product-aware buyers actively evaluating. Match the opening to the channel.
+### 4. Pick one pole. Toward pleasure or away from pain, never both in the same piece.
 
----
-
-## The headline (Schafer, Shleyner, Ogilvy)
-
-The headline is found, not invented. Ogilvy's rule: read every input document, every customer interview, every G2 review, every support ticket before writing a headline. Highlight the specific facts. The best headline is usually a fact that surprises you when you first encounter it.
-
-> "Spend 20% of your total writing time on the headline alone. If a page takes five hours to write, the headline gets a full hour of that time."
-> — Cole Schafer
-> `ins_20-percent-rule-headline`
-
-> "Every headline must function as a complete persuasive argument in itself."
-> — Eddie Shleyner
-> `ins_shleyner-headline-as-complete-argument`
-
-> "Clarity beats cleverness, always. A headline that requires interpretation is a headline that fails."
-> — Eddie Shleyner
-> `ins_shleyner-clarity-beats-cleverness`
-
-In scanning contexts, the headline is often the only element the reader encounters. The headline therefore must complete the persuasive argument on its own, for the 95% who never scroll past it. Body copy amplifies an already-made case. It does not make the case.
-
-Three headline archetypes, each maps to a different funnel stage:
-
-- **Flirting (curiosity-driven).** "The 11-second silence that closes deals." Works for unaware and problem-aware buyers where you need to earn the scroll.
-- **Direct (clarity-driven).** "Payroll in 60 seconds." Works for solution-aware and product-aware buyers who know what they need.
-- **Pain-based (recognition-driven).** "Your reps are leaving $340K on the table every quarter." Works for problem-aware buyers when you can name the cost precisely.
-
-Pick the archetype that fits the awareness level of the audience. Do not mix them in the same headline. Then write 10 versions and choose the sharpest one. The first version is rarely the sharpest.
-
----
-
-## The polarity principle (Schafer)
-
-Every buying decision reduces to one axis: moving toward pleasure or moving away from pain. Copy that does not activate either pole is ignored.
+Every buying decision reduces to a single axis: the reader is moving toward pleasure or away from pain. Copy that activates neither pole is filtered as noise. `ins_schafer-pain-pleasure-polarity`
 
 > "People buy for exactly one reason: to move closer to pleasure or further from pain. Everything else is noise."
-> — Cole Schafer
-> `ins_schafer-pain-pleasure-polarity`
+> · Cole Schafer, Sticky Notes — Pain-Pleasure Polarity, 2024-01-15
 
-Diagnosing the pole is a research job. Look at the interviews and the reviews. What language do buyers use? Relief language ("finally," "no more," "we can stop...") signals a pain buyer. Aspiration language ("imagine," "the kind of team that," "now we can...") signals a pleasure buyer. Write to the language you find. Do not impose a pole the buyer is not on.
+Diagnosing the pole is a research job, not a guess. Read the interviews and reviews from step 2. Relief language ("finally," "no more," "we can stop") signals a pain buyer. Aspiration language ("imagine," "the kind of team that," "now we can") signals a pleasure buyer. Write to the language you find. Most B2B copy lives on the pain pole because the thing the buyer is trying to escape carries more emotional load than the thing they are moving toward. The failure is oscillating. A headline that mixes "escape the chaos" with "find new growth" delivers neither. Commit to one.
 
-Most B2B copy lives on the pain pole. That is where the urgency is. The thing the buyer is trying to escape is more emotionally loaded than the thing they are moving toward. Pleasure copy works better for growth and lifestyle products where the aspiration is tangible.
+### 5. Spend a fifth of your time on the headline. Make it a complete argument, not a hook.
 
-The mistake is oscillating between both poles in the same piece. Pick one and commit. A headline that mixes "escape the chaos" with "unlock new growth" is not delivering both; it is delivering neither.
+In a scanning context the headline is often the only element the reader sees. So it cannot be a hook that leans on the body to land the argument. It has to complete the persuasion alone, for the 95% who never scroll. Body copy amplifies a case the headline already made. `ins_shleyner-headline-as-complete-argument`
 
----
+> "Every headline must function as a complete persuasive argument in itself."
+> · Eddie Shleyner, VeryGoodCopy — Headline as Complete Argument, 2024-02-01
 
-## Reader-centredness (Harland, Handley)
+The headline carries most of the weight, so it gets most of the deliberate effort. Schafer's discipline is to block separate time for it. `ins_20-percent-rule-headline`
 
-The most common B2B copy failure is company-side framing: "We are proud to announce..." / "Our award-winning team..." / "We have been delivering excellence since..." The reader does not care. The reader wants to know what you will do for them.
+> "Spend 20% of your total writing time on the headline alone. If a page takes five hours to write, the headline gets a full hour of that time."
+> · Cole Schafer, Honeycopy — the 20% Rule for headlines, 2026-03-03
+
+Clarity wins over cleverness every time. A headline that asks the reader to interpret has already lost, because in a 1-to-2-second scan the reader allocates zero decoding time. The B2B instinct to sound sophisticated reads to the buyer as "I have to think about this," which is the same signal as "this is not for me." `ins_shleyner-clarity-beats-cleverness`
+
+> "Clarity beats cleverness, always. A headline that requires interpretation is a headline that fails."
+> · Eddie Shleyner, VeryGoodCopy — Clarity Beats Cleverness, 2024-02-01
+
+Then pick the archetype that matches the funnel stage, and do not mix archetypes in one line. `ins_schafer-three-headline-archetypes`
+
+| Archetype | What it does | Best for |
+|-----------|--------------|----------|
+| Flirting (curiosity) | Opens a gap that earns the click | Cold top-of-funnel, unaware and problem-aware |
+| Direct (clarity) | States the offer plainly | Mid-funnel, solution-aware and product-aware comparing options |
+| Pain-based (recognition) | Names the problem the reader feels now | Problem-aware, high-stakes B2B where you can name the cost |
+
+Write ten versions before choosing. The first is rarely the sharpest.
+
+### 6. Put the reader in the sentence. Start with "you," not "we."
+
+The most common B2B copy failure is company-side framing. "We are proud to announce." "Our award-winning team." The reader does not care how proud you are. `ins_harland-benefits-over-pride`
 
 > "People don't want to know how proud you are of your company. They want to know how you'll change their life."
-> — Dave Harland
-> `ins_harland-benefits-over-pride`
+> · Dave Harland, The Copy Cabin — Benefits Over Pride, 2024-03-01
 
-The discipline is simple and consistently violated: start sentences with "you" and "your" more often than with "we" and "our." Each "we" sentence asks: is this sentence serving the reader, or serving the company? If it is serving the company, cut it or rewrite it to serve the reader.
+The discipline is mechanical and consistently violated: audit every sentence that starts with "we" or "our" and ask whether it serves the reader or the company. "We support 14 languages" is fine because it implies "you can use this." "We are proud of our 200 customers" is not, because it serves the company. This is not anti-feature. Features earn their place by answering "what will the buyer be able to do that they cannot do now?" State the capability, then the benefit. `pat_buyer-mindset-not-product-features`
 
-This is not anti-feature. Features earn their place by answering "what will the buyer be able to do that they cannot do now?" State the capability, then the benefit. Skip the feature-first framing.
+### 7. Make every abstract claim concrete. Vivid images survive to the moment of decision.
 
----
+Abstract claims do not survive the gap between exposure and purchase. Concrete images do, because the buyer recalls them at the moment they decide. "Save time" is abstract. "Stop spending Saturday morning rebuilding the spreadsheet" is concrete and gets recalled days later. Buyers who do not remember the claim do not act on it. `ins_shleyner-vividness-creates-memorability`
 
-## Proof stacking (Halbert)
+> "Vividness creates memorability. Abstract claims disappear from memory; concrete images persist."
+> · Eddie Shleyner, VeryGoodCopy — Vividness Creates Memorability, 2024-02-01
 
-Single-proof claims fail. Three-layer proof is evidence.
+This is also the engine of a good case study. Donald Miller's structure makes the customer the hero and the product the guide, and Joel Klettke's rule is to land the metric inside the emotional moment, not in a stat block. `ins_storybrand-customer-is-hero` `ins_case-study-customer-as-hero`
 
-The Halbert sequence:
+> "Stories are 22x more memorable than facts alone. But the best conversion copy combines story with data."
+> · Joel Klettke / Case Study Buddy (synthesized from operator's published work)
 
-1. **Claim.** One benefit, stated directly.
-2. **Specific data.** "Save 4 hours per week on follow-up emails." Not "save time." Specific numbers.
-3. **Named example.** A real customer, a real outcome. Name the company.
-4. **Third-party validation.** Analyst citation, review platform metric, award.
+The concrete image has to come from the buyer's actual life, drawn from the interviews in step 2. Invented detail that does not match the buyer's reality damages trust faster than a vague claim does.
 
-Round numbers without sources read as invented. "40% faster" from no source is a claim. "38% faster" from a named study is evidence. The specificity is what signals that someone measured it.
+### 8. Stack proof in layers and interleave it. One proof type is a claim; three is evidence.
 
-Proof is most persuasive when it is adjacent to the claim it supports. Not stacked into a testimonials section at the bottom of the page. Every capability claim gets its own proof point, interleaved.
+Single-proof claims fail against the buyer's default skepticism. The Halbert sequence builds evidence in layers: state the benefit, give a specific number, name a real customer and outcome, add a third-party validation. Round numbers from nobody read as invented. "40% faster" from no source is a claim. "38% faster from a named study" is evidence, because the specificity signals someone measured it.
 
-> "Vision pitches land harder when each pain claim is paired with its own solution claim and a concrete proof point, interleaved per beat, not three sequential acts."
-> — Mihika Kapoor, Figma
-> `ins_pain-solution-proof-interleaved-pitch`
+For B2B buyers, the highest-trust layer is customer ROI evidence. It is also the hardest to get on the record, so the team that solves the supply problem wins disproportionate trust. `ins_roi-evidence-most-trusted-by-b2b-buyers`
 
----
+> "UserEvidence surveyed 619 B2B buyers and 51% said it's the most trustworthy form of evidence."
+> · Jason Oakley, LinkedIn, 2026-04-10
 
-## The believability gap (Bencivenga)
+Proof is most persuasive adjacent to the claim it supports, not segregated into a testimonials block at the bottom. Pair each pain claim with its own solution claim and its own proof, per beat, rather than running all pain, then all solution, then all proof. `ins_pain-solution-proof-interleaved-pitch`
 
-Buyer skepticism is the default state. Every claim you make lands against a prior belief that marketing inflates. Bencivenga's contribution: the believability gap is measurable and closable.
+> "Words will only get you so far... Figma practices what it preaches in terms of the future being visual communication."
+> · Mihika Kapoor on Lenny's Podcast, 2026-04-28
 
-Close it with:
+A testimonial section earns its place only when it answers three buyer questions: did this solve a problem like mine, did it work for people like us, and do I believe this is real and not marketing fluff. `ins_anastasia-kudrow-testimonial-section-answers-three-questions`
 
-- **Precise numbers, not round ones.** "38%" signals measurement. "40%" signals approximation.
-- **Named third parties.** "According to Gartner" is worth ten "we believe" statements.
-- **Specificity that nobody would invent.** The more specific the claim, the more it reads as real. "Our enterprise customers save an average of 4.2 hours per rep per week on manual logging" is more credible than "save hours per week."
+### 9. Build the hero on the five-second trinity. Lead with capability, not vision.
 
-The believability gap is wider for outrageous promises. The bigger the claim, the more proof you need. The worst combination: a large claim with no source. The best: a specific claim with a named company, a named outcome, and a number.
+The homepage hero is the one artifact always one click away from every prospect, so it has to hold the positioning under scrutiny. Lead with the trinity: the specific use case, the alternative the buyer is using today, and the result the product produces, readable in roughly five seconds. `ins_homepage-five-second-trinity`
 
----
+Vision-led copy ("reimagine how teams work together") fails because the buyer cannot tell whether the product is for them. Lead with capability, what someone actually does with the product. "Build pipeline" is an aspiration. "Call 300 leads a day without manual dialing" is a capability, and the capability converts.
 
-## Voice (Handley)
+Run the comprehension test before you trust the hero. Miller's caveman version is the blunt form. `ins_miller-caveman-test`
 
-In a market saturated with AI-generated prose, the only defensible advantage is a distinctive voice.
+> "Could a caveman look at your website and immediately know what you offer, how it will make their life better, and what they need to do to buy it?"
+> · Donald Miller, Building a StoryBrand — The Caveman Test, 2017-10-10
 
-> "The only defensible advantage is a distinctive, authentic voice that sounds like it could only come from one source."
-> — Ann Handley
-> `ins_handley-voice-as-moat-against-ai`
+For B2B, optimize each section to send the reader to the next section, not to convert on the spot. Buyers consume across multiple visits, then convert weeks later. Optimizing each section for "convert now" reads as desperate and triggers procurement skepticism. `ins_b2b-landing-page-consumption`
 
-Voice is not a style guide. It is a function of a specific person's perspective, word habits, and lived experience. It cannot be replicated without that person's continued involvement.
+### 10. Write CTAs that are honest and specific. The action on click matches the button.
 
-Voice degrades when it is delegated to a content team following a guide. The guide can describe the voice. It cannot produce it.
+A generic CTA ("Learn More," "Start Now") makes the user guess what happens next, and the guess is friction. A specific CTA that names the outcome in the buyer's language removes the guess. Nikolai Golos reports specific, outcome-promising CTAs converting far better than generic ones. `ins_nikolai-golos-specific-cta-outperforms-generic` Mengqi Pei reports a sticky, solid CTA lifting signups by removing the scroll-back friction between intent and action. `ins_mengqi-pei-sticky-cta-friction-removal`
 
-For brand copy, the founder voice is the highest-signal version. It contains a specific point of view that competitors cannot authentically claim, because it emerges from a specific company's history and the founder's specific experiences.
+Then make the verb honest. "Book a demo" if it is a demo. "Start free trial" if it is a trial. "See the product" if it is a video. The reader who clicks expecting one thing and finds another does not convert, and the mismatch costs trust you do not get back.
 
-The practical discipline: write the first draft without editing. Get the voice on the page before the correctness edit starts. Voice usually lives in the drafts, not the final. When you edit aggressively for correctness before capturing voice, you get polished but empty prose.
+### 11. Protect the voice from the polish pass. Voice is the one thing AI cannot replicate.
 
----
+In a market flooded with competent AI prose, the only defensible advantage is a voice that sounds like it could only come from one source. `ins_handley-voice-as-moat-against-ai`
 
-## VoC-mined headlines (Wiebe)
+> "the only defensible advantage is a distinctive, authentic voice that sounds like it could only come from one source"
+> · Ann Handley, Everybody Writes — Voice as Defensible Moat, 2024-04-01
 
-Customer language surfaces in reviews, support tickets, sales calls, and onboarding chats. The phrases that convert in headlines are almost always phrases buyers used first, not phrases the marketing team invented.
+Voice is not a style guide. It is a function of one specific person's perspective, word habits, and lived experience, which is exactly why AI cannot produce it. `pat_ai-defensibility-comes-from-non-ai` Harland's operational version: write the way you specifically speak, not the abstract median of how people speak. `ins_write-like-you-speak` Handley's direct-content rule: write as if to a single subscriber, use "you" liberally, and cut anything with a whiff of "Dear Valued Customers." `ins_handley-write-to-one-subscriber`
 
-The method: collect 50 to 100 customer phrases before writing a single headline. Look for phrases that appear across multiple buyers unprompted. Those are the headline candidates. The phrases with the most repetition are the phrases the market uses to describe its own problem. Use them verbatim.
+The danger of an AI polish pass is not that it makes the draft bad. It makes the draft generic, because the model is the average of all written prose and sands every deliberate rule-break back to expectation. `ins_handley-ai-cant-violate-expectation`
 
-Run a 5-second test: show the page to 5 people for 5 seconds, then ask what the product does. If they cannot answer, rewrite the hero. The test is not about opinion. It is about comprehension. If a first-time visitor cannot tell what the product does in 5 seconds, the positioning is not on the page.
+> "AI prose can't violate expectation because it *is* expectation. It's the average of everything."
+> · Ann Handley, What AI Would Delete From Great Writing, 2026-05-03
 
----
+The operating rule: mark the smallest signature quirk before the polish runs, then verify it survived. Keep a human verifying the voice on the marked elements, not just the whole piece. `pat_verification-as-human-job` Schafer's three-pass process builds this in: pass one sets the pole and the headline, pass two injects the voice, pass three integrates and cuts anything that entertains but does not persuade. `ins_schafer-three-pass-writing-process` Single-pass writing collapses persuasion and personality into mush.
 
-## Section-level operating rules
+### 12. Run the honesty test before you ship. Would you say it to the reader's face?
 
-**Hero.** Communicate use case, alternative, and result in 5 seconds.
+Two old tests catch the manipulation that survives because the writer never imagined being seen. Ogilvy's family test is the floor. `ins_ogilvy-family-test`
 
-> "B2B homepages should lead with the trinity of the specific use case, the alternative the buyer is currently using, and the result the product produces, communicable in roughly five seconds."
-> — Anthony Pierri, FletchPMM
-> `ins_homepage-five-second-trinity`
+> "Never Write an Advertisement Which You Wouldn't Want Your Own Family To Read."
+> · Ogilvy, Confessions of an Advertising Man, p. 87 (1963)
 
-Lead with capabilities, what someone does with the product, not aspirational outcomes. "Build pipeline" describes an aspiration. "Call 300 leads per day without manual dialing" describes a capability. The capability is what converts.
+Schafer's face test is the descendant: would you say this line to the reader, in person, without flinching? If you would soften it or retract it across the table, it fails. `ins_schafer-uncomfortable-honesty`
 
-**Feature sections.** Three-W formula. What it is. Why the benefit matters. So what the outcome is. One job per section. If a feature section is doing two jobs, split it.
+> "The test: would you say this to the reader's face, in person, without flinching? If not, it is manipulation."
+> · Cole Schafer, Sticky Notes — The Honesty Test, 2024-01-15
 
-**Social proof.** Specific metric + named person + named company. Interleave after every 2nd or 3rd benefit claim. Do not segregate to a testimonials section only. Proof adjacent to the claim it supports is more credible than proof segregated.
+Both tests trace to the same standard: the work is judged by what it sells, not by what the team admires. `ins_ogilvy-we-sell-or-else`
 
-**CTAs.** Repeat throughout the page. Honest verbs. Match what happens on click. "Book a demo" if it is a demo. "See the product" if it is a video. The reader who clicks and finds something different than expected does not convert.
+> "When I write an advertisement, I don't want you to tell me that you find it 'creative'. I want you to find it so interesting that you _buy the product_."
+> · Ogilvy, Ogilvy on Advertising, p. 7
 
----
+## Check your work
 
-## Common failure modes
+- Layer diagnosed. You know whether the broken thing is positioning, messaging, or copy, before you write copy. `ins_positioning-not-messaging-not-copy`
+- Customer language collected. 50 to 100 verbatim phrases mined before the first headline, not paraphrased into clean themes. `ins_nicolas-cole-voc-mirroring-beats-paraphrase`
+- Awareness level diagnosed per channel. The opening matches where the reader is.
+- One pole committed: pain or pleasure, never both in the same piece.
+- Headline got a fifth of the writing time, with at least 10 versions written before choosing, and it argues on its own.
+- Hero passes the five-second test. A stranger names the product, the buyer, and the alternative in one sentence. `ins_homepage-five-second-trinity`
+- Every "we" / "our" sentence audited. Each earns its place by serving the reader.
+- Every major claim has a proof point adjacent to it, interleaved, not segregated.
+- Numbers are specific, not round, and sourced where possible.
+- CTAs are honest verbs and the action on click matches the button.
+- Voice survived the polish pass. The marked signature element is still there. `ins_handley-ai-cant-violate-expectation`
+- Honesty test passed: you would say every line to the reader's face. `ins_schafer-uncomfortable-honesty`
 
-- **Adjective-stacking.** "Powerful, robust, comprehensive solution." These words do no work. Every competitor uses them. Cut on sight.
-- **Round-number claims without sources.** "40% faster" from nobody is a claim. "38% faster based on 200 customer deployments" is evidence.
-- **Hero copy that describes the product instead of the buyer's situation.** The buyer comes to the page asking "is this for me?" not "tell me about this product." Answer the first question.
-- **Wrong awareness level.** Cold ad written for product-aware buyers, or retargeting ad written for unaware ones. Diagnose the channel before picking the lead.
-- **"See how it works" CTA that opens a sales calendar.** The mismatch destroys trust. If the action is a sales call, say "book a call."
-- **Subject lines mined from internal docs.** The company language is different from the buyer's language. Mine reviews and interviews, not internal briefings.
-- **Company-side framing throughout.** "We are excited to..." "Our team has..." The reader does not share the excitement. Rewrite every sentence to serve the reader.
-- **Proof segregated to a testimonials section.** Proof that lives at the bottom of the page cannot do the work of proof adjacent to the claim it supports.
-- **Oscillating between pain and pleasure poles.** Mixing "escape the chaos" with "unlock new growth" in the same piece delivers neither. Pick a pole and commit.
-- **Cleverness over clarity.** The witty headline that requires 2 seconds of interpretation loses the reader in a scanning context. Clarity wins.
+## What goes wrong
 
----
+- **Skipping straight to generated headlines.** Jumping from a vague positioning idea to AI copy produces lines that sound interesting and lack truth. Fix the messaging layer first. `ins_positioning-not-messaging-not-copy`
+- **Inventing language instead of mining it.** Copy written from internal briefs uses internal jargon. The buyer does not recognize their own problem. Mine reviews and interviews; the phrase is the hook. `ins_relational-keywords-replace-internal-language`
+- **AI synthesis that smooths the phrase.** Deep research strips the exact words that make a buyer feel seen. Pull verbatim, mirror, do not paraphrase. `ins_nicolas-cole-voc-mirroring-beats-paraphrase`
+- **Wrong awareness level.** A cold ad written for product-aware buyers, or a retargeting ad written for unaware ones. Diagnose the channel before picking the lead.
+- **Oscillating between poles.** Mixing "escape the chaos" with "find new growth" in one piece delivers neither. Pick a pole and commit. `ins_schafer-pain-pleasure-polarity`
+- **Hook headlines that need the body.** In a scan, the reader never reaches the body. The headline has to complete the argument alone. `ins_shleyner-headline-as-complete-argument`
+- **Cleverness over clarity.** The witty line that takes two seconds to decode loses the reader in a scanning context. `ins_shleyner-clarity-beats-cleverness`
+- **Company-side framing.** "We are excited to..." The reader does not share the excitement. Rewrite every sentence to serve the reader. `ins_harland-benefits-over-pride`
+- **Abstract claims.** "Improve productivity" disappears from memory before the buyer decides. Translate it into a concrete image from the buyer's life. `ins_shleyner-vividness-creates-memorability`
+- **Round-number claims without sources.** "40% faster" from nobody is a claim. A precise number from a named study is evidence.
+- **Proof segregated to a testimonials block.** Proof at the bottom of the page cannot do the work of proof adjacent to the claim it supports. `ins_case-study-customer-as-hero`
+- **Adjective-stacking.** "Powerful, scalable, enterprise-grade solution." These words do no work and every competitor uses them. Cut on sight. `ins_message-testing-sameness-default`
+- **CTA mismatch.** "See how it works" that opens a sales calendar. The mismatch destroys trust. Name the real action. `ins_nikolai-golos-specific-cta-outperforms-generic`
+- **Letting the polish pass have the last word.** AI smooths the deliberate rule-break back to the average and the voice dies. Mark the quirk, verify it survived. `ins_handley-ai-cant-violate-expectation`
+- **Conversion-optimizing every B2B section.** Optimizing each section to convert now reads as desperate. Optimize it to earn the next scroll. `ins_b2b-landing-page-consumption`
 
-## Quality gates
+## What you get
 
-Before publishing any copy, verify:
-
-- [ ] Awareness level diagnosed. Opening matches the channel and funnel stage.
-- [ ] Polarity committed. One pole: pain or pleasure. Not both.
-- [ ] Headline spent 20% of total writing time. At least 10 versions written before choosing.
-- [ ] Hero copy passes the 5-second test. A stranger can describe the product and who it's for in one sentence.
-- [ ] Every major claim has at least one proof point interleaved adjacent to it, not segregated.
-- [ ] Numbers are specific, not round, and sourced when possible.
-- [ ] CTAs are honest verbs. The action on click matches the button.
-- [ ] "We/Our" sentences have all been audited. Each earns its place by serving the reader.
-- [ ] Kill-list words gone: powerful, robust, comprehensive, seamless, innovative, holistic, synergy, cutting-edge, leverage, transform.
-- [ ] VoC language used in headline and hero. At least one phrase from buyer interviews, not invented internally.
-
----
-
-## Outputs
-
-1. Awareness-level diagnosis for each channel and audience.
-2. Polarity decision: pain or pleasure, with supporting evidence from buyer language.
-3. 10 headline variations per section before final selection.
-4. Value matrix: pain, capability, benefit, and message per persona (see `pb_messaging-matrix`).
-5. Hero copy: H1, H2, and CTA that pass the 5-second test.
-6. Proof stack per capability claim: specific data point, named example, third-party source.
-7. Section copy: feature sections in Three-W format (What, Why, So what).
-8. Voice draft: first pass written without correctness edits, voice captured before polish.
+1. Layer map: where positioning lives, where messaging lives, where copy lives, kept clean.
+2. Voice-of-customer phrase bank: 50 to 100 verbatim buyer phrases, sourced, with the repeating ones flagged as headline candidates.
+3. Awareness-level diagnosis per channel and audience, with the matched lead type.
+4. Polarity decision: pain or pleasure, backed by the buyer language that proves the pole.
+5. 10 headline variations per section before final selection, each tagged by archetype and funnel stage.
+6. Hero copy: H1, subhead, and CTA that pass the five-second trinity and the caveman test.
+7. Proof stack per capability claim: specific number, named customer outcome, third-party source, interleaved adjacent to the claim.
+8. Case-study micro-stories with the metric landed inside the emotional moment.
 9. CTA audit: honest verb matched to the actual action on click.
-10. Full 5-second test results with rewrite if comprehension failed.
+10. Voice draft with the signature quirk marked, then verified intact after the polish pass.
+11. Honesty-test sign-off: every line you would say to the reader's face.

@@ -8,7 +8,7 @@ domain: [competitive, sales-enablement, gtm]
 uses_cards: [ins_battle-cards-as-workflow-primitive, ins_no-decision-is-the-real-competitor, ins_sameness-perception-is-the-differentiation-barrier, ins_sales-team-detects-positioning-failure-first, ins_different-better-and-matters]
 uses_patterns: [pat_diagnose-before-execute, pat_status-quo-is-the-competitor, pat_frontline-as-pmm-substrate, pat_differentiation-vs-sameness, pat_buyer-mindset-not-product-features]
 uses_contradictions: [con_no-decision-vs-named-competitor]
-originating_operators: [april-dunford, gartner-research, ayo-omojola]
+originating_operators: [april-dunford, gartner, ayo-omojola]
 ---
 
 # Run competitive analysis that arms sellers and sharpens positioning
@@ -101,8 +101,7 @@ For each Tier-1 competitor, build a profile that answers: what do they do, who d
 
 The most dangerous failure in a competitor profile is dishonesty about their strengths. One wrong claim about a competitor's pricing or capability permanently breaks seller trust in everything you produce.
 
-> "All it takes is one piece of bad intel to lose the trust of your sellers."
-> · [Crayon, State of Competitive Intelligence](https://www.crayon.co/state-of-competitive-intelligence)
+Crayon's State of Competitive Intelligence research lands the same warning: a single piece of bad intel can cost you the sales team's trust. [Crayon, State of Competitive Intelligence](https://www.crayon.co/state-of-competitive-intelligence)
 
 Acknowledge competitor strengths honestly. The stronger your concession, the more your differentiation claims carry weight. This is not a positioning strategy. It is an epistemic practice. Your salespeople will fact-check you in live conversations.
 
@@ -148,7 +147,9 @@ Battlecards are the most important competitive deliverable. They are not the com
 
 The traditional model treats battlecards as documents: a PMM writes one, a sales rep reads it, it goes stale. The better model treats battlecards as curated intel that updates when the inputs update.
 
-> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows. Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
+> "AI can transform static battle cards into dynamic tools that provide real-time competitive insights directly within seller workflows."
+>
+> "Traditional competitive battle cards, often stored in digital content repositories, quickly become obsolete in dynamic markets."
 > · Gartner, Innovation Insight: Rethinking Battle Cards, 2025
 > `ins_battle-cards-as-workflow-primitive`
 
@@ -164,7 +165,7 @@ A minimum viable battlecard has three sections:
 
 Three rules: Accurate (one wrong claim ends trust permanently). Brief (sellers will not read long cards in a deal). Consistent (same format across all competitors so reps can navigate fast).
 
-### 9. Write strategic recommendations. Specific enough to act on.
+### 9. Write recommendations specific enough to act on within 30 days.
 
 Translate the analysis into one recommendation per audience:
 
@@ -244,5 +245,5 @@ The sequence matters. Trust (Disarm + Concede) must come before proof (Different
 4. SWOT per Tier-1 competitor and landscape-wide.
 5. Battlecards per Tier-1 competitor.
 6. Win/loss summary with patterns, including status-quo loss rate.
-7. Strategic recommendations per audience (sales, product, marketing).
+7. Recommendations per audience (sales, product, marketing).
 8. Monitoring cadence with named owner.
