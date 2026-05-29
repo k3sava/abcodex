@@ -59,11 +59,29 @@ Fails when: <conditions where it breaks>
 
 ## Voice rules (HARD)
 
+- Grammar and human copywriting style. Every sentence starts with a capital letter
+  and ends with terminal punctuation. NEVER start a sentence with a lowercase word
+  (no lowercase-styled "genz" openers). NEVER carry a raw lowercase social-post
+  opener into a claim, title, or body.
 - Zero em dashes outside `> verbatim` operator quotes. Use periods, commas, or middots.
 - Kill-list words banned: orchestration, seamless, strategic, leverage, transform, holistic, synergy, bespoke, unlock, robust, comprehensive, cutting-edge, innovative, paradigm, dive, delve, embark, journey.
 - No throat-clearing openers ("It's worth noting", "Furthermore").
 - Plain English over jargon.
-- Operator verbatim quotes are immutable. Use them in `> blockquote` form. Never paraphrase as if quoted. Never compose composite quotes.
+- `claim_h1`, every `title`, and every heading: a declarative, capitalized,
+  grammatical line. No em dash. No emoji. Never the operator's raw post title.
+- Operator names: clean human names only. Strip decorative emoji and trailing
+  headline text from `operator` and `name` (e.g. "🇺🇦 Ilya Azovtsev" -> "Ilya Azovtsev",
+  "Amanda Groves 🏃🏼‍♀️" -> "Amanda Groves"). The verbatim `roles:` line may keep
+  whatever the operator wrote.
+
+## Quotes (HARD — anti-fabrication)
+
+- A `> "quote"` may ONLY be words the operator actually wrote or said, copied
+  verbatim from the digest's source text. Never turn your synthesized `## Claim`
+  into a `> "quote"`. The Claim is your synthesis; it is not something the operator
+  said. Quoting it is fabrication.
+- Never truncate, re-capitalize, or stitch a quote. If you do not have the exact
+  words, state the point as plain prose with no quote marks. Prose beats a fake quote.
 
 ## Anti-fabrication (overrides everything)
 
@@ -101,12 +119,13 @@ context from the digest. No em dashes. No kill-list words.>
 
 ## Daily release log (REQUIRED STRUCTURE)
 
-Write `insight-library/daily/YYYY-MM-DD.md` body in this exact shape, mirroring
-the 2026-05-06 style:
+The `release.body_markdown` you return is ONLY the body prose. Do NOT include any
+frontmatter block (no `---` fences, no `date:`/`insights_added:`). Do NOT include
+the `# What landed today` H1. The script adds the frontmatter and the H1 itself.
+Your `body_markdown` MUST start with the opening paragraph (the first character is
+a letter, not `-` or `#`). Mirror the 2026-05-06 style:
 
 ```markdown
-# What landed today, YYYY-MM-DD
-
 <One opening paragraph: count of new cards, patterns, operators (e.g. "Seven
 new cards, one updated synthesis pattern. Three themes that connected from
 independent angles this week:"). Then a one-line preview of each theme.>
@@ -138,8 +157,9 @@ Every operator named MUST appear with their card-id linked. The bulleted
 operator-list at the end of each theme is required so the rendered SPA
 shows the explicit links.
 
-The frontmatter goes above (keep using the previous shape with
-`insights_added` etc).
+Do NOT emit frontmatter or the H1 yourself. The script writes the frontmatter
+(date, title, summary, insights_added, operators_added, patterns_added,
+patterns_updated, playbooks_updated) and the H1 around your body prose.
 
 ## LinkedIn post
 
@@ -200,6 +220,20 @@ A new pattern requires at least 3 distinct operators converging independently.
 Don't manufacture patterns from a single operator's claim or two operators
 saying similar things.
 
+## Playbook propagation (keep the playbooks current)
+
+The existing playbooks are listed in your context with their id, title, and domain.
+For each NEW insight you extract, decide which playbook(s) it genuinely belongs in
+by domain and topic, and output a `playbook_updates` entry linking the card to that
+playbook. This is how the playbooks stay current with each day's insights instead
+of going stale.
+
+- Only link a card to a playbook when it actually advances that playbook's topic.
+  Do not force-fit. A card can link to zero, one, or several playbooks.
+- `add_cards` must be real `ins_` ids you are creating in this same run.
+- You are ONLY proposing the linkage (the script adds the card to the playbook's
+  `uses_cards` and bumps its freshness date). Do NOT rewrite playbook prose.
+
 ## Output format (strict)
 
 Return ONLY valid JSON with this exact shape. No prose before or after.
@@ -214,6 +248,9 @@ Return ONLY valid JSON with this exact shape. No prose before or after.
   },
   "pattern_updates": [
     { "id": "pat_<slug>", "add_cards": ["ins_<id>"], "note": "fourth operator added: <name>" }
+  ],
+  "playbook_updates": [
+    { "id": "pb_<slug>", "add_cards": ["ins_<id>"] }
   ],
   "new_patterns": [
     {
@@ -274,6 +311,16 @@ treatments. Default tier: B.
 **Skip**: miniu's own action items, the "What I improved about myself"
 section, the "For your call" decision queue, and the "Skipped" section.
 These are miniu's internal substrate, not operator wisdom.
+
+**Skip non-insights**: recruiting and hiring posts ("we're hiring", "I'm growing
+the team", "[HIRING]"), vendor and product promotions ("X is building the platform
+that…"), pure engagement bait ("BREAKING:", "drop a comment", "tag someone"), and
+any post that is announcement rather than a transferable claim with a mechanism.
+These produced junk cards before. A card needs a claim AND a why, not a headline.
+
+**Never scrape a title as a claim**: if the source is a raw social post, do NOT
+copy its post title or opening line into `claim_h1` or `## Claim`. Synthesize a
+declarative, capitalized claim that states what the operator is actually arguing.
 
 **Skip duplicates**: if a claim from the digest is already in the existing
 INDEX (match by similarity of claim text + same operator), do NOT add it

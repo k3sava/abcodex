@@ -148,6 +148,19 @@ function frontmatterBlock(fm){
   return lines.join("\n");
 }
 
+// Defense in depth: the model is told NOT to include frontmatter or an H1 in any
+// body_markdown, but if it does anyway, strip them so we never nest a second
+// frontmatter block or duplicate the H1 inside the file body. (This was the
+// recurring daily-release malformation.)
+function stripBodyWrapper(md){
+  let s = String(md || "");
+  for (let i = 0; i < 2; i++){
+    s = s.replace(/^﻿?\s*---\r?\n[\s\S]*?\r?\n---\r?\n/, "");  // leading frontmatter
+    s = s.replace(/^\s*#\s+.*\r?\n+/, "");                          // leading H1
+  }
+  return s.trim();
+}
+
 async function loadIndex(){
   const indexPath = join(LIB, "INDEX.json");
   try {
@@ -161,10 +174,11 @@ async function loadIndex(){
       todaysCapturedIds: (date) => insights.filter(i => i.captured_date === date).map(i => i.id),
       operatorSlugs: new Set((data.operators || []).map(o => o.slug)),
       patterns: (data.patterns || []).map(p => ({ id: p.id, title: p.title, uses_cards: p.uses_cards || [], domains: p.domains || [] })),
+      playbooks: (data.playbooks || []).map(p => ({ id: p.id, title: p.title, path: p.path, domain: p.domain || [], uses_cards: p.uses_cards || [] })),
       counts: data.counts || {},
     };
   } catch {
-    return { insightIds: new Set(), insightTitles: [], todaysCapturedIds: () => [], operatorSlugs: new Set(), patterns: [], counts: {} };
+    return { insightIds: new Set(), insightTitles: [], todaysCapturedIds: () => [], operatorSlugs: new Set(), patterns: [], playbooks: [], counts: {} };
   }
 }
 
@@ -228,6 +242,7 @@ async function main(){
       `# Existing insight ids (do not duplicate)\n${[...idx.insightIds].sort().join(", ")}\n`,
       `# Existing insight titles (for fuzzy dedup against the digest claims)\n${idx.insightTitles.slice(0, 200).map(i => `- ${i.id}: ${i.title} [${i.operator}]`).join("\n")}\n`,
       `# Existing synthesis patterns (consider extending these vs creating new)\n${idx.patterns.map(p => `- ${p.id}: ${p.title} [uses: ${p.uses_cards.join(", ")}]`).join("\n")}\n`,
+      `# Existing playbooks (propagate today's new cards into the right ones by domain/topic)\n${idx.playbooks.map(p => `- ${p.id}: ${p.title} [domain: ${(p.domain||[]).join(", ")}]`).join("\n")}\n`,
       `# Today's miniu morning brief\n\n${digestText}`,
     ].filter(Boolean).join("\n");
 
@@ -252,7 +267,7 @@ async function main(){
       // Inject id explicitly
       const fullFm = { id: ins.id, ...fm };
       const path = join(LIB, "insights", `${ins.id}.md`);
-      const text = `${frontmatterBlock(fullFm)}\n\n# ${ins.claim_h1}\n\n${ins.body_markdown.trim()}\n`;
+      const text = `${frontmatterBlock(fullFm)}\n\n# ${ins.claim_h1}\n\n${stripBodyWrapper(ins.body_markdown)}\n`;
       await writeFile(path, text);
       validInsightIds.push(ins.id);
       insightsWritten++;
@@ -336,6 +351,38 @@ async function main(){
     }
     await log(`wrote ${patternsCreated} new pattern files`);
 
+    // Propagate today's new cards into the relevant playbooks. SAFE by design:
+    // we only link new, verified card ids into the playbook's uses_cards and bump
+    // last_updated. We never inject auto-generated prose into the curated body
+    // (that stays a periodic deep-rebuild job). This keeps every playbook current
+    // with the day's insights without risking the quality bar.
+    const playbooksUpdated = [];
+    for (const pu of (result.playbook_updates || [])){
+      if (!pu || !pu.id || !Array.isArray(pu.add_cards) || !pu.add_cards.length) continue;
+      const pb = idx.playbooks.find(p => p.id === pu.id);
+      if (!pb){ await log(`warn: playbook ${pu.id} not found, skipping`); continue; }
+      const pbPath = join(ROOT, "insight-library", pb.path);
+      let text;
+      try { text = await readFile(pbPath, "utf8"); } catch { await log(`warn: cannot read playbook ${pb.path}`); continue; }
+      const existing = new Set(pb.uses_cards || []);
+      // only ids that exist in the corpus (written today or already on disk) and are new to this playbook
+      const adds = [...new Set(pu.add_cards)].filter(id => /^ins_[a-z0-9-]+$/.test(id) && (validInsightIds.includes(id) || idx.insightIds.has(id)) && !existing.has(id));
+      if (!adds.length){ await log(`playbook ${pu.id}: nothing new to link`); continue; }
+      const fmEnd = text.indexOf("\n---", 4);
+      if (fmEnd < 0){ await log(`warn: playbook ${pu.id} has no frontmatter, skipping`); continue; }
+      let fm = text.slice(0, fmEnd);
+      const rest = text.slice(fmEnd);
+      const merged = [...(pb.uses_cards || []), ...adds];
+      if (/^uses_cards:.*$/m.test(fm)) fm = fm.replace(/^uses_cards:.*$/m, `uses_cards: [${merged.join(", ")}]`);
+      else fm = `${fm}\nuses_cards: [${merged.join(", ")}]`;
+      if (/^last_updated:.*$/m.test(fm)) fm = fm.replace(/^last_updated:.*$/m, `last_updated: ${TARGET_DATE}`);
+      else fm = `${fm}\nlast_updated: ${TARGET_DATE}`;
+      await writeFile(pbPath, fm + rest);
+      playbooksUpdated.push(pu.id);
+      await log(`playbook ${pu.id}: linked ${adds.length} new cards (${adds.join(", ")})`);
+    }
+    await log(`playbook updates: ${playbooksUpdated.length}`);
+
     // Write daily release log. The frontmatter list of insights_added covers
     // the full day (everything captured today), not just this run's new files.
     const releaseFm = {
@@ -363,9 +410,10 @@ async function main(){
       ...validOpSlugs.map(s => `  - ${s}`),
       ...(newPatternIds.length ? [`patterns_added:`, ...newPatternIds.map(id => `  - ${id}`)] : ["patterns_added: []"]),
       `playbooks_added: []`,
+      ...(playbooksUpdated.length ? [`playbooks_updated:`, ...playbooksUpdated.map(id => `  - ${id}`)] : ["playbooks_updated: []"]),
       "---",
     ].join("\n");
-    const releaseText = `${releaseYaml}\n\n# ${result.release.title}\n\n${result.release.body_markdown.trim()}\n`;
+    const releaseText = `${releaseYaml}\n\n# ${result.release.title}\n\n${stripBodyWrapper(result.release.body_markdown)}\n`;
     await writeFile(dailyPath, releaseText);
     await log(`wrote daily release log ${dailyPath}`);
 
