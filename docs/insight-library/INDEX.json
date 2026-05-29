@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T16:02:52.276Z",
+  "generated_at": "2026-05-29T18:01:16.099Z",
   "counts": {
     "insights": 845,
     "operators": 469,
@@ -36837,25 +36837,53 @@
         "pmm"
       ],
       "uses_cards": [
-        "ins_company-story-is-the-strategy",
-        "ins_homepage-five-second-trinity",
-        "ins_different-better-and-matters",
+        "ins_jtbd-interviews-surface-customer-language",
         "ins_no-decision-is-the-real-competitor",
+        "ins_nicolas-cole-voc-mirroring-beats-paraphrase",
+        "ins_market-to-product-product-to-market",
+        "ins_doshi-truth-one-level-down",
+        "ins_different-better-and-matters",
+        "ins_neumeier-onlyness-test",
+        "ins_trott-point-of-sameness",
+        "ins_trott-niche-at-scale",
+        "ins_worldview-led-marketing",
+        "ins_company-story-is-the-strategy",
+        "ins_b2b-buyer-emotion-personal-stakes",
+        "ins_homepage-five-second-trinity",
+        "ins_sameness-perception-is-the-differentiation-barrier",
         "ins_test-positioning-in-live-sales-pitch",
         "ins_sales-team-detects-positioning-failure-first",
-        "ins_sameness-perception-is-the-differentiation-barrier",
-        "ins_market-to-product-product-to-market",
-        "ins_jtbd-interviews-surface-customer-language"
+        "ins_judgment-doesnt-compress",
+        "ins_pierri-ai-positioning-needs-human-checkpoints"
+      ],
+      "uses_patterns": [
+        "pat_diagnose-before-execute",
+        "pat_buyer-mindset-not-product-features",
+        "pat_status-quo-is-the-competitor",
+        "pat_differentiation-vs-sameness",
+        "pat_narrative-as-strategy",
+        "pat_frontline-as-pmm-substrate",
+        "pat_execution-cheap-judgement-scarce",
+        "pat_verification-as-human-job"
+      ],
+      "uses_contradictions": [
+        "con_no-decision-vs-named-competitor"
       ],
       "originating_operators": [
         "april-dunford",
         "anthony-pierri",
-        "emily-kramer",
         "martina-lauchengco",
         "ayo-omojola",
         "bob-moesta",
         "andy-raskin",
-        "gartner-research"
+        "marty-neumeier",
+        "seth-godin",
+        "dave-trott",
+        "shreyas-doshi",
+        "nicolas-cole",
+        "kevin-indig",
+        "dave-gerhardt",
+        "gartner"
       ]
     },
     {
