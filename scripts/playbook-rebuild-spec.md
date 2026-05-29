@@ -15,10 +15,14 @@ voice, and (b) weave in the relevant NEW insights so the playbook is current.
 1. Every `ins_…`, `pat_…`, `con_…` reference you write MUST already exist on disk.
    Verify each one: `ls insight-library/insights/<id>.md` (or grep). If it does not
    resolve, do not write it. NEVER invent an ID.
-2. Every `> "quoted"` block must be copied verbatim from a real source: either the
-   `## Evidence` block of an insight card, or the card's `raw_ref` file. Quote text
-   is immutable — copy exactly, including any em dashes inside the quote. If you
-   cannot find the exact words in a real file, do not add the quote.
+2. Every `> "quoted"` block must be copied verbatim from a real source. A `> "quote"`
+   may ONLY be text that already appears as a `> "..."` line inside the card's
+   `## Evidence` block, or verbatim in the card's `raw_ref` file. NEVER turn a card's
+   `## Claim` into a quote — Claims are synthesized, not verbatim, and quoting them is
+   fabrication. Do not truncate, re-capitalize, or stitch a quote. Copy exactly,
+   including em dashes inside the quote. If the card's Evidence has no `> "..."` line,
+   state the point as prose with an inline `` `ins_…` `` ref instead of inventing a quote.
+   When in doubt, prose + ref beats a quote.
 3. Never invent metrics, dates, company names, or attributions. If a claim does not
    trace to a card or raw source, omit it.
 4. Preserve any existing verbatim quotes in the current playbook (re-verify they

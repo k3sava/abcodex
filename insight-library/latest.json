@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T18:12:00.665Z",
+  "generated_at": "2026-05-29T18:17:57.103Z",
   "latest_daily": {
     "path": "daily/2026-05-27.md",
     "date": "2026-05-27",
@@ -22,7 +22,13 @@
     "patterns_added": [
       "pat_saas-growth-trifecta-collapse"
     ],
-    "playbooks_added": []
+    "playbooks_added": [],
+    "patterns_updated": [
+      "pat_pricing-as-the-most-leveraged-org-failure",
+      "pat_aeo-triangle",
+      "pat_agent-first-gtm",
+      "--"
+    ]
   },
   "recent_daily": [
     {
@@ -47,7 +53,13 @@
       "patterns_added": [
         "pat_saas-growth-trifecta-collapse"
       ],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_pricing-as-the-most-leveraged-org-failure",
+        "pat_aeo-triangle",
+        "pat_agent-first-gtm",
+        "--"
+      ]
     },
     {
       "path": "daily/2026-05-25.md",
@@ -65,7 +77,12 @@
       ],
       "operators_added": "",
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_aeo-triangle",
+        "pat_verification-as-human-job",
+        "pat_agent-first-gtm"
+      ]
     },
     {
       "path": "daily/2026-05-21.md",
@@ -102,7 +119,12 @@
         "shreyas-doshi"
       ],
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_diagnose-before-execute",
+        "pat_verification-as-human-job",
+        "--"
+      ]
     },
     {
       "path": "daily/2026-05-17.md",
@@ -151,7 +173,13 @@
         "nicolas-cole"
       ],
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_differentiation-vs-sameness",
+        "pat_frontline-as-pmm-substrate",
+        "pat_sales-as-engineered-system-not-art",
+        "pat_context-not-capability"
+      ]
     },
     {
       "path": "daily/2026-05-15.md",
@@ -169,7 +197,10 @@
       ],
       "operators_added": "",
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "--"
+      ]
     },
     {
       "path": "daily/2026-05-13.md",
@@ -215,7 +246,11 @@
         "barry-schwartz"
       ],
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_verification-as-human-job",
+        "--"
+      ]
     },
     {
       "path": "daily/2026-05-10.md",
@@ -233,7 +268,12 @@
       ],
       "operators_added": "",
       "patterns_added": [],
-      "playbooks_added": []
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_context-not-capability",
+        "pat_aeo-triangle",
+        "pat_differentiation-vs-sameness"
+      ]
     },
     {
       "path": "daily/2026-05-09.md",
