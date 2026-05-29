@@ -1,5 +1,5 @@
 ---
-name: Julien Sauvage 🥖
+name: Julien Sauvage
 slug: julien-sauvage
 roles:
   - CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd
@@ -8,10 +8,10 @@ captured_first: 2026-05-03
 external: ""
 ---
 
-# Julien Sauvage 🥖
+# Julien Sauvage
 
 ## Bio
 
-Julien Sauvage 🥖, CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd
+Julien Sauvage, CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd
 
 Captured from public LinkedIn corpus (2026-04-10 reactions sweep).

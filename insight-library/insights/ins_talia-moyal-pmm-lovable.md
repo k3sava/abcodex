@@ -1,6 +1,6 @@
 ---
 id: ins_talia-moyal-pmm-lovable
-title: 'AI-native PMM means redesigning workflows around AI economics — not adding AI to existing ones'
+title: 'AI-native PMM means redesigning workflows around AI economics, not adding AI to existing ones'
 operator: Talia Moyal
 operator_role: PMM @ Lovable
 source_url: https://lovable.dev/blog/how-modern-marketing-teams-build-on-lovable

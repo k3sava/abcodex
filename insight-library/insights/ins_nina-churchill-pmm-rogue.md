@@ -1,6 +1,6 @@
 ---
 id: ins_nina-churchill-pmm-rogue
-title: 'Same behavior, different headline — language is how women get evaluated, promoted, trusted'
+title: 'Same behavior, different headline, language is how women get evaluated, promoted, trusted'
 operator: Nina Churchill
 operator_role: Senior Product Marketing Leader | HR & Payroll SaaS | GTM Strategy & Positioning
 source_url: https://www.linkedin.com/posts/ninachurchill_the-words-we-use-to-describe-women-vs-men-activity-7426573079700606976-9hZW

@@ -1,7 +1,7 @@
 ---
 id: ins_ryan-quindlen-linkedin-algorithm-satire
 title: 'LinkedIn algorithm prioritizes old posts, repeats, broken notifications, and bad video'
-operator: Ryan Quindlen 🦇
+operator: Ryan Quindlen
 operator_role: Social @ Zapier | Prev. Founding Team at Laudable (Acquired by Zapier)
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7343343563268595713/
 source_type: thread

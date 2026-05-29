@@ -1,6 +1,6 @@
 ---
 id: pb_win-loss-framework
-title: Win/loss framework — closing the deal-to-positioning loop
+title: Close the loop from won and lost deals back to positioning
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [competitive, sales-enablement, voc]
@@ -11,7 +11,7 @@ secondary_sources:
   - team-brain/workflows/call-intelligence.md
 ---
 
-# Win/loss framework playbook
+# Close the loop from won and lost deals back to positioning
 
 Closes the loop from closed deals back to positioning, competitive, and CS. Win/loss without continuous synthesis stays ad hoc; the signal is in the deals, the gap is in the loop. This playbook standardizes the loop.
 

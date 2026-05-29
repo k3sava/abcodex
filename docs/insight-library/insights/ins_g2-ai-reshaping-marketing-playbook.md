@@ -1,6 +1,6 @@
 ---
 id: ins_g2-ai-reshaping-marketing-playbook
-title: 'AI search is now a software marketplace — demand gen must adapt or vanish'
+title: 'AI search is now a software marketplace, demand gen must adapt or vanish'
 operator: G2
 operator_role: 'Artificial Intelligence is reshaping the modern marketing playbook. From content to operations, AI is changing everything. Read G2''s AI Marketing Mind to learn how marketers are adapting.'
 source_url: https://learn.g2.com/tech-signals-demand-gen-playbook-2026?hsLang=en

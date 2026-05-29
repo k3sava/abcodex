@@ -1,7 +1,7 @@
 ---
 id: ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation
 title: 'n8n + MCP + Claude lets GTM teams build workflows in plain English.'
-operator: 🇺🇦 Ilya Azovtsev
+operator: Ilya Azovtsev
 operator_role: Co-founder of GrowthBand | SaaS Growth Advisor
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7366161220640374785/
 source_type: thread

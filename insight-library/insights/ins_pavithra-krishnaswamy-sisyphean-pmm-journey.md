@@ -1,6 +1,6 @@
 ---
 id: ins_pavithra-krishnaswamy-sisyphean-pmm-journey
-title: 'Nobody chose product marketing — it chooses you'
+title: 'Nobody chose product marketing, it chooses you'
 operator: Pavithra Krishnaswamy
 operator_role: Product Marketing Leader | Musician | ex-Zoho / Mad Street Den / Skit.ai / Sprinklr
 source_url: https://www.linkedin.com/pulse/product-marketing-role-chooses-you-pavithra-krishnaswamy-sm74c

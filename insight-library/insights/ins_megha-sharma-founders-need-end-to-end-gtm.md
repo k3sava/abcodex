@@ -1,6 +1,6 @@
 ---
 id: ins_megha-sharma-founders-need-end-to-end-gtm
-title: 'Founders who need brand positioning always end up asking for lead generation — so offer both.'
+title: 'Founders who need brand positioning always end up asking for lead generation, so offer both.'
 operator: Megha Sharma
 operator_role: Co-Founder ONEGTMLAB | Turning founder stories into pipeline with AI-powered GTM systems | Build in Public GTM Strategist for B2B founders
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7393661203241328640

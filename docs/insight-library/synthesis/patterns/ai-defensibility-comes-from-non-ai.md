@@ -1,6 +1,6 @@
 ---
 id: pat_ai-defensibility-comes-from-non-ai
-title: AI defensibility comes from non-AI moats — Altman, Naval, and Munger on what survives commoditisation
+title: 'AI defensibility comes from non-AI moats'
 captured_date: 2026-05-05
 convergence_count: 3
 tier: A

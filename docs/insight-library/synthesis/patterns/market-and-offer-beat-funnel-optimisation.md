@@ -1,6 +1,6 @@
 ---
 id: pat_market-and-offer-beat-funnel-optimisation
-title: Market selection and offer strength dominate downstream optimisation — Hormozi, Godin, and Dunford on the same hierarchy
+title: 'Market and offer beat funnel optimisation'
 captured_date: 2026-05-05
 convergence_count: 3
 tier: A

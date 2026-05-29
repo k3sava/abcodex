@@ -14,7 +14,7 @@ external:
 # Roxana Irimia
 
 ## Bio
-Roxana Irimia. LinkedIn operator publishing on pmm, ai-native, marketing. Headline: "VP Marketing at Chili Piper 🌶️ | ex-Head of Marketing at lemlist | "she's the marketing roxstar" | FOLLOW to save hours of Marketing, Content, Product Marketing and Branding research". Surfaced via Pass B3 ingest of 447 reactions.
+Roxana Irimia. LinkedIn operator publishing on pmm, ai-native, marketing. Headline: "VP Marketing at Chili Piper | ex-Head of Marketing at lemlist | "she's the marketing roxstar" | FOLLOW to save hours of Marketing, Content, Product Marketing and Branding research". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.

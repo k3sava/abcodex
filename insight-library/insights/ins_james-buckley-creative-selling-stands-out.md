@@ -1,6 +1,6 @@
 ---
 id: ins_james-buckley-creative-selling-stands-out
-title: 'Sales is craft — the front line is the tip of the spear, not a commodity layer'
+title: 'Sales is craft, the front line is the tip of the spear, not a commodity layer'
 operator: James Buckley
 operator_role: Partnerships & Host of Sell Better 🎥
 source_url: https://www.stackforce.co/talent/james-buckley-partnerships-manager-69ca27f52ab77a389363636d

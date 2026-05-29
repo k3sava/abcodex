@@ -1,6 +1,6 @@
 ---
 id: pb_pmm-coaching-framework
-title: PMM coaching — iterative document review with feedback retention
+title: Coach PMM work through iterative review that retains feedback
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [messaging, copywriting, pmm]
@@ -10,7 +10,7 @@ secondary_sources:
   - team-brain/workflows/pmm-coaching-framework.md
 ---
 
-# PMM coaching framework playbook
+# Coach PMM work through iterative review that retains feedback
 
 A structured methodology for coaching product marketing managers through iterative document review. Scores work across 29 dimensions in 5 categories, prioritizes feedback using a Focus-3 system, and tracks whether coaching feedback is actually applied. Works for any customer-facing PMM content: messaging docs, positioning, copy, launch briefs, blogs, case studies, emails, landing pages.
 

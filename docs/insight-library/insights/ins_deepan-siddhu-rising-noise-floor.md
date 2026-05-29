@@ -1,6 +1,6 @@
 ---
 id: ins_deepan-siddhu-rising-noise-floor
-title: 'The B2B SaaS noise floor is rising — 2026 demands ruthless focus on pipeline mechanics.'
+title: 'The B2B SaaS noise floor is rising, 2026 demands ruthless focus on pipeline mechanics.'
 operator: Deepan Siddhu
 operator_role: 'Sr. Director, Growth Marketing @ JustCall | SaaS Labs'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7393660955953573888/

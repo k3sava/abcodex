@@ -1,6 +1,6 @@
 ---
 id: ins_giorgio-zanella-clay-beyond-lead-gen
-title: "Clay is not just for lead gen — it's a general-purpose automation platform for any data discovery task."
+title: 'Clay is not just for lead gen, it''s a general-purpose automation platform for any data discovery task.'
 operator: Giorgio Zanella
 operator_role: GTM Engineer @TheKiln DM if you have a cool API to try
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7343344023429947394/

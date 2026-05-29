@@ -1,6 +1,6 @@
 ---
 id: pat_monopoly-economics-differentiation-beats-competition
-title: Differentiation, not competition, is what compounds — Thiel, Naval, Munger, Neumeier, Hormozi, and Dunford on the same economic principle
+title: 'Differentiation, not competition, is what compounds'
 captured_date: 2026-05-05
 convergence_count: 6
 tier: A

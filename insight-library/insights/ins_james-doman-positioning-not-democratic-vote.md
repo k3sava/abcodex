@@ -1,6 +1,6 @@
 ---
 id: ins_james-doman-positioning-not-democratic-vote
-title: 'Product launches have become marketing theatre — build for momentum, not noise'
+title: 'Product launches have become marketing theatre, build for momentum, not noise'
 operator: James Doman
 operator_role: 'Positioning & Launches for B2B SaaS & AI | Co-founder, Inflection Studio | Product Marketing Consultant | Ex-Remote'
 source_url: https://newsletter.buildingmomentum.io/p/the-product-launch-has-become-a-vanity

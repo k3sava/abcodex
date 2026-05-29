@@ -1,6 +1,6 @@
 ---
 id: pat_agents-as-product-users
-title: Agents are first-class users — design for output, not navigation
+title: 'Agents are first-class users, design for output, not navigation'
 captured_date: 2026-05-01
 convergence_count: 3
 tier: A

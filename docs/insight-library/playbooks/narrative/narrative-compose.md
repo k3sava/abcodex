@@ -1,6 +1,6 @@
 ---
 id: pb_narrative-compose
-title: Narrative compose — master story, message house, pillar copy
+title: Compose a narrative from master story to message house to pillar copy
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [narrative, messaging, positioning]
@@ -11,7 +11,7 @@ secondary_sources:
   - team-brain/workflows/narrative-rollout.md
 ---
 
-# Narrative compose playbook
+# Compose a narrative from master story to message house to pillar copy
 
 Take positioning + ICP + VoC and compose the master narrative that every asset references. The message house is canonical, if a downstream asset's claim is not in the message house, the asset is rejected. Format-agnostic; the source of truth for every channel.
 

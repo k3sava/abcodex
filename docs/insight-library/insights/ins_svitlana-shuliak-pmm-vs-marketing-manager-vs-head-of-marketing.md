@@ -1,6 +1,6 @@
 ---
 id: ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing
-title: 'PMM, Marketing Manager, and Head of Marketing are not the same job — and conflating them creates overload, not efficiency.'
+title: 'PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency.'
 operator: Svitlana Shuliak
 operator_role: 'Product Marketing Manager @ Reply.io | Product Marketing, Positioning & GTM | Sharing how to make products easier to understand and sell 💓'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7441876881093816321/

@@ -1,6 +1,6 @@
 ---
 id: pb_sales-enablement
-title: Sales enablement — battlecards, ROI, decks, training
+title: Equip sellers with battlecards, ROI tools, decks, and training
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [sales-enablement, pmm, gtm]
@@ -10,7 +10,7 @@ secondary_sources:
   - flywheel/skills/competitive-displace/SKILL.md
 ---
 
-# Sales enablement playbook
+# Equip sellers with battlecards, ROI tools, decks, and training
 
 Build and maintain a sales enablement system from competitive intel through pricing through measurement. Synthesizes Dock's PMM-Sales operating model (Positioning, Content, Intelligence, Coaching, Systems, Feedback) with deal-attributed tracking.
 

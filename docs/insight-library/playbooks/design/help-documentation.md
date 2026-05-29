@@ -1,6 +1,6 @@
 ---
 id: pb_help-documentation
-title: Help documentation — taxonomy, architecture, production
+title: Build help docs from taxonomy to published article
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [help-docs, design, post-sale]
@@ -9,7 +9,7 @@ originating_operators: []
 secondary_sources: []
 ---
 
-# Help documentation playbook
+# Build help docs from taxonomy to published article
 
 Help docs are the post-sale experience layer. Positioning convinces prospects to buy; help docs determine whether they succeed after buying. Treats documentation as a strategic deliverable.
 

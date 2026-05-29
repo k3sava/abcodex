@@ -1,6 +1,6 @@
 ---
 id: pat_subtraction-first-operating-discipline
-title: Subtraction beats addition — Taleb, Munger, and Hormozi on why removal is more reliable than improvement
+title: 'Subtraction-first operating discipline'
 captured_date: 2026-05-05
 convergence_count: 3
 tier: A

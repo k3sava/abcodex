@@ -1,6 +1,6 @@
 ---
 id: con_concentrate-vs-barbell-allocation
-title: Power-law concentration vs. barbell diversification — Thiel and Taleb on opposite stances toward portfolio allocation
+title: 'Power-law concentration vs. barbell diversification'
 captured_date: 2026-05-05
 operators: [Peter Thiel, Nassim Nicholas Taleb]
 uses_cards: [ins_thiel-power-law, ins_thiel-vertical-vs-horizontal-progress, ins_taleb-barbell-strategy, ins_antifragile-barbell]

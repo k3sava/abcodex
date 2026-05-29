@@ -1,6 +1,6 @@
 ---
 id: ins_aakrit-vaish-indian-ai-founders-not-behind
-title: "India's AI advantage is applied — not foundational — and that's where founders should bet"
+title: 'India''s AI advantage is applied, not foundational, and that''s where founders should bet'
 operator: Aakrit Vaish
 operator_role: Activating AI in India
 source_url: https://activatesignal.substack.com/

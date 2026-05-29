@@ -14,7 +14,7 @@ external:
 # Kabir Uppal
 
 ## Bio
-Kabir Uppal. LinkedIn operator publishing on growth, ai-native. Headline: "👉🏼 Growth & GTM Strategy | SaaS & AI | Revenue, Partnerships and Ops Leader. I help build and scale GTM Engines to drive pipeline and revenue...✨". Surfaced via Pass B3 ingest of 447 reactions.
+Kabir Uppal. LinkedIn operator publishing on growth, ai-native. Headline: " Growth & GTM Strategy | SaaS & AI | Revenue, Partnerships and Ops Leader. I help build and scale GTM Engines to drive pipeline and revenue...". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.

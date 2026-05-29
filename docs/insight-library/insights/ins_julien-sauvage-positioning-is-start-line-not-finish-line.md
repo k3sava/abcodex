@@ -1,7 +1,7 @@
 ---
 id: ins_julien-sauvage-positioning-is-start-line-not-finish-line
 title: 'Positioning is the start line, not the finish line for PMM.'
-operator: Julien Sauvage 🥖
+operator: Julien Sauvage
 operator_role: 'CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7374771362155913216/
 source_type: thread

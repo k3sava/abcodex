@@ -1,6 +1,6 @@
 ---
 id: pb_copywriting-mastery
-title: Copywriting mastery — direct response to modern conversion
+title: Write conversion copy on direct-response fundamentals
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 depth: full
@@ -9,7 +9,7 @@ uses_cards: [ins_homepage-five-second-trinity, ins_pain-solution-proof-interleav
 originating_operators: [cole-schafer, eddie-shleyner, dave-harland, ann-handley, eugene-schwartz, david-ogilvy, gary-halbert, joanna-wiebe, anthony-pierri, mihika-kapoor]
 ---
 
-# Copywriting mastery playbook
+# Write conversion copy on direct-response fundamentals
 
 Copy principles from the direct-response tradition (Schwartz, Ogilvy, Halbert, Bencivenga) and modern conversion practice (Shleyner, Schafer, Harland, Handley). Use alongside `pb_writing-craft` for the craft layer and `pb_messaging-matrix` for the strategic layer. This playbook covers the practitioner moves.
 

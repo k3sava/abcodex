@@ -1,6 +1,6 @@
 ---
 id: pat_sustainability-beats-optimisation
-title: Sustainability beats optimisation — Housel, Naval, Taleb, Munger, and Sinek on why endurance compounds and brilliance abandoned doesn't
+title: 'Sustainability beats optimisation'
 captured_date: 2026-05-05
 convergence_count: 5
 tier: A

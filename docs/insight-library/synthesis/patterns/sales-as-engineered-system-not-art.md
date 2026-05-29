@@ -1,6 +1,6 @@
 ---
 id: pat_sales-as-engineered-system-not-art
-title: Sales is an engineered system, not individual art — Roberge, Skok, Voss, and Altman on the structural design of repeatable revenue
+title: 'Sales is an engineered system, not individual art'
 captured_date: 2026-05-05
 last_updated: 2026-05-16
 convergence_count: 15

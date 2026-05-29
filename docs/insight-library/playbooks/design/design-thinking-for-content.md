@@ -1,6 +1,6 @@
 ---
 id: pb_design-thinking-for-content
-title: Design thinking for content — page architecture, psychology, prototyping
+title: Architect content with design thinking, from page structure to prototype
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [design, copywriting, conversion]
@@ -10,7 +10,7 @@ secondary_sources:
   - team-brain/workflows/design-thinking-for-content.md
 ---
 
-# Design thinking for content playbook
+# Architect content with design thinking, from page structure to prototype
 
 Treat every piece of content as a design problem: who is the user, what are they trying to accomplish, what barriers stand in their way, how do you structure information so they act. Sits between visual design (design-principles.md) and sentence-level craft (copywriting).
 

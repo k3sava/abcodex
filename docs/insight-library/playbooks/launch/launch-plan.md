@@ -1,6 +1,6 @@
 ---
 id: pb_launch-plan
-title: Launch plan — tiered GTM execution
+title: Run a tiered launch that matches effort to impact
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [launch, gtm, pmm]
@@ -11,7 +11,7 @@ secondary_sources:
   - team-brain/workflows/narrative-rollout.md
 ---
 
-# Launch plan playbook
+# Run a tiered launch that matches effort to impact
 
 A tiered GTM launch process. Synthesizes Yi Lin Pei's 4-step launch flow (Strategic Readiness → Positioning/Messaging → External Promotion → Internal Enablement) with a deliverables matrix sized by tier.
 

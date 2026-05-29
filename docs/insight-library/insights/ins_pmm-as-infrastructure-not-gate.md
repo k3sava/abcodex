@@ -15,7 +15,7 @@ score: { originality: 4, specificity: 3, evidence: 3, transferability: 5, source
 tier: A
 related: [ins_agents-are-the-new-product-user, ins_aeo-is-gtm-capability, ins_rebuild-gtm-around-ai]
 raw_ref: raw/essays/elena-verna--agents-are-the-new-user--2026-04-26.md
-title: 'PLG sales-led companies need PLG, and PLG companies need sales — both, not one'
+title: 'PLG sales-led companies need PLG, and PLG companies need sales, both, not one'
 ---
 
 # PLG sales-led companies need PLG, and PLG companies need sales, both, not one

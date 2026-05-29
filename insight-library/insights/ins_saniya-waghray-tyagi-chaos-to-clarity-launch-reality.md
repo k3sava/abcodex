@@ -1,6 +1,6 @@
 ---
 id: ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality
-title: 'Working out loud beats hindsight — the breadcrumb trail compounds'
+title: 'Working out loud beats hindsight, the breadcrumb trail compounds'
 operator: Saniya Waghray Tyagi
 operator_role: 'Product Marketing @ NBCUniversal | Talking careers, connection, & the power of showing up | Wharton MBA'
 source_url: https://www.linkedin.com/posts/saniyawaghray_i-recently-came-across-an-essay-titled-breadcrumbs-activity-7307382211257782273-Y4nG

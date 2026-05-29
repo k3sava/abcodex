@@ -1,6 +1,6 @@
 ---
 id: ins_roman-gordy-admiring-people-first-leadership
-title: "Talent freedom beats freelancing arbitrage — and that's a defensible business model"
+title: 'Talent freedom beats freelancing arbitrage, and that''s a defensible business model'
 operator: Roman Gordy
 operator_role: CEO at Arbonum | Global Payments for Game Studios | 海外フリーランスへの支払い・契約管理
 source_url: https://techbullion.com/new-perspectives-on-remote-teams-interview-with-roman-gordy-ceo-of-arbonum/

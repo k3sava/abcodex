@@ -1,6 +1,6 @@
 ---
 id: pb_llm-wiki
-title: LLM wiki — persistent knowledge substrate for AI agents
+title: Build a persistent knowledge base your AI agents can actually use
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [ai-native-gtm, knowledge, substrate]
@@ -11,7 +11,7 @@ secondary_sources:
   - team-brain/workflows/self-evolution.md
 ---
 
-# LLM wiki playbook
+# Build a persistent knowledge base your AI agents can actually use
 
 A method for giving AI agents durable, cross-session memory through a structured wiki the agent maintains. Adapted from Andrej Karpathy's LLM wiki pattern (`ins_llm-wiki-pattern`). The wiki is the brain. The agent is the programmer. Markdown editor is the IDE.
 

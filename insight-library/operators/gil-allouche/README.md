@@ -14,7 +14,7 @@ external:
 # Gil Allouche
 
 ## Bio
-Gil Allouche. LinkedIn operator publishing on founder-craft, marketing. Headline: "CEO at metadata.io | Making B2B Marketing Teams Predictable & Profitable 🦄". Surfaced via Pass B3 ingest of 447 reactions.
+Gil Allouche. LinkedIn operator publishing on founder-craft, marketing. Headline: "CEO at metadata.io | Making B2B Marketing Teams Predictable & Profitable ". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.

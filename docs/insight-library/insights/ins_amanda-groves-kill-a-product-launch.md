@@ -1,7 +1,7 @@
 ---
 id: ins_amanda-groves-kill-a-product-launch
-title: 'Two-bucket GA launches break enablement — avoid them at all cost'
-operator: Amanda Groves 🏃🏼‍♀️
+title: 'Two-bucket GA launches break enablement, avoid them at all cost'
+operator: Amanda Groves
 operator_role: VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2
 source_url: http://sharebird.com/h/product-marketing/q/can-you-tell-us-about-a-time-when-a-product-launch-was-challenging-to-execute-what-made-it-challenging-and-how-did-you-adapt-to-the-challenges
 source_type: thread

@@ -1,6 +1,6 @@
 ---
 id: ins_jatin-saini-brand-taglines-vs-reality
-title: 'Investors decide trust in 100 milliseconds — your personal brand starts on LinkedIn, not in the boardroom'
+title: 'Investors decide trust in 100 milliseconds, your personal brand starts on LinkedIn, not in the boardroom'
 operator: Jatin Saini
 operator_role: 'I build personal brands for CEOs, VCs & founders'
 source_url: https://www.linkedin.com/posts/jatin-saini_personalbranding-activity-7322459921709432832-FxJq

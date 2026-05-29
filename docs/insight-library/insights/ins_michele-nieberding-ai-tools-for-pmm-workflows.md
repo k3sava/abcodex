@@ -1,7 +1,7 @@
 ---
 id: ins_michele-nieberding-ai-tools-for-pmm-workflows
 title: 'Claude tools map to distinct PMM workflows: think, analyze, scale, collaborate.'
-operator: Michele Nieberding 🚀
+operator: Michele Nieberding
 operator_role: The AI Product Marketer
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7434483320534679552/
 source_type: thread

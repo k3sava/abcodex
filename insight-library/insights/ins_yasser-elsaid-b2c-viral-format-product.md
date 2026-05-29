@@ -1,6 +1,6 @@
 ---
 id: ins_yasser-elsaid-b2c-viral-format-product
-title: "Build for AI agents, not chatbots — that's where the moat is when features get copied"
+title: 'Build for AI agents, not chatbots, that''s where the moat is when features get copied'
 operator: Yasser Elsaid
 operator_role: CEO at Chatbase
 source_url: https://indiehackers.com/post/TpbhTVyp1sjBk0uzo4tR

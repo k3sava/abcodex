@@ -1,6 +1,6 @@
 ---
 id: pb_aeo-relevance-engineering
-title: AEO relevance engineering — passages, schema, mirrors, scorecard
+title: Engineer pages so AI assistants cite you, not just rank you
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [aeo, seo, gtm]
@@ -11,7 +11,7 @@ secondary_sources:
   - flywheel/skills/schema-delta-aeo/SKILL.md
 ---
 
-# AEO relevance engineering playbook
+# Engineer pages so AI assistants cite you, not just rank you
 
 Treat answer-engine optimization as an information-retrieval engineering discipline, not content production. The unit of citation is the passage, not the page. Each pass emits four artifacts side-by-side so the doc ships AI-ready, not just human-ready.
 

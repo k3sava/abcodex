@@ -1,6 +1,6 @@
 ---
 id: pat_behavioral-pricing-architecture
-title: Pricing is a behavioral-architecture problem — Ariely, Kahneman, Simon, Hormozi, and Ramanujam on what the buyer actually does with prices
+title: 'Pricing is a behavioral-architecture problem'
 captured_date: 2026-05-05
 convergence_count: 5
 tier: A

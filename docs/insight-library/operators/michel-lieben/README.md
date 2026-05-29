@@ -1,5 +1,5 @@
 ---
-name: Michel Lieben 🧠
+name: Michel Lieben
 slug: michel-lieben
 roles:
   - Founder & CEO at ColdIQ
@@ -12,10 +12,10 @@ external:
   website: https://coldiq.com/
 ---
 
-# Michel Lieben 🧠
+# Michel Lieben
 
 ## Bio
-Michel Lieben 🧠. LinkedIn operator publishing on founder-craft. Headline: "Founder & CEO at ColdIQ | Tomorrow's GTM Systems, Built for you 👉 coldiq.com". Surfaced via Pass B3 ingest of 447 reactions.
+Michel Lieben . LinkedIn operator publishing on founder-craft. Headline: "Founder & CEO at ColdIQ | Tomorrow's GTM Systems, Built for you coldiq.com". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.

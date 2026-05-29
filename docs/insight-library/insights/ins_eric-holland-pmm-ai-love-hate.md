@@ -1,7 +1,7 @@
 ---
 id: ins_eric-holland-pmm-ai-love-hate
 title: 'PMMs have a love-hate relationship with AI because no one builds tools for their workflows'
-operator: Eric Holland 💀
+operator: Eric Holland
 operator_role: I build messaging GPTs ➕ interactive demos for SaaS companies | Podcast Host @ We’re Not Marketers | Dad @ Home
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7349478304866852864/
 source_type: thread

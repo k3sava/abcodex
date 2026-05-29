@@ -1,6 +1,6 @@
 ---
 id: ins_anisha-jain-ai-as-tool-not-crutch
-title: "There is no 'AI-made' content, only good and bad posts — AI is a tool, not a crutch."
+title: 'There is no ''AI-made'' content, only good and bad posts, AI is a tool, not a crutch.'
 operator: Anisha Jain
 operator_role: How to write (better) with AI.
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7366859942646964224/

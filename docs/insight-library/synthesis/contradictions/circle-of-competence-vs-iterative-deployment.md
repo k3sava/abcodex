@@ -1,6 +1,6 @@
 ---
 id: con_circle-of-competence-vs-iterative-deployment
-title: Stay inside the circle vs. ship into the unknown — Munger and Altman on opposite stances toward unknown territory
+title: 'Stay inside the circle vs. ship into the unknown'
 captured_date: 2026-05-05
 operators: [Charlie Munger, Sam Altman]
 uses_cards: [ins_circle-of-competence, ins_specific-knowledge-cannot-be-mass-trained]

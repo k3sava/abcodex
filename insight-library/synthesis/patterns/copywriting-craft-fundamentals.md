@@ -1,6 +1,6 @@
 ---
 id: pat_copywriting-craft-fundamentals
-title: Copywriting craft is built on five reinforcing fundamentals — Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller on what makes copy actually convert
+title: 'Copywriting craft is built on five reinforcing fundamentals'
 captured_date: 2026-05-05
 convergence_count: 6
 tier: A

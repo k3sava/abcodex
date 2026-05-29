@@ -1,6 +1,6 @@
 ---
 id: pb_tactical-empathy-discovery-playbook
-title: The Tactical Empathy Discovery Playbook — Voss's five tools integrated into a usable sales discovery, customer research, and difficult-conversation routine
+title: The Tactical Empathy Discovery Playbook: Voss's five tools for discovery and hard conversations
 captured_date: 2026-05-05
 operators: [Chris Voss, Bob Moesta, Charlie Munger]
 uses_cards: [ins_voss-mirroring-forces-elaboration, ins_voss-accusation-audit, ins_voss-thats-right-breakthrough, ins_voss-black-swans-discovered-in-process, ins_voss-tactical-empathy-labels, ins_calibrated-questions-illusion-of-control, ins_no-oriented-questions, ins_jtbd-interviews-surface-customer-language, ins_incentives-as-master-switch]

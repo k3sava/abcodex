@@ -1,7 +1,7 @@
 ---
 id: ins_michele-nieberding-branch-in-new-chat-for-pmm
 title: 'Branching chats with stable taxonomy scales PMM strategy without chaos.'
-operator: Michele Nieberding 🚀
+operator: Michele Nieberding
 operator_role: The AI Product Marketer
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7371527161058480128/
 source_type: thread

@@ -21,7 +21,7 @@ raw_ref:
 # The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product
 
 ## Claim
-The scarce capability in product marketing is interpersonal craft — the ability to find a common language for the whole company to talk about the product — not industry knowledge, writing ability, or AI fluency. Those are learnable. The translation layer is not.
+The scarce capability in product marketing is interpersonal craft: the ability to find a common language for the whole company to talk about the product. Not industry knowledge, not writing ability, not AI fluency. Those are learnable. The translation layer is not.
 
 ## Mechanism
 Industry knowledge transfers in weeks. AI fluency is table stakes in 2026. Writing skill is abundant. The rarest capacity is synthesizing input from engineering, sales, customer success, and leadership into a single vocabulary everyone uses consistently. Without it, positioning leaks into execution inconsistency regardless of how clean the strategy document is. The PMM earns the seat by reducing the translation cost that everyone else in the company pays.

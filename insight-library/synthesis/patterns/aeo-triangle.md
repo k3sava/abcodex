@@ -1,6 +1,6 @@
 ---
 id: pat_aeo-triangle
-title: The AEO triangle — presence, relevance, manual-action propagation
+title: 'The AEO triangle, presence, relevance, manual-action propagation'
 captured_date: 2026-05-01
 last_updated: 2026-05-27
 convergence_count: 23

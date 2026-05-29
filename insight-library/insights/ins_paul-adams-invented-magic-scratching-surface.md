@@ -1,6 +1,6 @@
 ---
 id: ins_paul-adams-invented-magic-scratching-surface
-title: 'AI-first product means blowing up the roadmap — not adding AI features'
+title: 'AI-first product means blowing up the roadmap, not adding AI features'
 operator: Paul Adams
 operator_role: CPO and Marketing at Intercom - building Fin.ai
 source_url: https://podcasts.apple.com/us/podcast/how-to-become-an-ai-first-pm-and-designer-paul-adams/id1736359687?i=1000655176207

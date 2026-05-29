@@ -1,6 +1,6 @@
 ---
 id: pb_claim-verify-gate
-title: Claim verify — substrate-fidelity truth gate
+title: Gate every public claim against the source that backs it
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [ai-native-gtm, substrate, anti-fabrication]
@@ -11,7 +11,7 @@ secondary_sources:
   - flywheel/skills/substrate-cite-check/SKILL.md
 ---
 
-# Claim-verify gate playbook
+# Gate every public claim against the source that backs it
 
 A two-gate substrate-fidelity defense for any system that grounds external assets in citable knowledge. Gate 6 (cite-check) catches claims with no cite. Gate 7 (claim-verify) catches claims cited to a path that does not actually contain the claimed value. Together they close the substrate-fidelity concern that pure citation existence misses.
 

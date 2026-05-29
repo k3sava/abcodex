@@ -1,6 +1,6 @@
 ---
 id: ins_veena-ramakrishnan-fixing-the-follow-up-gap
-title: "The biggest sales gap isn't outbound—it's missing the callback."
+title: 'The biggest sales gap isn''t outbound, it''s missing the callback.'
 operator: Veena Ramakrishnan
 operator_role: Senior Demand Generation Specialist at SaaS Labs
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7392124696470638592/

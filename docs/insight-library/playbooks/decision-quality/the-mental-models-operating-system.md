@@ -1,6 +1,6 @@
 ---
 id: pb_mental-models-operating-system
-title: The Mental Models Operating System — combining Kahneman's bias inventory with Munger's latticework into an operational decision-quality playbook
+title: The Mental Models Operating System: Kahneman's biases meet Munger's latticework
 captured_date: 2026-05-05
 operators: [Daniel Kahneman, Charlie Munger]
 uses_cards: [ins_system1-system2-thinking, ins_wysiati-overconfidence, ins_noise-vs-bias-judgment-quality, ins_planning-fallacy-launch-timelines, ins_anchoring-pricing-negotiation, ins_loss-aversion-status-quo-bias, ins_latticework-of-mental-models, ins_invert-always-invert, ins_circle-of-competence, ins_lollapalooza-effects, ins_mental-models-as-os-not-library, ins_incentives-as-master-switch]

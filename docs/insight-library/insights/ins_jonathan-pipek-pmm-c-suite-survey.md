@@ -1,7 +1,7 @@
 ---
 id: ins_jonathan-pipek-pmm-c-suite-survey
 title: 'Modern B2B PMM lives or dies on distribution and partnerships'
-operator: Jonathan Pipek 🔱
+operator: Jonathan Pipek
 operator_role: Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA
 source_url: https://cyberpmm.com/s3e2-jonathan-pipek-on-modern-b2b-product-marketing-realities/
 source_type: thread

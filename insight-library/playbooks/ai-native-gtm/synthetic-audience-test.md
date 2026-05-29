@@ -1,6 +1,6 @@
 ---
 id: pb_synthetic-audience-test
-title: Synthetic audience test — pre-flight buyer panel
+title: Pressure-test a message on a synthetic buyer panel before you ship
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [messaging, ai-native-gtm, conversion]
@@ -11,7 +11,7 @@ secondary_sources:
   - flywheel/skills/synth-audience/SKILL.md
 ---
 
-# Synthetic audience test playbook
+# Pressure-test a message on a synthetic buyer panel before you ship
 
 Pre-flight test of a positioning, LP, ad copy, or outbound opener variant against grounded buyer personas before live calibration. Returns a structured read (clarity, objections, comprehension gaps, predicted intent delta). **Directional only**, not a gate verdict. Use BEFORE filing a gate packet on the variant.
 

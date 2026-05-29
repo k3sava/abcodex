@@ -1,6 +1,6 @@
 ---
 id: pat_differentiation-vs-sameness
-title: Differentiation requires three checks — different, better, matters
+title: 'Differentiation requires three checks, different, better, matters'
 captured_date: 2026-05-01
 last_updated: 2026-05-16
 convergence_count: 7

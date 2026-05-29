@@ -1,6 +1,6 @@
 ---
 id: pb_converting-copy-playbook
-title: The Converting-Copy Playbook — five-fundamentals operating routine drawn from Schafer, Gerhardt, Shleyner, Handley, Harland, and Miller into a usable copywriting practice
+title: The Converting-Copy Playbook: five fundamentals as one routine
 captured_date: 2026-05-05
 operators: [Cole Schafer, Dave Gerhardt, Eddie Shleyner, Ann Handley, Dave Harland, Donald Miller]
 uses_cards: [ins_schafer-pain-pleasure-polarity, ins_schafer-uncomfortable-honesty, ins_schafer-three-pass-writing-process, ins_20-percent-rule-headline, ins_shleyner-headline-as-complete-argument, ins_shleyner-clarity-beats-cleverness, ins_shleyner-conciseness-as-respect, ins_shleyner-vividness-creates-memorability, ins_emotion-is-the-cornerstone, ins_handley-voice-as-moat-against-ai, ins_handley-write-to-one-subscriber, ins_utility-times-inspiration-times-empathy, ins_so-what-as-content-diagnostic, ins_harland-benefits-over-pride, ins_harland-scream-principle, ins_harland-ideas-need-to-simmer, ins_storybrand-customer-is-hero, ins_miller-three-level-problem, ins_miller-caveman-test, ins_gerhardt-distribution-beats-creation]

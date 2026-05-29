@@ -6,7 +6,7 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 03:28:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 16:02:53 GMT</lastBuildDate>
     <item>
       <title>What landed today, 2026-05-27</title>
       <link>https://abcodex.iamkesava.com/today/2026-05-27/</link>
@@ -36,7 +36,7 @@
       <description>Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.</description>
     </item>
     <item>
-      <title>ingest 2026-05-17: +9 insights, +0 operators</title>
+      <title>AEO splits into three jobs, the judgment ceiling holds, and listening compounds</title>
       <link>https://abcodex.iamkesava.com/today/2026-05-17/</link>
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-17/</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
@@ -89,7 +89,7 @@
       <link>https://abcodex.iamkesava.com/today/2026-05-07/</link>
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-07/</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description>Nine new cards plus one extended pattern. The week&apos;s dominant signal — closing the verification loop is the production bottleneck in AI-native work — converged across four independent operators, and Anthropic shipped the platform version of the same argument.</description>
+      <description>Nine new cards plus one extended pattern. The week&apos;s dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.</description>
     </item>
     <item>
       <title>Verification, judgement, scarcity, voice, three converging frames in one week</title>
@@ -124,7 +124,7 @@
       <link>https://abcodex.iamkesava.com/today/2026-05-02/</link>
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-02/</guid>
       <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
-      <description>The biggest single ingest day in the corpus&apos;s life — 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.</description>
+      <description>The biggest single ingest day in the corpus&apos;s life. 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.</description>
     </item>
     <item>
       <title>Phase 1, codex foundation built</title>

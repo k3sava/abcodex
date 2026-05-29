@@ -1,6 +1,6 @@
 ---
 id: ins_shali-rana-reed-gap-in-resume-retort
-title: 'GTM is broken at the handoffs — invest in a single owner of the prospect-to-renewal journey'
+title: 'GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey'
 operator: Shali Rana Reed
 operator_role: COO @ The Reeder | VC | Advisor
 source_url: https://www.linkedin.com/posts/shali-reed_day-1-of-drive-2025-is-in-the-books-here-activity-7371922025801699328-L1hY

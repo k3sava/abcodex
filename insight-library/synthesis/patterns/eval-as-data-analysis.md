@@ -1,6 +1,6 @@
 ---
 id: pat_eval-as-data-analysis
-title: Evals are data analysis — single judge, binary rubrics, error analysis first
+title: 'Evals are data analysis, single judge, binary rubrics, error analysis first'
 captured_date: 2026-05-01
 convergence_count: 3
 tier: A

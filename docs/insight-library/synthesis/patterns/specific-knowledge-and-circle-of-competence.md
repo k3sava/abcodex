@@ -1,6 +1,6 @@
 ---
 id: pat_specific-knowledge-and-circle-of-competence
-title: Defensibility comes from non-substitutable, non-trainable specificity — Naval, Munger, and Dunford on the same boundary
+title: 'Specific knowledge × circle of competence: the moat is the boundary'
 captured_date: 2026-05-05
 convergence_count: 3
 tier: A

@@ -1,6 +1,6 @@
 ---
 id: pat_narrative-as-strategy
-title: Company story IS the strategy — name the shift, run the audit
+title: 'Company story IS the strategy, name the shift, run the audit'
 captured_date: 2026-05-01
 convergence_count: 4
 tier: A

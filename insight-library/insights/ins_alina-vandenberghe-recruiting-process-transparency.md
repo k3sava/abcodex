@@ -1,7 +1,7 @@
 ---
 id: ins_alina-vandenberghe-recruiting-process-transparency
 title: 'Communication is the leverage skill that turns founder-CEO into co-CEO'
-operator: Alina Vandenberghe 🌶️
+operator: Alina Vandenberghe
 operator_role: Co-founder & co-CEO @Chili Piper 🔥 Here I talk about lessons I learned to jumpstart my career from intern to SVP. And to grow a company from 0 to almost $1Bn
 source_url: http://chilipiper.com/post/cmo-lessons
 source_type: thread

@@ -1,7 +1,7 @@
 ---
 id: ins_aishwarya-hariharan-ai-for-passive-aggression
 title: 'Using ChatGPT for passive-aggressive messages is better than for positive ones'
-operator: Aishwarya 👾 Hariharan
+operator: Aishwarya Hariharan
 operator_role: 'Product marketing | Founding team, Atomicwork'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7350229608140525570/
 source_type: thread

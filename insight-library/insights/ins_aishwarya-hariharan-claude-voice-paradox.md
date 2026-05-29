@@ -1,7 +1,7 @@
 ---
 id: ins_aishwarya-hariharan-claude-voice-paradox
 title: 'If you use Claude to write and it asks for your samples, are you Claude?'
-operator: Aishwarya 👾 Hariharan
+operator: Aishwarya Hariharan
 operator_role: 'Product marketing | Founding team, Atomicwork'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7443150168985669634/
 source_type: thread

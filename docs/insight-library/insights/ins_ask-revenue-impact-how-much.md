@@ -15,7 +15,7 @@ score: { originality: 3, specificity: 5, evidence: 3, transferability: 4, source
 tier: B
 related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
-title: 'Fix weak messaging by reordering — value, then benefit, then feature'
+title: 'Fix weak messaging by reordering, value, then benefit, then feature'
 ---
 
 # Fix weak messaging by reordering, value, then benefit, then feature

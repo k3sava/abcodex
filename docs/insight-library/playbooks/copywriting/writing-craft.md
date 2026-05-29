@@ -1,6 +1,6 @@
 ---
 id: pb_writing-craft
-title: Writing craft — universal sentence-level principles
+title: Apply sentence-level craft that holds up in any format
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [copywriting, messaging]
@@ -12,7 +12,7 @@ secondary_sources:
   - flywheel/skills/humanizer/SKILL.md
 ---
 
-# Writing craft playbook
+# Apply sentence-level craft that holds up in any format
 
 Universal sentence-level principles that apply to every customer-facing format. Pairs with copywriting-mastery (practitioner-specific moves) and design-thinking-for-content (structure).
 

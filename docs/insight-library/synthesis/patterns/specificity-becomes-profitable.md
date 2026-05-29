@@ -1,6 +1,6 @@
 ---
 id: pat_specificity-becomes-profitable
-title: Specificity becomes profitable — long tail, niche, segment-aware pricing
+title: 'Specificity becomes profitable, long tail, niche, segment-aware pricing'
 captured_date: 2026-05-01
 convergence_count: 3
 tier: B

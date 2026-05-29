@@ -1,6 +1,6 @@
 ---
 id: ins_marketoonist-generations-not-monoliths
-title: 'Generational marketing is lazy — buyers within a generation differ more than across them'
+title: 'Generational marketing is lazy, buyers within a generation differ more than across them'
 operator: Marketoonist
 operator_role: 'Throwback cartoon I drew in 2017, in the same vein as my latest post on “Brands Chasing Youth.”'
 source_url: https://marketoonist.com/2015/08/generations.html

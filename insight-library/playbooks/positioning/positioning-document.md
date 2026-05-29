@@ -1,6 +1,6 @@
 ---
 id: pb_positioning-document
-title: Positioning Document — full pipeline
+title: Build a positioning document from customer evidence to live validation
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 depth: full
@@ -9,7 +9,7 @@ uses_cards: [ins_company-story-is-the-strategy, ins_homepage-five-second-trinity
 originating_operators: [april-dunford, anthony-pierri, emily-kramer, martina-lauchengco, ayo-omojola, bob-moesta, andy-raskin, gartner-research]
 ---
 
-# Positioning Document, full pipeline
+# Build a positioning document from customer evidence to live validation
 
 Positioning is a strategic bet, not a test. You can A/B test copy. You can test messaging angles. You cannot A/B test who you are and who you're for.
 

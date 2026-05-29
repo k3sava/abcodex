@@ -1,6 +1,6 @@
 ---
 id: pat_pricing-as-the-most-leveraged-org-failure
-title: Pricing is the most leveraged and most under-invested function — Simon, Ramanujam, Skok, and Hormozi on the same structural failure
+title: 'Pricing is the most leveraged and most under-invested function'
 captured_date: 2026-05-05
 last_updated: 2026-05-27
 convergence_count: 17

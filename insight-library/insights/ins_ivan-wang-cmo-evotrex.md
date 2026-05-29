@@ -1,6 +1,6 @@
 ---
 id: ins_ivan-wang-cmo-evotrex
-title: 'All-electric trailers fail because they steal the boondocking battery — fix it with onboard generation'
+title: 'All-electric trailers fail because they steal the boondocking battery, fix it with onboard generation'
 operator: Ivan Wang
 operator_role: 'Chief Marketing Officer, Evotrex'
 source_url: https://rv-pro.com/uncategorized/oems-discuss-which-ev-segment-is-on-their-radar-benefits-of-ev/

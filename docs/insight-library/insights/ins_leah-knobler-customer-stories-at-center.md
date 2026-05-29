@@ -1,6 +1,6 @@
 ---
 id: ins_leah-knobler-customer-stories-at-center
-title: "If you ask candidates to do work, pay them — that's the recruiting hot take"
+title: 'If you ask candidates to do work, pay them, that''s the recruiting hot take'
 operator: Leah Knobler
 operator_role: VP of People at Help Scout | Strategic People Leader | AI Tinkerer | Talent Acquisition | Performance Management | Remote & Distributed Teams | DEI advocate
 source_url: https://www.ashbyhq.com/podcast/episodes/where-increasing-internal-transparency-and-accountability-can-lead-to-recruiting-team-success

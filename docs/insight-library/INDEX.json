@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-27T03:28:13.451Z",
+  "generated_at": "2026-05-29T16:02:52.276Z",
   "counts": {
-    "insights": 850,
-    "operators": 473,
+    "insights": 845,
+    "operators": 469,
     "raw_sources": 209,
     "patterns": 42,
     "contradictions": 11,
@@ -1158,7 +1158,7 @@
       "path": "insights/ins_aishwarya-hariharan-ai-for-passive-aggression.md",
       "id": "ins_aishwarya-hariharan-ai-for-passive-aggression",
       "title": "Using ChatGPT for passive-aggressive messages is better than for positive ones",
-      "operator": "Aishwarya 👾 Hariharan",
+      "operator": "Aishwarya Hariharan",
       "operator_role": "Product marketing | Founding team, Atomicwork",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7350229608140525570/",
       "source_type": "thread",
@@ -1180,7 +1180,7 @@
       "path": "insights/ins_aishwarya-hariharan-claude-voice-paradox.md",
       "id": "ins_aishwarya-hariharan-claude-voice-paradox",
       "title": "If you use Claude to write and it asks for your samples, are you Claude?",
-      "operator": "Aishwarya 👾 Hariharan",
+      "operator": "Aishwarya Hariharan",
       "operator_role": "Product marketing | Founding team, Atomicwork",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7443150168985669634/",
       "source_type": "thread",
@@ -1335,7 +1335,7 @@
       "path": "insights/ins_alina-vandenberghe-recruiting-process-transparency.md",
       "id": "ins_alina-vandenberghe-recruiting-process-transparency",
       "title": "Communication is the leverage skill that turns founder-CEO into co-CEO",
-      "operator": "Alina Vandenberghe 🌶️",
+      "operator": "Alina Vandenberghe",
       "operator_role": "Co-founder & co-CEO @Chili Piper 🔥 Here I talk about lessons I learned to jumpstart my career from intern to SVP. And to grow a company from 0 to almost $1Bn",
       "source_url": "http://chilipiper.com/post/cmo-lessons",
       "source_type": "thread",
@@ -1595,7 +1595,7 @@
       "path": "insights/ins_amanda-groves-kill-a-product-launch.md",
       "id": "ins_amanda-groves-kill-a-product-launch",
       "title": "Two-bucket GA launches break enablement, avoid them at all cost",
-      "operator": "Amanda Groves 🏃🏼‍♀️",
+      "operator": "Amanda Groves",
       "operator_role": "VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2",
       "source_url": "http://sharebird.com/h/product-marketing/q/can-you-tell-us-about-a-time-when-a-product-launch-was-challenging-to-execute-what-made-it-challenging-and-how-did-you-adapt-to-the-challenges",
       "source_type": "thread",
@@ -6487,7 +6487,7 @@
       "path": "insights/ins_eric-holland-pmm-ai-love-hate.md",
       "id": "ins_eric-holland-pmm-ai-love-hate",
       "title": "PMMs have a love-hate relationship with AI because no one builds tools for their workflows",
-      "operator": "Eric Holland 💀",
+      "operator": "Eric Holland",
       "operator_role": "I build messaging GPTs ➕ interactive demos for SaaS companies | Podcast Host @ We’re Not Marketers | Dad @ Home",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7349478304866852864/",
       "source_type": "thread",
@@ -6826,33 +6826,6 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
-      "path": "insights/ins_financial-services-track-scaling-fast.md",
-      "id": "ins_financial-services-track-scaling-fast",
-      "operator": "Jesse Bellaiche",
-      "operator_role": "🧱 Senior PMM @Pennylane | ex-Qonto | I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth—leveraging AI, Data & Visual Management.",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7400177763292475392/",
-      "source_type": "thread",
-      "source_title": "[HIRING] Senior",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "positioning",
-        "messaging-narrative"
-      ],
-      "maturity": "foundational",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
-      "title": "💸 The Financial Services track is scaling fast, introducing new features like Business"
     },
     {
       "path": "insights/ins_first-one-going-rebuild-custom.md",
@@ -7992,33 +7965,6 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "But Great insight is. And this is precisely why AI shouldn't scale formats. It should s"
-    },
-    {
-      "path": "insights/ins_growing-solutions-marketing-team-lovable.md",
-      "id": "ins_growing-solutions-marketing-team-lovable",
-      "operator": "Vikas Bhagat",
-      "operator_role": "Head of Product Marketing at Lovable | ex Webflow, Slack, Medallia",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7441867241479991296/",
-      "source_type": "thread",
-      "source_title": "I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "marketing",
-        "content"
-      ],
-      "lifecycle": [
-        "positioning",
-        "messaging-narrative"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "playbook",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
-      "title": "I'm growing the Solutions Marketing team at Lovable, and I'm hiring for two senior roles 🚀"
     },
     {
       "path": "insights/ins_growth-loops-not-funnels.md",
@@ -9228,7 +9174,7 @@
       "path": "insights/ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation.md",
       "id": "ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation",
       "title": "n8n + MCP + Claude lets GTM teams build workflows in plain English.",
-      "operator": "🇺🇦 Ilya Azovtsev",
+      "operator": "Ilya Azovtsev",
       "operator_role": "Co-founder of GrowthBand | SaaS Growth Advisor",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7366161220640374785/",
       "source_type": "thread",
@@ -10019,7 +9965,7 @@
       "path": "insights/ins_jonathan-pipek-pmm-c-suite-survey.md",
       "id": "ins_jonathan-pipek-pmm-c-suite-survey",
       "title": "Modern B2B PMM lives or dies on distribution and partnerships",
-      "operator": "Jonathan Pipek 🔱",
+      "operator": "Jonathan Pipek",
       "operator_role": "Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA",
       "source_url": "https://cyberpmm.com/s3e2-jonathan-pipek-on-modern-b2b-product-marketing-realities/",
       "source_type": "thread",
@@ -10274,7 +10220,7 @@
       "path": "insights/ins_julien-sauvage-positioning-is-start-line-not-finish-line.md",
       "id": "ins_julien-sauvage-positioning-is-start-line-not-finish-line",
       "title": "Positioning is the start line, not the finish line for PMM.",
-      "operator": "Julien Sauvage 🥖",
+      "operator": "Julien Sauvage",
       "operator_role": "CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7374771362155913216/",
       "source_type": "thread",
@@ -11097,7 +11043,7 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
-      "title": "i've lead major repositioning and pivots over the last 12 years and these are the most"
+      "title": "Commit positioning at the same time as the product pivot, not after the launch date"
     },
     {
       "path": "insights/ins_leah-knobler-customer-stories-at-center.md",
@@ -12667,7 +12613,7 @@
       "path": "insights/ins_michele-nieberding-ai-tools-for-pmm-workflows.md",
       "id": "ins_michele-nieberding-ai-tools-for-pmm-workflows",
       "title": "Claude tools map to distinct PMM workflows: think, analyze, scale, collaborate.",
-      "operator": "Michele Nieberding 🚀",
+      "operator": "Michele Nieberding",
       "operator_role": "The AI Product Marketer",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7434483320534679552/",
       "source_type": "thread",
@@ -12693,7 +12639,7 @@
       "path": "insights/ins_michele-nieberding-branch-in-new-chat-for-pmm.md",
       "id": "ins_michele-nieberding-branch-in-new-chat-for-pmm",
       "title": "Branching chats with stable taxonomy scales PMM strategy without chaos.",
-      "operator": "Michele Nieberding 🚀",
+      "operator": "Michele Nieberding",
       "operator_role": "The AI Product Marketer",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7371527161058480128/",
       "source_type": "thread",
@@ -14641,7 +14587,7 @@
     {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
       "id": "ins_openclaw-cool-get-appeal-spin",
-      "operator": "📈 Jason B. Hart",
+      "operator": "Jason B. Hart",
       "operator_role": "Turning Messy Marketing Data into Decisions Which Drive Revenue | Founder @ Domain Methods",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7444964617811992576/",
       "source_type": "thread",
@@ -17844,7 +17790,7 @@
       "path": "insights/ins_ryan-quindlen-linkedin-algorithm-satire.md",
       "id": "ins_ryan-quindlen-linkedin-algorithm-satire",
       "title": "LinkedIn algorithm prioritizes old posts, repeats, broken notifications, and bad video",
-      "operator": "Ryan Quindlen 🦇",
+      "operator": "Ryan Quindlen",
       "operator_role": "Social @ Zapier | Prev. Founding Team at Laudable (Acquired by Zapier)",
       "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343343563268595713/",
       "source_type": "thread",
@@ -19281,7 +19227,7 @@
     {
       "path": "insights/ins_since-their-main-product-lemlist.md",
       "id": "ins_since-their-main-product-lemlist",
-      "operator": "Michel Lieben 🧠",
+      "operator": "Michel Lieben",
       "operator_role": "Founder & CEO at ColdIQ | Tomorrow’s GTM Systems, Built for you 👉 coldiq.com",
       "source_url": "https://thegtmengineer.substack.com/p/li-content-tech-stacks-and-using",
       "source_type": "thread",
@@ -21513,28 +21459,6 @@
       "title": "Three months in as a Senior PMM in tech. Here are some of my reflections especially for"
     },
     {
-      "path": "insights/ins_tina-sang-generative-media-platform-scaling.md",
-      "id": "ins_tina-sang-generative-media-platform-scaling",
-      "title": "Generative media platforms must serve both developers and creators to unlock creativity at scale.",
-      "operator": "Tina Sang",
-      "operator_role": "Marketing & Growth Lead @ fal | Creativity runs faster on fal",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7378280719133024256/",
-      "source_type": "thread",
-      "source_title": "Generative media platforms must serve both developers and creators to unlock cre",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-03",
-      "domain": [
-        "pmm"
-      ],
-      "lifecycle": [],
-      "maturity": "applied",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
-      "tier": "C",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
-    },
-    {
       "path": "insights/ins_top-performers-benefit-disproportionately.md",
       "id": "ins_top-performers-benefit-disproportionately",
       "operator": "Sherwin Wu",
@@ -22627,33 +22551,6 @@
       "title": "If you want product marketing to drive revenue without sales involvement, you have to r"
     },
     {
-      "path": "insights/ins_was-always-kind-awesome-now.md",
-      "id": "ins_was-always-kind-awesome-now",
-      "operator": "Ilya Azovtsev",
-      "operator_role": "Co-founder of GrowthBand | SaaS Growth Advisor",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7366161220640374785/",
-      "source_type": "thread",
-      "source_title": "n8n was always kind of awesome, now - it's easy to use for everyone",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "gtm",
-        "hiring"
-      ],
-      "lifecycle": [
-        "launch",
-        "hiring-team-design"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "workflow",
-      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
-      "title": "n8n was always kind of awesome, now - it's easy to use for everyone"
-    },
-    {
       "path": "insights/ins_what-happened-when-stopped-fighting.md",
       "id": "ins_what-happened-when-stopped-fighting",
       "operator": "Rabi Shanker Guha",
@@ -22733,33 +22630,6 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "When I was laid off here is what I did to find a job in 15 days"
-    },
-    {
-      "path": "insights/ins_while-some-still-spending-over.md",
-      "id": "ins_while-some-still-spending-over",
-      "operator": "Divyanshi Sharma",
-      "operator_role": "Your go-to for GTM, AI & Lead gen!",
-      "source_url": "https://www.linkedin.com/feed/update/urn:li:activity:7343344410513809408/",
-      "source_type": "thread",
-      "source_title": "BREAKING: Google, OpenAl,",
-      "source_date": "2026-04-10",
-      "captured_date": "2026-05-02",
-      "domain": [
-        "pmm",
-        "gtm",
-        "growth-demand"
-      ],
-      "lifecycle": [
-        "launch",
-        "growth-loops"
-      ],
-      "maturity": "frontier",
-      "artifact_class": "framework",
-      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
-      "tier": "B",
-      "related": [],
-      "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
-      "title": "While some are still spending over $1,000 on Al courses, the top players are giving awa"
     },
     {
       "path": "insights/ins_why-change-statements-precede-capability.md",
@@ -23584,7 +23454,7 @@
     },
     {
       "path": "operators/aishwarya-hariharan/README.md",
-      "name": "Aishwarya 👾 Hariharan",
+      "name": "Aishwarya Hariharan",
       "slug": "aishwarya-hariharan",
       "roles": [
         "Product marketing | Founding team, Atomicwork"
@@ -23594,7 +23464,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Aishwarya 👾 Hariharan"
+      "title": "Aishwarya Hariharan"
     },
     {
       "path": "operators/aishwarya-naresh-reganti/README.md",
@@ -23779,7 +23649,7 @@
     },
     {
       "path": "operators/alina-vandenberghe/README.md",
-      "name": "Alina Vandenberghe 🌶️",
+      "name": "Alina Vandenberghe",
       "slug": "alina-vandenberghe",
       "roles": [
         "Co-founder & co-CEO @Chili Piper 🔥 Here I talk about lessons I learned to jumpstart my career from intern to SVP. And to grow a company from 0 to almost $1Bn"
@@ -23789,7 +23659,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Alina Vandenberghe 🌶️"
+      "title": "Alina Vandenberghe"
     },
     {
       "path": "operators/alok-yadav/README.md",
@@ -23811,7 +23681,7 @@
     },
     {
       "path": "operators/amanda-groves/README.md",
-      "name": "Amanda Groves 🏃🏼‍♀️",
+      "name": "Amanda Groves",
       "slug": "amanda-groves",
       "roles": [
         "VP Product Marketing | 5x Top 100 PMM | Startup to Scaleup Expertise | Ultra runner | Artist | Mom x2"
@@ -23821,7 +23691,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Amanda Groves 🏃🏼‍♀️"
+      "title": "Amanda Groves"
     },
     {
       "path": "operators/amanda-natividad/README.md",
@@ -26353,7 +26223,7 @@
     },
     {
       "path": "operators/eric-holland/README.md",
-      "name": "Eric Holland 💀",
+      "name": "Eric Holland",
       "slug": "eric-holland",
       "roles": [
         "I build messaging GPTs ➕ interactive demos for SaaS companies | Podcast Host @ We’re Not Marketers | Dad @ Home"
@@ -26363,7 +26233,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Eric Holland 💀"
+      "title": "Eric Holland"
     },
     {
       "path": "operators/eric-mistry/README.md",
@@ -27080,7 +26950,7 @@
     },
     {
       "path": "operators/ilya-azovtsev/README.md",
-      "name": "🇺🇦 Ilya Azovtsev",
+      "name": "Ilya Azovtsev",
       "slug": "ilya-azovtsev",
       "roles": [
         "Co-founder of GrowthBand | SaaS Growth Advisor"
@@ -27092,25 +26962,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "🇺🇦 Ilya Azovtsev"
-    },
-    {
-      "path": "operators/ilya-azovtsev-i-help-with-saas-growth/README.md",
-      "name": "🇺🇦 Ilya Azovtsev - I help with SaaS Growth",
-      "slug": "ilya-azovtsev-i-help-with-saas-growth",
-      "roles": [
-        "Co-founder of GrowthBand",
-        "SaaS Growth Advisor"
-      ],
-      "domains_active": [
-        "growth",
-        "founder-craft"
-      ],
-      "captured_first": "2026-05-02",
-      "external": {
-        "linkedin": "https://www.linkedin.com/in/ilya-azovtsev/"
-      },
-      "title": "🇺🇦 Ilya Azovtsev - I help with SaaS Growth"
+      "title": "Ilya Azovtsev"
     },
     {
       "path": "operators/ipsita-dhar/README.md",
@@ -27322,7 +27174,7 @@
     },
     {
       "path": "operators/jason-b-hart/README.md",
-      "name": "📈 Jason B. Hart",
+      "name": "Jason B. Hart",
       "slug": "jason-b-hart",
       "roles": [
         "Turning Messy Marketing Data into Decisions Which Drive Revenue",
@@ -27337,7 +27189,7 @@
       "external": {
         "linkedin": "https://www.linkedin.com/in/jasonbhart/"
       },
-      "title": "📈 Jason B. Hart"
+      "title": "Jason B. Hart"
     },
     {
       "path": "operators/jason-fried/README.md",
@@ -27487,26 +27339,6 @@
         "linkedin": "https://www.linkedin.com/in/jenny-wen"
       },
       "title": "Jenny Wen"
-    },
-    {
-      "path": "operators/jesse-bellaiche/README.md",
-      "name": "Jesse Bellaiche",
-      "slug": "jesse-bellaiche",
-      "roles": [
-        "🧱 Senior PMM @Pennylane",
-        "ex-Qonto",
-        "I help tech companies turn customer insights into Go-To-Market strategies that drive adoption & revenue growth—leveraging AI"
-      ],
-      "domains_active": [
-        "pmm",
-        "growth",
-        "ai-native"
-      ],
-      "captured_first": "2026-05-02",
-      "external": {
-        "linkedin": "https://www.linkedin.com/in/jesse-bellaiche-51060817/"
-      },
-      "title": "Jesse Bellaiche"
     },
     {
       "path": "operators/jessica-fain/README.md",
@@ -27660,7 +27492,7 @@
     },
     {
       "path": "operators/jonathan-pipek/README.md",
-      "name": "Jonathan Pipek 🔱",
+      "name": "Jonathan Pipek",
       "slug": "jonathan-pipek",
       "roles": [
         "Product Marketing Consultant & Recruiter for B2B SaaS Startups & Scaleups | 2025 Top Product Marketing Consultant | 2x Top 100 Product Marketing Influencer | Kellogg MBA"
@@ -27670,7 +27502,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Jonathan Pipek 🔱"
+      "title": "Jonathan Pipek"
     },
     {
       "path": "operators/jonathan-stark/README.md",
@@ -27787,7 +27619,7 @@
     },
     {
       "path": "operators/julien-sauvage/README.md",
-      "name": "Julien Sauvage 🥖",
+      "name": "Julien Sauvage",
       "slug": "julien-sauvage",
       "roles": [
         "CMO @ Cordial | Ex-Gong, Clari, Salesforce, Talend | Investor | Advisor | Positioning Nerd"
@@ -27798,7 +27630,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Julien Sauvage 🥖"
+      "title": "Julien Sauvage"
     },
     {
       "path": "operators/kabir-uppal/README.md",
@@ -28906,7 +28738,7 @@
     },
     {
       "path": "operators/michel-lieben/README.md",
-      "name": "Michel Lieben 🧠",
+      "name": "Michel Lieben",
       "slug": "michel-lieben",
       "roles": [
         "Founder & CEO at ColdIQ",
@@ -28921,11 +28753,11 @@
         "linkedin": "https://www.linkedin.com/in/michel-lieben/",
         "website": "https://coldiq.com/"
       },
-      "title": "Michel Lieben 🧠"
+      "title": "Michel Lieben"
     },
     {
       "path": "operators/michele-nieberding/README.md",
-      "name": "Michele Nieberding 🚀",
+      "name": "Michele Nieberding",
       "slug": "michele-nieberding",
       "roles": [
         "The AI Product Marketer"
@@ -28936,7 +28768,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Michele Nieberding 🚀"
+      "title": "Michele Nieberding"
     },
     {
       "path": "operators/mihika-kapoor/README.md",
@@ -30250,7 +30082,7 @@
     },
     {
       "path": "operators/ryan-quindlen/README.md",
-      "name": "Ryan Quindlen 🦇",
+      "name": "Ryan Quindlen",
       "slug": "ryan-quindlen",
       "roles": [
         "Social @ Zapier | Prev. Founding Team at Laudable (Acquired by Zapier)"
@@ -30260,7 +30092,7 @@
       ],
       "captured_first": "2026-05-03",
       "external": "",
-      "title": "Ryan Quindlen 🦇"
+      "title": "Ryan Quindlen"
     },
     {
       "path": "operators/ryan-woodley-mitchell/README.md",
@@ -31412,20 +31244,6 @@
       "title": "Tim Soulo"
     },
     {
-      "path": "operators/tina-sang/README.md",
-      "name": "Tina Sang",
-      "slug": "tina-sang",
-      "roles": [
-        "Marketing & Growth Lead @ fal | Creativity runs faster on fal"
-      ],
-      "domains_active": [
-        "pmm"
-      ],
-      "captured_first": "2026-05-03",
-      "external": "",
-      "title": "Tina Sang"
-    },
-    {
       "path": "operators/tk-kader/README.md",
       "name": "TK Kader",
       "slug": "tk-kader",
@@ -31669,25 +31487,6 @@
         "linkedin": "https://www.linkedin.com/in/vijaybalajij/"
       },
       "title": "Vijay Jay"
-    },
-    {
-      "path": "operators/vikas-bhagat/README.md",
-      "name": "Vikas Bhagat",
-      "slug": "vikas-bhagat",
-      "roles": [
-        "Head of Product Marketing at Lovable",
-        "ex Webflow",
-        "Slack"
-      ],
-      "domains_active": [
-        "pmm",
-        "marketing"
-      ],
-      "captured_first": "2026-05-02",
-      "external": {
-        "linkedin": "https://www.linkedin.com/in/vbhagat/"
-      },
-      "title": "Vikas Bhagat"
     },
     {
       "path": "operators/vikas-kansal/README.md",
@@ -36446,7 +36245,7 @@
     {
       "path": "playbooks/aeo/aeo-relevance-engineering.md",
       "id": "pb_aeo-relevance-engineering",
-      "title": "AEO relevance engineering playbook",
+      "title": "Engineer pages so AI assistants cite you, not just rank you",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36472,7 +36271,7 @@
     {
       "path": "playbooks/aeo/pseo-framework.md",
       "id": "pb_pseo-framework",
-      "title": "pSEO framework playbook",
+      "title": "Build programmatic pages at scale without a helpful-content penalty",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36496,7 +36295,7 @@
     {
       "path": "playbooks/ai-native-gtm/claim-verify-gate.md",
       "id": "pb_claim-verify-gate",
-      "title": "Claim-verify gate playbook",
+      "title": "Gate every public claim against the source that backs it",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36519,7 +36318,7 @@
     {
       "path": "playbooks/ai-native-gtm/llm-wiki.md",
       "id": "pb_llm-wiki",
-      "title": "LLM wiki playbook",
+      "title": "Build a persistent knowledge base your AI agents can actually use",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36543,7 +36342,7 @@
     {
       "path": "playbooks/ai-native-gtm/synthetic-audience-test.md",
       "id": "pb_synthetic-audience-test",
-      "title": "Synthetic audience test playbook",
+      "title": "Pressure-test a message on a synthetic buyer panel before you ship",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36599,7 +36398,7 @@
     {
       "path": "playbooks/competitive/win-loss-framework.md",
       "id": "pb_win-loss-framework",
-      "title": "Win/loss framework playbook",
+      "title": "Close the loop from won and lost deals back to positioning",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36623,7 +36422,7 @@
     {
       "path": "playbooks/copywriting/copywriting-mastery.md",
       "id": "pb_copywriting-mastery",
-      "title": "Copywriting mastery playbook",
+      "title": "Write conversion copy on direct-response fundamentals",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
@@ -36658,7 +36457,7 @@
     {
       "path": "playbooks/copywriting/humanizer.md",
       "id": "pb_humanizer",
-      "title": "Humanizer playbook",
+      "title": "Strip the AI-writing tells out of any draft",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36682,7 +36481,7 @@
     {
       "path": "playbooks/copywriting/lp-cro-rubric.md",
       "id": "pb_lp-cro-rubric",
-      "title": "Landing page CRO rubric playbook",
+      "title": "Grade a landing page on seven sections before launch",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36747,7 +36546,7 @@
     {
       "path": "playbooks/copywriting/writing-craft.md",
       "id": "pb_writing-craft",
-      "title": "Writing craft playbook",
+      "title": "Apply sentence-level craft that holds up in any format",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36815,7 +36614,7 @@
     {
       "path": "playbooks/design/design-thinking-for-content.md",
       "id": "pb_design-thinking-for-content",
-      "title": "Design thinking for content playbook",
+      "title": "Architect content with design thinking, from page structure to prototype",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36838,7 +36637,7 @@
     {
       "path": "playbooks/design/help-documentation.md",
       "id": "pb_help-documentation",
-      "title": "Help documentation playbook",
+      "title": "Build help docs from taxonomy to published article",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36853,7 +36652,7 @@
     {
       "path": "playbooks/jtbd/icp-definition.md",
       "id": "pb_icp-definition",
-      "title": "ICP definition playbook",
+      "title": "Define an ICP from firmographics, triggers, and macro trends",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36878,7 +36677,7 @@
     {
       "path": "playbooks/launch/campaign-strategy.md",
       "id": "pb_campaign-strategy",
-      "title": "Campaign strategy playbook",
+      "title": "Plan a campaign across channels, calendar, webinars, and nurture",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36906,7 +36705,7 @@
     {
       "path": "playbooks/launch/launch-plan.md",
       "id": "pb_launch-plan",
-      "title": "Launch plan playbook",
+      "title": "Run a tiered launch that matches effort to impact",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -36984,7 +36783,7 @@
     {
       "path": "playbooks/messaging/pmm-coaching-framework.md",
       "id": "pb_pmm-coaching-framework",
-      "title": "PMM coaching framework playbook",
+      "title": "Coach PMM work through iterative review that retains feedback",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -37003,7 +36802,7 @@
     {
       "path": "playbooks/narrative/narrative-compose.md",
       "id": "pb_narrative-compose",
-      "title": "Narrative compose playbook",
+      "title": "Compose a narrative from master story to message house to pillar copy",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -37028,7 +36827,7 @@
     {
       "path": "playbooks/positioning/positioning-document.md",
       "id": "pb_positioning-document",
-      "title": "Positioning Document, full pipeline",
+      "title": "Build a positioning document from customer evidence to live validation",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "depth": "full",
@@ -37126,7 +36925,7 @@
     {
       "path": "playbooks/sales-enablement/sales-enablement.md",
       "id": "pb_sales-enablement",
-      "title": "Sales enablement playbook",
+      "title": "Equip sellers with battlecards, ROI tools, decks, and training",
       "maintained_by": "codex maintainers",
       "captured_date": "2026-05-01",
       "domain": [
@@ -37231,7 +37030,7 @@
     {
       "path": "daily/2026-05-17.md",
       "date": "2026-05-17",
-      "title": "ingest 2026-05-17: +9 insights, +0 operators",
+      "title": "AEO splits into three jobs, the judgment ceiling holds, and listening compounds",
       "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
       "sources": [
         "morning research scan 2026-05-17"
@@ -37247,8 +37046,12 @@
         "ins_pierri-batch-transcripts-produce-fabrications",
         "ins_aleyda-solis-ai-links-not-automatically-traffic"
       ],
-      "operators_added": "",
-      "patterns_added": [],
+      "operators_added": [],
+      "patterns_updated": [
+        "pat_aeo-triangle",
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce"
+      ],
       "playbooks_added": []
     },
     {
@@ -37391,7 +37194,7 @@
       "path": "daily/2026-05-07.md",
       "date": "2026-05-07",
       "title": "Verification convergence: four operators, one platform answer",
-      "summary": "Nine new cards plus one extended pattern. The week's dominant signal — closing the verification loop is the production bottleneck in AI-native work — converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
+      "summary": "Nine new cards plus one extended pattern. The week's dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
       "sources": [
         "morning research scan 2026-05-07"
       ],
@@ -37525,7 +37328,7 @@
       "path": "daily/2026-05-02.md",
       "date": "2026-05-02",
       "title": "Pass C orphan ingestion + first synthesis patterns + Curiosity backfill",
-      "summary": "The biggest single ingest day in the corpus's life — 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.",
+      "summary": "The biggest single ingest day in the corpus's life. 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.",
       "sources": [
         "Pass C orphan ingestion (batches 1-6)",
         "Curiosity backfill external links (batches 1-8)",

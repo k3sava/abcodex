@@ -1,6 +1,6 @@
 ---
 id: pat_buyer-mindset-not-product-features
-title: Sell to the buyer's mindset, not to product features — Rackham, Dixon, Voss, Moesta, and Dunford on the same buyer-side primacy
+title: 'Sell to the buyer''s mindset, not to product features'
 captured_date: 2026-05-05
 convergence_count: 5
 tier: A

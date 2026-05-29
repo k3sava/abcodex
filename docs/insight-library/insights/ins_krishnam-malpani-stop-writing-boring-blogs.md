@@ -1,6 +1,6 @@
 ---
 id: ins_krishnam-malpani-stop-writing-boring-blogs
-title: 'Stop writing boring blogs — make content that makes people stop scrolling.'
+title: 'Stop writing boring blogs, make content that makes people stop scrolling.'
 operator: Krishnam Malpani
 operator_role: Senior Marketing Manager—Humantic AI || Field Marketer || Project Manager || Consultant || Partnerships
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7368348381389221888/

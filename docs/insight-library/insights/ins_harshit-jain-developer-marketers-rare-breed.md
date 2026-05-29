@@ -1,6 +1,6 @@
 ---
 id: ins_harshit-jain-developer-marketers-rare-breed
-title: 'Technical PMM is the rare hire that lets you market to engineers — without translation loss'
+title: 'Technical PMM is the rare hire that lets you market to engineers, without translation loss'
 operator: Harshit Jain
 operator_role: Principal PMM @ ClickUp | only product marketer who loves code
 source_url: https://newsletter.qback.ai/about

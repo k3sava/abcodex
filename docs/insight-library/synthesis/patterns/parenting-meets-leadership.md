@@ -1,6 +1,6 @@
 ---
 id: pat_parenting-meets-leadership
-title: Repair, generous interpretation, identity-vs-behavior — parenting frames as leadership ops
+title: 'Repair, generous interpretation, identity-vs-behavior, parenting frames as leadership ops'
 captured_date: 2026-05-01
 convergence_count: 3
 tier: B

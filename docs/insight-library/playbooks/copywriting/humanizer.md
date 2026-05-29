@@ -1,6 +1,6 @@
 ---
 id: pb_humanizer
-title: Humanizer — strip AI-writing tells from any draft
+title: Strip the AI-writing tells out of any draft
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [copywriting, ai-native-gtm, voice]
@@ -14,7 +14,7 @@ secondary_sources:
   - https://github.com/blader/humanizer
 ---
 
-# Humanizer playbook
+# Strip the AI-writing tells out of any draft
 
 Audit any draft against the full anti-AI-writing canon, then rewrite the failing parts so the output reads like a sharp human typed it. Three-layer detection: rule packs (Vale) → semantic check → LLM rewrite. Single-pass operator workflow.
 

@@ -15,7 +15,7 @@ score: { originality: 3, specificity: 4, evidence: 3, transferability: 4, source
 tier: B
 related: []
 raw_ref: raw/linkedin/reactions/linkedin-reactions-2026-04-10.md
-title: 'Solve a problem you faced — not one you imagine — when pivoting'
+title: 'Solve a problem you faced, not one you imagine, when pivoting'
 ---
 
 # Solve a problem you faced, not one you imagine, when pivoting

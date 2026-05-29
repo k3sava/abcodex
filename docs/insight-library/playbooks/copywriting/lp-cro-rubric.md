@@ -1,6 +1,6 @@
 ---
 id: pb_lp-cro-rubric
-title: Landing-page CRO — 7-section rubric
+title: Grade a landing page on seven sections before launch
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [conversion, copywriting, landing-page]
@@ -10,7 +10,7 @@ secondary_sources:
   - flywheel/skills/lp-cro/SKILL.md
 ---
 
-# Landing page CRO rubric playbook
+# Grade a landing page on seven sections before launch
 
 A section-by-section audit of a landing-page draft that produces weighted scores, a prioritized fix list, and a ship/block decision. Use as a gate inside the LP ship workflow, runs after voice enforcement, before any synthetic-audience or live test.
 

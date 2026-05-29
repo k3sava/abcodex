@@ -1,6 +1,6 @@
 ---
 id: ins_victor-c-leave-expiry-is-motivation-killer
-title: "Expiring annual leave is like Amul Taaza — it's not perishable, it's an employee's time."
+title: 'Expiring annual leave is like Amul Taaza, it''s not perishable, it''s an employee''s time.'
 operator: Victor C.
 operator_role: 'Recruitment, HR & Tech Enthusiast'
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7404392689716109313/

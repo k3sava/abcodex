@@ -14,7 +14,7 @@ external:
 # Sam Mallikarjunan
 
 ## Bio
-Sam Mallikarjunan. LinkedIn operator publishing on growth, founder-craft, ai-native. Headline: "Leading the team @ Agent.ai 🚀 Formerly: CEO @ OneScreen.ai, CRO @ Flock.com, Instructor @ Harvard, & Head of Growth @ HubSpot Labs.". Surfaced via Pass B3 ingest of 447 reactions.
+Sam Mallikarjunan. LinkedIn operator publishing on growth, founder-craft, ai-native. Headline: "Leading the team @ Agent.ai Formerly: CEO @ OneScreen.ai, CRO @ Flock.com, Instructor @ Harvard, & Head of Growth @ HubSpot Labs.". Surfaced via Pass B3 ingest of 447 reactions.
 
 ## Operating themes
 - Theme captured from the post body in this pass; expand on next ingest.

@@ -1,6 +1,6 @@
 ---
 id: pb_icp-definition
-title: ICP definition — firmographics, triggers, macro trends
+title: Define an ICP from firmographics, triggers, and macro trends
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [icp, jtbd, gtm]
@@ -12,7 +12,7 @@ secondary_sources:
   - flywheel/skills/icp-cut/SKILL.md
 ---
 
-# ICP definition playbook
+# Define an ICP from firmographics, triggers, and macro trends
 
 Produce an ICP document that operationalizes, narrow enough that sales can identify a fit account in under 30 seconds in the CRM. Synthesizes TK Kader's three-part frame (firmographics + triggers + macro trends), Lenny Rachitsky's "comically narrow" attribute model, and JTBD statements anchored to named customers.
 

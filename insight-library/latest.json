@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T03:28:13.493Z",
+  "generated_at": "2026-05-29T16:02:52.287Z",
   "latest_daily": {
     "path": "daily/2026-05-27.md",
     "date": "2026-05-27",
@@ -107,7 +107,7 @@
     {
       "path": "daily/2026-05-17.md",
       "date": "2026-05-17",
-      "title": "ingest 2026-05-17: +9 insights, +0 operators",
+      "title": "AEO splits into three jobs, the judgment ceiling holds, and listening compounds",
       "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
       "sources": [
         "morning research scan 2026-05-17"
@@ -123,8 +123,12 @@
         "ins_pierri-batch-transcripts-produce-fabrications",
         "ins_aleyda-solis-ai-links-not-automatically-traffic"
       ],
-      "operators_added": "",
-      "patterns_added": [],
+      "operators_added": [],
+      "patterns_updated": [
+        "pat_aeo-triangle",
+        "pat_verification-as-human-job",
+        "pat_execution-cheap-judgement-scarce"
+      ],
       "playbooks_added": []
     },
     {
@@ -267,7 +271,7 @@
       "path": "daily/2026-05-07.md",
       "date": "2026-05-07",
       "title": "Verification convergence: four operators, one platform answer",
-      "summary": "Nine new cards plus one extended pattern. The week's dominant signal — closing the verification loop is the production bottleneck in AI-native work — converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
+      "summary": "Nine new cards plus one extended pattern. The week's dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
       "sources": [
         "morning research scan 2026-05-07"
       ],
@@ -401,7 +405,7 @@
       "path": "daily/2026-05-02.md",
       "date": "2026-05-02",
       "title": "Pass C orphan ingestion + first synthesis patterns + Curiosity backfill",
-      "summary": "The biggest single ingest day in the corpus's life — 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.",
+      "summary": "The biggest single ingest day in the corpus's life. 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.",
       "sources": [
         "Pass C orphan ingestion (batches 1-6)",
         "Curiosity backfill external links (batches 1-8)",

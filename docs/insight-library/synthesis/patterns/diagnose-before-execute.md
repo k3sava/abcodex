@@ -1,6 +1,6 @@
 ---
 id: pat_diagnose-before-execute
-title: Diagnose before executing — refuse the playbook ask
+title: 'Diagnose before executing, refuse the playbook ask'
 captured_date: 2026-05-01
 last_updated: 2026-05-19
 convergence_count: 6

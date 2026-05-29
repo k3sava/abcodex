@@ -1,6 +1,6 @@
 ---
 id: pb_pseo-framework
-title: pSEO — programmatic pages without helpful-content nuking
+title: Build programmatic pages at scale without a helpful-content penalty
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [seo, aeo, content]
@@ -12,7 +12,7 @@ secondary_sources:
   - team-brain/workflows/search-intent-map.md
 ---
 
-# pSEO framework playbook
+# Build programmatic pages at scale without a helpful-content penalty
 
 Programmatic SEO without getting nuked in the next Helpful Content update. The March 2024 Google update took out 95–98% of traffic for zero-oversight pSEO sites; hybrid sites with review-gated templates recovered within hours. The differentiator is human-in-the-loop, not scale.
 

@@ -1,6 +1,6 @@
 ---
 id: pb_campaign-strategy
-title: Campaign strategy — channels, calendar, webinars, nurture
+title: Plan a campaign across channels, calendar, webinars, and nurture
 maintained_by: codex maintainers
 captured_date: 2026-05-01
 domain: [campaigns, gtm, demand-gen]
@@ -13,7 +13,7 @@ secondary_sources:
   - team-brain/workflows/content-distribution.md
 ---
 
-# Campaign strategy playbook
+# Plan a campaign across channels, calendar, webinars, and nurture
 
 A 6–12 month campaign system: channel selection, calendar, webinars, content, partner, lifecycle, follow-up, measurement. Synthesizes Kramer's MKT1 channel-maturity model with operating patterns from B2B SaaS demand-gen.
 

@@ -1,6 +1,6 @@
 ---
 id: ins_since-their-main-product-lemlist
-operator: Michel Lieben 🧠
+operator: Michel Lieben
 operator_role: 'Founder & CEO at ColdIQ | Tomorrow’s GTM Systems, Built for you 👉 coldiq.com'
 source_url: https://thegtmengineer.substack.com/p/li-content-tech-stacks-and-using
 source_type: thread

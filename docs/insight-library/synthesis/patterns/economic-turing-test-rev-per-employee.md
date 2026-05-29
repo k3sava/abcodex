@@ -1,6 +1,6 @@
 ---
 id: pat_economic-turing-test-rev-per-employee
-title: The Economic Turing Test — outcomes pricing, agent labor, revenue per employee
+title: 'The Economic Turing Test, outcomes pricing, agent labor, revenue per employee'
 captured_date: 2026-05-01
 convergence_count: 3
 tier: A

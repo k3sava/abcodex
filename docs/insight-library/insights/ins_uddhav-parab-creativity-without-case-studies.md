@@ -1,6 +1,6 @@
 ---
 id: ins_uddhav-parab-creativity-without-case-studies
-title: "Direct the creative work — don't hog the juicy writing from juniors"
+title: 'Direct the creative work, don''t hog the juicy writing from juniors'
 operator: Uddhav Parab
 operator_role: Creative Director. Writer. Comic. 3x TED Talks Viewer.
 source_url: https://www.linkedin.com/in/uddhavparab

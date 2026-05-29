@@ -1,6 +1,6 @@
 ---
 id: ins_rapti-gupta-99-bookings-century-goal
-title: 'Marketing ROI starts before the pipeline — track leading metrics or you lose the budget'
+title: 'Marketing ROI starts before the pipeline, track leading metrics or you lose the budget'
 operator: Rapti Gupta
 operator_role: Head of Marketing @ Avataar Ventures | Strategic Marketing Leadership
 source_url: https://marketers-help-marketers-newsletter.beehiiv.com/p/roi-survival-guide-for-startup-marketers

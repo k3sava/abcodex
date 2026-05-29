@@ -1,6 +1,6 @@
 ---
 id: pat_rapport-surfaces-what-research-cannot
-title: Rapport surfaces what research cannot — Voss, Moesta, and Munger on the conditions that produce hidden information
+title: 'Rapport surfaces what research cannot'
 captured_date: 2026-05-05
 convergence_count: 3
 tier: A

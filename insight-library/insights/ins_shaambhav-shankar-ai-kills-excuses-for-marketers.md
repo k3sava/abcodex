@@ -1,6 +1,6 @@
 ---
 id: ins_shaambhav-shankar-ai-kills-excuses-for-marketers
-title: 'With AI, excuses about time or skill are dead—marketers must be fast executors who break things.'
+title: 'With AI, excuses about time or skill are dead, marketers must be fast executors who break things.'
 operator: Shaambhav Shankar
 operator_role: Product Marketing Manager (PMM) | AI Marketing Automation | Vibe Marketing
 source_url: https://www.linkedin.com/feed/update/urn:li:activity:7343340342244495362/
