@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-29T19:08:33.412Z",
+  "generated_at": "2026-05-30T03:56:48.088Z",
   "counts": {
     "insights": 845,
-    "operators": 469,
+    "operators": 472,
     "raw_sources": 209,
     "patterns": 42,
     "contradictions": 11,
@@ -2141,8 +2141,7 @@
       "tier": "C",
       "related": [
         "ins_anthropic-claude-security-data-flow-scanning",
-        "ins_judgment-doesnt-compress",
-        "ins_pat_verification-as-human-job"
+        "ins_judgment-doesnt-compress"
       ],
       "raw_ref": "",
       "title": "AI has removed the vulnerability discovery bottleneck in security; the rate limiter is now verification, disclosure, and patching speed"
@@ -2213,7 +2212,7 @@
     {
       "path": "insights/ins_antifragile-barbell.md",
       "id": "ins_antifragile-barbell",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Distinguished Professor of Risk Engineering NYU; author Incerto series",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -5098,8 +5097,7 @@
       "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
       "tier": "A",
       "related": [
-        "ins_november-2025-coding-inflection",
-        "ins_simulated-qa-swarm"
+        "ins_november-2025-coding-inflection"
       ],
       "raw_ref": "raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md",
       "title": "The dark factory: nobody reads the code, gated by a simulated QA swarm"
@@ -7284,7 +7282,7 @@
     {
       "path": "insights/ins_gap-selling-change-formula.md",
       "id": "ins_gap-selling-change-formula",
-      "operator": "Keenan (Jim Keenan)",
+      "operator": "Keenan",
       "operator_role": "CEO A Sales Growth Company; author Gap Selling",
       "source_url": "https://www.harvard.com/book/9781732891029",
       "source_type": "book",
@@ -8231,7 +8229,7 @@
       "related": [
         "ins_handley-write-what-you-want-to-read",
         "ins_smallest-viable-audience",
-        "ins_dave-harland-write-like-you-speak"
+        "ins_write-like-you-speak"
       ],
       "raw_ref": "raw/expert-content/experts/ann-handley.md",
       "title": "Write as if to a single subscriber, use \"you\" liberally and remove anything with a whiff of \"Dear Valued Customers\""
@@ -11280,8 +11278,8 @@
     {
       "path": "insights/ins_llms-are-new-os-agents-are-apps.md",
       "id": "ins_llms-are-new-os-agents-are-apps",
-      "operator": "Mark Petty",
-      "operator_role": "Senior Director Analyst, Gartner",
+      "operator": "Gartner",
+      "operator_role": "Mark Petty, Senior Director Analyst, Gartner",
       "source_url": "https://www.gartner.com/en/documents/G00828648",
       "source_type": "research",
       "source_title": "LLMs Are the New OS. AI Agents Are the New Apps. And SaaS Just Got Demoted to Infrastructure",
@@ -19467,7 +19465,7 @@
     {
       "path": "insights/ins_skills-as-prompts-as-code.md",
       "id": "ins_skills-as-prompts-as-code",
-      "operator": "Nate",
+      "operator": "Nate (Substack)",
       "operator_role": "Claude Code educator; Substack author",
       "source_url": "https://natesnewsletter.substack.com/",
       "source_type": "essay",
@@ -19778,7 +19776,7 @@
     {
       "path": "insights/ins_software-3-ai-engineer.md",
       "id": "ins_software-3-ai-engineer",
-      "operator": "Swyx (Shawn Wang)",
+      "operator": "swyx",
       "operator_role": "Founder Latent Space; coined \"AI Engineer\" as a distinct role",
       "source_url": "https://www.latent.space/",
       "source_type": "essay",
@@ -20642,7 +20640,7 @@
     {
       "path": "insights/ins_taleb-barbell-strategy.md",
       "id": "ins_taleb-barbell-strategy",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -20674,7 +20672,7 @@
     {
       "path": "insights/ins_taleb-iatrogenics.md",
       "id": "ins_taleb-iatrogenics",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -20706,7 +20704,7 @@
     {
       "path": "insights/ins_taleb-lindy-effect.md",
       "id": "ins_taleb-lindy-effect",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -20736,7 +20734,7 @@
     {
       "path": "insights/ins_taleb-skin-in-the-game.md",
       "id": "ins_taleb-skin-in-the-game",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -20768,7 +20766,7 @@
     {
       "path": "insights/ins_taleb-via-negativa.md",
       "id": "ins_taleb-via-negativa",
-      "operator": "Nassim Nicholas Taleb",
+      "operator": "Nassim Taleb",
       "operator_role": "Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game",
       "source_url": "https://www.fooledbyrandomness.com/",
       "source_type": "book",
@@ -28030,6 +28028,22 @@
       "title": "Kyle James"
     },
     {
+      "path": "operators/kyle-norton/README.md",
+      "name": "Kyle Norton",
+      "slug": "kyle-norton",
+      "roles": [
+        "Revenue and GTM leader"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth-demand",
+        "ai-native"
+      ],
+      "captured_first": "2026-05-13",
+      "external": "",
+      "title": "Kyle Norton"
+    },
+    {
       "path": "operators/kyle-poyar/README.md",
       "name": "Kyle Poyar",
       "slug": "kyle-poyar",
@@ -28999,7 +29013,7 @@
     },
     {
       "path": "operators/nate-substack/README.md",
-      "name": "Nate",
+      "name": "Nate (Substack)",
       "slug": "nate-substack",
       "roles": [
         "Substack author",
@@ -30121,6 +30135,21 @@
       "title": "Ryan Woodley Mitchell"
     },
     {
+      "path": "operators/saagar-mehta/README.md",
+      "name": "Saagar Mehta",
+      "slug": "saagar-mehta",
+      "roles": [
+        "Pricing and product-marketing contributor"
+      ],
+      "domains_active": [
+        "pricing",
+        "pmm"
+      ],
+      "captured_first": "2026-05-27",
+      "external": "",
+      "title": "Saagar Mehta"
+    },
+    {
       "path": "operators/sachin-jha/README.md",
       "name": "Sachin Jha",
       "slug": "sachin-jha",
@@ -30648,6 +30677,23 @@
         "linkedin": "https://www.linkedin.com/in/shivangisahu/"
       },
       "title": "Shivangi Sahu"
+    },
+    {
+      "path": "operators/shreya-shankar/README.md",
+      "name": "Shreya Shankar",
+      "slug": "shreya-shankar",
+      "roles": [
+        "ML researcher and engineer",
+        "co-author on LLM-evaluation methodology"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "captured_first": "2026-05-01",
+      "external": "",
+      "title": "Shreya Shankar"
     },
     {
       "path": "operators/shreyas-doshi/README.md",

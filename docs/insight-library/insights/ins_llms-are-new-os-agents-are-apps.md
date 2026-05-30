@@ -1,7 +1,7 @@
 ---
 id: ins_llms-are-new-os-agents-are-apps
-operator: Mark Petty
-operator_role: Senior Director Analyst, Gartner
+operator: Gartner
+operator_role: Mark Petty, Senior Director Analyst, Gartner
 source_url: https://www.gartner.com/en/documents/G00828648
 source_type: research
 source_title: "LLMs Are the New OS. AI Agents Are the New Apps. And SaaS Just Got Demoted to Infrastructure"

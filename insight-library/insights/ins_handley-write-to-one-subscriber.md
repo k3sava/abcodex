@@ -13,7 +13,7 @@ maturity: applied
 artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }
 tier: A
-related: [ins_handley-write-what-you-want-to-read, ins_smallest-viable-audience, ins_dave-harland-write-like-you-speak]
+related: [ins_handley-write-what-you-want-to-read, ins_smallest-viable-audience, ins_write-like-you-speak]
 raw_ref: raw/expert-content/experts/ann-handley.md
 ---
 

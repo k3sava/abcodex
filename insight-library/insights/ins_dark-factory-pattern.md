@@ -13,7 +13,7 @@ maturity: frontier
 artifact_class: case-study
 score: { originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }
 tier: A
-related: [ins_november-2025-coding-inflection, ins_simulated-qa-swarm]
+related: [ins_november-2025-coding-inflection]
 raw_ref: raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md
 ---
 

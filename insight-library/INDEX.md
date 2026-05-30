@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
 - 845 insight cards
-- 469 operator profiles
+- 472 operator profiles
 - 209 raw source files
 - 42 synthesis patterns
 - 11 contradictions
@@ -30,7 +30,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_altman-singularity-as-smooth-curve`](insights/ins_altman-singularity-as-smooth-curve.md) — The singularity is one smooth curve, vertical looking forward, flat looking backward, never the disruptive shock people expect _(Sam Altman)_
 - [`ins_anchor-high-pricing`](insights/ins_anchor-high-pricing.md) — Anchor with the most expensive option first; price the client, not the service _(Blair Enns)_
 - [`ins_anchoring-pricing-negotiation`](insights/ins_anchoring-pricing-negotiation.md) — The first number sets the range, anchoring decides the negotiation before it starts _(Daniel Kahneman)_
-- [`ins_antifragile-barbell`](insights/ins_antifragile-barbell.md) — Build for antifragility, not robustness, fragile breaks, robust survives, antifragile gains from disorder _(Nassim Nicholas Taleb)_
+- [`ins_antifragile-barbell`](insights/ins_antifragile-barbell.md) — Build for antifragility, not robustness, fragile breaks, robust survives, antifragile gains from disorder _(Nassim Taleb)_
 - [`ins_ariely-arbitrary-coherence`](insights/ins_ariely-arbitrary-coherence.md) — Arbitrary Coherence, once an initial price is set, the entire category is anchored to it forever _(Dan Ariely)_
 - [`ins_ariely-pain-of-paying-modulators`](insights/ins_ariely-pain-of-paying-modulators.md) — Pain of paying is modulated by method, timing, and granularity, design payment to minimise the felt cost _(Dan Ariely)_
 - [`ins_ariely-power-of-free`](insights/ins_ariely-power-of-free.md) — The Power of Free, the gap between $0.01 and $0.00 is psychologically larger than any other 1-cent gap _(Dan Ariely)_
@@ -96,7 +96,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_flywheel-ai-cross-functional-pod`](insights/ins_flywheel-ai-cross-functional-pod.md) — Cross-functional pod (product + eng + data + ops + marketing) is the org unit for agentic GTM _(Kieran Flanagan)_
 - [`ins_force-for-positive-momentum`](insights/ins_force-for-positive-momentum.md) — When the decision-maker is unclear, you are it, be a force for positive momentum _(Claire Hughes Johnson)_
 - [`ins_friction-as-feature`](insights/ins_friction-as-feature.md) — Add friction when it helps users decide whether the product is for them _(Amole Naik)_
-- [`ins_gap-selling-change-formula`](insights/ins_gap-selling-change-formula.md) — No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change. _(Keenan (Jim Keenan))_
+- [`ins_gap-selling-change-formula`](insights/ins_gap-selling-change-formula.md) — No problem, no sale. No gap, no large sale. Change = (Dissatisfaction × Desirability) > Cost of Change. _(Keenan)_
 - [`ins_generalists-over-specialists-ai-native`](insights/ins_generalists-over-specialists-ai-native.md) — In an AI-native team, hire generalists with one deep dimension, not specialists _(Anton Osika)_
 - [`ins_gerhardt-brand-reputation-compounds`](insights/ins_gerhardt-brand-reputation-compounds.md) — Brand is reputation, and reputation compounds, the earlier you invest, the lower your CAC becomes over time _(Dave Gerhardt)_
 - [`ins_gerhardt-community-as-distribution-moat`](insights/ins_gerhardt-community-as-distribution-moat.md) — Private community is the ultimate distribution moat, generates demand, content flywheel, and trust simultaneously in untrackable spaces _(Dave Gerhardt)_
@@ -164,7 +164,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_lily-ray-geo-penalty-multi-surface-cascade`](insights/ins_lily-ray-geo-penalty-multi-surface-cascade.md) — A Google penalty removes a page from every AI surface at once, not just Google search _(Lily Ray)_
 - [`ins_llm-as-judge-binary-not-likert`](insights/ins_llm-as-judge-binary-not-likert.md) — Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels _(Hamel Husain)_
 - [`ins_llm-wiki-pattern`](insights/ins_llm-wiki-pattern.md) — An LLM should maintain a wiki, not re-derive knowledge per query _(Andrej Karpathy)_
-- [`ins_llms-are-new-os-agents-are-apps`](insights/ins_llms-are-new-os-agents-are-apps.md) — LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores _(Mark Petty)_
+- [`ins_llms-are-new-os-agents-are-apps`](insights/ins_llms-are-new-os-agents-are-apps.md) — LLM platform is the new OS, agents are the new apps, MCP registries are the new app stores _(Gartner)_
 - [`ins_long-term-holdouts-30-40-evaporate`](insights/ins_long-term-holdouts-30-40-evaporate.md) — 30–40% of growth experiments with short-term lift show no incremental value at one year _(Archie Abrams)_
 - [`ins_loss-aversion-status-quo-bias`](insights/ins_loss-aversion-status-quo-bias.md) — Losses feel about 2× as painful as equivalent gains, switching costs are paid in pain, not dollars _(Daniel Kahneman)_
 - [`ins_ltv-cac-ratio-and-cash-flow-trough`](insights/ins_ltv-cac-ratio-and-cash-flow-trough.md) — LTV ≥ 3× CAC, recover CAC in <12 months, and expect a multi-year cash flow trough before it pays off _(David Skok)_
@@ -308,11 +308,11 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_system1-system2-thinking`](insights/ins_system1-system2-thinking.md) — Your initial intuition is a System 1 output, not an objective assessment _(Daniel Kahneman)_
 - [`ins_systems-not-goals`](insights/ins_systems-not-goals.md) — You don't rise to the level of your goals; you fall to the level of your systems _(James Clear)_
 - [`ins_t2d3-saas-growth-trajectory`](insights/ins_t2d3-saas-growth-trajectory.md) — 10 unaffiliated paying customers = PMF floor. Then T2D3 (or T3D3) maps the path to scale. _(Jason Lemkin)_
-- [`ins_taleb-barbell-strategy`](insights/ins_taleb-barbell-strategy.md) — Barbell, extreme safety on one end, aggressive risk on the other, nothing in the middle, the medium-risk zone is where fragility hides _(Nassim Nicholas Taleb)_
-- [`ins_taleb-iatrogenics`](insights/ins_taleb-iatrogenics.md) — Iatrogenics, when the intervention causes more harm than the disease, most "fixes" in complex systems are net-negative _(Nassim Nicholas Taleb)_
-- [`ins_taleb-lindy-effect`](insights/ins_taleb-lindy-effect.md) — Old ideas survive longer for a reason, the Lindy Effect says length-of-survival predicts remaining life-expectancy for non-perishable things _(Nassim Nicholas Taleb)_
-- [`ins_taleb-skin-in-the-game`](insights/ins_taleb-skin-in-the-game.md) — If decision-makers don't bear the downside, the system accumulates hidden risk and becomes fragile _(Nassim Nicholas Taleb)_
-- [`ins_taleb-via-negativa`](insights/ins_taleb-via-negativa.md) — Improvement comes from removing harm, not adding good, addition introduces unknown failure modes; subtraction does not _(Nassim Nicholas Taleb)_
+- [`ins_taleb-barbell-strategy`](insights/ins_taleb-barbell-strategy.md) — Barbell, extreme safety on one end, aggressive risk on the other, nothing in the middle, the medium-risk zone is where fragility hides _(Nassim Taleb)_
+- [`ins_taleb-iatrogenics`](insights/ins_taleb-iatrogenics.md) — Iatrogenics, when the intervention causes more harm than the disease, most "fixes" in complex systems are net-negative _(Nassim Taleb)_
+- [`ins_taleb-lindy-effect`](insights/ins_taleb-lindy-effect.md) — Old ideas survive longer for a reason, the Lindy Effect says length-of-survival predicts remaining life-expectancy for non-perishable things _(Nassim Taleb)_
+- [`ins_taleb-skin-in-the-game`](insights/ins_taleb-skin-in-the-game.md) — If decision-makers don't bear the downside, the system accumulates hidden risk and becomes fragile _(Nassim Taleb)_
+- [`ins_taleb-via-negativa`](insights/ins_taleb-via-negativa.md) — Improvement comes from removing harm, not adding good, addition introduces unknown failure modes; subtraction does not _(Nassim Taleb)_
 - [`ins_talia-moyal-pmm-lovable`](insights/ins_talia-moyal-pmm-lovable.md) — AI-native PMM means redesigning workflows around AI economics, not adding AI to existing ones _(Talia Moyal)_
 - [`ins_task-pull-out-pain-points`](insights/ins_task-pull-out-pain-points.md) — My task is to pull out the pain points and draft 3 positioning statements _(Sachin Jha)_
 - [`ins_there-were-plenty-lessons-too`](insights/ins_there-were-plenty-lessons-too.md) — There were plenty of lessons too. Startups are brutally hard, and pivot hell is the wo _(Vedant Agarwala)_
@@ -726,10 +726,10 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sinek-worthy-rivals`](insights/ins_sinek-worthy-rivals.md) — Worthy rivals are mirrors for self-improvement, study competitors who reveal your weaknesses, not enemies to defeat _(Simon Sinek)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems, six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
 - [`ins_sjeel-k-positioning-over-icp`](insights/ins_sjeel-k-positioning-over-icp.md) — Clear ICP isn't enough if your positioning doesn't pull its weight _(Sjeel K.)_
-- [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code, Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate)_
+- [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code, Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate (Substack))_
 - [`ins_smriti-sahu-social-media-manager-irony`](insights/ins_smriti-sahu-social-media-manager-irony.md) — The person handling social media for a brand is often the least interested in it due to constant back-and-forth. _(Smriti Sahu)_
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
-- [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(Swyx (Shawn Wang))_
+- [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(swyx)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
@@ -1125,6 +1125,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Kubi Rich](operators/kubi-rich/README.md)
 - [Kushal Saini Kakkar](operators/kushal-saini-kakkar/README.md)
 - [Kyle James](operators/kyle-james/README.md)
+- [Kyle Norton](operators/kyle-norton/README.md)
 - [Kyle Poyar](operators/kyle-poyar/README.md)
 - [Langley Barth](operators/langley-barth/README.md)
 - [Leah Knobler](operators/leah-knobler/README.md)
@@ -1179,7 +1180,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Nalin Senthamil](operators/nalin-senthamil/README.md)
 - [Nassim Nicholas Taleb](operators/nassim-taleb/README.md)
 - [Natália Kimličková](operators/nat-lia-kimli-kov/README.md)
-- [Nate](operators/nate-substack/README.md)
+- [Nate (Substack)](operators/nate-substack/README.md)
 - [Naval Ravikant](operators/naval-ravikant/README.md)
 - [Neil Rackham](operators/neil-rackham/README.md)
 - [Nemanja Jovančić](operators/nemanja-jovan-i/README.md)
@@ -1241,6 +1242,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Ryan Kelly](operators/ryan-kelly/README.md)
 - [Ryan Quindlen](operators/ryan-quindlen/README.md)
 - [Ryan Woodley Mitchell](operators/ryan-woodley-mitchell/README.md)
+- [Saagar Mehta](operators/saagar-mehta/README.md)
 - [Sachin Jha](operators/sachin-jha/README.md)
 - [Sahil Bloom](operators/sahil-bloom/README.md)
 - [Saishah Joseph](operators/saishah-joseph/README.md)
@@ -1270,6 +1272,7 @@ _Generated 2026-05-29. Auto-built from frontmatter — do not edit by hand._
 - [Shireesh Gupta](operators/shireesh-gupta/README.md)
 - [Shivangi Gautam](operators/shivangi-gautam/README.md)
 - [Shivangi Sahu](operators/shivangi-sahu/README.md)
+- [Shreya Shankar](operators/shreya-shankar/README.md)
 - [Shreyas Doshi](operators/shreyas-doshi/README.md)
 - [Shruti Kapoor](operators/shruti-kapoor/README.md)
 - [Shruti Padala](operators/shruti-padala/README.md)

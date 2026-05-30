@@ -14,7 +14,7 @@ maturity: frontier
 artifact_class: case-study
 score: { originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }
 tier: C
-related: [ins_anthropic-claude-security-data-flow-scanning, ins_judgment-doesnt-compress, ins_pat_verification-as-human-job]
+related: [ins_anthropic-claude-security-data-flow-scanning, ins_judgment-doesnt-compress]
 raw_ref: 
 ---
 

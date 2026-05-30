@@ -1,6 +1,6 @@
 ---
 id: ins_software-3-ai-engineer
-operator: Swyx (Shawn Wang)
+operator: swyx
 operator_role: Founder Latent Space; coined "AI Engineer" as a distinct role
 source_url: https://www.latent.space/
 source_type: essay

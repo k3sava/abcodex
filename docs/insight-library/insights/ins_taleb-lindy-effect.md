@@ -1,6 +1,6 @@
 ---
 id: ins_taleb-lindy-effect
-operator: Nassim Nicholas Taleb
+operator: Nassim Taleb
 operator_role: Risk theorist; former options trader; author Fooled by Randomness, Black Swan, Antifragile, Skin in the Game
 source_url: https://www.fooledbyrandomness.com/
 source_type: book

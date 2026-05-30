@@ -1,6 +1,6 @@
 ---
 id: ins_antifragile-barbell
-operator: Nassim Nicholas Taleb
+operator: Nassim Taleb
 operator_role: Distinguished Professor of Risk Engineering NYU; author Incerto series
 source_url: https://www.fooledbyrandomness.com/
 source_type: book

@@ -1,5 +1,5 @@
 ---
-name: Nate
+name: Nate (Substack)
 slug: nate-substack
 roles:
   - Substack author

@@ -1,6 +1,6 @@
 ---
 id: ins_skills-as-prompts-as-code
-operator: Nate
+operator: Nate (Substack)
 operator_role: Claude Code educator; Substack author
 source_url: https://natesnewsletter.substack.com/
 source_type: essay
