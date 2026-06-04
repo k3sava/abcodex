@@ -7,9 +7,10 @@
 # checking for fresh, mechanism-bearing claims.
 #
 # Spans the domains this library tracks:
-#   - GTM / marketing / sales
+#   - GTM / marketing / sales (incl. brand/product design + lifecycle email)
 #   - iOS and Apple-platform craft, generative art, music and audio
-#   - AI-native company building and the future of work
+#   - game building, design, and interactive play
+#   - AI-native company building, AI-native products, and the future of work
 #   - AI builder tech (agents, on-device models, agentic coding, evals)
 #
 # Public by design. Names only, no private notes, no internal colleagues. Edit
@@ -429,3 +430,98 @@ lanes:
       - "DSPy prompt optimization MIPRO and GEPA"
       - "the three gulfs of LLM development"
       - "structured outputs and reliability for agents"
+
+  # ============================================================
+  # GAME BUILDING + INTERACTIVE PLAY
+  # ============================================================
+
+  game-building-and-design:
+    operators:
+      - { name: Mark Brown, note: "Game Maker's Toolkit; shipped Mind Over Magnet + Word Play" }
+      - { name: Steve Swink, note: "author of Game Feel, the canonical text on tactile feedback" }
+      - { name: Jesse Schell, note: "The Art of Game Design (Book of Lenses); Schell Games" }
+      - { name: Tim Cain, note: "Fallout co-creator; Cain on Games channel" }
+      - { name: Michael Sellers, note: "Advanced Game Design: A Systems Approach" }
+      - { name: Sebastien Benard, note: "lead designer on Dead Cells; roguelike + game-feel breakdowns" }
+      - { name: Tyler Sigman, note: "Darkest Dungeon designer; Red Hook Studios" }
+      - { name: Michael Brough, note: "indie roguelike designer (868-HACK, Imbroglio)" }
+      - { name: Petri Purho, note: "Noita; co-author of the Juice It or Lose It talk" }
+      - { name: Martin Jonasson, note: "co-author of Juice It or Lose It (game-feel juice)" }
+      - { name: Asbjorn Thirslund, note: "Brackeys; game-dev tutorials, now Godot" }
+      - { name: Hugo Dolan, note: "Code Monkey; Unity learning + Steam marketing" }
+      - { name: StayAtHomeDev, note: "Godot educator recognized by the Godot Foundation" }
+      - { name: Omar Zaki, note: "Godot crash course + game-dev tutorials" }
+    topics:
+      - "game feel and juice"
+      - "Godot vs Unity engine workflow 2026"
+      - "roguelike systems and run-based design"
+      - "procedural generation in games"
+      - "game mechanics and the lenses framework"
+      - "systems-driven game design"
+      - "indie game level design"
+
+  game-growth-and-publishing:
+    operators:
+      - { name: Chris Zukowski, note: "How to Market a Game; Steam wishlist + launch data" }
+      - { name: Joseph Kim, note: "GameMakers Substack; F2P industry; LILA Games" }
+      - { name: Adam Telfer, note: "mobilefreetoplay.com; F2P design + monetization" }
+      - { name: Eric Seufert, note: "Mobile Dev Memo; UA economics + F2P" }
+      - { name: Erno Kiiski, note: "GameRefinery chief analyst; mobile market reviews, live-ops" }
+      - { name: Phil Black, note: "game economist; mobile gaming economy" }
+      - { name: Adrian Crook, note: "F2P/freemium consultant; economy balancing + live-ops" }
+      - { name: Amir Satvat, note: "ASGC games-industry career network" }
+    topics:
+      - "Steam wishlist and launch strategy"
+      - "ASO for mobile games"
+      - "F2P monetization and battle passes"
+      - "live-ops and seasonal content"
+      - "mobile game user acquisition economics"
+      - "game economy balancing"
+      - "Steam Next Fest playbook"
+
+  # ============================================================
+  # AI-NATIVE PRODUCTS + the new disciplines A Bowl of Ramen serves
+  # ============================================================
+
+  ai-native-systems-and-products:
+    operators:
+      - { name: Anton Osika, note: "Lovable CEO; AI vibe-coding app builder" }
+      - { name: Michael Truell, note: "Anysphere / Cursor CEO" }
+      - { name: Aravind Srinivas, note: "Perplexity CEO; Comet AI browser" }
+      - { name: Mati Staniszewski, note: "ElevenLabs co-founder; AI voice" }
+      - { name: Amjad Masad, note: "Replit CEO; AI app building for non-coders" }
+      - { name: Scott Wu, note: "Cognition CEO; Devin autonomous engineer" }
+      - { name: Chris Pedregal, note: "Granola CEO; on-device AI meeting notes" }
+      - { name: Karina Nguyen, note: "ex-OpenAI/Anthropic; Thoughtful Lab" }
+      - { name: Mckay Wrigley, note: "Takeoff AI; ships open-source AI app prototypes" }
+      - { name: Fabian Hedin, note: "Lovable CTO" }
+    topics:
+      - "vibe coding and AI app builders"
+      - "AI-native vs embedded AI products"
+      - "agentic coding (Devin, Cursor)"
+      - "consumer AI product design"
+      - "on-device AI and privacy-first UX"
+      - "AI voice and multimodal products"
+      - "what makes an AI product beloved"
+
+  # Topic-seeded lanes (operators discovered via the topic terms; fill on a later pass).
+  brand-and-product-design:
+    operators: []
+    topics:
+      - "B2B brand identity and visual systems"
+      - "design systems and component libraries"
+      - "product and UI design craft"
+      - "marketing visual design and taste"
+      - "AEO and design crossover"
+      - "landing page visual storytelling"
+      - "brand design in the AI era"
+
+  lifecycle-and-retention-email:
+    operators: []
+    topics:
+      - "onboarding and activation email flows"
+      - "lifecycle and retention sequences"
+      - "churn mitigation copy"
+      - "expansion and upsell programs"
+      - "behavioral email triggers"
+      - "free-to-paid conversion lifecycle"
