@@ -1,0 +1,431 @@
+# scan-roster.yaml: the daily operator + topic scan list for the abcodex insight routine.
+#
+# A Claude Code Routine (claude.ai/code/routines) clones this repo each run and
+# reads this file to know WHO and WHAT to scan for new operator insights. It is
+# the candidate pool, not the full library: abcodex already holds full operator
+# profiles under insight-library/operators/. This is the curated set worth
+# checking for fresh, mechanism-bearing claims.
+#
+# Spans the domains this library tracks:
+#   - GTM / marketing / sales
+#   - iOS and Apple-platform craft, generative art, music and audio
+#   - AI-native company building and the future of work
+#   - AI builder tech (agents, on-device models, agentic coding, evals)
+#
+# Public by design. Names only, no private notes, no internal colleagues. Edit
+# freely: add an operator under a lane, add a lane, or add a topic. The routine
+# searches each operator's recent (last 7 days) public output plus the topic
+# terms, then curates the few genuinely new, high-signal claims into insight
+# cards per scripts/ingest-prompt.md.
+#
+# Coverage rule for the routine: you will NOT scan all operators every day.
+# Sample broadly across lanes, prioritise operators/lanes with known recent
+# activity, and surface only 3 to 7 genuinely new, mechanism-bearing claims.
+# Quality over volume. Per-lane duplicates of the same person are intentional.
+
+lanes:
+
+  # ============================================================
+  # GTM / MARKETING / SALES
+  # ============================================================
+
+  pmm-gtm-experts:
+    operators:
+      - { name: Rory Woodbridge, note: "PMM operator on positioning and GTM craft" }
+      - { name: Yi Lin Pei, note: "PMM teardowns and frameworks" }
+      - { name: April Dunford, note: "Positioning canon, author of Obviously Awesome" }
+      - { name: Emma Stratton, note: "Punchy B2B messaging" }
+      - { name: Andy Raskin, note: "Strategic narrative architect" }
+      - { name: Anthony Pierri, note: "B2B homepage messaging teardowns, FletchPMM" }
+      - { name: Diana Smith, note: "PMM and brand-led growth" }
+      - { name: Sangram Vajre, note: "ABM and GTM motions" }
+      - { name: Dave Gerhardt, note: "B2B marketing playbooks" }
+      - { name: Maja Voje, note: "GTM strategist frameworks" }
+      - { name: Pawel Huryn, note: "PM frameworks that transfer to PMM" }
+      - { name: James Doman-Pipe, note: "PMM-sales gap and qualified-buyer leakage on homepages" }
+      - { name: Madeleine Work, note: "GTM launch tiers" }
+      - { name: Emily Pick, note: "Docebo PMM, AI fluency deep reads" }
+      - { name: Hattie the PMM, note: "PMM accountability under revenue pressure, enterprise buying" }
+      - { name: Richard King, note: "Creative ad teardowns, Claude PMM workflows" }
+      - { name: Vivian Jordan, note: "PMM AI council, AI-and-PMM voice" }
+      - { name: Jonathan Pipek, note: "Founding-PMM craft and startup-PMM hiring" }
+      - { name: Anirban Banerjee, note: "Customer research pillars" }
+      - { name: Aatir Abdul Rauf, note: "Growth loops, network effects, AI defensibility" }
+      - { name: Mihaela Andries, note: "Feature velocity vs GTM alignment" }
+      - { name: Tamara Grominsky, note: "PMM reporting structure and org design under PLG" }
+      - { name: Michele Nieberding, note: "PMM tooling commentary" }
+      - { name: Andy McCotter-Bicknell, note: "Competitive intelligence rebuild" }
+      - { name: Madhav Bhandari, note: "Designer-as-most-requested, AEO design crossover" }
+      - { name: Alok Yadav, note: "AI advantage framing" }
+      - { name: Nalin Senthamil, note: "Growth without a growth marketer, founder operator" }
+      - { name: Santhoshi Natarajan, note: "Battlecard abandonment teardown" }
+      - { name: Natália Kimličková, note: "Positioning tied to UX, banner and mass-blast critique" }
+      - { name: Sachin Jha, note: "Skills, stack and signals framework, AI-PMM crossover" }
+      - { name: Logan Hendrickson, note: "PMM team structure realism" }
+      - { name: Tom Meerstadt, note: "PMM hiring criteria" }
+      - { name: Elliott Rayner, note: "Landing page visual storytelling vs copy-heavy" }
+      - { name: Nishchal Dua, note: "AI transformation, diverge before converge" }
+      - { name: Abhi Jothilingam, note: "Positioning in constrained space" }
+      - { name: Alexis Chevallier, note: "Quality beats AI volume, content economics" }
+    topics:
+      - "product positioning and messaging frameworks"
+      - "homepage and landing page messaging teardowns"
+      - "AI-native PMM workflows"
+      - "competitive intelligence and battlecards"
+      - "PMM org design and hiring"
+      - "launch tiers and GTM motions"
+
+  seo-experts:
+    operators:
+      - { name: Aleyda Solis, note: "Orainti, SEO and LLM-search" }
+      - { name: Lily Ray, note: "Amsive, Google update and AEO coverage" }
+      - { name: Kevin Indig, note: "Growth Memo, ex-Shopify" }
+      - { name: Tom Critchlow, note: "Strategy and SEO essays" }
+      - { name: Gianluca Fiorelli, note: "Technical and international SEO" }
+      - { name: Mark Williams-Cook, note: "SEO testing and Google patent reads" }
+      - { name: Eli Schwartz, note: "Product-led SEO" }
+    topics:
+      - "Google algorithm updates 2026"
+      - "technical SEO and crawlability"
+      - "product-led SEO"
+      - "SEO testing and experiments"
+
+  aeo-llm-search-experts:
+    operators:
+      - { name: Mike King, note: "iPullRank, GEO and AEO research" }
+      - { name: Olaf Kopp, note: "Semantic SEO and entity-based optimization" }
+      - { name: Andrea Volpini, note: "WordLift, knowledge graph and LLM optimization" }
+      - { name: Ross Hudgens, note: "Siege Media, AEO content patterns" }
+      - { name: Bernard Huang, note: "Clearscope, AEO testing" }
+      - { name: Casey Hill, note: "AEO with empirical traffic data" }
+      - { name: Joseph Sage, note: "GEO framework and AI agent evolution" }
+      - { name: Pratik Vyas, note: "AEO framework with GTM validation" }
+      - { name: Lum Kamishi, note: "AI obsoleting traditional SEO, operator case study" }
+      - { name: Glenn Gabe, note: "Helpful-content updates analyst" }
+      - { name: Dr. Pete Meyers, note: "Moz research, algorithm correlation" }
+      - { name: Rand Fishkin, note: "SparkToro, positioning and research" }
+      - { name: Barry Schwartz, note: "Search Engine Roundtable" }
+      - { name: Christoph C. Cemper, note: "Bot traffic and AI crawlability" }
+      - { name: Brian Dean, note: "Backlinko, AI search and AEO" }
+    topics:
+      - "answer engine optimization AEO"
+      - "GEO generative engine optimization"
+      - "AI Overviews and LLM search citations"
+      - "entity and semantic SEO"
+      - "getting cited by ChatGPT Claude and Perplexity"
+
+  performance-marketing-experts:
+    operators:
+      - { name: Andrew Chen, note: "a16z, growth and paid acquisition" }
+      - { name: Brian Balfour, note: "Reforge, growth loop frameworks" }
+      - { name: Casey Winters, note: "Eventbrite and Reforge, marketplace and growth" }
+      - { name: Brendan Hufford, note: "SaaS marketing, paid plus organic" }
+      - { name: Demand Curve team, note: "Growth and PPC playbooks" }
+      - { name: Andrew Capland, note: "PMM-adjacent growth content" }
+      - { name: Aakash Gupta, note: "Product Growth" }
+    topics:
+      - "paid acquisition and CAC"
+      - "growth loops and retention"
+      - "PPC and creative testing"
+      - "attribution and ATT"
+
+  inbound-sales-experts:
+    operators:
+      - { name: Mark Roberge, note: "HubSpot alum, science of selling" }
+      - { name: Pete Caputa, note: "Databox CEO, inbound and revenue ops" }
+      - { name: Devin Reed, note: "Content and inbound for sales orgs" }
+      - { name: Kyle Coleman, note: "Inbound and outbound rev ops" }
+      - { name: Sahil Mansuri, note: "Bravado founder, sales commentary" }
+      - { name: Steli Efti, note: "Close CEO, conversational selling" }
+      - { name: Chris Orlob, note: "Sales methodology and inbound CVR" }
+      - { name: Morgan J Ingram, note: "Sales execution and SDR development" }
+    topics:
+      - "inbound sales methodology"
+      - "revenue operations"
+      - "sales content and enablement"
+      - "conversion of inbound leads"
+
+  outbound-sales-experts:
+    operators:
+      - { name: Aaron Ross, note: "Predictable Revenue" }
+      - { name: Trish Bertuzzi, note: "Bridge Group, SDR research" }
+      - { name: Becc Holland, note: "Flip the Script, outbound craft" }
+      - { name: Josh Braun, note: "Outbound rebuttals" }
+      - { name: Florin Tatulea, note: "Outbound experiments and data" }
+      - { name: Sam Nelson, note: "SDR-leader content" }
+      - { name: Jason Bay, note: "Outbound Squad, cold-call scripts" }
+      - { name: Davide Grieco, note: "ABM orchestration" }
+      - { name: Cody Schneider, note: "Multi-channel no-show prevention" }
+      - { name: Alan Zhao, note: "Sales ops with agents, territory mapping" }
+      - { name: Daniel Matias, note: "One-call-close, cycle compression" }
+      - { name: Rory Sadler, note: "Champion tracking and sales discipline" }
+      - { name: Sandeep Kochhar, note: "Founder outreach playbook" }
+      - { name: Collin Stewart, note: "SDR and BDR strategies" }
+      - { name: Craig Rosenberg, note: "Pavilion CEO, sales ops frameworks" }
+    topics:
+      - "cold outbound and prospecting"
+      - "SDR playbooks and scripts"
+      - "ABM orchestration"
+      - "personalization at scale"
+
+  product-gtm-experts:
+    operators:
+      - { name: Lenny Rachitsky, note: "Lenny's Newsletter, PM and PMM" }
+      - { name: Bangaly Kaba, note: "Growth advisor, PLG" }
+      - { name: Elena Verna, note: "Growth and PLG" }
+      - { name: Kieran Flanagan, note: "GTM motions, ex-HubSpot" }
+      - { name: Pete Mancini, note: "Pricing and product GTM" }
+      - { name: Rahul Vohra, note: "Superhuman, PMF and retention" }
+      - { name: Lincoln Murphy, note: "Customer success and PLG" }
+      - { name: Hiten Shah, note: "Product and retention" }
+      - { name: Christoph Janz, note: "Point Nine, SaaS frameworks" }
+      - { name: Shreyas Doshi, note: "Frameworks-first GTM and product strategy" }
+      - { name: Sarah Tavel, note: "Sequoia, retention and PLG metrics" }
+    topics:
+      - "product-led growth PLG"
+      - "pricing and packaging"
+      - "retention and PMF"
+      - "activation and onboarding"
+
+  humanizing-ai-copy:
+    operators:
+      - { name: Brendan Short, note: "GTM use cases across Claude surfaces" }
+      - { name: Dylan Latour, note: "AI-slop critic with concrete teardowns" }
+      - { name: Val Geisler, note: "AI adoption gap, enterprise vs consumer" }
+      - { name: Tas Bober, note: "AI cannot replace nuance" }
+      - { name: Andrew Shemet, note: "Value shifts to taste as AI commodifies production" }
+      - { name: Mike Rosenberg, note: "Effort and process matter, journalist and ghostwriter" }
+      - { name: Bhavin Turakhia, note: "LLM crutch syndrome" }
+      - { name: Scott Frothingham, note: "Microcopy craft, AI-detector self-runs" }
+      - { name: Dickie Bush, note: "Ship 30 for 30, writing that feels human" }
+      - { name: Ann Handley, note: "Everybody Writes, authentic voice" }
+      - { name: Julian Shapiro, note: "AI Writing Handbook" }
+      - { name: Joanna Wiebe, note: "Copyhackers, conversion copywriting" }
+    topics:
+      - "humanizing AI-written copy"
+      - "AI slop detection and teardowns"
+      - "conversion copywriting craft"
+      - "authentic brand voice"
+      - "taste as the differentiator in writing"
+
+  # ============================================================
+  # iOS / APPLE-PLATFORM CRAFT, GENERATIVE ART, MUSIC + AUDIO
+  # ============================================================
+
+  ios-app-craft:
+    operators:
+      - { name: Paul Hudson, note: "Creator of Hacking with Swift, author of Everything but the Code" }
+      - { name: Janum Trivedi, note: "Design engineer behind the Wave spring animation engine, interruptible UI motion" }
+      - { name: Ben Sandofsky, note: "Lux Optics, maker of Halide and Kino camera apps" }
+      - { name: Thomas Ricouard, note: "Creator of Ice Cubes, modern SwiftUI architecture writer" }
+      - { name: Simon B. Stovring, note: "Indie dev behind Scriptable and Runestone" }
+      - { name: Meng To, note: "Design+Code, teaches SwiftUI design plus Metal shaders and Canvas" }
+      - { name: Antoine van der Lee, note: "SwiftLee and RocketSim, weekly Swift blog" }
+      - { name: Kavsoft, note: "Advanced SwiftUI animation and interaction tutorials" }
+      - { name: Becky Hansmeyer, note: "Indie iOS dev and writer on artisanal SwiftUI craft" }
+      - { name: Christian Selig, note: "Indie dev behind Apollo and Pixel Pals, polished interaction craft" }
+      - { name: Marco Arment, note: "Indie dev of Overcast, creator of Instapaper" }
+      - { name: Curtis Herbert, note: "Indie dev of Slopes, writes Slopes Diaries on premium app craft" }
+    topics:
+      - "Apple Design Award winners SwiftUI craft"
+      - "SwiftUI Metal shaders interaction design"
+      - "iOS spring animation interruptible motion engine"
+      - "Human Interface Guidelines premium native app design"
+      - "SwiftUI Canvas particle effects GPU rendering"
+      - "WWDC design engineering Apple platforms"
+
+  indie-app-studio-aso:
+    operators:
+      - { name: David Barnard, note: "RevenueCat developer advocate, co-hosts Sub Club" }
+      - { name: Jacob Eiting, note: "RevenueCat CEO, subscription app monetization" }
+      - { name: Ariel Michaeli, note: "Appfigures CEO, ASO and app intelligence" }
+      - { name: Steve P. Young, note: "App Masters, ASO frameworks and app teardowns" }
+      - { name: Moritz Daan, note: "Phiture, co-author of the Mobile Growth Stack" }
+      - { name: Eric Seufert, note: "Mobile Dev Memo, mobile growth and monetization" }
+      - { name: Adam Lyttle, note: "Indie iOS dev sharing App Store growth and shipping" }
+      - { name: Jordi Bruin, note: "Solo macOS and iOS dev behind Soosee and Unmute" }
+      - { name: Sebastian Roehl, note: "Building An Indie App Business newsletter" }
+      - { name: Sylvain Gauchet, note: "Growth Gems newsletter, subscription app growth" }
+      - { name: Marc Lou, note: "Solo founder of ShipFast, builds in public" }
+      - { name: Pieter Levels, note: "Build-in-public solo founder, one-person product businesses" }
+    topics:
+      - "App Store Optimization ASO strategy 2026"
+      - "indie app subscription monetization RevenueCat"
+      - "solo developer app business revenue build in public"
+      - "App Store keyword optimization and conversion rate"
+      - "App Store screenshots and metadata teardown"
+      - "indie app studio shipping discipline"
+
+  generative-art-creative-coding:
+    operators:
+      - { name: Inigo Quilez, note: "Co-creator of Shadertoy, ray-marching and SDF technique" }
+      - { name: Patricio Gonzalez Vivo, note: "Author of The Book of Shaders, GLSL educator" }
+      - { name: Char Stiles, note: "Live-coding shader performer and educator" }
+      - { name: Martijn Steinrucken, note: "The Art of Code, GLSL and Shadertoy teaching" }
+      - { name: Zach Lieberman, note: "Co-creator of openFrameworks, School for Poetic Computation" }
+      - { name: Daniel Shiffman, note: "The Nature of Code and The Coding Train" }
+      - { name: Tim Rodenbroeker, note: "Generative design educator, p5.js and Processing" }
+      - { name: Matt DesLauriers, note: "Generative artist, built canvas-sketch" }
+      - { name: Saskia Freeke, note: "Daily geometric code sketches since 2015" }
+      - { name: Bruno Simon, note: "Three.js Journey, WebGL and shader teaching" }
+      - { name: Lauren McCarthy, note: "Creator of p5.js" }
+      - { name: Matthew Ragan, note: "TouchDesigner educator, real-time media" }
+    topics:
+      - "GLSL fragment shader ray marching technique"
+      - "Shadertoy and WebGL real-time graphics"
+      - "TouchDesigner audio-reactive visuals"
+      - "p5.js and Processing generative art"
+      - "Three.js WebGL creative coding"
+      - "signed distance functions and procedural noise"
+      - "pen plotter generative art algorithms"
+
+  music-production-audio-ml:
+    operators:
+      - { name: Alexandre Défossez, note: "Lead author of Demucs source separation and EnCodec" }
+      - { name: Jordi Pons, note: "Audio deep learning researcher at Dolby, source separation" }
+      - { name: Ge Wang, note: "Stanford CCRMA, author of the ChucK language" }
+      - { name: Andrew Huang, note: "Producer and educator, co-designed Transit and Flip Sampler" }
+      - { name: Hainbach, note: "Electro-acoustic composer, co-built the Fluss granular synth" }
+      - { name: Benn Jordan, note: "The Flashbulb, synth-programming and audio-tech videos" }
+      - { name: Bram Bos, note: "iOS music app dev, Ruismaker, Rozeta, Mozaic AUv3" }
+      - { name: Tero Parviainen, note: "Web Audio and generative music, Tone.js and Magenta.js" }
+      - { name: Sam Aaron, note: "Creator of Sonic Pi live-coding music tool" }
+      - { name: Pol Jeremias, note: "Co-creator of Shadertoy, audio-reactive graphics tools" }
+    topics:
+      - "music source separation Demucs and stem isolation"
+      - "audio ML neural networks for music"
+      - "Web Audio API and Tone.js synthesis"
+      - "iOS AUv3 plugin and synth app development"
+      - "ChucK and Sonic Pi live-coding music"
+      - "on-device audio models Core ML and MLX"
+      - "granular synthesis and experimental synth design"
+
+  # ============================================================
+  # AI-NATIVE COMPANY BUILDING, FUTURE OF WORK
+  # ============================================================
+
+  ai-native-company-building:
+    operators:
+      - { name: Dan Shipper, note: "Every CEO, AI-native media and software where agents write code" }
+      - { name: Packy McCormick, note: "Not Boring, vertically integrated AI businesses" }
+      - { name: Jasmine Sun, note: "Writes on AI and Silicon Valley, taste and voice as differentiator" }
+      - { name: Tom Tunguz, note: "Theory Ventures, services-as-software and revenue-per-employee" }
+      - { name: Jared Friedman, note: "Y Combinator, the full-stack AI company thesis" }
+      - { name: Bret Taylor, note: "Sierra CEO, outcome-based pricing and agents replacing software" }
+      - { name: Greg Isenberg, note: "Late Checkout, one-person and small-team AI businesses" }
+      - { name: Nathan Baschez, note: "Lex CEO, co-founded Every, writes on AI product building" }
+      - { name: Mario Gabriele, note: "The Generalist, AI-era company case studies" }
+      - { name: Rex Woodbury, note: "Daybreak Ventures, Digital Native, consumer and AI company building" }
+      - { name: Elad Gil, note: "Angel investor, essays on AI startups and defensibility" }
+      - { name: Dharmesh Shah, note: "HubSpot CTO, agent.ai, the agent-first company" }
+      - { name: Sangeet Paul Choudary, note: "Platforms Substack, how AI agents unbundle goals from roles" }
+    topics:
+      - "services-as-software economics"
+      - "full-stack AI company thesis"
+      - "revenue per employee AI-native startup benchmarks"
+      - "outcome-based pricing for AI agents"
+      - "one-person company solo founder AI stack"
+      - "AI-native agency model replacing consultants"
+      - "taste and voice as moat in AI products"
+      - "small team high leverage company building"
+
+  future-of-work-and-org-design:
+    operators:
+      - { name: Ethan Mollick, note: "Wharton, Co-Intelligence, One Useful Thing, the jagged frontier" }
+      - { name: Thomas W. Malone, note: "MIT Center for Collective Intelligence, author of Superminds" }
+      - { name: Azeem Azhar, note: "Exponential View, AI as a workforce" }
+      - { name: Aaron Dignan, note: "Brave New Work, operating systems for org design" }
+      - { name: Reid Hoffman, note: "Superagency, AI broadening human agency" }
+      - { name: Benedict Evans, note: "Independent analyst, how work changes shape" }
+      - { name: Simon Willison, note: "Documents agentic engineering patterns and how agents change knowledge work" }
+      - { name: Tim O'Reilly, note: "O'Reilly Media, technology and labor, the human qualities that endure" }
+      - { name: Allie K. Miller, note: "AI advisor, AI-first organizations and adoption" }
+      - { name: Conor Grennan, note: "NYU Stern, AI adoption is behavioral not technological" }
+    topics:
+      - "collective intelligence AI and human teams"
+      - "agentic operating model and org design"
+      - "future of work and the AI workforce"
+      - "taste and judgment as the human edge"
+      - "AI adoption as behavioral change"
+      - "AI job exposure and reshaping knowledge work"
+      - "unbundling goals from roles"
+
+  # ============================================================
+  # AI BUILDER TECH: the stack the systems run on
+  # (the existing agent-frameworks lane stays as-is; these are adjacent)
+  # ============================================================
+
+  agent-frameworks:
+    operators:
+      - { name: Wade Foster, note: "Zapier CEO, voice agents and SDK composability" }
+      - { name: Gaurav Sharma, note: "Open-source unified context layer for agents" }
+      - { name: Denny Hollick, note: "Model agnosticism, vendor lock-in critique" }
+      - { name: Anis Bennaceur, note: "Self-updating knowledge graph, multi-source MCP" }
+      - { name: Aakash Rohilla, note: "On-device inference, open-source voice tooling" }
+      - { name: Harrison Chase, note: "LangChain founder, agent architecture" }
+      - { name: Jason Liu, note: "Agent orchestration, Instructor" }
+      - { name: Shawn Wang (Swyx), note: "Autonomous agents and MCP, Latent Space" }
+      - { name: Lilian Weng, note: "Ex-OpenAI, agent and LLM systems essays" }
+      - { name: Erik Bernhardsson, note: "Modal Labs founder, ML and agent infra" }
+    topics:
+      - "agent architecture and orchestration"
+      - "MCP model context protocol"
+      - "multi-agent systems"
+      - "agent memory and context"
+      - "LLM application frameworks"
+
+  on-device-ai:
+    operators:
+      - { name: Awni Hannun, note: "Co-creator of Apple's MLX array framework" }
+      - { name: Angelos Katharopoulos, note: "Apple ML researcher, core MLX maintainer" }
+      - { name: Georgi Gerganov, note: "Creator of llama.cpp, ggml, and the GGUF format" }
+      - { name: Jeffrey Morgan, note: "Co-founder and CEO of Ollama, local LLM runner" }
+      - { name: Justine Tunney, note: "Creator of Cosmopolitan Libc and llamafile" }
+      - { name: Pedro Cuenca, note: "Hugging Face, Core ML and swift-transformers for Apple" }
+      - { name: Vaibhav Srivastav, note: "Hugging Face DevRel, open source audio and on-device ML" }
+      - { name: Prince Canuma, note: "Creator of mlx-vlm and mlx-audio" }
+      - { name: Maxime Labonne, note: "Open LLM Course, quantization tutorials" }
+      - { name: Sebastian Raschka, note: "Build a Large Language Model From Scratch, Ahead of AI" }
+    topics:
+      - "Apple MLX framework updates and benchmarks"
+      - "Core ML and swift-transformers on-device LLM iOS"
+      - "llama.cpp GGUF quantization k-quants"
+      - "mlx-vlm and mlx-lm on Apple Silicon"
+      - "small language models and edge inference"
+      - "Ollama and llamafile local AI"
+
+  agentic-coding-dev-tooling:
+    operators:
+      - { name: Boris Cherny, note: "Creator and head of Claude Code at Anthropic" }
+      - { name: Thorsten Ball, note: "Sourcegraph Amp, How to Build an Agent, Register Spill" }
+      - { name: Simon Willison, note: "Creator of Datasette, prolific LLM and agentic-engineering blogger" }
+      - { name: Geoffrey Huntley, note: "Named the Ralph loop technique for autonomous coding agents" }
+      - { name: Armin Ronacher, note: "Creator of Flask, writes on agentic coding and tool design" }
+      - { name: Steve Yegge, note: "Co-author of Vibe Coding, on AI-assisted development" }
+      - { name: Paul Gauthier, note: "Creator of Aider and the Aider Polyglot benchmark" }
+      - { name: Mitchell Hashimoto, note: "HashiCorp co-founder and Ghostty, harness engineering for agents" }
+      - { name: Steve Krouse, note: "Val Town CEO, the Townie coding agent" }
+      - { name: Saoud Rizwan, note: "Creator of Cline, open-source coding agent" }
+    topics:
+      - "Claude Code agentic coding workflows and subagents"
+      - "how to build an agent harness engineering"
+      - "Ralph loop autonomous coding context resets"
+      - "Aider terminal pair programming polyglot benchmark"
+      - "Cline open-source coding agent"
+      - "vibe coding and agentic engineering 2026"
+
+  prompt-context-and-evals:
+    operators:
+      - { name: Hamel Husain, note: "AI Evals for Engineers and PMs course, error analysis, LLM-as-judge" }
+      - { name: Shreya Shankar, note: "UC Berkeley, reliable LLM systems, the three gulfs model" }
+      - { name: Eugene Yan, note: "Amazon Principal Applied Scientist, LLM evaluators and reliability" }
+      - { name: Dex Horthy, note: "HumanLayer, 12-Factor Agents, Research-Plan-Implement context method" }
+      - { name: Drew Breunig, note: "How to Fix Your Context, context-window failure modes" }
+      - { name: Omar Khattab, note: "Creator of DSPy, programming rather than prompting models" }
+    topics:
+      - "LLM evals error analysis and LLM-as-judge"
+      - "context engineering and context-window curation"
+      - "12-factor agents and reliable LLM apps"
+      - "DSPy prompt optimization MIPRO and GEPA"
+      - "the three gulfs of LLM development"
+      - "structured outputs and reliability for agents"
