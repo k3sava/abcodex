@@ -1,43 +1,35 @@
 {
-  "generated_at": "2026-05-30T03:56:48.088Z",
+  "generated_at": "2026-06-04T21:07:10.132Z",
   "counts": {
-    "insights": 845,
-    "operators": 472,
+    "insights": 850,
+    "operators": 473,
     "raw_sources": 209,
     "patterns": 42,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 19
+    "daily": 20
   },
   "latest_daily": {
-    "path": "daily/2026-05-27.md",
-    "date": "2026-05-27",
-    "title": "What landed today, 2026-05-27",
-    "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
+    "path": "daily/2026-06-04.md",
+    "date": "2026-06-04",
+    "title": "What landed today, 2026-06-04",
+    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
     "sources": [
-      "morning research scan 2026-05-27"
+      "morning research scan 2026-06-04"
     ],
     "insights_added": [
-      "ins_fishkin-inimitable-product-new-moat",
-      "ins_pete-caputa-referral-attribution-gap",
-      "ins_rory-woodbridge-seats-pricing-ai-trap",
-      "ins_maja-voje-ai-buyer-controls-interaction",
-      "ins_andrew-ng-top-down-workflow-redesign"
+      "ins_intelligence-per-dollar-model-metric",
+      "ins_skill-distillation-frontier-teacher",
+      "ins_wasm-sandbox-agent-code-execution",
+      "ins_agents-authorize-agents-security-scale",
+      "ins_cognitive-surrender-agentic-defaults"
     ],
     "operators_added": [
-      "pete-caputa",
-      "andrew-ng"
+      "jonathan-jaffe"
     ],
-    "patterns_added": [
-      "pat_saas-growth-trifecta-collapse"
-    ],
+    "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_pricing-as-the-most-leveraged-org-failure",
-      "pat_aeo-triangle",
-      "pat_agent-first-gtm",
-      "--"
-    ]
+    "patterns_updated": []
   },
   "insights": [
     {
@@ -893,6 +885,35 @@
       ],
       "raw_ref": "raw/podcasts/claire-vo--openclaw-agents-as-team--2026-04-28.md",
       "title": "Agents work when treated as a team, not a single super-tool"
+    },
+    {
+      "path": "insights/ins_agents-authorize-agents-security-scale.md",
+      "id": "ins_agents-authorize-agents-security-scale",
+      "operator": "Jonathan Jaffe",
+      "operator_role": "Chief Information Security Officer, Lemonade",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/jonathan-jaffe-office-hours-post-event/",
+      "source_type": "recap",
+      "source_title": "Security in the Age of AI Agents",
+      "source_date": "2026-05-28",
+      "captured_date": "2026-06-04",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_wasm-sandbox-agent-code-execution"
+      ],
+      "raw_ref": "",
+      "title": "At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems"
     },
     {
       "path": "insights/ins_ai-as-copilot-not-autopilot.md",
@@ -4172,6 +4193,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "This code node utilizes your API key and User ID to establish a connection with your Ic"
+    },
+    {
+      "path": "insights/ins_cognitive-surrender-agentic-defaults.md",
+      "id": "ins_cognitive-surrender-agentic-defaults",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of Co-Intelligence; creator of One Useful Thing newsletter",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/choosing-to-stay-human",
+      "source_type": "essay",
+      "source_title": "Choosing to Stay Human",
+      "source_date": "2026-05-26",
+      "captured_date": "2026-06-04",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_pin-workflows-to-capabilities-not-models",
+        "ins_rebaseline-quarterly-not-pin-to-snapshot"
+      ],
+      "raw_ref": "",
+      "title": "Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong"
     },
     {
       "path": "insights/ins_colby-hoke-role-split-reflects-market-maturity.md",
@@ -9422,6 +9473,35 @@
       ],
       "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md",
       "title": "Position AI as intelligence put into things that already exist, not as a new thing"
+    },
+    {
+      "path": "insights/ins_intelligence-per-dollar-model-metric.md",
+      "id": "ins_intelligence-per-dollar-model-metric",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/tokens-per-result/",
+      "source_type": "essay",
+      "source_title": "Intelligence Per Dollar",
+      "source_date": "2026-06-03",
+      "captured_date": "2026-06-04",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "pricing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_commoditize-the-complement-ai"
+      ],
+      "raw_ref": "",
+      "title": "Enterprise AI buyers are shifting from benchmark rankings to intelligence per dollar as budget pressure reshapes model selection"
     },
     {
       "path": "insights/ins_intensives-model-no-revisions.md",
@@ -19463,6 +19543,36 @@
       "title": "The unit of distribution for operator expertise is the Skill, not the prompt"
     },
     {
+      "path": "insights/ins_skill-distillation-frontier-teacher.md",
+      "id": "ins_skill-distillation-frontier-teacher",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-pi-agent-skill-distillation/",
+      "source_type": "essay",
+      "source_title": "Skill Distillation",
+      "source_date": "2026-05-29",
+      "captured_date": "2026-06-04",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_10-80-10-ai-workflow"
+      ],
+      "raw_ref": "",
+      "title": "Frontier models can write procedural SKILL.md files that cheaper local models execute, decoupling reasoning cost from inference cost"
+    },
+    {
       "path": "insights/ins_skills-as-prompts-as-code.md",
       "id": "ins_skills-as-prompts-as-code",
       "operator": "Nate (Substack)",
@@ -22553,6 +22663,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "If you want product marketing to drive revenue without sales involvement, you have to r"
+    },
+    {
+      "path": "insights/ins_wasm-sandbox-agent-code-execution.md",
+      "id": "ins_wasm-sandbox-agent-code-execution",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; independent AI engineering writer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/",
+      "source_type": "essay",
+      "source_title": "datasette-agent-micropython 0.1a0",
+      "source_date": "2026-06-02",
+      "captured_date": "2026-06-04",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_dark-factory-pattern",
+        "ins_november-2025-coding-inflection"
+      ],
+      "raw_ref": "",
+      "title": "Running MicroPython inside a WebAssembly sandbox gives AI agents safe code execution without host system access risk"
     },
     {
       "path": "insights/ins_what-happened-when-stopped-fighting.md",
@@ -27493,6 +27633,23 @@
         "website": "https://jbarrows.com/"
       },
       "title": "John Barrows"
+    },
+    {
+      "path": "operators/jonathan-jaffe/README.md",
+      "name": "Jonathan Jaffe",
+      "slug": "jonathan-jaffe",
+      "roles": [
+        "Chief Information Security Officer, Lemonade"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
+      ],
+      "captured_first": "2026-06-04",
+      "external": {
+        "linkedin": "unknown"
+      },
+      "title": "Jonathan Jaffe"
     },
     {
       "path": "operators/jonathan-pipek/README.md",
@@ -37754,6 +37911,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-04.md",
+      "date": "2026-06-04",
+      "title": "What landed today, 2026-06-04",
+      "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+      "sources": [
+        "morning research scan 2026-06-04"
+      ],
+      "insights_added": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_skill-distillation-frontier-teacher",
+        "ins_wasm-sandbox-agent-code-execution",
+        "ins_agents-authorize-agents-security-scale",
+        "ins_cognitive-surrender-agentic-defaults"
+      ],
+      "operators_added": [
+        "jonathan-jaffe"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-05-27.md",
       "date": "2026-05-27",

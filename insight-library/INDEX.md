@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 845 insight cards
-- 472 operator profiles
+- 850 insight cards
+- 473 operator profiles
 - 209 raw source files
 - 42 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (433)
+### Tier B (438)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -371,6 +371,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agency-chaos-is-leadership`](insights/ins_agency-chaos-is-leadership.md) — Most agency problems are leadership problems disguised as operational ones _(Karl Sakas)_
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
+- [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
 - [`ins_ai-exposes-execution-only-pmms`](insights/ins_ai-exposes-execution-only-pmms.md) — AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks _(Sachin Jha)_
@@ -444,6 +445,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
+- [`ins_cognitive-surrender-agentic-defaults`](insights/ins_cognitive-surrender-agentic-defaults.md) — Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong _(Ethan Mollick)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
 - [`ins_commoditize-the-complement-ai`](insights/ins_commoditize-the-complement-ai.md) — AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly _(Tomasz Tunguz)_
 - [`ins_company-of-one-define-enough`](insights/ins_company-of-one-define-enough.md) — A company of one questions whether growth is good, and defines "enough" before "more" _(Paul Jarvis)_
@@ -546,6 +548,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
+- [`ins_intelligence-per-dollar-model-metric`](insights/ins_intelligence-per-dollar-model-metric.md) — Enterprise AI buyers are shifting from benchmark rankings to intelligence per dollar as budget pressure reshapes model selection _(Tomasz Tunguz)_
 - [`ins_intensives-model-no-revisions`](insights/ins_intensives-model-no-revisions.md) — Compress delivery into 2-day intensives, paid in full upfront, kill multi-month projects with endless revisions _(Pia Silva)_
 - [`ins_interviewing-information-gathering-exercise-how`](insights/ins_interviewing-information-gathering-exercise-how.md) — Interviewing is an information gathering exercise, and how a candidate makes you feel ( _(Varun Anand)_
 - [`ins_inversion-and-circle-of-competence`](insights/ins_inversion-and-circle-of-competence.md) — The quality of your thinking determines the quality of your life, operate inside your circle of competence _(Shane Parrish)_
@@ -726,6 +729,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sinek-worthy-rivals`](insights/ins_sinek-worthy-rivals.md) — Worthy rivals are mirrors for self-improvement, study competitors who reveal your weaknesses, not enemies to defeat _(Simon Sinek)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems, six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
 - [`ins_sjeel-k-positioning-over-icp`](insights/ins_sjeel-k-positioning-over-icp.md) — Clear ICP isn't enough if your positioning doesn't pull its weight _(Sjeel K.)_
+- [`ins_skill-distillation-frontier-teacher`](insights/ins_skill-distillation-frontier-teacher.md) — Frontier models can write procedural SKILL.md files that cheaper local models execute, decoupling reasoning cost from inference cost _(Tomasz Tunguz)_
 - [`ins_skills-as-prompts-as-code`](insights/ins_skills-as-prompts-as-code.md) — Prompts are code, Skills deserve testing, documentation, dependency mapping, performance profiling _(Nate (Substack))_
 - [`ins_smriti-sahu-social-media-manager-irony`](insights/ins_smriti-sahu-social-media-manager-irony.md) — The person handling social media for a brand is often the least interested in it due to constant back-and-forth. _(Smriti Sahu)_
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
@@ -770,6 +774,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
+- [`ins_wasm-sandbox-agent-code-execution`](insights/ins_wasm-sandbox-agent-code-execution.md) — Running MicroPython inside a WebAssembly sandbox gives AI agents safe code execution without host system access risk _(Simon Willison)_
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
 - [`ins_when-understood-sales-training-just`](insights/ins_when-understood-sales-training-just.md) — That's when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
 - [`ins_when-was-laid-off-here`](insights/ins_when-was-laid-off-here.md) — When I was laid off here is what I did to find a job in 15 days _(Sandeep Kochhar)_
@@ -1095,6 +1100,7 @@ _Generated 2026-05-30. Auto-built from frontmatter — do not edit by hand._
 - [Joe Pulizzi](operators/joe-pulizzi/README.md)
 - [Joel Klettke](operators/joel-klettke/README.md)
 - [John Barrows](operators/john-barrows/README.md)
+- [Jonathan Jaffe](operators/jonathan-jaffe/README.md)
 - [Jonathan Pipek](operators/jonathan-pipek/README.md)
 - [Jonathan Stark](operators/jonathan-stark/README.md)
 - [Josh Braun](operators/josh-braun/README.md)
