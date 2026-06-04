@@ -1,36 +1,50 @@
 {
-  "generated_at": "2026-05-30T03:56:48.102Z",
+  "generated_at": "2026-06-04T21:07:10.149Z",
   "latest_daily": {
-    "path": "daily/2026-05-27.md",
-    "date": "2026-05-27",
-    "title": "What landed today, 2026-05-27",
-    "summary": "Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.",
+    "path": "daily/2026-06-04.md",
+    "date": "2026-06-04",
+    "title": "What landed today, 2026-06-04",
+    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
     "sources": [
-      "morning research scan 2026-05-27"
+      "morning research scan 2026-06-04"
     ],
     "insights_added": [
-      "ins_fishkin-inimitable-product-new-moat",
-      "ins_pete-caputa-referral-attribution-gap",
-      "ins_rory-woodbridge-seats-pricing-ai-trap",
-      "ins_maja-voje-ai-buyer-controls-interaction",
-      "ins_andrew-ng-top-down-workflow-redesign"
+      "ins_intelligence-per-dollar-model-metric",
+      "ins_skill-distillation-frontier-teacher",
+      "ins_wasm-sandbox-agent-code-execution",
+      "ins_agents-authorize-agents-security-scale",
+      "ins_cognitive-surrender-agentic-defaults"
     ],
     "operators_added": [
-      "pete-caputa",
-      "andrew-ng"
+      "jonathan-jaffe"
     ],
-    "patterns_added": [
-      "pat_saas-growth-trifecta-collapse"
-    ],
+    "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_pricing-as-the-most-leveraged-org-failure",
-      "pat_aeo-triangle",
-      "pat_agent-first-gtm",
-      "--"
-    ]
+    "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-04.md",
+      "date": "2026-06-04",
+      "title": "What landed today, 2026-06-04",
+      "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+      "sources": [
+        "morning research scan 2026-06-04"
+      ],
+      "insights_added": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_skill-distillation-frontier-teacher",
+        "ins_wasm-sandbox-agent-code-execution",
+        "ins_agents-authorize-agents-security-scale",
+        "ins_cognitive-surrender-agentic-defaults"
+      ],
+      "operators_added": [
+        "jonathan-jaffe"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-05-27.md",
       "date": "2026-05-27",
