@@ -1,0 +1,62 @@
+name: auto-publish routine insights
+
+# The daily operator-insight Routine pushes its work to a claude/** branch.
+# This gate validates that work and merges it to main automatically, so no human
+# has to review/merge each batch. main's pages.yml then rebuilds + deploys.
+# Safety: only merges when the change is confined to the library (insight cards,
+# operator/pattern/daily files, generated docs/, README). Anything touching
+# scripts/, config, workflows, or routine/ is left for a human.
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: auto-publish-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scope guard (library-only changes)
+        id: scope
+        run: |
+          git fetch origin main
+          CHANGED=$(git diff --name-only origin/main...HEAD)
+          echo "Changed files:"; echo "$CHANGED"
+          OUT=$(echo "$CHANGED" | grep -vE '^(insight-library/|docs/|README\.md$)' || true)
+          if [ -n "$OUT" ]; then
+            echo "Out-of-library changes present, leaving for human review:"; echo "$OUT"
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Validate corpus
+        if: steps.scope.outputs.ok == 'true'
+        run: node scripts/validate.mjs
+
+      - name: Voice lint (strict)
+        if: steps.scope.outputs.ok == 'true'
+        run: STRICT=1 node scripts/voice-lint.mjs
+
+      - name: Merge to main
+        if: steps.scope.outputs.ok == 'true'
+        run: |
+          git config user.name "abcodex-routine"
+          git config user.email "noreply@anthropic.com"
+          git checkout main
+          git merge --no-ff "$GITHUB_SHA" -m "auto-publish ${GITHUB_REF_NAME}: routine insights"
+          git push origin main

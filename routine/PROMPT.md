@@ -60,9 +60,12 @@ well-attributed cards beats a large batch with one fabricated quote.
      native dependency, run `npm install` once and retry; if it still fails on a
      non-essential step (for example OG image generation), proceed: the merge to
      main triggers CI that rebuilds everything.
-   - `git add -A`, commit with a message that lists what shipped, and push. By
-     default this lands on a `claude/`-prefixed branch and a pull request is
-     opened for review. That is intended for the first runs.
+   - `git add -A`, commit with a message that lists what shipped, and push to
+     your `claude/`-prefixed branch. CI (.github/workflows/auto-publish.yml) then
+     validates the corpus and merges your branch to main automatically, which
+     deploys the site. There is no human review step, so the validate and
+     voice-lint gates above are the only thing between your work and the live
+     public library. Get them clean.
 
 ## Hard rules (these override everything)
 
@@ -87,6 +90,7 @@ well-attributed cards beats a large batch with one fabricated quote.
 
 `node scripts/validate.mjs` passes, `STRICT=1 node scripts/voice-lint.mjs` is
 clean, 3 to 7 new well-attributed insight cards exist with a daily release log
-that links them, and the change is committed and pushed for review. If a scan day
+that links them, and the change is committed and pushed (CI validates and
+publishes it; no human review). If a scan day
 turns up nothing that clears the bar, write a short daily release log saying so
 and add no cards. A thin honest day beats a padded one.
