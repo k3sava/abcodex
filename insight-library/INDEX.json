@@ -1,35 +1,40 @@
 {
-  "generated_at": "2026-06-04T21:07:10.132Z",
+  "generated_at": "2026-06-05T01:52:37.355Z",
   "counts": {
-    "insights": 850,
-    "operators": 473,
+    "insights": 855,
+    "operators": 475,
     "raw_sources": 209,
-    "patterns": 42,
+    "patterns": 43,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 20
+    "daily": 21
   },
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-05.md",
+    "date": "2026-06-05",
+    "title": "What landed today, 2026-06-05",
+    "summary": "Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-05"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_coexistence-era-three-questions",
+      "ins_ai-amplifies-existing-org-dynamics",
+      "ins_open-models-developer-frontier-majority",
+      "ins_vision-first-close-on-problem",
+      "ins_framer-premium-after-automation"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "charity-majors",
+      "dan-shipper"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_ai-amplifies-existing-dynamics"
+    ],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "insights": [
     {
@@ -914,6 +919,37 @@
       ],
       "raw_ref": "",
       "title": "At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems"
+    },
+    {
+      "path": "insights/ins_ai-amplifies-existing-org-dynamics.md",
+      "id": "ins_ai-amplifies-existing-org-dynamics",
+      "operator": "Charity Majors",
+      "operator_role": "Co-founder and CTO, Honeycomb",
+      "co_operators": [],
+      "source_url": "https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against",
+      "source_type": "essay",
+      "source_title": "AI enthusiasts are in a race against time, AI skeptics are in a race against entropy",
+      "source_date": "2026-06-02",
+      "captured_date": "2026-06-05",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_coexistence-era-three-questions",
+        "ins_cognitive-surrender-agentic-defaults"
+      ],
+      "raw_ref": "",
+      "title": "AI magnifies existing organizational strengths and dysfunctions rather than creating new ones"
     },
     {
       "path": "insights/ins_ai-as-copilot-not-autopilot.md",
@@ -4195,6 +4231,37 @@
       "title": "This code node utilizes your API key and User ID to establish a connection with your Ic"
     },
     {
+      "path": "insights/ins_coexistence-era-three-questions.md",
+      "id": "ins_coexistence-era-three-questions",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of Co-Intelligence; creator of One Useful Thing newsletter",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source_type": "essay",
+      "source_title": "Co-Existence and the End of Co-Intelligence",
+      "source_date": "2026-06-04",
+      "captured_date": "2026-06-05",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_cognitive-surrender-agentic-defaults",
+        "ins_pin-workflows-to-capabilities-not-models",
+        "ins_rebaseline-quarterly-not-pin-to-snapshot"
+      ],
+      "raw_ref": "",
+      "title": "The co-existence era replaces co-intelligence and surfaces three new judgment questions"
+    },
+    {
       "path": "insights/ins_cognitive-surrender-agentic-defaults.md",
       "id": "ins_cognitive-surrender-agentic-defaults",
       "operator": "Ethan Mollick",
@@ -7251,6 +7318,37 @@
       ],
       "raw_ref": "raw/podcasts/anuj-rathi--full-stack-pm-working-backwards--2026-04-28.md",
       "title": "Sort the roadmap into four buckets, Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad"
+    },
+    {
+      "path": "insights/ins_framer-premium-after-automation.md",
+      "id": "ins_framer-premium-after-automation",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/p/after-automation",
+      "source_type": "essay",
+      "source_title": "After Automation",
+      "source_date": "2026-05-21",
+      "captured_date": "2026-06-05",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_coexistence-era-three-questions",
+        "ins_scarcity-supercycle",
+        "ins_judgment-doesnt-compress"
+      ],
+      "raw_ref": "",
+      "title": "AI automation creates more demand for human framers, not less, because models cannot decide what problems matter now"
     },
     {
       "path": "insights/ins_friction-as-feature.md",
@@ -14667,6 +14765,36 @@
       ],
       "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md",
       "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second"
+    },
+    {
+      "path": "insights/ins_open-models-developer-frontier-majority.md",
+      "id": "ins_open-models-developer-frontier-majority",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-thriving-ecosystem-of-open-models",
+      "source_type": "essay",
+      "source_title": "The Thriving Ecosystem of Open Models",
+      "source_date": "2026-06-02",
+      "captured_date": "2026-06-05",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_skill-distillation-frontier-teacher"
+      ],
+      "raw_ref": "",
+      "title": "Open-weight models now hold the majority of developer API token volume and are rotating leadership continuously"
     },
     {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
@@ -22428,6 +22556,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_vision-first-close-on-problem.md",
+      "id": "ins_vision-first-close-on-problem",
+      "operator": "April Dunford",
+      "operator_role": "Positioning consultant; author of Obviously Awesome",
+      "co_operators": [],
+      "source_url": "https://aprildunford.substack.com/p/positioning-in-the-age-of-ai",
+      "source_type": "essay",
+      "source_title": "Positioning in the Age of AI",
+      "source_date": "2026-05-21",
+      "captured_date": "2026-06-05",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_sales-team-detects-positioning-failure-first",
+        "ins_no-decision-is-the-real-competitor",
+        "ins_different-better-and-matters"
+      ],
+      "raw_ref": "",
+      "title": "When AI changes product, competition, and market simultaneously, position with a future vision first and present value second"
+    },
+    {
       "path": "insights/ins_voc-first-then-positioning.md",
       "id": "ins_voc-first-then-positioning",
       "operator": "Momoko Price",
@@ -25087,6 +25246,26 @@
       "title": "Chantal Cox"
     },
     {
+      "path": "operators/charity-majors/README.md",
+      "name": "Charity Majors",
+      "slug": "charity-majors",
+      "roles": [
+        "Co-founder and CTO, Honeycomb"
+      ],
+      "domains_active": [
+        "ai-native",
+        "leadership",
+        "future-of-work",
+        "engineering"
+      ],
+      "captured_first": "2026-06-05",
+      "external": {
+        "twitter": "https://twitter.com/mipsytipsy",
+        "newsletter": "https://charitydotwtf.substack.com"
+      },
+      "title": "Charity Majors"
+    },
+    {
       "path": "operators/charlie-munger/README.md",
       "name": "Charlie Munger",
       "slug": "charlie-munger",
@@ -25569,6 +25748,26 @@
         "linkedin": "https://www.linkedin.com/in/dan-m-rosenthal/"
       },
       "title": "Dan Rosenthal"
+    },
+    {
+      "path": "operators/dan-shipper/README.md",
+      "name": "Dan Shipper",
+      "slug": "dan-shipper",
+      "roles": [
+        "CEO, Every"
+      ],
+      "domains_active": [
+        "ai-native",
+        "founder-operator",
+        "future-of-work"
+      ],
+      "captured_first": "2026-06-05",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/danshipper/",
+        "twitter": "https://twitter.com/danshipper",
+        "newsletter": "https://every.to/@danshipper"
+      },
+      "title": "Dan Shipper"
     },
     {
       "path": "operators/dani-romain/README.md",
@@ -35465,6 +35664,25 @@
       ]
     },
     {
+      "path": "synthesis/patterns/ai-amplifies-existing-dynamics.md",
+      "id": "pat_ai-amplifies-existing-dynamics",
+      "title": "AI deployment amplifies existing organizational dynamics rather than creating new ones",
+      "captured_date": "2026-06-05",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_ai-amplifies-existing-org-dynamics",
+        "ins_coexistence-era-three-questions",
+        "ins_framer-premium-after-automation"
+      ],
+      "domains": [
+        "ai-native",
+        "future-of-work",
+        "leadership",
+        "founder-operator"
+      ]
+    },
+    {
       "path": "synthesis/patterns/ai-defensibility-comes-from-non-ai.md",
       "id": "pat_ai-defensibility-comes-from-non-ai",
       "title": "AI defensibility comes from non-AI moats",
@@ -35780,7 +35998,7 @@
       "title": "Execution is becoming free; judgement is the part that doesn't compress",
       "captured_date": "2026-05-06",
       "last_updated": "2026-05-17",
-      "convergence_count": "6",
+      "convergence_count": "7",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-doesnt-compress",
@@ -35788,7 +36006,8 @@
         "ins_middle-is-hollowing-out",
         "ins_scarcity-supercycle",
         "ins_rory-woodbridge-pmm-craft-common-language",
-        "ins_sangram-vajre-ai-multiplies-existing-alignment"
+        "ins_sangram-vajre-ai-multiplies-existing-alignment",
+        "ins_framer-premium-after-automation"
       ],
       "domains": [
         "growth",
@@ -37911,6 +38130,33 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-05.md",
+      "date": "2026-06-05",
+      "title": "What landed today, 2026-06-05",
+      "summary": "Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.",
+      "sources": [
+        "morning research scan 2026-06-05"
+      ],
+      "insights_added": [
+        "ins_coexistence-era-three-questions",
+        "ins_ai-amplifies-existing-org-dynamics",
+        "ins_open-models-developer-frontier-majority",
+        "ins_vision-first-close-on-problem",
+        "ins_framer-premium-after-automation"
+      ],
+      "operators_added": [
+        "charity-majors",
+        "dan-shipper"
+      ],
+      "patterns_added": [
+        "pat_ai-amplifies-existing-dynamics"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 21:07:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 01:52:40 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-05</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-05/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-05/</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-04</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-04/</link>

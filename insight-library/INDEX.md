@@ -1,12 +1,12 @@
 # Codex Index
 
-_Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 850 insight cards
-- 473 operator profiles
+- 855 insight cards
+- 475 operator profiles
 - 209 raw source files
-- 42 synthesis patterns
+- 43 synthesis patterns
 - 11 contradictions
 - 27 playbooks
 
@@ -352,7 +352,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (438)
+### Tier B (443)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -372,6 +372,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
 - [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
+- [`ins_ai-amplifies-existing-org-dynamics`](insights/ins_ai-amplifies-existing-org-dynamics.md) — AI magnifies existing organizational strengths and dysfunctions rather than creating new ones _(Charity Majors)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
 - [`ins_ai-exposes-execution-only-pmms`](insights/ins_ai-exposes-execution-only-pmms.md) — AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks _(Sachin Jha)_
@@ -445,6 +446,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
+- [`ins_coexistence-era-three-questions`](insights/ins_coexistence-era-three-questions.md) — The co-existence era replaces co-intelligence and surfaces three new judgment questions _(Ethan Mollick)_
 - [`ins_cognitive-surrender-agentic-defaults`](insights/ins_cognitive-surrender-agentic-defaults.md) — Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong _(Ethan Mollick)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
 - [`ins_commoditize-the-complement-ai`](insights/ins_commoditize-the-complement-ai.md) — AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly _(Tomasz Tunguz)_
@@ -510,6 +512,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
 - [`ins_fortune-cookie-principle`](insights/ins_fortune-cookie-principle.md) — Product + Meaning = Brand. Product − Meaning = Commodity. _(Bernadette Jiwa)_
 - [`ins_four-bb-prioritization`](insights/ins_four-bb-prioritization.md) — Sort the roadmap into four buckets, Brilliant Basics, Bread-and-Butter, Big Bets, Breaking Bad _(Anuj Rathi)_
+- [`ins_framer-premium-after-automation`](insights/ins_framer-premium-after-automation.md) — AI automation creates more demand for human framers, not less, because models cannot decide what problems matter now _(Dan Shipper)_
 - [`ins_frontier-program-tiered-rollout`](insights/ins_frontier-program-tiered-rollout.md) — Run a Frontier cohort, early-adopter access to bleeding-edge features, in parallel with normal rollout _(Aparna Chennapragada)_
 - [`ins_g2-ai-reshaping-marketing-playbook`](insights/ins_g2-ai-reshaping-marketing-playbook.md) — AI search is now a software marketplace, demand gen must adapt or vanish _(G2)_
 - [`ins_gary-yin-first-pmm-hiring-philosophy`](insights/ins_gary-yin-first-pmm-hiring-philosophy.md) — First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer _(Gary Yin)_
@@ -639,6 +642,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_obstacles-as-gates-not-problems`](insights/ins_obstacles-as-gates-not-problems.md) — Frame features as obstacles to a new game, not problems to be solved _(Andy Raskin)_
 - [`ins_ogilvy-celebrity-warning`](insights/ins_ogilvy-celebrity-warning.md) — Viewers remember the celebrity and forget the product, celebrity endorsement often fails its actual job _(David Ogilvy)_
 - [`ins_once-account-flagged-there-almost`](insights/ins_once-account-flagged-there-almost.md) — 4/ once your account is flagged there's almost no way to get it back. Meta's support fo _(Hardik Gupta)_
+- [`ins_open-models-developer-frontier-majority`](insights/ins_open-models-developer-frontier-majority.md) — Open-weight models now hold the majority of developer API token volume and are rotating leadership continuously _(Tomasz Tunguz)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
@@ -771,6 +775,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
 - [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
+- [`ins_vision-first-close-on-problem`](insights/ins_vision-first-close-on-problem.md) — When AI changes product, competition, and market simultaneously, position with a future vision first and present value second _(April Dunford)_
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
@@ -963,6 +968,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)
+- [Charity Majors](operators/charity-majors/README.md)
 - [Charlie Munger](operators/charlie-munger/README.md)
 - [Charly Wargnier](operators/charly-wargnier/README.md)
 - [Chirayu Akotiya](operators/chirayu-akotiya/README.md)
@@ -988,6 +994,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [Dan Darnell](operators/dan-darnell/README.md)
 - [Dan Murphy](operators/dan-murphy/README.md)
 - [Dan Rosenthal](operators/dan-rosenthal/README.md)
+- [Dan Shipper](operators/dan-shipper/README.md)
 - [Dani Romain](operators/dani-romain/README.md)
 - [Daniel Cmejla](operators/daniel-cmejla/README.md)
 - [Daniel Kahneman](operators/daniel-kahneman/README.md)
@@ -1355,6 +1362,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (10 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
+- [`pat_ai-amplifies-existing-dynamics`](synthesis/patterns/ai-amplifies-existing-dynamics.md) — AI deployment amplifies existing organizational dynamics rather than creating new ones (3 ops) [Tier B]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
@@ -1367,7 +1375,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]
-- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (6 ops) [Tier A]
+- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (7 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]

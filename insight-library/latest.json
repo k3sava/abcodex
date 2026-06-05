@@ -1,28 +1,60 @@
 {
-  "generated_at": "2026-06-04T21:07:10.149Z",
+  "generated_at": "2026-06-05T01:52:37.445Z",
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-05.md",
+    "date": "2026-06-05",
+    "title": "What landed today, 2026-06-05",
+    "summary": "Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-05"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_coexistence-era-three-questions",
+      "ins_ai-amplifies-existing-org-dynamics",
+      "ins_open-models-developer-frontier-majority",
+      "ins_vision-first-close-on-problem",
+      "ins_framer-premium-after-automation"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "charity-majors",
+      "dan-shipper"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_ai-amplifies-existing-dynamics"
+    ],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-05.md",
+      "date": "2026-06-05",
+      "title": "What landed today, 2026-06-05",
+      "summary": "Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.",
+      "sources": [
+        "morning research scan 2026-06-05"
+      ],
+      "insights_added": [
+        "ins_coexistence-era-three-questions",
+        "ins_ai-amplifies-existing-org-dynamics",
+        "ins_open-models-developer-frontier-majority",
+        "ins_vision-first-close-on-problem",
+        "ins_framer-premium-after-automation"
+      ],
+      "operators_added": [
+        "charity-majors",
+        "dan-shipper"
+      ],
+      "patterns_added": [
+        "pat_ai-amplifies-existing-dynamics"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

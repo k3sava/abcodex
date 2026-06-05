@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-04 · 5 insights · 1 operator
+### Latest · 2026-06-05 · 5 insights · 2 operators · 1 pattern
 
-**What landed today, 2026-06-04.** Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.
+**What landed today, 2026-06-05.** Five new cards, two new operators, one new synthesis pattern. Three themes from the AI-native and future-of-work lanes converged on what AI deployment actually does to organizations: it amplifies what is already there. A fourth card from the developer infrastructure lane tracks the open-model shift. A fifth from the PMM lane updates the positioning playbook for the AI era.
 
-[Read what landed →](insight-library/daily/2026-06-04.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-05.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,9 +15,9 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **850** insight cards
-- **473** operator profiles
-- **42** synthesis patterns (cross-operator convergences)
+- **855** insight cards
+- **475** operator profiles
+- **43** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **27** methodology playbooks
 - **209** archived raw sources (podcasts, essays, threads, research)
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 473 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 475 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
