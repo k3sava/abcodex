@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-06-04T21:07:10.149Z",
+  "generated_at": "2026-06-06T01:46:42.348Z",
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-06.md",
+    "date": "2026-06-06",
+    "title": "What landed today, 2026-06-06",
+    "summary": "Three new cards, one new operator. Two from Ethan Mollick's June 4 essay on AI content curation and one from Kieran Klaassen's compound engineering upgrade. A shared thread across all three: where human judgment remains irreplaceable when AI handles the middle work.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-06"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_ai-as-content-curator",
+      "ins_write-every-draft-yourself-ai-era",
+      "ins_human-bookend-ai-engineering"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "kieran-klaassen"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-06.md",
+      "date": "2026-06-06",
+      "title": "What landed today, 2026-06-06",
+      "summary": "Three new cards, one new operator. Two from Ethan Mollick's June 4 essay on AI content curation and one from Kieran Klaassen's compound engineering upgrade. A shared thread across all three: where human judgment remains irreplaceable when AI handles the middle work.",
+      "sources": [
+        "morning research scan 2026-06-06"
+      ],
+      "insights_added": [
+        "ins_ai-as-content-curator",
+        "ins_write-every-draft-yourself-ai-era",
+        "ins_human-bookend-ai-engineering"
+      ],
+      "operators_added": [
+        "kieran-klaassen"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

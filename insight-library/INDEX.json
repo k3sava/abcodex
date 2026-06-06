@@ -1,31 +1,29 @@
 {
-  "generated_at": "2026-06-04T21:07:10.132Z",
+  "generated_at": "2026-06-06T01:46:42.277Z",
   "counts": {
-    "insights": 850,
-    "operators": 473,
+    "insights": 853,
+    "operators": 474,
     "raw_sources": 209,
     "patterns": 42,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 20
+    "daily": 21
   },
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-06.md",
+    "date": "2026-06-06",
+    "title": "What landed today, 2026-06-06",
+    "summary": "Three new cards, one new operator. Two from Ethan Mollick's June 4 essay on AI content curation and one from Kieran Klaassen's compound engineering upgrade. A shared thread across all three: where human judgment remains irreplaceable when AI handles the middle work.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-06"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_ai-as-content-curator",
+      "ins_write-every-draft-yourself-ai-era",
+      "ins_human-bookend-ai-engineering"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "kieran-klaassen"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -914,6 +912,38 @@
       ],
       "raw_ref": "",
       "title": "At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems"
+    },
+    {
+      "path": "insights/ins_ai-as-content-curator.md",
+      "id": "ins_ai-as-content-curator",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of Co-Intelligence and Co-Existence; creator of One Useful Thing newsletter",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source_type": "essay",
+      "source_title": "Co-Existence and the End of Co-Intelligence",
+      "source_date": "2026-06-04",
+      "captured_date": "2026-06-06",
+      "domain": [
+        "aeo",
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_cognitive-surrender-agentic-defaults",
+        "ins_write-every-draft-yourself-ai-era"
+      ],
+      "raw_ref": "",
+      "title": "AI recommendation systems are becoming the primary filter between creators and human audiences, inverting the traditional author-to-audience path"
     },
     {
       "path": "insights/ins_ai-as-copilot-not-autopilot.md",
@@ -9085,6 +9115,33 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents)"
+    },
+    {
+      "path": "insights/ins_human-bookend-ai-engineering.md",
+      "id": "ins_human-bookend-ai-engineering",
+      "operator": "Kieran Klaassen",
+      "operator_role": "General Manager, Cora at Every; creator of Compound Engineering",
+      "co_operators": [],
+      "source_url": "https://every.to/guides/compound-engineering-gets-an-upgrade",
+      "source_type": "essay",
+      "source_title": "Compound Engineering Gets an Upgrade",
+      "source_date": "2026-05-29",
+      "captured_date": "2026-06-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "In AI-native engineering, humans own the beginning and the end while AI executes everything in the middle"
     },
     {
       "path": "insights/ins_hyper-personalization-cold-email.md",
@@ -23056,6 +23113,36 @@
       "title": "Don't try to change minds, find the worldview that already wants your story"
     },
     {
+      "path": "insights/ins_write-every-draft-yourself-ai-era.md",
+      "id": "ins_write-every-draft-yourself-ai-era",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton; author of Co-Intelligence and Co-Existence; creator of One Useful Thing newsletter",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/co-existence-and-the-end-of-co-intelligence",
+      "source_type": "essay",
+      "source_title": "Co-Existence and the End of Co-Intelligence",
+      "source_date": "2026-06-04",
+      "captured_date": "2026-06-06",
+      "domain": [
+        "content-strategy",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ai-as-content-curator",
+        "ins_cognitive-surrender-agentic-defaults"
+      ],
+      "raw_ref": "",
+      "title": "Writing every first draft yourself, then using AI for feedback and fact-checking, preserves the authentic perspective that AI curation systems select for"
+    },
+    {
       "path": "insights/ins_write-like-you-speak.md",
       "id": "ins_write-like-you-speak",
       "operator": "Dave Harland",
@@ -28088,6 +28175,24 @@
         "podcast": "https://www.marketingagainstthegrain.com"
       },
       "title": "Kieran Flanagan"
+    },
+    {
+      "path": "operators/kieran-klaassen/README.md",
+      "name": "Kieran Klaassen",
+      "slug": "kieran-klaassen",
+      "roles": [
+        "General Manager, Cora at Every",
+        "Creator of Compound Engineering"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
+      ],
+      "captured_first": "2026-06-06",
+      "external": {
+        "twitter": "https://twitter.com/kieranklaassen"
+      },
+      "title": "Kieran Klaassen"
     },
     {
       "path": "operators/krishnam-malpani/README.md",
@@ -37911,6 +38016,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-06.md",
+      "date": "2026-06-06",
+      "title": "What landed today, 2026-06-06",
+      "summary": "Three new cards, one new operator. Two from Ethan Mollick's June 4 essay on AI content curation and one from Kieran Klaassen's compound engineering upgrade. A shared thread across all three: where human judgment remains irreplaceable when AI handles the middle work.",
+      "sources": [
+        "morning research scan 2026-06-06"
+      ],
+      "insights_added": [
+        "ins_ai-as-content-curator",
+        "ins_write-every-draft-yourself-ai-era",
+        "ins_human-bookend-ai-engineering"
+      ],
+      "operators_added": [
+        "kieran-klaassen"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

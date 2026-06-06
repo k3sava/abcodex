@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 21:07:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 01:46:46 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-06</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-06/</guid>
+      <pubDate>Sat, 06 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards, one new operator. Two from Ethan Mollick&apos;s June 4 essay on AI content curation and one from Kieran Klaassen&apos;s compound engineering upgrade. A shared thread across all three: where human judgment remains irreplaceable when AI handles the middle work.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-04</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-04/</link>
