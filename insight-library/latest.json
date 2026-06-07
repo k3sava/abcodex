@@ -1,28 +1,48 @@
 {
-  "generated_at": "2026-06-04T21:07:10.149Z",
+  "generated_at": "2026-06-07T01:46:34.023Z",
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-07.md",
+    "date": "2026-06-07",
+    "title": "What landed today, 2026-06-07",
+    "summary": "Four new insight cards, one new operator. This week's scan found three independent lanes converging on a shared problem — how to build AI systems and organizations that stay current without accumulating hidden debt.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-07"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_local-ai-router-minimill",
+      "ins_open-models-lead-rotates",
+      "ins_ai-adoption-feedback-loop-gap",
+      "ins_agent-sandbox-stateful-execution"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "charity-majors"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-07.md",
+      "date": "2026-06-07",
+      "title": "What landed today, 2026-06-07",
+      "summary": "Four new insight cards, one new operator. This week's scan found three independent lanes converging on a shared problem — how to build AI systems and organizations that stay current without accumulating hidden debt.",
+      "sources": [
+        "morning research scan 2026-06-07"
+      ],
+      "insights_added": [
+        "ins_local-ai-router-minimill",
+        "ins_open-models-lead-rotates",
+        "ins_ai-adoption-feedback-loop-gap",
+        "ins_agent-sandbox-stateful-execution"
+      ],
+      "operators_added": [
+        "charity-majors"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 850 insight cards
-- 473 operator profiles
+- 854 insight cards
+- 474 operator profiles
 - 209 raw source files
 - 42 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (438)
+### Tier B (442)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -369,9 +369,11 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_aeo-is-gtm-capability`](insights/ins_aeo-is-gtm-capability.md) — AEO is a GTM capability, not an SEO experiment _(Maja Voje)_
 - [`ins_aeo-roadmap-as-executive-readout`](insights/ins_aeo-roadmap-as-executive-readout.md) — Package the AEO audit as a year-long keep/start/stop deck _(Mike King)_
 - [`ins_agency-chaos-is-leadership`](insights/ins_agency-chaos-is-leadership.md) — Most agency problems are leadership problems disguised as operational ones _(Karl Sakas)_
+- [`ins_agent-sandbox-stateful-execution`](insights/ins_agent-sandbox-stateful-execution.md) — A queue-based MicroPython loop lets an AI agent accumulate Python state across sequential tool calls _(Simon Willison)_
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
 - [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
+- [`ins_ai-adoption-feedback-loop-gap`](insights/ins_ai-adoption-feedback-loop-gap.md) — AI adoption fractures engineering teams because wins are public and costs stay invisible _(Charity Majors)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
 - [`ins_ai-exposes-execution-only-pmms`](insights/ins_ai-exposes-execution-only-pmms.md) — AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks _(Sachin Jha)_
@@ -578,6 +580,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
 - [`ins_llms-learn-from-the-world`](insights/ins_llms-learn-from-the-world.md) — LLMs learn about your brand from the world, not from your site _(Eli Schwartz)_
+- [`ins_local-ai-router-minimill`](insights/ins_local-ai-router-minimill.md) — A local router model on a laptop handles 78% of AI work and cuts queue wait by 94% _(Tomasz Tunguz)_
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
 - [`ins_lollapalooza-effects`](insights/ins_lollapalooza-effects.md) — Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning _(Charlie Munger)_
 - [`ins_luxury-brand-strategy`](insights/ins_luxury-brand-strategy.md) — Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin _(Scott Galloway)_
@@ -639,6 +642,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_obstacles-as-gates-not-problems`](insights/ins_obstacles-as-gates-not-problems.md) — Frame features as obstacles to a new game, not problems to be solved _(Andy Raskin)_
 - [`ins_ogilvy-celebrity-warning`](insights/ins_ogilvy-celebrity-warning.md) — Viewers remember the celebrity and forget the product, celebrity endorsement often fails its actual job _(David Ogilvy)_
 - [`ins_once-account-flagged-there-almost`](insights/ins_once-account-flagged-there-almost.md) — 4/ once your account is flagged there's almost no way to get it back. Meta's support fo _(Hardik Gupta)_
+- [`ins_open-models-lead-rotates`](insights/ins_open-models-lead-rotates.md) — Open-weight model leadership rotates fast enough that committing to one provider consistently misses the next capability jump _(Tomasz Tunguz)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
@@ -963,6 +967,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)
+- [Charity Majors](operators/charity-majors/README.md)
 - [Charlie Munger](operators/charlie-munger/README.md)
 - [Charly Wargnier](operators/charly-wargnier/README.md)
 - [Chirayu Akotiya](operators/chirayu-akotiya/README.md)
