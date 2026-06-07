@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import * as rt from '../src/lib/runtime.mjs';
+
+function doc(html){
+  // Minimal DOM fallback for selectors used in tests.
+  return new DOMParserLite(html);
+}
+class NodeLite{constructor(text='',attrs={}){this.textContent=text;this.attrs=attrs;} getAttribute(n){return this.attrs[n]}}
+class DOMParserLite{constructor(html){this.html=html;this.title=(html.match(/<title>(.*?)<\/title>/)||[])[1]||'';this.body=this;} querySelector(sel){return this.querySelectorAll(sel)[0]||null;} querySelectorAll(sel){const h=this.html; if(sel.includes('meta[property="og:image"]'))return meta(h,'og:image'); if(sel.includes('meta[property="og:title"]'))return meta(h,'og:title'); if(sel.includes('meta[property="og:description"]'))return meta(h,'og:description'); if(sel.includes('h1 yt-formatted-string'))return tag(h,'yt-formatted-string'); if(sel.includes('ytd-channel-name a'))return anchor(h); if(sel.includes('#description'))return id(h,'description'); if(sel.includes('ytd-transcript-segment-renderer'))return tag(h,'ytd-transcript-segment-renderer'); if(sel.includes('article'))return [this]; if(sel.includes('.update-components-actor__name'))return cls(h,'update-components-actor__name'); if(sel.includes('/in/'))return anchor(h); if(sel.includes('.update-components-text'))return cls(h,'update-components-text'); if(sel.includes('link[rel="canonical"]'))return []; return [];} }
+function meta(h,prop){const m=h.match(new RegExp(`<meta[^>]+property=["']${prop}["'][^>]+content=["']([^"']+)`, 'i')); return m?[new NodeLite('',{content:m[1]})]:[]} function tag(h,t){const m=[...h.matchAll(new RegExp(`<${t}[^>]*>(.*?)<\\/${t}>`,'gis'))]; return m.map(x=>new NodeLite(strip(x[1])))} function id(h,i){const m=h.match(new RegExp(`<[^>]+id=["']${i}["'][^>]*>(.*?)<\\/[^>]+>`,'is')); return m?[new NodeLite(strip(m[1]))]:[]} function cls(h,c){const m=h.match(new RegExp(`<[^>]+class=["'][^"']*${c}[^"']*["'][^>]*>(.*?)<\\/[^>]+>`,'is')); return m?[new NodeLite(strip(m[1]))]:[]} function anchor(h){const m=h.match(/<a[^>]+href=["']([^"']+)["'][^>]*>(.*?)<\/a>/is); return m?[new NodeLite(strip(m[2]),{href:m[1]})]:[]} function strip(s){return s.replace(/<[^>]+>/g,'').trim()}
+
+const yt=doc(`<html><head><title>Demo - YouTube</title><meta property="og:image" content="thumb.jpg"></head><body><h1><yt-formatted-string>Agent teams</yt-formatted-string></h1><ytd-channel-name><a href="/@operator">Operator</a></ytd-channel-name><div id="description">Useful description</div><ytd-transcript-segment-renderer>Transcript line</ytd-transcript-segment-renderer></body></html>`);
+const out=rt.extractCurrentPage(yt,'https://www.youtube.com/watch?v=abc','like'); assert.equal(out.platform,'youtube'); assert.equal(out.title,'Agent teams'); assert.equal(out.creatorHandle,'@operator'); assert.match(out.transcript,/Transcript/);
+const insta=rt.extractCurrentPage(doc('<html><head><title>Instagram</title></head><body></body></html>'),'https://www.instagram.com/p/abc','save'); assert.equal(insta.platform,'instagram'); assert.ok(insta.extractionWarnings.length>0);
+assert.equal(rt.normalizeUrl('https://youtu.be/abc?si=123&utm_source=x'),'https://www.youtube.com/watch?v=abc');
+const cap={id:'cap_1',platform:'youtube',signalType:'like',sourceUrl:'https://www.youtube.com/watch?v=abc&utm_source=x',canonicalUrl:'https://www.youtube.com/watch?v=abc',creatorName:'AI Channel',creatorHandle:'@aichannel',title:'AI agents as teams',text:'AI agents should be treated as teams, not tools. For example, managers need evals.',description:'A practical system for agent operations.',mediaType:'video',capturedAt:'2026-06-06T00:00:00.000Z',extractionConfidence:.8,processingStatus:'queued'};
+assert.equal(rt.dedupeCaptures([cap,{...cap,id:'cap_2'}]).length,1);
+const parsed=rt.parseAiResponse('```json\n{"shortSummary":"x","topics":["AI agents"],"noveltyScore":2}\n```'); assert.equal(parsed.shortSummary,'x'); assert.equal(parsed.noveltyScore,1);
+const insight=rt.summarizeCapture(cap); const topics=rt.clusterTopics([insight],[cap]); assert.ok(topics.length>0); assert.ok(topics[0].representativeCaptures.includes(cap.id));
+const research=rt.discoverForInsight(insight,cap.creatorName); const md=rt.captureToMarkdown(cap,insight,research); assert.match(md,/\[\[AI Channel\]\]/); assert.match(md,/Contradictory views/);
+const notes=rt.buildExportedNotes([cap],[insight],topics,[],research); assert.ok(notes.some(n=>n.path.includes('Social Brain/Captures/YouTube')));
+const zip=rt.buildZipBlobFromNotes(notes,{rawCaptures:[cap]}); assert.equal(zip.type,'application/zip');
+const queued=rt.processQueueMemory([{...cap}]); assert.equal(queued.processed.length,1); assert.equal(queued.research.filter(r=>r.supportsOrContradicts==='contradicts').length,1); assert.equal(queued.captures[0].processingStatus,'processed');
+console.log('All dependency-free MVP tests passed');

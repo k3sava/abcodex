@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Social Brain Capture MVP",
+  "version": "0.1.0",
+  "description": "Privacy-first capture for Instagram, LinkedIn, and YouTube interest signals.",
+  "permissions": ["activeTab", "storage", "tabs", "scripting"],
+  "host_permissions": ["https://www.instagram.com/*", "https://www.linkedin.com/*", "https://www.youtube.com/*", "https://youtu.be/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "Social Brain" },
+  "content_scripts": [{ "matches": ["https://www.instagram.com/*", "https://www.linkedin.com/*", "https://www.youtube.com/*", "https://youtu.be/*"], "js": ["content.js"], "run_at": "document_idle" }]
+}

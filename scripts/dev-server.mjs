@@ -1,0 +1,3 @@
+import http from 'node:http'; import { readFile } from 'node:fs/promises'; import { extname, join } from 'node:path';
+const types={'.html':'text/html','.js':'text/javascript','.mjs':'text/javascript','.css':'text/css'}; const root=process.cwd();
+http.createServer(async(req,res)=>{try{let path=req.url==='/'?'/index.html':new URL(req.url,'http://x').pathname; const file=join(root,path); res.setHeader('content-type',types[extname(file)]||'text/plain'); res.end(await readFile(file));}catch{res.statusCode=404; res.end('not found');}}).listen(5173,'0.0.0.0',()=>console.log('Social Brain dashboard on http://localhost:5173'));

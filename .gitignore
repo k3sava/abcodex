@@ -25,3 +25,5 @@ docs/search-index.json
 docs/sitemap.xml
 docs/today/
 node_modules/
+
+dist/

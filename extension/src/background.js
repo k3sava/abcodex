@@ -1,0 +1,5 @@
+const KEY='captures';
+async function getAll(){return (await chrome.storage.local.get(KEY))[KEY]||[]} async function setAll(v){await chrome.storage.local.set({[KEY]:v})}
+async function save(c){const all=await getAll(); const i=all.findIndex(x=>x.canonicalUrl===c.canonicalUrl); if(i>=0)all[i]={...all[i],...c,id:all[i].id,capturedAt:all[i].capturedAt}; else all.push(c); await setAll(all);}
+async function stats(){const all=await getAll(); return {queued:all.filter(c=>c.processingStatus==='queued').length,total:all.length,last:all.sort((a,b)=>String(a.capturedAt).localeCompare(String(b.capturedAt))).at(-1)}}
+chrome.runtime.onMessage.addListener((message,_sender,sendResponse)=>{(async()=>{if(message?.type==='SAVE_CAPTURE'){await save(message.capture); sendResponse({ok:true,stats:await stats()});} else if(message?.type==='SAVE_CAPTURES'){for(const c of message.captures) await save(c); sendResponse({ok:true,stats:await stats()});} else if(message?.type==='GET_STATS')sendResponse({ok:true,stats:await stats()}); else if(message?.type==='EXPORT_EXTENSION_CAPTURES')sendResponse({ok:true,captures:await getAll()});})(); return true;});

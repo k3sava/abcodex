@@ -1,0 +1,16 @@
+{
+  "name": "abcodex-social-brain-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "build": "node scripts/build-app.mjs",
+    "test": "node scripts/test.mjs",
+    "typecheck": "node scripts/typecheck-placeholder.mjs",
+    "build:extension": "node scripts/build-extension.mjs",
+    "validate:corpus": "node scripts/validate.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
