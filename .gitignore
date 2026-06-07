@@ -25,3 +25,10 @@ docs/search-index.json
 docs/sitemap.xml
 docs/today/
 node_modules/
+
+# DemandOS app artifacts
+.next/
+.env
+.env.local
+coverage/
+uploads/

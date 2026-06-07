@@ -1,0 +1,3 @@
+import Papa from "papaparse";
+import { NormalizedCollectorRecord } from "./normalized";
+export function parseCsvRecords(csv: string): NormalizedCollectorRecord[] { const parsed = Papa.parse<Record<string, string>>(csv, { header: true, skipEmptyLines: true }); return parsed.data.map((row, i) => ({ source: (row.source || "csv") as string, sourceUrl: row.sourceUrl || row.url, author: row.author || row.handle, date: row.date, title: row.title, body: row.body || row.text || row.comment || "", product: row.product, engagement: Number(row.engagement || 0), rawPayload: { row, rowNumber: i + 2 } })).filter(r => r.body); }

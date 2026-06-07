@@ -1,0 +1,8 @@
+import type { Classification, Cluster, RawRecord } from "./types";
+import { scoreCluster } from "./scoring";
+export function clusterRecords(projectId: string, records: RawRecord[], classifications: Classification[]): Cluster[] {
+  const groups = new Map<string, Classification[]>();
+  for (const c of classifications) { const key = `${c.painCategory}:${c.workflowStep}`.toLowerCase(); groups.set(key, [...(groups.get(key) ?? []), c]); }
+  return Array.from(groups.entries()).map(([key, cls], i) => { const rs = records.filter(r => cls.some(c => c.recordId === r.id)); const score = scoreCluster(rs, cls); const products = Array.from(new Set(cls.flatMap(c => c.competitorsMentioned))); return { id: `cluster-${projectId}-${i + 1}`, projectId, name: title(key.replace(":", " / ")), description: `${cls.length} evidence records show recurring ${cls[0].painCategory} pain during ${cls[0].workflowStep}.`, recordIds: cls.map(c => c.recordId), representativeQuotes: cls.slice(0, 5).map(c => c.quotableLanguage), frequency: cls.length, sourceMix: rs.reduce<Record<string, number>>((a, r) => ((a[r.source] = (a[r.source] ?? 0) + 1), a), {}), personas: Array.from(new Set(cls.map(c => c.persona))), productsMentioned: products, emotionalIntensity: Number((cls.reduce((s, c) => s + c.emotionalIntensity, 0) / cls.length).toFixed(1)), opportunityScore: score, evidenceStrength: Math.min(100, score + 5), recommendedProductWedge: `Build a focused workflow wedge for ${cls[0].persona}s struggling with ${cls[0].workflowStep}.`, recommendedPmmAngle: `Lead with the specific avoided pain: ${cls[0].quotableLanguage}` }; });
+}
+function title(s: string) { return s.replace(/\b\w/g, l => l.toUpperCase()); }

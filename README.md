@@ -98,3 +98,111 @@ The site reads from `insight-library/INDEX.json` and rebuilds itself on every pu
 ## License
 
 Insight cards and synthesis pages are released under MIT. Raw sources retain their original copyright; abcodex archives short excerpts under fair use, always with attribution and a link back to the canonical source.
+
+---
+
+# DemandOS — Demand Intelligence System
+
+DemandOS is included in this repository as a ready-to-run, evidence-first web app for discovering unmet demand and producing PMM-grade market intelligence. It mines public or user-provided signals, normalizes records, classifies pain, clusters recurring workflows, scores opportunities, and generates founder/consulting reports with evidence citations.
+
+## What DemandOS does
+
+- Create research projects for a market, category, ICP, competitors, keywords, and source plan.
+- Ingest compliant sources: CSV/manual import now, Hacker News adapter, demo collector, and clean extension points for Reddit, YouTube, Product Hunt, app stores, URLs, and restricted platforms via export workflows.
+- Normalize records into `source`, `sourceUrl`, `author`, `date`, `title`, `body`, `product`, `engagement`, `rawPayload`, and `ingestedAt`.
+- Clean, dedupe, extract workflow verbs, and classify records with a strict JSON LLM abstraction that falls back to deterministic demo mode.
+- Detect complaints, workarounds, alternatives, switching triggers, pricing pain, UX/performance/integration/support issues, security concerns, adoption friction, workflow pain, and stack fragmentation.
+- Cluster records into evidence-backed themes with source mix, personas, products, representative quotes, product wedges, PMM angles, evidence strength, and transparent scores.
+- Generate product opportunities and PMM/builder reports with evidence appendices.
+- Run locally without API keys using seeded synthetic projects: AI note-taking apps, CRM reporting complaints, and PMM tools unmet demand.
+
+## DemandOS stack
+
+- Next.js App Router + TypeScript
+- Tailwind CSS operator cockpit UI
+- Prisma data model targeting PostgreSQL + pgvector
+- Redis/BullMQ-ready background job dependency
+- OpenAI-compatible LLM provider abstraction
+- CSV upload/import route
+- Markdown/JSON report export route
+- Vitest unit and flow tests
+- Docker + docker-compose for Postgres, Redis, and web
+
+## DemandOS quick start
+
+```bash
+npm install
+cp .env.example .env
+npm run db:generate
+npm run dev
+```
+
+Open <http://localhost:3000>. Demo mode works without external API keys.
+
+## Database setup
+
+Start infrastructure:
+
+```bash
+docker compose up -d postgres redis
+npm run db:push
+npm run seed
+```
+
+The Prisma schema includes users, projects, sources, raw records, processed records, classifications, embeddings, clusters, opportunities, reports, saved insights, tags, runs/jobs, and exports.
+
+## Commands
+
+```bash
+npm run dev       # local web app
+npm run build     # production build
+npm run test      # Vitest suite
+npm run seed      # seed demo projects
+npm run db:push   # sync Prisma schema
+```
+
+## LLM configuration
+
+Set these in `.env` for production AI calls:
+
+```bash
+OPENAI_API_KEY="sk-..."
+OPENAI_BASE_URL=""          # optional OpenAI-compatible endpoint
+OPENAI_MODEL="gpt-4o-mini"
+DEMO_MODE="false"
+```
+
+All classifications validate with Zod and retry invalid JSON. The prompt texts are in `lib/ai/prompts.ts`, and the provider/cache/fallback layer is in `lib/ai/provider.ts`.
+
+## Compliance principles
+
+- Store source URLs and public/user-provided text only.
+- Use official APIs where possible.
+- Restricted platforms should use CSV/manual import or browser-export workflows.
+- Do not use brittle illegal scraping.
+- Every AI-generated conclusion should link back to source evidence.
+- Users can delete projects and records through the data model/API extension points.
+
+## Key DemandOS routes
+
+- `/` dashboard
+- `/projects/new` new project
+- `/projects/[id]` overview
+- `/projects/[id]/sources` source manager
+- `/projects/[id]/signals` raw signals and evidence
+- `/projects/[id]/clusters` pain clusters
+- `/projects/[id]/opportunities` product/PMM opportunities
+- `/projects/[id]/reports` PMM and builder reports
+- `/projects/[id]/saved` saved insight library
+- `/settings` provider/compliance settings
+
+## API routes
+
+- `GET /api/projects` demo project list
+- `POST /api/projects` create-project contract
+- `POST /api/ingest/csv` multipart CSV import
+- `GET /api/reports/[projectId]/export` Markdown + JSON export payload
+
+## Deployment notes
+
+For a cloud host, provision PostgreSQL with pgvector and Redis, set the environment variables from `.env.example`, run `npm run db:push && npm run seed` once, then deploy with `npm run build && npm start`.
