@@ -1,32 +1,29 @@
 {
-  "generated_at": "2026-06-04T21:07:10.132Z",
+  "generated_at": "2026-06-08T01:50:28.793Z",
   "counts": {
-    "insights": 850,
+    "insights": 854,
     "operators": 473,
     "raw_sources": 209,
     "patterns": 42,
     "contradictions": 11,
     "playbooks": 27,
-    "daily": 20
+    "daily": 21
   },
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-08.md",
+    "date": "2026-06-08",
+    "title": "What landed today, 2026-06-08",
+    "summary": "Four new insight cards from two operators. Three from Tomasz Tunguz on the AI infrastructure and equity market landscape, one from Kevin Indig on how AI Overviews abolished search intent segmentation.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-08"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_aio-intent-compression",
+      "ins_local-ai-minimill-router",
+      "ins_open-weight-majority-inference",
+      "ins_ai-shorts-business-model-risk"
     ],
-    "operators_added": [
-      "jonathan-jaffe"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -1107,6 +1104,35 @@
       "title": "AI-native GTM teams win by triaging launches faster, not by removing launch discipline"
     },
     {
+      "path": "insights/ins_ai-shorts-business-model-risk.md",
+      "id": "ins_ai-shorts-business-model-risk",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-shorts",
+      "source_type": "essay",
+      "source_title": "The AI Skepticism Map",
+      "source_date": "2026-06-01",
+      "captured_date": "2026-06-08",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_open-weight-majority-inference"
+      ],
+      "raw_ref": "",
+      "title": "Short interest in AI stocks concentrates in companies whose revenue depends on future assumptions, not in those with current infrastructure revenue"
+    },
+    {
       "path": "insights/ins_ai-slop-loop.md",
       "id": "ins_ai-slop-loop",
       "operator": "Lily Ray",
@@ -1180,6 +1206,37 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_aio-intent-compression.md",
+      "id": "ins_aio-intent-compression",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; creator of Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/traditional-intents-can-no-longer",
+      "source_type": "essay",
+      "source_title": "What to do now that AIOs turned search into reading sessions",
+      "source_date": "2026-06-01",
+      "captured_date": "2026-06-08",
+      "domain": [
+        "aeo",
+        "seo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_ghost-citation-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI Overviews collapse all five search intent types into a single reading session, making behavioral segmentation across intents obsolete"
     },
     {
       "path": "insights/ins_aishwarya-hariharan-ai-for-passive-aggression.md",
@@ -11413,6 +11470,36 @@
       "title": "LLMs learn about your brand from the world, not from your site"
     },
     {
+      "path": "insights/ins_local-ai-minimill-router.md",
+      "id": "ins_local-ai-minimill-router",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/using-local-ai-to-work-faster/",
+      "source_type": "essay",
+      "source_title": "The Minimill of AI",
+      "source_date": "2026-06-05",
+      "captured_date": "2026-06-08",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_skill-distillation-frontier-teacher"
+      ],
+      "raw_ref": "",
+      "title": "A local router model on a single Mac handles 78% of AI workloads, cutting average task time from 47 seconds to 19"
+    },
+    {
       "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
       "id": "ins_lock-s-ceo-evaluation-rubric",
       "operator": "Brian Halligan",
@@ -14667,6 +14754,35 @@
       ],
       "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md",
       "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second"
+    },
+    {
+      "path": "insights/ins_open-weight-majority-inference.md",
+      "id": "ins_open-weight-majority-inference",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-thriving-ecosystem-of-open-models",
+      "source_type": "essay",
+      "source_title": "The Thriving Ecosystem of Open Models",
+      "source_date": "2026-06-02",
+      "captured_date": "2026-06-08",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 3, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_local-ai-minimill-router"
+      ],
+      "raw_ref": "",
+      "title": "Open-weight models generate 69% of named token volume on OpenRouter, marking the end of closed-model dominance in developer infrastructure"
     },
     {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
@@ -37911,6 +38027,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-08.md",
+      "date": "2026-06-08",
+      "title": "What landed today, 2026-06-08",
+      "summary": "Four new insight cards from two operators. Three from Tomasz Tunguz on the AI infrastructure and equity market landscape, one from Kevin Indig on how AI Overviews abolished search intent segmentation.",
+      "sources": [
+        "morning research scan 2026-06-08"
+      ],
+      "insights_added": [
+        "ins_aio-intent-compression",
+        "ins_local-ai-minimill-router",
+        "ins_open-weight-majority-inference",
+        "ins_ai-shorts-business-model-risk"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 850 insight cards
+- 854 insight cards
 - 473 operator profiles
 - 209 raw source files
 - 42 synthesis patterns
@@ -352,7 +352,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (438)
+### Tier B (442)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -378,6 +378,8 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ai-forces-scaleups-back-to-startup`](insights/ins_ai-forces-scaleups-back-to-startup.md) — The number one enemy of innovation is efficiency, AI is collapsing the moats specialization built _(Leah Tharin)_
 - [`ins_ai-judgment-and-taste-emerging`](insights/ins_ai-judgment-and-taste-emerging.md) — AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how _(Matt Shumer)_
 - [`ins_ai-native-launch-triage-not-fewer-gates`](insights/ins_ai-native-launch-triage-not-fewer-gates.md) — AI-native GTM teams win by triaging launches faster, not by removing launch discipline _(Aatir Abdul Rauf)_
+- [`ins_ai-shorts-business-model-risk`](insights/ins_ai-shorts-business-model-risk.md) — Short interest in AI stocks concentrates in companies whose revenue depends on future assumptions, not in those with current infrastructure revenue _(Tomasz Tunguz)_
+- [`ins_aio-intent-compression`](insights/ins_aio-intent-compression.md) — AI Overviews collapse all five search intent types into a single reading session, making behavioral segmentation across intents obsolete _(Kevin Indig)_
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya Hariharan)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
@@ -578,6 +580,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
 - [`ins_llms-learn-from-the-world`](insights/ins_llms-learn-from-the-world.md) — LLMs learn about your brand from the world, not from your site _(Eli Schwartz)_
+- [`ins_local-ai-minimill-router`](insights/ins_local-ai-minimill-router.md) — A local router model on a single Mac handles 78% of AI workloads, cutting average task time from 47 seconds to 19 _(Tomasz Tunguz)_
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
 - [`ins_lollapalooza-effects`](insights/ins_lollapalooza-effects.md) — Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning _(Charlie Munger)_
 - [`ins_luxury-brand-strategy`](insights/ins_luxury-brand-strategy.md) — Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin _(Scott Galloway)_
@@ -639,6 +642,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_obstacles-as-gates-not-problems`](insights/ins_obstacles-as-gates-not-problems.md) — Frame features as obstacles to a new game, not problems to be solved _(Andy Raskin)_
 - [`ins_ogilvy-celebrity-warning`](insights/ins_ogilvy-celebrity-warning.md) — Viewers remember the celebrity and forget the product, celebrity endorsement often fails its actual job _(David Ogilvy)_
 - [`ins_once-account-flagged-there-almost`](insights/ins_once-account-flagged-there-almost.md) — 4/ once your account is flagged there's almost no way to get it back. Meta's support fo _(Hardik Gupta)_
+- [`ins_open-weight-majority-inference`](insights/ins_open-weight-majority-inference.md) — Open-weight models generate 69% of named token volume on OpenRouter, marking the end of closed-model dominance in developer infrastructure _(Tomasz Tunguz)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_

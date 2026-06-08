@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 21:07:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 01:50:31 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-08</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-08/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-08/</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Four new insight cards from two operators. Three from Tomasz Tunguz on the AI infrastructure and equity market landscape, one from Kevin Indig on how AI Overviews abolished search intent segmentation.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-04</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-04/</link>

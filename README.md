@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-04 · 5 insights · 1 operator
+### Latest · 2026-06-08 · 4 insights
 
-**What landed today, 2026-06-04.** Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.
+**What landed today, 2026-06-08.** Four new insight cards from two operators. Three from Tomasz Tunguz on the AI infrastructure and equity market landscape, one from Kevin Indig on how AI Overviews abolished search intent segmentation.
 
-[Read what landed →](insight-library/daily/2026-06-04.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **850** insight cards
+- **854** insight cards
 - **473** operator profiles
 - **42** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
