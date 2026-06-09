@@ -124,9 +124,27 @@ async function main(){
   // to changed files rather than the full corpus (pre-existing drift should not
   // block new clean commits).
   const onlyEnv = process.env.LINT_ONLY_FILES;
-  const onlySet = onlyEnv
+  let onlySet = onlyEnv
     ? new Set(onlyEnv.trim().split(/[\s\n]+/).filter(Boolean).map(f => join(ROOT, f)))
     : null;
+
+  // In STRICT mode with no explicit file list, auto-detect changed files via
+  // git. This lets CI use `STRICT=1 node scripts/voice-lint.mjs` without
+  // needing to pass changed files explicitly in the workflow.
+  if (process.env.STRICT === "1" && !onlySet) {
+    try {
+      const { execSync } = await import("node:child_process");
+      const out = execSync("git diff --name-only origin/main...HEAD 2>/dev/null", {
+        encoding: "utf8", cwd: ROOT,
+      }).trim();
+      if (out) {
+        onlySet = new Set(out.split("\n").filter(Boolean).map(f => join(ROOT, f)));
+        console.log(`voice-lint: STRICT mode, checking ${onlySet.size} changed file(s).`);
+      }
+    } catch {
+      // git not available or no origin/main; fall back to corpus-wide scan
+    }
+  }
 
   const targets = ["insights", "synthesis", "playbooks", "operators", "daily"];
   let total = 0;
