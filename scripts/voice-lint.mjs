@@ -119,11 +119,21 @@ function detectViolations(content){
 }
 
 async function main(){
+  // LINT_ONLY_FILES: space/newline-separated list of repo-relative paths.
+  // When set, only those files are checked. Used by CI to scope STRICT mode
+  // to changed files rather than the full corpus (pre-existing drift should not
+  // block new clean commits).
+  const onlyEnv = process.env.LINT_ONLY_FILES;
+  const onlySet = onlyEnv
+    ? new Set(onlyEnv.trim().split(/[\s\n]+/).filter(Boolean).map(f => join(ROOT, f)))
+    : null;
+
   const targets = ["insights", "synthesis", "playbooks", "operators", "daily"];
   let total = 0;
   const fileHits = [];
   for (const t of targets){
     for await (const f of walkMd(join(LIB, t))){
+      if (onlySet && !onlySet.has(f)) continue;
       const text = await readFile(f, "utf8");
       const v = detectViolations(text);
       if (v.length){
@@ -135,7 +145,9 @@ async function main(){
   // Also the README and CLAUDE.md
   for (const top of ["README.md", "CLAUDE.md"]){
     try {
-      const text = await readFile(join(ROOT, top), "utf8");
+      const full = join(ROOT, top);
+      if (onlySet && !onlySet.has(full)) continue;
+      const text = await readFile(full, "utf8");
       const v = detectViolations(text);
       if (v.length){
         total += v.length;

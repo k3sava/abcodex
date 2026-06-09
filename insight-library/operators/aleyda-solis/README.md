@@ -19,7 +19,7 @@ external:
 Aleyda Solis is the most systematic thinker in international SEO, having built her career around the intersection of technical SEO rigor and multi-market expansion strategy.
 
 ## Operating themes
-- **Operating thesis:** SEO audits fail not because they miss technical issues but because they lack prioritization and actionability; the SP2 framework (Specific, Prioritized, Persuasive) transforms audit findings into business cases that stakeholders actually execute, and international SEO requires the same systematic rigor applied across language, locale, and crawl budget dimensions.
+- **Operating thesis:** SEO audits fail not because they miss technical issues but because they lack prioritization and actionability; the SP2 framework (Specific, Prioritized, Persuasive) turns audit findings into business cases that stakeholders actually execute, and international SEO requires the same systematic rigor applied across language, locale, and crawl budget dimensions.
 - **International Seo**
 - **Technical Seo Audit**
 - **Content Seo**
