@@ -28,6 +28,9 @@ Simon Willison's foundational contribution is the taxonomy of how professionals 
 - `ins_dark-factory-pattern`, Nobody types or reads code; simulated QA swarm gates correctness [Tier A]
 - `ins_personal-pattern-hoarding`, Hoard a personal repo of working artifacts; the agent recombines them [Tier A]
 - `ins_red-green-tdd-shorthand-for-agents`, Encode jargon shorthand once, save tokens forever [Tier B]
+- `ins_willison-reliability-erodes-review-discipline`, As coding agents become more reliable, review discipline erodes [Tier A]
+- `ins_wasm-sandbox-agent-code-execution`, MicroPython in a WASM sandbox gives AI agents safe code execution [Tier B]
+- `ins_ai-tool-cap-as-roi-signal`, Per-employee AI tool spending caps anchored to compensation signal an implicit ROI model [Tier C]
 
 ## Sources captured
 - 2026-04-02, Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
