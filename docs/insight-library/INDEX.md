@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 850 insight cards
-- 473 operator profiles
+- 853 insight cards
+- 474 operator profiles
 - 209 raw source files
 - 42 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (438)
+### Tier B (440)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -372,6 +372,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
 - [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
+- [`ins_ai-adoption-asymmetric-information-gap`](insights/ins_ai-adoption-asymmetric-information-gap.md) — AI adoption creates an asymmetric information problem where wins are public and costs are private, requiring deliberate feedback loop design _(Charity Majors)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
 - [`ins_ai-exposes-execution-only-pmms`](insights/ins_ai-exposes-execution-only-pmms.md) — AI replaces PMMs whose job was launch emails, recap docs, and slide tweaks _(Sachin Jha)_
@@ -735,6 +736,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(swyx)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
+- [`ins_source-type-fit-beats-authority`](insights/ins_source-type-fit-beats-authority.md) — Google's May 2026 Core Update rewarded source type fit over authority alone, concentrating visibility around canonical destinations for each query's dominant intent _(Aleyda Solis)_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
@@ -792,11 +794,12 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 
-### Tier C (74)
+### Tier C (75)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
 - [`ins_ai-career-coach-prompt-chain`](insights/ins_ai-career-coach-prompt-chain.md) — A 7-step AI prompt chain beats one-shot resume rewrites for job search _(Nishchal Dua)_
+- [`ins_ai-tool-cap-as-roi-signal`](insights/ins_ai-tool-cap-as-roi-signal.md) — Per-employee AI tool spending caps anchored to compensation signal an implicit enterprise ROI model, and are more sustainable than consumption competitions _(Simon Willison)_
 - [`ins_aiman-farooq-ai-man-intro`](insights/ins_aiman-farooq-ai-man-intro.md) — The most important thing about this new role is that I can keep introducing myself as Aiman: AI man. _(Aiman Farooq)_
 - [`ins_aimee-sprung-seeking-pricing-consultant`](insights/ins_aimee-sprung-seeking-pricing-consultant.md) — Seeking a product price consultant for government software pricing _(Aimee Sprung)_
 - [`ins_aishwarya-hariharan-ai-for-passive-aggression`](insights/ins_aishwarya-hariharan-ai-for-passive-aggression.md) — Using ChatGPT for passive-aggressive messages is better than for positive ones _(Aishwarya Hariharan)_
@@ -963,6 +966,7 @@ _Generated 2026-06-04. Auto-built from frontmatter — do not edit by hand._
 - [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)
+- [Charity Majors](operators/charity-majors/README.md)
 - [Charlie Munger](operators/charlie-munger/README.md)
 - [Charly Wargnier](operators/charly-wargnier/README.md)
 - [Chirayu Akotiya](operators/chirayu-akotiya/README.md)

@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-06-04T21:07:10.149Z",
+  "generated_at": "2026-06-09T01:51:55.294Z",
   "latest_daily": {
-    "path": "daily/2026-06-04.md",
-    "date": "2026-06-04",
-    "title": "What landed today, 2026-06-04",
-    "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
+    "path": "daily/2026-06-09.md",
+    "date": "2026-06-09",
+    "title": "What landed today, 2026-06-09",
+    "summary": "Three new insight cards, one new operator. Two themes emerged from this week's operator output: making AI adoption organizationally sustainable, and how Google's May 2026 Core Update reset visibility around source type fit rather than authority alone.",
     "sources": [
-      "morning research scan 2026-06-04"
+      "morning research scan 2026-06-09"
     ],
     "insights_added": [
-      "ins_intelligence-per-dollar-model-metric",
-      "ins_skill-distillation-frontier-teacher",
-      "ins_wasm-sandbox-agent-code-execution",
-      "ins_agents-authorize-agents-security-scale",
-      "ins_cognitive-surrender-agentic-defaults"
+      "ins_ai-adoption-asymmetric-information-gap",
+      "ins_source-type-fit-beats-authority",
+      "ins_ai-tool-cap-as-roi-signal"
     ],
     "operators_added": [
-      "jonathan-jaffe"
+      "charity-majors"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-09.md",
+      "date": "2026-06-09",
+      "title": "What landed today, 2026-06-09",
+      "summary": "Three new insight cards, one new operator. Two themes emerged from this week's operator output: making AI adoption organizationally sustainable, and how Google's May 2026 Core Update reset visibility around source type fit rather than authority alone.",
+      "sources": [
+        "morning research scan 2026-06-09"
+      ],
+      "insights_added": [
+        "ins_ai-adoption-asymmetric-information-gap",
+        "ins_source-type-fit-beats-authority",
+        "ins_ai-tool-cap-as-roi-signal"
+      ],
+      "operators_added": [
+        "charity-majors"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-04.md",
       "date": "2026-06-04",
