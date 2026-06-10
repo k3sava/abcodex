@@ -129,7 +129,7 @@ Two things the hypothesis surfaces during prep:
 
 **The switching event.** Moesta's switch-interview work maps a predictable event structure for every buying decision: passive looking (dissatisfaction exists but has not yet prompted action), active looking (the buyer is researching), the event that triggered the search, and the anxieties that slow or stop the final decision. If you know the counterpart is in active-looking, your implication questions can move faster. If they are still passive, your Phase 1 frame needs to surface whether they are ready to commit to the discovery process at all. `ins_jtbd-switch-interview-saas`
 
-Preparation is also where Dunford's positioning discipline enters. Before you can confirm fit in Phase 4, you need to know what your actual differentiated value is against the most likely alternative. Most buyers are not evaluating you against a named competitor. They are evaluating you against their current workaround. Discovery that surfaces what the workaround is — and where it fails — is more useful than a feature comparison matrix. `ins_test-positioning-in-live-sales-pitch`
+Preparation is also where Dunford's positioning discipline enters. Before you can confirm fit in Phase 4, you need to know what your actual differentiated value is against the most likely alternative. Most buyers are not evaluating you against a named competitor. They are evaluating you against their current workaround. Discovery that surfaces what the workaround is, and where it fails, is more useful than a feature comparison matrix. `ins_test-positioning-in-live-sales-pitch`
 
 ## Running the arc across a multi-stakeholder deal
 
