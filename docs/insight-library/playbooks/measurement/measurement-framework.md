@@ -177,6 +177,27 @@ Most measurement systems fail by addition: more metrics, more dashboards, more r
 
 Three to seven metrics per workstream is the ceiling. More than that and the system measures everything and decides nothing.
 
+## Sprint-readiness: picking your 2-3 metrics
+
+A quarterly framework gives you ten dimensions to watch. A sprint gives you two weeks and a specific bet. The mismatch kills both. When a sprint starts, collapse the full framework to three questions: what can the team move in 14 days, what signal will tell you by day 10, and what breaks quietly if you push too hard.
+
+**Pick by moveability first.** An input metric the team controls beats any output metric they cannot. If the metric cannot accrue enough signal in 30 days, it will not tell you anything in two weeks either. `ins_experimentation-paralysis` Start with the inputs the sprint directly acts on, not the outcomes two quarters out.
+
+**Find the short signal.** For any outcome the sprint is meant to move, there is an earlier, faster signal that correlates with it. Use that as your sprint read, not the final output. `ins_no-such-thing-as-long-feedback-loop` A weekly absolute count of qualified demos, activated trials, or shipped units tells you by day 7 whether the sprint is on track. Track the absolute count, not the conversion rate: a rate has two levers, and the easy one is the perverse one. `ins_absolute-counts-over-conversion-rates`
+
+**Add one tradeoff metric and stop.** Most teams stop after the output. The tradeoff metric is what breaks quietly when you push the sprint bet: support ticket rate, time-to-first-value, or value delivered even when logins do not show it. `ins_mark-kosoglow-adoption-vs-value` One tradeoff metric is the insurance. Two is overhead.
+
+**Grade the data before you pick.** A sprint metric built on untracked events, a stale CRM field, or a broken UTM is a confident wrong answer delivered fast. Before locking your three metrics, confirm each one has a trustworthy data source you can read daily. `ins_andrew-jones-data-trustworthiness-over-output-metrics` If the source is not observable now, do not pick that metric for this sprint.
+
+**Sprint vs. quarterly: the split**
+
+| Horizon | Metric count | Optimize for | Leave on the quarterly cadence |
+|---------|-------------|--------------|-------------------------------|
+| Sprint (2 weeks) | 2-3 | Input metrics the team controls, validated short signal, one tradeoff watch | Output lagging indicators, attribution model tuning, holdout validation |
+| Quarterly | 5-7 per workstream | Full output / input / tradeoff stack, holdout readout, baseline reset | Sprint-level daily reads |
+
+The sprint does not replace the quarterly framework. It borrows from it. Pick the two or three metrics actionable at this timescale, leave the rest on the quarterly cadence, and move.
+
 ## Check your work
 
 - Every KPI traces to revenue, pipeline, or customer value. No orphan vanity metrics.

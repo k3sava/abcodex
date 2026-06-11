@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 01:51:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 05:19:48 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-11</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-11/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-11/</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Four new insight cards, no new operators. Two themes emerged from this week&apos;s operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-09</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-09/</link>
