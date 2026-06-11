@@ -1,26 +1,44 @@
 {
-  "generated_at": "2026-06-09T01:51:55.294Z",
+  "generated_at": "2026-06-11T05:19:45.131Z",
   "latest_daily": {
-    "path": "daily/2026-06-09.md",
-    "date": "2026-06-09",
-    "title": "What landed today, 2026-06-09",
-    "summary": "Three new insight cards, one new operator. Two themes emerged from this week's operator output: making AI adoption organizationally sustainable, and how Google's May 2026 Core Update reset visibility around source type fit rather than authority alone.",
+    "path": "daily/2026-06-11.md",
+    "date": "2026-06-11",
+    "title": "What landed today, 2026-06-11",
+    "summary": "Four new insight cards, no new operators. Two themes emerged from this week's operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.",
     "sources": [
-      "morning research scan 2026-06-09"
+      "morning research scan 2026-06-11"
     ],
     "insights_added": [
-      "ins_ai-adoption-asymmetric-information-gap",
-      "ins_source-type-fit-beats-authority",
-      "ins_ai-tool-cap-as-roi-signal"
+      "ins_tunguz-minimill-local-routing",
+      "ins_mollick-patron-not-wizard",
+      "ins_mollick-co-existence-phase-shift",
+      "ins_willison-silent-degradation-trust-gap"
     ],
-    "operators_added": [
-      "charity-majors"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-11.md",
+      "date": "2026-06-11",
+      "title": "What landed today, 2026-06-11",
+      "summary": "Four new insight cards, no new operators. Two themes emerged from this week's operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.",
+      "sources": [
+        "morning research scan 2026-06-11"
+      ],
+      "insights_added": [
+        "ins_tunguz-minimill-local-routing",
+        "ins_mollick-patron-not-wizard",
+        "ins_mollick-co-existence-phase-shift",
+        "ins_willison-silent-degradation-trust-gap"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-09.md",
       "date": "2026-06-09",

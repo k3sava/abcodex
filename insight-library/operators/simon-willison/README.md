@@ -31,6 +31,7 @@ Simon Willison's foundational contribution is the taxonomy of how professionals 
 - `ins_willison-reliability-erodes-review-discipline`, As coding agents become more reliable, review discipline erodes [Tier A]
 - `ins_wasm-sandbox-agent-code-execution`, MicroPython in a WASM sandbox gives AI agents safe code execution [Tier B]
 - `ins_ai-tool-cap-as-roi-signal`, Per-employee AI tool spending caps anchored to compensation signal an implicit ROI model [Tier C]
+- `ins_willison-silent-degradation-trust-gap`, Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect [Tier B]
 
 ## Sources captured
 - 2026-04-02, Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
