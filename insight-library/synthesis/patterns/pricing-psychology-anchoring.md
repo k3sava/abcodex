@@ -12,7 +12,7 @@ domains: [pmm, gtm, growth-demand, product]
 
 ## Convergence
 
-Three operators across behavioral economics (Kahneman, Ariely) and pricing science (Simon) converge on the same structural claim: the buyer cannot evaluate an absolute price. Every price judgment is anchored to the first number the buyer encountered. This makes the first number in any pricing interaction the most powerful lever the seller controls — not the final price, not the discount, not the value prop. The first number sets the range; everything after is adjustment.
+Three operators across behavioral economics (Kahneman, Ariely) and pricing science (Simon) converge on the same structural claim: the buyer cannot evaluate an absolute price. Every price judgment is anchored to the first number the buyer encountered. This makes the first number in any pricing interaction the most powerful lever the seller controls. Not the final price, not the discount, not the value prop. The first number sets the range; everything after is adjustment.
 
 The convergence is not surface-level. Kahneman explains the per-transaction mechanism. Ariely extends it to category-level persistence and shows how to engineer anchors deliberately via tiers and decoys. Simon explains why violating the anchor (through discounting) is irreversible. Each operator reaches the same operating conclusion from a different empirical starting point.
 
@@ -35,7 +35,7 @@ The convergence is not surface-level. Kahneman explains the per-transaction mech
 The three operators each address a different scope of the same mechanism:
 
 - **Kahneman, per-transaction scope.** Within a single negotiation or purchase decision, the first number controls the range. The seller who sets the first anchor wins the range; the seller who waits cedes it.
-- **Ariely, category and page-design scope.** Across a market, the first price set in a new category anchors all subsequent buyers in that category. Within a pricing page, the tier structure is a deliberate anchoring architecture — decoys, relative positioning, and tier order all encode anchor assumptions.
+- **Ariely, category and page-design scope.** Across a market, the first price set in a new category anchors all subsequent buyers in that category. Within a pricing page, the tier structure is a deliberate anchoring architecture. Decoys, relative positioning, and tier order all encode anchor assumptions.
 - **Simon, organizational scope.** The company must behave as if anchors are structural commitments, not tactical tools. Discount discipline is anchor discipline. Tier structure is anchor management. Pricing as a formal function (a Pricing Officer, a formal process) exists partly to maintain anchor integrity over time.
 
 The combined operating claim: anchoring is not a trick to apply in sales calls. It is a structural property of every pricing surface, every first quote, every category launch, and every tier structure. Treating it as tactical produces ad-hoc pricing; treating it as structural produces pricing architecture.
@@ -50,7 +50,7 @@ For founders, PMM leads, and pricing owners:
 
 3. **Engineer the pricing page as an anchoring architecture.** A single-price page forces buyers to guess at value. Three tiers with clear differences give the buyer a relational computation: "the middle tier vs. the premium" is a decision the brain can make quickly and confidently. Add a decoy tier where the unit economics allow; the decoy's function is anchoring, not revenue.
 
-4. **Hold discount discipline as anchor maintenance.** Every discount resets the buyer's reference price. The anchor erodes permanently with each exception. Bound rep discretion, require executive sign-off on outliers, and monitor discount distributions — not just for margin, but for anchor drift.
+4. **Hold discount discipline as anchor maintenance.** Every discount resets the buyer's reference price. The anchor erodes permanently with each exception. Bound rep discretion, require executive sign-off on outliers, and monitor discount distributions. Not just for margin, but for anchor drift.
 
 5. **Audit existing prices for anchor failures.**
    - Single-price offers (Relativity violation) → add tiers.
@@ -59,7 +59,7 @@ For founders, PMM leads, and pricing owners:
 
 ## Counter-evidence
 
-- **Transparent-market categories** (commodity SaaS, public PaaS, consumer subscriptions with visible comparators) have external anchors that mute seller-controlled anchoring. The buyer has reliable reference points before the first conversation; the architecture still applies but the leverage is smaller.
+- **Transparent-market categories** (commodity SaaS, public PaaS, consumer subscriptions with visible comparators) have external anchors that mute seller-controlled anchoring. The buyer has reliable reference points before the first conversation; the architecture still applies but seller influence is smaller.
 - **Procurement-led enterprise** often neutralises framing-driven anchors. Professional buyers have comp data, price benchmarks, and RFP structures that provide their own anchor. The mechanism still operates at the first-RFP-response stage, but the slope is gentler.
 - **Network-effect categories** (marketplaces, consumer social) sometimes win on price-as-feature (free or near-free), where user count is the value and pricing architecture is less relevant than adoption speed.
 
