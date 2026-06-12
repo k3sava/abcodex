@@ -28,6 +28,10 @@ Each pattern has ≥3 operators with cards that genuinely converge. Each contrad
 - [agents-as-product-users.md](patterns/agents-as-product-users.md), Agents are first-class users. _(Verna, Chennapragada, Gartner, Willison)_
 - [economic-turing-test-rev-per-employee.md](patterns/economic-turing-test-rev-per-employee.md), Economic Turing Test → outcomes pricing → rev/employee. _(Mann, Taylor, Cherny, Sherwin Wu)_
 
+- [pricing-as-the-most-leveraged-org-failure.md](patterns/pricing-as-the-most-leveraged-org-failure.md), Pricing is the most leveraged and most under-invested function. _(Simon, Ramanujam, Skok, Hormozi)_
+- [behavioral-pricing-architecture.md](patterns/behavioral-pricing-architecture.md), Pricing is a behavioral-architecture problem. _(Ariely, Kahneman, Simon, Ramanujam, Hormozi)_
+- [pricing-psychology-anchoring.md](patterns/pricing-psychology-anchoring.md), Anchoring is the load-bearing mechanism in pricing psychology. _(Kahneman, Ariely, Simon)_
+
 ### Tier B, meaningful convergence, narrower band
 - [differentiation-vs-sameness.md](patterns/differentiation-vs-sameness.md), Differentiation requires three checks. _(Omojola, Gartner, Dunford, Shankarraman)_
 - [parenting-meets-leadership.md](patterns/parenting-meets-leadership.md), Repair, MGI, identity-vs-behavior as leadership ops. _(Kennedy, Patel, Hughes Johnson)_

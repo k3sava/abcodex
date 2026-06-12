@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-06-11T05:19:45.131Z",
+  "generated_at": "2026-06-12T01:51:44.806Z",
   "latest_daily": {
-    "path": "daily/2026-06-11.md",
-    "date": "2026-06-11",
-    "title": "What landed today, 2026-06-11",
-    "summary": "Four new insight cards, no new operators. Two themes emerged from this week's operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.",
+    "path": "daily/2026-06-12.md",
+    "date": "2026-06-12",
+    "title": "What landed today, 2026-06-12",
+    "summary": "Five new cards, no new operators. Boris Cherny's Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.",
     "sources": [
-      "morning research scan 2026-06-11"
+      "morning research scan 2026-06-12"
     ],
     "insights_added": [
-      "ins_tunguz-minimill-local-routing",
-      "ins_mollick-patron-not-wizard",
-      "ins_mollick-co-existence-phase-shift",
-      "ins_willison-silent-degradation-trust-gap"
+      "ins_cherny-agents-prompt-agents",
+      "ins_cherny-roi-benchmark-engineer-labor",
+      "ins_cherny-code-review-next-bottleneck",
+      "ins_willison-fable-relentlessly-proactive",
+      "ins_fishkin-zero-click-walled-garden"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-12.md",
+      "date": "2026-06-12",
+      "title": "What landed today, 2026-06-12",
+      "summary": "Five new cards, no new operators. Boris Cherny's Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.",
+      "sources": [
+        "morning research scan 2026-06-12"
+      ],
+      "insights_added": [
+        "ins_cherny-agents-prompt-agents",
+        "ins_cherny-roi-benchmark-engineer-labor",
+        "ins_cherny-code-review-next-bottleneck",
+        "ins_willison-fable-relentlessly-proactive",
+        "ins_fishkin-zero-click-walled-garden"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-11.md",
       "date": "2026-06-11",
