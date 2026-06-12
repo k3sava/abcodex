@@ -26,7 +26,7 @@ Rand Fishkin's intellectual trajectory from SEO pioneer (Moz) to audience resear
 
 ## Cards
 - `ins_zero-click-marketing`, 58.5% of US Google searches end without a click, create standalone value where audiences already are [Tier A]
-
+- `ins_fishkin-zero-click-walled-garden`, Zero-click Google search crossed 68% in Q1 2026 and will not reverse because Google's financial incentives now align with keeping users on-platform [Tier B]
 
 ## Sources captured
 - 2026-04, `why-do-we-need-zero-click-marketing-sparktoro.md` (operator essay archive)
@@ -35,3 +35,4 @@ Rand Fishkin's intellectual trajectory from SEO pioneer (Moz) to audience resear
 - 2026-04, `zero-click-marketing-an-exclusive-interview-with-rand-fishkin-of-sparktoro-nextn.md` (operator essay archive)
 - 2026-04, `rand-fishkin-on-building-brand-influence-in-a-zero-click-world-skyword.md` (operator essay archive)
 - 2026-04, `zero-click-marketing-the-hidden-strategy-behind-platform-algorithm-changes-the-c.md` (operator essay archive)
+- 2026-06-08, SparkToro blog, "In 2026, Less than One Third of Google Searches Still Send a Click"

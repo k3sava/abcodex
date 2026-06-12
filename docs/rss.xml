@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 05:19:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 01:51:47 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-12</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-12/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-12/</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards, no new operators. Boris Cherny&apos;s Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-11</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-11/</link>

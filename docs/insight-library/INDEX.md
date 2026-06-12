@@ -1,12 +1,12 @@
 # Codex Index
 
-_Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-12. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 857 insight cards
+- 862 insight cards
 - 474 operator profiles
 - 209 raw source files
-- 42 synthesis patterns
+- 43 synthesis patterns
 - 11 contradictions
 - 28 playbooks
 
@@ -352,7 +352,7 @@ _Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (444)
+### Tier B (449)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -441,6 +441,9 @@ _Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_casey-hill-aeo-structural-prominence`](insights/ins_casey-hill-aeo-structural-prominence.md) — Structural prominence in nav, headers, and footer predicts LLM citation rates more reliably than body content alone _(Casey Hill)_
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
+- [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
+- [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
+- [`ins_cherny-roi-benchmark-engineer-labor`](insights/ins_cherny-roi-benchmark-engineer-labor.md) — Comparing AI tool costs to software subscriptions produces a misleading ROI case; the right benchmark is what an engineer would have billed _(Boris Cherny)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
 - [`ins_chris-orlob-five-touch-sequence`](insights/ins_chris-orlob-five-touch-sequence.md) — Each outbound touch must build on the prior, not restate it; the 2nd and 3rd touches double reply rates when this holds _(Chris Orlob)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
@@ -506,6 +509,7 @@ _Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
 - [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
 - [`ins_fishkin-platform-first-zero-click`](insights/ins_fishkin-platform-first-zero-click.md) — Web traffic is down 46 percent in three years: produce content made for platforms first, articles second _(Rand Fishkin)_
+- [`ins_fishkin-zero-click-walled-garden`](insights/ins_fishkin-zero-click-walled-garden.md) — Zero-click Google search has crossed 68% and will not reverse because Google's financial incentives now align with keeping users on-platform _(Rand Fishkin)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
 - [`ins_florin-tatulea-mcp-outbound-staging-rule`](insights/ins_florin-tatulea-mcp-outbound-staging-rule.md) — Connect one MCP tool and validate one workflow before building a full outbound stack; complexity compounds error before it delivers value _(Florin Tatulea)_
 - [`ins_focus-ultimate-competitive-advantage-today`](insights/ins_focus-ultimate-competitive-advantage-today.md) — If Focus is the ultimate competitive advantage, today we're doubling down on it _(Vengat Krishnaraj)_
@@ -789,6 +793,7 @@ _Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-generic-hits-ceiling-here-gorish`](insights/ins_why-generic-hits-ceiling-here-gorish.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Gorish Aggarwal)_
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
+- [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
@@ -1386,6 +1391,7 @@ _Generated 2026-06-11. Auto-built from frontmatter — do not edit by hand._
 - [`pat_narrative-as-strategy`](synthesis/patterns/narrative-as-strategy.md) — Company story IS the strategy, name the shift, run the audit (4 ops) [Tier A]
 - [`pat_parenting-meets-leadership`](synthesis/patterns/parenting-meets-leadership.md) — Repair, generous interpretation, identity-vs-behavior, parenting frames as leadership ops (3 ops) [Tier B]
 - [`pat_pricing-as-the-most-leveraged-org-failure`](synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md) — Pricing is the most leveraged and most under-invested function (17 ops) [Tier A]
+- [`pat_pricing-psychology-anchoring`](synthesis/patterns/pricing-psychology-anchoring.md) — Anchoring is the load-bearing mechanism in pricing psychology (3 ops) [Tier A]
 - [`pat_principal-ic-as-force-multiplier`](synthesis/patterns/principal-ic-as-force-multiplier.md) — Principal/staff IC as force-multiplier archetype (4 ops) [Tier A]
 - [`pat_quality-as-growth-lever`](synthesis/patterns/quality-as-growth-lever.md) — Quality and friction-as-feature are growth levers, not constraints (4 ops) [Tier A]
 - [`pat_rapport-surfaces-what-research-cannot`](synthesis/patterns/rapport-surfaces-what-research-cannot.md) — Rapport surfaces what research cannot (3 ops) [Tier A]
