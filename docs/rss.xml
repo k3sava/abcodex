@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 01:51:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 01:50:46 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-13</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-13/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-13/</guid>
+      <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-12</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-12/</link>

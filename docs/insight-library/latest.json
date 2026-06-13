@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-06-12T01:51:44.806Z",
+  "generated_at": "2026-06-13T01:50:43.035Z",
   "latest_daily": {
-    "path": "daily/2026-06-12.md",
-    "date": "2026-06-12",
-    "title": "What landed today, 2026-06-12",
-    "summary": "Five new cards, no new operators. Boris Cherny's Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.",
+    "path": "daily/2026-06-13.md",
+    "date": "2026-06-13",
+    "title": "What landed today, 2026-06-13",
+    "summary": "Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.",
     "sources": [
-      "morning research scan 2026-06-12"
+      "morning research scan 2026-06-13"
     ],
     "insights_added": [
-      "ins_cherny-agents-prompt-agents",
-      "ins_cherny-roi-benchmark-engineer-labor",
-      "ins_cherny-code-review-next-bottleneck",
-      "ins_willison-fable-relentlessly-proactive",
-      "ins_fishkin-zero-click-walled-garden"
+      "ins_dunford-market-pov-ai-uncertainty",
+      "ins_indig-algorithm-visibility-rental",
+      "ins_willison-knowledge-breadth-model-proxy"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +19,24 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-13.md",
+      "date": "2026-06-13",
+      "title": "What landed today, 2026-06-13",
+      "summary": "Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.",
+      "sources": [
+        "morning research scan 2026-06-13"
+      ],
+      "insights_added": [
+        "ins_dunford-market-pov-ai-uncertainty",
+        "ins_indig-algorithm-visibility-rental",
+        "ins_willison-knowledge-breadth-model-proxy"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-12.md",
       "date": "2026-06-12",
