@@ -14,7 +14,7 @@ maturity: frontier
 artifact_class: case-study
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 4 }
 tier: B
-related: [ins_wasm-sandbox-agent-code-execution, ins_mollick-patron-not-wizard, ins_cherny-agents-prompt-agents]
+related: [ins_wasm-sandbox-agent-code-execution, ins_mollick-patron-not-wizard, ins_cherny-agents-prompt-agents, ins_willison-knowledge-breadth-model-proxy]
 raw_ref: ""
 ---
 

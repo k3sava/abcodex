@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-12 · 5 insights
+### Latest · 2026-06-13 · 3 insights
 
-**What landed today, 2026-06-12.** Five new cards, no new operators. Boris Cherny's Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.
+**What landed today, 2026-06-13.** Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.
 
-[Read what landed →](insight-library/daily/2026-06-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **862** insight cards
+- **865** insight cards
 - **474** operator profiles
 - **43** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

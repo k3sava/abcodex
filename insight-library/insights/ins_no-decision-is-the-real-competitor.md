@@ -13,7 +13,7 @@ maturity: foundational
 artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 5 }
 tier: A
-related: [ins_setup-follow-through-pitch]
+related: [ins_setup-follow-through-pitch, ins_dunford-market-pov-ai-uncertainty]
 raw_ref: raw/podcasts/april-dunford--positioning-setup-follow-through--2026-04-28.md
 ---
 

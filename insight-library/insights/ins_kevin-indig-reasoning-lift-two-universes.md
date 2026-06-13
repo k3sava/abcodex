@@ -14,7 +14,7 @@ maturity: applied
 artifact_class: framework
 score: { originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }
 tier: A
-related: [ins_aeo-three-layer-presence-readiness-impact, ins_casey-hill-structural-prominence-llm-citations, ins_chatgpt-prompts-invisible-to-keyword-tools]
+related: [ins_aeo-three-layer-presence-readiness-impact, ins_casey-hill-structural-prominence-llm-citations, ins_chatgpt-prompts-invisible-to-keyword-tools, ins_indig-algorithm-visibility-rental]
 raw_ref: 
 ---
 

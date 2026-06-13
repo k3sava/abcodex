@@ -14,7 +14,7 @@ maturity: frontier
 artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }
 tier: A
-related: [ins_chatgpt-prompts-invisible-to-keyword-tools, ins_judgment-doesnt-compress]
+related: [ins_chatgpt-prompts-invisible-to-keyword-tools, ins_judgment-doesnt-compress, ins_indig-algorithm-visibility-rental]
 raw_ref: 
 ---
 

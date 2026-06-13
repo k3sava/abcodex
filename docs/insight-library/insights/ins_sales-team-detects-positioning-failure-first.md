@@ -13,7 +13,7 @@ maturity: foundational
 artifact_class: framework
 score: { originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 3 }
 tier: B
-related: [ins_no-decision-is-the-real-competitor, ins_setup-follow-through-pitch, ins_test-positioning-in-live-sales-pitch, ins_3s-content-from-sales-success-support]
+related: [ins_no-decision-is-the-real-competitor, ins_setup-follow-through-pitch, ins_test-positioning-in-live-sales-pitch, ins_3s-content-from-sales-success-support, ins_dunford-market-pov-ai-uncertainty]
 raw_ref: raw/threads/april-dunford--sales-knows-positioning-failing--2026-04-25.md
 ---
 
