@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jun 2026 01:50:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 01:47:48 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-14</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-14/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-14/</guid>
+      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple&apos;s 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-13</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-13/</link>

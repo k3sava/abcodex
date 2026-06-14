@@ -1,28 +1,32 @@
 {
-  "generated_at": "2026-06-13T01:50:42.970Z",
+  "generated_at": "2026-06-14T01:47:45.559Z",
   "counts": {
-    "insights": 865,
-    "operators": 474,
+    "insights": 869,
+    "operators": 476,
     "raw_sources": 209,
     "patterns": 43,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 24
+    "daily": 25
   },
   "latest_daily": {
-    "path": "daily/2026-06-13.md",
-    "date": "2026-06-13",
-    "title": "What landed today, 2026-06-13",
-    "summary": "Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.",
+    "path": "daily/2026-06-14.md",
+    "date": "2026-06-14",
+    "title": "What landed today, 2026-06-14",
+    "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
     "sources": [
-      "morning research scan 2026-06-13"
+      "morning research scan 2026-06-14"
     ],
     "insights_added": [
-      "ins_dunford-market-pov-ai-uncertainty",
-      "ins_indig-algorithm-visibility-rental",
-      "ins_willison-knowledge-breadth-model-proxy"
+      "ins_mollick-commission-not-steer",
+      "ins_krieger-async-agent-delegation",
+      "ins_xcode27-agent-skills-portability",
+      "ins_willison-apple-siri-vision-llm-bypass"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mike-krieger",
+      "antoine-van-der-lee"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -11004,6 +11008,38 @@
       "title": "Killing your own initiatives loudly is the highest-trust move with executives"
     },
     {
+      "path": "insights/ins_krieger-async-agent-delegation.md",
+      "id": "ins_krieger-async-agent-delegation",
+      "operator": "Mike Krieger",
+      "operator_role": "Head of Anthropic Labs; co-founder of Instagram",
+      "co_operators": [
+        "Dan Shipper"
+      ],
+      "source_url": "https://every.to/podcast/transcript-how-anthropic-uses-claude-fable-5-with-mike-krieger",
+      "source_type": "podcast",
+      "source_title": "How Anthropic Uses Claude Fable 5 with Mike Krieger",
+      "source_date": "2026-06-10",
+      "captured_date": "2026-06-14",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer",
+        "ins_100-percent-automation-rule"
+      ],
+      "raw_ref": "",
+      "title": "Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner"
+    },
+    {
       "path": "insights/ins_krishnam-malpani-stop-writing-boring-blogs.md",
       "id": "ins_krishnam-malpani-stop-writing-boring-blogs",
       "title": "Stop writing boring blogs, make content that makes people stop scrolling.",
@@ -13493,6 +13529,37 @@
       ],
       "raw_ref": "",
       "title": "AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work"
+    },
+    {
+      "path": "insights/ins_mollick-commission-not-steer.md",
+      "id": "ins_mollick-commission-not-steer",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "source_type": "essay",
+      "source_title": "What it feels like to work with Mythos",
+      "source_date": "2026-06-09",
+      "captured_date": "2026-06-14",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-co-existence-phase-shift",
+        "ins_mollick-patron-not-wizard",
+        "ins_willison-fable-relentlessly-proactive"
+      ],
+      "raw_ref": "",
+      "title": "Frontier models capable of multi-hour autonomous runs require commissioning, not steering"
     },
     {
       "path": "insights/ins_mollick-patron-not-wizard.md",
@@ -23298,6 +23365,36 @@
       "title": "Same service, different segment, 5x price, the variable is buyer economics, not effort"
     },
     {
+      "path": "insights/ins_willison-apple-siri-vision-llm-bypass.md",
+      "id": "ins_willison-apple-siri-vision-llm-bypass",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jun/8/wwdc/",
+      "source_type": "essay",
+      "source_title": "Siri AI at WWDC 2026",
+      "source_date": "2026-06-08",
+      "captured_date": "2026-06-14",
+      "domain": [
+        "engineering",
+        "ai-native",
+        "ios"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-fable-relentlessly-proactive",
+        "ins_xcode27-agent-skills-portability"
+      ],
+      "raw_ref": "",
+      "title": "Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code"
+    },
+    {
       "path": "insights/ins_willison-fable-relentlessly-proactive.md",
       "id": "ins_willison-fable-relentlessly-proactive",
       "operator": "Simon Willison",
@@ -23552,6 +23649,34 @@
       ],
       "raw_ref": "raw/expert-content/experts/daniel-kahneman.md",
       "title": "The less you know, the more confident you are, WYSIATI builds the cleanest stories from the thinnest data"
+    },
+    {
+      "path": "insights/ins_xcode27-agent-skills-portability.md",
+      "id": "ins_xcode27-agent-skills-portability",
+      "operator": "Antoine van der Lee",
+      "operator_role": "Indie iOS founder; creator of SwiftLee and RocketSim",
+      "co_operators": [],
+      "source_url": "https://www.avanderlee.com/ai-development/using-xcode-27s-agent-skills-in-claude-codex-and-cursor/",
+      "source_type": "essay",
+      "source_title": "Using Xcode 27's Agent Skills in Claude, Codex, and Cursor",
+      "source_date": "2026-06-09",
+      "captured_date": "2026-06-14",
+      "domain": [
+        "engineering",
+        "ios"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-apple-siri-vision-llm-bypass"
+      ],
+      "raw_ref": "",
+      "title": "Xcode 27 Agent Skills make Apple-endorsed AI knowledge portable across Claude, Codex, and Cursor"
     },
     {
       "path": "insights/ins_y-combinator-ai-form-fill-autonomy.md",
@@ -24815,6 +24940,27 @@
       "captured_first": "2026-05-07",
       "external": "{  }",
       "title": "Anthropic"
+    },
+    {
+      "path": "operators/antoine-van-der-lee/README.md",
+      "name": "Antoine van der Lee",
+      "slug": "antoine-van-der-lee",
+      "roles": [
+        "Indie iOS founder; creator of SwiftLee and RocketSim",
+        "Weekly iOS and Swift blogger at avanderlee.com"
+      ],
+      "domains_active": [
+        "engineering",
+        "ios",
+        "ai-workflow"
+      ],
+      "captured_first": "2026-06-14",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/ajvanderlee/",
+        "newsletter": "https://newsletter.avanderlee.com/",
+        "website": "https://www.avanderlee.com/"
+      },
+      "title": "Antoine van der Lee"
     },
     {
       "path": "operators/anton-osika/README.md",
@@ -29451,6 +29597,23 @@
         "website": "https://ipullrank.com/"
       },
       "title": "Mike King"
+    },
+    {
+      "path": "operators/mike-krieger/README.md",
+      "name": "Mike Krieger",
+      "slug": "mike-krieger",
+      "roles": [
+        "Head of Anthropic Labs",
+        "Co-founder of Instagram (acquired by Facebook 2012)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "captured_first": "2026-06-14",
+      "external": "{}",
+      "title": "Mike Krieger"
     },
     {
       "path": "operators/mike-michalowicz/README.md",
@@ -38438,6 +38601,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-14.md",
+      "date": "2026-06-14",
+      "title": "What landed today, 2026-06-14",
+      "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
+      "sources": [
+        "morning research scan 2026-06-14"
+      ],
+      "insights_added": [
+        "ins_mollick-commission-not-steer",
+        "ins_krieger-async-agent-delegation",
+        "ins_xcode27-agent-skills-portability",
+        "ins_willison-apple-siri-vision-llm-bypass"
+      ],
+      "operators_added": [
+        "mike-krieger",
+        "antoine-van-der-lee"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-13.md",
       "date": "2026-06-13",
