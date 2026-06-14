@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-13 · 3 insights
+### Latest · 2026-06-14 · 4 insights · 2 operators
 
-**What landed today, 2026-06-13.** Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.
+**What landed today, 2026-06-14.** Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.
 
-[Read what landed →](insight-library/daily/2026-06-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **865** insight cards
-- **474** operator profiles
+- **869** insight cards
+- **476** operator profiles
 - **43** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 474 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 476 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

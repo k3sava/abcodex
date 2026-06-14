@@ -1,24 +1,50 @@
 {
-  "generated_at": "2026-06-13T01:50:43.035Z",
+  "generated_at": "2026-06-14T01:47:45.631Z",
   "latest_daily": {
-    "path": "daily/2026-06-13.md",
-    "date": "2026-06-13",
-    "title": "What landed today, 2026-06-13",
-    "summary": "Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.",
+    "path": "daily/2026-06-14.md",
+    "date": "2026-06-14",
+    "title": "What landed today, 2026-06-14",
+    "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
     "sources": [
-      "morning research scan 2026-06-13"
+      "morning research scan 2026-06-14"
     ],
     "insights_added": [
-      "ins_dunford-market-pov-ai-uncertainty",
-      "ins_indig-algorithm-visibility-rental",
-      "ins_willison-knowledge-breadth-model-proxy"
+      "ins_mollick-commission-not-steer",
+      "ins_krieger-async-agent-delegation",
+      "ins_xcode27-agent-skills-portability",
+      "ins_willison-apple-siri-vision-llm-bypass"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mike-krieger",
+      "antoine-van-der-lee"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-14.md",
+      "date": "2026-06-14",
+      "title": "What landed today, 2026-06-14",
+      "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
+      "sources": [
+        "morning research scan 2026-06-14"
+      ],
+      "insights_added": [
+        "ins_mollick-commission-not-steer",
+        "ins_krieger-async-agent-delegation",
+        "ins_xcode27-agent-skills-portability",
+        "ins_willison-apple-siri-vision-llm-bypass"
+      ],
+      "operators_added": [
+        "mike-krieger",
+        "antoine-van-der-lee"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-13.md",
       "date": "2026-06-13",

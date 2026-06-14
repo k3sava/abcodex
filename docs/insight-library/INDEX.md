@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 865 insight cards
-- 474 operator profiles
+- 869 insight cards
+- 476 operator profiles
 - 209 raw source files
 - 43 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (451)
+### Tier B (455)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -572,6 +572,7 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kate-syuma-build-in-public-lead-engine`](insights/ins_kate-syuma-build-in-public-lead-engine.md) — Building in public is the only growth channel you need if you share real insights. _(Kate Syuma)_
 - [`ins_kate-syuma-spacious-schedule-deep-work`](insights/ins_kate-syuma-spacious-schedule-deep-work.md) — After six years scaling Miro to a unicorn, the lesson was: design for transformation, not promotion _(Kate Syuma)_
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
+- [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
 - [`ins_kyle-james-graveyard-of-incomplete-agents`](insights/ins_kyle-james-graveyard-of-incomplete-agents.md) — A graveyard of incomplete agents is where the good stuff lives _(Kyle James)_
 - [`ins_kyle-poyar-ai-recommendation-share`](insights/ins_kyle-poyar-ai-recommendation-share.md) — The AEO metric is recommendation-share, not citation volume. AI responses recommend products; they do not list links. _(Kyle Poyar)_
@@ -621,6 +622,7 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
 - [`ins_misunderstood-exact-people-fighting`](insights/ins_misunderstood-exact-people-fighting.md) — • You'll be misunderstood by the exact people you are fighting for _(Ani Filipova)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
+- [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
 - [`ins_most-gtm-strategies-fail-because`](insights/ins_most-gtm-strategies-fail-because.md) — Most GTM strategies fail because they're built for 2020, not 2025 _(Kabir Uppal)_
@@ -795,10 +797,12 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-generic-hits-ceiling-here-gorish`](insights/ins_why-generic-hits-ceiling-here-gorish.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Gorish Aggarwal)_
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
+- [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
+- [`ins_xcode27-agent-skills-portability`](insights/ins_xcode27-agent-skills-portability.md) — Xcode 27 Agent Skills make Apple-endorsed AI knowledge portable across Claude, Codex, and Cursor _(Antoine van der Lee)_
 - [`ins_y-combinator-ai-form-fill-autonomy`](insights/ins_y-combinator-ai-form-fill-autonomy.md) — Autonomous AI agents for niche B2B workflows can save double-digit hours weekly _(Y Combinator)_
 - [`ins_yael-davidowitz-pmm-shifts-consolidation-elevation`](insights/ins_yael-davidowitz-pmm-shifts-consolidation-elevation.md) — Product marketing is being elevated while in-house roles contract. _(Yael Davidowitz)_
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
@@ -940,6 +944,7 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [Annie Duke](operators/annie-duke/README.md)
 - [Anthony Pierri](operators/anthony-pierri/README.md)
 - [Anthropic](operators/anthropic/README.md)
+- [Antoine van der Lee](operators/antoine-van-der-lee/README.md)
 - [Anton Osika](operators/anton-osika/README.md)
 - [Anuj Rathi](operators/anuj-rathi/README.md)
 - [Aparna Chennapragada](operators/aparna-chennapragada/README.md)
@@ -1192,6 +1197,7 @@ _Generated 2026-06-13. Auto-built from frontmatter — do not edit by hand._
 - [Michele Nieberding](operators/michele-nieberding/README.md)
 - [Mihika Kapoor](operators/mihika-kapoor/README.md)
 - [Mike King](operators/mike-king/README.md)
+- [Mike Krieger](operators/mike-krieger/README.md)
 - [Mike Michalowicz](operators/mike-michalowicz/README.md)
 - [Mina ..](operators/mina/README.md)
 - [Momoko Price](operators/momoko-price/README.md)
