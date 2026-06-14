@@ -43,7 +43,7 @@ When Krieger pushed back on an output:
 
 > "it doesn't give an immediate knee-jerk 'yeah, that's right, I'll go fix it'—it's more, 'Let me think about that for a minute'"
 
-He described maintaining "a lot more concurrent sessions than before" and running "five or six tabs tackling long comprehensive work." For a personal project, he "almost never" reviewed detailed code because he did not need long-term maintainability.
+He described maintaining "a lot more concurrent sessions than before" with multiple deep work sessions running in parallel. For a personal project, he "almost never" reviewed detailed code because he did not need long-term maintainability.
 
 ## Signals
 - Your active session count rises because you review outputs rather than direct each step.

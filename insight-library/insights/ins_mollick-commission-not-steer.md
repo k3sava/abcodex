@@ -48,6 +48,6 @@ He concluded the model "outperformed basically every other public model I have u
 Mollick notes that production costs with Fable 5 are "genuinely unclear" because it is twice the price of Opus and burns tokens fast across long runs. The commissioning frame requires a task that can be specified clearly in advance. Exploratory or open-ended work may still require interactive steering. Mollick also flagged that safety guardrails trip too often on security-adjacent requests, defaulting to a smaller model mid-task and breaking the autonomous run.
 
 ## Cross-references
-- `ins_mollick-co-existence-phase-shift`: co-existence provides the strategic frame for why commissioning is now the right mode for many knowledge tasks.
+- `ins_mollick-co-existence-phase-shift`: co-existence provides the macro frame for why commissioning is now the right mode for many knowledge tasks.
 - `ins_mollick-patron-not-wizard`: the patron role (setting constraints, not executing) is the practical precursor to the commissioning frame described here.
 - `ins_willison-fable-relentlessly-proactive`: Willison's breadth-first agent behavior is the underlying mechanism that makes commissioning viable across long, unpredicted paths.
