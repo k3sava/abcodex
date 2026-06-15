@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-14 · 4 insights · 2 operators
+### Latest · 2026-06-15 · 3 insights · 3 operators
 
-**What landed today, 2026-06-14.** Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.
+**What landed today, 2026-06-15.** Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.
 
-[Read what landed →](insight-library/daily/2026-06-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **869** insight cards
-- **476** operator profiles
+- **872** insight cards
+- **479** operator profiles
 - **43** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 476 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 479 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
