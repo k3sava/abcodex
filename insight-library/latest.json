@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-06-14T01:47:45.631Z",
+  "generated_at": "2026-06-15T02:04:50.137Z",
   "latest_daily": {
-    "path": "daily/2026-06-14.md",
-    "date": "2026-06-14",
-    "title": "What landed today, 2026-06-14",
-    "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
+    "path": "daily/2026-06-15.md",
+    "date": "2026-06-15",
+    "title": "What landed today, 2026-06-15",
+    "summary": "Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.",
     "sources": [
-      "morning research scan 2026-06-14"
+      "morning research scan 2026-06-15"
     ],
     "insights_added": [
-      "ins_mollick-commission-not-steer",
-      "ins_krieger-async-agent-delegation",
-      "ins_xcode27-agent-skills-portability",
-      "ins_willison-apple-siri-vision-llm-bypass"
+      "ins_krouse-claude-top-acquisition-channel",
+      "ins_mlx-jaccl-cluster-inference",
+      "ins_gerhardt-buyer-ai-presales-research"
     ],
     "operators_added": [
-      "mike-krieger",
-      "antoine-van-der-lee"
+      "steve-krouse",
+      "angelos-katharopoulos",
+      "awni-hannun"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-15.md",
+      "date": "2026-06-15",
+      "title": "What landed today, 2026-06-15",
+      "summary": "Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.",
+      "sources": [
+        "morning research scan 2026-06-15"
+      ],
+      "insights_added": [
+        "ins_krouse-claude-top-acquisition-channel",
+        "ins_mlx-jaccl-cluster-inference",
+        "ins_gerhardt-buyer-ai-presales-research"
+      ],
+      "operators_added": [
+        "steve-krouse",
+        "angelos-katharopoulos",
+        "awni-hannun"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-14.md",
       "date": "2026-06-14",

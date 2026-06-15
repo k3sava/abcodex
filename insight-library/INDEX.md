@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 869 insight cards
-- 476 operator profiles
+- 872 insight cards
+- 479 operator profiles
 - 209 raw source files
 - 43 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (455)
+### Tier B (457)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -574,6 +574,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
 - [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
+- [`ins_krouse-claude-top-acquisition-channel`](insights/ins_krouse-claude-top-acquisition-channel.md) — A coding agent that actively deploys to a platform can become its single largest user-acquisition channel _(Steve Krouse)_
 - [`ins_kyle-james-graveyard-of-incomplete-agents`](insights/ins_kyle-james-graveyard-of-incomplete-agents.md) — A graveyard of incomplete agents is where the good stuff lives _(Kyle James)_
 - [`ins_kyle-poyar-ai-recommendation-share`](insights/ins_kyle-poyar-ai-recommendation-share.md) — The AEO metric is recommendation-share, not citation volume. AI responses recommend products; they do not list links. _(Kyle Poyar)_
 - [`ins_kyle-poyar-continuous-monitoring-agents`](insights/ins_kyle-poyar-continuous-monitoring-agents.md) — GTM automation shifted from triggered batch automations to continuous-monitoring agents in under 18 months. The agent decides when to act. _(Kyle Poyar)_
@@ -621,6 +622,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_miller-storybrand-is-execution-not-strategy`](insights/ins_miller-storybrand-is-execution-not-strategy.md) — StoryBrand clarifies *how* you communicate, not *what* you should stand for, strategy still has to come first _(Donald Miller)_
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
 - [`ins_misunderstood-exact-people-fighting`](insights/ins_misunderstood-exact-people-fighting.md) — • You'll be misunderstood by the exact people you are fighting for _(Ani Filipova)_
+- [`ins_mlx-jaccl-cluster-inference`](insights/ins_mlx-jaccl-cluster-inference.md) — Linking Apple Silicon Macs over Thunderbolt 5 with JACCL achieves 3x LLM inference speed and enables trillion-parameter local inference _(Angelos Katharopoulos)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
@@ -809,7 +811,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 
-### Tier C (76)
+### Tier C (77)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -838,6 +840,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dyutismita-das-managing-hr-burnout`](insights/ins_dyutismita-das-managing-hr-burnout.md) — Managing HR burnout is a relatable struggle in the current work environment. _(Dyutismita Das)_
 - [`ins_elena-ostanina-core-pmm-foundations`](insights/ins_elena-ostanina-core-pmm-foundations.md) — Two core PMM foundations: user insights and lifecycle content marketing _(Elena Ostanina)_
 - [`ins_gaurav-sharma-life-as-code`](insights/ins_gaurav-sharma-life-as-code.md) — Life is not chaos but code; we are scripted souls executing a task. _(Gaurav Sharma)_
+- [`ins_gerhardt-buyer-ai-presales-research`](insights/ins_gerhardt-buyer-ai-presales-research.md) — B2B buyers now research vendors in AI tools before any sales contact, making AI-search discoverability a pre-funnel requirement _(Dave Gerhardt)_
 - [`ins_grace-allen-data-driven-storytelling-pmm-hire`](insights/ins_grace-allen-data-driven-storytelling-pmm-hire.md) — Hiring a Senior PMM with passion for data-driven storytelling at The Weather Company _(Grace Allen)_
 - [`ins_hans-dekker-pre-built-ai-skills-for-gtm`](insights/ins_hans-dekker-pre-built-ai-skills-for-gtm.md) — Pre-built Claude skills eliminate blank-page paralysis for GTM teams _(Hans Dekker)_
 - [`ins_harsha-annadurai-building-high-performing-teams`](insights/ins_harsha-annadurai-building-high-performing-teams.md) — Building high-performing content, PMM, and marketing teams requires a specific, intentional approach. _(Harsha Annadurai)_
@@ -931,6 +934,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [Andy Crestodina](operators/andy-crestodina/README.md)
 - [Andy McCotter](operators/andy-mccotter/README.md)
 - [Andy Raskin](operators/andy-raskin/README.md)
+- [Angelos Katharopoulos](operators/angelos-katharopoulos/README.md)
 - [Ani Filipova](operators/ani-filipova/README.md)
 - [Aniket Parihar](operators/aniket-parihar/README.md)
 - [Anip Prakash](operators/anip-prakash/README.md)
@@ -957,6 +961,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [Ashwin Krishna](operators/ashwin-krishna/README.md)
 - [Ashwin SL](operators/ashwin-sl/README.md)
 - [Avinash Raghava](operators/avinash-raghava/README.md)
+- [Awni Hannun](operators/awni-hannun/README.md)
 - [Ayo Omojola](operators/ayo-omojola/README.md)
 - [Ayush Barnwal](operators/ayush-barnwal/README.md)
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
@@ -1317,6 +1322,7 @@ _Generated 2026-06-14. Auto-built from frontmatter — do not edit by hand._
 - [Srikanth Reddy](operators/srikanth-reddy/README.md)
 - [Stefan Gladbach](operators/stefan-gladbach/README.md)
 - [Steph Smith](operators/steph-smith/README.md)
+- [Steve Krouse](operators/steve-krouse/README.md)
 - [Steven Forth](operators/steven-forth/README.md)
 - [Sulagna Das](operators/sulagna-das/README.md)
 - [Sumit N.](operators/sumit-n/README.md)
