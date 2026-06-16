@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-06-15T02:04:50.073Z",
+  "generated_at": "2026-06-16T01:55:42.103Z",
   "counts": {
-    "insights": 872,
-    "operators": 479,
+    "insights": 875,
+    "operators": 482,
     "raw_sources": 209,
     "patterns": 43,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 26
+    "daily": 27
   },
   "latest_daily": {
-    "path": "daily/2026-06-15.md",
-    "date": "2026-06-15",
-    "title": "What landed today, 2026-06-15",
-    "summary": "Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.",
+    "path": "daily/2026-06-16.md",
+    "date": "2026-06-16",
+    "title": "What landed today, 2026-06-16",
+    "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
     "sources": [
-      "morning research scan 2026-06-15"
+      "morning research scan 2026-06-16"
     ],
     "insights_added": [
-      "ins_krouse-claude-top-acquisition-channel",
-      "ins_mlx-jaccl-cluster-inference",
-      "ins_gerhardt-buyer-ai-presales-research"
+      "ins_decide-execute-deliver",
+      "ins_mccormick-ai-compiler-not-runtime",
+      "ins_tunguz-fable-safety-ceiling"
     ],
     "operators_added": [
-      "steve-krouse",
-      "angelos-katharopoulos",
-      "awni-hannun"
+      "arvind-narayanan",
+      "sayash-kapoor",
+      "markie-wagner"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -5436,6 +5436,41 @@
       ],
       "raw_ref": "raw/essays/amanda-natividad--death-of-ultimate-guide--2026-04-25.md",
       "title": "Sharper POV beats exhaustive coverage when an LLM is the summarizer"
+    },
+    {
+      "path": "insights/ins_decide-execute-deliver.md",
+      "id": "ins_decide-execute-deliver",
+      "operator": "Arvind Narayanan",
+      "operator_role": "Professor of Computer Science, Princeton University; co-author of AI Snake Oil",
+      "co_operators": [
+        "Sayash Kapoor"
+      ],
+      "source_url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "source_type": "essay",
+      "source_title": "Why AI hasn't replaced software engineers, and won't",
+      "source_date": "2026-06-11",
+      "captured_date": "2026-06-16",
+      "domain": [
+        "future-of-work",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_judgment-vs-understanding",
+        "ins_kevin-indig-verification-cost-rising",
+        "ins_anthropic-glasswing-verification-bottleneck-shift"
+      ],
+      "raw_ref": "",
+      "title": "AI compresses execution in knowledge work but leaves specification and delivery as human-owned layers"
     },
     {
       "path": "insights/ins_decoy-effect-pricing.md",
@@ -12765,6 +12800,40 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_mccormick-ai-compiler-not-runtime.md",
+      "id": "ins_mccormick-ai-compiler-not-runtime",
+      "operator": "Packy McCormick",
+      "operator_role": "Founder, Not Boring Capital; writer, Not Boring newsletter",
+      "co_operators": [
+        "Markie Wagner"
+      ],
+      "source_url": "https://www.notboring.co/p/return-on-tokens-rot",
+      "source_type": "essay",
+      "source_title": "Return on Tokens (ROT)",
+      "source_date": "2026-06-10",
+      "captured_date": "2026-06-16",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_dark-factory-pattern",
+        "ins_skill-distillation-frontier-teacher"
+      ],
+      "raw_ref": "",
+      "title": "Using AI as a compiler converts expensive thinking into cheap deterministic doing"
     },
     {
       "path": "insights/ins_mccormick-ai-makes-consensus-cheap.md",
@@ -22443,6 +22512,36 @@
       "title": "Strangers → friends → customers, three trust thresholds, three different message types"
     },
     {
+      "path": "insights/ins_tunguz-fable-safety-ceiling.md",
+      "id": "ins_tunguz-fable-safety-ceiling",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/upper-bound-corporate-ai/",
+      "source_type": "essay",
+      "source_title": "The AI Glass Ceiling",
+      "source_date": "2026-06-10",
+      "captured_date": "2026-06-16",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-silent-degradation-trust-gap",
+        "ins_intelligence-per-dollar-model-metric"
+      ],
+      "raw_ref": "",
+      "title": "Frontier AI deployment is now constrained by safety policy, not by model capability"
+    },
+    {
       "path": "insights/ins_tunguz-minimill-local-routing.md",
       "id": "ins_tunguz-minimill-local-routing",
       "operator": "Tomasz Tunguz",
@@ -25188,6 +25287,25 @@
         "newsletter": "https://thebootstrappedfounder.com/"
       },
       "title": "Arvid Kahl"
+    },
+    {
+      "path": "operators/arvind-narayanan/README.md",
+      "name": "Arvind Narayanan",
+      "slug": "arvind-narayanan",
+      "roles": [
+        "Professor of Computer Science, Princeton University",
+        "Co-author, AI Snake Oil (Princeton University Press, 2024)"
+      ],
+      "domains_active": [
+        "future-of-work",
+        "ai-native",
+        "research"
+      ],
+      "captured_first": "2026-06-16",
+      "external": {
+        "newsletter": "https://www.aisnakeoil.com/"
+      },
+      "title": "Arvind Narayanan"
     },
     {
       "path": "operators/asha-sharma/README.md",
@@ -29419,6 +29537,24 @@
       "title": "Marketoonist"
     },
     {
+      "path": "operators/markie-wagner/README.md",
+      "name": "Markie Wagner",
+      "slug": "markie-wagner",
+      "roles": [
+        "Founder, Poetic (AI-native business process platform)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "founder-operator",
+        "engineering"
+      ],
+      "captured_first": "2026-06-16",
+      "external": {
+        "newsletter": "unknown"
+      },
+      "title": "Markie Wagner"
+    },
+    {
       "path": "operators/martin-uushona/README.md",
       "name": "Martin Uushona",
       "slug": "martin-uushona",
@@ -31388,6 +31524,25 @@
         "linkedin": "https://www.linkedin.com/in/sarahlevinger/"
       },
       "title": "Sarah Levinger"
+    },
+    {
+      "path": "operators/sayash-kapoor/README.md",
+      "name": "Sayash Kapoor",
+      "slug": "sayash-kapoor",
+      "roles": [
+        "AI Researcher, Princeton University",
+        "Co-author, AI Snake Oil (Princeton University Press, 2024)"
+      ],
+      "domains_active": [
+        "future-of-work",
+        "ai-native",
+        "research"
+      ],
+      "captured_first": "2026-06-16",
+      "external": {
+        "newsletter": "https://www.aisnakeoil.com/"
+      },
+      "title": "Sayash Kapoor"
     },
     {
       "path": "operators/scott-galloway/README.md",
@@ -38750,6 +38905,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-16.md",
+      "date": "2026-06-16",
+      "title": "What landed today, 2026-06-16",
+      "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
+      "sources": [
+        "morning research scan 2026-06-16"
+      ],
+      "insights_added": [
+        "ins_decide-execute-deliver",
+        "ins_mccormick-ai-compiler-not-runtime",
+        "ins_tunguz-fable-safety-ceiling"
+      ],
+      "operators_added": [
+        "arvind-narayanan",
+        "sayash-kapoor",
+        "markie-wagner"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-15.md",
       "date": "2026-06-15",
