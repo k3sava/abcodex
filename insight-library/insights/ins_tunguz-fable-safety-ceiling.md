@@ -49,7 +49,7 @@ He notes the ceiling is explicitly temporary: "It will rise over time."
 - Benchmark scores significantly higher than the observable product capability in controlled enterprise deployments.
 
 ## Counter-evidence
-Tunguz's framing is sympathetic to the labs' position. Critics argue the ceiling is commercial rather than safety-driven: limiting capability maintains pricing power and prevents commoditization. Simon Willison's June 10 documentation of Anthropic's silent safeguard policy (`ins_willison-silent-degradation-trust-gap`) shows that safety constraints can also serve competitive interests without being transparently disclosed. The distinction between genuine safety phasing and strategic capability withholding is difficult to verify from outside the lab.
+Tunguz's framing is sympathetic to the labs' position. Critics argue the ceiling is commercial rather than safety-driven: limiting capability maintains pricing power and prevents commoditization. Simon Willison's June 10 documentation of Anthropic's silent safeguard policy (`ins_willison-silent-degradation-trust-gap`) shows that safety constraints can also serve competitive interests without being transparently disclosed. The distinction between genuine safety phasing and deliberate capability withholding is difficult to verify from outside the lab.
 
 ## Cross-references
 - `ins_willison-silent-degradation-trust-gap`: Simon Willison's June 10 observation that safety constraints applied silently erode user trust; the two posts address the same policy from different vantage points.
