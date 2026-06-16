@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 872 insight cards
-- 479 operator profiles
+- 875 insight cards
+- 482 operator profiles
 - 209 raw source files
 - 43 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (457)
+### Tier B (460)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -476,6 +476,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_data-plumber-is-the-bottleneck`](insights/ins_data-plumber-is-the-bottleneck.md) — The data plumber is the highest-leverage early growth hire, ahead of creative or media _(Andrew Chen)_
 - [`ins_dave-steer-product-marketing-wins`](insights/ins_dave-steer-product-marketing-wins.md) — In fast-moving markets, winning companies are clear about who they're for, what they stand for, and why they matter. _(Dave Steer)_
 - [`ins_death-of-the-ultimate-guide`](insights/ins_death-of-the-ultimate-guide.md) — Sharper POV beats exhaustive coverage when an LLM is the summarizer _(Amanda Natividad)_
+- [`ins_decide-execute-deliver`](insights/ins_decide-execute-deliver.md) — AI compresses execution in knowledge work but leaves specification and delivery as human-owned layers _(Arvind Narayanan)_
 - [`ins_deepan-siddhu-rising-noise-floor`](insights/ins_deepan-siddhu-rising-noise-floor.md) — The B2B SaaS noise floor is rising, 2026 demands ruthless focus on pipeline mechanics. _(Deepan Siddhu)_
 - [`ins_delegation-one-hardest-skills-learn`](insights/ins_delegation-one-hardest-skills-learn.md) — Delegation is one of the hardest skills to learn (and practice) as a first-time manager _(Tamara Grominsky)_
 - [`ins_delivery-margin-three-levers`](insights/ins_delivery-margin-three-levers.md) — Most agencies suffer from indigestion, not starvation, measure delivery margin and the three levers that move it _(Marcel Petitpas)_
@@ -607,6 +608,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_marketing-debt-compounds-after-every-sprint`](insights/ins_marketing-debt-compounds-after-every-sprint.md) — Marketing debt is the gap between your actual product and your marketing footprint, and it compounds silently after every sprint _(Aatir Abdul Rauf)_
 - [`ins_max-schoening-agency-over-skills`](insights/ins_max-schoening-agency-over-skills.md) — Agency, not skills, separates people who thrive from those who fall behind. Skills are acquirable and AI-generatable; self-direction is not. _(Max Schoening)_
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
+- [`ins_mccormick-ai-compiler-not-runtime`](insights/ins_mccormick-ai-compiler-not-runtime.md) — Using AI as a compiler converts expensive thinking into cheap deterministic doing _(Packy McCormick)_
 - [`ins_mccormick-ai-makes-consensus-cheap`](insights/ins_mccormick-ai-makes-consensus-cheap.md) — AI makes consensus the default output; distinctiveness is now the only scarce input _(Packy McCormick)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_
@@ -775,6 +777,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
+- [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_uddhav-parab-awards-bait-system`](insights/ins_uddhav-parab-awards-bait-system.md) — Awards-bait campaigns are a structural necessity, not a choice, for creative leaders. _(Uddhav Parab)_
@@ -955,6 +958,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [April Dunford](operators/april-dunford/README.md)
 - [Archie Abrams](operators/archie-abrams/README.md)
 - [Arvid Kahl](operators/arvid-kahl/README.md)
+- [Arvind Narayanan](operators/arvind-narayanan/README.md)
 - [Asha Sharma](operators/asha-sharma/README.md)
 - [Ashley Bass](operators/ashley-bass/README.md)
 - [Ashley Herbert Popa](operators/ashley-herbert-popa/README.md)
@@ -1185,6 +1189,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [Mark Kosoglow](operators/mark-kosoglow/README.md)
 - [Mark Roberge](operators/mark-roberge/README.md)
 - [Marketoonist](operators/marketoonist/README.md)
+- [Markie Wagner](operators/markie-wagner/README.md)
 - [Martin Uushona](operators/martin-uushona/README.md)
 - [Martina Lauchengco](operators/martina-lauchengco/README.md)
 - [Marty Neumeier](operators/marty-neumeier/README.md)
@@ -1294,6 +1299,7 @@ _Generated 2026-06-15. Auto-built from frontmatter — do not edit by hand._
 - [Sanne IJspeerd](operators/sanne-ijspeerd/README.md)
 - [Sara Popken](operators/sara-popken/README.md)
 - [Sarah Levinger](operators/sarah-levinger/README.md)
+- [Sayash Kapoor](operators/sayash-kapoor/README.md)
 - [Scott Galloway](operators/scott-galloway/README.md)
 - [Sebastien Rankin](operators/sebastien-rankin/README.md)
 - [Seepiya Sahni](operators/seepiya-sahni/README.md)

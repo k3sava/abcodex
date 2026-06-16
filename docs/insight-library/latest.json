@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-06-15T02:04:50.137Z",
+  "generated_at": "2026-06-16T01:55:42.170Z",
   "latest_daily": {
-    "path": "daily/2026-06-15.md",
-    "date": "2026-06-15",
-    "title": "What landed today, 2026-06-15",
-    "summary": "Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.",
+    "path": "daily/2026-06-16.md",
+    "date": "2026-06-16",
+    "title": "What landed today, 2026-06-16",
+    "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
     "sources": [
-      "morning research scan 2026-06-15"
+      "morning research scan 2026-06-16"
     ],
     "insights_added": [
-      "ins_krouse-claude-top-acquisition-channel",
-      "ins_mlx-jaccl-cluster-inference",
-      "ins_gerhardt-buyer-ai-presales-research"
+      "ins_decide-execute-deliver",
+      "ins_mccormick-ai-compiler-not-runtime",
+      "ins_tunguz-fable-safety-ceiling"
     ],
     "operators_added": [
-      "steve-krouse",
-      "angelos-katharopoulos",
-      "awni-hannun"
+      "arvind-narayanan",
+      "sayash-kapoor",
+      "markie-wagner"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-16.md",
+      "date": "2026-06-16",
+      "title": "What landed today, 2026-06-16",
+      "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
+      "sources": [
+        "morning research scan 2026-06-16"
+      ],
+      "insights_added": [
+        "ins_decide-execute-deliver",
+        "ins_mccormick-ai-compiler-not-runtime",
+        "ins_tunguz-fable-safety-ceiling"
+      ],
+      "operators_added": [
+        "arvind-narayanan",
+        "sayash-kapoor",
+        "markie-wagner"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-15.md",
       "date": "2026-06-15",
