@@ -1,12 +1,12 @@
 # Codex Index
 
-_Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 875 insight cards
-- 482 operator profiles
+- 878 insight cards
+- 483 operator profiles
 - 209 raw source files
-- 43 synthesis patterns
+- 44 synthesis patterns
 - 11 contradictions
 - 28 playbooks
 
@@ -352,7 +352,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (460)
+### Tier B (463)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -708,6 +708,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roberge-technology-feedback-loop`](insights/ins_roberge-technology-feedback-loop.md) — Instrument every buyer interaction so the data feeds back into the four formulas, sales technology compounds, it doesn't just record _(Mark Roberge)_
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
+- [`ins_ronacher-safety-framing-access-restriction`](insights/ins_ronacher-safety-framing-access-restriction.md) — When safety restrictions align with financial incentives, treat the safety rationale as suspect _(Armin Ronacher)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-seats-pricing-ai-trap`](insights/ins_rory-woodbridge-seats-pricing-ai-trap.md) — Seats-based pricing is a logical trap when AI reduces the headcount tied to the metric _(Rory Woodbridge)_
@@ -778,6 +779,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_uddhav-parab-awards-bait-system`](insights/ins_uddhav-parab-awards-bait-system.md) — Awards-bait campaigns are a structural necessity, not a choice, for creative leaders. _(Uddhav Parab)_
@@ -803,6 +805,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
+- [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
@@ -957,6 +960,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [Aparna Chennapragada](operators/aparna-chennapragada/README.md)
 - [April Dunford](operators/april-dunford/README.md)
 - [Archie Abrams](operators/archie-abrams/README.md)
+- [Armin Ronacher](operators/armin-ronacher/README.md)
 - [Arvid Kahl](operators/arvid-kahl/README.md)
 - [Arvind Narayanan](operators/arvind-narayanan/README.md)
 - [Asha Sharma](operators/asha-sharma/README.md)
@@ -1390,6 +1394,7 @@ _Generated 2026-06-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
+- [`pat_ai-policy-constrains-capability`](synthesis/patterns/ai-policy-constrains-capability.md) — Frontier AI capability is now constrained by deliberate policy, not technical limits (3 ops) [Tier B]
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
 - [`pat_build-for-next-model`](synthesis/patterns/build-for-next-model.md) — Build for the next model, not the current one (6 ops) [Tier A]
 - [`pat_buyer-mindset-not-product-features`](synthesis/patterns/buyer-mindset-not-product-features.md) — Sell to the buyer's mindset, not to product features (5 ops) [Tier A]
