@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-16T01:55:42.103Z",
+  "generated_at": "2026-06-17T01:47:45.395Z",
   "counts": {
-    "insights": 875,
-    "operators": 482,
+    "insights": 878,
+    "operators": 483,
     "raw_sources": 209,
-    "patterns": 43,
+    "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 27
+    "daily": 28
   },
   "latest_daily": {
-    "path": "daily/2026-06-16.md",
-    "date": "2026-06-16",
-    "title": "What landed today, 2026-06-16",
-    "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
+    "path": "daily/2026-06-17.md",
+    "date": "2026-06-17",
+    "title": "What landed today, 2026-06-17",
+    "summary": "Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.",
     "sources": [
-      "morning research scan 2026-06-16"
+      "morning research scan 2026-06-17"
     ],
     "insights_added": [
-      "ins_decide-execute-deliver",
-      "ins_mccormick-ai-compiler-not-runtime",
-      "ins_tunguz-fable-safety-ceiling"
+      "ins_tunguz-harness-three-disciplines",
+      "ins_ronacher-safety-framing-access-restriction",
+      "ins_willison-defensive-security-export-controls"
     ],
     "operators_added": [
-      "arvind-narayanan",
-      "sayash-kapoor",
-      "markie-wagner"
+      "armin-ronacher"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_ai-policy-constrains-capability"
+    ],
     "playbooks_added": [],
     "patterns_updated": []
   },
@@ -18257,6 +18257,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_ronacher-safety-framing-access-restriction.md",
+      "id": "ins_ronacher-safety-framing-access-restriction",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/6/10/gaslighting/",
+      "source_type": "essay",
+      "source_title": "Gaslighting Openness",
+      "source_date": "2026-06-10",
+      "captured_date": "2026-06-17",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-fable-safety-ceiling",
+        "ins_willison-silent-degradation-trust-gap"
+      ],
+      "raw_ref": "",
+      "title": "When safety restrictions align with financial incentives, treat the safety rationale as suspect"
+    },
+    {
       "path": "insights/ins_rory-woodbridge-launch-tier-not-debate.md",
       "id": "ins_rory-woodbridge-launch-tier-not-debate",
       "operator": "Rory Woodbridge",
@@ -22542,6 +22571,37 @@
       "title": "Frontier AI deployment is now constrained by safety policy, not by model capability"
     },
     {
+      "path": "insights/ins_tunguz-harness-three-disciplines.md",
+      "id": "ins_tunguz-harness-three-disciplines",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/golden-age-of-applications/",
+      "source_type": "essay",
+      "source_title": "The Golden Age of AI Applications",
+      "source_date": "2026-06-15",
+      "captured_date": "2026-06-17",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-fable-safety-ceiling",
+        "ins_breunig-harness-lock-in-model-layer"
+      ],
+      "raw_ref": "",
+      "title": "AI competitive advantage has moved from model access to mastering three harness disciplines"
+    },
+    {
       "path": "insights/ins_tunguz-minimill-local-routing.md",
       "id": "ins_tunguz-minimill-local-routing",
       "operator": "Tomasz Tunguz",
@@ -23584,6 +23644,37 @@
       ],
       "raw_ref": "",
       "title": "Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code"
+    },
+    {
+      "path": "insights/ins_willison-defensive-security-export-controls.md",
+      "id": "ins_willison-defensive-security-export-controls",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent developer and blogger on LLM engineering",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/",
+      "source_type": "essay",
+      "source_title": "The Fable 5 Export Controls Harm US Cyber Defense",
+      "source_date": "2026-06-16",
+      "captured_date": "2026-06-17",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-silent-degradation-trust-gap",
+        "ins_tunguz-fable-safety-ceiling",
+        "ins_ronacher-safety-framing-access-restriction"
+      ],
+      "raw_ref": "",
+      "title": "AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow"
     },
     {
       "path": "insights/ins_willison-fable-relentlessly-proactive.md",
@@ -25267,6 +25358,25 @@
         "linkedin": "https://www.linkedin.com/in/archie-abrams-b6aa8b6/"
       },
       "title": "Archie Abrams"
+    },
+    {
+      "path": "operators/armin-ronacher/README.md",
+      "name": "Armin Ronacher",
+      "slug": "armin-ronacher",
+      "roles": [
+        "Creator of Flask, Jinja2, Click, and Werkzeug",
+        "Software engineer and independent writer on programming and AI"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "captured_first": "2026-06-17",
+      "external": {
+        "blog": "https://lucumr.pocoo.org/"
+      },
+      "title": "Armin Ronacher"
     },
     {
       "path": "operators/arvid-kahl/README.md",
@@ -36417,6 +36527,26 @@
       ]
     },
     {
+      "path": "synthesis/patterns/ai-policy-constrains-capability.md",
+      "id": "pat_ai-policy-constrains-capability",
+      "title": "Frontier AI capability is now constrained by deliberate policy, not technical limits",
+      "captured_date": "2026-06-17",
+      "convergence_count": "3",
+      "tier": "B",
+      "uses_cards": [
+        "ins_tunguz-fable-safety-ceiling",
+        "ins_tunguz-harness-three-disciplines",
+        "ins_willison-silent-degradation-trust-gap",
+        "ins_willison-defensive-security-export-controls",
+        "ins_ronacher-safety-framing-access-restriction"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ]
+    },
+    {
       "path": "synthesis/patterns/behavioral-pricing-architecture.md",
       "id": "pat_behavioral-pricing-architecture",
       "title": "Pricing is a behavioral-architecture problem",
@@ -38905,6 +39035,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-17.md",
+      "date": "2026-06-17",
+      "title": "What landed today, 2026-06-17",
+      "summary": "Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.",
+      "sources": [
+        "morning research scan 2026-06-17"
+      ],
+      "insights_added": [
+        "ins_tunguz-harness-three-disciplines",
+        "ins_ronacher-safety-framing-access-restriction",
+        "ins_willison-defensive-security-export-controls"
+      ],
+      "operators_added": [
+        "armin-ronacher"
+      ],
+      "patterns_added": [
+        "pat_ai-policy-constrains-capability"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-16.md",
       "date": "2026-06-16",
