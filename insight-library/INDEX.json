@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-17T01:47:45.395Z",
+  "generated_at": "2026-06-18T01:55:07.167Z",
   "counts": {
-    "insights": 878,
-    "operators": 483,
+    "insights": 882,
+    "operators": 485,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 28
+    "daily": 29
   },
   "latest_daily": {
-    "path": "daily/2026-06-17.md",
-    "date": "2026-06-17",
-    "title": "What landed today, 2026-06-17",
-    "summary": "Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.",
+    "path": "daily/2026-06-18.md",
+    "date": "2026-06-18",
+    "title": "What landed today, 2026-06-18",
+    "summary": "Four new cards, two new operators, no new patterns. Three themes from the first three weeks of June. Model savings get recycled into more tokens. Organizational structure sets the AI ceiling. Fast feedback is the discipline, not a tactic.",
     "sources": [
-      "morning research scan 2026-06-17"
+      "morning research scan 2026-06-18"
     ],
     "insights_added": [
-      "ins_tunguz-harness-three-disciplines",
-      "ins_ronacher-safety-framing-access-restriction",
-      "ins_willison-defensive-security-export-controls"
+      "ins_tunguz-model-substitution-reinvestment",
+      "ins_verna-agency-not-agents",
+      "ins_shipper-org-capability-ai-bottleneck",
+      "ins_ball-software-is-learning"
     ],
     "operators_added": [
-      "armin-ronacher"
+      "thorsten-ball",
+      "dan-shipper"
     ],
-    "patterns_added": [
-      "pat_ai-policy-constrains-capability"
-    ],
+    "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
@@ -2804,6 +2804,33 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/dave-gerhardt.md",
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
+    },
+    {
+      "path": "insights/ins_ball-software-is-learning.md",
+      "id": "ins_ball-software-is-learning",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineering Lead, Amp at Sourcegraph; author of Writing an Interpreter in Go and Writing a Compiler in Go",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/building-software-is-learning",
+      "source_type": "essay",
+      "source_title": "Building Software Is Learning",
+      "source_date": "2026-06-02",
+      "captured_date": "2026-06-18",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Minimizing time-to-feedback is the single most valuable practice when building new software"
     },
     {
       "path": "insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md",
@@ -19365,6 +19392,37 @@
       "title": "Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment"
     },
     {
+      "path": "insights/ins_shipper-org-capability-ai-bottleneck.md",
+      "id": "ins_shipper-org-capability-ai-bottleneck",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/p/company-wide-ai-implementation-in-five-steps",
+      "source_type": "essay",
+      "source_title": "Company-wide AI Implementation in Five Steps",
+      "source_date": "2026-06-01",
+      "captured_date": "2026-06-18",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_verna-agency-not-agents"
+      ],
+      "raw_ref": "",
+      "title": "The bottleneck for AI adoption has moved from model capability to organizational capability"
+    },
+    {
       "path": "insights/ins_shivangi-gautam-word-salad-critique.md",
       "id": "ins_shivangi-gautam-word-salad-critique",
       "title": "LinkedIn thought leadership is often word salad with no real point.",
@@ -22629,6 +22687,36 @@
       "title": "Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device"
     },
     {
+      "path": "insights/ins_tunguz-model-substitution-reinvestment.md",
+      "id": "ins_tunguz-model-substitution-reinvestment",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/inflation-deflation-ai/",
+      "source_type": "essay",
+      "source_title": "The Substitution Wave in AI",
+      "source_date": "2026-06-07",
+      "captured_date": "2026-06-18",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-three-disciplines"
+      ],
+      "raw_ref": "",
+      "title": "Model substitution savings are reinvested in more tokens, not returned to the budget"
+    },
+    {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
       "id": "ins_two-week-engineer-as-mini-pm",
       "operator": "Amole Naik",
@@ -22976,6 +23064,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_verna-agency-not-agents.md",
+      "id": "ins_verna-agency-not-agents",
+      "operator": "Elena Verna",
+      "operator_role": "Growth Advisor; former SVP at SurveyMonkey, Miro, Amplitude, and Netlify",
+      "co_operators": [],
+      "source_url": "https://www.elenaverna.com/p/your-ai-strategy-has-a-trust-problem",
+      "source_type": "essay",
+      "source_title": "Your company needs agency, not agents.",
+      "source_date": "2026-06-05",
+      "captured_date": "2026-06-18",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-org-capability-ai-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity"
     },
     {
       "path": "insights/ins_victor-c-leave-expiry-is-motivation-killer.md",
@@ -26533,6 +26651,26 @@
         "linkedin": "https://www.linkedin.com/in/dan-m-rosenthal/"
       },
       "title": "Dan Rosenthal"
+    },
+    {
+      "path": "operators/dan-shipper/README.md",
+      "name": "Dan Shipper",
+      "slug": "dan-shipper",
+      "roles": [
+        "CEO and co-founder, Every",
+        "AI-native media and software publisher"
+      ],
+      "domains_active": [
+        "ai-native",
+        "founder-operator",
+        "leadership-org"
+      ],
+      "captured_first": "2026-06-18",
+      "external": {
+        "newsletter": "https://every.to/@danshipper",
+        "website": "https://danshipper.com/"
+      },
+      "title": "Dan Shipper"
     },
     {
       "path": "operators/dani-romain/README.md",
@@ -32432,6 +32570,26 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "The AI Forum"
+    },
+    {
+      "path": "operators/thorsten-ball/README.md",
+      "name": "Thorsten Ball",
+      "slug": "thorsten-ball",
+      "roles": [
+        "Engineering Lead, Amp at Sourcegraph",
+        "Author of Writing an Interpreter in Go and Writing a Compiler in Go",
+        "Author of Register Spill newsletter"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-06-18",
+      "external": {
+        "newsletter": "https://registerspill.thorstenball.com/",
+        "website": "https://thorstenball.com/"
+      },
+      "title": "Thorsten Ball"
     },
     {
       "path": "operators/tiago-forte/README.md",
@@ -39035,6 +39193,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-18.md",
+      "date": "2026-06-18",
+      "title": "What landed today, 2026-06-18",
+      "summary": "Four new cards, two new operators, no new patterns. Three themes from the first three weeks of June. Model savings get recycled into more tokens. Organizational structure sets the AI ceiling. Fast feedback is the discipline, not a tactic.",
+      "sources": [
+        "morning research scan 2026-06-18"
+      ],
+      "insights_added": [
+        "ins_tunguz-model-substitution-reinvestment",
+        "ins_verna-agency-not-agents",
+        "ins_shipper-org-capability-ai-bottleneck",
+        "ins_ball-software-is-learning"
+      ],
+      "operators_added": [
+        "thorsten-ball",
+        "dan-shipper"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-17.md",
       "date": "2026-06-17",
