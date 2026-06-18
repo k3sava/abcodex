@@ -40,7 +40,7 @@ Verna writes from direct advisory experience with B2B SaaS companies:
 
 > "The goal is not more agents. It's more agency."
 
-She recommends testing the model with R&D or innovation teams before attempting org-wide transformation, noting that high-agency individuals may need to be recruited because organizational "muscle memory" prevents existing staff from embracing autonomy even when it is offered.
+She recommends testing the model with R&D or pilot teams before attempting org-wide transformation, noting that high-agency individuals may need to be recruited because organizational "muscle memory" prevents existing staff from embracing autonomy even when it is offered.
 
 ## Signals
 - High-performing individual contributors who joined for speed leave within 12 months citing slow decision-making.
