@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 01:57:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 16:18:48 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-26</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-26/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-26/</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-18</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-18/</link>
