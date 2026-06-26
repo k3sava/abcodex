@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-26. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 882 insight cards
-- 485 operator profiles
+- 885 insight cards
+- 486 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (467)
+### Tier B (470)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -782,6 +782,7 @@ _Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
+- [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
@@ -808,6 +809,7 @@ _Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-generic-hits-ceiling-here-gorish`](insights/ins_why-generic-hits-ceiling-here-gorish.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Gorish Aggarwal)_
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
+- [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
@@ -820,6 +822,7 @@ _Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
+- [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 
 ### Tier C (77)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
@@ -1008,6 +1011,7 @@ _Generated 2026-06-18. Auto-built from frontmatter — do not edit by hand._
 - [Chris Orlob](operators/chris-orlob/README.md)
 - [Chris Voss](operators/chris-voss/README.md)
 - [Chris Walker](operators/chris-walker/README.md)
+- [Chris Zukowski](operators/chris-zukowski/README.md)
 - [Christian Oland](operators/christian-oland/README.md)
 - [Christoph Janz](operators/christoph-janz/README.md)
 - [Ciana Abdollahian](operators/ciana-abdollahian/README.md)

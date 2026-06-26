@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-06-18T01:57:36.184Z",
+  "generated_at": "2026-06-26T16:18:45.727Z",
   "latest_daily": {
-    "path": "daily/2026-06-18.md",
-    "date": "2026-06-18",
-    "title": "What landed today, 2026-06-18",
-    "summary": "Four new cards, two new operators, no new patterns. Three themes from the first three weeks of June. Model savings get recycled into more tokens. Organizational structure sets the AI ceiling. Fast feedback is the discipline, not a tactic.",
+    "path": "daily/2026-06-26.md",
+    "date": "2026-06-26",
+    "title": "What landed today, 2026-06-26",
+    "summary": "Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.",
     "sources": [
-      "morning research scan 2026-06-18"
+      "morning research scan 2026-06-26"
     ],
     "insights_added": [
-      "ins_tunguz-model-substitution-reinvestment",
-      "ins_verna-agency-not-agents",
-      "ins_shipper-org-capability-ai-bottleneck",
-      "ins_ball-software-is-learning"
+      "ins_tunguz-inference-pricing-value-beats-cost-plus",
+      "ins_willison-agent-driven-ml-model-conversion",
+      "ins_zukowski-steam-personal-calendar-launch-discovery"
     ],
     "operators_added": [
-      "thorsten-ball",
-      "dan-shipper"
+      "chris-zukowski"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-26.md",
+      "date": "2026-06-26",
+      "title": "What landed today, 2026-06-26",
+      "summary": "Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.",
+      "sources": [
+        "morning research scan 2026-06-26"
+      ],
+      "insights_added": [
+        "ins_tunguz-inference-pricing-value-beats-cost-plus",
+        "ins_willison-agent-driven-ml-model-conversion",
+        "ins_zukowski-steam-personal-calendar-launch-discovery"
+      ],
+      "operators_added": [
+        "chris-zukowski"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-18.md",
       "date": "2026-06-18",
