@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-26 · 3 insights · 1 operator
+### Latest · 2026-06-27 · 3 insights
 
-**What landed today, 2026-06-26.** Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.
+**What landed today, 2026-06-27.** Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.
 
-[Read what landed →](insight-library/daily/2026-06-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **885** insight cards
+- **888** insight cards
 - **486** operator profiles
 - **44** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

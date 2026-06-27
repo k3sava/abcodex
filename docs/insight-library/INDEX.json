@@ -1,30 +1,28 @@
 {
-  "generated_at": "2026-06-26T16:18:45.708Z",
+  "generated_at": "2026-06-27T01:44:03.491Z",
   "counts": {
-    "insights": 885,
+    "insights": 888,
     "operators": 486,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 30
+    "daily": 31
   },
   "latest_daily": {
-    "path": "daily/2026-06-26.md",
-    "date": "2026-06-26",
-    "title": "What landed today, 2026-06-26",
-    "summary": "Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.",
+    "path": "daily/2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "What landed today, 2026-06-27",
+    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.",
     "sources": [
-      "morning research scan 2026-06-26"
+      "morning research scan 2026-06-27"
     ],
     "insights_added": [
-      "ins_tunguz-inference-pricing-value-beats-cost-plus",
-      "ins_willison-agent-driven-ml-model-conversion",
-      "ins_zukowski-steam-personal-calendar-launch-discovery"
+      "ins_willison-prompt-injection-role-confusion",
+      "ins_tunguz-async-inference-latency-tradeoff",
+      "ins_tunguz-app-layer-lagging-moat"
     ],
-    "operators_added": [
-      "chris-zukowski"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -22597,6 +22595,64 @@
       "title": "Strangers → friends → customers, three trust thresholds, three different message types"
     },
     {
+      "path": "insights/ins_tunguz-app-layer-lagging-moat.md",
+      "id": "ins_tunguz-app-layer-lagging-moat",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/what-if-there-is-no-moat/",
+      "source_type": "essay",
+      "source_title": "What If There Is No Moat Yet?",
+      "source_date": "2026-06-26",
+      "captured_date": "2026-06-27",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-inference-pricing-value-beats-cost-plus",
+        "ins_software-is-not-a-moat"
+      ],
+      "raw_ref": "",
+      "title": "Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage"
+    },
+    {
+      "path": "insights/ins_tunguz-async-inference-latency-tradeoff.md",
+      "id": "ins_tunguz-async-inference-latency-tradeoff",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/sail-inference-queue/",
+      "source_type": "essay",
+      "source_title": "Full Sail on Asynchronous Inference",
+      "source_date": "2026-06-25",
+      "captured_date": "2026-06-27",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-inference-pricing-value-beats-cost-plus"
+      ],
+      "raw_ref": "",
+      "title": "Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing"
+    },
+    {
       "path": "insights/ins_tunguz-fable-safety-ceiling.md",
       "id": "ins_tunguz-fable-safety-ceiling",
       "operator": "Tomasz Tunguz",
@@ -23906,6 +23962,35 @@
       ],
       "raw_ref": "",
       "title": "Asking a model about an obscure open-source project it has no incentive to fabricate is a practical proxy for its training depth"
+    },
+    {
+      "path": "insights/ins_willison-prompt-injection-role-confusion.md",
+      "id": "ins_willison-prompt-injection-role-confusion",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/",
+      "source_type": "essay",
+      "source_title": "Prompt Injection as Role Confusion",
+      "source_date": "2026-06-22",
+      "captured_date": "2026-06-27",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_willison-silent-degradation-trust-gap"
+      ],
+      "raw_ref": "",
+      "title": "Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception"
     },
     {
       "path": "insights/ins_willison-reliability-erodes-review-discipline.md",
@@ -39290,6 +39375,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-27.md",
+      "date": "2026-06-27",
+      "title": "What landed today, 2026-06-27",
+      "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.",
+      "sources": [
+        "morning research scan 2026-06-27"
+      ],
+      "insights_added": [
+        "ins_willison-prompt-injection-role-confusion",
+        "ins_tunguz-async-inference-latency-tradeoff",
+        "ins_tunguz-app-layer-lagging-moat"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-26.md",
       "date": "2026-06-26",
