@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Jun 2026 16:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 01:44:06 GMT</lastBuildDate>
+    <item>
+      <title>What landed today, 2026-06-27</title>
+      <link>https://abcodex.iamkesava.com/today/2026-06-27/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-27/</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.</description>
+    </item>
     <item>
       <title>What landed today, 2026-06-26</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-26/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-01/</guid>
       <pubDate>Fri, 01 May 2026 00:00:00 GMT</pubDate>
       <description>The day the corpus started. After two months of repository-only existence, the codex was reframed as a cross-domain operator-insight library. 109 insight cards and 174 operator profiles landed across 30+ ingest commits. Boris Cherny, Simon Willison, Cat Wu, April Dunford, Andy Raskin, Elena Verna, Brian Halligan, Asha Sharma, and many more got their first cards. The watchOS-inspired knowledge graph UI shipped alongside.</description>
-    </item>
-    <item>
-      <title>Repository initialized</title>
-      <link>https://abcodex.iamkesava.com/today/2026-03-03/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-03-03/</guid>
-      <pubDate>Tue, 03 Mar 2026 00:00:00 GMT</pubDate>
-      <description>Empty repo created. Two months later the codex framing landed and the first cards followed.</description>
     </item>
   </channel>
 </rss>

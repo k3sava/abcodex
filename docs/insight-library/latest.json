@@ -1,26 +1,42 @@
 {
-  "generated_at": "2026-06-26T16:18:45.727Z",
+  "generated_at": "2026-06-27T01:44:03.509Z",
   "latest_daily": {
-    "path": "daily/2026-06-26.md",
-    "date": "2026-06-26",
-    "title": "What landed today, 2026-06-26",
-    "summary": "Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.",
+    "path": "daily/2026-06-27.md",
+    "date": "2026-06-27",
+    "title": "What landed today, 2026-06-27",
+    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.",
     "sources": [
-      "morning research scan 2026-06-26"
+      "morning research scan 2026-06-27"
     ],
     "insights_added": [
-      "ins_tunguz-inference-pricing-value-beats-cost-plus",
-      "ins_willison-agent-driven-ml-model-conversion",
-      "ins_zukowski-steam-personal-calendar-launch-discovery"
+      "ins_willison-prompt-injection-role-confusion",
+      "ins_tunguz-async-inference-latency-tradeoff",
+      "ins_tunguz-app-layer-lagging-moat"
     ],
-    "operators_added": [
-      "chris-zukowski"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-27.md",
+      "date": "2026-06-27",
+      "title": "What landed today, 2026-06-27",
+      "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.",
+      "sources": [
+        "morning research scan 2026-06-27"
+      ],
+      "insights_added": [
+        "ins_willison-prompt-injection-role-confusion",
+        "ins_tunguz-async-inference-latency-tradeoff",
+        "ins_tunguz-app-layer-lagging-moat"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-26.md",
       "date": "2026-06-26",
@@ -701,19 +717,6 @@
         "playbooks_added": "0",
         "insights_modified": "1"
       },
-      "insights_added": [],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-03-03.md",
-      "date": "2026-03-03",
-      "title": "Repository initialized",
-      "summary": "Empty repo created. Two months later the codex framing landed and the first cards followed.",
-      "sources": [
-        "Initial commit"
-      ],
       "insights_added": [],
       "operators_added": [],
       "patterns_added": [],
