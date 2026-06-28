@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-06-27T01:44:03.491Z",
+  "generated_at": "2026-06-28T02:00:34.633Z",
   "counts": {
-    "insights": 888,
+    "insights": 891,
     "operators": 486,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 31
+    "daily": 32
   },
   "latest_daily": {
-    "path": "daily/2026-06-27.md",
-    "date": "2026-06-27",
-    "title": "What landed today, 2026-06-27",
-    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.",
+    "path": "daily/2026-06-28.md",
+    "date": "2026-06-28",
+    "title": "What landed today, 2026-06-28",
+    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.",
     "sources": [
-      "morning research scan 2026-06-27"
+      "morning research scan 2026-06-28"
     ],
     "insights_added": [
-      "ins_willison-prompt-injection-role-confusion",
-      "ins_tunguz-async-inference-latency-tradeoff",
-      "ins_tunguz-app-layer-lagging-moat"
+      "ins_indig-ai-substitution-positioning-harm",
+      "ins_ronacher-harness-loop-comprehension-cost",
+      "ins_swyx-meta-harness-convergence"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -9607,6 +9607,35 @@
       "title": "When behavior puzzles you, look at incentives, that's where every other model is downstream of"
     },
     {
+      "path": "insights/ins_indig-ai-substitution-positioning-harm.md",
+      "id": "ins_indig-ai-substitution-positioning-harm",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo, former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/stop-trying-to-replace-people-with",
+      "source_type": "essay",
+      "source_title": "Stop trying to replace people with AI",
+      "source_date": "2026-06-22",
+      "captured_date": "2026-06-28",
+      "domain": [
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-algorithm-visibility-rental"
+      ],
+      "raw_ref": "",
+      "title": "AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption"
+    },
+    {
       "path": "insights/ins_indig-algorithm-visibility-rental.md",
       "id": "ins_indig-algorithm-visibility-rental",
       "operator": "Kevin Indig",
@@ -18280,6 +18309,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_ronacher-harness-loop-comprehension-cost.md",
+      "id": "ins_ronacher-harness-loop-comprehension-cost",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "source_type": "essay",
+      "source_title": "The Coming Loop",
+      "source_date": "2026-06-23",
+      "captured_date": "2026-06-28",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-safety-framing-access-restriction"
+      ],
+      "raw_ref": "",
+      "title": "Unattended harness loops accumulate defensive complexity until codebases assume machine participation"
+    },
+    {
       "path": "insights/ins_ronacher-safety-framing-access-restriction.md",
       "id": "ins_ronacher-safety-framing-access-restriction",
       "operator": "Armin Ronacher",
@@ -21244,6 +21302,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_swyx-meta-harness-convergence.md",
+      "id": "ins_swyx-meta-harness-convergence",
+      "operator": "Swyx",
+      "operator_role": "Founder, Latent Space podcast and newsletter",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/ainews-its-meta-harness-summer",
+      "source_type": "recap",
+      "source_title": "It's Meta-Harness Summer",
+      "source_date": "2026-06-25",
+      "captured_date": "2026-06-28",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_swyx-scaling-without-slop",
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "Independent rediscovery of the same agent coordination layer at scale signals which open-source standard will form"
     },
     {
       "path": "insights/ins_swyx-scaling-without-slop.md",
@@ -39375,6 +39463,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-28.md",
+      "date": "2026-06-28",
+      "title": "What landed today, 2026-06-28",
+      "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.",
+      "sources": [
+        "morning research scan 2026-06-28"
+      ],
+      "insights_added": [
+        "ins_indig-ai-substitution-positioning-harm",
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_swyx-meta-harness-convergence"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-27.md",
       "date": "2026-06-27",

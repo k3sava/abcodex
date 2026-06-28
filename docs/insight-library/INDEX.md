@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-06-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 888 insight cards
+- 891 insight cards
 - 486 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
@@ -352,7 +352,7 @@ _Generated 2026-06-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (473)
+### Tier B (476)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -553,6 +553,7 @@ _Generated 2026-06-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
 - [`ins_icp-account-not-persona`](insights/ins_icp-account-not-persona.md) — An ICP isn't a buyer persona, it's an account-level definition that must be operationalized in CRM and product roadmap _(TK Kader)_
+- [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
@@ -709,6 +710,7 @@ _Generated 2026-06-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roberge-technology-feedback-loop`](insights/ins_roberge-technology-feedback-loop.md) — Instrument every buyer interaction so the data feeds back into the four formulas, sales technology compounds, it doesn't just record _(Mark Roberge)_
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
+- [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
 - [`ins_ronacher-safety-framing-access-restriction`](insights/ins_ronacher-safety-framing-access-restriction.md) — When safety restrictions align with financial incentives, treat the safety rationale as suspect _(Armin Ronacher)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
@@ -761,6 +763,7 @@ _Generated 2026-06-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sunny-sen-founder-mistakes-playbook`](insights/ins_sunny-sen-founder-mistakes-playbook.md) — Even experienced founders make avoidable mistakes without a structured playbook. _(Sunny Sen)_
 - [`ins_suraj-kripalani-cfa-orange-dinner-connections`](insights/ins_suraj-kripalani-cfa-orange-dinner-connections.md) — AI agents unlock creativity by removing the blank canvas, not by producing the final output _(Suraj Kripalani, CFA)_
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
+- [`ins_swyx-meta-harness-convergence`](insights/ins_swyx-meta-harness-convergence.md) — Independent rediscovery of the same agent coordination layer at scale signals which open-source standard will form _(Swyx)_
 - [`ins_swyx-scaling-without-slop`](insights/ins_swyx-scaling-without-slop.md) — In AI content, the quality lever is curation and a distinct point of view, not output volume. _(Swyx)_
 - [`ins_systems-of-action-replace-seller-stack`](insights/ins_systems-of-action-replace-seller-stack.md) — A "system of action" tier is replacing the seller's tab-stack _(Gartner)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_

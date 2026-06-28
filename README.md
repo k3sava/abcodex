@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-27 · 3 insights
+### Latest · 2026-06-28 · 3 insights
 
-**What landed today, 2026-06-27.** Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.
+**What landed today, 2026-06-28.** Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.
 
-[Read what landed →](insight-library/daily/2026-06-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **888** insight cards
+- **891** insight cards
 - **486** operator profiles
 - **44** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
