@@ -763,7 +763,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sunny-sen-founder-mistakes-playbook`](insights/ins_sunny-sen-founder-mistakes-playbook.md) — Even experienced founders make avoidable mistakes without a structured playbook. _(Sunny Sen)_
 - [`ins_suraj-kripalani-cfa-orange-dinner-connections`](insights/ins_suraj-kripalani-cfa-orange-dinner-connections.md) — AI agents unlock creativity by removing the blank canvas, not by producing the final output _(Suraj Kripalani, CFA)_
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
-- [`ins_swyx-meta-harness-convergence`](insights/ins_swyx-meta-harness-convergence.md) — Independent rediscovery of the same agent orchestration layer at scale signals which open-source standard will form _(Swyx)_
+- [`ins_swyx-meta-harness-convergence`](insights/ins_swyx-meta-harness-convergence.md) — Independent rediscovery of the same agent coordination layer at scale signals which open-source standard will form _(Swyx)_
 - [`ins_swyx-scaling-without-slop`](insights/ins_swyx-scaling-without-slop.md) — In AI content, the quality lever is curation and a distinct point of view, not output volume. _(Swyx)_
 - [`ins_systems-of-action-replace-seller-stack`](insights/ins_systems-of-action-replace-seller-stack.md) — A "system of action" tier is replacing the seller's tab-stack _(Gartner)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_
