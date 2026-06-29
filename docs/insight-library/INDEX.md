@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 891 insight cards
-- 486 operator profiles
+- 893 insight cards
+- 488 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (476)
+### Tier B (478)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -451,6 +451,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
 - [`ins_cognitive-surrender-agentic-defaults`](insights/ins_cognitive-surrender-agentic-defaults.md) — Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong _(Ethan Mollick)_
+- [`ins_cohen-rice-confidence-framework-noise`](insights/ins_cohen-rice-confidence-framework-noise.md) — RICE-style confidence scores are mathematically undefined and empirically uncorrelated with outcomes _(Jason Cohen)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
 - [`ins_commoditize-the-complement-ai`](insights/ins_commoditize-the-complement-ai.md) — AI labs are running the commoditize-the-complement playbook; tag features as core or complement quarterly _(Tomasz Tunguz)_
 - [`ins_company-of-one-define-enough`](insights/ins_company-of-one-define-enough.md) — A company of one questions whether growth is good, and defines "enough" before "more" _(Paul Jarvis)_
@@ -549,6 +550,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_homepage-five-second-trinity`](insights/ins_homepage-five-second-trinity.md) — B2B homepages must communicate use case, alternative, and result in five seconds _(Anthony Pierri)_
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
+- [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
 - [`ins_hyper-personalization-cold-email`](insights/ins_hyper-personalization-cold-email.md) — Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization _(Nick Abraham)_
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
@@ -1134,6 +1136,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [James Doman-Pipe](operators/james-doman-pipe/README.md)
 - [Jan Rosa](operators/jan-rosa/README.md)
 - [Jason B. Hart](operators/jason-b-hart/README.md)
+- [Jason Cohen](operators/jason-cohen/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
 - [Jason Lemkin](operators/jason-lemkin/README.md)
 - [Jason Oakley](operators/jason-oakley/README.md)
@@ -1146,6 +1149,7 @@ _Generated 2026-06-28. Auto-built from frontmatter — do not edit by hand._
 - [Jill Konrath](operators/jill-konrath/README.md)
 - [Jim Hamilton](operators/jim-hamilton/README.md)
 - [Jimmy Daly](operators/jimmy-daly/README.md)
+- [Joe Hudson](operators/joe-hudson/README.md)
 - [Joe Pulizzi](operators/joe-pulizzi/README.md)
 - [Joel Klettke](operators/joel-klettke/README.md)
 - [John Barrows](operators/john-barrows/README.md)

@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-06-28 · 3 insights
+### Latest · 2026-06-29 · 2 insights · 2 operators
 
-**What landed today, 2026-06-28.** Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.
+**What landed today, 2026-06-29.** Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.
 
-[Read what landed →](insight-library/daily/2026-06-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-06-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **891** insight cards
-- **486** operator profiles
+- **893** insight cards
+- **488** operator profiles
 - **44** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 486 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 488 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

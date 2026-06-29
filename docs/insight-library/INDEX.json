@@ -1,28 +1,30 @@
 {
-  "generated_at": "2026-06-28T02:00:34.633Z",
+  "generated_at": "2026-06-29T01:59:55.104Z",
   "counts": {
-    "insights": 891,
-    "operators": 486,
+    "insights": 893,
+    "operators": 488,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 32
+    "daily": 33
   },
   "latest_daily": {
-    "path": "daily/2026-06-28.md",
-    "date": "2026-06-28",
-    "title": "What landed today, 2026-06-28",
-    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.",
+    "path": "daily/2026-06-29.md",
+    "date": "2026-06-29",
+    "title": "What landed today, 2026-06-29",
+    "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
     "sources": [
-      "morning research scan 2026-06-28"
+      "morning research scan 2026-06-29"
     ],
     "insights_added": [
-      "ins_indig-ai-substitution-positioning-harm",
-      "ins_ronacher-harness-loop-comprehension-cost",
-      "ins_swyx-meta-harness-convergence"
+      "ins_hudson-emotional-clarity-ai-advantage",
+      "ins_cohen-rice-confidence-framework-noise"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "joe-hudson",
+      "jason-cohen"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4392,6 +4394,35 @@
       ],
       "raw_ref": "",
       "title": "Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong"
+    },
+    {
+      "path": "insights/ins_cohen-rice-confidence-framework-noise.md",
+      "id": "ins_cohen-rice-confidence-framework-noise",
+      "operator": "Jason Cohen",
+      "operator_role": "Founder, WP Engine; writer at A Smart Bear",
+      "co_operators": [],
+      "source_url": "https://longform.asmartbear.com/confidence/",
+      "source_type": "essay",
+      "source_title": "Lost confidence",
+      "source_date": "2026-06-21",
+      "captured_date": "2026-06-29",
+      "domain": [
+        "product-management",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "process-operating-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_wysiati-overconfidence"
+      ],
+      "raw_ref": "",
+      "title": "RICE-style confidence scores are mathematically undefined and empirically uncorrelated with outcomes"
     },
     {
       "path": "insights/ins_colby-hoke-role-split-reflects-market-maturity.md",
@@ -9382,6 +9413,38 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents)"
+    },
+    {
+      "path": "insights/ins_hudson-emotional-clarity-ai-advantage.md",
+      "id": "ins_hudson-emotional-clarity-ai-advantage",
+      "operator": "Joe Hudson",
+      "operator_role": "Founder, Art of Accomplishment; executive coach",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
+      "source_type": "essay",
+      "source_title": "The new inner game: Your unfair advantage in the age of AI",
+      "source_date": "2026-06-23",
+      "captured_date": "2026-06-29",
+      "domain": [
+        "future-of-work",
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow-tooling",
+        "process-operating-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ai-substitution-positioning-harm",
+        "ins_swyx-meta-harness-convergence"
+      ],
+      "raw_ref": "",
+      "title": "Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort"
     },
     {
       "path": "insights/ins_hyper-personalization-cold-email.md",
@@ -28708,6 +28771,25 @@
       "title": "Jason B. Hart"
     },
     {
+      "path": "operators/jason-cohen/README.md",
+      "name": "Jason Cohen",
+      "slug": "jason-cohen",
+      "roles": [
+        "Founder, WP Engine",
+        "Writer, A Smart Bear (longform.asmartbear.com)"
+      ],
+      "domains_active": [
+        "product-management",
+        "founder-operator-craft",
+        "saas"
+      ],
+      "captured_first": "2026-06-29",
+      "external": {
+        "blog": "https://longform.asmartbear.com"
+      },
+      "title": "Jason Cohen"
+    },
+    {
       "path": "operators/jason-fried/README.md",
       "name": "Jason Fried",
       "slug": "jason-fried",
@@ -28942,6 +29024,25 @@
         "linkedin": "https://www.linkedin.com/in/jimmydaly/"
       },
       "title": "Jimmy Daly"
+    },
+    {
+      "path": "operators/joe-hudson/README.md",
+      "name": "Joe Hudson",
+      "slug": "joe-hudson",
+      "roles": [
+        "Founder, Art of Accomplishment"
+      ],
+      "domains_active": [
+        "leadership-org",
+        "future-of-work",
+        "ai-native"
+      ],
+      "captured_first": "2026-06-29",
+      "external": {
+        "website": "https://www.artofaccomplishment.com",
+        "newsletter": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage"
+      },
+      "title": "Joe Hudson"
     },
     {
       "path": "operators/joe-pulizzi/README.md",
@@ -39463,6 +39564,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-29.md",
+      "date": "2026-06-29",
+      "title": "What landed today, 2026-06-29",
+      "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
+      "sources": [
+        "morning research scan 2026-06-29"
+      ],
+      "insights_added": [
+        "ins_hudson-emotional-clarity-ai-advantage",
+        "ins_cohen-rice-confidence-framework-noise"
+      ],
+      "operators_added": [
+        "joe-hudson",
+        "jason-cohen"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-28.md",
       "date": "2026-06-28",
