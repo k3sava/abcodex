@@ -49,7 +49,7 @@ He presents the 2x2 of (high confidence / low confidence) × (succeeded / failed
 ## Signals
 - Teams remove confidence from their scoring formula and report no measurable degradation in prioritization quality.
 - Projects that were previously deprioritized due to low confidence scores are re-evaluated using asymmetric-bet or always-true criteria, and some prove high-value.
-- Confidence-scored backlogs correlate with high predictability and low strategic impact over time.
+- Confidence-scored backlogs correlate with high predictability and low directional impact over time.
 
 ## Counter-evidence
 Some teams report that the act of discussing confidence during scoring sessions surfaces tacit disagreements about feasibility and market risk, even when the number itself is unreliable. The score functions as a forcing function for conversation, not as a data point.
