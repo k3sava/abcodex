@@ -1,24 +1,46 @@
 {
-  "generated_at": "2026-06-28T02:00:34.652Z",
+  "generated_at": "2026-06-29T01:59:55.123Z",
   "latest_daily": {
-    "path": "daily/2026-06-28.md",
-    "date": "2026-06-28",
-    "title": "What landed today, 2026-06-28",
-    "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.",
+    "path": "daily/2026-06-29.md",
+    "date": "2026-06-29",
+    "title": "What landed today, 2026-06-29",
+    "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
     "sources": [
-      "morning research scan 2026-06-28"
+      "morning research scan 2026-06-29"
     ],
     "insights_added": [
-      "ins_indig-ai-substitution-positioning-harm",
-      "ins_ronacher-harness-loop-comprehension-cost",
-      "ins_swyx-meta-harness-convergence"
+      "ins_hudson-emotional-clarity-ai-advantage",
+      "ins_cohen-rice-confidence-framework-noise"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "joe-hudson",
+      "jason-cohen"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-06-29.md",
+      "date": "2026-06-29",
+      "title": "What landed today, 2026-06-29",
+      "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
+      "sources": [
+        "morning research scan 2026-06-29"
+      ],
+      "insights_added": [
+        "ins_hudson-emotional-clarity-ai-advantage",
+        "ins_cohen-rice-confidence-framework-noise"
+      ],
+      "operators_added": [
+        "joe-hudson",
+        "jason-cohen"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-28.md",
       "date": "2026-06-28",
@@ -688,29 +710,6 @@
         "contradictions_added": "0",
         "playbooks_added": "0",
         "insights_modified": "19"
-      },
-      "insights_added": [],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-02.md",
-      "date": "2026-05-02",
-      "title": "Pass C orphan ingestion + first synthesis patterns + Curiosity backfill",
-      "summary": "The biggest single ingest day in the corpus's life. 318 insight cards, 117 new operator profiles, 24 synthesis patterns, 9 contradictions, and 23 methodology playbooks all landed, on top of 286 card modifications from a launch-ready scrub. Pass C orphan-ingestion ran in 6 batches; Curiosity backfill ran in 8 batches adding external links across hundreds of profiles; the audit pass closed 8 stubs, validated 30 URLs, repaired 73 cards.",
-      "sources": [
-        "Pass C orphan ingestion (batches 1-6)",
-        "Curiosity backfill external links (batches 1-8)",
-        "Audit: launch-ready scrub"
-      ],
-      "counts_verified_from_git": {
-        "insights_added": "318",
-        "operators_added": "117",
-        "patterns_added": "24",
-        "contradictions_added": "9",
-        "playbooks_added": "23",
-        "insights_modified": "286"
       },
       "insights_added": [],
       "operators_added": [],
