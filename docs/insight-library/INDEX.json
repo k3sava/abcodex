@@ -1,29 +1,28 @@
 {
-  "generated_at": "2026-06-29T01:59:55.104Z",
+  "generated_at": "2026-06-30T01:53:56.414Z",
   "counts": {
-    "insights": 893,
-    "operators": 488,
+    "insights": 896,
+    "operators": 490,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 33
+    "daily": 34
   },
   "latest_daily": {
-    "path": "daily/2026-06-29.md",
-    "date": "2026-06-29",
-    "title": "What landed today, 2026-06-29",
-    "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
-    "sources": [
-      "morning research scan 2026-06-29"
-    ],
+    "path": "daily/2026-06-30.md",
+    "date": "2026-06-30",
+    "title": "AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering",
+    "summary": "Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.",
+    "sources": [],
     "insights_added": [
-      "ins_hudson-emotional-clarity-ai-advantage",
-      "ins_cohen-rice-confidence-framework-noise"
+      "ins_fishkin-ai-mention-direct-visit-lift",
+      "ins_tunguz-compute-cost-inversion",
+      "ins_johnston-holtz-agentic-skills-diffusion"
     ],
     "operators_added": [
-      "joe-hudson",
-      "jason-cohen"
+      "drew-johnston",
+      "david-holtz"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -7203,6 +7202,36 @@
       "title": "Pick a niche where the fish are; do not deadlift 300 pounds on day one"
     },
     {
+      "path": "insights/ins_fishkin-ai-mention-direct-visit-lift.md",
+      "id": "ins_fishkin-ai-mention-direct-visit-lift",
+      "operator": "Rand Fishkin",
+      "operator_role": "Co-founder and CEO, SparkToro; founder of Moz",
+      "co_operators": [],
+      "source_url": "https://sparktoro.com/blog/new-research-from-similarweb-how-ai-brand-mentions-influence-direct-visits-traditional-search-queries/",
+      "source_type": "research",
+      "source_title": "New Research from Similarweb: How AI Brand Mentions Influence Direct Visits & Traditional Search Queries",
+      "source_date": "2026-06-29",
+      "captured_date": "2026-06-30",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "attribution",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_fishkin-zero-click-walled-garden"
+      ],
+      "raw_ref": "",
+      "title": "AI brand recommendations produce a 7 to 14 percent direct visit lift within seven days"
+    },
+    {
       "path": "insights/ins_fishkin-inimitable-product-new-moat.md",
       "id": "ins_fishkin-inimitable-product-new-moat",
       "operator": "Rand Fishkin",
@@ -10439,6 +10468,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_johnston-holtz-agentic-skills-diffusion.md",
+      "id": "ins_johnston-holtz-agentic-skills-diffusion",
+      "operator": "Drew Johnston",
+      "operator_role": "Researcher, OpenAI",
+      "co_operators": [
+        "David Holtz"
+      ],
+      "source_url": "https://arxiv.org/abs/2606.26959",
+      "source_type": "research",
+      "source_title": "Agentic AI at Work: Evidence from a Large-Scale Deployment",
+      "source_date": "2026-06-25",
+      "captured_date": "2026-06-30",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Agentic AI spreads beyond engineering into legal and research roles when skills-sharing lowers the adoption floor"
     },
     {
       "path": "insights/ins_jolt-effect-customer-indecision.md",
@@ -22804,6 +22863,35 @@
       "title": "Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing"
     },
     {
+      "path": "insights/ins_tunguz-compute-cost-inversion.md",
+      "id": "ins_tunguz-compute-cost-inversion",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/ai-spend-breakeven-2029/",
+      "source_type": "essay",
+      "source_title": "When Does AI Spend Break Even?",
+      "source_date": "2026-06-29",
+      "captured_date": "2026-06-30",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-model-substitution-reinvestment"
+      ],
+      "raw_ref": "",
+      "title": "AI-native companies invert the traditional software cost structure, spending more on compute than on payroll"
+    },
+    {
       "path": "insights/ins_tunguz-fable-safety-ceiling.md",
       "id": "ins_tunguz-fable-safety-ceiling",
       "operator": "Tomasz Tunguz",
@@ -27246,6 +27334,25 @@
       "title": "David C. Baker"
     },
     {
+      "path": "operators/david-holtz/README.md",
+      "name": "David Holtz",
+      "slug": "david-holtz",
+      "roles": [
+        "Researcher, OpenAI"
+      ],
+      "domains_active": [
+        "ai-native",
+        "future-of-work",
+        "engineering"
+      ],
+      "captured_first": "2026-06-30",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "David Holtz"
+    },
+    {
       "path": "operators/david-ogilvy/README.md",
       "name": "David Ogilvy",
       "slug": "david-ogilvy",
@@ -27568,6 +27675,25 @@
       "captured_first": "2026-05-11",
       "external": "{ newsletter: \"https://dbreunig.com\" }",
       "title": "Drew Breunig"
+    },
+    {
+      "path": "operators/drew-johnston/README.md",
+      "name": "Drew Johnston",
+      "slug": "drew-johnston",
+      "roles": [
+        "Researcher, OpenAI"
+      ],
+      "domains_active": [
+        "ai-native",
+        "future-of-work",
+        "engineering"
+      ],
+      "captured_first": "2026-06-30",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "Drew Johnston"
     },
     {
       "path": "operators/dyutismita-das/README.md",
@@ -39564,6 +39690,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-06-30.md",
+      "date": "2026-06-30",
+      "title": "AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering",
+      "summary": "Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.",
+      "sources": [],
+      "insights_added": [
+        "ins_fishkin-ai-mention-direct-visit-lift",
+        "ins_tunguz-compute-cost-inversion",
+        "ins_johnston-holtz-agentic-skills-diffusion"
+      ],
+      "operators_added": [
+        "drew-johnston",
+        "david-holtz"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-29.md",
       "date": "2026-06-29",
