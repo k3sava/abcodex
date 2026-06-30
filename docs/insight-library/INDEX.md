@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 893 insight cards
-- 488 operator profiles
+- 896 insight cards
+- 490 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -352,7 +352,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (478)
+### Tier B (481)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -511,6 +511,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_fear-setting`](insights/ins_fear-setting.md) — What we fear doing most is usually what we most need to do, fear-set, don't goal-set _(Tim Ferriss)_
 - [`ins_felix-lee-designer-founders-rfs`](insights/ins_felix-lee-designer-founders-rfs.md) — YC's RFS for designer founders signals a shift in startup building _(Felix Lee)_
 - [`ins_first-one-going-rebuild-custom`](insights/ins_first-one-going-rebuild-custom.md) — My first one is going to be to rebuild my custom audio daily briefing that looks at my _(Sam Mallikarjunan)_
+- [`ins_fishkin-ai-mention-direct-visit-lift`](insights/ins_fishkin-ai-mention-direct-visit-lift.md) — AI brand recommendations produce a 7 to 14 percent direct visit lift within seven days _(Rand Fishkin)_
 - [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
 - [`ins_fishkin-platform-first-zero-click`](insights/ins_fishkin-platform-first-zero-click.md) — Web traffic is down 46 percent in three years: produce content made for platforms first, articles second _(Rand Fishkin)_
 - [`ins_fishkin-zero-click-walled-garden`](insights/ins_fishkin-zero-click-walled-garden.md) — Zero-click Google search has crossed 68% and will not reverse because Google's financial incentives now align with keeping users on-platform _(Rand Fishkin)_
@@ -569,6 +570,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ivan-wang-cmo-evotrex`](insights/ins_ivan-wang-cmo-evotrex.md) — All-electric trailers fail because they steal the boondocking battery, fix it with onboard generation _(Ivan Wang)_
 - [`ins_james-doman-founder-homepage-rewrite-signal`](insights/ins_james-doman-founder-homepage-rewrite-signal.md) — Rewriting the homepage repeatedly signals unclear GTM fundamentals. _(James Doman)_
 - [`ins_jedd-talbot-systems-over-ideas`](insights/ins_jedd-talbot-systems-over-ideas.md) — Reading business books without building systems is wasted effort; real value comes from deployable frameworks. _(Jedd Talbot)_
+- [`ins_johnston-holtz-agentic-skills-diffusion`](insights/ins_johnston-holtz-agentic-skills-diffusion.md) — Agentic AI spreads beyond engineering into legal and research roles when skills-sharing lowers the adoption floor _(Drew Johnston)_
 - [`ins_jonathan-pipek-pmm-c-suite-survey`](insights/ins_jonathan-pipek-pmm-c-suite-survey.md) — Modern B2B PMM lives or dies on distribution and partnerships _(Jonathan Pipek)_
 - [`ins_jtbd-personas-not-demographics`](insights/ins_jtbd-personas-not-demographics.md) — Personas built on demographics inform nothing; rebuild around Jobs to Be Done _(Adrienne Barnes)_
 - [`ins_juliana-katz-pmm-leaders-building-ai-capabilities`](insights/ins_juliana-katz-pmm-leaders-building-ai-capabilities.md) — PMM leaders who will thrive are already building these AI capabilities. _(Juliana Katz)_
@@ -787,6 +789,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
+- [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
@@ -1052,6 +1055,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [Dave Trott](operators/dave-trott/README.md)
 - [David Aaker](operators/david-aaker/README.md)
 - [David C. Baker](operators/david-c-baker/README.md)
+- [David Holtz](operators/david-holtz/README.md)
 - [David Ogilvy](operators/david-ogilvy/README.md)
 - [David Skok](operators/david-skok/README.md)
 - [Debbie Millman](operators/debbie-millman/README.md)
@@ -1069,6 +1073,7 @@ _Generated 2026-06-29. Auto-built from frontmatter — do not edit by hand._
 - [Dora Vanourek](operators/dora-vanourek/README.md)
 - [Doug Holt](operators/doug-holt/README.md)
 - [Drew Breunig](operators/drew-breunig/README.md)
+- [Drew Johnston](operators/drew-johnston/README.md)
 - [Dyutismita Das](operators/dyutismita-das/README.md)
 - [Eddie Shleyner](operators/eddie-shleyner/README.md)
 - [Elad Gil](operators/elad-gil/README.md)
