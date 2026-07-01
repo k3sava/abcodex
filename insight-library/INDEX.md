@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 896 insight cards
-- 490 operator profiles
+- 900 insight cards
+- 491 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (338)
+### Tier A (339)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -119,6 +119,7 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_harland-humor-must-serve-argument`](insights/ins_harland-humor-must-serve-argument.md) — Humor in copy is only valuable if removing it weakens the persuasive argument, decoration distracts; functional humor reframes _(Dave Harland)_
 - [`ins_harland-scream-principle`](insights/ins_harland-scream-principle.md) — Once per section, one sentence should scream, and the quiet sentences are what make the scream possible _(Dave Harland)_
 - [`ins_hiro-pipeline-metric`](insights/ins_hiro-pipeline-metric.md) — HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25% _(Chris Walker)_
+- [`ins_hitzig-domain-expertise-coding-parity`](insights/ins_hitzig-domain-expertise-coding-parity.md) — Domain expertise, not coding proficiency, predicts AI coding agent success across every occupation _(Zoe Hitzig)_
 - [`ins_housel-biggest-risk-nobody-talks-about`](insights/ins_housel-biggest-risk-nobody-talks-about.md) — The biggest risk is the one nobody is talking about, by definition, no one has prepared for it _(Morgan Housel)_
 - [`ins_housel-doing-nothing-during-crisis`](insights/ins_housel-doing-nothing-during-crisis.md) — Willingness to do nothing during crisis is one of the most valuable but underrated skills, most crisis actions destroy value _(Morgan Housel)_
 - [`ins_housel-pessimism-sounds-smarter`](insights/ins_housel-pessimism-sounds-smarter.md) — Pessimism sounds smarter than optimism, and progress happens slowly enough to be invisible, so people systematically underestimate how much better things get _(Morgan Housel)_
@@ -352,7 +353,7 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (481)
+### Tier B (484)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -631,6 +632,8 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mina-break-down-why-it-works`](insights/ins_mina-break-down-why-it-works.md) — Strong product marketers break down why marketing works, not just admire it. _(Mina ..)_
 - [`ins_misunderstood-exact-people-fighting`](insights/ins_misunderstood-exact-people-fighting.md) — • You'll be misunderstood by the exact people you are fighting for _(Ani Filipova)_
 - [`ins_mlx-jaccl-cluster-inference`](insights/ins_mlx-jaccl-cluster-inference.md) — Linking Apple Silicon Macs over Thunderbolt 5 with JACCL achieves 3x LLM inference speed and enables trillion-parameter local inference _(Angelos Katharopoulos)_
+- [`ins_mollick-14h-agent-run-cost`](insights/ins_mollick-14h-agent-run-cost.md) — A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs _(Ethan Mollick)_
+- [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
@@ -833,6 +836,7 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
+- [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 
 ### Tier C (77)
@@ -1405,6 +1409,7 @@ _Generated 2026-06-30. Auto-built from frontmatter — do not edit by hand._
 - [Yi Lin Pei](operators/yi-lin-pei/README.md)
 - [Yogi Gnanavel](operators/yogi-gnanavel/README.md)
 - [Yosha Gupta](operators/yosha-gupta/README.md)
+- [Zoe Hitzig](operators/zoe-hitzig/README.md)
 
 ## Raw sources by type
 - **digest**: 2

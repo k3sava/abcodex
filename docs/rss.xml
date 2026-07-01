@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Jun 2026 01:53:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 01:50:38 GMT</lastBuildDate>
+    <item>
+      <title>Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-01/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-01/</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.</description>
+    </item>
     <item>
       <title>AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering</title>
       <link>https://abcodex.iamkesava.com/today/2026-06-30/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-05/</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
       <description>Six research-scan batches ran across the day, ingesting **134** insight cards, **13** synthesis patterns, **4** methodology playbooks, **2** contradictions, and **2** new operator profiles. The batches followed a depth-first protocol, fewer operators per pass, more substantive cards per operator, and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.</description>
-    </item>
-    <item>
-      <title>Quality pass, 79 cards rewritten / stub-flagged</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-04/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-04/</guid>
-      <pubDate>Mon, 04 May 2026 00:00:00 GMT</pubDate>
-      <description>A quality pass on the corpus. 79 cards (verified from `git log --diff-filter=M`) were modified, shallow ones rewritten with substantive primary-source quotes and stronger mechanism sections; borderline ones stub-flagged for a follow-up. Two specific re-attribution fixes for Sam Mallikarjunan and Sourav Mohanty. Only 1 new card landed; the day was about depth, not adds.</description>
     </item>
   </channel>
 </rss>

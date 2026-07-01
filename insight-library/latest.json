@@ -1,25 +1,44 @@
 {
-  "generated_at": "2026-06-30T01:53:56.436Z",
+  "generated_at": "2026-07-01T01:50:35.408Z",
   "latest_daily": {
-    "path": "daily/2026-06-30.md",
-    "date": "2026-06-30",
-    "title": "AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering",
-    "summary": "Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.",
+    "path": "daily/2026-07-01.md",
+    "date": "2026-07-01",
+    "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
+    "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
     "sources": [],
     "insights_added": [
-      "ins_fishkin-ai-mention-direct-visit-lift",
-      "ins_tunguz-compute-cost-inversion",
-      "ins_johnston-holtz-agentic-skills-diffusion"
+      "ins_mollick-agent-era-favors-experts",
+      "ins_mollick-14h-agent-run-cost",
+      "ins_hitzig-domain-expertise-coding-parity",
+      "ins_zukowski-demo-conversion-sickos"
     ],
     "operators_added": [
-      "drew-johnston",
-      "david-holtz"
+      "zoe-hitzig"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-01.md",
+      "date": "2026-07-01",
+      "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
+      "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
+      "sources": [],
+      "insights_added": [
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-14h-agent-run-cost",
+        "ins_hitzig-domain-expertise-coding-parity",
+        "ins_zukowski-demo-conversion-sickos"
+      ],
+      "operators_added": [
+        "zoe-hitzig"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-30.md",
       "date": "2026-06-30",
@@ -684,27 +703,6 @@
         "contradictions_added": "2",
         "playbooks_added": "4",
         "insights_modified": "0"
-      },
-      "insights_added": [],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-04.md",
-      "date": "2026-05-04",
-      "title": "Quality pass, 79 cards rewritten / stub-flagged",
-      "summary": "A quality pass on the corpus. 79 cards (verified from `git log --diff-filter=M`) were modified, shallow ones rewritten with substantive primary-source quotes and stronger mechanism sections; borderline ones stub-flagged for a follow-up. Two specific re-attribution fixes for Sam Mallikarjunan and Sourav Mohanty. Only 1 new card landed; the day was about depth, not adds.",
-      "sources": [
-        "Quality audit, round 1"
-      ],
-      "counts_verified_from_git": {
-        "insights_added": "1",
-        "operators_added": "0",
-        "patterns_added": "0",
-        "contradictions_added": "0",
-        "playbooks_added": "0",
-        "insights_modified": "79"
       },
       "insights_added": [],
       "operators_added": [],
