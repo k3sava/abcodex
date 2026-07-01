@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-30T01:53:56.414Z",
+  "generated_at": "2026-07-01T01:50:35.385Z",
   "counts": {
-    "insights": 896,
-    "operators": 490,
+    "insights": 900,
+    "operators": 491,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 34
+    "daily": 35
   },
   "latest_daily": {
-    "path": "daily/2026-06-30.md",
-    "date": "2026-06-30",
-    "title": "AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering",
-    "summary": "Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.",
+    "path": "daily/2026-07-01.md",
+    "date": "2026-07-01",
+    "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
+    "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
     "sources": [],
     "insights_added": [
-      "ins_fishkin-ai-mention-direct-visit-lift",
-      "ins_tunguz-compute-cost-inversion",
-      "ins_johnston-holtz-agentic-skills-diffusion"
+      "ins_mollick-agent-era-favors-experts",
+      "ins_mollick-14h-agent-run-cost",
+      "ins_hitzig-domain-expertise-coding-parity",
+      "ins_zukowski-demo-conversion-sickos"
     ],
     "operators_added": [
-      "drew-johnston",
-      "david-holtz"
+      "zoe-hitzig"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -9148,6 +9148,36 @@
       "title": "HIRO Pipeline: only count high-intent sources that win above 3% and reach late-stage above 25%"
     },
     {
+      "path": "insights/ins_hitzig-domain-expertise-coding-parity.md",
+      "id": "ins_hitzig-domain-expertise-coding-parity",
+      "operator": "Zoe Hitzig",
+      "operator_role": "Research Scientist, Anthropic",
+      "co_operators": [],
+      "source_url": "https://www.anthropic.com/research/claude-code-expertise",
+      "source_type": "research",
+      "source_title": "How different types of people use Claude Code",
+      "source_date": "2026-06-16",
+      "captured_date": "2026-07-01",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_mollick-agent-era-favors-experts",
+        "ins_johnston-holtz-agentic-skills-diffusion"
+      ],
+      "raw_ref": "",
+      "title": "Domain expertise, not coding proficiency, predicts AI coding agent success across every occupation"
+    },
+    {
       "path": "insights/ins_holly-allen-bad-data-kills-sales.md",
       "id": "ins_holly-allen-bad-data-kills-sales",
       "title": "Even the best sales teams can't win with bad data.",
@@ -13834,6 +13864,68 @@
       ],
       "raw_ref": "",
       "title": "Linking Apple Silicon Macs over Thunderbolt 5 with JACCL achieves 3x LLM inference speed and enables trillion-parameter local inference"
+    },
+    {
+      "path": "insights/ins_mollick-14h-agent-run-cost.md",
+      "id": "ins_mollick-14h-agent-run-cost",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "source_type": "essay",
+      "source_title": "The Twilight of the Chatbots",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-01",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer",
+        "ins_cherny-agents-prompt-agents"
+      ],
+      "raw_ref": "",
+      "title": "A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs"
+    },
+    {
+      "path": "insights/ins_mollick-agent-era-favors-experts.md",
+      "id": "ins_mollick-agent-era-favors-experts",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "source_type": "essay",
+      "source_title": "The Twilight of the Chatbots",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-01",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-patron-not-wizard",
+        "ins_mollick-co-existence-phase-shift",
+        "ins_hitzig-domain-expertise-coding-parity"
+      ],
+      "raw_ref": "",
+      "title": "Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts"
     },
     {
       "path": "insights/ins_mollick-co-existence-phase-shift.md",
@@ -24734,6 +24826,34 @@
       "title": "Competition is for losers, build a monopoly on a truth most people don't yet see"
     },
     {
+      "path": "insights/ins_zukowski-demo-conversion-sickos.md",
+      "id": "ins_zukowski-demo-conversion-sickos",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/06/30/nobody-plays-demos-and-that-is-ok/",
+      "source_type": "essay",
+      "source_title": "Most people will play your demo and not wishlist it and that is ok",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-01",
+      "domain": [
+        "growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-steam-personal-calendar-launch-discovery"
+      ],
+      "raw_ref": "",
+      "title": "A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting"
+    },
+    {
       "path": "insights/ins_zukowski-steam-personal-calendar-launch-discovery.md",
       "id": "ins_zukowski-steam-personal-calendar-launch-discovery",
       "operator": "Chris Zukowski",
@@ -33631,6 +33751,25 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Yosha Gupta"
+    },
+    {
+      "path": "operators/zoe-hitzig/README.md",
+      "name": "Zoe Hitzig",
+      "slug": "zoe-hitzig",
+      "roles": [
+        "Research Scientist, Anthropic"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "future-of-work"
+      ],
+      "captured_first": "2026-07-01",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "Zoe Hitzig"
     }
   ],
   "raw_sources": [
@@ -39690,6 +39829,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-01.md",
+      "date": "2026-07-01",
+      "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
+      "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
+      "sources": [],
+      "insights_added": [
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-14h-agent-run-cost",
+        "ins_hitzig-domain-expertise-coding-parity",
+        "ins_zukowski-demo-conversion-sickos"
+      ],
+      "operators_added": [
+        "zoe-hitzig"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-06-30.md",
       "date": "2026-06-30",
