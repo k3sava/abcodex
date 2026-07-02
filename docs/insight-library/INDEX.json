@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-01T01:50:35.385Z",
+  "generated_at": "2026-07-02T02:00:39.894Z",
   "counts": {
-    "insights": 900,
-    "operators": 491,
+    "insights": 904,
+    "operators": 492,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 35
+    "daily": 36
   },
   "latest_daily": {
-    "path": "daily/2026-07-01.md",
-    "date": "2026-07-01",
-    "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
-    "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
+    "path": "daily/2026-07-02.md",
+    "date": "2026-07-02",
+    "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
+    "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
     "sources": [],
     "insights_added": [
-      "ins_mollick-agent-era-favors-experts",
-      "ins_mollick-14h-agent-run-cost",
-      "ins_hitzig-domain-expertise-coding-parity",
-      "ins_zukowski-demo-conversion-sickos"
+      "ins_hamel-eval-is-product-smell",
+      "ins_willison-sonnet5-tokenizer-cost",
+      "ins_mollick-institutional-lag-ai-curve",
+      "ins_brown-roguelike-modifier-inheritance"
     ],
     "operators_added": [
-      "zoe-hitzig"
+      "mark-brown"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -3509,6 +3509,32 @@
       ],
       "raw_ref": "",
       "title": "Frontier labs are baking native harness preferences into model weights, not layering them on top"
+    },
+    {
+      "path": "insights/ins_brown-roguelike-modifier-inheritance.md",
+      "id": "ins_brown-roguelike-modifier-inheritance",
+      "operator": "Mark Brown",
+      "operator_role": "Game designer and video essayist; creator of Game Maker's Toolkit",
+      "co_operators": [],
+      "source_url": "https://gmtk.substack.com/p/how-i-coded-the-perks-in-my-roguelike",
+      "source_type": "essay",
+      "source_title": "How I coded the perks in my roguelike",
+      "source_date": "2026-06-25",
+      "captured_date": "2026-07-02",
+      "domain": [
+        "engineering",
+        "game-design"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic"
     },
     {
       "path": "insights/ins_build-for-model-six-months-out.md",
@@ -8458,6 +8484,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar"
+    },
+    {
+      "path": "insights/ins_hamel-eval-is-product-smell.md",
+      "id": "ins_hamel-eval-is-product-smell",
+      "operator": "Hamel Husain",
+      "operator_role": "AI consultant and researcher",
+      "co_operators": [],
+      "source_url": "https://hamel.dev/blog/posts/eval-smell/",
+      "source_type": "essay",
+      "source_title": "Evals are a product smell",
+      "source_date": "2026-06-29",
+      "captured_date": "2026-07-02",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_error-analysis-highest-leverage-eval-step",
+        "ins_evals-are-data-analysis-on-llm-apps"
+      ],
+      "raw_ref": "",
+      "title": "When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology"
     },
     {
       "path": "insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md",
@@ -13987,6 +14043,38 @@
       ],
       "raw_ref": "",
       "title": "Frontier models capable of multi-hour autonomous runs require commissioning, not steering"
+    },
+    {
+      "path": "insights/ins_mollick-institutional-lag-ai-curve.md",
+      "id": "ins_mollick-institutional-lag-ai-curve",
+      "operator": "Ethan Mollick",
+      "operator_role": "Associate Professor, Wharton School; author of Co-Intelligence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "source_type": "essay",
+      "source_title": "The Twilight of the Chatbots",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-02",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-co-existence-phase-shift",
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-14h-agent-run-cost"
+      ],
+      "raw_ref": "",
+      "title": "Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem"
     },
     {
       "path": "insights/ins_mollick-patron-not-wizard.md",
@@ -24379,6 +24467,35 @@
       "title": "Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect"
     },
     {
+      "path": "insights/ins_willison-sonnet5-tokenizer-cost.md",
+      "id": "ins_willison-sonnet5-tokenizer-cost",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jun/30/claude-sonnet-5/",
+      "source_type": "essay",
+      "source_title": "Claude Sonnet 5",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-02",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-silent-degradation-trust-gap"
+      ],
+      "raw_ref": "",
+      "title": "A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat"
+    },
+    {
       "path": "insights/ins_words-matter-most-innovative-features.md",
       "id": "ins_words-matter-most-innovative-features",
       "operator": "Aatir Abdul Rauf",
@@ -30346,6 +30463,24 @@
         "linkedin": "https://www.linkedin.com/in/marie-haynes/"
       },
       "title": "Marie Haynes"
+    },
+    {
+      "path": "operators/mark-brown/README.md",
+      "name": "Mark Brown",
+      "slug": "mark-brown",
+      "roles": [
+        "Game designer and video essayist; creator of Game Maker's Toolkit"
+      ],
+      "domains_active": [
+        "engineering",
+        "game-design"
+      ],
+      "captured_first": "2026-07-02",
+      "external": {
+        "newsletter": "https://gmtk.substack.com",
+        "website": "https://gamemakerstoolkit.com"
+      },
+      "title": "Mark Brown"
     },
     {
       "path": "operators/mark-kosoglow/README.md",
@@ -39829,6 +39964,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-02.md",
+      "date": "2026-07-02",
+      "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
+      "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
+      "sources": [],
+      "insights_added": [
+        "ins_hamel-eval-is-product-smell",
+        "ins_willison-sonnet5-tokenizer-cost",
+        "ins_mollick-institutional-lag-ai-curve",
+        "ins_brown-roguelike-modifier-inheritance"
+      ],
+      "operators_added": [
+        "mark-brown"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-01.md",
       "date": "2026-07-01",

@@ -1,25 +1,44 @@
 {
-  "generated_at": "2026-07-01T01:50:35.408Z",
+  "generated_at": "2026-07-02T02:00:39.917Z",
   "latest_daily": {
-    "path": "daily/2026-07-01.md",
-    "date": "2026-07-01",
-    "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
-    "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
+    "path": "daily/2026-07-02.md",
+    "date": "2026-07-02",
+    "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
+    "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
     "sources": [],
     "insights_added": [
-      "ins_mollick-agent-era-favors-experts",
-      "ins_mollick-14h-agent-run-cost",
-      "ins_hitzig-domain-expertise-coding-parity",
-      "ins_zukowski-demo-conversion-sickos"
+      "ins_hamel-eval-is-product-smell",
+      "ins_willison-sonnet5-tokenizer-cost",
+      "ins_mollick-institutional-lag-ai-curve",
+      "ins_brown-roguelike-modifier-inheritance"
     ],
     "operators_added": [
-      "zoe-hitzig"
+      "mark-brown"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-02.md",
+      "date": "2026-07-02",
+      "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
+      "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
+      "sources": [],
+      "insights_added": [
+        "ins_hamel-eval-is-product-smell",
+        "ins_willison-sonnet5-tokenizer-cost",
+        "ins_mollick-institutional-lag-ai-curve",
+        "ins_brown-roguelike-modifier-inheritance"
+      ],
+      "operators_added": [
+        "mark-brown"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-01.md",
       "date": "2026-07-01",
@@ -681,32 +700,6 @@
         "pat_verification-as-human-job",
         "pat_execution-cheap-judgement-scarce"
       ],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-05.md",
-      "date": "2026-05-05",
-      "title": "Research scan v1-v6, depth-pilot to new-operator workflow",
-      "summary": "Six research-scan batches ran across the day, ingesting **134** insight cards, **13** synthesis patterns, **4** methodology playbooks, **2** contradictions, and **2** new operator profiles. The batches followed a depth-first protocol, fewer operators per pass, more substantive cards per operator, and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.",
-      "sources": [
-        "Research scan v1, 5-operator depth-pilot",
-        "Research scan v2, 5-operator batch 2",
-        "Research scan v3, 5-operator batch 3 (GTM-economics cluster)",
-        "Research scan v4, 5-operator batch 4",
-        "Research scan v5, copywriting cluster batch (5 operators)",
-        "Research scan v6, new-operator workflow (David Ogilvy + Dave Trott)"
-      ],
-      "counts_verified_from_git": {
-        "insights_added": "134",
-        "operators_added": "2",
-        "patterns_added": "13",
-        "contradictions_added": "2",
-        "playbooks_added": "4",
-        "insights_modified": "0"
-      },
-      "insights_added": [],
-      "operators_added": [],
-      "patterns_added": [],
       "playbooks_added": []
     }
   ]
