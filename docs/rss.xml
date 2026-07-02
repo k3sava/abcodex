@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jul 2026 01:50:38 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 02:00:43 GMT</lastBuildDate>
+    <item>
+      <title>Product design before evals, hidden tokenizer costs, and exponential pace mismatches</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-02/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-02/</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.</description>
+    </item>
     <item>
       <title>Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-01/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-06/</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
       <description>15 new cards, 2 synthesis patterns, 4 new operators. Today&apos;s batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn&apos;t yet been ingested.</description>
-    </item>
-    <item>
-      <title>Research scan v1-v6, depth-pilot to new-operator workflow</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-05/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-05/</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-      <description>Six research-scan batches ran across the day, ingesting **134** insight cards, **13** synthesis patterns, **4** methodology playbooks, **2** contradictions, and **2** new operator profiles. The batches followed a depth-first protocol, fewer operators per pass, more substantive cards per operator, and capped with the new-operator workflow that produced the David Ogilvy and Dave Trott profiles.</description>
     </item>
   </channel>
 </rss>
