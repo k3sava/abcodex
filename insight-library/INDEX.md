@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 900 insight cards
-- 491 operator profiles
+- 904 insight cards
+- 492 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -353,7 +353,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (484)
+### Tier B (488)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -432,6 +432,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
+- [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
@@ -534,6 +535,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside, build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn't scale formats. It should s _(Kaizad Hansotia)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
+- [`ins_hamel-eval-is-product-smell`](insights/ins_hamel-eval-is-product-smell.md) — When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology _(Hamel Husain)_
 - [`ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff`](insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md) — The most powerful AI prompts are those that pull from integrated workspace data, not generic queries. _(Hamna Aslam Kahn)_
 - [`ins_handley-self-laughter-as-quality-kpi`](insights/ins_handley-self-laughter-as-quality-kpi.md) — Did you make yourself laugh while writing?, a reliable KPI for newsletter quality _(Ann Handley)_
 - [`ins_handley-white-space-as-oxygen`](insights/ins_handley-white-space-as-oxygen.md) — White space is oxygen, dense unbroken text creates cognitive load; strategic white space lets the eye rest and the reader continue _(Ann Handley)_
@@ -636,6 +638,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
+- [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
 - [`ins_most-gtm-strategies-fail-because`](insights/ins_most-gtm-strategies-fail-because.md) — Most GTM strategies fail because they're built for 2020, not 2025 _(Kabir Uppal)_
@@ -828,6 +831,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
+- [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
 - [`ins_xcode27-agent-skills-portability`](insights/ins_xcode27-agent-skills-portability.md) — Xcode 27 Agent Skills make Apple-endorsed AI knowledge portable across Claude, Codex, and Cursor _(Antoine van der Lee)_
@@ -1218,6 +1222,7 @@ _Generated 2026-07-01. Auto-built from frontmatter — do not edit by hand._
 - [Mariana Antaya](operators/mariana-antaya/README.md)
 - [Mariana Racasan](operators/mariana-racasan/README.md)
 - [Marie Haynes](operators/marie-haynes/README.md)
+- [Mark Brown](operators/mark-brown/README.md)
 - [Mark Kosoglow](operators/mark-kosoglow/README.md)
 - [Mark Roberge](operators/mark-roberge/README.md)
 - [Marketoonist](operators/marketoonist/README.md)
