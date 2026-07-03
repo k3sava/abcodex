@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 02:00:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 01:57:07 GMT</lastBuildDate>
+    <item>
+      <title>Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-03/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-03/</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.</description>
+    </item>
     <item>
       <title>Product design before evals, hidden tokenizer costs, and exponential pace mismatches</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-02/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-07/</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
       <description>Nine new cards plus one extended pattern. The week&apos;s dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.</description>
-    </item>
-    <item>
-      <title>Verification, judgement, scarcity, voice, three converging frames in one week</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-06/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-06/</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
-      <description>15 new cards, 2 synthesis patterns, 4 new operators. Today&apos;s batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn&apos;t yet been ingested.</description>
     </item>
   </channel>
 </rss>
