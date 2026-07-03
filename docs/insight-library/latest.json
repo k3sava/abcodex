@@ -1,25 +1,44 @@
 {
-  "generated_at": "2026-07-02T02:00:39.917Z",
+  "generated_at": "2026-07-03T01:57:05.324Z",
   "latest_daily": {
-    "path": "daily/2026-07-02.md",
-    "date": "2026-07-02",
-    "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
-    "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
+    "path": "daily/2026-07-03.md",
+    "date": "2026-07-03",
+    "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
+    "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
     "sources": [],
     "insights_added": [
-      "ins_hamel-eval-is-product-smell",
-      "ins_willison-sonnet5-tokenizer-cost",
-      "ins_mollick-institutional-lag-ai-curve",
-      "ins_brown-roguelike-modifier-inheritance"
+      "ins_tunguz-agent-routing-architecture",
+      "ins_indig-engine-fragmentation",
+      "ins_litt-understand-to-participate",
+      "ins_willison-incomplete-schema-agent-loop"
     ],
     "operators_added": [
-      "mark-brown"
+      "geoffrey-litt"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-03.md",
+      "date": "2026-07-03",
+      "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
+      "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-agent-routing-architecture",
+        "ins_indig-engine-fragmentation",
+        "ins_litt-understand-to-participate",
+        "ins_willison-incomplete-schema-agent-loop"
+      ],
+      "operators_added": [
+        "geoffrey-litt"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-02.md",
       "date": "2026-07-02",
@@ -661,45 +680,6 @@
         "anthropic"
       ],
       "patterns_added": [],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-06.md",
-      "date": "2026-05-06",
-      "title": "Verification, judgement, scarcity, voice, three converging frames in one week",
-      "summary": "15 new cards, 2 synthesis patterns, 4 new operators. Today's batch plus a back-audit of past digests (April 26 to May 4) for atomic claims that hadn't yet been ingested.",
-      "sources": [
-        "Morning brief 2026-05-06 (multi-run)",
-        "Morning brief 2026-05-04",
-        "Backfill audit, past digests April 26 to May 4"
-      ],
-      "insights_added": [
-        "ins_traces-need-feedback-to-learn",
-        "ins_mine-transcripts-to-promote-config",
-        "ins_judgment-vs-understanding",
-        "ins_judgment-doesnt-compress",
-        "ins_ungate-ai-iterate-pricing",
-        "ins_rich-context-beats-sophisticated-agents",
-        "ins_agentic-engine-optimization-6-layer",
-        "ins_middle-is-hollowing-out",
-        "ins_scarcity-supercycle",
-        "ins_handley-ai-cant-violate-expectation",
-        "ins_owned-brand-authority-organic-moat",
-        "ins_couch-to-5k-for-ai-start-not-depth",
-        "ins_capability-spikes-where-verification-loops-exist",
-        "ins_chatgpt-prompts-invisible-to-keyword-tools",
-        "ins_b2b-buyer-emotion-personal-stakes"
-      ],
-      "operators_added": [
-        "harrison-chase",
-        "eugene-yan",
-        "addy-osmani",
-        "hilary-gridley"
-      ],
-      "patterns_added": [
-        "pat_verification-as-human-job",
-        "pat_execution-cheap-judgement-scarce"
-      ],
       "playbooks_added": []
     }
   ]

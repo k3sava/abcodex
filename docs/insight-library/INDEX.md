@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 904 insight cards
-- 492 operator profiles
+- 908 insight cards
+- 493 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (339)
+### Tier A (340)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -130,6 +130,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation`](insights/ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation.md) — n8n + MCP + Claude lets GTM teams build workflows in plain English. _(Ilya Azovtsev)_
 - [`ins_imo-aeo-playbook-bullsh-wasted`](insights/ins_imo-aeo-playbook-bullsh-wasted.md) — IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars _(Madhav Bhandari)_
 - [`ins_incentives-as-master-switch`](insights/ins_incentives-as-master-switch.md) — When behavior puzzles you, look at incentives, that's where every other model is downstream of _(Charlie Munger)_
+- [`ins_indig-engine-fragmentation`](insights/ins_indig-engine-fragmentation.md) — Only 2.37 percent of URLs cited by AI search engines appear across all three major platforms; 91 percent live in exactly one _(Kevin Indig)_
 - [`ins_influence-is-discovery-not-conviction`](insights/ins_influence-is-discovery-not-conviction.md) — Treat upward influence as a discovery interview, not a sales pitch _(Jessica Fain)_
 - [`ins_intelligence-cost-converging-electricity`](insights/ins_intelligence-cost-converging-electricity.md) — The cost of intelligence is converging toward the cost of electricity, durable advantage isn't using AI, it's parlaying AI _(Sam Altman)_
 - [`ins_intelligence-into-things-that-already-exist`](insights/ins_intelligence-into-things-that-already-exist.md) — Position AI as intelligence put into things that already exist, not as a new thing _(Qasar Younis)_
@@ -353,7 +354,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (488)
+### Tier B (491)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -596,6 +597,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
+- [`ins_litt-understand-to-participate`](insights/ins_litt-understand-to-participate.md) — Developers need conceptual fluency with what an agent builds to remain active creative collaborators, not passive reviewers _(Geoffrey Litt)_
 - [`ins_llms-learn-from-the-world`](insights/ins_llms-learn-from-the-world.md) — LLMs learn about your brand from the world, not from your site _(Eli Schwartz)_
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
 - [`ins_lollapalooza-effects`](insights/ins_lollapalooza-effects.md) — Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning _(Charlie Munger)_
@@ -793,6 +795,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
+- [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
@@ -829,6 +832,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
+- [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
@@ -1107,6 +1111,7 @@ _Generated 2026-07-02. Auto-built from frontmatter — do not edit by hand._
 - [Gartner](operators/gartner/README.md)
 - [Gary Yin](operators/gary-yin/README.md)
 - [Gaurav Sharma](operators/gaurav-sharma/README.md)
+- [Geoffrey Litt](operators/geoffrey-litt/README.md)
 - [Georgiana Laudi](operators/georgiana-laudi/README.md)
 - [Gideon Harris](operators/gideon-harris/README.md)
 - [Gil Allouche](operators/gil-allouche/README.md)
