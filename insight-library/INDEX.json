@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-02T02:00:39.894Z",
+  "generated_at": "2026-07-03T01:57:05.307Z",
   "counts": {
-    "insights": 904,
-    "operators": 492,
+    "insights": 908,
+    "operators": 493,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 36
+    "daily": 37
   },
   "latest_daily": {
-    "path": "daily/2026-07-02.md",
-    "date": "2026-07-02",
-    "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
-    "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
+    "path": "daily/2026-07-03.md",
+    "date": "2026-07-03",
+    "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
+    "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
     "sources": [],
     "insights_added": [
-      "ins_hamel-eval-is-product-smell",
-      "ins_willison-sonnet5-tokenizer-cost",
-      "ins_mollick-institutional-lag-ai-curve",
-      "ins_brown-roguelike-modifier-inheritance"
+      "ins_tunguz-agent-routing-architecture",
+      "ins_indig-engine-fragmentation",
+      "ins_litt-understand-to-participate",
+      "ins_willison-incomplete-schema-agent-loop"
     ],
     "operators_added": [
-      "mark-brown"
+      "geoffrey-litt"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -9845,6 +9845,39 @@
       "title": "Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it"
     },
     {
+      "path": "insights/ins_indig-engine-fragmentation.md",
+      "id": "ins_indig-engine-fragmentation",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor and SEO researcher, Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/2026-growth-memo-research-summary",
+      "source_type": "research",
+      "source_title": "2026 Growth Memo Research Summary",
+      "source_date": "2026-06-24",
+      "captured_date": "2026-07-03",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "attribution",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_ghost-citation-gap",
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_indig-algorithm-visibility-rental"
+      ],
+      "raw_ref": "",
+      "title": "Only 2.37 percent of URLs cited by AI search engines appear across all three major platforms; 91 percent live in exactly one"
+    },
+    {
       "path": "insights/ins_influence-is-discovery-not-conviction.md",
       "id": "ins_influence-is-discovery-not-conviction",
       "operator": "Jessica Fain",
@@ -11926,6 +11959,34 @@
       ],
       "raw_ref": "raw/curiosity/shruti-kapoor/shruti-kapoor--4-tips-startups-downturn--clari-blog.md",
       "title": "Switch from selling mode to listening mode when the market breaks"
+    },
+    {
+      "path": "insights/ins_litt-understand-to-participate.md",
+      "id": "ins_litt-understand-to-participate",
+      "operator": "Geoffrey Litt",
+      "operator_role": "Design engineer, Notion",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/",
+      "source_type": "talk",
+      "source_title": "Understand to Participate (AIE 2026)",
+      "source_date": "2026-07-02",
+      "captured_date": "2026-07-03",
+      "domain": [
+        "agentic-coding",
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Developers need conceptual fluency with what an agent builds to remain active creative collaborators, not passive reviewers"
     },
     {
       "path": "insights/ins_llm-as-judge-binary-not-likert.md",
@@ -22985,6 +23046,36 @@
       "title": "Strangers → friends → customers, three trust thresholds, three different message types"
     },
     {
+      "path": "insights/ins_tunguz-agent-routing-architecture.md",
+      "id": "ins_tunguz-agent-routing-architecture",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-execution-routing/",
+      "source_type": "essay",
+      "source_title": "Most AI Work Can Wait",
+      "source_date": "2026-07-01",
+      "captured_date": "2026-07-03",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-minimill-local-routing",
+        "ins_tunguz-async-inference-latency-tradeoff"
+      ],
+      "raw_ref": "",
+      "title": "Routing architecture is the first design decision in an AI agent system, not model selection"
+    },
+    {
       "path": "insights/ins_tunguz-app-layer-lagging-moat.md",
       "id": "ins_tunguz-app-layer-lagging-moat",
       "operator": "Tomasz Tunguz",
@@ -24353,6 +24444,36 @@
       ],
       "raw_ref": "",
       "title": "Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked"
+    },
+    {
+      "path": "insights/ins_willison-incomplete-schema-agent-loop.md",
+      "id": "ins_willison-incomplete-schema-agent-loop",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent software developer and blogger",
+      "co_operators": [],
+      "source_url": "https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts",
+      "source_type": "research",
+      "source_title": "Using DSPy to Evaluate and Improve Datasette Agent's SQL System Prompts",
+      "source_date": "2026-07-02",
+      "captured_date": "2026-07-03",
+      "domain": [
+        "agentic-coding",
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-sonnet5-tokenizer-cost"
+      ],
+      "raw_ref": "",
+      "title": "An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete"
     },
     {
       "path": "insights/ins_willison-knowledge-breadth-model-proxy.md",
@@ -28390,6 +28511,24 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Gaurav Sharma"
+    },
+    {
+      "path": "operators/geoffrey-litt/README.md",
+      "name": "Geoffrey Litt",
+      "slug": "geoffrey-litt",
+      "roles": [
+        "Design engineer, Notion"
+      ],
+      "domains_active": [
+        "agentic-coding",
+        "engineering",
+        "design"
+      ],
+      "captured_first": "2026-07-03",
+      "external": {
+        "twitter": "https://x.com/geoffreylitt"
+      },
+      "title": "Geoffrey Litt"
     },
     {
       "path": "operators/georgiana-laudi/README.md",
@@ -39964,6 +40103,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-03.md",
+      "date": "2026-07-03",
+      "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
+      "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-agent-routing-architecture",
+        "ins_indig-engine-fragmentation",
+        "ins_litt-understand-to-participate",
+        "ins_willison-incomplete-schema-agent-loop"
+      ],
+      "operators_added": [
+        "geoffrey-litt"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-02.md",
       "date": "2026-07-02",
