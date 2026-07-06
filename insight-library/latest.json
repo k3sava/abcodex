@@ -1,25 +1,40 @@
 {
-  "generated_at": "2026-07-03T01:57:05.324Z",
+  "generated_at": "2026-07-06T01:56:15.604Z",
   "latest_daily": {
-    "path": "daily/2026-07-03.md",
-    "date": "2026-07-03",
-    "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
-    "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
+    "path": "daily/2026-07-06.md",
+    "date": "2026-07-06",
+    "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
+    "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-agent-routing-architecture",
-      "ins_indig-engine-fragmentation",
-      "ins_litt-understand-to-participate",
-      "ins_willison-incomplete-schema-agent-loop"
+      "ins_ronacher-harness-overfit-tool-schema",
+      "ins_willison-cross-model-review",
+      "ins_mollick-four-agents-concurrent-norm",
+      "ins_tunguz-category-beats-growth"
     ],
-    "operators_added": [
-      "geoffrey-litt"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-06.md",
+      "date": "2026-07-06",
+      "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
+      "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
+      "sources": [],
+      "insights_added": [
+        "ins_ronacher-harness-overfit-tool-schema",
+        "ins_willison-cross-model-review",
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_tunguz-category-beats-growth"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-03.md",
       "date": "2026-07-03",
@@ -655,31 +670,6 @@
       "patterns_added": [
         "pat_aeo-experience-gate"
       ],
-      "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-07.md",
-      "date": "2026-05-07",
-      "title": "Verification convergence: four operators, one platform answer",
-      "summary": "Nine new cards plus one extended pattern. The week's dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.",
-      "sources": [
-        "morning research scan 2026-05-07"
-      ],
-      "insights_added": [
-        "ins_aeo-citation-rotation-makes-snapshots-worthless",
-        "ins_marketing-debt-compounds-after-every-sprint",
-        "ins_ai-native-launch-triage-not-fewer-gates",
-        "ins_pricing-iteration-finds-right-model",
-        "ins_ux-change-target-emotion-is-relief",
-        "ins_make-verification-easy-ai-production",
-        "ins_error-analysis-highest-leverage-eval-step",
-        "ins_outcomes-grader-agent-evaluation",
-        "ins_dreaming-cross-session-memory-curation"
-      ],
-      "operators_added": [
-        "anthropic"
-      ],
-      "patterns_added": [],
       "playbooks_added": []
     }
   ]
