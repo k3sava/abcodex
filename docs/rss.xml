@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 01:57:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 01:56:18 GMT</lastBuildDate>
+    <item>
+      <title>Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-06/</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.</description>
+    </item>
     <item>
       <title>Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-03/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-09/</guid>
       <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
       <description>Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.</description>
-    </item>
-    <item>
-      <title>Verification convergence: four operators, one platform answer</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-07/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-07/</guid>
-      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
-      <description>Nine new cards plus one extended pattern. The week&apos;s dominant signal: closing the verification loop is the production bottleneck in AI-native work. It converged across four independent operators, and Anthropic shipped the platform version of the same argument.</description>
     </item>
   </channel>
 </rss>

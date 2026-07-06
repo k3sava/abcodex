@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 908 insights · 493 operators · 44 synthesis patterns · 11 contradictions · 28 playbooks · 340 tier-A claims.
+Counts: 912 insights · 493 operators · 44 synthesis patterns · 11 contradictions · 28 playbooks · 340 tier-A claims.
 
 ## Index
 
@@ -27,7 +27,7 @@ Counts: 908 insights · 493 operators · 44 synthesis patterns · 11 contradicti
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 448 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 197 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 201 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 167 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 158 insights
 - [leadership](https://abcodex.iamkesava.com/d/leadership/) — 147 insights
@@ -35,11 +35,11 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 109 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 102 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 95 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 78 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 80 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
 - [growth](https://abcodex.iamkesava.com/d/growth/) — 60 insights
-- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 44 insights
-- [sales](https://abcodex.iamkesava.com/d/sales/) — 41 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 45 insights
+- [sales](https://abcodex.iamkesava.com/d/sales/) — 42 insights
 - [hiring](https://abcodex.iamkesava.com/d/hiring/) — 40 insights
 - [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 37 insights
 - [design](https://abcodex.iamkesava.com/d/design/) — 32 insights
@@ -49,7 +49,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 17 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
-- [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 10 insights
+- [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 11 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 7 insights
 - [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
 - [ai-gtm](https://abcodex.iamkesava.com/d/ai-gtm/) — 5 insights
@@ -125,4 +125,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-07-03.
+Last updated: 2026-07-06.
