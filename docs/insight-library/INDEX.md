@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 908 insight cards
+- 912 insight cards
 - 493 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
@@ -354,7 +354,7 @@ _Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (491)
+### Tier B (495)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -640,6 +640,7 @@ _Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
+- [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
@@ -723,6 +724,7 @@ _Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
 - [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
+- [`ins_ronacher-harness-overfit-tool-schema`](insights/ins_ronacher-harness-overfit-tool-schema.md) — RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas _(Armin Ronacher)_
 - [`ins_ronacher-safety-framing-access-restriction`](insights/ins_ronacher-safety-framing-access-restriction.md) — When safety restrictions align with financial incentives, treat the safety rationale as suspect _(Armin Ronacher)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
@@ -798,6 +800,7 @@ _Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
+- [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
@@ -830,6 +833,7 @@ _Generated 2026-07-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
+- [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
