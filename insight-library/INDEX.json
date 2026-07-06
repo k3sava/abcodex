@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-07-03T01:57:05.307Z",
+  "generated_at": "2026-07-06T01:56:15.537Z",
   "counts": {
-    "insights": 908,
+    "insights": 912,
     "operators": 493,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 37
+    "daily": 38
   },
   "latest_daily": {
-    "path": "daily/2026-07-03.md",
-    "date": "2026-07-03",
-    "title": "Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines",
-    "summary": "Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.",
+    "path": "daily/2026-07-06.md",
+    "date": "2026-07-06",
+    "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
+    "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-agent-routing-architecture",
-      "ins_indig-engine-fragmentation",
-      "ins_litt-understand-to-participate",
-      "ins_willison-incomplete-schema-agent-loop"
+      "ins_ronacher-harness-overfit-tool-schema",
+      "ins_willison-cross-model-review",
+      "ins_mollick-four-agents-concurrent-norm",
+      "ins_tunguz-category-beats-growth"
     ],
-    "operators_added": [
-      "geoffrey-litt"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -14106,6 +14104,37 @@
       "title": "Frontier models capable of multi-hour autonomous runs require commissioning, not steering"
     },
     {
+      "path": "insights/ins_mollick-four-agents-concurrent-norm.md",
+      "id": "ins_mollick-four-agents-concurrent-norm",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "source_type": "essay",
+      "source_title": "The Twilight of the Chatbots",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-06",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-14h-agent-run-cost",
+        "ins_mollick-institutional-lag-ai-curve"
+      ],
+      "raw_ref": "",
+      "title": "A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies"
+    },
+    {
       "path": "insights/ins_mollick-institutional-lag-ai-curve.md",
       "id": "ins_mollick-institutional-lag-ai-curve",
       "operator": "Ethan Mollick",
@@ -18701,6 +18730,34 @@
       "title": "Unattended harness loops accumulate defensive complexity until codebases assume machine participation"
     },
     {
+      "path": "insights/ins_ronacher-harness-overfit-tool-schema.md",
+      "id": "ins_ronacher-harness-overfit-tool-schema",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+      "source_type": "essay",
+      "source_title": "Better Models: Worse Tools",
+      "source_date": "2026-07-04",
+      "captured_date": "2026-07-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas"
+    },
+    {
       "path": "insights/ins_ronacher-safety-framing-access-restriction.md",
       "id": "ins_ronacher-safety-framing-access-restriction",
       "operator": "Armin Ronacher",
@@ -23134,6 +23191,37 @@
       "title": "Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing"
     },
     {
+      "path": "insights/ins_tunguz-category-beats-growth.md",
+      "id": "ins_tunguz-category-beats-growth",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/cio-choices-clear-2026/",
+      "source_type": "essay",
+      "source_title": "The CIO's Choices are Clear in 2026",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-06",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "sales"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "pricing"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-compute-cost-inversion",
+        "ins_tunguz-model-substitution-reinvestment"
+      ],
+      "raw_ref": "",
+      "title": "AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance"
+    },
+    {
       "path": "insights/ins_tunguz-compute-cost-inversion.md",
       "id": "ins_tunguz-compute-cost-inversion",
       "operator": "Tomasz Tunguz",
@@ -24382,6 +24470,35 @@
       ],
       "raw_ref": "",
       "title": "Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code"
+    },
+    {
+      "path": "insights/ins_willison-cross-model-review.md",
+      "id": "ins_willison-cross-model-review",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; programmer and writer on AI and open-source software",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
+      "source_type": "essay",
+      "source_title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "source_date": "2026-07-05",
+      "captured_date": "2026-07-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-incomplete-schema-agent-loop",
+        "ins_willison-silent-degradation-trust-gap"
+      ],
+      "raw_ref": "",
+      "title": "Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses"
     },
     {
       "path": "insights/ins_willison-defensive-security-export-controls.md",
@@ -40103,6 +40220,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-06.md",
+      "date": "2026-07-06",
+      "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
+      "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
+      "sources": [],
+      "insights_added": [
+        "ins_ronacher-harness-overfit-tool-schema",
+        "ins_willison-cross-model-review",
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_tunguz-category-beats-growth"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-03.md",
       "date": "2026-07-03",
