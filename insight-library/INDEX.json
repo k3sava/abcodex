@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-07-06T01:56:15.537Z",
+  "generated_at": "2026-07-07T01:57:46.305Z",
   "counts": {
-    "insights": 912,
-    "operators": 493,
+    "insights": 916,
+    "operators": 494,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 38
+    "daily": 39
   },
   "latest_daily": {
-    "path": "daily/2026-07-06.md",
-    "date": "2026-07-06",
-    "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
-    "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
+    "path": "daily/2026-07-07.md",
+    "date": "2026-07-07",
+    "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
+    "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
     "sources": [],
     "insights_added": [
-      "ins_ronacher-harness-overfit-tool-schema",
-      "ins_willison-cross-model-review",
-      "ins_mollick-four-agents-concurrent-norm",
-      "ins_tunguz-category-beats-growth"
+      "ins_lily-ray-self-promo-recommendation-exclusion",
+      "ins_indig-benchmark-citation-structure",
+      "ins_willison-frontier-model-self-routing",
+      "ins_matthews-pm-leverage-ladders"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "colin-matthews"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -9843,6 +9845,37 @@
       "title": "Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it"
     },
     {
+      "path": "insights/ins_indig-benchmark-citation-structure.md",
+      "id": "ins_indig-benchmark-citation-structure",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/why-most-original-data-never-gets",
+      "source_type": "essay",
+      "source_title": "Why most original data never gets cited",
+      "source_date": "2026-07-06",
+      "captured_date": "2026-07-07",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "content"
+      ],
+      "lifecycle": [
+        "aeo"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ghost-citation-gap",
+        "ins_casey-hill-structural-prominence-llm-citations",
+        "ins_indig-ai-substitution-positioning-harm"
+      ],
+      "raw_ref": "",
+      "title": "Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis"
+    },
+    {
       "path": "insights/ins_indig-engine-fragmentation.md",
       "id": "ins_indig-engine-fragmentation",
       "operator": "Kevin Indig",
@@ -11907,6 +11940,36 @@
       "title": "A Google penalty removes a page from every AI surface at once, not just Google search"
     },
     {
+      "path": "insights/ins_lily-ray-self-promo-recommendation-exclusion.md",
+      "id": "ins_lily-ray-self-promo-recommendation-exclusion",
+      "operator": "Lily Ray",
+      "operator_role": "SEO consultant; founder, Algorythmic; SEOFOMO newsletter author",
+      "co_operators": [],
+      "source_url": "https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could",
+      "source_type": "essay",
+      "source_title": "Why Calling Yourself the 'Best' Could Be Helping Your Competitors Win in AI Search",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-07",
+      "domain": [
+        "aeo-llm-search",
+        "seo"
+      ],
+      "lifecycle": [
+        "aeo"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-aeo-seo-continuity",
+        "ins_ghost-citation-gap",
+        "ins_aeo-citation-rotation-makes-snapshots-worthless"
+      ],
+      "raw_ref": "",
+      "title": "A brand's self-promotional \"best of\" listicle gets cited by AI Overviews 74% of the time but excluded from the recommendation 69% of the time"
+    },
+    {
       "path": "insights/ins_linde-hasker-human-insight-over-ai.md",
       "id": "ins_linde-hasker-human-insight-over-ai",
       "title": "Even OpenAI knows AI can't replace human strategic thinking for content strategy.",
@@ -13067,6 +13130,33 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_matthews-pm-leverage-ladders.md",
+      "id": "ins_matthews-pm-leverage-ladders",
+      "operator": "Colin Matthews",
+      "operator_role": "AI training specialist; founder, PM AI Academy",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+      "source_type": "essay",
+      "source_title": "How Top PMs Increase Their Leverage with AI",
+      "source_date": "2026-06-30",
+      "captured_date": "2026-07-07",
+      "domain": [
+        "pmm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "PM output compounds through three AI adoption ladders, each rung delivering an order of magnitude more than the one below"
     },
     {
       "path": "insights/ins_max-schoening-agency-over-skills.md",
@@ -24563,6 +24653,36 @@
       "title": "Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked"
     },
     {
+      "path": "insights/ins_willison-frontier-model-self-routing.md",
+      "id": "ins_willison-frontier-model-self-routing",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent software developer and blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/3/judgement/",
+      "source_type": "essay",
+      "source_title": "Fable's Judgement",
+      "source_date": "2026-07-03",
+      "captured_date": "2026-07-07",
+      "domain": [
+        "agentic-coding",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-cross-model-review",
+        "ins_ronacher-harness-overfit-tool-schema"
+      ],
+      "raw_ref": "",
+      "title": "Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality"
+    },
+    {
       "path": "insights/ins_willison-incomplete-schema-agent-loop.md",
       "id": "ins_willison-incomplete-schema-agent-loop",
       "operator": "Simon Willison",
@@ -27375,6 +27495,23 @@
         "website": "https://honeycopy.com/"
       },
       "title": "Cole Schafer"
+    },
+    {
+      "path": "operators/colin-matthews/README.md",
+      "name": "Colin Matthews",
+      "slug": "colin-matthews",
+      "roles": [
+        "AI training specialist; founder, PM AI Academy"
+      ],
+      "domains_active": [
+        "ai-native",
+        "product-management"
+      ],
+      "captured_first": "2026-07-07",
+      "external": {
+        "newsletter": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage"
+      },
+      "title": "Colin Matthews"
     },
     {
       "path": "operators/collin-mayjack/README.md",
@@ -40220,6 +40357,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-07.md",
+      "date": "2026-07-07",
+      "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
+      "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
+      "sources": [],
+      "insights_added": [
+        "ins_lily-ray-self-promo-recommendation-exclusion",
+        "ins_indig-benchmark-citation-structure",
+        "ins_willison-frontier-model-self-routing",
+        "ins_matthews-pm-leverage-ladders"
+      ],
+      "operators_added": [
+        "colin-matthews"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-06.md",
       "date": "2026-07-06",

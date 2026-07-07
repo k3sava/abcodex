@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 912 insight cards
-- 493 operator profiles
+- 916 insight cards
+- 494 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -354,7 +354,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (495)
+### Tier B (499)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -562,6 +562,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_icp-account-not-persona`](insights/ins_icp-account-not-persona.md) — An ICP isn't a buyer persona, it's an account-level definition that must be operationalized in CRM and product roadmap _(TK Kader)_
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
+- [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
@@ -595,6 +596,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_leah-knobler-customer-stories-at-center`](insights/ins_leah-knobler-customer-stories-at-center.md) — If you ask candidates to do work, pay them, that's the recruiting hot take _(Leah Knobler)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
+- [`ins_lily-ray-self-promo-recommendation-exclusion`](insights/ins_lily-ray-self-promo-recommendation-exclusion.md) — A brand's self-promotional "best of" listicle gets cited by AI Overviews 74% of the time but excluded from the recommendation 69% of the time _(Lily Ray)_
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
 - [`ins_litt-understand-to-participate`](insights/ins_litt-understand-to-participate.md) — Developers need conceptual fluency with what an agent builds to remain active creative collaborators, not passive reviewers _(Geoffrey Litt)_
@@ -617,6 +619,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_market-to-product-product-to-market`](insights/ins_market-to-product-product-to-market.md) — PMM owns both halves of the loop, market to the product, product to the market _(Martina Lauchengco)_
 - [`ins_marketing-cfo-language`](insights/ins_marketing-cfo-language.md) — Marketing must speak the language of finance, not the language of marketing _(Rowan Tonkin)_
 - [`ins_marketing-debt-compounds-after-every-sprint`](insights/ins_marketing-debt-compounds-after-every-sprint.md) — Marketing debt is the gap between your actual product and your marketing footprint, and it compounds silently after every sprint _(Aatir Abdul Rauf)_
+- [`ins_matthews-pm-leverage-ladders`](insights/ins_matthews-pm-leverage-ladders.md) — PM output compounds through three AI adoption ladders, each rung delivering an order of magnitude more than the one below _(Colin Matthews)_
 - [`ins_max-schoening-agency-over-skills`](insights/ins_max-schoening-agency-over-skills.md) — Agency, not skills, separates people who thrive from those who fall behind. Skills are acquirable and AI-generatable; self-direction is not. _(Max Schoening)_
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
 - [`ins_mccormick-ai-compiler-not-runtime`](insights/ins_mccormick-ai-compiler-not-runtime.md) — Using AI as a compiler converts expensive thinking into cheap deterministic doing _(Packy McCormick)_
@@ -836,6 +839,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
+- [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
@@ -1048,6 +1052,7 @@ _Generated 2026-07-06. Auto-built from frontmatter — do not edit by hand._
 - [Codie Sanchez](operators/codie-sanchez/README.md)
 - [Colby Hoke](operators/colby-hoke/README.md)
 - [Cole Schafer](operators/cole-schafer/README.md)
+- [Colin Matthews](operators/colin-matthews/README.md)
 - [Collin Mayjack](operators/collin-mayjack/README.md)
 - [Corey Hearne](operators/corey-hearne/README.md)
 - [Crayon](operators/crayon/README.md)

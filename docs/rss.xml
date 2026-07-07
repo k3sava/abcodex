@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 06 Jul 2026 01:56:18 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 01:57:48 GMT</lastBuildDate>
+    <item>
+      <title>AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-07/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-07/</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.</description>
+    </item>
     <item>
       <title>Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-06/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-10/</guid>
       <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.</description>
-    </item>
-    <item>
-      <title>AEO becomes a page-experience problem; agentic architecture settles into named patterns</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-09/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-09/</guid>
-      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
-      <description>Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.</description>
     </item>
   </channel>
 </rss>
