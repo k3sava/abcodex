@@ -1,23 +1,44 @@
 {
-  "generated_at": "2026-07-06T01:56:15.604Z",
+  "generated_at": "2026-07-07T01:57:46.356Z",
   "latest_daily": {
-    "path": "daily/2026-07-06.md",
-    "date": "2026-07-06",
-    "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
-    "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
+    "path": "daily/2026-07-07.md",
+    "date": "2026-07-07",
+    "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
+    "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
     "sources": [],
     "insights_added": [
-      "ins_ronacher-harness-overfit-tool-schema",
-      "ins_willison-cross-model-review",
-      "ins_mollick-four-agents-concurrent-norm",
-      "ins_tunguz-category-beats-growth"
+      "ins_lily-ray-self-promo-recommendation-exclusion",
+      "ins_indig-benchmark-citation-structure",
+      "ins_willison-frontier-model-self-routing",
+      "ins_matthews-pm-leverage-ladders"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "colin-matthews"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-07.md",
+      "date": "2026-07-07",
+      "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
+      "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
+      "sources": [],
+      "insights_added": [
+        "ins_lily-ray-self-promo-recommendation-exclusion",
+        "ins_indig-benchmark-citation-structure",
+        "ins_willison-frontier-model-self-routing",
+        "ins_matthews-pm-leverage-ladders"
+      ],
+      "operators_added": [
+        "colin-matthews"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-06.md",
       "date": "2026-07-06",
@@ -639,38 +660,6 @@
         "pat_aeo-triangle",
         "pat_differentiation-vs-sameness"
       ]
-    },
-    {
-      "path": "daily/2026-05-09.md",
-      "date": "2026-05-09",
-      "title": "AEO becomes a page-experience problem; agentic architecture settles into named patterns",
-      "summary": "Eleven new cards, one new synthesis pattern, two pattern updates, four new operators. Four AEO practitioners converged on a unified experience-and-structure gate frame. Three themes from independent directions.",
-      "sources": [
-        "morning research scan 2026-05-09"
-      ],
-      "insights_added": [
-        "ins_casey-hill-aeo-structural-prominence",
-        "ins_kyle-poyar-ai-recommendation-share",
-        "ins_lily-ray-firsthand-experience-ai-overviews",
-        "ins_mike-king-499-ai-bot-silence",
-        "ins_phil-schmid-four-subagent-patterns",
-        "ins_kyle-poyar-continuous-monitoring-agents",
-        "ins_maja-voje-substrate-first-content-engineering",
-        "ins_max-schoening-agency-over-skills",
-        "ins_vikas-kansal-freemium-ai-paywall-multistep",
-        "ins_brendan-hufford-four-content-failure-modes",
-        "ins_anthropic-skills-as-vertical-distribution-unit"
-      ],
-      "operators_added": [
-        "casey-hill",
-        "phil-schmid",
-        "max-schoening",
-        "vikas-kansal"
-      ],
-      "patterns_added": [
-        "pat_aeo-experience-gate"
-      ],
-      "playbooks_added": []
     }
   ]
 }
