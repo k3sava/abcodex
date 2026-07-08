@@ -1,32 +1,35 @@
 {
-  "generated_at": "2026-07-07T01:57:46.305Z",
+  "generated_at": "2026-07-08T02:08:29.730Z",
   "counts": {
-    "insights": 916,
-    "operators": 494,
+    "insights": 920,
+    "operators": 496,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 39
+    "daily": 40
   },
   "latest_daily": {
-    "path": "daily/2026-07-07.md",
-    "date": "2026-07-07",
-    "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
-    "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
+    "path": "daily/2026-07-08.md",
+    "date": "2026-07-08",
+    "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
+    "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
     "sources": [],
     "insights_added": [
-      "ins_lily-ray-self-promo-recommendation-exclusion",
-      "ins_indig-benchmark-citation-structure",
-      "ins_willison-frontier-model-self-routing",
-      "ins_matthews-pm-leverage-ladders"
+      "ins_rachitsky-segal-ai-baseline-creep-burnout",
+      "ins_verna-ai-overclaiming-three-failure-modes",
+      "ins_doshi-distribution-belief-trap",
+      "ins_liu-ability-free-taste-scarce"
     ],
     "operators_added": [
-      "colin-matthews"
+      "noam-segal",
+      "jason-liu"
     ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "insights": [
     {
@@ -6177,6 +6180,36 @@
       "title": "Give the model tools and a goal; do not hard-code the workflow"
     },
     {
+      "path": "insights/ins_doshi-distribution-belief-trap.md",
+      "id": "ins_doshi-distribution-belief-trap",
+      "operator": "Shreyas Doshi",
+      "operator_role": "Product advisor and writer",
+      "co_operators": [],
+      "source_url": "https://shreyasdoshi.substack.com/p/the-fundamental-cognitive-bias-of",
+      "source_type": "essay",
+      "source_title": "The Fundamental Cognitive Bias of Product Builders",
+      "source_date": "2026-07-02",
+      "captured_date": "2026-07-08",
+      "domain": [
+        "pmm",
+        "product",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_doshi-truth-one-level-down"
+      ],
+      "raw_ref": "",
+      "title": "Product builders hold four beliefs about distribution and product quality that are each defensible alone but collectively self-defeating"
+    },
+    {
       "path": "insights/ins_doshi-truth-one-level-down.md",
       "id": "ins_doshi-truth-one-level-down",
       "operator": "Shreyas Doshi",
@@ -12050,6 +12083,34 @@
       "title": "Developers need conceptual fluency with what an agent builds to remain active creative collaborators, not passive reviewers"
     },
     {
+      "path": "insights/ins_liu-ability-free-taste-scarce.md",
+      "id": "ins_liu-ability-free-taste-scarce",
+      "operator": "Jason Liu",
+      "operator_role": "AI engineer; creator of the Instructor library for structured LLM outputs",
+      "co_operators": [],
+      "source_url": "https://jxnl.co/writing/2026/07/05/taste/",
+      "source_type": "essay",
+      "source_title": "If You Want Taste, You're Gonna Have to Eat",
+      "source_date": "2026-07-05",
+      "captured_date": "2026-07-08",
+      "domain": [
+        "ai-native",
+        "content",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "When AI makes execution free, taste becomes the binding creative constraint, and friction-removing tools also strip the attention required to develop it"
+    },
+    {
       "path": "insights/ins_llm-as-judge-binary-not-likert.md",
       "id": "ins_llm-as-judge-binary-not-likert",
       "operator": "Hamel Husain",
@@ -17554,6 +17615,38 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_rachitsky-segal-ai-baseline-creep-burnout.md",
+      "id": "ins_rachitsky-segal-ai-baseline-creep-burnout",
+      "operator": "Lenny Rachitsky",
+      "operator_role": "Creator of Lenny's Newsletter; former growth PM at Airbnb",
+      "co_operators": [
+        "Noam Segal"
+      ],
+      "source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source_type": "research",
+      "source_title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-08",
+      "domain": [
+        "future-of-work",
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-agent-era-favors-experts"
+      ],
+      "raw_ref": "",
+      "title": "AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority"
     },
     {
       "path": "insights/ins_rackham-closing-techniques-backfire.md",
@@ -23866,6 +23959,36 @@
       "title": "Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity"
     },
     {
+      "path": "insights/ins_verna-ai-overclaiming-three-failure-modes.md",
+      "id": "ins_verna-ai-overclaiming-three-failure-modes",
+      "operator": "Elena Verna",
+      "operator_role": "Growth advisor; former Head of Product at Amplitude",
+      "co_operators": [],
+      "source_url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater",
+      "source_type": "essay",
+      "source_title": "Please stop the AI Confidence Theater",
+      "source_date": "2026-07-02",
+      "captured_date": "2026-07-08",
+      "domain": [
+        "ai-native",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_verna-agency-not-agents"
+      ],
+      "raw_ref": "",
+      "title": "AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all"
+    },
+    {
       "path": "insights/ins_victor-c-leave-expiry-is-motivation-killer.md",
       "id": "ins_victor-c-leave-expiry-is-motivation-killer",
       "title": "Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time.",
@@ -29587,6 +29710,25 @@
       "title": "Jason Lemkin"
     },
     {
+      "path": "operators/jason-liu/README.md",
+      "name": "Jason Liu",
+      "slug": "jason-liu",
+      "roles": [
+        "AI engineer; creator of the Instructor library for structured LLM outputs",
+        "Independent consultant at jxnl.co"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "captured_first": "2026-07-08",
+      "external": {
+        "website": "https://jxnl.co"
+      },
+      "title": "Jason Liu"
+    },
+    {
       "path": "operators/jason-oakley/README.md",
       "name": "Jason Oakley",
       "slug": "jason-oakley",
@@ -31670,6 +31812,21 @@
         "linkedin": "https://www.linkedin.com/in/nishchaldua/"
       },
       "title": "Nishchal Dua"
+    },
+    {
+      "path": "operators/noam-segal/README.md",
+      "name": "Noam Segal",
+      "slug": "noam-segal",
+      "roles": [
+        "Researcher; co-author at Lenny's Newsletter"
+      ],
+      "domains_active": [
+        "future-of-work",
+        "ai-native"
+      ],
+      "captured_first": "2026-07-08",
+      "external": "{}",
+      "title": "Noam Segal"
     },
     {
       "path": "operators/obaid-durrani/README.md",
@@ -38160,8 +38317,8 @@
       "id": "pat_execution-cheap-judgement-scarce",
       "title": "Execution is becoming free; judgement is the part that doesn't compress",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-17",
-      "convergence_count": "6",
+      "last_updated": "2026-07-08",
+      "convergence_count": "7",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-doesnt-compress",
@@ -38169,7 +38326,8 @@
         "ins_middle-is-hollowing-out",
         "ins_scarcity-supercycle",
         "ins_rory-woodbridge-pmm-craft-common-language",
-        "ins_sangram-vajre-ai-multiplies-existing-alignment"
+        "ins_sangram-vajre-ai-multiplies-existing-alignment",
+        "ins_liu-ability-free-taste-scarce"
       ],
       "domains": [
         "growth",
@@ -40357,6 +40515,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-08.md",
+      "date": "2026-07-08",
+      "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
+      "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
+      "sources": [],
+      "insights_added": [
+        "ins_rachitsky-segal-ai-baseline-creep-burnout",
+        "ins_verna-ai-overclaiming-three-failure-modes",
+        "ins_doshi-distribution-belief-trap",
+        "ins_liu-ability-free-taste-scarce"
+      ],
+      "operators_added": [
+        "noam-segal",
+        "jason-liu"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-07-07.md",
       "date": "2026-07-07",

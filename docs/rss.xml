@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 01:57:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 02:08:31 GMT</lastBuildDate>
+    <item>
+      <title>AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-08/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-08/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards, two new operator profiles. The day&apos;s scan covered AI&apos;s actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.</description>
+    </item>
     <item>
       <title>AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-07/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-11/</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google&apos;s formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.</description>
-    </item>
-    <item>
-      <title>Context engineering quantified, AEO continuity, volume versus curation</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-10/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-10/</guid>
-      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.</description>
     </item>
   </channel>
 </rss>
