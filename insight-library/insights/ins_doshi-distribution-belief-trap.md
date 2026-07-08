@@ -43,4 +43,4 @@ Shreyas Doshi published this framework in July 2026 in his Substack essay "The F
 The four-belief structure assumes distribution is the constrained variable. In markets where switching costs are low and product differentiation is genuinely high, product quality remains the right investment priority. The trap also does not apply if the market is early and buyers have not yet formed clear preferences that distribution can exploit.
 
 ## Cross-references
-- `ins_doshi-truth-one-level-down`: Doshi's prior argument that three specific customer stories reveal what strategic frameworks conceal. Both cards push against premature abstraction as a substitute for specific evidence.
+- `ins_doshi-truth-one-level-down`: Doshi's prior argument that three specific customer stories reveal what formal frameworks conceal. Both cards push against premature abstraction as a substitute for specific evidence.
