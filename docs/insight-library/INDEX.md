@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 916 insight cards
-- 494 operator profiles
+- 920 insight cards
+- 496 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -354,7 +354,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (499)
+### Tier B (502)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -490,6 +490,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dileep-krishna-automation-maintenance-bottleneck`](insights/ins_dileep-krishna-automation-maintenance-bottleneck.md) — Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing. _(Dileep Krishna)_
 - [`ins_don-care-how-awesome-prompting`](insights/ins_don-care-how-awesome-prompting.md) — I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice _(Stefan Gladbach)_
 - [`ins_don-ignore-stuck-feeling-pointing`](insights/ins_don-ignore-stuck-feeling-pointing.md) — 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet _(Lola Han)_
+- [`ins_doshi-distribution-belief-trap`](insights/ins_doshi-distribution-belief-trap.md) — Product builders hold four beliefs about distribution and product quality that are each defensible alone but collectively self-defeating _(Shreyas Doshi)_
 - [`ins_dotclaude-as-deployable-artifact`](insights/ins_dotclaude-as-deployable-artifact.md) — Treat `.claude/` as a deployable artifact with versioning and rollback _(Pawel Huryn)_
 - [`ins_dream-role-marketer-who-loves`](insights/ins_dream-role-marketer-who-loves.md) — Community is the most powerful ingredient in B2B marketing because it taps shared interest _(Dan Murphy)_
 - [`ins_dtc-do-less-better`](insights/ins_dtc-do-less-better.md) — Don't even think about a second channel until you can profitably spend $5K/day on Meta _(Nik Sharma)_
@@ -709,6 +710,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_qrg-recovery-roadmap`](insights/ins_qrg-recovery-roadmap.md) — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap _(Marie Haynes)_
 - [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
+- [`ins_rachitsky-segal-ai-baseline-creep-burnout`](insights/ins_rachitsky-segal-ai-baseline-creep-burnout.md) — AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority _(Lenny Rachitsky)_
 - [`ins_ramanujam-leaders-fillers-killers`](insights/ins_ramanujam-leaders-fillers-killers.md) — Leaders, Fillers, Killers, segment customers by WTP, then bundle features by their role per segment _(Madhavan Ramanujam)_
 - [`ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers`](insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md) — CEO's office roles should attract those optimizing for impact, not salary. _(Ranjeet Pratap Singh)_
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 _(Tim Soulo)_
@@ -818,6 +820,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_varia-makagonova-workplace-messaging-rules`](insights/ins_varia-makagonova-workplace-messaging-rules.md) — Customer advocacy is the brand-awareness program your team didn't know it needed _(Varia Makagonova)_
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
+- [`ins_verna-ai-overclaiming-three-failure-modes`](insights/ins_verna-ai-overclaiming-three-failure-modes.md) — AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all _(Elena Verna)_
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
 - [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
@@ -855,7 +858,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 
-### Tier C (77)
+### Tier C (78)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -900,6 +903,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_krishnam-malpani-stop-writing-boring-blogs`](insights/ins_krishnam-malpani-stop-writing-boring-blogs.md) — Stop writing boring blogs, make content that makes people stop scrolling. _(Krishnam Malpani)_
 - [`ins_kushal-saini-kakkar-ai-nostalgia-builder`](insights/ins_kushal-saini-kakkar-ai-nostalgia-builder.md) — AI can serve as a nostalgia builder, surfacing past work and memories. _(Kushal Saini Kakkar)_
 - [`ins_langley-barth-human-tokens`](insights/ins_langley-barth-human-tokens.md) — Product marketers should think of their energy and focus as 'human tokens' to be spent wisely. _(Langley Barth)_
+- [`ins_liu-ability-free-taste-scarce`](insights/ins_liu-ability-free-taste-scarce.md) — When AI makes execution free, taste becomes the binding creative constraint, and friction-removing tools also strip the attention required to develop it _(Jason Liu)_
 - [`ins_maja-voje-ai-buyer-controls-interaction`](insights/ins_maja-voje-ai-buyer-controls-interaction.md) — AI-augmented sales is most defensible as unlocked conversation capacity, not headcount replacement _(Maja Voje)_
 - [`ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore`](insights/ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore.md) — Hiring two seasoned Technical PMMs in Boston and Bangalore _(Manisha Talwar Rana)_
 - [`ins_marketoonist-generations-not-monoliths`](insights/ins_marketoonist-generations-not-monoliths.md) — Generational marketing is lazy, buyers within a generation differ more than across them _(Marketoonist)_
@@ -1166,6 +1170,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [Jason Cohen](operators/jason-cohen/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
 - [Jason Lemkin](operators/jason-lemkin/README.md)
+- [Jason Liu](operators/jason-liu/README.md)
 - [Jason Oakley](operators/jason-oakley/README.md)
 - [Jatin Saini](operators/jatin-saini/README.md)
 - [Jay Acunzo](operators/jay-acunzo/README.md)
@@ -1281,6 +1286,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [Nikolai Golos](operators/nikolai-golos/README.md)
 - [Nina Churchill](operators/nina-churchill/README.md)
 - [Nishchal Dua](operators/nishchal-dua/README.md)
+- [Noam Segal](operators/noam-segal/README.md)
 - [Obaid Durrani](operators/obaid-durrani/README.md)
 - [Packy McCormick](operators/packy-mccormick/README.md)
 - [Parag Pathak](operators/parag-pathak/README.md)
@@ -1455,7 +1461,7 @@ _Generated 2026-07-07. Auto-built from frontmatter — do not edit by hand._
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]
-- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (6 ops) [Tier A]
+- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (7 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]

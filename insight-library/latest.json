@@ -1,25 +1,50 @@
 {
-  "generated_at": "2026-07-07T01:57:46.356Z",
+  "generated_at": "2026-07-08T02:08:29.749Z",
   "latest_daily": {
-    "path": "daily/2026-07-07.md",
-    "date": "2026-07-07",
-    "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
-    "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
+    "path": "daily/2026-07-08.md",
+    "date": "2026-07-08",
+    "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
+    "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
     "sources": [],
     "insights_added": [
-      "ins_lily-ray-self-promo-recommendation-exclusion",
-      "ins_indig-benchmark-citation-structure",
-      "ins_willison-frontier-model-self-routing",
-      "ins_matthews-pm-leverage-ladders"
+      "ins_rachitsky-segal-ai-baseline-creep-burnout",
+      "ins_verna-ai-overclaiming-three-failure-modes",
+      "ins_doshi-distribution-belief-trap",
+      "ins_liu-ability-free-taste-scarce"
     ],
     "operators_added": [
-      "colin-matthews"
+      "noam-segal",
+      "jason-liu"
     ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-08.md",
+      "date": "2026-07-08",
+      "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
+      "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
+      "sources": [],
+      "insights_added": [
+        "ins_rachitsky-segal-ai-baseline-creep-burnout",
+        "ins_verna-ai-overclaiming-three-failure-modes",
+        "ins_doshi-distribution-belief-trap",
+        "ins_liu-ability-free-taste-scarce"
+      ],
+      "operators_added": [
+        "noam-segal",
+        "jason-liu"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-07-07.md",
       "date": "2026-07-07",
@@ -636,29 +661,6 @@
       "patterns_updated": [
         "pat_verification-as-human-job",
         "--"
-      ]
-    },
-    {
-      "path": "daily/2026-05-10.md",
-      "date": "2026-05-10",
-      "title": "Context engineering quantified, AEO continuity, volume versus curation",
-      "summary": "Four new cards from the week of May 10, 2026. Poyar and Voje survey 200 GTM operators and produce the first large-sample quantitative evidence for the context-not-capability thesis. Lily Ray frames AEO as an extension of SEO discipline, not a replacement. Swyx names curation as the quality lever in the AI-volume era. Anthropic Routines establishes the boundary between cloud-hosted and local agent execution.",
-      "sources": [
-        "morning research scan 2026-05-10"
-      ],
-      "insights_added": [
-        "ins_poyar-voje-context-engineering-gap",
-        "ins_swyx-scaling-without-slop",
-        "ins_lily-ray-aeo-seo-continuity",
-        "ins_anthropic-routines-cloud-agent-tasks"
-      ],
-      "operators_added": "",
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_context-not-capability",
-        "pat_aeo-triangle",
-        "pat_differentiation-vs-sameness"
       ]
     }
   ]
