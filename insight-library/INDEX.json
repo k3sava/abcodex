@@ -1,34 +1,32 @@
 {
-  "generated_at": "2026-07-08T02:08:29.730Z",
+  "generated_at": "2026-07-09T01:57:23.621Z",
   "counts": {
-    "insights": 920,
-    "operators": 496,
+    "insights": 923,
+    "operators": 497,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 40
+    "daily": 41
   },
   "latest_daily": {
-    "path": "daily/2026-07-08.md",
-    "date": "2026-07-08",
-    "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
-    "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
+    "path": "daily/2026-07-09.md",
+    "date": "2026-07-09",
+    "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
+    "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
     "sources": [],
     "insights_added": [
-      "ins_rachitsky-segal-ai-baseline-creep-burnout",
-      "ins_verna-ai-overclaiming-three-failure-modes",
-      "ins_doshi-distribution-belief-trap",
-      "ins_liu-ability-free-taste-scarce"
+      "ins_sumner-parallel-adversarial-agent-rewrite",
+      "ins_tunguz-ai-worldview-alignment-divergence",
+      "ins_rachitsky-segal-career-recommendation-paradox"
     ],
     "operators_added": [
-      "noam-segal",
-      "jason-liu"
+      "jarred-sumner"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": [
-      "pat_execution-cheap-judgement-scarce"
+      "pat_verification-as-human-job"
     ]
   },
   "insights": [
@@ -17649,6 +17647,36 @@
       "title": "AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority"
     },
     {
+      "path": "insights/ins_rachitsky-segal-career-recommendation-paradox.md",
+      "id": "ins_rachitsky-segal-career-recommendation-paradox",
+      "operator": "Lenny Rachitsky",
+      "operator_role": "Creator of Lenny's Newsletter; former growth PM at Airbnb",
+      "co_operators": [
+        "Noam Segal"
+      ],
+      "source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source_type": "research",
+      "source_title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-09",
+      "domain": [
+        "future-of-work",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_rachitsky-segal-ai-baseline-creep-burnout"
+      ],
+      "raw_ref": "",
+      "title": "Tech workers' personal career optimism has decoupled from their institutional trust in the industry, with a majority optimistic about their own trajectory while recommending against entering the field"
+    },
+    {
       "path": "insights/ins_rackham-closing-techniques-backfire.md",
       "id": "ins_rackham-closing-techniques-backfire",
       "operator": "Neil Rackham",
@@ -21816,6 +21844,37 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_sumner-parallel-adversarial-agent-rewrite.md",
+      "id": "ins_sumner-parallel-adversarial-agent-rewrite",
+      "operator": "Jarred Sumner",
+      "operator_role": "Creator of Bun JavaScript runtime; software engineer at Anthropic",
+      "co_operators": [],
+      "source_url": "https://bun.com/blog/bun-in-rust",
+      "source_type": "essay",
+      "source_title": "Rewriting Bun in Rust",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-09",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-cross-model-review",
+        "ins_mollick-14h-agent-run-cost",
+        "ins_mollick-commission-not-steer"
+      ],
+      "raw_ref": "",
+      "title": "Parallel adversarial reviewer agents compressed a 960K-line language migration into 11 days at $165K by eliminating shared-blind-spot failure modes"
+    },
+    {
       "path": "insights/ins_sunny-sen-founder-mistakes-playbook.md",
       "id": "ins_sunny-sen-founder-mistakes-playbook",
       "title": "Even experienced founders make avoidable mistakes without a structured playbook.",
@@ -23314,6 +23373,34 @@
       ],
       "raw_ref": "",
       "title": "Routing architecture is the first design decision in an AI agent system, not model selection"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-worldview-alignment-divergence.md",
+      "id": "ins_tunguz-ai-worldview-alignment-divergence",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/godless-hippies-ai-models-values/",
+      "source_type": "essay",
+      "source_title": "Godless Hippies: AI Models & Values",
+      "source_date": "2026-07-06",
+      "captured_date": "2026-07-09",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-agent-era-favors-experts"
+      ],
+      "raw_ref": "",
+      "title": "AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world"
     },
     {
       "path": "insights/ins_tunguz-app-layer-lagging-moat.md",
@@ -29629,6 +29716,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Jan Rosa"
+    },
+    {
+      "path": "operators/jarred-sumner/README.md",
+      "name": "Jarred Sumner",
+      "slug": "jarred-sumner",
+      "roles": [
+        "Creator of Bun JavaScript runtime; software engineer at Anthropic"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-07-09",
+      "external": {
+        "twitter": "https://twitter.com/jarredsumner"
+      },
+      "title": "Jarred Sumner"
     },
     {
       "path": "operators/jason-b-hart/README.md",
@@ -38887,8 +38991,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-05-25",
-      "convergence_count": "14",
+      "last_updated": "2026-07-09",
+      "convergence_count": "15",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -38904,7 +39008,8 @@
         "ins_breunig-harness-lock-in-model-layer",
         "ins_pierri-batch-transcripts-produce-fabrications",
         "ins_anthropic-claude-security-data-flow-scanning",
-        "ins_anthropic-glasswing-verification-bottleneck-shift"
+        "ins_anthropic-glasswing-verification-bottleneck-shift",
+        "ins_sumner-parallel-adversarial-agent-rewrite"
       ],
       "domains": [
         "ai-native",
@@ -40515,6 +40620,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-09.md",
+      "date": "2026-07-09",
+      "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
+      "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
+      "sources": [],
+      "insights_added": [
+        "ins_sumner-parallel-adversarial-agent-rewrite",
+        "ins_tunguz-ai-worldview-alignment-divergence",
+        "ins_rachitsky-segal-career-recommendation-paradox"
+      ],
+      "operators_added": [
+        "jarred-sumner"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_verification-as-human-job"
+      ]
+    },
     {
       "path": "daily/2026-07-08.md",
       "date": "2026-07-08",

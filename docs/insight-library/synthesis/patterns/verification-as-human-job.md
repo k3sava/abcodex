@@ -2,10 +2,10 @@
 id: pat_verification-as-human-job
 title: Verification, not execution, is the irreplaceable human job
 captured_date: 2026-05-06
-last_updated: 2026-05-25
-convergence_count: 14
+last_updated: 2026-07-09
+convergence_count: 15
 tier: A
-uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer, ins_pierri-batch-transcripts-produce-fabrications, ins_anthropic-claude-security-data-flow-scanning, ins_anthropic-glasswing-verification-bottleneck-shift]
+uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer, ins_pierri-batch-transcripts-produce-fabrications, ins_anthropic-claude-security-data-flow-scanning, ins_anthropic-glasswing-verification-bottleneck-shift, ins_sumner-parallel-adversarial-agent-rewrite]
 domains: [ai-native, engineering, leadership, research]
 ---
 
@@ -40,3 +40,4 @@ Audit any AI system in production for the verification + feedback path. Three di
 - ins_make-verification-easy-ai-production, Eugene Yan (eugeneyan.com, 2026-05-03)
 - ins_error-analysis-highest-leverage-eval-step, Hamel Husain (Aakash Gupta newsletter masterclass, 2026-05-05)
 - ins_outcomes-grader-agent-evaluation, Anthropic (Code with Claude, 2026-05-06)
+- ins_sumner-parallel-adversarial-agent-rewrite, Jarred Sumner (bun.com/blog/bun-in-rust, 2026-07-08)

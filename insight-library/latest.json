@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-07-08T02:08:29.749Z",
+  "generated_at": "2026-07-09T01:57:23.640Z",
   "latest_daily": {
-    "path": "daily/2026-07-08.md",
-    "date": "2026-07-08",
-    "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
-    "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
+    "path": "daily/2026-07-09.md",
+    "date": "2026-07-09",
+    "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
+    "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
     "sources": [],
     "insights_added": [
-      "ins_rachitsky-segal-ai-baseline-creep-burnout",
-      "ins_verna-ai-overclaiming-three-failure-modes",
-      "ins_doshi-distribution-belief-trap",
-      "ins_liu-ability-free-taste-scarce"
+      "ins_sumner-parallel-adversarial-agent-rewrite",
+      "ins_tunguz-ai-worldview-alignment-divergence",
+      "ins_rachitsky-segal-career-recommendation-paradox"
     ],
     "operators_added": [
-      "noam-segal",
-      "jason-liu"
+      "jarred-sumner"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": [
-      "pat_execution-cheap-judgement-scarce"
+      "pat_verification-as-human-job"
     ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-09.md",
+      "date": "2026-07-09",
+      "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
+      "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
+      "sources": [],
+      "insights_added": [
+        "ins_sumner-parallel-adversarial-agent-rewrite",
+        "ins_tunguz-ai-worldview-alignment-divergence",
+        "ins_rachitsky-segal-career-recommendation-paradox"
+      ],
+      "operators_added": [
+        "jarred-sumner"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_verification-as-human-job"
+      ]
+    },
     {
       "path": "daily/2026-07-08.md",
       "date": "2026-07-08",
@@ -637,31 +655,6 @@
         "pat_strip-what-doesnt-compound"
       ],
       "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-11.md",
-      "date": "2026-05-11",
-      "title": "AI implementation realism and AEO benchmarks, 2026-05-11",
-      "summary": "Four new cards across two themes: human checkpoints as the AI implementation separator (Pierri + Breunig convergence extending pat_verification-as-human-job), and AI discovery producing measurable signup volume (Poyar benchmark + Schwartz on Google's formalized citation surfaces). Two new operators: Drew Breunig, Barry Schwartz.",
-      "sources": [
-        "morning research scan 2026-05-11"
-      ],
-      "insights_added": [
-        "ins_pierri-ai-positioning-needs-human-checkpoints",
-        "ins_breunig-agentic-code-free-as-puppies",
-        "ins_kyle-poyar-ai-discovery-signup-channel",
-        "ins_barry-schwartz-google-ai-mode-citation-surfaces"
-      ],
-      "operators_added": [
-        "drew-breunig",
-        "barry-schwartz"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_verification-as-human-job",
-        "--"
-      ]
     }
   ]
 }
