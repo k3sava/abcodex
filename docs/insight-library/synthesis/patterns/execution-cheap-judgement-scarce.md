@@ -12,7 +12,7 @@ domains: [growth, pmm, ai-native, leadership]
 # Execution is becoming free; judgement is the part that doesn't compress
 
 ## Convergence
-Four operators from different lanes, growth/SEO economics (Indig), AI research (Karpathy), LLM eval systems (Yan), and B2B SaaS strategy (McCormick), converged inside a single week with the same structural diagnosis. Production cost is collapsing. The human comparative advantage is moving to the parts of the workflow that AI cannot compress: spec-writing, verification, judgement, named relationships, scarce-asset positioning. The teams that keep loading more execution onto the cheaper substrate without sharpening the judgement layer get squeezed; the teams that name their scarce asset and invest in it get the AI leverage.
+Four operators from different lanes, growth/SEO economics (Indig), AI research (Karpathy), LLM eval systems (Yan), and B2B SaaS strategy (McCormick), converged inside a single week with the same structural diagnosis. Production cost is collapsing. The human comparative advantage is moving to the parts of the workflow that AI cannot compress: spec-writing, verification, judgement, named relationships, scarce-asset positioning. The teams that keep loading more execution onto the cheaper substrate without sharpening the judgement layer get squeezed; the teams that name their scarce asset and invest in it capture the AI advantage.
 
 ## Operators
 - Kevin Indig, `ins_judgment-doesnt-compress`. AI compresses execution but not judgement; distribution shrinks too, so positioning becomes the moat.

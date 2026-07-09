@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 920 insight cards
-- 496 operator profiles
+- 923 insight cards
+- 497 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -354,7 +354,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (502)
+### Tier B (505)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -711,6 +711,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
 - [`ins_rachitsky-segal-ai-baseline-creep-burnout`](insights/ins_rachitsky-segal-ai-baseline-creep-burnout.md) — AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority _(Lenny Rachitsky)_
+- [`ins_rachitsky-segal-career-recommendation-paradox`](insights/ins_rachitsky-segal-career-recommendation-paradox.md) — Tech workers' personal career optimism has decoupled from their institutional trust in the industry, with a majority optimistic about their own trajectory while recommending against entering the field _(Lenny Rachitsky)_
 - [`ins_ramanujam-leaders-fillers-killers`](insights/ins_ramanujam-leaders-fillers-killers.md) — Leaders, Fillers, Killers, segment customers by WTP, then bundle features by their role per segment _(Madhavan Ramanujam)_
 - [`ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers`](insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md) — CEO's office roles should attract those optimizing for impact, not salary. _(Ranjeet Pratap Singh)_
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 _(Tim Soulo)_
@@ -779,6 +780,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
 - [`ins_suddenly-everyone-know-panicking-wondering`](insights/ins_suddenly-everyone-know-panicking-wondering.md) — Suddenly everyone I know is panicking, wondering if their job disappears tomorrow _(Shivangi Sahu)_
+- [`ins_sumner-parallel-adversarial-agent-rewrite`](insights/ins_sumner-parallel-adversarial-agent-rewrite.md) — Parallel adversarial reviewer agents compressed a 960K-line language migration into 11 days at $165K by eliminating shared-blind-spot failure modes _(Jarred Sumner)_
 - [`ins_sunny-sen-founder-mistakes-playbook`](insights/ins_sunny-sen-founder-mistakes-playbook.md) — Even experienced founders make avoidable mistakes without a structured playbook. _(Sunny Sen)_
 - [`ins_suraj-kripalani-cfa-orange-dinner-connections`](insights/ins_suraj-kripalani-cfa-orange-dinner-connections.md) — AI agents unlock creativity by removing the blank canvas, not by producing the final output _(Suraj Kripalani, CFA)_
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
@@ -803,6 +805,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tom Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
@@ -1166,6 +1169,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [James Doman](operators/james-doman/README.md)
 - [James Doman-Pipe](operators/james-doman-pipe/README.md)
 - [Jan Rosa](operators/jan-rosa/README.md)
+- [Jarred Sumner](operators/jarred-sumner/README.md)
 - [Jason B. Hart](operators/jason-b-hart/README.md)
 - [Jason Cohen](operators/jason-cohen/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
@@ -1486,7 +1490,7 @@ _Generated 2026-07-08. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (14 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (15 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-tools.md) — Agents-as-team vs. agents-as-tools
