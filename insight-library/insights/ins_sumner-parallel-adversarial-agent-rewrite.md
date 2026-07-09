@@ -31,7 +31,7 @@ A conformance test suite with 1.386 million assertions across all platforms prov
 Work is distributed by crate, file, or error type across 64 simultaneous instances running in four separate worktrees. Distribution prevents any single instance from accumulating context drift across a million-line codebase. Peak output reached 58 commits in one minute.
 
 ## Conditions
-Holds when: a comprehensive, language-agnostic test suite already exists and covers the behavior being ported; tasks can be decomposed by crate or file boundary; one human can monitor agent outputs and redirect on failures without reviewing every commit.
+Holds when: a language-agnostic test suite with full behavioral coverage already exists; tasks can be decomposed by crate or file boundary; one human can monitor agent outputs and redirect on failures without reviewing every commit.
 Fails when: no conformance test suite exists (agents cannot self-evaluate correctness); the codebase has untestable implicit invariants; or the refactor requires design judgment that cannot be specified in a brief.
 
 ## Evidence
