@@ -12,7 +12,7 @@ domains: [pmm, product, founder-operator, engineering]
 # Diagnose before executing, refuse the playbook ask
 
 ## Convergence
-Four operators converge on the same anti-pattern fix: when an executive asks for a deliverable ("write me a launch plan," "make the funnel convert"), the high-leverage move is to refuse the playbook ask and run a diagnosis first. Understand-work, DATE, divergent PR-FAQs, going-to-bedrock, same shape, four vocabularies.
+Four operators converge on the same anti-pattern fix: when an executive asks for a deliverable ("write me a launch plan," "make the funnel convert"), the highest-value move is to refuse the playbook ask and run a diagnosis first. Understand-work, DATE, divergent PR-FAQs, going-to-bedrock, same shape, four vocabularies.
 
 ## Operators
 - Krithika Shankarraman, `ins_date-diagnostic-framework`. DATE: Diagnose, Analyze, Take a different path, Experiment.
