@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 923 insights · 497 operators · 44 synthesis patterns · 11 contradictions · 28 playbooks · 340 tier-A claims.
+Counts: 925 insights · 497 operators · 44 synthesis patterns · 11 contradictions · 28 playbooks · 340 tier-A claims.
 
 ## Index
 
@@ -35,10 +35,10 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 109 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 103 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 97 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 82 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 83 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
-- [growth](https://abcodex.iamkesava.com/d/growth/) — 60 insights
-- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 47 insights
+- [growth](https://abcodex.iamkesava.com/d/growth/) — 61 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 49 insights
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 42 insights
 - [hiring](https://abcodex.iamkesava.com/d/hiring/) — 40 insights
 - [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 37 insights
@@ -126,4 +126,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-07-09.
+Last updated: 2026-07-10.

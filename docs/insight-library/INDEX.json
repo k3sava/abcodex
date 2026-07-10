@@ -1,32 +1,29 @@
 {
-  "generated_at": "2026-07-09T01:59:59.906Z",
+  "generated_at": "2026-07-10T02:00:29.048Z",
   "counts": {
-    "insights": 923,
+    "insights": 925,
     "operators": 497,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 41
+    "daily": 42
   },
   "latest_daily": {
-    "path": "daily/2026-07-09.md",
-    "date": "2026-07-09",
-    "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
-    "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
+    "path": "daily/2026-07-10.md",
+    "date": "2026-07-10",
+    "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
+    "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
     "sources": [],
     "insights_added": [
-      "ins_sumner-parallel-adversarial-agent-rewrite",
-      "ins_tunguz-ai-worldview-alignment-divergence",
-      "ins_rachitsky-segal-career-recommendation-paradox"
+      "ins_zukowski-overexposure-impossible",
+      "ins_ball-problem-not-solution"
     ],
-    "operators_added": [
-      "jarred-sumner"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": [
-      "pat_verification-as-human-job"
+      "pat_diagnose-before-execute"
     ]
   },
   "insights": [
@@ -2802,6 +2799,34 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/dave-gerhardt.md",
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
+    },
+    {
+      "path": "insights/ins_ball-problem-not-solution.md",
+      "id": "ins_ball-problem-not-solution",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineering Lead, Amp at Sourcegraph; author of Writing an Interpreter in Go and Writing a Compiler in Go",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/ownership",
+      "source_type": "essay",
+      "source_title": "Ownership",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-10",
+      "domain": [
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-software-is-learning"
+      ],
+      "raw_ref": "",
+      "title": "Engineering ownership begins with naming the actual problem, not accepting the proposed solution"
     },
     {
       "path": "insights/ins_ball-software-is-learning.md",
@@ -25539,6 +25564,35 @@
       "title": "A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting"
     },
     {
+      "path": "insights/ins_zukowski-overexposure-impossible.md",
+      "id": "ins_zukowski-overexposure-impossible",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/07/09/you-cannot-over-expose-your-game/",
+      "source_type": "essay",
+      "source_title": "You Cannot Over-Expose Your Game",
+      "source_date": "2026-07-09",
+      "captured_date": "2026-07-10",
+      "domain": [
+        "growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-demo-conversion-sickos",
+        "ins_zukowski-steam-personal-calendar-launch-discovery"
+      ],
+      "raw_ref": "",
+      "title": "Indie games cannot be over-exposed on Steam because the platform's 132 million monthly active users make the reachable audience effectively unlimited"
+    },
+    {
       "path": "insights/ins_zukowski-steam-personal-calendar-launch-discovery.md",
       "id": "ins_zukowski-steam-personal-calendar-launch-discovery",
       "operator": "Chris Zukowski",
@@ -38315,8 +38369,8 @@
       "id": "pat_diagnose-before-execute",
       "title": "Diagnose before executing, refuse the playbook ask",
       "captured_date": "2026-05-01",
-      "last_updated": "2026-05-19",
-      "convergence_count": "6",
+      "last_updated": "2026-07-10",
+      "convergence_count": "7",
       "tier": "A",
       "uses_cards": [
         "ins_date-diagnostic-framework",
@@ -38324,12 +38378,14 @@
         "ins_influence-is-discovery-not-conviction",
         "ins_three-divergent-pr-faqs",
         "ins_going-deep-to-bedrock",
-        "ins_doshi-truth-one-level-down"
+        "ins_doshi-truth-one-level-down",
+        "ins_ball-problem-not-solution"
       ],
       "domains": [
         "pmm",
         "product",
-        "founder-operator"
+        "founder-operator",
+        "engineering"
       ]
     },
     {
@@ -40620,6 +40676,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-10.md",
+      "date": "2026-07-10",
+      "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
+      "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
+      "sources": [],
+      "insights_added": [
+        "ins_zukowski-overexposure-impossible",
+        "ins_ball-problem-not-solution"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_diagnose-before-execute"
+      ]
+    },
     {
       "path": "daily/2026-07-09.md",
       "date": "2026-07-09",

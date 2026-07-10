@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 923 insight cards
+- 925 insight cards
 - 497 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
@@ -354,7 +354,7 @@ _Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (505)
+### Tier B (507)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -414,6 +414,7 @@ _Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
 - [`ins_barry-schwartz-preferred-source-labels`](insights/ins_barry-schwartz-preferred-source-labels.md) — Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it _(Barry Schwartz)_
@@ -859,6 +860,7 @@ _Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
+- [`ins_zukowski-overexposure-impossible`](insights/ins_zukowski-overexposure-impossible.md) — Indie games cannot be over-exposed on Steam because the platform's 132 million monthly active users make the reachable audience effectively unlimited _(Chris Zukowski)_
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 
 ### Tier C (78)
@@ -1460,7 +1462,7 @@ _Generated 2026-07-09. Auto-built from frontmatter — do not edit by hand._
 - [`pat_context-not-capability`](synthesis/patterns/context-not-capability.md) — Context, not capability, is the bottleneck (11 ops) [Tier A]
 - [`pat_copywriting-craft-fundamentals`](synthesis/patterns/copywriting-craft-fundamentals.md) — Copywriting craft is built on five reinforcing fundamentals (6 ops) [Tier A]
 - [`pat_decision-quality-through-process-not-willpower`](synthesis/patterns/decision-quality-through-process-not-willpower.md) — Decision quality at scale comes from process, not willpower (4 ops) [Tier A]
-- [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (6 ops) [Tier A]
+- [`pat_diagnose-before-execute`](synthesis/patterns/diagnose-before-execute.md) — Diagnose before executing, refuse the playbook ask (7 ops) [Tier A]
 - [`pat_differentiation-vs-sameness`](synthesis/patterns/differentiation-vs-sameness.md) — Differentiation requires three checks, different, better, matters (7 ops) [Tier B]
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]

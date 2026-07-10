@@ -1,26 +1,40 @@
 {
-  "generated_at": "2026-07-09T01:59:59.925Z",
+  "generated_at": "2026-07-10T02:00:29.073Z",
   "latest_daily": {
-    "path": "daily/2026-07-09.md",
-    "date": "2026-07-09",
-    "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
-    "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
+    "path": "daily/2026-07-10.md",
+    "date": "2026-07-10",
+    "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
+    "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
     "sources": [],
     "insights_added": [
-      "ins_sumner-parallel-adversarial-agent-rewrite",
-      "ins_tunguz-ai-worldview-alignment-divergence",
-      "ins_rachitsky-segal-career-recommendation-paradox"
+      "ins_zukowski-overexposure-impossible",
+      "ins_ball-problem-not-solution"
     ],
-    "operators_added": [
-      "jarred-sumner"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": [
-      "pat_verification-as-human-job"
+      "pat_diagnose-before-execute"
     ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-10.md",
+      "date": "2026-07-10",
+      "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
+      "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
+      "sources": [],
+      "insights_added": [
+        "ins_zukowski-overexposure-impossible",
+        "ins_ball-problem-not-solution"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_diagnose-before-execute"
+      ]
+    },
     {
       "path": "daily/2026-07-09.md",
       "date": "2026-07-09",
@@ -630,31 +644,6 @@
       "patterns_updated": [
         "--"
       ]
-    },
-    {
-      "path": "daily/2026-05-13.md",
-      "date": "2026-05-13",
-      "title": "The reliability trap, stripping what does not compound, and context isolation",
-      "summary": "Seven new cards, one new pattern, three pattern extensions. Two themes surfaced independently across the week: reliability quietly degrading the oversight it depends on, and AI abundance shifting the scarce resource from output to judgment.",
-      "sources": [
-        "morning research scan 2026-05-13"
-      ],
-      "insights_added": [
-        "ins_breunig-harness-lock-in-model-layer",
-        "ins_willison-reliability-erodes-review-discipline",
-        "ins_anthropic-claude-code-subagents-haiku-routing",
-        "ins_rory-woodbridge-launch-tier-not-debate",
-        "ins_kevin-indig-verification-cost-rising",
-        "ins_maja-voje-strip-what-doesnt-compound",
-        "ins_google-ai-mode-subscription-highlight"
-      ],
-      "operators_added": [
-        "google"
-      ],
-      "patterns_added": [
-        "pat_strip-what-doesnt-compound"
-      ],
-      "playbooks_added": []
     }
   ]
 }
