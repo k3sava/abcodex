@@ -2,11 +2,11 @@
 id: pat_diagnose-before-execute
 title: 'Diagnose before executing, refuse the playbook ask'
 captured_date: 2026-05-01
-last_updated: 2026-05-19
-convergence_count: 6
+last_updated: 2026-07-10
+convergence_count: 7
 tier: A
-uses_cards: [ins_date-diagnostic-framework, ins_understand-then-identify-then-execute, ins_influence-is-discovery-not-conviction, ins_three-divergent-pr-faqs, ins_going-deep-to-bedrock, ins_doshi-truth-one-level-down]
-domains: [pmm, product, founder-operator]
+uses_cards: [ins_date-diagnostic-framework, ins_understand-then-identify-then-execute, ins_influence-is-discovery-not-conviction, ins_three-divergent-pr-faqs, ins_going-deep-to-bedrock, ins_doshi-truth-one-level-down, ins_ball-problem-not-solution]
+domains: [pmm, product, founder-operator, engineering]
 ---
 
 # Diagnose before executing, refuse the playbook ask
@@ -20,6 +20,7 @@ Four operators converge on the same anti-pattern fix: when an executive asks for
 - Jessica Fain, `ins_influence-is-discovery-not-conviction`. Treat upward influence as a discovery interview, not a sales pitch.
 - Anuj Rathi, `ins_three-divergent-pr-faqs`. Bring three divergent PR-FAQs to a strategy decision, not one.
 - Ayo Omojola, `ins_going-deep-to-bedrock`. Push past expert opinion to the actual law of physics or contract.
+- Thorsten Ball, `ins_ball-problem-not-solution`. In engineering, the stated solution is not the problem; ownership starts at problem definition.
 
 ## Variation
 - Shankarraman names the *4-step framework*.
@@ -27,6 +28,7 @@ Four operators converge on the same anti-pattern fix: when an executive asks for
 - Fain names the *upward dynamic* (influence = discovery).
 - Rathi names the *artifact discipline* (three divergent options, not one).
 - Omojola names the *depth standard* (go to bedrock).
+- Ball names the *engineering entry point* (stated solution is not the problem; own from problem definition onward).
 - Convergence: skipping diagnosis to deliver the playbook is the failure mode at every level.
 
 ## Implication
@@ -38,3 +40,4 @@ For any cross-functional deliverable ask, return with a diagnosis artifact befor
 - ins_influence-is-discovery-not-conviction, Jessica Fain
 - ins_three-divergent-pr-faqs, Anuj Rathi
 - ins_going-deep-to-bedrock, Ayo Omojola
+- ins_ball-problem-not-solution, Thorsten Ball (Ownership, 2026-07-08)
