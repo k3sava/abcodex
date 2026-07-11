@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 925 insight cards
-- 497 operator profiles
+- 929 insight cards
+- 498 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -354,7 +354,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (507)
+### Tier B (511)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -565,6 +565,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
+- [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
@@ -713,6 +714,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
 - [`ins_rachitsky-segal-ai-baseline-creep-burnout`](insights/ins_rachitsky-segal-ai-baseline-creep-burnout.md) — AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority _(Lenny Rachitsky)_
 - [`ins_rachitsky-segal-career-recommendation-paradox`](insights/ins_rachitsky-segal-career-recommendation-paradox.md) — Tech workers' personal career optimism has decoupled from their institutional trust in the industry, with a majority optimistic about their own trajectory while recommending against entering the field _(Lenny Rachitsky)_
+- [`ins_rachitsky-segal-manager-burnout-shield`](insights/ins_rachitsky-segal-manager-burnout-shield.md) — Manager effectiveness predicts tech worker burnout and job enjoyment more strongly than AI stance, role, or seniority in the 2026 data _(Lenny Rachitsky)_
 - [`ins_ramanujam-leaders-fillers-killers`](insights/ins_ramanujam-leaders-fillers-killers.md) — Leaders, Fillers, Killers, segment customers by WTP, then bundle features by their role per segment _(Madhavan Ramanujam)_
 - [`ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers`](insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md) — CEO's office roles should attract those optimizing for impact, not salary. _(Ranjeet Pratap Singh)_
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 _(Tim Soulo)_
@@ -758,6 +760,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
+- [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
 - [`ins_shivangi-gautam-word-salad-critique`](insights/ins_shivangi-gautam-word-salad-critique.md) — LinkedIn thought leadership is often word salad with no real point. _(Shivangi Gautam)_
 - [`ins_shleyner-conciseness-as-respect`](insights/ins_shleyner-conciseness-as-respect.md) — Conciseness is respect, every unnecessary word signals that you value your message more than the reader's time _(Eddie Shleyner)_
 - [`ins_shruti-vashi-pmm-must-balance-strategy-and-execution`](insights/ins_shruti-vashi-pmm-must-balance-strategy-and-execution.md) — PMM must balance strategy and execution, not choose one. _(Shruti Vashi)_
@@ -821,6 +824,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify, data informs understanding, not the reverse _(Bangaly Kaba)_
 - [`ins_ungate-ai-iterate-pricing`](insights/ins_ungate-ai-iterate-pricing.md) — Ungate AI features first; treat pricing as iterable product, not strategic decision _(Elena Verna)_
 - [`ins_ux-change-target-emotion-is-relief`](insights/ins_ux-change-target-emotion-is-relief.md) — When shipping a workflow change, the target emotion is relief, not excitement _(Emily Pick)_
+- [`ins_varda-ai-commit-message-blindspot`](insights/ins_varda-ai-commit-message-blindspot.md) — AI-generated PR and commit descriptions repeat visible code details instead of explaining why the change was made, making them worse for review than no description _(Kenton Varda)_
 - [`ins_varia-makagonova-workplace-messaging-rules`](insights/ins_varia-makagonova-workplace-messaging-rules.md) — Customer advocacy is the brand-awareness program your team didn't know it needed _(Varia Makagonova)_
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
@@ -1209,6 +1213,7 @@ _Generated 2026-07-10. Auto-built from frontmatter — do not edit by hand._
 - [Kate Syuma](operators/kate-syuma/README.md)
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kenny Damian](operators/kenny-damian/README.md)
+- [Kenton Varda](operators/kenton-varda/README.md)
 - [Kesava Mandiga](operators/kesava-mandiga/README.md)
 - [Keshav Goyal](operators/keshav-goyal/README.md)
 - [Kevin Chan](operators/kevin-chan/README.md)

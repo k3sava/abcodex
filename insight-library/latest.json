@@ -1,23 +1,44 @@
 {
-  "generated_at": "2026-07-10T02:02:56.389Z",
+  "generated_at": "2026-07-11T01:50:45.898Z",
   "latest_daily": {
-    "path": "daily/2026-07-10.md",
-    "date": "2026-07-10",
-    "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
-    "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
+    "path": "daily/2026-07-11.md",
+    "date": "2026-07-11",
+    "title": "Context that AI can't see, and the two jobs knowledge work now has",
+    "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
     "sources": [],
     "insights_added": [
-      "ins_zukowski-overexposure-impossible",
-      "ins_ball-problem-not-solution"
+      "ins_indig-seo-aio-decoupling",
+      "ins_varda-ai-commit-message-blindspot",
+      "ins_rachitsky-segal-manager-burnout-shield",
+      "ins_shipper-tend-your-loop"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "kenton-varda"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_diagnose-before-execute"
-    ]
+    "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-11.md",
+      "date": "2026-07-11",
+      "title": "Context that AI can't see, and the two jobs knowledge work now has",
+      "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-seo-aio-decoupling",
+        "ins_varda-ai-commit-message-blindspot",
+        "ins_rachitsky-segal-manager-burnout-shield",
+        "ins_shipper-tend-your-loop"
+      ],
+      "operators_added": [
+        "kenton-varda"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-10.md",
       "date": "2026-07-10",
@@ -622,27 +643,6 @@
         "pat_frontline-as-pmm-substrate",
         "pat_sales-as-engineered-system-not-art",
         "pat_context-not-capability"
-      ]
-    },
-    {
-      "path": "daily/2026-05-15.md",
-      "date": "2026-05-15",
-      "title": "Earn the citation, hold the floor, retire the position metric",
-      "summary": "Four new cards from Lily Ray, Aleyda Solis, Eli Schwartz, and Aakash Gupta. Ray and Solis converge on the structural architecture of AEO visibility from opposite directions. Schwartz names the measurement construct that is dissolving beneath the whole category. Gupta gives a one-sentence test that changes how you scope a skills library.",
-      "sources": [
-        "morning research scan 2026-05-15"
-      ],
-      "insights_added": [
-        "ins_lily-ray-geo-penalty-multi-surface-cascade",
-        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
-        "ins_eli-schwartz-personalized-search-dissolves-position",
-        "ins_aakash-gupta-paste-twice-test"
-      ],
-      "operators_added": "",
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "--"
       ]
     }
   ]
