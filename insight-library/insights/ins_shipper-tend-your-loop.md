@@ -21,7 +21,7 @@ raw_ref: ""
 # When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work
 
 ## Claim
-Once AI execution is reliable enough to run recurring workflows end-to-end, the highest-leverage knowledge worker activity is no longer performing tasks but building the systems, refining the criteria, and maintaining the feedback loops that run those tasks. The work shifts from doing to tending.
+Once AI execution is reliable enough to run recurring workflows end-to-end, the highest-value knowledge worker activity is no longer performing tasks but building the systems, refining the criteria, and maintaining the feedback loops that run those tasks. The work shifts from doing to tending.
 
 ## Mechanism
 Reliable AI execution removes execution as the binding constraint on knowledge work output. The bottleneck shifts to system design: what should the loop do, how should quality be defined, what should trigger a human review, and what evidence signals the loop has drifted from the intent? These are judgment questions that require domain expertise and cannot be delegated to the AI doing the execution. Shipper describes this as moving from "doing the work" to "tending the loop" because the worker's function is now continuous calibration and oversight of a running system rather than performing individual tasks.
