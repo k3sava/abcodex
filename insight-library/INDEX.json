@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-07-10T02:02:56.371Z",
+  "generated_at": "2026-07-11T01:50:45.827Z",
   "counts": {
-    "insights": 925,
-    "operators": 497,
+    "insights": 929,
+    "operators": 498,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 42
+    "daily": 43
   },
   "latest_daily": {
-    "path": "daily/2026-07-10.md",
-    "date": "2026-07-10",
-    "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
-    "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
+    "path": "daily/2026-07-11.md",
+    "date": "2026-07-11",
+    "title": "Context that AI can't see, and the two jobs knowledge work now has",
+    "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
     "sources": [],
     "insights_added": [
-      "ins_zukowski-overexposure-impossible",
-      "ins_ball-problem-not-solution"
+      "ins_indig-seo-aio-decoupling",
+      "ins_varda-ai-commit-message-blindspot",
+      "ins_rachitsky-segal-manager-burnout-shield",
+      "ins_shipper-tend-your-loop"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "kenton-varda"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_diagnose-before-execute"
-    ]
+    "patterns_updated": []
   },
   "insights": [
     {
@@ -9965,6 +9967,38 @@
       "title": "Only 2.37 percent of URLs cited by AI search engines appear across all three major platforms; 91 percent live in exactly one"
     },
     {
+      "path": "insights/ins_indig-seo-aio-decoupling.md",
+      "id": "ins_indig-seo-aio-decoupling",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and SEO researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/growth-intelligence-brief-21",
+      "source_type": "research",
+      "source_title": "Growth Intelligence Brief #21",
+      "source_date": "2026-07-10",
+      "captured_date": "2026-07-11",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "measurement-experimentation",
+        "strategy",
+        "attribution"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-engine-fragmentation",
+        "ins_ghost-citation-gap"
+      ],
+      "raw_ref": "",
+      "title": "Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies"
+    },
+    {
       "path": "insights/ins_influence-is-discovery-not-conviction.md",
       "id": "ins_influence-is-discovery-not-conviction",
       "operator": "Jessica Fain",
@@ -17702,6 +17736,38 @@
       "title": "Tech workers' personal career optimism has decoupled from their institutional trust in the industry, with a majority optimistic about their own trajectory while recommending against entering the field"
     },
     {
+      "path": "insights/ins_rachitsky-segal-manager-burnout-shield.md",
+      "id": "ins_rachitsky-segal-manager-burnout-shield",
+      "operator": "Lenny Rachitsky",
+      "operator_role": "Creator of Lenny's Newsletter; former growth PM at Airbnb",
+      "co_operators": [
+        "Noam Segal"
+      ],
+      "source_url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source_type": "research",
+      "source_title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-11",
+      "domain": [
+        "future-of-work",
+        "leadership"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_rachitsky-segal-ai-baseline-creep-burnout",
+        "ins_rachitsky-segal-career-recommendation-paradox"
+      ],
+      "raw_ref": "",
+      "title": "Manager effectiveness predicts tech worker burnout and job enjoyment more strongly than AI stance, role, or seniority in the 2026 data"
+    },
+    {
       "path": "insights/ins_rackham-closing-techniques-backfire.md",
       "id": "ins_rackham-closing-techniques-backfire",
       "operator": "Neil Rackham",
@@ -20131,6 +20197,38 @@
       ],
       "raw_ref": "",
       "title": "The bottleneck for AI adoption has moved from model capability to organizational capability"
+    },
+    {
+      "path": "insights/ins_shipper-tend-your-loop.md",
+      "id": "ins_shipper-tend-your-loop",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/chain-of-thought/how-gpt-5-6-changes-knowledge-work",
+      "source_type": "essay",
+      "source_title": "How GPT-5.6 Changes Knowledge Work",
+      "source_date": "2026-07-10",
+      "captured_date": "2026-07-11",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-org-capability-ai-bottleneck",
+        "ins_mollick-commission-not-steer"
+      ],
+      "raw_ref": "",
+      "title": "When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work"
     },
     {
       "path": "insights/ins_shivangi-gautam-word-salad-critique.md",
@@ -23995,6 +24093,35 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/alex-hormozi.md",
       "title": "Value = (Dream Outcome × Likelihood) / (Time Delay × Effort), pull all four levers, not just price"
+    },
+    {
+      "path": "insights/ins_varda-ai-commit-message-blindspot.md",
+      "id": "ins_varda-ai-commit-message-blindspot",
+      "operator": "Kenton Varda",
+      "operator_role": "Principal Engineer, Cloudflare; tech lead for Cloudflare Workers",
+      "co_operators": [],
+      "source_url": "https://x.com/KentonVarda/status/2074924213983740233",
+      "source_type": "thread",
+      "source_title": "Moratorium on AI-written change descriptions",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-11",
+      "domain": [
+        "agentic-coding",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-problem-not-solution"
+      ],
+      "raw_ref": "",
+      "title": "AI-generated PR and commit descriptions repeat visible code details instead of explaining why the change was made, making them worse for review than no description"
     },
     {
       "path": "insights/ins_varia-makagonova-workplace-messaging-rules.md",
@@ -30479,6 +30606,25 @@
         "linkedin": "https://www.linkedin.com/in/kenny-damian-90aba221a/"
       },
       "title": "Kenny Damian"
+    },
+    {
+      "path": "operators/kenton-varda/README.md",
+      "name": "Kenton Varda",
+      "slug": "kenton-varda",
+      "roles": [
+        "Principal Engineer, Cloudflare",
+        "Tech lead, Cloudflare Workers"
+      ],
+      "domains_active": [
+        "agentic-coding",
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-07-11",
+      "external": {
+        "twitter": "https://x.com/KentonVarda"
+      },
+      "title": "Kenton Varda"
     },
     {
       "path": "operators/kesava-mandiga/README.md",
@@ -40676,6 +40822,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-11.md",
+      "date": "2026-07-11",
+      "title": "Context that AI can't see, and the two jobs knowledge work now has",
+      "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-seo-aio-decoupling",
+        "ins_varda-ai-commit-message-blindspot",
+        "ins_rachitsky-segal-manager-burnout-shield",
+        "ins_shipper-tend-your-loop"
+      ],
+      "operators_added": [
+        "kenton-varda"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-10.md",
       "date": "2026-07-10",
