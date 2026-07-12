@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-07-11T01:50:45.827Z",
+  "generated_at": "2026-07-12T02:02:54.717Z",
   "counts": {
-    "insights": 929,
-    "operators": 498,
+    "insights": 932,
+    "operators": 499,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 43
+    "daily": 44
   },
   "latest_daily": {
-    "path": "daily/2026-07-11.md",
-    "date": "2026-07-11",
-    "title": "Context that AI can't see, and the two jobs knowledge work now has",
-    "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
+    "path": "daily/2026-07-12.md",
+    "date": "2026-07-12",
+    "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
+    "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
     "sources": [],
     "insights_added": [
-      "ins_indig-seo-aio-decoupling",
-      "ins_varda-ai-commit-message-blindspot",
-      "ins_rachitsky-segal-manager-burnout-shield",
-      "ins_shipper-tend-your-loop"
+      "ins_tunguz-fde-deployment-moat",
+      "ins_evans-token-pricing-commoditization",
+      "ins_mollick-specs-not-tricks"
     ],
     "operators_added": [
-      "kenton-varda"
+      "benedict-evans"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -7019,6 +7018,35 @@
       ],
       "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md",
       "title": "Evals are systematic data analysis on your LLM application, start with error analysis, not tests"
+    },
+    {
+      "path": "insights/ins_evans-token-pricing-commoditization.md",
+      "id": "ins_evans-token-pricing-commoditization",
+      "operator": "Benedict Evans",
+      "operator_role": "Independent technology analyst",
+      "co_operators": [],
+      "source_url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "source_type": "essay",
+      "source_title": "Ways to think about token pricing",
+      "source_date": "2026-07-09",
+      "captured_date": "2026-07-12",
+      "domain": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy-and-bets",
+        "pricing-and-packaging"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-inference-pricing-value-beats-cost-plus"
+      ],
+      "raw_ref": "",
+      "title": "Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack"
     },
     {
       "path": "insights/ins_every-few-weeks-there-new.md",
@@ -14403,6 +14431,37 @@
       ],
       "raw_ref": "",
       "title": "Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result"
+    },
+    {
+      "path": "insights/ins_mollick-specs-not-tricks.md",
+      "id": "ins_mollick-specs-not-tricks",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://x.com/emollick/status/2074307813392732279",
+      "source_type": "thread",
+      "source_title": "",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-12",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer",
+        "ins_mollick-patron-not-wizard",
+        "ins_shipper-tend-your-loop"
+      ],
+      "raw_ref": "",
+      "title": "Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill"
     },
     {
       "path": "insights/ins_most-generous-interpretation.md",
@@ -23674,6 +23733,36 @@
       "title": "Frontier AI deployment is now constrained by safety policy, not by model capability"
     },
     {
+      "path": "insights/ins_tunguz-fde-deployment-moat.md",
+      "id": "ins_tunguz-fde-deployment-moat",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-10b-fde-boom/",
+      "source_type": "essay",
+      "source_title": "The $10B FDE Boom",
+      "source_date": "2026-07-07",
+      "captured_date": "2026-07-12",
+      "domain": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "go-to-market",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-three-disciplines",
+        "ins_tunguz-agent-routing-architecture"
+      ],
+      "raw_ref": "",
+      "title": "The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat"
+    },
+    {
       "path": "insights/ins_tunguz-harness-three-disciplines.md",
       "id": "ins_tunguz-harness-three-disciplines",
       "operator": "Tomasz Tunguz",
@@ -27145,6 +27234,23 @@
         "website": "https://bensbites.com/"
       },
       "title": "Ben Tossell"
+    },
+    {
+      "path": "operators/benedict-evans/README.md",
+      "name": "Benedict Evans",
+      "slug": "benedict-evans",
+      "roles": [
+        "Independent technology analyst and essayist"
+      ],
+      "domains_active": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "captured_first": "2026-07-12",
+      "external": {
+        "newsletter": "https://www.ben-evans.com/"
+      },
+      "title": "Benedict Evans"
     },
     {
       "path": "operators/benjamin-gibert/README.md",
@@ -40822,6 +40928,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-12.md",
+      "date": "2026-07-12",
+      "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
+      "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-fde-deployment-moat",
+        "ins_evans-token-pricing-commoditization",
+        "ins_mollick-specs-not-tricks"
+      ],
+      "operators_added": [
+        "benedict-evans"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-11.md",
       "date": "2026-07-11",
