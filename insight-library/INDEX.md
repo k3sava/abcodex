@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-12. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 929 insight cards
-- 498 operator profiles
+- 932 insight cards
+- 499 operator profiles
 - 209 raw source files
 - 44 synthesis patterns
 - 11 contradictions
@@ -354,7 +354,7 @@ _Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (511)
+### Tier B (514)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -509,6 +509,7 @@ _Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_eric-mistry-zapier-hiring-generalist-application`](insights/ins_eric-mistry-zapier-hiring-generalist-application.md) — Customer education has to break silos with success and marketing to scale _(Eric Mistry)_
 - [`ins_error-analysis-highest-leverage-eval-step`](insights/ins_error-analysis-highest-leverage-eval-step.md) — Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested _(Hamel Husain)_
 - [`ins_eureka-onboarding`](insights/ins_eureka-onboarding.md) — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly _(Ramli John)_
+- [`ins_evans-token-pricing-commoditization`](insights/ins_evans-token-pricing-commoditization.md) — Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack _(Benedict Evans)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c _(Seepiya Sahni)_
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
 - [`ins_explore-and-exploit-channels`](insights/ins_explore-and-exploit-channels.md) — Content is a compounding asset, quality bar is binary: genuinely new OR measurably better _(Steph Smith)_
@@ -649,6 +650,7 @@ _Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
+- [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
 - [`ins_most-gtm-strategies-fail-because`](insights/ins_most-gtm-strategies-fail-because.md) — Most GTM strategies fail because they're built for 2020, not 2025 _(Kabir Uppal)_
 - [`ins_most-people-still-using-like`](insights/ins_most-people-still-using-like.md) — Most people are still using AI like this: ask → answer → forget _(Alok Yadav)_
@@ -815,6 +817,7 @@ _Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
@@ -1027,6 +1030,7 @@ _Generated 2026-07-11. Auto-built from frontmatter — do not edit by hand._
 - [Barry Schwartz](operators/barry-schwartz/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
 - [Ben Tossell](operators/ben-tossell/README.md)
+- [Benedict Evans](operators/benedict-evans/README.md)
 - [Benjamin Gibert](operators/benjamin-gibert/README.md)
 - [Benjamin Lauzier](operators/benjamin-lauzier/README.md)
 - [Benjamin Mann](operators/benjamin-mann/README.md)

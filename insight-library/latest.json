@@ -1,25 +1,42 @@
 {
-  "generated_at": "2026-07-11T01:50:45.898Z",
+  "generated_at": "2026-07-12T02:02:54.737Z",
   "latest_daily": {
-    "path": "daily/2026-07-11.md",
-    "date": "2026-07-11",
-    "title": "Context that AI can't see, and the two jobs knowledge work now has",
-    "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
+    "path": "daily/2026-07-12.md",
+    "date": "2026-07-12",
+    "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
+    "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
     "sources": [],
     "insights_added": [
-      "ins_indig-seo-aio-decoupling",
-      "ins_varda-ai-commit-message-blindspot",
-      "ins_rachitsky-segal-manager-burnout-shield",
-      "ins_shipper-tend-your-loop"
+      "ins_tunguz-fde-deployment-moat",
+      "ins_evans-token-pricing-commoditization",
+      "ins_mollick-specs-not-tricks"
     ],
     "operators_added": [
-      "kenton-varda"
+      "benedict-evans"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-12.md",
+      "date": "2026-07-12",
+      "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
+      "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-fde-deployment-moat",
+        "ins_evans-token-pricing-commoditization",
+        "ins_mollick-specs-not-tricks"
+      ],
+      "operators_added": [
+        "benedict-evans"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-11.md",
       "date": "2026-07-11",
@@ -616,34 +633,6 @@
         "pat_execution-cheap-judgement-scarce"
       ],
       "playbooks_added": []
-    },
-    {
-      "path": "daily/2026-05-16.md",
-      "date": "2026-05-16",
-      "title": "Five new insights: recovery floors, AI consensus, and task-driven minimalism",
-      "summary": "Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.",
-      "sources": [
-        "morning research scan 2026-05-16"
-      ],
-      "insights_added": [
-        "ins_rewind-ai-adoption-chilling-effect",
-        "ins_mccormick-ai-makes-consensus-cheap",
-        "ins_nicolas-cole-voc-source-llm-assembly",
-        "ins_pawel-huryn-task-driven-skill-minimalism",
-        "ins_chris-orlob-five-touch-sequence"
-      ],
-      "operators_added": [
-        "rewind",
-        "nicolas-cole"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_differentiation-vs-sameness",
-        "pat_frontline-as-pmm-substrate",
-        "pat_sales-as-engineered-system-not-art",
-        "pat_context-not-capability"
-      ]
     }
   ]
 }

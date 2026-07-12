@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 01:50:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 02:02:57 GMT</lastBuildDate>
+    <item>
+      <title>Deployment bottlenecks, commodity pricing, and the end of prompting tricks</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-12/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-12/</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.</description>
+    </item>
     <item>
       <title>Context that AI can&apos;t see, and the two jobs knowledge work now has</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-11/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-17/</guid>
       <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
       <description>Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.</description>
-    </item>
-    <item>
-      <title>Five new insights: recovery floors, AI consensus, and task-driven minimalism</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-16/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-16/</guid>
-      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards from five operators. Rewind names the chilling effect that recovery gaps create on AI adoption. Packy McCormick and Nicolas Cole converge on distinctiveness as the post-AI scarcity from independent angles. Pawel Huryn and Chris Orlob arrive at the same minimalist discipline applied to skill acquisition and outreach sequencing.</description>
     </item>
   </channel>
 </rss>
