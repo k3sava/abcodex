@@ -31,9 +31,13 @@ Holds when: projects carry real stakes and require someone to own failure extern
 Fails when: the "project" is a fully automated pipeline (batch job, scheduled cron) where the human who designed and deployed the system is the implicit DRI. Automation is not the same as delegating accountability.
 
 ## Evidence
-Willison wrote: "An agent should never be considered the DRI for a project — that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot."
+Willison wrote:
 
-He cites the IBM slide as precedent: "A computer can never be held accountable, therefore a computer must never make a management decision."
+> "An agent should never be considered the DRI for a project — that's something that feels uniquely human to me, because humans can take accountability for their actions where machines cannot."
+
+He cites the IBM slide as precedent:
+
+> "A computer can never be held accountable, therefore a computer must never make a management decision."
 
 ## Signals
 - Post-mortems name human owners, not systems or agents.
