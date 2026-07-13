@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-12 · 3 insights · 1 operator
+### Latest · 2026-07-13 · 3 insights
 
-**Deployment bottlenecks, commodity pricing, and the end of prompting tricks.** Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.
+**Agent accountability, preflight memory, and the database lesson for inference infrastructure.** Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.
 
-[Read what landed →](insight-library/daily/2026-07-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **932** insight cards
+- **935** insight cards
 - **499** operator profiles
 - **44** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

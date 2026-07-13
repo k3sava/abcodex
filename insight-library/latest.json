@@ -1,24 +1,38 @@
 {
-  "generated_at": "2026-07-12T02:02:54.737Z",
+  "generated_at": "2026-07-13T01:53:09.683Z",
   "latest_daily": {
-    "path": "daily/2026-07-12.md",
-    "date": "2026-07-12",
-    "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
-    "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
+    "path": "daily/2026-07-13.md",
+    "date": "2026-07-13",
+    "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
+    "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-fde-deployment-moat",
-      "ins_evans-token-pricing-commoditization",
-      "ins_mollick-specs-not-tricks"
+      "ins_willison-agent-dri-accountability",
+      "ins_tunguz-preflight-skill-retrieval",
+      "ins_tunguz-inference-stack-fragmentation"
     ],
-    "operators_added": [
-      "benedict-evans"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-13.md",
+      "date": "2026-07-13",
+      "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
+      "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
+      "sources": [],
+      "insights_added": [
+        "ins_willison-agent-dri-accountability",
+        "ins_tunguz-preflight-skill-retrieval",
+        "ins_tunguz-inference-stack-fragmentation"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-12.md",
       "date": "2026-07-12",
@@ -606,33 +620,6 @@
         "pat_verification-as-human-job",
         "--"
       ]
-    },
-    {
-      "path": "daily/2026-05-17.md",
-      "date": "2026-05-17",
-      "title": "AEO splits into three jobs, the judgment ceiling holds, and listening compounds",
-      "summary": "Nine new cards. AEO fractures into citation, traffic, and IP protection as three separate jobs. The judgment ceiling holds as execution costs drop. One strong data set on customer marketing as systematic listening.",
-      "sources": [
-        "morning research scan 2026-05-17"
-      ],
-      "insights_added": [
-        "ins_mike-king-llm-cloaking-ip-protection",
-        "ins_mike-king-markdown-serving-llm-crawlers",
-        "ins_fishkin-natividad-measurement-reframe-not-clicks",
-        "ins_gerhardt-customer-marketing-listening-program",
-        "ins_sangram-vajre-fractional-packaging-gap",
-        "ins_sangram-vajre-ai-multiplies-existing-alignment",
-        "ins_rory-woodbridge-pmm-craft-common-language",
-        "ins_pierri-batch-transcripts-produce-fabrications",
-        "ins_aleyda-solis-ai-links-not-automatically-traffic"
-      ],
-      "operators_added": [],
-      "patterns_updated": [
-        "pat_aeo-triangle",
-        "pat_verification-as-human-job",
-        "pat_execution-cheap-judgement-scarce"
-      ],
-      "playbooks_added": []
     }
   ]
 }
