@@ -1,28 +1,26 @@
 {
-  "generated_at": "2026-07-12T02:02:54.717Z",
+  "generated_at": "2026-07-13T01:53:09.662Z",
   "counts": {
-    "insights": 932,
+    "insights": 935,
     "operators": 499,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 44
+    "daily": 45
   },
   "latest_daily": {
-    "path": "daily/2026-07-12.md",
-    "date": "2026-07-12",
-    "title": "Deployment bottlenecks, commodity pricing, and the end of prompting tricks",
-    "summary": "Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.",
+    "path": "daily/2026-07-13.md",
+    "date": "2026-07-13",
+    "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
+    "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-fde-deployment-moat",
-      "ins_evans-token-pricing-commoditization",
-      "ins_mollick-specs-not-tricks"
+      "ins_willison-agent-dri-accountability",
+      "ins_tunguz-preflight-skill-retrieval",
+      "ins_tunguz-inference-stack-fragmentation"
     ],
-    "operators_added": [
-      "benedict-evans"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -23822,6 +23820,35 @@
       "title": "Reselling inference at cost-plus yields zero margin as model prices compress"
     },
     {
+      "path": "insights/ins_tunguz-inference-stack-fragmentation.md",
+      "id": "ins_tunguz-inference-stack-fragmentation",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/three-years-in/",
+      "source_type": "essay",
+      "source_title": "Three Years In",
+      "source_date": "2026-07-10",
+      "captured_date": "2026-07-13",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-async-inference-latency-tradeoff",
+        "ins_tunguz-fde-deployment-moat"
+      ],
+      "raw_ref": "",
+      "title": "AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems"
+    },
+    {
       "path": "insights/ins_tunguz-minimill-local-routing.md",
       "id": "ins_tunguz-minimill-local-routing",
       "operator": "Tomasz Tunguz",
@@ -23877,6 +23904,36 @@
       ],
       "raw_ref": "",
       "title": "Model substitution savings are reinvested in more tokens, not returned to the budget"
+    },
+    {
+      "path": "insights/ins_tunguz-preflight-skill-retrieval.md",
+      "id": "ins_tunguz-preflight-skill-retrieval",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/the-ai-preflight-check/",
+      "source_type": "essay",
+      "source_title": "The AI Preflight Check",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-13",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-agent-routing-architecture",
+        "ins_tunguz-minimill-local-routing"
+      ],
+      "raw_ref": "",
+      "title": "Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task"
     },
     {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
@@ -24953,6 +25010,37 @@
       ],
       "raw_ref": "raw/podcasts/andrew-wilkinson--niche-markets-lazy-leadership--2026-04-28.md",
       "title": "Same service, different segment, 5x price, the variable is buyer economics, not effort"
+    },
+    {
+      "path": "insights/ins_willison-agent-dri-accountability.md",
+      "id": "ins_willison-agent-dri-accountability",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; prolific open-source developer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/",
+      "source_type": "essay",
+      "source_title": "Directly Responsible Individuals",
+      "source_date": "2026-07-12",
+      "captured_date": "2026-07-13",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer",
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack"
     },
     {
       "path": "insights/ins_willison-agent-driven-ml-model-conversion.md",
@@ -40928,6 +41016,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-13.md",
+      "date": "2026-07-13",
+      "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
+      "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
+      "sources": [],
+      "insights_added": [
+        "ins_willison-agent-dri-accountability",
+        "ins_tunguz-preflight-skill-retrieval",
+        "ins_tunguz-inference-stack-fragmentation"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-12.md",
       "date": "2026-07-12",
