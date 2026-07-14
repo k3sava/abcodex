@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-13T01:53:09.662Z",
+  "generated_at": "2026-07-14T01:56:49.330Z",
   "counts": {
-    "insights": 935,
+    "insights": 938,
     "operators": 499,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 45
+    "daily": 46
   },
   "latest_daily": {
-    "path": "daily/2026-07-13.md",
-    "date": "2026-07-13",
-    "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
-    "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
+    "path": "daily/2026-07-14.md",
+    "date": "2026-07-14",
+    "title": "The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value",
+    "summary": "Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.",
     "sources": [],
     "insights_added": [
-      "ins_willison-agent-dri-accountability",
-      "ins_tunguz-preflight-skill-retrieval",
-      "ins_tunguz-inference-stack-fragmentation"
+      "ins_tunguz-41-day-frontier-window",
+      "ins_tunguz-ai-retention-colander",
+      "ins_tunguz-agents-erp-bypass"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23525,6 +23525,37 @@
       "title": "Strangers → friends → customers, three trust thresholds, three different message types"
     },
     {
+      "path": "insights/ins_tunguz-41-day-frontier-window.md",
+      "id": "ins_tunguz-41-day-frontier-window",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-ai-colander/",
+      "source_type": "essay",
+      "source_title": "The AI Colander",
+      "source_date": "2026-07-13",
+      "captured_date": "2026-07-14",
+      "domain": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy",
+        "pricing-packaging"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-fde-deployment-moat",
+        "ins_evans-token-pricing-commoditization",
+        "ins_tunguz-ai-retention-colander"
+      ],
+      "raw_ref": "",
+      "title": "The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle"
+    },
+    {
       "path": "insights/ins_tunguz-agent-routing-architecture.md",
       "id": "ins_tunguz-agent-routing-architecture",
       "operator": "Tomasz Tunguz",
@@ -23553,6 +23584,68 @@
       ],
       "raw_ref": "",
       "title": "Routing architecture is the first design decision in an AI agent system, not model selection"
+    },
+    {
+      "path": "insights/ins_tunguz-agents-erp-bypass.md",
+      "id": "ins_tunguz-agents-erp-bypass",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/three-years-in/",
+      "source_type": "essay",
+      "source_title": "Three Years In",
+      "source_date": "2026-07-10",
+      "captured_date": "2026-07-14",
+      "domain": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-fde-deployment-moat",
+        "ins_tunguz-harness-three-disciplines",
+        "ins_tunguz-inference-stack-fragmentation"
+      ],
+      "raw_ref": "",
+      "title": "AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-retention-colander.md",
+      "id": "ins_tunguz-ai-retention-colander",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-ai-colander/",
+      "source_type": "essay",
+      "source_title": "The AI Colander",
+      "source_date": "2026-07-13",
+      "captured_date": "2026-07-14",
+      "domain": [
+        "ai-native",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "retention",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-41-day-frontier-window",
+        "ins_tunguz-fde-deployment-moat",
+        "ins_tunguz-model-substitution-reinvestment"
+      ],
+      "raw_ref": "",
+      "title": "AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest"
     },
     {
       "path": "insights/ins_tunguz-ai-worldview-alignment-divergence.md",
@@ -41016,6 +41109,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-14.md",
+      "date": "2026-07-14",
+      "title": "The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value",
+      "summary": "Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-41-day-frontier-window",
+        "ins_tunguz-ai-retention-colander",
+        "ins_tunguz-agents-erp-bypass"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-13.md",
       "date": "2026-07-13",
