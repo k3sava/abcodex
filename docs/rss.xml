@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 01:53:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 01:52:05 GMT</lastBuildDate>
+    <item>
+      <title>The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-14/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-14/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer leverage every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.</description>
+    </item>
     <item>
       <title>Agent accountability, preflight memory, and the database lesson for inference infrastructure</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-13/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-21/</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
       <description>Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).</description>
-    </item>
-    <item>
-      <title>One level down: two operators on why surface-level matching misses what matters</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-19/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-19/</guid>
-      <pubDate>Tue, 19 May 2026 00:00:00 GMT</pubDate>
-      <description>Two new insights, two synthesis patterns updated, one new operator. One meta-theme ran through both: surface-level matching fails where depth is needed. Shreyas Doshi names it for strategy. Anthropic names it for security.</description>
     </item>
   </channel>
 </rss>
