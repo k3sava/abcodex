@@ -810,7 +810,7 @@ _Generated 2026-07-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
-- [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating leverage on the same cycle _(Tomasz Tunguz)_
+- [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_

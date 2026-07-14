@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest · 2026-07-14 · 3 insights
 
-**The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value.** Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer leverage every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.
+**The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value.** Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.
 
 [Read what landed →](insight-library/daily/2026-07-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->

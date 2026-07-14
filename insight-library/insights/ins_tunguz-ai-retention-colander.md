@@ -44,5 +44,5 @@ Retention data from Tunguz's analysis: AI products retain "somewhere between hig
 The benchmark period is still short. AI products as a category are newer than the retention patterns that defined social and gaming norms. A two-year cohort may look different from a five-month cohort. Products built on top of AI models inherit model switching costs only partially; application-layer switching costs (trained workflows, institutional memory in the product) can be substantial even when the model layer is commoditizing.
 
 ## Cross-references
-- `ins_tunguz-41-day-frontier-window`: model-layer leverage cycle applies to buyers; product-layer retention is a separate dynamic determined by integration depth, not benchmark timing.
+- `ins_tunguz-41-day-frontier-window`: model-layer pricing cycle applies to buyers; product-layer retention is a separate dynamic determined by integration depth, not benchmark timing.
 - `ins_tunguz-fde-deployment-moat`: embedded engineering teams are one mechanism for moving products from the high-single-digit churn band into the 40% cohort by deepening workflow integration.

@@ -18,10 +18,10 @@ related: [ins_tunguz-fde-deployment-moat, ins_evans-token-pricing-commoditizatio
 raw_ref: ""
 ---
 
-# The average frontier model holds its performance crown for 41 days, resetting customer negotiating leverage on the same cycle
+# The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle
 
 ## Claim
-The average frontier AI model maintains its performance lead for only 41 days before a competing model overtakes it on benchmarks, giving customers a credible switching option and negotiating leverage on a six-week cycle.
+The average frontier AI model maintains its performance lead for only 41 days before a competing model overtakes it on benchmarks, giving customers a credible switching option and negotiating power on a six-week cycle.
 
 ## Mechanism
 Model release cadence now outpaces any enterprise procurement cycle. When a model loses its benchmark lead at day 41, an equivalent or superior capability is available at the same or lower cost. The pricing premium attached to top-of-benchmark status expires with the lead. Customers who know the cycle can time renegotiations or competitive evaluations to coincide with each regime change. Vendors cannot sustain capability-based pricing premiums when parity arrives every six weeks.
@@ -43,7 +43,7 @@ Tunguz cites Microsoft's MAI-Code-1-Flash matching Claude Haiku 4.5 on SWE-Bench
 - Procurement teams benchmarking AI suppliers quarterly rather than annually
 
 ## Counter-evidence
-Benchmark performance is not always what customers buy. Workflow integration, trust, and support quality all extend effective switching costs beyond the 41-day technical reset. Enterprise deals with embedded teams (FDE) create institutional lock-in that survives benchmark reversals. The 41-day cycle applies to buyer leverage at the model layer, not to the full vendor relationship.
+Benchmark performance is not always what customers buy. Workflow integration, trust, and support quality all extend effective switching costs beyond the 41-day technical reset. Enterprise deals with embedded teams (FDE) create institutional lock-in that survives benchmark reversals. The 41-day cycle applies to buyer pricing position at the model layer, not to the full vendor relationship.
 
 ## Cross-references
 - `ins_tunguz-fde-deployment-moat`: FDE investment is the vendor countermeasure that converts raw capability into institutional lock-in, extending effective tenure beyond the 41-day window.
