@@ -1,22 +1,42 @@
 {
-  "generated_at": "2026-07-14T01:56:49.350Z",
+  "generated_at": "2026-07-15T01:51:51.607Z",
   "latest_daily": {
-    "path": "daily/2026-07-14.md",
-    "date": "2026-07-14",
-    "title": "The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value",
-    "summary": "Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.",
+    "path": "daily/2026-07-15.md",
+    "date": "2026-07-15",
+    "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
+    "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-41-day-frontier-window",
-      "ins_tunguz-ai-retention-colander",
-      "ins_tunguz-agents-erp-bypass"
+      "ins_zukowski-steam-slop-temporal-filter",
+      "ins_zukowski-nextfest-momentum-beats-base",
+      "ins_mosseri-ai-authenticity-tailwind"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "adam-mosseri"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-15.md",
+      "date": "2026-07-15",
+      "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
+      "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
+      "sources": [],
+      "insights_added": [
+        "ins_zukowski-steam-slop-temporal-filter",
+        "ins_zukowski-nextfest-momentum-beats-base",
+        "ins_mosseri-ai-authenticity-tailwind"
+      ],
+      "operators_added": [
+        "adam-mosseri"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-14.md",
       "date": "2026-07-14",
@@ -594,25 +614,6 @@
         "pat_verification-as-human-job",
         "pat_agent-first-gtm"
       ]
-    },
-    {
-      "path": "daily/2026-05-21.md",
-      "date": "2026-05-21",
-      "title": "Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.",
-      "summary": "Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).",
-      "sources": [
-        "morning research scan 2026-05-21"
-      ],
-      "insights_added": [
-        "ins_mike-king-agentic-rag-5-gatekeeper",
-        "ins_fishkin-platform-first-zero-click",
-        "ins_barry-schwartz-preferred-source-labels",
-        "ins_maja-voje-content-growth-sequencing",
-        "ins_nicolas-cole-voc-mirroring-beats-paraphrase"
-      ],
-      "operators_added": "",
-      "patterns_added": [],
-      "playbooks_added": []
     }
   ]
 }
