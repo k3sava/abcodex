@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 01:56:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 01:51:55 GMT</lastBuildDate>
+    <item>
+      <title>Steam&apos;s slop filter, the momentum-over-base formula, and why AI content floods benefit real creators</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-15/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-15/</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve&apos;s behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.</description>
+    </item>
     <item>
       <title>The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-14/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-25/</guid>
       <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
       <description>Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.</description>
-    </item>
-    <item>
-      <title>Five insights, two themes. AI search rewired at the platform level. VOC craft is the answer.</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-21/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-21/</guid>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards across five operators. Two themes: AI search architecture changed at the platform level (Mike King, Rand Fishkin, Barry Schwartz), and content that resonates is built from verbatim buyer language not synthesis (Maja Voje, Nicolas Cole).</description>
     </item>
   </channel>
 </rss>

@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-07-14T01:56:49.330Z",
+  "generated_at": "2026-07-15T01:51:51.510Z",
   "counts": {
-    "insights": 938,
-    "operators": 499,
+    "insights": 941,
+    "operators": 500,
     "raw_sources": 209,
     "patterns": 44,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 46
+    "daily": 47
   },
   "latest_daily": {
-    "path": "daily/2026-07-14.md",
-    "date": "2026-07-14",
-    "title": "The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value",
-    "summary": "Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.",
+    "path": "daily/2026-07-15.md",
+    "date": "2026-07-15",
+    "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
+    "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-41-day-frontier-window",
-      "ins_tunguz-ai-retention-colander",
-      "ins_tunguz-agents-erp-bypass"
+      "ins_zukowski-steam-slop-temporal-filter",
+      "ins_zukowski-nextfest-momentum-beats-base",
+      "ins_mosseri-ai-authenticity-tailwind"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "adam-mosseri"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -14462,6 +14464,34 @@
       "title": "Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill"
     },
     {
+      "path": "insights/ins_mosseri-ai-authenticity-tailwind.md",
+      "id": "ins_mosseri-ai-authenticity-tailwind",
+      "operator": "Adam Mosseri",
+      "operator_role": "Head of Instagram, Meta",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "source_type": "podcast",
+      "source_title": "Adam Mosseri: AI is a tailwind for authenticity",
+      "source_date": "2026-07-09",
+      "captured_date": "2026-07-15",
+      "domain": [
+        "ai-native",
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it"
+    },
+    {
       "path": "insights/ins_most-generous-interpretation.md",
       "id": "ins_most-generous-interpretation",
       "operator": "Becky Kennedy",
@@ -25961,6 +25991,36 @@
       "title": "A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting"
     },
     {
+      "path": "insights/ins_zukowski-nextfest-momentum-beats-base.md",
+      "id": "ins_zukowski-nextfest-momentum-beats-base",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/07/14/games-that-used-momentum-for-steam-next-fest-success/",
+      "source_type": "essay",
+      "source_title": "Games that used momentum for Steam Next Fest Success",
+      "source_date": "2026-07-14",
+      "captured_date": "2026-07-15",
+      "domain": [
+        "growth-demand",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-overexposure-impossible",
+        "ins_zukowski-steam-personal-calendar-launch-discovery",
+        "ins_zukowski-steam-slop-temporal-filter"
+      ],
+      "raw_ref": "",
+      "title": "Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76"
+    },
+    {
       "path": "insights/ins_zukowski-overexposure-impossible.md",
       "id": "ins_zukowski-overexposure-impossible",
       "operator": "Chris Zukowski",
@@ -26014,6 +26074,36 @@
       "related": [],
       "raw_ref": "",
       "title": "Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts"
+    },
+    {
+      "path": "insights/ins_zukowski-steam-slop-temporal-filter.md",
+      "id": "ins_zukowski-steam-slop-temporal-filter",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/07/13/did-ai-slop-ruin-steam-next-fest-june-2026/",
+      "source_type": "essay",
+      "source_title": "Did AI Slop ruin Steam Next Fest June 2026?",
+      "source_date": "2026-07-13",
+      "captured_date": "2026-07-15",
+      "domain": [
+        "growth-demand",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-overexposure-impossible",
+        "ins_zukowski-steam-personal-calendar-launch-discovery"
+      ],
+      "raw_ref": "",
+      "title": "Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery"
     }
   ],
   "operators": [
@@ -26102,6 +26192,24 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Aayush Kumar"
+    },
+    {
+      "path": "operators/adam-mosseri/README.md",
+      "name": "Adam Mosseri",
+      "slug": "adam-mosseri",
+      "roles": [
+        "Head of Instagram, Meta"
+      ],
+      "domains_active": [
+        "ai-native",
+        "growth-demand",
+        "content"
+      ],
+      "captured_first": "2026-07-15",
+      "external": {
+        "twitter": "https://twitter.com/mosseri"
+      },
+      "title": "Adam Mosseri"
     },
     {
       "path": "operators/addy-osmani/README.md",
@@ -41109,6 +41217,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-15.md",
+      "date": "2026-07-15",
+      "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
+      "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
+      "sources": [],
+      "insights_added": [
+        "ins_zukowski-steam-slop-temporal-filter",
+        "ins_zukowski-nextfest-momentum-beats-base",
+        "ins_mosseri-ai-authenticity-tailwind"
+      ],
+      "operators_added": [
+        "adam-mosseri"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-14.md",
       "date": "2026-07-14",
