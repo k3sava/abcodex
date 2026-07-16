@@ -18,17 +18,17 @@ related: [ins_tunguz-minimill-local-routing, ins_tunguz-agent-routing-architectu
 raw_ref: ""
 ---
 
-# Developer tools that abstract a new compute paradigm follow the Docker adoption curve
+# Developer tools that abstract a new compute layer follow the Docker adoption curve
 
 ## Claim
-Developer tools that make a genuinely new compute paradigm trivially accessible follow the Docker adoption curve: one CLI, one format, one runtime that works the same everywhere. The network effects from community integrations make them the default long before enterprise procurement formalizes the choice.
+Developer tools that make a genuinely new compute layer trivially accessible follow the Docker adoption curve: one CLI, one format, one runtime that works the same everywhere. The network effects from community integrations make them the default long before enterprise procurement formalizes the choice.
 
 ## Mechanism
 Docker succeeded by collapsing the operational complexity of containers into a single abstraction layer. Ollama applies the same pattern to local AI models: one command to run any model, one API endpoint compatible with any integration, and a local-first architecture that keeps data on-device. The combination produces a self-reinforcing integration surface. Developer adoption at the individual machine level precedes enterprise standardization, because internal champions already know the tool before IT is asked to approve it. Ollama's founders previously built Docker's developer experience at Docker Desktop, which means the pattern is deliberate, not accidental.
 
 ## Conditions
-Holds when: the underlying paradigm is genuinely powerful but operationally painful without a simplicity wrapper, and no competing tool achieves the same abstraction first.
-Fails when: the paradigm requires cloud-scale compute that cannot run locally, or when a frontier lab ships a comparable local runner with tighter native model integration.
+Holds when: the underlying technology is genuinely powerful but operationally painful without a simplicity wrapper, and no competing tool achieves the same abstraction first.
+Fails when: the compute layer requires cloud-scale resources that cannot run locally, or when a frontier lab ships a comparable local runner with tighter native model integration.
 
 ## Evidence
 

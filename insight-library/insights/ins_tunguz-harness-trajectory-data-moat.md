@@ -18,17 +18,17 @@ related: [ins_breunig-harness-lock-in-model-layer, ins_swyx-meta-harness-converg
 raw_ref: ""
 ---
 
-# The software harness is the strategic asset in enterprise AI, not the model, because it controls which data flows to vendors for training
+# The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training
 
 ## Claim
-The software harness through which users interact with AI becomes the primary strategic battleground for enterprise AI procurement. It determines what proprietary data flows to AI vendors, what gets logged, and what gets used to train the next model. Enterprises effectively pay twice: in money and in the proprietary knowledge they must reveal to make the AI useful.
+The software harness through which users interact with AI becomes the primary contested layer in enterprise AI procurement. It determines what proprietary data flows to AI vendors, what gets logged, and what gets used to train the next model. Enterprises effectively pay twice: in money and in the proprietary knowledge they must reveal to make the AI useful.
 
 ## Mechanism
 User interactions with AI systems generate trajectory data: records of inputs, decisions, and outcomes. Harnesses are the control points that determine which internal data, trade secrets, and customer information flows to AI vendors. Training-data startups already generate approximately $10 billion in revenue capturing these trajectories. Enterprises that route work through a vendor's native harness expose proprietary knowledge that may be absorbed into future model weights. Switching costs compound because the harness accumulates user behavior data, workflow patterns, and organizational knowledge that would be abandoned on departure.
 
 ## Conditions
 Holds when: enterprises use frontier-model harnesses where the vendor has incentive and capability to use trajectory data for model training. Applies most directly to large organizations with genuinely proprietary operational knowledge.
-Fails when: the enterprise negotiates a zero data retention policy with verified full deletion. Also less relevant for commoditized workloads where trajectory data reveals nothing strategically valuable.
+Fails when: the enterprise negotiates a zero data retention policy with verified full deletion. Also less relevant for commoditized workloads where trajectory data reveals nothing of operational value.
 
 ## Evidence
 
