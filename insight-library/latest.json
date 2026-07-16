@@ -1,24 +1,42 @@
 {
-  "generated_at": "2026-07-15T01:51:51.607Z",
+  "generated_at": "2026-07-16T02:06:54.003Z",
   "latest_daily": {
-    "path": "daily/2026-07-15.md",
-    "date": "2026-07-15",
-    "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
-    "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
+    "path": "daily/2026-07-16.md",
+    "date": "2026-07-16",
+    "title": "The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook",
+    "summary": "Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.",
     "sources": [],
     "insights_added": [
-      "ins_zukowski-steam-slop-temporal-filter",
-      "ins_zukowski-nextfest-momentum-beats-base",
-      "ins_mosseri-ai-authenticity-tailwind"
+      "ins_tunguz-harness-trajectory-data-moat",
+      "ins_ronacher-agents-erase-shared-understanding",
+      "ins_tunguz-ollama-docker-for-ai"
     ],
-    "operators_added": [
-      "adam-mosseri"
+    "operators_added": [],
+    "patterns_added": [
+      "pat_harness-controls-strategic-layer"
     ],
-    "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-16.md",
+      "date": "2026-07-16",
+      "title": "The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook",
+      "summary": "Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-harness-trajectory-data-moat",
+        "ins_ronacher-agents-erase-shared-understanding",
+        "ins_tunguz-ollama-docker-for-ai"
+      ],
+      "operators_added": [],
+      "patterns_added": [
+        "pat_harness-controls-strategic-layer"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-15.md",
       "date": "2026-07-15",
@@ -590,29 +608,6 @@
         "pat_aeo-triangle",
         "pat_agent-first-gtm",
         "--"
-      ]
-    },
-    {
-      "path": "daily/2026-05-25.md",
-      "date": "2026-05-25",
-      "title": "What landed today, 2026-05-25",
-      "summary": "Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.",
-      "sources": [
-        "morning research scan 2026-05-25"
-      ],
-      "insights_added": [
-        "ins_kevin-indig-reasoning-lift-two-universes",
-        "ins_florin-tatulea-mcp-outbound-staging-rule",
-        "ins_mike-king-google-guide-contradicts-own-research",
-        "ins_anthropic-glasswing-verification-bottleneck-shift"
-      ],
-      "operators_added": "",
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_aeo-triangle",
-        "pat_verification-as-human-job",
-        "pat_agent-first-gtm"
       ]
     }
   ]

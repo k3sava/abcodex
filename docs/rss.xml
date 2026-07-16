@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Jul 2026 01:51:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 02:06:58 GMT</lastBuildDate>
+    <item>
+      <title>The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-16/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-16/</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker&apos;s adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams&apos; architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.</description>
+    </item>
     <item>
       <title>Steam&apos;s slop filter, the momentum-over-base formula, and why AI content floods benefit real creators</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-15/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-27/</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
       <description>Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-05-25</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-25/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-25/</guid>
-      <pubDate>Mon, 25 May 2026 00:00:00 GMT</pubDate>
-      <description>Four new insights, zero new operators, three pattern updates. The AEO citation universe split into two distinct populations. Verification remained the rate limiter across every domain AI accelerated.</description>
     </item>
   </channel>
 </rss>

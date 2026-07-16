@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-15 · 3 insights · 1 operator
+### Latest · 2026-07-16 · 3 insights · 1 pattern
 
-**Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators.** Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.
+**The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook.** Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.
 
-[Read what landed →](insight-library/daily/2026-07-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,9 +15,9 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **941** insight cards
+- **944** insight cards
 - **500** operator profiles
-- **44** synthesis patterns (cross-operator convergences)
+- **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
 - **209** archived raw sources (podcasts, essays, threads, research)
