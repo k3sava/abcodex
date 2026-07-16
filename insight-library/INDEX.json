@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-15T01:51:51.510Z",
+  "generated_at": "2026-07-16T02:06:53.971Z",
   "counts": {
-    "insights": 941,
+    "insights": 944,
     "operators": 500,
     "raw_sources": 209,
-    "patterns": 44,
+    "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 47
+    "daily": 48
   },
   "latest_daily": {
-    "path": "daily/2026-07-15.md",
-    "date": "2026-07-15",
-    "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
-    "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
+    "path": "daily/2026-07-16.md",
+    "date": "2026-07-16",
+    "title": "The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook",
+    "summary": "Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.",
     "sources": [],
     "insights_added": [
-      "ins_zukowski-steam-slop-temporal-filter",
-      "ins_zukowski-nextfest-momentum-beats-base",
-      "ins_mosseri-ai-authenticity-tailwind"
+      "ins_tunguz-harness-trajectory-data-moat",
+      "ins_ronacher-agents-erase-shared-understanding",
+      "ins_tunguz-ollama-docker-for-ai"
     ],
-    "operators_added": [
-      "adam-mosseri"
+    "operators_added": [],
+    "patterns_added": [
+      "pat_harness-controls-strategic-layer"
     ],
-    "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
@@ -19090,6 +19090,35 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_ronacher-agents-erase-shared-understanding.md",
+      "id": "ins_ronacher-agents-erase-shared-understanding",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+      "source_type": "essay",
+      "source_title": "The Tower Keeps Rising",
+      "source_date": "2026-07-13",
+      "captured_date": "2026-07-16",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "Agents remove the coordination friction that kept team architectural understanding synchronized"
+    },
+    {
       "path": "insights/ins_ronacher-harness-loop-comprehension-cost.md",
       "id": "ins_ronacher-harness-loop-comprehension-cost",
       "operator": "Armin Ronacher",
@@ -23680,7 +23709,7 @@
     {
       "path": "insights/ins_tunguz-ai-worldview-alignment-divergence.md",
       "id": "ins_tunguz-ai-worldview-alignment-divergence",
-      "operator": "Tom Tunguz",
+      "operator": "Tomasz Tunguz",
       "operator_role": "General Partner at Theory Ventures",
       "co_operators": [],
       "source_url": "https://tomtunguz.com/godless-hippies-ai-models-values/",
@@ -23915,6 +23944,36 @@
       "title": "AI competitive advantage has moved from model access to mastering three harness disciplines"
     },
     {
+      "path": "insights/ins_tunguz-harness-trajectory-data-moat.md",
+      "id": "ins_tunguz-harness-trajectory-data-moat",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-harness-is-the-new-battleground/",
+      "source_type": "essay",
+      "source_title": "The Harness Is the New Battleground",
+      "source_date": "2026-07-14",
+      "captured_date": "2026-07-16",
+      "domain": [
+        "ai-native",
+        "founder"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_swyx-meta-harness-convergence"
+      ],
+      "raw_ref": "",
+      "title": "The software harness is the strategic asset in enterprise AI, not the model, because it controls which data flows to vendors for training"
+    },
+    {
       "path": "insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md",
       "id": "ins_tunguz-inference-pricing-value-beats-cost-plus",
       "operator": "Tomasz Tunguz",
@@ -24027,6 +24086,36 @@
       ],
       "raw_ref": "",
       "title": "Model substitution savings are reinvested in more tokens, not returned to the budget"
+    },
+    {
+      "path": "insights/ins_tunguz-ollama-docker-for-ai.md",
+      "id": "ins_tunguz-ollama-docker-for-ai",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ollama-series-b/",
+      "source_type": "essay",
+      "source_title": "8.9 Million AI Users",
+      "source_date": "2026-07-09",
+      "captured_date": "2026-07-16",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-minimill-local-routing",
+        "ins_tunguz-agent-routing-architecture"
+      ],
+      "raw_ref": "",
+      "title": "Developer tools that abstract a new compute paradigm follow the Docker adoption curve"
     },
     {
       "path": "insights/ins_tunguz-preflight-skill-retrieval.md",
@@ -39239,6 +39328,25 @@
       ]
     },
     {
+      "path": "synthesis/patterns/pat_harness-controls-strategic-layer.md",
+      "id": "pat_harness-controls-strategic-layer",
+      "title": "The harness layer concentrates strategic control above the model",
+      "captured_date": "2026-07-16",
+      "convergence_count": "4",
+      "tier": "B",
+      "uses_cards": [
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_swyx-meta-harness-convergence",
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_tunguz-harness-trajectory-data-moat"
+      ],
+      "domains": [
+        "ai-native",
+        "engineering",
+        "founder"
+      ]
+    },
+    {
       "path": "synthesis/patterns/pricing-as-the-most-leveraged-org-failure.md",
       "id": "pat_pricing-as-the-most-leveraged-org-failure",
       "title": "Pricing is the most leveraged and most under-invested function",
@@ -41217,6 +41325,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-16.md",
+      "date": "2026-07-16",
+      "title": "The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook",
+      "summary": "Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-harness-trajectory-data-moat",
+        "ins_ronacher-agents-erase-shared-understanding",
+        "ins_tunguz-ollama-docker-for-ai"
+      ],
+      "operators_added": [],
+      "patterns_added": [
+        "pat_harness-controls-strategic-layer"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-15.md",
       "date": "2026-07-15",

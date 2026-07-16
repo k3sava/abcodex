@@ -1,6 +1,6 @@
 ---
 id: ins_tunguz-ai-worldview-alignment-divergence
-operator: Tom Tunguz
+operator: Tomasz Tunguz
 operator_role: General Partner at Theory Ventures
 co_operators: []
 source_url: https://tomtunguz.com/godless-hippies-ai-models-values/
