@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-16 · 3 insights · 1 pattern
+### Latest · 2026-07-18 · 3 insights
 
-**The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook.** Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.
+**AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration.** Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.
 
-[Read what landed →](insight-library/daily/2026-07-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-18.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **944** insight cards
+- **947** insight cards
 - **500** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
