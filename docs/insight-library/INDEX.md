@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-18. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 944 insight cards
+- 947 insight cards
 - 500 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -354,7 +354,7 @@ _Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (526)
+### Tier B (529)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -446,6 +446,7 @@ _Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_casey-hill-aeo-structural-prominence`](insights/ins_casey-hill-aeo-structural-prominence.md) — Structural prominence in nav, headers, and footer predicts LLM citation rates more reliably than body content alone _(Casey Hill)_
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
+- [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
 - [`ins_cherny-roi-benchmark-engineer-labor`](insights/ins_cherny-roi-benchmark-engineer-labor.md) — Comparing AI tool costs to software subscriptions produces a misleading ROI case; the right benchmark is what an engineer would have billed _(Boris Cherny)_
@@ -788,7 +789,9 @@ _Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
 - [`ins_suddenly-everyone-know-panicking-wondering`](insights/ins_suddenly-everyone-know-panicking-wondering.md) — Suddenly everyone I know is panicking, wondering if their job disappears tomorrow _(Shivangi Sahu)_
+- [`ins_sumner-adversarial-reviewer-pairing`](insights/ins_sumner-adversarial-reviewer-pairing.md) — Pairing implementer agents with dedicated adversarial reviewer agents catches bug categories that single-context review misses _(Jarred Sumner)_
 - [`ins_sumner-parallel-adversarial-agent-rewrite`](insights/ins_sumner-parallel-adversarial-agent-rewrite.md) — Parallel adversarial reviewer agents compressed a 960K-line language migration into 11 days at $165K by eliminating shared-blind-spot failure modes _(Jarred Sumner)_
+- [`ins_sumner-pre-agent-pattern-documents`](insights/ins_sumner-pre-agent-pattern-documents.md) — Creating pattern-mapping documents before a large agentic migration gives parallel agents a shared reference that reduces per-file inference errors _(Jarred Sumner)_
 - [`ins_sunny-sen-founder-mistakes-playbook`](insights/ins_sunny-sen-founder-mistakes-playbook.md) — Even experienced founders make avoidable mistakes without a structured playbook. _(Sunny Sen)_
 - [`ins_suraj-kripalani-cfa-orange-dinner-connections`](insights/ins_suraj-kripalani-cfa-orange-dinner-connections.md) — AI agents unlock creativity by removing the blank canvas, not by producing the final output _(Suraj Kripalani, CFA)_
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
@@ -824,12 +827,12 @@ _Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
-- [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the strategic asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
-- [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute paradigm follow the Docker adoption curve _(Tomasz Tunguz)_
+- [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_uddhav-parab-awards-bait-system`](insights/ins_uddhav-parab-awards-bait-system.md) — Awards-bait campaigns are a structural necessity, not a choice, for creative leaders. _(Uddhav Parab)_
@@ -1492,7 +1495,7 @@ _Generated 2026-07-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (7 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
-- [`pat_harness-controls-strategic-layer`](synthesis/patterns/pat_harness-controls-strategic-layer.md) — The harness layer concentrates strategic control above the model (4 ops) [Tier B]
+- [`pat_harness-controls-strategic-layer`](synthesis/patterns/pat_harness-controls-strategic-layer.md) — The harness layer is where control concentrates above the model (4 ops) [Tier B]
 - [`pat_llm-as-os`](synthesis/patterns/llm-as-os.md) — LLM-as-OS, post-training as moat (4 ops) [Tier A]
 - [`pat_make-implicit-explicit`](synthesis/patterns/make-implicit-explicit.md) — Make the implicit explicit (5 ops) [Tier A]
 - [`pat_market-and-offer-beat-funnel-optimisation`](synthesis/patterns/market-and-offer-beat-funnel-optimisation.md) — Market and offer beat funnel optimisation (3 ops) [Tier A]

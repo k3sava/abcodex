@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Jul 2026 02:06:58 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 01:56:50 GMT</lastBuildDate>
+    <item>
+      <title>AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun&apos;s 535k-line Rust migration</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-18/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-18/</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.</description>
+    </item>
     <item>
       <title>The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-16/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-04/</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
       <description>Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-05-27</title>
-      <link>https://abcodex.iamkesava.com/today/2026-05-27/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-05-27/</guid>
-      <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
-      <description>Five new insight cards, two new operators, one new synthesis pattern. Three independent specialists named structural failures in their respective lanes within 48 hours of each other.</description>
     </item>
   </channel>
 </rss>

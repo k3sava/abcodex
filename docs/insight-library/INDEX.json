@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-07-16T02:06:53.971Z",
+  "generated_at": "2026-07-18T01:56:47.601Z",
   "counts": {
-    "insights": 944,
+    "insights": 947,
     "operators": 500,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 48
+    "daily": 49
   },
   "latest_daily": {
-    "path": "daily/2026-07-16.md",
-    "date": "2026-07-16",
-    "title": "The harness battleground, agents dissolving architectural understanding, and open AI infrastructure following the Docker playbook",
-    "summary": "Three new cards from two operators. Tunguz with two posts: why the harness layer above the model is the actual enterprise AI battleground, and why Ollama is replicating Docker's adoption curve for local AI. Ronacher with a new essay arguing agents remove the coordination friction that kept teams' architectural understanding synchronized, enabling codebases to grow incoherent while construction continues.",
+    "path": "daily/2026-07-18.md",
+    "date": "2026-07-18",
+    "title": "AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration",
+    "summary": "Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-harness-trajectory-data-moat",
-      "ins_ronacher-agents-erase-shared-understanding",
-      "ins_tunguz-ollama-docker-for-ai"
+      "ins_cherny-adoption-maturity-bottlenecks",
+      "ins_sumner-adversarial-reviewer-pairing",
+      "ins_sumner-pre-agent-pattern-documents"
     ],
     "operators_added": [],
-    "patterns_added": [
-      "pat_harness-controls-strategic-layer"
-    ],
+    "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
@@ -4104,6 +4102,36 @@
       ],
       "raw_ref": "",
       "title": "65 to 85 percent of ChatGPT prompts are invisible to keyword tools"
+    },
+    {
+      "path": "insights/ins_cherny-adoption-maturity-bottlenecks.md",
+      "id": "ins_cherny-adoption-maturity-bottlenecks",
+      "operator": "Boris Cherny",
+      "operator_role": "Creator and Head of Claude Code, Anthropic",
+      "co_operators": [],
+      "source_url": "https://www.linkedin.com/posts/bcherny_steps-of-ai-adoption-activity-7483695059843043328-LBg_",
+      "source_type": "post",
+      "source_title": "Steps of AI Adoption",
+      "source_date": "2026-07-16",
+      "captured_date": "2026-07-18",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_cherny-agents-prompt-agents",
+        "ins_cherny-code-review-next-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability"
     },
     {
       "path": "insights/ins_cherny-agents-prompt-agents.md",
@@ -22083,6 +22111,36 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_sumner-adversarial-reviewer-pairing.md",
+      "id": "ins_sumner-adversarial-reviewer-pairing",
+      "operator": "Jarred Sumner",
+      "operator_role": "Creator of Bun JavaScript runtime",
+      "co_operators": [],
+      "source_url": "https://bun.com/blog/bun-in-rust",
+      "source_type": "essay",
+      "source_title": "Rewriting Bun in Rust",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-18",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_sumner-pre-agent-pattern-documents",
+        "ins_cherny-code-review-next-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Pairing implementer agents with dedicated adversarial reviewer agents catches bug categories that single-context review misses"
+    },
+    {
       "path": "insights/ins_sumner-parallel-adversarial-agent-rewrite.md",
       "id": "ins_sumner-parallel-adversarial-agent-rewrite",
       "operator": "Jarred Sumner",
@@ -22112,6 +22170,35 @@
       ],
       "raw_ref": "",
       "title": "Parallel adversarial reviewer agents compressed a 960K-line language migration into 11 days at $165K by eliminating shared-blind-spot failure modes"
+    },
+    {
+      "path": "insights/ins_sumner-pre-agent-pattern-documents.md",
+      "id": "ins_sumner-pre-agent-pattern-documents",
+      "operator": "Jarred Sumner",
+      "operator_role": "Creator of Bun JavaScript runtime",
+      "co_operators": [],
+      "source_url": "https://bun.com/blog/bun-in-rust",
+      "source_type": "essay",
+      "source_title": "Rewriting Bun in Rust",
+      "source_date": "2026-07-08",
+      "captured_date": "2026-07-18",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_sumner-adversarial-reviewer-pairing"
+      ],
+      "raw_ref": "",
+      "title": "Creating pattern-mapping documents before a large agentic migration gives parallel agents a shared reference that reduces per-file inference errors"
     },
     {
       "path": "insights/ins_sunny-sen-founder-mistakes-playbook.md",
@@ -23971,7 +24058,7 @@
         "ins_swyx-meta-harness-convergence"
       ],
       "raw_ref": "",
-      "title": "The software harness is the strategic asset in enterprise AI, not the model, because it controls which data flows to vendors for training"
+      "title": "The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training"
     },
     {
       "path": "insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md",
@@ -24115,7 +24202,7 @@
         "ins_tunguz-agent-routing-architecture"
       ],
       "raw_ref": "",
-      "title": "Developer tools that abstract a new compute paradigm follow the Docker adoption curve"
+      "title": "Developer tools that abstract a new compute layer follow the Docker adoption curve"
     },
     {
       "path": "insights/ins_tunguz-preflight-skill-retrieval.md",
@@ -39330,7 +39417,7 @@
     {
       "path": "synthesis/patterns/pat_harness-controls-strategic-layer.md",
       "id": "pat_harness-controls-strategic-layer",
-      "title": "The harness layer concentrates strategic control above the model",
+      "title": "The harness layer is where control concentrates above the model",
       "captured_date": "2026-07-16",
       "convergence_count": "4",
       "tier": "B",
@@ -41325,6 +41412,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-18.md",
+      "date": "2026-07-18",
+      "title": "AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration",
+      "summary": "Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.",
+      "sources": [],
+      "insights_added": [
+        "ins_cherny-adoption-maturity-bottlenecks",
+        "ins_sumner-adversarial-reviewer-pairing",
+        "ins_sumner-pre-agent-pattern-documents"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-16.md",
       "date": "2026-07-16",

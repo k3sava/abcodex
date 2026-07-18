@@ -22,10 +22,11 @@
       <circle cx="22" cy="22" r="6" fill="#5a6d8a"/>
       <text x="38" y="29" font-family="JetBrains Mono, monospace" font-size="18" font-weight="600" fill="#5a6d8a" letter-spacing="1">TIER B</text>
     </g>
-  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">Developer tools that abstract a new</text>
-  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">compute layer follow the Docker</text>
-  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">adoption curve</text>
-  <text x="80" y="486" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Tomasz Tunguz</text>
-  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-07-09</text>
+  <text x="80" y="240" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">At each AI adoption maturity level</text>
+  <text x="80" y="310" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">the binding constraint is guardrail</text>
+  <text x="80" y="380" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">design and approval process, not</text>
+  <text x="80" y="450" font-family="Newsreader, serif" font-size="60" font-weight="500" fill="#0d1410">model capability</text>
+  <text x="80" y="556" font-family="JetBrains Mono, monospace" font-size="22" fill="#5a6757">Boris Cherny</text>
+  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="16" fill="#7a8474" letter-spacing="1">2026-07-16</text>
   <text x="1120" y="570" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="14" fill="#7a8474">abcodex.iamkesava.com</text>
 </svg>
