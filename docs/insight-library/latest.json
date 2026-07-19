@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-07-18T01:56:47.669Z",
+  "generated_at": "2026-07-19T01:51:57.083Z",
   "latest_daily": {
-    "path": "daily/2026-07-18.md",
-    "date": "2026-07-18",
-    "title": "AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration",
-    "summary": "Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.",
+    "path": "daily/2026-07-19.md",
+    "date": "2026-07-19",
+    "title": "Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand",
+    "summary": "Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.",
     "sources": [],
     "insights_added": [
-      "ins_cherny-adoption-maturity-bottlenecks",
-      "ins_sumner-adversarial-reviewer-pairing",
-      "ins_sumner-pre-agent-pattern-documents"
+      "ins_shipper-token-spend-parity-break",
+      "ins_tunguz-blank-slate-ai-strategy",
+      "ins_solis-saas-ai-third-party-citation-weight",
+      "ins_gerhardt-ctv-narrative-compound"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +18,23 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-19.md",
+      "date": "2026-07-19",
+      "title": "Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand",
+      "summary": "Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.",
+      "sources": [],
+      "insights_added": [
+        "ins_shipper-token-spend-parity-break",
+        "ins_tunguz-blank-slate-ai-strategy",
+        "ins_solis-saas-ai-third-party-citation-weight",
+        "ins_gerhardt-ctv-narrative-compound"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-18.md",
       "date": "2026-07-18",
@@ -567,28 +585,6 @@
       ],
       "operators_added": [
         "charity-majors"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-04.md",
-      "date": "2026-06-04",
-      "title": "What landed today, 2026-06-04",
-      "summary": "Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.",
-      "sources": [
-        "morning research scan 2026-06-04"
-      ],
-      "insights_added": [
-        "ins_intelligence-per-dollar-model-metric",
-        "ins_skill-distillation-frontier-teacher",
-        "ins_wasm-sandbox-agent-code-execution",
-        "ins_agents-authorize-agents-security-scale",
-        "ins_cognitive-surrender-agentic-defaults"
-      ],
-      "operators_added": [
-        "jonathan-jaffe"
       ],
       "patterns_added": [],
       "playbooks_added": [],

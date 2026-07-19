@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 18 Jul 2026 01:56:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 01:52:00 GMT</lastBuildDate>
+    <item>
+      <title>Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-19/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-19/</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.</description>
+    </item>
     <item>
       <title>AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun&apos;s 535k-line Rust migration</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-18/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-09/</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new insight cards, one new operator. Two themes emerged from this week&apos;s operator output: making AI adoption organizationally sustainable, and how Google&apos;s May 2026 Core Update reset visibility around source type fit rather than authority alone.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-04</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-04/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-04/</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Five new insight cards, one new operator. Two themes from the AI engineering lane and one from future-of-work converged this week on the economics and safety of running agents in production.</description>
     </item>
   </channel>
 </rss>

@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-18T01:56:47.601Z",
+  "generated_at": "2026-07-19T01:51:57.024Z",
   "counts": {
-    "insights": 947,
+    "insights": 951,
     "operators": 500,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 49
+    "daily": 50
   },
   "latest_daily": {
-    "path": "daily/2026-07-18.md",
-    "date": "2026-07-18",
-    "title": "AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration",
-    "summary": "Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.",
+    "path": "daily/2026-07-19.md",
+    "date": "2026-07-19",
+    "title": "Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand",
+    "summary": "Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.",
     "sources": [],
     "insights_added": [
-      "ins_cherny-adoption-maturity-bottlenecks",
-      "ins_sumner-adversarial-reviewer-pairing",
-      "ins_sumner-pre-agent-pattern-documents"
+      "ins_shipper-token-spend-parity-break",
+      "ins_tunguz-blank-slate-ai-strategy",
+      "ins_solis-saas-ai-third-party-citation-weight",
+      "ins_gerhardt-ctv-narrative-compound"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -8013,6 +8014,37 @@
       ],
       "raw_ref": "raw/expert-content/experts/dave-gerhardt.md",
       "title": "Private community is the ultimate distribution moat, generates demand, content flywheel, and trust simultaneously in untrackable spaces"
+    },
+    {
+      "path": "insights/ins_gerhardt-ctv-narrative-compound.md",
+      "id": "ins_gerhardt-ctv-narrative-compound",
+      "operator": "Dave Gerhardt",
+      "operator_role": "Founder of Exit Five; former VP Marketing at Drift, CMO at Privy",
+      "co_operators": [],
+      "source_url": "https://exitfive.com/newsletter/tv-ads-for-b2b-why-it-works-and-where-to-start/",
+      "source_type": "essay",
+      "source_title": "TV Ads for B2B: why it works and where to start",
+      "source_date": "2026-07-14",
+      "captured_date": "2026-07-19",
+      "domain": [
+        "pmm",
+        "gtm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_gerhardt-brand-reputation-compounds",
+        "ins_b2b-movement-not-campaigns"
+      ],
+      "raw_ref": "",
+      "title": "CTV gives B2B brands 15 to 30 seconds of uninterrupted narrative that compounds downstream channel performance"
     },
     {
       "path": "insights/ins_gerhardt-customer-marketing-listening-program.md",
@@ -20375,6 +20407,36 @@
       "title": "When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work"
     },
     {
+      "path": "insights/ins_shipper-token-spend-parity-break.md",
+      "id": "ins_shipper-token-spend-parity-break",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/on-every/introducing-every-all-access",
+      "source_type": "essay",
+      "source_title": "Introducing Every All-Access",
+      "source_date": "2026-07-14",
+      "captured_date": "2026-07-19",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-tend-your-loop",
+        "ins_shipper-org-capability-ai-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder"
+    },
+    {
       "path": "insights/ins_shivangi-gautam-word-salad-critique.md",
       "id": "ins_shivangi-gautam-word-salad-critique",
       "title": "LinkedIn thought leadership is often word salad with no real point.",
@@ -21503,6 +21565,38 @@
       ],
       "raw_ref": "raw/podcasts/evan-spiegel--snap-distribution-design-bottleneck--2026-04-28.md",
       "title": "Software is not a moat, ecosystems, hardware, and distribution are"
+    },
+    {
+      "path": "insights/ins_solis-saas-ai-third-party-citation-weight.md",
+      "id": "ins_solis-saas-ai-third-party-citation-weight",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO consultant and AI search researcher, founder of Orainti",
+      "co_operators": [],
+      "source_url": "https://www.aleydasolis.com/en/ai-search/saas-ai-search-optimization/",
+      "source_type": "essay",
+      "source_title": "What It Takes for SaaS Brands to Win in AI Search: 5 Data-Backed Findings and Actions",
+      "source_date": "2026-07-16",
+      "captured_date": "2026-07-19",
+      "domain": [
+        "aeo",
+        "seo",
+        "pmm"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "growth-demand"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic",
+        "ins_aeo-three-layer-presence-readiness-impact"
+      ],
+      "raw_ref": "",
+      "title": "Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms"
     },
     {
       "path": "insights/ins_sourav-ghosh-pmm-not-production-department.md",
@@ -23878,6 +23972,37 @@
       ],
       "raw_ref": "",
       "title": "Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing"
+    },
+    {
+      "path": "insights/ins_tunguz-blank-slate-ai-strategy.md",
+      "id": "ins_tunguz-blank-slate-ai-strategy",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Founder and General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-blank-slate-ai-strategy/",
+      "source_type": "essay",
+      "source_title": "The Blank Slate AI Strategy",
+      "source_date": "2026-07-16",
+      "captured_date": "2026-07-19",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "gtm"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-trajectory-data-moat",
+        "ins_tunguz-41-day-frontier-window"
+      ],
+      "raw_ref": "",
+      "title": "Shipping a generic AI base product for free and charging for customization creates a sustainable open-source monetization model"
     },
     {
       "path": "insights/ins_tunguz-category-beats-growth.md",
@@ -41412,6 +41537,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-19.md",
+      "date": "2026-07-19",
+      "title": "Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand",
+      "summary": "Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.",
+      "sources": [],
+      "insights_added": [
+        "ins_shipper-token-spend-parity-break",
+        "ins_tunguz-blank-slate-ai-strategy",
+        "ins_solis-saas-ai-third-party-citation-weight",
+        "ins_gerhardt-ctv-narrative-compound"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-18.md",
       "date": "2026-07-18",
