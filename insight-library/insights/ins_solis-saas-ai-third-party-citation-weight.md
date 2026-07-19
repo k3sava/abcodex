@@ -50,6 +50,6 @@ The 84 to 93 percent third-party figure spans CRM, collaboration, and finance su
 The citation weight data reflects AI systems as they stood at time of publication, not a permanent structure. As AI systems update retrieval weights and training data, the balance between owned and third-party sources may shift. The 22 to 67 percent of AI traffic arriving at non-cited URLs also suggests AI systems surface owned content without citing it explicitly, which complicates any strategy built purely on citation maximization.
 
 ## Cross-references
-- `ins_aleyda-solis-aeo-offsite-corroboration-floor` — earlier Solis framing: AI visibility is an off-site corroboration problem with an on-site quality floor.
-- `ins_aleyda-solis-ai-links-not-automatically-traffic` — citation link does not automatically mean traffic; six AEO signals must be tracked separately.
-- `ins_aeo-three-layer-presence-readiness-impact` — Solis three-layer measurement framework for AI search.
+- `ins_aleyda-solis-aeo-offsite-corroboration-floor`: earlier Solis framing that AI visibility is an off-site corroboration problem with an on-site quality floor.
+- `ins_aleyda-solis-ai-links-not-automatically-traffic`: citation link does not automatically mean traffic; six AEO signals must be tracked separately.
+- `ins_aeo-three-layer-presence-readiness-impact`: Solis three-layer measurement framework for AI search.

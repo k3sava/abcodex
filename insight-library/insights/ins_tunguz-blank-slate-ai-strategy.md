@@ -46,5 +46,5 @@ He frames the strategy as analogous to the Slate (Amazon's low-cost tablet): a c
 The strategy requires competitive differentiation in the customization layer, not just in the base. If another provider offers equivalent fine-tuning on the same or a comparable open model, the paid tier erodes. For models that depreciate quickly on the capability curve, the window between "useful generic base" and "outdated base replaced by next generation" may be shorter than the sales cycle for the customization service.
 
 ## Cross-references
-- `ins_tunguz-harness-trajectory-data-moat` — Tunguz's earlier claim that the software harness, not the model, is the strategic moat in enterprise AI.
-- `ins_tunguz-41-day-frontier-window` — frontier model leadership rotates every ~41 days, which adds urgency to capturing the customization layer early.
+- `ins_tunguz-harness-trajectory-data-moat`: Tunguz's earlier claim that the software harness, not the model, is the defensible moat in enterprise AI.
+- `ins_tunguz-41-day-frontier-window`: frontier model leadership rotates every ~41 days, which adds urgency to capturing the customization layer early.

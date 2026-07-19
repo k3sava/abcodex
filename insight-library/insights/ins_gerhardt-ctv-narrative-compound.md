@@ -50,5 +50,5 @@ Sharan's operational data from Tatari: minimum $50 per day to start, 25 percent 
 The 25 percent branded search lift is an average from Tatari's client base, not a controlled trial, so attribution is hard to isolate. Brands with weak narrative creative, inconsistent messaging, or very small total addressable audiences may not see the effect. Very niche B2B markets with a small ICP limit reach: if the ideal customer profile numbers only a few thousand people, CTV inventory is difficult to target with sufficient precision.
 
 ## Cross-references
-- `ins_gerhardt-brand-reputation-compounds` — Gerhardt's earlier claim that brand is reputation that compounds; CAC falls the earlier you invest.
-- `ins_b2b-movement-not-campaigns` — building a movement around a polarizing POV rather than running campaigns, which CTV supports.
+- `ins_gerhardt-brand-reputation-compounds`: Gerhardt's earlier claim that brand is reputation that compounds; CAC falls the earlier you invest.
+- `ins_b2b-movement-not-campaigns`: building a movement around a polarizing POV rather than running campaigns, which CTV supports.

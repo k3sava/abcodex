@@ -45,5 +45,5 @@ He notes he "accidentally used 2 billion tokens overnight this week on a big GPT
 Open-weight models (Llama, Mistral, Qwen) running on local hardware partially restore parity: a developer with good hardware and the right quantized model can run large workloads at near-zero marginal cost. The parity break holds primarily at the frontier-model tier, not for the full AI stack.
 
 ## Cross-references
-- `ins_shipper-tend-your-loop` — Shipper's earlier claim that knowledge work shifts from doing tasks to tending the loops that do them.
-- `ins_shipper-org-capability-ai-bottleneck` — organizational capability, not model capability, as the current bottleneck.
+- `ins_shipper-tend-your-loop`: Shipper's earlier claim that knowledge work shifts from doing tasks to tending the loops that do them.
+- `ins_shipper-org-capability-ai-bottleneck`: organizational capability, not model capability, as the current bottleneck.
