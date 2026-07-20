@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 19 Jul 2026 01:54:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 01:58:24 GMT</lastBuildDate>
+    <item>
+      <title>B2B pricing pages drive agent fallback to third-party directories, chained web_fetch links enable private data exfiltration, and visual benchmarks have decoupled from frontier model rankings</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-20/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-20/</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Indig with 1,500-run data showing pricing pages are where AI agent retrieval breaks down and directories take over. Willison with the chained-link exfiltration attack that bypassed Anthropic&apos;s injection safeguards. Willison again on the pelican benchmark losing its predictive value as agentic tool-calling reliability becomes the frontier differentiator.</description>
+    </item>
     <item>
       <title>Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-19/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-11/</guid>
       <pubDate>Thu, 11 Jun 2026 00:00:00 GMT</pubDate>
       <description>Four new insight cards, no new operators. Two themes emerged from this week&apos;s operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-09</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-09/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-09/</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new insight cards, one new operator. Two themes emerged from this week&apos;s operator output: making AI adoption organizationally sustainable, and how Google&apos;s May 2026 Core Update reset visibility around source type fit rather than authority alone.</description>
     </item>
   </channel>
 </rss>
