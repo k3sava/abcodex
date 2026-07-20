@@ -36,7 +36,7 @@ Holds when: the task being evaluated is agentic, multi-step, and tool-dependent.
 Fails when: the task being evaluated is genuinely a single-turn generation task. For creative writing, image generation, or short-form answers, single-task benchmarks may still correlate with ranking.
 
 ## Evidence
-Willison's July 16 post on Kimi K3 (Moonshot AI, 2.8T parameters) documents the observation directly. GLM-5.2 outperformed Claude Fable 5 on the pelican task. Willison states: the benchmark "misses agentic tool-calling reliability — the thing that matters most for today's model."
+Willison's July 16 post on Kimi K3 (Moonshot AI, 2.8T parameters) documents the observation directly. GLM-5.2 outperformed Claude Fable 5 on the pelican task. Willison identifies the gap: the benchmark misses agentic tool-calling reliability, which he calls "the thing that matters most for today's model."
 
 Cost data from the Kimi K3 run: $0.94 per pelican task (vs. Opus 4.8 at $1.80). 13,241 reasoning tokens for a 3,417-token response. The cost differential demonstrates the practical value of the cost-estimation use of the test, even as the ranking value has declined.
 
