@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-19 · 4 insights
+### Latest · 2026-07-20 · 3 insights
 
-**Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand.** Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.
+**B2B pricing pages drive agent fallback to third-party directories, chained web_fetch links enable private data exfiltration, and visual benchmarks have decoupled from frontier model rankings.** Three new cards from two operators. Indig with 1,500-run data showing pricing pages are where AI agent retrieval breaks down and directories take over. Willison with the chained-link exfiltration attack that bypassed Anthropic's injection safeguards. Willison again on the pelican benchmark losing its predictive value as agentic tool-calling reliability becomes the frontier differentiator.
 
-[Read what landed →](insight-library/daily/2026-07-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-20.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **951** insight cards
+- **954** insight cards
 - **500** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
