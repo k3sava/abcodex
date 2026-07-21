@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-20 · 3 insights
+### Latest · 2026-07-21 · 1 insight
 
-**B2B pricing pages drive agent fallback to third-party directories, chained web_fetch links enable private data exfiltration, and visual benchmarks have decoupled from frontier model rankings.** Three new cards from two operators. Indig with 1,500-run data showing pricing pages are where AI agent retrieval breaks down and directories take over. Willison with the chained-link exfiltration attack that bypassed Anthropic's injection safeguards. Willison again on the pelican benchmark losing its predictive value as agentic tool-calling reliability becomes the frontier differentiator.
+**AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on.** One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.
 
-[Read what landed →](insight-library/daily/2026-07-20.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-21.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **954** insight cards
+- **955** insight cards
 - **500** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

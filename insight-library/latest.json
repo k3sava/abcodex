@@ -1,15 +1,13 @@
 {
-  "generated_at": "2026-07-20T01:58:21.363Z",
+  "generated_at": "2026-07-21T02:00:07.963Z",
   "latest_daily": {
-    "path": "daily/2026-07-20.md",
-    "date": "2026-07-20",
-    "title": "B2B pricing pages drive agent fallback to third-party directories, chained web_fetch links enable private data exfiltration, and visual benchmarks have decoupled from frontier model rankings",
-    "summary": "Three new cards from two operators. Indig with 1,500-run data showing pricing pages are where AI agent retrieval breaks down and directories take over. Willison with the chained-link exfiltration attack that bypassed Anthropic's injection safeguards. Willison again on the pelican benchmark losing its predictive value as agentic tool-calling reliability becomes the frontier differentiator.",
+    "path": "daily/2026-07-21.md",
+    "date": "2026-07-21",
+    "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
+    "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
     "sources": [],
     "insights_added": [
-      "ins_indig-pricing-page-agent-fallback",
-      "ins_willison-web-fetch-chained-exfiltration",
-      "ins_willison-benchmark-agent-decoupling"
+      "ins_lemkin-seat-model-collapse"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +15,20 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-21.md",
+      "date": "2026-07-21",
+      "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
+      "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
+      "sources": [],
+      "insights_added": [
+        "ins_lemkin-seat-model-collapse"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-20.md",
       "date": "2026-07-20",
@@ -560,25 +572,6 @@
         "ins_cherny-code-review-next-bottleneck",
         "ins_willison-fable-relentlessly-proactive",
         "ins_fishkin-zero-click-walled-garden"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-11.md",
-      "date": "2026-06-11",
-      "title": "What landed today, 2026-06-11",
-      "summary": "Four new insight cards, no new operators. Two themes emerged from this week's operator output: frontier AI shifting the human role from active steering to commissioning and judging, and the production-system implications of routing and transparency choices.",
-      "sources": [
-        "morning research scan 2026-06-11"
-      ],
-      "insights_added": [
-        "ins_tunguz-minimill-local-routing",
-        "ins_mollick-patron-not-wizard",
-        "ins_mollick-co-existence-phase-shift",
-        "ins_willison-silent-degradation-trust-gap"
       ],
       "operators_added": [],
       "patterns_added": [],

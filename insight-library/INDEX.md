@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-20. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 954 insight cards
+- 955 insight cards
 - 500 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -355,7 +355,7 @@ _Generated 2026-07-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (535)
+### Tier B (536)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -602,6 +602,7 @@ _Generated 2026-07-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_lead-bullets-and-cannonballs`](insights/ins_lead-bullets-and-cannonballs.md) — Growth needs both lead bullets and cannonballs, the laziness trap is shipping only lead bullets _(Adriel Frederick)_
 - [`ins_lead-major-repositioning-pivots-over`](insights/ins_lead-major-repositioning-pivots-over.md) — Commit positioning at the same time as the product pivot, not after the launch date _(James Doman-Pipe)_
 - [`ins_leah-knobler-customer-stories-at-center`](insights/ins_leah-knobler-customer-stories-at-center.md) — If you ask candidates to do work, pay them, that's the recruiting hot take _(Leah Knobler)_
+- [`ins_lemkin-seat-model-collapse`](insights/ins_lemkin-seat-model-collapse.md) — AI agents eliminate the seat-expansion tailwind, sending sub-5% SaaS companies into terminal structural decline _(Jason Lemkin)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_lily-ray-self-promo-recommendation-exclusion`](insights/ins_lily-ray-self-promo-recommendation-exclusion.md) — A brand's self-promotional "best of" listicle gets cited by AI Overviews 74% of the time but excluded from the recommendation 69% of the time _(Lily Ray)_
