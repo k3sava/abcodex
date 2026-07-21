@@ -1,24 +1,22 @@
 {
-  "generated_at": "2026-07-20T01:58:21.280Z",
+  "generated_at": "2026-07-21T02:00:07.791Z",
   "counts": {
-    "insights": 954,
+    "insights": 955,
     "operators": 500,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 51
+    "daily": 52
   },
   "latest_daily": {
-    "path": "daily/2026-07-20.md",
-    "date": "2026-07-20",
-    "title": "B2B pricing pages drive agent fallback to third-party directories, chained web_fetch links enable private data exfiltration, and visual benchmarks have decoupled from frontier model rankings",
-    "summary": "Three new cards from two operators. Indig with 1,500-run data showing pricing pages are where AI agent retrieval breaks down and directories take over. Willison with the chained-link exfiltration attack that bypassed Anthropic's injection safeguards. Willison again on the pelican benchmark losing its predictive value as agentic tool-calling reliability becomes the frontier differentiator.",
+    "path": "daily/2026-07-21.md",
+    "date": "2026-07-21",
+    "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
+    "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
     "sources": [],
     "insights_added": [
-      "ins_indig-pricing-page-agent-fallback",
-      "ins_willison-web-fetch-chained-exfiltration",
-      "ins_willison-benchmark-agent-decoupling"
+      "ins_lemkin-seat-model-collapse"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -12052,6 +12050,36 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_lemkin-seat-model-collapse.md",
+      "id": "ins_lemkin-seat-model-collapse",
+      "operator": "Jason Lemkin",
+      "operator_role": "Founder and CEO of SaaStr",
+      "co_operators": [],
+      "source_url": "https://www.saastr.com/the-sub-5-club-the-terminal-state-of-software/",
+      "source_type": "essay",
+      "source_title": "The Sub-5% Club: The Terminal State of Software",
+      "source_date": "2026-07-20",
+      "captured_date": "2026-07-21",
+      "domain": [
+        "sales-cs",
+        "gtm",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_t2d3-saas-growth-trajectory"
+      ],
+      "raw_ref": "",
+      "title": "AI agents eliminate the seat-expansion tailwind, sending sub-5% SaaS companies into terminal structural decline"
     },
     {
       "path": "insights/ins_lily-ray-aeo-seo-continuity.md",
@@ -41626,6 +41654,20 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-21.md",
+      "date": "2026-07-21",
+      "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
+      "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
+      "sources": [],
+      "insights_added": [
+        "ins_lemkin-seat-model-collapse"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-20.md",
       "date": "2026-07-20",
