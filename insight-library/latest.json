@@ -1,20 +1,46 @@
 {
-  "generated_at": "2026-07-21T02:00:07.963Z",
+  "generated_at": "2026-07-22T01:57:05.515Z",
   "latest_daily": {
-    "path": "daily/2026-07-21.md",
-    "date": "2026-07-21",
-    "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
-    "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
+    "path": "daily/2026-07-22.md",
+    "date": "2026-07-22",
+    "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
+    "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
     "sources": [],
     "insights_added": [
-      "ins_lemkin-seat-model-collapse"
+      "ins_tunguz-ai-productivity-operating-layer",
+      "ins_examples-constrain-frontier-models",
+      "ins_code-review-coverage-trust-ladder",
+      "ins_willison-lifecycle-cost-agents",
+      "ins_isenberg-vibe-revenue"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "thariq-shihipar"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-22.md",
+      "date": "2026-07-22",
+      "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
+      "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-ai-productivity-operating-layer",
+        "ins_examples-constrain-frontier-models",
+        "ins_code-review-coverage-trust-ladder",
+        "ins_willison-lifecycle-cost-agents",
+        "ins_isenberg-vibe-revenue"
+      ],
+      "operators_added": [
+        "thariq-shihipar"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-21.md",
       "date": "2026-07-21",
@@ -552,26 +578,6 @@
         "ins_dunford-market-pov-ai-uncertainty",
         "ins_indig-algorithm-visibility-rental",
         "ins_willison-knowledge-breadth-model-proxy"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-12.md",
-      "date": "2026-06-12",
-      "title": "What landed today, 2026-06-12",
-      "summary": "Five new cards, no new operators. Boris Cherny's Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.",
-      "sources": [
-        "morning research scan 2026-06-12"
-      ],
-      "insights_added": [
-        "ins_cherny-agents-prompt-agents",
-        "ins_cherny-roi-benchmark-engineer-labor",
-        "ins_cherny-code-review-next-bottleneck",
-        "ins_willison-fable-relentlessly-proactive",
-        "ins_fishkin-zero-click-walled-garden"
       ],
       "operators_added": [],
       "patterns_added": [],

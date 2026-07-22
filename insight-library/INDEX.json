@@ -1,24 +1,30 @@
 {
-  "generated_at": "2026-07-21T02:00:07.791Z",
+  "generated_at": "2026-07-22T01:57:05.442Z",
   "counts": {
-    "insights": 955,
-    "operators": 500,
+    "insights": 960,
+    "operators": 501,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 52
+    "daily": 53
   },
   "latest_daily": {
-    "path": "daily/2026-07-21.md",
-    "date": "2026-07-21",
-    "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
-    "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
+    "path": "daily/2026-07-22.md",
+    "date": "2026-07-22",
+    "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
+    "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
     "sources": [],
     "insights_added": [
-      "ins_lemkin-seat-model-collapse"
+      "ins_tunguz-ai-productivity-operating-layer",
+      "ins_examples-constrain-frontier-models",
+      "ins_code-review-coverage-trust-ladder",
+      "ins_willison-lifecycle-cost-agents",
+      "ins_isenberg-vibe-revenue"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "thariq-shihipar"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4444,6 +4450,36 @@
       "title": "This code node utilizes your API key and User ID to establish a connection with your Ic"
     },
     {
+      "path": "insights/ins_code-review-coverage-trust-ladder.md",
+      "id": "ins_code-review-coverage-trust-ladder",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code + Co-work, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-22",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_100-percent-automation-rule",
+        "ins_research-preview-trust-cadence"
+      ],
+      "raw_ref": "",
+      "title": "Automated code review earns the right to replace human review one file category at a time, based on measured 100-percent issue coverage in that category"
+    },
+    {
       "path": "insights/ins_cognitive-surrender-agentic-defaults.md",
       "id": "ins_cognitive-surrender-agentic-defaults",
       "operator": "Ethan Mollick",
@@ -7127,6 +7163,34 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "Everything you do should map back to the business. And you should be able to explain why"
+    },
+    {
+      "path": "insights/ins_examples-constrain-frontier-models.md",
+      "id": "ins_examples-constrain-frontier-models",
+      "operator": "Thariq Shihipar",
+      "operator_role": "Engineering lead, Claude Code, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-22",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_remove-features-as-models-improve"
+      ],
+      "raw_ref": "",
+      "title": "Frontier models are more creative when system prompt examples are removed, because examples constrain rather than calibrate at this capability tier"
     },
     {
       "path": "insights/ins_excited-finally-share-lin-pei.md",
@@ -10470,6 +10534,37 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "The irony why perhaps product adoption software hasn't been that popular is also becaus"
+    },
+    {
+      "path": "insights/ins_isenberg-vibe-revenue.md",
+      "id": "ins_isenberg-vibe-revenue",
+      "operator": "Greg Isenberg",
+      "operator_role": "CEO of Late Checkout; founder and early-stage investor",
+      "co_operators": [],
+      "source_url": "https://www.gregisenberg.com/blog/vibe-revenue",
+      "source_type": "essay",
+      "source_title": "Vibe Revenue",
+      "source_date": "2026-07-20",
+      "captured_date": "2026-07-22",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "gtm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "retention",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_audience-community-product"
+      ],
+      "raw_ref": "",
+      "title": "Novelty-driven AI revenue mimics genuine PMF in the first 60 days and collapses at months 3 to 6"
     },
     {
       "path": "insights/ins_isha-ahuja-no-substantive-content.md",
@@ -23915,6 +24010,37 @@
       "title": "AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once"
     },
     {
+      "path": "insights/ins_tunguz-ai-productivity-operating-layer.md",
+      "id": "ins_tunguz-ai-productivity-operating-layer",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/ai-engineering-productivity-anything-but-normal/",
+      "source_type": "essay",
+      "source_title": "AI Engineering Productivity is Anything But Normal",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-22",
+      "domain": [
+        "engineering",
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-harness-three-disciplines"
+      ],
+      "raw_ref": "",
+      "title": "The operating layer, not the model, determines which of three AI productivity tiers a company reaches"
+    },
+    {
       "path": "insights/ins_tunguz-ai-retention-colander.md",
       "id": "ins_tunguz-ai-retention-colander",
       "operator": "Tomasz Tunguz",
@@ -25790,6 +25916,36 @@
       ],
       "raw_ref": "",
       "title": "Asking a model about an obscure open-source project it has no incentive to fabricate is a practical proxy for its training depth"
+    },
+    {
+      "path": "insights/ins_willison-lifecycle-cost-agents.md",
+      "id": "ins_willison-lifecycle-cost-agents",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/",
+      "source_type": "essay",
+      "source_title": "Reverse-engineering is cheap now",
+      "source_date": "2026-07-20",
+      "captured_date": "2026-07-22",
+      "domain": [
+        "engineering",
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-reliability-erodes-review-discipline"
+      ],
+      "raw_ref": "",
+      "title": "Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost"
     },
     {
       "path": "insights/ins_willison-prompt-injection-role-confusion.md",
@@ -34976,6 +35132,21 @@
       "title": "Tejas Shahasane"
     },
     {
+      "path": "operators/thariq-shihipar/README.md",
+      "name": "Thariq Shihipar",
+      "slug": "thariq-shihipar",
+      "roles": [
+        "Engineering lead, Claude Code, Anthropic"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-07-22",
+      "external": "{}",
+      "title": "Thariq Shihipar"
+    },
+    {
       "path": "operators/the-ai-forum/README.md",
       "name": "The AI Forum",
       "slug": "the-ai-forum",
@@ -41654,6 +41825,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-22.md",
+      "date": "2026-07-22",
+      "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
+      "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-ai-productivity-operating-layer",
+        "ins_examples-constrain-frontier-models",
+        "ins_code-review-coverage-trust-ladder",
+        "ins_willison-lifecycle-cost-agents",
+        "ins_isenberg-vibe-revenue"
+      ],
+      "operators_added": [
+        "thariq-shihipar"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-21.md",
       "date": "2026-07-21",

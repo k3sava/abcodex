@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jul 2026 02:00:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 01:57:09 GMT</lastBuildDate>
+    <item>
+      <title>Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-22/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-22/</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.</description>
+    </item>
     <item>
       <title>AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-21/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-13/</guid>
       <pubDate>Sat, 13 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-12</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-12/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-12/</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards, no new operators. Boris Cherny&apos;s Fortune interview series (June 8-11) reveals how cascading agent architecture works in production, how to benchmark AI ROI against labor rather than software, and what happens to code review when code writing is solved. Simon Willison documents frontier agent breadth-first problem decomposition. Rand Fishkin publishes 2026 data showing zero-click search has crossed 68% and explains why it will not reverse.</description>
     </item>
   </channel>
 </rss>

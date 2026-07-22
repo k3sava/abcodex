@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-21 · 1 insight
+### Latest · 2026-07-22 · 5 insights · 1 operator
 
-**AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on.** One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.
+**Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue.** Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.
 
-[Read what landed →](insight-library/daily/2026-07-21.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **955** insight cards
-- **500** operator profiles
+- **960** insight cards
+- **501** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 500 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 501 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
