@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 955 insight cards
-- 500 operator profiles
+- 960 insight cards
+- 501 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (341)
+### Tier A (342)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -334,6 +334,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trott-trigger-meme-repetition`](insights/ins_trott-trigger-meme-repetition.md) — Going viral means triggering audience repetition until the campaign takes on its own life, design the meme, not the impression _(Dave Trott)_
 - [`ins_trott-word-of-mouth-most-valuable`](insights/ins_trott-word-of-mouth-most-valuable.md) — Word-of-mouth is the most valuable advertising space of all, paid media is what triggers it, not what replaces it _(Dave Trott)_
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
+- [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_
 - [`ins_use-case-epiphany-as-marketing-job`](insights/ins_use-case-epiphany-as-marketing-job.md) — When awareness is solved, marketing's real job is the use-case epiphany _(Krithika Shankarraman)_
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools, be ambitious and retry from scratch _(Benjamin Mann)_
@@ -355,7 +356,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (536)
+### Tier B (540)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -456,6 +457,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
+- [`ins_code-review-coverage-trust-ladder`](insights/ins_code-review-coverage-trust-ladder.md) — Automated code review earns the right to replace human review one file category at a time, based on measured 100-percent issue coverage in that category _(Cat Wu)_
 - [`ins_cognitive-surrender-agentic-defaults`](insights/ins_cognitive-surrender-agentic-defaults.md) — Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong _(Ethan Mollick)_
 - [`ins_cohen-rice-confidence-framework-noise`](insights/ins_cohen-rice-confidence-framework-noise.md) — RICE-style confidence scores are mathematically undefined and empirically uncorrelated with outcomes _(Jason Cohen)_
 - [`ins_comb-shape-pmm`](insights/ins_comb-shape-pmm.md) — T-shape PMM is dead; comb-shape (analytical + creative + technical + brand) is the new bar _(Krithika Shankarraman)_
@@ -514,6 +516,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_evans-token-pricing-commoditization`](insights/ins_evans-token-pricing-commoditization.md) — Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack _(Benedict Evans)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c _(Seepiya Sahni)_
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
+- [`ins_examples-constrain-frontier-models`](insights/ins_examples-constrain-frontier-models.md) — Frontier models are more creative when system prompt examples are removed, because examples constrain rather than calibrate at this capability tier _(Thariq Shihipar)_
 - [`ins_explore-and-exploit-channels`](insights/ins_explore-and-exploit-channels.md) — Content is a compounding asset, quality bar is binary: genuinely new OR measurably better _(Steph Smith)_
 - [`ins_fact-can-have-running-free`](insights/ins_fact-can-have-running-free.md) — The fact that you can have this running for free in 20 minutes, while last year you wou _(Pietro Montaldo)_
 - [`ins_fear-setting`](insights/ins_fear-setting.md) — What we fear doing most is usually what we most need to do, fear-set, don't goal-set _(Tim Ferriss)_
@@ -580,6 +583,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_inversion-and-circle-of-competence`](insights/ins_inversion-and-circle-of-competence.md) — The quality of your thinking determines the quality of your life, operate inside your circle of competence _(Shane Parrish)_
 - [`ins_ipsita-dhar-hacked-claude-replaced-ghostwriters`](insights/ins_ipsita-dhar-hacked-claude-replaced-ghostwriters.md) — Five AI agents replace LinkedIn ghostwriters for $1500/month. _(Ipsita Dhar)_
 - [`ins_irony-why-perhaps-product-adoption`](insights/ins_irony-why-perhaps-product-adoption.md) — The irony why perhaps product adoption software hasn't been that popular is also becaus _(Emilia Korczynska)_
+- [`ins_isenberg-vibe-revenue`](insights/ins_isenberg-vibe-revenue.md) — Novelty-driven AI revenue mimics genuine PMF in the first 60 days and collapses at months 3 to 6 _(Greg Isenberg)_
 - [`ins_ivan-wang-cmo-evotrex`](insights/ins_ivan-wang-cmo-evotrex.md) — All-electric trailers fail because they steal the boondocking battery, fix it with onboard generation _(Ivan Wang)_
 - [`ins_james-doman-founder-homepage-rewrite-signal`](insights/ins_james-doman-founder-homepage-rewrite-signal.md) — Rewriting the homepage repeatedly signals unclear GTM fundamentals. _(James Doman)_
 - [`ins_jedd-talbot-systems-over-ideas`](insights/ins_jedd-talbot-systems-over-ideas.md) — Reading business books without building systems is wasted effort; real value comes from deployable frameworks. _(Jedd Talbot)_
@@ -876,6 +880,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
+- [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
@@ -1440,6 +1445,7 @@ _Generated 2026-07-21. Auto-built from frontmatter — do not edit by hand._
 - [Tanya Reilly](operators/tanya-reilly/README.md)
 - [Tas Bober](operators/tas-bober/README.md)
 - [Tejas Shahasane](operators/tejas-shahasane/README.md)
+- [Thariq Shihipar](operators/thariq-shihipar/README.md)
 - [The AI Forum](operators/the-ai-forum/README.md)
 - [Thorsten Ball](operators/thorsten-ball/README.md)
 - [Tiago Forte](operators/tiago-forte/README.md)
