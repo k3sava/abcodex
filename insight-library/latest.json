@@ -1,26 +1,40 @@
 {
-  "generated_at": "2026-07-22T01:57:05.515Z",
+  "generated_at": "2026-07-23T01:48:02.068Z",
   "latest_daily": {
-    "path": "daily/2026-07-22.md",
-    "date": "2026-07-22",
-    "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
-    "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
+    "path": "daily/2026-07-23.md",
+    "date": "2026-07-23",
+    "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
+    "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-ai-productivity-operating-layer",
-      "ins_examples-constrain-frontier-models",
-      "ins_code-review-coverage-trust-ladder",
-      "ins_willison-lifecycle-cost-agents",
-      "ins_isenberg-vibe-revenue"
+      "ins_employee-retention-shipping-gate",
+      "ins_claude-tag-proactive-pr-rate",
+      "ins_behavioral-evals-ux-friction",
+      "ins_willison-ai-sandbox-escape"
     ],
-    "operators_added": [
-      "thariq-shihipar"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-23.md",
+      "date": "2026-07-23",
+      "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
+      "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
+      "sources": [],
+      "insights_added": [
+        "ins_employee-retention-shipping-gate",
+        "ins_claude-tag-proactive-pr-rate",
+        "ins_behavioral-evals-ux-friction",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-22.md",
       "date": "2026-07-22",
@@ -562,24 +576,6 @@
         "mike-krieger",
         "antoine-van-der-lee"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-13.md",
-      "date": "2026-06-13",
-      "title": "What landed today, 2026-06-13",
-      "summary": "Three new cards, no new operators. April Dunford argues that AI market uncertainty has made vendor point of view the missing ingredient in enterprise sales. Kevin Indig publishes data showing algorithm-gifted search visibility reverts while authority-backed gains hold. Simon Willison offers a practical proxy for comparing model training depth.",
-      "sources": [
-        "morning research scan 2026-06-13"
-      ],
-      "insights_added": [
-        "ins_dunford-market-pov-ai-uncertainty",
-        "ins_indig-algorithm-visibility-rental",
-        "ins_willison-knowledge-breadth-model-proxy"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

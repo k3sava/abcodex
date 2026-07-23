@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-23. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 960 insight cards
+- 964 insight cards
 - 501 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -356,7 +356,7 @@ _Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (540)
+### Tier B (544)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -423,6 +423,7 @@ _Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
 - [`ins_battlecard-abc-and-distribution`](insights/ins_battlecard-abc-and-distribution.md) — Battlecard adoption fails on distribution, not content quality, embed in the workflow or the card dies _(Crayon)_
 - [`ins_been-quietly-building-something-big`](insights/ins_been-quietly-building-something-big.md) — Solve a problem you faced, not one you imagine, when pivoting _(Akash Anand)_
+- [`ins_behavioral-evals-ux-friction`](insights/ins_behavioral-evals-ux-friction.md) — Production evals must measure UX friction behaviors that damage retention, not just task accuracy _(Cat Wu)_
 - [`ins_being-crisp-concise-underrated-lack`](insights/ins_being-crisp-concise-underrated-lack.md) — Being crisp and concise is underrated. The lack of it signals something more concerning _(Chantal Cox)_
 - [`ins_believe-about-wipe-out-entire`](insights/ins_believe-about-wipe-out-entire.md) — I believe that AI is about to wipe out an entire generation of SaaS companies _(Praveen Das)_
 - [`ins_below-few-examples-how-assess`](insights/ins_below-few-examples-how-assess.md) — Below are a few examples of how we assess AI fluency by role _(Wade Foster)_
@@ -456,6 +457,7 @@ _Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_chris-orlob-five-touch-sequence`](insights/ins_chris-orlob-five-touch-sequence.md) — Each outbound touch must build on the prior, not restate it; the 2nd and 3rd touches double reply rates when this holds _(Chris Orlob)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
 - [`ins_claude-plus-crm-plus-orchestration-stack`](insights/ins_claude-plus-crm-plus-orchestration-stack.md) — AI tools combine with CRMs through orchestration; they do not replace them _(Maja Voje)_
+- [`ins_claude-tag-proactive-pr-rate`](insights/ins_claude-tag-proactive-pr-rate.md) — Proactive multi-agent architecture enables Claude Tag to land 65 percent of Anthropic product engineering PRs _(Cat Wu)_
 - [`ins_code-node-utilizes-api-key`](insights/ins_code-node-utilizes-api-key.md) — This code node utilizes your API key and User ID to establish a connection with your Ic _(Suprava Sabat)_
 - [`ins_code-review-coverage-trust-ladder`](insights/ins_code-review-coverage-trust-ladder.md) — Automated code review earns the right to replace human review one file category at a time, based on measured 100-percent issue coverage in that category _(Cat Wu)_
 - [`ins_cognitive-surrender-agentic-defaults`](insights/ins_cognitive-surrender-agentic-defaults.md) — Frictionless agentic AI triggers cognitive surrender, where people stop evaluating outputs critically even when the AI is wrong _(Ethan Mollick)_
@@ -507,6 +509,7 @@ _Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_embedded-entrepreneur`](insights/ins_embedded-entrepreneur.md) — Embed in the community before you build the product _(Arvid Kahl)_
 - [`ins_emily-pick-pmm-traits-craft-empathy-adaptability`](insights/ins_emily-pick-pmm-traits-craft-empathy-adaptability.md) — Top PMMs combine craft love, foresight, empathy, resourcefulness, and humor. _(Emily Pick)_
 - [`ins_emotion-is-the-cornerstone`](insights/ins_emotion-is-the-cornerstone.md) — Emotion isn't a layer on top of persuasion, it IS the persuasion mechanism _(Eddie Shleyner)_
+- [`ins_employee-retention-shipping-gate`](insights/ins_employee-retention-shipping-gate.md) — Employee cohort retention data gates public feature launches at Anthropic _(Cat Wu)_
 - [`ins_engineers-with-product-taste`](insights/ins_engineers-with-product-taste.md) — Hire engineers with product taste rather than adding more PMs _(Cat Wu)_
 - [`ins_equal-positioning-not-expert`](insights/ins_equal-positioning-not-expert.md) — The moment you try to convince someone, you activate their resistance, ask, don't tell _(Josh Braun)_
 - [`ins_eric-holland-pmm-ai-love-hate`](insights/ins_eric-holland-pmm-ai-love-hate.md) — PMMs have a love-hate relationship with AI because no one builds tools for their workflows _(Eric Holland)_
@@ -873,6 +876,7 @@ _Generated 2026-07-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
+- [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
