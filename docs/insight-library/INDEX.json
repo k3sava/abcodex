@@ -1,30 +1,27 @@
 {
-  "generated_at": "2026-07-22T01:57:05.442Z",
+  "generated_at": "2026-07-23T01:48:01.981Z",
   "counts": {
-    "insights": 960,
+    "insights": 964,
     "operators": 501,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 53
+    "daily": 54
   },
   "latest_daily": {
-    "path": "daily/2026-07-22.md",
-    "date": "2026-07-22",
-    "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
-    "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
+    "path": "daily/2026-07-23.md",
+    "date": "2026-07-23",
+    "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
+    "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-ai-productivity-operating-layer",
-      "ins_examples-constrain-frontier-models",
-      "ins_code-review-coverage-trust-ladder",
-      "ins_willison-lifecycle-cost-agents",
-      "ins_isenberg-vibe-revenue"
+      "ins_employee-retention-shipping-gate",
+      "ins_claude-tag-proactive-pr-rate",
+      "ins_behavioral-evals-ux-friction",
+      "ins_willison-ai-sandbox-escape"
     ],
-    "operators_added": [
-      "thariq-shihipar"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -3002,6 +2999,38 @@
       "title": "Solve a problem you faced, not one you imagine, when pivoting"
     },
     {
+      "path": "insights/ins_behavioral-evals-ux-friction.md",
+      "id": "ins_behavioral-evals-ux-friction",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code and Co-work, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-23",
+      "domain": [
+        "product",
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "retention",
+        "process-cadence",
+        "ai-workflow-tooling"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_code-review-coverage-trust-ladder",
+        "ins_cccd-continuous-calibration"
+      ],
+      "raw_ref": "",
+      "title": "Production evals must measure UX friction behaviors that damage retention, not just task accuracy"
+    },
+    {
       "path": "insights/ins_being-crisp-concise-underrated-lack.md",
       "id": "ins_being-crisp-concise-underrated-lack",
       "operator": "Chantal Cox",
@@ -4362,6 +4391,37 @@
       ],
       "raw_ref": "raw/essays/maja-voje--claude-gtm-pulse--2026-04.md",
       "title": "AI tools combine with CRMs through orchestration; they do not replace them"
+    },
+    {
+      "path": "insights/ins_claude-tag-proactive-pr-rate.md",
+      "id": "ins_claude-tag-proactive-pr-rate",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code and Co-work, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-23",
+      "domain": [
+        "agentic-coding",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_code-review-coverage-trust-ladder",
+        "ins_examples-constrain-frontier-models"
+      ],
+      "raw_ref": "",
+      "title": "Proactive multi-agent architecture enables Claude Tag to land 65 percent of Anthropic product engineering PRs"
     },
     {
       "path": "insights/ins_coachability-beats-experience.md",
@@ -6889,6 +6949,38 @@
       ],
       "raw_ref": "raw/expert-content/experts/eddie-shleyner.md",
       "title": "Emotion isn't a layer on top of persuasion, it IS the persuasion mechanism"
+    },
+    {
+      "path": "insights/ins_employee-retention-shipping-gate.md",
+      "id": "ins_employee-retention-shipping-gate",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code and Co-work, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-23",
+      "domain": [
+        "product",
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "launch",
+        "process-cadence",
+        "retention"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_research-preview-trust-cadence",
+        "ins_frontier-program-tiered-rollout"
+      ],
+      "raw_ref": "",
+      "title": "Employee cohort retention data gates public feature launches at Anthropic"
     },
     {
       "path": "insights/ins_engineers-with-product-taste.md",
@@ -25679,6 +25771,34 @@
       "title": "An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge"
     },
     {
+      "path": "insights/ins_willison-ai-sandbox-escape.md",
+      "id": "ins_willison-ai-sandbox-escape",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; software engineer and AI blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "source_type": "essay",
+      "source_title": "OpenAI's accidental cyberattack against Hugging Face is science fiction that happened",
+      "source_date": "2026-07-22",
+      "captured_date": "2026-07-23",
+      "domain": [
+        "agent-frameworks",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_wasm-sandbox-agent-code-execution"
+      ],
+      "raw_ref": "",
+      "title": "An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark"
+    },
+    {
       "path": "insights/ins_willison-apple-siri-vision-llm-bypass.md",
       "id": "ins_willison-apple-siri-vision-llm-bypass",
       "operator": "Simon Willison",
@@ -41825,6 +41945,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-23.md",
+      "date": "2026-07-23",
+      "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
+      "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
+      "sources": [],
+      "insights_added": [
+        "ins_employee-retention-shipping-gate",
+        "ins_claude-tag-proactive-pr-rate",
+        "ins_behavioral-evals-ux-friction",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-22.md",
       "date": "2026-07-22",

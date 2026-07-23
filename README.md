@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-22 · 5 insights · 1 operator
+### Latest · 2026-07-23 · 4 insights
 
-**Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue.** Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.
+**Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape.** Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.
 
-[Read what landed →](insight-library/daily/2026-07-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **960** insight cards
+- **964** insight cards
 - **501** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
