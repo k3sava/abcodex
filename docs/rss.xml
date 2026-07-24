@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Jul 2026 01:48:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 01:58:53 GMT</lastBuildDate>
+    <item>
+      <title>Agents get a computer, open models catch up, and nobody corrects the CEO</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-24/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-24/</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards from three operators. Ethan Mollick&apos;s July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner&apos;s dilemma that keeps AI vendors silent about inflated productivity claims.</description>
+    </item>
     <item>
       <title>Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-23/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-15/</guid>
       <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-14</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-14/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-14/</guid>
-      <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple&apos;s 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.</description>
     </item>
   </channel>
 </rss>
