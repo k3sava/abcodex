@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-23 · 4 insights
+### Latest · 2026-07-24 · 5 insights · 1 operator
 
-**Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape.** Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.
+**Agents get a computer, open models catch up, and nobody corrects the CEO.** Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.
 
-[Read what landed →](insight-library/daily/2026-07-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **964** insight cards
-- **501** operator profiles
+- **969** insight cards
+- **502** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 501 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 502 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

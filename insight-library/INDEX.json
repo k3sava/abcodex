@@ -1,27 +1,30 @@
 {
-  "generated_at": "2026-07-23T01:48:01.981Z",
+  "generated_at": "2026-07-24T01:54:32.251Z",
   "counts": {
-    "insights": 964,
-    "operators": 501,
+    "insights": 969,
+    "operators": 502,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 54
+    "daily": 55
   },
   "latest_daily": {
-    "path": "daily/2026-07-23.md",
-    "date": "2026-07-23",
-    "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
-    "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
+    "path": "daily/2026-07-24.md",
+    "date": "2026-07-24",
+    "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
+    "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
     "sources": [],
     "insights_added": [
-      "ins_employee-retention-shipping-gate",
-      "ins_claude-tag-proactive-pr-rate",
-      "ins_behavioral-evals-ux-friction",
-      "ins_willison-ai-sandbox-escape"
+      "ins_agent-computer-to-use",
+      "ins_agent-approval-gate",
+      "ins_work-vs-code-modality",
+      "ins_open-model-frontier-cycle",
+      "ins_ai-mania-vendor-silence"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "nikhil-suresh"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -695,6 +698,67 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_agent-approval-gate.md",
+      "id": "ins_agent-approval-gate",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "source_type": "essay",
+      "source_title": "An opinionated guide to which AI to use to do stuff",
+      "source_date": "2026-07-23",
+      "captured_date": "2026-07-24",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_agent-computer-to-use",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "Keep agents on ask-for-approval until you know their failure modes"
+    },
+    {
+      "path": "insights/ins_agent-computer-to-use.md",
+      "id": "ins_agent-computer-to-use",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "source_type": "essay",
+      "source_title": "An opinionated guide to which AI to use to do stuff",
+      "source_date": "2026-07-23",
+      "captured_date": "2026-07-24",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-patron-not-wizard",
+        "ins_mollick-co-existence-phase-shift",
+        "ins_agent-approval-gate"
+      ],
+      "raw_ref": "",
+      "title": "Agents differ from chatbots because they give the AI a computer to use"
+    },
+    {
       "path": "insights/ins_agent-first-gtm-flywheel.md",
       "id": "ins_agent-first-gtm-flywheel",
       "operator": "Yamini Rangan",
@@ -1098,6 +1162,33 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/matt-shumer.md",
       "title": "AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how"
+    },
+    {
+      "path": "insights/ins_ai-mania-vendor-silence.md",
+      "id": "ins_ai-mania-vendor-silence",
+      "operator": "Nikhil Suresh",
+      "operator_role": "CEO, Hermit Tech; author of Ludicity",
+      "co_operators": [],
+      "source_url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+      "source_type": "essay",
+      "source_title": "AI Mania Is Eviscerating Global Decisionmaking",
+      "source_date": "2026-07-18",
+      "captured_date": "2026-07-24",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI vendors cannot correct inflated customer productivity claims without destroying those customers' credibility"
     },
     {
       "path": "insights/ins_ai-native-launch-triage-not-fewer-gates.md",
@@ -16239,6 +16330,36 @@
       "title": "Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second"
     },
     {
+      "path": "insights/ins_open-model-frontier-cycle.md",
+      "id": "ins_open-model-frontier-cycle",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/open-models-tack-toward-the-frontier/",
+      "source_type": "essay",
+      "source_title": "Open Models Tack Toward the Frontier",
+      "source_date": "2026-07-20",
+      "captured_date": "2026-07-24",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-minimill-local-routing",
+        "ins_tunguz-model-substitution-reinvestment"
+      ],
+      "raw_ref": "",
+      "title": "The AI capability frontier is a repeating cycle, not a closed-model one-way race"
+    },
+    {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
       "id": "ins_openclaw-cool-get-appeal-spin",
       "operator": "Jason B. Hart",
@@ -26237,6 +26358,33 @@
       "title": "→ The words matter. The most innovative features won't do much if customers don't under"
     },
     {
+      "path": "insights/ins_work-vs-code-modality.md",
+      "id": "ins_work-vs-code-modality",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "source_type": "essay",
+      "source_title": "An opinionated guide to which AI to use to do stuff",
+      "source_date": "2026-07-23",
+      "captured_date": "2026-07-24",
+      "domain": [
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_agent-computer-to-use"
+      ],
+      "raw_ref": "",
+      "title": "Work-mode agents return a finished output; Code-mode agents expose the working process"
+    },
+    {
       "path": "insights/ins_working-really-hard-smart-storylane.md",
       "id": "ins_working-really-hard-smart-storylane",
       "operator": "Nalin Senthamil",
@@ -33156,6 +33304,26 @@
         "website": "https://www.sharmabrands.com/"
       },
       "title": "Nik Sharma"
+    },
+    {
+      "path": "operators/nikhil-suresh/README.md",
+      "name": "Nikhil Suresh",
+      "slug": "nikhil-suresh",
+      "roles": [
+        "CEO, Hermit Tech",
+        "Author of Ludicity blog"
+      ],
+      "domains_active": [
+        "ai-native",
+        "founder-operator",
+        "engineering"
+      ],
+      "captured_first": "2026-07-24",
+      "external": {
+        "website": "https://hermit-tech.com",
+        "twitter": "https://twitter.com/Ludicity48264"
+      },
+      "title": "Nikhil Suresh"
     },
     {
       "path": "operators/nikolai-golos/README.md",
@@ -41945,6 +42113,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-24.md",
+      "date": "2026-07-24",
+      "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
+      "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
+      "sources": [],
+      "insights_added": [
+        "ins_agent-computer-to-use",
+        "ins_agent-approval-gate",
+        "ins_work-vs-code-modality",
+        "ins_open-model-frontier-cycle",
+        "ins_ai-mania-vendor-silence"
+      ],
+      "operators_added": [
+        "nikhil-suresh"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-23.md",
       "date": "2026-07-23",

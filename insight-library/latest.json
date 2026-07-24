@@ -1,23 +1,46 @@
 {
-  "generated_at": "2026-07-23T01:48:02.068Z",
+  "generated_at": "2026-07-24T01:54:32.313Z",
   "latest_daily": {
-    "path": "daily/2026-07-23.md",
-    "date": "2026-07-23",
-    "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
-    "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
+    "path": "daily/2026-07-24.md",
+    "date": "2026-07-24",
+    "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
+    "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
     "sources": [],
     "insights_added": [
-      "ins_employee-retention-shipping-gate",
-      "ins_claude-tag-proactive-pr-rate",
-      "ins_behavioral-evals-ux-friction",
-      "ins_willison-ai-sandbox-escape"
+      "ins_agent-computer-to-use",
+      "ins_agent-approval-gate",
+      "ins_work-vs-code-modality",
+      "ins_open-model-frontier-cycle",
+      "ins_ai-mania-vendor-silence"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "nikhil-suresh"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-24.md",
+      "date": "2026-07-24",
+      "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
+      "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
+      "sources": [],
+      "insights_added": [
+        "ins_agent-computer-to-use",
+        "ins_agent-approval-gate",
+        "ins_work-vs-code-modality",
+        "ins_open-model-frontier-cycle",
+        "ins_ai-mania-vendor-silence"
+      ],
+      "operators_added": [
+        "nikhil-suresh"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-23.md",
       "date": "2026-07-23",
@@ -553,28 +576,6 @@
         "steve-krouse",
         "angelos-katharopoulos",
         "awni-hannun"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-14.md",
-      "date": "2026-06-14",
-      "title": "What landed today, 2026-06-14",
-      "summary": "Four new cards, two new operators. Frontier models capable of hours-long autonomous runs are reshaping how practitioners delegate work. Apple's 2026 developer platform introduces agents as a first-class primitive across Siri and Xcode.",
-      "sources": [
-        "morning research scan 2026-06-14"
-      ],
-      "insights_added": [
-        "ins_mollick-commission-not-steer",
-        "ins_krieger-async-agent-delegation",
-        "ins_xcode27-agent-skills-portability",
-        "ins_willison-apple-siri-vision-llm-bypass"
-      ],
-      "operators_added": [
-        "mike-krieger",
-        "antoine-van-der-lee"
       ],
       "patterns_added": [],
       "playbooks_added": [],
