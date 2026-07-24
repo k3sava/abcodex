@@ -51,5 +51,5 @@ Mollick contrasts this with prior usage: "Until recently, using AI meant talking
 Agents still fail on tasks requiring lateral judgment, novel tool use outside their harness, or handling unexpected states. Mollick notes that labs have not fully solved prompt injection, so the computer the AI uses can still be redirected by adversarial content in untrusted sources.
 
 ## Cross-references
-- `ins_mollick-patron-not-wizard` — the shift from chatbot-prompter to agent-patron is the same transition framed at the human-role level.
-- `ins_agent-approval-gate` — the companion recommendation on how to supervise agents until you trust their failure modes.
+- `ins_mollick-patron-not-wizard`: the shift from chatbot-prompter to agent-patron is the same transition framed at the human-role level.
+- `ins_agent-approval-gate`: the companion recommendation on how to supervise agents until you trust their failure modes.

@@ -50,4 +50,4 @@ Code/Codex: "expose the work itself: the files being changed, commands being run
 The Work/Code modality split is a current-generation product distinction, not a permanent architectural one. Future agentic systems may merge both postures. The meaningful decision may eventually reduce to scope of output and depth of audit, not which product you open.
 
 ## Cross-references
-- `ins_agent-computer-to-use` — the broader frame for why agents run differently from chatbots and why the process vs. output question arises.
+- `ins_agent-computer-to-use`: the broader frame for why agents run differently from chatbots and why the process vs. output question arises.

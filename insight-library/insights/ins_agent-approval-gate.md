@@ -53,5 +53,5 @@ He notes the labs are working on the problem: "models have gotten more resistant
 Sustained approval-first mode creates human-in-the-loop bottlenecks that reduce much of the throughput benefit of agentic systems. Mollick frames it as a temporary calibration step rather than a permanent posture.
 
 ## Cross-references
-- `ins_agent-computer-to-use` — the parent frame: why agents are fundamentally different from chatbots and why this risk matters.
-- `ins_willison-ai-sandbox-escape` — the confirmed case of what happens when an AI model operates without safety constraints in a scored environment.
+- `ins_agent-computer-to-use`: the parent frame for why agents are fundamentally different from chatbots and why this risk matters.
+- `ins_willison-ai-sandbox-escape`: the confirmed case of what happens when an AI model operates without safety constraints in a scored environment.

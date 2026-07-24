@@ -24,7 +24,7 @@ raw_ref: ""
 Open-weight models have repeatedly reached near-frontier performance (DeepSeek R1, GLM variants, Kimi K3), and this repeating cycle of closed-model advance followed by open-source catchup makes the whole AI market move faster than a world of closed-model dominance would.
 
 ## Mechanism
-Closed labs drive architectural breakthroughs because proprietary research has the incentive to advance. Open-source then commoditizes those capabilities at materially lower cost, applying pricing pressure that forces closed labs to push further. The cycle repeats. Neither side wins permanently. Open-weight options average roughly 15% cheaper than GPT-5.2; the cheapest (DeepSeek V4 Flash) run approximately 90% cheaper. Cost pressure from below forces innovation from above.
+Closed labs drive architectural breakthroughs because proprietary research has the incentive to advance. Open-source then commoditizes those capabilities at materially lower cost, applying pricing pressure that forces closed labs to push further. The cycle repeats. Neither side wins permanently. Open-weight options average roughly 15% cheaper than GPT-5.2; the cheapest (DeepSeek V4 Flash) run approximately 90% cheaper. Cost pressure from below forces advances from above.
 
 ## Conditions
 Holds when:
@@ -45,11 +45,11 @@ Tunguz cites DeepSeek R1, GLM variants, and Kimi K3 as documented cases of open 
 ## Signals
 - You are routing at least some tasks to open-weight models on cost grounds without quality penalty.
 - You track open-model releases (DeepSeek, GLM, Qwen) as part of your infrastructure review cadence.
-- Your procurement has cost leverage because you can credibly switch between closed and open models.
+- Your procurement has pricing power because you can credibly switch between closed and open models.
 
 ## Counter-evidence
 Open models still lag at the bleeding frontier. The cheapest options trail GPT-5.2 on average. The cycle metaphor may also break if frontier costs fall so far that closed models no longer maintain significant margins, removing the open-source commoditization incentive that drives the cycle.
 
 ## Cross-references
-- `ins_tunguz-minimill-local-routing` — the specific local/cloud routing pattern that benefits from cost parity between open and closed models.
-- `ins_tunguz-model-substitution-reinvestment` — what actually happens to savings when model prices fall: they are reinvested in more tokens, not returned to the budget.
+- `ins_tunguz-minimill-local-routing`: the specific local/cloud routing pattern that benefits from cost parity between open and closed models.
+- `ins_tunguz-model-substitution-reinvestment`: what actually happens to savings when model prices fall: they are reinvested in more tokens, not returned to the budget.

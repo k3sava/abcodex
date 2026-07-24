@@ -19,10 +19,10 @@ Nikhil Suresh. Founder and CEO of Hermit Tech, a Melbourne-based consultancy spe
 - **Radical honesty as consulting discipline** Hermit Tech's positioning is built on telling clients what their data infrastructure actually requires, not what vendors want them to hear.
 
 ## Cards
-- `ins_ai-mania-vendor-silence` — AI vendors cannot correct inflated customer productivity claims without destroying those customers' credibility [Tier B]
+- `ins_ai-mania-vendor-silence`: AI vendors cannot correct inflated customer productivity claims without destroying those customers' credibility [Tier B]
 
 ## Sources
-- "AI Mania Is Eviscerating Global Decisionmaking", 2026-07-18 — https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking
+- "AI Mania Is Eviscerating Global Decisionmaking", 2026-07-18: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking
 
 ## External
 - Website: https://hermit-tech.com
