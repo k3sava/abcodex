@@ -15,6 +15,6 @@ external:
 Lilian Weng. Research scientist and co-founder who spent six years at OpenAI, most recently as VP of AI Safety, before co-founding Thinking Machines Lab in 2025 with Mira Murati. Weng is known for her blog at lilianweng.github.io, a long-running technical resource covering attention mechanisms, reinforcement learning, and AI alignment. Her research bridges the gap between theoretical AI work and practical deployment architecture.
 
 ## Operating themes
-- **Harness as the site of self-improvement** Weng argues the orchestration layer around a model is as important as model intelligence, and is the near-term path to recursive self-improvement.
+- **Harness as the site of self-improvement** Weng argues the harness layer around a model is as important as model intelligence, and is the near-term path to recursive self-improvement.
 - **Observability as a prerequisite for autonomous loops** She identifies three observability pillars (component, experience, decision) as necessary conditions for any self-improving system that does not degrade.
 - **Evolution over fine-tuning** Her synthesis of 35 papers on harness engineering favors evolutionary search over weight updates for improving deployed systems, citing both speed and generality.
