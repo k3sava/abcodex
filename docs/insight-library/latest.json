@@ -1,26 +1,46 @@
 {
-  "generated_at": "2026-07-24T01:58:50.857Z",
+  "generated_at": "2026-07-25T02:09:51.938Z",
   "latest_daily": {
-    "path": "daily/2026-07-24.md",
-    "date": "2026-07-24",
-    "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
-    "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
+    "path": "daily/2026-07-25.md",
+    "date": "2026-07-25",
+    "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
+    "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
     "sources": [],
     "insights_added": [
-      "ins_agent-computer-to-use",
-      "ins_agent-approval-gate",
-      "ins_work-vs-code-modality",
-      "ins_open-model-frontier-cycle",
-      "ins_ai-mania-vendor-silence"
+      "ins_weng-harness-recursive-self-improvement",
+      "ins_weng-self-improvement-eval-isolation",
+      "ins_horthy-context-dumb-zone",
+      "ins_horthy-trajectory-poisoning-reset"
     ],
     "operators_added": [
-      "nikhil-suresh"
+      "lilian-weng",
+      "dex-horthy"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-25.md",
+      "date": "2026-07-25",
+      "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
+      "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
+      "sources": [],
+      "insights_added": [
+        "ins_weng-harness-recursive-self-improvement",
+        "ins_weng-self-improvement-eval-isolation",
+        "ins_horthy-context-dumb-zone",
+        "ins_horthy-trajectory-poisoning-reset"
+      ],
+      "operators_added": [
+        "lilian-weng",
+        "dex-horthy"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-24.md",
       "date": "2026-07-24",
@@ -554,28 +574,6 @@
         "arvind-narayanan",
         "sayash-kapoor",
         "markie-wagner"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-15.md",
-      "date": "2026-06-15",
-      "title": "What landed today, 2026-06-15",
-      "summary": "Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.",
-      "sources": [
-        "morning research scan 2026-06-15"
-      ],
-      "insights_added": [
-        "ins_krouse-claude-top-acquisition-channel",
-        "ins_mlx-jaccl-cluster-inference",
-        "ins_gerhardt-buyer-ai-presales-research"
-      ],
-      "operators_added": [
-        "steve-krouse",
-        "angelos-katharopoulos",
-        "awni-hannun"
       ],
       "patterns_added": [],
       "playbooks_added": [],

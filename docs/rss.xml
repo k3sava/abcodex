@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 01:58:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 02:09:55 GMT</lastBuildDate>
+    <item>
+      <title>Harnesses and context zones: two new operators on what sits between the model and the work</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-25/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-25/</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.</description>
+    </item>
     <item>
       <title>Agents get a computer, open models catch up, and nobody corrects the CEO</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-24/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-16/</guid>
       <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, three new operators. Knowledge work&apos;s sandwich structure explains why AI volume hasn&apos;t become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-15</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-15/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-15/</guid>
-      <pubDate>Mon, 15 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, three new operators. AI coding agents are becoming user-acquisition channels for developer platforms. Apple Silicon clusters now run trillion-parameter models locally via Thunderbolt 5. B2B buyers research vendors in AI tools before any sales contact.</description>
     </item>
   </channel>
 </rss>

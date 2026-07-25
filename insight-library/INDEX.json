@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-07-24T01:58:50.838Z",
+  "generated_at": "2026-07-25T02:09:51.913Z",
   "counts": {
-    "insights": 969,
-    "operators": 502,
+    "insights": 973,
+    "operators": 504,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 55
+    "daily": 56
   },
   "latest_daily": {
-    "path": "daily/2026-07-24.md",
-    "date": "2026-07-24",
-    "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
-    "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
+    "path": "daily/2026-07-25.md",
+    "date": "2026-07-25",
+    "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
+    "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
     "sources": [],
     "insights_added": [
-      "ins_agent-computer-to-use",
-      "ins_agent-approval-gate",
-      "ins_work-vs-code-modality",
-      "ins_open-model-frontier-cycle",
-      "ins_ai-mania-vendor-silence"
+      "ins_weng-harness-recursive-self-improvement",
+      "ins_weng-self-improvement-eval-isolation",
+      "ins_horthy-context-dumb-zone",
+      "ins_horthy-trajectory-poisoning-reset"
     ],
     "operators_added": [
-      "nikhil-suresh"
+      "lilian-weng",
+      "dex-horthy"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -9674,6 +9674,67 @@
       ],
       "raw_ref": "raw/essays/anthony-pierri--7-step-homepage--2026-04.md",
       "title": "B2B homepages must communicate use case, alternative, and result in five seconds"
+    },
+    {
+      "path": "insights/ins_horthy-context-dumb-zone.md",
+      "id": "ins_horthy-context-dumb-zone",
+      "operator": "Dex Horthy",
+      "operator_role": "CEO of HumanLayer; AI coding consultant who interviewed roughly 100 production AI engineers",
+      "co_operators": [],
+      "source_url": "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy",
+      "source_type": "essay",
+      "source_title": "Context engineering with Dex Horthy",
+      "source_date": "2026-07-15",
+      "captured_date": "2026-07-25",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_horthy-trajectory-poisoning-reset",
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_willison-lifecycle-cost-agents"
+      ],
+      "raw_ref": "",
+      "title": "Models have a context window \"dumb zone\": past the optimal threshold, performance degrades into destructive behavior"
+    },
+    {
+      "path": "insights/ins_horthy-trajectory-poisoning-reset.md",
+      "id": "ins_horthy-trajectory-poisoning-reset",
+      "operator": "Dex Horthy",
+      "operator_role": "CEO of HumanLayer; AI coding consultant who interviewed roughly 100 production AI engineers",
+      "co_operators": [],
+      "source_url": "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy",
+      "source_type": "essay",
+      "source_title": "Context engineering with Dex Horthy",
+      "source_date": "2026-07-15",
+      "captured_date": "2026-07-25",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_horthy-context-dumb-zone",
+        "ins_dark-factory-pattern",
+        "ins_willison-lifecycle-cost-agents"
+      ],
+      "raw_ref": "",
+      "title": "Sycophantic agreement signals autoregressive trajectory poisoning; the fix is a session reset, not continued prompting"
     },
     {
       "path": "insights/ins_hourly-billing-is-nuts.md",
@@ -25586,6 +25647,67 @@
       "title": "Running MicroPython inside a WebAssembly sandbox gives AI agents safe code execution without host system access risk"
     },
     {
+      "path": "insights/ins_weng-harness-recursive-self-improvement.md",
+      "id": "ins_weng-harness-recursive-self-improvement",
+      "operator": "Lilian Weng",
+      "operator_role": "Co-founder and Chief Scientist, Thinking Machines Lab; former VP of AI Safety at OpenAI",
+      "co_operators": [],
+      "source_url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "source_type": "essay",
+      "source_title": "Harness Engineering for Self-Improvement",
+      "source_date": "2026-07-04",
+      "captured_date": "2026-07-25",
+      "domain": [
+        "ai-native",
+        "agent-frameworks"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_weng-self-improvement-eval-isolation",
+        "ins_swyx-meta-harness-convergence",
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "Harness engineering, not weight updates, is the near-term path to recursive self-improvement in AI"
+    },
+    {
+      "path": "insights/ins_weng-self-improvement-eval-isolation.md",
+      "id": "ins_weng-self-improvement-eval-isolation",
+      "operator": "Lilian Weng",
+      "operator_role": "Co-founder and Chief Scientist, Thinking Machines Lab; former VP of AI Safety at OpenAI",
+      "co_operators": [],
+      "source_url": "https://lilianweng.github.io/posts/2026-07-04-harness/",
+      "source_type": "essay",
+      "source_title": "Harness Engineering for Self-Improvement",
+      "source_date": "2026-07-04",
+      "captured_date": "2026-07-25",
+      "domain": [
+        "ai-native",
+        "agent-frameworks",
+        "evals"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_weng-harness-recursive-self-improvement",
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "Self-improving AI systems require evals, isolation, and auditable traces to avoid confident regression"
+    },
+    {
       "path": "insights/ins_what-happened-when-stopped-fighting.md",
       "id": "ins_what-happened-when-stopped-fighting",
       "operator": "Rabi Shanker Guha",
@@ -29738,6 +29860,25 @@
       "title": "Devran Karaca"
     },
     {
+      "path": "operators/dex-horthy/README.md",
+      "name": "Dex Horthy",
+      "slug": "dex-horthy",
+      "roles": [
+        "CEO and co-founder, HumanLayer (2024–present)",
+        "AI coding consultant (2025–present)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
+      ],
+      "captured_first": "2026-07-25",
+      "external": {
+        "twitter": "https://twitter.com/dexhorthy",
+        "newsletter": "https://www.humanlayer.dev/blog"
+      },
+      "title": "Dex Horthy"
+    },
+    {
       "path": "operators/dharmesh-shah/README.md",
       "name": "Dharmesh Shah",
       "slug": "dharmesh-shah",
@@ -32209,6 +32350,27 @@
         "newsletter": "https://www.lennysnewsletter.com/"
       },
       "title": "Lenny Rachitsky"
+    },
+    {
+      "path": "operators/lilian-weng/README.md",
+      "name": "Lilian Weng",
+      "slug": "lilian-weng",
+      "roles": [
+        "Co-founder and Chief Scientist, Thinking Machines Lab (2025–present)",
+        "VP of AI Safety, OpenAI (2021–2024)",
+        "Research Scientist, OpenAI (2018–2021)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "agent-frameworks",
+        "evals"
+      ],
+      "captured_first": "2026-07-25",
+      "external": {
+        "twitter": "https://twitter.com/lilianweng",
+        "newsletter": "https://lilianweng.github.io/"
+      },
+      "title": "Lilian Weng"
     },
     {
       "path": "operators/lily-ray/README.md",
@@ -42113,6 +42275,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-25.md",
+      "date": "2026-07-25",
+      "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
+      "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
+      "sources": [],
+      "insights_added": [
+        "ins_weng-harness-recursive-self-improvement",
+        "ins_weng-self-improvement-eval-isolation",
+        "ins_horthy-context-dumb-zone",
+        "ins_horthy-trajectory-poisoning-reset"
+      ],
+      "operators_added": [
+        "lilian-weng",
+        "dex-horthy"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-24.md",
       "date": "2026-07-24",
