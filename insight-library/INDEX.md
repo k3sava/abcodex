@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 969 insight cards
-- 502 operator profiles
+- 973 insight cards
+- 504 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -356,7 +356,7 @@ _Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (549)
+### Tier B (553)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -568,6 +568,8 @@ _Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hiring-growth-marketer-before-have`](insights/ins_hiring-growth-marketer-before-have.md) — Hiring a growth marketer before you have a foundation is like building the second floor _(Dan Darnell)_
 - [`ins_holly-allen-bad-data-kills-sales`](insights/ins_holly-allen-bad-data-kills-sales.md) — Even the best sales teams can't win with bad data. _(Holly Allen)_
 - [`ins_homepage-five-second-trinity`](insights/ins_homepage-five-second-trinity.md) — B2B homepages must communicate use case, alternative, and result in five seconds _(Anthony Pierri)_
+- [`ins_horthy-context-dumb-zone`](insights/ins_horthy-context-dumb-zone.md) — Models have a context window "dumb zone": past the optimal threshold, performance degrades into destructive behavior _(Dex Horthy)_
+- [`ins_horthy-trajectory-poisoning-reset`](insights/ins_horthy-trajectory-poisoning-reset.md) — Sycophantic agreement signals autoregressive trajectory poisoning; the fix is a session reset, not continued prompting _(Dex Horthy)_
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
@@ -869,6 +871,8 @@ _Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
 - [`ins_wasm-sandbox-agent-code-execution`](insights/ins_wasm-sandbox-agent-code-execution.md) — Running MicroPython inside a WebAssembly sandbox gives AI agents safe code execution without host system access risk _(Simon Willison)_
+- [`ins_weng-harness-recursive-self-improvement`](insights/ins_weng-harness-recursive-self-improvement.md) — Harness engineering, not weight updates, is the near-term path to recursive self-improvement in AI _(Lilian Weng)_
+- [`ins_weng-self-improvement-eval-isolation`](insights/ins_weng-self-improvement-eval-isolation.md) — Self-improving AI systems require evals, isolation, and auditable traces to avoid confident regression _(Lilian Weng)_
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
 - [`ins_when-understood-sales-training-just`](insights/ins_when-understood-sales-training-just.md) — That's when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
 - [`ins_when-was-laid-off-here`](insights/ins_when-was-laid-off-here.md) — When I was laid off here is what I did to find a job in 15 days _(Sandeep Kochhar)_
@@ -1139,6 +1143,7 @@ _Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
 - [Denise Lee Yohn](operators/denise-lee-yohn/README.md)
 - [Devin Reed](operators/devin-reed/README.md)
 - [Devran Karaca](operators/devran-karaca/README.md)
+- [Dex Horthy](operators/dex-horthy/README.md)
 - [Dharmesh Shah](operators/dharmesh-shah/README.md)
 - [Diana Polansky](operators/diana-polansky/README.md)
 - [Dileep Krishna](operators/dileep-krishna/README.md)
@@ -1275,6 +1280,7 @@ _Generated 2026-07-24. Auto-built from frontmatter — do not edit by hand._
 - [Leah Knobler](operators/leah-knobler/README.md)
 - [Leah Tharin](operators/leah-tharin/README.md)
 - [Lenny Rachitsky](operators/lenny-rachitsky/README.md)
+- [Lilian Weng](operators/lilian-weng/README.md)
 - [Lily Ray](operators/lily-ray/README.md)
 - [Linde Hasker](operators/linde-hasker/README.md)
 - [Liza Adams](operators/liza-adams/README.md)
