@@ -26,7 +26,7 @@ Generic AI provides no lasting differentiation. Companies that control three com
 ## Mechanism
 Generic AI models produce generic outputs because they lack operational context: your policy terms, your customer history, your regulatory constraints. Without these, any competitor using the same model API gets approximately the same outputs you do. The advantage compounds when three layers work together:
 
-Layer one is agent system control: which model, what orchestration logic, what context is loaded, what memory is maintained across sessions. Teams that control these variables tune the AI to their problem space; teams that outsource them get the defaults.
+Layer one is agent system control: which model, what routing and control logic, what context is loaded, what memory is maintained across sessions. Teams that control these variables tune the AI to their problem space; teams that outsource them get the defaults.
 
 Layer two is economics and governance: cost measurement, output quality tracking, observability into agent behavior, and boundary enforcement. Without this layer, teams cannot know whether their AI is improving or regressing, and they cannot justify the investment in layer three.
 
