@@ -1,30 +1,27 @@
 {
-  "generated_at": "2026-07-25T02:09:51.913Z",
+  "generated_at": "2026-07-26T01:59:33.786Z",
   "counts": {
-    "insights": 973,
+    "insights": 977,
     "operators": 504,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 56
+    "daily": 57
   },
   "latest_daily": {
-    "path": "daily/2026-07-25.md",
-    "date": "2026-07-25",
-    "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
-    "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
+    "path": "daily/2026-07-26.md",
+    "date": "2026-07-26",
+    "title": "Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable",
+    "summary": "Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.",
     "sources": [],
     "insights_added": [
-      "ins_weng-harness-recursive-self-improvement",
-      "ins_weng-self-improvement-eval-isolation",
-      "ins_horthy-context-dumb-zone",
-      "ins_horthy-trajectory-poisoning-reset"
+      "ins_thariq-rewrites-now-rational",
+      "ins_willison-linting-as-agent-repair-input",
+      "ins_chase-compound-intelligence-ownership",
+      "ins_indig-ai-search-category-ownership"
     ],
-    "operators_added": [
-      "lilian-weng",
-      "dex-horthy"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4195,6 +4192,38 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_chase-compound-intelligence-ownership.md",
+      "id": "ins_chase-compound-intelligence-ownership",
+      "operator": "Harrison Chase",
+      "operator_role": "Co-founder and CEO, LangChain",
+      "co_operators": [],
+      "source_url": "https://www.langchain.com/blog/own-your-intelligence",
+      "source_type": "essay",
+      "source_title": "What does it mean to 'own your intelligence'?",
+      "source_date": "2026-07-25",
+      "captured_date": "2026-07-26",
+      "domain": [
+        "ai-native",
+        "agent-frameworks",
+        "strategy",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_weng-harness-recursive-self-improvement",
+        "ins_tunguz-app-layer-lagging-moat"
+      ],
+      "raw_ref": "",
+      "title": "Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access"
     },
     {
       "path": "insights/ins_chatgpt-prompts-invisible-to-keyword-tools.md",
@@ -10234,6 +10263,39 @@
       ],
       "raw_ref": "raw/expert-content/experts/charlie-munger.md",
       "title": "When behavior puzzles you, look at incentives, that's where every other model is downstream of"
+    },
+    {
+      "path": "insights/ins_indig-ai-search-category-ownership.md",
+      "id": "ins_indig-ai-search-category-ownership",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/does-topical-authority-matter-in",
+      "source_type": "research",
+      "source_title": "Does topical authority matter in AI Search?",
+      "source_date": "2026-07-20",
+      "captured_date": "2026-07-26",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "aeo",
+        "positioning",
+        "measurement-experimentation"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-benchmark-citation-structure",
+        "ins_indig-seo-aio-decoupling",
+        "ins_ghost-citation-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time"
     },
     {
       "path": "insights/ins_indig-ai-substitution-positioning-harm.md",
@@ -23305,6 +23367,38 @@
       "title": "Test positioning in a live sales pitch, marketing stories are unfalsified theory until then"
     },
     {
+      "path": "insights/ins_thariq-rewrites-now-rational.md",
+      "id": "ins_thariq-rewrites-now-rational",
+      "operator": "Thariq Shihipar",
+      "operator_role": "Engineering lead, Claude Code, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-26",
+      "domain": [
+        "engineering",
+        "ai-native",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-agents-erase-shared-understanding",
+        "ins_examples-constrain-frontier-models",
+        "ins_willison-lifecycle-cost-agents"
+      ],
+      "raw_ref": "",
+      "title": "In the agent era, full rewrites are rational because the codebase is often the only accurate copy of the spec"
+    },
+    {
       "path": "insights/ins_the-ai-forum-agent-ai-challenge-announcement.md",
       "id": "ins_the-ai-forum-agent-ai-challenge-announcement",
       "title": "Agent.ai Challenge is LIVE: $50K prizes, no-code AI builder backed by HubSpot's Dharmesh Shah.",
@@ -26309,6 +26403,37 @@
       ],
       "raw_ref": "",
       "title": "Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost"
+    },
+    {
+      "path": "insights/ins_willison-linting-as-agent-repair-input.md",
+      "id": "ins_willison-linting-as-agent-repair-input",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/25/ruff/",
+      "source_type": "essay",
+      "source_title": "Ruff v0.16.0",
+      "source_date": "2026-07-25",
+      "captured_date": "2026-07-26",
+      "domain": [
+        "engineering",
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-lifecycle-cost-agents",
+        "ins_willison-agent-dri-accountability"
+      ],
+      "raw_ref": "",
+      "title": "Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically"
     },
     {
       "path": "insights/ins_willison-prompt-injection-role-confusion.md",
@@ -42275,6 +42400,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-26.md",
+      "date": "2026-07-26",
+      "title": "Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable",
+      "summary": "Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.",
+      "sources": [],
+      "insights_added": [
+        "ins_thariq-rewrites-now-rational",
+        "ins_willison-linting-as-agent-repair-input",
+        "ins_chase-compound-intelligence-ownership",
+        "ins_indig-ai-search-category-ownership"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-25.md",
       "date": "2026-07-25",

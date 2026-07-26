@@ -1,26 +1,40 @@
 {
-  "generated_at": "2026-07-25T02:09:51.938Z",
+  "generated_at": "2026-07-26T01:59:33.882Z",
   "latest_daily": {
-    "path": "daily/2026-07-25.md",
-    "date": "2026-07-25",
-    "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
-    "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
+    "path": "daily/2026-07-26.md",
+    "date": "2026-07-26",
+    "title": "Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable",
+    "summary": "Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.",
     "sources": [],
     "insights_added": [
-      "ins_weng-harness-recursive-self-improvement",
-      "ins_weng-self-improvement-eval-isolation",
-      "ins_horthy-context-dumb-zone",
-      "ins_horthy-trajectory-poisoning-reset"
+      "ins_thariq-rewrites-now-rational",
+      "ins_willison-linting-as-agent-repair-input",
+      "ins_chase-compound-intelligence-ownership",
+      "ins_indig-ai-search-category-ownership"
     ],
-    "operators_added": [
-      "lilian-weng",
-      "dex-horthy"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-26.md",
+      "date": "2026-07-26",
+      "title": "Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable",
+      "summary": "Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.",
+      "sources": [],
+      "insights_added": [
+        "ins_thariq-rewrites-now-rational",
+        "ins_willison-linting-as-agent-repair-input",
+        "ins_chase-compound-intelligence-ownership",
+        "ins_indig-ai-search-category-ownership"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-25.md",
       "date": "2026-07-25",
@@ -554,28 +568,6 @@
       "patterns_added": [
         "pat_ai-policy-constrains-capability"
       ],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-16.md",
-      "date": "2026-06-16",
-      "title": "What landed today, 2026-06-16",
-      "summary": "Three new cards, three new operators. Knowledge work's sandwich structure explains why AI volume hasn't become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.",
-      "sources": [
-        "morning research scan 2026-06-16"
-      ],
-      "insights_added": [
-        "ins_decide-execute-deliver",
-        "ins_mccormick-ai-compiler-not-runtime",
-        "ins_tunguz-fable-safety-ceiling"
-      ],
-      "operators_added": [
-        "arvind-narayanan",
-        "sayash-kapoor",
-        "markie-wagner"
-      ],
-      "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
     }
