@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jul 2026 02:09:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 02:01:50 GMT</lastBuildDate>
+    <item>
+      <title>Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-26/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-26/</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.</description>
+    </item>
     <item>
       <title>Harnesses and context zones: two new operators on what sits between the model and the work</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-25/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-17/</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-16</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-16/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-16/</guid>
-      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, three new operators. Knowledge work&apos;s sandwich structure explains why AI volume hasn&apos;t become job loss. The economics of token spend split into compile-once versus run-forever. And frontier AI capability is now gated by policy, not hardware.</description>
     </item>
   </channel>
 </rss>
