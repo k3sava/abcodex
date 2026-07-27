@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 977 insight cards
-- 504 operator profiles
+- 980 insight cards
+- 506 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -356,7 +356,7 @@ _Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (557)
+### Tier B (560)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -777,12 +777,14 @@ _Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_second-brain-para`](insights/ins_second-brain-para.md) — Brains are for having ideas, not storing them, externalize knowledge so AI can compound it for you _(Tiago Forte)_
 - [`ins_seller-workflows-begin-with-ai`](insights/ins_seller-workflows-begin-with-ai.md) — By 2027, 95% of seller workflows will begin with AI, up from <20% in 2024 _(Gartner)_
 - [`ins_semi-autonomous-is-the-enterprise-baseline`](insights/ins_semi-autonomous-is-the-enterprise-baseline.md) — Plan for semi-autonomous agents, fully autonomous is not ready for most enterprise use cases _(Gartner)_
+- [`ins_sen-ai-overviews-click-reduction`](insights/ins_sen-ai-overviews-click-reduction.md) — AI Overviews reduce outbound clicks by 40% with no corresponding improvement in user satisfaction _(Ananya Sen)_
 - [`ins_sense-seeing-three-shifts-once`](insights/ins_sense-seeing-three-shifts-once.md) — My sense is we're seeing three shifts at once _(Yael Davidowitz-Neu)_
 - [`ins_separate-behavior-from-identity`](insights/ins_separate-behavior-from-identity.md) — When addressing a behavior, name explicitly that identity is not on trial _(Becky Kennedy)_
 - [`ins_shaambhav-shankar-ai-kills-excuses-for-marketers`](insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md) — With AI, excuses about time or skill are dead, marketers must be fast executors who break things. _(Shaambhav Shankar)_
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
+- [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
 - [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
 - [`ins_shipper-token-spend-parity-break`](insights/ins_shipper-token-spend-parity-break.md) — Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder _(Dan Shipper)_
@@ -897,6 +899,7 @@ _Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
+- [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
@@ -1028,6 +1031,7 @@ _Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
 - [Amole Naik](operators/amole-naik/README.md)
 - [Amulya Vadrevu](operators/amulya-vadrevu/README.md)
 - [Anand Karunan](operators/anand-karunan/README.md)
+- [Ananya Sen](operators/ananya-sen/README.md)
 - [Anastasia Kudrow](operators/anastasia-kudrow/README.md)
 - [Andreas Horn](operators/andreas-horn/README.md)
 - [Andrej Karpathy](operators/andrej-karpathy/README.md)
@@ -1403,6 +1407,7 @@ _Generated 2026-07-26. Auto-built from frontmatter — do not edit by hand._
 - [Ryan Woodley Mitchell](operators/ryan-woodley-mitchell/README.md)
 - [Saagar Mehta](operators/saagar-mehta/README.md)
 - [Sachin Jha](operators/sachin-jha/README.md)
+- [Saharsh Agarwal](operators/saharsh-agarwal/README.md)
 - [Sahil Bloom](operators/sahil-bloom/README.md)
 - [Saishah Joseph](operators/saishah-joseph/README.md)
 - [Sajjan Jain](operators/sajjan-jain/README.md)
