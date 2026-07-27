@@ -1,23 +1,42 @@
 {
-  "generated_at": "2026-07-26T02:01:47.016Z",
+  "generated_at": "2026-07-27T02:13:33.042Z",
   "latest_daily": {
-    "path": "daily/2026-07-26.md",
-    "date": "2026-07-26",
-    "title": "Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable",
-    "summary": "Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.",
+    "path": "daily/2026-07-27.md",
+    "date": "2026-07-27",
+    "title": "Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers",
+    "summary": "Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.",
     "sources": [],
     "insights_added": [
-      "ins_thariq-rewrites-now-rational",
-      "ins_willison-linting-as-agent-repair-input",
-      "ins_chase-compound-intelligence-ownership",
-      "ins_indig-ai-search-category-ownership"
+      "ins_shipper-opus5-scaffolding-reset",
+      "ins_willison-llm-relay-market",
+      "ins_sen-ai-overviews-click-reduction"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "ananya-sen"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-27.md",
+      "date": "2026-07-27",
+      "title": "Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers",
+      "summary": "Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.",
+      "sources": [],
+      "insights_added": [
+        "ins_shipper-opus5-scaffolding-reset",
+        "ins_willison-llm-relay-market",
+        "ins_sen-ai-overviews-click-reduction"
+      ],
+      "operators_added": [
+        "ananya-sen"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-26.md",
       "date": "2026-07-26",
@@ -546,28 +565,6 @@
         "dan-shipper"
       ],
       "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-17.md",
-      "date": "2026-06-17",
-      "title": "What landed today, 2026-06-17",
-      "summary": "Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.",
-      "sources": [
-        "morning research scan 2026-06-17"
-      ],
-      "insights_added": [
-        "ins_tunguz-harness-three-disciplines",
-        "ins_ronacher-safety-framing-access-restriction",
-        "ins_willison-defensive-security-export-controls"
-      ],
-      "operators_added": [
-        "armin-ronacher"
-      ],
-      "patterns_added": [
-        "pat_ai-policy-constrains-capability"
-      ],
       "playbooks_added": [],
       "patterns_updated": []
     }

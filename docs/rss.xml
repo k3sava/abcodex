@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 02:01:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 02:13:36 GMT</lastBuildDate>
+    <item>
+      <title>Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-27/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-27/</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.</description>
+    </item>
     <item>
       <title>Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-26/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-18/</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
       <description>Four new cards, two new operators, no new patterns. Three themes from the first three weeks of June. Model savings get recycled into more tokens. Organizational structure sets the AI ceiling. Fast feedback is the discipline, not a tactic.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-17</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-17/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-17/</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, one new operator, one new synthesis pattern. Two themes from the week of June 10-16. The model layer has commoditized and the moat is now operational. The ceiling on what AI does in production is set by policy, not silicon.</description>
     </item>
   </channel>
 </rss>
