@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 980 insight cards
+- 983 insight cards
 - 506 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (342)
+### Tier A (343)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -37,6 +37,7 @@ _Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ariely-relativity-principle`](insights/ins_ariely-relativity-principle.md) — The Relativity Principle, humans cannot evaluate prices in isolation, only by comparison _(Dan Ariely)_
 - [`ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment`](insights/ins_ashley-bass-intake-interview-guide-for-pmm-gtm-alignment.md) — An intake interview guide aligns PM and PMM before any GTM work begins. _(Ashley Bass)_
 - [`ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels`](insights/ins_ashley-herbert-popa-build-skill-frameworks-for-pmm-levels.md) — Build custom skill frameworks to develop PMMs at each level. _(Ashley Herbert Popa)_
+- [`ins_auto-mode-context-classifier`](insights/ins_auto-mode-context-classifier.md) — A conversation-context classifier grants or blocks agent tool calls per call rather than per tool type _(Thariq Shihipar)_
 - [`ins_b2b-buyer-emotion-personal-stakes`](insights/ins_b2b-buyer-emotion-personal-stakes.md) — B2B buying is more emotional than the rational-buyer myth says, large-contract decisions carry personal-career stakes _(Dave Gerhardt)_
 - [`ins_below-absolutely-worth-studying-amanda`](insights/ins_below-absolutely-worth-studying-amanda.md) — The CV below is absolutely worth studying! Amanda Fernandes didn't just apply for a job _(Andreas Horn)_
 - [`ins_bottleneck-is-context-not-capability`](insights/ins_bottleneck-is-context-not-capability.md) — When the agent isn't doing what you want, fix the context, not the model _(Sherwin Wu)_
@@ -356,7 +357,7 @@ _Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (560)
+### Tier B (562)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -483,6 +484,7 @@ _Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_couch-to-5k-for-ai-start-not-depth`](insights/ins_couch-to-5k-for-ai-start-not-depth.md) — The block to AI adoption is the start, not the depth, design 30-day ladders, not deep-dive bootcamps _(Hilary Gridley)_
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
 - [`ins_creative-is-the-spike`](insights/ins_creative-is-the-spike.md) — Media buying is the setter; creative is the hitter, the score comes from creative _(Andrew Faris)_
+- [`ins_credential-injection-proxy`](insights/ins_credential-injection-proxy.md) — Proxy injection of credentials at request time lets agents make authenticated calls without ever holding sensitive tokens _(Cat Wu)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public, not "praise public, criticize private" _(Jeetu Patel)_
 - [`ins_dani-romain-building-with-heart`](insights/ins_dani-romain-building-with-heart.md) — Scaling a GTM engine requires both speed and heart, not just hustle. _(Dani Romain)_
 - [`ins_daniel-cmejla-customer-marketing-is-new-product-marketing`](insights/ins_daniel-cmejla-customer-marketing-is-new-product-marketing.md) — Customer Marketing is the new Product Marketing because harnessing customer sentiment reveals the truth of how to market. _(Daniel Cmejla)_
@@ -647,6 +649,7 @@ _Generated 2026-07-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
 - [`ins_mccormick-ai-compiler-not-runtime`](insights/ins_mccormick-ai-compiler-not-runtime.md) — Using AI as a compiler converts expensive thinking into cheap deterministic doing _(Packy McCormick)_
 - [`ins_mccormick-ai-makes-consensus-cheap`](insights/ins_mccormick-ai-makes-consensus-cheap.md) — AI makes consensus the default output; distinctiveness is now the only scarce input _(Packy McCormick)_
+- [`ins_mccormick-open-weight-coalition`](insights/ins_mccormick-open-weight-coalition.md) — Tech giants support open-weight AI models because the model layer is a complement to their real revenues _(Packy McCormick)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
