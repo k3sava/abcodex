@@ -1,28 +1,26 @@
 {
-  "generated_at": "2026-07-27T02:13:32.979Z",
+  "generated_at": "2026-07-28T02:08:00.952Z",
   "counts": {
-    "insights": 980,
+    "insights": 983,
     "operators": 506,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 58
+    "daily": 59
   },
   "latest_daily": {
-    "path": "daily/2026-07-27.md",
-    "date": "2026-07-27",
-    "title": "Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers",
-    "summary": "Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.",
+    "path": "daily/2026-07-28.md",
+    "date": "2026-07-28",
+    "title": "Agent security architecture and the open-weight coalition: three cards from two sources",
+    "summary": "Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.",
     "sources": [],
     "insights_added": [
-      "ins_shipper-opus5-scaffolding-reset",
-      "ins_willison-llm-relay-market",
-      "ins_sen-ai-overviews-click-reduction"
+      "ins_credential-injection-proxy",
+      "ins_auto-mode-context-classifier",
+      "ins_mccormick-open-weight-coalition"
     ],
-    "operators_added": [
-      "ananya-sen"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -2737,6 +2735,38 @@
       "title": "Your audience is a manifestation of the content you produce"
     },
     {
+      "path": "insights/ins_auto-mode-context-classifier.md",
+      "id": "ins_auto-mode-context-classifier",
+      "operator": "Thariq Shihipar",
+      "operator_role": "Engineering lead, Claude Code, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-28",
+      "domain": [
+        "agentic-coding",
+        "ai-native",
+        "security"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_examples-constrain-frontier-models",
+        "ins_agent-approval-gate",
+        "ins_thariq-rewrites-now-rational"
+      ],
+      "raw_ref": "",
+      "title": "A conversation-context classifier grants or blocks agent tool calls per call rather than per tool type"
+    },
+    {
       "path": "insights/ins_avinash-raghava-indian-ai-founders-disrupt-no-code.md",
       "id": "ins_avinash-raghava-indian-ai-founders-disrupt-no-code",
       "title": "Indian AI founders can use deep tech to disrupt the no-code movement at scale.",
@@ -5322,6 +5352,38 @@
       ],
       "raw_ref": "raw/expert-content/experts/andrew-faris.md",
       "title": "Media buying is the setter; creative is the hitter, the score comes from creative"
+    },
+    {
+      "path": "insights/ins_credential-injection-proxy.md",
+      "id": "ins_credential-injection-proxy",
+      "operator": "Cat Wu",
+      "operator_role": "Head of Product, Claude Code and Co-work, Anthropic",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/",
+      "source_type": "talk",
+      "source_title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "source_date": "2026-07-21",
+      "captured_date": "2026-07-28",
+      "domain": [
+        "agentic-coding",
+        "ai-native",
+        "security"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-prompt-injection-role-confusion",
+        "ins_willison-web-fetch-chained-exfiltration",
+        "ins_claude-tag-proactive-pr-rate"
+      ],
+      "raw_ref": "",
+      "title": "Proxy injection of credentials at request time lets agents make authenticated calls without ever holding sensitive tokens"
     },
     {
       "path": "insights/ins_cris-thome-pmm-hiring-gtm-customer-insights.md",
@@ -13940,6 +14002,38 @@
       ],
       "raw_ref": "",
       "title": "AI makes consensus the default output; distinctiveness is now the only scarce input"
+    },
+    {
+      "path": "insights/ins_mccormick-open-weight-coalition.md",
+      "id": "ins_mccormick-open-weight-coalition",
+      "operator": "Packy McCormick",
+      "operator_role": "Writer and investor, Not Boring",
+      "co_operators": [],
+      "source_url": "https://www.notboring.co/p/ai-is-oil-not-god",
+      "source_type": "essay",
+      "source_title": "AI is Oil, Not God",
+      "source_date": "2026-07-25",
+      "captured_date": "2026-07-28",
+      "domain": [
+        "strategy",
+        "ai-native",
+        "competitive"
+      ],
+      "lifecycle": [
+        "positioning",
+        "competitive-intelligence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mccormick-ai-compiler-not-runtime",
+        "ins_run-up-the-stack",
+        "ins_commoditize-the-complement-ai"
+      ],
+      "raw_ref": "",
+      "title": "Tech giants support open-weight AI models because the model layer is a complement to their real revenues"
     },
     {
       "path": "insights/ins_media-first-business.md",
@@ -42534,6 +42628,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-28.md",
+      "date": "2026-07-28",
+      "title": "Agent security architecture and the open-weight coalition: three cards from two sources",
+      "summary": "Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.",
+      "sources": [],
+      "insights_added": [
+        "ins_credential-injection-proxy",
+        "ins_auto-mode-context-classifier",
+        "ins_mccormick-open-weight-coalition"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-27.md",
       "date": "2026-07-27",

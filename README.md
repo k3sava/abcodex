@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-27 · 3 insights · 1 operator
+### Latest · 2026-07-28 · 3 insights
 
-**Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers.** Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.
+**Agent security architecture and the open-weight coalition: three cards from two sources.** Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.
 
-[Read what landed →](insight-library/daily/2026-07-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **980** insight cards
+- **983** insight cards
 - **506** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 02:13:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 02:08:04 GMT</lastBuildDate>
+    <item>
+      <title>Agent security architecture and the open-weight coalition: three cards from two sources</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-28/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-28/</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World&apos;s Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick&apos;s July 25 essay applies Spolsky&apos;s commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.</description>
+    </item>
     <item>
       <title>Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-27/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-26/</guid>
       <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-18</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-18/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-18/</guid>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards, two new operators, no new patterns. Three themes from the first three weeks of June. Model savings get recycled into more tokens. Organizational structure sets the AI ceiling. Fast feedback is the discipline, not a tactic.</description>
     </item>
   </channel>
 </rss>
