@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-07-28T02:08:01.026Z",
+  "generated_at": "2026-07-29T01:50:24.994Z",
   "latest_daily": {
-    "path": "daily/2026-07-28.md",
-    "date": "2026-07-28",
-    "title": "Agent security architecture and the open-weight coalition: three cards from two sources",
-    "summary": "Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.",
+    "path": "daily/2026-07-29.md",
+    "date": "2026-07-29",
+    "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
+    "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
     "sources": [],
     "insights_added": [
-      "ins_credential-injection-proxy",
-      "ins_auto-mode-context-classifier",
-      "ins_mccormick-open-weight-coalition"
+      "ins_indig-brand-trust-overrides-ai-rank",
+      "ins_indig-gsc-attribution-gap",
+      "ins_mollick-agentic-external-injection",
+      "ins_willison-open-model-defense-asymmetry"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +18,23 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-29.md",
+      "date": "2026-07-29",
+      "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
+      "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-brand-trust-overrides-ai-rank",
+        "ins_indig-gsc-attribution-gap",
+        "ins_mollick-agentic-external-injection",
+        "ins_willison-open-model-defense-asymmetry"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-28.md",
       "date": "2026-07-28",
@@ -536,26 +554,6 @@
         "ins_tunguz-app-layer-lagging-moat"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-26.md",
-      "date": "2026-06-26",
-      "title": "What landed today, 2026-06-26",
-      "summary": "Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.",
-      "sources": [
-        "morning research scan 2026-06-26"
-      ],
-      "insights_added": [
-        "ins_tunguz-inference-pricing-value-beats-cost-plus",
-        "ins_willison-agent-driven-ml-model-conversion",
-        "ins_zukowski-steam-personal-calendar-launch-discovery"
-      ],
-      "operators_added": [
-        "chris-zukowski"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

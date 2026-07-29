@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 02:08:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 01:50:28 GMT</lastBuildDate>
+    <item>
+      <title>AEO as brand channel, and agentic safety from two angles: four cards from three sources</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-29/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-29/</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three sources published in the last seven days. Kevin Indig&apos;s July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick&apos;s July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison&apos;s July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.</description>
+    </item>
     <item>
       <title>Agent security architecture and the open-weight coalition: three cards from two sources</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-28/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-27/</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-26</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-26/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-26/</guid>
-      <pubDate>Fri, 26 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, one new operator, no new patterns. Two themes from the week of June 22-26. AI infrastructure pricing splits between commoditized rails and outcome-based software. A Valve algorithm change quietly reshuffled indie game pre-launch discovery.</description>
     </item>
   </channel>
 </rss>

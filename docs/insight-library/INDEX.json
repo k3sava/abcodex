@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-07-28T02:08:00.952Z",
+  "generated_at": "2026-07-29T01:50:24.931Z",
   "counts": {
-    "insights": 983,
+    "insights": 987,
     "operators": 506,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 59
+    "daily": 60
   },
   "latest_daily": {
-    "path": "daily/2026-07-28.md",
-    "date": "2026-07-28",
-    "title": "Agent security architecture and the open-weight coalition: three cards from two sources",
-    "summary": "Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.",
+    "path": "daily/2026-07-29.md",
+    "date": "2026-07-29",
+    "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
+    "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
     "sources": [],
     "insights_added": [
-      "ins_credential-injection-proxy",
-      "ins_auto-mode-context-classifier",
-      "ins_mccormick-open-weight-coalition"
+      "ins_indig-brand-trust-overrides-ai-rank",
+      "ins_indig-gsc-attribution-gap",
+      "ins_mollick-agentic-external-injection",
+      "ins_willison-open-model-defense-asymmetry"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -10452,6 +10453,38 @@
       "title": "Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis"
     },
     {
+      "path": "insights/ins_indig-brand-trust-overrides-ai-rank.md",
+      "id": "ins_indig-brand-trust-overrides-ai-rank",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and SEO researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/ai-halftime-report-h1-2026",
+      "source_type": "research",
+      "source_title": "AI Halftime Report: H1 2026",
+      "source_date": "2026-07-27",
+      "captured_date": "2026-07-29",
+      "domain": [
+        "aeo-llm-search",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "strategy",
+        "attribution"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-engine-fragmentation",
+        "ins_indig-algorithm-visibility-rental"
+      ],
+      "raw_ref": "",
+      "title": "In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist"
+    },
+    {
       "path": "insights/ins_indig-engine-fragmentation.md",
       "id": "ins_indig-engine-fragmentation",
       "operator": "Kevin Indig",
@@ -10483,6 +10516,39 @@
       ],
       "raw_ref": "",
       "title": "Only 2.37 percent of URLs cited by AI search engines appear across all three major platforms; 91 percent live in exactly one"
+    },
+    {
+      "path": "insights/ins_indig-gsc-attribution-gap.md",
+      "id": "ins_indig-gsc-attribution-gap",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and SEO researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/ai-halftime-report-h1-2026",
+      "source_type": "research",
+      "source_title": "AI Halftime Report: H1 2026",
+      "source_date": "2026-07-27",
+      "captured_date": "2026-07-29",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "attribution",
+        "measurement-experimentation",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-engine-fragmentation",
+        "ins_indig-seo-aio-decoupling",
+        "ins_indig-algorithm-visibility-rental"
+      ],
+      "raw_ref": "",
+      "title": "Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure"
     },
     {
       "path": "insights/ins_indig-pricing-page-agent-fallback.md",
@@ -14891,6 +14957,38 @@
       ],
       "raw_ref": "",
       "title": "Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts"
+    },
+    {
+      "path": "insights/ins_mollick-agentic-external-injection.md",
+      "id": "ins_mollick-agentic-external-injection",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "source_type": "essay",
+      "source_title": "An opinionated guide to which AI to use to do stuff (Summer 2026 Edition)",
+      "source_date": "2026-07-23",
+      "captured_date": "2026-07-29",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer",
+        "ins_mollick-patron-not-wizard",
+        "ins_willison-prompt-injection-role-confusion",
+        "ins_willison-web-fetch-chained-exfiltration"
+      ],
+      "raw_ref": "",
+      "title": "Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring"
     },
     {
       "path": "insights/ins_mollick-co-existence-phase-shift.md",
@@ -26626,6 +26724,38 @@
       ],
       "raw_ref": "",
       "title": "Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation"
+    },
+    {
+      "path": "insights/ins_willison-open-model-defense-asymmetry.md",
+      "id": "ins_willison-open-model-defense-asymmetry",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; software engineer and AI blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/",
+      "source_type": "essay",
+      "source_title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "source_date": "2026-07-28",
+      "captured_date": "2026-07-29",
+      "domain": [
+        "agent-frameworks",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-ai-sandbox-escape",
+        "ins_willison-defensive-security-export-controls",
+        "ins_wasm-sandbox-agent-code-execution"
+      ],
+      "raw_ref": "",
+      "title": "Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads"
     },
     {
       "path": "insights/ins_willison-prompt-injection-role-confusion.md",
@@ -42628,6 +42758,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-29.md",
+      "date": "2026-07-29",
+      "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
+      "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-brand-trust-overrides-ai-rank",
+        "ins_indig-gsc-attribution-gap",
+        "ins_mollick-agentic-external-injection",
+        "ins_willison-open-model-defense-asymmetry"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-28.md",
       "date": "2026-07-28",
