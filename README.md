@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-07-28 · 3 insights
+### Latest · 2026-07-29 · 4 insights
 
-**Agent security architecture and the open-weight coalition: three cards from two sources.** Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.
+**AEO as brand channel, and agentic safety from two angles: four cards from three sources.** Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.
 
-[Read what landed →](insight-library/daily/2026-07-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-07-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **983** insight cards
+- **987** insight cards
 - **506** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

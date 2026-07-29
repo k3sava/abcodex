@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 983 insight cards
+- 987 insight cards
 - 506 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -357,7 +357,7 @@ _Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (562)
+### Tier B (566)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -584,6 +584,8 @@ _Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
+- [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
+- [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
@@ -667,6 +669,7 @@ _Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mlx-jaccl-cluster-inference`](insights/ins_mlx-jaccl-cluster-inference.md) — Linking Apple Silicon Macs over Thunderbolt 5 with JACCL achieves 3x LLM inference speed and enables trillion-parameter local inference _(Angelos Katharopoulos)_
 - [`ins_mollick-14h-agent-run-cost`](insights/ins_mollick-14h-agent-run-cost.md) — A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs _(Ethan Mollick)_
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
+- [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
@@ -903,6 +906,7 @@ _Generated 2026-07-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
+- [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
