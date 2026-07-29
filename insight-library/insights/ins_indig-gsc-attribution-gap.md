@@ -38,7 +38,7 @@ Indig's H1 2026 analysis synthesized measurement data across the industry:
 
 His recommended replacement protocol treats AI visibility like brand tracking rather than rank tracking: repeated prompt sampling across a representative query set (analogous to polling), citation audits at monthly intervals, and monitoring sentiment of AI-generated mentions rather than counting citations alone.
 
-The Conde Nast CEO Roger Lynch's statement in H1 2026 captures the strategic implication Indig documents: "Assume there's no search. You have to have your businesses planned as if search is zero."
+The Conde Nast CEO Roger Lynch's statement in H1 2026 names the downstream implication Indig documents: "Assume there's no search. You have to have your businesses planned as if search is zero."
 
 ## Signals
 - GSC impressions for a content category decline while brand search volume and direct traffic hold steady, suggesting AI-layer cannibalization with no GSC record.
