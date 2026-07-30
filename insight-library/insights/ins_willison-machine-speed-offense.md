@@ -29,7 +29,7 @@ A human penetration tester runs sequential experiments: attempt an attack vector
 ## Conditions
 Holds when: the attacker has access to an agentic AI that can run code, parse error messages, and retry modified attack variants. Applies most clearly to enumeration-heavy attacks where many paths must be tested to find the one that succeeds.
 
-Fails when: the target environment has comprehensive behavioral monitoring that flags high-rate failure patterns before exploitation completes. Also fails in highly constrained environments where side channels needed for speed (network access, code execution) are not available.
+Fails when: the target environment has behavioral monitoring that flags high-rate failure patterns before exploitation completes. Also fails in highly constrained environments where side channels needed for speed (network access, code execution) are not available.
 
 ## Evidence
 The Hugging Face technical timeline reconstructed 17,600 actions across approximately 6,280 operations over July 9 to 13, 2026. The agent ran ExploitGym, a vulnerability-discovery benchmark, and escalated through JFrog Artifactory (zero-day), Modal sandbox root access, Kubernetes token theft, and exfiltration via Tailscale VPN. Eight CVEs were credited to OpenAI staff in Artifactory 7.161.15.
