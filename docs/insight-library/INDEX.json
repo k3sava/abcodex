@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-29T01:50:24.931Z",
+  "generated_at": "2026-07-30T01:57:43.106Z",
   "counts": {
-    "insights": 987,
+    "insights": 991,
     "operators": 506,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 60
+    "daily": 61
   },
   "latest_daily": {
-    "path": "daily/2026-07-29.md",
-    "date": "2026-07-29",
-    "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
-    "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
+    "path": "daily/2026-07-30.md",
+    "date": "2026-07-30",
+    "title": "Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources",
+    "summary": "Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.",
     "sources": [],
     "insights_added": [
-      "ins_indig-brand-trust-overrides-ai-rank",
-      "ins_indig-gsc-attribution-gap",
-      "ins_mollick-agentic-external-injection",
-      "ins_willison-open-model-defense-asymmetry"
+      "ins_tunguz-harness-benchmark-delta",
+      "ins_tunguz-moe-sparse-cost-collapse",
+      "ins_willison-machine-speed-offense",
+      "ins_willison-document-worm-copilot"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -24936,6 +24936,37 @@
       "title": "The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat"
     },
     {
+      "path": "insights/ins_tunguz-harness-benchmark-delta.md",
+      "id": "ins_tunguz-harness-benchmark-delta",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/aftermarket-harnesses",
+      "source_type": "essay",
+      "source_title": "Aftermarket Harnesses",
+      "source_date": "2026-07-28",
+      "captured_date": "2026-07-30",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-three-disciplines",
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_swyx-meta-harness-convergence"
+      ],
+      "raw_ref": "",
+      "title": "The AI harness now moves coding benchmarks more than the model does"
+    },
+    {
       "path": "insights/ins_tunguz-harness-three-disciplines.md",
       "id": "ins_tunguz-harness-three-disciplines",
       "operator": "Tomasz Tunguz",
@@ -25109,6 +25140,36 @@
       ],
       "raw_ref": "",
       "title": "Model substitution savings are reinvested in more tokens, not returned to the budget"
+    },
+    {
+      "path": "insights/ins_tunguz-moe-sparse-cost-collapse.md",
+      "id": "ins_tunguz-moe-sparse-cost-collapse",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/yeltsin-in-the-ai-aisle/",
+      "source_type": "essay",
+      "source_title": "Yeltsin in the AI Aisle",
+      "source_date": "2026-07-23",
+      "captured_date": "2026-07-30",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-benchmark-agent-decoupling",
+        "ins_tunguz-harness-benchmark-delta"
+      ],
+      "raw_ref": "",
+      "title": "Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost"
     },
     {
       "path": "insights/ins_tunguz-ollama-docker-for-ai.md",
@@ -26515,6 +26576,36 @@
       "title": "AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow"
     },
     {
+      "path": "insights/ins_willison-document-worm-copilot.md",
+      "id": "ins_willison-document-worm-copilot",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/",
+      "source_type": "post",
+      "source_title": "AI Worming Through Word",
+      "source_date": "2026-07-29",
+      "captured_date": "2026-07-30",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-open-model-defense-asymmetry",
+        "ins_mollick-agentic-external-injection"
+      ],
+      "raw_ref": "",
+      "title": "Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement"
+    },
+    {
       "path": "insights/ins_willison-fable-relentlessly-proactive.md",
       "id": "ins_willison-fable-relentlessly-proactive",
       "operator": "Simon Willison",
@@ -26724,6 +26815,36 @@
       ],
       "raw_ref": "",
       "title": "Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation"
+    },
+    {
+      "path": "insights/ins_willison-machine-speed-offense.md",
+      "id": "ins_willison-machine-speed-offense",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/",
+      "source_type": "post",
+      "source_title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "source_date": "2026-07-28",
+      "captured_date": "2026-07-30",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-open-model-defense-asymmetry",
+        "ins_mollick-agentic-external-injection"
+      ],
+      "raw_ref": "",
+      "title": "AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery"
     },
     {
       "path": "insights/ins_willison-open-model-defense-asymmetry.md",
@@ -42758,6 +42879,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-30.md",
+      "date": "2026-07-30",
+      "title": "Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources",
+      "summary": "Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-harness-benchmark-delta",
+        "ins_tunguz-moe-sparse-cost-collapse",
+        "ins_willison-machine-speed-offense",
+        "ins_willison-document-worm-copilot"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-29.md",
       "date": "2026-07-29",

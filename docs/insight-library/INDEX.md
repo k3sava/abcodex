@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 987 insight cards
+- 991 insight cards
 - 506 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -357,7 +357,7 @@ _Generated 2026-07-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 
-### Tier B (566)
+### Tier B (570)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -857,12 +857,14 @@ _Generated 2026-07-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
+- [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
@@ -900,12 +902,14 @@ _Generated 2026-07-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
+- [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
+- [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 01:50:28 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 01:57:46 GMT</lastBuildDate>
+    <item>
+      <title>Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-30/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-30/</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.</description>
+    </item>
     <item>
       <title>AEO as brand channel, and agentic safety from two angles: four cards from three sources</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-29/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-28/</guid>
       <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-27</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-27/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-27/</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, no new operators, no new patterns. Two themes from June 22-27. AI inference economics splits by latency tier and moat timing. Prompt injection gets a structural explanation that reframes why text-level defenses keep failing.</description>
     </item>
   </channel>
 </rss>
