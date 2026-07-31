@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-07-30T01:57:43.106Z",
+  "generated_at": "2026-07-31T02:08:40.818Z",
   "counts": {
-    "insights": 991,
+    "insights": 994,
     "operators": 506,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 61
+    "daily": 62
   },
   "latest_daily": {
-    "path": "daily/2026-07-30.md",
-    "date": "2026-07-30",
-    "title": "Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources",
-    "summary": "Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.",
+    "path": "daily/2026-07-31.md",
+    "date": "2026-07-31",
+    "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
+    "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-harness-benchmark-delta",
-      "ins_tunguz-moe-sparse-cost-collapse",
-      "ins_willison-machine-speed-offense",
-      "ins_willison-document-worm-copilot"
+      "ins_tunguz-model-chip-ownership-premium",
+      "ins_shipper-front-brief-autonomous-run",
+      "ins_zukowski-friendslop-demand-cycle"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21060,6 +21059,37 @@
       "title": "Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment"
     },
     {
+      "path": "insights/ins_shipper-front-brief-autonomous-run.md",
+      "id": "ins_shipper-front-brief-autonomous-run",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/taming-opus-5",
+      "source_type": "essay",
+      "source_title": "Taming Opus 5",
+      "source_date": "2026-07-28",
+      "captured_date": "2026-07-31",
+      "domain": [
+        "ai-native",
+        "prompt-context-and-evals"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-opus5-scaffolding-reset",
+        "ins_mollick-commission-not-steer",
+        "ins_horthy-trajectory-poisoning-reset"
+      ],
+      "raw_ref": "",
+      "title": "Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state"
+    },
+    {
       "path": "insights/ins_shipper-opus5-scaffolding-reset.md",
       "id": "ins_shipper-opus5-scaffolding-reset",
       "operator": "Dan Shipper",
@@ -25112,6 +25142,36 @@
       "title": "Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device"
     },
     {
+      "path": "insights/ins_tunguz-model-chip-ownership-premium.md",
+      "id": "ins_tunguz-model-chip-ownership-premium",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/microsoft-resells-the-frontier/",
+      "source_type": "essay",
+      "source_title": "Microsoft Resells the Frontier",
+      "source_date": "2026-07-29",
+      "captured_date": "2026-07-31",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-moe-sparse-cost-collapse",
+        "ins_tunguz-harness-benchmark-delta",
+        "ins_tunguz-compute-cost-inversion"
+      ],
+      "raw_ref": "",
+      "title": "Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach"
+    },
+    {
       "path": "insights/ins_tunguz-model-substitution-reinvestment.md",
       "id": "ins_tunguz-model-substitution-reinvestment",
       "operator": "Tomasz Tunguz",
@@ -27521,6 +27581,36 @@
       ],
       "raw_ref": "",
       "title": "A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting"
+    },
+    {
+      "path": "insights/ins_zukowski-friendslop-demand-cycle.md",
+      "id": "ins_zukowski-friendslop-demand-cycle",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/07/30/is-friendslop-saturated/",
+      "source_type": "essay",
+      "source_title": "Is Friendslop saturated?",
+      "source_date": "2026-07-30",
+      "captured_date": "2026-07-31",
+      "domain": [
+        "game-publishing",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_zukowski-overexposure-impossible",
+        "ins_zukowski-nextfest-momentum-beats-base"
+      ],
+      "raw_ref": "",
+      "title": "Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle"
     },
     {
       "path": "insights/ins_zukowski-nextfest-momentum-beats-base.md",
@@ -42879,6 +42969,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-07-31.md",
+      "date": "2026-07-31",
+      "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
+      "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-model-chip-ownership-premium",
+        "ins_shipper-front-brief-autonomous-run",
+        "ins_zukowski-friendslop-demand-cycle"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-30.md",
       "date": "2026-07-30",

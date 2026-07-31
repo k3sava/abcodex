@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-07-31. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 991 insight cards
+- 994 insight cards
 - 506 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (343)
+### Tier A (344)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -356,8 +356,9 @@ _Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zappos-rotation-through-support`](insights/ins_zappos-rotation-through-support.md) — Every new hire, including the CFO, does four weeks on the customer phones _(Tony Hsieh)_
 - [`ins_zero-click-marketing`](insights/ins_zero-click-marketing.md) — 58.5% of US Google searches end without a click, create standalone value where audiences already are _(Rand Fishkin)_
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
+- [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (570)
+### Tier B (572)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -790,6 +791,7 @@ _Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
+- [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
 - [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
@@ -863,6 +865,7 @@ _Generated 2026-07-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
+- [`ins_tunguz-model-chip-ownership-premium`](insights/ins_tunguz-model-chip-ownership-premium.md) — Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_

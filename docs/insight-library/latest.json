@@ -1,16 +1,15 @@
 {
-  "generated_at": "2026-07-30T01:57:43.143Z",
+  "generated_at": "2026-07-31T02:08:40.841Z",
   "latest_daily": {
-    "path": "daily/2026-07-30.md",
-    "date": "2026-07-30",
-    "title": "Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources",
-    "summary": "Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.",
+    "path": "daily/2026-07-31.md",
+    "date": "2026-07-31",
+    "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
+    "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-harness-benchmark-delta",
-      "ins_tunguz-moe-sparse-cost-collapse",
-      "ins_willison-machine-speed-offense",
-      "ins_willison-document-worm-copilot"
+      "ins_tunguz-model-chip-ownership-premium",
+      "ins_shipper-front-brief-autonomous-run",
+      "ins_zukowski-friendslop-demand-cycle"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -18,6 +17,22 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-07-31.md",
+      "date": "2026-07-31",
+      "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
+      "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-model-chip-ownership-premium",
+        "ins_shipper-front-brief-autonomous-run",
+        "ins_zukowski-friendslop-demand-cycle"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-30.md",
       "date": "2026-07-30",
@@ -535,24 +550,6 @@
         "joe-hudson",
         "jason-cohen"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-28.md",
-      "date": "2026-06-28",
-      "title": "What landed today, 2026-06-28",
-      "summary": "Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.",
-      "sources": [
-        "morning research scan 2026-06-28"
-      ],
-      "insights_added": [
-        "ins_indig-ai-substitution-positioning-harm",
-        "ins_ronacher-harness-loop-comprehension-cost",
-        "ins_swyx-meta-harness-convergence"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
