@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Jul 2026 01:57:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 02:04:57 GMT</lastBuildDate>
+    <item>
+      <title>Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators</title>
+      <link>https://abcodex.iamkesava.com/today/2026-07-31/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-31/</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure&apos;s growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every&apos;s Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model&apos;s planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.</description>
+    </item>
     <item>
       <title>Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-30/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-29/</guid>
       <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
       <description>Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-28</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-28/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-28/</guid>
-      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards, no new operators, no new patterns. Two themes from June 22-25. AI positioning built on substitution messaging erodes the trust of the workers it needs. And at the infrastructure level, agent harness loops are producing a quality problem as they scale, while the architecture that contains them is converging independently at thousands of shops.</description>
     </item>
   </channel>
 </rss>
