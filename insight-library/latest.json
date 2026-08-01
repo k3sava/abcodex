@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-31T02:08:40.841Z",
+  "generated_at": "2026-08-01T02:02:22.878Z",
   "latest_daily": {
-    "path": "daily/2026-07-31.md",
-    "date": "2026-07-31",
-    "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
-    "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
+    "path": "daily/2026-08-01.md",
+    "date": "2026-08-01",
+    "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
+    "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-model-chip-ownership-premium",
-      "ins_shipper-front-brief-autonomous-run",
-      "ins_zukowski-friendslop-demand-cycle"
+      "ins_willison-stateless-mcp",
+      "ins_willison-eval-containment-gap",
+      "ins_indig-ai-mode-query-length"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +17,22 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-01.md",
+      "date": "2026-08-01",
+      "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
+      "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
+      "sources": [],
+      "insights_added": [
+        "ins_willison-stateless-mcp",
+        "ins_willison-eval-containment-gap",
+        "ins_indig-ai-mode-query-length"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-31.md",
       "date": "2026-07-31",
@@ -529,26 +545,6 @@
       "operators_added": [
         "drew-johnston",
         "david-holtz"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-29.md",
-      "date": "2026-06-29",
-      "title": "What landed today, 2026-06-29",
-      "summary": "Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.",
-      "sources": [
-        "morning research scan 2026-06-29"
-      ],
-      "insights_added": [
-        "ins_hudson-emotional-clarity-ai-advantage",
-        "ins_cohen-rice-confidence-framework-noise"
-      ],
-      "operators_added": [
-        "joe-hudson",
-        "jason-cohen"
       ],
       "patterns_added": [],
       "playbooks_added": [],
