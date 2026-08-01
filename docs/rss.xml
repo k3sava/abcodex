@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2026 02:08:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 02:02:26 GMT</lastBuildDate>
+    <item>
+      <title>Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-01/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-01/</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Simon Willison yields two: MCP 2.0&apos;s stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.</description>
+    </item>
     <item>
       <title>Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators</title>
       <link>https://abcodex.iamkesava.com/today/2026-07-31/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-30/</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.</description>
-    </item>
-    <item>
-      <title>What landed today, 2026-06-29</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-29/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-29/</guid>
-      <pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Two new cards, two new operators, no new patterns. A thin but honest scan. Three prior daily runs captured most of the June 22-28 window. What remained: Joe Hudson on emotional clarity as the scarce advantage in the AI era, and Jason Cohen on why RICE-style confidence scoring is structurally broken.</description>
     </item>
   </channel>
 </rss>

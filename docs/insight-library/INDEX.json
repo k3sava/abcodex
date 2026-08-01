@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-31T02:08:40.818Z",
+  "generated_at": "2026-08-01T02:02:22.803Z",
   "counts": {
-    "insights": 994,
+    "insights": 997,
     "operators": 506,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 62
+    "daily": 63
   },
   "latest_daily": {
-    "path": "daily/2026-07-31.md",
-    "date": "2026-07-31",
-    "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
-    "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
+    "path": "daily/2026-08-01.md",
+    "date": "2026-08-01",
+    "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
+    "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-model-chip-ownership-premium",
-      "ins_shipper-front-brief-autonomous-run",
-      "ins_zukowski-friendslop-demand-cycle"
+      "ins_willison-stateless-mcp",
+      "ins_willison-eval-containment-gap",
+      "ins_indig-ai-mode-query-length"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -10326,6 +10326,39 @@
       ],
       "raw_ref": "raw/expert-content/experts/charlie-munger.md",
       "title": "When behavior puzzles you, look at incentives, that's where every other model is downstream of"
+    },
+    {
+      "path": "insights/ins_indig-ai-mode-query-length.md",
+      "id": "ins_indig-ai-mode-query-length",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and SEO researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/ai-halftime-report-h1-2026",
+      "source_type": "research",
+      "source_title": "AI Halftime Report: H1 2026",
+      "source_date": "2026-07-27",
+      "captured_date": "2026-08-01",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "content"
+      ],
+      "lifecycle": [
+        "aeo",
+        "content-strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-brand-trust-overrides-ai-rank",
+        "ins_indig-gsc-attribution-gap",
+        "ins_indig-seo-aio-decoupling",
+        "ins_indig-ai-search-category-ownership"
+      ],
+      "raw_ref": "",
+      "title": "AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search"
     },
     {
       "path": "insights/ins_indig-ai-search-category-ownership.md",
@@ -26666,6 +26699,36 @@
       "title": "Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement"
     },
     {
+      "path": "insights/ins_willison-eval-containment-gap.md",
+      "id": "ins_willison-eval-containment-gap",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; software engineer and AI blogger",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "essay",
+      "source_title": "Anthropic's evaluation environment exposed PyPI to a Claude model's outputs",
+      "source_date": "2026-07-30",
+      "captured_date": "2026-08-01",
+      "domain": [
+        "agent-frameworks",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-ai-sandbox-escape",
+        "ins_weng-self-improvement-eval-isolation",
+        "ins_wasm-sandbox-agent-code-execution"
+      ],
+      "raw_ref": "",
+      "title": "An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal"
+    },
+    {
       "path": "insights/ins_willison-fable-relentlessly-proactive.md",
       "id": "ins_willison-fable-relentlessly-proactive",
       "operator": "Simon Willison",
@@ -27050,6 +27113,36 @@
       ],
       "raw_ref": "",
       "title": "A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat"
+    },
+    {
+      "path": "insights/ins_willison-stateless-mcp.md",
+      "id": "ins_willison-stateless-mcp",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; software engineer and AI blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "source_type": "essay",
+      "source_title": "Stateless MCP has recaptured my interest",
+      "source_date": "2026-07-31",
+      "captured_date": "2026-08-01",
+      "domain": [
+        "agent-frameworks",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-linting-as-agent-repair-input",
+        "ins_willison-llm-relay-market",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access"
     },
     {
       "path": "insights/ins_willison-web-fetch-chained-exfiltration.md",
@@ -42969,6 +43062,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-01.md",
+      "date": "2026-08-01",
+      "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
+      "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
+      "sources": [],
+      "insights_added": [
+        "ins_willison-stateless-mcp",
+        "ins_willison-eval-containment-gap",
+        "ins_indig-ai-mode-query-length"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-07-31.md",
       "date": "2026-07-31",
