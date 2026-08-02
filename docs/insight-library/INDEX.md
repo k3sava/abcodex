@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 997 insight cards
-- 506 operator profiles
+- 1002 insight cards
+- 507 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -358,7 +358,7 @@ _Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (575)
+### Tier B (580)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -674,6 +674,7 @@ _Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
+- [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
@@ -861,6 +862,7 @@ _Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
@@ -893,6 +895,9 @@ _Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_what-happened-when-stopped-fighting`](insights/ins_what-happened-when-stopped-fighting.md) — This is what happened when we stopped fighting how LLMs think _(Rabi Shanker Guha)_
 - [`ins_when-understood-sales-training-just`](insights/ins_when-understood-sales-training-just.md) — That's when I understood that sales training is just 10% of the equation _(Akshaya Sampath)_
 - [`ins_when-was-laid-off-here`](insights/ins_when-was-laid-off-here.md) — When I was laid off here is what I did to find a job in 15 days _(Sandeep Kochhar)_
+- [`ins_whitman-ai-subscription-churn-paradox`](insights/ins_whitman-ai-subscription-churn-paradox.md) — AI subscription apps earn 41% more Year 1 LTV but monthly plans churn 36% faster; novelty drives acquisition while durable utility drives retention _(Lorelei Whitman)_
+- [`ins_whitman-day-zero-trial-abandonment`](insights/ins_whitman-day-zero-trial-abandonment.md) — 55 percent of 3-day trial cancellations happen on Day 0; if onboarding fails to prove value immediately, the trial is already over _(Lorelei Whitman)_
+- [`ins_whitman-hard-paywall-conversion-lift`](insights/ins_whitman-hard-paywall-conversion-lift.md) — Hard paywalls convert five times better than freemium at Day 35 and generate eight times more revenue per install at Day 60 _(Lorelei Whitman)_
 - [`ins_why-change-statements-precede-capability`](insights/ins_why-change-statements-precede-capability.md) — 60% of users get new apps without a "why it helps", fix that before any capability rollout _(Gartner)_
 - [`ins_why-does-product-matter-should`](insights/ins_why-does-product-matter-should.md) — Why does your product matter should come through data. Your ability to frame your work _(Mariana Antaya)_
 - [`ins_why-generic-hits-ceiling-here`](insights/ins_why-generic-hits-ceiling-here.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Collin Mayjack)_
@@ -1310,6 +1315,7 @@ _Generated 2026-08-01. Auto-built from frontmatter — do not edit by hand._
 - [Linde Hasker](operators/linde-hasker/README.md)
 - [Liza Adams](operators/liza-adams/README.md)
 - [Lola Han](operators/lola-han/README.md)
+- [Lorelei Whitman](operators/lorelei-whitman/README.md)
 - [Maddy Hirshan](operators/maddy-hirshan/README.md)
 - [Madeleine Work](operators/madeleine-work/README.md)
 - [Madhav Bhandari](operators/madhav-bhandari/README.md)
