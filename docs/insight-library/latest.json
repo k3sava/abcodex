@@ -1,22 +1,46 @@
 {
-  "generated_at": "2026-08-01T02:02:22.878Z",
+  "generated_at": "2026-08-02T02:07:15.439Z",
   "latest_daily": {
-    "path": "daily/2026-08-01.md",
-    "date": "2026-08-01",
-    "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
-    "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
+    "path": "daily/2026-08-02.md",
+    "date": "2026-08-02",
+    "title": "Harness engineering beats model selection; AI subscription apps face a retention crisis",
+    "summary": "Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.",
     "sources": [],
     "insights_added": [
-      "ins_willison-stateless-mcp",
-      "ins_willison-eval-containment-gap",
-      "ins_indig-ai-mode-query-length"
+      "ins_tunguz-harness-benchmark-lift",
+      "ins_mollick-delegation-over-prompting",
+      "ins_whitman-ai-subscription-churn-paradox",
+      "ins_whitman-hard-paywall-conversion-lift",
+      "ins_whitman-day-zero-trial-abandonment"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "lorelei-whitman"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-02.md",
+      "date": "2026-08-02",
+      "title": "Harness engineering beats model selection; AI subscription apps face a retention crisis",
+      "summary": "Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-harness-benchmark-lift",
+        "ins_mollick-delegation-over-prompting",
+        "ins_whitman-ai-subscription-churn-paradox",
+        "ins_whitman-hard-paywall-conversion-lift",
+        "ins_whitman-day-zero-trial-abandonment"
+      ],
+      "operators_added": [
+        "lorelei-whitman"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-01.md",
       "date": "2026-08-01",
@@ -526,25 +550,6 @@
       ],
       "operators_added": [
         "zoe-hitzig"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-06-30.md",
-      "date": "2026-06-30",
-      "title": "AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering",
-      "summary": "Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.",
-      "sources": [],
-      "insights_added": [
-        "ins_fishkin-ai-mention-direct-visit-lift",
-        "ins_tunguz-compute-cost-inversion",
-        "ins_johnston-holtz-agentic-skills-diffusion"
-      ],
-      "operators_added": [
-        "drew-johnston",
-        "david-holtz"
       ],
       "patterns_added": [],
       "playbooks_added": [],

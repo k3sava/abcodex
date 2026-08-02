@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Aug 2026 02:02:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 02:07:20 GMT</lastBuildDate>
+    <item>
+      <title>Harness engineering beats model selection; AI subscription apps face a retention crisis</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-02/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-02/</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat&apos;s 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.</description>
+    </item>
     <item>
       <title>Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-01/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-01/</guid>
       <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.</description>
-    </item>
-    <item>
-      <title>AI attribution shifts, compute cost inversions, and agentic diffusion beyond engineering</title>
-      <link>https://abcodex.iamkesava.com/today/2026-06-30/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-06-30/</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from June 29-30, 2026. AI brand mentions drive direct traffic lift. AI-native cost structures invert traditional SaaS ratios. Agentic tools spread into legal and research when skills-sharing lowers the adoption floor.</description>
     </item>
   </channel>
 </rss>
