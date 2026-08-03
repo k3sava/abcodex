@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Aug 2026 02:07:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 01:56:29 GMT</lastBuildDate>
+    <item>
+      <title>AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-03/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-03/</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.</description>
+    </item>
     <item>
       <title>Harness engineering beats model selection; AI subscription apps face a retention crisis</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-02/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-02/</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.</description>
-    </item>
-    <item>
-      <title>Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-01/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-01/</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.</description>
     </item>
   </channel>
 </rss>
