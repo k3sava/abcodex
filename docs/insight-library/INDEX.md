@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1002 insight cards
-- 507 operator profiles
+- 1005 insight cards
+- 508 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -358,7 +358,7 @@ _Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (580)
+### Tier B (583)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -562,6 +562,7 @@ _Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_harland-ideas-need-to-simmer`](insights/ins_harland-ideas-need-to-simmer.md) — Ideas need to simmer, walking away from a draft and returning later is necessary for critical editing, not optional _(Dave Harland)_
 - [`ins_harshit-jain-developer-marketers-rare-breed`](insights/ins_harshit-jain-developer-marketers-rare-breed.md) — Technical PMM is the rare hire that lets you market to engineers, without translation loss _(Harshit Jain)_
 - [`ins_has-never-felt-closer-real`](insights/ins_has-never-felt-closer-real.md) — AI has never felt closer to a real employee _(Dan Rosenthal)_
+- [`ins_hashimoto-terminal-as-agent-coordination-layer`](insights/ins_hashimoto-terminal-as-agent-coordination-layer.md) — Current terminal multiplexers fail by duplicating state client-to-server; a stateful session per task lets humans and AI agents share the same work context asynchronously _(Mitchell Hashimoto)_
 - [`ins_hate-when-boss-asks-why`](insights/ins_hate-when-boss-asks-why.md) — - They hate when the boss asks why a tiny edit took seventeen minutes, but will take a _(Divyank Jain)_
 - [`ins_heer-chheda-self-advocacy-as-privilege`](insights/ins_heer-chheda-self-advocacy-as-privilege.md) — Self-advocacy at work is a privilege, not a universal right _(Heer Chheda)_
 - [`ins_help-coaches-founders-turn-linkedin`](insights/ins_help-coaches-founders-turn-linkedin.md) — I help coaches and founders turn LinkedIn into their #1 client-acquisition channel | st _(Ryan Woodley Mitchell)_
@@ -584,6 +585,7 @@ _Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-mode-query-length`](insights/ins_indig-ai-mode-query-length.md) — AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search _(Kevin Indig)_
 - [`ins_indig-ai-search-category-ownership`](insights/ins_indig-ai-search-category-ownership.md) — AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time _(Kevin Indig)_
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
+- [`ins_indig-ai-washing-in-layoffs`](insights/ins_indig-ai-washing-in-layoffs.md) — AI-cited layoffs are mostly a cover story for pandemic overhiring and capital cycle corrections, not evidence of automation-driven job displacement _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
@@ -623,6 +625,7 @@ _Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_lead-major-repositioning-pivots-over`](insights/ins_lead-major-repositioning-pivots-over.md) — Commit positioning at the same time as the product pivot, not after the launch date _(James Doman-Pipe)_
 - [`ins_leah-knobler-customer-stories-at-center`](insights/ins_leah-knobler-customer-stories-at-center.md) — If you ask candidates to do work, pay them, that's the recruiting hot take _(Leah Knobler)_
 - [`ins_lemkin-seat-model-collapse`](insights/ins_lemkin-seat-model-collapse.md) — AI agents eliminate the seat-expansion tailwind, sending sub-5% SaaS companies into terminal structural decline _(Jason Lemkin)_
+- [`ins_levels-saas-build-not-buy-flip`](insights/ins_levels-saas-build-not-buy-flip.md) — Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators _(Pieter Levels)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_lily-ray-self-promo-recommendation-exclusion`](insights/ins_lily-ray-self-promo-recommendation-exclusion.md) — A brand's self-promotional "best of" listicle gets cited by AI Overviews 74% of the time but excluded from the recommendation 69% of the time _(Lily Ray)_
@@ -1356,6 +1359,7 @@ _Generated 2026-08-02. Auto-built from frontmatter — do not edit by hand._
 - [Mike Krieger](operators/mike-krieger/README.md)
 - [Mike Michalowicz](operators/mike-michalowicz/README.md)
 - [Mina ..](operators/mina/README.md)
+- [Mitchell Hashimoto](operators/mitchell-hashimoto/README.md)
 - [Momoko Price](operators/momoko-price/README.md)
 - [Morgan Housel](operators/morgan-housel/README.md)
 - [Mridula Joshi](operators/mridula-joshi/README.md)

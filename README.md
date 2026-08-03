@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-02 · 5 insights · 1 operator
+### Latest · 2026-08-03 · 3 insights · 1 operator
 
-**Harness engineering beats model selection; AI subscription apps face a retention crisis.** Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.
+**AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation.** Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.
 
-[Read what landed →](insight-library/daily/2026-08-02.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-03.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1002** insight cards
-- **507** operator profiles
+- **1005** insight cards
+- **508** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 507 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 508 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

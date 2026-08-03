@@ -1,26 +1,42 @@
 {
-  "generated_at": "2026-08-02T02:07:15.439Z",
+  "generated_at": "2026-08-03T01:56:25.081Z",
   "latest_daily": {
-    "path": "daily/2026-08-02.md",
-    "date": "2026-08-02",
-    "title": "Harness engineering beats model selection; AI subscription apps face a retention crisis",
-    "summary": "Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.",
+    "path": "daily/2026-08-03.md",
+    "date": "2026-08-03",
+    "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
+    "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-harness-benchmark-lift",
-      "ins_mollick-delegation-over-prompting",
-      "ins_whitman-ai-subscription-churn-paradox",
-      "ins_whitman-hard-paywall-conversion-lift",
-      "ins_whitman-day-zero-trial-abandonment"
+      "ins_indig-ai-washing-in-layoffs",
+      "ins_hashimoto-terminal-as-agent-coordination-layer",
+      "ins_levels-saas-build-not-buy-flip"
     ],
     "operators_added": [
-      "lorelei-whitman"
+      "mitchell-hashimoto"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-03.md",
+      "date": "2026-08-03",
+      "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
+      "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-ai-washing-in-layoffs",
+        "ins_hashimoto-terminal-as-agent-coordination-layer",
+        "ins_levels-saas-build-not-buy-flip"
+      ],
+      "operators_added": [
+        "mitchell-hashimoto"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-02.md",
       "date": "2026-08-02",
@@ -531,25 +547,6 @@
       ],
       "operators_added": [
         "mark-brown"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-01.md",
-      "date": "2026-07-01",
-      "title": "Domain expertise as the agentic multiplier, long-horizon run economics, and the Sicko theory of Steam demos",
-      "summary": "Four new cards from June 30 and June 16, 2026. Two Mollick cards from his June 30 essay on the post-chatbot era. One Anthropic research card from Hitzig et al. showing cross-occupational coding parity. One Zukowski card on demo conversion mechanics.",
-      "sources": [],
-      "insights_added": [
-        "ins_mollick-agent-era-favors-experts",
-        "ins_mollick-14h-agent-run-cost",
-        "ins_hitzig-domain-expertise-coding-parity",
-        "ins_zukowski-demo-conversion-sickos"
-      ],
-      "operators_added": [
-        "zoe-hitzig"
       ],
       "patterns_added": [],
       "playbooks_added": [],

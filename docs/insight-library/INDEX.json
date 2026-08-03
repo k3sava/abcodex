@@ -1,29 +1,27 @@
 {
-  "generated_at": "2026-08-02T02:07:15.331Z",
+  "generated_at": "2026-08-03T01:56:24.990Z",
   "counts": {
-    "insights": 1002,
-    "operators": 507,
+    "insights": 1005,
+    "operators": 508,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 64
+    "daily": 65
   },
   "latest_daily": {
-    "path": "daily/2026-08-02.md",
-    "date": "2026-08-02",
-    "title": "Harness engineering beats model selection; AI subscription apps face a retention crisis",
-    "summary": "Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.",
+    "path": "daily/2026-08-03.md",
+    "date": "2026-08-03",
+    "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
+    "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-harness-benchmark-lift",
-      "ins_mollick-delegation-over-prompting",
-      "ins_whitman-ai-subscription-churn-paradox",
-      "ins_whitman-hard-paywall-conversion-lift",
-      "ins_whitman-day-zero-trial-abandonment"
+      "ins_indig-ai-washing-in-layoffs",
+      "ins_hashimoto-terminal-as-agent-coordination-layer",
+      "ins_levels-saas-build-not-buy-flip"
     ],
     "operators_added": [
-      "lorelei-whitman"
+      "mitchell-hashimoto"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -9454,6 +9452,34 @@
       "title": "AI has never felt closer to a real employee"
     },
     {
+      "path": "insights/ins_hashimoto-terminal-as-agent-coordination-layer.md",
+      "id": "ins_hashimoto-terminal-as-agent-coordination-layer",
+      "operator": "Mitchell Hashimoto",
+      "operator_role": "Founder and CEO of Superlogical; creator of Ghostty; co-founder of HashiCorp",
+      "co_operators": [],
+      "source_url": "https://mitchellh.com/writing/superlogical",
+      "source_type": "essay",
+      "source_title": "Superlogical",
+      "source_date": "2026-07-29",
+      "captured_date": "2026-08-03",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow-and-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 3, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-benchmark-lift"
+      ],
+      "raw_ref": "",
+      "title": "Current terminal multiplexers fail by duplicating state client-to-server; a stateful session per task lets humans and AI agents share the same work context asynchronously"
+    },
+    {
       "path": "insights/ins_hate-when-boss-asks-why.md",
       "id": "ins_hate-when-boss-asks-why",
       "operator": "Divyank Jain",
@@ -10425,6 +10451,32 @@
       ],
       "raw_ref": "",
       "title": "AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption"
+    },
+    {
+      "path": "insights/ins_indig-ai-washing-in-layoffs.md",
+      "id": "ins_indig-ai-washing-in-layoffs",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; former VP SEO at Shopify; Growth Memo author",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/ai-halftime-report-h1-2026",
+      "source_type": "essay",
+      "source_title": "AI Halftime Report H1 2026",
+      "source_date": "2026-07-27",
+      "captured_date": "2026-08-03",
+      "domain": [
+        "founder-operator",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "strategy-and-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI-cited layoffs are mostly a cover story for pandemic overhiring and capital cycle corrections, not evidence of automation-driven job displacement"
     },
     {
       "path": "insights/ins_indig-algorithm-visibility-rental.md",
@@ -12646,6 +12698,35 @@
       ],
       "raw_ref": "",
       "title": "AI agents eliminate the seat-expansion tailwind, sending sub-5% SaaS companies into terminal structural decline"
+    },
+    {
+      "path": "insights/ins_levels-saas-build-not-buy-flip.md",
+      "id": "ins_levels-saas-build-not-buy-flip",
+      "operator": "Pieter Levels",
+      "operator_role": "Solo founder of Photo AI, Nomad List, Remote OK, and 70+ products",
+      "co_operators": [],
+      "source_url": "https://levels.io/cancelled-saas-subscriptions-vibecoded-ai",
+      "source_type": "essay",
+      "source_title": "I cancelled and then vibecoded 100% of my SaaS subscriptions",
+      "source_date": "2026-07-26",
+      "captured_date": "2026-08-03",
+      "domain": [
+        "founder-operator",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "process-and-operating-cadence",
+        "ai-workflow-and-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ship-fast-charge-day-one"
+      ],
+      "raw_ref": "",
+      "title": "Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators"
     },
     {
       "path": "insights/ins_lily-ray-aeo-seo-continuity.md",
@@ -34089,6 +34170,25 @@
       "title": "Mina .."
     },
     {
+      "path": "operators/mitchell-hashimoto/README.md",
+      "name": "Mitchell Hashimoto",
+      "slug": "mitchell-hashimoto",
+      "roles": [
+        "Founder and CEO of Superlogical",
+        "Creator of Ghostty terminal emulator",
+        "Co-founder of HashiCorp (Vagrant, Terraform, Vault, Consul)"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-08-03",
+      "external": {
+        "website": "https://mitchellh.com/"
+      },
+      "title": "Mitchell Hashimoto"
+    },
+    {
       "path": "operators/momoko-price/README.md",
       "name": "Momoko Price",
       "slug": "momoko-price",
@@ -43229,6 +43329,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-03.md",
+      "date": "2026-08-03",
+      "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
+      "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-ai-washing-in-layoffs",
+        "ins_hashimoto-terminal-as-agent-coordination-layer",
+        "ins_levels-saas-build-not-buy-flip"
+      ],
+      "operators_added": [
+        "mitchell-hashimoto"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-02.md",
       "date": "2026-08-02",
