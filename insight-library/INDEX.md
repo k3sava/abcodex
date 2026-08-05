@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1005 insight cards
-- 508 operator profiles
+- 1008 insight cards
+- 509 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -358,7 +358,7 @@ _Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (583)
+### Tier B (586)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -421,6 +421,7 @@ _Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
@@ -554,6 +555,7 @@ _Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla _(Kevin White)_
 - [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside, build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn't scale formats. It should s _(Kaizad Hansotia)_
+- [`ins_gruhn-meat-proxy-accountability`](insights/ins_gruhn-meat-proxy-accountability.md) — Relaying AI output without reading it lends your organizational identity to unvalidated content and provides near-zero value _(Niklas Gruhn)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
 - [`ins_hamel-eval-is-product-smell`](insights/ins_hamel-eval-is-product-smell.md) — When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology _(Hamel Husain)_
 - [`ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff`](insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md) — The most powerful AI prompts are those that pull from integrated workspace data, not generic queries. _(Hamna Aslam Kahn)_
@@ -589,6 +591,7 @@ _Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
+- [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
@@ -1378,6 +1381,7 @@ _Generated 2026-08-03. Auto-built from frontmatter — do not edit by hand._
 - [Nihal Ahamed M](operators/nihal-ahamed-m/README.md)
 - [Nik Sharma](operators/nik-sharma/README.md)
 - [Nikhil Suresh](operators/nikhil-suresh/README.md)
+- [Niklas Gruhn](operators/niklas-gruhn/README.md)
 - [Nikolai Golos](operators/nikolai-golos/README.md)
 - [Nina Churchill](operators/nina-churchill/README.md)
 - [Nishchal Dua](operators/nishchal-dua/README.md)

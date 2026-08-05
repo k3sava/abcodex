@@ -1,24 +1,42 @@
 {
-  "generated_at": "2026-08-03T01:56:25.081Z",
+  "generated_at": "2026-08-05T02:09:38.055Z",
   "latest_daily": {
-    "path": "daily/2026-08-03.md",
-    "date": "2026-08-03",
-    "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
-    "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
+    "path": "daily/2026-08-05.md",
+    "date": "2026-08-05",
+    "title": "Don't be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics",
+    "summary": "Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.",
     "sources": [],
     "insights_added": [
-      "ins_indig-ai-washing-in-layoffs",
-      "ins_hashimoto-terminal-as-agent-coordination-layer",
-      "ins_levels-saas-build-not-buy-flip"
+      "ins_gruhn-meat-proxy-accountability",
+      "ins_indig-citation-vs-mention-depth-breadth",
+      "ins_ball-orb-sandbox-agent-frequency"
     ],
     "operators_added": [
-      "mitchell-hashimoto"
+      "niklas-gruhn"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-05.md",
+      "date": "2026-08-05",
+      "title": "Don't be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics",
+      "summary": "Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.",
+      "sources": [],
+      "insights_added": [
+        "ins_gruhn-meat-proxy-accountability",
+        "ins_indig-citation-vs-mention-depth-breadth",
+        "ins_ball-orb-sandbox-agent-frequency"
+      ],
+      "operators_added": [
+        "niklas-gruhn"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-03.md",
       "date": "2026-08-03",
@@ -528,25 +546,6 @@
       ],
       "operators_added": [
         "geoffrey-litt"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-02.md",
-      "date": "2026-07-02",
-      "title": "Product design before evals, hidden tokenizer costs, and exponential pace mismatches",
-      "summary": "Four new cards, one new operator. Two cards on signals teams miss until scale forces the issue (eval difficulty as a product smell, tokenizer inflation as a hidden price increase). Two cards on what happens when fast-moving systems outpace the structures meant to govern them.",
-      "sources": [],
-      "insights_added": [
-        "ins_hamel-eval-is-product-smell",
-        "ins_willison-sonnet5-tokenizer-cost",
-        "ins_mollick-institutional-lag-ai-curve",
-        "ins_brown-roguelike-modifier-inheritance"
-      ],
-      "operators_added": [
-        "mark-brown"
       ],
       "patterns_added": [],
       "playbooks_added": [],
