@@ -26,7 +26,7 @@ When AI supply constraints drive frontier model prices up, labs preserve total G
 ## Mechanism
 Jevons' Paradox holds that efficiency gains in resource use increase total consumption rather than reducing it. AI labs face a version of this in reverse: supply constraints push frontier prices up, which should reduce total demand. The tier segmentation strategy converts that risk into a demand routing problem. Premium models cost 13x more than value-tier models for 20% additional capability. Mid-market models deliver 96% of frontier capability at 40% of frontier cost. Value models reach 84% of frontier capability at 1 to 5% of cost. This spread means most workloads have a cheaper substitute that is good enough for the task.
 
-The critical infrastructure layer is routers. As price sensitivity grows, the intelligence layer routing requests to the right model becomes more strategically valuable. A lab that offers all three tiers with a router captures the full demand curve. A company building on AI inference needs to model which workloads require frontier capability and which can be rerouted down without quality loss.
+The critical infrastructure layer is routers. As price sensitivity grows, the intelligence layer routing requests to the right model becomes the margin-capturing asset. A lab that offers all three tiers with a router captures the full demand curve. A company building on AI inference needs to model which workloads require frontier capability and which can be rerouted down without quality loss.
 
 Specific 2026 pricing anchors: Anthropic Fable 5 at $50 per million output tokens; Google Gemini at $12; GPT-5.6 Luna at $0.20/$1.20 per million tokens; DeepSeek V4 Flash at $0.03.
 
