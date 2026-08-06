@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-05T02:09:38.027Z",
+  "generated_at": "2026-08-06T01:58:42.021Z",
   "counts": {
-    "insights": 1008,
-    "operators": 509,
+    "insights": 1012,
+    "operators": 510,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 66
+    "daily": 67
   },
   "latest_daily": {
-    "path": "daily/2026-08-05.md",
-    "date": "2026-08-05",
-    "title": "Don't be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics",
-    "summary": "Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.",
+    "path": "daily/2026-08-06.md",
+    "date": "2026-08-06",
+    "title": "AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer",
+    "summary": "Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons' Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.",
     "sources": [],
     "insights_added": [
-      "ins_gruhn-meat-proxy-accountability",
-      "ins_indig-citation-vs-mention-depth-breadth",
-      "ins_ball-orb-sandbox-agent-frequency"
+      "ins_tunguz-ai-ghostwriter-editor",
+      "ins_tunguz-tier-segmentation-jevons",
+      "ins_husain-product-before-evals",
+      "ins_verrilli-dri-eliminates-pm-layer"
     ],
     "operators_added": [
-      "niklas-gruhn"
+      "tom-verrilli"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -10190,6 +10191,33 @@
       ],
       "raw_ref": "",
       "title": "Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort"
+    },
+    {
+      "path": "insights/ins_husain-product-before-evals.md",
+      "id": "ins_husain-product-before-evals",
+      "operator": "Hamel Husain",
+      "operator_role": "Independent AI consultant and researcher",
+      "co_operators": [],
+      "source_url": "https://arize.com/blog/rise-of-the-ai-engineer-why-ai-evals-fail-before-the-evaluation-begins/",
+      "source_type": "talk",
+      "source_title": "Rise of the AI Engineer: Why AI Evals Fail Before the Evaluation Begins",
+      "source_date": "2026-07-30",
+      "captured_date": "2026-08-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Most LLM evaluation failures trace to product design problems upstream of the model, not model capability"
     },
     {
       "path": "insights/ins_hyper-personalization-cold-email.md",
@@ -24903,6 +24931,37 @@
       "title": "AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once"
     },
     {
+      "path": "insights/ins_tunguz-ai-ghostwriter-editor.md",
+      "id": "ins_tunguz-ai-ghostwriter-editor",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/ai-ghost-writing/",
+      "source_type": "essay",
+      "source_title": "AI is a Terrible Ghostwriter",
+      "source_date": "2026-08-03",
+      "captured_date": "2026-08-06",
+      "domain": [
+        "ai-native",
+        "content",
+        "pmm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_bharath-krishna-pai-linkedin-ghostwriters-obsolete",
+        "ins_ipsita-dhar-hacked-claude-replaced-ghostwriters"
+      ],
+      "raw_ref": "",
+      "title": "AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself"
+    },
+    {
       "path": "insights/ins_tunguz-ai-productivity-operating-layer.md",
       "id": "ins_tunguz-ai-productivity-operating-layer",
       "operator": "Tomasz Tunguz",
@@ -25558,6 +25617,37 @@
       "title": "Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task"
     },
     {
+      "path": "insights/ins_tunguz-tier-segmentation-jevons.md",
+      "id": "ins_tunguz-tier-segmentation-jevons",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/what-if-gpu-prices-double/",
+      "source_type": "essay",
+      "source_title": "Racing to Sustain Jevons' Paradox",
+      "source_date": "2026-08-04",
+      "captured_date": "2026-08-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-inference-pricing-value-beats-cost-plus",
+        "ins_tunguz-model-substitution-reinvestment",
+        "ins_tunguz-compute-cost-inversion"
+      ],
+      "raw_ref": "",
+      "title": "AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping"
+    },
+    {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
       "id": "ins_two-week-engineer-as-mini-pm",
       "operator": "Amole Naik",
@@ -25994,6 +26084,33 @@
       ],
       "raw_ref": "",
       "title": "AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all"
+    },
+    {
+      "path": "insights/ins_verrilli-dri-eliminates-pm-layer.md",
+      "id": "ins_verrilli-dri-eliminates-pm-layer",
+      "operator": "Tom Verrilli",
+      "operator_role": "Chief Product Officer, Whatnot",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "source_type": "podcast",
+      "source_title": "This CPO regrets that product management ever became a job",
+      "source_date": "2026-08-02",
+      "captured_date": "2026-08-06",
+      "domain": [
+        "product",
+        "org-design"
+      ],
+      "lifecycle": [
+        "team-structure",
+        "leadership"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work"
     },
     {
       "path": "insights/ins_victor-c-leave-expiry-is-motivation-killer.md",
@@ -36865,6 +36982,23 @@
       "title": "TK Kader"
     },
     {
+      "path": "operators/tom-verrilli/README.md",
+      "name": "Tom Verrilli",
+      "slug": "tom-verrilli",
+      "roles": [
+        "Chief Product Officer, Whatnot",
+        "Chief Product Officer, Twitch (former)",
+        "Director of Product Growth, Twitter (former)"
+      ],
+      "domains_active": [
+        "product",
+        "org-design"
+      ],
+      "captured_first": "2026-08-06",
+      "external": "{}",
+      "title": "Tom Verrilli"
+    },
+    {
       "path": "operators/tomasz-tunguz/README.md",
       "name": "Tomasz Tunguz",
       "slug": "tomasz-tunguz",
@@ -43431,6 +43565,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-06.md",
+      "date": "2026-08-06",
+      "title": "AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer",
+      "summary": "Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons' Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.",
+      "sources": [],
+      "insights_added": [
+        "ins_tunguz-ai-ghostwriter-editor",
+        "ins_tunguz-tier-segmentation-jevons",
+        "ins_husain-product-before-evals",
+        "ins_verrilli-dri-eliminates-pm-layer"
+      ],
+      "operators_added": [
+        "tom-verrilli"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-05.md",
       "date": "2026-08-05",

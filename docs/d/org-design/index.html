@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Evals are systematic data analysis on your LLM application, start with error analysis, not tests · a builder's codex</title>
-<meta name="description" content="Hamel Husain: &quot;Evals are systematic data analysis on your LLM application, start with error analysis, not tests&quot; (podcast, 2026-04-28).">
-<link rel="canonical" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/">
+<title>org-design · abcodex · a builder's codex</title>
+<meta name="description" content="1 insights from 1 operators in the org-design domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<link rel="canonical" href="https://abcodex.iamkesava.com/d/org-design/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Evals are systematic data analysis on your LLM application, start with error analysis, not tests · a builder's codex">
-<meta property="og:description" content="Hamel Husain: &quot;Evals are systematic data analysis on your LLM application, start with error analysis, not tests&quot; (podcast, 2026-04-28).">
-<meta property="og:url" content="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/">
-<meta property="og:image" content="https://abcodex.iamkesava.com/og/ins/ins_evals-are-data-analysis-on-llm-apps.svg">
+<meta property="og:title" content="org-design · abcodex · a builder's codex">
+<meta property="og:description" content="1 insights from 1 operators in the org-design domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<meta property="og:url" content="https://abcodex.iamkesava.com/d/org-design/">
+<meta property="og:image" content="https://abcodex.iamkesava.com/og/d/org-design.svg">
 <meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Evals are systematic data analysis on your LLM application, start with error analysis, not tests · a builder's codex">
-<meta name="twitter:description" content="Hamel Husain: &quot;Evals are systematic data analysis on your LLM application, start with error analysis, not tests&quot; (podcast, 2026-04-28).">
-<meta name="twitter:image" content="https://abcodex.iamkesava.com/og/ins/ins_evals-are-data-analysis-on-llm-apps.svg">
+<meta name="twitter:title" content="org-design · abcodex · a builder's codex">
+<meta name="twitter:description" content="1 insights from 1 operators in the org-design domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<meta name="twitter:image" content="https://abcodex.iamkesava.com/og/d/org-design.svg">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
 <link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
 <link rel="api-catalog" href="https://abcodex.iamkesava.com/.well-known/api-catalog">
@@ -173,7 +173,7 @@ main.static pre code{background:transparent;padding:0}
 }
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/#article","headline":"Evals are systematic data analysis on your LLM application, start with error analysis, not tests","datePublished":"2026-04-28","dateModified":"2026-05-01","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/hamel-husain/#person","name":"Hamel Husain","url":"https://abcodex.iamkesava.com/o/hamel-husain/","jobTitle":"Independent ML consultant (ex-GitHub, Airbnb) and Berkeley PhD researcher"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","name":"Evals as error analysis, the benevolent dictator, LLM judges","encodingFormat":"podcast","datePublished":"2026-04-28"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/","keywords":"ai-native, engineering, product","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/A"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Hamel Husain","item":"https://abcodex.iamkesava.com/o/hamel-husain/"},{"@type":"ListItem","position":4,"name":"Evals are systematic data analysis on your LLM application, start with error analysis, not tests","item":"https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"Tests written before error analysis test the wrong hypotheses, the team's pre-existing model of what could go wrong, not what is actually going wrong. A trace-first approach surfaces the real failure distribution: most issues are fixed by prompt edits and never need a permanent eval. Writing evals before that triage means you spend engineering time hardening against problems that no longer exist while the live failures go uncaught."}},{"@type":"Question","name":"Evidence","acceptedAnswer":{"@type":"Answer","text":"> \"It really doesn't have to be scary or unapproachable. It really is, at its core, data analytics on your LLM application.\""}},{"@type":"Question","name":"Signals","acceptedAnswer":{"@type":"Answer","text":"Most \"failures\" found in trace review are fixed by prompt edits within a sprint and never make it to permanent evals."}},{"@type":"Question","name":"Counter-evidence","acceptedAnswer":{"@type":"Answer","text":"For safety-critical or regulated domains, certain checks (PII, toxicity, jailbreaks) must be in place before any production traffic, there is no \"wait and see.\" That is a separate class of evals, not the failure-mode evals this insight addresses."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"org-design","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 1 insights from 1 operators.","url":"https://abcodex.iamkesava.com/d/org-design/"},{"@type":"CollectionPage","name":"org-design · abcodex","url":"https://abcodex.iamkesava.com/d/org-design/","about":{"@type":"DefinedTerm","name":"org-design"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_verrilli-dri-eliminates-pm-layer/","name":"Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work","author":{"@type":"Person","name":"Tom Verrilli"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"org-design","item":"https://abcodex.iamkesava.com/d/org-design/"}]}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -188,67 +188,13 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static" id="main" tabindex="-1">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · <a href="https://abcodex.iamkesava.com/o/hamel-husain/">Hamel Husain</a> · ins_evals-are-data-analysis-on-llm-apps</div><h1>Evals are systematic data analysis on your LLM application, start with error analysis, not tests</h1><p class="static-meta">By <a href="https://abcodex.iamkesava.com/o/hamel-husain/">Hamel Husain</a> · Independent ML consultant (ex-GitHub, Airbnb) and Berkeley PhD researcher · 2026-04-28 · podcast · <a href="https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill" rel="external nofollow">Evals as error analysis, the benevolent dictator, LLM judges</a></p><div class="static-tldr">
-    <div class="static-tldr-label">Tier A · TL;DR</div>
-    <div class="static-tldr-claim">Evals are systematic data analysis on your LLM application, start with error analysis, not tests</div>
-  </div><article><h2 id="claim">Claim</h2>
-<p>LLM evals are not a new mystical discipline; they are systematic data analysis on stochastic application output. The trap is to jump straight to writing tests. Start with open-ended error analysis on real traces, identify the failure modes that survive prompt fixes, then build narrow binary judges only for those.</p>
-
-<h2 id="mechanism">Mechanism</h2>
-<p>Tests written before error analysis test the wrong hypotheses, the team's pre-existing model of what could go wrong, not what is actually going wrong. A trace-first approach surfaces the real failure distribution: most issues are fixed by prompt edits and never need a permanent eval. Writing evals before that triage means you spend engineering time hardening against problems that no longer exist while the live failures go uncaught.</p>
-
-<h2 id="conditions">Conditions</h2>
-<p>Holds when:</p>
-<ul>
-<li>You have access to real production traces or representative test data.</li>
-<li>A domain expert can read traces and recognise failure that an LLM cannot self-detect.</li>
-<li>The team accepts a sequenced workflow rather than a "comprehensive" eval suite up front.</li>
-</ul>
-
-<p>Fails when:</p>
-<ul>
-<li>The product has no production volume yet (cold-start; evals have to be designed against synthetic data).</li>
-<li>The team's culture rewards visible eval scaffolding over actual error reduction.</li>
-<li>The domain expert is missing and traces look fine to non-experts.</li>
-</ul>
-
-<h2 id="evidence">Evidence</h2>
-<blockquote>
-<p>"It really doesn't have to be scary or unapproachable. It really is, at its core, data analytics on your LLM application."</p>
-</blockquote>
-<blockquote>
-<p>"There's a common trap that a lot of people fall into because they jump straight to the test like, 'Let me write some tests,' and usually that's not what you want to do. You should start with some kind of data analysis to ground what you should even test."</p>
-</blockquote>
-<p>Hamel and Shreya teach the highest-grossing course on Maven (~2,000 PMs/eng across 500 companies, including OpenAI and Anthropic).</p>
-
-<p>· Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28</p>
-
-<h2 id="signals">Signals</h2>
-<ul>
-<li>Most "failures" found in trace review are fixed by prompt edits within a sprint and never make it to permanent evals.</li>
-<li>The eval suite for a mature product is small (4–7 narrow judges), not large.</li>
-<li>Engineers stop building eval infrastructure speculatively and start with weekly trace reviews.</li>
-</ul>
-
-<h2 id="counter-evidence">Counter-evidence</h2>
-<p>For safety-critical or regulated domains, certain checks (PII, toxicity, jailbreaks) must be in place before any production traffic, there is no "wait and see." That is a separate class of evals, not the failure-mode evals this insight addresses.</p>
-
-<h2 id="cross-references">Cross-references</h2>
-<ul>
-<li><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/">Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second</a>, the specific pipeline this insight points to</li>
-<li><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</a>, the judge construction rule</li>
-</ul>
-</article><section class="static-related"><h2>Where this connects</h2>
-<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains"><a href="https://abcodex.iamkesava.com/d/ai-native/">ai-native</a> · <a href="https://abcodex.iamkesava.com/d/engineering/">engineering</a> · <a href="https://abcodex.iamkesava.com/d/product/">product</a></p></div>
-<div class="static-related-group"><div class="static-related-label">More from Hamel Husain</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_benevolent-dictator-not-committee/"><div class="tier">Tier B · ai-native · leadership</div><div class="static-card-title">Appoint one trusted-taste expert as the eval benevolent dictator, committees stall the loop</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_error-analysis-highest-leverage-eval-step/"><div class="tier">Tier B · ai-engineering</div><div class="static-card-title">Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_hamel-eval-is-product-smell/"><div class="tier">Tier B · engineering · ai-native</div><div class="static-card-title">When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_husain-product-before-evals/"><div class="tier">Tier B · ai-native · engineering</div><div class="static-card-title">Most LLM evaluation failures trace to product design problems upstream of the model, not model capability</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/"><div class="tier">Tier A · ai-native · engineering</div><div class="static-card-title">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/"><div class="tier">Tier A · ai-native · research-discovery</div><div class="static-card-title">Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Where this converges</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_eval-as-data-analysis/"><div class="tier">Pattern · ai-native · engineering</div><div class="static-card-title">Evals are data analysis, single judge, binary rubrics, error analysis first</div></a><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_substrate-runs-loop-humans-run-alignment/"><div class="tier">Pattern · ai-native · leadership</div><div class="static-card-title">Substrate runs the loop; humans run alignment and taste</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Playbooks using this card</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/play/pb_claim-verify-gate/"><div class="tier">Playbook · ai-native-gtm · substrate</div><div class="static-card-title">Gate every public claim against the source that backs it</div></a><a class="static-card" href="https://abcodex.iamkesava.com/play/pb_humanizer/"><div class="tier">Playbook · copywriting · ai-native-gtm</div><div class="static-card-title">Strip the AI-writing tells out of any draft</div></a><a class="static-card" href="https://abcodex.iamkesava.com/play/pb_pmm-coaching-framework/"><div class="tier">Playbook · messaging · copywriting</div><div class="static-card-title">Coach PMM work through iterative review that retains feedback</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Related insights</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/"><div class="tier">Tier A · ai-native · research-discovery</div><div class="static-card-title">Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/"><div class="tier">Tier A · ai-native · engineering</div><div class="static-card-title">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</div></a></div></div>
-</section><div class="static-actions">
-      <a class="primary" href="https://abcodex.iamkesava.com/#/ins/ins_evals-are-data-analysis-on-llm-apps">Open the interactive view →</a>
-      <a href="https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill" rel="external nofollow">View original source →</a>
-      <a href="https://raw.githubusercontent.com/k3sava/abcodex/main/insight-library/insights/ins_evals-are-data-analysis-on-llm-apps.md" rel="noopener">Markdown source →</a>
-    </div>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/browse/">browse</a> · org-design</div>
+        <p class="static-eyebrow">domain · org-design</p>
+        <h1>org-design</h1>
+        <p class="static-lede">Operator insights tagged org-design, from 1 named operators with primary sources.</p>
+        <p class="static-meta">1 cards · 1 operators · 0 tier-A claims · 0 synthesis patterns.</p>
+        <h2>Adjacent domains</h2><ul><li><a href="https://abcodex.iamkesava.com/d/product/">product</a> · 1 co-occurrences</li></ul>
+<h2>1 insights in org-design</h2><ul class="static-card-list"><li><a href="https://abcodex.iamkesava.com/ins/ins_verrilli-dri-eliminates-pm-layer/">Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work</a> · <span style="color:var(--muted)">Tom Verrilli</span></li></ul>
 </main>
 
 <footer class="static-footer">

@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1008 insight cards
-- 509 operator profiles
+- 1012 insight cards
+- 510 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (344)
+### Tier A (345)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -336,6 +336,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trott-word-of-mouth-most-valuable`](insights/ins_trott-word-of-mouth-most-valuable.md) — Word-of-mouth is the most valuable advertising space of all, paid media is what triggers it, not what replaces it _(Dave Trott)_
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
+- [`ins_tunguz-tier-segmentation-jevons`](insights/ins_tunguz-tier-segmentation-jevons.md) — AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping _(Tom Tunguz)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_
 - [`ins_use-case-epiphany-as-marketing-job`](insights/ins_use-case-epiphany-as-marketing-job.md) — When awareness is solved, marketing's real job is the use-case epiphany _(Krithika Shankarraman)_
 - [`ins_use-new-tools-as-new-tools`](insights/ins_use-new-tools-as-new-tools.md) — Use new tools as new tools, not as old tools, be ambitious and retry from scratch _(Benjamin Mann)_
@@ -358,7 +359,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (586)
+### Tier B (589)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -580,6 +581,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
+- [`ins_husain-product-before-evals`](insights/ins_husain-product-before-evals.md) — Most LLM evaluation failures trace to product design problems upstream of the model, not model capability _(Hamel Husain)_
 - [`ins_hyper-personalization-cold-email`](insights/ins_hyper-personalization-cold-email.md) — Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization _(Nick Abraham)_
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
@@ -858,6 +860,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
@@ -889,6 +892,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
 - [`ins_verna-ai-overclaiming-three-failure-modes`](insights/ins_verna-ai-overclaiming-three-failure-modes.md) — AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all _(Elena Verna)_
+- [`ins_verrilli-dri-eliminates-pm-layer`](insights/ins_verrilli-dri-eliminates-pm-layer.md) — Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work _(Tom Verrilli)_
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
 - [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
@@ -1508,6 +1512,7 @@ _Generated 2026-08-05. Auto-built from frontmatter — do not edit by hand._
 - [Tim Ferriss](operators/tim-ferriss/README.md)
 - [Tim Soulo](operators/tim-soulo/README.md)
 - [TK Kader](operators/tk-kader/README.md)
+- [Tom Verrilli](operators/tom-verrilli/README.md)
 - [Tomasz Tunguz](operators/tomasz-tunguz/README.md)
 - [Tommy Walker](operators/tommy-walker/README.md)
 - [Tony Hsieh](operators/tony-hsieh/README.md)

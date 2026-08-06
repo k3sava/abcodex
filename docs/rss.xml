@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Aug 2026 02:09:42 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 01:58:46 GMT</lastBuildDate>
+    <item>
+      <title>AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-06/</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons&apos; Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.</description>
+    </item>
     <item>
       <title>Don&apos;t be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-05/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-06/</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.</description>
-    </item>
-    <item>
-      <title>Agent routing before model choice, schema gaps causing retry loops, and AI search fragmentation across three non-overlapping engines</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-03/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-03/</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards, one new operator. Two cards on agent infrastructure decisions that determine outcome before model selection happens. One card on why developers need conceptual fluency to direct agent work. One card on AI search visibility as three separate non-overlapping platforms.</description>
     </item>
   </channel>
 </rss>
