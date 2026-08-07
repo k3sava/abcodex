@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1012 insight cards
-- 510 operator profiles
+- 1016 insight cards
+- 512 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (345)
+### Tier A (347)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -131,6 +131,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation`](insights/ins_ilya-azovtsev-n8n-mcp-claude-gtm-automation.md) — n8n + MCP + Claude lets GTM teams build workflows in plain English. _(Ilya Azovtsev)_
 - [`ins_imo-aeo-playbook-bullsh-wasted`](insights/ins_imo-aeo-playbook-bullsh-wasted.md) — IMO the AEO playbook is 90% bullsh*t. We wasted 1 year and tens of thousands of dollars _(Madhav Bhandari)_
 - [`ins_incentives-as-master-switch`](insights/ins_incentives-as-master-switch.md) — When behavior puzzles you, look at incentives, that's where every other model is downstream of _(Charlie Munger)_
+- [`ins_indig-ai-mode-agentic-compliance`](insights/ins_indig-ai-mode-agentic-compliance.md) — AI Mode generates passive recommendation acceptance while AI Overviews preserve active evaluation behavior _(Kevin Indig)_
 - [`ins_indig-engine-fragmentation`](insights/ins_indig-engine-fragmentation.md) — Only 2.37 percent of URLs cited by AI search engines appear across all three major platforms; 91 percent live in exactly one _(Kevin Indig)_
 - [`ins_influence-is-discovery-not-conviction`](insights/ins_influence-is-discovery-not-conviction.md) — Treat upward influence as a discovery interview, not a sales pitch _(Jessica Fain)_
 - [`ins_intelligence-cost-converging-electricity`](insights/ins_intelligence-cost-converging-electricity.md) — The cost of intelligence is converging toward the cost of electricity, durable advantage isn't using AI, it's parlaying AI _(Sam Altman)_
@@ -150,6 +151,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_judgment-doesnt-compress`](insights/ins_judgment-doesnt-compress.md) — Building costs collapsed; judgement didn't, the squeeze is on positioning, not production _(Kevin Indig)_
 - [`ins_judgment-vs-understanding`](insights/ins_judgment-vs-understanding.md) — You can outsource thinking, but not understanding, verification is the new human job _(Andrej Karpathy)_
 - [`ins_julien-sauvage-positioning-is-start-line-not-finish-line`](insights/ins_julien-sauvage-positioning-is-start-line-not-finish-line.md) — Positioning is the start line, not the finish line for PMM. _(Julien Sauvage)_
+- [`ins_karpathy-long-horizon-eval-paradigm`](insights/ins_karpathy-long-horizon-eval-paradigm.md) — Frontier LLM evaluation has moved from short snippet generation to multi-hour autonomous creative tasks _(Andrej Karpathy)_
 - [`ins_kesava-mandiga-anti-fabrication-as-rule`](insights/ins_kesava-mandiga-anti-fabrication-as-rule.md) — If you can't trace a claim to a source, write "unverified" and stop _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-cheap-tier-delegation`](insights/ins_kesava-mandiga-cheap-tier-delegation.md) — Cheap external model for grunt work; Claude only sees judgment _(Kesava Mandiga)_
 - [`ins_kesava-mandiga-repositioning-commits-to-one-buyer`](insights/ins_kesava-mandiga-repositioning-commits-to-one-buyer.md) — Repositioning doesn't work until you cut three buyers and pick one _(Kesava Mandiga)_
@@ -359,7 +361,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (589)
+### Tier B (591)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -556,6 +558,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla _(Kevin White)_
 - [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside, build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn't scale formats. It should s _(Kaizad Hansotia)_
+- [`ins_grennan-ai-roi-target-setting`](insights/ins_grennan-ai-roi-target-setting.md) — AI ROI measurement fails because organizations deploy AI without first defining what better work looks like _(Conor Grennan)_
 - [`ins_gruhn-meat-proxy-accountability`](insights/ins_gruhn-meat-proxy-accountability.md) — Relaying AI output without reading it lends your organizational identity to unvalidated content and provides near-zero value _(Niklas Gruhn)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
 - [`ins_hamel-eval-is-product-smell`](insights/ins_hamel-eval-is-product-smell.md) — When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology _(Hamel Husain)_
@@ -615,6 +618,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_jtbd-personas-not-demographics`](insights/ins_jtbd-personas-not-demographics.md) — Personas built on demographics inform nothing; rebuild around Jobs to Be Done _(Adrienne Barnes)_
 - [`ins_juliana-katz-pmm-leaders-building-ai-capabilities`](insights/ins_juliana-katz-pmm-leaders-building-ai-capabilities.md) — PMM leaders who will thrive are already building these AI capabilities. _(Juliana Katz)_
 - [`ins_kamaraj-mathiarasan-llm-tracking-tools-basic`](insights/ins_kamaraj-mathiarasan-llm-tracking-tools-basic.md) — Most LLM tracking tools are too basic to explain why your page is mentioned. _(Kamaraj Mathiarasan)_
+- [`ins_kao-pre-delegation-context-transfer`](insights/ins_kao-pre-delegation-context-transfer.md) — Delegation fails when delegators skip upfront context transfer, not when delegatees lack skill _(Wes Kao)_
 - [`ins_karthik-srinivasan-great-product-piyush-pandey`](insights/ins_karthik-srinivasan-great-product-piyush-pandey.md) — Piyush Pandey was himself a great 'product' worth writing about _(Karthik Srinivasan)_
 - [`ins_kate-syuma-build-in-public-lead-engine`](insights/ins_kate-syuma-build-in-public-lead-engine.md) — Building in public is the only growth channel you need if you share real insights. _(Kate Syuma)_
 - [`ins_kate-syuma-spacious-schedule-deep-work`](insights/ins_kate-syuma-spacious-schedule-deep-work.md) — After six years scaling Miro to a unicorn, the lesson was: design for transformation, not promotion _(Kate Syuma)_
@@ -1153,6 +1157,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [Cole Schafer](operators/cole-schafer/README.md)
 - [Colin Matthews](operators/colin-matthews/README.md)
 - [Collin Mayjack](operators/collin-mayjack/README.md)
+- [Conor Grennan](operators/conor-grennan/README.md)
 - [Corey Hearne](operators/corey-hearne/README.md)
 - [Crayon](operators/crayon/README.md)
 - [Cris Thome](operators/cris-thome/README.md)
@@ -1531,6 +1536,7 @@ _Generated 2026-08-06. Auto-built from frontmatter — do not edit by hand._
 - [Vishnu Prasad](operators/vishnu-prasad/README.md)
 - [Vivian Jordan](operators/vivian-jordan/README.md)
 - [Wade Foster](operators/wade-foster/README.md)
+- [Wes Kao](operators/wes-kao/README.md)
 - [Will Larson](operators/will-larson/README.md)
 - [Y Combinator](operators/y-combinator/README.md)
 - [Yael Davidowitz](operators/yael-davidowitz/README.md)
