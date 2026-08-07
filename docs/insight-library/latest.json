@@ -1,25 +1,46 @@
 {
-  "generated_at": "2026-08-06T02:00:37.042Z",
+  "generated_at": "2026-08-07T02:11:19.385Z",
   "latest_daily": {
-    "path": "daily/2026-08-06.md",
-    "date": "2026-08-06",
-    "title": "AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer",
-    "summary": "Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons' Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.",
+    "path": "daily/2026-08-07.md",
+    "date": "2026-08-07",
+    "title": "AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite",
+    "summary": "Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.",
     "sources": [],
     "insights_added": [
-      "ins_tunguz-ai-ghostwriter-editor",
-      "ins_tunguz-tier-segmentation-jevons",
-      "ins_husain-product-before-evals",
-      "ins_verrilli-dri-eliminates-pm-layer"
+      "ins_indig-ai-mode-agentic-compliance",
+      "ins_karpathy-long-horizon-eval-paradigm",
+      "ins_kao-pre-delegation-context-transfer",
+      "ins_grennan-ai-roi-target-setting"
     ],
     "operators_added": [
-      "tom-verrilli"
+      "wes-kao",
+      "conor-grennan"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-07.md",
+      "date": "2026-08-07",
+      "title": "AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite",
+      "summary": "Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-ai-mode-agentic-compliance",
+        "ins_karpathy-long-horizon-eval-paradigm",
+        "ins_kao-pre-delegation-context-transfer",
+        "ins_grennan-ai-roi-target-setting"
+      ],
+      "operators_added": [
+        "wes-kao",
+        "conor-grennan"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-06.md",
       "date": "2026-08-06",
@@ -531,23 +552,6 @@
       "operators_added": [
         "colin-matthews"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-06.md",
-      "date": "2026-07-06",
-      "title": "Harness-specific model drift, cross-model review practice, concurrent agent norms at OpenAI, and the SaaS category rotation",
-      "summary": "Four new cards across two themes: how model capability improvements can mask tool reliability regressions in specific harnesses, and how AI agent adoption is normalizing concurrent multi-agent workflows while restructuring SaaS market performance by category.",
-      "sources": [],
-      "insights_added": [
-        "ins_ronacher-harness-overfit-tool-schema",
-        "ins_willison-cross-model-review",
-        "ins_mollick-four-agents-concurrent-norm",
-        "ins_tunguz-category-beats-growth"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
