@@ -26,7 +26,7 @@ AI Mode and AI Overviews produce fundamentally different user behaviors: AI Mode
 ## Mechanism
 AI Mode presents its answer as a terminal output with no embedded links to follow. Users receive a recommendation and have no obvious path to verify it against alternatives, so they accept it. AI Overviews retain the link-grid format users learned from classic Google: the overview summarizes but the links invite evaluation. Users click, compare sources, and verify. The surface format determines the behavioral mode, not the underlying query intent.
 
-Indig states the implication directly: "AEO/GEO is a brand channel disguised as a performance channel. AI recommendations shape demand (not citations)." In AI Mode, the recommendation IS the result. Getting named matters more than earning the click, because the click is not part of the user journey.
+Indig states the implication directly: "AEO/GEO is a brand channel disguised as a performance channel. AI recommendations shape demand (not citations)." In AI Mode, the recommendation IS the result. Getting named matters more than earning the click, because the click is not part of the user flow.
 
 ## Conditions
 Holds when: users interact with Google AI Mode on product or purchase-intent queries. The 88% acceptance figure comes from Indig's user behavior research series covering H1 2026.

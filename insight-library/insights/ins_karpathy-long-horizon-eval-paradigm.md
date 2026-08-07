@@ -44,7 +44,7 @@ Fails when: the task requires fast, deterministic outputs (code completion, retr
 ## Evidence
 Karpathy ran the LOTR render experiment himself. The claim is a first-person observation, not a structured benchmark study. Coverage of the post confirmed the experiment in multiple outlets (The Decoder, Aug 3, 2026; Developers Digest, Aug 2, 2026; Benzinga, Aug 2026).
 
-The adjacent context on evaluation obsolescence: Simon Willison documented the same directional shift from a different angle in `ins_willison-benchmark-agent-decoupling`, finding that visual benchmark rankings had decoupled from frontier model rankings as of mid-2026. Karpathy's post specifies what the new paradigm looks like in practice.
+The adjacent context on evaluation obsolescence: Simon Willison documented the same directional shift from a different angle in `ins_willison-benchmark-agent-decoupling`, finding that visual benchmark rankings had decoupled from frontier model rankings as of mid-2026. Karpathy's post specifies what the new evaluation model looks like in practice.
 
 ## Signals
 - A model scores well on snippet benchmarks but produces poor results on real multi-hour tasks: the eval is not measuring the capability class that matters for production use.
@@ -55,4 +55,4 @@ The adjacent context on evaluation obsolescence: Simon Willison documented the s
 Karpathy's test is a demonstration, not a controlled evaluation. No rubric defines what "good" looks like for the LOTR Three.js render. "Janky but fun" is not a measure most engineering teams can act on. The practical challenge with long-horizon eval is defining success criteria before running the test, which most teams have not solved.
 
 ## Cross-references
-- `ins_willison-benchmark-agent-decoupling` documents WHY short visual benchmarks broke down (tool-calling reliability became the differentiator). This card documents WHAT the replacement evaluation paradigm looks like.
+- `ins_willison-benchmark-agent-decoupling` documents WHY short visual benchmarks broke down (tool-calling reliability became the differentiator). This card documents WHAT the replacement evaluation approach looks like.
