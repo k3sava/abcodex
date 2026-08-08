@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-07 · 4 insights · 2 operators
+### Latest · 2026-08-08 · 3 insights
 
-**AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite.** Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.
+**Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents.** Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.
 
-[Read what landed →](insight-library/daily/2026-08-07.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1016** insight cards
+- **1019** insight cards
 - **512** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
