@@ -1,26 +1,38 @@
 {
-  "generated_at": "2026-08-07T02:11:19.385Z",
+  "generated_at": "2026-08-08T01:56:27.772Z",
   "latest_daily": {
-    "path": "daily/2026-08-07.md",
-    "date": "2026-08-07",
-    "title": "AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite",
-    "summary": "Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.",
+    "path": "daily/2026-08-08.md",
+    "date": "2026-08-08",
+    "title": "Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents",
+    "summary": "Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.",
     "sources": [],
     "insights_added": [
-      "ins_indig-ai-mode-agentic-compliance",
-      "ins_karpathy-long-horizon-eval-paradigm",
-      "ins_kao-pre-delegation-context-transfer",
-      "ins_grennan-ai-roi-target-setting"
+      "ins_solis-content-six-dimensions",
+      "ins_willison-publish-unhappy",
+      "ins_tunguz-agents-covert-channels"
     ],
-    "operators_added": [
-      "wes-kao",
-      "conor-grennan"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-08.md",
+      "date": "2026-08-08",
+      "title": "Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents",
+      "summary": "Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.",
+      "sources": [],
+      "insights_added": [
+        "ins_solis-content-six-dimensions",
+        "ins_willison-publish-unhappy",
+        "ins_tunguz-agents-covert-channels"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-07.md",
       "date": "2026-08-07",
@@ -536,25 +548,6 @@
       "patterns_updated": [
         "pat_execution-cheap-judgement-scarce"
       ]
-    },
-    {
-      "path": "daily/2026-07-07.md",
-      "date": "2026-07-07",
-      "title": "AI Overviews decouple citation from recommendation, benchmark-shaped content earns 3.3x more AI citations, and frontier models self-route tasks to cheaper subagents",
-      "summary": "Four new cards across two themes: how AI Overviews now separate citation from recommendation in ways that can backfire on self-promotional content, and how AI agents in agentic workflows perform best when given judgment about task routing rather than pre-written routing rules.",
-      "sources": [],
-      "insights_added": [
-        "ins_lily-ray-self-promo-recommendation-exclusion",
-        "ins_indig-benchmark-citation-structure",
-        "ins_willison-frontier-model-self-routing",
-        "ins_matthews-pm-leverage-ladders"
-      ],
-      "operators_added": [
-        "colin-matthews"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
     }
   ]
 }

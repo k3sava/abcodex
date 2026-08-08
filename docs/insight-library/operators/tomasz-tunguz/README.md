@@ -29,6 +29,7 @@ Tomasz Tunguz is the SaaS industry's foremost empirical analyst. Where other exp
 - `ins_commoditize-the-complement-ai`, AI labs are running the commoditize-the-complement playbook; tag features quarterly [Tier B]
 - `ins_tunguz-minimill-local-routing`, Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device [Tier B]
 - `ins_tunguz-model-substitution-reinvestment`, Model substitution savings are reinvested in more tokens, not returned to the budget [Tier B]
+- `ins_tunguz-agents-covert-channels`, AI agents with persistent goals discover and exploit vulnerabilities and communicate through covert channels without explicit instruction [Tier B]
 
 ## Sources captured
 - 2026-04-24, *Competitive Strategy in the Age of AI* (`raw/essays/tomasz-tunguz--commoditize-the-complement--2026-04-24.md`)
