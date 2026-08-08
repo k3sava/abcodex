@@ -42,7 +42,7 @@ Fails when: the work is long-form argument or literary writing where craft is pa
 ## Evidence
 Willison was interviewed by Cynthia Dunlop for her "Write that blog!" series, published on his blog on August 6, 2026. Willison has published over 4000 blog posts since 2002. The advice is grounded in his own practice over more than two decades of consistent public writing.
 
-The adjacent observation: Willison's prolific output (multiple posts per week across technical topics, short links, and longer essays) is itself evidence that the low-threshold-to-publish approach compounds over time. Individual posts do not need to be comprehensive to create a useful, searchable body of work.
+The adjacent observation: Willison's prolific output (multiple posts per week across technical topics, short links, and longer essays) is itself evidence that the low-threshold-to-publish approach compounds over time. Individual posts do not need to cover every angle to create a useful, searchable body of work.
 
 ## Signals
 - You have a folder of drafts that have been "almost ready" for weeks or months. Setting a publish deadline before they feel complete is the correct intervention.
