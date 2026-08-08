@@ -33,6 +33,7 @@ Simon Willison's foundational contribution is the taxonomy of how professionals 
 - `ins_ai-tool-cap-as-roi-signal`, Per-employee AI tool spending caps anchored to compensation signal an implicit ROI model [Tier C]
 - `ins_willison-silent-degradation-trust-gap`, Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect [Tier B]
 - `ins_willison-fable-relentlessly-proactive`, Frontier agents deploy breadth-first problem decomposition, trying every available technique when blocked [Tier B]
+- `ins_willison-publish-unhappy`, Publish writing while still unhappy with it; perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts [Tier B]
 
 ## Sources captured
 - 2026-04-02, Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
