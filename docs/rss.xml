@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 01:56:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 01:57:19 GMT</lastBuildDate>
+    <item>
+      <title>Indig measures AI Mode&apos;s commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-09/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-09/</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Kevin Indig&apos;s Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot&apos;s and quadrupling Wayfair&apos;s. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.</description>
+    </item>
     <item>
       <title>Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-09/</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.</description>
-    </item>
-    <item>
-      <title>AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-08/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-08/</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards, two new operator profiles. The day&apos;s scan covered AI&apos;s actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.</description>
     </item>
   </channel>
 </rss>

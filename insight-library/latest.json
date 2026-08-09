@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-08T01:56:27.772Z",
+  "generated_at": "2026-08-09T01:57:14.011Z",
   "latest_daily": {
-    "path": "daily/2026-08-08.md",
-    "date": "2026-08-08",
-    "title": "Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents",
-    "summary": "Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.",
+    "path": "daily/2026-08-09.md",
+    "date": "2026-08-09",
+    "title": "Indig measures AI Mode's commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks",
+    "summary": "Three new cards from two operators. Kevin Indig's Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot's and quadrupling Wayfair's. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.",
     "sources": [],
     "insights_added": [
-      "ins_solis-content-six-dimensions",
-      "ins_willison-publish-unhappy",
-      "ins_tunguz-agents-covert-channels"
+      "ins_indig-ai-mode-commercial-shift",
+      "ins_willison-pdf-token-overhead",
+      "ins_willison-openai-hf-attribution-gap"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +17,22 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-09.md",
+      "date": "2026-08-09",
+      "title": "Indig measures AI Mode's commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks",
+      "summary": "Three new cards from two operators. Kevin Indig's Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot's and quadrupling Wayfair's. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.",
+      "sources": [],
+      "insights_added": [
+        "ins_indig-ai-mode-commercial-shift",
+        "ins_willison-pdf-token-overhead",
+        "ins_willison-openai-hf-attribution-gap"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-08.md",
       "date": "2026-08-08",
@@ -525,28 +541,6 @@
       "playbooks_added": [],
       "patterns_updated": [
         "pat_verification-as-human-job"
-      ]
-    },
-    {
-      "path": "daily/2026-07-08.md",
-      "date": "2026-07-08",
-      "title": "AI baseline creep drives burnout, overclaiming poisons adoption, and product builders hold four beliefs that collectively stall distribution investment",
-      "summary": "Four new cards, two new operator profiles. The day's scan covered AI's actual impact on workers and organizations, a cognitive trap that keeps product builders building the wrong thing, and a structural shift in what creative work demands when execution becomes free.",
-      "sources": [],
-      "insights_added": [
-        "ins_rachitsky-segal-ai-baseline-creep-burnout",
-        "ins_verna-ai-overclaiming-three-failure-modes",
-        "ins_doshi-distribution-belief-trap",
-        "ins_liu-ability-free-taste-scarce"
-      ],
-      "operators_added": [
-        "noam-segal",
-        "jason-liu"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_execution-cheap-judgement-scarce"
       ]
     }
   ]
