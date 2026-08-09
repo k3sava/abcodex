@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-08 · 3 insights
+### Latest · 2026-08-09 · 3 insights
 
-**Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents.** Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.
+**Indig measures AI Mode's commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks.** Three new cards from two operators. Kevin Indig's Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot's and quadrupling Wayfair's. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.
 
-[Read what landed →](insight-library/daily/2026-08-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1019** insight cards
+- **1022** insight cards
 - **512** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
