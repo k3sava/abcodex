@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-09. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1022 insight cards
-- 512 operator profiles
+- 1025 insight cards
+- 513 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -361,7 +361,7 @@ _Generated 2026-08-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (597)
+### Tier B (600)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -488,6 +488,7 @@ _Generated 2026-08-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_context-pain-points-product-what`](insights/ins_context-pain-points-product-what.md) — -> Context on pain points and product: what and who are we solving for, and how _(Shivangi Sahu)_
 - [`ins_couch-to-5k-for-ai-start-not-depth`](insights/ins_couch-to-5k-for-ai-start-not-depth.md) — The block to AI adoption is the start, not the depth, design 30-day ladders, not deep-dive bootcamps _(Hilary Gridley)_
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
+- [`ins_crawshaw-open-source-agent-skin`](insights/ins_crawshaw-open-source-agent-skin.md) — Open-source devtools hold a structural advantage in the agent era because source code becomes the personalization layer _(David Crawshaw)_
 - [`ins_creative-is-the-spike`](insights/ins_creative-is-the-spike.md) — Media buying is the setter; creative is the hitter, the score comes from creative _(Andrew Faris)_
 - [`ins_credential-injection-proxy`](insights/ins_credential-injection-proxy.md) — Proxy injection of credentials at request time lets agents make authenticated calls without ever holding sensitive tokens _(Cat Wu)_
 - [`ins_criticize-in-public`](insights/ins_criticize-in-public.md) — Establish enough trust to critique and debate in public, not "praise public, criticize private" _(Jeetu Patel)_
@@ -924,11 +925,13 @@ _Generated 2026-08-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
+- [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
+- [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
@@ -1186,6 +1189,7 @@ _Generated 2026-08-09. Auto-built from frontmatter — do not edit by hand._
 - [Dave Trott](operators/dave-trott/README.md)
 - [David Aaker](operators/david-aaker/README.md)
 - [David C. Baker](operators/david-c-baker/README.md)
+- [David Crawshaw](operators/david-crawshaw/README.md)
 - [David Holtz](operators/david-holtz/README.md)
 - [David Ogilvy](operators/david-ogilvy/README.md)
 - [David Skok](operators/david-skok/README.md)

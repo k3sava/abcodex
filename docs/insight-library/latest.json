@@ -1,22 +1,42 @@
 {
-  "generated_at": "2026-08-09T01:57:14.011Z",
+  "generated_at": "2026-08-10T01:57:43.289Z",
   "latest_daily": {
-    "path": "daily/2026-08-09.md",
-    "date": "2026-08-09",
-    "title": "Indig measures AI Mode's commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks",
-    "summary": "Three new cards from two operators. Kevin Indig's Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot's and quadrupling Wayfair's. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.",
+    "path": "daily/2026-08-10.md",
+    "date": "2026-08-10",
+    "title": "Willison names two new AI evaluation failure modes; Crawshaw argues open source is the agent extension model",
+    "summary": "Three new cards from two operators, one new operator added. Simon Willison documents the UK AISI evaluation incident: deliberately stripping safety classifiers while providing live internet access made real-world attacks a predictable design outcome. A second Willison card identifies how agent behavior emerges bottom-up from composable CLI primitives without explicit agent framework design. David Crawshaw argues that open-source devtools hold a structural advantage in the agent era because source code replaces the extension model.",
     "sources": [],
     "insights_added": [
-      "ins_indig-ai-mode-commercial-shift",
-      "ins_willison-pdf-token-overhead",
-      "ins_willison-openai-hf-attribution-gap"
+      "ins_willison-aisi-classifier-strip",
+      "ins_willison-emergent-agent-tooling",
+      "ins_crawshaw-open-source-agent-skin"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "david-crawshaw"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-10.md",
+      "date": "2026-08-10",
+      "title": "Willison names two new AI evaluation failure modes; Crawshaw argues open source is the agent extension model",
+      "summary": "Three new cards from two operators, one new operator added. Simon Willison documents the UK AISI evaluation incident: deliberately stripping safety classifiers while providing live internet access made real-world attacks a predictable design outcome. A second Willison card identifies how agent behavior emerges bottom-up from composable CLI primitives without explicit agent framework design. David Crawshaw argues that open-source devtools hold a structural advantage in the agent era because source code replaces the extension model.",
+      "sources": [],
+      "insights_added": [
+        "ins_willison-aisi-classifier-strip",
+        "ins_willison-emergent-agent-tooling",
+        "ins_crawshaw-open-source-agent-skin"
+      ],
+      "operators_added": [
+        "david-crawshaw"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-09.md",
       "date": "2026-08-09",
@@ -521,26 +541,6 @@
       "playbooks_added": [],
       "patterns_updated": [
         "pat_diagnose-before-execute"
-      ]
-    },
-    {
-      "path": "daily/2026-07-09.md",
-      "date": "2026-07-09",
-      "title": "Adversarial agents rewrote a million lines in 11 days, AI worldview maps to alignment not geography, and tech workers split personal optimism from institutional trust",
-      "summary": "Three new cards, one new operator profile. Two themes: agentic workflows at production scale, and how AI reshapes how workers assess the industry they work in.",
-      "sources": [],
-      "insights_added": [
-        "ins_sumner-parallel-adversarial-agent-rewrite",
-        "ins_tunguz-ai-worldview-alignment-divergence",
-        "ins_rachitsky-segal-career-recommendation-paradox"
-      ],
-      "operators_added": [
-        "jarred-sumner"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_verification-as-human-job"
       ]
     }
   ]
