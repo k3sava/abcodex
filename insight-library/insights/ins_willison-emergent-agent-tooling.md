@@ -28,7 +28,7 @@ Willison released LLM 0.32 having added four features that each solved a specifi
 
 ## Conditions
 Holds when: (a) users have genuine need for multi-source tool mixing and the library assembles the right composable primitives to support it; (b) the task complexity fits single-threaded sequential tool execution.
-Fails when: tasks require parallel execution, complex graph-based orchestration, or persistent memory across independent sessions. Accidental agent frameworks hit ceilings that purpose-built frameworks handle by design.
+Fails when: tasks require parallel execution, complex graph-based coordination, or persistent memory across independent sessions. Accidental agent frameworks hit ceilings that purpose-built frameworks handle by design.
 
 ## Evidence
 Willison described the discovery of LLM's agent-shaped convergence directly:
@@ -39,7 +39,7 @@ He added: "Maybe the next version of LLM will bake the concept of an 'agent' int
 
 ## Signals
 - Your CLI tool supports pluggable tools from multiple sources and users start building feedback loops with it
-- Structured streaming events produce enough intermediate state for loop decisions without a separate orchestration layer
+- Structured streaming events produce enough intermediate state for loop decisions without a dedicated execution layer
 - Users are chaining your tool across multiple providers without asking for a dedicated agent mode
 
 ## Counter-evidence
