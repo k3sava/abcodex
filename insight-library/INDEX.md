@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1025 insight cards
-- 513 operator profiles
+- 1029 insight cards
+- 514 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -361,7 +361,7 @@ _Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (600)
+### Tier B (604)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -458,6 +458,7 @@ _Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_casey-hill-aeo-structural-prominence`](insights/ins_casey-hill-aeo-structural-prominence.md) — Structural prominence in nav, headers, and footer predicts LLM citation rates more reliably than body content alone _(Casey Hill)_
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
+- [`ins_chase-agent-infra-rebuild-tax`](insights/ins_chase-agent-infra-rebuild-tax.md) — The primary cost in production agent development is rebuilding the same infrastructure per project _(Harrison Chase)_
 - [`ins_chase-compound-intelligence-ownership`](insights/ins_chase-compound-intelligence-ownership.md) — Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access _(Harrison Chase)_
 - [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
@@ -955,6 +956,9 @@ _Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_y-combinator-ai-form-fill-autonomy`](insights/ins_y-combinator-ai-form-fill-autonomy.md) — Autonomous AI agents for niche B2B workflows can save double-digit hours weekly _(Y Combinator)_
 - [`ins_yael-davidowitz-pmm-shifts-consolidation-elevation`](insights/ins_yael-davidowitz-pmm-shifts-consolidation-elevation.md) — Product marketing is being elevated while in-house roles contract. _(Yael Davidowitz)_
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
+- [`ins_yegge-harness-model-coupling`](insights/ins_yegge-harness-model-coupling.md) — Agent harnesses break when the underlying model upgrades _(Steve Yegge)_
+- [`ins_yegge-seats-not-sessions`](insights/ins_yegge-seats-not-sessions.md) — Named persistent agent roles produce better engineering outputs than stateless sessions _(Steve Yegge)_
+- [`ins_yegge-thunderdome-cicd`](insights/ins_yegge-thunderdome-cicd.md) — Parallel coding agents break serial CI/CD merge queues _(Steve Yegge)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
@@ -1505,6 +1509,7 @@ _Generated 2026-08-10. Auto-built from frontmatter — do not edit by hand._
 - [Stefan Gladbach](operators/stefan-gladbach/README.md)
 - [Steph Smith](operators/steph-smith/README.md)
 - [Steve Krouse](operators/steve-krouse/README.md)
+- [Steve Yegge](operators/steve-yegge/README.md)
 - [Steven Forth](operators/steven-forth/README.md)
 - [Sulagna Das](operators/sulagna-das/README.md)
 - [Sumit N.](operators/sumit-n/README.md)
