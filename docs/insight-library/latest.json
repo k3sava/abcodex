@@ -1,24 +1,48 @@
 {
-  "generated_at": "2026-08-10T01:57:43.289Z",
+  "generated_at": "2026-08-11T02:02:14.628Z",
   "latest_daily": {
-    "path": "daily/2026-08-10.md",
-    "date": "2026-08-10",
-    "title": "Willison names two new AI evaluation failure modes; Crawshaw argues open source is the agent extension model",
-    "summary": "Three new cards from two operators, one new operator added. Simon Willison documents the UK AISI evaluation incident: deliberately stripping safety classifiers while providing live internet access made real-world attacks a predictable design outcome. A second Willison card identifies how agent behavior emerges bottom-up from composable CLI primitives without explicit agent framework design. David Crawshaw argues that open-source devtools hold a structural advantage in the agent era because source code replaces the extension model.",
-    "sources": [],
+    "path": "daily/2026-08-11.md",
+    "date": "2026-08-11",
+    "title": "Agentic engineering at scale, from two directions",
+    "summary": "Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.",
+    "sources": [
+      "https://yegge.ai/essays/the-shape-of-things-to-come/",
+      "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
+    ],
     "insights_added": [
-      "ins_willison-aisi-classifier-strip",
-      "ins_willison-emergent-agent-tooling",
-      "ins_crawshaw-open-source-agent-skin"
+      "ins_yegge-thunderdome-cicd",
+      "ins_yegge-harness-model-coupling",
+      "ins_yegge-seats-not-sessions",
+      "ins_chase-agent-infra-rebuild-tax"
     ],
     "operators_added": [
-      "david-crawshaw"
+      "steve-yegge"
     ],
     "patterns_added": [],
-    "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-11.md",
+      "date": "2026-08-11",
+      "title": "Agentic engineering at scale, from two directions",
+      "summary": "Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.",
+      "sources": [
+        "https://yegge.ai/essays/the-shape-of-things-to-come/",
+        "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
+      ],
+      "insights_added": [
+        "ins_yegge-thunderdome-cicd",
+        "ins_yegge-harness-model-coupling",
+        "ins_yegge-seats-not-sessions",
+        "ins_chase-agent-infra-rebuild-tax"
+      ],
+      "operators_added": [
+        "steve-yegge"
+      ],
+      "patterns_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-10.md",
       "date": "2026-08-10",
@@ -525,23 +549,6 @@
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-10.md",
-      "date": "2026-07-10",
-      "title": "Game over-exposure is a myth, and engineering ownership starts at problem definition",
-      "summary": "Two new cards. One theme in two domains: the constraint you think is real often isn't, and the work starts earlier than you think.",
-      "sources": [],
-      "insights_added": [
-        "ins_zukowski-overexposure-impossible",
-        "ins_ball-problem-not-solution"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_diagnose-before-execute"
-      ]
     }
   ]
 }
