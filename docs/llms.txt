@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1029 insights · 514 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 347 tier-A claims.
+Counts: 1033 insights · 515 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 347 tier-A claims.
 
 ## Index
 
@@ -36,7 +36,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 111 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 107 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 100 insights
-- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 67 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 69 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
 - [growth](https://abcodex.iamkesava.com/d/growth/) — 61 insights
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 42 insights
@@ -47,14 +47,14 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [aeo](https://abcodex.iamkesava.com/d/aeo/) — 31 insights
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 28 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 19 insights
-- [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 17 insights
+- [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 18 insights
 - [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 16 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
 - [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 10 insights
+- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 9 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 8 insights
 - [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 8 insights
-- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 8 insights
 - [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
 - [ai-gtm](https://abcodex.iamkesava.com/d/ai-gtm/) — 5 insights
 - [ai-ops](https://abcodex.iamkesava.com/d/ai-ops/) — 5 insights
@@ -75,6 +75,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [evals](https://abcodex.iamkesava.com/d/evals/) — 2 insights
 - [product-marketing](https://abcodex.iamkesava.com/d/product-marketing/) — 2 insights
 - [prompt-context-and-evals](https://abcodex.iamkesava.com/d/prompt-context-and-evals/) — 2 insights
+- [ai-native-company-building](https://abcodex.iamkesava.com/d/ai-native-company-building/) — 2 insights
 - [ios](https://abcodex.iamkesava.com/d/ios/) — 2 insights
 - [workflow](https://abcodex.iamkesava.com/d/workflow/) — 1 insight
 - [measurement](https://abcodex.iamkesava.com/d/measurement/) — 1 insight
@@ -92,6 +93,8 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [founder](https://abcodex.iamkesava.com/d/founder/) — 1 insight
 - [org-design](https://abcodex.iamkesava.com/d/org-design/) — 1 insight
 - [trust-and-safety](https://abcodex.iamkesava.com/d/trust-and-safety/) — 1 insight
+- [game-growth](https://abcodex.iamkesava.com/d/game-growth/) — 1 insight
+- [indie-dev](https://abcodex.iamkesava.com/d/indie-dev/) — 1 insight
 - [game-publishing](https://abcodex.iamkesava.com/d/game-publishing/) — 1 insight
 
 ## Schema
@@ -135,4 +138,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-08-11.
+Last updated: 2026-08-12.
