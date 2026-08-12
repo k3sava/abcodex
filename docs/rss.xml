@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 02:02:20 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 01:55:35 GMT</lastBuildDate>
+    <item>
+      <title>AI valuations, community signals, and festival genre fit</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-12/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-12/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.</description>
+    </item>
     <item>
       <title>Agentic engineering at scale, from two directions</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-11/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-12/</guid>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.</description>
-    </item>
-    <item>
-      <title>Context that AI can&apos;t see, and the two jobs knowledge work now has</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-11/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-11/</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.</description>
     </item>
   </channel>
 </rss>

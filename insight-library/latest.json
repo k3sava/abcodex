@@ -1,27 +1,54 @@
 {
-  "generated_at": "2026-08-11T02:02:14.628Z",
+  "generated_at": "2026-08-12T01:55:32.940Z",
   "latest_daily": {
-    "path": "daily/2026-08-11.md",
-    "date": "2026-08-11",
-    "title": "Agentic engineering at scale, from two directions",
-    "summary": "Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.",
+    "path": "daily/2026-08-12.md",
+    "date": "2026-08-12",
+    "title": "AI valuations, community signals, and festival genre fit",
+    "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
     "sources": [
-      "https://yegge.ai/essays/the-shape-of-things-to-come/",
-      "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
+      "https://tomtunguz.com/a-winner-in-every-category/",
+      "https://tomtunguz.com/ai-harness-arr-multiples/",
+      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
     ],
     "insights_added": [
-      "ins_yegge-thunderdome-cicd",
-      "ins_yegge-harness-model-coupling",
-      "ins_yegge-seats-not-sessions",
-      "ins_chase-agent-infra-rebuild-tax"
+      "ins_tunguz-ai-category-winner-premium",
+      "ins_tunguz-ai-harness-nine-month-arr",
+      "ins_indig-ugc-citation-dominance",
+      "ins_zukowski-festival-genre-over-count"
     ],
     "operators_added": [
-      "steve-yegge"
+      "tom-tunguz"
     ],
     "patterns_added": [],
+    "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-12.md",
+      "date": "2026-08-12",
+      "title": "AI valuations, community signals, and festival genre fit",
+      "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
+      "sources": [
+        "https://tomtunguz.com/a-winner-in-every-category/",
+        "https://tomtunguz.com/ai-harness-arr-multiples/",
+        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+        "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-category-winner-premium",
+        "ins_tunguz-ai-harness-nine-month-arr",
+        "ins_indig-ugc-citation-dominance",
+        "ins_zukowski-festival-genre-over-count"
+      ],
+      "operators_added": [
+        "tom-tunguz"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-11.md",
       "date": "2026-08-11",
@@ -526,25 +553,6 @@
       ],
       "operators_added": [
         "benedict-evans"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-11.md",
-      "date": "2026-07-11",
-      "title": "Context that AI can't see, and the two jobs knowledge work now has",
-      "summary": "Four new cards. Two themes: AI handles execution well but consistently misses invisible context, and two operators independently describe what knowledge work looks like when execution is no longer the bottleneck.",
-      "sources": [],
-      "insights_added": [
-        "ins_indig-seo-aio-decoupling",
-        "ins_varda-ai-commit-message-blindspot",
-        "ins_rachitsky-segal-manager-burnout-shield",
-        "ins_shipper-tend-your-loop"
-      ],
-      "operators_added": [
-        "kenton-varda"
       ],
       "patterns_added": [],
       "playbooks_added": [],

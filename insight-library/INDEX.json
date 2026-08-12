@@ -1,33 +1,36 @@
 {
-  "generated_at": "2026-08-11T02:02:14.478Z",
+  "generated_at": "2026-08-12T01:55:32.883Z",
   "counts": {
-    "insights": 1029,
-    "operators": 514,
+    "insights": 1033,
+    "operators": 515,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 72
+    "daily": 73
   },
   "latest_daily": {
-    "path": "daily/2026-08-11.md",
-    "date": "2026-08-11",
-    "title": "Agentic engineering at scale, from two directions",
-    "summary": "Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.",
+    "path": "daily/2026-08-12.md",
+    "date": "2026-08-12",
+    "title": "AI valuations, community signals, and festival genre fit",
+    "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
     "sources": [
-      "https://yegge.ai/essays/the-shape-of-things-to-come/",
-      "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
+      "https://tomtunguz.com/a-winner-in-every-category/",
+      "https://tomtunguz.com/ai-harness-arr-multiples/",
+      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
     ],
     "insights_added": [
-      "ins_yegge-thunderdome-cicd",
-      "ins_yegge-harness-model-coupling",
-      "ins_yegge-seats-not-sessions",
-      "ins_chase-agent-infra-rebuild-tax"
+      "ins_tunguz-ai-category-winner-premium",
+      "ins_tunguz-ai-harness-nine-month-arr",
+      "ins_indig-ugc-citation-dominance",
+      "ins_zukowski-festival-genre-over-count"
     ],
     "operators_added": [
-      "steve-yegge"
+      "tom-tunguz"
     ],
     "patterns_added": [],
+    "playbooks_added": [],
     "patterns_updated": []
   },
   "insights": [
@@ -10969,6 +10972,36 @@
       ],
       "raw_ref": "",
       "title": "Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies"
+    },
+    {
+      "path": "insights/ins_indig-ugc-citation-dominance.md",
+      "id": "ins_indig-ugc-citation-dominance",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor and SEO researcher, Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "source_type": "essay",
+      "source_title": "How to grow your AI Visibility with community signals",
+      "source_date": "2026-08-10",
+      "captured_date": "2026-08-12",
+      "domain": [
+        "aeo-llm-search",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_kevin-indig-reasoning-lift-two-universes",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_ghost-citation-gap"
+      ],
+      "raw_ref": "",
+      "title": "UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable"
     },
     {
       "path": "insights/ins_influence-is-discovery-not-conviction.md",
@@ -25203,6 +25236,34 @@
       "title": "AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once"
     },
     {
+      "path": "insights/ins_tunguz-ai-category-winner-premium.md",
+      "id": "ins_tunguz-ai-category-winner-premium",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/a-winner-in-every-category/",
+      "source_type": "essay",
+      "source_title": "A Winner in Every Category",
+      "source_date": "2026-08-11",
+      "captured_date": "2026-08-12",
+      "domain": [
+        "ai-native-company-building",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-harness-nine-month-arr"
+      ],
+      "raw_ref": "",
+      "title": "One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly"
+    },
+    {
       "path": "insights/ins_tunguz-ai-ghostwriter-editor.md",
       "id": "ins_tunguz-ai-ghostwriter-editor",
       "operator": "Tom Tunguz",
@@ -25232,6 +25293,34 @@
       ],
       "raw_ref": "",
       "title": "AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-harness-nine-month-arr.md",
+      "id": "ins_tunguz-ai-harness-nine-month-arr",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-harness-arr-multiples/",
+      "source_type": "essay",
+      "source_title": "AI Harness' ARR Multiples",
+      "source_date": "2026-08-09",
+      "captured_date": "2026-08-12",
+      "domain": [
+        "ai-native-company-building",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-category-winner-premium"
+      ],
+      "raw_ref": "",
+      "title": "Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate"
     },
     {
       "path": "insights/ins_tunguz-ai-productivity-operating-layer.md",
@@ -28625,6 +28714,32 @@
       ],
       "raw_ref": "",
       "title": "A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting"
+    },
+    {
+      "path": "insights/ins_zukowski-festival-genre-over-count.md",
+      "id": "ins_zukowski-festival-genre-over-count",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/",
+      "source_type": "essay",
+      "source_title": "The state of virtual 3rd-party festivals 2026",
+      "source_date": "2026-08-11",
+      "captured_date": "2026-08-12",
+      "domain": [
+        "game-growth",
+        "indie-dev"
+      ],
+      "lifecycle": [
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Festival genre fit predicts indie game visibility ROI more reliably than total festival count"
     },
     {
       "path": "insights/ins_zukowski-friendslop-demand-cycle.md",
@@ -37553,6 +37668,26 @@
       "title": "TK Kader"
     },
     {
+      "path": "operators/tom-tunguz/README.md",
+      "name": "Tom Tunguz",
+      "slug": "tom-tunguz",
+      "roles": [
+        "General Partner, Theory Ventures",
+        "Former General Partner, Redpoint Ventures"
+      ],
+      "domains_active": [
+        "ai-native-company-building",
+        "founder-operator",
+        "growth"
+      ],
+      "captured_first": "2026-08-12",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/tomasztunguz/",
+        "newsletter": "https://tomtunguz.com/"
+      },
+      "title": "Tom Tunguz"
+    },
+    {
       "path": "operators/tom-verrilli/README.md",
       "name": "Tom Verrilli",
       "slug": "tom-verrilli",
@@ -44155,6 +44290,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-12.md",
+      "date": "2026-08-12",
+      "title": "AI valuations, community signals, and festival genre fit",
+      "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
+      "sources": [
+        "https://tomtunguz.com/a-winner-in-every-category/",
+        "https://tomtunguz.com/ai-harness-arr-multiples/",
+        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+        "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-category-winner-premium",
+        "ins_tunguz-ai-harness-nine-month-arr",
+        "ins_indig-ugc-citation-dominance",
+        "ins_zukowski-festival-genre-over-count"
+      ],
+      "operators_added": [
+        "tom-tunguz"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-11.md",
       "date": "2026-08-11",

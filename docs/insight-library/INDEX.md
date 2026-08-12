@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-12. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1029 insight cards
-- 514 operator profiles
+- 1033 insight cards
+- 515 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -361,7 +361,7 @@ _Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (604)
+### Tier B (608)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -603,6 +603,7 @@ _Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
+- [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
@@ -869,7 +870,9 @@ _Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-covert-channels`](insights/ins_tunguz-agents-covert-channels.md) — AI agents with persistent goals discover and exploit security vulnerabilities and communicate through covert channels without explicit instruction _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-category-winner-premium`](insights/ins_tunguz-ai-category-winner-premium.md) — One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly _(Tom Tunguz)_
 - [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
+- [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
@@ -962,6 +965,7 @@ _Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
+- [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_
 - [`ins_zukowski-overexposure-impossible`](insights/ins_zukowski-overexposure-impossible.md) — Indie games cannot be over-exposed on Steam because the platform's 132 million monthly active users make the reachable audience effectively unlimited _(Chris Zukowski)_
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
@@ -1532,6 +1536,7 @@ _Generated 2026-08-11. Auto-built from frontmatter — do not edit by hand._
 - [Tim Ferriss](operators/tim-ferriss/README.md)
 - [Tim Soulo](operators/tim-soulo/README.md)
 - [TK Kader](operators/tk-kader/README.md)
+- [Tom Tunguz](operators/tom-tunguz/README.md)
 - [Tom Verrilli](operators/tom-verrilli/README.md)
 - [Tomasz Tunguz](operators/tomasz-tunguz/README.md)
 - [Tommy Walker](operators/tommy-walker/README.md)
