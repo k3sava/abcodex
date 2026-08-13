@@ -6,13 +6,13 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 01:54:25 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 01:56:33 GMT</lastBuildDate>
     <item>
       <title>AI category repricing and the retrieval-first engineering sequence</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-13/</link>
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-13/</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework — an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.</description>
+      <description>Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.</description>
     </item>
     <item>
       <title>AI valuations, community signals, and festival genre fit</title>

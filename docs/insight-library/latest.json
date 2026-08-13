@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T01:54:21.536Z",
+  "generated_at": "2026-08-13T01:56:30.705Z",
   "latest_daily": {
     "path": "daily/2026-08-13.md",
     "date": "2026-08-13",
     "title": "AI category repricing and the retrieval-first engineering sequence",
-    "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework — an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
+    "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
     "sources": [
       "https://www.growth-memo.com/p/growth-intelligence-brief-22",
       "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
@@ -24,7 +24,7 @@
       "path": "daily/2026-08-13.md",
       "date": "2026-08-13",
       "title": "AI category repricing and the retrieval-first engineering sequence",
-      "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework — an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
+      "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
       "sources": [
         "https://www.growth-memo.com/p/growth-intelligence-brief-22",
         "https://hamel.dev/notes/llm/ai-product-engineering/index.html"

@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest · 2026-08-13 · 3 insights
 
-**AI category repricing and the retrieval-first engineering sequence.** Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework — an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.
+**AI category repricing and the retrieval-first engineering sequence.** Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.
 
 [Read what landed →](insight-library/daily/2026-08-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
