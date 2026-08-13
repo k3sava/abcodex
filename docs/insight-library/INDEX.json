@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-08-12T01:58:16.985Z",
+  "generated_at": "2026-08-13T01:56:30.684Z",
   "counts": {
-    "insights": 1033,
+    "insights": 1036,
     "operators": 515,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 73
+    "daily": 74
   },
   "latest_daily": {
-    "path": "daily/2026-08-12.md",
-    "date": "2026-08-12",
-    "title": "AI valuations, community signals, and festival genre fit",
-    "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
+    "path": "daily/2026-08-13.md",
+    "date": "2026-08-13",
+    "title": "AI category repricing and the retrieval-first engineering sequence",
+    "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
     "sources": [
-      "https://tomtunguz.com/a-winner-in-every-category/",
-      "https://tomtunguz.com/ai-harness-arr-multiples/",
-      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
-      "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
+      "https://www.growth-memo.com/p/growth-intelligence-brief-22",
+      "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
     ],
     "insights_added": [
-      "ins_tunguz-ai-category-winner-premium",
-      "ins_tunguz-ai-harness-nine-month-arr",
-      "ins_indig-ugc-citation-dominance",
-      "ins_zukowski-festival-genre-over-count"
+      "ins_indig-category-decline-ai-repricing",
+      "ins_husain-retrieval-first-hierarchy",
+      "ins_husain-model-cascade-routing"
     ],
-    "operators_added": [
-      "tom-tunguz"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -10287,6 +10282,35 @@
       "title": "Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort"
     },
     {
+      "path": "insights/ins_husain-model-cascade-routing.md",
+      "id": "ins_husain-model-cascade-routing",
+      "operator": "Hamel Husain",
+      "operator_role": "AI product advisor and ML educator; co-creator of AI Evals for Engineers course",
+      "co_operators": [],
+      "source_url": "https://hamel.dev/notes/llm/ai-product-engineering/index.html",
+      "source_type": "essay",
+      "source_title": "AI Product Engineering Notes",
+      "source_date": "2026-08-12",
+      "captured_date": "2026-08-13",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_husain-retrieval-first-hierarchy"
+      ],
+      "raw_ref": "",
+      "title": "Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost"
+    },
+    {
       "path": "insights/ins_husain-product-before-evals.md",
       "id": "ins_husain-product-before-evals",
       "operator": "Hamel Husain",
@@ -10312,6 +10336,37 @@
       "related": [],
       "raw_ref": "",
       "title": "Most LLM evaluation failures trace to product design problems upstream of the model, not model capability"
+    },
+    {
+      "path": "insights/ins_husain-retrieval-first-hierarchy.md",
+      "id": "ins_husain-retrieval-first-hierarchy",
+      "operator": "Hamel Husain",
+      "operator_role": "AI product advisor and ML educator; co-creator of AI Evals for Engineers course",
+      "co_operators": [],
+      "source_url": "https://hamel.dev/notes/llm/ai-product-engineering/index.html",
+      "source_type": "essay",
+      "source_title": "AI Product Engineering Notes",
+      "source_date": "2026-08-12",
+      "captured_date": "2026-08-13",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "product"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_evals-are-data-analysis-on-llm-apps",
+        "ins_husain-model-cascade-routing"
+      ],
+      "raw_ref": "",
+      "title": "Optimize retrieval and context before touching systems, and post-train only after exhausting both"
     },
     {
       "path": "insights/ins_hyper-personalization-cold-email.md",
@@ -10813,6 +10868,37 @@
       ],
       "raw_ref": "",
       "title": "In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist"
+    },
+    {
+      "path": "insights/ins_indig-category-decline-ai-repricing.md",
+      "id": "ins_indig-category-decline-ai-repricing",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo; former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/growth-intelligence-brief-22",
+      "source_type": "research",
+      "source_title": "Growth Intelligence Brief #22",
+      "source_date": "2026-08-06",
+      "captured_date": "2026-08-13",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "strategy",
+        "measurement-experimentation"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ai-mode-commercial-shift",
+        "ins_indig-ai-search-category-ownership"
+      ],
+      "raw_ref": "",
+      "title": "When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors"
     },
     {
       "path": "insights/ins_indig-citation-vs-mention-depth-breadth.md",
@@ -44290,6 +44376,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-13.md",
+      "date": "2026-08-13",
+      "title": "AI category repricing and the retrieval-first engineering sequence",
+      "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
+      "sources": [
+        "https://www.growth-memo.com/p/growth-intelligence-brief-22",
+        "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
+      ],
+      "insights_added": [
+        "ins_indig-category-decline-ai-repricing",
+        "ins_husain-retrieval-first-hierarchy",
+        "ins_husain-model-cascade-routing"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-12.md",
       "date": "2026-08-12",

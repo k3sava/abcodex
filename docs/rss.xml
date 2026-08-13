@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 01:58:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 01:56:33 GMT</lastBuildDate>
+    <item>
+      <title>AI category repricing and the retrieval-first engineering sequence</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-13/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-13/</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.</description>
+    </item>
     <item>
       <title>AI valuations, community signals, and festival genre fit</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-12/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-13/</guid>
       <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.</description>
-    </item>
-    <item>
-      <title>Deployment bottlenecks, commodity pricing, and the end of prompting tricks</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-12/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-12/</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards. One quiet convergence: Tunguz, Evans, and Mollick each wrote independently about a different layer of the AI stack and arrived at the same structural observation. The model layer is not where lasting value concentrates.</description>
     </item>
   </channel>
 </rss>
