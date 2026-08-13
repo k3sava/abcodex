@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-12. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1033 insight cards
+- 1036 insight cards
 - 515 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -361,7 +361,7 @@ _Generated 2026-08-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (608)
+### Tier B (611)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -586,7 +586,9 @@ _Generated 2026-08-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
+- [`ins_husain-model-cascade-routing`](insights/ins_husain-model-cascade-routing.md) — Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost _(Hamel Husain)_
 - [`ins_husain-product-before-evals`](insights/ins_husain-product-before-evals.md) — Most LLM evaluation failures trace to product design problems upstream of the model, not model capability _(Hamel Husain)_
+- [`ins_husain-retrieval-first-hierarchy`](insights/ins_husain-retrieval-first-hierarchy.md) — Optimize retrieval and context before touching systems, and post-train only after exhausting both _(Hamel Husain)_
 - [`ins_hyper-personalization-cold-email`](insights/ins_hyper-personalization-cold-email.md) — Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization _(Nick Abraham)_
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
@@ -599,6 +601,7 @@ _Generated 2026-08-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
+- [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
