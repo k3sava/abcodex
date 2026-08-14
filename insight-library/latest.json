@@ -1,25 +1,56 @@
 {
-  "generated_at": "2026-08-13T01:56:30.705Z",
+  "generated_at": "2026-08-14T01:56:51.071Z",
   "latest_daily": {
-    "path": "daily/2026-08-13.md",
-    "date": "2026-08-13",
-    "title": "AI category repricing and the retrieval-first engineering sequence",
-    "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
+    "path": "daily/2026-08-14.md",
+    "date": "2026-08-14",
+    "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
+    "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
     "sources": [
-      "https://www.growth-memo.com/p/growth-intelligence-brief-22",
-      "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
+      "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "https://www.humanlayer.dev/blog/show-me-skill",
+      "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
+      "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
     ],
     "insights_added": [
-      "ins_indig-category-decline-ai-repricing",
-      "ins_husain-retrieval-first-hierarchy",
-      "ins_husain-model-cascade-routing"
+      "ins_willison-confirmation-fatigue-agent-approval",
+      "ins_horthy-visual-artifacts-agent-ux",
+      "ins_williams-cook-llms-txt-geo-astrology",
+      "ins_alpert-lossless-llm-rewrite"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mark-williams-cook",
+      "sophie-alpert"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-14.md",
+      "date": "2026-08-14",
+      "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
+      "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/8/auto-mode/",
+        "https://www.humanlayer.dev/blog/show-me-skill",
+        "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
+        "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
+      ],
+      "insights_added": [
+        "ins_willison-confirmation-fatigue-agent-approval",
+        "ins_horthy-visual-artifacts-agent-ux",
+        "ins_williams-cook-llms-txt-geo-astrology",
+        "ins_alpert-lossless-llm-rewrite"
+      ],
+      "operators_added": [
+        "mark-williams-cook",
+        "sophie-alpert"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-13.md",
       "date": "2026-08-13",
@@ -532,22 +563,6 @@
         "ins_tunguz-41-day-frontier-window",
         "ins_tunguz-ai-retention-colander",
         "ins_tunguz-agents-erp-bypass"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-13.md",
-      "date": "2026-07-13",
-      "title": "Agent accountability, preflight memory, and the database lesson for inference infrastructure",
-      "summary": "Three new cards from two operators. Willison on why machines cannot be DRI. Tunguz twice: memory architecture over context size, and the database fragmentation pattern repeating in AI inference.",
-      "sources": [],
-      "insights_added": [
-        "ins_willison-agent-dri-accountability",
-        "ins_tunguz-preflight-skill-retrieval",
-        "ins_tunguz-inference-stack-fragmentation"
       ],
       "operators_added": [],
       "patterns_added": [],
