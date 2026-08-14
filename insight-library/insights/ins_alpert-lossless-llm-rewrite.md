@@ -31,7 +31,7 @@ The model cannot recover what was compressed out of the original text during the
 This is not a failure mode that better models will eliminate. It is a structural property of natural language: the mapping from intent to words is many-to-many, and no model trained on text can reconstruct intent from text alone.
 
 ## Conditions
-Holds when: an LLM is asked to rewrite, rephrase, summarize, edit for style, or otherwise transform human-authored text. The claim is strongest in technical, legal, or precise scientific writing where word-level distinctions carry meaning that is invisible to models without domain context.
+Holds when: an LLM is asked to rewrite, rephrase, summarize, edit for style, or otherwise alter human-authored text. The claim is strongest in technical, legal, or precise scientific writing where word-level distinctions carry meaning that is invisible to models without domain context.
 
 Fails when: the transformation target is defined well enough that the author's intent is fully recoverable from the surface text. Plain-English legal summarization where the intent is explicitly "produce a simpler version for a lay reader" is an instance where the author has consented to meaning loss.
 
