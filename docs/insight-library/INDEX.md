@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1036 insight cards
-- 515 operator profiles
+- 1040 insight cards
+- 517 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -361,7 +361,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (611)
+### Tier B (614)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -397,6 +397,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_aleyda-solis-ai-links-not-automatically-traffic`](insights/ins_aleyda-solis-ai-links-not-automatically-traffic.md) — More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score _(Aleyda Solis)_
 - [`ins_alina-vandenberghe-recruiting-process-transparency`](insights/ins_alina-vandenberghe-recruiting-process-transparency.md) — Communication is the leverage skill that turns founder-CEO into co-CEO _(Alina Vandenberghe)_
 - [`ins_all-problems-become-people-problems`](insights/ins_all-problems-become-people-problems.md) — Above a certain level, every problem is a people problem _(Silvia Botros)_
+- [`ins_alpert-lossless-llm-rewrite`](insights/ins_alpert-lossless-llm-rewrite.md) — Every LLM rewrite changes meaning because the model lacks the author's mental model of what the words are meant to communicate _(Sophie Alpert)_
 - [`ins_altman-belief-as-sales-engine`](insights/ins_altman-belief-as-sales-engine.md) — Sales is conviction transfer, the best way to be good at sales is to genuinely believe in what you're selling _(Sam Altman)_
 - [`ins_altman-network-through-generosity`](insights/ins_altman-network-through-generosity.md) — Build a network by helping people as much as you can, generosity compounds, transactional networking does not _(Sam Altman)_
 - [`ins_always-believed-being-transparent-what`](insights/ins_always-believed-being-transparent-what.md) — Pattern interrupts beat optimization in early-stage SaaS marketing _(Madhav Bhandari)_
@@ -928,6 +929,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-generic-hits-ceiling-here`](insights/ins_why-generic-hits-ceiling-here.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Collin Mayjack)_
 - [`ins_why-generic-hits-ceiling-here-gorish`](insights/ins_why-generic-hits-ceiling-here-gorish.md) — That is why generic AI hits a ceiling here faster than almost anywhere else _(Gorish Aggarwal)_
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
+- [`ins_williams-cook-llms-txt-geo-astrology`](insights/ins_williams-cook-llms-txt-geo-astrology.md) — The four proofs used to justify llms.txt as a GEO tactic apply equally to a satirical file about office cats, exposing all four as insufficient evidence _(Mark Williams-Cook)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
@@ -935,6 +937,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
+- [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
@@ -974,7 +977,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 
-### Tier C (78)
+### Tier C (79)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1008,6 +1011,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hans-dekker-pre-built-ai-skills-for-gtm`](insights/ins_hans-dekker-pre-built-ai-skills-for-gtm.md) — Pre-built Claude skills eliminate blank-page paralysis for GTM teams _(Hans Dekker)_
 - [`ins_harsha-annadurai-building-high-performing-teams`](insights/ins_harsha-annadurai-building-high-performing-teams.md) — Building high-performing content, PMM, and marketing teams requires a specific, intentional approach. _(Harsha Annadurai)_
 - [`ins_harshit-mahawar-quick-commerce-copycat-critique`](insights/ins_harshit-mahawar-quick-commerce-copycat-critique.md) — Zepto copying Blinkit is a bad sign for quick commerce differentiation _(Harshit Mahawar)_
+- [`ins_horthy-visual-artifacts-agent-ux`](insights/ins_horthy-visual-artifacts-agent-ux.md) — Coding agents explaining code through visual artifacts outperform text-wall responses because visual cortex processing is effortless and prose analysis is not _(Dex Horthy)_
 - [`ins_isha-ahuja-no-substantive-content`](insights/ins_isha-ahuja-no-substantive-content.md) — No substantive stance or observation extracted _(Isha Ahuja)_
 - [`ins_jacki-schroder-brown-positioning-and-messaging-in-30-days`](insights/ins_jacki-schroder-brown-positioning-and-messaging-in-30-days.md) — Positioning and messaging can be built from first draft to market-ready in 30 days. _(Jacki Schroder Brown)_
 - [`ins_jagpreet-kaur-gratitude-for-people-in-hr`](insights/ins_jagpreet-kaur-gratitude-for-people-in-hr.md) — Gratitude for the journey and incredible humans met along the way _(Jagpreet Kaur)_
@@ -1370,6 +1374,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [Mark Brown](operators/mark-brown/README.md)
 - [Mark Kosoglow](operators/mark-kosoglow/README.md)
 - [Mark Roberge](operators/mark-roberge/README.md)
+- [Mark Williams-Cook](operators/mark-williams-cook/README.md)
 - [Marketoonist](operators/marketoonist/README.md)
 - [Markie Wagner](operators/markie-wagner/README.md)
 - [Martin Uushona](operators/martin-uushona/README.md)
@@ -1510,6 +1515,7 @@ _Generated 2026-08-13. Auto-built from frontmatter — do not edit by hand._
 - [Simon Willison](operators/simon-willison/README.md)
 - [Sjeel K.](operators/sjeel-k/README.md)
 - [Smriti Sahu](operators/smriti-sahu/README.md)
+- [Sophie Alpert](operators/sophie-alpert/README.md)
 - [Sourav Ghosh](operators/sourav-ghosh/README.md)
 - [Sourav Mohanty](operators/sourav-mohanty/README.md)
 - [Srikanth Reddy](operators/srikanth-reddy/README.md)

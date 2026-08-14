@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-13 · 3 insights
+### Latest · 2026-08-14 · 4 insights · 2 operators
 
-**AI category repricing and the retrieval-first engineering sequence.** Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.
+**Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites.** Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.
 
-[Read what landed →](insight-library/daily/2026-08-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1036** insight cards
-- **515** operator profiles
+- **1040** insight cards
+- **517** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 515 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 517 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

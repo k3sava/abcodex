@@ -1,29 +1,35 @@
 {
-  "generated_at": "2026-08-13T01:56:30.684Z",
+  "generated_at": "2026-08-14T01:56:51.006Z",
   "counts": {
-    "insights": 1036,
-    "operators": 515,
+    "insights": 1040,
+    "operators": 517,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 74
+    "daily": 75
   },
   "latest_daily": {
-    "path": "daily/2026-08-13.md",
-    "date": "2026-08-13",
-    "title": "AI category repricing and the retrieval-first engineering sequence",
-    "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
+    "path": "daily/2026-08-14.md",
+    "date": "2026-08-14",
+    "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
+    "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
     "sources": [
-      "https://www.growth-memo.com/p/growth-intelligence-brief-22",
-      "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
+      "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "https://www.humanlayer.dev/blog/show-me-skill",
+      "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
+      "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
     ],
     "insights_added": [
-      "ins_indig-category-decline-ai-repricing",
-      "ins_husain-retrieval-first-hierarchy",
-      "ins_husain-model-cascade-routing"
+      "ins_willison-confirmation-fatigue-agent-approval",
+      "ins_horthy-visual-artifacts-agent-ux",
+      "ins_williams-cook-llms-txt-geo-astrology",
+      "ins_alpert-lossless-llm-rewrite"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mark-williams-cook",
+      "sophie-alpert"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -1550,6 +1556,35 @@
       ],
       "raw_ref": "raw/essays/silvia-botros--principal-engineer-reality--2020-08.md",
       "title": "Above a certain level, every problem is a people problem"
+    },
+    {
+      "path": "insights/ins_alpert-lossless-llm-rewrite.md",
+      "id": "ins_alpert-lossless-llm-rewrite",
+      "operator": "Sophie Alpert",
+      "operator_role": "Engineer at Clay; former React core team lead",
+      "co_operators": [],
+      "source_url": "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text",
+      "source_type": "essay",
+      "source_title": "There are no lossless transformations of natural-language text",
+      "source_date": "2026-06-25",
+      "captured_date": "2026-08-14",
+      "domain": [
+        "ai-native",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "process-cadence"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_horthy-visual-artifacts-agent-ux",
+        "ins_willison-confirmation-fatigue-agent-approval"
+      ],
+      "raw_ref": "",
+      "title": "Every LLM rewrite changes meaning because the model lacks the author's mental model of what the words are meant to communicate"
     },
     {
       "path": "insights/ins_altman-ai-not-a-business-exception.md",
@@ -10004,6 +10039,35 @@
       ],
       "raw_ref": "",
       "title": "Sycophantic agreement signals autoregressive trajectory poisoning; the fix is a session reset, not continued prompting"
+    },
+    {
+      "path": "insights/ins_horthy-visual-artifacts-agent-ux.md",
+      "id": "ins_horthy-visual-artifacts-agent-ux",
+      "operator": "Dex Horthy",
+      "operator_role": "CEO of HumanLayer; author of 12-Factor Agents",
+      "co_operators": [],
+      "source_url": "https://www.humanlayer.dev/blog/show-me-skill",
+      "source_type": "essay",
+      "source_title": "show-me: a coding agent skill for compact visual representations",
+      "source_date": "2026-08-12",
+      "captured_date": "2026-08-14",
+      "domain": [
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_horthy-context-dumb-zone",
+        "ins_horthy-trajectory-poisoning-reset"
+      ],
+      "raw_ref": "",
+      "title": "Coding agents explaining code through visual artifacts outperform text-wall responses because visual cortex processing is effortless and prose analysis is not"
     },
     {
       "path": "insights/ins_hourly-billing-is-nuts.md",
@@ -27318,6 +27382,35 @@
       "title": "This is why, as a non-coder, getting applause from engineers is amazing to say the least"
     },
     {
+      "path": "insights/ins_williams-cook-llms-txt-geo-astrology.md",
+      "id": "ins_williams-cook-llms-txt-geo-astrology",
+      "operator": "Mark Williams-Cook",
+      "operator_role": "Independent SEO researcher and consultant; creator of AlsoAsked.com",
+      "co_operators": [],
+      "source_url": "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
+      "source_type": "essay",
+      "source_title": "How cats.txt Showed LLMs.txt Evidence Is GEO Astrology",
+      "source_date": "2026-08-07",
+      "captured_date": "2026-08-14",
+      "domain": [
+        "aeo-llm-search",
+        "seo"
+      ],
+      "lifecycle": [
+        "positioning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_indig-ugc-citation-dominance"
+      ],
+      "raw_ref": "",
+      "title": "The four proofs used to justify llms.txt as a GEO tactic apply equally to a satirical file about office cats, exposing all four as insufficient evidence"
+    },
+    {
       "path": "insights/ins_willingness-to-pay-by-segment.md",
       "id": "ins_willingness-to-pay-by-segment",
       "operator": "Andrew Wilkinson",
@@ -27524,6 +27617,36 @@
       ],
       "raw_ref": "",
       "title": "Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance"
+    },
+    {
+      "path": "insights/ins_willison-confirmation-fatigue-agent-approval.md",
+      "id": "ins_willison-confirmation-fatigue-agent-approval",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; prolific open-source developer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/8/auto-mode/",
+      "source_type": "essay",
+      "source_title": "Auto mode is now the default in Claude Code",
+      "source_date": "2026-08-08",
+      "captured_date": "2026-08-14",
+      "domain": [
+        "agentic-coding",
+        "security"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_auto-mode-context-classifier"
+      ],
+      "raw_ref": "",
+      "title": "Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them"
     },
     {
       "path": "insights/ins_willison-cross-model-review.md",
@@ -34736,6 +34859,25 @@
       "title": "Mark Roberge"
     },
     {
+      "path": "operators/mark-williams-cook/README.md",
+      "name": "Mark Williams-Cook",
+      "slug": "mark-williams-cook",
+      "roles": [
+        "Independent SEO researcher and consultant",
+        "creator of AlsoAsked.com",
+        "contributor to Search Engine Journal"
+      ],
+      "domains_active": [
+        "seo",
+        "aeo-llm-search"
+      ],
+      "captured_first": "2026-08-14",
+      "external": {
+        "website": "https://www.alsoasked.com/"
+      },
+      "title": "Mark Williams-Cook"
+    },
+    {
       "path": "operators/marketoonist/README.md",
       "name": "Marketoonist",
       "slug": "marketoonist",
@@ -37243,6 +37385,25 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Smriti Sahu"
+    },
+    {
+      "path": "operators/sophie-alpert/README.md",
+      "name": "Sophie Alpert",
+      "slug": "sophie-alpert",
+      "roles": [
+        "Engineer at Clay",
+        "former React core team lead at Meta",
+        "open-source contributor"
+      ],
+      "domains_active": [
+        "ai-native",
+        "content-strategy"
+      ],
+      "captured_first": "2026-08-14",
+      "external": {
+        "website": "https://sophiebits.com/"
+      },
+      "title": "Sophie Alpert"
     },
     {
       "path": "operators/sourav-ghosh/README.md",
@@ -44376,6 +44537,31 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-14.md",
+      "date": "2026-08-14",
+      "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
+      "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/8/auto-mode/",
+        "https://www.humanlayer.dev/blog/show-me-skill",
+        "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
+        "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
+      ],
+      "insights_added": [
+        "ins_willison-confirmation-fatigue-agent-approval",
+        "ins_horthy-visual-artifacts-agent-ux",
+        "ins_williams-cook-llms-txt-geo-astrology",
+        "ins_alpert-lossless-llm-rewrite"
+      ],
+      "operators_added": [
+        "mark-williams-cook",
+        "sophie-alpert"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-13.md",
       "date": "2026-08-13",
