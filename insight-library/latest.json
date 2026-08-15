@@ -1,31 +1,54 @@
 {
-  "generated_at": "2026-08-14T01:56:51.071Z",
+  "generated_at": "2026-08-15T01:50:57.908Z",
   "latest_daily": {
-    "path": "daily/2026-08-14.md",
-    "date": "2026-08-14",
-    "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
-    "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
+    "path": "daily/2026-08-15.md",
+    "date": "2026-08-15",
+    "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
+    "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/8/auto-mode/",
-      "https://www.humanlayer.dev/blog/show-me-skill",
-      "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
-      "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
+      "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "https://tomtunguz.com/model-release-exhaustion/",
+      "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+      "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
     ],
     "insights_added": [
-      "ins_willison-confirmation-fatigue-agent-approval",
-      "ins_horthy-visual-artifacts-agent-ux",
-      "ins_williams-cook-llms-txt-geo-astrology",
-      "ins_alpert-lossless-llm-rewrite"
+      "ins_turnbull-hypothetical-classification",
+      "ins_tunguz-sota-buyer-distribution",
+      "ins_willison-system-prompt-knowledge-injection",
+      "ins_solis-cited-vs-traffic-page-gap"
     ],
     "operators_added": [
-      "mark-williams-cook",
-      "sophie-alpert"
+      "doug-turnbull"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-15.md",
+      "date": "2026-08-15",
+      "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
+      "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
+      "sources": [
+        "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+        "https://tomtunguz.com/model-release-exhaustion/",
+        "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+        "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
+      ],
+      "insights_added": [
+        "ins_turnbull-hypothetical-classification",
+        "ins_tunguz-sota-buyer-distribution",
+        "ins_willison-system-prompt-knowledge-injection",
+        "ins_solis-cited-vs-traffic-page-gap"
+      ],
+      "operators_added": [
+        "doug-turnbull"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-14.md",
       "date": "2026-08-14",
@@ -549,22 +572,6 @@
       "operators_added": [
         "adam-mosseri"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-14.md",
-      "date": "2026-07-14",
-      "title": "The 41-day model window, the colander retention curve, and how agents are quietly draining ERP value",
-      "summary": "Three new cards from one operator across two posts. Tunguz on the frontier model supremacy cycle that resets buyer pricing power every six weeks, the retention benchmark that separates sticky AI products from the rest, and the ERP displacement vector that bypasses switching costs entirely.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-41-day-frontier-window",
-        "ins_tunguz-ai-retention-colander",
-        "ins_tunguz-agents-erp-bypass"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

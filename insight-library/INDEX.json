@@ -1,34 +1,33 @@
 {
-  "generated_at": "2026-08-14T01:56:51.006Z",
+  "generated_at": "2026-08-15T01:50:57.816Z",
   "counts": {
-    "insights": 1040,
-    "operators": 517,
+    "insights": 1044,
+    "operators": 518,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 75
+    "daily": 76
   },
   "latest_daily": {
-    "path": "daily/2026-08-14.md",
-    "date": "2026-08-14",
-    "title": "Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites",
-    "summary": "Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.",
+    "path": "daily/2026-08-15.md",
+    "date": "2026-08-15",
+    "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
+    "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/8/auto-mode/",
-      "https://www.humanlayer.dev/blog/show-me-skill",
-      "https://www.searchenginejournal.com/how-cats-txt-showed-llms-txt-evidence-is-geo-astrology/584653/",
-      "https://sophiebits.com/2026/06/25/there-are-no-lossless-transformations-of-natural-language-text"
+      "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "https://tomtunguz.com/model-release-exhaustion/",
+      "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+      "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
     ],
     "insights_added": [
-      "ins_willison-confirmation-fatigue-agent-approval",
-      "ins_horthy-visual-artifacts-agent-ux",
-      "ins_williams-cook-llms-txt-geo-astrology",
-      "ins_alpert-lossless-llm-rewrite"
+      "ins_turnbull-hypothetical-classification",
+      "ins_tunguz-sota-buyer-distribution",
+      "ins_willison-system-prompt-knowledge-injection",
+      "ins_solis-cited-vs-traffic-page-gap"
     ],
     "operators_added": [
-      "mark-williams-cook",
-      "sophie-alpert"
+      "doug-turnbull"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -23005,6 +23004,36 @@
       "title": "Software is not a moat, ecosystems, hardware, and distribution are"
     },
     {
+      "path": "insights/ins_solis-cited-vs-traffic-page-gap.md",
+      "id": "ins_solis-cited-vs-traffic-page-gap",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant; Founder, Orainti",
+      "co_operators": [],
+      "source_url": "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/",
+      "source_type": "research",
+      "source_title": "2026 Generative AI Landscape Report",
+      "source_date": "2026-07-27",
+      "captured_date": "2026-08-15",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "measurement",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-ai-links-not-automatically-traffic",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+      ],
+      "raw_ref": "",
+      "title": "The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization"
+    },
+    {
       "path": "insights/ins_solis-content-six-dimensions.md",
       "id": "ins_solis-content-six-dimensions",
       "operator": "Aleyda Solis",
@@ -26128,6 +26157,36 @@
       "title": "Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task"
     },
     {
+      "path": "insights/ins_tunguz-sota-buyer-distribution.md",
+      "id": "ins_tunguz-sota-buyer-distribution",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/model-release-exhaustion/",
+      "source_type": "essay",
+      "source_title": "Honestly, Who Buys SOTA?",
+      "source_date": "2026-08-14",
+      "captured_date": "2026-08-15",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-tier-segmentation-jevons",
+        "ins_tunguz-model-substitution-reinvestment"
+      ],
+      "raw_ref": "",
+      "title": "Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores"
+    },
+    {
       "path": "insights/ins_tunguz-tier-segmentation-jevons.md",
       "id": "ins_tunguz-tier-segmentation-jevons",
       "operator": "Tom Tunguz",
@@ -26157,6 +26216,32 @@
       ],
       "raw_ref": "",
       "title": "AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping"
+    },
+    {
+      "path": "insights/ins_turnbull-hypothetical-classification.md",
+      "id": "ins_turnbull-hypothetical-classification",
+      "operator": "Doug Turnbull",
+      "operator_role": "Independent search relevance engineer; softwaredoug.com",
+      "co_operators": [],
+      "source_url": "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+      "source_type": "essay",
+      "source_title": "Don't classify. Hallucinate!",
+      "source_date": "2026-08-10",
+      "captured_date": "2026-08-15",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy"
     },
     {
       "path": "insights/ins_two-week-engineer-as-mini-pm.md",
@@ -28302,6 +28387,32 @@
       ],
       "raw_ref": "",
       "title": "MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access"
+    },
+    {
+      "path": "insights/ins_willison-system-prompt-knowledge-injection.md",
+      "id": "ins_willison-system-prompt-knowledge-injection",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent developer and blogger on LLM engineering",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+      "source_type": "post",
+      "source_title": "A quote from Claude Opus 5 system prompt",
+      "source_date": "2026-08-09",
+      "captured_date": "2026-08-15",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining"
     },
     {
       "path": "insights/ins_willison-web-fetch-chained-exfiltration.md",
@@ -32123,6 +32234,24 @@
         "linkedin": "https://www.linkedin.com/in/douglas-holt-7b999464/"
       },
       "title": "Doug Holt"
+    },
+    {
+      "path": "operators/doug-turnbull/README.md",
+      "name": "Doug Turnbull",
+      "slug": "doug-turnbull",
+      "roles": [
+        "Independent search relevance engineer and consultant"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-08-15",
+      "external": {
+        "twitter": "https://twitter.com/softwaredoug",
+        "newsletter": "https://softwaredoug.com/"
+      },
+      "title": "Doug Turnbull"
     },
     {
       "path": "operators/drew-breunig/README.md",
@@ -44537,6 +44666,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-15.md",
+      "date": "2026-08-15",
+      "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
+      "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
+      "sources": [
+        "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
+        "https://tomtunguz.com/model-release-exhaustion/",
+        "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
+        "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
+      ],
+      "insights_added": [
+        "ins_turnbull-hypothetical-classification",
+        "ins_tunguz-sota-buyer-distribution",
+        "ins_willison-system-prompt-knowledge-injection",
+        "ins_solis-cited-vs-traffic-page-gap"
+      ],
+      "operators_added": [
+        "doug-turnbull"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-14.md",
       "date": "2026-08-14",
