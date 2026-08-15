@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1040 insight cards
-- 517 operator profiles
+- 1044 insight cards
+- 518 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -361,7 +361,7 @@ _Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (614)
+### Tier B (618)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -835,6 +835,7 @@ _Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_smriti-sahu-social-media-manager-irony`](insights/ins_smriti-sahu-social-media-manager-irony.md) — The person handling social media for a brand is often the least interested in it due to constant back-and-forth. _(Smriti Sahu)_
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(swyx)_
+- [`ins_solis-cited-vs-traffic-page-gap`](insights/ins_solis-cited-vs-traffic-page-gap.md) — The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
@@ -898,6 +899,8 @@ _Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
+- [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
+- [`ins_turnbull-hypothetical-classification`](insights/ins_turnbull-hypothetical-classification.md) — Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy _(Doug Turnbull)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
 - [`ins_uddhav-parab-awards-bait-system`](insights/ins_uddhav-parab-awards-bait-system.md) — Awards-bait campaigns are a structural necessity, not a choice, for creative leaders. _(Uddhav Parab)_
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify, data informs understanding, not the reverse _(Bangaly Kaba)_
@@ -958,6 +961,7 @@ _Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
+- [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
@@ -1223,6 +1227,7 @@ _Generated 2026-08-14. Auto-built from frontmatter — do not edit by hand._
 - [Donald Miller](operators/donald-miller/README.md)
 - [Dora Vanourek](operators/dora-vanourek/README.md)
 - [Doug Holt](operators/doug-holt/README.md)
+- [Doug Turnbull](operators/doug-turnbull/README.md)
 - [Drew Breunig](operators/drew-breunig/README.md)
 - [Drew Johnston](operators/drew-johnston/README.md)
 - [Dyutismita Das](operators/dyutismita-das/README.md)
