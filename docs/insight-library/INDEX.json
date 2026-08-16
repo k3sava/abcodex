@@ -1,33 +1,31 @@
 {
-  "generated_at": "2026-08-15T01:50:57.816Z",
+  "generated_at": "2026-08-16T02:00:46.048Z",
   "counts": {
-    "insights": 1044,
-    "operators": 518,
+    "insights": 1047,
+    "operators": 519,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 76
+    "daily": 77
   },
   "latest_daily": {
-    "path": "daily/2026-08-15.md",
-    "date": "2026-08-15",
-    "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
-    "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
+    "path": "daily/2026-08-16.md",
+    "date": "2026-08-16",
+    "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
+    "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
     "sources": [
-      "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
-      "https://tomtunguz.com/model-release-exhaustion/",
-      "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
-      "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
+      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "https://www.tomtunguz.com/a-winner-in-every-category/",
+      "https://arxiv.org/abs/2608.09867"
     ],
     "insights_added": [
-      "ins_turnbull-hypothetical-classification",
-      "ins_tunguz-sota-buyer-distribution",
-      "ins_willison-system-prompt-knowledge-injection",
-      "ins_solis-cited-vs-traffic-page-gap"
+      "ins_indig-ugc-community-ai-citations",
+      "ins_tunguz-category-leaders-agent-infrastructure",
+      "ins_panfilov-reasoning-trace-cross-model"
     ],
     "operators_added": [
-      "doug-turnbull"
+      "alexander-panfilov"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -11153,6 +11151,36 @@
       "title": "UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable"
     },
     {
+      "path": "insights/ins_indig-ugc-community-ai-citations.md",
+      "id": "ins_indig-ugc-community-ai-citations",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; Independent Growth Advisor",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "source_type": "essay",
+      "source_title": "How to grow your AI Visibility with community signals",
+      "source_date": "2026-08-10",
+      "captured_date": "2026-08-16",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_indig-benchmark-citation-structure"
+      ],
+      "raw_ref": "",
+      "title": "UGC platforms are the most consistent AI citation source, holding a floor share across every buying stage"
+    },
+    {
       "path": "insights/ins_influence-is-discovery-not-conviction.md",
       "id": "ins_influence-is-discovery-not-conviction",
       "operator": "Jessica Fain",
@@ -17570,6 +17598,40 @@
       ],
       "raw_ref": "raw/podcasts/mihika-kapoor--zero-to-one-vision-conviction-hype--2026-04-28.md",
       "title": "Pitch a vision as pain → solution → proof, interleaved per beat, not three sequential acts"
+    },
+    {
+      "path": "insights/ins_panfilov-reasoning-trace-cross-model.md",
+      "id": "ins_panfilov-reasoning-trace-cross-model",
+      "operator": "Alexander Panfilov",
+      "operator_role": "Researcher, ELLIS Institute Tübingen, Max Planck Institute for Intelligent Systems",
+      "co_operators": [
+        "David Schmotz",
+        "Ilia Shumailov",
+        "Luca Beurer-Kellner",
+        "Joachim Schaeffer",
+        "Ameya Prabhu",
+        "Jonas Geiping",
+        "Maksym Andriushchenko"
+      ],
+      "source_url": "https://arxiv.org/abs/2608.09867",
+      "source_type": "research",
+      "source_title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "source_date": "2026-08-10",
+      "captured_date": "2026-08-16",
+      "domain": [
+        "ai-safety",
+        "llm-ops"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "",
+      "title": "Encrypted reasoning traces returned by frontier LLM APIs can be replayed into weaker sibling models to recover the hidden chain-of-thought in plaintext"
     },
     {
       "path": "insights/ins_parag-pathak-leadership-philosophy-clarity-purpose.md",
@@ -25712,6 +25774,35 @@
       "title": "AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance"
     },
     {
+      "path": "insights/ins_tunguz-category-leaders-agent-infrastructure.md",
+      "id": "ins_tunguz-category-leaders-agent-infrastructure",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/a-winner-in-every-category/",
+      "source_type": "essay",
+      "source_title": "A Winner in Every Category",
+      "source_date": "2026-08-11",
+      "captured_date": "2026-08-16",
+      "domain": [
+        "growth-demand",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "content-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-sota-buyer-distribution"
+      ],
+      "raw_ref": "",
+      "title": "Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company"
+    },
+    {
       "path": "insights/ins_tunguz-compute-cost-inversion.md",
       "id": "ins_tunguz-compute-cost-inversion",
       "operator": "Tomasz Tunguz",
@@ -29586,6 +29677,25 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Alex Lindahl"
+    },
+    {
+      "path": "operators/alexander-panfilov/README.md",
+      "name": "Alexander Panfilov",
+      "slug": "alexander-panfilov",
+      "roles": [
+        "Researcher, ELLIS Institute Tübingen",
+        "Researcher, Max Planck Institute for Intelligent Systems"
+      ],
+      "domains_active": [
+        "ai-safety",
+        "llm-ops"
+      ],
+      "captured_first": "2026-08-16",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "Alexander Panfilov"
     },
     {
       "path": "operators/aleyda-solis/README.md",
@@ -44666,6 +44776,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-16.md",
+      "date": "2026-08-16",
+      "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
+      "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
+      "sources": [
+        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+        "https://www.tomtunguz.com/a-winner-in-every-category/",
+        "https://arxiv.org/abs/2608.09867"
+      ],
+      "insights_added": [
+        "ins_indig-ugc-community-ai-citations",
+        "ins_tunguz-category-leaders-agent-infrastructure",
+        "ins_panfilov-reasoning-trace-cross-model"
+      ],
+      "operators_added": [
+        "alexander-panfilov"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-15.md",
       "date": "2026-08-15",

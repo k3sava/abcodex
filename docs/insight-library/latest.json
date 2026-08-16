@@ -1,30 +1,50 @@
 {
-  "generated_at": "2026-08-15T01:50:57.908Z",
+  "generated_at": "2026-08-16T02:00:46.068Z",
   "latest_daily": {
-    "path": "daily/2026-08-15.md",
-    "date": "2026-08-15",
-    "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
-    "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
+    "path": "daily/2026-08-16.md",
+    "date": "2026-08-16",
+    "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
+    "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
     "sources": [
-      "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
-      "https://tomtunguz.com/model-release-exhaustion/",
-      "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
-      "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
+      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+      "https://www.tomtunguz.com/a-winner-in-every-category/",
+      "https://arxiv.org/abs/2608.09867"
     ],
     "insights_added": [
-      "ins_turnbull-hypothetical-classification",
-      "ins_tunguz-sota-buyer-distribution",
-      "ins_willison-system-prompt-knowledge-injection",
-      "ins_solis-cited-vs-traffic-page-gap"
+      "ins_indig-ugc-community-ai-citations",
+      "ins_tunguz-category-leaders-agent-infrastructure",
+      "ins_panfilov-reasoning-trace-cross-model"
     ],
     "operators_added": [
-      "doug-turnbull"
+      "alexander-panfilov"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-16.md",
+      "date": "2026-08-16",
+      "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
+      "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
+      "sources": [
+        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
+        "https://www.tomtunguz.com/a-winner-in-every-category/",
+        "https://arxiv.org/abs/2608.09867"
+      ],
+      "insights_added": [
+        "ins_indig-ugc-community-ai-citations",
+        "ins_tunguz-category-leaders-agent-infrastructure",
+        "ins_panfilov-reasoning-trace-cross-model"
+      ],
+      "operators_added": [
+        "alexander-panfilov"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-15.md",
       "date": "2026-08-15",
@@ -555,24 +575,6 @@
       "patterns_added": [
         "pat_harness-controls-strategic-layer"
       ],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-15.md",
-      "date": "2026-07-15",
-      "title": "Steam's slop filter, the momentum-over-base formula, and why AI content floods benefit real creators",
-      "summary": "Three new cards across two operators and two lanes. Zukowski with two data-backed posts on Steam Next Fest mechanics: how Valve's behavioral algorithm quietly filters AI games after day two, and why wishlist velocity in the two weeks before the festival predicts success better than total base wishlists. Mosseri on why AI content abundance is a tailwind for authentic human creators, not a threat to them.",
-      "sources": [],
-      "insights_added": [
-        "ins_zukowski-steam-slop-temporal-filter",
-        "ins_zukowski-nextfest-momentum-beats-base",
-        "ins_mosseri-ai-authenticity-tailwind"
-      ],
-      "operators_added": [
-        "adam-mosseri"
-      ],
-      "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
     }
