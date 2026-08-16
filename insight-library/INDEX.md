@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1044 insight cards
-- 518 operator profiles
+- 1047 insight cards
+- 519 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (347)
+### Tier A (348)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -223,6 +223,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_outcomes-grader-agent-evaluation`](insights/ins_outcomes-grader-agent-evaluation.md) — A separate grader agent in its own context window closes the output verification loop at production scale _(Anthropic)_
 - [`ins_owned-brand-authority-organic-moat`](insights/ins_owned-brand-authority-organic-moat.md) — Owned-brand authority is now the only defensible organic asset, middleman content layers erode regardless of quality _(Lily Ray)_
 - [`ins_pain-of-paying`](insights/ins_pain-of-paying.md) — Every transaction inflicts psychological pain, design payment to decouple it from consumption _(Dan Ariely)_
+- [`ins_panfilov-reasoning-trace-cross-model`](insights/ins_panfilov-reasoning-trace-cross-model.md) — Encrypted reasoning traces returned by frontier LLM APIs can be replayed into weaker sibling models to recover the hidden chain-of-thought in plaintext _(Alexander Panfilov)_
 - [`ins_pattern-of-pain-customer-research`](insights/ins_pattern-of-pain-customer-research.md) — Find the Pattern of Pain, and don't rush past it. Most teams fail by not digging deep enough. _(Hiten Shah)_
 - [`ins_paul-adams-invented-magic-scratching-surface`](insights/ins_paul-adams-invented-magic-scratching-surface.md) — AI-first product means blowing up the roadmap, not adding AI features _(Paul Adams)_
 - [`ins_permission-as-measurable-asset`](insights/ins_permission-as-measurable-asset.md) — Permission is a balance you can deplete, every email either deposits or withdraws _(Seth Godin)_
@@ -361,7 +362,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (618)
+### Tier B (620)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -608,6 +609,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
+- [`ins_indig-ugc-community-ai-citations`](insights/ins_indig-ugc-community-ai-citations.md) — UGC platforms are the most consistent AI citation source, holding a floor share across every buyer journey stage _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_
@@ -884,6 +886,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
 - [`ins_tunguz-blank-slate-ai-strategy`](insights/ins_tunguz-blank-slate-ai-strategy.md) — Shipping a generic AI base product for free and charging for customization creates a sustainable open-source monetization model _(Tomasz Tunguz)_
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
+- [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
@@ -1085,6 +1088,7 @@ _Generated 2026-08-15. Auto-built from frontmatter — do not edit by hand._
 - [Albert Malikov](operators/albert-malikov/README.md)
 - [Alex Hormozi](operators/alex-hormozi/README.md)
 - [Alex Lindahl](operators/alex-lindahl/README.md)
+- [Alexander Panfilov](operators/alexander-panfilov/README.md)
 - [Aleyda Solis](operators/aleyda-solis/README.md)
 - [Alicia Carney](operators/alicia-carney/README.md)
 - [Alina Vandenberghe](operators/alina-vandenberghe/README.md)
