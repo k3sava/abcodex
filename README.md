@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest · 2026-08-16 · 3 insights · 1 operator
 
-**Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs.** Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buyer journey stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.
+**Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs.** Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.
 
 [Read what landed →](insight-library/daily/2026-08-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->

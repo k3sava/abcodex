@@ -6,13 +6,13 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 01:58:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 02:00:48 GMT</lastBuildDate>
     <item>
       <title>Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-16/</link>
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-16/</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buyer journey stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.</description>
+      <description>Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.</description>
     </item>
     <item>
       <title>Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics</title>

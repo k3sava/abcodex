@@ -31,9 +31,9 @@ Tunguz identifies the pattern directly in each case. CrowdStrike: "Every AI agen
 The premium over median multiples reflects the market pricing in durability. The agent economy cannot route around these companies. Competitors who want to serve agent-driven enterprise workflows must integrate with them or rebuild category trust from zero. That structural position is what the multiple is tracking, not the AI feature releases that appear in the press coverage.
 
 ## Conditions
-Holds when: the category leader owns the endpoint that agents must touch to complete their tasks (security telemetry, network routing, commerce checkout). The durability depends on no disintermediation layer appearing between the AI agent orchestration stack and the category endpoint.
+Holds when: the category leader owns the endpoint that agents must touch to complete their tasks (security telemetry, network routing, commerce checkout). The durability depends on no disintermediation layer appearing between the AI agent coordination stack and the category endpoint.
 
-Fails when: a new orchestration layer commoditizes the integration surface and abstracts away which category leader handles the underlying operation. Also fails if the category leader's core product erodes before the agent economy matures.
+Fails when: a new agent coordination layer commoditizes the integration surface and abstracts away which category leader handles the underlying operation. Also fails if the category leader's core product erodes before the agent economy matures.
 
 ## Evidence
 Tunguz's August 11 analysis cites revenue multiples and operational data for three category leaders:

@@ -609,7 +609,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
-- [`ins_indig-ugc-community-ai-citations`](insights/ins_indig-ugc-community-ai-citations.md) — UGC platforms are the most consistent AI citation source, holding a floor share across every buyer journey stage _(Kevin Indig)_
+- [`ins_indig-ugc-community-ai-citations`](insights/ins_indig-ugc-community-ai-citations.md) — UGC platforms are the most consistent AI citation source, holding a floor share across every buying stage _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
 - [`ins_information-asymmetry-werewolf`](insights/ins_information-asymmetry-werewolf.md) — In any infrequent negotiation, you are the werewolf with no card, close the asymmetry first _(Jacob Warwick)_
 - [`ins_innovation-is-a-choice`](insights/ins_innovation-is-a-choice.md) — Innovation is a choice, not a function of company size _(Jeetu Patel)_

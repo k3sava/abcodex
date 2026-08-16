@@ -18,10 +18,10 @@ related: [ins_aleyda-solis-aeo-offsite-corroboration-floor, ins_indig-benchmark-
 raw_ref: ""
 ---
 
-# UGC platforms are the most consistent AI citation source, holding a floor share across every buyer journey stage
+# UGC platforms are the most consistent AI citation source, holding a floor share across every buying stage
 
 ## Claim
-UGC platforms (Wikipedia, Reddit, LinkedIn) account for 17.1% of AI search citations overall, more than four times the share of publishers at 4.0%, and this share is stable across all buyer journey stages from awareness to conversion, while review platforms concentrate only at the evaluation stage.
+UGC platforms (Wikipedia, Reddit, LinkedIn) account for 17.1% of AI search citations overall, more than four times the share of publishers at 4.0%, and this share is stable across all buying stages from awareness to conversion, while review platforms concentrate only at the evaluation stage.
 
 ## Mechanism
 AI search systems treat community-generated content differently from brand messaging. Indig frames the distinction directly: "A community treats a person as a participant… and a logo as an advertiser." Content originating from genuine community participation carries independent-verification signals. Brand-controlled pages read as advertising and are systematically underweighted by AI citation engines relative to community-contributed content.
@@ -41,7 +41,7 @@ Analysis of approximately 35,000 ChatGPT citations for commercial queries, Decem
 - UGC platforms: 17.1% of cited domains overall
 - Publishers: 4.0% of cited domains (UGC is 4.3x larger)
 - Review platforms: 7.4% at awareness stage, 13.2% at evaluation stage (stage-concentrated)
-- UGC platforms: 15.1% to 18.2% across all journey stages (consistent floor)
+- UGC platforms: 15.1% to 18.2% across all buying stages (consistent floor)
 - Wikipedia, Reddit, and LinkedIn compose 99% of UGC citations in this sample
 - 83% of AI citations for commercial queries come from pages updated in the past 12 months
 
