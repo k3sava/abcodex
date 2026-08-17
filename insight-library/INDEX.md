@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1047 insight cards
-- 519 operator profiles
+- 1052 insight cards
+- 520 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (348)
+### Tier A (349)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -350,6 +350,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voss-mirroring-forces-elaboration`](insights/ins_voss-mirroring-forces-elaboration.md) — Mirror the last 1-3 words, silence forces the counterpart to elaborate, and the elaboration is where the deal is _(Chris Voss)_
 - [`ins_voss-tactical-empathy-labels`](insights/ins_voss-tactical-empathy-labels.md) — Label the emotion before they have to defend it, "it sounds like you're worried about..." disarms the room _(Chris Voss)_
 - [`ins_voss-thats-right-breakthrough`](insights/ins_voss-thats-right-breakthrough.md) — "That's right", not "yes", is the moment a negotiation actually shifts _(Chris Voss)_
+- [`ins_willison-qwen-reasoning-overthink`](insights/ins_willison-qwen-reasoning-overthink.md) — Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level _(Simon Willison)_
 - [`ins_willison-reliability-erodes-review-discipline`](insights/ins_willison-reliability-erodes-review-discipline.md) — As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible _(Simon Willison)_
 - [`ins_willison-web-fetch-chained-exfiltration`](insights/ins_willison-web-fetch-chained-exfiltration.md) — Chaining a honeypot site's nested links through web_fetch exfiltrates private user data letter-by-letter, bypassing injection safeguards that only block direct URL attacks _(Simon Willison)_
 - [`ins_words-matter-most-innovative-features`](insights/ins_words-matter-most-innovative-features.md) — → The words matter. The most innovative features won't do much if customers don't under _(Aatir Abdul Rauf)_
@@ -362,7 +363,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (620)
+### Tier B (624)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -426,6 +427,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
@@ -441,6 +443,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_benevolent-dictator-not-committee`](insights/ins_benevolent-dictator-not-committee.md) — Appoint one trusted-taste expert as the eval benevolent dictator, committees stall the loop _(Hamel Husain)_
 - [`ins_bharath-krishna-pai-linkedin-ghostwriters-obsolete`](insights/ins_bharath-krishna-pai-linkedin-ghostwriters-obsolete.md) — Claude Sonnet 4.6 makes LinkedIn ghostwriters obsolete by replacing prompts with agents. _(Bharath Krishna Pai)_
 - [`ins_bhavin-turakhia-titan-godaddy-partnership`](insights/ins_bhavin-turakhia-titan-godaddy-partnership.md) — Embedding your product into a giant's distribution is the fastest path to scale _(Bhavin Turakhia)_
+- [`ins_blatner-linkedin-individual-ai-citations`](insights/ins_blatner-linkedin-individual-ai-citations.md) — Three-quarters of LinkedIn AI citations go to individual authors, not company pages _(Anthony Blatner)_
 - [`ins_blog-as-knowledge-base-not-newsfeed`](insights/ins_blog-as-knowledge-base-not-newsfeed.md) — Reconceive the blog as a structured knowledge base, not a chronological feed _(Andy Crestodina)_
 - [`ins_blog-as-library-business-model-revealed`](insights/ins_blog-as-library-business-model-revealed.md) — Content strategy should be revealed by the business model, not invented from scratch _(Jimmy Daly)_
 - [`ins_bogdan-tyskyy-data-foundation-for-ai-agents`](insights/ins_bogdan-tyskyy-data-foundation-for-ai-agents.md) — Data foundation determines AI agent value delivery. _(Bogdan Tyskyy)_
@@ -815,6 +818,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
+- [`ins_shipper-agent-safety-environment-design`](insights/ins_shipper-agent-safety-environment-design.md) — AI agent safety is an environment design problem, not a model values problem _(Dan Shipper)_
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
@@ -874,6 +878,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle _(Tomasz Tunguz)_
+- [`ins_tunguz-agent-intent-unactionable`](insights/ins_tunguz-agent-intent-unactionable.md) — Three competing frameworks each explain AI agent misbehavior, making intent attribution unactionable without structural controls _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-covert-channels`](insights/ins_tunguz-agents-covert-channels.md) — AI agents with persistent goals discover and exploit security vulnerabilities and communicate through covert channels without explicit instruction _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
@@ -1124,6 +1129,7 @@ _Generated 2026-08-16. Auto-built from frontmatter — do not edit by hand._
 - [Ann Handley](operators/ann-handley/README.md)
 - [Anna Tankel](operators/anna-tankel/README.md)
 - [Annie Duke](operators/annie-duke/README.md)
+- [Anthony Blatner](operators/anthony-blatner/README.md)
 - [Anthony Pierri](operators/anthony-pierri/README.md)
 - [Anthropic](operators/anthropic/README.md)
 - [Antoine van der Lee](operators/antoine-van-der-lee/README.md)

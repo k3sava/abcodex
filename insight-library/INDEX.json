@@ -1,31 +1,35 @@
 {
-  "generated_at": "2026-08-16T02:00:46.048Z",
+  "generated_at": "2026-08-17T01:56:02.988Z",
   "counts": {
-    "insights": 1047,
-    "operators": 519,
+    "insights": 1052,
+    "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 77
+    "daily": 78
   },
   "latest_daily": {
-    "path": "daily/2026-08-16.md",
-    "date": "2026-08-16",
-    "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
-    "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
+    "path": "daily/2026-08-17.md",
+    "date": "2026-08-17",
+    "title": "Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand",
+    "summary": "Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball's team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.",
     "sources": [
-      "https://www.growth-memo.com/p/community-signals-are-ais-largest",
-      "https://www.tomtunguz.com/a-winner-in-every-category/",
-      "https://arxiv.org/abs/2608.09867"
+      "https://tomtunguz.com/openai-hack-ai-intent/",
+      "https://every.to/context-window/the-next-era-of-great-work",
+      "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+      "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/"
     ],
     "insights_added": [
-      "ins_indig-ugc-community-ai-citations",
-      "ins_tunguz-category-leaders-agent-infrastructure",
-      "ins_panfilov-reasoning-trace-cross-model"
+      "ins_tunguz-agent-intent-unactionable",
+      "ins_shipper-agent-safety-environment-design",
+      "ins_willison-qwen-reasoning-overthink",
+      "ins_ball-local-dev-orbs-displacement",
+      "ins_blatner-linkedin-individual-ai-citations"
     ],
     "operators_added": [
-      "alexander-panfilov"
+      "anthony-blatner"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -2955,6 +2959,37 @@
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
     },
     {
+      "path": "insights/ins_ball-local-dev-orbs-displacement.md",
+      "id": "ins_ball-local-dev-orbs-displacement",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineer at Sourcegraph, creator of Amp",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+      "source_type": "essay",
+      "source_title": "Joy & Curiosity #95",
+      "source_date": "2026-08-16",
+      "captured_date": "2026-08-17",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-orb-sandbox-agent-frequency",
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_willison-qwen-reasoning-overthink"
+      ],
+      "raw_ref": "",
+      "title": "Remote agent environments have displaced the local development setup for a real shipping team"
+    },
+    {
       "path": "insights/ins_ball-orb-sandbox-agent-frequency.md",
       "id": "ins_ball-orb-sandbox-agent-frequency",
       "operator": "Thorsten Ball",
@@ -3415,6 +3450,38 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_blatner-linkedin-individual-ai-citations.md",
+      "id": "ins_blatner-linkedin-individual-ai-citations",
+      "operator": "Anthony Blatner",
+      "operator_role": "Founder, Speedwork Social",
+      "co_operators": [],
+      "source_url": "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/",
+      "source_type": "essay",
+      "source_title": "4 Proven Growth Plays to Use Right Now",
+      "source_date": "2026-08-13",
+      "captured_date": "2026-08-17",
+      "domain": [
+        "aeo",
+        "gtm",
+        "pmm"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ugc-community-ai-citations",
+        "ins_indig-benchmark-citation-structure",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor"
+      ],
+      "raw_ref": "",
+      "title": "Three-quarters of LinkedIn AI citations go to individual authors, not company pages"
     },
     {
       "path": "insights/ins_blog-as-knowledge-base-not-newsfeed.md",
@@ -21780,6 +21847,37 @@
       "title": "Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment"
     },
     {
+      "path": "insights/ins_shipper-agent-safety-environment-design.md",
+      "id": "ins_shipper-agent-safety-environment-design",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/the-next-era-of-great-work",
+      "source_type": "essay",
+      "source_title": "The Next Era of Great Work",
+      "source_date": "2026-08-16",
+      "captured_date": "2026-08-17",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-agent-intent-unactionable",
+        "ins_panfilov-reasoning-trace-cross-model",
+        "ins_mollick-agentic-external-injection"
+      ],
+      "raw_ref": "",
+      "title": "AI agent safety is an environment design problem, not a model values problem"
+    },
+    {
       "path": "insights/ins_shipper-front-brief-autonomous-run.md",
       "id": "ins_shipper-front-brief-autonomous-run",
       "operator": "Dan Shipper",
@@ -25388,6 +25486,37 @@
       "title": "The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle"
     },
     {
+      "path": "insights/ins_tunguz-agent-intent-unactionable.md",
+      "id": "ins_tunguz-agent-intent-unactionable",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/openai-hack-ai-intent/",
+      "source_type": "essay",
+      "source_title": "The OpenAI Hack & the Question of Intent",
+      "source_date": "2026-08-13",
+      "captured_date": "2026-08-17",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-agent-safety-environment-design",
+        "ins_panfilov-reasoning-trace-cross-model",
+        "ins_tunguz-agents-covert-channels"
+      ],
+      "raw_ref": "",
+      "title": "Three competing frameworks each explain AI agent misbehavior, making intent attribution unactionable without structural controls"
+    },
+    {
       "path": "insights/ins_tunguz-agent-routing-architecture.md",
       "id": "ins_tunguz-agent-routing-architecture",
       "operator": "Tomasz Tunguz",
@@ -28366,6 +28495,37 @@
       "title": "Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts"
     },
     {
+      "path": "insights/ins_willison-qwen-reasoning-overthink.md",
+      "id": "ins_willison-qwen-reasoning-overthink",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent AI engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "source_type": "essay",
+      "source_title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "source_date": "2026-08-16",
+      "captured_date": "2026-08-17",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-sota-buyer-distribution",
+        "ins_tunguz-tier-segmentation-jevons",
+        "ins_ball-orb-sandbox-agent-frequency"
+      ],
+      "raw_ref": "",
+      "title": "Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level"
+    },
+    {
       "path": "insights/ins_willison-reliability-erodes-review-discipline.md",
       "id": "ins_willison-reliability-erodes-review-discipline",
       "operator": "Simon Willison",
@@ -30318,6 +30478,22 @@
         "website": "https://www.annieduke.com/"
       },
       "title": "Annie Duke"
+    },
+    {
+      "path": "operators/anthony-blatner/README.md",
+      "name": "Anthony Blatner",
+      "slug": "anthony-blatner",
+      "roles": [
+        "Founder of Speedwork Social",
+        "LinkedIn ads specialist and AI search practitioner"
+      ],
+      "domains_active": [
+        "aeo",
+        "gtm",
+        "pmm"
+      ],
+      "captured_first": "2026-08-17",
+      "title": "Anthony Blatner"
     },
     {
       "path": "operators/anthony-pierri/README.md",
@@ -44776,6 +44952,32 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-17.md",
+      "date": "2026-08-17",
+      "title": "Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand",
+      "summary": "Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball's team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.",
+      "sources": [
+        "https://tomtunguz.com/openai-hack-ai-intent/",
+        "https://every.to/context-window/the-next-era-of-great-work",
+        "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
+        "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/"
+      ],
+      "insights_added": [
+        "ins_tunguz-agent-intent-unactionable",
+        "ins_shipper-agent-safety-environment-design",
+        "ins_willison-qwen-reasoning-overthink",
+        "ins_ball-local-dev-orbs-displacement",
+        "ins_blatner-linkedin-individual-ai-citations"
+      ],
+      "operators_added": [
+        "anthony-blatner"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-16.md",
       "date": "2026-08-16",
