@@ -1,32 +1,50 @@
 {
-  "generated_at": "2026-08-17T01:56:03.060Z",
+  "generated_at": "2026-08-18T01:53:21.789Z",
   "latest_daily": {
-    "path": "daily/2026-08-17.md",
-    "date": "2026-08-17",
-    "title": "Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand",
-    "summary": "Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball's team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.",
+    "path": "daily/2026-08-18.md",
+    "date": "2026-08-18",
+    "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
+    "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
     "sources": [
-      "https://tomtunguz.com/openai-hack-ai-intent/",
-      "https://every.to/context-window/the-next-era-of-great-work",
-      "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-      "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/"
+      "https://tomtunguz.com/ai-ghost-writing/",
+      "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+      "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
+      "https://www.tomtunguz.com/test-time-training-impact/"
     ],
     "insights_added": [
-      "ins_tunguz-agent-intent-unactionable",
-      "ins_shipper-agent-safety-environment-design",
-      "ins_willison-qwen-reasoning-overthink",
-      "ins_ball-local-dev-orbs-displacement",
-      "ins_blatner-linkedin-individual-ai-citations"
+      "ins_tunguz-ai-editor-not-ghostwriter",
+      "ins_willison-publish-before-satisfied",
+      "ins_solis-ai-citations-external-majority",
+      "ins_tunguz-ttt-per-user-model"
     ],
-    "operators_added": [
-      "anthony-blatner"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-18.md",
+      "date": "2026-08-18",
+      "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
+      "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
+      "sources": [
+        "https://tomtunguz.com/ai-ghost-writing/",
+        "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+        "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
+        "https://www.tomtunguz.com/test-time-training-impact/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-editor-not-ghostwriter",
+        "ins_willison-publish-before-satisfied",
+        "ins_solis-ai-citations-external-majority",
+        "ins_tunguz-ttt-per-user-model"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-17.md",
       "date": "2026-08-17",
@@ -568,22 +586,6 @@
         "ins_tunguz-blank-slate-ai-strategy",
         "ins_solis-saas-ai-third-party-citation-weight",
         "ins_gerhardt-ctv-narrative-compound"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-18.md",
-      "date": "2026-07-18",
-      "title": "AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun's 535k-line Rust migration",
-      "summary": "Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.",
-      "sources": [],
-      "insights_added": [
-        "ins_cherny-adoption-maturity-bottlenecks",
-        "ins_sumner-adversarial-reviewer-pairing",
-        "ins_sumner-pre-agent-pattern-documents"
       ],
       "operators_added": [],
       "patterns_added": [],

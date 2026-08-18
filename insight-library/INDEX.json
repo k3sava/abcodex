@@ -1,36 +1,32 @@
 {
-  "generated_at": "2026-08-17T01:56:02.988Z",
+  "generated_at": "2026-08-18T01:53:21.769Z",
   "counts": {
-    "insights": 1052,
+    "insights": 1056,
     "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 78
+    "daily": 79
   },
   "latest_daily": {
-    "path": "daily/2026-08-17.md",
-    "date": "2026-08-17",
-    "title": "Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand",
-    "summary": "Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball's team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.",
+    "path": "daily/2026-08-18.md",
+    "date": "2026-08-18",
+    "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
+    "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
     "sources": [
-      "https://tomtunguz.com/openai-hack-ai-intent/",
-      "https://every.to/context-window/the-next-era-of-great-work",
-      "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-      "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/"
+      "https://tomtunguz.com/ai-ghost-writing/",
+      "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+      "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
+      "https://www.tomtunguz.com/test-time-training-impact/"
     ],
     "insights_added": [
-      "ins_tunguz-agent-intent-unactionable",
-      "ins_shipper-agent-safety-environment-design",
-      "ins_willison-qwen-reasoning-overthink",
-      "ins_ball-local-dev-orbs-displacement",
-      "ins_blatner-linkedin-individual-ai-citations"
+      "ins_tunguz-ai-editor-not-ghostwriter",
+      "ins_willison-publish-before-satisfied",
+      "ins_solis-ai-citations-external-majority",
+      "ins_tunguz-ttt-per-user-model"
     ],
-    "operators_added": [
-      "anthony-blatner"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -23164,6 +23160,36 @@
       "title": "Software is not a moat, ecosystems, hardware, and distribution are"
     },
     {
+      "path": "insights/ins_solis-ai-citations-external-majority.md",
+      "id": "ins_solis-ai-citations-external-majority",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant; Founder, Orainti",
+      "co_operators": [],
+      "source_url": "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
+      "source_type": "research",
+      "source_title": "AI Search Is a 3rd-Party Citation Problem With an On-Page Corroboration Base",
+      "source_date": "2026-08-02",
+      "captured_date": "2026-08-18",
+      "domain": [
+        "aeo",
+        "seo"
+      ],
+      "lifecycle": [
+        "measurement",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_solis-cited-vs-traffic-page-gap",
+        "ins_indig-ugc-community-ai-citations"
+      ],
+      "raw_ref": "",
+      "title": "AI search is a 3rd-party citation problem: external domains supply over 80 percent of citations while owned pages corroborate"
+    },
+    {
       "path": "insights/ins_solis-cited-vs-traffic-page-gap.md",
       "id": "ins_solis-cited-vs-traffic-page-gap",
       "operator": "Aleyda Solis",
@@ -25634,6 +25660,35 @@
       "title": "One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly"
     },
     {
+      "path": "insights/ins_tunguz-ai-editor-not-ghostwriter.md",
+      "id": "ins_tunguz-ai-editor-not-ghostwriter",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Managing Director, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-ghost-writing/",
+      "source_type": "essay",
+      "source_title": "AI is a Terrible Ghostwriter",
+      "source_date": "2026-08-03",
+      "captured_date": "2026-08-18",
+      "domain": [
+        "humanizing-ai",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "community-brand"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_alpert-lossless-llm-rewrite"
+      ],
+      "raw_ref": "",
+      "title": "AI homogenizes voice because all writers share the same ghostwriter, so use AI as an editor and preserve your own stylistic markers"
+    },
+    {
       "path": "insights/ins_tunguz-ai-ghostwriter-editor.md",
       "id": "ins_tunguz-ai-ghostwriter-editor",
       "operator": "Tom Tunguz",
@@ -26436,6 +26491,35 @@
       ],
       "raw_ref": "",
       "title": "AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping"
+    },
+    {
+      "path": "insights/ins_tunguz-ttt-per-user-model.md",
+      "id": "ins_tunguz-ttt-per-user-model",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "Managing Director, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/test-time-training-impact/",
+      "source_type": "essay",
+      "source_title": "When Models Learn",
+      "source_date": "2026-08-17",
+      "captured_date": "2026-08-18",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-sota-buyer-distribution"
+      ],
+      "raw_ref": "",
+      "title": "Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost"
     },
     {
       "path": "insights/ins_turnbull-hypothetical-classification.md",
@@ -28466,6 +28550,33 @@
       ],
       "raw_ref": "",
       "title": "Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception"
+    },
+    {
+      "path": "insights/ins_willison-publish-before-satisfied.md",
+      "id": "ins_willison-publish-before-satisfied",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+      "source_type": "post",
+      "source_title": "Simon Willison on technical blogging",
+      "source_date": "2026-08-06",
+      "captured_date": "2026-08-18",
+      "domain": [
+        "founder-operator",
+        "engineering"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "community-brand"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version"
     },
     {
       "path": "insights/ins_willison-publish-unhappy.md",
@@ -44952,6 +45063,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-18.md",
+      "date": "2026-08-18",
+      "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
+      "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
+      "sources": [
+        "https://tomtunguz.com/ai-ghost-writing/",
+        "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
+        "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
+        "https://www.tomtunguz.com/test-time-training-impact/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-editor-not-ghostwriter",
+        "ins_willison-publish-before-satisfied",
+        "ins_solis-ai-citations-external-majority",
+        "ins_tunguz-ttt-per-user-model"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-17.md",
       "date": "2026-08-17",

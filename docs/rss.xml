@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:56:06 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 01:53:24 GMT</lastBuildDate>
+    <item>
+      <title>Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-18/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-18/</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.</description>
+    </item>
     <item>
       <title>Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-17/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-19/</guid>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.</description>
-    </item>
-    <item>
-      <title>AI adoption stalls at guardrails and process, not model limits, plus two techniques from Bun&apos;s 535k-line Rust migration</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-18/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-18/</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Cherny with a five-step adoption maturity framework diagnosing why teams plateau despite capable models. Sumner with two cards from the Bun-in-Rust migration: pre-migration pattern documents that aligned 64 parallel agents, and adversarial reviewer pairing that caught bug categories the implementers missed.</description>
     </item>
   </channel>
 </rss>
