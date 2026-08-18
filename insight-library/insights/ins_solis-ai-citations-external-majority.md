@@ -26,7 +26,7 @@ Across SaaS, ecommerce, and finance, external domains account for 69 to 82 perce
 ## Mechanism
 AI engines retrieve citations by weighting independent validation signals over brand assertions. A company's own page establishes canonical facts. Third-party sources (community platforms, review sites, news, competitor comparisons) validate those facts from outside the brand's perspective. The AI engine treats agreement between owned and third-party sources as a signal of accuracy. Because external sources do most of the citing, optimizing only owned content leaves the majority of the citation surface untouched.
 
-Vertical differences reflect buyer-journey context. SaaS citations skew toward social and community platforms (45.7%) because buyers seek peer experience. Ecommerce citations skew toward competitor and marketplace domains (36.6%) because buyers compare options. Finance citations skew toward news and review sources (19.4%) because buyers need trust signals from credentialed authorities.
+Vertical differences reflect where buyers seek validation. SaaS citations skew toward social and community platforms (45.7%) because buyers seek peer experience. Ecommerce citations skew toward competitor and marketplace domains (36.6%) because buyers compare options. Finance citations skew toward news and review sources (19.4%) because buyers need trust signals from credentialed authorities.
 
 ## Conditions
 Holds when: the query intent is commercial or informational; the AI engine is doing multi-source retrieval (ChatGPT, Perplexity, Gemini AI Overviews); the brand has a publicly visible presence on third-party platforms.
