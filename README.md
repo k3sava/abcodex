@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-18 · 4 insights
+### Latest · 2026-08-19 · 3 insights
 
-**Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math.** Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.
+**Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula.** Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.
 
-[Read what landed →](insight-library/daily/2026-08-18.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1056** insight cards
+- **1059** insight cards
 - **520** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

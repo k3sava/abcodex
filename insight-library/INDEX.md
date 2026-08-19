@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-18. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1056 insight cards
+- 1059 insight cards
 - 520 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -363,7 +363,7 @@ _Generated 2026-08-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (628)
+### Tier B (631)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -546,6 +546,7 @@ _Generated 2026-08-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_fishkin-ai-mention-direct-visit-lift`](insights/ins_fishkin-ai-mention-direct-visit-lift.md) — AI brand recommendations produce a 7 to 14 percent direct visit lift within seven days _(Rand Fishkin)_
 - [`ins_fishkin-natividad-measurement-reframe-not-clicks`](insights/ins_fishkin-natividad-measurement-reframe-not-clicks.md) — Web traffic fell 46% in three years; clicks were always the wrong proxy for attention, and the fix is a measurement reframe, not a content overhaul _(Rand Fishkin)_
 - [`ins_fishkin-platform-first-zero-click`](insights/ins_fishkin-platform-first-zero-click.md) — Web traffic is down 46 percent in three years: produce content made for platforms first, articles second _(Rand Fishkin)_
+- [`ins_fishkin-website-as-ai-source-accuracy`](insights/ins_fishkin-website-as-ai-source-accuracy.md) — A brand's website is now the training source AI tools use to form answers about it; a thin site produces AI misinformation _(Rand Fishkin)_
 - [`ins_fishkin-zero-click-walled-garden`](insights/ins_fishkin-zero-click-walled-garden.md) — Zero-click Google search has crossed 68% and will not reverse because Google's financial incentives now align with keeping users on-platform _(Rand Fishkin)_
 - [`ins_five-disagreements-cmo-cro-pmm`](insights/ins_five-disagreements-cmo-cro-pmm.md) — Five things CEO, CMO, CRO, and PMM will never agree on _(Anna Tankel)_
 - [`ins_florin-tatulea-mcp-outbound-staging-rule`](insights/ins_florin-tatulea-mcp-outbound-staging-rule.md) — Connect one MCP tool and validate one workflow before building a full outbound stack; complexity compounds error before it delivers value _(Florin Tatulea)_
@@ -903,6 +904,7 @@ _Generated 2026-08-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
+- [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-chip-ownership-premium`](insights/ins_tunguz-model-chip-ownership-premium.md) — Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
@@ -986,6 +988,7 @@ _Generated 2026-08-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yegge-thunderdome-cicd`](insights/ins_yegge-thunderdome-cicd.md) — Parallel coding agents break serial CI/CD merge queues _(Steve Yegge)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
+- [`ins_zukowski-amplify-not-mix-genres`](insights/ins_zukowski-amplify-not-mix-genres.md) — Indie games find their hook by amplifying one element of a proven genre 10,000-fold, not by mixing genres _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_

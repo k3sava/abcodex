@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-08-18T01:53:21.789Z",
+  "generated_at": "2026-08-19T01:49:42.115Z",
   "latest_daily": {
-    "path": "daily/2026-08-18.md",
-    "date": "2026-08-18",
-    "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
-    "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
+    "path": "daily/2026-08-19.md",
+    "date": "2026-08-19",
+    "title": "Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula",
+    "summary": "Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.",
     "sources": [
-      "https://tomtunguz.com/ai-ghost-writing/",
-      "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
-      "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
-      "https://www.tomtunguz.com/test-time-training-impact/"
+      "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai/",
+      "https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/",
+      "https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-editor-not-ghostwriter",
-      "ins_willison-publish-before-satisfied",
-      "ins_solis-ai-citations-external-majority",
-      "ins_tunguz-ttt-per-user-model"
+      "ins_tunguz-local-model-reasoning-path",
+      "ins_fishkin-website-as-ai-source-accuracy",
+      "ins_zukowski-amplify-not-mix-genres"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-19.md",
+      "date": "2026-08-19",
+      "title": "Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula",
+      "summary": "Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.",
+      "sources": [
+        "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai/",
+        "https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/",
+        "https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/"
+      ],
+      "insights_added": [
+        "ins_tunguz-local-model-reasoning-path",
+        "ins_fishkin-website-as-ai-source-accuracy",
+        "ins_zukowski-amplify-not-mix-genres"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-18.md",
       "date": "2026-08-18",
@@ -569,23 +587,6 @@
         "ins_indig-pricing-page-agent-fallback",
         "ins_willison-web-fetch-chained-exfiltration",
         "ins_willison-benchmark-agent-decoupling"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-19.md",
-      "date": "2026-07-19",
-      "title": "Token spend breaks PC-era parity, third-party sources dominate AI search citations for SaaS, and CTV compounds B2B brand",
-      "summary": "Four new cards from four operators. Shipper with the observation that token affordability now stratifies builder capability in a way PC hardware never did. Tunguz with the blank-slate business model pattern for open-source AI. Solis with data showing third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands. Gerhardt with the CTV channel as a compounding narrative investment.",
-      "sources": [],
-      "insights_added": [
-        "ins_shipper-token-spend-parity-break",
-        "ins_tunguz-blank-slate-ai-strategy",
-        "ins_solis-saas-ai-third-party-citation-weight",
-        "ins_gerhardt-ctv-narrative-compound"
       ],
       "operators_added": [],
       "patterns_added": [],
