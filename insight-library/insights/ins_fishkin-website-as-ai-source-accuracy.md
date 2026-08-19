@@ -24,7 +24,7 @@ raw_ref: ""
 Websites receive fewer visits in the zero-click era but carry a new function: they are the primary source AI tools use to learn and answer questions about a brand. A site with outdated or missing content causes AI to surface wrong information, which is a higher-stakes failure than low traffic.
 
 ## Mechanism
-AI tools like Gemini, Claude, and ChatGPT crawl websites to build knowledge about brands. When a site lacks current, structured information, the model fills the gap with outdated or hallucinated content. The site is also still where conversion happens and the only place the brand controls UI, UX, visual identity, and messaging. Fewer visits means each visit carries more intent weight, not less. The strategic shift is from optimizing for traffic volume to optimizing for AI-readable accuracy and conversion from high-intent arrivals.
+AI tools like Gemini, Claude, and ChatGPT crawl websites to build knowledge about brands. When a site lacks current, structured information, the model fills the gap with outdated or hallucinated content. The site is also still where conversion happens and the only place the brand controls UI, UX, visual identity, and messaging. Fewer visits means each visit carries more intent weight, not less. The operational shift is from optimizing for traffic volume to optimizing for AI-readable accuracy and conversion from high-intent arrivals.
 
 ## Conditions
 Holds when: the brand operates in a category where buyers query AI tools during consideration (most B2B and considered-purchase B2C). Holds when the brand's website is the most authoritative source about its own products, pricing, and positioning.
@@ -47,7 +47,7 @@ He describes the website as "the only controllable place" for brand experience: 
 - Buyer feedback mentions information they encountered in AI answers that came from the website.
 
 ## Counter-evidence
-Fishkin does not provide quantitative data on AI citation rates from owned websites versus the 10 to 11% Aleyda Solis found in her audit (`ins_solis-ai-citations-external-majority`). Solis found the majority of AI citations come from third-party sources, not brand websites. The gap between Fishkin's website-as-source claim and Solis's external-majority finding is unresolved. Both can be true at different stages of the buyer journey, or for different categories. Fishkin's argument is normative (invest in your website) while Solis's is descriptive (where citations actually come from today).
+Fishkin does not provide quantitative data on AI citation rates from owned websites versus the 10 to 11% Aleyda Solis found in her audit (`ins_solis-ai-citations-external-majority`). Solis found the majority of AI citations come from third-party sources, not brand websites. The gap between Fishkin's website-as-source claim and Solis's external-majority finding is unresolved. Both can be true at different stages of the consideration process, or for different categories. Fishkin's argument is normative (invest in your website) while Solis's is descriptive (where citations actually come from today).
 
 ## Cross-references
 - `ins_fishkin-platform-first-zero-click`: Platform-first content distribution and website-as-AI-source are complementary. The platform content builds influence; the website provides the authoritative fact-base AI tools draw from.
