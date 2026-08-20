@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-19 · 3 insights
+### Latest · 2026-08-20 · 1 insight
 
-**Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula.** Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.
+**Triage before tooling: annotate traces to name failure modes before automating evals.** One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.
 
-[Read what landed →](insight-library/daily/2026-08-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-20.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1059** insight cards
+- **1060** insight cards
 - **520** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

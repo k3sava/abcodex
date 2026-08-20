@@ -1,28 +1,24 @@
 {
-  "generated_at": "2026-08-19T01:49:42.031Z",
+  "generated_at": "2026-08-20T02:04:50.695Z",
   "counts": {
-    "insights": 1059,
+    "insights": 1060,
     "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 80
+    "daily": 81
   },
   "latest_daily": {
-    "path": "daily/2026-08-19.md",
-    "date": "2026-08-19",
-    "title": "Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula",
-    "summary": "Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.",
+    "path": "daily/2026-08-20.md",
+    "date": "2026-08-20",
+    "title": "Triage before tooling: annotate traces to name failure modes before automating evals",
+    "summary": "One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.",
     "sources": [
-      "https://www.tomtunguz.com/birds-dont-fly-like-planes-neither-does-ai/",
-      "https://sparktoro.com/blog/does-your-website-still-matter-in-the-zero-click-era/",
-      "https://howtomarketagame.com/2026/08/18/the-week-of-the-golden-age/"
+      "https://hamel.dev/blog/posts/evals-skills/"
     ],
     "insights_added": [
-      "ins_tunguz-local-model-reasoning-path",
-      "ins_fishkin-website-as-ai-source-accuracy",
-      "ins_zukowski-amplify-not-mix-genres"
+      "ins_husain-triage-before-eval-tooling"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -10521,6 +10517,35 @@
       ],
       "raw_ref": "",
       "title": "Optimize retrieval and context before touching systems, and post-train only after exhausting both"
+    },
+    {
+      "path": "insights/ins_husain-triage-before-eval-tooling.md",
+      "id": "ins_husain-triage-before-eval-tooling",
+      "operator": "Hamel Husain",
+      "operator_role": "Independent AI consultant and researcher",
+      "co_operators": [],
+      "source_url": "https://hamel.dev/blog/posts/evals-skills/",
+      "source_type": "essay",
+      "source_title": "Evals Skills for Coding Agents",
+      "source_date": "2026-08-15",
+      "captured_date": "2026-08-20",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_husain-product-before-evals",
+        "ins_hamel-eval-is-product-smell"
+      ],
+      "raw_ref": "",
+      "title": "Teams must annotate raw LLM traces to discover failure modes before applying automated evaluation"
     },
     {
       "path": "insights/ins_hyper-personalization-cold-email.md",
@@ -45154,6 +45179,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-20.md",
+      "date": "2026-08-20",
+      "title": "Triage before tooling: annotate traces to name failure modes before automating evals",
+      "summary": "One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.",
+      "sources": [
+        "https://hamel.dev/blog/posts/evals-skills/"
+      ],
+      "insights_added": [
+        "ins_husain-triage-before-eval-tooling"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-19.md",
       "date": "2026-08-19",

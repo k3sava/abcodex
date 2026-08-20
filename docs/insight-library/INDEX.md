@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-19. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1059 insight cards
+- 1060 insight cards
 - 520 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -363,7 +363,7 @@ _Generated 2026-08-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (631)
+### Tier B (632)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -595,6 +595,7 @@ _Generated 2026-08-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_husain-model-cascade-routing`](insights/ins_husain-model-cascade-routing.md) — Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost _(Hamel Husain)_
 - [`ins_husain-product-before-evals`](insights/ins_husain-product-before-evals.md) — Most LLM evaluation failures trace to product design problems upstream of the model, not model capability _(Hamel Husain)_
 - [`ins_husain-retrieval-first-hierarchy`](insights/ins_husain-retrieval-first-hierarchy.md) — Optimize retrieval and context before touching systems, and post-train only after exhausting both _(Hamel Husain)_
+- [`ins_husain-triage-before-eval-tooling`](insights/ins_husain-triage-before-eval-tooling.md) — Teams must annotate raw LLM traces to discover failure modes before applying automated evaluation _(Hamel Husain)_
 - [`ins_hyper-personalization-cold-email`](insights/ins_hyper-personalization-cold-email.md) — Cold email at scale isn't about volume or copywriting, it's about layering intent + colleague + AI personalization _(Nick Abraham)_
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
