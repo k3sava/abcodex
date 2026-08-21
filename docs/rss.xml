@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Aug 2026 02:04:53 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 01:47:56 GMT</lastBuildDate>
+    <item>
+      <title>English as interface, discipline as casualty: two frames for understanding what agentic tools change</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-21/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-21/</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.</description>
+    </item>
     <item>
       <title>Triage before tooling: annotate traces to name failure modes before automating evals</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-20/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-22/</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <description>Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.</description>
-    </item>
-    <item>
-      <title>AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-21/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-21/</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-08-20T02:04:50.713Z",
+  "generated_at": "2026-08-21T01:47:51.938Z",
   "latest_daily": {
-    "path": "daily/2026-08-20.md",
-    "date": "2026-08-20",
-    "title": "Triage before tooling: annotate traces to name failure modes before automating evals",
-    "summary": "One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.",
+    "path": "daily/2026-08-21.md",
+    "date": "2026-08-21",
+    "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
+    "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
     "sources": [
-      "https://hamel.dev/blog/posts/evals-skills/"
+      "https://www.tomtunguz.com/previously-unmanufacturable/",
+      "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
     ],
     "insights_added": [
-      "ins_husain-triage-before-eval-tooling"
+      "ins_tunguz-english-universal-interface",
+      "ins_willison-agentic-cost-removes-discipline",
+      "ins_willison-chatgpt-domain-signal-shift"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-21.md",
+      "date": "2026-08-21",
+      "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
+      "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
+      "sources": [
+        "https://www.tomtunguz.com/previously-unmanufacturable/",
+        "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+      ],
+      "insights_added": [
+        "ins_tunguz-english-universal-interface",
+        "ins_willison-agentic-cost-removes-discipline",
+        "ins_willison-chatgpt-domain-signal-shift"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-20.md",
       "date": "2026-08-20",
@@ -571,20 +595,6 @@
       "operators_added": [
         "thariq-shihipar"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-21.md",
-      "date": "2026-07-21",
-      "title": "AI agents collapse the seat-based SaaS expansion model, splitting software into infrastructure that AI feeds and applications that AI feeds on",
-      "summary": "One new card. Jason Lemkin on why seat-based SaaS companies growing under 5% have entered terminal structural decline. The mechanism is AI agents: they perform multi-seat work without requiring multi-seat licenses, eliminating the expansion tailwind that drove software annuities for two decades.",
-      "sources": [],
-      "insights_added": [
-        "ins_lemkin-seat-model-collapse"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

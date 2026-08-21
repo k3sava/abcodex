@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1060 insight cards
+- 1063 insight cards
 - 520 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (349)
+### Tier A (350)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -350,6 +350,7 @@ _Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voss-mirroring-forces-elaboration`](insights/ins_voss-mirroring-forces-elaboration.md) — Mirror the last 1-3 words, silence forces the counterpart to elaborate, and the elaboration is where the deal is _(Chris Voss)_
 - [`ins_voss-tactical-empathy-labels`](insights/ins_voss-tactical-empathy-labels.md) — Label the emotion before they have to defend it, "it sounds like you're worried about..." disarms the room _(Chris Voss)_
 - [`ins_voss-thats-right-breakthrough`](insights/ins_voss-thats-right-breakthrough.md) — "That's right", not "yes", is the moment a negotiation actually shifts _(Chris Voss)_
+- [`ins_willison-chatgpt-domain-signal-shift`](insights/ins_willison-chatgpt-domain-signal-shift.md) — ChatGPT's site-operator surge shows that material AI search changes arrive without public notice _(Simon Willison)_
 - [`ins_willison-qwen-reasoning-overthink`](insights/ins_willison-qwen-reasoning-overthink.md) — Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level _(Simon Willison)_
 - [`ins_willison-reliability-erodes-review-discipline`](insights/ins_willison-reliability-erodes-review-discipline.md) — As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible _(Simon Willison)_
 - [`ins_willison-web-fetch-chained-exfiltration`](insights/ins_willison-web-fetch-chained-exfiltration.md) — Chaining a honeypot site's nested links through web_fetch exfiltrates private user data letter-by-letter, bypassing injection safeguards that only block direct URL attacks _(Simon Willison)_
@@ -363,7 +364,7 @@ _Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (632)
+### Tier B (634)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -897,6 +898,7 @@ _Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
+- [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
@@ -950,6 +952,7 @@ _Generated 2026-08-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
+- [`ins_willison-agentic-cost-removes-discipline`](insights/ins_willison-agentic-cost-removes-discipline.md) — Agentic coding removes the time-cost filter that once kept poor architecture decisions out _(Simon Willison)_
 - [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
