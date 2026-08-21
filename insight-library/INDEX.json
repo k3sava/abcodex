@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-08-20T02:04:50.695Z",
+  "generated_at": "2026-08-21T01:47:51.853Z",
   "counts": {
-    "insights": 1060,
+    "insights": 1063,
     "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 81
+    "daily": 82
   },
   "latest_daily": {
-    "path": "daily/2026-08-20.md",
-    "date": "2026-08-20",
-    "title": "Triage before tooling: annotate traces to name failure modes before automating evals",
-    "summary": "One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.",
+    "path": "daily/2026-08-21.md",
+    "date": "2026-08-21",
+    "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
+    "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
     "sources": [
-      "https://hamel.dev/blog/posts/evals-skills/"
+      "https://www.tomtunguz.com/previously-unmanufacturable/",
+      "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
     ],
     "insights_added": [
-      "ins_husain-triage-before-eval-tooling"
+      "ins_tunguz-english-universal-interface",
+      "ins_willison-agentic-cost-removes-discipline",
+      "ins_willison-chatgpt-domain-signal-shift"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -26071,6 +26075,36 @@
       "title": "AI-native companies invert the traditional software cost structure, spending more on compute than on payroll"
     },
     {
+      "path": "insights/ins_tunguz-english-universal-interface.md",
+      "id": "ins_tunguz-english-universal-interface",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/previously-unmanufacturable/",
+      "source_type": "essay",
+      "source_title": "Previously Unmanufacturable",
+      "source_date": "2026-08-19",
+      "captured_date": "2026-08-21",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-agents-erp-bypass",
+        "ins_tunguz-harness-three-disciplines"
+      ],
+      "raw_ref": "",
+      "title": "AI agents turn English into a universal interface for complex software"
+    },
+    {
       "path": "insights/ins_tunguz-fable-safety-ceiling.md",
       "id": "ins_tunguz-fable-safety-ceiling",
       "operator": "Tomasz Tunguz",
@@ -27972,6 +28006,36 @@
       "title": "An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge"
     },
     {
+      "path": "insights/ins_willison-agentic-cost-removes-discipline.md",
+      "id": "ins_willison-agentic-cost-removes-discipline",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; creator of Datasette and Django co-creator",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+      "source_type": "essay",
+      "source_title": "Conceptual integrity and counting lines of code",
+      "source_date": "2026-08-19",
+      "captured_date": "2026-08-21",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_willison-confirmation-fatigue-agent-approval"
+      ],
+      "raw_ref": "",
+      "title": "Agentic coding removes the time-cost filter that once kept poor architecture decisions out"
+    },
+    {
       "path": "insights/ins_willison-ai-sandbox-escape.md",
       "id": "ins_willison-ai-sandbox-escape",
       "operator": "Simon Willison",
@@ -28091,6 +28155,36 @@
       ],
       "raw_ref": "",
       "title": "Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance"
+    },
+    {
+      "path": "insights/ins_willison-chatgpt-domain-signal-shift.md",
+      "id": "ins_willison-chatgpt-domain-signal-shift",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; creator of Datasette and Django co-creator",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source_type": "essay",
+      "source_title": "ChatGPT search now uses the site:operator at scale",
+      "source_date": "2026-08-20",
+      "captured_date": "2026-08-21",
+      "domain": [
+        "aeo-llm-search",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_willison-benchmark-agent-decoupling",
+        "ins_willison-frontier-model-self-routing"
+      ],
+      "raw_ref": "",
+      "title": "ChatGPT's site-operator surge shows that material AI search changes arrive without public notice"
     },
     {
       "path": "insights/ins_willison-confirmation-fatigue-agent-approval.md",
@@ -45179,6 +45273,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-21.md",
+      "date": "2026-08-21",
+      "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
+      "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
+      "sources": [
+        "https://www.tomtunguz.com/previously-unmanufacturable/",
+        "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+      ],
+      "insights_added": [
+        "ins_tunguz-english-universal-interface",
+        "ins_willison-agentic-cost-removes-discipline",
+        "ins_willison-chatgpt-domain-signal-shift"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-20.md",
       "date": "2026-08-20",
