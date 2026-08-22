@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-21T01:47:51.938Z",
+  "generated_at": "2026-08-22T01:55:22.622Z",
   "latest_daily": {
-    "path": "daily/2026-08-21.md",
-    "date": "2026-08-21",
-    "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
-    "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
+    "path": "daily/2026-08-22.md",
+    "date": "2026-08-22",
+    "title": "Distribution gates, consent asymmetry, and the local AI cost inflection",
+    "summary": "Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple's ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.",
     "sources": [
-      "https://www.tomtunguz.com/previously-unmanufacturable/",
-      "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-      "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+      "https://www.growth-memo.com/p/slop-antibodies",
+      "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
+      "https://www.tomtunguz.com/intelligence-per-watt/"
     ],
     "insights_added": [
-      "ins_tunguz-english-universal-interface",
-      "ins_willison-agentic-cost-removes-discipline",
-      "ins_willison-chatgpt-domain-signal-shift"
+      "ins_indig-slop-antibodies-distribution-gate",
+      "ins_seufert-att-asymmetric-consent",
+      "ins_tunguz-intelligence-per-watt"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-22.md",
+      "date": "2026-08-22",
+      "title": "Distribution gates, consent asymmetry, and the local AI cost inflection",
+      "summary": "Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple's ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.",
+      "sources": [
+        "https://www.growth-memo.com/p/slop-antibodies",
+        "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
+        "https://www.tomtunguz.com/intelligence-per-watt/"
+      ],
+      "insights_added": [
+        "ins_indig-slop-antibodies-distribution-gate",
+        "ins_seufert-att-asymmetric-consent",
+        "ins_tunguz-intelligence-per-watt"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-21.md",
       "date": "2026-08-21",
@@ -575,26 +595,6 @@
         "ins_willison-ai-sandbox-escape"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-22.md",
-      "date": "2026-07-22",
-      "title": "Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue",
-      "summary": "Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-ai-productivity-operating-layer",
-        "ins_examples-constrain-frontier-models",
-        "ins_code-review-coverage-trust-ladder",
-        "ins_willison-lifecycle-cost-agents",
-        "ins_isenberg-vibe-revenue"
-      ],
-      "operators_added": [
-        "thariq-shihipar"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

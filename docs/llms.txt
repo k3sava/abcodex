@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1063 insights · 520 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 350 tier-A claims.
+Counts: 1066 insights · 520 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 350 tier-A claims.
 
 ## Index
 
@@ -27,12 +27,12 @@ Counts: 1063 insights · 520 operators · 45 synthesis patterns · 11 contradict
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 459 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 301 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 302 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 173 insights
-- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 167 insights
+- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 169 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 158 insights
 - [leadership](https://abcodex.iamkesava.com/d/leadership/) — 152 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 144 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 145 insights
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 111 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 109 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 100 insights
@@ -46,12 +46,12 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [aeo](https://abcodex.iamkesava.com/d/aeo/) — 37 insights
 - [design](https://abcodex.iamkesava.com/d/design/) — 32 insights
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 28 insights
-- [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 20 insights
+- [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 21 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 19 insights
 - [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 18 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
+- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 12 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
-- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 11 insights
 - [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 10 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 8 insights
 - [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 8 insights
@@ -93,8 +93,11 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [analytics](https://abcodex.iamkesava.com/d/analytics/) — 1 insight
 - [consulting](https://abcodex.iamkesava.com/d/consulting/) — 1 insight
 - [ai-native-systems-and-products](https://abcodex.iamkesava.com/d/ai-native-systems-and-products/) — 1 insight
+- [performance-marketing](https://abcodex.iamkesava.com/d/performance-marketing/) — 1 insight
+- [platform-economics](https://abcodex.iamkesava.com/d/platform-economics/) — 1 insight
 - [humanizing-ai](https://abcodex.iamkesava.com/d/humanizing-ai/) — 1 insight
 - [founder](https://abcodex.iamkesava.com/d/founder/) — 1 insight
+- [on-device-ai](https://abcodex.iamkesava.com/d/on-device-ai/) — 1 insight
 - [org-design](https://abcodex.iamkesava.com/d/org-design/) — 1 insight
 - [trust-and-safety](https://abcodex.iamkesava.com/d/trust-and-safety/) — 1 insight
 - [game-building](https://abcodex.iamkesava.com/d/game-building/) — 1 insight
@@ -142,4 +145,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-08-21.
+Last updated: 2026-08-22.

@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-21T01:47:51.853Z",
+  "generated_at": "2026-08-22T01:55:22.589Z",
   "counts": {
-    "insights": 1063,
+    "insights": 1066,
     "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 82
+    "daily": 83
   },
   "latest_daily": {
-    "path": "daily/2026-08-21.md",
-    "date": "2026-08-21",
-    "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
-    "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
+    "path": "daily/2026-08-22.md",
+    "date": "2026-08-22",
+    "title": "Distribution gates, consent asymmetry, and the local AI cost inflection",
+    "summary": "Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple's ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.",
     "sources": [
-      "https://www.tomtunguz.com/previously-unmanufacturable/",
-      "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-      "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+      "https://www.growth-memo.com/p/slop-antibodies",
+      "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
+      "https://www.tomtunguz.com/intelligence-per-watt/"
     ],
     "insights_added": [
-      "ins_tunguz-english-universal-interface",
-      "ins_willison-agentic-cost-removes-discipline",
-      "ins_willison-chatgpt-domain-signal-shift"
+      "ins_indig-slop-antibodies-distribution-gate",
+      "ins_seufert-att-asymmetric-consent",
+      "ins_tunguz-intelligence-per-watt"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -11243,6 +11243,37 @@
       "title": "Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies"
     },
     {
+      "path": "insights/ins_indig-slop-antibodies-distribution-gate.md",
+      "id": "ins_indig-slop-antibodies-distribution-gate",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor and SEO researcher",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/slop-antibodies",
+      "source_type": "essay",
+      "source_title": "Slop Antibodies",
+      "source_date": "2026-08-17",
+      "captured_date": "2026-08-22",
+      "domain": [
+        "content-strategy",
+        "growth-demand",
+        "aeo-llm-search"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "risk-quality"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ai-slop-loop",
+        "ins_indig-ugc-citation-dominance"
+      ],
+      "raw_ref": "",
+      "title": "Platform anti-slop detection shifts content scarcity from production to distribution reach"
+    },
+    {
       "path": "insights/ins_indig-ugc-citation-dominance.md",
       "id": "ins_indig-ugc-citation-dominance",
       "operator": "Kevin Indig",
@@ -21755,6 +21786,34 @@
       "title": "Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup"
     },
     {
+      "path": "insights/ins_seufert-att-asymmetric-consent.md",
+      "id": "ins_seufert-att-asymmetric-consent",
+      "operator": "Eric Seufert",
+      "operator_role": "Publisher and analyst, Mobile Dev Memo",
+      "co_operators": [],
+      "source_url": "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
+      "source_type": "essay",
+      "source_title": "Apple forced to restructure ATT",
+      "source_date": "2026-08-18",
+      "captured_date": "2026-08-22",
+      "domain": [
+        "growth-demand",
+        "performance-marketing",
+        "platform-economics"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors"
+    },
+    {
       "path": "insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md",
       "id": "ins_shaambhav-shankar-ai-kills-excuses-for-marketers",
       "title": "With AI, excuses about time or skill are dead, marketers must be fast executors who break things.",
@@ -26342,6 +26401,37 @@
       ],
       "raw_ref": "",
       "title": "AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems"
+    },
+    {
+      "path": "insights/ins_tunguz-intelligence-per-watt.md",
+      "id": "ins_tunguz-intelligence-per-watt",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/intelligence-per-watt/",
+      "source_type": "essay",
+      "source_title": "Mainframes became personal. So will your data center.",
+      "source_date": "2026-08-21",
+      "captured_date": "2026-08-22",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "on-device-ai"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "research",
+      "score": "{ originality: 3, specificity: 5, evidence: 5, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-minimill-local-routing",
+        "ins_tunguz-local-model-reasoning-path"
+      ],
+      "raw_ref": "",
+      "title": "Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks"
     },
     {
       "path": "insights/ins_tunguz-local-model-reasoning-path.md",
@@ -45273,6 +45363,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-22.md",
+      "date": "2026-08-22",
+      "title": "Distribution gates, consent asymmetry, and the local AI cost inflection",
+      "summary": "Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple's ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.",
+      "sources": [
+        "https://www.growth-memo.com/p/slop-antibodies",
+        "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
+        "https://www.tomtunguz.com/intelligence-per-watt/"
+      ],
+      "insights_added": [
+        "ins_indig-slop-antibodies-distribution-gate",
+        "ins_seufert-att-asymmetric-consent",
+        "ins_tunguz-intelligence-per-watt"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-21.md",
       "date": "2026-08-21",
