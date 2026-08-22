@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 01:47:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 01:55:25 GMT</lastBuildDate>
+    <item>
+      <title>Distribution gates, consent asymmetry, and the local AI cost inflection</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-22/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-22/</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple&apos;s ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.</description>
+    </item>
     <item>
       <title>English as interface, discipline as casualty: two frames for understanding what agentic tools change</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-21/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-23/</guid>
       <pubDate>Thu, 23 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.</description>
-    </item>
-    <item>
-      <title>Operating discipline is the lever: frontier models, three productivity tiers, and the signals that separate PMF from novelty revenue</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-22/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-22/</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards. Tomasz Tunguz on the three AI productivity tiers that vary by 8x based on operating layer, not model quality. Cat Wu and Thariq Shihipar on how frontier models change what good system prompts and code review trust look like. Simon Willison on lifecycle cost collapse. Greg Isenberg on vibe revenue.</description>
     </item>
   </channel>
 </rss>
