@@ -31,7 +31,7 @@ Holds when: the demo triggers widget placement by meeting Valve's activity thres
 Fails when: the game is miscategorized and widget impressions reach users with no genre affinity. Fails when the viral social moment has a specific audience the Steam algorithm cannot replicate (e.g. a game that goes viral in a non-gaming community).
 
 ## Evidence
-Zukowski analyzed the "How Many Dudes" launch by Butterscotch Shenanigans (August 2026). The game launched with fewer than 500 wishlists. After a demo launch at the right time, the game entered Steam's widget rotation. The game reached 308,000 wishlists by launch day and sold 242,000 units in the first weeks of release. The team was 7 people, the development cycle was one year. Adam Coster described the strategic reasoning:
+Zukowski analyzed the "How Many Dudes" launch by Butterscotch Shenanigans (August 2026). The game launched with fewer than 500 wishlists. After a demo launch at the right time, the game entered Steam's widget rotation. The game reached 308,000 wishlists by launch day and sold 242,000 units in the first weeks of release. The team was 7 people, the development cycle was one year. Adam Coster described the rationale for shorter dev cycles:
 
 > "Working on a new project with a known scope of like a year is just infinitely more fun and freeing than working on a software project for two years, four years."
 
