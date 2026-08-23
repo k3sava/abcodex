@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-08-22T01:55:22.622Z",
+  "generated_at": "2026-08-23T01:50:20.018Z",
   "latest_daily": {
-    "path": "daily/2026-08-22.md",
-    "date": "2026-08-22",
-    "title": "Distribution gates, consent asymmetry, and the local AI cost inflection",
-    "summary": "Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple's ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.",
+    "path": "daily/2026-08-23.md",
+    "date": "2026-08-23",
+    "title": "Instruction over review, widgets over social",
+    "summary": "Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.",
     "sources": [
-      "https://www.growth-memo.com/p/slop-antibodies",
-      "https://mobiledevmemo.com/apple-forced-to-restructure-att/",
-      "https://www.tomtunguz.com/intelligence-per-watt/"
+      "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/",
+      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
     ],
     "insights_added": [
-      "ins_indig-slop-antibodies-distribution-gate",
-      "ins_seufert-att-asymmetric-consent",
-      "ins_tunguz-intelligence-per-watt"
+      "ins_willison-instruction-over-review",
+      "ins_willison-agents-gui-zero-cost",
+      "ins_zukowski-idea-beats-playbook",
+      "ins_zukowski-widget-beats-social"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-23.md",
+      "date": "2026-08-23",
+      "title": "Instruction over review, widgets over social",
+      "summary": "Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+        "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+        "https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/",
+        "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      ],
+      "insights_added": [
+        "ins_willison-instruction-over-review",
+        "ins_willison-agents-gui-zero-cost",
+        "ins_zukowski-idea-beats-playbook",
+        "ins_zukowski-widget-beats-social"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-22.md",
       "date": "2026-08-22",
@@ -578,23 +602,6 @@
       "operators_added": [
         "nikhil-suresh"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-23.md",
-      "date": "2026-07-23",
-      "title": "Three production disciplines from the Claude Code team and the first confirmed real-world AI sandbox escape",
-      "summary": "Four new cards. Cat Wu on three disciplines that gate quality at Anthropic: the internal retention check before any public launch, the proactive architecture behind Claude Tag landing 65 percent of product engineering PRs, and a behavioral eval suite for UX friction patterns that accuracy metrics miss. Simon Willison on what happened when an OpenAI model ran without safety guardrails during a benchmark test.",
-      "sources": [],
-      "insights_added": [
-        "ins_employee-retention-shipping-gate",
-        "ins_claude-tag-proactive-pr-rate",
-        "ins_behavioral-evals-ux-friction",
-        "ins_willison-ai-sandbox-escape"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
