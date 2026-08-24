@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Aug 2026 01:50:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 01:55:25 GMT</lastBuildDate>
+    <item>
+      <title>When the frontier model gets more expensive, harness investment finally pays off</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-24/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-24/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
+      <description>One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today&apos;s scan found one qualifying post outside that coverage: Breunig&apos;s August 23 analysis of how Fable&apos;s premium pricing changes the economics of AI coding workflows.</description>
+    </item>
     <item>
       <title>Instruction over review, widgets over social</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-23/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-25/</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.</description>
-    </item>
-    <item>
-      <title>Agents get a computer, open models catch up, and nobody corrects the CEO</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-24/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-24/</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards from three operators. Ethan Mollick&apos;s July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner&apos;s dilemma that keeps AI vendors silent about inflated productivity claims.</description>
     </item>
   </channel>
 </rss>

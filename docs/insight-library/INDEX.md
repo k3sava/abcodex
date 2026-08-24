@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-23. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1070 insight cards
+- 1071 insight cards
 - 520 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -364,7 +364,7 @@ _Generated 2026-08-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (641)
+### Tier B (642)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -452,6 +452,7 @@ _Generated 2026-08-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
+- [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_

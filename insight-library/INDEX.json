@@ -1,30 +1,24 @@
 {
-  "generated_at": "2026-08-23T01:50:19.937Z",
+  "generated_at": "2026-08-24T01:55:21.333Z",
   "counts": {
-    "insights": 1070,
+    "insights": 1071,
     "operators": 520,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 84
+    "daily": 85
   },
   "latest_daily": {
-    "path": "daily/2026-08-23.md",
-    "date": "2026-08-23",
-    "title": "Instruction over review, widgets over social",
-    "summary": "Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.",
+    "path": "daily/2026-08-24.md",
+    "date": "2026-08-24",
+    "title": "When the frontier model gets more expensive, harness investment finally pays off",
+    "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/",
-      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
     ],
     "insights_added": [
-      "ins_willison-instruction-over-review",
-      "ins_willison-agents-gui-zero-cost",
-      "ins_zukowski-idea-beats-playbook",
-      "ins_zukowski-widget-beats-social"
+      "ins_breunig-fable-tier-routing"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -3785,6 +3779,37 @@
       ],
       "raw_ref": "",
       "title": "Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost"
+    },
+    {
+      "path": "insights/ins_breunig-fable-tier-routing.md",
+      "id": "ins_breunig-fable-tier-routing",
+      "operator": "Drew Breunig",
+      "operator_role": "Writer and AI product thinker, dbreunig.com",
+      "co_operators": [],
+      "source_url": "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html",
+      "source_type": "essay",
+      "source_title": "Fable & The End of the Free Lunch",
+      "source_date": "2026-08-23",
+      "captured_date": "2026-08-24",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-harness-lock-in-model-layer",
+        "ins_tunguz-intelligence-per-watt",
+        "ins_tunguz-local-model-reasoning-path"
+      ],
+      "raw_ref": "",
+      "title": "When frontier model pricing rises rather than falls, harness quality becomes the primary investment"
     },
     {
       "path": "insights/ins_breunig-harness-lock-in-model-layer.md",
@@ -45484,6 +45509,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-24.md",
+      "date": "2026-08-24",
+      "title": "When the frontier model gets more expensive, harness investment finally pays off",
+      "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
+      "sources": [
+        "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
+      ],
+      "insights_added": [
+        "ins_breunig-fable-tier-routing"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-23.md",
       "date": "2026-08-23",
