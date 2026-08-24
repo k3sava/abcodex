@@ -1,21 +1,15 @@
 {
-  "generated_at": "2026-08-23T01:50:20.018Z",
+  "generated_at": "2026-08-24T01:55:21.405Z",
   "latest_daily": {
-    "path": "daily/2026-08-23.md",
-    "date": "2026-08-23",
-    "title": "Instruction over review, widgets over social",
-    "summary": "Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.",
+    "path": "daily/2026-08-24.md",
+    "date": "2026-08-24",
+    "title": "When the frontier model gets more expensive, harness investment finally pays off",
+    "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/",
-      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
     ],
     "insights_added": [
-      "ins_willison-instruction-over-review",
-      "ins_willison-agents-gui-zero-cost",
-      "ins_zukowski-idea-beats-playbook",
-      "ins_zukowski-widget-beats-social"
+      "ins_breunig-fable-tier-routing"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +17,22 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-24.md",
+      "date": "2026-08-24",
+      "title": "When the frontier model gets more expensive, harness investment finally pays off",
+      "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
+      "sources": [
+        "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
+      ],
+      "insights_added": [
+        "ins_breunig-fable-tier-routing"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-23.md",
       "date": "2026-08-23",
@@ -581,26 +591,6 @@
       "operators_added": [
         "lilian-weng",
         "dex-horthy"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-24.md",
-      "date": "2026-07-24",
-      "title": "Agents get a computer, open models catch up, and nobody corrects the CEO",
-      "summary": "Five new cards from three operators. Ethan Mollick's July 23 guide surfaces three distinct insights about agentic systems: what makes agents different from chatbots, why approval gates matter until you know the failure modes, and which output modality fits which oversight need. Tom Tunguz frames the open versus closed model competition as a repeating cycle that speeds up the whole market. Nikhil Suresh names the structural prisoner's dilemma that keeps AI vendors silent about inflated productivity claims.",
-      "sources": [],
-      "insights_added": [
-        "ins_agent-computer-to-use",
-        "ins_agent-approval-gate",
-        "ins_work-vs-code-modality",
-        "ins_open-model-frontier-cycle",
-        "ins_ai-mania-vendor-silence"
-      ],
-      "operators_added": [
-        "nikhil-suresh"
       ],
       "patterns_added": [],
       "playbooks_added": [],

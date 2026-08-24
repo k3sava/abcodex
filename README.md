@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-23 · 4 insights
+### Latest · 2026-08-24 · 1 insight
 
-**Instruction over review, widgets over social.** Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.
+**When the frontier model gets more expensive, harness investment finally pays off.** One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.
 
-[Read what landed →](insight-library/daily/2026-08-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1070** insight cards
+- **1071** insight cards
 - **520** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
