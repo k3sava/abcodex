@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-24 · 1 insight
+### Latest · 2026-08-25 · 4 insights · 2 operators
 
-**When the frontier model gets more expensive, harness investment finally pays off.** One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.
+**Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut.** Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI's verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.
 
-[Read what landed →](insight-library/daily/2026-08-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1071** insight cards
-- **520** operator profiles
+- **1075** insight cards
+- **522** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 520 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 522 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
