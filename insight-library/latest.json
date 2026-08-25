@@ -1,22 +1,56 @@
 {
-  "generated_at": "2026-08-24T01:55:21.405Z",
+  "generated_at": "2026-08-25T01:51:41.449Z",
   "latest_daily": {
-    "path": "daily/2026-08-24.md",
-    "date": "2026-08-24",
-    "title": "When the frontier model gets more expensive, harness investment finally pays off",
-    "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
+    "path": "daily/2026-08-25.md",
+    "date": "2026-08-25",
+    "title": "Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut",
+    "summary": "Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI's verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.",
     "sources": [
-      "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
+      "https://www.tomtunguz.com/the-ai-cost-stack/",
+      "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+      "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+      "https://interconnected.org/home/2026/08/21/galactic"
     ],
     "insights_added": [
-      "ins_breunig-fable-tier-routing"
+      "ins_tunguz-ai-infrastructure-bullwhip",
+      "ins_torvalds-ai-debugging-persistence",
+      "ins_indig-search-volatility-2026-baseline",
+      "ins_webb-ai-tutor-over-generator"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "linus-torvalds",
+      "matt-webb"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-25.md",
+      "date": "2026-08-25",
+      "title": "Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut",
+      "summary": "Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI's verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.",
+      "sources": [
+        "https://www.tomtunguz.com/the-ai-cost-stack/",
+        "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+        "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+        "https://interconnected.org/home/2026/08/21/galactic"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-infrastructure-bullwhip",
+        "ins_torvalds-ai-debugging-persistence",
+        "ins_indig-search-volatility-2026-baseline",
+        "ins_webb-ai-tutor-over-generator"
+      ],
+      "operators_added": [
+        "linus-torvalds",
+        "matt-webb"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-24.md",
       "date": "2026-08-24",
@@ -572,26 +606,6 @@
         "ins_indig-ai-search-category-ownership"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-25.md",
-      "date": "2026-07-25",
-      "title": "Harnesses and context zones: two new operators on what sits between the model and the work",
-      "summary": "Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.",
-      "sources": [],
-      "insights_added": [
-        "ins_weng-harness-recursive-self-improvement",
-        "ins_weng-self-improvement-eval-isolation",
-        "ins_horthy-context-dumb-zone",
-        "ins_horthy-trajectory-poisoning-reset"
-      ],
-      "operators_added": [
-        "lilian-weng",
-        "dex-horthy"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

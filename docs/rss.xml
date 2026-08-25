@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 01:55:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 01:51:43 GMT</lastBuildDate>
+    <item>
+      <title>Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-25/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-25/</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI&apos;s verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.</description>
+    </item>
     <item>
       <title>When the frontier model gets more expensive, harness investment finally pays off</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-24/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-26/</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.</description>
-    </item>
-    <item>
-      <title>Harnesses and context zones: two new operators on what sits between the model and the work</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-25/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-25/</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from two new operators. Lilian Weng on why the software layer around a model is the site of recursive self-improvement, and why self-improving loops require evals, isolation, and auditable traces. Dex Horthy on the context window degradation threshold that produces destructive model behavior, and on the trajectory poisoning pattern that requires a session reset to break.</description>
     </item>
   </channel>
 </rss>

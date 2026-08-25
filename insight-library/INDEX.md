@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1071 insight cards
-- 520 operator profiles
+- 1075 insight cards
+- 522 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -364,7 +364,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (642)
+### Tier B (645)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -614,6 +614,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
+- [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_indig-slop-antibodies-distribution-gate`](insights/ins_indig-slop-antibodies-distribution-gate.md) — Platform anti-slop detection shifts content scarcity from production to distribution reach _(Kevin Indig)_
 - [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
@@ -879,6 +880,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_three-class-agent-taxonomy`](insights/ins_three-class-agent-taxonomy.md) — Agents come in three classes, tag each loop or under-resource it _(Hamza Farooq)_
 - [`ins_three-levels-financial-success`](insights/ins_three-levels-financial-success.md) — Three levels of agency financial success: Efficient Firm, Value-Curious Firm, Entrepreneur _(Blair Enns)_
 - [`ins_three-months-senior-pmm-tech`](insights/ins_three-months-senior-pmm-tech.md) — Three months in as a Senior PMM in tech. Here are some of my reflections especially for _(Hira Saeed)_
+- [`ins_torvalds-ai-debugging-persistence`](insights/ins_torvalds-ai-debugging-persistence.md) — AI systems declare hard debugging problems impossible; human persistence overrides that defeatism _(Linus Torvalds)_
 - [`ins_training-targets-decision-friction`](insights/ins_training-targets-decision-friction.md) — Training works when it targets the exact decision friction blocking deals _(Rohit Shah)_
 - [`ins_translate-pmm-activities-to-exec-speak`](insights/ins_translate-pmm-activities-to-exec-speak.md) — PMMs lose influence when they report activities; translate every activity into a business outcome _(Yi Lin Pei)_
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
@@ -893,6 +895,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-editor-not-ghostwriter`](insights/ins_tunguz-ai-editor-not-ghostwriter.md) — AI homogenizes voice because all writers share the same ghostwriter, so use AI as an editor and preserve your own stylistic markers _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
+- [`ins_tunguz-ai-infrastructure-bullwhip`](insights/ins_tunguz-ai-infrastructure-bullwhip.md) — AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
@@ -1008,7 +1011,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (79)
+### Tier C (80)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1086,6 +1089,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_uddhav-parab-creativity-without-case-studies`](insights/ins_uddhav-parab-creativity-without-case-studies.md) — Direct the creative work, don't hog the juicy writing from juniors _(Uddhav Parab)_
 - [`ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics`](insights/ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics.md) — Drives strategic logistics operations for SAR and RTW _(Vinayak Padiyar)_
 - [`ins_vishnu-prasad-growth-through-experimentation`](insights/ins_vishnu-prasad-growth-through-experimentation.md) — Growth comes from experimentation, tough conversations, and late calls, not overnight success. _(Vishnu Prasad)_
+- [`ins_webb-ai-tutor-over-generator`](insights/ins_webb-ai-tutor-over-generator.md) — Using AI as an interactive tutor rather than a code generator produces durable learning that books and expert friends cannot match _(Matt Webb)_
 - [`ins_willison-knowledge-breadth-model-proxy`](insights/ins_willison-knowledge-breadth-model-proxy.md) — Asking a model about an obscure open-source project it has no incentive to fabricate is a practical proxy for its training depth _(Simon Willison)_
 - [`ins_yosha-gupta-founder-pitch-deck-clarity`](insights/ins_yosha-gupta-founder-pitch-deck-clarity.md) — A founder's pitch deck must deliver the story with clarity and confidence, not just data. _(Yosha Gupta)_
 
@@ -1387,6 +1391,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [Lilian Weng](operators/lilian-weng/README.md)
 - [Lily Ray](operators/lily-ray/README.md)
 - [Linde Hasker](operators/linde-hasker/README.md)
+- [Linus Torvalds](operators/linus-torvalds/README.md)
 - [Liza Adams](operators/liza-adams/README.md)
 - [Lola Han](operators/lola-han/README.md)
 - [Lorelei Whitman](operators/lorelei-whitman/README.md)
@@ -1419,6 +1424,7 @@ _Generated 2026-08-24. Auto-built from frontmatter — do not edit by hand._
 - [Matt Dixon](operators/matt-dixon/README.md)
 - [Matt Gray](operators/matt-gray/README.md)
 - [Matt Shumer](operators/matt-shumer/README.md)
+- [Matt Webb](operators/matt-webb/README.md)
 - [Max Schoening](operators/max-schoening/README.md)
 - [Mayuresh Patole](operators/mayuresh-patole/README.md)
 - [Megha Sharma](operators/megha-sharma/README.md)
