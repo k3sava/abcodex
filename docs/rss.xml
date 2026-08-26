@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 01:51:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 01:55:22 GMT</lastBuildDate>
+    <item>
+      <title>Google&apos;s spam filter, an agent&apos;s sleep cycle, and the sentence that replaces a grammar textbook</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-26/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-26/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Kevin Indig&apos;s primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.</description>
+    </item>
     <item>
       <title>Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-25/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-27/</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.</description>
-    </item>
-    <item>
-      <title>Rewrites, linting, and ownership: four cards on what the agent era makes cheap and what it makes durable</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-26/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-26/</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from three lanes. Thariq Shihipar on why full rewrites are now rational. Simon Willison on structured linting as perfect agent input. Harrison Chase on the three-layer framework for compounding AI intelligence. Kevin Indig on why AI search category ownership concentrates fast and holds.</description>
     </item>
   </channel>
 </rss>

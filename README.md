@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-25 · 4 insights · 2 operators
+### Latest · 2026-08-26 · 3 insights
 
-**Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut.** Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI's verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.
+**Google's spam filter, an agent's sleep cycle, and the sentence that replaces a grammar textbook.** Three new cards from two operators. Kevin Indig's primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.
 
-[Read what landed →](insight-library/daily/2026-08-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1075** insight cards
+- **1078** insight cards
 - **522** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
