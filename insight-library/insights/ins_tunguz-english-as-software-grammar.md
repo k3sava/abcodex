@@ -35,7 +35,7 @@ This inverts the product design calculus. Complexity should now be optimized for
 Tunguz illustrates this with Yana Welinder, who used Codex to operate CAD software she had no prior training in. She described the design she wanted in natural language. The AI translated it into CAD grammar. A fabricator who reviewed the output called the resulting dress design previously unmanufacturable, meaning the design exceeded what could have been produced by a non-expert using the software directly.
 
 ## Conditions
-Holds when: the target software has comprehensive documentation and a well-defined grammar the agent can learn from. The more complete the documentation, the more reliably the agent translates intent.
+Holds when: the target software has thorough documentation and a well-defined grammar the agent can learn from. The more complete the documentation, the more reliably the agent translates intent.
 
 Fails when: the software relies on undocumented conventions, visual judgment, or proprietary tribal knowledge that does not translate cleanly into language.
 
