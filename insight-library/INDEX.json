@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T01:59:56.919Z",
+  "generated_at": "2026-08-27T02:02:03.960Z",
   "counts": {
     "insights": 1081,
     "operators": 522,
@@ -20940,7 +20940,7 @@
         "ins_ronacher-harness-loop-comprehension-cost"
       ],
       "raw_ref": "",
-      "title": "LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a strategic preference"
+      "title": "LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference"
     },
     {
       "path": "insights/ins_ronacher-reasoning-traces-as-text.md",

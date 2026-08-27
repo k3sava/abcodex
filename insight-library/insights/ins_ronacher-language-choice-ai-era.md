@@ -18,7 +18,7 @@ related: [ins_ronacher-harness-loop-comprehension-cost]
 raw_ref: ""
 ---
 
-# LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a strategic preference
+# LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference
 
 ## Claim
 LLMs remove the language-familiarity barrier from programming language selection. Developers can now choose a language for performance or ecosystem fit without requiring deep personal expertise, because agents can read and write unfamiliar syntax fluently. The decision shifts from "what can my team ship" to "what fits the runtime and ecosystem requirements."
