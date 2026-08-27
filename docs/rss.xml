@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 01:55:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 02:02:06 GMT</lastBuildDate>
+    <item>
+      <title>The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-27/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-27/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from two operators. Kevin Indig&apos;s measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.</description>
+    </item>
     <item>
       <title>Google&apos;s spam filter, an agent&apos;s sleep cycle, and the sentence that replaces a grammar textbook</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-26/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-28/</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World&apos;s Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick&apos;s July 25 essay applies Spolsky&apos;s commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.</description>
-    </item>
-    <item>
-      <title>Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-27/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-27/</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.</description>
     </item>
   </channel>
 </rss>

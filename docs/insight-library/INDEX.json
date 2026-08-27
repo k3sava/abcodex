@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-26T01:55:19.694Z",
+  "generated_at": "2026-08-27T02:02:03.960Z",
   "counts": {
-    "insights": 1078,
+    "insights": 1081,
     "operators": 522,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 87
+    "daily": 88
   },
   "latest_daily": {
-    "path": "daily/2026-08-26.md",
-    "date": "2026-08-26",
-    "title": "Google's spam filter, an agent's sleep cycle, and the sentence that replaces a grammar textbook",
-    "summary": "Three new cards from two operators. Kevin Indig's primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.",
+    "path": "daily/2026-08-27.md",
+    "date": "2026-08-27",
+    "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
+    "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
     "sources": [
-      "https://www.growth-memo.com/p/has-google-demoted-listicles",
-      "https://www.tomtunguz.com/how-long-should-an-agent-live/",
-      "https://www.tomtunguz.com/previously-unmanufacturable/"
+      "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+      "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+      "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
     ],
     "insights_added": [
-      "ins_indig-google-demoted-spam-listicles",
-      "ins_tunguz-agent-24h-sleep-cycle",
-      "ins_tunguz-english-as-software-grammar"
+      "ins_indig-aggregator-chatgpt-citation-gap",
+      "ins_ronacher-language-choice-ai-era",
+      "ins_ronacher-reasoning-traces-as-text"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -10806,6 +10806,37 @@
       "title": "When behavior puzzles you, look at incentives, that's where every other model is downstream of"
     },
     {
+      "path": "insights/ins_indig-aggregator-chatgpt-citation-gap.md",
+      "id": "ins_indig-aggregator-chatgpt-citation-gap",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo; former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+      "source_type": "essay",
+      "source_title": "Growth Intelligence Brief #23",
+      "source_date": "2026-08-20",
+      "captured_date": "2026-08-27",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth"
+      ],
+      "lifecycle": [
+        "measurement",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-search-volatility-2026-baseline",
+        "ins_indig-slop-antibodies-distribution-gate"
+      ],
+      "raw_ref": "",
+      "title": "Aggregators hold 76% of Google's SEO visibility but only 38% of ChatGPT's citation pool, requiring separate authority-building strategies for each surface"
+    },
+    {
       "path": "insights/ins_indig-ai-mode-agentic-compliance.md",
       "id": "ins_indig-ai-mode-agentic-compliance",
       "operator": "Kevin Indig",
@@ -20881,6 +20912,63 @@
       ],
       "raw_ref": "",
       "title": "RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas"
+    },
+    {
+      "path": "insights/ins_ronacher-language-choice-ai-era.md",
+      "id": "ins_ronacher-language-choice-ai-era",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+      "source_type": "essay",
+      "source_title": "Fast and Hard Code",
+      "source_date": "2026-08-22",
+      "captured_date": "2026-08-27",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference"
+    },
+    {
+      "path": "insights/ins_ronacher-reasoning-traces-as-text.md",
+      "id": "ins_ronacher-reasoning-traces-as-text",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/",
+      "source_type": "essay",
+      "source_title": "What Is Reasoning",
+      "source_date": "2026-08-19",
+      "captured_date": "2026-08-27",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost"
+      ],
+      "raw_ref": "",
+      "title": "Reasoning traces in frontier models are text routed through special tokens by convention, not a separate cognitive process"
     },
     {
       "path": "insights/ins_ronacher-safety-framing-access-restriction.md",
@@ -45755,6 +45843,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-27.md",
+      "date": "2026-08-27",
+      "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
+      "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
+      "sources": [
+        "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+        "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+        "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+      ],
+      "insights_added": [
+        "ins_indig-aggregator-chatgpt-citation-gap",
+        "ins_ronacher-language-choice-ai-era",
+        "ins_ronacher-reasoning-traces-as-text"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-26.md",
       "date": "2026-08-26",
