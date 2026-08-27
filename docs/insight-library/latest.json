@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-08-26T01:55:19.716Z",
+  "generated_at": "2026-08-27T01:59:56.967Z",
   "latest_daily": {
-    "path": "daily/2026-08-26.md",
-    "date": "2026-08-26",
-    "title": "Google's spam filter, an agent's sleep cycle, and the sentence that replaces a grammar textbook",
-    "summary": "Three new cards from two operators. Kevin Indig's primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.",
+    "path": "daily/2026-08-27.md",
+    "date": "2026-08-27",
+    "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
+    "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
     "sources": [
-      "https://www.growth-memo.com/p/has-google-demoted-listicles",
-      "https://www.tomtunguz.com/how-long-should-an-agent-live/",
-      "https://www.tomtunguz.com/previously-unmanufacturable/"
+      "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+      "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+      "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
     ],
     "insights_added": [
-      "ins_indig-google-demoted-spam-listicles",
-      "ins_tunguz-agent-24h-sleep-cycle",
-      "ins_tunguz-english-as-software-grammar"
+      "ins_indig-aggregator-chatgpt-citation-gap",
+      "ins_ronacher-language-choice-ai-era",
+      "ins_ronacher-reasoning-traces-as-text"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-27.md",
+      "date": "2026-08-27",
+      "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
+      "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
+      "sources": [
+        "https://www.growth-memo.com/p/growth-intelligence-brief-23",
+        "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+        "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+      ],
+      "insights_added": [
+        "ins_indig-aggregator-chatgpt-citation-gap",
+        "ins_ronacher-language-choice-ai-era",
+        "ins_ronacher-reasoning-traces-as-text"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-26.md",
       "date": "2026-08-26",
@@ -586,24 +606,6 @@
         "ins_mccormick-open-weight-coalition"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-27.md",
-      "date": "2026-07-27",
-      "title": "Scaffolding ceilings, relay markets, and a field experiment on what AI Overviews cost publishers",
-      "summary": "Three cards from three lanes. Dan Shipper on why scaffolding built for a weaker model constrains a stronger one, and why deletion beats iteration when upgrading. Simon Willison on the relay market ecosystem that finances LLM credential abuse through open-source proxy infrastructure. Ananya Sen on a controlled field experiment finding that AI Overviews cut outbound publisher clicks 40% with no improvement in user satisfaction.",
-      "sources": [],
-      "insights_added": [
-        "ins_shipper-opus5-scaffolding-reset",
-        "ins_willison-llm-relay-market",
-        "ins_sen-ai-overviews-click-reduction"
-      ],
-      "operators_added": [
-        "ananya-sen"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-26. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1078 insight cards
+- 1081 insight cards
 - 522 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -365,7 +365,7 @@ _Generated 2026-08-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (647)
+### Tier B (650)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -603,6 +603,7 @@ _Generated 2026-08-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign`](insights/ins_ian-buchanan-get-painfully-clear-on-why-before-website-redesign.md) — Get painfully clear on the 'why' before any design or copy work on a website relaunch. _(Ian Buchanan)_
 - [`ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul`](insights/ins_ian-buchanan-use-ai-as-shared-memory-for-website-overhaul.md) — Use AI as shared memory to maintain messaging consistency across a website overhaul. _(Ian Buchanan)_
 - [`ins_icp-account-not-persona`](insights/ins_icp-account-not-persona.md) — An ICP isn't a buyer persona, it's an account-level definition that must be operationalized in CRM and product roadmap _(TK Kader)_
+- [`ins_indig-aggregator-chatgpt-citation-gap`](insights/ins_indig-aggregator-chatgpt-citation-gap.md) — Aggregators hold 76% of Google's SEO visibility but only 38% of ChatGPT's citation pool, requiring separate authority-building strategies for each surface _(Kevin Indig)_
 - [`ins_indig-ai-mode-commercial-shift`](insights/ins_indig-ai-mode-commercial-shift.md) — AI Mode cut publisher mentions nearly in half while tripling major retailer mentions, revealing a structural bias toward commercial endpoints _(Kevin Indig)_
 - [`ins_indig-ai-mode-query-length`](insights/ins_indig-ai-mode-query-length.md) — AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search _(Kevin Indig)_
 - [`ins_indig-ai-search-category-ownership`](insights/ins_indig-ai-search-category-ownership.md) — AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time _(Kevin Indig)_
@@ -799,6 +800,8 @@ _Generated 2026-08-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ronacher-agents-erase-shared-understanding`](insights/ins_ronacher-agents-erase-shared-understanding.md) — Agents remove the coordination friction that kept team architectural understanding synchronized _(Armin Ronacher)_
 - [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
 - [`ins_ronacher-harness-overfit-tool-schema`](insights/ins_ronacher-harness-overfit-tool-schema.md) — RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas _(Armin Ronacher)_
+- [`ins_ronacher-language-choice-ai-era`](insights/ins_ronacher-language-choice-ai-era.md) — LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a strategic preference _(Armin Ronacher)_
+- [`ins_ronacher-reasoning-traces-as-text`](insights/ins_ronacher-reasoning-traces-as-text.md) — Reasoning traces in frontier models are text routed through special tokens by convention, not a separate cognitive process _(Armin Ronacher)_
 - [`ins_ronacher-safety-framing-access-restriction`](insights/ins_ronacher-safety-framing-access-restriction.md) — When safety restrictions align with financial incentives, treat the safety rationale as suspect _(Armin Ronacher)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_

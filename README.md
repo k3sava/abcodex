@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-26 · 3 insights
+### Latest · 2026-08-27 · 3 insights
 
-**Google's spam filter, an agent's sleep cycle, and the sentence that replaces a grammar textbook.** Three new cards from two operators. Kevin Indig's primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.
+**The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text.** Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.
 
-[Read what landed →](insight-library/daily/2026-08-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1078** insight cards
+- **1081** insight cards
 - **522** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
