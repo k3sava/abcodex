@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1081 insight cards
+- 1084 insight cards
 - 522 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -365,7 +365,7 @@ _Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (650)
+### Tier B (651)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -833,6 +833,7 @@ _Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
+- [`ins_shipper-taste-agent-hill-climb`](insights/ins_shipper-taste-agent-hill-climb.md) — Building a copy-editing agent from 30,000 historical edits and hill-climbing the prompt against all past decisions encodes durable expert taste _(Dan Shipper)_
 - [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
 - [`ins_shipper-token-spend-parity-break`](insights/ins_shipper-token-spend-parity-break.md) — Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder _(Dan Shipper)_
 - [`ins_shivangi-gautam-word-salad-critique`](insights/ins_shivangi-gautam-word-salad-critique.md) — LinkedIn thought leadership is often word salad with no real point. _(Shivangi Gautam)_
@@ -1017,7 +1018,7 @@ _Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (80)
+### Tier C (82)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1087,6 +1088,8 @@ _Generated 2026-08-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality`](insights/ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality.md) — Working out loud beats hindsight, the breadcrumb trail compounds _(Saniya Waghray Tyagi)_
 - [`ins_sara-popken-ai-first-pmm-opportunity`](insights/ins_sara-popken-ai-first-pmm-opportunity.md) — Shaping the future of learning in an AI-first world as a PMM at Quizlet _(Sara Popken)_
 - [`ins_shali-rana-reed-gap-in-resume-retort`](insights/ins_shali-rana-reed-gap-in-resume-retort.md) — GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey _(Shali Rana Reed)_
+- [`ins_shipper-disclosure-gap`](insights/ins_shipper-disclosure-gap.md) — Near-universal AI use among professional writers is not surfacing publicly because social stigma around authenticity suppresses disclosure _(Dan Shipper)_
+- [`ins_shipper-rule-complexity-floor`](insights/ins_shipper-rule-complexity-floor.md) — Even rule-based tasks like copy editing carry enough context-sensitivity to resist full automation by current AI _(Dan Shipper)_
 - [`ins_shruti-padala-hallway-phase-of-job-transitions`](insights/ins_shruti-padala-hallway-phase-of-job-transitions.md) — Job transitions have a 'hallway phase' where nothing is wrong but nothing feels familiar. _(Shruti Padala)_
 - [`ins_shubham-shrivastava-job-market-like-tinder`](insights/ins_shubham-shrivastava-job-market-like-tinder.md) — Job market is like Tinder: few options, many swipes, and desperation makes anything negotiable. _(SHUBHAM SHRIVASTAVA)_
 - [`ins_srikanth-reddy-operations-sr-manager-bpo`](insights/ins_srikanth-reddy-operations-sr-manager-bpo.md) — BPO operations leader driving e-commerce sales and client relations _(Srikanth Reddy)_

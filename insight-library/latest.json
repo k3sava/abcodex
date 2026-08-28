@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-08-27T02:02:03.990Z",
+  "generated_at": "2026-08-28T01:57:17.317Z",
   "latest_daily": {
-    "path": "daily/2026-08-27.md",
-    "date": "2026-08-27",
-    "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
-    "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
+    "path": "daily/2026-08-28.md",
+    "date": "2026-08-28",
+    "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
+    "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
     "sources": [
-      "https://www.growth-memo.com/p/growth-intelligence-brief-23",
-      "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-      "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+      "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
     ],
     "insights_added": [
-      "ins_indig-aggregator-chatgpt-citation-gap",
-      "ins_ronacher-language-choice-ai-era",
-      "ins_ronacher-reasoning-traces-as-text"
+      "ins_shipper-taste-agent-hill-climb",
+      "ins_shipper-disclosure-gap",
+      "ins_shipper-rule-complexity-floor"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +19,24 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-28.md",
+      "date": "2026-08-28",
+      "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
+      "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
+      "sources": [
+        "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
+      ],
+      "insights_added": [
+        "ins_shipper-taste-agent-hill-climb",
+        "ins_shipper-disclosure-gap",
+        "ins_shipper-rule-complexity-floor"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-27.md",
       "date": "2026-08-27",
@@ -588,22 +604,6 @@
         "ins_indig-gsc-attribution-gap",
         "ins_mollick-agentic-external-injection",
         "ins_willison-open-model-defense-asymmetry"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-28.md",
-      "date": "2026-07-28",
-      "title": "Agent security architecture and the open-weight coalition: three cards from two sources",
-      "summary": "Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World's Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick's July 25 essay applies Spolsky's commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.",
-      "sources": [],
-      "insights_added": [
-        "ins_credential-injection-proxy",
-        "ins_auto-mode-context-classifier",
-        "ins_mccormick-open-weight-coalition"
       ],
       "operators_added": [],
       "patterns_added": [],
