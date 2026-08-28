@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 02:02:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 01:57:21 GMT</lastBuildDate>
+    <item>
+      <title>Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-28/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-28/</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from Dan Shipper&apos;s August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.</description>
+    </item>
     <item>
       <title>The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-27/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-29/</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three sources published in the last seven days. Kevin Indig&apos;s July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick&apos;s July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison&apos;s July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.</description>
-    </item>
-    <item>
-      <title>Agent security architecture and the open-weight coalition: three cards from two sources</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-28/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-28/</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two sources. Two cards from the July 21 Claude Code fireside chat at the AI Engineer World&apos;s Fair document production security patterns: credential proxy injection and conversation-context permission classification. One card from Packy McCormick&apos;s July 25 essay applies Spolsky&apos;s commoditize-the-complement framework to explain why companies with nearly $8 trillion in combined market cap publicly backed open-weight AI models.</description>
     </item>
   </channel>
 </rss>

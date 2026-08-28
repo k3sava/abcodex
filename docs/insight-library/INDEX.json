@@ -1,28 +1,26 @@
 {
-  "generated_at": "2026-08-27T02:02:03.960Z",
+  "generated_at": "2026-08-28T01:57:17.287Z",
   "counts": {
-    "insights": 1081,
+    "insights": 1084,
     "operators": 522,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 88
+    "daily": 89
   },
   "latest_daily": {
-    "path": "daily/2026-08-27.md",
-    "date": "2026-08-27",
-    "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
-    "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
+    "path": "daily/2026-08-28.md",
+    "date": "2026-08-28",
+    "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
+    "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
     "sources": [
-      "https://www.growth-memo.com/p/growth-intelligence-brief-23",
-      "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-      "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
+      "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
     ],
     "insights_added": [
-      "ins_indig-aggregator-chatgpt-citation-gap",
-      "ins_ronacher-language-choice-ai-era",
-      "ins_ronacher-reasoning-traces-as-text"
+      "ins_shipper-taste-agent-hill-climb",
+      "ins_shipper-disclosure-gap",
+      "ins_shipper-rule-complexity-floor"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -22172,6 +22170,34 @@
       "title": "AI agent safety is an environment design problem, not a model values problem"
     },
     {
+      "path": "insights/ins_shipper-disclosure-gap.md",
+      "id": "ins_shipper-disclosure-gap",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://www.platformer.news/every-dan-shipper-interview-ai-writing/",
+      "source_type": "post",
+      "source_title": "The website that created an AI clone of its editor in chief",
+      "source_date": "2026-08-20",
+      "captured_date": "2026-08-28",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_shipper-taste-agent-hill-climb"
+      ],
+      "raw_ref": "",
+      "title": "Near-universal AI use among professional writers is not surfacing publicly because social stigma around authenticity suppresses disclosure"
+    },
+    {
       "path": "insights/ins_shipper-front-brief-autonomous-run.md",
       "id": "ins_shipper-front-brief-autonomous-run",
       "operator": "Dan Shipper",
@@ -22264,6 +22290,64 @@
       ],
       "raw_ref": "",
       "title": "The bottleneck for AI adoption has moved from model capability to organizational capability"
+    },
+    {
+      "path": "insights/ins_shipper-rule-complexity-floor.md",
+      "id": "ins_shipper-rule-complexity-floor",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://www.platformer.news/every-dan-shipper-interview-ai-writing/",
+      "source_type": "post",
+      "source_title": "The website that created an AI clone of its editor in chief",
+      "source_date": "2026-08-20",
+      "captured_date": "2026-08-28",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_shipper-taste-agent-hill-climb",
+        "ins_shipper-tend-your-loop"
+      ],
+      "raw_ref": "",
+      "title": "Even rule-based tasks like copy editing carry enough context-sensitivity to resist full automation by current AI"
+    },
+    {
+      "path": "insights/ins_shipper-taste-agent-hill-climb.md",
+      "id": "ins_shipper-taste-agent-hill-climb",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://www.platformer.news/every-dan-shipper-interview-ai-writing/",
+      "source_type": "post",
+      "source_title": "The website that created an AI clone of its editor in chief",
+      "source_date": "2026-08-20",
+      "captured_date": "2026-08-28",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-org-capability-ai-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Building a copy-editing agent from 30,000 historical edits and hill-climbing the prompt against all past decisions encodes durable expert taste"
     },
     {
       "path": "insights/ins_shipper-tend-your-loop.md",
@@ -45843,6 +45927,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-28.md",
+      "date": "2026-08-28",
+      "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
+      "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
+      "sources": [
+        "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
+      ],
+      "insights_added": [
+        "ins_shipper-taste-agent-hill-climb",
+        "ins_shipper-disclosure-gap",
+        "ins_shipper-rule-complexity-floor"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-27.md",
       "date": "2026-08-27",
