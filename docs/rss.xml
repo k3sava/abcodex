@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 01:57:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 02:00:49 GMT</lastBuildDate>
+    <item>
+      <title>Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-29/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-29/</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from three operators. Tunguz reads NVIDIA&apos;s receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.</description>
+    </item>
     <item>
       <title>Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-28/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-30/</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.</description>
-    </item>
-    <item>
-      <title>AEO as brand channel, and agentic safety from two angles: four cards from three sources</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-29/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-29/</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from three sources published in the last seven days. Kevin Indig&apos;s July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick&apos;s July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison&apos;s July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.</description>
     </item>
   </channel>
 </rss>

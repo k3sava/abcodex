@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-28 · 3 insights
+### Latest · 2026-08-29 · 3 insights
 
-**Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing.** Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.
+**Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday.** Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.
 
-[Read what landed →](insight-library/daily/2026-08-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-08-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1084** insight cards
+- **1087** insight cards
 - **522** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
