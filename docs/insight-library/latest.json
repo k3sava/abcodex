@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-08-28T01:57:17.317Z",
+  "generated_at": "2026-08-29T01:58:56.087Z",
   "latest_daily": {
-    "path": "daily/2026-08-28.md",
-    "date": "2026-08-28",
-    "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
-    "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
+    "path": "daily/2026-08-29.md",
+    "date": "2026-08-29",
+    "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
+    "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
     "sources": [
-      "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
+      "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
+      "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
+      "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
     ],
     "insights_added": [
-      "ins_shipper-taste-agent-hill-climb",
-      "ins_shipper-disclosure-gap",
-      "ins_shipper-rule-complexity-floor"
+      "ins_tunguz-nvidia-nonhyperscaler-financing",
+      "ins_indig-content-substitutability-audit",
+      "ins_natividad-research-phase-precedes-promo"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -19,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-29.md",
+      "date": "2026-08-29",
+      "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
+      "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
+      "sources": [
+        "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
+        "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
+        "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
+      ],
+      "insights_added": [
+        "ins_tunguz-nvidia-nonhyperscaler-financing",
+        "ins_indig-content-substitutability-audit",
+        "ins_natividad-research-phase-precedes-promo"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-28.md",
       "date": "2026-08-28",
@@ -587,23 +609,6 @@
         "ins_tunguz-moe-sparse-cost-collapse",
         "ins_willison-machine-speed-offense",
         "ins_willison-document-worm-copilot"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-29.md",
-      "date": "2026-07-29",
-      "title": "AEO as brand channel, and agentic safety from two angles: four cards from three sources",
-      "summary": "Four new cards from three sources published in the last seven days. Kevin Indig's July 27 AI Halftime Report yields two: brand trust overrides AI recommendation position, and GSC captures only 25 percent of AI search visibility. Ethan Mollick's July 23 Summer 2026 AI guide yields one: the three operational safety practices for agentic workflows. Simon Willison's July 28 technical analysis of the Hugging Face incident yields one: defenders needed open-weight models because closed commercial models refused to analyze attacker payloads.",
-      "sources": [],
-      "insights_added": [
-        "ins_indig-brand-trust-overrides-ai-rank",
-        "ins_indig-gsc-attribution-gap",
-        "ins_mollick-agentic-external-injection",
-        "ins_willison-open-model-defense-asymmetry"
       ],
       "operators_added": [],
       "patterns_added": [],

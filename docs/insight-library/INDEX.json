@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-08-28T01:57:17.287Z",
+  "generated_at": "2026-08-29T01:58:56.049Z",
   "counts": {
-    "insights": 1084,
+    "insights": 1087,
     "operators": 522,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 89
+    "daily": 90
   },
   "latest_daily": {
-    "path": "daily/2026-08-28.md",
-    "date": "2026-08-28",
-    "title": "Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing",
-    "summary": "Three new cards from Dan Shipper's August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.",
+    "path": "daily/2026-08-29.md",
+    "date": "2026-08-29",
+    "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
+    "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
     "sources": [
-      "https://www.platformer.news/every-dan-shipper-interview-ai-writing/"
+      "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
+      "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
+      "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
     ],
     "insights_added": [
-      "ins_shipper-taste-agent-hill-climb",
-      "ins_shipper-disclosure-gap",
-      "ins_shipper-rule-complexity-floor"
+      "ins_tunguz-nvidia-nonhyperscaler-financing",
+      "ins_indig-content-substitutability-audit",
+      "ins_natividad-research-phase-precedes-promo"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -11174,6 +11176,38 @@
       "title": "AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations"
     },
     {
+      "path": "insights/ins_indig-content-substitutability-audit.md",
+      "id": "ins_indig-content-substitutability-audit",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo; former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
+      "source_type": "essay",
+      "source_title": "New Claude skill: Commodity Content Audit",
+      "source_date": "2026-08-27",
+      "captured_date": "2026-08-29",
+      "domain": [
+        "seo",
+        "growth",
+        "pmm"
+      ],
+      "lifecycle": [
+        "content",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-google-demoted-spam-listicles",
+        "ins_indig-search-volatility-2026-baseline",
+        "ins_indig-aggregator-chatgpt-citation-gap"
+      ],
+      "raw_ref": "",
+      "title": "Google's demotion signal is content replaceability, not format or AI-generation volume"
+    },
+    {
       "path": "insights/ins_indig-engine-fragmentation.md",
       "id": "ins_indig-engine-fragmentation",
       "operator": "Kevin Indig",
@@ -16440,6 +16474,37 @@
       "tier": "A",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_natividad-research-phase-precedes-promo.md",
+      "id": "ins_natividad-research-phase-precedes-promo",
+      "operator": "Amanda Natividad",
+      "operator_role": "VP Marketing, SparkToro",
+      "co_operators": [],
+      "source_url": "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/",
+      "source_type": "essay",
+      "source_title": "How We'd Market a $400 Skincare Device Before Black Friday",
+      "source_date": "2026-08-25",
+      "captured_date": "2026-08-29",
+      "domain": [
+        "pmm",
+        "growth"
+      ],
+      "lifecycle": [
+        "positioning",
+        "content"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_death-of-the-ultimate-guide",
+        "ins_fishkin-platform-first-zero-click",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+      ],
+      "raw_ref": "",
+      "title": "For high-consideration purchases, the research phase decides conversion before the promotional window opens"
     },
     {
       "path": "insights/ins_negotiation-starts-before-first-call.md",
@@ -26961,6 +27026,36 @@
       ],
       "raw_ref": "",
       "title": "Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost"
+    },
+    {
+      "path": "insights/ins_tunguz-nvidia-nonhyperscaler-financing.md",
+      "id": "ins_tunguz-nvidia-nonhyperscaler-financing",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
+      "source_type": "essay",
+      "source_title": "NVIDIA's $108b Quarter",
+      "source_date": "2026-08-26",
+      "captured_date": "2026-08-29",
+      "domain": [
+        "ai-native",
+        "research"
+      ],
+      "lifecycle": [
+        "strategy",
+        "planning"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-infrastructure-bullwhip",
+        "ins_tunguz-agent-24h-sleep-cycle"
+      ],
+      "raw_ref": "",
+      "title": "NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand"
     },
     {
       "path": "insights/ins_tunguz-ollama-docker-for-ai.md",
@@ -45927,6 +46022,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-29.md",
+      "date": "2026-08-29",
+      "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
+      "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
+      "sources": [
+        "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
+        "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
+        "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
+      ],
+      "insights_added": [
+        "ins_tunguz-nvidia-nonhyperscaler-financing",
+        "ins_indig-content-substitutability-audit",
+        "ins_natividad-research-phase-precedes-promo"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-28.md",
       "date": "2026-08-28",

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1084 insight cards
+- 1087 insight cards
 - 522 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -365,7 +365,7 @@ _Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (651)
+### Tier B (654)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -614,6 +614,7 @@ _Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
 - [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
+- [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
@@ -720,6 +721,7 @@ _Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_nagarjun-reddy-interviewing-sdrs-with-respect`](insights/ins_nagarjun-reddy-interviewing-sdrs-with-respect.md) — Interview SDRs like strategic hires, not disposable numbers _(Nagarjun Reddy)_
 - [`ins_name-the-shift-concisely`](insights/ins_name-the-shift-concisely.md) — Compress the shift to 1–3 words even when it loses fidelity _(Andy Raskin)_
 - [`ins_narrative-design-old-way-new-way`](insights/ins_narrative-design-old-way-new-way.md) — Lead with a narrative (Big Shift → Old Way vs. New Way → Promised Land), not features _(Marcus Andrews)_
+- [`ins_natividad-research-phase-precedes-promo`](insights/ins_natividad-research-phase-precedes-promo.md) — For high-consideration purchases, the research phase decides conversion before the promotional window opens _(Amanda Natividad)_
 - [`ins_neumeier-agile-strategy-five-ps`](insights/ins_neumeier-agile-strategy-five-ps.md) — Five Ps × five Qs, design-thinking applied to strategy compresses 6-18 months into under 6 weeks _(Marty Neumeier)_
 - [`ins_neumeier-brand-commitment-matrix`](insights/ins_neumeier-brand-commitment-matrix.md) — Six statements, two sides, the Brand Commitment Matrix forces alignment between what the customer believes and what the company stands for _(Marty Neumeier)_
 - [`ins_neumeier-strategic-pyramid`](insights/ins_neumeier-strategic-pyramid.md) — Purpose at the top (forever), mission and vision in the middle (5-20 years), tactics at the bottom (1-3 years) _(Marty Neumeier)_
@@ -926,6 +928,7 @@ _Generated 2026-08-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-model-chip-ownership-premium`](insights/ins_tunguz-model-chip-ownership-premium.md) — Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
+- [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
