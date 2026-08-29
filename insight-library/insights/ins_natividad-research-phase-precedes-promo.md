@@ -51,6 +51,6 @@ High-affinity research sources include Allure, NewBeauty, the American Academy o
 The case is drawn from a single product category (LED skincare) and a single promotional window (Black Friday). Different categories may have shorter research phases or higher social-platform affinity. The Claude over-index data reflects audience platform usage broadly, not necessarily purchase research intent specifically.
 
 ## Cross-references
-- `ins_death-of-the-ultimate-guide` documents how AI-mediated discovery shifts which content formats earn brand citations; the research phase finding is the buyer-journey parallel.
+- `ins_death-of-the-ultimate-guide` documents how AI-mediated discovery shifts which content formats earn brand citations; the research phase finding is the purchase-path parallel.
 - `ins_fishkin-platform-first-zero-click` covers how zero-click search dynamics force brand presence into distributed research surfaces rather than brand-controlled destinations.
 - `ins_fishkin-natividad-measurement-reframe-not-clicks` reframes measurement from traffic to brand presence across distributed touchpoints, the same logic applied here to pre-promotional timing.
