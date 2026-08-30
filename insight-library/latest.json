@@ -1,26 +1,50 @@
 {
-  "generated_at": "2026-08-29T02:00:47.739Z",
+  "generated_at": "2026-08-30T01:52:26.454Z",
   "latest_daily": {
-    "path": "daily/2026-08-29.md",
-    "date": "2026-08-29",
-    "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
-    "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
+    "path": "daily/2026-08-30.md",
+    "date": "2026-08-30",
+    "title": "A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio",
+    "summary": "Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.",
     "sources": [
-      "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
-      "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
-      "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
+      "https://anil.recoil.org/notes/rumour-is-the-exploit",
+      "https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/",
+      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
     ],
     "insights_added": [
-      "ins_tunguz-nvidia-nonhyperscaler-financing",
-      "ins_indig-content-substitutability-audit",
-      "ins_natividad-research-phase-precedes-promo"
+      "ins_madhavapeddy-exploit-before-patch",
+      "ins_solis-third-party-citation-prioritization",
+      "ins_zukowski-demo-unlocks-widget-discovery"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "anil-madhavapeddy"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-30.md",
+      "date": "2026-08-30",
+      "title": "A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio",
+      "summary": "Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.",
+      "sources": [
+        "https://anil.recoil.org/notes/rumour-is-the-exploit",
+        "https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/",
+        "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      ],
+      "insights_added": [
+        "ins_madhavapeddy-exploit-before-patch",
+        "ins_solis-third-party-citation-prioritization",
+        "ins_zukowski-demo-unlocks-widget-discovery"
+      ],
+      "operators_added": [
+        "anil-madhavapeddy"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-29.md",
       "date": "2026-08-29",
@@ -592,23 +616,6 @@
         "ins_tunguz-model-chip-ownership-premium",
         "ins_shipper-front-brief-autonomous-run",
         "ins_zukowski-friendslop-demand-cycle"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-30.md",
-      "date": "2026-07-30",
-      "title": "Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources",
-      "summary": "Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-harness-benchmark-delta",
-        "ins_tunguz-moe-sparse-cost-collapse",
-        "ins_willison-machine-speed-offense",
-        "ins_willison-document-worm-copilot"
       ],
       "operators_added": [],
       "patterns_added": [],

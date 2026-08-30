@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1087 insight cards
-- 522 operator profiles
+- 1090 insight cards
+- 523 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (351)
+### Tier A (352)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -175,6 +175,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_loss-aversion-status-quo-bias`](insights/ins_loss-aversion-status-quo-bias.md) — Losses feel about 2× as painful as equivalent gains, switching costs are paid in pain, not dollars _(Daniel Kahneman)_
 - [`ins_ltv-cac-ratio-and-cash-flow-trough`](insights/ins_ltv-cac-ratio-and-cash-flow-trough.md) — LTV ≥ 3× CAC, recover CAC in <12 months, and expect a multi-year cash flow trough before it pays off _(David Skok)_
 - [`ins_maddy-hirshan-fewer-larger-launches-always-on-gtm`](insights/ins_maddy-hirshan-fewer-larger-launches-always-on-gtm.md) — Smart teams move to fewer, larger launches and always-on GTM. _(Maddy Hirshan)_
+- [`ins_madhavapeddy-exploit-before-patch`](insights/ins_madhavapeddy-exploit-before-patch.md) — AI agents generate working exploits from CVE descriptions alone, making the patch announcement itself the attack trigger _(Anil Madhavapeddy)_
 - [`ins_maja-voje-strip-what-doesnt-compound`](insights/ins_maja-voje-strip-what-doesnt-compound.md) — The 2026 GTM AI playbook is not about doing more things faster. It is about stripping everything that does not compound. _(Maja Voje)_
 - [`ins_manager-skill-not-technical`](insights/ins_manager-skill-not-technical.md) — The unlock for AI agent productivity is management skill, not technical skill _(Claire Vo)_
 - [`ins_marginal-user-methodology`](insights/ins_marginal-user-methodology.md) — Design for the marginal user, the person on the cusp of converting in the worst conditions _(Adriel Frederick)_
@@ -365,7 +366,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (654)
+### Tier B (656)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -859,6 +860,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_solis-cited-vs-traffic-page-gap`](insights/ins_solis-cited-vs-traffic-page-gap.md) — The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
+- [`ins_solis-third-party-citation-prioritization`](insights/ins_solis-third-party-citation-prioritization.md) — Six criteria for deciding which third-party platforms are worth investing in for AI search citations _(Aleyda Solis)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
 - [`ins_source-type-fit-beats-authority`](insights/ins_source-type-fit-beats-authority.md) — Google's May 2026 Core Update rewarded source type fit over authority alone, concentrating visibility around canonical destinations for each query's dominant intent _(Aleyda Solis)_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
@@ -1013,6 +1015,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 - [`ins_zukowski-amplify-not-mix-genres`](insights/ins_zukowski-amplify-not-mix-genres.md) — Indie games find their hook by amplifying one element of a proven genre 10,000-fold, not by mixing genres _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
+- [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-idea-beats-playbook`](insights/ins_zukowski-idea-beats-playbook.md) — A game's core idea is the primary driver of marketing outcomes; identical playbooks diverge based on idea quality _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_
@@ -1155,6 +1158,7 @@ _Generated 2026-08-29. Auto-built from frontmatter — do not edit by hand._
 - [Angelos Katharopoulos](operators/angelos-katharopoulos/README.md)
 - [Ani Filipova](operators/ani-filipova/README.md)
 - [Aniket Parihar](operators/aniket-parihar/README.md)
+- [Anil Madhavapeddy](operators/anil-madhavapeddy/README.md)
 - [Anip Prakash](operators/anip-prakash/README.md)
 - [Anirban Banerjee](operators/anirban-banerjee/README.md)
 - [Anirudh Rayaprolu](operators/anirudh-rayaprolu/README.md)

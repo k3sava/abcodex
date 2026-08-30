@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 02:00:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 01:52:29 GMT</lastBuildDate>
+    <item>
+      <title>A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-30/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-30/</guid>
+      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.</description>
+    </item>
     <item>
       <title>Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-29/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-31/</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure&apos;s growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every&apos;s Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model&apos;s planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.</description>
-    </item>
-    <item>
-      <title>Harness beats model, MoE collapses inference costs, and two new attack surfaces from machine-speed AI: four cards from two sources</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-30/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-30/</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from two sources published July 23-29, 2026. Tomasz Tunguz yields two: the AI harness now moves coding benchmarks more than the underlying model (25-point swing from harness alone on GPT-5.5), and sparse MoE architecture collapses frontier-class accuracy to small-model inference cost. Simon Willison yields two from the Hugging Face incident post and a Copilot for Word demo: agentic attackers win through machine-speed iteration on known vulnerability classes (17,600 actions in five days), and prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement.</description>
     </item>
   </channel>
 </rss>
