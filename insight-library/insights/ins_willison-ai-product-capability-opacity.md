@@ -24,7 +24,7 @@ raw_ref: ""
 Describing an AI product by what it is FOR rather than what it can DO prevents users and security teams from enumerating the attack surface. Use-case framing is adequate for adoption decisions but insufficient for risk decisions.
 
 ## Mechanism
-Security assessment requires capability enumeration: what data can this system read? What external communication channels does it have? What untrusted content can it receive? These questions cannot be answered from use-case descriptions. Willison spent significant time reverse-engineering ChatGPT Work's actual tool inventory, which includes code execution with unrestricted internet access, a headless Chrome browser with JavaScript DOM manipulation, a persistent filesystem shared across sessions, sub-agent orchestration, and scheduled prompt automations. None of this is visible from the product page.
+Security assessment requires capability enumeration: what data can this system read? What external communication channels does it have? What untrusted content can it receive? These questions cannot be answered from use-case descriptions. Willison spent significant time reverse-engineering ChatGPT Work's actual tool inventory, which includes code execution with unrestricted internet access, a headless Chrome browser with JavaScript DOM manipulation, a persistent filesystem shared across sessions, sub-agent spawning, and scheduled prompt automations. None of this is visible from the product page.
 
 > "OpenAI explain Work in terms of what it's for, not what it actually does."
 
