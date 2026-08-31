@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Aug 2026 01:52:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 01:54:46 GMT</lastBuildDate>
+    <item>
+      <title>Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold</title>
+      <link>https://abcodex.iamkesava.com/today/2026-08-31/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-31/</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.</description>
+    </item>
     <item>
       <title>A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-30/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-01/</guid>
       <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Simon Willison yields two: MCP 2.0&apos;s stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.</description>
-    </item>
-    <item>
-      <title>Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators</title>
-      <link>https://abcodex.iamkesava.com/today/2026-07-31/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-07-31/</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure&apos;s growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every&apos;s Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model&apos;s planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.</description>
     </item>
   </channel>
 </rss>

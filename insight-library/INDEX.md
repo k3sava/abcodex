@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1090 insight cards
+- 1094 insight cards
 - 523 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (352)
+### Tier A (353)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -352,6 +352,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voss-mirroring-forces-elaboration`](insights/ins_voss-mirroring-forces-elaboration.md) — Mirror the last 1-3 words, silence forces the counterpart to elaborate, and the elaboration is where the deal is _(Chris Voss)_
 - [`ins_voss-tactical-empathy-labels`](insights/ins_voss-tactical-empathy-labels.md) — Label the emotion before they have to defend it, "it sounds like you're worried about..." disarms the room _(Chris Voss)_
 - [`ins_voss-thats-right-breakthrough`](insights/ins_voss-thats-right-breakthrough.md) — "That's right", not "yes", is the moment a negotiation actually shifts _(Chris Voss)_
+- [`ins_willison-auto-mode-blocks-self-remediation`](insights/ins_willison-auto-mode-blocks-self-remediation.md) — Auto mode can block an agent's own cleanup after it detects a compromise _(Simon Willison)_
 - [`ins_willison-chatgpt-domain-signal-shift`](insights/ins_willison-chatgpt-domain-signal-shift.md) — ChatGPT's site-operator surge shows that material AI search changes arrive without public notice _(Simon Willison)_
 - [`ins_willison-qwen-reasoning-overthink`](insights/ins_willison-qwen-reasoning-overthink.md) — Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level _(Simon Willison)_
 - [`ins_willison-reliability-erodes-review-discipline`](insights/ins_willison-reliability-erodes-review-discipline.md) — As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible _(Simon Willison)_
@@ -366,7 +367,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (656)
+### Tier B (658)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -430,6 +431,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
+- [`ins_ball-agent-bug-threshold`](insights/ins_ball-agent-bug-threshold.md) — AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold _(Thorsten Ball)_
 - [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
@@ -973,6 +975,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-agentic-cost-removes-discipline`](insights/ins_willison-agentic-cost-removes-discipline.md) — Agentic coding removes the time-cost filter that once kept poor architecture decisions out _(Simon Willison)_
 - [`ins_willison-agents-gui-zero-cost`](insights/ins_willison-agents-gui-zero-cost.md) — AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools _(Simon Willison)_
+- [`ins_willison-ai-product-capability-opacity`](insights/ins_willison-ai-product-capability-opacity.md) — AI product pages that describe use cases rather than capabilities make security assessment impossible _(Simon Willison)_
 - [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
@@ -1024,7 +1027,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (82)
+### Tier C (83)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1087,6 +1090,7 @@ _Generated 2026-08-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_reigan-combs-hiring-marketers-adyen`](insights/ins_reigan-combs-hiring-marketers-adyen.md) — Hiring senior marketers who are strategic and fun to work with at Adyen _(Reigan Combs)_
 - [`ins_resume-headline-as-recruiter-handle`](insights/ins_resume-headline-as-recruiter-handle.md) — A role-targeted headline below the name is the first ATS+human filter _(Roshni Chellani)_
 - [`ins_roman-gordy-admiring-people-first-leadership`](insights/ins_roman-gordy-admiring-people-first-leadership.md) — Talent freedom beats freelancing arbitrage, and that's a defensible business model _(Roman Gordy)_
+- [`ins_ronacher-anger-misidentifies-anxiety`](insights/ins_ronacher-anger-misidentifies-anxiety.md) — Anger at AI disruption is usually misidentified anxiety, and anxiety is the more productive starting state _(Armin Ronacher)_
 - [`ins_ryan-kelly-marketing-architects-of-perception`](insights/ins_ryan-kelly-marketing-architects-of-perception.md) — Marketing team as architects of how the world sees the company _(Ryan Kelly)_
 - [`ins_ryan-quindlen-linkedin-algorithm-satire`](insights/ins_ryan-quindlen-linkedin-algorithm-satire.md) — LinkedIn algorithm prioritizes old posts, repeats, broken notifications, and bad video _(Ryan Quindlen)_
 - [`ins_sajjan-jain-individual-investor-tool-gap`](insights/ins_sajjan-jain-individual-investor-tool-gap.md) — Individual investors lack a simple, Buffett-style tool for deep business analysis. _(Sajjan Jain)_
