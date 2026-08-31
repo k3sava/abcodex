@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-08-30T01:52:26.454Z",
+  "generated_at": "2026-08-31T01:56:45.356Z",
   "latest_daily": {
-    "path": "daily/2026-08-30.md",
-    "date": "2026-08-30",
-    "title": "A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio",
-    "summary": "Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.",
+    "path": "daily/2026-08-31.md",
+    "date": "2026-08-31",
+    "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
+    "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
     "sources": [
-      "https://anil.recoil.org/notes/rumour-is-the-exploit",
-      "https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/",
-      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
     ],
     "insights_added": [
-      "ins_madhavapeddy-exploit-before-patch",
-      "ins_solis-third-party-citation-prioritization",
-      "ins_zukowski-demo-unlocks-widget-discovery"
+      "ins_willison-auto-mode-blocks-self-remediation",
+      "ins_willison-ai-product-capability-opacity",
+      "ins_ronacher-anger-misidentifies-anxiety",
+      "ins_ball-agent-bug-threshold"
     ],
-    "operators_added": [
-      "anil-madhavapeddy"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-08-31.md",
+      "date": "2026-08-31",
+      "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
+      "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+        "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+        "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
+      ],
+      "insights_added": [
+        "ins_willison-auto-mode-blocks-self-remediation",
+        "ins_willison-ai-product-capability-opacity",
+        "ins_ronacher-anger-misidentifies-anxiety",
+        "ins_ball-agent-bug-threshold"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-30.md",
       "date": "2026-08-30",
@@ -600,22 +622,6 @@
         "ins_willison-stateless-mcp",
         "ins_willison-eval-containment-gap",
         "ins_indig-ai-mode-query-length"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-07-31.md",
-      "date": "2026-07-31",
-      "title": "Ownership beats resell at the model and chip layer, autonomous runs need front-loaded briefs, and Friendslop demand compounds each cycle: three cards from three operators",
-      "summary": "Three new cards from three operators published July 28-30, 2026. Tomasz Tunguz yields one: cloud providers that own their foundation model and custom chips grow at nearly 2x the rate of those that resell both, with Google Cloud at 82% YoY versus Azure at 43%, and Azure's growth excluding OpenAI at approximately 25%. Dan Shipper yields one from Every's Opus 5 testing: autonomous frontier models need a complete front-loaded brief and should run to completion without interruption, because mid-task correction resets the model's planning state. Chris Zukowski yields one from Friendslop market data through July 2026: the co-op party game genre is not saturating; total concurrent players compounded from 197K in December 2023 to 350K in July 2026 while each dominant title still fades from 50% to 10% market share within 3-9 months.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-model-chip-ownership-premium",
-        "ins_shipper-front-brief-autonomous-run",
-        "ins_zukowski-friendslop-demand-cycle"
       ],
       "operators_added": [],
       "patterns_added": [],

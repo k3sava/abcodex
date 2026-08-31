@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-30T01:52:26.396Z",
+  "generated_at": "2026-08-31T01:56:45.321Z",
   "counts": {
-    "insights": 1090,
+    "insights": 1094,
     "operators": 523,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 91
+    "daily": 92
   },
   "latest_daily": {
-    "path": "daily/2026-08-30.md",
-    "date": "2026-08-30",
-    "title": "A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio",
-    "summary": "Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.",
+    "path": "daily/2026-08-31.md",
+    "date": "2026-08-31",
+    "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
+    "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
     "sources": [
-      "https://anil.recoil.org/notes/rumour-is-the-exploit",
-      "https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/",
-      "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
+      "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
     ],
     "insights_added": [
-      "ins_madhavapeddy-exploit-before-patch",
-      "ins_solis-third-party-citation-prioritization",
-      "ins_zukowski-demo-unlocks-widget-discovery"
+      "ins_willison-auto-mode-blocks-self-remediation",
+      "ins_willison-ai-product-capability-opacity",
+      "ins_ronacher-anger-misidentifies-anxiety",
+      "ins_ball-agent-bug-threshold"
     ],
-    "operators_added": [
-      "anil-madhavapeddy"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -2953,6 +2953,37 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/dave-gerhardt.md",
       "title": "Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't"
+    },
+    {
+      "path": "insights/ins_ball-agent-bug-threshold.md",
+      "id": "ins_ball-agent-bug-threshold",
+      "operator": "Thorsten Ball",
+      "operator_role": "Software engineer at Sourcegraph working on Amp; author of Writing An Interpreter In Go and Writing A Compiler In Go",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-97",
+      "source_type": "essay",
+      "source_title": "Joy & Curiosity #97",
+      "source_date": "2026-08-30",
+      "captured_date": "2026-08-31",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-local-dev-orbs-displacement",
+        "ins_ball-orb-sandbox-agent-frequency",
+        "ins_ball-software-is-learning"
+      ],
+      "raw_ref": "",
+      "title": "AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold"
     },
     {
       "path": "insights/ins_ball-local-dev-orbs-displacement.md",
@@ -20951,6 +20982,36 @@
       "title": "Agents remove the coordination friction that kept team architectural understanding synchronized"
     },
     {
+      "path": "insights/ins_ronacher-anger-misidentifies-anxiety.md",
+      "id": "ins_ronacher-anger-misidentifies-anxiety",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer on programming and AI",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+      "source_type": "essay",
+      "source_title": "Anger, Anxiety and Agency",
+      "source_date": "2026-08-24",
+      "captured_date": "2026-08-31",
+      "domain": [
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "strategy-bets"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 2, evidence: 2, transferability: 5, source: 4 }",
+      "tier": "C",
+      "related": [
+        "ins_ronacher-agents-erase-shared-understanding",
+        "ins_ronacher-language-choice-ai-era"
+      ],
+      "raw_ref": "",
+      "title": "Anger at AI disruption is usually misidentified anxiety, and anxiety is the more productive starting state"
+    },
+    {
       "path": "insights/ins_ronacher-harness-loop-comprehension-cost.md",
       "id": "ins_ronacher-harness-loop-comprehension-cost",
       "operator": "Armin Ronacher",
@@ -28718,6 +28779,37 @@
       "title": "AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools"
     },
     {
+      "path": "insights/ins_willison-ai-product-capability-opacity.md",
+      "id": "ins_willison-ai-product-capability-opacity",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+      "source_type": "essay",
+      "source_title": "Understanding ChatGPT Work",
+      "source_date": "2026-08-30",
+      "captured_date": "2026-08-31",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-web-fetch-chained-exfiltration",
+        "ins_willison-auto-mode-blocks-self-remediation",
+        "ins_willison-prompt-injection-role-confusion"
+      ],
+      "raw_ref": "",
+      "title": "AI product pages that describe use cases rather than capabilities make security assessment impossible"
+    },
+    {
       "path": "insights/ins_willison-ai-sandbox-escape.md",
       "id": "ins_willison-ai-sandbox-escape",
       "operator": "Simon Willison",
@@ -28807,6 +28899,37 @@
       ],
       "raw_ref": "",
       "title": "Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code"
+    },
+    {
+      "path": "insights/ins_willison-auto-mode-blocks-self-remediation.md",
+      "id": "ins_willison-auto-mode-blocks-self-remediation",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source_type": "essay",
+      "source_title": "Breaking Claude Code Opus 5 Auto Mode",
+      "source_date": "2026-08-27",
+      "captured_date": "2026-08-31",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_willison-confirmation-fatigue-agent-approval",
+        "ins_auto-mode-context-classifier",
+        "ins_willison-web-fetch-chained-exfiltration"
+      ],
+      "raw_ref": "",
+      "title": "Auto mode can block an agent's own cleanup after it detects a compromise"
     },
     {
       "path": "insights/ins_willison-benchmark-agent-decoupling.md",
@@ -46129,6 +46252,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-08-31.md",
+      "date": "2026-08-31",
+      "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
+      "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+        "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+        "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
+      ],
+      "insights_added": [
+        "ins_willison-auto-mode-blocks-self-remediation",
+        "ins_willison-ai-product-capability-opacity",
+        "ins_ronacher-anger-misidentifies-anxiety",
+        "ins_ball-agent-bug-threshold"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-30.md",
       "date": "2026-08-30",
