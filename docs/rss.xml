@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 31 Aug 2026 01:56:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 01:47:33 GMT</lastBuildDate>
+    <item>
+      <title>Automate the right half, measure the megawatt, and date your listicle</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-01/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-01/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.</description>
+    </item>
     <item>
       <title>Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold</title>
       <link>https://abcodex.iamkesava.com/today/2026-08-31/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-02/</guid>
       <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
       <description>Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat&apos;s 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.</description>
-    </item>
-    <item>
-      <title>Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-01/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-01/</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Simon Willison yields two: MCP 2.0&apos;s stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.</description>
     </item>
   </channel>
 </rss>

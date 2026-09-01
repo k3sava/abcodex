@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-08-31 · 4 insights
+### Latest · 2026-09-01 · 4 insights
 
-**Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold.** Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.
+**Automate the right half, measure the megawatt, and date your listicle.** Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.
 
-[Read what landed →](insight-library/daily/2026-08-31.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-01.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1094** insight cards
+- **1098** insight cards
 - **523** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
