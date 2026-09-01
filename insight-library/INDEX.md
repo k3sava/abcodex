@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1094 insight cards
+- 1098 insight cards
 - 523 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -367,7 +367,7 @@ _Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (658)
+### Tier B (662)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -619,6 +619,7 @@ _Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
+- [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
@@ -716,6 +717,7 @@ _Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
+- [`ins_mollick-twilight-factory-human-loop`](insights/ins_mollick-twilight-factory-human-loop.md) — Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios _(Ethan Mollick)_
 - [`ins_mosseri-ai-authenticity-tailwind`](insights/ins_mosseri-ai-authenticity-tailwind.md) — The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it _(Adam Mosseri)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
 - [`ins_most-gtm-strategies-fail-because`](insights/ins_most-gtm-strategies-fail-because.md) — Most GTM strategies fail because they're built for 2020, not 2025 _(Kabir Uppal)_
@@ -920,6 +922,7 @@ _Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
+- [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
@@ -930,6 +933,7 @@ _Generated 2026-08-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-chip-ownership-premium`](insights/ins_tunguz-model-chip-ownership-premium.md) — Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach _(Tomasz Tunguz)_
+- [`ins_tunguz-model-factory-megawatt-loop`](insights/ins_tunguz-model-factory-megawatt-loop.md) — AI model labs generate 3-5x revenue per megawatt over cost, and the margin compounds into the next training run _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_

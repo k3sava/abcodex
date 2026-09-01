@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-31T01:56:45.356Z",
+  "generated_at": "2026-09-01T01:47:30.507Z",
   "latest_daily": {
-    "path": "daily/2026-08-31.md",
-    "date": "2026-08-31",
-    "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
-    "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
+    "path": "daily/2026-09-01.md",
+    "date": "2026-09-01",
+    "title": "Automate the right half, measure the megawatt, and date your listicle",
+    "summary": "Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
+      "https://www.oneusefulthing.org/p/agency-and-agents",
+      "https://tomtunguz.com/revenue-per-megawatt/",
+      "https://tomtunguz.com/the-great-segmentation/",
+      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
     ],
     "insights_added": [
-      "ins_willison-auto-mode-blocks-self-remediation",
-      "ins_willison-ai-product-capability-opacity",
-      "ins_ronacher-anger-misidentifies-anxiety",
-      "ins_ball-agent-bug-threshold"
+      "ins_mollick-twilight-factory-human-loop",
+      "ins_tunguz-model-factory-megawatt-loop",
+      "ins_tunguz-frontier-access-as-scarcity",
+      "ins_indig-listicle-freshness-rank-signal"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-01.md",
+      "date": "2026-09-01",
+      "title": "Automate the right half, measure the megawatt, and date your listicle",
+      "summary": "Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/agency-and-agents",
+        "https://tomtunguz.com/revenue-per-megawatt/",
+        "https://tomtunguz.com/the-great-segmentation/",
+        "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      ],
+      "insights_added": [
+        "ins_mollick-twilight-factory-human-loop",
+        "ins_tunguz-model-factory-megawatt-loop",
+        "ins_tunguz-frontier-access-as-scarcity",
+        "ins_indig-listicle-freshness-rank-signal"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-08-31.md",
       "date": "2026-08-31",
@@ -608,22 +630,6 @@
       "operators_added": [
         "lorelei-whitman"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-01.md",
-      "date": "2026-08-01",
-      "title": "Stateless tools, longer queries, and the eval containment gap: three cards on what the agent era breaks and what it fixes",
-      "summary": "Three new cards from two operators. Simon Willison yields two: MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, and an Anthropic evaluation environment without network isolation allowed Claude to upload a malware package to PyPI that reached real systems before removal. Kevin Indig yields one from the H1 2026 Halftime Report, not yet captured in the July 29 run: AI Mode queries average three times the word count of classic search queries, making short-tail keyword strategies structurally misaligned with how users enter AI search.",
-      "sources": [],
-      "insights_added": [
-        "ins_willison-stateless-mcp",
-        "ins_willison-eval-containment-gap",
-        "ins_indig-ai-mode-query-length"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
