@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 01:47:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 01:57:00 GMT</lastBuildDate>
+    <item>
+      <title>Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-02/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-02/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google&apos;s listicle demotion pattern.</description>
+    </item>
     <item>
       <title>Automate the right half, measure the megawatt, and date your listicle</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-01/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-03/</guid>
       <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.</description>
-    </item>
-    <item>
-      <title>Harness engineering beats model selection; AI subscription apps face a retention crisis</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-02/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-02/</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat&apos;s 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.</description>
     </item>
   </channel>
 </rss>

@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-09-01T01:47:30.449Z",
+  "generated_at": "2026-09-02T01:56:56.407Z",
   "counts": {
-    "insights": 1098,
-    "operators": 523,
+    "insights": 1101,
+    "operators": 524,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 93
+    "daily": 94
   },
   "latest_daily": {
-    "path": "daily/2026-09-01.md",
-    "date": "2026-09-01",
-    "title": "Automate the right half, measure the megawatt, and date your listicle",
-    "summary": "Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.",
+    "path": "daily/2026-09-02.md",
+    "date": "2026-09-02",
+    "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
+    "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
     "sources": [
-      "https://www.oneusefulthing.org/p/agency-and-agents",
-      "https://tomtunguz.com/revenue-per-megawatt/",
-      "https://tomtunguz.com/the-great-segmentation/",
-      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "https://www.growth-memo.com/p/has-google-demoted-listicles"
     ],
     "insights_added": [
-      "ins_mollick-twilight-factory-human-loop",
-      "ins_tunguz-model-factory-megawatt-loop",
-      "ins_tunguz-frontier-access-as-scarcity",
-      "ins_indig-listicle-freshness-rank-signal"
+      "ins_dumpleton-expert-design-ai-executes",
+      "ins_willison-reasoning-effort-nonlinear-creative",
+      "ins_indig-substitutability-not-format"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "graham-dumpleton"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -6930,6 +6930,35 @@
       "title": "Don't even think about a second channel until you can profitably spend $5K/day on Meta"
     },
     {
+      "path": "insights/ins_dumpleton-expert-design-ai-executes.md",
+      "id": "ins_dumpleton-expert-design-ai-executes",
+      "operator": "Graham Dumpleton",
+      "operator_role": "Python library author; creator of Wrapture",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "source_type": "essay",
+      "source_title": "Introducing wrapture",
+      "source_date": "2026-08-31",
+      "captured_date": "2026-09-02",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-auto-mode-blocks-self-remediation",
+        "ins_willison-fable-relentlessly-proactive"
+      ],
+      "raw_ref": "",
+      "title": "AI-assisted coding works when the engineer defines the design and the AI executes it"
+    },
+    {
       "path": "insights/ins_dunford-market-pov-ai-uncertainty.md",
       "id": "ins_dunford-market-pov-ai-uncertainty",
       "operator": "April Dunford",
@@ -11489,6 +11518,35 @@
       ],
       "raw_ref": "",
       "title": "Platform anti-slop detection shifts content scarcity from production to distribution reach"
+    },
+    {
+      "path": "insights/ins_indig-substitutability-not-format.md",
+      "id": "ins_indig-substitutability-not-format",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo; ex-Shopify SEO director",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/has-google-demoted-listicles",
+      "source_type": "essay",
+      "source_title": "Has Google demoted listicles?",
+      "source_date": "2026-08-24",
+      "captured_date": "2026-09-02",
+      "domain": [
+        "growth-demand",
+        "content"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-listicle-freshness-rank-signal"
+      ],
+      "raw_ref": "",
+      "title": "Google demotes substitutable content, not the listicle format itself"
     },
     {
       "path": "insights/ins_indig-ugc-citation-dominance.md",
@@ -29768,6 +29826,36 @@
       "title": "Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level"
     },
     {
+      "path": "insights/ins_willison-reasoning-effort-nonlinear-creative.md",
+      "id": "ins_willison-reasoning-effort-nonlinear-creative",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "source_type": "essay",
+      "source_title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "source_date": "2026-09-01",
+      "captured_date": "2026-09-02",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-fable-relentlessly-proactive",
+        "ins_willison-qwen-reasoning-overthink"
+      ],
+      "raw_ref": "",
+      "title": "Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely"
+    },
+    {
       "path": "insights/ins_willison-reliability-erodes-review-discipline.md",
       "id": "ins_willison-reliability-erodes-review-discipline",
       "operator": "Simon Willison",
@@ -34582,6 +34670,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Grace Allen"
+    },
+    {
+      "path": "operators/graham-dumpleton/README.md",
+      "name": "Graham Dumpleton",
+      "slug": "graham-dumpleton",
+      "roles": [
+        "Python library author; creator of Wrapture"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-09-02",
+      "external": {
+        "site": "https://grahamdumpleton.me"
+      },
+      "title": "Graham Dumpleton"
     },
     {
       "path": "operators/greg-isenberg/README.md",
@@ -46369,6 +46474,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-02.md",
+      "date": "2026-09-02",
+      "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
+      "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+        "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+        "https://www.growth-memo.com/p/has-google-demoted-listicles"
+      ],
+      "insights_added": [
+        "ins_dumpleton-expert-design-ai-executes",
+        "ins_willison-reasoning-effort-nonlinear-creative",
+        "ins_indig-substitutability-not-format"
+      ],
+      "operators_added": [
+        "graham-dumpleton"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-01.md",
       "date": "2026-09-01",
