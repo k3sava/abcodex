@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-09-01T01:47:30.507Z",
+  "generated_at": "2026-09-02T01:56:56.503Z",
   "latest_daily": {
-    "path": "daily/2026-09-01.md",
-    "date": "2026-09-01",
-    "title": "Automate the right half, measure the megawatt, and date your listicle",
-    "summary": "Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.",
+    "path": "daily/2026-09-02.md",
+    "date": "2026-09-02",
+    "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
+    "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
     "sources": [
-      "https://www.oneusefulthing.org/p/agency-and-agents",
-      "https://tomtunguz.com/revenue-per-megawatt/",
-      "https://tomtunguz.com/the-great-segmentation/",
-      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+      "https://www.growth-memo.com/p/has-google-demoted-listicles"
     ],
     "insights_added": [
-      "ins_mollick-twilight-factory-human-loop",
-      "ins_tunguz-model-factory-megawatt-loop",
-      "ins_tunguz-frontier-access-as-scarcity",
-      "ins_indig-listicle-freshness-rank-signal"
+      "ins_dumpleton-expert-design-ai-executes",
+      "ins_willison-reasoning-effort-nonlinear-creative",
+      "ins_indig-substitutability-not-format"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "graham-dumpleton"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-02.md",
+      "date": "2026-09-02",
+      "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
+      "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
+      "sources": [
+        "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+        "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+        "https://www.growth-memo.com/p/has-google-demoted-listicles"
+      ],
+      "insights_added": [
+        "ins_dumpleton-expert-design-ai-executes",
+        "ins_willison-reasoning-effort-nonlinear-creative",
+        "ins_indig-substitutability-not-format"
+      ],
+      "operators_added": [
+        "graham-dumpleton"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-01.md",
       "date": "2026-09-01",
@@ -609,26 +631,6 @@
       ],
       "operators_added": [
         "mitchell-hashimoto"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-02.md",
-      "date": "2026-08-02",
-      "title": "Harness engineering beats model selection; AI subscription apps face a retention crisis",
-      "summary": "Five new cards from three operators. Tomasz Tunguz provides benchmark evidence that harness engineering lifts coding performance more than model upgrades. Ethan Mollick identifies the competency shift that matches: delegation clarity, not prompt phrasing. Lorelei Whitman contributes three cards from RevenueCat's 2026 dataset of 115,000 apps: AI apps earn 41% more Year 1 LTV but churn 36% faster; hard paywalls convert 5x better than freemium at Day 35; and 55% of 3-day trial cancellations happen on Day 0.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-harness-benchmark-lift",
-        "ins_mollick-delegation-over-prompting",
-        "ins_whitman-ai-subscription-churn-paradox",
-        "ins_whitman-hard-paywall-conversion-lift",
-        "ins_whitman-day-zero-trial-abandonment"
-      ],
-      "operators_added": [
-        "lorelei-whitman"
       ],
       "patterns_added": [],
       "playbooks_added": [],

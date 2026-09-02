@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1098 insight cards
-- 523 operator profiles
+- 1101 insight cards
+- 524 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (662)
+### Tier B (665)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -525,6 +525,7 @@ _Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dotclaude-as-deployable-artifact`](insights/ins_dotclaude-as-deployable-artifact.md) — Treat `.claude/` as a deployable artifact with versioning and rollback _(Pawel Huryn)_
 - [`ins_dream-role-marketer-who-loves`](insights/ins_dream-role-marketer-who-loves.md) — Community is the most powerful ingredient in B2B marketing because it taps shared interest _(Dan Murphy)_
 - [`ins_dtc-do-less-better`](insights/ins_dtc-do-less-better.md) — Don't even think about a second channel until you can profitably spend $5K/day on Meta _(Nik Sharma)_
+- [`ins_dumpleton-expert-design-ai-executes`](insights/ins_dumpleton-expert-design-ai-executes.md) — AI-assisted coding works when the engineer defines the design and the AI executes it _(Graham Dumpleton)_
 - [`ins_dunford-market-pov-ai-uncertainty`](insights/ins_dunford-market-pov-ai-uncertainty.md) — Buyers navigating rapid market change rely on a vendor's market POV to validate their purchase; without one, reps lose the sale before the demo ends _(April Dunford)_
 - [`ins_early-stage-pmms-know-there`](insights/ins_early-stage-pmms-know-there.md) — Early-stage PMMs: I know there are a lot of us! What did I miss? _(Amulya Vadrevu)_
 - [`ins_economic-value-estimation`](insights/ins_economic-value-estimation.md) — A pricing model without a value model is adrift, start with Economic Value Estimation _(Steven Forth)_
@@ -624,6 +625,7 @@ _Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_indig-slop-antibodies-distribution-gate`](insights/ins_indig-slop-antibodies-distribution-gate.md) — Platform anti-slop detection shifts content scarcity from production to distribution reach _(Kevin Indig)_
+- [`ins_indig-substitutability-not-format`](insights/ins_indig-substitutability-not-format.md) — Google demotes substitutable content, not the listicle format itself _(Kevin Indig)_
 - [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
 - [`ins_indig-ugc-community-ai-citations`](insights/ins_indig-ugc-community-ai-citations.md) — UGC platforms are the most consistent AI citation source, holding a floor share across every buying stage _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
@@ -1004,6 +1006,7 @@ _Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_
+- [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
@@ -1322,6 +1325,7 @@ _Generated 2026-09-01. Auto-built from frontmatter — do not edit by hand._
 - [Gordon M.](operators/gordon-m/README.md)
 - [Gorish Aggarwal](operators/gorish-aggarwal/README.md)
 - [Grace Allen](operators/grace-allen/README.md)
+- [Graham Dumpleton](operators/graham-dumpleton/README.md)
 - [Greg Isenberg](operators/greg-isenberg/README.md)
 - [Haider Shawl](operators/haider-shawl/README.md)
 - [Hamel Husain](operators/hamel-husain/README.md)
