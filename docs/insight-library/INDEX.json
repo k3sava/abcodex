@@ -1,31 +1,33 @@
 {
-  "generated_at": "2026-09-02T01:56:56.407Z",
+  "generated_at": "2026-09-03T01:57:09.969Z",
   "counts": {
-    "insights": 1101,
-    "operators": 524,
+    "insights": 1105,
+    "operators": 525,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 94
+    "daily": 95
   },
   "latest_daily": {
-    "path": "daily/2026-09-02.md",
-    "date": "2026-09-02",
-    "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
-    "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
+    "path": "daily/2026-09-03.md",
+    "date": "2026-09-03",
+    "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
+    "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "https://www.growth-memo.com/p/has-google-demoted-listicles"
+      "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
+      "https://www.gamemakers.com/p/pr-for-gaming-studios",
+      "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
+      "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
     ],
     "insights_added": [
-      "ins_dumpleton-expert-design-ai-executes",
-      "ins_willison-reasoning-effort-nonlinear-creative",
-      "ins_indig-substitutability-not-format"
+      "ins_tunguz-ai-quality-floor-rises",
+      "ins_kim-llm-game-discovery-via-pr",
+      "ins_kim-ai-roi-salaried-ceiling",
+      "ins_willison-system-prompt-legal-reaction"
     ],
     "operators_added": [
-      "graham-dumpleton"
+      "joseph-kim"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -13186,6 +13188,70 @@
       ],
       "raw_ref": "raw/podcasts/jessica-fain--influencing-executives--2026-04-28.md",
       "title": "Killing your own initiatives loudly is the highest-trust move with executives"
+    },
+    {
+      "path": "insights/ins_kim-ai-roi-salaried-ceiling.md",
+      "id": "ins_kim-ai-roi-salaried-ceiling",
+      "operator": "Joseph Kim",
+      "operator_role": "CEO, Lila Games; Founder, GameMakers Substack",
+      "co_operators": [],
+      "source_url": "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
+      "source_type": "essay",
+      "source_title": "The Paradox of AI ROI",
+      "source_date": "2026-08-28",
+      "captured_date": "2026-09-03",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-twilight-factory-human-loop"
+      ],
+      "raw_ref": "",
+      "title": "AI productivity gains in salaried organizations cap at the existing output level because salary structures reward delivery, not volume"
+    },
+    {
+      "path": "insights/ins_kim-llm-game-discovery-via-pr.md",
+      "id": "ins_kim-llm-game-discovery-via-pr",
+      "operator": "Joseph Kim",
+      "operator_role": "CEO, Lila Games; Founder, GameMakers Substack",
+      "co_operators": [
+        "Kalie Moore"
+      ],
+      "source_url": "https://www.gamemakers.com/p/pr-for-gaming-studios",
+      "source_type": "essay",
+      "source_title": "PR for Gaming Studios in the Age of AI",
+      "source_date": "2026-09-01",
+      "captured_date": "2026-09-03",
+      "domain": [
+        "game-dev",
+        "aeo",
+        "content",
+        "pmm"
+      ],
+      "lifecycle": [
+        "awareness-discovery",
+        "content-ops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-aggregator-chatgpt-citation-gap",
+        "ins_solis-third-party-citation-prioritization",
+        "ins_indig-ugc-citation-dominance"
+      ],
+      "raw_ref": "",
+      "title": "LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery"
     },
     {
       "path": "insights/ins_krieger-async-agent-delegation.md",
@@ -26552,6 +26618,36 @@
       "title": "The operating layer, not the model, determines which of three AI productivity tiers a company reaches"
     },
     {
+      "path": "insights/ins_tunguz-ai-quality-floor-rises.md",
+      "id": "ins_tunguz-ai-quality-floor-rises",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
+      "source_type": "essay",
+      "source_title": "AI Productivity Doesn't Mean What I Thought",
+      "source_date": "2026-09-02",
+      "captured_date": "2026-09-03",
+      "domain": [
+        "ai-native",
+        "content",
+        "pmm"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "content-ops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-ghostwriter-editor"
+      ],
+      "raw_ref": "",
+      "title": "AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement"
+    },
+    {
       "path": "insights/ins_tunguz-ai-retention-colander.md",
       "id": "ins_tunguz-ai-retention-colander",
       "operator": "Tomasz Tunguz",
@@ -29994,6 +30090,36 @@
       "related": [],
       "raw_ref": "",
       "title": "Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining"
+    },
+    {
+      "path": "insights/ins_willison-system-prompt-legal-reaction.md",
+      "id": "ins_willison-system-prompt-legal-reaction",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; independent developer and blogger on LLM engineering",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "source_type": "post",
+      "source_title": "Claude's new system prompt",
+      "source_date": "2026-09-02",
+      "captured_date": "2026-09-03",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-system-prompt-knowledge-injection",
+        "ins_willison-ai-product-capability-opacity"
+      ],
+      "raw_ref": "",
+      "title": "Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden"
     },
     {
       "path": "insights/ins_willison-web-fetch-chained-exfiltration.md",
@@ -35703,6 +35829,27 @@
         "website": "https://jonathanstark.com/"
       },
       "title": "Jonathan Stark"
+    },
+    {
+      "path": "operators/joseph-kim/README.md",
+      "name": "Joseph Kim",
+      "slug": "joseph-kim",
+      "roles": [
+        "CEO, Lila Games",
+        "Founder and author, GameMakers Substack"
+      ],
+      "domains_active": [
+        "game-dev",
+        "game-growth",
+        "ai-native",
+        "gtm",
+        "content"
+      ],
+      "captured_first": "2026-09-03",
+      "external": {
+        "newsletter": "https://www.gamemakers.com"
+      },
+      "title": "Joseph Kim"
     },
     {
       "path": "operators/josh-braun/README.md",
@@ -46474,6 +46621,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-03.md",
+      "date": "2026-09-03",
+      "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
+      "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
+      "sources": [
+        "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
+        "https://www.gamemakers.com/p/pr-for-gaming-studios",
+        "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
+        "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-quality-floor-rises",
+        "ins_kim-llm-game-discovery-via-pr",
+        "ins_kim-ai-roi-salaried-ceiling",
+        "ins_willison-system-prompt-legal-reaction"
+      ],
+      "operators_added": [
+        "joseph-kim"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-02.md",
       "date": "2026-09-02",

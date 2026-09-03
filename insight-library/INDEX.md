@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1101 insight cards
-- 524 operator profiles
+- 1105 insight cards
+- 525 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (665)
+### Tier B (669)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -651,6 +651,8 @@ _Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kate-syuma-build-in-public-lead-engine`](insights/ins_kate-syuma-build-in-public-lead-engine.md) — Building in public is the only growth channel you need if you share real insights. _(Kate Syuma)_
 - [`ins_kate-syuma-spacious-schedule-deep-work`](insights/ins_kate-syuma-spacious-schedule-deep-work.md) — After six years scaling Miro to a unicorn, the lesson was: design for transformation, not promotion _(Kate Syuma)_
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
+- [`ins_kim-ai-roi-salaried-ceiling`](insights/ins_kim-ai-roi-salaried-ceiling.md) — AI productivity gains in salaried organizations cap at the existing output level because salary structures reward delivery, not volume _(Joseph Kim)_
+- [`ins_kim-llm-game-discovery-via-pr`](insights/ins_kim-llm-game-discovery-via-pr.md) — LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery _(Joseph Kim)_
 - [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
 - [`ins_krouse-claude-top-acquisition-channel`](insights/ins_krouse-claude-top-acquisition-channel.md) — A coding agent that actively deploys to a platform can become its single largest user-acquisition channel _(Steve Krouse)_
@@ -912,6 +914,7 @@ _Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
 - [`ins_tunguz-ai-infrastructure-bullwhip`](insights/ins_tunguz-ai-infrastructure-bullwhip.md) — AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
@@ -1011,6 +1014,7 @@ _Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
 - [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
+- [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
@@ -1381,6 +1385,7 @@ _Generated 2026-09-02. Auto-built from frontmatter — do not edit by hand._
 - [Jonathan Jaffe](operators/jonathan-jaffe/README.md)
 - [Jonathan Pipek](operators/jonathan-pipek/README.md)
 - [Jonathan Stark](operators/jonathan-stark/README.md)
+- [Joseph Kim](operators/joseph-kim/README.md)
 - [Josh Braun](operators/josh-braun/README.md)
 - [Josue Valles](operators/josue-valles/README.md)
 - [Julian Shapiro](operators/julian-shapiro/README.md)
