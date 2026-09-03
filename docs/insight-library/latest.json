@@ -1,28 +1,54 @@
 {
-  "generated_at": "2026-09-02T01:56:56.503Z",
+  "generated_at": "2026-09-03T01:57:09.996Z",
   "latest_daily": {
-    "path": "daily/2026-09-02.md",
-    "date": "2026-09-02",
-    "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
-    "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
+    "path": "daily/2026-09-03.md",
+    "date": "2026-09-03",
+    "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
+    "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
     "sources": [
-      "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-      "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-      "https://www.growth-memo.com/p/has-google-demoted-listicles"
+      "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
+      "https://www.gamemakers.com/p/pr-for-gaming-studios",
+      "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
+      "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
     ],
     "insights_added": [
-      "ins_dumpleton-expert-design-ai-executes",
-      "ins_willison-reasoning-effort-nonlinear-creative",
-      "ins_indig-substitutability-not-format"
+      "ins_tunguz-ai-quality-floor-rises",
+      "ins_kim-llm-game-discovery-via-pr",
+      "ins_kim-ai-roi-salaried-ceiling",
+      "ins_willison-system-prompt-legal-reaction"
     ],
     "operators_added": [
-      "graham-dumpleton"
+      "joseph-kim"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-03.md",
+      "date": "2026-09-03",
+      "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
+      "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
+      "sources": [
+        "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
+        "https://www.gamemakers.com/p/pr-for-gaming-studios",
+        "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
+        "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-quality-floor-rises",
+        "ins_kim-llm-game-discovery-via-pr",
+        "ins_kim-ai-roi-salaried-ceiling",
+        "ins_willison-system-prompt-legal-reaction"
+      ],
+      "operators_added": [
+        "joseph-kim"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-02.md",
       "date": "2026-09-02",
@@ -613,24 +639,6 @@
       ],
       "operators_added": [
         "niklas-gruhn"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-03.md",
-      "date": "2026-08-03",
-      "title": "AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation",
-      "summary": "Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.",
-      "sources": [],
-      "insights_added": [
-        "ins_indig-ai-washing-in-layoffs",
-        "ins_hashimoto-terminal-as-agent-coordination-layer",
-        "ins_levels-saas-build-not-buy-flip"
-      ],
-      "operators_added": [
-        "mitchell-hashimoto"
       ],
       "patterns_added": [],
       "playbooks_added": [],

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 01:57:00 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 01:57:12 GMT</lastBuildDate>
+    <item>
+      <title>AI quality floors, citation graphs, salaried ceilings, and prompt governance</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-03/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-03/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.</description>
+    </item>
     <item>
       <title>Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-02/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-05/</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.</description>
-    </item>
-    <item>
-      <title>AI-cited layoffs mask structural corrections; the terminal becomes a coordination primitive for agents and humans; vibe-coding flips the SaaS build-vs-buy calculation</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-03/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-03/</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Kevin Indig audits AI layoff narratives and finds reinstatement rates that disprove the automation causation claim. Mitchell Hashimoto launches Superlogical on the premise that the terminal multiplexer, rebuilt around task-scoped sessions, is the coordination primitive for mixed human-agent teams. Pieter Levels cancels every SaaS subscription and rebuilds the tools himself, documenting the economics of the vibe-coding threshold.</description>
     </item>
   </channel>
 </rss>
