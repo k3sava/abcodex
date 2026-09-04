@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 01:57:12 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 01:55:57 GMT</lastBuildDate>
+    <item>
+      <title>Vibe coding at production scale, Meta&apos;s data barter, and agents as trace-first systems</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-04/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-04/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta&apos;s two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.</description>
+    </item>
     <item>
       <title>AI quality floors, citation graphs, salaried ceilings, and prompt governance</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-03/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-06/</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons&apos; Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.</description>
-    </item>
-    <item>
-      <title>Don&apos;t be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-05/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-05/</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.</description>
     </item>
   </channel>
 </rss>

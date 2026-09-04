@@ -1,30 +1,50 @@
 {
-  "generated_at": "2026-09-03T01:57:09.996Z",
+  "generated_at": "2026-09-04T01:55:55.151Z",
   "latest_daily": {
-    "path": "daily/2026-09-03.md",
-    "date": "2026-09-03",
-    "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
-    "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
+    "path": "daily/2026-09-04.md",
+    "date": "2026-09-04",
+    "title": "Vibe coding at production scale, Meta's data barter, and agents as trace-first systems",
+    "summary": "Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta's two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.",
     "sources": [
-      "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
-      "https://www.gamemakers.com/p/pr-for-gaming-studios",
-      "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
-      "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+      "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+      "https://sequoiacap.com/podcast/context-engineering-our-way-to-long-horizon-agents-langchains-harrison-chase"
     ],
     "insights_added": [
-      "ins_tunguz-ai-quality-floor-rises",
-      "ins_kim-llm-game-discovery-via-pr",
-      "ins_kim-ai-roi-salaried-ceiling",
-      "ins_willison-system-prompt-legal-reaction"
+      "ins_brewster-vibe-coded-production-180k",
+      "ins_tunguz-meta-prompt-data-barter",
+      "ins_chase-context-engineering-vs-code-inspection"
     ],
     "operators_added": [
-      "joseph-kim"
+      "rick-brewster"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-04.md",
+      "date": "2026-09-04",
+      "title": "Vibe coding at production scale, Meta's data barter, and agents as trace-first systems",
+      "summary": "Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta's two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+        "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+        "https://sequoiacap.com/podcast/context-engineering-our-way-to-long-horizon-agents-langchains-harrison-chase"
+      ],
+      "insights_added": [
+        "ins_brewster-vibe-coded-production-180k",
+        "ins_tunguz-meta-prompt-data-barter",
+        "ins_chase-context-engineering-vs-code-inspection"
+      ],
+      "operators_added": [
+        "rick-brewster"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-03.md",
       "date": "2026-09-03",
@@ -621,24 +641,6 @@
       ],
       "operators_added": [
         "tom-verrilli"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-05.md",
-      "date": "2026-08-05",
-      "title": "Don't be a meat proxy; AI search recommendations require depth not breadth; ephemeral sandboxes flip agent spawn economics",
-      "summary": "Three new cards from three operators. Niklas Gruhn coins the meat proxy pattern for humans who relay AI output uncritically. Kevin Indig quantifies the citation-vs-mention distinction in AI search with data from 1,094 categories. Thorsten Ball documents how ephemeral cloud sandboxes remove agent-spawning friction and change developer behavior.",
-      "sources": [],
-      "insights_added": [
-        "ins_gruhn-meat-proxy-accountability",
-        "ins_indig-citation-vs-mention-depth-breadth",
-        "ins_ball-orb-sandbox-agent-frequency"
-      ],
-      "operators_added": [
-        "niklas-gruhn"
       ],
       "patterns_added": [],
       "playbooks_added": [],
