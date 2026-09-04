@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1105 insight cards
-- 525 operator profiles
+- 1108 insight cards
+- 526 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (669)
+### Tier B (672)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -457,6 +457,7 @@ _Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
 - [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
+- [`ins_brewster-vibe-coded-production-180k`](insights/ins_brewster-vibe-coded-production-180k.md) — AI can generate 180,000 lines of production code in three weeks, but resource management and architecture still require active human babysitting _(Rick Brewster)_
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
@@ -471,6 +472,7 @@ _Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
 - [`ins_chase-agent-infra-rebuild-tax`](insights/ins_chase-agent-infra-rebuild-tax.md) — The primary cost in production agent development is rebuilding the same infrastructure per project _(Harrison Chase)_
 - [`ins_chase-compound-intelligence-ownership`](insights/ins_chase-compound-intelligence-ownership.md) — Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access _(Harrison Chase)_
+- [`ins_chase-context-engineering-vs-code-inspection`](insights/ins_chase-context-engineering-vs-code-inspection.md) — Debugging long-horizon agents requires trace inspection, not code review, because agent logic lives in the context window at each step _(Harrison Chase)_
 - [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
@@ -936,6 +938,7 @@ _Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
 - [`ins_tunguz-intelligence-per-watt`](insights/ins_tunguz-intelligence-per-watt.md) — Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks _(Tomasz Tunguz)_
 - [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
+- [`ins_tunguz-meta-prompt-data-barter`](insights/ins_tunguz-meta-prompt-data-barter.md) — Meta's free AI tier reveals the market price of user prompt data at $1.24 per million tokens _(Tom Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
 - [`ins_tunguz-model-chip-ownership-premium`](insights/ins_tunguz-model-chip-ownership-premium.md) — Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach _(Tomasz Tunguz)_
 - [`ins_tunguz-model-factory-megawatt-loop`](insights/ins_tunguz-model-factory-megawatt-loop.md) — AI model labs generate 3-5x revenue per megawatt over cost, and the margin compounds into the next training run _(Tomasz Tunguz)_
@@ -1530,6 +1533,7 @@ _Generated 2026-09-03. Auto-built from frontmatter — do not edit by hand._
 - [Renae McBride](operators/renae-mcbride/README.md)
 - [Rewind](operators/rewind/README.md)
 - [Richard King](operators/richard-king/README.md)
+- [Rick Brewster](operators/rick-brewster/README.md)
 - [Robert Rose](operators/robert-rose/README.md)
 - [Rohit Agarwal](operators/rohit-agarwal/README.md)
 - [Rohit Shah](operators/rohit-shah/README.md)
