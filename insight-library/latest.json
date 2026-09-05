@@ -1,28 +1,50 @@
 {
-  "generated_at": "2026-09-04T01:55:55.151Z",
+  "generated_at": "2026-09-05T01:56:56.791Z",
   "latest_daily": {
-    "path": "daily/2026-09-04.md",
-    "date": "2026-09-04",
-    "title": "Vibe coding at production scale, Meta's data barter, and agents as trace-first systems",
-    "summary": "Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta's two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.",
+    "path": "daily/2026-09-05.md",
+    "date": "2026-09-05",
+    "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
+    "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
-      "https://sequoiacap.com/podcast/context-engineering-our-way-to-long-horizon-agents-langchains-harrison-chase"
+      "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
+      "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "https://www.latent.space/p/pr-not-welcome",
+      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
     ],
     "insights_added": [
-      "ins_brewster-vibe-coded-production-180k",
-      "ins_tunguz-meta-prompt-data-barter",
-      "ins_chase-context-engineering-vs-code-inspection"
+      "ins_dunford-positioning-ai-capability-shifts",
+      "ins_willison-rogue-agents-side-channel",
+      "ins_swyx-software-factory-replaces-prs",
+      "ins_indig-listicle-freshness-beats-length"
     ],
-    "operators_added": [
-      "rick-brewster"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-05.md",
+      "date": "2026-09-05",
+      "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
+      "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
+      "sources": [
+        "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
+        "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+        "https://www.latent.space/p/pr-not-welcome",
+        "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      ],
+      "insights_added": [
+        "ins_dunford-positioning-ai-capability-shifts",
+        "ins_willison-rogue-agents-side-channel",
+        "ins_swyx-software-factory-replaces-prs",
+        "ins_indig-listicle-freshness-beats-length"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-04.md",
       "date": "2026-09-04",
@@ -622,25 +644,6 @@
       "operators_added": [
         "wes-kao",
         "conor-grennan"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-06.md",
-      "date": "2026-08-06",
-      "title": "AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer",
-      "summary": "Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons' Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.",
-      "sources": [],
-      "insights_added": [
-        "ins_tunguz-ai-ghostwriter-editor",
-        "ins_tunguz-tier-segmentation-jevons",
-        "ins_husain-product-before-evals",
-        "ins_verrilli-dri-eliminates-pm-layer"
-      ],
-      "operators_added": [
-        "tom-verrilli"
       ],
       "patterns_added": [],
       "playbooks_added": [],

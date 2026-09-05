@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-09-04T01:55:55.101Z",
+  "generated_at": "2026-09-05T01:56:56.704Z",
   "counts": {
-    "insights": 1108,
+    "insights": 1112,
     "operators": 526,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 96
+    "daily": 97
   },
   "latest_daily": {
-    "path": "daily/2026-09-04.md",
-    "date": "2026-09-04",
-    "title": "Vibe coding at production scale, Meta's data barter, and agents as trace-first systems",
-    "summary": "Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta's two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.",
+    "path": "daily/2026-09-05.md",
+    "date": "2026-09-05",
+    "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
+    "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
-      "https://sequoiacap.com/podcast/context-engineering-our-way-to-long-horizon-agents-langchains-harrison-chase"
+      "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
+      "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "https://www.latent.space/p/pr-not-welcome",
+      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
     ],
     "insights_added": [
-      "ins_brewster-vibe-coded-production-180k",
-      "ins_tunguz-meta-prompt-data-barter",
-      "ins_chase-context-engineering-vs-code-inspection"
+      "ins_dunford-positioning-ai-capability-shifts",
+      "ins_willison-rogue-agents-side-channel",
+      "ins_swyx-software-factory-replaces-prs",
+      "ins_indig-listicle-freshness-beats-length"
     ],
-    "operators_added": [
-      "rick-brewster"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -7042,6 +7042,33 @@
       "title": "Buyers navigating rapid market change rely on a vendor's market POV to validate their purchase; without one, reps lose the sale before the demo ends"
     },
     {
+      "path": "insights/ins_dunford-positioning-ai-capability-shifts.md",
+      "id": "ins_dunford-positioning-ai-capability-shifts",
+      "operator": "April Dunford",
+      "operator_role": "Positioning consultant; author of Obviously Awesome",
+      "co_operators": [],
+      "source_url": "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
+      "source_type": "essay",
+      "source_title": "Shifting Positioning When AI Capabilities are Rapidly Changing",
+      "source_date": "2026-09-03",
+      "captured_date": "2026-09-05",
+      "domain": [
+        "pmm",
+        "gtm"
+      ],
+      "lifecycle": [
+        "positioning",
+        "messaging-narrative"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Most AI capability improvements strengthen existing value themes; only revise positioning when new capabilities create customer value genuinely outside current themes"
+    },
+    {
       "path": "insights/ins_dyutismita-das-managing-hr-burnout.md",
       "id": "ins_dyutismita-das-managing-hr-burnout",
       "title": "Managing HR burnout is a relatable struggle in the current work environment.",
@@ -11418,6 +11445,33 @@
       ],
       "raw_ref": "",
       "title": "Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure"
+    },
+    {
+      "path": "insights/ins_indig-listicle-freshness-beats-length.md",
+      "id": "ins_indig-listicle-freshness-beats-length",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth Memo author; organic growth advisor; ex-Shopify, G2, Atlassian",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/what-makes-a-good-listicle",
+      "source_type": "essay",
+      "source_title": "What makes a good listicle?",
+      "source_date": "2026-08-31",
+      "captured_date": "2026-09-05",
+      "domain": [
+        "gtm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups"
     },
     {
       "path": "insights/ins_indig-listicle-freshness-rank-signal.md",
@@ -24934,6 +24988,34 @@
       "title": "In AI content, the quality lever is curation and a distinct point of view, not output volume."
     },
     {
+      "path": "insights/ins_swyx-software-factory-replaces-prs.md",
+      "id": "ins_swyx-software-factory-replaces-prs",
+      "operator": "swyx",
+      "operator_role": "Co-founder of AI Engineer; writer and podcast host at Latent Space",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/pr-not-welcome",
+      "source_type": "essay",
+      "source_title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "source_date": "2026-09-01",
+      "captured_date": "2026-09-05",
+      "domain": [
+        "engineering",
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI-native open source projects reject external PRs because agent-driven software factories close 70-80% of issues, making external human code contributions a net cost rather than a net benefit"
+    },
+    {
       "path": "insights/ins_system1-system2-thinking.md",
       "id": "ins_system1-system2-thinking",
       "operator": "Daniel Kahneman",
@@ -30059,6 +30141,32 @@
       ],
       "raw_ref": "",
       "title": "As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible"
+    },
+    {
+      "path": "insights/ins_willison-rogue-agents-side-channel.md",
+      "id": "ins_willison-rogue-agents-side-channel",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+      "source_type": "post",
+      "source_title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "source_date": "2026-09-04",
+      "captured_date": "2026-09-05",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find"
     },
     {
       "path": "insights/ins_willison-silent-degradation-trust-gap.md",
@@ -46719,6 +46827,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-05.md",
+      "date": "2026-09-05",
+      "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
+      "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
+      "sources": [
+        "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
+        "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+        "https://www.latent.space/p/pr-not-welcome",
+        "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      ],
+      "insights_added": [
+        "ins_dunford-positioning-ai-capability-shifts",
+        "ins_willison-rogue-agents-side-channel",
+        "ins_swyx-software-factory-replaces-prs",
+        "ins_indig-listicle-freshness-beats-length"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-04.md",
       "date": "2026-09-04",

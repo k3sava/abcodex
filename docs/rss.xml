@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 01:55:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 01:57:00 GMT</lastBuildDate>
+    <item>
+      <title>Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-05/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-05/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.</description>
+    </item>
     <item>
       <title>Vibe coding at production scale, Meta&apos;s data barter, and agents as trace-first systems</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-04/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-07/</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.</description>
-    </item>
-    <item>
-      <title>AI fails as ghostwriter; tier routing sustains GPU consumption under supply constraints; evals fail upstream; DRI eliminates PM layer</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-06/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-06/</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from three operators. Tom Tunguz published two pieces in two days: one on voice convergence in AI-assisted writing, one on how tier segmentation sustains Jevons&apos; Paradox under GPU supply constraints. Hamel Husain argued that most LLM eval failures are product design failures that happen before the eval is written. Tom Verrilli made the case for eliminating permanent PM assignments in favor of six-month rotating DRI roles.</description>
     </item>
   </channel>
 </rss>
