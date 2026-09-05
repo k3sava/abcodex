@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1108 insight cards
+- 1112 insight cards
 - 526 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -367,7 +367,7 @@ _Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (672)
+### Tier B (676)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -529,6 +529,7 @@ _Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dtc-do-less-better`](insights/ins_dtc-do-less-better.md) — Don't even think about a second channel until you can profitably spend $5K/day on Meta _(Nik Sharma)_
 - [`ins_dumpleton-expert-design-ai-executes`](insights/ins_dumpleton-expert-design-ai-executes.md) — AI-assisted coding works when the engineer defines the design and the AI executes it _(Graham Dumpleton)_
 - [`ins_dunford-market-pov-ai-uncertainty`](insights/ins_dunford-market-pov-ai-uncertainty.md) — Buyers navigating rapid market change rely on a vendor's market POV to validate their purchase; without one, reps lose the sale before the demo ends _(April Dunford)_
+- [`ins_dunford-positioning-ai-capability-shifts`](insights/ins_dunford-positioning-ai-capability-shifts.md) — Most AI capability improvements strengthen existing value themes; only revise positioning when new capabilities create customer value genuinely outside current themes _(April Dunford)_
 - [`ins_early-stage-pmms-know-there`](insights/ins_early-stage-pmms-know-there.md) — Early-stage PMMs: I know there are a lot of us! What did I miss? _(Amulya Vadrevu)_
 - [`ins_economic-value-estimation`](insights/ins_economic-value-estimation.md) — A pricing model without a value model is adrift, start with Economic Value Estimation _(Steven Forth)_
 - [`ins_elise-beck-webinar-gtm-opportunity`](insights/ins_elise-beck-webinar-gtm-opportunity.md) — Webinar tools fail to connect engagement to pipeline; that's the GTM opportunity. _(Elise Beck)_
@@ -622,6 +623,7 @@ _Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
+- [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
@@ -885,6 +887,7 @@ _Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
 - [`ins_swyx-meta-harness-convergence`](insights/ins_swyx-meta-harness-convergence.md) — Independent rediscovery of the same agent coordination layer at scale signals which open-source standard will form _(Swyx)_
 - [`ins_swyx-scaling-without-slop`](insights/ins_swyx-scaling-without-slop.md) — In AI content, the quality lever is curation and a distinct point of view, not output volume. _(Swyx)_
+- [`ins_swyx-software-factory-replaces-prs`](insights/ins_swyx-software-factory-replaces-prs.md) — AI-native open source projects reject external PRs because agent-driven software factories close 70-80% of issues, making external human code contributions a net cost rather than a net benefit _(swyx)_
 - [`ins_systems-of-action-replace-seller-stack`](insights/ins_systems-of-action-replace-seller-stack.md) — A "system of action" tier is replacing the seller's tab-stack _(Gartner)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_
 - [`ins_tech-stack-renewal-window-play`](insights/ins_tech-stack-renewal-window-play.md) — Combine tech-stack signal with contract-renewal window for ~5x outbound conversion _(Florin Tatulea)_
@@ -1013,6 +1016,7 @@ _Generated 2026-09-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_
 - [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
+- [`ins_willison-rogue-agents-side-channel`](insights/ins_willison-rogue-agents-side-channel.md) — Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
