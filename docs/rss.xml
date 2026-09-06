@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 01:57:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 02:04:36 GMT</lastBuildDate>
+    <item>
+      <title>AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-06/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI&apos;s creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.</description>
+    </item>
     <item>
       <title>Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-05/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-08/</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.</description>
-    </item>
-    <item>
-      <title>AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-07/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-07/</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.</description>
     </item>
   </channel>
 </rss>

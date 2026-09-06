@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1112 insight cards
-- 526 operator profiles
+- 1115 insight cards
+- 528 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (676)
+### Tier B (679)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -477,6 +477,7 @@ _Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
 - [`ins_cherny-roi-benchmark-engineer-labor`](insights/ins_cherny-roi-benchmark-engineer-labor.md) — Comparing AI tool costs to software subscriptions produces a misleading ROI case; the right benchmark is what an engineer would have billed _(Boris Cherny)_
+- [`ins_chimala-ai-creativity-seed-strings`](insights/ins_chimala-ai-creativity-seed-strings.md) — Token prediction collapses AI design output to the modal answer; seed strings break this to expose the full creative distribution _(Anshu Chimala)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
 - [`ins_chris-orlob-five-touch-sequence`](insights/ins_chris-orlob-five-touch-sequence.md) — Each outbound touch must build on the prior, not restate it; the 2nd and 3rd touches double reply rates when this holds _(Chris Orlob)_
 - [`ins_ciana-abdollahian-vibe-coded-customer-discovery-tool`](insights/ins_ciana-abdollahian-vibe-coded-customer-discovery-tool.md) — Vibe-coding a lightweight internal tool solves the 'I need a customer who' request gap. _(Ciana Abdollahian)_
@@ -821,6 +822,7 @@ _Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-seats-pricing-ai-trap`](insights/ins_rory-woodbridge-seats-pricing-ai-trap.md) — Seats-based pricing is a logical trap when AI reduces the headcount tied to the metric _(Rory Woodbridge)_
+- [`ins_saha-evals-as-harness-feedback-loop`](insights/ins_saha-evals-as-harness-feedback-loop.md) — Evals close the harness improvement loop; treating them as a post-deployment quality check removes the signal that guides agent system improvement _(Antaripa Saha)_
 - [`ins_saishah-joseph-exhaustion-disguised-as-enthusiasm`](insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md) — Small business owners' social media exhaustion is disguised as enthusiasm _(Saishah Joseph)_
 - [`ins_sajjan-jain-ai-80-percent-startup-opportunity`](insights/ins_sajjan-jain-ai-80-percent-startup-opportunity.md) — AI's 80% ceiling is the startup opportunity: complete the last mile to 100%. _(Sajjan Jain)_
 - [`ins_sales-team-detects-positioning-failure-first`](insights/ins_sales-team-detects-positioning-failure-first.md) — The sales team detects positioning failure months before the dashboard does _(April Dunford)_
@@ -958,6 +960,7 @@ _Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify, data informs understanding, not the reverse _(Bangaly Kaba)_
 - [`ins_ungate-ai-iterate-pricing`](insights/ins_ungate-ai-iterate-pricing.md) — Ungate AI features first; treat pricing as iterable product, not strategic decision _(Elena Verna)_
 - [`ins_ux-change-target-emotion-is-relief`](insights/ins_ux-change-target-emotion-is-relief.md) — When shipping a workflow change, the target emotion is relief, not excitement _(Emily Pick)_
+- [`ins_van-der-lee-mvvm-defer-abstraction`](insights/ins_van-der-lee-mvvm-defer-abstraction.md) — Blanket MVVM adoption in SwiftUI adds abstraction overhead without added separation; defer view model extraction until specific complexity markers appear _(Antoine van der Lee)_
 - [`ins_varda-ai-commit-message-blindspot`](insights/ins_varda-ai-commit-message-blindspot.md) — AI-generated PR and commit descriptions repeat visible code details instead of explaining why the change was made, making them worse for review than no description _(Kenton Varda)_
 - [`ins_varia-makagonova-workplace-messaging-rules`](insights/ins_varia-makagonova-workplace-messaging-rules.md) — Customer advocacy is the brand-awareness program your team didn't know it needed _(Varia Makagonova)_
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
@@ -1190,6 +1193,8 @@ _Generated 2026-09-05. Auto-built from frontmatter — do not edit by hand._
 - [Ann Handley](operators/ann-handley/README.md)
 - [Anna Tankel](operators/anna-tankel/README.md)
 - [Annie Duke](operators/annie-duke/README.md)
+- [Anshu Chimala](operators/anshu-chimala/README.md)
+- [Antaripa Saha](operators/antaripa-saha/README.md)
 - [Anthony Blatner](operators/anthony-blatner/README.md)
 - [Anthony Pierri](operators/anthony-pierri/README.md)
 - [Anthropic](operators/anthropic/README.md)
