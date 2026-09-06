@@ -21,7 +21,7 @@ raw_ref: ""
 # Token prediction collapses AI design output to the modal answer; seed strings break this to expose the full creative distribution
 
 ## Claim
-LLMs generate the most statistically probable creative output by default, producing generic results that reflect everyone's average preferences. Injecting a random seed string forces the model to sample from different regions of the probability distribution, unlocking creative variety that normal prompting cannot reach.
+LLMs generate the most statistically probable creative output by default, producing generic results that reflect everyone's average preferences. Injecting a random seed string forces the model to sample from different regions of the probability distribution, accessing creative variety that normal prompting cannot reach.
 
 ## Mechanism
 A language model picks the next token by predicting what is most likely given all prior context. In creative tasks with no strong correctness signal, this produces convergent output: the answer that fits the most users' preferences, not the answer best suited to this user's need. Chimala's seed string technique inserts a long pseudo-random alphanumeric string at the start of each generation. The random input shifts the model's attention distribution, activating tokens that would otherwise be suppressed in favor of safer options. Run the same prompt twenty times with twenty different seeds; you get twenty genuinely distinct design directions rather than twenty variations of the same modal concept.

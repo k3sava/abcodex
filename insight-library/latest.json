@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T02:02:03.010Z",
+  "generated_at": "2026-09-06T02:04:33.458Z",
   "latest_daily": {
     "path": "daily/2026-09-06.md",
     "date": "2026-09-06",
     "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
-    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
     "sources": [
       "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
       "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
@@ -28,7 +28,7 @@
       "path": "daily/2026-09-06.md",
       "date": "2026-09-06",
       "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
-      "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+      "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
       "sources": [
         "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
         "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",

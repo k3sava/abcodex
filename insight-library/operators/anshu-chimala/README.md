@@ -12,7 +12,7 @@ external:
   newsletter: https://anshuc.substack.com/
 ---
 
-Anshu Chimala. Spent 12 years leading software engineering and design teams at Apple focused on research and prototyping for future AI products, followed by founding work as a YC alum. He builds and shares practical AI design workflows, with a focus on unlocking creative potential that standard prompting leaves unreachable.
+Anshu Chimala. Spent 12 years leading software engineering and design teams at Apple focused on research and prototyping for future AI products, followed by founding work as a YC alum. He builds and shares practical AI design workflows, with a focus on accessing creative potential that standard prompting leaves unreachable.
 
 ## Operating themes
 - **AI creative distribution** Most prompting reaches the modal output; techniques like seed strings access the full creative range the model is capable of.

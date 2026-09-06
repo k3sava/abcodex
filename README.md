@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest · 2026-09-06 · 3 insights · 2 operators
 
-**AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI.** Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.
+**AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI.** Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.
 
 [Read what landed →](insight-library/daily/2026-09-06.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
