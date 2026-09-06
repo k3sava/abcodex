@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-09-05T01:56:56.704Z",
+  "generated_at": "2026-09-06T02:02:02.932Z",
   "counts": {
-    "insights": 1112,
-    "operators": 526,
+    "insights": 1115,
+    "operators": 528,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 97
+    "daily": 98
   },
   "latest_daily": {
-    "path": "daily/2026-09-05.md",
-    "date": "2026-09-05",
-    "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
-    "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
+    "path": "daily/2026-09-06.md",
+    "date": "2026-09-06",
+    "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
+    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
     "sources": [
-      "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
-      "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "https://www.latent.space/p/pr-not-welcome",
-      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
+      "https://www.avanderlee.com/swiftui/mvvm/"
     ],
     "insights_added": [
-      "ins_dunford-positioning-ai-capability-shifts",
-      "ins_willison-rogue-agents-side-channel",
-      "ins_swyx-software-factory-replaces-prs",
-      "ins_indig-listicle-freshness-beats-length"
+      "ins_chimala-ai-creativity-seed-strings",
+      "ins_saha-evals-as-harness-feedback-loop",
+      "ins_van-der-lee-mvvm-defer-abstraction"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "anshu-chimala",
+      "antaripa-saha"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4676,6 +4677,36 @@
       ],
       "raw_ref": "",
       "title": "Comparing AI tool costs to software subscriptions produces a misleading ROI case; the right benchmark is what an engineer would have billed"
+    },
+    {
+      "path": "insights/ins_chimala-ai-creativity-seed-strings.md",
+      "id": "ins_chimala-ai-creativity-seed-strings",
+      "operator": "Anshu Chimala",
+      "operator_role": "Former engineering and design lead, Apple (12 years); founder",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "source_type": "essay",
+      "source_title": "How to turn your AI into a world-class designer",
+      "source_date": "2026-09-01",
+      "captured_date": "2026-09-06",
+      "domain": [
+        "design",
+        "ai-native",
+        "product"
+      ],
+      "lifecycle": [
+        "design-ops",
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-commission-not-steer"
+      ],
+      "raw_ref": "",
+      "title": "Token prediction collapses AI design output to the modal answer; seed strings break this to expose the full creative distribution"
     },
     {
       "path": "insights/ins_chirayu-akotiya-content-engine-scaling.md",
@@ -21605,6 +21636,38 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_saha-evals-as-harness-feedback-loop.md",
+      "id": "ins_saha-evals-as-harness-feedback-loop",
+      "operator": "Antaripa Saha",
+      "operator_role": "Engineer, Quotient AI",
+      "co_operators": [
+        "Hamel Husain",
+        "Shreya Shankar"
+      ],
+      "source_url": "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
+      "source_type": "essay",
+      "source_title": "How Evals Are Central To Harness Engineering",
+      "source_date": "2026-09-01",
+      "captured_date": "2026-09-06",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_chase-context-engineering-vs-code-inspection"
+      ],
+      "raw_ref": "",
+      "title": "Evals close the harness improvement loop; treating them as a post-deployment quality check removes the signal that guides agent system improvement"
+    },
+    {
       "path": "insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md",
       "id": "ins_saishah-joseph-exhaustion-disguised-as-enthusiasm",
       "title": "Small business owners' social media exhaustion is disguised as enthusiasm",
@@ -28093,6 +28156,34 @@
       "title": "Value = (Dream Outcome × Likelihood) / (Time Delay × Effort), pull all four levers, not just price"
     },
     {
+      "path": "insights/ins_van-der-lee-mvvm-defer-abstraction.md",
+      "id": "ins_van-der-lee-mvvm-defer-abstraction",
+      "operator": "Antoine van der Lee",
+      "operator_role": "Indie iOS developer; creator of SwiftLee and RocketSim",
+      "co_operators": [],
+      "source_url": "https://www.avanderlee.com/swiftui/mvvm/",
+      "source_type": "essay",
+      "source_title": "MVVM in SwiftUI: Using view models without overengineering",
+      "source_date": "2026-08-31",
+      "captured_date": "2026-09-06",
+      "domain": [
+        "engineering",
+        "ios"
+      ],
+      "lifecycle": [
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_xcode27-agent-skills-portability"
+      ],
+      "raw_ref": "",
+      "title": "Blanket MVVM adoption in SwiftUI adds abstraction overhead without added separation; defer view model extraction until specific complexity markers appear"
+    },
+    {
       "path": "insights/ins_varda-ai-commit-message-blindspot.md",
       "id": "ins_varda-ai-commit-message-blindspot",
       "operator": "Kenton Varda",
@@ -32260,6 +32351,46 @@
         "website": "https://www.annieduke.com/"
       },
       "title": "Annie Duke"
+    },
+    {
+      "path": "operators/anshu-chimala/README.md",
+      "name": "Anshu Chimala",
+      "slug": "anshu-chimala",
+      "roles": [
+        "Former engineering and design lead, Apple (12 years, AI research and prototyping)",
+        "Former YC founder"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native",
+        "product"
+      ],
+      "captured_first": "2026-09-06",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/achimala/",
+        "twitter": "unknown",
+        "newsletter": "https://anshuc.substack.com/"
+      },
+      "title": "Anshu Chimala"
+    },
+    {
+      "path": "operators/antaripa-saha/README.md",
+      "name": "Antaripa Saha",
+      "slug": "antaripa-saha",
+      "roles": [
+        "Engineer, Quotient AI"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-09-06",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown",
+        "newsletter": "https://hugobowne.substack.com/"
+      },
+      "title": "Antaripa Saha"
     },
     {
       "path": "operators/anthony-blatner/README.md",
@@ -46827,6 +46958,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-06.md",
+      "date": "2026-09-06",
+      "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
+      "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+        "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
+        "https://www.avanderlee.com/swiftui/mvvm/"
+      ],
+      "insights_added": [
+        "ins_chimala-ai-creativity-seed-strings",
+        "ins_saha-evals-as-harness-feedback-loop",
+        "ins_van-der-lee-mvvm-defer-abstraction"
+      ],
+      "operators_added": [
+        "anshu-chimala",
+        "antaripa-saha"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-05.md",
       "date": "2026-09-05",

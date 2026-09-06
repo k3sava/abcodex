@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-05 · 4 insights
+### Latest · 2026-09-06 · 3 insights · 2 operators
 
-**Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals.** Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.
+**AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI.** Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.
 
-[Read what landed →](insight-library/daily/2026-09-05.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-06.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1112** insight cards
-- **526** operator profiles
+- **1115** insight cards
+- **528** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 526 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 528 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

@@ -1,28 +1,52 @@
 {
-  "generated_at": "2026-09-05T01:56:56.791Z",
+  "generated_at": "2026-09-06T02:02:03.010Z",
   "latest_daily": {
-    "path": "daily/2026-09-05.md",
-    "date": "2026-09-05",
-    "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
-    "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
+    "path": "daily/2026-09-06.md",
+    "date": "2026-09-06",
+    "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
+    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
     "sources": [
-      "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
-      "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-      "https://www.latent.space/p/pr-not-welcome",
-      "https://www.growth-memo.com/p/what-makes-a-good-listicle"
+      "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
+      "https://www.avanderlee.com/swiftui/mvvm/"
     ],
     "insights_added": [
-      "ins_dunford-positioning-ai-capability-shifts",
-      "ins_willison-rogue-agents-side-channel",
-      "ins_swyx-software-factory-replaces-prs",
-      "ins_indig-listicle-freshness-beats-length"
+      "ins_chimala-ai-creativity-seed-strings",
+      "ins_saha-evals-as-harness-feedback-loop",
+      "ins_van-der-lee-mvvm-defer-abstraction"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "anshu-chimala",
+      "antaripa-saha"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-06.md",
+      "date": "2026-09-06",
+      "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
+      "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on unlocking AI creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+        "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
+        "https://www.avanderlee.com/swiftui/mvvm/"
+      ],
+      "insights_added": [
+        "ins_chimala-ai-creativity-seed-strings",
+        "ins_saha-evals-as-harness-feedback-loop",
+        "ins_van-der-lee-mvvm-defer-abstraction"
+      ],
+      "operators_added": [
+        "anshu-chimala",
+        "antaripa-saha"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-05.md",
       "date": "2026-09-05",
@@ -625,26 +649,6 @@
         "ins_tunguz-agents-covert-channels"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-07.md",
-      "date": "2026-08-07",
-      "title": "AI Mode kills the evaluate-and-compare loop; frontier evals move to multi-hour autonomous tasks; delegation and AI ROI share the same missing prerequisite",
-      "summary": "Four new cards from four operators. Kevin Indig documents the behavioral split between AI Mode and AI Overviews: agentic search produces passive acceptance, informational search preserves evaluation. Andrej Karpathy demonstrates that frontier LLM evaluation has moved from snippet generation to multi-hour autonomous creation. Wes Kao and Conor Grennan converge on the same prerequisite: define judgment criteria before you hand the work off, whether to a person or to an AI system.",
-      "sources": [],
-      "insights_added": [
-        "ins_indig-ai-mode-agentic-compliance",
-        "ins_karpathy-long-horizon-eval-paradigm",
-        "ins_kao-pre-delegation-context-transfer",
-        "ins_grennan-ai-roi-target-setting"
-      ],
-      "operators_added": [
-        "wes-kao",
-        "conor-grennan"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
