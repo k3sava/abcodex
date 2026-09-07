@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1115 insight cards
+- 1119 insight cards
 - 528 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -367,7 +367,7 @@ _Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (679)
+### Tier B (683)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -545,6 +545,7 @@ _Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_eric-mistry-zapier-hiring-generalist-application`](insights/ins_eric-mistry-zapier-hiring-generalist-application.md) — Customer education has to break silos with success and marketing to scale _(Eric Mistry)_
 - [`ins_error-analysis-highest-leverage-eval-step`](insights/ins_error-analysis-highest-leverage-eval-step.md) — Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested _(Hamel Husain)_
 - [`ins_eureka-onboarding`](insights/ins_eureka-onboarding.md) — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly _(Ramli John)_
+- [`ins_evans-ai-adoption-tool-builder-gap`](insights/ins_evans-ai-adoption-tool-builder-gap.md) — Most employees cannot self-identify automation opportunities, so AI adoption requires someone outside the workflow to design the tool _(Benedict Evans)_
 - [`ins_evans-token-pricing-commoditization`](insights/ins_evans-token-pricing-commoditization.md) — Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack _(Benedict Evans)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c _(Seepiya Sahni)_
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
@@ -817,6 +818,7 @@ _Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
 - [`ins_ronacher-harness-overfit-tool-schema`](insights/ins_ronacher-harness-overfit-tool-schema.md) — RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas _(Armin Ronacher)_
 - [`ins_ronacher-language-choice-ai-era`](insights/ins_ronacher-language-choice-ai-era.md) — LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference _(Armin Ronacher)_
+- [`ins_ronacher-latent-powers-convergence`](insights/ins_ronacher-latent-powers-convergence.md) — LLMs nudge independent builders toward the same solutions by eliciting identical latent capabilities from shared models _(Armin Ronacher)_
 - [`ins_ronacher-reasoning-traces-as-text`](insights/ins_ronacher-reasoning-traces-as-text.md) — Reasoning traces in frontier models are text routed through special tokens by convention, not a separate cognitive process _(Armin Ronacher)_
 - [`ins_ronacher-safety-framing-access-restriction`](insights/ins_ronacher-safety-framing-access-restriction.md) — When safety restrictions align with financial incentives, treat the safety rationale as suspect _(Armin Ronacher)_
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
@@ -842,6 +844,7 @@ _Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sense-seeing-three-shifts-once`](insights/ins_sense-seeing-three-shifts-once.md) — My sense is we're seeing three shifts at once _(Yael Davidowitz-Neu)_
 - [`ins_separate-behavior-from-identity`](insights/ins_separate-behavior-from-identity.md) — When addressing a behavior, name explicitly that identity is not on trial _(Becky Kennedy)_
 - [`ins_seufert-att-asymmetric-consent`](insights/ins_seufert-att-asymmetric-consent.md) — Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors _(Eric Seufert)_
+- [`ins_seufert-chatbot-dual-targeting`](insights/ins_seufert-chatbot-dual-targeting.md) — Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session _(Eric Seufert)_
 - [`ins_shaambhav-shankar-ai-kills-excuses-for-marketers`](insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md) — With AI, excuses about time or skill are dead, marketers must be fast executors who break things. _(Shaambhav Shankar)_
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
@@ -941,6 +944,7 @@ _Generated 2026-09-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
+- [`ins_tunguz-infrastructure-debt-cagr`](insights/ins_tunguz-infrastructure-debt-cagr.md) — AI infrastructure financing has become a macroeconomic credit event requiring 55% CAGR in private credit markets _(Tom Tunguz)_
 - [`ins_tunguz-intelligence-per-watt`](insights/ins_tunguz-intelligence-per-watt.md) — Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks _(Tomasz Tunguz)_
 - [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
 - [`ins_tunguz-meta-prompt-data-barter`](insights/ins_tunguz-meta-prompt-data-barter.md) — Meta's free AI tier reveals the market price of user prompt data at $1.24 per million tokens _(Tom Tunguz)_
