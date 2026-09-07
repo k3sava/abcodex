@@ -1,29 +1,50 @@
 {
-  "generated_at": "2026-09-06T02:04:33.458Z",
+  "generated_at": "2026-09-07T01:54:05.623Z",
   "latest_daily": {
-    "path": "daily/2026-09-06.md",
-    "date": "2026-09-06",
-    "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
-    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+    "path": "daily/2026-09-07.md",
+    "date": "2026-09-07",
+    "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
+    "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
     "sources": [
-      "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-      "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
-      "https://www.avanderlee.com/swiftui/mvvm/"
+      "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+      "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
+      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
     ],
     "insights_added": [
-      "ins_chimala-ai-creativity-seed-strings",
-      "ins_saha-evals-as-harness-feedback-loop",
-      "ins_van-der-lee-mvvm-defer-abstraction"
+      "ins_ronacher-latent-powers-convergence",
+      "ins_evans-ai-adoption-tool-builder-gap",
+      "ins_seufert-chatbot-dual-targeting",
+      "ins_tunguz-infrastructure-debt-cagr"
     ],
-    "operators_added": [
-      "anshu-chimala",
-      "antaripa-saha"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-07.md",
+      "date": "2026-09-07",
+      "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
+      "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
+      "sources": [
+        "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+        "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
+        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      ],
+      "insights_added": [
+        "ins_ronacher-latent-powers-convergence",
+        "ins_evans-ai-adoption-tool-builder-gap",
+        "ins_seufert-chatbot-dual-targeting",
+        "ins_tunguz-infrastructure-debt-cagr"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-06.md",
       "date": "2026-09-06",
@@ -631,22 +652,6 @@
         "ins_indig-ai-mode-commercial-shift",
         "ins_willison-pdf-token-overhead",
         "ins_willison-openai-hf-attribution-gap"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-08.md",
-      "date": "2026-08-08",
-      "title": "Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents",
-      "summary": "Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.",
-      "sources": [],
-      "insights_added": [
-        "ins_solis-content-six-dimensions",
-        "ins_willison-publish-unhappy",
-        "ins_tunguz-agents-covert-channels"
       ],
       "operators_added": [],
       "patterns_added": [],

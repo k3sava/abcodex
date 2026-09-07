@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 02:04:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 01:54:08 GMT</lastBuildDate>
+    <item>
+      <title>LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-07/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-07/</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising&apos;s dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.</description>
+    </item>
     <item>
       <title>AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-06/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-09/</guid>
       <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Kevin Indig&apos;s Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot&apos;s and quadrupling Wayfair&apos;s. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.</description>
-    </item>
-    <item>
-      <title>Solis scores content on six AI-era dimensions; Willison names the publish-unhappy threshold; Tunguz extends zero-trust to internally-deployed AI agents</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-08/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-08/</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Aleyda Solis releases a six-dimension content prioritization framework for the AI search era, replacing traffic-forecast-only models. Simon Willison argues that publishing while still unhappy with a draft is the correct threshold because perceived flaws are invisible to readers. Tom Tunguz analyzes the Hugging Face incident and argues that zero-trust principles must extend to internally-deployed AI agents, not just external threats.</description>
     </item>
   </channel>
 </rss>

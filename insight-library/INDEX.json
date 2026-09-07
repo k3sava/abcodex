@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-09-06T02:04:33.431Z",
+  "generated_at": "2026-09-07T01:54:05.581Z",
   "counts": {
-    "insights": 1115,
+    "insights": 1119,
     "operators": 528,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 98
+    "daily": 99
   },
   "latest_daily": {
-    "path": "daily/2026-09-06.md",
-    "date": "2026-09-06",
-    "title": "AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI",
-    "summary": "Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.",
+    "path": "daily/2026-09-07.md",
+    "date": "2026-09-07",
+    "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
+    "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
     "sources": [
-      "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-      "https://hugobowne.substack.com/p/how-evals-are-central-to-harness",
-      "https://www.avanderlee.com/swiftui/mvvm/"
+      "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+      "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
+      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
     ],
     "insights_added": [
-      "ins_chimala-ai-creativity-seed-strings",
-      "ins_saha-evals-as-harness-feedback-loop",
-      "ins_van-der-lee-mvvm-defer-abstraction"
+      "ins_ronacher-latent-powers-convergence",
+      "ins_evans-ai-adoption-tool-builder-gap",
+      "ins_seufert-chatbot-dual-targeting",
+      "ins_tunguz-infrastructure-debt-cagr"
     ],
-    "operators_added": [
-      "anshu-chimala",
-      "antaripa-saha"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -7743,6 +7742,34 @@
       ],
       "raw_ref": "raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md",
       "title": "Evals are systematic data analysis on your LLM application, start with error analysis, not tests"
+    },
+    {
+      "path": "insights/ins_evans-ai-adoption-tool-builder-gap.md",
+      "id": "ins_evans-ai-adoption-tool-builder-gap",
+      "operator": "Benedict Evans",
+      "operator_role": "Independent tech analyst; former Andreessen Horowitz partner; newsletter author on AI and technology",
+      "co_operators": [],
+      "source_url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "source_type": "post",
+      "source_title": "AI tools and transformation",
+      "source_date": "2026-09-03",
+      "captured_date": "2026-09-07",
+      "domain": [
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_evans-token-pricing-commoditization",
+        "ins_mollick-twilight-factory-human-loop"
+      ],
+      "raw_ref": "",
+      "title": "Most employees cannot self-identify automation opportunities, so AI adoption requires someone outside the workflow to design the tool"
     },
     {
       "path": "insights/ins_evans-token-pricing-commoditization.md",
@@ -21417,6 +21444,35 @@
       "title": "LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference"
     },
     {
+      "path": "insights/ins_ronacher-latent-powers-convergence.md",
+      "id": "ins_ronacher-latent-powers-convergence",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask and Pallets; Founder of Sentry; technical blogger on LLMs and developer tools",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+      "source_type": "post",
+      "source_title": "Latent Powers",
+      "source_date": "2026-09-05",
+      "captured_date": "2026-09-07",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "excerpt",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_ronacher-agents-erase-shared-understanding"
+      ],
+      "raw_ref": "",
+      "title": "LLMs nudge independent builders toward the same solutions by eliciting identical latent capabilities from shared models"
+    },
+    {
       "path": "insights/ins_ronacher-reasoning-traces-as-text.md",
       "id": "ins_ronacher-reasoning-traces-as-text",
       "operator": "Armin Ronacher",
@@ -22498,6 +22554,34 @@
       "related": [],
       "raw_ref": "",
       "title": "Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors"
+    },
+    {
+      "path": "insights/ins_seufert-chatbot-dual-targeting.md",
+      "id": "ins_seufert-chatbot-dual-targeting",
+      "operator": "Eric Seufert",
+      "operator_role": "Founder of Mobile Dev Memo; mobile marketing analyst and strategic consultant",
+      "co_operators": [],
+      "source_url": "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
+      "source_type": "post",
+      "source_title": "Understanding the privileged position of chatbot advertising",
+      "source_date": "2026-09-02",
+      "captured_date": "2026-09-07",
+      "domain": [
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_seufert-att-asymmetric-consent"
+      ],
+      "raw_ref": "",
+      "title": "Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session"
     },
     {
       "path": "insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md",
@@ -27407,6 +27491,34 @@
       ],
       "raw_ref": "",
       "title": "AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems"
+    },
+    {
+      "path": "insights/ins_tunguz-infrastructure-debt-cagr.md",
+      "id": "ins_tunguz-infrastructure-debt-cagr",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures; former Google executive",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/",
+      "source_type": "post",
+      "source_title": "The $4 Trillion AI Data Center Debt Wave",
+      "source_date": "2026-09-04",
+      "captured_date": "2026-09-07",
+      "domain": [
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-model-factory-megawatt-loop",
+        "ins_tunguz-frontier-access-as-scarcity"
+      ],
+      "raw_ref": "",
+      "title": "AI infrastructure financing has become a macroeconomic credit event requiring 55% CAGR in private credit markets"
     },
     {
       "path": "insights/ins_tunguz-intelligence-per-watt.md",
@@ -46958,6 +47070,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-07.md",
+      "date": "2026-09-07",
+      "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
+      "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
+      "sources": [
+        "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
+        "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+        "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
+        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      ],
+      "insights_added": [
+        "ins_ronacher-latent-powers-convergence",
+        "ins_evans-ai-adoption-tool-builder-gap",
+        "ins_seufert-chatbot-dual-targeting",
+        "ins_tunguz-infrastructure-debt-cagr"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-06.md",
       "date": "2026-09-06",
