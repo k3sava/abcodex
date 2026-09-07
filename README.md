@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-06 · 3 insights · 2 operators
+### Latest · 2026-09-07 · 4 insights
 
-**AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI.** Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI's creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.
+**LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale.** Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.
 
-[Read what landed →](insight-library/daily/2026-09-06.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-07.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1115** insight cards
+- **1119** insight cards
 - **528** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
