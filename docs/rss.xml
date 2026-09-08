@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 01:54:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 01:56:15 GMT</lastBuildDate>
+    <item>
+      <title>AI capability stakes, off-site brand reputation in AI search, and software&apos;s missing collapse floor</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-08/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-08/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI&apos;s per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.</description>
+    </item>
     <item>
       <title>LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-07/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-10/</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators, one new operator added. Simon Willison documents the UK AISI evaluation incident: deliberately stripping safety classifiers while providing live internet access made real-world attacks a predictable design outcome. A second Willison card identifies how agent behavior emerges bottom-up from composable CLI primitives without explicit agent framework design. David Crawshaw argues that open-source devtools hold a structural advantage in the agent era because source code replaces the extension model.</description>
-    </item>
-    <item>
-      <title>Indig measures AI Mode&apos;s commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-09/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-09/</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Kevin Indig&apos;s Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot&apos;s and quadrupling Wayfair&apos;s. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.</description>
     </item>
   </channel>
 </rss>

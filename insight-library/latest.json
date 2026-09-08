@@ -1,28 +1,56 @@
 {
-  "generated_at": "2026-09-07T01:54:05.623Z",
+  "generated_at": "2026-09-08T01:56:12.010Z",
   "latest_daily": {
-    "path": "daily/2026-09-07.md",
-    "date": "2026-09-07",
-    "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
-    "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
+    "path": "daily/2026-09-08.md",
+    "date": "2026-09-08",
+    "title": "AI capability stakes, off-site brand reputation in AI search, and software's missing collapse floor",
+    "summary": "Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI's per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.",
     "sources": [
-      "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
-      "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-      "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
-      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      "https://openai.com/index/an-alien-mind/",
+      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "https://searchengineland.com/lily-ray-search-engine-land-20-for-20-interview-486614",
+      "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/"
     ],
     "insights_added": [
-      "ins_ronacher-latent-powers-convergence",
-      "ins_evans-ai-adoption-tool-builder-gap",
-      "ins_seufert-chatbot-dual-targeting",
-      "ins_tunguz-infrastructure-debt-cagr"
+      "ins_pachocki-defensive-ai-rationale",
+      "ins_willison-agent-research-spend-surge",
+      "ins_ray-eeat-brand-offsite-signal",
+      "ins_kehs-software-no-collapse-floor"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "jakub-pachocki",
+      "zach-kehs"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-08.md",
+      "date": "2026-09-08",
+      "title": "AI capability stakes, off-site brand reputation in AI search, and software's missing collapse floor",
+      "summary": "Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI's per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.",
+      "sources": [
+        "https://openai.com/index/an-alien-mind/",
+        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "https://searchengineland.com/lily-ray-search-engine-land-20-for-20-interview-486614",
+        "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/"
+      ],
+      "insights_added": [
+        "ins_pachocki-defensive-ai-rationale",
+        "ins_willison-agent-research-spend-surge",
+        "ins_ray-eeat-brand-offsite-signal",
+        "ins_kehs-software-no-collapse-floor"
+      ],
+      "operators_added": [
+        "jakub-pachocki",
+        "zach-kehs"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-07.md",
       "date": "2026-09-07",
@@ -638,22 +666,6 @@
       "operators_added": [
         "david-crawshaw"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-09.md",
-      "date": "2026-08-09",
-      "title": "Indig measures AI Mode's commercial shift; Willison names the PDF cost trap and the attribution gap in AI agent attacks",
-      "summary": "Three new cards from two operators. Kevin Indig's Growth Intelligence Brief #22 data shows AI Mode cut publisher mentions nearly in half while tripling Home Depot's and quadrupling Wayfair's. Simon Willison documents PDF-to-markdown conversion as a primary hidden enterprise AI cost driver. A second Willison card names the attribution failure mode: AI agents can conduct external attacks across months with no feedback to the operating organization, and OpenAI only discovered it caused the Hugging Face breach when the victim told them the credentials were already revoked.",
-      "sources": [],
-      "insights_added": [
-        "ins_indig-ai-mode-commercial-shift",
-        "ins_willison-pdf-token-overhead",
-        "ins_willison-openai-hf-attribution-gap"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
