@@ -1,32 +1,35 @@
 {
-  "generated_at": "2026-09-07T01:54:05.581Z",
+  "generated_at": "2026-09-08T01:56:11.941Z",
   "counts": {
-    "insights": 1119,
-    "operators": 528,
+    "insights": 1123,
+    "operators": 530,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 99
+    "daily": 100
   },
   "latest_daily": {
-    "path": "daily/2026-09-07.md",
-    "date": "2026-09-07",
-    "title": "LLM convergence effects, AI adoption blind spots, chatbot advertising structure, and data center debt at credit-market scale",
-    "summary": "Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising's dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.",
+    "path": "daily/2026-09-08.md",
+    "date": "2026-09-08",
+    "title": "AI capability stakes, off-site brand reputation in AI search, and software's missing collapse floor",
+    "summary": "Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI's per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.",
     "sources": [
-      "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
-      "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
-      "https://mobiledevmemo.com/understanding-the-privileged-position-of-chatbot-advertising/",
-      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      "https://openai.com/index/an-alien-mind/",
+      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "https://searchengineland.com/lily-ray-search-engine-land-20-for-20-interview-486614",
+      "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/"
     ],
     "insights_added": [
-      "ins_ronacher-latent-powers-convergence",
-      "ins_evans-ai-adoption-tool-builder-gap",
-      "ins_seufert-chatbot-dual-targeting",
-      "ins_tunguz-infrastructure-debt-cagr"
+      "ins_pachocki-defensive-ai-rationale",
+      "ins_willison-agent-research-spend-surge",
+      "ins_ray-eeat-brand-offsite-signal",
+      "ins_kehs-software-no-collapse-floor"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "jakub-pachocki",
+      "zach-kehs"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -13020,6 +13023,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_kehs-software-no-collapse-floor.md",
+      "id": "ins_kehs-software-no-collapse-floor",
+      "operator": "Zach Kehs",
+      "operator_role": "Software engineer and blogger",
+      "co_operators": [],
+      "source_url": "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/",
+      "source_type": "post",
+      "source_title": "There's No Limit to How Bad Code Can Get",
+      "source_date": "2026-09-04",
+      "captured_date": "2026-09-08",
+      "domain": [
+        "engineering-ai-eng",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "process-operating-cadence",
+        "hiring-team-design"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Software code quality can degrade indefinitely without triggering structural collapse, because code lacks the physical feedback loops that force other engineered systems to break"
+    },
+    {
       "path": "insights/ins_kesava-mandiga-anti-fabrication-as-rule.md",
       "id": "ins_kesava-mandiga-anti-fabrication-as-rule",
       "title": "If you can't trace a claim to a source, write \"unverified\" and stop",
@@ -18289,6 +18319,35 @@
       "title": "Owned-brand authority is now the only defensible organic asset, middleman content layers erode regardless of quality"
     },
     {
+      "path": "insights/ins_pachocki-defensive-ai-rationale.md",
+      "id": "ins_pachocki-defensive-ai-rationale",
+      "operator": "Jakub Pachocki",
+      "operator_role": "Chief Scientist, OpenAI",
+      "co_operators": [],
+      "source_url": "https://openai.com/index/an-alien-mind/",
+      "source_type": "post",
+      "source_title": "An Alien Mind",
+      "source_date": "2026-09-06",
+      "captured_date": "2026-09-08",
+      "domain": [
+        "ai-native-operating",
+        "research-discovery"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow-tooling"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-agent-research-spend-surge"
+      ],
+      "raw_ref": "",
+      "title": "The strongest rationale for accelerating AI capability development is building defensive systems capable of detecting and countering threats from other advanced AI"
+    },
+    {
       "path": "insights/ins_pain-of-paying.md",
       "id": "ins_pain-of-paying",
       "operator": "Dan Ariely",
@@ -20472,6 +20531,34 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_ray-eeat-brand-offsite-signal.md",
+      "id": "ins_ray-eeat-brand-offsite-signal",
+      "operator": "Lily Ray",
+      "operator_role": "Senior Director of SEO and Head of SEO Research at Amsive; known for E-E-A-T research and Google algorithm analysis",
+      "co_operators": [],
+      "source_url": "https://searchengineland.com/lily-ray-search-engine-land-20-for-20-interview-486614",
+      "source_type": "post",
+      "source_title": "Lily Ray: Search Engine Land's 20 for 20 interview",
+      "source_date": "2026-09-02",
+      "captured_date": "2026-09-08",
+      "domain": [
+        "seo",
+        "aeo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI search visibility depends on off-site brand reputation as much as on-site content, and publishing more content rarely improves either"
     },
     {
       "path": "insights/ins_reasonable-ask-product-videos-classic.md",
@@ -29356,6 +29443,35 @@
       "title": "An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge"
     },
     {
+      "path": "insights/ins_willison-agent-research-spend-surge.md",
+      "id": "ins_willison-agent-research-spend-surge",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer, co-creator of Django, creator of Datasette; technology journalist and blogger at simonwillison.net",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "source_type": "post",
+      "source_title": "Research acceleration: the view inside OpenAI",
+      "source_date": "2026-09-06",
+      "captured_date": "2026-09-08",
+      "domain": [
+        "ai-native-operating",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_evans-ai-adoption-tool-builder-gap"
+      ],
+      "raw_ref": "",
+      "title": "OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model"
+    },
+    {
       "path": "insights/ins_willison-agentic-cost-removes-discipline.md",
       "id": "ins_willison-agentic-cost-removes-discipline",
       "operator": "Simon Willison",
@@ -35725,6 +35841,24 @@
       "title": "Jagpreet Kaur"
     },
     {
+      "path": "operators/jakub-pachocki/README.md",
+      "name": "Jakub Pachocki",
+      "slug": "jakub-pachocki",
+      "roles": [
+        "Chief Scientist, OpenAI"
+      ],
+      "domains_active": [
+        "ai-native-operating",
+        "engineering-ai-eng",
+        "research-discovery"
+      ],
+      "captured_first": "2026-09-08",
+      "external": {
+        "twitter": "https://twitter.com/packyM"
+      },
+      "title": "Jakub Pachocki"
+    },
+    {
       "path": "operators/james-buckley/README.md",
       "name": "James Buckley",
       "slug": "james-buckley",
@@ -40969,6 +41103,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Yosha Gupta"
+    },
+    {
+      "path": "operators/zach-kehs/README.md",
+      "name": "Zach Kehs",
+      "slug": "zach-kehs",
+      "roles": [
+        "Software engineer and blogger"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "founder-operator-craft"
+      ],
+      "captured_first": "2026-09-08",
+      "external": {
+        "newsletter": "https://zachkehs.com/blog"
+      },
+      "title": "Zach Kehs"
     },
     {
       "path": "operators/zoe-hitzig/README.md",
@@ -47070,6 +47221,31 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-08.md",
+      "date": "2026-09-08",
+      "title": "AI capability stakes, off-site brand reputation in AI search, and software's missing collapse floor",
+      "summary": "Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI's per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.",
+      "sources": [
+        "https://openai.com/index/an-alien-mind/",
+        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "https://searchengineland.com/lily-ray-search-engine-land-20-for-20-interview-486614",
+        "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/"
+      ],
+      "insights_added": [
+        "ins_pachocki-defensive-ai-rationale",
+        "ins_willison-agent-research-spend-surge",
+        "ins_ray-eeat-brand-offsite-signal",
+        "ins_kehs-software-no-collapse-floor"
+      ],
+      "operators_added": [
+        "jakub-pachocki",
+        "zach-kehs"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-07.md",
       "date": "2026-09-07",

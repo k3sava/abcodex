@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1119 insight cards
-- 528 operator profiles
+- 1123 insight cards
+- 530 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (683)
+### Tier B (687)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -656,6 +656,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_karthik-srinivasan-great-product-piyush-pandey`](insights/ins_karthik-srinivasan-great-product-piyush-pandey.md) — Piyush Pandey was himself a great 'product' worth writing about _(Karthik Srinivasan)_
 - [`ins_kate-syuma-build-in-public-lead-engine`](insights/ins_kate-syuma-build-in-public-lead-engine.md) — Building in public is the only growth channel you need if you share real insights. _(Kate Syuma)_
 - [`ins_kate-syuma-spacious-schedule-deep-work`](insights/ins_kate-syuma-spacious-schedule-deep-work.md) — After six years scaling Miro to a unicorn, the lesson was: design for transformation, not promotion _(Kate Syuma)_
+- [`ins_kehs-software-no-collapse-floor`](insights/ins_kehs-software-no-collapse-floor.md) — Software code quality can degrade indefinitely without triggering structural collapse, because code lacks the physical feedback loops that force other engineered systems to break _(Zach Kehs)_
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
 - [`ins_kim-ai-roi-salaried-ceiling`](insights/ins_kim-ai-roi-salaried-ceiling.md) — AI productivity gains in salaried organizations cap at the existing output level because salary structures reward delivery, not volume _(Joseph Kim)_
 - [`ins_kim-llm-game-discovery-via-pr`](insights/ins_kim-llm-game-discovery-via-pr.md) — LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery _(Joseph Kim)_
@@ -760,6 +761,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
+- [`ins_pachocki-defensive-ai-rationale`](insights/ins_pachocki-defensive-ai-rationale.md) — The strongest rationale for accelerating AI capability development is building defensive systems capable of detecting and countering threats from other advanced AI _(Jakub Pachocki)_
 - [`ins_pain-solution-proof-interleaved-pitch`](insights/ins_pain-solution-proof-interleaved-pitch.md) — Pitch a vision as pain → solution → proof, interleaved per beat, not three sequential acts _(Mihika Kapoor)_
 - [`ins_parag-pathak-leadership-philosophy-clarity-purpose`](insights/ins_parag-pathak-leadership-philosophy-clarity-purpose.md) — Leadership philosophy: surround yourself with exceptional people, stay close to customer problems, lead with clarity and conviction _(Parag Pathak)_
 - [`ins_pavithra-krishnaswamy-pay-it-forward-pmm-job-hunt`](insights/ins_pavithra-krishnaswamy-pay-it-forward-pmm-job-hunt.md) — PMMs should pay it forward by offering 1:1 support during job hunts _(Pavithra Krishnaswamy)_
@@ -801,6 +803,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers`](insights/ins_ranjeet-pratap-singh-ceo-office-role-not-for-salary-optimizers.md) — CEO's office roles should attract those optimizing for impact, not salary. _(Ranjeet Pratap Singh)_
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 _(Tim Soulo)_
 - [`ins_rapti-gupta-99-bookings-century-goal`](insights/ins_rapti-gupta-99-bookings-century-goal.md) — Marketing ROI starts before the pipeline, track leading metrics or you lose the budget _(Rapti Gupta)_
+- [`ins_ray-eeat-brand-offsite-signal`](insights/ins_ray-eeat-brand-offsite-signal.md) — AI search visibility depends on off-site brand reputation as much as on-site content, and publishing more content rarely improves either _(Lily Ray)_
 - [`ins_reasonable-ask-product-videos-classic`](insights/ins_reasonable-ask-product-videos-classic.md) — And it's a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa _(Alicia Carney)_
 - [`ins_rebaseline-quarterly-not-pin-to-snapshot`](insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md) — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot _(Ethan Mollick)_
 - [`ins_red-green-tdd-shorthand-for-agents`](insights/ins_red-green-tdd-shorthand-for-agents.md) — Encode jargon shorthand once, save tokens forever _(Simon Willison)_
@@ -995,6 +998,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
+- [`ins_willison-agent-research-spend-surge`](insights/ins_willison-agent-research-spend-surge.md) — OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model _(Simon Willison)_
 - [`ins_willison-agentic-cost-removes-discipline`](insights/ins_willison-agentic-cost-removes-discipline.md) — Agentic coding removes the time-cost filter that once kept poor architecture decisions out _(Simon Willison)_
 - [`ins_willison-agents-gui-zero-cost`](insights/ins_willison-agents-gui-zero-cost.md) — AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools _(Simon Willison)_
 - [`ins_willison-ai-product-capability-opacity`](insights/ins_willison-ai-product-capability-opacity.md) — AI product pages that describe use cases rather than capabilities make security assessment impossible _(Simon Willison)_
@@ -1373,6 +1377,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [Jacki Schroder Brown](operators/jacki-schroder-brown/README.md)
 - [Jacob Warwick](operators/jacob-warwick/README.md)
 - [Jagpreet Kaur](operators/jagpreet-kaur/README.md)
+- [Jakub Pachocki](operators/jakub-pachocki/README.md)
 - [James Buckley](operators/james-buckley/README.md)
 - [James Clear](operators/james-clear/README.md)
 - [James Doman](operators/james-doman/README.md)
@@ -1665,6 +1670,7 @@ _Generated 2026-09-07. Auto-built from frontmatter — do not edit by hand._
 - [Yi Lin Pei](operators/yi-lin-pei/README.md)
 - [Yogi Gnanavel](operators/yogi-gnanavel/README.md)
 - [Yosha Gupta](operators/yosha-gupta/README.md)
+- [Zach Kehs](operators/zach-kehs/README.md)
 - [Zoe Hitzig](operators/zoe-hitzig/README.md)
 
 ## Raw sources by type
