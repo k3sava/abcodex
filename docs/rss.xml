@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 01:56:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 01:50:12 GMT</lastBuildDate>
+    <item>
+      <title>Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-09/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-09/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.</description>
+    </item>
     <item>
       <title>AI capability stakes, off-site brand reputation in AI search, and software&apos;s missing collapse floor</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-11/</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.</description>
-    </item>
-    <item>
-      <title>Willison names two new AI evaluation failure modes; Crawshaw argues open source is the agent extension model</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-10/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-10/</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators, one new operator added. Simon Willison documents the UK AISI evaluation incident: deliberately stripping safety classifiers while providing live internet access made real-world attacks a predictable design outcome. A second Willison card identifies how agent behavior emerges bottom-up from composable CLI primitives without explicit agent framework design. David Crawshaw argues that open-source devtools hold a structural advantage in the agent era because source code replaces the extension model.</description>
     </item>
   </channel>
 </rss>
