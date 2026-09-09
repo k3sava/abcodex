@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-08 · 4 insights · 2 operators
+### Latest · 2026-09-09 · 3 insights · 2 operators
 
-**AI capability stakes, off-site brand reputation in AI search, and software's missing collapse floor.** Four new cards across four lanes and two new operators. Jakub Pachocki on the defensive rationale for accelerating capability development. Simon Willison on OpenAI's per-researcher AI spending surge after a model quality step-change. Lily Ray on how AI search weights off-site brand reputation over on-site content volume. Zach Kehs on why software degrades without limit while physical structures do not.
+**Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things.** Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.
 
-[Read what landed →](insight-library/daily/2026-09-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1123** insight cards
+- **1126** insight cards
 - **530** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

@@ -2,36 +2,19 @@
 name: Hamel Husain
 slug: hamel-husain
 roles:
-  - Independent ML consultant
-  - Former ML engineer, GitHub
-  - Former ML engineer, Airbnb
-domains_active: [ai-native, engineering, product]
-captured_first: 2026-05-01
+  - Independent AI engineer and researcher
+  - Co-creator, AI Evals for Engineers and PMs (Maven course, 4500+ students)
+  - Former Staff ML Engineer, GitHub
+domains_active: [engineering, ai-native, prompt-context-and-evals]
+captured_first: 2026-09-09
 external:
-  linkedin: https://linkedin.com/in/hamelhusain
   website: https://hamel.dev/
-  site: https://hamel.dev
+  newsletter: https://hamelhusain.substack.com/
 ---
 
-# Hamel Husain
-
-## Bio
-Hamel Husain. Independent machine-learning consultant. Former engineer at GitHub and Airbnb. Co-teaches the highest-grossing course on Maven (~2,000 PMs and engineers across 500 companies, including OpenAI and Anthropic) on LLM evaluation as a practical discipline. Public reference voice for "evals as error analysis" and the open-coding → axial-coding → LLM-as-judge pipeline.
+Hamel Husain is an independent AI engineer who has spent the better part of a decade teaching and researching how to build reliable LLM applications. He co-created the AI Evals for Engineers and PMs course with Shreya Shankar, which has trained more than 4,500 practitioners from over 500 companies including OpenAI, Anthropic, and Google. His primary research focus is the gap between how teams approach evaluation in theory and what the process actually needs to surface real failure modes. He draws from hands-on work with more than 50 companies to identify recurring mistakes in how AI product teams build and use evals.
 
 ## Operating themes
-- **Evals are data analysis on LLM apps.** Strip the mystique; treat as systematic measurement.
-- **Start with error analysis, not tests.** Sample traces, write notes, then build judges.
-- **Binary judges, validated against humans.** No Likert; always look at confusion matrix off-diagonal.
-- **Application-specific evals over generic.** Cosine similarity and "hallucination score" don't work.
-
-## Cards
-- `ins_evals-are-data-analysis-on-llm-apps`, Treat evals as data analysis; start with error analysis [Tier A]
-- `ins_open-coding-then-axial-coding`, Humans open-code traces; LLMs cluster the notes [Tier A]
-- `ins_llm-as-judge-binary-not-likert`, Binary judges, validated against human labels with a confusion matrix [Tier A]
-- `ins_benevolent-dictator-not-committee`, Appoint one trusted taste arbiter for the rubric [Tier B]
-
-## Sources captured
-- 2026-04-28, Lenny's Podcast (with Shreya Shankar), "Evals as error analysis, the benevolent dictator, LLM judges" (`raw/podcasts/hamel-husain-shreya-shankar--evals-error-analysis--2026-04-28.md`)
-
-## External
-- hamel.dev
+- **Data-first before automation.** Husain argues that teams should build a grounded understanding of their system's actual failure modes, from examining real outputs, before configuring any automated evaluation metric.
+- **Tool design shapes process quality.** He studies how the design of evaluation tools creates biases in how teams measure quality, often anchoring them on generic metrics rather than domain-specific failure criteria.
+- **Error-discovery as skill.** His most recent work treats the process of finding and categorizing failures as a skill to be taught and tooled for, not a preliminary step before the "real" work of building metrics.

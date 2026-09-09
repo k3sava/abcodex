@@ -2,22 +2,19 @@
 name: Thorsten Ball
 slug: thorsten-ball
 roles:
-  - Engineering Lead, Amp at Sourcegraph
-  - Author of Writing an Interpreter in Go and Writing a Compiler in Go
-  - Author of Register Spill newsletter
-domains_active: [engineering, ai-native]
-captured_first: 2026-06-18
+  - Staff Engineer, Sourcegraph Amp
+  - Author, Register Spill newsletter
+  - Author, "Writing an Interpreter in Go" and "Writing a Compiler in Go"
+domains_active: [engineering, ai-native, agentic-coding]
+captured_first: 2026-09-09
 external:
   newsletter: https://registerspill.thorstenball.com/
   website: https://thorstenball.com/
 ---
 
-Thorsten Ball is the engineering lead on Sourcegraph's Amp coding agent and one of the most rigorous writers on the craft of software development. His two books on interpreter and compiler implementation in Go are widely used references for developers who want to understand how programming languages work from the ground up rather than just use them. His Register Spill newsletter covers building software, agentic coding tools, and the engineering philosophy that runs underneath them, writing from direct experience shipping production systems. He approaches software development as a discipline of learning, arguing that the quality of a team's feedback loops determines more of its output than the quality of its planning.
+Thorsten Ball is a staff engineer working on Amp at Sourcegraph, where he has been building and writing about agentic coding tools since the earliest days of practical AI-assisted development. He is the author of two widely read books on interpreter and compiler implementation in Go and writes the Register Spill newsletter, where he publishes weekly observations about software engineering, agentic systems, and the practical shift happening as coding agents move from novelty to infrastructure. His perspective is grounded in building and using agents daily, not in commentary from a distance.
 
 ## Operating themes
-- **Building as learning** Software development is inherently exploratory. The most productive practice is compressing the feedback loop between attempt and reality check.
-- **Agentic coding craft** Ball leads the Amp coding agent at Sourcegraph and writes about what works and fails in practice when building and using coding agents day to day.
-- **Compiler and language internals** His books teach programming language implementation bottom-up, emphasizing understanding over abstraction.
-
-## Cards
-- `ins_ball-software-is-learning`, Minimizing time-to-feedback is the single most valuable practice when building new software [Tier B]
+- **Agentic coding as a discipline shift.** Ball treats the arrival of capable coding agents not as a productivity upgrade but as a fundamental change in what software engineering is, requiring new mental models for delegation, review, and quality standards.
+- **Naive interventionism in expert domains.** He applies Taleb's framework to engineering culture, arguing that professionals in a field systematically overvalue their own intervention within that field even when automation produces better aggregate outcomes.
+- **Code review transformation.** Ball argues that code review practices designed for human-authored code need redesign when the code is agent-generated, shifting emphasis from stylistic quality to architectural and functional risk.
