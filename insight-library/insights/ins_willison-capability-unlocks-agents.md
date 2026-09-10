@@ -18,7 +18,7 @@ related: [ins_tunguz-ai-agent-night-shift, ins_tunguz-ai-productivity-operating-
 raw_ref: ""
 ---
 
-# Model capability crossing a threshold unlocks agentic adoption sharply, not gradually
+# Model capability crossing a threshold triggers agentic adoption sharply, not gradually
 
 ## Claim
 AI researcher spending on coding agents at OpenAI stayed near zero for six months, then jumped from roughly $150 to $600 per researcher per day in about six weeks. Willison traces the inflection point to internal access to a more capable model, not to awareness campaigns or workflow redesign.

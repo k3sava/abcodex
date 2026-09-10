@@ -45,4 +45,4 @@ Tunguz calculates $4 trillion in projected debt against current benchmarks: 286%
 Major hyperscalers have strong balance sheets and could absorb significant AI revenue shortfalls without triggering debt distress. The 55% CAGR assumption may be conservative given current AI adoption rates. Gartner and IDC forecasts published in early 2026 project AI infrastructure spending growing faster than Tunguz's baseline.
 
 ## Cross-references
-- `ins_tunguz-ai-category-winner-premium`: The macro infrastructure dependency makes category-level revenue concentration more strategically significant. Category winners who sustain their premium are also the ones who service the debt load.
+- `ins_tunguz-ai-category-winner-premium`: The macro infrastructure dependency makes category-level revenue concentration more consequential. Category winners who sustain their premium are also the ones who service the debt load.
