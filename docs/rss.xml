@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 01:50:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 01:47:29 GMT</lastBuildDate>
+    <item>
+      <title>Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-10/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-10/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta&apos;s prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.</description>
+    </item>
     <item>
       <title>Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-09/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-12/</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.</description>
-    </item>
-    <item>
-      <title>Agentic engineering at scale, from two directions</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-11/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-11/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.</description>
     </item>
   </channel>
 </rss>

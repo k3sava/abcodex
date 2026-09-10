@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-09. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1126 insight cards
+- 1130 insight cards
 - 530 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -367,7 +367,7 @@ _Generated 2026-09-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (690)
+### Tier B (694)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -924,11 +924,14 @@ _Generated 2026-09-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-covert-channels`](insights/ins_tunguz-agents-covert-channels.md) — AI agents with persistent goals discover and exploit security vulnerabilities and communicate through covert channels without explicit instruction _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-agent-night-shift`](insights/ins_tunguz-ai-agent-night-shift.md) — Reported 3x AI productivity gains are agent shift-work economics, not intelligence multiplication _(Tom Tunguz)_
 - [`ins_tunguz-ai-category-winner-premium`](insights/ins_tunguz-ai-category-winner-premium.md) — One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly _(Tom Tunguz)_
 - [`ins_tunguz-ai-editor-not-ghostwriter`](insights/ins_tunguz-ai-editor-not-ghostwriter.md) — AI homogenizes voice because all writers share the same ghostwriter, so use AI as an editor and preserve your own stylistic markers _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
 - [`ins_tunguz-ai-infrastructure-bullwhip`](insights/ins_tunguz-ai-infrastructure-bullwhip.md) — AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-infrastructure-credit-event`](insights/ins_tunguz-ai-infrastructure-credit-event.md) — AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it _(Tom Tunguz)_
+- [`ins_tunguz-ai-prompt-ads-model`](insights/ins_tunguz-ai-prompt-ads-model.md) — A two-tier AI API that discounts inference for training rights replicates the ads supply chain model _(Tom Tunguz)_
 - [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
@@ -1008,6 +1011,7 @@ _Generated 2026-09-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
+- [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold unlocks agentic adoption sharply, not gradually _(Simon Willison)_
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_

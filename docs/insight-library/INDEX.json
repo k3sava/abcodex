@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-09-09T01:50:09.149Z",
+  "generated_at": "2026-09-10T01:47:25.933Z",
   "counts": {
-    "insights": 1126,
+    "insights": 1130,
     "operators": 530,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 101
+    "daily": 102
   },
   "latest_daily": {
-    "path": "daily/2026-09-09.md",
-    "date": "2026-09-09",
-    "title": "Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things",
-    "summary": "Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.",
+    "path": "daily/2026-09-10.md",
+    "date": "2026-09-10",
+    "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
+    "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
     "sources": [
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-98",
-      "https://hamel.dev/blog/posts/evals-skills/"
+      "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
     ],
     "insights_added": [
-      "ins_zukowski-horror-october-myth",
-      "ins_ball-naive-interventionism-ai-code",
-      "ins_husain-eval-premature-automation"
+      "ins_tunguz-ai-agent-night-shift",
+      "ins_tunguz-ai-prompt-ads-model",
+      "ins_willison-capability-unlocks-agents",
+      "ins_tunguz-ai-infrastructure-credit-event"
     ],
-    "operators_added": [
-      "thorsten-ball",
-      "hamel-husain"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -26863,6 +26862,37 @@
       "title": "AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once"
     },
     {
+      "path": "insights/ins_tunguz-ai-agent-night-shift.md",
+      "id": "ins_tunguz-ai-agent-night-shift",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+      "source_type": "essay",
+      "source_title": "Is the 3x AI Productivity Gain just a Computer that Never Sleeps?",
+      "source_date": "2026-09-08",
+      "captured_date": "2026-09-10",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-productivity-operating-layer"
+      ],
+      "raw_ref": "",
+      "title": "Reported 3x AI productivity gains are agent shift-work economics, not intelligence multiplication"
+    },
+    {
       "path": "insights/ins_tunguz-ai-category-winner-premium.md",
       "id": "ins_tunguz-ai-category-winner-premium",
       "operator": "Tom Tunguz",
@@ -27009,6 +27039,34 @@
       "title": "AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once"
     },
     {
+      "path": "insights/ins_tunguz-ai-infrastructure-credit-event.md",
+      "id": "ins_tunguz-ai-infrastructure-credit-event",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/",
+      "source_type": "essay",
+      "source_title": "Concrete, Silicon, & Leverage",
+      "source_date": "2026-09-04",
+      "captured_date": "2026-09-10",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-category-winner-premium"
+      ],
+      "raw_ref": "",
+      "title": "AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it"
+    },
+    {
       "path": "insights/ins_tunguz-ai-productivity-operating-layer.md",
       "id": "ins_tunguz-ai-productivity-operating-layer",
       "operator": "Tomasz Tunguz",
@@ -27038,6 +27096,36 @@
       ],
       "raw_ref": "",
       "title": "The operating layer, not the model, determines which of three AI productivity tiers a company reaches"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-prompt-ads-model.md",
+      "id": "ins_tunguz-ai-prompt-ads-model",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+      "source_type": "essay",
+      "source_title": "The Ads Model for Prompts Vertically Integrates AI",
+      "source_date": "2026-09-03",
+      "captured_date": "2026-09-10",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-category-winner-premium",
+        "ins_commoditize-the-complement-ai"
+      ],
+      "raw_ref": "",
+      "title": "A two-tier AI API that discounts inference for training rights replicates the ads supply chain model"
     },
     {
       "path": "insights/ins_tunguz-ai-quality-floor-rises.md",
@@ -29767,6 +29855,36 @@
       ],
       "raw_ref": "",
       "title": "Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance"
+    },
+    {
+      "path": "insights/ins_willison-capability-unlocks-agents.md",
+      "id": "ins_willison-capability-unlocks-agents",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "source_type": "essay",
+      "source_title": "Research acceleration: The view inside OpenAI",
+      "source_date": "2026-09-06",
+      "captured_date": "2026-09-10",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-agent-night-shift",
+        "ins_tunguz-ai-productivity-operating-layer"
+      ],
+      "raw_ref": "",
+      "title": "Model capability crossing a threshold unlocks agentic adoption sharply, not gradually"
     },
     {
       "path": "insights/ins_willison-chatgpt-domain-signal-shift.md",
@@ -47305,6 +47423,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-10.md",
+      "date": "2026-09-10",
+      "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
+      "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
+      "sources": [
+        "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+        "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-agent-night-shift",
+        "ins_tunguz-ai-prompt-ads-model",
+        "ins_willison-capability-unlocks-agents",
+        "ins_tunguz-ai-infrastructure-credit-event"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-09.md",
       "date": "2026-09-09",

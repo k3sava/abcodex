@@ -1,29 +1,50 @@
 {
-  "generated_at": "2026-09-09T01:50:09.190Z",
+  "generated_at": "2026-09-10T01:47:25.977Z",
   "latest_daily": {
-    "path": "daily/2026-09-09.md",
-    "date": "2026-09-09",
-    "title": "Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things",
-    "summary": "Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.",
+    "path": "daily/2026-09-10.md",
+    "date": "2026-09-10",
+    "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
+    "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
     "sources": [
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-98",
-      "https://hamel.dev/blog/posts/evals-skills/"
+      "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
     ],
     "insights_added": [
-      "ins_zukowski-horror-october-myth",
-      "ins_ball-naive-interventionism-ai-code",
-      "ins_husain-eval-premature-automation"
+      "ins_tunguz-ai-agent-night-shift",
+      "ins_tunguz-ai-prompt-ads-model",
+      "ins_willison-capability-unlocks-agents",
+      "ins_tunguz-ai-infrastructure-credit-event"
     ],
-    "operators_added": [
-      "thorsten-ball",
-      "hamel-husain"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-10.md",
+      "date": "2026-09-10",
+      "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
+      "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
+      "sources": [
+        "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
+        "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
+        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-agent-night-shift",
+        "ins_tunguz-ai-prompt-ads-model",
+        "ins_willison-capability-unlocks-agents",
+        "ins_tunguz-ai-infrastructure-credit-event"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-09.md",
       "date": "2026-09-09",
@@ -650,27 +671,6 @@
       ],
       "patterns_added": [],
       "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-11.md",
-      "date": "2026-08-11",
-      "title": "Agentic engineering at scale, from two directions",
-      "summary": "Four new cards from Steve Yegge and Harrison Chase on the practical costs of running agents in production at scale.",
-      "sources": [
-        "https://yegge.ai/essays/the-shape-of-things-to-come/",
-        "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
-      ],
-      "insights_added": [
-        "ins_yegge-thunderdome-cicd",
-        "ins_yegge-harness-model-coupling",
-        "ins_yegge-seats-not-sessions",
-        "ins_chase-agent-infra-rebuild-tax"
-      ],
-      "operators_added": [
-        "steve-yegge"
-      ],
-      "patterns_added": [],
       "patterns_updated": []
     }
   ]
