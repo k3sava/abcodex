@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-09 · 3 insights · 2 operators
+### Latest · 2026-09-10 · 4 insights
 
-**Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things.** Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.
+**Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption.** Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.
 
-[Read what landed →](insight-library/daily/2026-09-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-10.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1126** insight cards
+- **1130** insight cards
 - **530** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
