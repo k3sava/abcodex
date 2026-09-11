@@ -1,28 +1,52 @@
 {
-  "generated_at": "2026-09-10T01:47:25.977Z",
+  "generated_at": "2026-09-11T01:53:02.403Z",
   "latest_daily": {
-    "path": "daily/2026-09-10.md",
-    "date": "2026-09-10",
-    "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
-    "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
+    "path": "daily/2026-09-11.md",
+    "date": "2026-09-11",
+    "title": "Coding agents changed mobile platform economics, and October is the wrong month for horror games",
+    "summary": "Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.",
     "sources": [
-      "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
-      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
-      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      "https://shopify.engineering/back-to-native",
+      "https://shopify.engineering/shop-app-migration",
+      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-agent-night-shift",
-      "ins_tunguz-ai-prompt-ads-model",
-      "ins_willison-capability-unlocks-agents",
-      "ins_tunguz-ai-infrastructure-credit-event"
+      "ins_agents-erased-cross-platform-advantage",
+      "ins_shopify-native-migration-coding-agents",
+      "ins_zukowski-horror-october-herding-trap"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mustafa-ali",
+      "jason-kim"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-11.md",
+      "date": "2026-09-11",
+      "title": "Coding agents changed mobile platform economics, and October is the wrong month for horror games",
+      "summary": "Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.",
+      "sources": [
+        "https://shopify.engineering/back-to-native",
+        "https://shopify.engineering/shop-app-migration",
+        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      ],
+      "insights_added": [
+        "ins_agents-erased-cross-platform-advantage",
+        "ins_shopify-native-migration-coding-agents",
+        "ins_zukowski-horror-october-herding-trap"
+      ],
+      "operators_added": [
+        "mustafa-ali",
+        "jason-kim"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-10.md",
       "date": "2026-09-10",
@@ -645,30 +669,6 @@
         "ins_husain-model-cascade-routing"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-12.md",
-      "date": "2026-08-12",
-      "title": "AI valuations, community signals, and festival genre fit",
-      "summary": "Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.",
-      "sources": [
-        "https://tomtunguz.com/a-winner-in-every-category/",
-        "https://tomtunguz.com/ai-harness-arr-multiples/",
-        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
-        "https://howtomarketagame.com/2026/08/11/the-state-of-virtual-3rd-party-festivals-2026/"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-category-winner-premium",
-        "ins_tunguz-ai-harness-nine-month-arr",
-        "ins_indig-ugc-citation-dominance",
-        "ins_zukowski-festival-genre-over-count"
-      ],
-      "operators_added": [
-        "tom-tunguz"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
