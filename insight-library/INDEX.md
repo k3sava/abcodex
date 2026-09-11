@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1130 insight cards
-- 530 operator profiles
+- 1133 insight cards
+- 534 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -367,7 +367,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (694)
+### Tier B (697)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -389,6 +389,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agent-washing-as-buyer-confusion-surface`](insights/ins_agent-washing-as-buyer-confusion-surface.md) — Agent-washing is the buyer-confusion surface PMM should attack _(Gartner)_
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
 - [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
+- [`ins_agents-erased-cross-platform-advantage`](insights/ins_agents-erased-cross-platform-advantage.md) — Coding agents erased the cost advantage of cross-platform mobile frameworks _(Mustafa Ali)_
 - [`ins_ai-adoption-asymmetric-information-gap`](insights/ins_ai-adoption-asymmetric-information-gap.md) — AI adoption creates an asymmetric information problem where wins are public and costs are private, requiring deliberate feedback loop design _(Charity Majors)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
@@ -863,6 +864,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shipper-token-spend-parity-break`](insights/ins_shipper-token-spend-parity-break.md) — Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder _(Dan Shipper)_
 - [`ins_shivangi-gautam-word-salad-critique`](insights/ins_shivangi-gautam-word-salad-critique.md) — LinkedIn thought leadership is often word salad with no real point. _(Shivangi Gautam)_
 - [`ins_shleyner-conciseness-as-respect`](insights/ins_shleyner-conciseness-as-respect.md) — Conciseness is respect, every unnecessary word signals that you value your message more than the reader's time _(Eddie Shleyner)_
+- [`ins_shopify-native-migration-coding-agents`](insights/ins_shopify-native-migration-coding-agents.md) — One engineer with coding agents proved a native mobile migration feasible in one week _(Jason Kim)_
 - [`ins_shruti-vashi-pmm-must-balance-strategy-and-execution`](insights/ins_shruti-vashi-pmm-must-balance-strategy-and-execution.md) — PMM must balance strategy and execution, not choose one. _(Shruti Vashi)_
 - [`ins_shubham-shrivastava-ghost-hiring-and-unfair-pay`](insights/ins_shubham-shrivastava-ghost-hiring-and-unfair-pay.md) — Companies preach inclusion and mental health while ghosting candidates and offering salaries that can't cover rent. _(SHUBHAM SHRIVASTAVA)_
 - [`ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills`](insights/ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills.md) — Podcast transcripts can be turned into reusable AI agent skills for practical work. _(Sid Bharath)_
@@ -1011,7 +1013,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
-- [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold unlocks agentic adoption sharply, not gradually _(Simon Willison)_
+- [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold triggers agentic adoption sharply, not gradually _(Simon Willison)_
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
@@ -1055,6 +1057,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
+- [`ins_zukowski-horror-october-herding-trap`](insights/ins_zukowski-horror-october-herding-trap.md) — October is the worst month for serious horror game revenue, not the best _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-myth`](insights/ins_zukowski-horror-october-myth.md) — October is the third-worst revenue month for indie horror games because Steam algorithm amplification is diluted by a 60 percent surge in competing horror releases _(Chris Zukowski)_
 - [`ins_zukowski-idea-beats-playbook`](insights/ins_zukowski-idea-beats-playbook.md) — A game's core idea is the primary driver of marketing outcomes; identical playbooks diverge based on idea quality _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_
@@ -1394,6 +1397,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [Jason B. Hart](operators/jason-b-hart/README.md)
 - [Jason Cohen](operators/jason-cohen/README.md)
 - [Jason Fried](operators/jason-fried/README.md)
+- [Jason Kim](operators/jason-kim/README.md)
 - [Jason Lemkin](operators/jason-lemkin/README.md)
 - [Jason Liu](operators/jason-liu/README.md)
 - [Jason Oakley](operators/jason-oakley/README.md)
@@ -1486,6 +1490,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [Matt Gray](operators/matt-gray/README.md)
 - [Matt Shumer](operators/matt-shumer/README.md)
 - [Matt Webb](operators/matt-webb/README.md)
+- [Max Da Silva](operators/max-da-silva/README.md)
 - [Max Schoening](operators/max-schoening/README.md)
 - [Mayuresh Patole](operators/mayuresh-patole/README.md)
 - [Megha Sharma](operators/megha-sharma/README.md)
@@ -1502,6 +1507,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [Momoko Price](operators/momoko-price/README.md)
 - [Morgan Housel](operators/morgan-housel/README.md)
 - [Mridula Joshi](operators/mridula-joshi/README.md)
+- [Mustafa Ali](operators/mustafa-ali/README.md)
 - [Nafees Mohammed](operators/nafees-mohammed/README.md)
 - [Nagarjun Reddy](operators/nagarjun-reddy/README.md)
 - [Nalin Senthamil](operators/nalin-senthamil/README.md)
@@ -1544,6 +1550,7 @@ _Generated 2026-09-10. Auto-built from frontmatter — do not edit by hand._
 - [Prithivi Rajan](operators/prithivi-rajan/README.md)
 - [Puja Kumar](operators/puja-kumar/README.md)
 - [Qasar Younis](operators/qasar-younis/README.md)
+- [Quique Fagoaga](operators/quique-fagoaga/README.md)
 - [Rabi Shanker Guha](operators/rabi-shanker-guha/README.md)
 - [Rachel Peng](operators/rachel-peng/README.md)
 - [Raghavendra Mutt](operators/raghavendra-mutt/README.md)

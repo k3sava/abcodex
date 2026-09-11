@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 01:47:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 01:53:06 GMT</lastBuildDate>
+    <item>
+      <title>Coding agents changed mobile platform economics, and October is the wrong month for horror games</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-11/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-11/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski&apos;s September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.</description>
+    </item>
     <item>
       <title>Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-10/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-13/</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.</description>
-    </item>
-    <item>
-      <title>AI valuations, community signals, and festival genre fit</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-12/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-12/</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards across three operators. Tom Tunguz on how the AI era prices category position over growth rate, Kevin Indig on UGC as the dominant but underinvested AI citation source, and Chris Zukowski on why festival genre fit predicts indie game ROI better than festival count.</description>
     </item>
   </channel>
 </rss>

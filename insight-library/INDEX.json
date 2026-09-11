@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-09-10T01:47:25.933Z",
+  "generated_at": "2026-09-11T01:53:02.310Z",
   "counts": {
-    "insights": 1130,
-    "operators": 530,
+    "insights": 1133,
+    "operators": 534,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 102
+    "daily": 103
   },
   "latest_daily": {
-    "path": "daily/2026-09-10.md",
-    "date": "2026-09-10",
-    "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
-    "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
+    "path": "daily/2026-09-11.md",
+    "date": "2026-09-11",
+    "title": "Coding agents changed mobile platform economics, and October is the wrong month for horror games",
+    "summary": "Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.",
     "sources": [
-      "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
-      "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
-      "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
+      "https://shopify.engineering/back-to-native",
+      "https://shopify.engineering/shop-app-migration",
+      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-agent-night-shift",
-      "ins_tunguz-ai-prompt-ads-model",
-      "ins_willison-capability-unlocks-agents",
-      "ins_tunguz-ai-infrastructure-credit-event"
+      "ins_agents-erased-cross-platform-advantage",
+      "ins_shopify-native-migration-coding-agents",
+      "ins_zukowski-horror-october-herding-trap"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mustafa-ali",
+      "jason-kim"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -975,6 +976,36 @@
       ],
       "raw_ref": "",
       "title": "At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems"
+    },
+    {
+      "path": "insights/ins_agents-erased-cross-platform-advantage.md",
+      "id": "ins_agents-erased-cross-platform-advantage",
+      "operator": "Mustafa Ali",
+      "operator_role": "Mobile engineer, Shopify",
+      "co_operators": [],
+      "source_url": "https://shopify.engineering/back-to-native",
+      "source_type": "essay",
+      "source_title": "Native is now the future of mobile at Shopify",
+      "source_date": "2026-09-10",
+      "captured_date": "2026-09-11",
+      "domain": [
+        "engineering-ai-eng",
+        "ios-app-craft",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shopify-native-migration-coding-agents"
+      ],
+      "raw_ref": "",
+      "title": "Coding agents erased the cost advantage of cross-platform mobile frameworks"
     },
     {
       "path": "insights/ins_ai-adoption-asymmetric-information-gap.md",
@@ -23323,6 +23354,39 @@
       "title": "Writing while emotional is a deliberate strategy, not unprofessional, the writer's emotional investment transfers to the reader"
     },
     {
+      "path": "insights/ins_shopify-native-migration-coding-agents.md",
+      "id": "ins_shopify-native-migration-coding-agents",
+      "operator": "Jason Kim",
+      "operator_role": "Mobile engineer, Shopify",
+      "co_operators": [
+        "Quique Fagoaga",
+        "Max Da Silva"
+      ],
+      "source_url": "https://shopify.engineering/shop-app-migration",
+      "source_type": "essay",
+      "source_title": "Migrating Shop app from React Native to native",
+      "source_date": "2026-09-10",
+      "captured_date": "2026-09-11",
+      "domain": [
+        "engineering-ai-eng",
+        "ios-app-craft",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_agents-erased-cross-platform-advantage"
+      ],
+      "raw_ref": "",
+      "title": "One engineer with coding agents proved a native mobile migration feasible in one week"
+    },
+    {
       "path": "insights/ins_short-form-stuff-facebook-instagram.md",
       "id": "ins_short-form-stuff-facebook-instagram",
       "operator": "Josue Valles",
@@ -29884,7 +29948,7 @@
         "ins_tunguz-ai-productivity-operating-layer"
       ],
       "raw_ref": "",
-      "title": "Model capability crossing a threshold unlocks agentic adoption sharply, not gradually"
+      "title": "Model capability crossing a threshold triggers agentic adoption sharply, not gradually"
     },
     {
       "path": "insights/ins_willison-chatgpt-domain-signal-shift.md",
@@ -31537,6 +31601,36 @@
       ],
       "raw_ref": "",
       "title": "Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle"
+    },
+    {
+      "path": "insights/ins_zukowski-horror-october-herding-trap.md",
+      "id": "ins_zukowski-horror-october-herding-trap",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/",
+      "source_type": "essay",
+      "source_title": "You probably shouldn't launch a horror game in October",
+      "source_date": "2026-09-08",
+      "captured_date": "2026-09-11",
+      "domain": [
+        "game-growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-festival-genre-over-count",
+        "ins_zukowski-steam-slop-temporal-filter"
+      ],
+      "raw_ref": "",
+      "title": "October is the worst month for serious horror game revenue, not the best"
     },
     {
       "path": "insights/ins_zukowski-horror-october-myth.md",
@@ -36227,6 +36321,24 @@
       "title": "Jason Fried"
     },
     {
+      "path": "operators/jason-kim/README.md",
+      "name": "Jason Kim",
+      "slug": "jason-kim",
+      "roles": [
+        "Mobile engineer, Shopify"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "ios-app-craft",
+        "ai-native"
+      ],
+      "captured_first": "2026-09-11",
+      "external": {
+        "newsletter": "https://shopify.engineering"
+      },
+      "title": "Jason Kim"
+    },
+    {
       "path": "operators/jason-lemkin/README.md",
       "name": "Jason Lemkin",
       "slug": "jason-lemkin",
@@ -37919,6 +38031,23 @@
       "title": "Matt Webb"
     },
     {
+      "path": "operators/max-da-silva/README.md",
+      "name": "Max Da Silva",
+      "slug": "max-da-silva",
+      "roles": [
+        "Mobile engineer, Shopify"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "ios-app-craft"
+      ],
+      "captured_first": "2026-09-11",
+      "external": {
+        "newsletter": "https://shopify.engineering"
+      },
+      "title": "Max Da Silva"
+    },
+    {
       "path": "operators/max-schoening/README.md",
       "slug": "max-schoening",
       "name": "Max Schoening",
@@ -38195,6 +38324,24 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Mridula Joshi"
+    },
+    {
+      "path": "operators/mustafa-ali/README.md",
+      "name": "Mustafa Ali",
+      "slug": "mustafa-ali",
+      "roles": [
+        "Mobile engineer, Shopify"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "ios-app-craft",
+        "ai-native"
+      ],
+      "captured_first": "2026-09-11",
+      "external": {
+        "newsletter": "https://shopify.engineering"
+      },
+      "title": "Mustafa Ali"
     },
     {
       "path": "operators/nafees-mohammed/README.md",
@@ -38955,6 +39102,23 @@
         "website": "https://www.appliedintuition.com/"
       },
       "title": "Qasar Younis"
+    },
+    {
+      "path": "operators/quique-fagoaga/README.md",
+      "name": "Quique Fagoaga",
+      "slug": "quique-fagoaga",
+      "roles": [
+        "Mobile engineer, Shopify"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "ios-app-craft"
+      ],
+      "captured_first": "2026-09-11",
+      "external": {
+        "newsletter": "https://shopify.engineering"
+      },
+      "title": "Quique Fagoaga"
     },
     {
       "path": "operators/rabi-shanker-guha/README.md",
@@ -47423,6 +47587,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-11.md",
+      "date": "2026-09-11",
+      "title": "Coding agents changed mobile platform economics, and October is the wrong month for horror games",
+      "summary": "Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.",
+      "sources": [
+        "https://shopify.engineering/back-to-native",
+        "https://shopify.engineering/shop-app-migration",
+        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      ],
+      "insights_added": [
+        "ins_agents-erased-cross-platform-advantage",
+        "ins_shopify-native-migration-coding-agents",
+        "ins_zukowski-horror-october-herding-trap"
+      ],
+      "operators_added": [
+        "mustafa-ali",
+        "jason-kim"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-10.md",
       "date": "2026-09-10",
