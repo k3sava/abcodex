@@ -47,4 +47,4 @@ Quantified results: iOS startup time fell 23%. Android startup time fell 50%. Se
 The case study assumes a capable existing React Native implementation as the agent's reference. Teams migrating from a poorly-architected codebase or one with significant custom native modules may not achieve the same translation fidelity. The six-engineer core team still required platform expertise to review and extend agent output.
 
 ## Cross-references
-- ins_agents-erased-cross-platform-advantage: the strategic reasoning behind why Shopify made this decision, with the mechanism for why coding agents change the cross-platform cost calculus.
+- ins_agents-erased-cross-platform-advantage: the first-principles reasoning behind why Shopify made this decision, with the mechanism for why coding agents change the cross-platform cost calculus.
