@@ -28,7 +28,7 @@ Wave one is chat. One active user consumes roughly one million tokens per day. B
 
 Wave two is single agents. Each agent consumes 100 to 200 million tokens daily. Codex alone accounted for 64% of combined enterprise token usage. On OpenRouter, agent token consumption grew from 0.51 trillion to 7.3 trillion tokens in six months. Human token consumption grew 2.8x in the same period.
 
-Wave three is meta-harnesses: one orchestrating agent dispatching many parallel sub-agents. Analyzing 200 YCombinator startups across 30 data columns runs costs tens of millions of tokens per run.
+Wave three is meta-harnesses: one top-level agent dispatching many parallel sub-agents. Analyzing 200 YCombinator startups across 30 data columns runs costs tens of millions of tokens per run.
 
 The core mechanism is that parallelization multiplies consumption at every layer. A meta-harness does not just process one task faster; it processes many tasks at once, each at wave-two scale. Goldman Sachs projects consumer and enterprise agents will consume 120 quadrillion tokens monthly by 2030, 24 times the 2026 level.
 
