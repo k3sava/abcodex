@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-09-11T01:53:02.403Z",
+  "generated_at": "2026-09-12T01:58:16.330Z",
   "latest_daily": {
-    "path": "daily/2026-09-11.md",
-    "date": "2026-09-11",
-    "title": "Coding agents changed mobile platform economics, and October is the wrong month for horror games",
-    "summary": "Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.",
+    "path": "daily/2026-09-12.md",
+    "date": "2026-09-12",
+    "title": "Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams",
+    "summary": "Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.",
     "sources": [
-      "https://shopify.engineering/back-to-native",
-      "https://shopify.engineering/shop-app-migration",
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      "https://tomtunguz.com/three-waves-of-ai-consumption/",
+      "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "https://www.growth-memo.com/p/the-ai-hours-nobody-on-your-marketing"
     ],
     "insights_added": [
-      "ins_agents-erased-cross-platform-advantage",
-      "ins_shopify-native-migration-coding-agents",
-      "ins_zukowski-horror-october-herding-trap"
+      "ins_tunguz-three-waves-ai-consumption",
+      "ins_willison-blender-headless-agent-loop",
+      "ins_indig-ai-hours-invisible-marketing"
     ],
-    "operators_added": [
-      "mustafa-ali",
-      "jason-kim"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-12.md",
+      "date": "2026-09-12",
+      "title": "Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams",
+      "summary": "Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.",
+      "sources": [
+        "https://tomtunguz.com/three-waves-of-ai-consumption/",
+        "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+        "https://www.growth-memo.com/p/the-ai-hours-nobody-on-your-marketing"
+      ],
+      "insights_added": [
+        "ins_tunguz-three-waves-ai-consumption",
+        "ins_willison-blender-headless-agent-loop",
+        "ins_indig-ai-hours-invisible-marketing"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-11.md",
       "date": "2026-09-11",
@@ -650,25 +667,6 @@
         "mark-williams-cook",
         "sophie-alpert"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-13.md",
-      "date": "2026-08-13",
-      "title": "AI category repricing and the retrieval-first engineering sequence",
-      "summary": "Three new cards from two operators. Kevin Indig on reading synchronized AI visibility declines as structural category repricing. Hamel Husain on two techniques from his AI product engineering framework: an optimization sequence that starts with retrieval, and a model cascade routing pattern that cuts inference cost without sacrificing accuracy.",
-      "sources": [
-        "https://www.growth-memo.com/p/growth-intelligence-brief-22",
-        "https://hamel.dev/notes/llm/ai-product-engineering/index.html"
-      ],
-      "insights_added": [
-        "ins_indig-category-decline-ai-repricing",
-        "ins_husain-retrieval-first-hierarchy",
-        "ins_husain-model-cascade-routing"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

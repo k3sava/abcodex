@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1133 insights · 534 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 353 tier-A claims.
+Counts: 1136 insights · 534 operators · 45 synthesis patterns · 11 contradictions · 28 playbooks · 354 tier-A claims.
 
 ## Index
 
@@ -26,8 +26,8 @@ Counts: 1133 insights · 534 operators · 45 synthesis patterns · 11 contradict
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 467 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 347 insights
+- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 468 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 349 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 175 insights
 - [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 174 insights
 - [engineering](https://abcodex.iamkesava.com/d/engineering/) — 173 insights
@@ -36,8 +36,8 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [product](https://abcodex.iamkesava.com/d/product/) — 111 insights
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 111 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 104 insights
-- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 84 insights
-- [growth](https://abcodex.iamkesava.com/d/growth/) — 66 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 85 insights
+- [growth](https://abcodex.iamkesava.com/d/growth/) — 67 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
 - [seo](https://abcodex.iamkesava.com/d/seo/) — 44 insights
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 42 insights
@@ -48,7 +48,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 29 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 21 insights
 - [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 21 insights
-- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 18 insights
+- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 19 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
 - [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 12 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
@@ -57,10 +57,10 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 9 insights
 - [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
 - [game-growth](https://abcodex.iamkesava.com/d/game-growth/) — 7 insights
+- [engineering-ai-eng](https://abcodex.iamkesava.com/d/engineering-ai-eng/) — 6 insights
 - [ai-gtm](https://abcodex.iamkesava.com/d/ai-gtm/) — 5 insights
 - [ai-ops](https://abcodex.iamkesava.com/d/ai-ops/) — 5 insights
 - [strategy-bets](https://abcodex.iamkesava.com/d/strategy-bets/) — 5 insights
-- [engineering-ai-eng](https://abcodex.iamkesava.com/d/engineering-ai-eng/) — 4 insights
 - [ai-engineering](https://abcodex.iamkesava.com/d/ai-engineering/) — 4 insights
 - [ai-product](https://abcodex.iamkesava.com/d/ai-product/) — 4 insights
 - [ai-tools](https://abcodex.iamkesava.com/d/ai-tools/) — 3 insights
@@ -149,4 +149,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-09-11.
+Last updated: 2026-09-12.

@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-11 · 3 insights · 2 operators
+### Latest · 2026-09-12 · 3 insights
 
-**Coding agents changed mobile platform economics, and October is the wrong month for horror games.** Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski's September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.
+**Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams.** Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.
 
-[Read what landed →](insight-library/daily/2026-09-11.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1133** insight cards
+- **1136** insight cards
 - **534** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
