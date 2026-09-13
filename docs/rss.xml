@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 02:00:19 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 01:55:07 GMT</lastBuildDate>
+    <item>
+      <title>Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-13/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-13/</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards across two operators. Armin Ronacher&apos;s September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher&apos;s September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.</description>
+    </item>
     <item>
       <title>Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-12/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-15/</guid>
       <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5&apos;s system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.</description>
-    </item>
-    <item>
-      <title>Human-agent trust failures, evidence-free GEO tactics, and the meaning cost of AI rewrites</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-14/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-14/</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from four operators. Simon Willison on confirmation fatigue making human approval gates less safe than automated classifiers. Dex Horthy on visual artifacts reducing cognitive load in agent explanations. Mark Williams-Cook on llms.txt evidence that applies equally to a fictional file about office cats. Sophie Alpert on why every LLM rewrite changes author meaning.</description>
     </item>
   </channel>
 </rss>

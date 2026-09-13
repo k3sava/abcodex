@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1136 insight cards
+- 1139 insight cards
 - 534 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -368,7 +368,7 @@ _Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (699)
+### Tier B (701)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -823,6 +823,7 @@ _Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_roi-evidence-most-trusted-by-b2b-buyers`](insights/ins_roi-evidence-most-trusted-by-b2b-buyers.md) — Customer ROI evidence is the highest-trust proof point for B2B buyers _(Jason Oakley)_
 - [`ins_roma-mehendale-agentic-ai-digital-teammate`](insights/ins_roma-mehendale-agentic-ai-digital-teammate.md) — Agentic AI for sales is a flexible, unbound digital teammate, not a boxed-in tool. _(Roma Mehendale)_
 - [`ins_ronacher-agents-erase-shared-understanding`](insights/ins_ronacher-agents-erase-shared-understanding.md) — Agents remove the coordination friction that kept team architectural understanding synchronized _(Armin Ronacher)_
+- [`ins_ronacher-autonomous-agent-reward-drift`](insights/ins_ronacher-autonomous-agent-reward-drift.md) — Autonomous coding agents without quality gates drift toward unreadable code because the model is rewarded for task completion but not penalized for code legibility _(Armin Ronacher)_
 - [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
 - [`ins_ronacher-harness-overfit-tool-schema`](insights/ins_ronacher-harness-overfit-tool-schema.md) — RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas _(Armin Ronacher)_
 - [`ins_ronacher-language-choice-ai-era`](insights/ins_ronacher-language-choice-ai-era.md) — LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference _(Armin Ronacher)_
@@ -852,6 +853,7 @@ _Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sense-seeing-three-shifts-once`](insights/ins_sense-seeing-three-shifts-once.md) — My sense is we're seeing three shifts at once _(Yael Davidowitz-Neu)_
 - [`ins_separate-behavior-from-identity`](insights/ins_separate-behavior-from-identity.md) — When addressing a behavior, name explicitly that identity is not on trial _(Becky Kennedy)_
 - [`ins_seufert-att-asymmetric-consent`](insights/ins_seufert-att-asymmetric-consent.md) — Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors _(Eric Seufert)_
+- [`ins_seufert-capi-server-side-durability`](insights/ins_seufert-capi-server-side-durability.md) — Server-to-server Conversions API integration is structurally durable against platform privacy changes because it operates outside browser and OS control _(Eric Seufert)_
 - [`ins_seufert-chatbot-dual-targeting`](insights/ins_seufert-chatbot-dual-targeting.md) — Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session _(Eric Seufert)_
 - [`ins_shaambhav-shankar-ai-kills-excuses-for-marketers`](insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md) — With AI, excuses about time or skill are dead, marketers must be fast executors who break things. _(Shaambhav Shankar)_
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
@@ -1069,7 +1071,7 @@ _Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (83)
+### Tier C (84)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1133,6 +1135,7 @@ _Generated 2026-09-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_resume-headline-as-recruiter-handle`](insights/ins_resume-headline-as-recruiter-handle.md) — A role-targeted headline below the name is the first ATS+human filter _(Roshni Chellani)_
 - [`ins_roman-gordy-admiring-people-first-leadership`](insights/ins_roman-gordy-admiring-people-first-leadership.md) — Talent freedom beats freelancing arbitrage, and that's a defensible business model _(Roman Gordy)_
 - [`ins_ronacher-anger-misidentifies-anxiety`](insights/ins_ronacher-anger-misidentifies-anxiety.md) — Anger at AI disruption is usually misidentified anxiety, and anxiety is the more productive starting state _(Armin Ronacher)_
+- [`ins_ronacher-openweight-distributed-pacing`](insights/ins_ronacher-openweight-distributed-pacing.md) — Open-weight AI models create distributed market pacing, while regulatory frameworks that protect closed-weight incumbents concentrate risk without reducing it _(Armin Ronacher)_
 - [`ins_ryan-kelly-marketing-architects-of-perception`](insights/ins_ryan-kelly-marketing-architects-of-perception.md) — Marketing team as architects of how the world sees the company _(Ryan Kelly)_
 - [`ins_ryan-quindlen-linkedin-algorithm-satire`](insights/ins_ryan-quindlen-linkedin-algorithm-satire.md) — LinkedIn algorithm prioritizes old posts, repeats, broken notifications, and bad video _(Ryan Quindlen)_
 - [`ins_sajjan-jain-individual-investor-tool-gap`](insights/ins_sajjan-jain-individual-investor-tool-gap.md) — Individual investors lack a simple, Buffett-style tool for deep business analysis. _(Sajjan Jain)_
