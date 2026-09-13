@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-12T02:00:17.569Z",
+  "generated_at": "2026-09-13T01:55:04.763Z",
   "counts": {
-    "insights": 1136,
+    "insights": 1139,
     "operators": 534,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 104
+    "daily": 105
   },
   "latest_daily": {
-    "path": "daily/2026-09-12.md",
-    "date": "2026-09-12",
-    "title": "Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams",
-    "summary": "Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.",
+    "path": "daily/2026-09-13.md",
+    "date": "2026-09-13",
+    "title": "Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition",
+    "summary": "Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.",
     "sources": [
-      "https://tomtunguz.com/three-waves-of-ai-consumption/",
-      "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "https://www.growth-memo.com/p/the-ai-hours-nobody-on-your-marketing"
+      "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "https://mobiledevmemo.com/the-capi-revolution/",
+      "https://lucumr.pocoo.org/2026/9/12/pdoom/"
     ],
     "insights_added": [
-      "ins_tunguz-three-waves-ai-consumption",
-      "ins_willison-blender-headless-agent-loop",
-      "ins_indig-ai-hours-invisible-marketing"
+      "ins_ronacher-autonomous-agent-reward-drift",
+      "ins_seufert-capi-server-side-durability",
+      "ins_ronacher-openweight-distributed-pacing"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21558,6 +21558,36 @@
       "title": "Anger at AI disruption is usually misidentified anxiety, and anxiety is the more productive starting state"
     },
     {
+      "path": "insights/ins_ronacher-autonomous-agent-reward-drift.md",
+      "id": "ins_ronacher-autonomous-agent-reward-drift",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; independent software engineer and technical writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "source_type": "essay",
+      "source_title": "Astra for Coding: Why Are We Doing This Again?",
+      "source_date": "2026-09-07",
+      "captured_date": "2026-09-13",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_ronacher-latent-powers-convergence",
+        "ins_willison-reliability-erodes-review-discipline"
+      ],
+      "raw_ref": "",
+      "title": "Autonomous coding agents without quality gates drift toward unreadable code because the model is rewarded for task completion but not penalized for code legibility"
+    },
+    {
       "path": "insights/ins_ronacher-harness-loop-comprehension-cost.md",
       "id": "ins_ronacher-harness-loop-comprehension-cost",
       "operator": "Armin Ronacher",
@@ -21671,6 +21701,35 @@
       ],
       "raw_ref": "",
       "title": "LLMs nudge independent builders toward the same solutions by eliciting identical latent capabilities from shared models"
+    },
+    {
+      "path": "insights/ins_ronacher-openweight-distributed-pacing.md",
+      "id": "ins_ronacher-openweight-distributed-pacing",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; independent software engineer and technical writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "source_type": "essay",
+      "source_title": "P(doom)",
+      "source_date": "2026-09-12",
+      "captured_date": "2026-09-13",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 2, evidence: 2, transferability: 3, source: 4 }",
+      "tier": "C",
+      "related": [
+        "ins_ronacher-latent-powers-convergence",
+        "ins_ronacher-safety-framing-access-restriction"
+      ],
+      "raw_ref": "",
+      "title": "Open-weight AI models create distributed market pacing, while regulatory frameworks that protect closed-weight incumbents concentrate risk without reducing it"
     },
     {
       "path": "insights/ins_ronacher-reasoning-traces-as-text.md",
@@ -22754,6 +22813,35 @@
       "related": [],
       "raw_ref": "",
       "title": "Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors"
+    },
+    {
+      "path": "insights/ins_seufert-capi-server-side-durability.md",
+      "id": "ins_seufert-capi-server-side-durability",
+      "operator": "Eric Seufert",
+      "operator_role": "Founder, Mobile Dev Memo; mobile advertising analyst and investor",
+      "co_operators": [],
+      "source_url": "https://mobiledevmemo.com/the-capi-revolution/",
+      "source_type": "essay",
+      "source_title": "The CAPI revolution",
+      "source_date": "2026-09-09",
+      "captured_date": "2026-09-13",
+      "domain": [
+        "growth-demand",
+        "performance-marketing"
+      ],
+      "lifecycle": [
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_seufert-att-asymmetric-consent",
+        "ins_seufert-chatbot-dual-targeting"
+      ],
+      "raw_ref": "",
+      "title": "Server-to-server Conversions API integration is structurally durable against platform privacy changes because it operates outside browser and OS control"
     },
     {
       "path": "insights/ins_seufert-chatbot-dual-targeting.md",
@@ -47675,6 +47763,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-13.md",
+      "date": "2026-09-13",
+      "title": "Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition",
+      "summary": "Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.",
+      "sources": [
+        "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "https://mobiledevmemo.com/the-capi-revolution/",
+        "https://lucumr.pocoo.org/2026/9/12/pdoom/"
+      ],
+      "insights_added": [
+        "ins_ronacher-autonomous-agent-reward-drift",
+        "ins_seufert-capi-server-side-durability",
+        "ins_ronacher-openweight-distributed-pacing"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-12.md",
       "date": "2026-09-12",
