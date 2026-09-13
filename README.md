@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-12 · 3 insights
+### Latest · 2026-09-13 · 3 insights
 
-**Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams.** Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.
+**Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition.** Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.
 
-[Read what landed →](insight-library/daily/2026-09-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1136** insight cards
+- **1139** insight cards
 - **534** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
