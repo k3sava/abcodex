@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Sep 2026 01:55:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 01:55:01 GMT</lastBuildDate>
+    <item>
+      <title>AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-14/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-14/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison&apos;s September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski&apos;s September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.</description>
+    </item>
     <item>
       <title>Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-13/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-16/</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.</description>
-    </item>
-    <item>
-      <title>Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-15/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-15/</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5&apos;s system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.</description>
     </item>
   </channel>
 </rss>

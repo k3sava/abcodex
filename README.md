@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-13 · 3 insights
+### Latest · 2026-09-14 · 4 insights
 
-**Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition.** Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.
+**AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing.** Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.
 
-[Read what landed →](insight-library/daily/2026-09-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1139** insight cards
+- **1143** insight cards
 - **534** operator profiles
 - **45** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
