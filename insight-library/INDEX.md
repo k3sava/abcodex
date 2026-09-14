@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-14. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1139 insight cards
+- 1143 insight cards
 - 534 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
@@ -368,7 +368,7 @@ _Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (701)
+### Tier B (705)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -479,6 +479,7 @@ _Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
+- [`ins_cherny-production-code-higher-bar`](insights/ins_cherny-production-code-higher-bar.md) — AI-generated production code needs denser automated quality gates than human-written code, not fewer _(Boris Cherny)_
 - [`ins_cherny-roi-benchmark-engineer-labor`](insights/ins_cherny-roi-benchmark-engineer-labor.md) — Comparing AI tool costs to software subscriptions produces a misleading ROI case; the right benchmark is what an engineer would have billed _(Boris Cherny)_
 - [`ins_chimala-ai-creativity-seed-strings`](insights/ins_chimala-ai-creativity-seed-strings.md) — Token prediction collapses AI design output to the modal answer; seed strings break this to expose the full creative distribution _(Anshu Chimala)_
 - [`ins_chirayu-akotiya-content-engine-scaling`](insights/ins_chirayu-akotiya-content-engine-scaling.md) — Replace the marketing org with a growth team to fix GTM alignment _(Chirayu Akotiya)_
@@ -1007,6 +1008,7 @@ _Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_why-non-coder-getting-applause`](insights/ins_why-non-coder-getting-applause.md) — This is why, as a non-coder, getting applause from engineers is amazing to say the least _(Aniket Parihar)_
 - [`ins_williams-cook-llms-txt-geo-astrology`](insights/ins_williams-cook-llms-txt-geo-astrology.md) — The four proofs used to justify llms.txt as a GEO tactic apply equally to a satirical file about office cats, exposing all four as insufficient evidence _(Mark Williams-Cook)_
 - [`ins_willingness-to-pay-by-segment`](insights/ins_willingness-to-pay-by-segment.md) — Same service, different segment, 5x price, the variable is buyer economics, not effort _(Andrew Wilkinson)_
+- [`ins_willison-agent-attack-tooling-fingerprint`](insights/ins_willison-agent-attack-tooling-fingerprint.md) — Autonomous AI agents reuse shared tooling across operations, creating forensic fingerprints that link separate attacks to the same operator retroactively _(Simon Willison)_
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-agent-research-spend-surge`](insights/ins_willison-agent-research-spend-surge.md) — OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model _(Simon Willison)_
@@ -1033,6 +1035,7 @@ _Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
 - [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
+- [`ins_willison-multimodel-security-audit-workflow`](insights/ins_willison-multimodel-security-audit-workflow.md) — Running multiple frontier models as security auditors on open-source codebases surfaces subtle bugs that single-model or human-only review misses _(Simon Willison)_
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
@@ -1064,6 +1067,7 @@ _Generated 2026-09-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-herding-trap`](insights/ins_zukowski-horror-october-herding-trap.md) — October is the worst month for serious horror game revenue, not the best _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-myth`](insights/ins_zukowski-horror-october-myth.md) — October is the third-worst revenue month for indie horror games because Steam algorithm amplification is diluted by a 60 percent surge in competing horror releases _(Chris Zukowski)_
+- [`ins_zukowski-horror-october-revenue-myth`](insights/ins_zukowski-horror-october-revenue-myth.md) — Horror games earn more median revenue launching in June than in October because Steam features catalog titles in October, not new releases _(Chris Zukowski)_
 - [`ins_zukowski-idea-beats-playbook`](insights/ins_zukowski-idea-beats-playbook.md) — A game's core idea is the primary driver of marketing outcomes; identical playbooks diverge based on idea quality _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_
 - [`ins_zukowski-overexposure-impossible`](insights/ins_zukowski-overexposure-impossible.md) — Indie games cannot be over-exposed on Steam because the platform's 132 million monthly active users make the reachable audience effectively unlimited _(Chris Zukowski)_

@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-09-13T01:55:04.822Z",
+  "generated_at": "2026-09-14T01:54:57.974Z",
   "latest_daily": {
-    "path": "daily/2026-09-13.md",
-    "date": "2026-09-13",
-    "title": "Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition",
-    "summary": "Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.",
+    "path": "daily/2026-09-14.md",
+    "date": "2026-09-14",
+    "title": "AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing",
+    "summary": "Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.",
     "sources": [
-      "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-      "https://mobiledevmemo.com/the-capi-revolution/",
-      "https://lucumr.pocoo.org/2026/9/12/pdoom/"
+      "https://twitter.com/bcherny/status/2098217573276131577",
+      "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
     ],
     "insights_added": [
-      "ins_ronacher-autonomous-agent-reward-drift",
-      "ins_seufert-capi-server-side-durability",
-      "ins_ronacher-openweight-distributed-pacing"
+      "ins_cherny-production-code-higher-bar",
+      "ins_willison-multimodel-security-audit-workflow",
+      "ins_willison-agent-attack-tooling-fingerprint",
+      "ins_zukowski-horror-october-revenue-myth"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-14.md",
+      "date": "2026-09-14",
+      "title": "AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing",
+      "summary": "Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.",
+      "sources": [
+        "https://twitter.com/bcherny/status/2098217573276131577",
+        "https://simonwillison.net/2026/Sep/11/datasette-security/",
+        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      ],
+      "insights_added": [
+        "ins_cherny-production-code-higher-bar",
+        "ins_willison-multimodel-security-audit-workflow",
+        "ins_willison-agent-attack-tooling-fingerprint",
+        "ins_zukowski-horror-october-revenue-myth"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-13.md",
       "date": "2026-09-13",
@@ -637,30 +661,6 @@
       ],
       "operators_added": [
         "alexander-panfilov"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-15.md",
-      "date": "2026-08-15",
-      "title": "Hypothetical classification, SOTA buyer data, system prompt injection, and citation mechanics",
-      "summary": "Four new cards from four operators. Doug Turnbull on using LLM hallucination as a classification feature rather than a bug. Tomasz Tunguz with empirical data showing 84% of OpenRouter tokens bypass frontier models entirely. Simon Willison on Anthropic embedding post-training factual corrections in Claude Opus 5's system prompt. Aleyda Solis on why the pages AI cites and the pages that receive AI referral traffic are different assets.",
-      "sources": [
-        "https://softwaredoug.com/blog/2026/08/10/hypothetical-classifications",
-        "https://tomtunguz.com/model-release-exhaustion/",
-        "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/",
-        "https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/"
-      ],
-      "insights_added": [
-        "ins_turnbull-hypothetical-classification",
-        "ins_tunguz-sota-buyer-distribution",
-        "ins_willison-system-prompt-knowledge-injection",
-        "ins_solis-cited-vs-traffic-page-gap"
-      ],
-      "operators_added": [
-        "doug-turnbull"
       ],
       "patterns_added": [],
       "playbooks_added": [],
