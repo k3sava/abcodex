@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 01:55:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 01:53:10 GMT</lastBuildDate>
+    <item>
+      <title>AI training priority leaks, automation as work-sorter, and what AI detectors actually measure</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-15/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-15/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram&apos;s AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.</description>
+    </item>
     <item>
       <title>AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-14/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-17/</guid>
       <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
       <description>Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball&apos;s team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.</description>
-    </item>
-    <item>
-      <title>Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-16/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-16/</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.</description>
     </item>
   </channel>
 </rss>

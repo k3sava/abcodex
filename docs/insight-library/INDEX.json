@@ -1,30 +1,28 @@
 {
-  "generated_at": "2026-09-14T01:54:57.944Z",
+  "generated_at": "2026-09-15T01:53:06.180Z",
   "counts": {
-    "insights": 1143,
+    "insights": 1146,
     "operators": 534,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 106
+    "daily": 107
   },
   "latest_daily": {
-    "path": "daily/2026-09-14.md",
-    "date": "2026-09-14",
-    "title": "AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing",
-    "summary": "Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.",
+    "path": "daily/2026-09-15.md",
+    "date": "2026-09-15",
+    "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
+    "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
     "sources": [
-      "https://twitter.com/bcherny/status/2098217573276131577",
-      "https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
+      "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
     ],
     "insights_added": [
-      "ins_cherny-production-code-higher-bar",
-      "ins_willison-multimodel-security-audit-workflow",
-      "ins_willison-agent-attack-tooling-fingerprint",
-      "ins_zukowski-horror-october-revenue-myth"
+      "ins_willison-ai-training-research-priority-risk",
+      "ins_indig-ai-automation-sorts-not-deletes",
+      "ins_ronacher-ai-detector-structure-bias"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -11154,6 +11152,37 @@
       "title": "Aggregators hold 76% of Google's SEO visibility but only 38% of ChatGPT's citation pool, requiring separate authority-building strategies for each surface"
     },
     {
+      "path": "insights/ins_indig-ai-automation-sorts-not-deletes.md",
+      "id": "ins_indig-ai-automation-sorts-not-deletes",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; author of Growth Memo",
+      "co_operators": [
+        "Amanda Johnson"
+      ],
+      "source_url": "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
+      "source_type": "essay",
+      "source_title": "Are you doing marketing or building software?",
+      "source_date": "2026-09-14",
+      "captured_date": "2026-09-15",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ai-hours-invisible-marketing"
+      ],
+      "raw_ref": "",
+      "title": "AI automation redistributes where marketing effort goes rather than reducing total effort"
+    },
+    {
       "path": "insights/ins_indig-ai-hours-invisible-marketing.md",
       "id": "ins_indig-ai-hours-invisible-marketing",
       "operator": "Kevin Indig",
@@ -21560,6 +21589,34 @@
       "title": "Agents remove the coordination friction that kept team architectural understanding synchronized"
     },
     {
+      "path": "insights/ins_ronacher-ai-detector-structure-bias.md",
+      "id": "ins_ronacher-ai-detector-structure-bias",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
+      "source_type": "essay",
+      "source_title": "Interpreting Pangram",
+      "source_date": "2026-09-14",
+      "captured_date": "2026-09-15",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-reasoning-traces-as-text"
+      ],
+      "raw_ref": "",
+      "title": "AI detectors score LLM structural artifacts that persist through human editing, not the human-authored words themselves"
+    },
+    {
       "path": "insights/ins_ronacher-anger-misidentifies-anxiety.md",
       "id": "ins_ronacher-anger-misidentifies-anxiety",
       "operator": "Armin Ronacher",
@@ -30005,6 +30062,34 @@
       ],
       "raw_ref": "",
       "title": "An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark"
+    },
+    {
+      "path": "insights/ins_willison-ai-training-research-priority-risk.md",
+      "id": "ins_willison-ai-training-research-priority-risk",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; prolific open-source developer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "source_type": "essay",
+      "source_title": "On Navier-Stokes",
+      "source_date": "2026-09-08",
+      "captured_date": "2026-09-15",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-openai-hf-attribution-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI training pipelines can turn partial public research into a competitive priority leak"
     },
     {
       "path": "insights/ins_willison-aisi-classifier-strip.md",
@@ -47883,6 +47968,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-15.md",
+      "date": "2026-09-15",
+      "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
+      "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+        "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
+        "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
+      ],
+      "insights_added": [
+        "ins_willison-ai-training-research-priority-risk",
+        "ins_indig-ai-automation-sorts-not-deletes",
+        "ins_ronacher-ai-detector-structure-bias"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-14.md",
       "date": "2026-09-14",
