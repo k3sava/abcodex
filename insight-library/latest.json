@@ -1,21 +1,19 @@
 {
-  "generated_at": "2026-09-14T01:54:57.974Z",
+  "generated_at": "2026-09-15T01:53:06.249Z",
   "latest_daily": {
-    "path": "daily/2026-09-14.md",
-    "date": "2026-09-14",
-    "title": "AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing",
-    "summary": "Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.",
+    "path": "daily/2026-09-15.md",
+    "date": "2026-09-15",
+    "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
+    "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
     "sources": [
-      "https://twitter.com/bcherny/status/2098217573276131577",
-      "https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+      "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
+      "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
     ],
     "insights_added": [
-      "ins_cherny-production-code-higher-bar",
-      "ins_willison-multimodel-security-audit-workflow",
-      "ins_willison-agent-attack-tooling-fingerprint",
-      "ins_zukowski-horror-october-revenue-myth"
+      "ins_willison-ai-training-research-priority-risk",
+      "ins_indig-ai-automation-sorts-not-deletes",
+      "ins_ronacher-ai-detector-structure-bias"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-15.md",
+      "date": "2026-09-15",
+      "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
+      "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+        "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
+        "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
+      ],
+      "insights_added": [
+        "ins_willison-ai-training-research-priority-risk",
+        "ins_indig-ai-automation-sorts-not-deletes",
+        "ins_ronacher-ai-detector-structure-bias"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-14.md",
       "date": "2026-09-14",
@@ -639,28 +657,6 @@
       ],
       "operators_added": [
         "anthony-blatner"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-16.md",
-      "date": "2026-08-16",
-      "title": "Community citation floors, category-leader multiples, and a reasoning-trace theft that hit all three major APIs",
-      "summary": "Three new cards from three operators. Kevin Indig on why UGC platforms hold a stable AI citation share across every buying stage. Tom Tunguz on why category leaders trade at 3.9x to 8.1x revenue multiples while median SaaS stagnates. Alexander Panfilov et al. on a cross-model attack that extracted encrypted LLM reasoning traces at all three frontier providers before responsible disclosure and patching.",
-      "sources": [
-        "https://www.growth-memo.com/p/community-signals-are-ais-largest",
-        "https://www.tomtunguz.com/a-winner-in-every-category/",
-        "https://arxiv.org/abs/2608.09867"
-      ],
-      "insights_added": [
-        "ins_indig-ugc-community-ai-citations",
-        "ins_tunguz-category-leaders-agent-infrastructure",
-        "ins_panfilov-reasoning-trace-cross-model"
-      ],
-      "operators_added": [
-        "alexander-panfilov"
       ],
       "patterns_added": [],
       "playbooks_added": [],
