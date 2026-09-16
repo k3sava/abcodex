@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2026 01:53:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 01:56:19 GMT</lastBuildDate>
+    <item>
+      <title>AI code quality floors, agent accountability gaps, and channel structure durability</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-16/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-16/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn&apos;t exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.</description>
+    </item>
     <item>
       <title>AI training priority leaks, automation as work-sorter, and what AI detectors actually measure</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-15/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-18/</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.</description>
-    </item>
-    <item>
-      <title>Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-17/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-17/</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball&apos;s team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.</description>
     </item>
   </channel>
 </rss>
