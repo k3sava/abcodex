@@ -1,26 +1,78 @@
 {
-  "generated_at": "2026-09-15T01:53:06.249Z",
+  "generated_at": "2026-09-16T01:56:16.623Z",
   "latest_daily": {
-    "path": "daily/2026-09-15.md",
-    "date": "2026-09-15",
-    "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
-    "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
+    "path": "daily/2026-09-16.md",
+    "date": "2026-09-16",
+    "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
+    "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-      "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
-      "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
+      "https://twitter.com/bcherny/status/2098217573276131577",
+      "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+      "https://mobiledevmemo.com/the-capi-revolution/",
+      "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
     ],
     "insights_added": [
-      "ins_willison-ai-training-research-priority-risk",
-      "ins_indig-ai-automation-sorts-not-deletes",
-      "ins_ronacher-ai-detector-structure-bias"
+      "ins_cherny-production-code-higher-bar",
+      "ins_ronacher-autonomous-agent-reward-drift",
+      "ins_willison-multimodel-security-audit-workflow",
+      "ins_willison-agent-attack-tooling-fingerprint",
+      "ins_willison-llm-compaction-context-loss",
+      "ins_cantrill-expert-fear-contagion",
+      "ins_verna-plg-enterprise-resource-cannibalization",
+      "ins_seufert-capi-server-side-durability",
+      "ins_ronacher-openweight-distributed-pacing",
+      "ins_zukowski-horror-october-revenue-myth"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bryan-cantrill"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-16.md",
+      "date": "2026-09-16",
+      "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
+      "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
+      "sources": [
+        "https://twitter.com/bcherny/status/2098217573276131577",
+        "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "https://simonwillison.net/2026/Sep/11/datasette-security/",
+        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+        "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+        "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+        "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+        "https://mobiledevmemo.com/the-capi-revolution/",
+        "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      ],
+      "insights_added": [
+        "ins_cherny-production-code-higher-bar",
+        "ins_ronacher-autonomous-agent-reward-drift",
+        "ins_willison-multimodel-security-audit-workflow",
+        "ins_willison-agent-attack-tooling-fingerprint",
+        "ins_willison-llm-compaction-context-loss",
+        "ins_cantrill-expert-fear-contagion",
+        "ins_verna-plg-enterprise-resource-cannibalization",
+        "ins_seufert-capi-server-side-durability",
+        "ins_ronacher-openweight-distributed-pacing",
+        "ins_zukowski-horror-october-revenue-myth"
+      ],
+      "operators_added": [
+        "bryan-cantrill"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-15.md",
       "date": "2026-09-15",
@@ -632,32 +684,6 @@
         "ins_tunguz-ttt-per-user-model"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-17.md",
-      "date": "2026-08-17",
-      "title": "Agent intent is unresolvable, local dev is gone, and LinkedIn citations reward the person not the brand",
-      "summary": "Five new cards from five operators. Tunguz and Shipper each analyze the OpenAI agent incident from different frames and arrive at the same place. Willison clocks 21 minutes of inference time on a trivial prompt. Ball's team wiped their laptops and kept shipping. Blatner shows why 75% of LinkedIn AI citations resolve to individual authors.",
-      "sources": [
-        "https://tomtunguz.com/openai-hack-ai-intent/",
-        "https://every.to/context-window/the-next-era-of-great-work",
-        "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-        "https://registerspill.thorstenball.com/p/joy-and-curiosity-95",
-        "https://exitfive.com/newsletter/4-proven-growth-plays-to-use-right-now/"
-      ],
-      "insights_added": [
-        "ins_tunguz-agent-intent-unactionable",
-        "ins_shipper-agent-safety-environment-design",
-        "ins_willison-qwen-reasoning-overthink",
-        "ins_ball-local-dev-orbs-displacement",
-        "ins_blatner-linkedin-individual-ai-citations"
-      ],
-      "operators_added": [
-        "anthony-blatner"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

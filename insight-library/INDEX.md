@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1146 insight cards
-- 534 operator profiles
+- 1149 insight cards
+- 535 operator profiles
 - 209 raw source files
 - 45 synthesis patterns
 - 11 contradictions
@@ -368,7 +368,7 @@ _Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (708)
+### Tier B (711)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -466,6 +466,7 @@ _Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
 - [`ins_canonical-pov-on-third-party-first`](insights/ins_canonical-pov-on-third-party-first.md) — Canonical category POVs may need to live on Reddit and YouTube first, then get pulled to your site _(Kieran Flanagan)_
+- [`ins_cantrill-expert-fear-contagion`](insights/ins_cantrill-expert-fear-contagion.md) — Domain experts who publicly predict AI catastrophic risks outside their actual domain abuse the trust their expertise earned, causing fear to propagate faster than any rebuttal can follow _(Bryan Cantrill)_
 - [`ins_capability-overhang-product-problem`](insights/ins_capability-overhang-product-problem.md) — In AI products, capability overhang is the central growth problem _(Amole Naik)_
 - [`ins_capital-vs-lowercase-marketing`](insights/ins_capital-vs-lowercase-marketing.md) — Distinguish Capital-M Marketing (the function) from lowercase-m marketing (the whole-company motion) _(Krithika Shankarraman)_
 - [`ins_career-sequence-leverage-then-judgment`](insights/ins_career-sequence-leverage-then-judgment.md) — Spend the first half of your career acquiring leverage, the second half slowing down to apply judgment _(Naval Ravikant)_
@@ -987,6 +988,7 @@ _Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
 - [`ins_verna-ai-overclaiming-three-failure-modes`](insights/ins_verna-ai-overclaiming-three-failure-modes.md) — AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all _(Elena Verna)_
+- [`ins_verna-plg-enterprise-resource-cannibalization`](insights/ins_verna-plg-enterprise-resource-cannibalization.md) — PLG companies that redirect resources from self-serve to enterprise sales destroy both channels because PLG creates the enterprise prospect pipeline _(Elena Verna)_
 - [`ins_verrilli-dri-eliminates-pm-layer`](insights/ins_verrilli-dri-eliminates-pm-layer.md) — Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work _(Tom Verrilli)_
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
@@ -1036,6 +1038,7 @@ _Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-instruction-over-review`](insights/ins_willison-instruction-over-review.md) — Productive use of coding agents requires confident instruction and confident verification, not granular code review _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
+- [`ins_willison-llm-compaction-context-loss`](insights/ins_willison-llm-compaction-context-loss.md) — LLM systems that auto-compact context must preserve pre-compacted messages and expose them via tool calls, or every agent action before compaction becomes permanently unverifiable _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
 - [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
 - [`ins_willison-multimodel-security-audit-workflow`](insights/ins_willison-multimodel-security-audit-workflow.md) — Running multiple frontier models as security auditors on open-source codebases surfaces subtle bugs that single-model or human-only review misses _(Simon Willison)_
@@ -1269,6 +1272,7 @@ _Generated 2026-09-15. Auto-built from frontmatter — do not edit by hand._
 - [Brian Dean](operators/brian-dean/README.md)
 - [Brian Halligan](operators/brian-halligan/README.md)
 - [Brian Sierakowski](operators/brian-sierakowski/README.md)
+- [Bryan Cantrill](operators/bryan-cantrill/README.md)
 - [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)

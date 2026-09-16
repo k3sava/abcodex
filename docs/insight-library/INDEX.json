@@ -1,30 +1,46 @@
 {
-  "generated_at": "2026-09-15T01:53:06.180Z",
+  "generated_at": "2026-09-16T01:56:16.598Z",
   "counts": {
-    "insights": 1146,
-    "operators": 534,
+    "insights": 1149,
+    "operators": 535,
     "raw_sources": 209,
     "patterns": 45,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 107
+    "daily": 108
   },
   "latest_daily": {
-    "path": "daily/2026-09-15.md",
-    "date": "2026-09-15",
-    "title": "AI training priority leaks, automation as work-sorter, and what AI detectors actually measure",
-    "summary": "Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram's AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.",
+    "path": "daily/2026-09-16.md",
+    "date": "2026-09-16",
+    "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
+    "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
-      "https://www.growth-memo.com/p/are-you-doing-marketing-or-building",
-      "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
+      "https://twitter.com/bcherny/status/2098217573276131577",
+      "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+      "https://simonwillison.net/2026/Sep/11/datasette-security/",
+      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+      "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+      "https://mobiledevmemo.com/the-capi-revolution/",
+      "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
     ],
     "insights_added": [
-      "ins_willison-ai-training-research-priority-risk",
-      "ins_indig-ai-automation-sorts-not-deletes",
-      "ins_ronacher-ai-detector-structure-bias"
+      "ins_cherny-production-code-higher-bar",
+      "ins_ronacher-autonomous-agent-reward-drift",
+      "ins_willison-multimodel-security-audit-workflow",
+      "ins_willison-agent-attack-tooling-fingerprint",
+      "ins_willison-llm-compaction-context-loss",
+      "ins_cantrill-expert-fear-contagion",
+      "ins_verna-plg-enterprise-resource-cannibalization",
+      "ins_seufert-capi-server-side-durability",
+      "ins_ronacher-openweight-distributed-pacing",
+      "ins_zukowski-horror-october-revenue-myth"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bryan-cantrill"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4181,6 +4197,34 @@
       "related": [],
       "raw_ref": "",
       "title": "Canonical category POVs may need to live on Reddit and YouTube first, then get pulled to your site"
+    },
+    {
+      "path": "insights/ins_cantrill-expert-fear-contagion.md",
+      "id": "ins_cantrill-expert-fear-contagion",
+      "operator": "Bryan Cantrill",
+      "operator_role": "Co-founder and CTO, Oxide Computer Company",
+      "co_operators": [],
+      "source_url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "source_type": "essay",
+      "source_title": "The contagion of fear",
+      "source_date": "2026-09-13",
+      "captured_date": "2026-09-16",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-openweight-distributed-pacing"
+      ],
+      "raw_ref": "",
+      "title": "Domain experts who publicly predict AI catastrophic risks outside their actual domain abuse the trust their expertise earned, causing fear to propagate faster than any rebuttal can follow"
     },
     {
       "path": "insights/ins_capability-overhang-product-problem.md",
@@ -28959,6 +29003,35 @@
       "title": "AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all"
     },
     {
+      "path": "insights/ins_verna-plg-enterprise-resource-cannibalization.md",
+      "id": "ins_verna-plg-enterprise-resource-cannibalization",
+      "operator": "Elena Verna",
+      "operator_role": "Growth Advisor; former SVP Growth at SurveyMonkey, Miro, Amplitude, and Netlify",
+      "co_operators": [],
+      "source_url": "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+      "source_type": "essay",
+      "source_title": "Congrats, your sales problems in PLG are completely unoriginal",
+      "source_date": "2026-09-11",
+      "captured_date": "2026-09-16",
+      "domain": [
+        "gtm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_verna-agency-not-agents"
+      ],
+      "raw_ref": "",
+      "title": "PLG companies that redirect resources from self-serve to enterprise sales destroy both channels because PLG creates the enterprise prospect pipeline"
+    },
+    {
       "path": "insights/ins_verrilli-dri-eliminates-pm-layer.md",
       "id": "ins_verrilli-dri-eliminates-pm-layer",
       "operator": "Tom Verrilli",
@@ -30695,6 +30768,36 @@
       ],
       "raw_ref": "",
       "title": "Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically"
+    },
+    {
+      "path": "insights/ins_willison-llm-compaction-context-loss.md",
+      "id": "ins_willison-llm-compaction-context-loss",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; programmer and writer on AI and open-source software",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "source_type": "post",
+      "source_title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "source_date": "2026-09-12",
+      "captured_date": "2026-09-16",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-multimodel-security-audit-workflow",
+        "ins_willison-agent-attack-tooling-fingerprint"
+      ],
+      "raw_ref": "",
+      "title": "LLM systems that auto-compact context must preserve pre-compacted messages and expose them via tool calls, or every agent action before compaction becomes permanently unverifiable"
     },
     {
       "path": "insights/ins_willison-llm-relay-market.md",
@@ -34099,6 +34202,20 @@
         "linkedin": "https://www.linkedin.com/in/briansierakowski/"
       },
       "title": "Brian Sierakowski"
+    },
+    {
+      "path": "operators/bryan-cantrill/README.md",
+      "slug": "bryan-cantrill",
+      "name": "Bryan Cantrill",
+      "role": "Co-founder and CTO, Oxide Computer Company",
+      "domains": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "twitter": "bcantrill",
+      "blog": "https://bcantrill.dtrace.org",
+      "title": "Bryan Cantrill"
     },
     {
       "path": "operators/casey-hill/README.md",
@@ -47968,6 +48085,42 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-16.md",
+      "date": "2026-09-16",
+      "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
+      "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
+      "sources": [
+        "https://twitter.com/bcherny/status/2098217573276131577",
+        "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+        "https://simonwillison.net/2026/Sep/11/datasette-security/",
+        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+        "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+        "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+        "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
+        "https://mobiledevmemo.com/the-capi-revolution/",
+        "https://lucumr.pocoo.org/2026/9/12/pdoom/",
+        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      ],
+      "insights_added": [
+        "ins_cherny-production-code-higher-bar",
+        "ins_ronacher-autonomous-agent-reward-drift",
+        "ins_willison-multimodel-security-audit-workflow",
+        "ins_willison-agent-attack-tooling-fingerprint",
+        "ins_willison-llm-compaction-context-loss",
+        "ins_cantrill-expert-fear-contagion",
+        "ins_verna-plg-enterprise-resource-cannibalization",
+        "ins_seufert-capi-server-side-durability",
+        "ins_ronacher-openweight-distributed-pacing",
+        "ins_zukowski-horror-october-revenue-myth"
+      ],
+      "operators_added": [
+        "bryan-cantrill"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-15.md",
       "date": "2026-09-15",
