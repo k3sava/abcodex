@@ -21,7 +21,7 @@ raw_ref: ""
 # PLG companies that redirect resources from self-serve to enterprise sales destroy both channels because PLG creates the enterprise prospect pipeline
 
 ## Claim
-When PLG companies deprioritize self-serve growth to pursue enterprise revenue, they cut the production function that generates their enterprise prospects. Enterprise teams then operate on a shrinking inbound base, both channels weaken simultaneously, and the move that was supposed to unlock revenue instead accelerates decline in both.
+When PLG companies deprioritize self-serve growth to pursue enterprise revenue, they cut the production function that generates their enterprise prospects. Enterprise teams then operate on a shrinking inbound base, both channels weaken simultaneously, and the move that was supposed to grow revenue instead accelerates decline in both.
 
 ## Mechanism
 In a PLG motion, individual users adopt the product independently, develop genuine expertise, and become internal champions who drive enterprise procurement. The enterprise channel depends on this pipeline. When a company shifts engineering, marketing, and customer success resources from self-serve to enterprise sales, it starves the activation loop that creates product-educated, internally-trusted champions. Enterprise teams then face prospects who are less familiar with the product and less enthusiastic about it, requiring more sales effort per deal while conversion rates fall.
