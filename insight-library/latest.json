@@ -1,42 +1,60 @@
 {
-  "generated_at": "2026-09-16T01:56:16.623Z",
+  "generated_at": "2026-09-17T01:56:12.422Z",
   "latest_daily": {
-    "path": "daily/2026-09-16.md",
-    "date": "2026-09-16",
-    "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
-    "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
+    "path": "daily/2026-09-17.md",
+    "date": "2026-09-17",
+    "title": "Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI's CEO",
+    "summary": "Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.",
     "sources": [
-      "https://twitter.com/bcherny/status/2098217573276131577",
-      "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-      "https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
-      "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
-      "https://mobiledevmemo.com/the-capi-revolution/",
-      "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-      "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
+      "https://seldo.com/posts/we-are-all-product-engineers-now/",
+      "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+      "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"
     ],
     "insights_added": [
-      "ins_cherny-production-code-higher-bar",
-      "ins_ronacher-autonomous-agent-reward-drift",
-      "ins_willison-multimodel-security-audit-workflow",
-      "ins_willison-agent-attack-tooling-fingerprint",
-      "ins_willison-llm-compaction-context-loss",
-      "ins_cantrill-expert-fear-contagion",
-      "ins_verna-plg-enterprise-resource-cannibalization",
-      "ins_seufert-capi-server-side-durability",
-      "ins_ronacher-openweight-distributed-pacing",
-      "ins_zukowski-horror-october-revenue-myth"
+      "ins_voss-code-collapse-product-discovery-shift",
+      "ins_voss-junior-pipeline-broken",
+      "ins_suleyman-model-welfare-training-loop",
+      "ins_ford-ai-code-quality-filter"
     ],
     "operators_added": [
-      "bryan-cantrill"
+      "laurie-voss",
+      "mustafa-suleyman",
+      "paul-ford"
     ],
-    "patterns_added": [],
+    "patterns_added": [
+      "pat_ai-code-shifts-quality-bottleneck"
+    ],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-17.md",
+      "date": "2026-09-17",
+      "title": "Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI's CEO",
+      "summary": "Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.",
+      "sources": [
+        "https://seldo.com/posts/we-are-all-product-engineers-now/",
+        "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
+        "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"
+      ],
+      "insights_added": [
+        "ins_voss-code-collapse-product-discovery-shift",
+        "ins_voss-junior-pipeline-broken",
+        "ins_suleyman-model-welfare-training-loop",
+        "ins_ford-ai-code-quality-filter"
+      ],
+      "operators_added": [
+        "laurie-voss",
+        "mustafa-suleyman",
+        "paul-ford"
+      ],
+      "patterns_added": [
+        "pat_ai-code-shifts-quality-bottleneck"
+      ],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-16.md",
       "date": "2026-09-16",
@@ -660,28 +678,6 @@
         "ins_tunguz-local-model-reasoning-path",
         "ins_fishkin-website-as-ai-source-accuracy",
         "ins_zukowski-amplify-not-mix-genres"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-18.md",
-      "date": "2026-08-18",
-      "title": "Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math",
-      "summary": "Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.",
-      "sources": [
-        "https://tomtunguz.com/ai-ghost-writing/",
-        "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging/",
-        "https://www.aleydasolis.com/en/ai-search/ai-search-citations/",
-        "https://www.tomtunguz.com/test-time-training-impact/"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-editor-not-ghostwriter",
-        "ins_willison-publish-before-satisfied",
-        "ins_solis-ai-citations-external-majority",
-        "ins_tunguz-ttt-per-user-model"
       ],
       "operators_added": [],
       "patterns_added": [],
