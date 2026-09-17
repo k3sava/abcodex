@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Sep 2026 01:56:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 01:56:14 GMT</lastBuildDate>
+    <item>
+      <title>Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI&apos;s CEO</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-17/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-17/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.</description>
+    </item>
     <item>
       <title>AI code quality floors, agent accountability gaps, and channel structure durability</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-16/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-19/</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.</description>
-    </item>
-    <item>
-      <title>Readers test authenticity, third-party sources supply 80% of AI citations, and test-time training changes the per-user model math</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-18/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-18/</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from three operators. Tunguz argues AI cannot ghostwrite because it homogenizes voice; Willison argues writers should publish before they are satisfied. Solis shows that external domains supply over 80% of AI citations across three verticals. Tunguz returns with the test-time training trade-off: per-user model variants only justify their compute cost when personalization earnings exceed it.</description>
     </item>
   </channel>
 </rss>

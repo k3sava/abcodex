@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-16 · 10 insights · 1 operator
+### Latest · 2026-09-17 · 4 insights · 3 operators · 1 pattern
 
-**AI code quality floors, agent accountability gaps, and channel structure durability.** Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.
+**Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI's CEO.** Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.
 
-[Read what landed →](insight-library/daily/2026-09-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,9 +15,9 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1149** insight cards
-- **535** operator profiles
-- **45** synthesis patterns (cross-operator convergences)
+- **1153** insight cards
+- **538** operator profiles
+- **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
 - **209** archived raw sources (podcasts, essays, threads, research)
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 535 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 538 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

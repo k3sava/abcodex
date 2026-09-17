@@ -1,12 +1,12 @@
 # Codex Index
 
-_Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1149 insight cards
-- 535 operator profiles
+- 1153 insight cards
+- 538 operator profiles
 - 209 raw source files
-- 45 synthesis patterns
+- 46 synthesis patterns
 - 11 contradictions
 - 28 playbooks
 
@@ -368,7 +368,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (711)
+### Tier B (714)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -899,6 +899,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
 - [`ins_suddenly-everyone-know-panicking-wondering`](insights/ins_suddenly-everyone-know-panicking-wondering.md) — Suddenly everyone I know is panicking, wondering if their job disappears tomorrow _(Shivangi Sahu)_
+- [`ins_suleyman-model-welfare-training-loop`](insights/ins_suleyman-model-welfare-training-loop.md) — Training AI models to accommodate potential consciousness creates a circular feedback loop that mimics evidence _(Mustafa Suleyman)_
 - [`ins_sumner-adversarial-reviewer-pairing`](insights/ins_sumner-adversarial-reviewer-pairing.md) — Pairing implementer agents with dedicated adversarial reviewer agents catches bug categories that single-context review misses _(Jarred Sumner)_
 - [`ins_sumner-parallel-adversarial-agent-rewrite`](insights/ins_sumner-parallel-adversarial-agent-rewrite.md) — Parallel adversarial reviewer agents compressed a 960K-line language migration into 11 days at $165K by eliminating shared-blind-spot failure modes _(Jarred Sumner)_
 - [`ins_sumner-pre-agent-pattern-documents`](insights/ins_sumner-pre-agent-pattern-documents.md) — Creating pattern-mapping documents before a large agentic migration gives parallel agents a shared reference that reduces per-file inference errors _(Jarred Sumner)_
@@ -995,6 +996,8 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
+- [`ins_voss-code-collapse-product-discovery-shift`](insights/ins_voss-code-collapse-product-discovery-shift.md) — When AI makes code production nearly free, product discovery becomes the non-automatable bottleneck _(Laurie Voss)_
+- [`ins_voss-junior-pipeline-broken`](insights/ins_voss-junior-pipeline-broken.md) — AI eliminated the junior developer role that accidentally trained product engineers, and no replacement pipeline exists _(Laurie Voss)_
 - [`ins_want-product-marketing-drive-revenue`](insights/ins_want-product-marketing-drive-revenue.md) — If you want product marketing to drive revenue without sales involvement, you have to r _(Hattie the PMM)_
 - [`ins_wasm-sandbox-agent-code-execution`](insights/ins_wasm-sandbox-agent-code-execution.md) — Running MicroPython inside a WebAssembly sandbox gives AI agents safe code execution without host system access risk _(Simon Willison)_
 - [`ins_weng-harness-recursive-self-improvement`](insights/ins_weng-harness-recursive-self-improvement.md) — Harness engineering, not weight updates, is the near-term path to recursive self-improvement in AI _(Lilian Weng)_
@@ -1081,7 +1084,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (84)
+### Tier C (85)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1109,6 +1112,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_data-strategy-precedes-tool-strategy`](insights/ins_data-strategy-precedes-tool-strategy.md) — Data strategy precedes tool strategy in marketing automation _(Gartner)_
 - [`ins_dyutismita-das-managing-hr-burnout`](insights/ins_dyutismita-das-managing-hr-burnout.md) — Managing HR burnout is a relatable struggle in the current work environment. _(Dyutismita Das)_
 - [`ins_elena-ostanina-core-pmm-foundations`](insights/ins_elena-ostanina-core-pmm-foundations.md) — Two core PMM foundations: user insights and lifecycle content marketing _(Elena Ostanina)_
+- [`ins_ford-ai-code-quality-filter`](insights/ins_ford-ai-code-quality-filter.md) — AI democratizing code production reveals the quality gap more clearly, not less _(Paul Ford)_
 - [`ins_gaurav-sharma-life-as-code`](insights/ins_gaurav-sharma-life-as-code.md) — Life is not chaos but code; we are scripted souls executing a task. _(Gaurav Sharma)_
 - [`ins_gerhardt-buyer-ai-presales-research`](insights/ins_gerhardt-buyer-ai-presales-research.md) — B2B buyers now research vendors in AI tools before any sales contact, making AI-search discoverability a pre-funnel requirement _(Dave Gerhardt)_
 - [`ins_grace-allen-data-driven-storytelling-pmm-hire`](insights/ins_grace-allen-data-driven-storytelling-pmm-hire.md) — Hiring a Senior PMM with passion for data-driven storytelling at The Weather Company _(Grace Allen)_
@@ -1467,6 +1471,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [Kyle Norton](operators/kyle-norton/README.md)
 - [Kyle Poyar](operators/kyle-poyar/README.md)
 - [Langley Barth](operators/langley-barth/README.md)
+- [Laurie Voss](operators/laurie-voss/README.md)
 - [Leah Knobler](operators/leah-knobler/README.md)
 - [Leah Tharin](operators/leah-tharin/README.md)
 - [Lenny Rachitsky](operators/lenny-rachitsky/README.md)
@@ -1525,6 +1530,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [Morgan Housel](operators/morgan-housel/README.md)
 - [Mridula Joshi](operators/mridula-joshi/README.md)
 - [Mustafa Ali](operators/mustafa-ali/README.md)
+- [Mustafa Suleyman](operators/mustafa-suleyman/README.md)
 - [Nafees Mohammed](operators/nafees-mohammed/README.md)
 - [Nagarjun Reddy](operators/nagarjun-reddy/README.md)
 - [Nalin Senthamil](operators/nalin-senthamil/README.md)
@@ -1551,6 +1557,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [Park Howell](operators/park-howell/README.md)
 - [Patrick Campbell](operators/patrick-campbell/README.md)
 - [Paul Adams](operators/paul-adams/README.md)
+- [Paul Ford](operators/paul-ford/README.md)
 - [Paul Jarvis](operators/paul-jarvis/README.md)
 - [Pavithra Krishnaswamy](operators/pavithra-krishnaswamy/README.md)
 - [Pawel Huryn](operators/pawel-huryn/README.md)
@@ -1716,6 +1723,7 @@ _Generated 2026-09-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (10 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
+- [`pat_ai-code-shifts-quality-bottleneck`](synthesis/patterns/ai-code-shifts-quality-bottleneck.md) — AI code generation shifts the quality bottleneck, it does not remove it (3 ops) [Tier B]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
 - [`pat_ai-policy-constrains-capability`](synthesis/patterns/ai-policy-constrains-capability.md) — Frontier AI capability is now constrained by deliberate policy, not technical limits (3 ops) [Tier B]
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
