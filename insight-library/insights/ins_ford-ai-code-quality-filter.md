@@ -24,7 +24,7 @@ raw_ref: ""
 When anyone can generate working code with AI, the failures that result from bad judgment become visible at scale. AI does not eliminate the quality difference between engineers who think well about software and those who do not. It removes code writing as the gating function, leaving judgment as the visible differentiator.
 
 ## Mechanism
-Code writing previously filtered who could ship software. Most people who had poor product judgment also lacked the technical skills to manifest that judgment in a shipped product. AI removes the technical barrier. Now anyone can produce a codebase. The failures that follow — wrong problem, wrong architecture, doing another discipline's job without that discipline's knowledge — become attributable to judgment rather than to execution. The quality gap was always there; the code-writing gate hid it.
+Code writing previously filtered who could ship software. Most people who had poor product judgment also lacked the technical skills to manifest that judgment in a shipped product. AI removes the technical barrier. Now anyone can produce a codebase. The failures that follow: wrong problem, wrong architecture, doing another discipline's job without that discipline's knowledge. These become attributable to judgment rather than to execution. The quality gap was always there; the code-writing gate hid it.
 
 Ford's phrase: "it also makes it easy to do someone else's job badly." The new failure mode is not "I can't write code" but "I wrote code for a problem that wasn't mine to solve."
 
@@ -47,7 +47,7 @@ Ford's evidence is observational. He writes as a working software developer who 
 - Teams find that AI writes the code they asked for, but not the code they needed
 
 ## Counter-evidence
-The argument that more builders means more failures confuses rate with count. The absolute number of failures may rise while the failure rate falls — a net positive. More people shipping software means more total output and more learning. Ford's concern about "doing someone else's job badly" could equally be described as interdisciplinary work, which has its own value. Domain expertise barriers may slow innovation in cases where a motivated non-expert would actually build a better solution.
+The argument that more builders means more failures confuses rate with count. The absolute number of failures may rise while the failure rate falls. That is a net positive. More people shipping software means more total output and more learning. Ford's concern about "doing someone else's job badly" could equally be described as interdisciplinary work, which has its own value. Domain expertise barriers may slow progress in cases where a motivated non-expert would actually build a better solution.
 
 ## Cross-references
 - `ins_voss-code-collapse-product-discovery-shift`: Laurie Voss's quantified version of the same structural shift: product discovery is now the scarce, non-automatable skill.

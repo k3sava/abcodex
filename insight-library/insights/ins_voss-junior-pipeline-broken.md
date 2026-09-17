@@ -24,7 +24,7 @@ raw_ref: ""
 AI is removing junior developer jobs faster than any alternative training pathway for product-aware engineers is being built. The junior developer role was the traditional path for engineers to develop product judgment gradually, through peer review and customer proximity. That pipeline is now closed, and the market has not yet produced a replacement.
 
 ## Mechanism
-Junior developers learned product judgment indirectly. Working alongside senior engineers and PMs, reviewing code, fielding customer tickets, and iterating on small features, they absorbed the tacit knowledge of what "good" means in a specific product context. This happened incidentally, not through explicit curriculum. AI removes the economic justification for the junior role by automating the task-level work those engineers performed. The training pathway disappears with the job. Voss describes this as the pipeline being "closed by accident" — no one decided to stop training product engineers, but the jobs that did the training are gone.
+Junior developers learned product judgment indirectly. Working alongside senior engineers and PMs, reviewing code, fielding customer tickets, and iterating on small features, they absorbed the tacit knowledge of what "good" means in a specific product context. This happened incidentally, not through explicit curriculum. AI removes the economic justification for the junior role by automating the task-level work those engineers performed. The training pathway disappears with the job. Voss describes this as the pipeline being "closed by accident." No one decided to stop training product engineers, but the jobs that did the training are gone.
 
 The forward-deployed engineer role that is replacing the junior developer job requires the product judgment that the junior developer role used to develop. Google trains roughly 50 APMs per year from 12,000 applicants. At that throughput, there is no path to training the volume of product-aware engineers the market now demands.
 
@@ -40,7 +40,7 @@ Entry-level hiring at major tech companies is down 65% since 2019 and down 75% a
 
 > "entry-level hiring at the big tech companies is down 65% since 2019, at early-stage startups it's down 75%"
 
-The alternative — structured product engineering programs — is a small aperture. Google's APM program selects roughly 50 people per year from 12,000 applicants. The math does not close at market scale.
+The alternative, structured product engineering programs, is a small aperture. Google's APM program selects roughly 50 people per year from 12,000 applicants. The math does not close at market scale.
 
 ## Signals
 - Your company's ratio of senior engineers to junior engineers has grown in the past two years

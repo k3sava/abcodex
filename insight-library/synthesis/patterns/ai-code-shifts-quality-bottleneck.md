@@ -20,7 +20,7 @@ Three operators from independent vantage points in September 2026 converged on a
 
 ## Variation
 - Cherny: Quality maintenance requires more automation layered on top of AI output, not less. The gate stays, the mechanism shifts.
-- Voss: The bottleneck moves upstream. Discovery — figuring out what to build — is the new scarce resource. Code quality gates matter, but they are now a solved problem compared to requirements.
+- Voss: The bottleneck moves upstream. Discovery (figuring out what to build) is the new scarce resource. Code quality gates matter, but they are now a solved problem compared to requirements.
 - Ford: The quality gap was always there. AI removes the execution filter that kept non-judgment-havers from shipping. The gap becomes visible in failures, not in code review.
 - Convergence: AI code generation does not eliminate the quality requirement. It shifts where quality failures occur and who is responsible for catching them.
 
