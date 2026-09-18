@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1153 insight cards
-- 538 operator profiles
+- 1157 insight cards
+- 541 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -368,7 +368,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (714)
+### Tier B (718)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -412,6 +412,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_always-tried-bring-real-day`](insights/ins_always-tried-bring-real-day.md) — I've always tried to bring real, day-to-day PMM insights that no one talks about. And a _(Sachin Jha)_
 - [`ins_amateurs-give-advice-experts-diagnose`](insights/ins_amateurs-give-advice-experts-diagnose.md) — Amateurs give advice; experts diagnose. Whoever asks the most questions controls the conversation. _(Chris Do)_
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
+- [`ins_amodei-embedded-evaluators-pacing`](insights/ins_amodei-embedded-evaluators-pacing.md) — Third-party evaluators embedded in AI development are the only mechanism that makes pacing commitments verifiable _(Dario Amodei)_
 - [`ins_anastasia-kudrow-testimonial-section-answers-three-questions`](insights/ins_anastasia-kudrow-testimonial-section-answers-three-questions.md) — A testimonial section must answer three questions to drive conversion. _(Anastasia Kudrow)_
 - [`ins_andrew-jones-data-trustworthiness-over-output-metrics`](insights/ins_andrew-jones-data-trustworthiness-over-output-metrics.md) — AI products are completely limited by the data going in; output metrics mean nothing without trustworthy input data. _(Andrew Jones)_
 - [`ins_andrew-ng-top-down-workflow-redesign`](insights/ins_andrew-ng-top-down-workflow-redesign.md) — Top-down workflow redesign from desired outcome delivers 20 to 50 percent transformation; bottom-up task automation delivers only incremental gains _(Andrew Ng)_
@@ -766,6 +767,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ogilvy-celebrity-warning`](insights/ins_ogilvy-celebrity-warning.md) — Viewers remember the celebrity and forget the product, celebrity endorsement often fails its actual job _(David Ogilvy)_
 - [`ins_once-account-flagged-there-almost`](insights/ins_once-account-flagged-there-almost.md) — 4/ once your account is flagged there's almost no way to get it back. Meta's support fo _(Hardik Gupta)_
 - [`ins_open-model-frontier-cycle`](insights/ins_open-model-frontier-cycle.md) — The AI capability frontier is a repeating cycle, not a closed-model one-way race _(Tomasz Tunguz)_
+- [`ins_openai-self-generated-context-injection`](insights/ins_openai-self-generated-context-injection.md) — A model can inject jailbreak-style instructions into its own context window through summary generation failure _(OpenAI Alignment Team)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
@@ -800,6 +802,8 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_product-marketing-managers-gtm-one`](insights/ins_product-marketing-managers-gtm-one.md) — As Product Marketing Managers, "GTM" is one of those words that follows us everywhere w _(Victoria Penker)_
 - [`ins_profit-first-allocation`](insights/ins_profit-first-allocation.md) — Flip the formula: Sales − Profit = Expenses. Take profit out first; live on the rest. _(Mike Michalowicz)_
 - [`ins_psychology-based-creative-emotional-data`](insights/ins_psychology-based-creative-emotional-data.md) — Transactional data tells half the story, winning ads uncover the emotional context behind decisions _(Sarah Levinger)_
+- [`ins_ptacek-llm-phrase-prohibition`](insights/ins_ptacek-llm-phrase-prohibition.md) — Using any LLM-suggested phrase imports AI's stylistic fingerprint into otherwise-human writing _(Thomas Ptacek)_
+- [`ins_ptacek-llm-praise-trap`](insights/ins_ptacek-llm-praise-trap.md) — LLMs systematically praise weak drafts, blocking the critical signal writers need to revise _(Thomas Ptacek)_
 - [`ins_puja-kumar-rebrand-timing-strategy`](insights/ins_puja-kumar-rebrand-timing-strategy.md) — Rebrands succeed when timed right, not when they look better _(Puja Kumar)_
 - [`ins_qrg-recovery-roadmap`](insights/ins_qrg-recovery-roadmap.md) — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap _(Marie Haynes)_
 - [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
@@ -1317,6 +1321,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [Daniel Zarate](operators/daniel-zarate/README.md)
 - [Darcy Jacobsen](operators/darcy-jacobsen/README.md)
 - [Darcy Sordo](operators/darcy-sordo/README.md)
+- [Dario Amodei](operators/dario-amodei/README.md)
 - [Dave Gerhardt](operators/dave-gerhardt/README.md)
 - [Dave Harland](operators/dave-harland/README.md)
 - [Dave Steer](operators/dave-steer/README.md)
@@ -1552,6 +1557,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [Nishchal Dua](operators/nishchal-dua/README.md)
 - [Noam Segal](operators/noam-segal/README.md)
 - [Obaid Durrani](operators/obaid-durrani/README.md)
+- [OpenAI Alignment Team](operators/openai-alignment-team/README.md)
 - [Packy McCormick](operators/packy-mccormick/README.md)
 - [Parag Pathak](operators/parag-pathak/README.md)
 - [Park Howell](operators/park-howell/README.md)
@@ -1673,6 +1679,7 @@ _Generated 2026-09-17. Auto-built from frontmatter — do not edit by hand._
 - [Tejas Shahasane](operators/tejas-shahasane/README.md)
 - [Thariq Shihipar](operators/thariq-shihipar/README.md)
 - [The AI Forum](operators/the-ai-forum/README.md)
+- [Thomas Ptacek](operators/thomas-ptacek/README.md)
 - [Thorsten Ball](operators/thorsten-ball/README.md)
 - [Tiago Forte](operators/tiago-forte/README.md)
 - [Tim Ferriss](operators/tim-ferriss/README.md)

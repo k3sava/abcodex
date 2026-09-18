@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1153 insights · 538 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 354 tier-A claims.
+Counts: 1157 insights · 541 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 354 tier-A claims.
 
 ## Index
 
@@ -27,12 +27,12 @@ Counts: 1153 insights · 538 operators · 46 synthesis patterns · 11 contradict
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 469 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 361 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 182 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 365 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 183 insights
 - [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 177 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 176 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 158 insights
-- [leadership](https://abcodex.iamkesava.com/d/leadership/) — 152 insights
+- [leadership](https://abcodex.iamkesava.com/d/leadership/) — 153 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 111 insights
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 111 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 104 insights
@@ -79,6 +79,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [content-marketing](https://abcodex.iamkesava.com/d/content-marketing/) — 2 insights
 - [evals](https://abcodex.iamkesava.com/d/evals/) — 2 insights
 - [ai-native-operating](https://abcodex.iamkesava.com/d/ai-native-operating/) — 2 insights
+- [writing](https://abcodex.iamkesava.com/d/writing/) — 2 insights
 - [product-marketing](https://abcodex.iamkesava.com/d/product-marketing/) — 2 insights
 - [performance-marketing](https://abcodex.iamkesava.com/d/performance-marketing/) — 2 insights
 - [prompt-context-and-evals](https://abcodex.iamkesava.com/d/prompt-context-and-evals/) — 2 insights
@@ -149,4 +150,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-09-17.
+Last updated: 2026-09-18.
