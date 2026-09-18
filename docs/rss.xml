@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 01:56:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 01:56:59 GMT</lastBuildDate>
+    <item>
+      <title>AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-18/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-18/</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.</description>
+    </item>
     <item>
       <title>Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI&apos;s CEO</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-17/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-20/</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
       <description>One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week&apos;s productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today&apos;s scan found no additional qualifying content in the window.</description>
-    </item>
-    <item>
-      <title>Small local models rival the cloud via first-principles reasoning, websites earn relevance as AI training sources, and indie games win by amplifying one formula</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-19/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-19/</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Tunguz benchmarks a small local model matching cloud quality at 7x the latency. Fishkin reframes websites not as traffic destinations but as the training source AI tools use to form brand knowledge. Zukowski describes the indie game golden age: amplify one mechanic from a proven genre 10,000-fold instead of mixing genres.</description>
     </item>
   </channel>
 </rss>

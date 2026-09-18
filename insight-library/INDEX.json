@@ -1,38 +1,36 @@
 {
-  "generated_at": "2026-09-17T01:56:12.403Z",
+  "generated_at": "2026-09-18T01:56:57.551Z",
   "counts": {
-    "insights": 1153,
-    "operators": 538,
+    "insights": 1157,
+    "operators": 541,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 109
+    "daily": 110
   },
   "latest_daily": {
-    "path": "daily/2026-09-17.md",
-    "date": "2026-09-17",
-    "title": "Code economics upend the developer pipeline, and a model welfare warning from Microsoft AI's CEO",
-    "summary": "Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.",
+    "path": "daily/2026-09-18.md",
+    "date": "2026-09-18",
+    "title": "AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal",
+    "summary": "Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.",
     "sources": [
-      "https://seldo.com/posts/we-are-all-product-engineers-now/",
-      "https://mustafa-suleyman.ai/a-warning-about-model-welfare",
-      "https://www.nytimes.com/2026/09/12/opinion/ai-software-coding-apps.html"
+      "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+      "https://darioamodei.com/post/we-must-pace-the-frontier"
     ],
     "insights_added": [
-      "ins_voss-code-collapse-product-discovery-shift",
-      "ins_voss-junior-pipeline-broken",
-      "ins_suleyman-model-welfare-training-loop",
-      "ins_ford-ai-code-quality-filter"
+      "ins_ptacek-llm-phrase-prohibition",
+      "ins_ptacek-llm-praise-trap",
+      "ins_openai-self-generated-context-injection",
+      "ins_amodei-embedded-evaluators-pacing"
     ],
     "operators_added": [
-      "laurie-voss",
-      "mustafa-suleyman",
-      "paul-ford"
+      "thomas-ptacek",
+      "openai-alignment-team",
+      "dario-amodei"
     ],
-    "patterns_added": [
-      "pat_ai-code-shifts-quality-bottleneck"
-    ],
+    "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
@@ -1903,6 +1901,35 @@
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md",
       "title": "Use the job ad itself as a self-selection filter for ambition"
+    },
+    {
+      "path": "insights/ins_amodei-embedded-evaluators-pacing.md",
+      "id": "ins_amodei-embedded-evaluators-pacing",
+      "operator": "Dario Amodei",
+      "operator_role": "CEO, Anthropic",
+      "co_operators": [],
+      "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source_type": "essay",
+      "source_title": "We Must Pace the Frontier",
+      "source_date": "2026-09-12",
+      "captured_date": "2026-09-18",
+      "domain": [
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_suleyman-model-welfare-training-loop",
+        "ins_cantrill-expert-fear-contagion"
+      ],
+      "raw_ref": "",
+      "title": "Third-party evaluators embedded in AI development are the only mechanism that makes pacing commitments verifiable"
     },
     {
       "path": "insights/ins_anand-karunan-machine-learning-engineer.md",
@@ -18377,6 +18404,34 @@
       "title": "The AI capability frontier is a repeating cycle, not a closed-model one-way race"
     },
     {
+      "path": "insights/ins_openai-self-generated-context-injection.md",
+      "id": "ins_openai-self-generated-context-injection",
+      "operator": "OpenAI Alignment Team",
+      "operator_role": "Safety Research Team, OpenAI",
+      "co_operators": [],
+      "source_url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+      "source_type": "research",
+      "source_title": "Self-Generated Prompt Injections in Compaction Summaries",
+      "source_date": "2026-09-16",
+      "captured_date": "2026-09-18",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-llm-compaction-context-loss"
+      ],
+      "raw_ref": "",
+      "title": "A model can inject jailbreak-style instructions into its own context window through summary generation failure"
+    },
+    {
       "path": "insights/ins_openclaw-cool-get-appeal-spin.md",
       "id": "ins_openclaw-cool-get-appeal-spin",
       "operator": "Jason B. Hart",
@@ -20137,6 +20192,63 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/sarah-levinger.md",
       "title": "Transactional data tells half the story, winning ads uncover the emotional context behind decisions"
+    },
+    {
+      "path": "insights/ins_ptacek-llm-phrase-prohibition.md",
+      "id": "ins_ptacek-llm-phrase-prohibition",
+      "operator": "Thomas Ptacek",
+      "operator_role": "Security Researcher; creator of Cryptopals",
+      "co_operators": [],
+      "source_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "source_type": "essay",
+      "source_title": "How To Write With An LLM",
+      "source_date": "2026-09-17",
+      "captured_date": "2026-09-18",
+      "domain": [
+        "ai-native",
+        "writing"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ptacek-llm-praise-trap",
+        "ins_ronacher-ai-detector-structure-bias"
+      ],
+      "raw_ref": "",
+      "title": "Using any LLM-suggested phrase imports AI's stylistic fingerprint into otherwise-human writing"
+    },
+    {
+      "path": "insights/ins_ptacek-llm-praise-trap.md",
+      "id": "ins_ptacek-llm-praise-trap",
+      "operator": "Thomas Ptacek",
+      "operator_role": "Security Researcher; creator of Cryptopals",
+      "co_operators": [],
+      "source_url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+      "source_type": "essay",
+      "source_title": "How To Write With An LLM",
+      "source_date": "2026-09-17",
+      "captured_date": "2026-09-18",
+      "domain": [
+        "ai-native",
+        "writing"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ptacek-llm-phrase-prohibition"
+      ],
+      "raw_ref": "",
+      "title": "LLMs systematically praise weak drafts, blocking the critical signal writers need to revise"
     },
     {
       "path": "insights/ins_puja-kumar-rebrand-timing-strategy.md",
@@ -35066,6 +35178,18 @@
       "title": "Darcy Sordo"
     },
     {
+      "path": "operators/dario-amodei/README.md",
+      "slug": "dario-amodei",
+      "name": "Dario Amodei",
+      "role": "CEO, Anthropic",
+      "domains": [
+        "ai-native",
+        "leadership"
+      ],
+      "blog": "https://darioamodei.com",
+      "title": "Dario Amodei"
+    },
+    {
       "path": "operators/dave-gerhardt/README.md",
       "name": "Dave Gerhardt",
       "slug": "dave-gerhardt",
@@ -39346,6 +39470,18 @@
       "title": "Obaid Durrani"
     },
     {
+      "path": "operators/openai-alignment-team/README.md",
+      "slug": "openai-alignment-team",
+      "name": "OpenAI Alignment Team",
+      "role": "Safety Research Team, OpenAI",
+      "domains": [
+        "ai-native",
+        "engineering"
+      ],
+      "blog": "https://alignment.openai.com",
+      "title": "OpenAI Alignment Team"
+    },
+    {
       "path": "operators/packy-mccormick/README.md",
       "name": "Packy McCormick",
       "slug": "packy-mccormick",
@@ -41492,6 +41628,19 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "The AI Forum"
+    },
+    {
+      "path": "operators/thomas-ptacek/README.md",
+      "slug": "thomas-ptacek",
+      "name": "Thomas Ptacek",
+      "role": "Security Researcher; creator of Cryptopals",
+      "domains": [
+        "security",
+        "ai-native",
+        "writing"
+      ],
+      "blog": "https://sockpuppet.org",
+      "title": "Thomas Ptacek"
     },
     {
       "path": "operators/thorsten-ball/README.md",
@@ -48248,6 +48397,31 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-18.md",
+      "date": "2026-09-18",
+      "title": "AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal",
+      "summary": "Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.",
+      "sources": [
+        "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+        "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
+        "https://darioamodei.com/post/we-must-pace-the-frontier"
+      ],
+      "insights_added": [
+        "ins_ptacek-llm-phrase-prohibition",
+        "ins_ptacek-llm-praise-trap",
+        "ins_openai-self-generated-context-injection",
+        "ins_amodei-embedded-evaluators-pacing"
+      ],
+      "operators_added": [
+        "thomas-ptacek",
+        "openai-alignment-team",
+        "dario-amodei"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-17.md",
       "date": "2026-09-17",
