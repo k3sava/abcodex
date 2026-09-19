@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-18 · 4 insights · 3 operators
+### Latest · 2026-09-19 · 4 insights · 1 operator
 
-**AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal.** Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.
+**Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth.** Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.
 
-[Read what landed →](insight-library/daily/2026-09-18.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1157** insight cards
-- **541** operator profiles
+- **1161** insight cards
+- **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 541 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 542 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

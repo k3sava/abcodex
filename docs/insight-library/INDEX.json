@@ -1,34 +1,33 @@
 {
-  "generated_at": "2026-09-18T01:56:57.551Z",
+  "generated_at": "2026-09-19T01:50:05.449Z",
   "counts": {
-    "insights": 1157,
-    "operators": 541,
+    "insights": 1161,
+    "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 110
+    "daily": 111
   },
   "latest_daily": {
-    "path": "daily/2026-09-18.md",
-    "date": "2026-09-18",
-    "title": "AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal",
-    "summary": "Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.",
+    "path": "daily/2026-09-19.md",
+    "date": "2026-09-19",
+    "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
+    "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
     "sources": [
-      "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-      "https://darioamodei.com/post/we-must-pace-the-frontier"
+      "https://www.oneusefulthing.org/p/the-overhang",
+      "https://tomtunguz.com/the-harness-margin-opportunity/",
+      "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
+      "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
     ],
     "insights_added": [
-      "ins_ptacek-llm-phrase-prohibition",
-      "ins_ptacek-llm-praise-trap",
-      "ins_openai-self-generated-context-injection",
-      "ins_amodei-embedded-evaluators-pacing"
+      "ins_mollick-selection-scarce-resource",
+      "ins_tunguz-harness-margin-cost",
+      "ins_osika-domain-expert-builder",
+      "ins_orbach-outrageous-by-design-growth"
     ],
     "operators_added": [
-      "thomas-ptacek",
-      "openai-alignment-team",
-      "dario-amodei"
+      "tom-orbach"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -16812,6 +16811,36 @@
       "title": "Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result"
     },
     {
+      "path": "insights/ins_mollick-selection-scarce-resource.md",
+      "id": "ins_mollick-selection-scarce-resource",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-overhang",
+      "source_type": "essay",
+      "source_title": "The Overhang",
+      "source_date": "2026-09-18",
+      "captured_date": "2026-09-19",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-patron-not-wizard"
+      ],
+      "raw_ref": "",
+      "title": "When AI makes production cheap, selection and taste become the scarce resource"
+    },
+    {
       "path": "insights/ins_mollick-specs-not-tricks.md",
       "id": "ins_mollick-specs-not-tricks",
       "operator": "Ethan Mollick",
@@ -18459,6 +18488,33 @@
       "title": "OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow"
     },
     {
+      "path": "insights/ins_orbach-outrageous-by-design-growth.md",
+      "id": "ins_orbach-outrageous-by-design-growth",
+      "operator": "Tom Orbach",
+      "operator_role": "Director of Growth Marketing, Google (formerly Wiz); founder, Viral Post Generator",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "source_type": "essay",
+      "source_title": "60+ new creative growth ideas",
+      "source_date": "2026-09-15",
+      "captured_date": "2026-09-19",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "launch"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Outrageous-by-design growth tactics outperform saturated playbooks because attention flows to what people do not see coming"
+    },
+    {
       "path": "insights/ins_original-research-as-link-bait.md",
       "id": "ins_original-research-as-link-bait",
       "operator": "Andy Crestodina",
@@ -18484,6 +18540,36 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/andy-crestodina.md",
       "title": "Run one original-research study a year; it will out-link a year of weekly posts"
+    },
+    {
+      "path": "insights/ins_osika-domain-expert-builder.md",
+      "id": "ins_osika-domain-expert-builder",
+      "operator": "Anton Osika",
+      "operator_role": "Co-founder and CEO, Lovable",
+      "co_operators": [],
+      "source_url": "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
+      "source_type": "essay",
+      "source_title": "'We're way past vibes': Lovable's Anton Osika on who should build software",
+      "source_date": "2026-09-16",
+      "captured_date": "2026-09-19",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ambition-filtered-job-ads",
+        "ins_generalists-over-specialists-ai-native"
+      ],
+      "raw_ref": "",
+      "title": "People closest to the problem should build their own software, not engineers with certifications"
     },
     {
       "path": "insights/ins_otaku-as-ideal-customer-archetype.md",
@@ -28073,6 +28159,37 @@
       ],
       "raw_ref": "",
       "title": "The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model"
+    },
+    {
+      "path": "insights/ins_tunguz-harness-margin-cost.md",
+      "id": "ins_tunguz-harness-margin-cost",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-harness-margin-opportunity/",
+      "source_type": "essay",
+      "source_title": "The Harness Margin Opportunity",
+      "source_date": "2026-09-17",
+      "captured_date": "2026-09-19",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-three-disciplines",
+        "ins_tunguz-harness-benchmark-lift",
+        "ins_breunig-harness-lock-in-model-layer"
+      ],
+      "raw_ref": "",
+      "title": "The right harness cuts AI inference cost 71% with no accuracy loss; the moat is customer data, not engineering"
     },
     {
       "path": "insights/ins_tunguz-harness-three-disciplines.md",
@@ -41741,6 +41858,26 @@
       "title": "TK Kader"
     },
     {
+      "path": "operators/tom-orbach/README.md",
+      "name": "Tom Orbach",
+      "slug": "tom-orbach",
+      "roles": [
+        "Director of Growth Marketing, Google (formerly Wiz)",
+        "Founder, Viral Post Generator (2M users)",
+        "Author, Marketing Ideas newsletter (100K+ subscribers)"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth-demand"
+      ],
+      "captured_first": "2026-09-19",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/tomorbach/",
+        "newsletter": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+      },
+      "title": "Tom Orbach"
+    },
+    {
       "path": "operators/tom-tunguz/README.md",
       "name": "Tom Tunguz",
       "slug": "tom-tunguz",
@@ -48397,6 +48534,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-19.md",
+      "date": "2026-09-19",
+      "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
+      "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-overhang",
+        "https://tomtunguz.com/the-harness-margin-opportunity/",
+        "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
+        "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+      ],
+      "insights_added": [
+        "ins_mollick-selection-scarce-resource",
+        "ins_tunguz-harness-margin-cost",
+        "ins_osika-domain-expert-builder",
+        "ins_orbach-outrageous-by-design-growth"
+      ],
+      "operators_added": [
+        "tom-orbach"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-18.md",
       "date": "2026-09-18",
