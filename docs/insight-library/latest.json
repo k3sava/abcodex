@@ -1,31 +1,54 @@
 {
-  "generated_at": "2026-09-18T01:56:57.570Z",
+  "generated_at": "2026-09-19T01:50:05.502Z",
   "latest_daily": {
-    "path": "daily/2026-09-18.md",
-    "date": "2026-09-18",
-    "title": "AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal",
-    "summary": "Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.",
+    "path": "daily/2026-09-19.md",
+    "date": "2026-09-19",
+    "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
+    "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
     "sources": [
-      "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-      "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-      "https://darioamodei.com/post/we-must-pace-the-frontier"
+      "https://www.oneusefulthing.org/p/the-overhang",
+      "https://tomtunguz.com/the-harness-margin-opportunity/",
+      "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
+      "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
     ],
     "insights_added": [
-      "ins_ptacek-llm-phrase-prohibition",
-      "ins_ptacek-llm-praise-trap",
-      "ins_openai-self-generated-context-injection",
-      "ins_amodei-embedded-evaluators-pacing"
+      "ins_mollick-selection-scarce-resource",
+      "ins_tunguz-harness-margin-cost",
+      "ins_osika-domain-expert-builder",
+      "ins_orbach-outrageous-by-design-growth"
     ],
     "operators_added": [
-      "thomas-ptacek",
-      "openai-alignment-team",
-      "dario-amodei"
+      "tom-orbach"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-19.md",
+      "date": "2026-09-19",
+      "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
+      "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-overhang",
+        "https://tomtunguz.com/the-harness-margin-opportunity/",
+        "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
+        "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+      ],
+      "insights_added": [
+        "ins_mollick-selection-scarce-resource",
+        "ins_tunguz-harness-margin-cost",
+        "ins_osika-domain-expert-builder",
+        "ins_orbach-outrageous-by-design-growth"
+      ],
+      "operators_added": [
+        "tom-orbach"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-18.md",
       "date": "2026-09-18",
@@ -665,22 +688,6 @@
         "ins_tunguz-english-universal-interface",
         "ins_willison-agentic-cost-removes-discipline",
         "ins_willison-chatgpt-domain-signal-shift"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-20.md",
-      "date": "2026-08-20",
-      "title": "Triage before tooling: annotate traces to name failure modes before automating evals",
-      "summary": "One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week's productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today's scan found no additional qualifying content in the window.",
-      "sources": [
-        "https://hamel.dev/blog/posts/evals-skills/"
-      ],
-      "insights_added": [
-        "ins_husain-triage-before-eval-tooling"
       ],
       "operators_added": [],
       "patterns_added": [],

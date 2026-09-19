@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1157 insight cards
-- 541 operator profiles
+- 1161 insight cards
+- 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -368,7 +368,7 @@ _Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (718)
+### Tier B (722)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -736,6 +736,7 @@ _Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
+- [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
 - [`ins_mollick-twilight-factory-human-loop`](insights/ins_mollick-twilight-factory-human-loop.md) — Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios _(Ethan Mollick)_
 - [`ins_mosseri-ai-authenticity-tailwind`](insights/ins_mosseri-ai-authenticity-tailwind.md) — The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it _(Adam Mosseri)_
@@ -769,6 +770,8 @@ _Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_open-model-frontier-cycle`](insights/ins_open-model-frontier-cycle.md) — The AI capability frontier is a repeating cycle, not a closed-model one-way race _(Tomasz Tunguz)_
 - [`ins_openai-self-generated-context-injection`](insights/ins_openai-self-generated-context-injection.md) — A model can inject jailbreak-style instructions into its own context window through summary generation failure _(OpenAI Alignment Team)_
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
+- [`ins_orbach-outrageous-by-design-growth`](insights/ins_orbach-outrageous-by-design-growth.md) — Outrageous-by-design growth tactics outperform saturated playbooks because attention flows to what people do not see coming _(Tom Orbach)_
+- [`ins_osika-domain-expert-builder`](insights/ins_osika-domain-expert-builder.md) — People closest to the problem should build their own software, not engineers with certifications _(Anton Osika)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
 - [`ins_pachocki-defensive-ai-rationale`](insights/ins_pachocki-defensive-ai-rationale.md) — The strongest rationale for accelerating AI capability development is building defensive systems capable of detecting and countering threats from other advanced AI _(Jakub Pachocki)_
@@ -963,6 +966,7 @@ _Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-margin-cost`](insights/ins_tunguz-harness-margin-cost.md) — The right harness cuts AI inference cost 71% with no accuracy loss; the moat is customer data, not engineering _(Tom Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
@@ -1685,6 +1689,7 @@ _Generated 2026-09-18. Auto-built from frontmatter — do not edit by hand._
 - [Tim Ferriss](operators/tim-ferriss/README.md)
 - [Tim Soulo](operators/tim-soulo/README.md)
 - [TK Kader](operators/tk-kader/README.md)
+- [Tom Orbach](operators/tom-orbach/README.md)
 - [Tom Tunguz](operators/tom-tunguz/README.md)
 - [Tom Verrilli](operators/tom-verrilli/README.md)
 - [Tomasz Tunguz](operators/tomasz-tunguz/README.md)

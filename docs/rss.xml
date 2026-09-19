@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Sep 2026 01:56:59 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 01:50:09 GMT</lastBuildDate>
+    <item>
+      <title>Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-19/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-19/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.</description>
+    </item>
     <item>
       <title>AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-18/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-21/</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.</description>
-    </item>
-    <item>
-      <title>Triage before tooling: annotate traces to name failure modes before automating evals</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-20/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-20/</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-      <description>One new card from Hamel Husain. An August 2026 update to his Evals Skills for Coding Agents post added an error-discovery workflow that converts raw trace annotation into named failure modes, and a start routing skill that prevents teams from applying the wrong eval tool first. The five preceding daily runs (Aug 15-19) covered the week&apos;s productive output across Tunguz, Willison, Solis, Fishkin, Zukowski, Shipper, Ball, Indig, and others. Today&apos;s scan found no additional qualifying content in the window.</description>
     </item>
   </channel>
 </rss>
