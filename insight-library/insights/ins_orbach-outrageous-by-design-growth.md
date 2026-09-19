@@ -24,7 +24,7 @@ raw_ref: ""
 When every competitor runs the same growth playbook, the marginal return on standard tactics collapses. Deliberately unexpected tactics capture disproportionate attention because brains are wired to notice the novel.
 
 ## Mechanism
-Standard playbooks saturate channels and train audiences to ignore them. High-production launch videos, paid influencers, and SEO content create a predictable signal that buyers have learned to filter. An outrageous tactic breaks the pattern: it is noticed, shared, and remembered precisely because it violates expectations. The economic leverage is high because surprise requires creativity, not budget. The mechanism is attention asymmetry: a $5,000 unexpected stunt can generate attention equivalent to a $100,000 paid campaign because the stunt gets shared for free by people who find it noteworthy.
+Standard playbooks saturate channels and train audiences to ignore them. High-production launch videos, paid influencers, and SEO content create a predictable signal that buyers have learned to filter. An outrageous tactic breaks the pattern: it is noticed, shared, and remembered precisely because it violates expectations. The economics favor the unexpected because surprise requires creativity, not budget. The mechanism is attention asymmetry: a $5,000 unexpected stunt can generate attention equivalent to a $100,000 paid campaign because the stunt gets shared for free by people who find it noteworthy.
 
 ## Conditions
 Holds when: the market is mature enough that standard playbooks are widely replicated. The brand has a clear enough identity that an unexpected tactic reads as intentional rather than incoherent. The audience is reachable through organic sharing.

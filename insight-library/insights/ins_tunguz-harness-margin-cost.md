@@ -24,7 +24,7 @@ raw_ref: ""
 A well-engineered harness cuts the cost of the same AI result by 71% without a loss of accuracy. The competitive advantage is not in building the routing logic but in the customer usage data that teaches the harness which tasks need expensive models.
 
 ## Mechanism
-Harnesses combine deterministic code with strategic model routing, reserving frontier models only for the subset of tasks that genuinely require them. For tasks where a cheaper model produces equivalent quality, the harness routes there automatically. The routing decisions are not made by the harness builder upfront. They are learned by watching thousands of real customer interactions and measuring quality on both paths. That accumulated observational data is the moat: a competitor who builds the same routing logic from scratch cannot replicate it without the same volume of live usage.
+Harnesses combine deterministic code with selective model routing, reserving frontier models only for the subset of tasks that genuinely require them. For tasks where a cheaper model produces equivalent quality, the harness routes there automatically. The routing decisions are not made by the harness builder upfront. They are learned by watching thousands of real customer interactions and measuring quality on both paths. That accumulated observational data is the moat: a competitor who builds the same routing logic from scratch cannot replicate it without the same volume of live usage.
 
 ## Conditions
 Holds when: the AI product processes enough tasks at sufficient volume to classify reliably which require expensive models and which do not. The team can instrument quality measurement at the task level.

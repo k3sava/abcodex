@@ -36,7 +36,7 @@ Mollick describes using current AI to convert the 1977 text adventure game Zork 
 
 > "Making is fast and cheap. The scarce resource is your ability to select among stuff"
 
-He identifies four human advantages that drive selection quality: deep domain knowledge (quick accurate judgments within a field), wide knowledge (cross-domain pattern recognition), taste (evaluating and refining outputs on aesthetic or strategic grounds), and agency (willingness to explore what AI can actually do).
+He identifies four human advantages that drive selection quality: deep domain knowledge (quick accurate judgments within a field), wide knowledge (cross-domain pattern recognition), taste (evaluating and refining outputs on aesthetic or functional grounds), and agency (willingness to explore what AI can actually do).
 
 ## Signals
 - Your best AI-assisted outputs now come from reviewing multiple generated drafts rather than editing one.
