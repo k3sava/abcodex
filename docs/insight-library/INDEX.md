@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-20. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1161 insight cards
+- 1163 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (354)
+### Tier A (355)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -341,6 +341,7 @@ _Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trott-word-of-mouth-most-valuable`](insights/ins_trott-word-of-mouth-most-valuable.md) — Word-of-mouth is the most valuable advertising space of all, paid media is what triggers it, not what replaces it _(Dave Trott)_
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-sdr-workflow-first`](insights/ins_tunguz-ai-sdr-workflow-first.md) — Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-three-waves-ai-consumption`](insights/ins_tunguz-three-waves-ai-consumption.md) — Agent token consumption crossed human consumption on February 6, 2026 and now follows three order-of-magnitude waves driven by parallelization, not generation speed _(Tom Tunguz)_
 - [`ins_tunguz-tier-segmentation-jevons`](insights/ins_tunguz-tier-segmentation-jevons.md) — AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping _(Tom Tunguz)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_
@@ -368,7 +369,7 @@ _Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (722)
+### Tier B (723)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -711,6 +712,7 @@ _Generated 2026-09-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mayuresh-patole-ai-should-not-lower-the-bar`](insights/ins_mayuresh-patole-ai-should-not-lower-the-bar.md) — AI presentation tools must preserve credibility, not make work look disposable. _(Mayuresh Patole)_
 - [`ins_mccormick-ai-compiler-not-runtime`](insights/ins_mccormick-ai-compiler-not-runtime.md) — Using AI as a compiler converts expensive thinking into cheap deterministic doing _(Packy McCormick)_
 - [`ins_mccormick-ai-makes-consensus-cheap`](insights/ins_mccormick-ai-makes-consensus-cheap.md) — AI makes consensus the default output; distinctiveness is now the only scarce input _(Packy McCormick)_
+- [`ins_mccormick-counter-positioning-moat`](insights/ins_mccormick-counter-positioning-moat.md) — Counter-positioning works as a startup moat because incumbents face profit cannibalization if they copy, not because startups have technical advantages _(Packy McCormick)_
 - [`ins_mccormick-open-weight-coalition`](insights/ins_mccormick-open-weight-coalition.md) — Tech giants support open-weight AI models because the model layer is a complement to their real revenues _(Packy McCormick)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_

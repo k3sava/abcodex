@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 01:50:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 02:02:57 GMT</lastBuildDate>
+    <item>
+      <title>Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-20/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-20/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.</description>
+    </item>
     <item>
       <title>Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-19/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-22/</guid>
       <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple&apos;s ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.</description>
-    </item>
-    <item>
-      <title>English as interface, discipline as casualty: two frames for understanding what agentic tools change</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-21/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-21/</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.</description>
     </item>
   </channel>
 </rss>

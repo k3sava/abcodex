@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-19 · 4 insights · 1 operator
+### Latest · 2026-09-20 · 2 insights
 
-**Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth.** Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.
+**Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat.** Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.
 
-[Read what landed →](insight-library/daily/2026-09-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-20.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1161** insight cards
+- **1163** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
