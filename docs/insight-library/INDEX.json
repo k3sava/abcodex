@@ -1,34 +1,28 @@
 {
-  "generated_at": "2026-09-19T01:50:05.449Z",
+  "generated_at": "2026-09-20T02:02:54.360Z",
   "counts": {
-    "insights": 1161,
+    "insights": 1163,
     "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 111
+    "daily": 112
   },
   "latest_daily": {
-    "path": "daily/2026-09-19.md",
-    "date": "2026-09-19",
-    "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
-    "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
+    "path": "daily/2026-09-20.md",
+    "date": "2026-09-20",
+    "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
+    "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-overhang",
-      "https://tomtunguz.com/the-harness-margin-opportunity/",
-      "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
-      "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+      "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+      "https://www.notboring.co/p/an-ode-to-counter-positioning"
     ],
     "insights_added": [
-      "ins_mollick-selection-scarce-resource",
-      "ins_tunguz-harness-margin-cost",
-      "ins_osika-domain-expert-builder",
-      "ins_orbach-outrageous-by-design-growth"
+      "ins_tunguz-ai-sdr-workflow-first",
+      "ins_mccormick-counter-positioning-moat"
     ],
-    "operators_added": [
-      "tom-orbach"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -15705,6 +15699,36 @@
       "title": "AI makes consensus the default output; distinctiveness is now the only scarce input"
     },
     {
+      "path": "insights/ins_mccormick-counter-positioning-moat.md",
+      "id": "ins_mccormick-counter-positioning-moat",
+      "operator": "Packy McCormick",
+      "operator_role": "Writer and Founder, Not Boring Capital",
+      "co_operators": [],
+      "source_url": "https://www.notboring.co/p/an-ode-to-counter-positioning",
+      "source_type": "essay",
+      "source_title": "An Ode to Counter-Positioning",
+      "source_date": "2026-09-10",
+      "captured_date": "2026-09-20",
+      "domain": [
+        "gtm",
+        "founder-operator",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy",
+        "positioning"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 2, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mccormick-ai-compiler-not-runtime"
+      ],
+      "raw_ref": "",
+      "title": "Counter-positioning works as a startup moat because incumbents face profit cannibalization if they copy, not because startups have technical advantages"
+    },
+    {
       "path": "insights/ins_mccormick-open-weight-coalition.md",
       "id": "ins_mccormick-open-weight-coalition",
       "operator": "Packy McCormick",
@@ -27743,6 +27767,34 @@
       ],
       "raw_ref": "",
       "title": "AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-sdr-workflow-first.md",
+      "id": "ins_tunguz-ai-sdr-workflow-first",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+      "source_type": "essay",
+      "source_title": "When Inbound Sells Itself",
+      "source_date": "2026-09-15",
+      "captured_date": "2026-09-20",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "sales"
+      ],
+      "lifecycle": [
+        "automation",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [],
+      "raw_ref": "",
+      "title": "Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability"
     },
     {
       "path": "insights/ins_tunguz-ai-worldview-alignment-divergence.md",
@@ -48534,6 +48586,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-20.md",
+      "date": "2026-09-20",
+      "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
+      "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
+      "sources": [
+        "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+        "https://www.notboring.co/p/an-ode-to-counter-positioning"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-sdr-workflow-first",
+        "ins_mccormick-counter-positioning-moat"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-19.md",
       "date": "2026-09-19",

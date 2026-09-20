@@ -1,30 +1,42 @@
 {
-  "generated_at": "2026-09-19T01:50:05.502Z",
+  "generated_at": "2026-09-20T02:02:54.408Z",
   "latest_daily": {
-    "path": "daily/2026-09-19.md",
-    "date": "2026-09-19",
-    "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
-    "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
+    "path": "daily/2026-09-20.md",
+    "date": "2026-09-20",
+    "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
+    "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-overhang",
-      "https://tomtunguz.com/the-harness-margin-opportunity/",
-      "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
-      "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
+      "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+      "https://www.notboring.co/p/an-ode-to-counter-positioning"
     ],
     "insights_added": [
-      "ins_mollick-selection-scarce-resource",
-      "ins_tunguz-harness-margin-cost",
-      "ins_osika-domain-expert-builder",
-      "ins_orbach-outrageous-by-design-growth"
+      "ins_tunguz-ai-sdr-workflow-first",
+      "ins_mccormick-counter-positioning-moat"
     ],
-    "operators_added": [
-      "tom-orbach"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-20.md",
+      "date": "2026-09-20",
+      "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
+      "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
+      "sources": [
+        "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+        "https://www.notboring.co/p/an-ode-to-counter-positioning"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-sdr-workflow-first",
+        "ins_mccormick-counter-positioning-moat"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-19.md",
       "date": "2026-09-19",
@@ -668,26 +680,6 @@
         "ins_indig-slop-antibodies-distribution-gate",
         "ins_seufert-att-asymmetric-consent",
         "ins_tunguz-intelligence-per-watt"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-21.md",
-      "date": "2026-08-21",
-      "title": "English as interface, discipline as casualty: two frames for understanding what agentic tools change",
-      "summary": "Three new cards from Tomasz Tunguz and Simon Willison. Tunguz argues that AI agents make English a universal interface for complex software, removing the expertise barrier without removing the underlying complexity. Willison surfaces two related failures: agentic coding erodes the time-cost filter that once kept poor architectural decisions out, and material AI search behavior shifts arrive without changelog notice, making behavioral tracking the primary signal for AEO work.",
-      "sources": [
-        "https://www.tomtunguz.com/previously-unmanufacturable/",
-        "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
-        "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
-      ],
-      "insights_added": [
-        "ins_tunguz-english-universal-interface",
-        "ins_willison-agentic-cost-removes-discipline",
-        "ins_willison-chatgpt-domain-signal-shift"
       ],
       "operators_added": [],
       "patterns_added": [],
