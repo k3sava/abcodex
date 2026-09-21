@@ -1,26 +1,24 @@
 {
-  "generated_at": "2026-09-20T02:02:54.360Z",
+  "generated_at": "2026-09-21T01:57:25.235Z",
   "counts": {
-    "insights": 1163,
+    "insights": 1164,
     "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 112
+    "daily": 113
   },
   "latest_daily": {
-    "path": "daily/2026-09-20.md",
-    "date": "2026-09-20",
-    "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
-    "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
+    "path": "daily/2026-09-21.md",
+    "date": "2026-09-21",
+    "title": "Why AI pacing proposals have no number",
+    "summary": "One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.",
     "sources": [
-      "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
-      "https://www.notboring.co/p/an-ode-to-counter-positioning"
+      "https://tomtunguz.com/what-does-the-pause-mean/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-sdr-workflow-first",
-      "ins_mccormick-counter-positioning-moat"
+      "ins_tunguz-compute-threshold-pacing-fallacy"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -28003,6 +28001,33 @@
       "title": "AI-native companies invert the traditional software cost structure, spending more on compute than on payroll"
     },
     {
+      "path": "insights/ins_tunguz-compute-threshold-pacing-fallacy.md",
+      "id": "ins_tunguz-compute-threshold-pacing-fallacy",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/what-does-the-pause-mean/",
+      "source_type": "essay",
+      "source_title": "What Does Pacing Mean?",
+      "source_date": "2026-09-14",
+      "captured_date": "2026-09-21",
+      "domain": [
+        "ai-native"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 2, source: 4 }",
+      "tier": "C",
+      "related": [
+        "ins_amodei-embedded-evaluators-pacing"
+      ],
+      "raw_ref": "",
+      "title": "Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating"
+    },
+    {
       "path": "insights/ins_tunguz-english-as-software-grammar.md",
       "id": "ins_tunguz-english-as-software-grammar",
       "operator": "Tomasz Tunguz",
@@ -48586,6 +48611,22 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-21.md",
+      "date": "2026-09-21",
+      "title": "Why AI pacing proposals have no number",
+      "summary": "One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.",
+      "sources": [
+        "https://tomtunguz.com/what-does-the-pause-mean/"
+      ],
+      "insights_added": [
+        "ins_tunguz-compute-threshold-pacing-fallacy"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-20.md",
       "date": "2026-09-20",

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-20. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1163 insight cards
+- 1164 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -1094,7 +1094,7 @@ _Generated 2026-09-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (85)
+### Tier C (86)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1174,6 +1174,7 @@ _Generated 2026-09-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_srikanth-reddy-operations-sr-manager-bpo`](insights/ins_srikanth-reddy-operations-sr-manager-bpo.md) — BPO operations leader driving e-commerce sales and client relations _(Srikanth Reddy)_
 - [`ins_sumitra-laishram-talent-rippling-ex-uber-coinbase`](insights/ins_sumitra-laishram-talent-rippling-ex-uber-coinbase.md) — Builds high-performance teams at Rippling with Uber and Coinbase experience _(Sumitra Laishram)_
 - [`ins_the-ai-forum-agent-ai-challenge-announcement`](insights/ins_the-ai-forum-agent-ai-challenge-announcement.md) — Agent.ai Challenge is LIVE: $50K prizes, no-code AI builder backed by HubSpot's Dharmesh Shah. _(The AI Forum)_
+- [`ins_tunguz-compute-threshold-pacing-fallacy`](insights/ins_tunguz-compute-threshold-pacing-fallacy.md) — Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating _(Tom Tunguz)_
 - [`ins_uddhav-parab-creativity-without-case-studies`](insights/ins_uddhav-parab-creativity-without-case-studies.md) — Direct the creative work, don't hog the juicy writing from juniors _(Uddhav Parab)_
 - [`ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics`](insights/ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics.md) — Drives strategic logistics operations for SAR and RTW _(Vinayak Padiyar)_
 - [`ins_vishnu-prasad-growth-through-experimentation`](insights/ins_vishnu-prasad-growth-through-experimentation.md) — Growth comes from experimentation, tough conversations, and late calls, not overnight success. _(Vishnu Prasad)_

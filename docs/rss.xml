@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 02:02:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 01:57:28 GMT</lastBuildDate>
+    <item>
+      <title>Why AI pacing proposals have no number</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-21/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-21/</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description>One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei&apos;s call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.</description>
+    </item>
     <item>
       <title>Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-20/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-23/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam&apos;s algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.</description>
-    </item>
-    <item>
-      <title>Distribution gates, consent asymmetry, and the local AI cost inflection</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-22/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-22/</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from Kevin Indig, Eric Seufert, and Tomasz Tunguz. Indig documents how platform detection systems suppress AI content at the distribution layer. Seufert reveals how Apple&apos;s ATT consent design systematically skewed advertising opt-in rates. Tunguz cites Stanford research showing local AI routing cuts energy 80% and cost 74% while matching frontier quality on 89% of everyday queries.</description>
     </item>
   </channel>
 </rss>
