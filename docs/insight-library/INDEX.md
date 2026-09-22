@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1164 insight cards
+- 1167 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -369,7 +369,7 @@ _Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (723)
+### Tier B (726)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -961,6 +961,7 @@ _Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
+- [`ins_tunguz-decision-model-bifurcation`](insights/ins_tunguz-decision-model-bifurcation.md) — Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy _(Tom Tunguz)_
 - [`ins_tunguz-english-as-software-grammar`](insights/ins_tunguz-english-as-software-grammar.md) — AI converts English into a universal interface for grammar-heavy software _(Tomasz Tunguz)_
 - [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
@@ -1041,6 +1042,7 @@ _Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold triggers agentic adoption sharply, not gradually _(Simon Willison)_
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
+- [`ins_willison-decision-model-opacity`](insights/ins_willison-decision-model-opacity.md) — Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
@@ -1054,6 +1056,7 @@ _Generated 2026-09-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-llm-compaction-context-loss`](insights/ins_willison-llm-compaction-context-loss.md) — LLM systems that auto-compact context must preserve pre-compacted messages and expose them via tool calls, or every agent action before compaction becomes permanently unverifiable _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
 - [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
+- [`ins_willison-mcp-governance-floor`](insights/ins_willison-mcp-governance-floor.md) — MCP's value is governance for constrained agent deployments, not capability for autonomous ones _(Simon Willison)_
 - [`ins_willison-multimodel-security-audit-workflow`](insights/ins_willison-multimodel-security-audit-workflow.md) — Running multiple frontier models as security auditors on open-source codebases surfaces subtle bugs that single-model or human-only review misses _(Simon Willison)_
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_

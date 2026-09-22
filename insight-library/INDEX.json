@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-09-21T01:57:25.235Z",
+  "generated_at": "2026-09-22T01:51:54.054Z",
   "counts": {
-    "insights": 1164,
+    "insights": 1167,
     "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 113
+    "daily": 114
   },
   "latest_daily": {
-    "path": "daily/2026-09-21.md",
-    "date": "2026-09-21",
-    "title": "Why AI pacing proposals have no number",
-    "summary": "One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.",
+    "path": "daily/2026-09-22.md",
+    "date": "2026-09-22",
+    "title": "Decision model economics and agent governance",
+    "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
     "sources": [
-      "https://tomtunguz.com/what-does-the-pause-mean/"
+      "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+      "https://simonwillison.net/2026/Sep/21/jev/",
+      "https://simonwillison.net/2026/Sep/20/hn-49779718/"
     ],
     "insights_added": [
-      "ins_tunguz-compute-threshold-pacing-fallacy"
+      "ins_tunguz-decision-model-bifurcation",
+      "ins_willison-decision-model-opacity",
+      "ins_willison-mcp-governance-floor"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -28028,6 +28032,38 @@
       "title": "Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating"
     },
     {
+      "path": "insights/ins_tunguz-decision-model-bifurcation.md",
+      "id": "ins_tunguz-decision-model-bifurcation",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+      "source_type": "essay",
+      "source_title": "AI Comes for the If Statement",
+      "source_date": "2026-09-21",
+      "captured_date": "2026-09-22",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-margin-cost",
+        "ins_tunguz-tier-segmentation-jevons",
+        "ins_tunguz-harness-three-disciplines"
+      ],
+      "raw_ref": "",
+      "title": "Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy"
+    },
+    {
       "path": "insights/ins_tunguz-english-as-software-grammar.md",
       "id": "ins_tunguz-english-as-software-grammar",
       "operator": "Tomasz Tunguz",
@@ -30849,6 +30885,36 @@
       "title": "Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses"
     },
     {
+      "path": "insights/ins_willison-decision-model-opacity.md",
+      "id": "ins_willison-decision-model-opacity",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source_type": "essay",
+      "source_title": "Jev by TypeSafe AI: decision intelligence models",
+      "source_date": "2026-09-21",
+      "captured_date": "2026-09-22",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-decision-model-bifurcation",
+        "ins_willison-stateless-mcp",
+        "ins_willison-ai-product-capability-opacity"
+      ],
+      "raw_ref": "",
+      "title": "Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable"
+    },
+    {
       "path": "insights/ins_willison-defensive-security-export-controls.md",
       "id": "ins_willison-defensive-security-export-controls",
       "operator": "Simon Willison",
@@ -31271,6 +31337,36 @@
       ],
       "raw_ref": "",
       "title": "AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery"
+    },
+    {
+      "path": "insights/ins_willison-mcp-governance-floor.md",
+      "id": "ins_willison-mcp-governance-floor",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/20/hn-49779718/",
+      "source_type": "post",
+      "source_title": "Comment on: MCP was always a bad idea?",
+      "source_date": "2026-09-20",
+      "captured_date": "2026-09-22",
+      "domain": [
+        "agent-frameworks",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "infrastructure"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-stateless-mcp",
+        "ins_willison-ai-product-capability-opacity"
+      ],
+      "raw_ref": "",
+      "title": "MCP's value is governance for constrained agent deployments, not capability for autonomous ones"
     },
     {
       "path": "insights/ins_willison-multimodel-security-audit-workflow.md",
@@ -48611,6 +48707,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-22.md",
+      "date": "2026-09-22",
+      "title": "Decision model economics and agent governance",
+      "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
+      "sources": [
+        "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+        "https://simonwillison.net/2026/Sep/21/jev/",
+        "https://simonwillison.net/2026/Sep/20/hn-49779718/"
+      ],
+      "insights_added": [
+        "ins_tunguz-decision-model-bifurcation",
+        "ins_willison-decision-model-opacity",
+        "ins_willison-mcp-governance-floor"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-21.md",
       "date": "2026-09-21",

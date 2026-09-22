@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 21 Sep 2026 01:57:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 01:51:57 GMT</lastBuildDate>
+    <item>
+      <title>Decision model economics and agent governance</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-22/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-22/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe&apos;s Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison&apos;s September 20 argument that MCP&apos;s purpose is governance for constrained agent deployments, not capability for autonomous ones.</description>
+    </item>
     <item>
       <title>Why AI pacing proposals have no number</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-21/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-24/</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
       <description>One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today&apos;s scan found one qualifying post outside that coverage: Breunig&apos;s August 23 analysis of how Fable&apos;s premium pricing changes the economics of AI coding workflows.</description>
-    </item>
-    <item>
-      <title>Instruction over review, widgets over social</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-23/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-23/</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam&apos;s algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.</description>
     </item>
   </channel>
 </rss>

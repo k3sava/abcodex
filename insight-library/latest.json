@@ -1,15 +1,19 @@
 {
-  "generated_at": "2026-09-21T01:57:25.258Z",
+  "generated_at": "2026-09-22T01:51:54.081Z",
   "latest_daily": {
-    "path": "daily/2026-09-21.md",
-    "date": "2026-09-21",
-    "title": "Why AI pacing proposals have no number",
-    "summary": "One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.",
+    "path": "daily/2026-09-22.md",
+    "date": "2026-09-22",
+    "title": "Decision model economics and agent governance",
+    "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
     "sources": [
-      "https://tomtunguz.com/what-does-the-pause-mean/"
+      "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+      "https://simonwillison.net/2026/Sep/21/jev/",
+      "https://simonwillison.net/2026/Sep/20/hn-49779718/"
     ],
     "insights_added": [
-      "ins_tunguz-compute-threshold-pacing-fallacy"
+      "ins_tunguz-decision-model-bifurcation",
+      "ins_willison-decision-model-opacity",
+      "ins_willison-mcp-governance-floor"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-22.md",
+      "date": "2026-09-22",
+      "title": "Decision model economics and agent governance",
+      "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
+      "sources": [
+        "https://tomtunguz.com/ai-comes-for-the-if-statement/",
+        "https://simonwillison.net/2026/Sep/21/jev/",
+        "https://simonwillison.net/2026/Sep/20/hn-49779718/"
+      ],
+      "insights_added": [
+        "ins_tunguz-decision-model-bifurcation",
+        "ins_willison-decision-model-opacity",
+        "ins_willison-mcp-governance-floor"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-21.md",
       "date": "2026-09-21",
@@ -652,28 +676,6 @@
       ],
       "insights_added": [
         "ins_breunig-fable-tier-routing"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-23.md",
-      "date": "2026-08-23",
-      "title": "Instruction over review, widgets over social",
-      "summary": "Four new cards from Simon Willison and Chris Zukowski. Willison on the skills that actually matter when working with coding agents. Zukowski on why Steam's algorithms beat social media for indie discovery, and why the game idea is the primary variable in marketing outcomes.",
-      "sources": [
-        "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-        "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-        "https://howtomarketagame.com/2026/08/20/part-2-the-week-of-the-golden-age/",
-        "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
-      ],
-      "insights_added": [
-        "ins_willison-instruction-over-review",
-        "ins_willison-agents-gui-zero-cost",
-        "ins_zukowski-idea-beats-playbook",
-        "ins_zukowski-widget-beats-social"
       ],
       "operators_added": [],
       "patterns_added": [],
