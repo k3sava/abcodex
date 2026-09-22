@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-21 · 1 insight
+### Latest · 2026-09-22 · 3 insights
 
-**Why AI pacing proposals have no number.** One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.
+**Decision model economics and agent governance.** Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.
 
-[Read what landed →](insight-library/daily/2026-09-21.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1164** insight cards
+- **1167** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
