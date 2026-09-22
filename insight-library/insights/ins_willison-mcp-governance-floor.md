@@ -46,7 +46,7 @@ Willison draws the contrast between a YOLO terminal agent and a constrained ente
 
 > "MCP makes all of that so much easier to provide"
 
-The argument is structural: the four governance needs are not optional when operating in a constrained context; they are the preconditions for deploying an agent at all. MCP satisfies them through standardization rather than bespoke implementation.
+The argument is structural: the four governance needs are not optional when operating in a constrained context; they are the preconditions for deploying an agent at all. MCP satisfies them through standardization rather than custom per-deployment implementation.
 
 ## Signals
 - An organization that cannot tell auditors which external services an agent called, or cannot produce a log of what the agent did, cannot operate that agent in any regulated context.
@@ -54,7 +54,7 @@ The argument is structural: the four governance needs are not optional when oper
 - Teams building YOLO terminal agents skip MCP because they have no governance floor to satisfy.
 
 ## Counter-evidence
-MCP as a protocol has faced criticism for adding complexity without proportional benefit. Short MCP commentary from a single author is not a controlled study. Willison is responding to skepticism about MCP's value, so the argument is inherently framed to defend the protocol. The four governance capabilities he names can also be implemented through bespoke solutions, and some organizations prefer that to adopting a third-party protocol standard.
+MCP as a protocol has faced criticism for adding complexity without proportional benefit. Short MCP commentary from a single author is not a controlled study. Willison is responding to skepticism about MCP's value, so the argument is inherently framed to defend the protocol. The four governance capabilities he names can also be implemented through custom in-house solutions, and some organizations prefer that to adopting a third-party protocol standard.
 
 ## Cross-references
 - `ins_willison-stateless-mcp`: Willison's earlier documentation of MCP 2.0's stateless HTTP transport design, covering the transport-layer redesign rather than the governance use case.
