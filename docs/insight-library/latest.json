@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-22T01:51:54.081Z",
+  "generated_at": "2026-09-23T01:51:59.852Z",
   "latest_daily": {
-    "path": "daily/2026-09-22.md",
-    "date": "2026-09-22",
-    "title": "Decision model economics and agent governance",
-    "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
+    "path": "daily/2026-09-23.md",
+    "date": "2026-09-23",
+    "title": "Extended reasoning limits, publishing cost collapse, and SERP displacement",
+    "summary": "Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.",
     "sources": [
-      "https://tomtunguz.com/ai-comes-for-the-if-statement/",
-      "https://simonwillison.net/2026/Sep/21/jev/",
-      "https://simonwillison.net/2026/Sep/20/hn-49779718/"
+      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "https://x.com/lilyraynyc/status/2100043348690219490",
+      "https://x.com/aleyda/status/2099915188690633060"
     ],
     "insights_added": [
-      "ins_tunguz-decision-model-bifurcation",
-      "ins_willison-decision-model-opacity",
-      "ins_willison-mcp-governance-floor"
+      "ins_willison-max-thinking-token-burn",
+      "ins_ray-publishing-cost-index-chaos",
+      "ins_solis-ecommerce-serp-layout-traffic-drop"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-23.md",
+      "date": "2026-09-23",
+      "title": "Extended reasoning limits, publishing cost collapse, and SERP displacement",
+      "summary": "Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+        "https://x.com/lilyraynyc/status/2100043348690219490",
+        "https://x.com/aleyda/status/2099915188690633060"
+      ],
+      "insights_added": [
+        "ins_willison-max-thinking-token-burn",
+        "ins_ray-publishing-cost-index-chaos",
+        "ins_solis-ecommerce-serp-layout-traffic-drop"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-22.md",
       "date": "2026-09-22",
@@ -662,22 +682,6 @@
         "linus-torvalds",
         "matt-webb"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-24.md",
-      "date": "2026-08-24",
-      "title": "When the frontier model gets more expensive, harness investment finally pays off",
-      "summary": "One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today's scan found one qualifying post outside that coverage: Breunig's August 23 analysis of how Fable's premium pricing changes the economics of AI coding workflows.",
-      "sources": [
-        "https://www.dbreunig.com/2026/08/23/fable-the-end-of-moore-s-law.html"
-      ],
-      "insights_added": [
-        "ins_breunig-fable-tier-routing"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

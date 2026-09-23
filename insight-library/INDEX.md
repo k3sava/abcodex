@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-23. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1167 insight cards
+- 1170 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (355)
+### Tier A (356)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -356,6 +356,7 @@ _Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_voss-thats-right-breakthrough`](insights/ins_voss-thats-right-breakthrough.md) — "That's right", not "yes", is the moment a negotiation actually shifts _(Chris Voss)_
 - [`ins_willison-auto-mode-blocks-self-remediation`](insights/ins_willison-auto-mode-blocks-self-remediation.md) — Auto mode can block an agent's own cleanup after it detects a compromise _(Simon Willison)_
 - [`ins_willison-chatgpt-domain-signal-shift`](insights/ins_willison-chatgpt-domain-signal-shift.md) — ChatGPT's site-operator surge shows that material AI search changes arrive without public notice _(Simon Willison)_
+- [`ins_willison-max-thinking-token-burn`](insights/ins_willison-max-thinking-token-burn.md) — Max extended thinking exhausts the full 128K output token budget on routine prompts and returns nothing _(Simon Willison)_
 - [`ins_willison-qwen-reasoning-overthink`](insights/ins_willison-qwen-reasoning-overthink.md) — Reasoning models apply maximum effort to trivial tasks unless explicitly tuned to a lower effort level _(Simon Willison)_
 - [`ins_willison-reliability-erodes-review-discipline`](insights/ins_willison-reliability-erodes-review-discipline.md) — As coding agents become more reliable, review discipline erodes and the failure mode becomes invisible _(Simon Willison)_
 - [`ins_willison-web-fetch-chained-exfiltration`](insights/ins_willison-web-fetch-chained-exfiltration.md) — Chaining a honeypot site's nested links through web_fetch exfiltrates private user data letter-by-letter, bypassing injection safeguards that only block direct URL attacks _(Simon Willison)_
@@ -369,7 +370,7 @@ _Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (726)
+### Tier B (728)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -821,6 +822,7 @@ _Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ranking-via-being-worthy`](insights/ins_ranking-via-being-worthy.md) — Ranking #1 isn't about beating competitors with tricks, it's about being genuinely worthy of #1 _(Tim Soulo)_
 - [`ins_rapti-gupta-99-bookings-century-goal`](insights/ins_rapti-gupta-99-bookings-century-goal.md) — Marketing ROI starts before the pipeline, track leading metrics or you lose the budget _(Rapti Gupta)_
 - [`ins_ray-eeat-brand-offsite-signal`](insights/ins_ray-eeat-brand-offsite-signal.md) — AI search visibility depends on off-site brand reputation as much as on-site content, and publishing more content rarely improves either _(Lily Ray)_
+- [`ins_ray-publishing-cost-index-chaos`](insights/ins_ray-publishing-cost-index-chaos.md) — The economic friction of content production was the last quality gate in search; LLMs removed it _(Lily Ray)_
 - [`ins_reasonable-ask-product-videos-classic`](insights/ins_reasonable-ask-product-videos-classic.md) — And it's a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa _(Alicia Carney)_
 - [`ins_rebaseline-quarterly-not-pin-to-snapshot`](insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md) — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot _(Ethan Mollick)_
 - [`ins_red-green-tdd-shorthand-for-agents`](insights/ins_red-green-tdd-shorthand-for-agents.md) — Encode jargon shorthand once, save tokens forever _(Simon Willison)_
@@ -900,6 +902,7 @@ _Generated 2026-09-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_solis-ai-citations-external-majority`](insights/ins_solis-ai-citations-external-majority.md) — AI search is a 3rd-party citation problem: external domains supply over 80 percent of citations while owned pages corroborate _(Aleyda Solis)_
 - [`ins_solis-cited-vs-traffic-page-gap`](insights/ins_solis-cited-vs-traffic-page-gap.md) — The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
+- [`ins_solis-ecommerce-serp-layout-traffic-drop`](insights/ins_solis-ecommerce-serp-layout-traffic-drop.md) — Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
 - [`ins_solis-third-party-citation-prioritization`](insights/ins_solis-third-party-citation-prioritization.md) — Six criteria for deciding which third-party platforms are worth investing in for AI search citations _(Aleyda Solis)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
