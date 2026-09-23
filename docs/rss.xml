@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 01:51:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 01:52:03 GMT</lastBuildDate>
+    <item>
+      <title>Extended reasoning limits, publishing cost collapse, and SERP displacement</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-23/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-23/</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.</description>
+    </item>
     <item>
       <title>Decision model economics and agent governance</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-22/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-25/</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI&apos;s verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.</description>
-    </item>
-    <item>
-      <title>When the frontier model gets more expensive, harness investment finally pays off</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-24/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-24/</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description>One new card from Drew Breunig. The Aug 17-23 window was exceptionally active and well-covered by the six preceding daily runs, which together captured fifteen cards across Tunguz, Willison, Zukowski, Fishkin, Husain, Indig, Seufert, Shipper, Ball, Solis, and Blatner. Today&apos;s scan found one qualifying post outside that coverage: Breunig&apos;s August 23 analysis of how Fable&apos;s premium pricing changes the economics of AI coding workflows.</description>
     </item>
   </channel>
 </rss>

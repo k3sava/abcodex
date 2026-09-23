@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-22 · 3 insights
+### Latest · 2026-09-23 · 3 insights
 
-**Decision model economics and agent governance.** Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.
+**Extended reasoning limits, publishing cost collapse, and SERP displacement.** Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.
 
-[Read what landed →](insight-library/daily/2026-09-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1167** insight cards
+- **1170** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

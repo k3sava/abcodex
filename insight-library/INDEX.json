@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-22T01:51:54.054Z",
+  "generated_at": "2026-09-23T01:51:59.783Z",
   "counts": {
-    "insights": 1167,
+    "insights": 1170,
     "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 114
+    "daily": 115
   },
   "latest_daily": {
-    "path": "daily/2026-09-22.md",
-    "date": "2026-09-22",
-    "title": "Decision model economics and agent governance",
-    "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
+    "path": "daily/2026-09-23.md",
+    "date": "2026-09-23",
+    "title": "Extended reasoning limits, publishing cost collapse, and SERP displacement",
+    "summary": "Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.",
     "sources": [
-      "https://tomtunguz.com/ai-comes-for-the-if-statement/",
-      "https://simonwillison.net/2026/Sep/21/jev/",
-      "https://simonwillison.net/2026/Sep/20/hn-49779718/"
+      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "https://x.com/lilyraynyc/status/2100043348690219490",
+      "https://x.com/aleyda/status/2099915188690633060"
     ],
     "insights_added": [
-      "ins_tunguz-decision-model-bifurcation",
-      "ins_willison-decision-model-opacity",
-      "ins_willison-mcp-governance-floor"
+      "ins_willison-max-thinking-token-burn",
+      "ins_ray-publishing-cost-index-chaos",
+      "ins_solis-ecommerce-serp-layout-traffic-drop"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21023,6 +21023,35 @@
       "title": "AI search visibility depends on off-site brand reputation as much as on-site content, and publishing more content rarely improves either"
     },
     {
+      "path": "insights/ins_ray-publishing-cost-index-chaos.md",
+      "id": "ins_ray-publishing-cost-index-chaos",
+      "operator": "Lily Ray",
+      "operator_role": "Senior Director of SEO at Amsive",
+      "co_operators": [],
+      "source_url": "https://x.com/lilyraynyc/status/2100043348690219490",
+      "source_type": "post",
+      "source_title": "Marginal cost of publishing and search index quality",
+      "source_date": "2026-09-16",
+      "captured_date": "2026-09-23",
+      "domain": [
+        "seo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_ai-slop-loop"
+      ],
+      "raw_ref": "",
+      "title": "The economic friction of content production was the last quality gate in search; LLMs removed it"
+    },
+    {
       "path": "insights/ins_reasonable-ask-product-videos-classic.md",
       "id": "ins_reasonable-ask-product-videos-classic",
       "operator": "Alicia Carney",
@@ -24921,6 +24950,36 @@
       ],
       "raw_ref": "",
       "title": "AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone"
+    },
+    {
+      "path": "insights/ins_solis-ecommerce-serp-layout-traffic-drop.md",
+      "id": "ins_solis-ecommerce-serp-layout-traffic-drop",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant; Founder, Orainti",
+      "co_operators": [],
+      "source_url": "https://x.com/aleyda/status/2099915188690633060",
+      "source_type": "post",
+      "source_title": "Ecommerce YOY organic traffic drops despite stable positions",
+      "source_date": "2026-09-15",
+      "captured_date": "2026-09-23",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "measurement",
+        "awareness"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_solis-cited-vs-traffic-page-gap",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "raw_ref": "",
+      "title": "Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure"
     },
     {
       "path": "insights/ins_solis-saas-ai-third-party-citation-weight.md",
@@ -31337,6 +31396,35 @@
       ],
       "raw_ref": "",
       "title": "AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery"
+    },
+    {
+      "path": "insights/ins_willison-max-thinking-token-burn.md",
+      "id": "ins_willison-max-thinking-token-burn",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source_type": "essay",
+      "source_title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "source_date": "2026-09-22",
+      "captured_date": "2026-09-23",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_willison-decision-model-opacity",
+        "ins_willison-stateless-mcp"
+      ],
+      "raw_ref": "",
+      "title": "Max extended thinking exhausts the full 128K output token budget on routine prompts and returns nothing"
     },
     {
       "path": "insights/ins_willison-mcp-governance-floor.md",
@@ -48707,6 +48795,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-23.md",
+      "date": "2026-09-23",
+      "title": "Extended reasoning limits, publishing cost collapse, and SERP displacement",
+      "summary": "Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+        "https://x.com/lilyraynyc/status/2100043348690219490",
+        "https://x.com/aleyda/status/2099915188690633060"
+      ],
+      "insights_added": [
+        "ins_willison-max-thinking-token-burn",
+        "ins_ray-publishing-cost-index-chaos",
+        "ins_solis-ecommerce-serp-layout-traffic-drop"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-22.md",
       "date": "2026-09-22",
