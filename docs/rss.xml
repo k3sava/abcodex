@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 01:52:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 01:49:55 GMT</lastBuildDate>
+    <item>
+      <title>Criteria drift: why eval agents miss the failures your product team keeps finding</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-24/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-24/</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description>One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.</description>
+    </item>
     <item>
       <title>Extended reasoning limits, publishing cost collapse, and SERP displacement</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-23/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-26/</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Kevin Indig&apos;s primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.</description>
-    </item>
-    <item>
-      <title>Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-25/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-25/</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI&apos;s verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.</description>
     </item>
   </channel>
 </rss>

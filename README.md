@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-23 · 3 insights
+### Latest · 2026-09-24 · 1 insight
 
-**Extended reasoning limits, publishing cost collapse, and SERP displacement.** Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.
+**Criteria drift: why eval agents miss the failures your product team keeps finding.** One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.
 
-[Read what landed →](insight-library/daily/2026-09-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1170** insight cards
+- **1171** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

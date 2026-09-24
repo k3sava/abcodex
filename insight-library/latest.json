@@ -1,19 +1,15 @@
 {
-  "generated_at": "2026-09-23T01:51:59.852Z",
+  "generated_at": "2026-09-24T01:49:52.991Z",
   "latest_daily": {
-    "path": "daily/2026-09-23.md",
-    "date": "2026-09-23",
-    "title": "Extended reasoning limits, publishing cost collapse, and SERP displacement",
-    "summary": "Three cards from three operators. Simon Willison documented a specific failure mode in Claude Opus 5.5 max extended thinking. Lily Ray identified the last quality gate that kept search indexes healthy before LLMs arrived. Aleyda Solis showed ecommerce sites how to correctly diagnose YOY organic traffic drops that look like ranking failures but are SERP layout displacements.",
+    "path": "daily/2026-09-24.md",
+    "date": "2026-09-24",
+    "title": "Criteria drift: why eval agents miss the failures your product team keeps finding",
+    "summary": "One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-      "https://x.com/lilyraynyc/status/2100043348690219490",
-      "https://x.com/aleyda/status/2099915188690633060"
+      "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
     ],
     "insights_added": [
-      "ins_willison-max-thinking-token-burn",
-      "ins_ray-publishing-cost-index-chaos",
-      "ins_solis-ecommerce-serp-layout-traffic-drop"
+      "ins_husain-shankar-criteria-drift"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +17,22 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-24.md",
+      "date": "2026-09-24",
+      "title": "Criteria drift: why eval agents miss the failures your product team keeps finding",
+      "summary": "One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
+      ],
+      "insights_added": [
+        "ins_husain-shankar-criteria-drift"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-23.md",
       "date": "2026-09-23",
@@ -657,31 +669,6 @@
         "ins_tunguz-english-as-software-grammar"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-25.md",
-      "date": "2026-08-25",
-      "title": "Cascading constraints, stubborn humans, and what you learn when you refuse to take the shortcut",
-      "summary": "Four new cards from four operators. Tunguz maps the hardware bottleneck that follows the AI demand wave. Torvalds documents what happens when a developer refuses to accept the AI's verdict of impossible. Indig quantifies how volatile search has become in 2026. Webb makes a case for learning over generating.",
-      "sources": [
-        "https://www.tomtunguz.com/the-ai-cost-stack/",
-        "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-        "https://www.growth-memo.com/p/growth-intelligence-brief-23",
-        "https://interconnected.org/home/2026/08/21/galactic"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-infrastructure-bullwhip",
-        "ins_torvalds-ai-debugging-persistence",
-        "ins_indig-search-volatility-2026-baseline",
-        "ins_webb-ai-tutor-over-generator"
-      ],
-      "operators_added": [
-        "linus-torvalds",
-        "matt-webb"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
