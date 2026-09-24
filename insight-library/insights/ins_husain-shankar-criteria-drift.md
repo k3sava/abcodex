@@ -50,4 +50,4 @@ Agents can be given explicit criteria derived from prior human annotation rounds
 - `ins_husain-triage-before-eval-tooling`: the prior card on sequencing; triage and annotation must precede eval tooling. Criteria-drift is the failure mode that explains why.
 - `ins_husain-eval-premature-automation`: automating before the failure-mode inventory is stable produces metrics that optimize for the wrong signals. Criteria-drift is the mechanism.
 - `ins_husain-product-before-evals`: upstream product design failures that evals cannot catch. The leasing assistant example straddles both; it is a product-design failure that criteria-drift also explains.
-- `ins_error-analysis-highest-leverage-eval-step`: error analysis as the highest-leverage eval step aligns with the annotation-first model; that is the human grounding step that precedes automation.
+- `ins_error-analysis-highest-leverage-eval-step`: error analysis as the primary eval step aligns with the annotation-first model; that is the human grounding step that precedes automation.
