@@ -31,7 +31,7 @@ Holds when: the annotation task involves judgment calls where humans are genuine
 Fails when: the judgment is inherently graded (e.g., severity of a security issue, degree of fluency) and collapsing to binary loses meaningful signal. In those cases, a binary anchor combined with optional severity notation preserves forced judgment while capturing gradation.
 
 ## Evidence
-From Husain and Shankar's comprehensive FAQ, published on hamel.dev in September 2026 as a distillation of what the two learned teaching 5,000 engineers and PMs about AI evals:
+From Husain and Shankar's FAQ, published on hamel.dev in September 2026 as a distillation of what the two learned teaching 5,000 engineers and PMs about AI evals:
 
 > "Binary decisions force people to make a decision rather than hiding uncertainty"
 
