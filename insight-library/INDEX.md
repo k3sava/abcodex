@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-24. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1171 insight cards
+- 1175 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (729)
+### Tier B (733)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -442,6 +442,7 @@ _Generated 2026-09-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
+- [`ins_ball-specification-bug-era`](insights/ins_ball-specification-bug-era.md) — As AI handles coding reliably, most software bugs shift from implementation errors to specification errors _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
 - [`ins_barry-schwartz-preferred-source-labels`](insights/ins_barry-schwartz-preferred-source-labels.md) — Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it _(Barry Schwartz)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
@@ -612,7 +613,9 @@ _Generated 2026-09-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
+- [`ins_husain-binary-over-likert`](insights/ins_husain-binary-over-likert.md) — Binary pass/fail annotation produces better quality than Likert scales by forcing judgment on uncertain cases _(Hamel Husain)_
 - [`ins_husain-eval-premature-automation`](insights/ins_husain-eval-premature-automation.md) — Eval tooling anchors teams on generic automated metrics before they have examined enough outputs to know what actually fails _(Hamel Husain)_
+- [`ins_husain-judge-context-rot`](insights/ins_husain-judge-context-rot.md) — Excess context in LLM judge prompts degrades accuracy; judges need only the evidence relevant to the specific failure _(Hamel Husain)_
 - [`ins_husain-model-cascade-routing`](insights/ins_husain-model-cascade-routing.md) — Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost _(Hamel Husain)_
 - [`ins_husain-product-before-evals`](insights/ins_husain-product-before-evals.md) — Most LLM evaluation failures trace to product design problems upstream of the model, not model capability _(Hamel Husain)_
 - [`ins_husain-retrieval-first-hierarchy`](insights/ins_husain-retrieval-first-hierarchy.md) — Optimize retrieval and context before touching systems, and post-train only after exhausting both _(Hamel Husain)_
@@ -636,6 +639,7 @@ _Generated 2026-09-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
+- [`ins_indig-executive-ai-mandate-gap`](insights/ins_indig-executive-ai-mandate-gap.md) — Executives mandate AI adoption while using it minimally themselves; documented hour tallies beat opinion when managing upward _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 01:49:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 01:47:47 GMT</lastBuildDate>
+    <item>
+      <title>Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-25/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-25/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.</description>
+    </item>
     <item>
       <title>Criteria drift: why eval agents miss the failures your product team keeps finding</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-24/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-27/</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from two operators. Kevin Indig&apos;s measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.</description>
-    </item>
-    <item>
-      <title>Google&apos;s spam filter, an agent&apos;s sleep cycle, and the sentence that replaces a grammar textbook</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-26/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-26/</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Kevin Indig&apos;s primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.</description>
     </item>
   </channel>
 </rss>

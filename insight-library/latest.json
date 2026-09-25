@@ -1,15 +1,20 @@
 {
-  "generated_at": "2026-09-24T01:49:52.991Z",
+  "generated_at": "2026-09-25T01:47:45.404Z",
   "latest_daily": {
-    "path": "daily/2026-09-24.md",
-    "date": "2026-09-24",
-    "title": "Criteria drift: why eval agents miss the failures your product team keeps finding",
-    "summary": "One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.",
+    "path": "daily/2026-09-25.md",
+    "date": "2026-09-25",
+    "title": "Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25",
+    "summary": "Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.",
     "sources": [
-      "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
+      "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+      "https://hamel.dev/blog/posts/evals-faq/",
+      "https://www.growth-memo.com/p/managing-the-ai-mandate-upward"
     ],
     "insights_added": [
-      "ins_husain-shankar-criteria-drift"
+      "ins_ball-specification-bug-era",
+      "ins_husain-binary-over-likert",
+      "ins_husain-judge-context-rot",
+      "ins_indig-executive-ai-mandate-gap"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17,6 +22,27 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-25.md",
+      "date": "2026-09-25",
+      "title": "Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25",
+      "summary": "Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.",
+      "sources": [
+        "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+        "https://hamel.dev/blog/posts/evals-faq/",
+        "https://www.growth-memo.com/p/managing-the-ai-mandate-upward"
+      ],
+      "insights_added": [
+        "ins_ball-specification-bug-era",
+        "ins_husain-binary-over-likert",
+        "ins_husain-judge-context-rot",
+        "ins_indig-executive-ai-mandate-gap"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-24.md",
       "date": "2026-09-24",
@@ -647,26 +673,6 @@
         "ins_indig-aggregator-chatgpt-citation-gap",
         "ins_ronacher-language-choice-ai-era",
         "ins_ronacher-reasoning-traces-as-text"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-26.md",
-      "date": "2026-08-26",
-      "title": "Google's spam filter, an agent's sleep cycle, and the sentence that replaces a grammar textbook",
-      "summary": "Three new cards from two operators. Kevin Indig's primary data isolates which listicles Google targeted. Tomasz Tunguz maps the agent architecture that survives time, and the mechanism that makes English a universal software interface.",
-      "sources": [
-        "https://www.growth-memo.com/p/has-google-demoted-listicles",
-        "https://www.tomtunguz.com/how-long-should-an-agent-live/",
-        "https://www.tomtunguz.com/previously-unmanufacturable/"
-      ],
-      "insights_added": [
-        "ins_indig-google-demoted-spam-listicles",
-        "ins_tunguz-agent-24h-sleep-cycle",
-        "ins_tunguz-english-as-software-grammar"
       ],
       "operators_added": [],
       "patterns_added": [],
