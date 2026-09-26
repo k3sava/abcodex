@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-25. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1175 insight cards
+- 1177 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (733)
+### Tier B (735)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -736,6 +736,7 @@ _Generated 2026-09-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_misunderstood-exact-people-fighting`](insights/ins_misunderstood-exact-people-fighting.md) — • You'll be misunderstood by the exact people you are fighting for _(Ani Filipova)_
 - [`ins_mlx-jaccl-cluster-inference`](insights/ins_mlx-jaccl-cluster-inference.md) — Linking Apple Silicon Macs over Thunderbolt 5 with JACCL achieves 3x LLM inference speed and enables trillion-parameter local inference _(Angelos Katharopoulos)_
 - [`ins_mollick-14h-agent-run-cost`](insights/ins_mollick-14h-agent-run-cost.md) — A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs _(Ethan Mollick)_
+- [`ins_mollick-agency-ai-frontier`](insights/ins_mollick-agency-ai-frontier.md) — Agency to test AI limits is the only way to discover capabilities before they are publicly announced _(Ethan Mollick)_
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
@@ -747,6 +748,7 @@ _Generated 2026-09-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
 - [`ins_mollick-twilight-factory-human-loop`](insights/ins_mollick-twilight-factory-human-loop.md) — Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios _(Ethan Mollick)_
+- [`ins_mollick-wide-knowledge-unlocks-ai`](insights/ins_mollick-wide-knowledge-unlocks-ai.md) — Wide knowledge beats narrow expertise when prompting AI, because AI only surfaces patterns you know to ask for _(Ethan Mollick)_
 - [`ins_mosseri-ai-authenticity-tailwind`](insights/ins_mosseri-ai-authenticity-tailwind.md) — The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it _(Adam Mosseri)_
 - [`ins_most-generous-interpretation`](insights/ins_most-generous-interpretation.md) — Adopt the Most Generous Interpretation of frustrating behaviour to find the real intervention _(Becky Kennedy)_
 - [`ins_most-gtm-strategies-fail-because`](insights/ins_most-gtm-strategies-fail-because.md) — Most GTM strategies fail because they're built for 2020, not 2025 _(Kabir Uppal)_

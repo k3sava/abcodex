@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-25 · 4 insights
+### Latest · 2026-09-26 · 2 insights
 
-**Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25.** Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.
+**Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework.** Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.
 
-[Read what landed →](insight-library/daily/2026-09-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1175** insight cards
+- **1177** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
