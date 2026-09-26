@@ -1,20 +1,16 @@
 {
-  "generated_at": "2026-09-25T01:47:45.404Z",
+  "generated_at": "2026-09-26T01:53:41.750Z",
   "latest_daily": {
-    "path": "daily/2026-09-25.md",
-    "date": "2026-09-25",
-    "title": "Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25",
-    "summary": "Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.",
+    "path": "daily/2026-09-26.md",
+    "date": "2026-09-26",
+    "title": "Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework",
+    "summary": "Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.",
     "sources": [
-      "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
-      "https://hamel.dev/blog/posts/evals-faq/",
-      "https://www.growth-memo.com/p/managing-the-ai-mandate-upward"
+      "https://www.oneusefulthing.org/p/the-overhang"
     ],
     "insights_added": [
-      "ins_ball-specification-bug-era",
-      "ins_husain-binary-over-likert",
-      "ins_husain-judge-context-rot",
-      "ins_indig-executive-ai-mandate-gap"
+      "ins_mollick-wide-knowledge-unlocks-ai",
+      "ins_mollick-agency-ai-frontier"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -22,6 +18,23 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-26.md",
+      "date": "2026-09-26",
+      "title": "Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework",
+      "summary": "Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-overhang"
+      ],
+      "insights_added": [
+        "ins_mollick-wide-knowledge-unlocks-ai",
+        "ins_mollick-agency-ai-frontier"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-25.md",
       "date": "2026-09-25",
@@ -653,26 +666,6 @@
         "ins_shipper-taste-agent-hill-climb",
         "ins_shipper-disclosure-gap",
         "ins_shipper-rule-complexity-floor"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-27.md",
-      "date": "2026-08-27",
-      "title": "The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text",
-      "summary": "Three new cards from two operators. Kevin Indig's measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.",
-      "sources": [
-        "https://www.growth-memo.com/p/growth-intelligence-brief-23",
-        "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
-        "https://lucumr.pocoo.org/2026/8/19/what-is-reasoning/"
-      ],
-      "insights_added": [
-        "ins_indig-aggregator-chatgpt-citation-gap",
-        "ins_ronacher-language-choice-ai-era",
-        "ins_ronacher-reasoning-traces-as-text"
       ],
       "operators_added": [],
       "patterns_added": [],

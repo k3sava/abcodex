@@ -1,29 +1,25 @@
 {
-  "generated_at": "2026-09-25T01:47:45.354Z",
+  "generated_at": "2026-09-26T01:53:41.701Z",
   "counts": {
-    "insights": 1175,
+    "insights": 1177,
     "operators": 542,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 117
+    "daily": 118
   },
   "latest_daily": {
-    "path": "daily/2026-09-25.md",
-    "date": "2026-09-25",
-    "title": "Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25",
-    "summary": "Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.",
+    "path": "daily/2026-09-26.md",
+    "date": "2026-09-26",
+    "title": "Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework",
+    "summary": "Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.",
     "sources": [
-      "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
-      "https://hamel.dev/blog/posts/evals-faq/",
-      "https://www.growth-memo.com/p/managing-the-ai-mandate-upward"
+      "https://www.oneusefulthing.org/p/the-overhang"
     ],
     "insights_added": [
-      "ins_ball-specification-bug-era",
-      "ins_husain-binary-over-likert",
-      "ins_husain-judge-context-rot",
-      "ins_indig-executive-ai-mandate-gap"
+      "ins_mollick-wide-knowledge-unlocks-ai",
+      "ins_mollick-agency-ai-frontier"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -16748,6 +16744,35 @@
       "title": "A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs"
     },
     {
+      "path": "insights/ins_mollick-agency-ai-frontier.md",
+      "id": "ins_mollick-agency-ai-frontier",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor of Management, Wharton School; author of Co-Intelligence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-overhang",
+      "source_type": "essay",
+      "source_title": "The Overhang",
+      "source_date": "2026-09-18",
+      "captured_date": "2026-09-26",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-selection-scarce-resource",
+        "ins_mollick-delegation-over-prompting"
+      ],
+      "raw_ref": "",
+      "title": "Agency to test AI limits is the only way to discover capabilities before they are publicly announced"
+    },
+    {
       "path": "insights/ins_mollick-agent-era-favors-experts.md",
       "id": "ins_mollick-agent-era-favors-experts",
       "operator": "Ethan Mollick",
@@ -17086,6 +17111,35 @@
       ],
       "raw_ref": "",
       "title": "Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios"
+    },
+    {
+      "path": "insights/ins_mollick-wide-knowledge-unlocks-ai.md",
+      "id": "ins_mollick-wide-knowledge-unlocks-ai",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor of Management, Wharton School; author of Co-Intelligence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-overhang",
+      "source_type": "essay",
+      "source_title": "The Overhang",
+      "source_date": "2026-09-18",
+      "captured_date": "2026-09-26",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-selection-scarce-resource",
+        "ins_mollick-agent-era-favors-experts"
+      ],
+      "raw_ref": "",
+      "title": "Wide knowledge beats narrow expertise when prompting AI, because AI only surfaces patterns you know to ask for"
     },
     {
       "path": "insights/ins_mosseri-ai-authenticity-tailwind.md",
@@ -48955,6 +49009,23 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-26.md",
+      "date": "2026-09-26",
+      "title": "Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework",
+      "summary": "Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-overhang"
+      ],
+      "insights_added": [
+        "ins_mollick-wide-knowledge-unlocks-ai",
+        "ins_mollick-agency-ai-frontier"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-25.md",
       "date": "2026-09-25",

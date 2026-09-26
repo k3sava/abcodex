@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 01:47:47 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 01:53:44 GMT</lastBuildDate>
+    <item>
+      <title>Vocabulary and agency: two uncaptured dimensions of Mollick&apos;s capability-overhang framework</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-26/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-26/</guid>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Two cards from Ethan Mollick&apos;s &apos;The Overhang&apos; complete the library&apos;s capture of that September 18 essay. The selection claim was captured September 19. These two were not.</description>
+    </item>
     <item>
       <title>Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-25/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-28/</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from Dan Shipper&apos;s August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.</description>
-    </item>
-    <item>
-      <title>The 37-point citation gap, a dissolved familiarity tax, and reasoning that is just text</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-27/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-27/</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from two operators. Kevin Indig&apos;s measurement from GIB #23 shows aggregators losing 37.7 points of citation share between Google and ChatGPT. Armin Ronacher demystifies two developer assumptions: that language familiarity still constrains choices, and that frontier model reasoning is architecturally distinct from regular output.</description>
     </item>
   </channel>
 </rss>
