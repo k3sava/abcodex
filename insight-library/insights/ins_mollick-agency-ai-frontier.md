@@ -43,7 +43,7 @@ The claim is that this willingness, not technical depth or tool access, is the v
 - You treat AI refusals or failures as information about the frontier, not as final verdicts.
 
 ## Counter-evidence
-Systematic capability research from labs and third-party benchmarkers partially reduces the agency advantage by surfacing capabilities formally. As evals become more comprehensive, independent discovery matters less. Organized communities also aggregate discoveries quickly, shortening the individual advantage window.
+Systematic capability research from labs and third-party benchmarkers partially reduces the agency advantage by surfacing capabilities formally. As evals mature and expand in breadth, independent discovery matters less. Organized communities also aggregate discoveries quickly, shortening the individual advantage window.
 
 ## Cross-references
 - `ins_mollick-selection-scarce-resource`: as production cost collapses, the bottleneck shifts to selection; agency determines what gets tried, which is now the scarce variable.
