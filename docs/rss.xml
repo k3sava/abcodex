@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Sep 2026 01:53:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 01:57:49 GMT</lastBuildDate>
+    <item>
+      <title>AI demand&apos;s fat middle, engineering as system design, decision models as eval judges</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-27/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-27/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.</description>
+    </item>
     <item>
       <title>Vocabulary and agency: two uncaptured dimensions of Mollick&apos;s capability-overhang framework</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-26/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-29/</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Tunguz reads NVIDIA&apos;s receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.</description>
-    </item>
-    <item>
-      <title>Encoding taste from 30,000 edits, rule complexity that resists full automation, and the disclosure gap in AI writing</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-28/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-28/</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from Dan Shipper&apos;s August 20 Platformer interview. One strong Tier B on building a copy-editing agent from historical decisions via hill-climbing. Two Tier C cards: one on the hidden exception-density in rule-based tasks, one on the gap between private AI use and public disclosure among writers.</description>
     </item>
   </channel>
 </rss>

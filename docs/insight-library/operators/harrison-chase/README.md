@@ -25,6 +25,8 @@ Harrison Chase is the co-founder and CEO of LangChain and one of the operators m
 
 ## Cards
 - `ins_traces-need-feedback-to-learn`, A trace alone teaches nothing; learning requires feedback attached to the trace [Tier A]
+- `ins_chase-jev-as-eval-judge`, Decision models outperform LLM judges in agent evals at 1,000 to 80,000 times lower cost [Tier B]
 
 ## Sources captured
 - 2026-05-05, *Agent observability needs feedback to power learning* (LangChain blog)
+- 2026-09-20, *Jev-as-a-Judge for Agent Evals* (LangChain blog, with Daniel Shea and Seán Roche)
