@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-26 · 2 insights
+### Latest · 2026-09-27 · 3 insights
 
-**Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework.** Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.
+**AI demand's fat middle, engineering as system design, decision models as eval judges.** Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.
 
-[Read what landed →](insight-library/daily/2026-09-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1177** insight cards
+- **1180** insight cards
 - **542** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

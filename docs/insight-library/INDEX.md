@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1177 insight cards
+- 1180 insight cards
 - 542 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (735)
+### Tier B (738)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -481,6 +481,7 @@ _Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_chase-agent-infra-rebuild-tax`](insights/ins_chase-agent-infra-rebuild-tax.md) — The primary cost in production agent development is rebuilding the same infrastructure per project _(Harrison Chase)_
 - [`ins_chase-compound-intelligence-ownership`](insights/ins_chase-compound-intelligence-ownership.md) — Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access _(Harrison Chase)_
 - [`ins_chase-context-engineering-vs-code-inspection`](insights/ins_chase-context-engineering-vs-code-inspection.md) — Debugging long-horizon agents requires trace inspection, not code review, because agent logic lives in the context window at each step _(Harrison Chase)_
+- [`ins_chase-jev-as-eval-judge`](insights/ins_chase-jev-as-eval-judge.md) — Decision models outperform LLM judges in agent evals at 1,000 to 80,000 times lower cost because they output typed verdicts directly rather than generating reasoning text _(Harrison Chase)_
 - [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
@@ -975,6 +976,7 @@ _Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-english-as-software-grammar`](insights/ins_tunguz-english-as-software-grammar.md) — AI converts English into a universal interface for grammar-heavy software _(Tomasz Tunguz)_
 - [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-fat-middle-demand-distribution`](insights/ins_tunguz-fat-middle-demand-distribution.md) — AI intelligence demand follows a normal distribution, not a pyramid; mid-tier models dominate commercial spending because enterprise requirements are stable while AI costs fall exponentially _(Tom Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
@@ -997,6 +999,7 @@ _Generated 2026-09-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
+- [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_
 - [`ins_turnbull-hypothetical-classification`](insights/ins_turnbull-hypothetical-classification.md) — Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy _(Doug Turnbull)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
