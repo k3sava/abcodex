@@ -26,7 +26,7 @@ Once a software factory automates code generation, the bottleneck moves from pro
 ## Mechanism
 Code generation is now cheap and fast. A factory that generates 2,000 PRs per month does not struggle to produce code. It struggles to get engineers to review 2,000 PRs. The review step requires human judgment: understanding intent, evaluating correctness across complex codebases, and catching subtle errors that test suites miss. This is not a step that can be easily automated without accepting higher defect rates. As generation throughput rises, the review queue is the first thing that backs up.
 
-The implication for engineering organization is direct: optimizing for code generation speed has diminishing returns once the factory is running. Optimizing for review throughput, through better tooling, tighter scoping, or more reviewers, becomes the next leverage point.
+The implication for engineering organization is direct: optimizing for code generation speed has diminishing returns once the factory is running. Optimizing for review throughput, through better tooling, tighter scoping, or more reviewers, becomes the next constraint worth solving.
 
 ## Conditions
 Holds when: the organization has built or adopted a software factory that automates code generation at meaningful volume. Before that point, generation speed is the constraint.

@@ -24,7 +24,7 @@ raw_ref: ""
 Coding agents make software engineering harder in practice, not easier, because they absorb routine work and leave the remaining subset of genuinely difficult problems for the human to solve.
 
 ## Mechanism
-When an agent handles boilerplate, simple debugging, and familiar patterns, the human engineer only encounters tasks the agent could not finish. The distribution of work that reaches the engineer has been filtered for difficulty. Every remaining task carries a higher cognitive load than it would without the agent. Unlocking the agent's full capability also requires significant discipline: writing clear prompts, verifying outputs, catching subtle errors, and knowing when to intervene. The overhead of directing the agent adds to, rather than subtracts from, the engineering effort on hard problems.
+When an agent handles boilerplate, simple debugging, and familiar patterns, the human engineer only encounters tasks the agent could not finish. The distribution of work that reaches the engineer has been filtered for difficulty. Every remaining task carries a higher cognitive load than it would without the agent. Getting full output from the agent also requires significant discipline: writing clear prompts, verifying outputs, catching subtle errors, and knowing when to intervene. The overhead of directing the agent adds to, rather than subtracts from, the engineering effort on hard problems.
 
 ## Conditions
 Holds when: the engineer is using a capable coding agent regularly across a variety of tasks. The effect is most pronounced on engineers who adopt agents broadly and stop handling easy work manually.
