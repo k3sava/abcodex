@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Sep 2026 01:57:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 01:44:59 GMT</lastBuildDate>
+    <item>
+      <title>Agents shift the floor, software factories reveal the ceiling</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-28/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-28/</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp&apos;s 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.</description>
+    </item>
     <item>
       <title>AI demand&apos;s fat middle, engineering as system design, decision models as eval judges</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-27/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-30/</guid>
       <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
       <description>Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.</description>
-    </item>
-    <item>
-      <title>Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-29/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-29/</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Tunguz reads NVIDIA&apos;s receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.</description>
     </item>
   </channel>
 </rss>

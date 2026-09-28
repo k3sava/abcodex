@@ -1,30 +1,33 @@
 {
-  "generated_at": "2026-09-27T01:57:46.323Z",
+  "generated_at": "2026-09-28T01:44:57.275Z",
   "counts": {
-    "insights": 1180,
-    "operators": 542,
+    "insights": 1184,
+    "operators": 543,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 119
+    "daily": 120
   },
   "latest_daily": {
-    "path": "daily/2026-09-27.md",
-    "date": "2026-09-27",
-    "title": "AI demand's fat middle, engineering as system design, decision models as eval judges",
-    "summary": "Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.",
+    "path": "daily/2026-09-28.md",
+    "date": "2026-09-28",
+    "title": "Agents shift the floor, software factories reveal the ceiling",
+    "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
     "sources": [
-      "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/",
-      "https://tomtunguz.com/thinking-in-systems/",
-      "https://www.langchain.com/blog/jev-agent-evals-langsmith"
+      "https://simonwillison.net/2026/Sep/24/harder/",
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
     ],
     "insights_added": [
-      "ins_tunguz-fat-middle-demand-distribution",
-      "ins_tunguz-systems-over-code",
-      "ins_chase-jev-as-eval-judge"
+      "ins_willison-agents-complexity-shift",
+      "ins_willison-engineering-core-is-direction",
+      "ins_lloyd-software-factory-pipeline",
+      "ins_lloyd-review-bottleneck"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "zach-lloyd"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -14752,6 +14755,68 @@
       "related": [],
       "raw_ref": "",
       "title": "LLMs learn about your brand from the world, not from your site"
+    },
+    {
+      "path": "insights/ins_lloyd-review-bottleneck.md",
+      "id": "ins_lloyd-review-bottleneck",
+      "operator": "Zach Lloyd",
+      "operator_role": "Co-founder and CEO of Warp",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "source_type": "podcast",
+      "source_title": "How Warp ships 2,000 PRs a month with AI factories",
+      "source_date": "2026-09-21",
+      "captured_date": "2026-09-28",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lloyd-software-factory-pipeline",
+        "ins_tunguz-systems-over-code"
+      ],
+      "raw_ref": "",
+      "title": "When AI automates code generation at scale, human code review becomes the primary throughput constraint"
+    },
+    {
+      "path": "insights/ins_lloyd-software-factory-pipeline.md",
+      "id": "ins_lloyd-software-factory-pipeline",
+      "operator": "Zach Lloyd",
+      "operator_role": "Co-founder and CEO of Warp",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "source_type": "podcast",
+      "source_title": "How Warp ships 2,000 PRs a month with AI factories",
+      "source_date": "2026-09-21",
+      "captured_date": "2026-09-28",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lloyd-review-bottleneck",
+        "ins_tunguz-systems-over-code"
+      ],
+      "raw_ref": "",
+      "title": "A software factory is a connected pipeline from idea intake to merged PR, not a standalone code-generation agent"
     },
     {
       "path": "insights/ins_lock-s-ceo-evaluation-rubric.md",
@@ -30871,6 +30936,36 @@
       "title": "Agentic coding removes the time-cost filter that once kept poor architecture decisions out"
     },
     {
+      "path": "insights/ins_willison-agents-complexity-shift.md",
+      "id": "ins_willison-agents-complexity-shift",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer, co-creator of Django, creator of Datasette; technology journalist and blogger at simonwillison.net",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/24/harder/",
+      "source_type": "post",
+      "source_title": "Note on 24th September 2026",
+      "source_date": "2026-09-24",
+      "captured_date": "2026-09-28",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-engineering-core-is-direction",
+        "ins_ball-specification-bug-era"
+      ],
+      "raw_ref": "",
+      "title": "Coding agents shift the difficulty floor upward, leaving only the hard problems for human engineers"
+    },
+    {
       "path": "insights/ins_willison-agents-gui-zero-cost.md",
       "id": "ins_willison-agents-gui-zero-cost",
       "operator": "Simon Willison",
@@ -31380,6 +31475,36 @@
       ],
       "raw_ref": "",
       "title": "Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework"
+    },
+    {
+      "path": "insights/ins_willison-engineering-core-is-direction.md",
+      "id": "ins_willison-engineering-core-is-direction",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer, co-creator of Django, creator of Datasette; technology journalist and blogger at simonwillison.net",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source_type": "talk",
+      "source_title": "2026 in LLMs (so far)",
+      "source_date": "2026-09-27",
+      "captured_date": "2026-09-28",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-agents-complexity-shift",
+        "ins_november-2025-coding-inflection"
+      ],
+      "raw_ref": "",
+      "title": "Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was."
     },
     {
       "path": "insights/ins_willison-eval-containment-gap.md",
@@ -42994,6 +43119,22 @@
       "title": "Zach Kehs"
     },
     {
+      "path": "operators/zach-lloyd/README.md",
+      "name": "Zach Lloyd",
+      "slug": "zach-lloyd",
+      "roles": [
+        "Co-founder and CEO of Warp"
+      ],
+      "domains_active": [
+        "engineering-ai-eng",
+        "ai-native",
+        "agentic-coding"
+      ],
+      "captured_first": "2026-09-28",
+      "external": "{}",
+      "title": "Zach Lloyd"
+    },
+    {
       "path": "operators/zoe-hitzig/README.md",
       "name": "Zoe Hitzig",
       "slug": "zoe-hitzig",
@@ -49110,6 +49251,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-28.md",
+      "date": "2026-09-28",
+      "title": "Agents shift the floor, software factories reveal the ceiling",
+      "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/24/harder/",
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+        "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+      ],
+      "insights_added": [
+        "ins_willison-agents-complexity-shift",
+        "ins_willison-engineering-core-is-direction",
+        "ins_lloyd-software-factory-pipeline",
+        "ins_lloyd-review-bottleneck"
+      ],
+      "operators_added": [
+        "zach-lloyd"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-27.md",
       "date": "2026-09-27",

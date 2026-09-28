@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1180 insight cards
-- 542 operator profiles
+- 1184 insight cards
+- 543 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -370,7 +370,7 @@ _Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (738)
+### Tier B (742)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -696,6 +696,8 @@ _Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
 - [`ins_litt-understand-to-participate`](insights/ins_litt-understand-to-participate.md) — Developers need conceptual fluency with what an agent builds to remain active creative collaborators, not passive reviewers _(Geoffrey Litt)_
 - [`ins_llms-learn-from-the-world`](insights/ins_llms-learn-from-the-world.md) — LLMs learn about your brand from the world, not from your site _(Eli Schwartz)_
+- [`ins_lloyd-review-bottleneck`](insights/ins_lloyd-review-bottleneck.md) — When AI automates code generation at scale, human code review becomes the primary throughput constraint _(Zach Lloyd)_
+- [`ins_lloyd-software-factory-pipeline`](insights/ins_lloyd-software-factory-pipeline.md) — A software factory is a connected pipeline from idea intake to merged PR, not a standalone code-generation agent _(Zach Lloyd)_
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
 - [`ins_lollapalooza-effects`](insights/ins_lollapalooza-effects.md) — Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning _(Charlie Munger)_
 - [`ins_luxury-brand-strategy`](insights/ins_luxury-brand-strategy.md) — Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin _(Scott Galloway)_
@@ -1044,6 +1046,7 @@ _Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-agent-research-spend-surge`](insights/ins_willison-agent-research-spend-surge.md) — OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model _(Simon Willison)_
 - [`ins_willison-agentic-cost-removes-discipline`](insights/ins_willison-agentic-cost-removes-discipline.md) — Agentic coding removes the time-cost filter that once kept poor architecture decisions out _(Simon Willison)_
+- [`ins_willison-agents-complexity-shift`](insights/ins_willison-agents-complexity-shift.md) — Coding agents shift the difficulty floor upward, leaving only the hard problems for human engineers _(Simon Willison)_
 - [`ins_willison-agents-gui-zero-cost`](insights/ins_willison-agents-gui-zero-cost.md) — AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools _(Simon Willison)_
 - [`ins_willison-ai-product-capability-opacity`](insights/ins_willison-ai-product-capability-opacity.md) — AI product pages that describe use cases rather than capabilities make security assessment impossible _(Simon Willison)_
 - [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
@@ -1059,6 +1062,7 @@ _Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
+- [`ins_willison-engineering-core-is-direction`](insights/ins_willison-engineering-core-is-direction.md) — Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was. _(Simon Willison)_
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
@@ -1740,6 +1744,7 @@ _Generated 2026-09-27. Auto-built from frontmatter — do not edit by hand._
 - [Yogi Gnanavel](operators/yogi-gnanavel/README.md)
 - [Yosha Gupta](operators/yosha-gupta/README.md)
 - [Zach Kehs](operators/zach-kehs/README.md)
+- [Zach Lloyd](operators/zach-lloyd/README.md)
 - [Zoe Hitzig](operators/zoe-hitzig/README.md)
 
 ## Raw sources by type
