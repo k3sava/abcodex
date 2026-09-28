@@ -35,8 +35,13 @@ Simon Willison's foundational contribution is the taxonomy of how professionals 
 - `ins_willison-fable-relentlessly-proactive`, Frontier agents deploy breadth-first problem decomposition, trying every available technique when blocked [Tier B]
 - `ins_willison-publish-unhappy`, Publish writing while still unhappy with it; perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts [Tier B]
 
+- `ins_willison-agents-complexity-shift`, Coding agents shift the difficulty floor; only hard problems remain for the engineer [Tier B]
+- `ins_willison-engineering-core-is-direction`, Directing agents demands the same skill that made good engineers good [Tier B]
+
 ## Sources captured
 - 2026-04-02, Lenny's Podcast, "Agentic engineering and the November inflection" (`raw/podcasts/simon-willison--agentic-engineering-november-inflection--2026-04-02.md`)
 - 2026-04, `heres-how-i-use-llms-to-help-me-write-code.md` (operator essay archive)
 - 2026-04, `vibe-engineering.md` (operator essay archive)
 - 2026-04, `agentic-engineering-patterns-simon-willisons-weblog.md` (operator essay archive)
+- 2026-09-24, simonwillison.net, "Note on 24th September 2026"
+- 2026-09-27, simonwillison.net, "2026 in LLMs (so far)" (keynote at WeAreDevelopers World Congress)

@@ -1,26 +1,52 @@
 {
-  "generated_at": "2026-09-27T01:57:46.381Z",
+  "generated_at": "2026-09-28T01:44:57.331Z",
   "latest_daily": {
-    "path": "daily/2026-09-27.md",
-    "date": "2026-09-27",
-    "title": "AI demand's fat middle, engineering as system design, decision models as eval judges",
-    "summary": "Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.",
+    "path": "daily/2026-09-28.md",
+    "date": "2026-09-28",
+    "title": "Agents shift the floor, software factories reveal the ceiling",
+    "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
     "sources": [
-      "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/",
-      "https://tomtunguz.com/thinking-in-systems/",
-      "https://www.langchain.com/blog/jev-agent-evals-langsmith"
+      "https://simonwillison.net/2026/Sep/24/harder/",
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
     ],
     "insights_added": [
-      "ins_tunguz-fat-middle-demand-distribution",
-      "ins_tunguz-systems-over-code",
-      "ins_chase-jev-as-eval-judge"
+      "ins_willison-agents-complexity-shift",
+      "ins_willison-engineering-core-is-direction",
+      "ins_lloyd-software-factory-pipeline",
+      "ins_lloyd-review-bottleneck"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "zach-lloyd"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-28.md",
+      "date": "2026-09-28",
+      "title": "Agents shift the floor, software factories reveal the ceiling",
+      "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/24/harder/",
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+        "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+      ],
+      "insights_added": [
+        "ins_willison-agents-complexity-shift",
+        "ins_willison-engineering-core-is-direction",
+        "ins_lloyd-software-factory-pipeline",
+        "ins_lloyd-review-bottleneck"
+      ],
+      "operators_added": [
+        "zach-lloyd"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-27.md",
       "date": "2026-09-27",
@@ -653,26 +679,6 @@
       "operators_added": [
         "anil-madhavapeddy"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-29.md",
-      "date": "2026-08-29",
-      "title": "Vendor financing hidden in AR, a replaceability score for content, and the research window that decides Black Friday",
-      "summary": "Three new cards from three operators. Tunguz reads NVIDIA's receivables divergence as a credit signal for the non-hyperscaler customer shift. Indig names substitutability as the precise demotion trigger, not format. Natividad shows that for a $400 device, Claude over-indexes 221% among target buyers during the research phase that precedes any promotional window.",
-      "sources": [
-        "https://www.tomtunguz.com/nvidia-q2-fy27-earnings/",
-        "https://www.growth-memo.com/p/new-claude-skill-commodity-content",
-        "https://sparktoro.com/blog/how-wed-market-a-400-skincare-device-before-black-friday/"
-      ],
-      "insights_added": [
-        "ins_tunguz-nvidia-nonhyperscaler-financing",
-        "ins_indig-content-substitutability-audit",
-        "ins_natividad-research-phase-precedes-promo"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
