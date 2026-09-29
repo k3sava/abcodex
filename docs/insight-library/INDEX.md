@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-28. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1184 insight cards
+- 1187 insight cards
 - 543 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (742)
+### Tier B (745)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -437,8 +437,10 @@ _Generated 2026-09-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_ball-agent-bug-threshold`](insights/ins_ball-agent-bug-threshold.md) — AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold _(Thorsten Ball)_
+- [`ins_ball-agent-picks-the-language`](insights/ins_ball-agent-picks-the-language.md) — Language selection criteria shift from developer preference to agent performance when agents write most of the code _(Thorsten Ball)_
 - [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
 - [`ins_ball-naive-interventionism-ai-code`](insights/ins_ball-naive-interventionism-ai-code.md) — Engineers who dismiss AI-generated code as low-quality apply the same professional bias that causes domain experts to over-intervene within their specialty _(Thorsten Ball)_
+- [`ins_ball-observability-legible-to-agent`](insights/ins_ball-observability-legible-to-agent.md) — When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
@@ -1059,6 +1061,7 @@ _Generated 2026-09-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-decision-model-opacity`](insights/ins_willison-decision-model-opacity.md) — Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable _(Simon Willison)_
+- [`ins_willison-deep-blue-engineer-ennui`](insights/ins_willison-deep-blue-engineer-ennui.md) — Software engineers working with capable coding agents report AI-induced ennui called Deep Blue _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_

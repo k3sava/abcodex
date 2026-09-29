@@ -14,7 +14,7 @@ maturity: foundational
 artifact_class: framework
 score: { originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }
 tier: B
-related: [ins_willison-agents-complexity-shift, ins_november-2025-coding-inflection]
+related: [ins_willison-agents-complexity-shift, ins_november-2025-coding-inflection, ins_willison-deep-blue-engineer-ennui]
 raw_ref: ""
 ---
 
@@ -51,3 +51,4 @@ Some argue that agents lower the threshold for people who lack specification ski
 ## Cross-references
 - `ins_willison-agents-complexity-shift`: Willison's September 24 note on the difficulty floor rising; this card explains why senior engineers navigate that higher floor more effectively.
 - `ins_november-2025-coding-inflection`: Willison's earlier claim that coding agents crossed the reliability threshold in November 2025; this card addresses what that threshold means for required human skill.
+- `ins_willison-deep-blue-engineer-ennui`: the same keynote's account of Deep Blue, the engineer ennui that emerges once agents handle the hard work that previously structured professional identity.

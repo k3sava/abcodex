@@ -14,7 +14,7 @@ maturity: frontier
 artifact_class: framework
 score: { originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }
 tier: B
-related: [ins_ball-naive-interventionism-ai-code, ins_ball-software-is-learning, ins_ball-problem-not-solution]
+related: [ins_ball-naive-interventionism-ai-code, ins_ball-software-is-learning, ins_ball-problem-not-solution, ins_ball-agent-picks-the-language, ins_ball-observability-legible-to-agent]
 raw_ref: ""
 ---
 
@@ -48,3 +48,5 @@ Code review and testing remain relevant while AI reliability is partial in the c
 - `ins_ball-naive-interventionism-ai-code`: the pattern of humans over-correcting AI because they cannot evaluate output at speed, which this shifts.
 - `ins_ball-software-is-learning`: the prior frame on software as a learning process, which specification clarity now extends.
 - `ins_ball-problem-not-solution`: the ownership principle that maps cleanly to spec-first thinking.
+- `ins_ball-agent-picks-the-language`: the downstream consequence for stack selection when agents write the code and specification quality governs output quality.
+- `ins_ball-observability-legible-to-agent`: the infrastructure criterion that surfaces specification-level failures early in agent-written systems.
