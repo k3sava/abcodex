@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 01:44:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 01:45:07 GMT</lastBuildDate>
+    <item>
+      <title>Agent authorship changes what you optimize for in technology</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-29/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-29/</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.</description>
+    </item>
     <item>
       <title>Agents shift the floor, software factories reveal the ceiling</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-28/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-31/</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.</description>
-    </item>
-    <item>
-      <title>A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-30/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-30/</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.</description>
     </item>
   </channel>
 </rss>

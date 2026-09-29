@@ -1,29 +1,44 @@
 {
-  "generated_at": "2026-09-28T01:44:57.331Z",
+  "generated_at": "2026-09-29T01:45:02.395Z",
   "latest_daily": {
-    "path": "daily/2026-09-28.md",
-    "date": "2026-09-28",
-    "title": "Agents shift the floor, software factories reveal the ceiling",
-    "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
+    "path": "daily/2026-09-29.md",
+    "date": "2026-09-29",
+    "title": "Agent authorship changes what you optimize for in technology",
+    "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/24/harder/",
-      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     ],
     "insights_added": [
-      "ins_willison-agents-complexity-shift",
-      "ins_willison-engineering-core-is-direction",
-      "ins_lloyd-software-factory-pipeline",
-      "ins_lloyd-review-bottleneck"
+      "ins_ball-agent-picks-the-language",
+      "ins_ball-observability-legible-to-agent",
+      "ins_willison-deep-blue-engineer-ennui"
     ],
-    "operators_added": [
-      "zach-lloyd"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-29.md",
+      "date": "2026-09-29",
+      "title": "Agent authorship changes what you optimize for in technology",
+      "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
+      "sources": [
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+      ],
+      "insights_added": [
+        "ins_ball-agent-picks-the-language",
+        "ins_ball-observability-legible-to-agent",
+        "ins_willison-deep-blue-engineer-ennui"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-28.md",
       "date": "2026-09-28",
@@ -657,28 +672,6 @@
         "ins_ball-agent-bug-threshold"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-30.md",
-      "date": "2026-08-30",
-      "title": "A negative mean time to exploit, a six-criterion citation framework, and the 48-to-1 widget ratio",
-      "summary": "Three new cards from three operators. Madhavapeddy quantifies that exploitation now precedes patching by seven days. Solis adds a prioritization layer to her AI citation research. Zukowski measures the Steam discovery widget at 48 times more powerful than YouTube Shorts for wishlists.",
-      "sources": [
-        "https://anil.recoil.org/notes/rumour-is-the-exploit",
-        "https://www.aleydasolis.com/en/ai-search/third-party-citation-optimization-ai-search/",
-        "https://howtomarketagame.com/2026/08/21/part-3-the-week-of-the-golden-age-how-many-dudes/"
-      ],
-      "insights_added": [
-        "ins_madhavapeddy-exploit-before-patch",
-        "ins_solis-third-party-citation-prioritization",
-        "ins_zukowski-demo-unlocks-widget-discovery"
-      ],
-      "operators_added": [
-        "anil-madhavapeddy"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

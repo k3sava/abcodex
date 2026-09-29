@@ -1,33 +1,29 @@
 {
-  "generated_at": "2026-09-28T01:44:57.275Z",
+  "generated_at": "2026-09-29T01:45:02.302Z",
   "counts": {
-    "insights": 1184,
+    "insights": 1187,
     "operators": 543,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 120
+    "daily": 121
   },
   "latest_daily": {
-    "path": "daily/2026-09-28.md",
-    "date": "2026-09-28",
-    "title": "Agents shift the floor, software factories reveal the ceiling",
-    "summary": "Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.",
+    "path": "daily/2026-09-29.md",
+    "date": "2026-09-29",
+    "title": "Agent authorship changes what you optimize for in technology",
+    "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/24/harder/",
-      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with"
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     ],
     "insights_added": [
-      "ins_willison-agents-complexity-shift",
-      "ins_willison-engineering-core-is-direction",
-      "ins_lloyd-software-factory-pipeline",
-      "ins_lloyd-review-bottleneck"
+      "ins_ball-agent-picks-the-language",
+      "ins_ball-observability-legible-to-agent",
+      "ins_willison-deep-blue-engineer-ennui"
     ],
-    "operators_added": [
-      "zach-lloyd"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -3046,6 +3042,37 @@
       "title": "AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold"
     },
     {
+      "path": "insights/ins_ball-agent-picks-the-language.md",
+      "id": "ins_ball-agent-picks-the-language",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineering Lead, Amp at Sourcegraph; author of Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+      "source_type": "post",
+      "source_title": "Joy & Curiosity #101",
+      "source_date": "2026-09-26",
+      "captured_date": "2026-09-29",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-specification-bug-era",
+        "ins_ball-observability-legible-to-agent",
+        "ins_agents-erased-cross-platform-advantage"
+      ],
+      "raw_ref": "",
+      "title": "Language selection criteria shift from developer preference to agent performance when agents write most of the code"
+    },
+    {
       "path": "insights/ins_ball-local-dev-orbs-displacement.md",
       "id": "ins_ball-local-dev-orbs-displacement",
       "operator": "Thorsten Ball",
@@ -3105,6 +3132,37 @@
       ],
       "raw_ref": "",
       "title": "Engineers who dismiss AI-generated code as low-quality apply the same professional bias that causes domain experts to over-intervene within their specialty"
+    },
+    {
+      "path": "insights/ins_ball-observability-legible-to-agent.md",
+      "id": "ins_ball-observability-legible-to-agent",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineering Lead, Amp at Sourcegraph; author of Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+      "source_type": "post",
+      "source_title": "Joy & Curiosity #101",
+      "source_date": "2026-09-26",
+      "captured_date": "2026-09-29",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-agent-picks-the-language",
+        "ins_ball-specification-bug-era",
+        "ins_tunguz-systems-over-code"
+      ],
+      "raw_ref": "",
+      "title": "When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent"
     },
     {
       "path": "insights/ins_ball-orb-sandbox-agent-frequency.md",
@@ -3216,7 +3274,9 @@
       "related": [
         "ins_ball-naive-interventionism-ai-code",
         "ins_ball-software-is-learning",
-        "ins_ball-problem-not-solution"
+        "ins_ball-problem-not-solution",
+        "ins_ball-agent-picks-the-language",
+        "ins_ball-observability-legible-to-agent"
       ],
       "raw_ref": "",
       "title": "As AI handles coding reliably, most software bugs shift from implementation errors to specification errors"
@@ -31384,6 +31444,37 @@
       "title": "Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable"
     },
     {
+      "path": "insights/ins_willison-deep-blue-engineer-ennui.md",
+      "id": "ins_willison-deep-blue-engineer-ennui",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer, co-creator of Django, creator of Datasette; technology journalist and blogger at simonwillison.net",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source_type": "talk",
+      "source_title": "2026 in LLMs (so far)",
+      "source_date": "2026-09-27",
+      "captured_date": "2026-09-29",
+      "domain": [
+        "engineering-ai-eng",
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "org-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-engineering-core-is-direction",
+        "ins_november-2025-coding-inflection"
+      ],
+      "raw_ref": "",
+      "title": "Software engineers working with capable coding agents report AI-induced ennui called Deep Blue"
+    },
+    {
       "path": "insights/ins_willison-defensive-security-export-controls.md",
       "id": "ins_willison-defensive-security-export-controls",
       "operator": "Simon Willison",
@@ -31501,7 +31592,8 @@
       "tier": "B",
       "related": [
         "ins_willison-agents-complexity-shift",
-        "ins_november-2025-coding-inflection"
+        "ins_november-2025-coding-inflection",
+        "ins_willison-deep-blue-engineer-ennui"
       ],
       "raw_ref": "",
       "title": "Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was."
@@ -49251,6 +49343,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-09-29.md",
+      "date": "2026-09-29",
+      "title": "Agent authorship changes what you optimize for in technology",
+      "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
+      "sources": [
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+      ],
+      "insights_added": [
+        "ins_ball-agent-picks-the-language",
+        "ins_ball-observability-legible-to-agent",
+        "ins_willison-deep-blue-engineer-ennui"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-28.md",
       "date": "2026-09-28",

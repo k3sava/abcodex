@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-09-28 · 4 insights · 1 operator
+### Latest · 2026-09-29 · 3 insights
 
-**Agents shift the floor, software factories reveal the ceiling.** Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp's 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.
+**Agent authorship changes what you optimize for in technology.** Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.
 
-[Read what landed →](insight-library/daily/2026-09-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-09-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1184** insight cards
+- **1187** insight cards
 - **543** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
