@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-09-29T01:45:02.395Z",
+  "generated_at": "2026-09-30T01:42:29.784Z",
   "latest_daily": {
-    "path": "daily/2026-09-29.md",
-    "date": "2026-09-29",
-    "title": "Agent authorship changes what you optimize for in technology",
-    "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
+    "path": "daily/2026-09-30.md",
+    "date": "2026-09-30",
+    "title": "Attribution collapses, and one measurement illusion falls with it",
+    "summary": "Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.",
     "sources": [
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
+      "https://www.growth-memo.com/p/the-collapse-of-attribution",
       "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
     ],
     "insights_added": [
-      "ins_ball-agent-picks-the-language",
-      "ins_ball-observability-legible-to-agent",
-      "ins_willison-deep-blue-engineer-ennui"
+      "ins_indig-attribution-organic-misfit",
+      "ins_indig-ai-search-attribution-gap",
+      "ins_indig-triangulation-metric-set",
+      "ins_willison-game-loop-agent-limit"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-09-30.md",
+      "date": "2026-09-30",
+      "title": "Attribution collapses, and one measurement illusion falls with it",
+      "summary": "Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.",
+      "sources": [
+        "https://www.growth-memo.com/p/the-collapse-of-attribution",
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+      ],
+      "insights_added": [
+        "ins_indig-attribution-organic-misfit",
+        "ins_indig-ai-search-attribution-gap",
+        "ins_indig-triangulation-metric-set",
+        "ins_willison-game-loop-agent-limit"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-29.md",
       "date": "2026-09-29",
@@ -648,28 +669,6 @@
         "ins_tunguz-model-factory-megawatt-loop",
         "ins_tunguz-frontier-access-as-scarcity",
         "ins_indig-listicle-freshness-rank-signal"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-08-31.md",
-      "date": "2026-08-31",
-      "title": "Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold",
-      "summary": "Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.",
-      "sources": [
-        "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-        "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-        "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/",
-        "https://registerspill.thorstenball.com/p/joy-and-curiosity-97"
-      ],
-      "insights_added": [
-        "ins_willison-auto-mode-blocks-self-remediation",
-        "ins_willison-ai-product-capability-opacity",
-        "ins_ronacher-anger-misidentifies-anxiety",
-        "ins_ball-agent-bug-threshold"
       ],
       "operators_added": [],
       "patterns_added": [],

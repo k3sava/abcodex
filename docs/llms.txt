@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1187 insights · 543 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 356 tier-A claims.
+Counts: 1191 insights · 543 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 356 tier-A claims.
 
 ## Index
 
@@ -26,11 +26,11 @@ Counts: 1187 insights · 543 operators · 46 synthesis patterns · 11 contradict
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 470 insights
+- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 472 insights
 - [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 387 insights
 - [engineering](https://abcodex.iamkesava.com/d/engineering/) — 193 insights
+- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 181 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 178 insights
-- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 178 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 158 insights
 - [leadership](https://abcodex.iamkesava.com/d/leadership/) — 153 insights
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 112 insights
@@ -39,19 +39,19 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 93 insights
 - [growth](https://abcodex.iamkesava.com/d/growth/) — 67 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
-- [seo](https://abcodex.iamkesava.com/d/seo/) — 46 insights
+- [seo](https://abcodex.iamkesava.com/d/seo/) — 49 insights
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 43 insights
 - [aeo](https://abcodex.iamkesava.com/d/aeo/) — 42 insights
 - [hiring](https://abcodex.iamkesava.com/d/hiring/) — 40 insights
 - [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 38 insights
 - [design](https://abcodex.iamkesava.com/d/design/) — 33 insights
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 29 insights
+- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 28 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 27 insights
-- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 27 insights
 - [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 22 insights
-- [engineering-ai-eng](https://abcodex.iamkesava.com/d/engineering-ai-eng/) — 14 insights
+- [engineering-ai-eng](https://abcodex.iamkesava.com/d/engineering-ai-eng/) — 15 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
-- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 12 insights
+- [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 13 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
 - [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 11 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 9 insights
@@ -150,4 +150,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-09-29.
+Last updated: 2026-09-30.
