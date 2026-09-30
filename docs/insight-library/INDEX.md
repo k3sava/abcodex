@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1187 insight cards
+- 1191 insight cards
 - 543 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (745)
+### Tier B (749)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -633,10 +633,12 @@ _Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-hours-invisible-marketing`](insights/ins_indig-ai-hours-invisible-marketing.md) — AI tool maintenance in marketing teams creates invisible overhead that the official hours count does not capture, making net productivity gains structurally smaller than they appear _(Kevin Indig)_
 - [`ins_indig-ai-mode-commercial-shift`](insights/ins_indig-ai-mode-commercial-shift.md) — AI Mode cut publisher mentions nearly in half while tripling major retailer mentions, revealing a structural bias toward commercial endpoints _(Kevin Indig)_
 - [`ins_indig-ai-mode-query-length`](insights/ins_indig-ai-mode-query-length.md) — AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search _(Kevin Indig)_
+- [`ins_indig-ai-search-attribution-gap`](insights/ins_indig-ai-search-attribution-gap.md) — AI search can underattribute marketing channel contribution by 10x because the discovery path no longer generates a referral signal. _(Kevin Indig)_
 - [`ins_indig-ai-search-category-ownership`](insights/ins_indig-ai-search-category-ownership.md) — AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time _(Kevin Indig)_
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-ai-washing-in-layoffs`](insights/ins_indig-ai-washing-in-layoffs.md) — AI-cited layoffs are mostly a cover story for pandemic overhiring and capital cycle corrections, not evidence of automation-driven job displacement _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
+- [`ins_indig-attribution-organic-misfit`](insights/ins_indig-attribution-organic-misfit.md) — Attribution was designed for ad spend allocation. Its apparent usefulness for organic channels was always an illusion driven by click data. _(Kevin Indig)_
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
 - [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
@@ -651,6 +653,7 @@ _Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
 - [`ins_indig-slop-antibodies-distribution-gate`](insights/ins_indig-slop-antibodies-distribution-gate.md) — Platform anti-slop detection shifts content scarcity from production to distribution reach _(Kevin Indig)_
 - [`ins_indig-substitutability-not-format`](insights/ins_indig-substitutability-not-format.md) — Google demotes substitutable content, not the listicle format itself _(Kevin Indig)_
+- [`ins_indig-triangulation-metric-set`](insights/ins_indig-triangulation-metric-set.md) — Three metrics with non-overlapping blind spots, triangulated together, produce a more reliable channel-contribution estimate than any attribution model. _(Kevin Indig)_
 - [`ins_indig-ugc-citation-dominance`](insights/ins_indig-ugc-citation-dominance.md) — UGC platforms hold 4x more AI-cited domains than publishers; community signals are AI search's largest unoptimized variable _(Kevin Indig)_
 - [`ins_indig-ugc-community-ai-citations`](insights/ins_indig-ugc-community-ai-citations.md) — UGC platforms are the most consistent AI citation source, holding a floor share across every buying stage _(Kevin Indig)_
 - [`ins_influencing-roadmap-product-marketer-often`](insights/ins_influencing-roadmap-product-marketer-often.md) — Influencing the roadmap as a product marketer is often a privilege earned, not granted _(Aatir Abdul Rauf)_
@@ -1069,6 +1072,7 @@ _Generated 2026-09-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
+- [`ins_willison-game-loop-agent-limit`](insights/ins_willison-game-loop-agent-limit.md) — Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for. _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-instruction-over-review`](insights/ins_willison-instruction-over-review.md) — Productive use of coding agents requires confident instruction and confident verification, not granular code review _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_

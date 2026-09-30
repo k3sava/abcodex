@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 01:45:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 01:42:35 GMT</lastBuildDate>
+    <item>
+      <title>Attribution collapses, and one measurement illusion falls with it</title>
+      <link>https://abcodex.iamkesava.com/today/2026-09-30/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-30/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.</description>
+    </item>
     <item>
       <title>Agent authorship changes what you optimize for in technology</title>
       <link>https://abcodex.iamkesava.com/today/2026-09-29/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-01/</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.</description>
-    </item>
-    <item>
-      <title>Auto mode blocks its own cleanup, product pages hide the attack surface, and agents lower the defect shipping threshold</title>
-      <link>https://abcodex.iamkesava.com/today/2026-08-31/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-08-31/</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards from three operators. Two Willison pieces on agentic security failure modes, one Ronacher piece on the psychology of disruption, and one Ball piece on how agent parallelism changes rational shipping decisions.</description>
     </item>
   </channel>
 </rss>
