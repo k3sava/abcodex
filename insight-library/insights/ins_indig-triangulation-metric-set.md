@@ -21,7 +21,7 @@ raw_ref: ""
 # Three metrics with non-overlapping blind spots, triangulated together, produce a more reliable channel-contribution estimate than any attribution model.
 
 ## Claim
-Because no single metric covers the full journey from discovery to conversion, the practical replacement for attribution is a triangulated set: one metric for exposure, one for behavioral engagement, and one for causal outcomes. Each has different blind spots, and the overlap in their signals is where confidence lives.
+Because no single metric covers the full path from discovery to conversion, the practical replacement for attribution is a triangulated set: one metric for exposure, one for behavioral engagement, and one for causal outcomes. Each has different blind spots, and the overlap in their signals is where confidence lives.
 
 ## Mechanism
 Attribution fails because it requires a closed-loop signal chain. Triangulation works around that by combining signals that do not share the same gap. Exposure metrics (share of voice in AI search, brand mention frequency, ad reach) capture presence without requiring conversion events. Behavioral signals (branded search volume, direct traffic trends, email open rates) capture engagement without requiring session-level attribution. Causal experiments (geo holdouts, randomized control groups, quasi-experiments) capture outcome evidence without relying on referral headers. No single leg of the triangle is accurate. Together, they triangulate to a confidence range. Where all three point the same direction, confidence is high. Where they diverge, the divergence itself is a diagnostic signal.
