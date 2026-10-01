@@ -24,10 +24,10 @@ raw_ref: ""
 At OpenAI DevDay 2026, OpenAI presented a chart showing that agent success rates on tasks requiring 8-16 hours of work with zero human interventions tripled from 10% in January 2026 to 35% in July 2026, the first public quantified trajectory for agent reliability at professional-work durations.
 
 ## Mechanism
-Post-training improvements targeting sustained autonomy drove the improvement. Specifically: better error recovery within long contexts so the agent does not stall after a failed step; improved tool-use reliability across extended chains; and longer effective context windows that allow the agent to maintain coherent task state across hundreds of sequential steps. The improvement was not a single capability unlock but an accumulation of reliability gains that each reduced the probability of failure at any given step. For an 8-hour task with hundreds of steps, even small per-step reliability improvements compound to large whole-task success rate changes.
+Post-training improvements targeting sustained autonomy drove the improvement. Specifically: better error recovery within long contexts so the agent does not stall after a failed step; improved tool-use reliability across extended chains; and longer effective context windows that allow the agent to maintain coherent task state across hundreds of sequential steps. The improvement was not a single breakthrough but an accumulation of reliability gains that each reduced the probability of failure at any given step. For an 8-hour task with hundreds of steps, even small per-step reliability improvements compound to large whole-task success rate changes.
 
 ## Conditions
-Holds when: tasks are well-scoped professional-work tasks with verifiable completion criteria and reliable tool access; the agent system uses post-2025 frontier models with long-context and robust tool-use capabilities.
+Holds when: tasks are well-scoped professional-work tasks with verifiable completion criteria and reliable tool access; the agent system uses post-2025 frontier models with long-context and reliable tool-use capabilities.
 
 Fails when: tasks are poorly scoped or require frequent human judgment calls mid-execution; tool or environment failures occur outside the agent's recovery scope; tasks exceed the 16-hour duration range where reliability data is still sparse.
 
