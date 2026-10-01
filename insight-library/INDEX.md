@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1191 insight cards
+- 1194 insight cards
 - 543 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (749)
+### Tier B (752)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1066,6 +1066,7 @@ _Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-decision-model-opacity`](insights/ins_willison-decision-model-opacity.md) — Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable _(Simon Willison)_
 - [`ins_willison-deep-blue-engineer-ennui`](insights/ins_willison-deep-blue-engineer-ennui.md) — Software engineers working with capable coding agents report AI-induced ennui called Deep Blue _(Simon Willison)_
 - [`ins_willison-defensive-security-export-controls`](insights/ins_willison-defensive-security-export-controls.md) — AI export controls that prohibit bug-fixing harm defenders more than attackers because only defenders need that capability in their workflow _(Simon Willison)_
+- [`ins_willison-devday-agent-longtask-tripling`](insights/ins_willison-devday-agent-longtask-tripling.md) — OpenAI reported that agent success on 8-16 hour zero-intervention tasks tripled from 10% to 35% between January and July 2026, establishing the first publicly cited improvement curve for professional-duration autonomy. _(Simon Willison)_
 - [`ins_willison-document-worm-copilot`](insights/ins_willison-document-worm-copilot.md) — Prompt injection in document-processing AI can self-replicate across document ecosystems without attacker involvement _(Simon Willison)_
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
 - [`ins_willison-engineering-core-is-direction`](insights/ins_willison-engineering-core-is-direction.md) — Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was. _(Simon Willison)_
@@ -1082,6 +1083,7 @@ _Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
 - [`ins_willison-mcp-governance-floor`](insights/ins_willison-mcp-governance-floor.md) — MCP's value is governance for constrained agent deployments, not capability for autonomous ones _(Simon Willison)_
 - [`ins_willison-multimodel-security-audit-workflow`](insights/ins_willison-multimodel-security-audit-workflow.md) — Running multiple frontier models as security auditors on open-source codebases surfaces subtle bugs that single-model or human-only review misses _(Simon Willison)_
+- [`ins_willison-ondevice-frontier-convergence`](insights/ins_willison-ondevice-frontier-convergence.md) — By mid-2026, small open-source models running on consumer laptops achieved near-frontier performance, removing the technical necessity of cloud inference for many standard tasks. _(Simon Willison)_
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
@@ -1095,6 +1097,7 @@ _Generated 2026-09-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
 - [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
 - [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
+- [`ins_willison-tokenmaxx-cost-correction`](insights/ins_willison-tokenmaxx-cost-correction.md) — The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call. _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_

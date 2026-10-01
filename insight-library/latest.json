@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-09-30T01:42:29.784Z",
+  "generated_at": "2026-10-01T01:51:42.262Z",
   "latest_daily": {
-    "path": "daily/2026-09-30.md",
-    "date": "2026-09-30",
-    "title": "Attribution collapses, and one measurement illusion falls with it",
-    "summary": "Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.",
+    "path": "daily/2026-10-01.md",
+    "date": "2026-10-01",
+    "title": "Agent deployments correct the theory, and laptops catch the cloud",
+    "summary": "Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.",
     "sources": [
-      "https://www.growth-memo.com/p/the-collapse-of-attribution",
-      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
+      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
     ],
     "insights_added": [
-      "ins_indig-attribution-organic-misfit",
-      "ins_indig-ai-search-attribution-gap",
-      "ins_indig-triangulation-metric-set",
-      "ins_willison-game-loop-agent-limit"
+      "ins_willison-tokenmaxx-cost-correction",
+      "ins_willison-ondevice-frontier-convergence",
+      "ins_willison-devday-agent-longtask-tripling"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +20,25 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-01.md",
+      "date": "2026-10-01",
+      "title": "Agent deployments correct the theory, and laptops catch the cloud",
+      "summary": "Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.",
+      "sources": [
+        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+        "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+      ],
+      "insights_added": [
+        "ins_willison-tokenmaxx-cost-correction",
+        "ins_willison-ondevice-frontier-convergence",
+        "ins_willison-devday-agent-longtask-tripling"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-09-30.md",
       "date": "2026-09-30",
@@ -649,28 +667,6 @@
       "operators_added": [
         "graham-dumpleton"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-01.md",
-      "date": "2026-09-01",
-      "title": "Automate the right half, measure the megawatt, and date your listicle",
-      "summary": "Four new cards from three operators across three lanes. Mollick on preserving human judgment in agentic systems, Tunguz twice on frontier AI economics and access control, and Indig on freshness as the dominant listicle ranking signal.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/agency-and-agents",
-        "https://tomtunguz.com/revenue-per-megawatt/",
-        "https://tomtunguz.com/the-great-segmentation/",
-        "https://www.growth-memo.com/p/what-makes-a-good-listicle"
-      ],
-      "insights_added": [
-        "ins_mollick-twilight-factory-human-loop",
-        "ins_tunguz-model-factory-megawatt-loop",
-        "ins_tunguz-frontier-access-as-scarcity",
-        "ins_indig-listicle-freshness-rank-signal"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
