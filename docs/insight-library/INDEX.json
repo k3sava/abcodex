@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-10-01T01:51:42.191Z",
+  "generated_at": "2026-10-02T01:42:24.426Z",
   "counts": {
-    "insights": 1194,
+    "insights": 1197,
     "operators": 543,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 123
+    "daily": 124
   },
   "latest_daily": {
-    "path": "daily/2026-10-01.md",
-    "date": "2026-10-01",
-    "title": "Agent deployments correct the theory, and laptops catch the cloud",
-    "summary": "Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.",
+    "path": "daily/2026-10-02.md",
+    "date": "2026-10-02",
+    "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
+    "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
+      "https://www.growth-memo.com/p/the-collapse-of-attribution"
     ],
     "insights_added": [
-      "ins_willison-tokenmaxx-cost-correction",
-      "ins_willison-ondevice-frontier-convergence",
-      "ins_willison-devday-agent-longtask-tripling"
+      "ins_agents-self-organize-no-mgmt-overhead",
+      "ins_eval-data-first-before-metrics",
+      "ins_ai-search-attribution-triangulation"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -1004,6 +1005,38 @@
       "title": "Coding agents erased the cost advantage of cross-platform mobile frameworks"
     },
     {
+      "path": "insights/ins_agents-self-organize-no-mgmt-overhead.md",
+      "id": "ins_agents-self-organize-no-mgmt-overhead",
+      "operator": "Ethan Mollick",
+      "operator_role": "Associate Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source_type": "essay",
+      "source_title": "The Dot and the Swarm",
+      "source_date": "2026-10-01",
+      "captured_date": "2026-10-02",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_mollick-agent-era-favors-experts",
+        "ins_mollick-delegation-over-prompting"
+      ],
+      "raw_ref": "",
+      "title": "AI agent swarms self-organize without management overhead because they lack the organizational pathologies management was built to solve."
+    },
+    {
       "path": "insights/ins_ai-adoption-asymmetric-information-gap.md",
       "id": "ins_ai-adoption-asymmetric-information-gap",
       "operator": "Charity Majors",
@@ -1248,6 +1281,38 @@
       ],
       "raw_ref": "",
       "title": "AI-native GTM teams win by triaging launches faster, not by removing launch discipline"
+    },
+    {
+      "path": "insights/ins_ai-search-attribution-triangulation.md",
+      "id": "ins_ai-search-attribution-triangulation",
+      "operator": "Kevin Indig",
+      "operator_role": "Independent growth advisor; founder of Growth Memo newsletter; ex-VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/the-collapse-of-attribution",
+      "source_type": "essay",
+      "source_title": "The collapse of attribution",
+      "source_date": "2026-09-28",
+      "captured_date": "2026-10-02",
+      "domain": [
+        "growth-demand",
+        "pmm",
+        "aeo-seo"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ugc-community-ai-citations",
+        "ins_indig-benchmark-citation-structure",
+        "ins_kevin-indig-verification-cost-rising"
+      ],
+      "raw_ref": "",
+      "title": "AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation."
     },
     {
       "path": "insights/ins_ai-slop-loop.md",
@@ -7985,6 +8050,36 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/ramli-john.md",
       "title": "In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly"
+    },
+    {
+      "path": "insights/ins_eval-data-first-before-metrics.md",
+      "id": "ins_eval-data-first-before-metrics",
+      "operator": "Hamel Husain",
+      "operator_role": "Independent AI engineer; co-creator of the AI Evals for Engineers and PMs course; co-author of Evals for AI Engineers (O'Reilly, 2026)",
+      "co_operators": [],
+      "source_url": "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
+      "source_type": "essay",
+      "source_title": "Claude's new auto eval tool",
+      "source_date": "2026-09-30",
+      "captured_date": "2026-10-02",
+      "domain": [
+        "engineering-ai-eng",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_husain-binary-over-likert",
+        "ins_husain-shankar-criteria-drift"
+      ],
+      "raw_ref": "",
+      "title": "An eval tool that skips data exploration before evaluator selection produces premature, bundled metrics that miss the real failure modes."
     },
     {
       "path": "insights/ins_evals-are-data-analysis-on-llm-apps.md",
@@ -49566,6 +49661,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-02.md",
+      "date": "2026-10-02",
+      "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
+      "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
+        "https://www.growth-memo.com/p/the-collapse-of-attribution"
+      ],
+      "insights_added": [
+        "ins_agents-self-organize-no-mgmt-overhead",
+        "ins_eval-data-first-before-metrics",
+        "ins_ai-search-attribution-triangulation"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-01.md",
       "date": "2026-10-01",

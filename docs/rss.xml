@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 01:51:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 01:42:32 GMT</lastBuildDate>
+    <item>
+      <title>Agents dissolve management, evals demand data, and attribution collapses under AI search</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-02/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-02/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.</description>
+    </item>
     <item>
       <title>Agent deployments correct the theory, and laptops catch the cloud</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-01/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-03/</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.</description>
-    </item>
-    <item>
-      <title>Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-02/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-02/</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google&apos;s listicle demotion pattern.</description>
     </item>
   </channel>
 </rss>
