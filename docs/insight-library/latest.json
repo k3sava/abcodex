@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-01T01:51:42.262Z",
+  "generated_at": "2026-10-02T01:42:24.498Z",
   "latest_daily": {
-    "path": "daily/2026-10-01.md",
-    "date": "2026-10-01",
-    "title": "Agent deployments correct the theory, and laptops catch the cloud",
-    "summary": "Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.",
+    "path": "daily/2026-10-02.md",
+    "date": "2026-10-02",
+    "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
+    "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
     "sources": [
-      "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
+      "https://www.growth-memo.com/p/the-collapse-of-attribution"
     ],
     "insights_added": [
-      "ins_willison-tokenmaxx-cost-correction",
-      "ins_willison-ondevice-frontier-convergence",
-      "ins_willison-devday-agent-longtask-tripling"
+      "ins_agents-self-organize-no-mgmt-overhead",
+      "ins_eval-data-first-before-metrics",
+      "ins_ai-search-attribution-triangulation"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-02.md",
+      "date": "2026-10-02",
+      "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
+      "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
+        "https://www.growth-memo.com/p/the-collapse-of-attribution"
+      ],
+      "insights_added": [
+        "ins_agents-self-organize-no-mgmt-overhead",
+        "ins_eval-data-first-before-metrics",
+        "ins_ai-search-attribution-triangulation"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-01.md",
       "date": "2026-10-01",
@@ -644,28 +665,6 @@
       ],
       "operators_added": [
         "joseph-kim"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-02.md",
-      "date": "2026-09-02",
-      "title": "Expert at the wheel, reasoning on a budget, and substitutability as the real ranking risk",
-      "summary": "Three new cards across two lanes. Graham Dumpleton on expert-directed AI coding, Simon Willison on reasoning effort non-linearity in creative tasks, and Kevin Indig on substitutability as the actual driver of Google's listicle demotion pattern.",
-      "sources": [
-        "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-        "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-        "https://www.growth-memo.com/p/has-google-demoted-listicles"
-      ],
-      "insights_added": [
-        "ins_dumpleton-expert-design-ai-executes",
-        "ins_willison-reasoning-effort-nonlinear-creative",
-        "ins_indig-substitutability-not-format"
-      ],
-      "operators_added": [
-        "graham-dumpleton"
       ],
       "patterns_added": [],
       "playbooks_added": [],

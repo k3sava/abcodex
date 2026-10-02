@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1194 insight cards
+- 1197 insight cards
 - 543 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (752)
+### Tier B (755)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -393,6 +393,7 @@ _Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agentic-gtm-event-last-week`](insights/ins_agentic-gtm-event-last-week.md) — At our Agentic GTM event last week, Alina shared how Chili Piper cut their marketing te _(Gil Allouche)_
 - [`ins_agents-authorize-agents-security-scale`](insights/ins_agents-authorize-agents-security-scale.md) — At agent scale, security governance must shift from humans approving humans to automated agent-identity and policy systems _(Jonathan Jaffe)_
 - [`ins_agents-erased-cross-platform-advantage`](insights/ins_agents-erased-cross-platform-advantage.md) — Coding agents erased the cost advantage of cross-platform mobile frameworks _(Mustafa Ali)_
+- [`ins_agents-self-organize-no-mgmt-overhead`](insights/ins_agents-self-organize-no-mgmt-overhead.md) — AI agent swarms self-organize without management overhead because they lack the organizational pathologies management was built to solve. _(Ethan Mollick)_
 - [`ins_ai-adoption-asymmetric-information-gap`](insights/ins_ai-adoption-asymmetric-information-gap.md) — AI adoption creates an asymmetric information problem where wins are public and costs are private, requiring deliberate feedback loop design _(Charity Majors)_
 - [`ins_ai-as-copilot-not-autopilot`](insights/ins_ai-as-copilot-not-autopilot.md) — AI is the co-pilot, not the autopilot, automate the 80% you understand, hold the 20% that needs taste _(Ben Tossell)_
 - [`ins_ai-cold-call-compliance-follows-prospect-residence`](insights/ins_ai-cold-call-compliance-follows-prospect-residence.md) — AI cold-call compliance follows the prospect's residence, not the seller's HQ _(Gartner)_
@@ -401,6 +402,7 @@ _Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ai-judgment-and-taste-emerging`](insights/ins_ai-judgment-and-taste-emerging.md) — AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how _(Matt Shumer)_
 - [`ins_ai-mania-vendor-silence`](insights/ins_ai-mania-vendor-silence.md) — AI vendors cannot correct inflated customer productivity claims without destroying those customers' credibility _(Nikhil Suresh)_
 - [`ins_ai-native-launch-triage-not-fewer-gates`](insights/ins_ai-native-launch-triage-not-fewer-gates.md) — AI-native GTM teams win by triaging launches faster, not by removing launch discipline _(Aatir Abdul Rauf)_
+- [`ins_ai-search-attribution-triangulation`](insights/ins_ai-search-attribution-triangulation.md) — AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation. _(Kevin Indig)_
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya Hariharan)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
@@ -557,6 +559,7 @@ _Generated 2026-10-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_eric-mistry-zapier-hiring-generalist-application`](insights/ins_eric-mistry-zapier-hiring-generalist-application.md) — Customer education has to break silos with success and marketing to scale _(Eric Mistry)_
 - [`ins_error-analysis-highest-leverage-eval-step`](insights/ins_error-analysis-highest-leverage-eval-step.md) — Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested _(Hamel Husain)_
 - [`ins_eureka-onboarding`](insights/ins_eureka-onboarding.md) — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly _(Ramli John)_
+- [`ins_eval-data-first-before-metrics`](insights/ins_eval-data-first-before-metrics.md) — An eval tool that skips data exploration before evaluator selection produces premature, bundled metrics that miss the real failure modes. _(Hamel Husain)_
 - [`ins_evans-ai-adoption-tool-builder-gap`](insights/ins_evans-ai-adoption-tool-builder-gap.md) — Most employees cannot self-identify automation opportunities, so AI adoption requires someone outside the workflow to design the tool _(Benedict Evans)_
 - [`ins_evans-token-pricing-commoditization`](insights/ins_evans-token-pricing-commoditization.md) — Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack _(Benedict Evans)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c _(Seepiya Sahni)_

@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-01 · 3 insights
+### Latest · 2026-10-02 · 3 insights
 
-**Agent deployments correct the theory, and laptops catch the cloud.** Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.
+**Agents dissolve management, evals demand data, and attribution collapses under AI search.** Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.
 
-[Read what landed →](insight-library/daily/2026-10-01.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-02.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1194** insight cards
+- **1197** insight cards
 - **543** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

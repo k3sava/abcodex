@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels · a builder's codex</title>
-<meta name="description" content="Hamel Husain: &quot;Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels&quot; (podcast, 2026-04-28).">
-<link rel="canonical" href="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">
+<title>aeo-seo · abcodex · a builder's codex</title>
+<meta name="description" content="1 insights from 1 operators in the aeo-seo domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<link rel="canonical" href="https://abcodex.iamkesava.com/d/aeo-seo/">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels · a builder's codex">
-<meta property="og:description" content="Hamel Husain: &quot;Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels&quot; (podcast, 2026-04-28).">
-<meta property="og:url" content="https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/">
-<meta property="og:image" content="https://abcodex.iamkesava.com/og/ins/ins_llm-as-judge-binary-not-likert.svg">
+<meta property="og:title" content="aeo-seo · abcodex · a builder's codex">
+<meta property="og:description" content="1 insights from 1 operators in the aeo-seo domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<meta property="og:url" content="https://abcodex.iamkesava.com/d/aeo-seo/">
+<meta property="og:image" content="https://abcodex.iamkesava.com/og/d/aeo-seo.svg">
 <meta property="og:site_name" content="a builder's codex">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels · a builder's codex">
-<meta name="twitter:description" content="Hamel Husain: &quot;Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels&quot; (podcast, 2026-04-28).">
-<meta name="twitter:image" content="https://abcodex.iamkesava.com/og/ins/ins_llm-as-judge-binary-not-likert.svg">
+<meta name="twitter:title" content="aeo-seo · abcodex · a builder's codex">
+<meta name="twitter:description" content="1 insights from 1 operators in the aeo-seo domain. Tier-A claims, synthesis patterns, adjacent domains.">
+<meta name="twitter:image" content="https://abcodex.iamkesava.com/og/d/aeo-seo.svg">
 <link rel="alternate" type="application/rss+xml" title="a builder's codex · release log" href="https://abcodex.iamkesava.com/rss.xml">
 <link rel="service-doc" href="https://abcodex.iamkesava.com/llms.txt">
 <link rel="api-catalog" href="https://abcodex.iamkesava.com/.well-known/api-catalog">
@@ -173,7 +173,7 @@ main.static pre code{background:transparent;padding:0}
 }
 
 </style>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/#article","headline":"Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels","datePublished":"2026-04-28","dateModified":"2026-05-01","author":[{"@type":"Person","@id":"https://abcodex.iamkesava.com/o/hamel-husain/#person","name":"Hamel Husain","url":"https://abcodex.iamkesava.com/o/hamel-husain/","jobTitle":"Independent ML consultant and Berkeley PhD researcher"}],"isBasedOn":{"@type":"CreativeWork","url":"https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill","name":"Evals as error analysis, the benevolent dictator, LLM judges","encodingFormat":"podcast","datePublished":"2026-04-28"},"publisher":{"@id":"https://abcodex.iamkesava.com/#org"},"url":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/","mainEntityOfPage":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/","keywords":"ai-native, engineering","license":"https://opensource.org/licenses/MIT","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".static-tldr-claim"]},"additionalType":"https://abcodex.iamkesava.com/tier/A"},{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","logo":{"@type":"ImageObject","url":"https://abcodex.iamkesava.com/og.png"},"founder":{"@id":"https://iamkesava.com/#kesava"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"operators","item":"https://abcodex.iamkesava.com/operators/"},{"@type":"ListItem","position":3,"name":"Hamel Husain","item":"https://abcodex.iamkesava.com/o/hamel-husain/"},{"@type":"ListItem","position":4,"name":"Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels","item":"https://abcodex.iamkesava.com/ins/ins_llm-as-judge-binary-not-likert/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mechanism","acceptedAnswer":{"@type":"Answer","text":"A 1-to-5 Likert is \"a weasel way of not making a decision\", it produces averages that look reasonable while masking the cases where the judge is wrong. A binary judge forces a callable decision and a falsifiable accuracy number. A confusion matrix surfaces the off-diagonal cells where a judge that says \"pass\" 90% of the time can hide near-total failure on the long tail. Without the matrix, teams trust scaffolding that has no real signal."}},{"@type":"Question","name":"Evidence","acceptedAnswer":{"@type":"Answer","text":"> \"1-2-3-4-5 is a weasel way of not making a decision.\""}},{"@type":"Question","name":"Signals","acceptedAnswer":{"@type":"Answer","text":"Judge prompts are short and binary; their accuracy is reported with confusion-matrix detail, not single-number summaries."}},{"@type":"Question","name":"Counter-evidence","acceptedAnswer":{"@type":"Answer","text":"For ranking problems (which of these outputs is best?), pairwise comparison or graded scoring may be needed. The binary rule is conditional on detection-style judges, not preference-style ones."}}]}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"DefinedTerm","name":"aeo-seo","inDefinedTermSet":"https://abcodex.iamkesava.com/","description":"Domain in abcodex. 1 insights from 1 operators.","url":"https://abcodex.iamkesava.com/d/aeo-seo/"},{"@type":"CollectionPage","name":"aeo-seo · abcodex","url":"https://abcodex.iamkesava.com/d/aeo-seo/","about":{"@type":"DefinedTerm","name":"aeo-seo"},"publisher":{"@type":"Organization","@id":"https://abcodex.iamkesava.com/#org","name":"abcodex","url":"https://abcodex.iamkesava.com","founder":{"@id":"https://iamkesava.com/#kesava"}},"hasPart":[{"@type":"Article","url":"https://abcodex.iamkesava.com/ins/ins_ai-search-attribution-triangulation/","name":"AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation.","author":{"@type":"Person","name":"Kevin Indig"}}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"abcodex","item":"https://abcodex.iamkesava.com/"},{"@type":"ListItem","position":2,"name":"browse","item":"https://abcodex.iamkesava.com/browse/"},{"@type":"ListItem","position":3,"name":"aeo-seo","item":"https://abcodex.iamkesava.com/d/aeo-seo/"}]}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main">skip to content</a>
@@ -188,67 +188,13 @@ main.static pre code{background:transparent;padding:0}
   </nav>
 </header>
 <main class="static" id="main" tabindex="-1">
-<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/operators/">operators</a> · <a href="https://abcodex.iamkesava.com/o/hamel-husain/">Hamel Husain</a> · ins_llm-as-judge-binary-not-likert</div><h1>Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</h1><p class="static-meta">By <a href="https://abcodex.iamkesava.com/o/hamel-husain/">Hamel Husain</a> · Independent ML consultant and Berkeley PhD researcher · 2026-04-28 · podcast · <a href="https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill" rel="external nofollow">Evals as error analysis, the benevolent dictator, LLM judges</a></p><div class="static-tldr">
-    <div class="static-tldr-label">Tier A · TL;DR</div>
-    <div class="static-tldr-claim">Build LLM-as-judge as binary true/false, one judge per pesky failure mode, and validate against human labels</div>
-  </div><article><h2 id="claim">Claim</h2>
-<p>LLM-as-judge evals should output a binary pass/fail per pesky failure mode, not a Likert scale. Build 4–7 narrow judges total, not dozens, because most failures are fixed by prompt edits and never need a permanent eval. Always validate the judge against human-labelled data using a confusion matrix, not a single agreement number.</p>
-
-<h2 id="mechanism">Mechanism</h2>
-<p>A 1-to-5 Likert is "a weasel way of not making a decision", it produces averages that look reasonable while masking the cases where the judge is wrong. A binary judge forces a callable decision and a falsifiable accuracy number. A confusion matrix surfaces the off-diagonal cells where a judge that says "pass" 90% of the time can hide near-total failure on the long tail. Without the matrix, teams trust scaffolding that has no real signal.</p>
-
-<h2 id="conditions">Conditions</h2>
-<p>Holds when:</p>
-<ul>
-<li>Each failure mode is genuinely binary (the output either has the kill-list word or it doesn't).</li>
-<li>A reviewer can produce labelled data for the same traces the judge sees.</li>
-<li>The team will retire judges as failure modes get fixed by prompts.</li>
-</ul>
-
-<p>Fails when:</p>
-<ul>
-<li>The failure mode is genuinely graded (severity, urgency, fluency) and binary collapses real distinctions.</li>
-<li>Reviewers cannot produce ground-truth labels at sufficient volume.</li>
-<li>The team treats judges as permanent fixtures and never prunes.</li>
-</ul>
-
-<h2 id="evidence">Evidence</h2>
-<blockquote>
-<p>"1-2-3-4-5 is a weasel way of not making a decision."</p>
-</blockquote>
-<blockquote>
-<p>"When people lose trust in your evals, they lose trust in you."</p>
-</blockquote>
-<p>Operating rule Hamel and Shreya teach: most products end with 4–7 LLM judges total. Always look at the off-diagonal cells in the confusion matrix; agreement % is misleading on long-tail errors.</p>
-
-<p>· Hamel Husain & Shreya Shankar on Lenny's Podcast, 2026-04-28</p>
-
-<h2 id="signals">Signals</h2>
-<ul>
-<li>Judge prompts are short and binary; their accuracy is reported with confusion-matrix detail, not single-number summaries.</li>
-<li>Number of permanent judges stays small even as the product grows.</li>
-<li>Trust in the eval dashboard rises because failures map to recognisable categories.</li>
-</ul>
-
-<h2 id="counter-evidence">Counter-evidence</h2>
-<p>For ranking problems (which of these outputs is best?), pairwise comparison or graded scoring may be needed. The binary rule is conditional on detection-style judges, not preference-style ones.</p>
-
-<h2 id="cross-references">Cross-references</h2>
-<ul>
-<li><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/">Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second</a>, the categories that become judges</li>
-<li><a class="inline-cross-ref" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/">Evals are systematic data analysis on your LLM application, start with error analysis, not tests</a>, the broader frame</li>
-</ul>
-</article><section class="static-related"><h2>Where this connects</h2>
-<div class="static-related-group"><div class="static-related-label">Domains</div><p class="static-domains"><a href="https://abcodex.iamkesava.com/d/ai-native/">ai-native</a> · <a href="https://abcodex.iamkesava.com/d/engineering/">engineering</a></p></div>
-<div class="static-related-group"><div class="static-related-label">More from Hamel Husain</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_benevolent-dictator-not-committee/"><div class="tier">Tier B · ai-native · leadership</div><div class="static-card-title">Appoint one trusted-taste expert as the eval benevolent dictator, committees stall the loop</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_error-analysis-highest-leverage-eval-step/"><div class="tier">Tier B · ai-engineering</div><div class="static-card-title">Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_eval-data-first-before-metrics/"><div class="tier">Tier B · engineering-ai-eng · ai-native</div><div class="static-card-title">An eval tool that skips data exploration before evaluator selection produces premature, bundled metrics that miss the real failure modes.</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/"><div class="tier">Tier A · ai-native · engineering</div><div class="static-card-title">Evals are systematic data analysis on your LLM application, start with error analysis, not tests</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_hamel-eval-is-product-smell/"><div class="tier">Tier B · engineering · ai-native</div><div class="static-card-title">When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_husain-binary-over-likert/"><div class="tier">Tier B · ai-native · engineering</div><div class="static-card-title">Binary pass/fail annotation produces better quality than Likert scales by forcing judgment on uncertain cases</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Where this converges</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/pat/pat_eval-as-data-analysis/"><div class="tier">Pattern · ai-native · engineering</div><div class="static-card-title">Evals are data analysis, single judge, binary rubrics, error analysis first</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Playbooks using this card</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/play/pb_claim-verify-gate/"><div class="tier">Playbook · ai-native-gtm · substrate</div><div class="static-card-title">Gate every public claim against the source that backs it</div></a><a class="static-card" href="https://abcodex.iamkesava.com/play/pb_humanizer/"><div class="tier">Playbook · copywriting · ai-native-gtm</div><div class="static-card-title">Strip the AI-writing tells out of any draft</div></a></div></div>
-<div class="static-related-group"><div class="static-related-label">Related insights</div><div class="static-cards-grid"><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_open-coding-then-axial-coding/"><div class="tier">Tier A · ai-native · research-discovery</div><div class="static-card-title">Sample 100+ traces, write one free-form note per trace, let an LLM cluster the notes, humans first, machines second</div></a><a class="static-card" href="https://abcodex.iamkesava.com/ins/ins_evals-are-data-analysis-on-llm-apps/"><div class="tier">Tier A · ai-native · engineering</div><div class="static-card-title">Evals are systematic data analysis on your LLM application, start with error analysis, not tests</div></a></div></div>
-</section><div class="static-actions">
-      <a class="primary" href="https://abcodex.iamkesava.com/#/ins/ins_llm-as-judge-binary-not-likert">Open the interactive view →</a>
-      <a href="https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill" rel="external nofollow">View original source →</a>
-      <a href="https://raw.githubusercontent.com/k3sava/abcodex/main/insight-library/insights/ins_llm-as-judge-binary-not-likert.md" rel="noopener">Markdown source →</a>
-    </div>
+<div class="static-crumbs"><a href="https://abcodex.iamkesava.com/">codex</a> · <a href="https://abcodex.iamkesava.com/browse/">browse</a> · aeo-seo</div>
+        <p class="static-eyebrow">domain · aeo-seo</p>
+        <h1>aeo-seo</h1>
+        <p class="static-lede">Operator insights tagged aeo-seo, from 1 named operators with primary sources.</p>
+        <p class="static-meta">1 cards · 1 operators · 0 tier-A claims · 0 synthesis patterns.</p>
+        <h2>Adjacent domains</h2><ul><li><a href="https://abcodex.iamkesava.com/d/growth-demand/">growth-demand</a> · 1 co-occurrences</li><li><a href="https://abcodex.iamkesava.com/d/pmm/">pmm</a> · 1 co-occurrences</li></ul>
+<h2>1 insights in aeo-seo</h2><ul class="static-card-list"><li><a href="https://abcodex.iamkesava.com/ins/ins_ai-search-attribution-triangulation/">AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation.</a> · <span style="color:var(--muted)">Kevin Indig</span></li></ul>
 </main>
 
 <footer class="static-footer">
