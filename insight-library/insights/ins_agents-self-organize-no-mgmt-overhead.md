@@ -51,4 +51,4 @@ Self-organizing agent systems can diverge dangerously without human oversight. M
 ## Cross-references
 - `ins_mollick-four-agents-concurrent-norm`: concurrent agent use as the new productivity norm, from which swarm behavior is the scale-up.
 - `ins_mollick-delegation-over-prompting`: the shift from prompting for output to delegating for outcomes, a prerequisite for swarm-style task framing.
-- `ins_mollick-agent-era-favors-experts`: on who gains most from agent leverage, relevant because swarm coordination amplifies expert goal-setting while removing execution overhead.
+- `ins_mollick-agent-era-favors-experts`: on who gains most from agent-era amplification, relevant because swarm coordination amplifies expert goal-setting while removing execution overhead.

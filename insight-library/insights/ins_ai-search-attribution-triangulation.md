@@ -18,7 +18,7 @@ related: [ins_indig-ugc-community-ai-citations, ins_indig-benchmark-citation-str
 raw_ref: ""
 ---
 
-# AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation.
+# AI search breaks click-based attribution because the prompt-to-direct-visit path skips the click, making triangulation the new measurement foundation.
 
 ## Claim
 AI-powered search replaces the search-to-click-to-convert attribution model with a prompt-to-synthesize-to-direct-visit pattern, stripping the click event that most attribution systems depend on. Triangulation across three independent evidence sources replaces single-funnel attribution as the measurement standard.
@@ -27,7 +27,7 @@ AI-powered search replaces the search-to-click-to-convert attribution model with
 Traditional digital attribution worked because browsers reported referral events: a user clicked a search result, the site received a referral parameter, and a conversion downstream was credited back to the traffic source. AI answer engines (ChatGPT, Claude, Perplexity, Google AI Overviews) eliminate the click. Users get the answer in the AI interface and navigate directly to the brand they chose without a referral tag. The attribution system loses the connecting event and systematically underattributes AI-sourced demand. Graphite research quantified the underattribution at up to 10x. The fix is not to find a new click-equivalent but to triangulate across three metrics with different blind spots: exposure signals (AI crawler logs, bot traffic), behavioral signals (direct traffic spikes, branded search lifts), and business outcome signals (revenue and conversion trend correlated to AI citation presence). No single signal is reliable; three signals with independent failure modes narrow the uncertainty.
 
 ## Conditions
-Holds when: a material share of a brand's traffic originates from AI answer engines; traditional last-click attribution is the primary measurement method; the conversion journey is long enough for direct-visit behavior to show up in traffic data.
+Holds when: a material share of a brand's traffic originates from AI answer engines; traditional last-click attribution is the primary measurement method; the conversion cycle is long enough for direct-visit behavior to show up in traffic data.
 
 Fails when: the product has a very short conversion cycle dominated by paid channels; the brand has no current AI citation presence; incrementality testing is cost-prohibitive for the team's scale.
 
