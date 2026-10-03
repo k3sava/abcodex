@@ -1,33 +1,41 @@
 {
-  "generated_at": "2026-10-02T01:42:24.426Z",
+  "generated_at": "2026-10-03T01:50:40.082Z",
   "counts": {
-    "insights": 1197,
-    "operators": 543,
+    "insights": 1201,
+    "operators": 546,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 124
+    "daily": 125
   },
   "latest_daily": {
-    "path": "daily/2026-10-02.md",
-    "date": "2026-10-02",
-    "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
-    "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
+    "path": "daily/2026-10-03.md",
+    "date": "2026-10-03",
+    "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
+    "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
-      "https://www.growth-memo.com/p/the-collapse-of-attribution"
+      "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "https://youtu.be/Zn9NZ-r1-C4",
+      "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "https://youtu.be/fn8wnmpVqeI"
     ],
     "insights_added": [
-      "ins_agents-self-organize-no-mgmt-overhead",
-      "ins_eval-data-first-before-metrics",
-      "ins_ai-search-attribution-triangulation"
+      "ins_green-agent-worm-shared-infra",
+      "ins_saarinen-context-is-the-product",
+      "ins_dill-ai-raises-ceiling-not-floor",
+      "ins_verna-high-impact-ic-era"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "matthew-green",
+      "karri-saarinen",
+      "katie-dill"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "insights": [
     {
@@ -1312,7 +1320,7 @@
         "ins_kevin-indig-verification-cost-rising"
       ],
       "raw_ref": "",
-      "title": "AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation."
+      "title": "AI search breaks click-based attribution because the prompt-to-direct-visit path skips the click, making triangulation the new measurement foundation."
     },
     {
       "path": "insights/ins_ai-slop-loop.md",
@@ -6850,6 +6858,32 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_dill-ai-raises-ceiling-not-floor.md",
+      "id": "ins_dill-ai-raises-ceiling-not-floor",
+      "operator": "Katie Dill",
+      "operator_role": "Head of Design, Stripe",
+      "co_operators": [],
+      "source_url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "source_type": "talk",
+      "source_title": "Raise the ceiling: how to scale intent, quality, and artistry with AI",
+      "source_date": "2026-09-25",
+      "captured_date": "2026-10-03",
+      "domain": [
+        "design",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Teams using AI only for speed are floor-lifting. The greater gain is ceiling-raising: shipping quality that was previously too slow to produce."
+    },
+    {
       "path": "insights/ins_disha-thakkar-competitive-displacement-readiness-signals.md",
       "id": "ins_disha-thakkar-competitive-displacement-readiness-signals",
       "title": "True switching readiness requires five aligned signals, not just competitor usage.",
@@ -9729,6 +9763,36 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "But Great insight is. And this is precisely why AI shouldn't scale formats. It should s"
+    },
+    {
+      "path": "insights/ins_green-agent-worm-shared-infra.md",
+      "id": "ins_green-agent-worm-shared-infra",
+      "operator": "Matthew Green",
+      "operator_role": "Professor of Cryptography, Johns Hopkins University",
+      "co_operators": [],
+      "source_url": "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "source_type": "essay",
+      "source_title": "Is sandboxing sufficient to contain rogue agents?",
+      "source_date": "2026-09-30",
+      "captured_date": "2026-10-03",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-rogue-agents-side-channel",
+        "ins_tunguz-agents-covert-channels",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "Sandboxed agents that share any common writable resource have a covert channel. The sandbox stops egress, not cross-agent instruction passing."
     },
     {
       "path": "insights/ins_grennan-ai-roi-target-setting.md",
@@ -22927,6 +22991,33 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_saarinen-context-is-the-product.md",
+      "id": "ins_saarinen-context-is-the-product",
+      "operator": "Karri Saarinen",
+      "operator_role": "CEO and Co-Founder, Linear",
+      "co_operators": [],
+      "source_url": "https://youtu.be/Zn9NZ-r1-C4",
+      "source_type": "talk",
+      "source_title": "Context is now the product: what product leadership looks like when software can build itself",
+      "source_date": "2026-09-29",
+      "captured_date": "2026-10-03",
+      "domain": [
+        "product",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "When AI writes the code, the product is no longer the code. It becomes the context and judgment that directed what got built."
+    },
+    {
       "path": "insights/ins_saha-evals-as-harness-feedback-loop.md",
       "id": "ins_saha-evals-as-harness-feedback-loop",
       "operator": "Antaripa Saha",
@@ -30081,6 +30172,35 @@
       ],
       "raw_ref": "",
       "title": "AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all"
+    },
+    {
+      "path": "insights/ins_verna-high-impact-ic-era.md",
+      "id": "ins_verna-high-impact-ic-era",
+      "operator": "Elena Verna",
+      "operator_role": "Head of Growth, Lovable",
+      "co_operators": [],
+      "source_url": "https://youtu.be/fn8wnmpVqeI",
+      "source_type": "talk",
+      "source_title": "The rise of HI-ICs",
+      "source_date": "2026-09-29",
+      "captured_date": "2026-10-03",
+      "domain": [
+        "leadership",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_verna-agency-not-agents"
+      ],
+      "raw_ref": "",
+      "title": "AI lets individual contributors complete end-to-end workflows that previously required teams. The constraint shifts from headcount to decision authority and information access."
     },
     {
       "path": "insights/ins_verna-plg-enterprise-resource-cannibalization.md",
@@ -38869,6 +38989,23 @@
       "title": "Karl Sakas"
     },
     {
+      "path": "operators/karri-saarinen/README.md",
+      "name": "Karri Saarinen",
+      "slug": "karri-saarinen",
+      "roles": [
+        "CEO and Co-Founder, Linear"
+      ],
+      "domains_active": [
+        "product",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-03",
+      "external": {
+        "twitter": "https://twitter.com/karrisaarinen"
+      },
+      "title": "Karri Saarinen"
+    },
+    {
       "path": "operators/karthik-srinivasan/README.md",
       "name": "Karthik Srinivasan",
       "slug": "karthik-srinivasan",
@@ -38909,6 +39046,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Kate Syuma"
+    },
+    {
+      "path": "operators/katie-dill/README.md",
+      "name": "Katie Dill",
+      "slug": "katie-dill",
+      "roles": [
+        "Head of Design, Stripe"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-03",
+      "external": {
+        "linkedin": "https://www.linkedin.com/in/katie-dill-79168b3/"
+      },
+      "title": "Katie Dill"
     },
     {
       "path": "operators/keenan/README.md",
@@ -39999,6 +40153,23 @@
         "newsletter": "https://interconnected.org/home/"
       },
       "title": "Matt Webb"
+    },
+    {
+      "path": "operators/matthew-green/README.md",
+      "name": "Matthew Green",
+      "slug": "matthew-green",
+      "roles": [
+        "Professor of Cryptography, Johns Hopkins University"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-03",
+      "external": {
+        "twitter": "https://twitter.com/matthew_d_green"
+      },
+      "title": "Matthew Green"
     },
     {
       "path": "operators/max-da-silva/README.md",
@@ -47443,8 +47614,8 @@
       "id": "pat_execution-cheap-judgement-scarce",
       "title": "Execution is becoming free; judgement is the part that doesn't compress",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-07-08",
-      "convergence_count": "7",
+      "last_updated": "2026-10-03",
+      "convergence_count": "10",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-doesnt-compress",
@@ -47453,7 +47624,10 @@
         "ins_scarcity-supercycle",
         "ins_rory-woodbridge-pmm-craft-common-language",
         "ins_sangram-vajre-ai-multiplies-existing-alignment",
-        "ins_liu-ability-free-taste-scarce"
+        "ins_liu-ability-free-taste-scarce",
+        "ins_saarinen-context-is-the-product",
+        "ins_dill-ai-raises-ceiling-not-floor",
+        "ins_verna-high-impact-ic-era"
       ],
       "domains": [
         "growth",
@@ -49661,6 +49835,34 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-03.md",
+      "date": "2026-10-03",
+      "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
+      "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
+      "sources": [
+        "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+        "https://youtu.be/Zn9NZ-r1-C4",
+        "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+        "https://youtu.be/fn8wnmpVqeI"
+      ],
+      "insights_added": [
+        "ins_green-agent-worm-shared-infra",
+        "ins_saarinen-context-is-the-product",
+        "ins_dill-ai-raises-ceiling-not-floor",
+        "ins_verna-high-impact-ic-era"
+      ],
+      "operators_added": [
+        "matthew-green",
+        "karri-saarinen",
+        "katie-dill"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-10-02.md",
       "date": "2026-10-02",

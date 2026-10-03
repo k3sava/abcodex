@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 01:42:32 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 01:50:43 GMT</lastBuildDate>
+    <item>
+      <title>Agent worms via shared infra, and what human value shifts to when AI does the building</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-03/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-03/</guid>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.</description>
+    </item>
     <item>
       <title>Agents dissolve management, evals demand data, and attribution collapses under AI search</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-02/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-04/</guid>
       <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three new cards across three lanes. Rick Brewster on shipping 180,000 lines of AI-generated code and the babysitting tax. Tom Tunguz on Meta&apos;s two-tier pricing as a revealed $1.24/M valuation of prompt data. Harrison Chase on why debugging agents means reading traces, not source code.</description>
-    </item>
-    <item>
-      <title>AI quality floors, citation graphs, salaried ceilings, and prompt governance</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-03/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-03/</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.</description>
     </item>
   </channel>
 </rss>

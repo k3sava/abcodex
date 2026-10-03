@@ -1,26 +1,62 @@
 {
-  "generated_at": "2026-10-02T01:42:24.498Z",
+  "generated_at": "2026-10-03T01:50:40.151Z",
   "latest_daily": {
-    "path": "daily/2026-10-02.md",
-    "date": "2026-10-02",
-    "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
-    "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
+    "path": "daily/2026-10-03.md",
+    "date": "2026-10-03",
+    "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
+    "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
-      "https://www.growth-memo.com/p/the-collapse-of-attribution"
+      "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+      "https://youtu.be/Zn9NZ-r1-C4",
+      "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "https://youtu.be/fn8wnmpVqeI"
     ],
     "insights_added": [
-      "ins_agents-self-organize-no-mgmt-overhead",
-      "ins_eval-data-first-before-metrics",
-      "ins_ai-search-attribution-triangulation"
+      "ins_green-agent-worm-shared-infra",
+      "ins_saarinen-context-is-the-product",
+      "ins_dill-ai-raises-ceiling-not-floor",
+      "ins_verna-high-impact-ic-era"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "matthew-green",
+      "karri-saarinen",
+      "katie-dill"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_execution-cheap-judgement-scarce"
+    ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-03.md",
+      "date": "2026-10-03",
+      "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
+      "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
+      "sources": [
+        "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
+        "https://youtu.be/Zn9NZ-r1-C4",
+        "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+        "https://youtu.be/fn8wnmpVqeI"
+      ],
+      "insights_added": [
+        "ins_green-agent-worm-shared-infra",
+        "ins_saarinen-context-is-the-product",
+        "ins_dill-ai-raises-ceiling-not-floor",
+        "ins_verna-high-impact-ic-era"
+      ],
+      "operators_added": [
+        "matthew-green",
+        "karri-saarinen",
+        "katie-dill"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_execution-cheap-judgement-scarce"
+      ]
+    },
     {
       "path": "daily/2026-10-02.md",
       "date": "2026-10-02",
@@ -641,30 +677,6 @@
       ],
       "operators_added": [
         "rick-brewster"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-03.md",
-      "date": "2026-09-03",
-      "title": "AI quality floors, citation graphs, salaried ceilings, and prompt governance",
-      "summary": "Four new cards across three lanes. Tom Tunguz on how AI raises the quality floor faster than the ceiling. Joseph Kim on citation-based game discovery in AI search and on why salaried incentives throttle AI ROI. Simon Willison on system prompts as reactive legal compliance tools.",
-      "sources": [
-        "https://tomtunguz.com/ai-productivity-doesnt-mean-what-i-thought/",
-        "https://www.gamemakers.com/p/pr-for-gaming-studios",
-        "https://www.gamemakers.com/p/the-paradox-of-ai-roi",
-        "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-quality-floor-rises",
-        "ins_kim-llm-game-discovery-via-pr",
-        "ins_kim-ai-roi-salaried-ceiling",
-        "ins_willison-system-prompt-legal-reaction"
-      ],
-      "operators_added": [
-        "joseph-kim"
       ],
       "patterns_added": [],
       "playbooks_added": [],

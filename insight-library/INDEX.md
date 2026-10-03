@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1197 insight cards
-- 543 operator profiles
+- 1201 insight cards
+- 546 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -370,7 +370,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (755)
+### Tier B (759)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -402,7 +402,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ai-judgment-and-taste-emerging`](insights/ins_ai-judgment-and-taste-emerging.md) — AI has crossed the threshold to something indistinguishable from judgment and taste, winners will know what to build, not how _(Matt Shumer)_
 - [`ins_ai-mania-vendor-silence`](insights/ins_ai-mania-vendor-silence.md) — AI vendors cannot correct inflated customer productivity claims without destroying those customers' credibility _(Nikhil Suresh)_
 - [`ins_ai-native-launch-triage-not-fewer-gates`](insights/ins_ai-native-launch-triage-not-fewer-gates.md) — AI-native GTM teams win by triaging launches faster, not by removing launch discipline _(Aatir Abdul Rauf)_
-- [`ins_ai-search-attribution-triangulation`](insights/ins_ai-search-attribution-triangulation.md) — AI search breaks click-based attribution because the prompt-to-direct-visit journey skips the click, making triangulation the new measurement foundation. _(Kevin Indig)_
+- [`ins_ai-search-attribution-triangulation`](insights/ins_ai-search-attribution-triangulation.md) — AI search breaks click-based attribution because the prompt-to-direct-visit path skips the click, making triangulation the new measurement foundation. _(Kevin Indig)_
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya Hariharan)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
@@ -536,6 +536,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_design-as-bottleneck`](insights/ins_design-as-bottleneck.md) — Make design an explicit ship-blocking bottleneck _(Evan Spiegel)_
 - [`ins_different-is-better-than-better`](insights/ins_different-is-better-than-better.md) — Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring _(Sally Hogshead)_
 - [`ins_dileep-krishna-automation-maintenance-bottleneck`](insights/ins_dileep-krishna-automation-maintenance-bottleneck.md) — Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing. _(Dileep Krishna)_
+- [`ins_dill-ai-raises-ceiling-not-floor`](insights/ins_dill-ai-raises-ceiling-not-floor.md) — Teams using AI only for speed are floor-lifting. The greater gain is ceiling-raising: shipping quality that was previously too slow to produce. _(Katie Dill)_
 - [`ins_don-care-how-awesome-prompting`](insights/ins_don-care-how-awesome-prompting.md) — I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice _(Stefan Gladbach)_
 - [`ins_don-ignore-stuck-feeling-pointing`](insights/ins_don-ignore-stuck-feeling-pointing.md) — 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet _(Lola Han)_
 - [`ins_doshi-distribution-belief-trap`](insights/ins_doshi-distribution-belief-trap.md) — Product builders hold four beliefs about distribution and product quality that are each defensible alone but collectively self-defeating _(Shreyas Doshi)_
@@ -593,6 +594,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla _(Kevin White)_
 - [`ins_great-brands-start-inside`](insights/ins_great-brands-start-inside.md) — Great brands start inside, build the culture first, let external messaging emerge from it _(Denise Lee Yohn)_
 - [`ins_great-insight-precisely-why-shouldn`](insights/ins_great-insight-precisely-why-shouldn.md) — But Great insight is. And this is precisely why AI shouldn't scale formats. It should s _(Kaizad Hansotia)_
+- [`ins_green-agent-worm-shared-infra`](insights/ins_green-agent-worm-shared-infra.md) — Sandboxed agents that share any common writable resource have a covert channel. The sandbox stops egress, not cross-agent instruction passing. _(Matthew Green)_
 - [`ins_grennan-ai-roi-target-setting`](insights/ins_grennan-ai-roi-target-setting.md) — AI ROI measurement fails because organizations deploy AI without first defining what better work looks like _(Conor Grennan)_
 - [`ins_gruhn-meat-proxy-accountability`](insights/ins_gruhn-meat-proxy-accountability.md) — Relaying AI output without reading it lends your organizational identity to unvalidated content and provides near-zero value _(Niklas Gruhn)_
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
@@ -866,6 +868,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_rory-woodbridge-launch-tier-not-debate`](insights/ins_rory-woodbridge-launch-tier-not-debate.md) — Engineering ships every 2.8 weeks on average now. Without a tier system, every release becomes a launch debate. _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-pmm-craft-common-language`](insights/ins_rory-woodbridge-pmm-craft-common-language.md) — The hard PMM hire is interpersonal craft: the ability to find a common language for the whole company to talk about the product _(Rory Woodbridge)_
 - [`ins_rory-woodbridge-seats-pricing-ai-trap`](insights/ins_rory-woodbridge-seats-pricing-ai-trap.md) — Seats-based pricing is a logical trap when AI reduces the headcount tied to the metric _(Rory Woodbridge)_
+- [`ins_saarinen-context-is-the-product`](insights/ins_saarinen-context-is-the-product.md) — When AI writes the code, the product is no longer the code. It becomes the context and judgment that directed what got built. _(Karri Saarinen)_
 - [`ins_saha-evals-as-harness-feedback-loop`](insights/ins_saha-evals-as-harness-feedback-loop.md) — Evals close the harness improvement loop; treating them as a post-deployment quality check removes the signal that guides agent system improvement _(Antaripa Saha)_
 - [`ins_saishah-joseph-exhaustion-disguised-as-enthusiasm`](insights/ins_saishah-joseph-exhaustion-disguised-as-enthusiasm.md) — Small business owners' social media exhaustion is disguised as enthusiasm _(Saishah Joseph)_
 - [`ins_sajjan-jain-ai-80-percent-startup-opportunity`](insights/ins_sajjan-jain-ai-80-percent-startup-opportunity.md) — AI's 80% ceiling is the startup opportunity: complete the last mile to 100%. _(Sajjan Jain)_
@@ -1023,6 +1026,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
 - [`ins_verna-ai-overclaiming-three-failure-modes`](insights/ins_verna-ai-overclaiming-three-failure-modes.md) — AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all _(Elena Verna)_
+- [`ins_verna-high-impact-ic-era`](insights/ins_verna-high-impact-ic-era.md) — AI lets individual contributors complete end-to-end workflows that previously required teams. The constraint shifts from headcount to decision authority and information access. _(Elena Verna)_
 - [`ins_verna-plg-enterprise-resource-cannibalization`](insights/ins_verna-plg-enterprise-resource-cannibalization.md) — PLG companies that redirect resources from self-serve to enterprise sales destroy both channels because PLG creates the enterprise prospect pipeline _(Elena Verna)_
 - [`ins_verrilli-dri-eliminates-pm-layer`](insights/ins_verrilli-dri-eliminates-pm-layer.md) — Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work _(Tom Verrilli)_
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
@@ -1494,9 +1498,11 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [Kaizad Hansotia](operators/kaizad-hansotia/README.md)
 - [Kamaraj Mathiarasan](operators/kamaraj-mathiarasan/README.md)
 - [Karl Sakas](operators/karl-sakas/README.md)
+- [Karri Saarinen](operators/karri-saarinen/README.md)
 - [Karthik Srinivasan](operators/karthik-srinivasan/README.md)
 - [Kate Orchard](operators/kate-orchard/README.md)
 - [Kate Syuma](operators/kate-syuma/README.md)
+- [Katie Dill](operators/katie-dill/README.md)
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kenny Damian](operators/kenny-damian/README.md)
 - [Kenton Varda](operators/kenton-varda/README.md)
@@ -1557,6 +1563,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [Matt Gray](operators/matt-gray/README.md)
 - [Matt Shumer](operators/matt-shumer/README.md)
 - [Matt Webb](operators/matt-webb/README.md)
+- [Matthew Green](operators/matthew-green/README.md)
 - [Max Da Silva](operators/max-da-silva/README.md)
 - [Max Schoening](operators/max-schoening/README.md)
 - [Mayuresh Patole](operators/mayuresh-patole/README.md)
@@ -1786,7 +1793,7 @@ _Generated 2026-10-02. Auto-built from frontmatter — do not edit by hand._
 - [`pat_distribution-as-moat`](synthesis/patterns/distribution-as-moat.md) — Distribution and earned channels are the new moat (5 ops) [Tier A]
 - [`pat_economic-turing-test-rev-per-employee`](synthesis/patterns/economic-turing-test-rev-per-employee.md) — The Economic Turing Test, outcomes pricing, agent labor, revenue per employee (3 ops) [Tier A]
 - [`pat_eval-as-data-analysis`](synthesis/patterns/eval-as-data-analysis.md) — Evals are data analysis, single judge, binary rubrics, error analysis first (3 ops) [Tier A]
-- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (7 ops) [Tier A]
+- [`pat_execution-cheap-judgement-scarce`](synthesis/patterns/execution-cheap-judgement-scarce.md) — Execution is becoming free; judgement is the part that doesn't compress (10 ops) [Tier A]
 - [`pat_frontline-as-pmm-substrate`](synthesis/patterns/frontline-as-pmm-substrate.md) — Frontline customer contact is the PMM substrate (9 ops) [Tier A]
 - [`pat_generalists-with-taste`](synthesis/patterns/generalists-with-taste.md) — Generalists with taste, shipping end-to-end (5 ops) [Tier A]
 - [`pat_harness-controls-strategic-layer`](synthesis/patterns/pat_harness-controls-strategic-layer.md) — The harness layer is where control concentrates above the model (4 ops) [Tier B]
