@@ -1,41 +1,31 @@
 {
-  "generated_at": "2026-10-03T01:50:40.082Z",
+  "generated_at": "2026-10-04T01:51:19.722Z",
   "counts": {
-    "insights": 1201,
+    "insights": 1203,
     "operators": 546,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 125
+    "daily": 126
   },
   "latest_daily": {
-    "path": "daily/2026-10-03.md",
-    "date": "2026-10-03",
-    "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
-    "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
+    "path": "daily/2026-10-04.md",
+    "date": "2026-10-04",
+    "title": "Agents self-organize, and why hard spending caps must ship on by default",
+    "summary": "Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.",
     "sources": [
-      "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
-      "https://youtu.be/Zn9NZ-r1-C4",
-      "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-      "https://youtu.be/fn8wnmpVqeI"
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
     ],
     "insights_added": [
-      "ins_green-agent-worm-shared-infra",
-      "ins_saarinen-context-is-the-product",
-      "ins_dill-ai-raises-ceiling-not-floor",
-      "ins_verna-high-impact-ic-era"
+      "ins_mollick-agents-self-organize",
+      "ins_willison-hard-budget-caps-default"
     ],
-    "operators_added": [
-      "matthew-green",
-      "karri-saarinen",
-      "katie-dill"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_execution-cheap-judgement-scarce"
-    ]
+    "patterns_updated": []
   },
   "insights": [
     {
@@ -17257,6 +17247,37 @@
       "title": "Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring"
     },
     {
+      "path": "insights/ins_mollick-agents-self-organize.md",
+      "id": "ins_mollick-agents-self-organize",
+      "operator": "Ethan Mollick",
+      "operator_role": "Associate Professor, Wharton School, University of Pennsylvania",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source_type": "essay",
+      "source_title": "The Dot and the Swarm",
+      "source_date": "2026-10-01",
+      "captured_date": "2026-10-04",
+      "domain": [
+        "ai-native",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_agents-as-team-not-tools",
+        "ins_green-agent-worm-shared-infra",
+        "ins_saarinen-context-is-the-product"
+      ],
+      "raw_ref": "",
+      "title": "AI agent networks self-organize coordination without human-designed management structures"
+    },
+    {
       "path": "insights/ins_mollick-co-existence-phase-shift.md",
       "id": "ins_mollick-co-existence-phase-shift",
       "operator": "Ethan Mollick",
@@ -32063,6 +32084,36 @@
       ],
       "raw_ref": "",
       "title": "Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for."
+    },
+    {
+      "path": "insights/ins_willison-hard-budget-caps-default.md",
+      "id": "ins_willison-hard-budget-caps-default",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; independent developer and writer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+      "source_type": "essay",
+      "source_title": "We're going to need default hard budget caps on pretty much everything",
+      "source_date": "2026-10-03",
+      "captured_date": "2026-10-04",
+      "domain": [
+        "ai-native",
+        "developer-tools"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_green-agent-worm-shared-infra",
+        "ins_willison-rogue-agents-side-channel",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "Hard spending caps must be the default for AI agent workloads, not an opt-in setting"
     },
     {
       "path": "insights/ins_willison-incomplete-schema-agent-loop.md",
@@ -49835,6 +49886,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-04.md",
+      "date": "2026-10-04",
+      "title": "Agents self-organize, and why hard spending caps must ship on by default",
+      "summary": "Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      ],
+      "insights_added": [
+        "ins_mollick-agents-self-organize",
+        "ins_willison-hard-budget-caps-default"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-03.md",
       "date": "2026-10-03",
