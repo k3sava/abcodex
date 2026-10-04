@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-03. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-04. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1201 insight cards
+- 1203 insight cards
 - 546 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-10-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (759)
+### Tier B (761)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -752,6 +752,7 @@ _Generated 2026-10-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agency-ai-frontier`](insights/ins_mollick-agency-ai-frontier.md) — Agency to test AI limits is the only way to discover capabilities before they are publicly announced _(Ethan Mollick)_
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
+- [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
@@ -1081,6 +1082,7 @@ _Generated 2026-10-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-game-loop-agent-limit`](insights/ins_willison-game-loop-agent-limit.md) — Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for. _(Simon Willison)_
+- [`ins_willison-hard-budget-caps-default`](insights/ins_willison-hard-budget-caps-default.md) — Hard spending caps must be the default for AI agent workloads, not an opt-in setting _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-instruction-over-review`](insights/ins_willison-instruction-over-review.md) — Productive use of coding agents requires confident instruction and confident verification, not granular code review _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_

@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-03 · 4 insights · 3 operators
+### Latest · 2026-10-04 · 2 insights
 
-**Agent worms via shared infra, and what human value shifts to when AI does the building.** Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.
+**Agents self-organize, and why hard spending caps must ship on by default.** Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.
 
-[Read what landed →](insight-library/daily/2026-10-03.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-04.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1201** insight cards
+- **1203** insight cards
 - **546** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
