@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Oct 2026 01:51:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 01:54:16 GMT</lastBuildDate>
+    <item>
+      <title>Vibe coding vs. formal design, and Google&apos;s alarm clock for the next big update</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-05/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-05/</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google&apos;s top enforcement priority.</description>
+    </item>
     <item>
       <title>Agents self-organize, and why hard spending caps must ship on by default</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-04/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-06/</guid>
       <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI&apos;s creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.</description>
-    </item>
-    <item>
-      <title>Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-05/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-05/</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.</description>
     </item>
   </channel>
 </rss>

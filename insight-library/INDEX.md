@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1203 insight cards
+- 1206 insight cards
 - 546 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-10-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (761)
+### Tier B (764)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -701,6 +701,8 @@ _Generated 2026-10-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_levels-saas-build-not-buy-flip`](insights/ins_levels-saas-build-not-buy-flip.md) — Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators _(Pieter Levels)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
+- [`ins_lily-ray-google-doc-change-early-warning`](insights/ins_lily-ray-google-doc-change-early-warning.md) — Google rewrites public quality guidelines weeks before major algorithm updates, producing seven observable signals practitioners can monitor _(Lily Ray)_
+- [`ins_lily-ray-scaled-content-top-enforcement`](insights/ins_lily-ray-scaled-content-top-enforcement.md) — Scaled AI-generated content has replaced link spam as Google's primary enforcement target, confirmed by a Google engineer's statement and four spam updates in under a year _(Lily Ray)_
 - [`ins_lily-ray-self-promo-recommendation-exclusion`](insights/ins_lily-ray-self-promo-recommendation-exclusion.md) — A brand's self-promotional "best of" listicle gets cited by AI Overviews 74% of the time but excluded from the recommendation 69% of the time _(Lily Ray)_
 - [`ins_linde-hasker-human-insight-over-ai`](insights/ins_linde-hasker-human-insight-over-ai.md) — Even OpenAI knows AI can't replace human strategic thinking for content strategy. _(Linde Hasker)_
 - [`ins_listening-mode-not-selling-mode`](insights/ins_listening-mode-not-selling-mode.md) — Switch from selling mode to listening mode when the market breaks _(Shruti Kapoor)_
@@ -993,6 +995,7 @@ _Generated 2026-10-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-fat-middle-demand-distribution`](insights/ins_tunguz-fat-middle-demand-distribution.md) — AI intelligence demand follows a normal distribution, not a pyramid; mid-tier models dominate commercial spending because enterprise requirements are stable while AI costs fall exponentially _(Tom Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
+- [`ins_tunguz-grow-or-design-modes`](insights/ins_tunguz-grow-or-design-modes.md) — Vibe coding selects for correctness by experiment; state machine design proves correctness by enumerating every path _(Tom Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-margin-cost`](insights/ins_tunguz-harness-margin-cost.md) — The right harness cuts AI inference cost 71% with no accuracy loss; the moat is customer data, not engineering _(Tom Tunguz)_
