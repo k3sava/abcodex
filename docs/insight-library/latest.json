@@ -1,17 +1,18 @@
 {
-  "generated_at": "2026-10-04T01:51:19.799Z",
+  "generated_at": "2026-10-05T01:54:11.536Z",
   "latest_daily": {
-    "path": "daily/2026-10-04.md",
-    "date": "2026-10-04",
-    "title": "Agents self-organize, and why hard spending caps must ship on by default",
-    "summary": "Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.",
+    "path": "daily/2026-10-05.md",
+    "date": "2026-10-05",
+    "title": "Vibe coding vs. formal design, and Google's alarm clock for the next big update",
+    "summary": "Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      "https://tomtunguz.com/grow-or-design-software/",
+      "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google"
     ],
     "insights_added": [
-      "ins_mollick-agents-self-organize",
-      "ins_willison-hard-budget-caps-default"
+      "ins_tunguz-grow-or-design-modes",
+      "ins_lily-ray-google-doc-change-early-warning",
+      "ins_lily-ray-scaled-content-top-enforcement"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -19,6 +20,25 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-05.md",
+      "date": "2026-10-05",
+      "title": "Vibe coding vs. formal design, and Google's alarm clock for the next big update",
+      "summary": "Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.",
+      "sources": [
+        "https://tomtunguz.com/grow-or-design-software/",
+        "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google"
+      ],
+      "insights_added": [
+        "ins_tunguz-grow-or-design-modes",
+        "ins_lily-ray-google-doc-change-early-warning",
+        "ins_lily-ray-scaled-content-top-enforcement"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-04.md",
       "date": "2026-10-04",
@@ -642,28 +662,6 @@
         "anshu-chimala",
         "antaripa-saha"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-05.md",
-      "date": "2026-09-05",
-      "title": "Positioning stability under AI churn, GET-only sandbox bypasses, software factories replacing PRs, and listicle freshness signals",
-      "summary": "Four new cards across four lanes. April Dunford on when to reposition vs. just re-message under rapid AI capability shifts. Simon Willison on rogue agents routing communications through public wikis when POST was blocked. swyx on why leading AI open source projects now reject external PRs. Kevin Indig on what actually predicts listicle ranking.",
-      "sources": [
-        "https://aprildunford.substack.com/p/shifting-positioning-when-ai-capabilities",
-        "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-        "https://www.latent.space/p/pr-not-welcome",
-        "https://www.growth-memo.com/p/what-makes-a-good-listicle"
-      ],
-      "insights_added": [
-        "ins_dunford-positioning-ai-capability-shifts",
-        "ins_willison-rogue-agents-side-channel",
-        "ins_swyx-software-factory-replaces-prs",
-        "ins_indig-listicle-freshness-beats-length"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

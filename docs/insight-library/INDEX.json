@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-10-04T01:51:19.722Z",
+  "generated_at": "2026-10-05T01:54:11.449Z",
   "counts": {
-    "insights": 1203,
+    "insights": 1206,
     "operators": 546,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 126
+    "daily": 127
   },
   "latest_daily": {
-    "path": "daily/2026-10-04.md",
-    "date": "2026-10-04",
-    "title": "Agents self-organize, and why hard spending caps must ship on by default",
-    "summary": "Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.",
+    "path": "daily/2026-10-05.md",
+    "date": "2026-10-05",
+    "title": "Vibe coding vs. formal design, and Google's alarm clock for the next big update",
+    "summary": "Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
+      "https://tomtunguz.com/grow-or-design-software/",
+      "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google"
     ],
     "insights_added": [
-      "ins_mollick-agents-self-organize",
-      "ins_willison-hard-budget-caps-default"
+      "ins_tunguz-grow-or-design-modes",
+      "ins_lily-ray-google-doc-change-early-warning",
+      "ins_lily-ray-scaled-content-top-enforcement"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -14812,6 +14813,66 @@
       "title": "A Google penalty removes a page from every AI surface at once, not just Google search"
     },
     {
+      "path": "insights/ins_lily-ray-google-doc-change-early-warning.md",
+      "id": "ins_lily-ray-google-doc-change-early-warning",
+      "operator": "Lily Ray",
+      "operator_role": "SEO strategist and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google",
+      "source_type": "essay",
+      "source_title": "Prediction: the next massive Google update is around the corner",
+      "source_date": "2026-10-04",
+      "captured_date": "2026-10-05",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "risk-management"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-geo-penalty-multi-surface-cascade",
+        "ins_lily-ray-self-promo-recommendation-exclusion"
+      ],
+      "raw_ref": "",
+      "title": "Google rewrites public quality guidelines weeks before major algorithm updates, producing seven observable signals practitioners can monitor"
+    },
+    {
+      "path": "insights/ins_lily-ray-scaled-content-top-enforcement.md",
+      "id": "ins_lily-ray-scaled-content-top-enforcement",
+      "operator": "Lily Ray",
+      "operator_role": "SEO strategist and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google",
+      "source_type": "essay",
+      "source_title": "Prediction: the next massive Google update is around the corner",
+      "source_date": "2026-10-04",
+      "captured_date": "2026-10-05",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "content-strategy",
+        "risk-management"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-google-doc-change-early-warning",
+        "ins_lily-ray-geo-penalty-multi-surface-cascade"
+      ],
+      "raw_ref": "",
+      "title": "Scaled AI-generated content has replaced link spam as Google's primary enforcement target, confirmed by a Google engineer's statement and four spam updates in under a year"
+    },
+    {
       "path": "insights/ins_lily-ray-self-promo-recommendation-exclusion.md",
       "id": "ins_lily-ray-self-promo-recommendation-exclusion",
       "operator": "Lily Ray",
@@ -28984,6 +29045,36 @@
       ],
       "raw_ref": "",
       "title": "Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity"
+    },
+    {
+      "path": "insights/ins_tunguz-grow-or-design-modes.md",
+      "id": "ins_tunguz-grow-or-design-modes",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/grow-or-design-software/",
+      "source_type": "essay",
+      "source_title": "Do We Grow Software or Do We Design It?",
+      "source_date": "2026-10-02",
+      "captured_date": "2026-10-05",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-decision-model-bifurcation"
+      ],
+      "raw_ref": "",
+      "title": "Vibe coding selects for correctness by experiment; state machine design proves correctness by enumerating every path"
     },
     {
       "path": "insights/ins_tunguz-harness-benchmark-delta.md",
@@ -49886,6 +49977,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-05.md",
+      "date": "2026-10-05",
+      "title": "Vibe coding vs. formal design, and Google's alarm clock for the next big update",
+      "summary": "Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.",
+      "sources": [
+        "https://tomtunguz.com/grow-or-design-software/",
+        "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google"
+      ],
+      "insights_added": [
+        "ins_tunguz-grow-or-design-modes",
+        "ins_lily-ray-google-doc-change-early-warning",
+        "ins_lily-ray-scaled-content-top-enforcement"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-04.md",
       "date": "2026-10-04",

@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-04 · 2 insights
+### Latest · 2026-10-05 · 3 insights
 
-**Agents self-organize, and why hard spending caps must ship on by default.** Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.
+**Vibe coding vs. formal design, and Google's alarm clock for the next big update.** Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.
 
-[Read what landed →](insight-library/daily/2026-10-04.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-05.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1203** insight cards
+- **1206** insight cards
 - **546** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
