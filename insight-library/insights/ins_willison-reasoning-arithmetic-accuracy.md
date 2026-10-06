@@ -21,7 +21,7 @@ raw_ref: ""
 # Enabling reasoning raises arithmetic accuracy in Qwen3.8-27B from 23% to 99% by replacing pattern-matching with step-by-step processing
 
 ## Claim
-Enabling reasoning mode in Qwen3.8-27B raised accuracy on number-to-word arithmetic from 23.57% to 98.8% across a controlled experiment. The jump confirms that reasoning transforms sequential tasks by substituting systematic computation for direct pattern recall, which fails at scale.
+Enabling reasoning mode in Qwen3.8-27B raised accuracy on number-to-word arithmetic from 23.57% to 98.8% across a controlled experiment. The jump confirms that reasoning succeeds on sequential tasks by substituting systematic computation for direct pattern recall, which fails at scale.
 
 ## Mechanism
 Without reasoning, a model attempts to pattern-match the answer directly. For simple operands, that works (97% accuracy on 1-3 digit numbers). For large operands (10-13 digits), the model cannot pattern-match a number it has rarely seen converted to words, so accuracy collapses to 6.44%. Reasoning forces the model to work through the problem in discrete steps: add the digits, carry as needed, convert each component to English. The step-by-step trace succeeds even at 10-13 digits because each step is simple enough to pattern-match reliably. The accuracy jump is not incremental; it is structural. The mode switch changes which cognitive operation the model applies.
