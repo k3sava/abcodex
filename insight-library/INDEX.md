@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1206 insight cards
+- 1210 insight cards
 - 546 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -370,7 +370,7 @@ _Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (764)
+### Tier B (768)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -925,6 +925,7 @@ _Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(swyx)_
 - [`ins_solis-ai-citations-external-majority`](insights/ins_solis-ai-citations-external-majority.md) — AI search is a 3rd-party citation problem: external domains supply over 80 percent of citations while owned pages corroborate _(Aleyda Solis)_
 - [`ins_solis-cited-vs-traffic-page-gap`](insights/ins_solis-cited-vs-traffic-page-gap.md) — The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization _(Aleyda Solis)_
+- [`ins_solis-commodity-content-brand-swap`](insights/ins_solis-commodity-content-brand-swap.md) — Content that survives a brand-swap test is commodity content and becomes Google's primary enforcement target at scale _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
 - [`ins_solis-ecommerce-serp-layout-traffic-drop`](insights/ins_solis-ecommerce-serp-layout-traffic-drop.md) — Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
@@ -1003,6 +1004,7 @@ _Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-pricing-value-beats-cost-plus`](insights/ins_tunguz-inference-pricing-value-beats-cost-plus.md) — Reselling inference at cost-plus yields zero margin as model prices compress _(Tomasz Tunguz)_
 - [`ins_tunguz-inference-stack-fragmentation`](insights/ins_tunguz-inference-stack-fragmentation.md) — AI inference infrastructure is fragmenting into specialized layers the way databases fragmented into OLTP, OLAP, vector, and streaming systems _(Tomasz Tunguz)_
+- [`ins_tunguz-inference-surpasses-database`](insights/ins_tunguz-inference-surpasses-database.md) — AI inference will pass the database market in 2027 while compressing gross margins below the SaaS norm _(Tomasz Tunguz)_
 - [`ins_tunguz-infrastructure-debt-cagr`](insights/ins_tunguz-infrastructure-debt-cagr.md) — AI infrastructure financing has become a macroeconomic credit event requiring 55% CAGR in private credit markets _(Tom Tunguz)_
 - [`ins_tunguz-intelligence-per-watt`](insights/ins_tunguz-intelligence-per-watt.md) — Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks _(Tomasz Tunguz)_
 - [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
@@ -1072,6 +1074,7 @@ _Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-benchmark-agent-decoupling`](insights/ins_willison-benchmark-agent-decoupling.md) — Single-task visual benchmarks have decoupled from frontier model rankings; agentic tool-calling reliability now differentiates model performance _(Simon Willison)_
 - [`ins_willison-blender-headless-agent-loop`](insights/ins_willison-blender-headless-agent-loop.md) — Giving a coding agent access to a professional visual tool with a Python API enables autonomous render-inspect-edit iteration without human direction between rounds _(Simon Willison)_
 - [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold triggers agentic adoption sharply, not gradually _(Simon Willison)_
+- [`ins_willison-cloud-budget-caps-default`](insights/ins_willison-cloud-budget-caps-default.md) — AI coding agents remove the friction that kept cloud spending under control, requiring hard budget caps as the opt-out default _(Simon Willison)_
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-decision-model-opacity`](insights/ins_willison-decision-model-opacity.md) — Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable _(Simon Willison)_
@@ -1102,6 +1105,7 @@ _Generated 2026-10-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_
+- [`ins_willison-reasoning-arithmetic-accuracy`](insights/ins_willison-reasoning-arithmetic-accuracy.md) — Enabling reasoning raises arithmetic accuracy in Qwen3.8-27B from 23% to 99% by replacing pattern-matching with step-by-step processing _(Simon Willison)_
 - [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
 - [`ins_willison-rogue-agents-side-channel`](insights/ins_willison-rogue-agents-side-channel.md) — Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_

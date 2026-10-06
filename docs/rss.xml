@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 01:54:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 01:45:53 GMT</lastBuildDate>
+    <item>
+      <title>Inference economics, agent budget risk, and what scale does to quality</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-06/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from three operators. Tomasz Tunguz quantifies how the inference market will dwarf databases by 2027 and compresses SaaS margins. Simon Willison documents why agents require hard cloud budget caps by default and why enabling reasoning raised Qwen3.8 arithmetic accuracy from 23% to 99%. Aleyda Solis names the brand-swap test as the practical diagnostic for commodity content under Google&apos;s enforcement acceleration.</description>
+    </item>
     <item>
       <title>Vibe coding vs. formal design, and Google&apos;s alarm clock for the next big update</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-05/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-07/</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across four lanes. Armin Ronacher on how shared model weights nudge independent builders toward identical products. Benedict Evans on why most employees lack the cognitive mode to self-identify automation opportunities. Eric Seufert on chatbot advertising&apos;s dual-targeting advantage over search and social. Tom Tunguz on $4 trillion in AI data center debt requiring 55% CAGR from private credit markets.</description>
-    </item>
-    <item>
-      <title>AI creative distribution, evals as harness feedback, and MVVM deferral in SwiftUI</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-06/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-06/</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards across design, agent engineering, and iOS architecture. Anshu Chimala on accessing AI&apos;s creative range with seed strings. Antaripa Saha on evals as the feedback mechanism that closes the harness loop. Antoine van der Lee on deferring view model extraction until complexity warrants it.</description>
     </item>
   </channel>
 </rss>
