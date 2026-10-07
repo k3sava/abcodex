@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-06 · 4 insights
+### Latest · 2026-10-07 · 3 insights · 1 operator
 
-**Inference economics, agent budget risk, and what scale does to quality.** Four cards from three operators. Tomasz Tunguz quantifies how the inference market will dwarf databases by 2027 and compresses SaaS margins. Simon Willison documents why agents require hard cloud budget caps by default and why enabling reasoning raised Qwen3.8 arithmetic accuracy from 23% to 99%. Aleyda Solis names the brand-swap test as the practical diagnostic for commodity content under Google's enforcement acceleration.
+**Production agent architecture, codebase knowledge graphs, and per-use-case evals.** Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel's inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb's AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.
 
-[Read what landed →](insight-library/daily/2026-10-06.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-07.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1210** insight cards
-- **546** operator profiles
+- **1213** insight cards
+- **547** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 546 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 547 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

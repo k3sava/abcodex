@@ -1,32 +1,31 @@
 {
-  "generated_at": "2026-10-06T01:45:48.815Z",
+  "generated_at": "2026-10-07T01:50:46.466Z",
   "counts": {
-    "insights": 1210,
-    "operators": 546,
+    "insights": 1213,
+    "operators": 547,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 128
+    "daily": 129
   },
   "latest_daily": {
-    "path": "daily/2026-10-06.md",
-    "date": "2026-10-06",
-    "title": "Inference economics, agent budget risk, and what scale does to quality",
-    "summary": "Four cards from three operators. Tomasz Tunguz quantifies how the inference market will dwarf databases by 2027 and compresses SaaS margins. Simon Willison documents why agents require hard cloud budget caps by default and why enabling reasoning raised Qwen3.8 arithmetic accuracy from 23% to 99%. Aleyda Solis names the brand-swap test as the practical diagnostic for commodity content under Google's enforcement acceleration.",
+    "path": "daily/2026-10-07.md",
+    "date": "2026-10-07",
+    "title": "Production agent architecture, codebase knowledge graphs, and per-use-case evals",
+    "summary": "Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel's inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb's AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.",
     "sources": [
-      "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
-      "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
-      "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-      "https://seroundtable.com/google-search-spam-updates-ai-42226.html"
+      "https://tomtunguz.com/how-to-automate-inbound/",
+      "https://www.latent.space/p/airbnb"
     ],
     "insights_added": [
-      "ins_tunguz-inference-surpasses-database",
-      "ins_willison-cloud-budget-caps-default",
-      "ins_solis-commodity-content-brand-swap",
-      "ins_willison-reasoning-arithmetic-accuracy"
+      "ins_tunguz-production-agents-code-over-prompts",
+      "ins_al-dahle-everest-generalist-specialist",
+      "ins_al-dahle-per-usecase-evals"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "ahmad-al-dahle"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -1485,6 +1484,64 @@
       "tier": "C",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_al-dahle-everest-generalist-specialist.md",
+      "id": "ins_al-dahle-everest-generalist-specialist",
+      "operator": "Ahmad Al-Dahle",
+      "operator_role": "Chief Technology Officer, Airbnb",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/airbnb",
+      "source_type": "podcast",
+      "source_title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "source_date": "2026-10-02",
+      "captured_date": "2026-10-07",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_al-dahle-per-usecase-evals"
+      ],
+      "raw_ref": "",
+      "title": "An AI-queryable codebase knowledge graph compresses domain onboarding from months to weeks, enabling generalists to contribute to specialist code"
+    },
+    {
+      "path": "insights/ins_al-dahle-per-usecase-evals.md",
+      "id": "ins_al-dahle-per-usecase-evals",
+      "operator": "Ahmad Al-Dahle",
+      "operator_role": "Chief Technology Officer, Airbnb",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/airbnb",
+      "source_type": "podcast",
+      "source_title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "source_date": "2026-10-02",
+      "captured_date": "2026-10-07",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_al-dahle-everest-generalist-specialist"
+      ],
+      "raw_ref": "",
+      "title": "Production AI deployments require a separate eval suite per use case, sampled from real production queries, not shared benchmarks"
     },
     {
       "path": "insights/ins_albert-malikov-pmm-as-craft-not-title.md",
@@ -29706,6 +29763,36 @@
       "title": "Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task"
     },
     {
+      "path": "insights/ins_tunguz-production-agents-code-over-prompts.md",
+      "id": "ins_tunguz-production-agents-code-over-prompts",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/how-to-automate-inbound/",
+      "source_type": "essay",
+      "source_title": "How to Automate Inbound",
+      "source_date": "2026-10-06",
+      "captured_date": "2026-10-07",
+      "domain": [
+        "ai-native",
+        "gtm",
+        "sales"
+      ],
+      "lifecycle": [
+        "automation",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-ai-sdr-workflow-first"
+      ],
+      "raw_ref": "",
+      "title": "Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules"
+    },
+    {
       "path": "insights/ins_tunguz-sota-buyer-distribution.md",
       "id": "ins_tunguz-sota-buyer-distribution",
       "operator": "Tomasz Tunguz",
@@ -34347,6 +34434,22 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Agent.ai"
+    },
+    {
+      "path": "operators/ahmad-al-dahle/README.md",
+      "name": "Ahmad Al-Dahle",
+      "slug": "ahmad-al-dahle",
+      "roles": [
+        "Chief Technology Officer at Airbnb",
+        "Head of Generative AI at Meta (led the Llama team)"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
+      ],
+      "captured_first": "2026-10-07",
+      "external": "{}",
+      "title": "Ahmad Al-Dahle"
     },
     {
       "path": "operators/aiman-farooq/README.md",
@@ -50100,6 +50203,27 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-07.md",
+      "date": "2026-10-07",
+      "title": "Production agent architecture, codebase knowledge graphs, and per-use-case evals",
+      "summary": "Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel's inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb's AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.",
+      "sources": [
+        "https://tomtunguz.com/how-to-automate-inbound/",
+        "https://www.latent.space/p/airbnb"
+      ],
+      "insights_added": [
+        "ins_tunguz-production-agents-code-over-prompts",
+        "ins_al-dahle-everest-generalist-specialist",
+        "ins_al-dahle-per-usecase-evals"
+      ],
+      "operators_added": [
+        "ahmad-al-dahle"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-06.md",
       "date": "2026-10-06",
