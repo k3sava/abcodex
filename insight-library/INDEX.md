@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1210 insight cards
-- 546 operator profiles
+- 1213 insight cards
+- 547 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (356)
+### Tier A (357)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -342,6 +342,7 @@ _Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-sdr-workflow-first`](insights/ins_tunguz-ai-sdr-workflow-first.md) — Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-production-agents-code-over-prompts`](insights/ins_tunguz-production-agents-code-over-prompts.md) — Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules _(Tomasz Tunguz)_
 - [`ins_tunguz-three-waves-ai-consumption`](insights/ins_tunguz-three-waves-ai-consumption.md) — Agent token consumption crossed human consumption on February 6, 2026 and now follows three order-of-magnitude waves driven by parallelization, not generation speed _(Tom Tunguz)_
 - [`ins_tunguz-tier-segmentation-jevons`](insights/ins_tunguz-tier-segmentation-jevons.md) — AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping _(Tom Tunguz)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_
@@ -370,7 +371,7 @@ _Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (768)
+### Tier B (770)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -404,6 +405,8 @@ _Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ai-native-launch-triage-not-fewer-gates`](insights/ins_ai-native-launch-triage-not-fewer-gates.md) — AI-native GTM teams win by triaging launches faster, not by removing launch discipline _(Aatir Abdul Rauf)_
 - [`ins_ai-search-attribution-triangulation`](insights/ins_ai-search-attribution-triangulation.md) — AI search breaks click-based attribution because the prompt-to-direct-visit path skips the click, making triangulation the new measurement foundation. _(Kevin Indig)_
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya Hariharan)_
+- [`ins_al-dahle-everest-generalist-specialist`](insights/ins_al-dahle-everest-generalist-specialist.md) — An AI-queryable codebase knowledge graph compresses domain onboarding from months to weeks, enabling generalists to contribute to specialist code _(Ahmad Al-Dahle)_
+- [`ins_al-dahle-per-usecase-evals`](insights/ins_al-dahle-per-usecase-evals.md) — Production AI deployments require a separate eval suite per use case, sampled from real production queries, not shared benchmarks _(Ahmad Al-Dahle)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
 - [`ins_aleyda-solis-ai-links-not-automatically-traffic`](insights/ins_aleyda-solis-ai-links-not-automatically-traffic.md) — More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score _(Aleyda Solis)_
@@ -1240,6 +1243,7 @@ _Generated 2026-10-06. Auto-built from frontmatter — do not edit by hand._
 - [Adriel Frederick](operators/adriel-frederick/README.md)
 - [Adrienne Barnes](operators/adrienne-barnes/README.md)
 - [Agent.ai](operators/agent-ai/README.md)
+- [Ahmad Al-Dahle](operators/ahmad-al-dahle/README.md)
 - [Aiman Farooq](operators/aiman-farooq/README.md)
 - [Aimee Sprung](operators/aimee-sprung/README.md)
 - [Aishwarya Hariharan](operators/aishwarya-hariharan/README.md)
