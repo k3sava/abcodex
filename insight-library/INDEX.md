@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1213 insight cards
+- 1216 insight cards
 - 547 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (357)
+### Tier A (358)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -342,6 +342,7 @@ _Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-sdr-workflow-first`](insights/ins_tunguz-ai-sdr-workflow-first.md) — Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-model-commodity-distribution-moat`](insights/ins_tunguz-model-commodity-distribution-moat.md) — When AI models commoditize, winning requires owning distribution and routing data, not model quality _(Tomasz Tunguz)_
 - [`ins_tunguz-production-agents-code-over-prompts`](insights/ins_tunguz-production-agents-code-over-prompts.md) — Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules _(Tomasz Tunguz)_
 - [`ins_tunguz-three-waves-ai-consumption`](insights/ins_tunguz-three-waves-ai-consumption.md) — Agent token consumption crossed human consumption on February 6, 2026 and now follows three order-of-magnitude waves driven by parallelization, not generation speed _(Tom Tunguz)_
 - [`ins_tunguz-tier-segmentation-jevons`](insights/ins_tunguz-tier-segmentation-jevons.md) — AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping _(Tom Tunguz)_
@@ -371,7 +372,7 @@ _Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (770)
+### Tier B (772)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -902,9 +903,11 @@ _Generated 2026-10-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_shipper-agent-safety-environment-design`](insights/ins_shipper-agent-safety-environment-design.md) — AI agent safety is an environment design problem, not a model values problem _(Dan Shipper)_
+- [`ins_shipper-correction-becomes-team-skill`](insights/ins_shipper-correction-becomes-team-skill.md) — Saving agent corrections as named team skills converts individual AI workarounds into shared institutional capability _(Dan Shipper)_
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
+- [`ins_shipper-public-ai-prompting-spreads-adoption`](insights/ins_shipper-public-ai-prompting-spreads-adoption.md) — One shared AI agent working in public spreads organizational adoption faster than many private agents _(Dan Shipper)_
 - [`ins_shipper-taste-agent-hill-climb`](insights/ins_shipper-taste-agent-hill-climb.md) — Building a copy-editing agent from 30,000 historical edits and hill-climbing the prompt against all past decisions encodes durable expert taste _(Dan Shipper)_
 - [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
 - [`ins_shipper-token-spend-parity-break`](insights/ins_shipper-token-spend-parity-break.md) — Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder _(Dan Shipper)_

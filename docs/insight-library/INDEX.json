@@ -1,31 +1,29 @@
 {
-  "generated_at": "2026-10-07T01:50:46.466Z",
+  "generated_at": "2026-10-08T01:49:36.519Z",
   "counts": {
-    "insights": 1213,
+    "insights": 1216,
     "operators": 547,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 129
+    "daily": 130
   },
   "latest_daily": {
-    "path": "daily/2026-10-07.md",
-    "date": "2026-10-07",
-    "title": "Production agent architecture, codebase knowledge graphs, and per-use-case evals",
-    "summary": "Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel's inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb's AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.",
+    "path": "daily/2026-10-08.md",
+    "date": "2026-10-08",
+    "title": "Public AI work, skill canonicalization, and model commoditization",
+    "summary": "Three cards from two operators. Dan Shipper describes two mechanisms behind Every's shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.",
     "sources": [
-      "https://tomtunguz.com/how-to-automate-inbound/",
-      "https://www.latent.space/p/airbnb"
+      "https://every.to/on-every/introducing-the-every-agent",
+      "https://tomtunguz.com/what-if-the-models-are-commoditized/"
     ],
     "insights_added": [
-      "ins_tunguz-production-agents-code-over-prompts",
-      "ins_al-dahle-everest-generalist-specialist",
-      "ins_al-dahle-per-usecase-evals"
+      "ins_shipper-public-ai-prompting-spreads-adoption",
+      "ins_shipper-correction-becomes-team-skill",
+      "ins_tunguz-model-commodity-distribution-moat"
     ],
-    "operators_added": [
-      "ahmad-al-dahle"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -24259,6 +24257,36 @@
       "title": "AI agent safety is an environment design problem, not a model values problem"
     },
     {
+      "path": "insights/ins_shipper-correction-becomes-team-skill.md",
+      "id": "ins_shipper-correction-becomes-team-skill",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/on-every/introducing-the-every-agent",
+      "source_type": "essay",
+      "source_title": "Introducing the Every Agent",
+      "source_date": "2026-10-06",
+      "captured_date": "2026-10-08",
+      "domain": [
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-public-ai-prompting-spreads-adoption",
+        "ins_shipper-org-capability-ai-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Saving agent corrections as named team skills converts individual AI workarounds into shared institutional capability"
+    },
+    {
       "path": "insights/ins_shipper-disclosure-gap.md",
       "id": "ins_shipper-disclosure-gap",
       "operator": "Dan Shipper",
@@ -24379,6 +24407,36 @@
       ],
       "raw_ref": "",
       "title": "The bottleneck for AI adoption has moved from model capability to organizational capability"
+    },
+    {
+      "path": "insights/ins_shipper-public-ai-prompting-spreads-adoption.md",
+      "id": "ins_shipper-public-ai-prompting-spreads-adoption",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/on-every/introducing-the-every-agent",
+      "source_type": "essay",
+      "source_title": "Introducing the Every Agent",
+      "source_date": "2026-10-06",
+      "captured_date": "2026-10-08",
+      "domain": [
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-org-capability-ai-bottleneck",
+        "ins_mollick-agents-self-organize"
+      ],
+      "raw_ref": "",
+      "title": "One shared AI agent working in public spreads organizational adoption faster than many private agents"
     },
     {
       "path": "insights/ins_shipper-rule-complexity-floor.md",
@@ -29582,6 +29640,36 @@
       ],
       "raw_ref": "",
       "title": "Full-stack AI ownership at the model and chip layers produces nearly 2x the revenue growth of the resell-and-rent approach"
+    },
+    {
+      "path": "insights/ins_tunguz-model-commodity-distribution-moat.md",
+      "id": "ins_tunguz-model-commodity-distribution-moat",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/what-if-the-models-are-commoditized/",
+      "source_type": "essay",
+      "source_title": "A Change in AI Strategy",
+      "source_date": "2026-10-07",
+      "captured_date": "2026-10-08",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "go-to-market"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-harness-three-disciplines",
+        "ins_run-up-the-stack"
+      ],
+      "raw_ref": "",
+      "title": "When AI models commoditize, winning requires owning distribution and routing data, not model quality"
     },
     {
       "path": "insights/ins_tunguz-model-factory-megawatt-loop.md",
@@ -50203,6 +50291,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-08.md",
+      "date": "2026-10-08",
+      "title": "Public AI work, skill canonicalization, and model commoditization",
+      "summary": "Three cards from two operators. Dan Shipper describes two mechanisms behind Every's shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.",
+      "sources": [
+        "https://every.to/on-every/introducing-the-every-agent",
+        "https://tomtunguz.com/what-if-the-models-are-commoditized/"
+      ],
+      "insights_added": [
+        "ins_shipper-public-ai-prompting-spreads-adoption",
+        "ins_shipper-correction-becomes-team-skill",
+        "ins_tunguz-model-commodity-distribution-moat"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-07.md",
       "date": "2026-10-07",
