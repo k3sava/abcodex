@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-08 · 3 insights
+### Latest · 2026-10-09 · 4 insights
 
-**Public AI work, skill canonicalization, and model commoditization.** Three cards from two operators. Dan Shipper describes two mechanisms behind Every's shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.
+**Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff.** Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.
 
-[Read what landed →](insight-library/daily/2026-10-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1216** insight cards
+- **1220** insight cards
 - **547** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
