@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 01:49:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 01:47:35 GMT</lastBuildDate>
+    <item>
+      <title>Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-09/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-09/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don&apos;t model context accumulation.</description>
+    </item>
     <item>
       <title>Public AI work, skill canonicalization, and model commoditization</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-08/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-10/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta&apos;s prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.</description>
-    </item>
-    <item>
-      <title>Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-09/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-09/</guid>
-      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.</description>
     </item>
   </channel>
 </rss>

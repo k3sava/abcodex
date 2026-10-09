@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-10-08T01:49:36.552Z",
+  "generated_at": "2026-10-09T01:47:30.973Z",
   "latest_daily": {
-    "path": "daily/2026-10-08.md",
-    "date": "2026-10-08",
-    "title": "Public AI work, skill canonicalization, and model commoditization",
-    "summary": "Three cards from two operators. Dan Shipper describes two mechanisms behind Every's shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.",
+    "path": "daily/2026-10-09.md",
+    "date": "2026-10-09",
+    "title": "Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff",
+    "summary": "Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.",
     "sources": [
-      "https://every.to/on-every/introducing-the-every-agent",
-      "https://tomtunguz.com/what-if-the-models-are-commoditized/"
+      "https://www.latent.space/p/airbnb",
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
     ],
     "insights_added": [
-      "ins_shipper-public-ai-prompting-spreads-adoption",
-      "ins_shipper-correction-becomes-team-skill",
-      "ins_tunguz-model-commodity-distribution-moat"
+      "ins_al-dahle-outcome-based-org",
+      "ins_al-dahle-narrow-model-beats-frontier",
+      "ins_mollick-cheap-coordination-expands-scope",
+      "ins_willison-haiku55-context-cliff"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +22,27 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-09.md",
+      "date": "2026-10-09",
+      "title": "Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff",
+      "summary": "Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.",
+      "sources": [
+        "https://www.latent.space/p/airbnb",
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+      ],
+      "insights_added": [
+        "ins_al-dahle-outcome-based-org",
+        "ins_al-dahle-narrow-model-beats-frontier",
+        "ins_mollick-cheap-coordination-expands-scope",
+        "ins_willison-haiku55-context-cliff"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-08.md",
       "date": "2026-10-08",
@@ -631,29 +654,6 @@
         "ins_tunguz-ai-infrastructure-credit-event"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-09.md",
-      "date": "2026-09-09",
-      "title": "Steam timing myths, professional bias in AI code review, and eval tooling that measures the wrong things",
-      "summary": "Three new cards across three lanes and two new operators. Chris Zukowski on why October is the third-worst month for indie horror game revenue. Thorsten Ball on naive interventionism in AI code review. Hamel Husain on how eval frameworks anchor teams on generic metrics before they have looked at their own data.",
-      "sources": [
-        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/",
-        "https://registerspill.thorstenball.com/p/joy-and-curiosity-98",
-        "https://hamel.dev/blog/posts/evals-skills/"
-      ],
-      "insights_added": [
-        "ins_zukowski-horror-october-myth",
-        "ins_ball-naive-interventionism-ai-code",
-        "ins_husain-eval-premature-automation"
-      ],
-      "operators_added": [
-        "thorsten-ball",
-        "hamel-husain"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
