@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1216 insight cards
+- 1220 insight cards
 - 547 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (358)
+### Tier A (359)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -24,6 +24,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_agents-are-the-new-product-user`](insights/ins_agents-are-the-new-product-user.md) — Agents are first-class product users; design for output reliability, not navigation _(Elena Verna)_
 - [`ins_agents-as-team-not-tools`](insights/ins_agents-as-team-not-tools.md) — Agents work when treated as a team, not a single super-tool _(Claire Vo)_
 - [`ins_ai-slop-loop`](insights/ins_ai-slop-loop.md) — A single seeded fake claim can self-confirm in AI Overviews _(Lily Ray)_
+- [`ins_al-dahle-narrow-model-beats-frontier`](insights/ins_al-dahle-narrow-model-beats-frontier.md) — Small post-trained models outperform frontier models on narrow latency-sensitive tasks, making multi-model routing the default production architecture _(Ahmad Al-Dahle)_
 - [`ins_aleyda-solis-aeo-offsite-corroboration-floor`](insights/ins_aleyda-solis-aeo-offsite-corroboration-floor.md) — AI search visibility is an off-site corroboration problem with an on-site quality floor, not the inverse _(Aleyda Solis)_
 - [`ins_altman-ai-not-a-business-exception`](insights/ins_altman-ai-not-a-business-exception.md) — "We're using AI" is not a business strategy, defensibility comes from domain expertise, customer relationships, and data, not from the model layer _(Sam Altman)_
 - [`ins_altman-scarce-resources-abundant-intelligence`](insights/ins_altman-scarce-resources-abundant-intelligence.md) — When intelligence is abundant, taste, judgment, relationships, and the ability to identify what is worth doing become the scarce resources _(Sam Altman)_
@@ -372,7 +373,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (772)
+### Tier B (775)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -407,6 +408,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ai-search-attribution-triangulation`](insights/ins_ai-search-attribution-triangulation.md) — AI search breaks click-based attribution because the prompt-to-direct-visit path skips the click, making triangulation the new measurement foundation. _(Kevin Indig)_
 - [`ins_aishwarya-hariharan-claude-voice-paradox`](insights/ins_aishwarya-hariharan-claude-voice-paradox.md) — If you use Claude to write and it asks for your samples, are you Claude? _(Aishwarya Hariharan)_
 - [`ins_al-dahle-everest-generalist-specialist`](insights/ins_al-dahle-everest-generalist-specialist.md) — An AI-queryable codebase knowledge graph compresses domain onboarding from months to weeks, enabling generalists to contribute to specialist code _(Ahmad Al-Dahle)_
+- [`ins_al-dahle-outcome-based-org`](insights/ins_al-dahle-outcome-based-org.md) — Feature-organized companies will struggle as AI ships features autonomously; outcome-organized teams set the direction AI cannot replace _(Ahmad Al-Dahle)_
 - [`ins_al-dahle-per-usecase-evals`](insights/ins_al-dahle-per-usecase-evals.md) — Production AI deployments require a separate eval suite per use case, sampled from real production queries, not shared benchmarks _(Ahmad Al-Dahle)_
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
@@ -759,6 +761,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
+- [`ins_mollick-cheap-coordination-expands-scope`](insights/ins_mollick-cheap-coordination-expands-scope.md) — Cheap agent coordination expands the set of tasks organizations attempt rather than simply reducing headcount _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
@@ -1094,6 +1097,7 @@ _Generated 2026-10-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-game-loop-agent-limit`](insights/ins_willison-game-loop-agent-limit.md) — Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for. _(Simon Willison)_
+- [`ins_willison-haiku55-context-cliff`](insights/ins_willison-haiku55-context-cliff.md) — Haiku 5.5 pricing jumps 5x at the 100k-token context boundary, creating a cost cliff that long-running agent loops will cross _(Simon Willison)_
 - [`ins_willison-hard-budget-caps-default`](insights/ins_willison-hard-budget-caps-default.md) — Hard spending caps must be the default for AI agent workloads, not an opt-in setting _(Simon Willison)_
 - [`ins_willison-incomplete-schema-agent-loop`](insights/ins_willison-incomplete-schema-agent-loop.md) — An instruction not to re-query information the agent already has causes guessing and retry loops when the held schema is incomplete _(Simon Willison)_
 - [`ins_willison-instruction-over-review`](insights/ins_willison-instruction-over-review.md) — Productive use of coding agents requires confident instruction and confident verification, not granular code review _(Simon Willison)_
