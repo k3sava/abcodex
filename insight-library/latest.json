@@ -1,27 +1,46 @@
 {
-  "generated_at": "2026-10-09T01:47:30.973Z",
+  "generated_at": "2026-10-10T01:46:54.534Z",
   "latest_daily": {
-    "path": "daily/2026-10-09.md",
-    "date": "2026-10-09",
-    "title": "Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff",
-    "summary": "Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.",
+    "path": "daily/2026-10-10.md",
+    "date": "2026-10-10",
+    "title": "Managed agent infrastructure and voice-directed development",
+    "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
     "sources": [
-      "https://www.latent.space/p/airbnb",
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+      "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
+      "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
     ],
     "insights_added": [
-      "ins_al-dahle-outcome-based-org",
-      "ins_al-dahle-narrow-model-beats-frontier",
-      "ins_mollick-cheap-coordination-expands-scope",
-      "ins_willison-haiku55-context-cliff"
+      "ins_agarwal-managed-infra-coworker-focus",
+      "ins_willison-voice-high-level-typing-precision"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "paridhi-agarwal"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-10.md",
+      "date": "2026-10-10",
+      "title": "Managed agent infrastructure and voice-directed development",
+      "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
+      "sources": [
+        "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
+        "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+      ],
+      "insights_added": [
+        "ins_agarwal-managed-infra-coworker-focus",
+        "ins_willison-voice-high-level-typing-precision"
+      ],
+      "operators_added": [
+        "paridhi-agarwal"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-09.md",
       "date": "2026-10-09",
@@ -632,28 +651,6 @@
         "mustafa-ali",
         "jason-kim"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-10.md",
-      "date": "2026-09-10",
-      "title": "Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption",
-      "summary": "Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta's prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.",
-      "sources": [
-        "https://tomtunguz.com/openai-research-acceleration-agentic-productivity/",
-        "https://tomtunguz.com/the-ads-model-for-prompts-vertically-integrates-ai/",
-        "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-        "https://tomtunguz.com/the-4-trillion-dollar-ai-data-center-debt-wave/"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-agent-night-shift",
-        "ins_tunguz-ai-prompt-ads-model",
-        "ins_willison-capability-unlocks-agents",
-        "ins_tunguz-ai-infrastructure-credit-event"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

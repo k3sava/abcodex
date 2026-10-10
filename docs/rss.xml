@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 01:47:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:46:59 GMT</lastBuildDate>
+    <item>
+      <title>Managed agent infrastructure and voice-directed development</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-10/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-10/</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.</description>
+    </item>
     <item>
       <title>Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-09/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-11/</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three new cards across two lanes. Shopify Engineering published two posts on September 10 documenting why coding agents erased the economic case for React Native. Chris Zukowski&apos;s September 8 data analysis shows October is the third-worst month for serious horror game revenue despite concentrating the most releases.</description>
-    </item>
-    <item>
-      <title>Night-shift economics, AI-as-advertiser pricing, and capability thresholds for agent adoption</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-10/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-10/</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards across two operators. Tom Tunguz questions whether the 3x AI productivity gain is real, identifies Meta&apos;s prompt pricing as an advertising supply-chain model, and frames AI infrastructure debt as a macroeconomic event. Simon Willison traces the OpenAI adoption curve and argues model capability, not awareness, triggers the spike.</description>
     </item>
   </channel>
 </rss>
