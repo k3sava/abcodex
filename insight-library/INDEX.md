@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1220 insight cards
-- 547 operator profiles
+- 1222 insight cards
+- 548 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -373,7 +373,7 @@ _Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (775)
+### Tier B (777)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -389,6 +389,7 @@ _Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_aeo-competes-for-mentions-not-rankings`](insights/ins_aeo-competes-for-mentions-not-rankings.md) — In SEO you compete for rankings; in AEO you compete for mentions _(Maja Voje)_
 - [`ins_aeo-is-gtm-capability`](insights/ins_aeo-is-gtm-capability.md) — AEO is a GTM capability, not an SEO experiment _(Maja Voje)_
 - [`ins_aeo-roadmap-as-executive-readout`](insights/ins_aeo-roadmap-as-executive-readout.md) — Package the AEO audit as a year-long keep/start/stop deck _(Mike King)_
+- [`ins_agarwal-managed-infra-coworker-focus`](insights/ins_agarwal-managed-infra-coworker-focus.md) — Small teams building production agents should cede infrastructure to a managed platform so they can stay focused on coworker behavior _(Paridhi Agarwal)_
 - [`ins_agency-chaos-is-leadership`](insights/ins_agency-chaos-is-leadership.md) — Most agency problems are leadership problems disguised as operational ones _(Karl Sakas)_
 - [`ins_agent-approval-gate`](insights/ins_agent-approval-gate.md) — Keep agents on ask-for-approval until you know their failure modes _(Ethan Mollick)_
 - [`ins_agent-computer-to-use`](insights/ins_agent-computer-to-use.md) — Agents differ from chatbots because they give the AI a computer to use _(Ethan Mollick)_
@@ -1124,6 +1125,7 @@ _Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
 - [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
 - [`ins_willison-tokenmaxx-cost-correction`](insights/ins_willison-tokenmaxx-cost-correction.md) — The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call. _(Simon Willison)_
+- [`ins_willison-voice-high-level-typing-precision`](insights/ins_willison-voice-high-level-typing-precision.md) — Voice input works for high-level AI-assisted development direction; typing stays necessary for precision work and passing concrete examples _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
 - [`ins_write-like-you-speak`](insights/ins_write-like-you-speak.md) — Voice quirks aren't bugs, they're the only thing AI cannot replicate _(Dave Harland)_
@@ -1627,6 +1629,7 @@ _Generated 2026-10-09. Auto-built from frontmatter — do not edit by hand._
 - [OpenAI Alignment Team](operators/openai-alignment-team/README.md)
 - [Packy McCormick](operators/packy-mccormick/README.md)
 - [Parag Pathak](operators/parag-pathak/README.md)
+- [Paridhi Agarwal](operators/paridhi-agarwal/README.md)
 - [Park Howell](operators/park-howell/README.md)
 - [Patrick Campbell](operators/patrick-campbell/README.md)
 - [Paul Adams](operators/paul-adams/README.md)

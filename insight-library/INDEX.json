@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-10-09T01:47:30.918Z",
+  "generated_at": "2026-10-10T01:46:54.469Z",
   "counts": {
-    "insights": 1220,
-    "operators": 547,
+    "insights": 1222,
+    "operators": 548,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 131
+    "daily": 132
   },
   "latest_daily": {
-    "path": "daily/2026-10-09.md",
-    "date": "2026-10-09",
-    "title": "Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff",
-    "summary": "Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.",
+    "path": "daily/2026-10-10.md",
+    "date": "2026-10-10",
+    "title": "Managed agent infrastructure and voice-directed development",
+    "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
     "sources": [
-      "https://www.latent.space/p/airbnb",
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
+      "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
+      "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
     ],
     "insights_added": [
-      "ins_al-dahle-outcome-based-org",
-      "ins_al-dahle-narrow-model-beats-frontier",
-      "ins_mollick-cheap-coordination-expands-scope",
-      "ins_willison-haiku55-context-cliff"
+      "ins_agarwal-managed-infra-coworker-focus",
+      "ins_willison-voice-high-level-typing-precision"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "paridhi-agarwal"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -648,6 +647,33 @@
       ],
       "raw_ref": "raw/essays/aleyda-solis--3-layer-aeo-framework--2026-04-23.md",
       "title": "Measure AI search on three layers: Presence, Readiness, Business Impact"
+    },
+    {
+      "path": "insights/ins_agarwal-managed-infra-coworker-focus.md",
+      "id": "ins_agarwal-managed-infra-coworker-focus",
+      "operator": "Paridhi Agarwal",
+      "operator_role": "Engineer, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
+      "source_type": "essay",
+      "source_title": "Why We Handed Our Agent's Infrastructure to Anthropic",
+      "source_date": "2026-10-08",
+      "captured_date": "2026-10-10",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Small teams building production agents should cede infrastructure to a managed platform so they can stay focused on coworker behavior"
     },
     {
       "path": "insights/ins_agency-chaos-is-leadership.md",
@@ -33452,6 +33478,35 @@
       "title": "The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call."
     },
     {
+      "path": "insights/ins_willison-voice-high-level-typing-precision.md",
+      "id": "ins_willison-voice-high-level-typing-precision",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; creator of Datasette and Django co-creator",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "source_type": "essay",
+      "source_title": "A new feature for my blog, built using my voice",
+      "source_date": "2026-10-09",
+      "captured_date": "2026-10-10",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-haiku55-context-cliff",
+        "ins_willison-hard-budget-caps-default"
+      ],
+      "raw_ref": "",
+      "title": "Voice input works for high-level AI-assisted development direction; typing stays necessary for precision work and passing concrete examples"
+    },
+    {
       "path": "insights/ins_willison-web-fetch-chained-exfiltration.md",
       "id": "ins_willison-web-fetch-chained-exfiltration",
       "operator": "Simon Willison",
@@ -41495,6 +41550,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Parag Pathak"
+    },
+    {
+      "path": "operators/paridhi-agarwal/README.md",
+      "name": "Paridhi Agarwal",
+      "slug": "paridhi-agarwal",
+      "roles": [
+        "Engineer, Every"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-10",
+      "external": {
+        "newsletter": "https://every.to/source-code"
+      },
+      "title": "Paridhi Agarwal"
     },
     {
       "path": "operators/park-howell/README.md",
@@ -50414,6 +50486,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-10.md",
+      "date": "2026-10-10",
+      "title": "Managed agent infrastructure and voice-directed development",
+      "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
+      "sources": [
+        "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
+        "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+      ],
+      "insights_added": [
+        "ins_agarwal-managed-infra-coworker-focus",
+        "ins_willison-voice-high-level-typing-precision"
+      ],
+      "operators_added": [
+        "paridhi-agarwal"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-09.md",
       "date": "2026-10-09",

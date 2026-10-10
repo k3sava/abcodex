@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-09 · 4 insights
+### Latest · 2026-10-10 · 2 insights · 1 operator
 
-**Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff.** Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.
+**Managed agent infrastructure and voice-directed development.** Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.
 
-[Read what landed →](insight-library/daily/2026-10-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-10.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1220** insight cards
-- **547** operator profiles
+- **1222** insight cards
+- **548** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 547 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 548 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
