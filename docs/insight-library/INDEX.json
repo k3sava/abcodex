@@ -1,29 +1,30 @@
 {
-  "generated_at": "2026-10-10T01:46:54.469Z",
+  "generated_at": "2026-10-11T01:57:30.252Z",
   "counts": {
-    "insights": 1222,
-    "operators": 548,
+    "insights": 1225,
+    "operators": 549,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 132
+    "daily": 133
   },
   "latest_daily": {
-    "path": "daily/2026-10-10.md",
-    "date": "2026-10-10",
-    "title": "Managed agent infrastructure and voice-directed development",
-    "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
+    "path": "daily/2026-10-11.md",
+    "date": "2026-10-11",
+    "title": "Harness architecture and the agent-layer bottleneck",
+    "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the orchestration layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
     "sources": [
-      "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
-      "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
+      "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "https://mtlynch.io/why-are-coding-agents-so-dumb/"
     ],
     "insights_added": [
-      "ins_agarwal-managed-infra-coworker-focus",
-      "ins_willison-voice-high-level-typing-precision"
+      "ins_ronacher-codemode-harness-bash-limit",
+      "ins_lynch-agent-layer-bottleneck",
+      "ins_lynch-agent-security-bypass"
     ],
     "operators_added": [
-      "paridhi-agarwal"
+      "michael-lynch"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -15506,6 +15507,64 @@
       "title": "Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin"
     },
     {
+      "path": "insights/ins_lynch-agent-layer-bottleneck.md",
+      "id": "ins_lynch-agent-layer-bottleneck",
+      "operator": "Michael Lynch",
+      "operator_role": "Bootstrapped founder; former software engineer at Google and Microsoft; author of Refactoring English",
+      "co_operators": [],
+      "source_url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "source_type": "essay",
+      "source_title": "Why Are Coding Agents So Dumb?",
+      "source_date": "2026-10-09",
+      "captured_date": "2026-10-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_al-dahle-narrow-model-beats-frontier",
+        "ins_ronacher-codemode-harness-bash-limit"
+      ],
+      "raw_ref": "",
+      "title": "Coding agent quality stalls at the orchestration layer despite model improvements; serial execution, no model routing, and opaque plans are agent failures benchmarks miss"
+    },
+    {
+      "path": "insights/ins_lynch-agent-security-bypass.md",
+      "id": "ins_lynch-agent-security-bypass",
+      "operator": "Michael Lynch",
+      "operator_role": "Bootstrapped founder; former software engineer at Google and Microsoft; author of Refactoring English",
+      "co_operators": [],
+      "source_url": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "source_type": "essay",
+      "source_title": "Why Are Coding Agents So Dumb?",
+      "source_date": "2026-10-09",
+      "captured_date": "2026-10-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lynch-agent-layer-bottleneck",
+        "ins_willison-hard-budget-caps-default"
+      ],
+      "raw_ref": "",
+      "title": "Agents bypass their own sandboxes because they treat access control as advisory; deterministic security code cannot defer to agent judgment"
+    },
+    {
       "path": "insights/ins_machine-customers-displace-storefront-interactions.md",
       "id": "ins_machine-customers-displace-storefront-interactions",
       "operator": "Gartner",
@@ -22885,6 +22944,35 @@
       ],
       "raw_ref": "",
       "title": "Autonomous coding agents without quality gates drift toward unreadable code because the model is rewarded for task completion but not penalized for code legibility"
+    },
+    {
+      "path": "insights/ins_ronacher-codemode-harness-bash-limit.md",
+      "id": "ins_ronacher-codemode-harness-bash-limit",
+      "operator": "Armin Ronacher",
+      "operator_role": "Creator of Flask, Jinja2, Click, and Werkzeug; software engineer and writer",
+      "co_operators": [],
+      "source_url": "https://lucumr.pocoo.org/2026/10/6/codemode/",
+      "source_type": "essay",
+      "source_title": "What is Codemode",
+      "source_date": "2026-10-06",
+      "captured_date": "2026-10-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_ronacher-harness-loop-comprehension-cost",
+        "ins_willison-haiku55-context-cliff"
+      ],
+      "raw_ref": "",
+      "title": "Bash cannot compose harness-native capabilities; a sandboxed scripting layer on the harness side fills that structural gap"
     },
     {
       "path": "insights/ins_ronacher-harness-loop-comprehension-cost.md",
@@ -40895,6 +40983,26 @@
       "title": "Mengqi Pei"
     },
     {
+      "path": "operators/michael-lynch/README.md",
+      "name": "Michael Lynch",
+      "slug": "michael-lynch",
+      "roles": [
+        "Founder of TinyPilot, a remote KVM device startup",
+        "Former software engineer at Google and Microsoft",
+        "Author of Refactoring English"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native",
+        "founder-operator"
+      ],
+      "captured_first": "2026-10-11",
+      "external": {
+        "blog": "https://mtlynch.io/"
+      },
+      "title": "Michael Lynch"
+    },
+    {
       "path": "operators/michel-lieben/README.md",
       "name": "Michel Lieben",
       "slug": "michel-lieben",
@@ -50486,6 +50594,27 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-11.md",
+      "date": "2026-10-11",
+      "title": "Harness architecture and the agent-layer bottleneck",
+      "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the orchestration layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
+      "sources": [
+        "https://lucumr.pocoo.org/2026/10/6/codemode/",
+        "https://mtlynch.io/why-are-coding-agents-so-dumb/"
+      ],
+      "insights_added": [
+        "ins_ronacher-codemode-harness-bash-limit",
+        "ins_lynch-agent-layer-bottleneck",
+        "ins_lynch-agent-security-bypass"
+      ],
+      "operators_added": [
+        "michael-lynch"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-10.md",
       "date": "2026-10-10",
