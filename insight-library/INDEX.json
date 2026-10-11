@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T01:57:30.252Z",
+  "generated_at": "2026-10-11T02:01:46.557Z",
   "counts": {
     "insights": 1225,
     "operators": 549,
@@ -13,7 +13,7 @@
     "path": "daily/2026-10-11.md",
     "date": "2026-10-11",
     "title": "Harness architecture and the agent-layer bottleneck",
-    "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the orchestration layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
+    "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
     "sources": [
       "https://lucumr.pocoo.org/2026/10/6/codemode/",
       "https://mtlynch.io/why-are-coding-agents-so-dumb/"
@@ -15533,7 +15533,7 @@
         "ins_ronacher-codemode-harness-bash-limit"
       ],
       "raw_ref": "",
-      "title": "Coding agent quality stalls at the orchestration layer despite model improvements; serial execution, no model routing, and opaque plans are agent failures benchmarks miss"
+      "title": "Coding agent quality stalls at the agent layer despite model improvements; serial execution, no model routing, and opaque plans are failures benchmarks miss"
     },
     {
       "path": "insights/ins_lynch-agent-security-bypass.md",
@@ -50598,7 +50598,7 @@
       "path": "daily/2026-10-11.md",
       "date": "2026-10-11",
       "title": "Harness architecture and the agent-layer bottleneck",
-      "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the orchestration layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
+      "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
       "sources": [
         "https://lucumr.pocoo.org/2026/10/6/codemode/",
         "https://mtlynch.io/why-are-coding-agents-so-dumb/"

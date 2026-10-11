@@ -18,10 +18,10 @@ related: [ins_al-dahle-narrow-model-beats-frontier, ins_ronacher-codemode-harnes
 raw_ref: ""
 ---
 
-# Coding agent quality stalls at the orchestration layer despite model improvements; serial execution, no model routing, and opaque plans are agent failures benchmarks miss
+# Coding agent quality stalls at the agent layer despite model improvements; serial execution, no model routing, and opaque plans are failures benchmarks miss
 
 ## Claim
-Coding agents improved slowly since early 2025 despite the underlying models improving substantially. The bottleneck is the agent layer: task orchestration, model routing, plan generation, and stopping behavior. Benchmarks measure model capability, not agent orchestration quality. The failures go unmeasured and deprioritized.
+Coding agents improved slowly since early 2025 despite the underlying models improving substantially. The bottleneck is the agent layer: task coordination, model routing, plan generation, and stopping behavior. Benchmarks measure model capability, not agent task-management quality. The failures go unmeasured and deprioritized.
 
 ## Mechanism
 Lynch separates the model (generates outputs) from the agent (connects outputs to files, commands, and APIs). Model quality is measured by benchmark scores and is visibly improving. Agent quality is measured by almost nothing in common use.
@@ -38,11 +38,11 @@ The specific agent-layer failures Lynch documents:
 
 **Stopping on trivials.** Agents halt on questions a competent developer resolves independently: which git branch to use, what to name a variable.
 
-The reason these failures persist is a principal-agent problem. Executives who fund agent development evaluate on metrics legible to them: benchmark scores and demo quality. Agent orchestration failures are not legible from those metrics.
+The reason these failures persist is a principal-agent problem. Executives who fund agent development evaluate on metrics legible to them: benchmark scores and demo quality. Agent coordination failures are not legible from those metrics.
 
 ## Conditions
-Holds when: agents run multi-step tasks involving research, file changes, and external calls; agents are evaluated on benchmarks that test model capability rather than orchestration quality; leadership sets priorities without daily hands-on use of the tools.
-Fails when: agents run single-step or tightly-bounded tasks where orchestration failures do not surface; organizations track agent quality through task-completion rates and cost-per-task rather than benchmark scores alone.
+Holds when: agents run multi-step tasks involving research, file changes, and external calls; agents are evaluated on benchmarks that test model capability rather than agent task-management quality; leadership sets priorities without daily hands-on use of the tools.
+Fails when: agents run single-step or tightly-bounded tasks where coordination failures do not surface; organizations track agent quality through task-completion rates and cost-per-task rather than benchmark scores alone.
 
 ## Evidence
 Michael Lynch published this analysis on October 9, 2026, drawing on daily use of multiple coding agents as a bootstrapped founder:

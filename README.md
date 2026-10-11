@@ -5,7 +5,7 @@
 <!-- LATEST:START -->
 ### Latest · 2026-10-11 · 3 insights · 1 operator
 
-**Harness architecture and the agent-layer bottleneck.** Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the orchestration layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.
+**Harness architecture and the agent-layer bottleneck.** Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.
 
 [Read what landed →](insight-library/daily/2026-10-11.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->

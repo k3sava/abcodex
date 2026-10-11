@@ -17,5 +17,5 @@ His analysis of coding agents is practitioner diagnosis, not demo criticism. He 
 
 ## Operating themes
 - **Daily use as diagnostic method** Claims anchored in his own production workflow. He does not evaluate from benchmarks or keynotes.
-- **Separation of what is built from what is measured** Consistent attention to whether the metric tracks the thing that actually matters. Benchmarks measure models; agent orchestration quality is largely unmeasured.
+- **Separation of what is built from what is measured** Consistent attention to whether the metric tracks the thing that actually matters. Benchmarks measure models; agent task-management quality is largely unmeasured.
 - **Security as a design constraint, not a policy** Access control code is deterministic. It cannot defer to agent judgment.
