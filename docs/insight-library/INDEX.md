@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1222 insight cards
-- 548 operator profiles
+- 1225 insight cards
+- 549 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -373,7 +373,7 @@ _Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (777)
+### Tier B (780)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -720,6 +720,8 @@ _Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_lock-s-ceo-evaluation-rubric`](insights/ins_lock-s-ceo-evaluation-rubric.md) — Evaluate CEOs and senior operators on Lovable, Obsessed, Chip-on-shoulder, Knowledge, Student _(Brian Halligan)_
 - [`ins_lollapalooza-effects`](insights/ins_lollapalooza-effects.md) — Lollapalooza: when 3+ biases pull the same way, the outcome breaks single-model reasoning _(Charlie Munger)_
 - [`ins_luxury-brand-strategy`](insights/ins_luxury-brand-strategy.md) — Luxury brand strategy compounds: scarcity + irrational pricing + iconic founder = decades-long margin _(Scott Galloway)_
+- [`ins_lynch-agent-layer-bottleneck`](insights/ins_lynch-agent-layer-bottleneck.md) — Coding agent quality stalls at the agent layer despite model improvements; serial execution, no model routing, and opaque plans are failures benchmarks miss _(Michael Lynch)_
+- [`ins_lynch-agent-security-bypass`](insights/ins_lynch-agent-security-bypass.md) — Agents bypass their own sandboxes because they treat access control as advisory; deterministic security code cannot defer to agent judgment _(Michael Lynch)_
 - [`ins_machine-customers-displace-storefront-interactions`](insights/ins_machine-customers-displace-storefront-interactions.md) — By 2028, AI agent "machine customers" will replace 20% of human-readable storefront interactions _(Gartner)_
 - [`ins_madeleine-work-ai-strips-humanity-from-marketing`](insights/ins_madeleine-work-ai-strips-humanity-from-marketing.md) — AI-generated marketing materials strip out the humanity that makes content compelling. _(Madeleine Work)_
 - [`ins_maha-shahid-ai-prompt-context-matters`](insights/ins_maha-shahid-ai-prompt-context-matters.md) — AI output quality depends on prompt context, not the tool. _(Maha Shahid)_
@@ -870,6 +872,7 @@ _Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ronacher-agents-erase-shared-understanding`](insights/ins_ronacher-agents-erase-shared-understanding.md) — Agents remove the coordination friction that kept team architectural understanding synchronized _(Armin Ronacher)_
 - [`ins_ronacher-ai-detector-structure-bias`](insights/ins_ronacher-ai-detector-structure-bias.md) — AI detectors score LLM structural artifacts that persist through human editing, not the human-authored words themselves _(Armin Ronacher)_
 - [`ins_ronacher-autonomous-agent-reward-drift`](insights/ins_ronacher-autonomous-agent-reward-drift.md) — Autonomous coding agents without quality gates drift toward unreadable code because the model is rewarded for task completion but not penalized for code legibility _(Armin Ronacher)_
+- [`ins_ronacher-codemode-harness-bash-limit`](insights/ins_ronacher-codemode-harness-bash-limit.md) — Bash cannot compose harness-native capabilities; a sandboxed scripting layer on the harness side fills that structural gap _(Armin Ronacher)_
 - [`ins_ronacher-harness-loop-comprehension-cost`](insights/ins_ronacher-harness-loop-comprehension-cost.md) — Unattended harness loops accumulate defensive complexity until codebases assume machine participation _(Armin Ronacher)_
 - [`ins_ronacher-harness-overfit-tool-schema`](insights/ins_ronacher-harness-overfit-tool-schema.md) — RLHF training inside a forgiving harness teaches newer frontier models to produce malformed tool calls, causing regressions against stricter external schemas _(Armin Ronacher)_
 - [`ins_ronacher-language-choice-ai-era`](insights/ins_ronacher-language-choice-ai-era.md) — LLMs have dissolved the language-familiarity tax, turning programming language selection from a skill constraint into a deliberate preference _(Armin Ronacher)_
@@ -1592,6 +1595,7 @@ _Generated 2026-10-10. Auto-built from frontmatter — do not edit by hand._
 - [Megha Sharma](operators/megha-sharma/README.md)
 - [Meghana Kansagara](operators/meghana-kansagara/README.md)
 - [Mengqi Pei](operators/mengqi-pei/README.md)
+- [Michael Lynch](operators/michael-lynch/README.md)
 - [Michel Lieben](operators/michel-lieben/README.md)
 - [Michele Nieberding](operators/michele-nieberding/README.md)
 - [Mihika Kapoor](operators/mihika-kapoor/README.md)
