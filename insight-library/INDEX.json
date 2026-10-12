@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-10-11T02:01:46.557Z",
+  "generated_at": "2026-10-12T01:55:50.297Z",
   "counts": {
-    "insights": 1225,
+    "insights": 1228,
     "operators": 549,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 133
+    "daily": 134
   },
   "latest_daily": {
-    "path": "daily/2026-10-11.md",
-    "date": "2026-10-11",
-    "title": "Harness architecture and the agent-layer bottleneck",
-    "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
+    "path": "daily/2026-10-12.md",
+    "date": "2026-10-12",
+    "title": "Inference economics and the operator-creator split",
+    "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
     "sources": [
-      "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "https://mtlynch.io/why-are-coding-agents-so-dumb/"
+      "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+      "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+      "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
     ],
     "insights_added": [
-      "ins_ronacher-codemode-harness-bash-limit",
-      "ins_lynch-agent-layer-bottleneck",
-      "ins_lynch-agent-security-bypass"
+      "ins_tunguz-inference-surpasses-databases",
+      "ins_van-der-lee-rockettrace-agent-trace",
+      "ins_verna-operator-creator-dual-role"
     ],
-    "operators_added": [
-      "michael-lynch"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -29674,6 +29673,37 @@
       "title": "AI inference will pass the database market in 2027 while compressing gross margins below the SaaS norm"
     },
     {
+      "path": "insights/ins_tunguz-inference-surpasses-databases.md",
+      "id": "ins_tunguz-inference-surpasses-databases",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+      "source_type": "essay",
+      "source_title": "Inference Is the Most Important Market in Software",
+      "source_date": "2026-10-05",
+      "captured_date": "2026-10-12",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-model-commodity-distribution-moat",
+        "ins_tunguz-ai-infrastructure-credit-event",
+        "ins_tunguz-ai-infrastructure-bullwhip"
+      ],
+      "raw_ref": "",
+      "title": "AI inference spending will overtake database software by 2027, turning every application into an inference reseller"
+    },
+    {
       "path": "insights/ins_tunguz-infrastructure-debt-cagr.md",
       "id": "ins_tunguz-infrastructure-debt-cagr",
       "operator": "Tom Tunguz",
@@ -30600,6 +30630,35 @@
       "title": "Blanket MVVM adoption in SwiftUI adds abstraction overhead without added separation; defer view model extraction until specific complexity markers appear"
     },
     {
+      "path": "insights/ins_van-der-lee-rockettrace-agent-trace.md",
+      "id": "ins_van-der-lee-rockettrace-agent-trace",
+      "operator": "Antoine van der Lee",
+      "operator_role": "Indie iOS founder; creator of SwiftLee and RocketSim",
+      "co_operators": [],
+      "source_url": "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+      "source_type": "essay",
+      "source_title": "Introducing RocketTrace: Using Xcode Instruments with AI Agents",
+      "source_date": "2026-10-05",
+      "captured_date": "2026-10-12",
+      "domain": [
+        "engineering",
+        "ios"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_van-der-lee-mvvm-defer-abstraction"
+      ],
+      "raw_ref": "",
+      "title": "Local preprocessing of Xcode trace files lets AI agents find 58% more performance issues at one-sixth the token cost"
+    },
+    {
       "path": "insights/ins_varda-ai-commit-message-blindspot.md",
       "id": "ins_varda-ai-commit-message-blindspot",
       "operator": "Kenton Varda",
@@ -30760,6 +30819,35 @@
       ],
       "raw_ref": "",
       "title": "AI lets individual contributors complete end-to-end workflows that previously required teams. The constraint shifts from headcount to decision authority and information access."
+    },
+    {
+      "path": "insights/ins_verna-operator-creator-dual-role.md",
+      "id": "ins_verna-operator-creator-dual-role",
+      "operator": "Elena Verna",
+      "operator_role": "Head of Growth, Lovable",
+      "co_operators": [],
+      "source_url": "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an",
+      "source_type": "essay",
+      "source_title": "How to survive a double life as an operator-creator",
+      "source_date": "2026-10-05",
+      "captured_date": "2026-10-12",
+      "domain": [
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_verna-high-impact-ic-era",
+        "ins_verna-agency-not-agents"
+      ],
+      "raw_ref": "",
+      "title": "Operator-creators who declare conflicts upfront and put the day job first sustain dual roles without collisions"
     },
     {
       "path": "insights/ins_verna-plg-enterprise-resource-cannibalization.md",
@@ -50594,6 +50682,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-12.md",
+      "date": "2026-10-12",
+      "title": "Inference economics and the operator-creator split",
+      "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
+      "sources": [
+        "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+        "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+        "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
+      ],
+      "insights_added": [
+        "ins_tunguz-inference-surpasses-databases",
+        "ins_van-der-lee-rockettrace-agent-trace",
+        "ins_verna-operator-creator-dual-role"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-11.md",
       "date": "2026-10-11",

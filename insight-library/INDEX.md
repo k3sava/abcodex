@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-12. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1225 insight cards
+- 1228 insight cards
 - 549 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (359)
+### Tier A (360)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -343,6 +343,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-sdr-workflow-first`](insights/ins_tunguz-ai-sdr-workflow-first.md) — Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-inference-surpasses-databases`](insights/ins_tunguz-inference-surpasses-databases.md) — AI inference spending will overtake database software by 2027, turning every application into an inference reseller _(Tom Tunguz)_
 - [`ins_tunguz-model-commodity-distribution-moat`](insights/ins_tunguz-model-commodity-distribution-moat.md) — When AI models commoditize, winning requires owning distribution and routing data, not model quality _(Tomasz Tunguz)_
 - [`ins_tunguz-production-agents-code-over-prompts`](insights/ins_tunguz-production-agents-code-over-prompts.md) — Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules _(Tomasz Tunguz)_
 - [`ins_tunguz-three-waves-ai-consumption`](insights/ins_tunguz-three-waves-ai-consumption.md) — Agent token consumption crossed human consumption on February 6, 2026 and now follows three order-of-magnitude waves driven by parallelization, not generation speed _(Tom Tunguz)_
@@ -373,7 +374,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (780)
+### Tier B (781)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1040,6 +1041,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ungate-ai-iterate-pricing`](insights/ins_ungate-ai-iterate-pricing.md) — Ungate AI features first; treat pricing as iterable product, not strategic decision _(Elena Verna)_
 - [`ins_ux-change-target-emotion-is-relief`](insights/ins_ux-change-target-emotion-is-relief.md) — When shipping a workflow change, the target emotion is relief, not excitement _(Emily Pick)_
 - [`ins_van-der-lee-mvvm-defer-abstraction`](insights/ins_van-der-lee-mvvm-defer-abstraction.md) — Blanket MVVM adoption in SwiftUI adds abstraction overhead without added separation; defer view model extraction until specific complexity markers appear _(Antoine van der Lee)_
+- [`ins_van-der-lee-rockettrace-agent-trace`](insights/ins_van-der-lee-rockettrace-agent-trace.md) — Local preprocessing of Xcode trace files lets AI agents find 58% more performance issues at one-sixth the token cost _(Antoine van der Lee)_
 - [`ins_varda-ai-commit-message-blindspot`](insights/ins_varda-ai-commit-message-blindspot.md) — AI-generated PR and commit descriptions repeat visible code details instead of explaining why the change was made, making them worse for review than no description _(Kenton Varda)_
 - [`ins_varia-makagonova-workplace-messaging-rules`](insights/ins_varia-makagonova-workplace-messaging-rules.md) — Customer advocacy is the brand-awareness program your team didn't know it needed _(Varia Makagonova)_
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
@@ -1155,7 +1157,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 
-### Tier C (86)
+### Tier C (87)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1237,6 +1239,7 @@ _Generated 2026-10-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_the-ai-forum-agent-ai-challenge-announcement`](insights/ins_the-ai-forum-agent-ai-challenge-announcement.md) — Agent.ai Challenge is LIVE: $50K prizes, no-code AI builder backed by HubSpot's Dharmesh Shah. _(The AI Forum)_
 - [`ins_tunguz-compute-threshold-pacing-fallacy`](insights/ins_tunguz-compute-threshold-pacing-fallacy.md) — Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating _(Tom Tunguz)_
 - [`ins_uddhav-parab-creativity-without-case-studies`](insights/ins_uddhav-parab-creativity-without-case-studies.md) — Direct the creative work, don't hog the juicy writing from juniors _(Uddhav Parab)_
+- [`ins_verna-operator-creator-dual-role`](insights/ins_verna-operator-creator-dual-role.md) — Operator-creators who declare conflicts upfront and put the day job first sustain dual roles without collisions _(Elena Verna)_
 - [`ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics`](insights/ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics.md) — Drives strategic logistics operations for SAR and RTW _(Vinayak Padiyar)_
 - [`ins_vishnu-prasad-growth-through-experimentation`](insights/ins_vishnu-prasad-growth-through-experimentation.md) — Growth comes from experimentation, tough conversations, and late calls, not overnight success. _(Vishnu Prasad)_
 - [`ins_webb-ai-tutor-over-generator`](insights/ins_webb-ai-tutor-over-generator.md) — Using AI as an interactive tutor rather than a code generator produces durable learning that books and expert friends cannot match _(Matt Webb)_
