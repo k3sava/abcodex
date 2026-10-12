@@ -56,8 +56,8 @@ Verna draws entirely on her own experience across multiple operator roles, most 
 - You have a content calendar commitment you know you will miss because of a work deadline, and you have not told your audience
 
 ## Counter-evidence
-The playbook assumes the operator has enough audience leverage that employers see it as a recruiting and brand asset. Early-stage creators with small audiences may not receive the same employer latitude, and the disclosure conversation carries more risk before the audience exists. The rules also assume a US-style employment context; non-compete and IP laws vary significantly across jurisdictions and may make the "carve out at offer stage" advice impractical.
+The playbook assumes the operator has built a large enough audience that employers see it as a recruiting and brand asset. Early-stage creators with small audiences may not receive the same employer latitude, and the disclosure conversation carries more risk before the audience exists. The rules also assume a US-style employment context; non-compete and IP laws vary significantly across jurisdictions and may make the "carve out at offer stage" advice impractical.
 
 ## Cross-references
-- `ins_verna-high-impact-ic-era`: Verna's argument for individual contributors as the highest-leverage role in an AI-native company. The operator-creator dual role accelerates this because public writing compounds the operator's individual leverage beyond the org chart.
+- `ins_verna-high-impact-ic-era`: Verna's argument for individual contributors as the highest-impact role in an AI-native company. The operator-creator dual role accelerates this because public writing compounds the operator's individual output beyond the org chart.
 - `ins_verna-agency-not-agents`: Verna's argument that individual agency, not agent automation, drives the next wave of growth work. The creator channel is itself an exercise of that individual agency.
