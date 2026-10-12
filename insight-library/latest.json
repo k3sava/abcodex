@@ -1,27 +1,46 @@
 {
-  "generated_at": "2026-10-11T02:01:46.616Z",
+  "generated_at": "2026-10-12T01:55:50.401Z",
   "latest_daily": {
-    "path": "daily/2026-10-11.md",
-    "date": "2026-10-11",
-    "title": "Harness architecture and the agent-layer bottleneck",
-    "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
+    "path": "daily/2026-10-12.md",
+    "date": "2026-10-12",
+    "title": "Inference economics and the operator-creator split",
+    "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
     "sources": [
-      "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "https://mtlynch.io/why-are-coding-agents-so-dumb/"
+      "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+      "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+      "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
     ],
     "insights_added": [
-      "ins_ronacher-codemode-harness-bash-limit",
-      "ins_lynch-agent-layer-bottleneck",
-      "ins_lynch-agent-security-bypass"
+      "ins_tunguz-inference-surpasses-databases",
+      "ins_van-der-lee-rockettrace-agent-trace",
+      "ins_verna-operator-creator-dual-role"
     ],
-    "operators_added": [
-      "michael-lynch"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-12.md",
+      "date": "2026-10-12",
+      "title": "Inference economics and the operator-creator split",
+      "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
+      "sources": [
+        "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
+        "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
+        "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
+      ],
+      "insights_added": [
+        "ins_tunguz-inference-surpasses-databases",
+        "ins_van-der-lee-rockettrace-agent-trace",
+        "ins_verna-operator-creator-dual-role"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-11.md",
       "date": "2026-10-11",
@@ -628,26 +647,6 @@
         "ins_ronacher-autonomous-agent-reward-drift",
         "ins_seufert-capi-server-side-durability",
         "ins_ronacher-openweight-distributed-pacing"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-12.md",
-      "date": "2026-09-12",
-      "title": "Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams",
-      "summary": "Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.",
-      "sources": [
-        "https://tomtunguz.com/three-waves-of-ai-consumption/",
-        "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-        "https://www.growth-memo.com/p/the-ai-hours-nobody-on-your-marketing"
-      ],
-      "insights_added": [
-        "ins_tunguz-three-waves-ai-consumption",
-        "ins_willison-blender-headless-agent-loop",
-        "ins_indig-ai-hours-invisible-marketing"
       ],
       "operators_added": [],
       "patterns_added": [],

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Oct 2026 02:01:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 01:55:55 GMT</lastBuildDate>
+    <item>
+      <title>Inference economics and the operator-creator split</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-12/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-12/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.</description>
+    </item>
     <item>
       <title>Harness architecture and the agent-layer bottleneck</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-11/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-13/</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three new cards across two operators. Armin Ronacher&apos;s September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher&apos;s September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.</description>
-    </item>
-    <item>
-      <title>Parallelization crossed human consumption, agents can render Blender scenes, and AI hours are invisible in marketing teams</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-12/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-12/</guid>
-      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards across three lanes. Tunguz on September 7 published a framework showing agent token consumption crossed human consumption on February 6, 2026, driven by parallelization across three waves. Willison on September 5 documented a coding agent rendering Blender scenes iteratively via the Python API from a natural language prompt. Kevin Indig on September 7 synthesized four studies showing AI tool maintenance creates invisible overhead that makes marketing productivity gains structurally smaller than teams believe.</description>
     </item>
   </channel>
 </rss>
