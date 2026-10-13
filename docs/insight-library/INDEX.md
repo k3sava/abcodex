@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-12. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1228 insight cards
-- 549 operator profiles
+- 1229 insight cards
+- 550 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (781)
+### Tier B (782)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -593,6 +593,7 @@ _Generated 2026-10-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_g2-ai-reshaping-marketing-playbook`](insights/ins_g2-ai-reshaping-marketing-playbook.md) — AI search is now a software marketplace, demand gen must adapt or vanish _(G2)_
 - [`ins_gary-yin-first-pmm-hiring-philosophy`](insights/ins_gary-yin-first-pmm-hiring-philosophy.md) — First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer _(Gary Yin)_
 - [`ins_gaurav-sharma-vibe-marketer-ai-first`](insights/ins_gaurav-sharma-vibe-marketer-ai-first.md) — Most B2B marketing is stuck in 2010; hire a vibe marketer to build an AI-first, almost-autonomous marketing engine. _(Gaurav Sharma)_
+- [`ins_gerganov-decision-models-llamacpp`](insights/ins_gerganov-decision-models-llamacpp.md) — Decision models score supplied options in a single forward pass and return probabilities, not generated text _(Georgi Gerganov)_
 - [`ins_gerhardt-ctv-narrative-compound`](insights/ins_gerhardt-ctv-narrative-compound.md) — CTV gives B2B brands 15 to 30 seconds of uninterrupted narrative that compounds downstream channel performance _(Dave Gerhardt)_
 - [`ins_gerhardt-customer-marketing-listening-program`](insights/ins_gerhardt-customer-marketing-listening-program.md) — The highest-value customer marketing motion is a systematic listening program, not a campaign calendar _(Dave Gerhardt)_
 - [`ins_gideon-harris-hiring-for-bots`](insights/ins_gideon-harris-hiring-for-bots.md) — If the only way to be seen is to sound like a bot, what exactly are we hiring for? _(Gideon Harris)_
@@ -1448,6 +1449,7 @@ _Generated 2026-10-12. Auto-built from frontmatter — do not edit by hand._
 - [Gary Yin](operators/gary-yin/README.md)
 - [Gaurav Sharma](operators/gaurav-sharma/README.md)
 - [Geoffrey Litt](operators/geoffrey-litt/README.md)
+- [Georgi Gerganov](operators/georgi-gerganov/README.md)
 - [Georgiana Laudi](operators/georgiana-laudi/README.md)
 - [Gideon Harris](operators/gideon-harris/README.md)
 - [Gil Allouche](operators/gil-allouche/README.md)
