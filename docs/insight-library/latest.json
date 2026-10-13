@@ -1,26 +1,42 @@
 {
-  "generated_at": "2026-10-12T01:55:50.401Z",
+  "generated_at": "2026-10-13T01:50:30.146Z",
   "latest_daily": {
-    "path": "daily/2026-10-12.md",
-    "date": "2026-10-12",
-    "title": "Inference economics and the operator-creator split",
-    "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
+    "path": "daily/2026-10-13.md",
+    "date": "2026-10-13",
+    "title": "Inference without generation: decision models in llama.cpp",
+    "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
     "sources": [
-      "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
-      "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
-      "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
+      "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
     ],
     "insights_added": [
-      "ins_tunguz-inference-surpasses-databases",
-      "ins_van-der-lee-rockettrace-agent-trace",
-      "ins_verna-operator-creator-dual-role"
+      "ins_gerganov-decision-models-llamacpp"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "georgi-gerganov"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-13.md",
+      "date": "2026-10-13",
+      "title": "Inference without generation: decision models in llama.cpp",
+      "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
+      "sources": [
+        "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
+      ],
+      "insights_added": [
+        "ins_gerganov-decision-models-llamacpp"
+      ],
+      "operators_added": [
+        "georgi-gerganov"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-12.md",
       "date": "2026-10-12",
@@ -627,26 +643,6 @@
         "ins_willison-multimodel-security-audit-workflow",
         "ins_willison-agent-attack-tooling-fingerprint",
         "ins_zukowski-horror-october-revenue-myth"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-13.md",
-      "date": "2026-09-13",
-      "title": "Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition",
-      "summary": "Three new cards across two operators. Armin Ronacher's September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher's September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.",
-      "sources": [
-        "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-        "https://mobiledevmemo.com/the-capi-revolution/",
-        "https://lucumr.pocoo.org/2026/9/12/pdoom/"
-      ],
-      "insights_added": [
-        "ins_ronacher-autonomous-agent-reward-drift",
-        "ins_seufert-capi-server-side-durability",
-        "ins_ronacher-openweight-distributed-pacing"
       ],
       "operators_added": [],
       "patterns_added": [],

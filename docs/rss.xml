@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 01:55:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 01:50:35 GMT</lastBuildDate>
+    <item>
+      <title>Inference without generation: decision models in llama.cpp</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-13/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-13/</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>One card. One new operator. Georgi Gerganov&apos;s ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.</description>
+    </item>
     <item>
       <title>Inference economics and the operator-creator split</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-12/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-14/</guid>
       <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison&apos;s September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski&apos;s September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.</description>
-    </item>
-    <item>
-      <title>Autonomous agents drift without quality gates, CAPI outlasts platform tracking restrictions, and open-weight models pace through competition</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-13/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-13/</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three new cards across two operators. Armin Ronacher&apos;s September 7 experiment ran GPT-6 Astra autonomously for 35 hours and $1,200, producing 75,000 lines of unusable code because the model is rewarded for task completion but not for readability. Eric Seufert on September 9 traced how server-to-server CAPI integration bypasses browser and OS privacy controls structurally, not just tactically. Ronacher&apos;s September 12 P(doom) essay argues open-weight models create distributed pacing that closed-weight regulatory protection removes.</description>
     </item>
   </channel>
 </rss>

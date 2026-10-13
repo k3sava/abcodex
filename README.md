@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-12 · 3 insights
+### Latest · 2026-10-13 · 1 insight · 1 operator
 
-**Inference economics and the operator-creator split.** Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.
+**Inference without generation: decision models in llama.cpp.** One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.
 
-[Read what landed →](insight-library/daily/2026-10-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1228** insight cards
-- **549** operator profiles
+- **1229** insight cards
+- **550** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 549 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 550 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

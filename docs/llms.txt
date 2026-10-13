@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1228 insights · 549 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 360 tier-A claims.
+Counts: 1229 insights · 550 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 360 tier-A claims.
 
 ## Index
 
@@ -53,8 +53,8 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 14 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
 - [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 12 insights
+- [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 12 insights
 - [customer-success](https://abcodex.iamkesava.com/d/customer-success/) — 11 insights
-- [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 11 insights
 - [research](https://abcodex.iamkesava.com/d/research/) — 9 insights
 - [game-growth](https://abcodex.iamkesava.com/d/game-growth/) — 8 insights
 - [marketing-ops](https://abcodex.iamkesava.com/d/marketing-ops/) — 7 insights
@@ -66,6 +66,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [ios](https://abcodex.iamkesava.com/d/ios/) — 4 insights
 - [ai-tools](https://abcodex.iamkesava.com/d/ai-tools/) — 3 insights
 - [security](https://abcodex.iamkesava.com/d/security/) — 3 insights
+- [on-device-ai](https://abcodex.iamkesava.com/d/on-device-ai/) — 3 insights
 - [pricing](https://abcodex.iamkesava.com/d/pricing/) — 3 insights
 - [community](https://abcodex.iamkesava.com/d/community/) — 2 insights
 - [ios-app-craft](https://abcodex.iamkesava.com/d/ios-app-craft/) — 2 insights
@@ -85,7 +86,6 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [performance-marketing](https://abcodex.iamkesava.com/d/performance-marketing/) — 2 insights
 - [prompt-context-and-evals](https://abcodex.iamkesava.com/d/prompt-context-and-evals/) — 2 insights
 - [ai-native-company-building](https://abcodex.iamkesava.com/d/ai-native-company-building/) — 2 insights
-- [on-device-ai](https://abcodex.iamkesava.com/d/on-device-ai/) — 2 insights
 - [indie-dev](https://abcodex.iamkesava.com/d/indie-dev/) — 2 insights
 - [workflow](https://abcodex.iamkesava.com/d/workflow/) — 1 insight
 - [measurement](https://abcodex.iamkesava.com/d/measurement/) — 1 insight
@@ -151,4 +151,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-10-12.
+Last updated: 2026-10-13.

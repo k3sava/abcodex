@@ -1,30 +1,28 @@
 {
-  "generated_at": "2026-10-12T01:55:50.297Z",
+  "generated_at": "2026-10-13T01:50:30.050Z",
   "counts": {
-    "insights": 1228,
-    "operators": 549,
+    "insights": 1229,
+    "operators": 550,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 134
+    "daily": 135
   },
   "latest_daily": {
-    "path": "daily/2026-10-12.md",
-    "date": "2026-10-12",
-    "title": "Inference economics and the operator-creator split",
-    "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
+    "path": "daily/2026-10-13.md",
+    "date": "2026-10-13",
+    "title": "Inference without generation: decision models in llama.cpp",
+    "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
     "sources": [
-      "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
-      "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
-      "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
+      "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
     ],
     "insights_added": [
-      "ins_tunguz-inference-surpasses-databases",
-      "ins_van-der-lee-rockettrace-agent-trace",
-      "ins_verna-operator-creator-dual-role"
+      "ins_gerganov-decision-models-llamacpp"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "georgi-gerganov"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -9270,6 +9268,32 @@
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md",
       "title": "In an AI-native team, hire generalists with one deep dimension, not specialists"
+    },
+    {
+      "path": "insights/ins_gerganov-decision-models-llamacpp.md",
+      "id": "ins_gerganov-decision-models-llamacpp",
+      "operator": "Georgi Gerganov",
+      "operator_role": "Creator of llama.cpp, ggml, and the GGUF format",
+      "co_operators": [],
+      "source_url": "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp",
+      "source_type": "post",
+      "source_title": "Decision Models in llama.cpp",
+      "source_date": "2026-10-02",
+      "captured_date": "2026-10-13",
+      "domain": [
+        "on-device-ai",
+        "agent-frameworks"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Decision models score supplied options in a single forward pass and return probabilities, not generated text"
     },
     {
       "path": "insights/ins_gerhardt-brand-reputation-compounds.md",
@@ -38375,6 +38399,23 @@
       "title": "Geoffrey Litt"
     },
     {
+      "path": "operators/georgi-gerganov/README.md",
+      "name": "Georgi Gerganov",
+      "slug": "georgi-gerganov",
+      "roles": [
+        "Creator of llama.cpp, ggml, and the GGUF format"
+      ],
+      "domains_active": [
+        "on-device-ai",
+        "agent-frameworks"
+      ],
+      "captured_first": "2026-10-13",
+      "external": {
+        "twitter": "https://twitter.com/ggerganov"
+      },
+      "title": "Georgi Gerganov"
+    },
+    {
       "path": "operators/georgiana-laudi/README.md",
       "name": "Georgiana Laudi",
       "slug": "georgiana-laudi",
@@ -50682,6 +50723,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-13.md",
+      "date": "2026-10-13",
+      "title": "Inference without generation: decision models in llama.cpp",
+      "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
+      "sources": [
+        "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
+      ],
+      "insights_added": [
+        "ins_gerganov-decision-models-llamacpp"
+      ],
+      "operators_added": [
+        "georgi-gerganov"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-12.md",
       "date": "2026-10-12",
