@@ -1,27 +1,33 @@
 {
-  "generated_at": "2026-10-13T01:50:30.050Z",
+  "generated_at": "2026-10-14T01:49:49.375Z",
   "counts": {
-    "insights": 1229,
-    "operators": 550,
+    "insights": 1232,
+    "operators": 554,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 135
+    "daily": 136
   },
   "latest_daily": {
-    "path": "daily/2026-10-13.md",
-    "date": "2026-10-13",
-    "title": "Inference without generation: decision models in llama.cpp",
-    "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
+    "path": "daily/2026-10-14.md",
+    "date": "2026-10-14",
+    "title": "Agent topology at runtime and cloud-native harness design",
+    "summary": "Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.",
     "sources": [
-      "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
+      "https://www.latent.space/p/claude-dynamic-workflows",
+      "https://latent.space/p/stacklok"
     ],
     "insights_added": [
-      "ins_gerganov-decision-models-llamacpp"
+      "ins_avilla-dynamic-workflow-topology",
+      "ins_stall-budget-external-to-model",
+      "ins_mcluckie-cloud-native-harness"
     ],
     "operators_added": [
-      "georgi-gerganov"
+      "cj-avilla",
+      "harrison-stall",
+      "craig-mcluckie",
+      "joe-beda"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -3064,6 +3070,36 @@
       ],
       "raw_ref": "",
       "title": "A conversation-context classifier grants or blocks agent tool calls per call rather than per tool type"
+    },
+    {
+      "path": "insights/ins_avilla-dynamic-workflow-topology.md",
+      "id": "ins_avilla-dynamic-workflow-topology",
+      "operator": "CJ Avilla",
+      "operator_role": "Member of Technical Staff, Anthropic",
+      "co_operators": [
+        "Harrison Stall"
+      ],
+      "source_url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "source_type": "talk",
+      "source_title": "How Anthropic's Dynamic Workflows Coordinate Claude Agents",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-14",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_stall-budget-external-to-model"
+      ],
+      "raw_ref": "",
+      "title": "Dynamic workflows delegate agent topology design to the model, not the developer"
     },
     {
       "path": "insights/ins_avinash-raghava-indian-ai-founders-disrupt-no-code.md",
@@ -16618,6 +16654,34 @@
       "title": "Tech giants support open-weight AI models because the model layer is a complement to their real revenues"
     },
     {
+      "path": "insights/ins_mcluckie-cloud-native-harness.md",
+      "id": "ins_mcluckie-cloud-native-harness",
+      "operator": "Craig McLuckie",
+      "operator_role": "Co-founder and CEO, Stacklok; Kubernetes co-creator",
+      "co_operators": [
+        "Joe Beda"
+      ],
+      "source_url": "https://latent.space/p/stacklok",
+      "source_type": "essay",
+      "source_title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "source_date": "2026-10-07",
+      "captured_date": "2026-10-14",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Containerizing a desktop agent harness does not make it cloud-native; session recovery requires purpose-built distributed architecture"
+    },
+    {
       "path": "insights/ins_media-first-business.md",
       "id": "ins_media-first-business",
       "operator": "Matt Gray",
@@ -26551,6 +26615,34 @@
       ],
       "raw_ref": "raw/essays/multi-operator--marketer-rotation-pmm-builder-takes--2026-05.md",
       "title": "Staff engineering has four archetypes, two of them rotate across teams by design"
+    },
+    {
+      "path": "insights/ins_stall-budget-external-to-model.md",
+      "id": "ins_stall-budget-external-to-model",
+      "operator": "Harrison Stall",
+      "operator_role": "Member of Technical Staff, Anthropic",
+      "co_operators": [],
+      "source_url": "https://www.latent.space/p/claude-dynamic-workflows",
+      "source_type": "talk",
+      "source_title": "How Anthropic's Dynamic Workflows Coordinate Claude Agents",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-14",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_avilla-dynamic-workflow-topology"
+      ],
+      "raw_ref": "",
+      "title": "Revealing a token budget to an agent model changes its reasoning behavior; enforce budgets externally"
     },
     {
       "path": "insights/ins_start-with-support-fastest-ai-roi.md",
@@ -36907,6 +36999,21 @@
       "title": "Ciana Abdollahian"
     },
     {
+      "path": "operators/cj-avilla/README.md",
+      "name": "CJ Avilla",
+      "slug": "cj-avilla",
+      "roles": [
+        "Member of Technical Staff, Anthropic"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-14",
+      "external": "{}",
+      "title": "CJ Avilla"
+    },
+    {
       "path": "operators/claire-hughes-johnson/README.md",
       "name": "Claire Hughes Johnson",
       "slug": "claire-hughes-johnson",
@@ -37094,6 +37201,24 @@
         "linkedin": "https://www.linkedin.com/in/coreyhearne/"
       },
       "title": "Corey Hearne"
+    },
+    {
+      "path": "operators/craig-mcluckie/README.md",
+      "name": "Craig McLuckie",
+      "slug": "craig-mcluckie",
+      "roles": [
+        "Co-founder and CEO, Stacklok",
+        "Kubernetes co-creator (Google, VMware)"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-14",
+      "external": {
+        "blog": "https://cncf.io/blog/2026/09/28/the-case-for-a-cloud-native-agent-harness"
+      },
+      "title": "Craig McLuckie"
     },
     {
       "path": "operators/crayon/README.md",
@@ -38739,6 +38864,21 @@
       "title": "Harrison Chase"
     },
     {
+      "path": "operators/harrison-stall/README.md",
+      "name": "Harrison Stall",
+      "slug": "harrison-stall",
+      "roles": [
+        "Member of Technical Staff, Anthropic"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-14",
+      "external": "{}",
+      "title": "Harrison Stall"
+    },
+    {
       "path": "operators/harsha-annadurai/README.md",
       "name": "Harsha Annadurai",
       "slug": "harsha-annadurai",
@@ -39499,6 +39639,22 @@
         "linkedin": "https://www.linkedin.com/in/jimmydaly/"
       },
       "title": "Jimmy Daly"
+    },
+    {
+      "path": "operators/joe-beda/README.md",
+      "name": "Joe Beda",
+      "slug": "joe-beda",
+      "roles": [
+        "Co-founder, Stacklok",
+        "Kubernetes co-creator (Google, VMware)"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-14",
+      "external": "{}",
+      "title": "Joe Beda"
     },
     {
       "path": "operators/joe-hudson/README.md",
@@ -50723,6 +50879,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-14.md",
+      "date": "2026-10-14",
+      "title": "Agent topology at runtime and cloud-native harness design",
+      "summary": "Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.",
+      "sources": [
+        "https://www.latent.space/p/claude-dynamic-workflows",
+        "https://latent.space/p/stacklok"
+      ],
+      "insights_added": [
+        "ins_avilla-dynamic-workflow-topology",
+        "ins_stall-budget-external-to-model",
+        "ins_mcluckie-cloud-native-harness"
+      ],
+      "operators_added": [
+        "cj-avilla",
+        "harrison-stall",
+        "craig-mcluckie",
+        "joe-beda"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-13.md",
       "date": "2026-10-13",

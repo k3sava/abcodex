@@ -1,24 +1,54 @@
 {
-  "generated_at": "2026-10-13T01:50:30.146Z",
+  "generated_at": "2026-10-14T01:49:49.461Z",
   "latest_daily": {
-    "path": "daily/2026-10-13.md",
-    "date": "2026-10-13",
-    "title": "Inference without generation: decision models in llama.cpp",
-    "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
+    "path": "daily/2026-10-14.md",
+    "date": "2026-10-14",
+    "title": "Agent topology at runtime and cloud-native harness design",
+    "summary": "Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.",
     "sources": [
-      "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
+      "https://www.latent.space/p/claude-dynamic-workflows",
+      "https://latent.space/p/stacklok"
     ],
     "insights_added": [
-      "ins_gerganov-decision-models-llamacpp"
+      "ins_avilla-dynamic-workflow-topology",
+      "ins_stall-budget-external-to-model",
+      "ins_mcluckie-cloud-native-harness"
     ],
     "operators_added": [
-      "georgi-gerganov"
+      "cj-avilla",
+      "harrison-stall",
+      "craig-mcluckie",
+      "joe-beda"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-14.md",
+      "date": "2026-10-14",
+      "title": "Agent topology at runtime and cloud-native harness design",
+      "summary": "Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.",
+      "sources": [
+        "https://www.latent.space/p/claude-dynamic-workflows",
+        "https://latent.space/p/stacklok"
+      ],
+      "insights_added": [
+        "ins_avilla-dynamic-workflow-topology",
+        "ins_stall-budget-external-to-model",
+        "ins_mcluckie-cloud-native-harness"
+      ],
+      "operators_added": [
+        "cj-avilla",
+        "harrison-stall",
+        "craig-mcluckie",
+        "joe-beda"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-13.md",
       "date": "2026-10-13",
@@ -621,28 +651,6 @@
         "ins_willison-ai-training-research-priority-risk",
         "ins_indig-ai-automation-sorts-not-deletes",
         "ins_ronacher-ai-detector-structure-bias"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-14.md",
-      "date": "2026-09-14",
-      "title": "AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing",
-      "summary": "Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison's September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski's September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.",
-      "sources": [
-        "https://twitter.com/bcherny/status/2098217573276131577",
-        "https://simonwillison.net/2026/Sep/11/datasette-security/",
-        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
-      ],
-      "insights_added": [
-        "ins_cherny-production-code-higher-bar",
-        "ins_willison-multimodel-security-audit-workflow",
-        "ins_willison-agent-attack-tooling-fingerprint",
-        "ins_zukowski-horror-october-revenue-myth"
       ],
       "operators_added": [],
       "patterns_added": [],

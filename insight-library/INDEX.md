@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1229 insight cards
-- 550 operator profiles
+- 1232 insight cards
+- 554 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (782)
+### Tier B (785)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -442,6 +442,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ask-revenue-impact-how-much`](insights/ins_ask-revenue-impact-how-much.md) — Fix weak messaging by reordering, value, then benefit, then feature _(Richard King)_
 - [`ins_audience-community-product`](insights/ins_audience-community-product.md) — Audience first, Community second, Product last, and AI makes the inversion much faster _(Greg Isenberg)_
 - [`ins_audience-mirrors-content-tone`](insights/ins_audience-mirrors-content-tone.md) — Your audience is a manifestation of the content you produce _(Devran Karaca)_
+- [`ins_avilla-dynamic-workflow-topology`](insights/ins_avilla-dynamic-workflow-topology.md) — Dynamic workflows delegate agent topology design to the model, not the developer _(CJ Avilla)_
 - [`ins_avinash-raghava-indian-ai-founders-disrupt-no-code`](insights/ins_avinash-raghava-indian-ai-founders-disrupt-no-code.md) — Indian AI founders can use deep tech to disrupt the no-code movement at scale. _(Avinash Raghava)_
 - [`ins_ayush-barnwal-pmm-multiplies-results`](insights/ins_ayush-barnwal-pmm-multiplies-results.md) — PMM involvement multiplies design outcomes 3-4x through positioning and messaging _(Ayush Barnwal)_
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
@@ -746,6 +747,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mccormick-ai-makes-consensus-cheap`](insights/ins_mccormick-ai-makes-consensus-cheap.md) — AI makes consensus the default output; distinctiveness is now the only scarce input _(Packy McCormick)_
 - [`ins_mccormick-counter-positioning-moat`](insights/ins_mccormick-counter-positioning-moat.md) — Counter-positioning works as a startup moat because incumbents face profit cannibalization if they copy, not because startups have technical advantages _(Packy McCormick)_
 - [`ins_mccormick-open-weight-coalition`](insights/ins_mccormick-open-weight-coalition.md) — Tech giants support open-weight AI models because the model layer is a complement to their real revenues _(Packy McCormick)_
+- [`ins_mcluckie-cloud-native-harness`](insights/ins_mcluckie-cloud-native-harness.md) — Containerizing a desktop agent harness does not make it cloud-native; session recovery requires purpose-built distributed architecture _(Craig McLuckie)_
 - [`ins_media-first-business`](insights/ins_media-first-business.md) — Build media-first: long-form for trust, short-form for discovery, newsletter for retention, community for conversion _(Matt Gray)_
 - [`ins_megha-sharma-founders-need-end-to-end-gtm`](insights/ins_megha-sharma-founders-need-end-to-end-gtm.md) — Founders who need brand positioning always end up asking for lead generation, so offer both. _(Megha Sharma)_
 - [`ins_mental-models-as-os-not-library`](insights/ins_mental-models-as-os-not-library.md) — Mental models compound only if they run automatically, looking up the right model in the moment is too slow _(Charlie Munger)_
@@ -948,6 +950,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
 - [`ins_source-type-fit-beats-authority`](insights/ins_source-type-fit-beats-authority.md) — Google's May 2026 Core Update rewarded source type fit over authority alone, concentrating visibility around canonical destinations for each query's dominant intent _(Aleyda Solis)_
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
+- [`ins_stall-budget-external-to-model`](insights/ins_stall-budget-external-to-model.md) — Revealing a token budget to an agent model changes its reasoning behavior; enforce budgets externally _(Harrison Stall)_
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
 - [`ins_suddenly-everyone-know-panicking-wondering`](insights/ins_suddenly-everyone-know-panicking-wondering.md) — Suddenly everyone I know is panicking, wondering if their job disappears tomorrow _(Shivangi Sahu)_
@@ -1369,6 +1372,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [Christian Oland](operators/christian-oland/README.md)
 - [Christoph Janz](operators/christoph-janz/README.md)
 - [Ciana Abdollahian](operators/ciana-abdollahian/README.md)
+- [CJ Avilla](operators/cj-avilla/README.md)
 - [Claire Hughes Johnson](operators/claire-hughes-johnson/README.md)
 - [Claire Suellentrop](operators/claire-suellentrop/README.md)
 - [Claire Vo](operators/claire-vo/README.md)
@@ -1379,6 +1383,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [Collin Mayjack](operators/collin-mayjack/README.md)
 - [Conor Grennan](operators/conor-grennan/README.md)
 - [Corey Hearne](operators/corey-hearne/README.md)
+- [Craig McLuckie](operators/craig-mcluckie/README.md)
 - [Crayon](operators/crayon/README.md)
 - [Cris Thome](operators/cris-thome/README.md)
 - [Cyrus Shepard](operators/cyrus-shepard/README.md)
@@ -1468,6 +1473,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [Hans Dekker](operators/hans-dekker/README.md)
 - [Hardik Gupta](operators/hardik-gupta/README.md)
 - [Harrison Chase](operators/harrison-chase/README.md)
+- [Harrison Stall](operators/harrison-stall/README.md)
 - [Harsha Annadurai](operators/harsha-annadurai/README.md)
 - [Harshit Jain](operators/harshit-jain/README.md)
 - [Harshit Mahawar](operators/harshit-mahawar/README.md)
@@ -1510,6 +1516,7 @@ _Generated 2026-10-13. Auto-built from frontmatter — do not edit by hand._
 - [Jill Konrath](operators/jill-konrath/README.md)
 - [Jim Hamilton](operators/jim-hamilton/README.md)
 - [Jimmy Daly](operators/jimmy-daly/README.md)
+- [Joe Beda](operators/joe-beda/README.md)
 - [Joe Hudson](operators/joe-hudson/README.md)
 - [Joe Pulizzi](operators/joe-pulizzi/README.md)
 - [Joel Klettke](operators/joel-klettke/README.md)

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 01:50:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:49:54 GMT</lastBuildDate>
+    <item>
+      <title>Agent topology at runtime and cloud-native harness design</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-14/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-14/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic&apos;s Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.</description>
+    </item>
     <item>
       <title>Inference without generation: decision models in llama.cpp</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-13/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-15/</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three new cards, two operators. Simon Willison on September 8 identified a training pipeline mechanism that could turn partial public research into competitive intelligence for a later model user. Kevin Indig and Amanda Johnson on September 14 argued AI automation redistributes marketing effort upstream rather than deleting it, and that 95% of organizations get zero return because they automate the wrong step. Armin Ronacher on September 14 analyzed Pangram&apos;s AI detection mechanism, showing it scores LLM structural artifacts that persist through human editing.</description>
-    </item>
-    <item>
-      <title>AI code quality gates, multi-model security audits, agent attack forensics, and horror launch timing</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-14/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-14/</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four new cards across three operators. Boris Cherny on September 11 argued AI-generated production code needs denser automated quality gates than human-written code because AI volume outpaces manual review. Simon Willison on September 11 documented a parallel frontier-model security audit of Datasette that found subtle bugs a single-model or human-only review would miss. Willison&apos;s September 12 post connected RubyGems package attacks from May 2026 back to confirmed OpenAI wiki-scraping agents via shared retrieval tooling. Chris Zukowski&apos;s September 8 analysis of 7,019 horror games found October ranks third-worst by revenue for games earning over $100,000.</description>
     </item>
   </channel>
 </rss>
