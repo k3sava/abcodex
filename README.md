@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-13 · 1 insight · 1 operator
+### Latest · 2026-10-14 · 3 insights · 4 operators
 
-**Inference without generation: decision models in llama.cpp.** One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.
+**Agent topology at runtime and cloud-native harness design.** Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.
 
-[Read what landed →](insight-library/daily/2026-10-13.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1229** insight cards
-- **550** operator profiles
+- **1232** insight cards
+- **554** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 550 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 554 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
