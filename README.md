@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-14 · 3 insights · 4 operators
+### Latest · 2026-10-15 · 4 insights · 2 operators
 
-**Agent topology at runtime and cloud-native harness design.** Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.
+**Deterministic agents, noisier positioning, and the wishlist floor.** Four cards from four operators across three lanes. Geoffrey Huntley on using pre-commit hooks to enforce coding agent behavior. April Dunford on how AI compresses the positioning review cycle. Chris Zukowski on Steam wishlist inflation that cuts conversion in half but preserves prediction. Eric Simons on cheap building shifting PM value from gatekeeping to customer context.
 
-[Read what landed →](insight-library/daily/2026-10-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1232** insight cards
-- **554** operator profiles
+- **1236** insight cards
+- **556** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 554 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 556 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
