@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1232 insight cards
-- 554 operator profiles
+- 1236 insight cards
+- 556 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (785)
+### Tier B (789)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -553,6 +553,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_dream-role-marketer-who-loves`](insights/ins_dream-role-marketer-who-loves.md) — Community is the most powerful ingredient in B2B marketing because it taps shared interest _(Dan Murphy)_
 - [`ins_dtc-do-less-better`](insights/ins_dtc-do-less-better.md) — Don't even think about a second channel until you can profitably spend $5K/day on Meta _(Nik Sharma)_
 - [`ins_dumpleton-expert-design-ai-executes`](insights/ins_dumpleton-expert-design-ai-executes.md) — AI-assisted coding works when the engineer defines the design and the AI executes it _(Graham Dumpleton)_
+- [`ins_dunford-ai-positioning-signals-noisier`](insights/ins_dunford-ai-positioning-signals-noisier.md) — AI accelerates competitive turnover, making positioning signals noisier and quarterly reviews necessary _(April Dunford)_
 - [`ins_dunford-market-pov-ai-uncertainty`](insights/ins_dunford-market-pov-ai-uncertainty.md) — Buyers navigating rapid market change rely on a vendor's market POV to validate their purchase; without one, reps lose the sale before the demo ends _(April Dunford)_
 - [`ins_dunford-positioning-ai-capability-shifts`](insights/ins_dunford-positioning-ai-capability-shifts.md) — Most AI capability improvements strengthen existing value themes; only revise positioning when new capabilities create customer value genuinely outside current themes _(April Dunford)_
 - [`ins_early-stage-pmms-know-there`](insights/ins_early-stage-pmms-know-there.md) — Early-stage PMMs: I know there are a lot of us! What did I miss? _(Amulya Vadrevu)_
@@ -631,6 +632,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hourly-billing-is-nuts`](insights/ins_hourly-billing-is-nuts.md) — Hourly billing penalizes expertise, when you bill by the hour, getting better reduces your income _(Jonathan Stark)_
 - [`ins_how-built-own-mcp-server`](insights/ins_how-built-own-mcp-server.md) — How I Built My Own MCP Server in 14 Minutes (and Automated My Lead Gen AI Agents) _(Divyanshi Sharma)_
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
+- [`ins_huntley-precommit-hook-agent-compliance`](insights/ins_huntley-precommit-hook-agent-compliance.md) — Deterministic pre-commit hooks enforce coding agent compliance where AGENTS.md instructions cannot _(Geoffrey Huntley)_
 - [`ins_husain-binary-over-likert`](insights/ins_husain-binary-over-likert.md) — Binary pass/fail annotation produces better quality than Likert scales by forcing judgment on uncertain cases _(Hamel Husain)_
 - [`ins_husain-eval-premature-automation`](insights/ins_husain-eval-premature-automation.md) — Eval tooling anchors teams on generic automated metrics before they have examined enough outputs to know what actually fails _(Hamel Husain)_
 - [`ins_husain-judge-context-rot`](insights/ins_husain-judge-context-rot.md) — Excess context in LLM judge prompts degrades accuracy; judges need only the evidence relevant to the specific failure _(Hamel Husain)_
@@ -930,6 +932,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills`](insights/ins_sid-bharath-extracting-podcast-knowledge-into-agent-skills.md) — Podcast transcripts can be turned into reusable AI agent skills for practical work. _(Sid Bharath)_
 - [`ins_simon-formal-pricing-process`](insights/ins_simon-formal-pricing-process.md) — Pricing needs a four-phase process and a named owner, strategy, analysis, decision, implementation _(Hermann Simon)_
 - [`ins_simon-premium-price-champion`](insights/ins_simon-premium-price-champion.md) — Premium pricing is sustained by continuous innovation, brand investment, and discipline, not by raising the price _(Hermann Simon)_
+- [`ins_simons-cheap-building-shifts-pm-value`](insights/ins_simons-cheap-building-shifts-pm-value.md) — Cheap building removes the old rationing system that made PM gatekeeping valuable _(Eric Simons)_
 - [`ins_since-something-use-daily-not`](insights/ins_since-something-use-daily-not.md) — P.S. Since this is something we use daily, I'm not going to send this to more than 200 _(Christian Oland)_
 - [`ins_sinek-existential-flexibility`](insights/ins_sinek-existential-flexibility.md) — Existential flexibility, the willingness to pivot dramatically when the current model still works, because the Just Cause demands it _(Simon Sinek)_
 - [`ins_sinek-worthy-rivals`](insights/ins_sinek-worthy-rivals.md) — Worthy rivals are mirrors for self-improvement, study competitors who reveal your weaknesses, not enemies to defeat _(Simon Sinek)_
@@ -1160,6 +1163,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
+- [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
 ### Tier C (87)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
@@ -1443,6 +1447,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [Eric Holland](operators/eric-holland/README.md)
 - [Eric Mistry](operators/eric-mistry/README.md)
 - [Eric Seufert](operators/eric-seufert/README.md)
+- [Eric Simons](operators/eric-simons/README.md)
 - [Ethan Mollick](operators/ethan-mollick/README.md)
 - [Eugene Yan](operators/eugene-yan/README.md)
 - [Evan Spiegel](operators/evan-spiegel/README.md)
@@ -1453,6 +1458,7 @@ _Generated 2026-10-14. Auto-built from frontmatter — do not edit by hand._
 - [Gartner](operators/gartner/README.md)
 - [Gary Yin](operators/gary-yin/README.md)
 - [Gaurav Sharma](operators/gaurav-sharma/README.md)
+- [Geoffrey Huntley](operators/geoffrey-huntley/README.md)
 - [Geoffrey Litt](operators/geoffrey-litt/README.md)
 - [Georgi Gerganov](operators/georgi-gerganov/README.md)
 - [Georgiana Laudi](operators/georgiana-laudi/README.md)
