@@ -51,5 +51,5 @@ Google's Amin Vahdat reportedly attributes most intelligence-per-watt gains to m
 
 ## Cross-references
 - `ins_tunguz-inference-surpasses-databases`: AI inference spending will overtake database software by 2027; custom silicon cost structure determines which lab captures that market.
-- `ins_tunguz-ai-infrastructure-credit-event`: The AI infrastructure financing is a macroeconomic credit event; hardware capex committed is the mechanism behind the leverage.
+- `ins_tunguz-ai-infrastructure-credit-event`: The AI infrastructure financing is a macroeconomic credit event; hardware capex already committed is the mechanism behind the debt pressure.
 - `ins_tunguz-three-waves-ai-consumption`: Token consumption is growing in three order-of-magnitude waves; serving cost per token is the binding constraint on that growth trajectory.
