@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1236 insight cards
-- 556 operator profiles
+- 1240 insight cards
+- 557 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (789)
+### Tier B (792)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -665,6 +665,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_
+- [`ins_indig-post-purchase-ai-shortlist`](insights/ins_indig-post-purchase-ai-shortlist.md) — Post-purchase behavior builds the AI search shortlist, not on-page content signals _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
 - [`ins_indig-seo-aio-decoupling`](insights/ins_indig-seo-aio-decoupling.md) — Google's organic SEO and AI Overview citations now move in opposite directions, requiring separate strategies _(Kevin Indig)_
@@ -1010,6 +1011,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
+- [`ins_tunguz-custom-silicon-cost-moat`](insights/ins_tunguz-custom-silicon-cost-moat.md) — Custom silicon creates a 3.8x AI serving cost advantage while frontier intelligence scores converge _(Tom Tunguz)_
 - [`ins_tunguz-decision-model-bifurcation`](insights/ins_tunguz-decision-model-bifurcation.md) — Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy _(Tom Tunguz)_
 - [`ins_tunguz-english-as-software-grammar`](insights/ins_tunguz-english-as-software-grammar.md) — AI converts English into a universal interface for grammar-heavy software _(Tomasz Tunguz)_
 - [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
@@ -1038,6 +1040,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
+- [`ins_tunguz-security-tooling-gap`](insights/ins_tunguz-security-tooling-gap.md) — Security tops AI adoption pain points while security tooling delivers the least value of any category _(Tom Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
 - [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_
@@ -1165,7 +1168,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (87)
+### Tier C (88)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1186,6 +1189,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ashwin-sl-people-over-scale`](insights/ins_ashwin-sl-people-over-scale.md) — The real value of building a company is the people and shared struggles, not the scale or numbers. _(Ashwin SL)_
 - [`ins_ayush-barnwal-remote-culture-needs-intentionality`](insights/ins_ayush-barnwal-remote-culture-needs-intentionality.md) — Remote work and human connection require intentional off-sites to coexist _(Ayush Barnwal)_
 - [`ins_bhavin-turakhia-ai-code-leak-speed`](insights/ins_bhavin-turakhia-ai-code-leak-speed.md) — AI code leaks spread faster than any company can contain them _(Bhavin Turakhia)_
+- [`ins_castillo-influencer-context-conversion`](insights/ins_castillo-influencer-context-conversion.md) — Influencer audience context at viewing time determines app conversion, not follower count or niche alignment _(Jake Castillo)_
 - [`ins_charly-wargnier-accurate-reaction`](insights/ins_charly-wargnier-accurate-reaction.md) — A one-word reaction 'accurate' signals endorsement of a shared industry insight. _(Charly Wargnier)_
 - [`ins_colby-hoke-role-split-reflects-market-maturity`](insights/ins_colby-hoke-role-split-reflects-market-maturity.md) — Role split from open source to MLOps/AI Engineering signals market maturation _(Colby Hoke)_
 - [`ins_cris-thome-pmm-hiring-gtm-customer-insights`](insights/ins_cris-thome-pmm-hiring-gtm-customer-insights.md) — PMM role at Amilia: end-to-end GTM, deep customer insights, and product collaboration _(Cris Thome)_
@@ -1499,6 +1503,7 @@ _Generated 2026-10-15. Auto-built from frontmatter — do not edit by hand._
 - [Jacki Schroder Brown](operators/jacki-schroder-brown/README.md)
 - [Jacob Warwick](operators/jacob-warwick/README.md)
 - [Jagpreet Kaur](operators/jagpreet-kaur/README.md)
+- [Jake Castillo](operators/jake-castillo/README.md)
 - [Jakub Pachocki](operators/jakub-pachocki/README.md)
 - [James Buckley](operators/james-buckley/README.md)
 - [James Clear](operators/james-clear/README.md)

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 01:47:38 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 01:49:18 GMT</lastBuildDate>
+    <item>
+      <title>Custom silicon moats, the post-purchase AI loop, and audience context over audience size</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-16/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-16/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.</description>
+    </item>
     <item>
       <title>Deterministic agents, noisier positioning, and the wishlist floor</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-15/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-17/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four cards, three new operators, one new synthesis pattern. Two clusters. Laurie Voss and Paul Ford converge independently on the same structural shift in software development: AI making code production nearly free relocates quality failures upstream to product discovery and judgment. The convergence adds a third operator to a new pattern alongside Boris Cherny. Separately, Mustafa Suleyman publishes a direct warning that training AI systems to accommodate potential consciousness creates a self-reinforcing feedback loop that mimics evidence of consciousness it does not actually provide.</description>
-    </item>
-    <item>
-      <title>AI code quality floors, agent accountability gaps, and channel structure durability</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-16/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-16/</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn&apos;t exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.</description>
     </item>
   </channel>
 </rss>

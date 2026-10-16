@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-10-15T01:47:33.898Z",
+  "generated_at": "2026-10-16T01:49:13.678Z",
   "counts": {
-    "insights": 1236,
-    "operators": 556,
+    "insights": 1240,
+    "operators": 557,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 137
+    "daily": 138
   },
   "latest_daily": {
-    "path": "daily/2026-10-15.md",
-    "date": "2026-10-15",
-    "title": "Deterministic agents, noisier positioning, and the wishlist floor",
-    "summary": "Four cards from four operators across three lanes. Geoffrey Huntley on using pre-commit hooks to enforce coding agent behavior. April Dunford on how AI compresses the positioning review cycle. Chris Zukowski on Steam wishlist inflation that cuts conversion in half but preserves prediction. Eric Simons on cheap building shifting PM value from gatekeeping to customer context.",
+    "path": "daily/2026-10-16.md",
+    "date": "2026-10-16",
+    "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
+    "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
     "sources": [
-      "https://ghuntley.com/agency/",
-      "https://www.mindtheproduct.com/our-notes-from-mind-the-product-chicago/",
-      "https://howtomarketagame.com/2026/10/13/wishlist-inflation-is-real-but-they-are-still-important/"
+      "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+      "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
     ],
     "insights_added": [
-      "ins_huntley-precommit-hook-agent-compliance",
-      "ins_dunford-ai-positioning-signals-noisier",
-      "ins_zukowski-wishlist-inflation-prediction-holds",
-      "ins_simons-cheap-building-shifts-pm-value"
+      "ins_tunguz-custom-silicon-cost-moat",
+      "ins_tunguz-security-tooling-gap",
+      "ins_indig-post-purchase-ai-shortlist",
+      "ins_castillo-influencer-context-conversion"
     ],
     "operators_added": [
-      "geoffrey-huntley",
-      "eric-simons"
+      "jake-castillo"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -4814,6 +4814,33 @@
       ],
       "raw_ref": "raw/podcasts/amol-avasare--anthropic-growth-cash--2026-04-05.md",
       "title": "Automate the four stages of a growth experiment; keep humans on alignment"
+    },
+    {
+      "path": "insights/ins_castillo-influencer-context-conversion.md",
+      "id": "ins_castillo-influencer-context-conversion",
+      "operator": "Jake Castillo",
+      "operator_role": "Co-founder and COO, Cal AI",
+      "co_operators": [],
+      "source_url": "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026",
+      "source_type": "podcast",
+      "source_title": "Cal AI paid UFC creators thousands of dollars to post, and got no download spike at all",
+      "source_date": "2026-10-14",
+      "captured_date": "2026-10-16",
+      "domain": [
+        "growth-demand",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "Influencer audience context at viewing time determines app conversion, not follower count or niche alignment"
     },
     {
       "path": "insights/ins_cccd-continuous-calibration.md",
@@ -12555,6 +12582,38 @@
       ],
       "raw_ref": "",
       "title": "Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup"
+    },
+    {
+      "path": "insights/ins_indig-post-purchase-ai-shortlist.md",
+      "id": "ins_indig-post-purchase-ai-shortlist",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; ex-VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+      "source_type": "essay",
+      "source_title": "Shopping is part of the product",
+      "source_date": "2026-10-12",
+      "captured_date": "2026-10-16",
+      "domain": [
+        "aeo",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "aeo",
+        "retention"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-brand-trust-overrides-ai-rank",
+        "ins_indig-ai-mode-commercial-shift",
+        "ins_indig-ai-search-attribution-gap"
+      ],
+      "raw_ref": "",
+      "title": "Post-purchase behavior builds the AI search shortlist, not on-page content signals"
     },
     {
       "path": "insights/ins_indig-pricing-page-agent-fallback.md",
@@ -29389,6 +29448,37 @@
       "title": "Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating"
     },
     {
+      "path": "insights/ins_tunguz-custom-silicon-cost-moat.md",
+      "id": "ins_tunguz-custom-silicon-cost-moat",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "source_type": "essay",
+      "source_title": "Price War in the Chip Aisle",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-16",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-inference-surpasses-databases",
+        "ins_tunguz-ai-infrastructure-credit-event",
+        "ins_tunguz-three-waves-ai-consumption"
+      ],
+      "raw_ref": "",
+      "title": "Custom silicon creates a 3.8x AI serving cost advantage while frontier intelligence scores converge"
+    },
+    {
       "path": "insights/ins_tunguz-decision-model-bifurcation.md",
       "id": "ins_tunguz-decision-model-bifurcation",
       "operator": "Tom Tunguz",
@@ -30316,6 +30406,36 @@
       ],
       "raw_ref": "",
       "title": "Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules"
+    },
+    {
+      "path": "insights/ins_tunguz-security-tooling-gap.md",
+      "id": "ins_tunguz-security-tooling-gap",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "source_type": "research",
+      "source_title": "The Theory 2026 AI Survey Results",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-16",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-decision-model-bifurcation",
+        "ins_tunguz-ai-category-winner-premium"
+      ],
+      "raw_ref": "",
+      "title": "Security tops AI adoption pain points while security tooling delivers the least value of any category"
     },
     {
       "path": "insights/ins_tunguz-sota-buyer-distribution.md",
@@ -39349,6 +39469,21 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Jagpreet Kaur"
+    },
+    {
+      "path": "operators/jake-castillo/README.md",
+      "name": "Jake Castillo",
+      "slug": "jake-castillo",
+      "roles": [
+        "Co-founder and COO, Cal AI"
+      ],
+      "domains_active": [
+        "growth-demand",
+        "founder-operator"
+      ],
+      "captured_first": "2026-10-16",
+      "external": "{}",
+      "title": "Jake Castillo"
     },
     {
       "path": "operators/jakub-pachocki/README.md",
@@ -51027,6 +51162,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-16.md",
+      "date": "2026-10-16",
+      "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
+      "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
+      "sources": [
+        "https://tomtunguz.com/intelligence-per-dollar-2026/",
+        "https://tomtunguz.com/ai-in-practice-survey-2026/",
+        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+        "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
+      ],
+      "insights_added": [
+        "ins_tunguz-custom-silicon-cost-moat",
+        "ins_tunguz-security-tooling-gap",
+        "ins_indig-post-purchase-ai-shortlist",
+        "ins_castillo-influencer-context-conversion"
+      ],
+      "operators_added": [
+        "jake-castillo"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-15.md",
       "date": "2026-10-15",
