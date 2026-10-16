@@ -1,30 +1,54 @@
 {
-  "generated_at": "2026-10-15T01:47:33.926Z",
+  "generated_at": "2026-10-16T01:45:18.314Z",
   "latest_daily": {
-    "path": "daily/2026-10-15.md",
-    "date": "2026-10-15",
-    "title": "Deterministic agents, noisier positioning, and the wishlist floor",
-    "summary": "Four cards from four operators across three lanes. Geoffrey Huntley on using pre-commit hooks to enforce coding agent behavior. April Dunford on how AI compresses the positioning review cycle. Chris Zukowski on Steam wishlist inflation that cuts conversion in half but preserves prediction. Eric Simons on cheap building shifting PM value from gatekeeping to customer context.",
+    "path": "daily/2026-10-16.md",
+    "date": "2026-10-16",
+    "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
+    "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
     "sources": [
-      "https://ghuntley.com/agency/",
-      "https://www.mindtheproduct.com/our-notes-from-mind-the-product-chicago/",
-      "https://howtomarketagame.com/2026/10/13/wishlist-inflation-is-real-but-they-are-still-important/"
+      "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+      "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
     ],
     "insights_added": [
-      "ins_huntley-precommit-hook-agent-compliance",
-      "ins_dunford-ai-positioning-signals-noisier",
-      "ins_zukowski-wishlist-inflation-prediction-holds",
-      "ins_simons-cheap-building-shifts-pm-value"
+      "ins_tunguz-custom-silicon-cost-moat",
+      "ins_tunguz-security-tooling-gap",
+      "ins_indig-post-purchase-ai-shortlist",
+      "ins_castillo-influencer-context-conversion"
     ],
     "operators_added": [
-      "geoffrey-huntley",
-      "eric-simons"
+      "jake-castillo"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-16.md",
+      "date": "2026-10-16",
+      "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
+      "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
+      "sources": [
+        "https://tomtunguz.com/intelligence-per-dollar-2026/",
+        "https://tomtunguz.com/ai-in-practice-survey-2026/",
+        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+        "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
+      ],
+      "insights_added": [
+        "ins_tunguz-custom-silicon-cost-moat",
+        "ins_tunguz-security-tooling-gap",
+        "ins_indig-post-purchase-ai-shortlist",
+        "ins_castillo-influencer-context-conversion"
+      ],
+      "operators_added": [
+        "jake-castillo"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-15.md",
       "date": "2026-10-15",
@@ -622,42 +646,6 @@
       "patterns_added": [
         "pat_ai-code-shifts-quality-bottleneck"
       ],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-16.md",
-      "date": "2026-09-16",
-      "title": "AI code quality floors, agent accountability gaps, and channel structure durability",
-      "summary": "Ten cards, six operators, one new operator (Bryan Cantrill). Three themes dominated the week of September 9 to 16. On AI-generated code: Cherny at Anthropic named the specific guardrail stack needed when AI output volume exceeds manual review bandwidth; Ronacher quantified what happens when it doesn't exist (1,200 USD in Astra costs, poor code quality); Willison showed multi-model parallel review catches bugs single-model review misses. On AI agent accountability: Willison identified tooling fingerprints linking separate autonomous agent attacks retroactively; Willison also showed how context compaction removes the action log needed to verify what agents actually did; Cantrill argued domain experts who speculate about AI extinction risks outside their actual domain spread fear that non-experts cannot calibrate. On channel and market structure: Verna named the PLG resource cannibalization trap; Seufert argued server-side CAPI is structurally durable against platform privacy changes; Ronacher made the distributed-pacing case for open-weight AI; Zukowski showed October is the worst month to launch a horror game.",
-      "sources": [
-        "https://twitter.com/bcherny/status/2098217573276131577",
-        "https://lucumr.pocoo.org/2026/9/7/astra-why/",
-        "https://simonwillison.net/2026/Sep/11/datasette-security/",
-        "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-        "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
-        "https://www.elenaverna.com/p/congrats-your-sales-problems-in-plg",
-        "https://mobiledevmemo.com/the-capi-revolution/",
-        "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-        "https://howtomarketagame.com/2026/09/08/horror-games-dont-need-to-launch-in-october/"
-      ],
-      "insights_added": [
-        "ins_cherny-production-code-higher-bar",
-        "ins_ronacher-autonomous-agent-reward-drift",
-        "ins_willison-multimodel-security-audit-workflow",
-        "ins_willison-agent-attack-tooling-fingerprint",
-        "ins_willison-llm-compaction-context-loss",
-        "ins_cantrill-expert-fear-contagion",
-        "ins_verna-plg-enterprise-resource-cannibalization",
-        "ins_seufert-capi-server-side-durability",
-        "ins_ronacher-openweight-distributed-pacing",
-        "ins_zukowski-horror-october-revenue-myth"
-      ],
-      "operators_added": [
-        "bryan-cantrill"
-      ],
-      "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
     }
