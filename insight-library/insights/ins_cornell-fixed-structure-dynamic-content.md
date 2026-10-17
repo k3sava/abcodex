@@ -48,7 +48,7 @@ Cornell explicitly separated the design surface into what the team controls and 
 - User feedback praises relevance rather than surprise or novelty
 
 ## Counter-evidence
-The pattern assumes a product where layout categories can be enumerated in advance. For AI products with genuinely open-ended content types (a general assistant that might need to show a calendar, a map, a code block, or a diagram), pre-defining all structural containers becomes a design bottleneck. The approach may also limit the creative leverage of generative models: keeping structure fixed prevents emergent interface patterns that might serve users better than the designer anticipated.
+The pattern assumes a product where layout categories can be enumerated in advance. For AI products with genuinely open-ended content types (a general assistant that might need to show a calendar, a map, a code block, or a diagram), pre-defining all structural containers becomes a design bottleneck. The approach may also limit what generative models can do creatively: keeping structure fixed prevents emergent interface patterns that might serve users better than the designer anticipated.
 
 ## Cross-references
 - `ins_cornell-cot-latency-workaround`: Companion card from the same source. Both describe design simplifications Cornell made for Muse as model speed and quality improved.
