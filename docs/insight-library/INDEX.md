@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1240 insight cards
-- 557 operator profiles
+- 1244 insight cards
+- 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (792)
+### Tier B (796)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -524,6 +524,8 @@ _Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_context-docs-as-battery-packs`](insights/ins_context-docs-as-battery-packs.md) — Context documents are reusable battery packs that need named owners _(Aatir Abdul Rauf)_
 - [`ins_context-engineering-beats-prompt-engineering`](insights/ins_context-engineering-beats-prompt-engineering.md) — Context engineering beats prompt engineering for marketing AI workflows _(Aatir Abdul Rauf)_
 - [`ins_context-pain-points-product-what`](insights/ins_context-pain-points-product-what.md) — -> Context on pain points and product: what and who are we solving for, and how _(Shivangi Sahu)_
+- [`ins_cornell-cot-latency-workaround`](insights/ins_cornell-cot-latency-workaround.md) — Showing chain-of-thought steps in AI UX is a workaround for slow models, not a feature worth building into fast products _(Alex Cornell)_
+- [`ins_cornell-fixed-structure-dynamic-content`](insights/ins_cornell-fixed-structure-dynamic-content.md) — Generative UI works reliably when structure is fixed by designers and only content varies dynamically _(Alex Cornell)_
 - [`ins_couch-to-5k-for-ai-start-not-depth`](insights/ins_couch-to-5k-for-ai-start-not-depth.md) — The block to AI adoption is the start, not the depth, design 30-day ladders, not deep-dive bootcamps _(Hilary Gridley)_
 - [`ins_crawlability-shapes-everything`](insights/ins_crawlability-shapes-everything.md) — In the AI-search era, crawlability shapes everything _(Aleyda Solis)_
 - [`ins_crawshaw-open-source-agent-skin`](insights/ins_crawshaw-open-source-agent-skin.md) — Open-source devtools hold a structural advantage in the agent era because source code becomes the personalization layer _(David Crawshaw)_
@@ -815,6 +817,8 @@ _Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_openclaw-cool-get-appeal-spin`](insights/ins_openclaw-cool-get-appeal-spin.md) — OpenClaw is cool. I get the appeal. Spin up specialized agents, give them each their ow _(Jason B. Hart)_
 - [`ins_orbach-outrageous-by-design-growth`](insights/ins_orbach-outrageous-by-design-growth.md) — Outrageous-by-design growth tactics outperform saturated playbooks because attention flows to what people do not see coming _(Tom Orbach)_
 - [`ins_osika-domain-expert-builder`](insights/ins_osika-domain-expert-builder.md) — People closest to the problem should build their own software, not engineers with certifications _(Anton Osika)_
+- [`ins_osmani-agent-consensus-finding-gate`](insights/ins_osmani-agent-consensus-finding-gate.md) — Requiring multi-agent consensus before posting a code review finding cuts noise and raised substantive comment share from 16% to 54% _(Addy Osmani)_
+- [`ins_osmani-review-runs-before-pr`](insights/ins_osmani-review-runs-before-pr.md) — Moving code review from a post-PR gate to a continuous writing-time loop eliminates most issues before a human sees the change _(Addy Osmani)_
 - [`ins_otaku-as-ideal-customer-archetype`](insights/ins_otaku-as-ideal-customer-archetype.md) — Design for the otaku, the obsessive customer who already wants what you make and will tell their hive _(Seth Godin)_
 - [`ins_outcomes-pricing-restructures-saas`](insights/ins_outcomes-pricing-restructures-saas.md) — Agents push SaaS from per-seat to outcomes-based pricing; the incentive flip changes everything _(Bret Taylor)_
 - [`ins_pachocki-defensive-ai-rationale`](insights/ins_pachocki-defensive-ai-rationale.md) — The strongest rationale for accelerating AI capability development is building defensive systems capable of detecting and countering threats from other advanced AI _(Jakub Pachocki)_
@@ -1280,6 +1284,7 @@ _Generated 2026-10-16. Auto-built from frontmatter — do not edit by hand._
 - [Akshaya Sampath](operators/akshaya-sampath/README.md)
 - [Alan Zhao](operators/alan-zhao/README.md)
 - [Albert Malikov](operators/albert-malikov/README.md)
+- [Alex Cornell](operators/alex-cornell/README.md)
 - [Alex Hormozi](operators/alex-hormozi/README.md)
 - [Alex Lindahl](operators/alex-lindahl/README.md)
 - [Alexander Panfilov](operators/alexander-panfilov/README.md)

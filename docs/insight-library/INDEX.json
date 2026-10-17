@@ -1,33 +1,31 @@
 {
-  "generated_at": "2026-10-16T01:49:13.678Z",
+  "generated_at": "2026-10-17T01:48:55.869Z",
   "counts": {
-    "insights": 1240,
-    "operators": 557,
+    "insights": 1244,
+    "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 138
+    "daily": 139
   },
   "latest_daily": {
-    "path": "daily/2026-10-16.md",
-    "date": "2026-10-16",
-    "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
-    "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
+    "path": "daily/2026-10-17.md",
+    "date": "2026-10-17",
+    "title": "Review before the PR exists, and structure before AI generates content",
+    "summary": "Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.",
     "sources": [
-      "https://tomtunguz.com/intelligence-per-dollar-2026/",
-      "https://tomtunguz.com/ai-in-practice-survey-2026/",
-      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
-      "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
+      "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
     ],
     "insights_added": [
-      "ins_tunguz-custom-silicon-cost-moat",
-      "ins_tunguz-security-tooling-gap",
-      "ins_indig-post-purchase-ai-shortlist",
-      "ins_castillo-influencer-context-conversion"
+      "ins_osmani-review-runs-before-pr",
+      "ins_osmani-agent-consensus-finding-gate",
+      "ins_cornell-cot-latency-workaround",
+      "ins_cornell-fixed-structure-dynamic-content"
     ],
     "operators_added": [
-      "jake-castillo"
+      "alex-cornell"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -6087,6 +6085,62 @@
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md",
       "title": "-> Context on pain points and product: what and who are we solving for, and how"
+    },
+    {
+      "path": "insights/ins_cornell-cot-latency-workaround.md",
+      "id": "ins_cornell-cot-latency-workaround",
+      "operator": "Alex Cornell",
+      "operator_role": "Design Director, Meta AI; leads design for Muse",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "source_type": "essay",
+      "source_title": "How I AI: How Meta designed Muse with Alex Cornell",
+      "source_date": "2026-10-12",
+      "captured_date": "2026-10-17",
+      "domain": [
+        "design",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_cornell-fixed-structure-dynamic-content"
+      ],
+      "raw_ref": "",
+      "title": "Showing chain-of-thought steps in AI UX is a workaround for slow models, not a feature worth building into fast products"
+    },
+    {
+      "path": "insights/ins_cornell-fixed-structure-dynamic-content.md",
+      "id": "ins_cornell-fixed-structure-dynamic-content",
+      "operator": "Alex Cornell",
+      "operator_role": "Design Director, Meta AI; leads design for Muse",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "source_type": "essay",
+      "source_title": "How I AI: How Meta designed Muse with Alex Cornell",
+      "source_date": "2026-10-12",
+      "captured_date": "2026-10-17",
+      "domain": [
+        "design",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_cornell-cot-latency-workaround"
+      ],
+      "raw_ref": "",
+      "title": "Generative UI works reliably when structure is fixed by designers and only content varies dynamically"
     },
     {
       "path": "insights/ins_couch-to-5k-for-ai-start-not-depth.md",
@@ -19751,6 +19805,72 @@
       ],
       "raw_ref": "",
       "title": "People closest to the problem should build their own software, not engineers with certifications"
+    },
+    {
+      "path": "insights/ins_osmani-agent-consensus-finding-gate.md",
+      "id": "ins_osmani-agent-consensus-finding-gate",
+      "operator": "Addy Osmani",
+      "operator_role": "Principal engineer, Claude Code, Anthropic",
+      "co_operators": [
+        "Morgan Westlee Lunt",
+        "Qing Wang"
+      ],
+      "source_url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source_type": "essay",
+      "source_title": "How the Claude Code team does code review",
+      "source_date": "2026-10-15",
+      "captured_date": "2026-10-17",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_osmani-review-runs-before-pr",
+        "ins_code-review-coverage-trust-ladder"
+      ],
+      "raw_ref": "",
+      "title": "Requiring multi-agent consensus before posting a code review finding cuts noise and raised substantive comment share from 16% to 54%"
+    },
+    {
+      "path": "insights/ins_osmani-review-runs-before-pr.md",
+      "id": "ins_osmani-review-runs-before-pr",
+      "operator": "Addy Osmani",
+      "operator_role": "Principal engineer, Claude Code, Anthropic",
+      "co_operators": [
+        "Morgan Westlee Lunt",
+        "Qing Wang"
+      ],
+      "source_url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source_type": "essay",
+      "source_title": "How the Claude Code team does code review",
+      "source_date": "2026-10-15",
+      "captured_date": "2026-10-17",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_code-review-coverage-trust-ladder",
+        "ins_cherny-code-review-next-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Moving code review from a post-PR gate to a continuous writing-time loop eliminates most issues before a human sees the change"
     },
     {
       "path": "insights/ins_otaku-as-ideal-customer-archetype.md",
@@ -35388,6 +35508,23 @@
       "captured_first": "2026-05-03",
       "external": "",
       "title": "Albert Malikov"
+    },
+    {
+      "path": "operators/alex-cornell/README.md",
+      "name": "Alex Cornell",
+      "slug": "alex-cornell",
+      "roles": [
+        "Design Director, Meta AI"
+      ],
+      "domains_active": [
+        "design",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-17",
+      "external": {
+        "newsletter": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
+      },
+      "title": "Alex Cornell"
     },
     {
       "path": "operators/alex-hormozi/README.md",
@@ -51162,6 +51299,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-17.md",
+      "date": "2026-10-17",
+      "title": "Review before the PR exists, and structure before AI generates content",
+      "summary": "Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.",
+      "sources": [
+        "https://claude.dev/blog/solving-code-review-at-anthropic/",
+        "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
+      ],
+      "insights_added": [
+        "ins_osmani-review-runs-before-pr",
+        "ins_osmani-agent-consensus-finding-gate",
+        "ins_cornell-cot-latency-workaround",
+        "ins_cornell-fixed-structure-dynamic-content"
+      ],
+      "operators_added": [
+        "alex-cornell"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-16.md",
       "date": "2026-10-16",
