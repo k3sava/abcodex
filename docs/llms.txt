@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1240 insights · 557 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 360 tier-A claims.
+Counts: 1244 insights · 558 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 360 tier-A claims.
 
 ## Index
 
@@ -27,8 +27,8 @@ Counts: 1240 insights · 557 operators · 46 synthesis patterns · 11 contradict
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 475 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 424 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 214 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 428 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 216 insights
 - [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 185 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 180 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 158 insights
@@ -44,7 +44,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 44 insights
 - [hiring](https://abcodex.iamkesava.com/d/hiring/) — 40 insights
 - [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 38 insights
-- [design](https://abcodex.iamkesava.com/d/design/) — 34 insights
+- [design](https://abcodex.iamkesava.com/d/design/) — 36 insights
 - [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 30 insights
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 29 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 27 insights
@@ -151,4 +151,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-10-16.
+Last updated: 2026-10-17.
