@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-17 · 4 insights · 1 operator
+### Latest · 2026-10-18 · 3 insights
 
-**Review before the PR exists, and structure before AI generates content.** Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.
+**Swarm direction, proactive catches, and quality goals in prompts.** Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.
 
-[Read what landed →](insight-library/daily/2026-10-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-18.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1244** insight cards
+- **1247** insight cards
 - **558** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

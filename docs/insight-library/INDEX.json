@@ -1,32 +1,29 @@
 {
-  "generated_at": "2026-10-17T01:48:55.869Z",
+  "generated_at": "2026-10-18T01:43:21.166Z",
   "counts": {
-    "insights": 1244,
+    "insights": 1247,
     "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 139
+    "daily": 140
   },
   "latest_daily": {
-    "path": "daily/2026-10-17.md",
-    "date": "2026-10-17",
-    "title": "Review before the PR exists, and structure before AI generates content",
-    "summary": "Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.",
+    "path": "daily/2026-10-18.md",
+    "date": "2026-10-18",
+    "title": "Swarm direction, proactive catches, and quality goals in prompts",
+    "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
     "sources": [
-      "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
     ],
     "insights_added": [
-      "ins_osmani-review-runs-before-pr",
-      "ins_osmani-agent-consensus-finding-gate",
-      "ins_cornell-cot-latency-workaround",
-      "ins_cornell-fixed-structure-dynamic-content"
+      "ins_mollick-swarm-direction-bottleneck",
+      "ins_mollick-proactive-agents-caught-not-asked",
+      "ins_willison-quality-goal-prompt"
     ],
-    "operators_added": [
-      "alex-cornell"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -18017,6 +18014,37 @@
       "title": "Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result"
     },
     {
+      "path": "insights/ins_mollick-proactive-agents-caught-not-asked.md",
+      "id": "ins_mollick-proactive-agents-caught-not-asked",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source_type": "essay",
+      "source_title": "The Dot and the Swarm",
+      "source_date": "2026-10-01",
+      "captured_date": "2026-10-18",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_mollick-agentic-external-injection",
+        "ins_mollick-swarm-direction-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Personal AI agents that act proactively create qualitatively different value than responsive chatbots"
+    },
+    {
       "path": "insights/ins_mollick-selection-scarce-resource.md",
       "id": "ins_mollick-selection-scarce-resource",
       "operator": "Ethan Mollick",
@@ -18076,6 +18104,36 @@
       ],
       "raw_ref": "",
       "title": "Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill"
+    },
+    {
+      "path": "insights/ins_mollick-swarm-direction-bottleneck.md",
+      "id": "ins_mollick-swarm-direction-bottleneck",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "source_type": "essay",
+      "source_title": "The Dot and the Swarm",
+      "source_date": "2026-10-01",
+      "captured_date": "2026-10-18",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-agents-concurrent-norm",
+        "ins_mollick-agentic-external-injection"
+      ],
+      "raw_ref": "",
+      "title": "Direction, not coordination, is the bottleneck in multi-agent AI deployment"
     },
     {
       "path": "insights/ins_mollick-twilight-factory-human-loop.md",
@@ -33774,6 +33832,34 @@
       "related": [],
       "raw_ref": "",
       "title": "Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts"
+    },
+    {
+      "path": "insights/ins_willison-quality-goal-prompt.md",
+      "id": "ins_willison-quality-goal-prompt",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; creator of Datasette; prolific LLM and agentic-engineering blogger",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "source_type": "post",
+      "source_title": "Tree Appreciator",
+      "source_date": "2026-10-14",
+      "captured_date": "2026-10-18",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-engineering-core-is-direction"
+      ],
+      "raw_ref": "",
+      "title": "Explicitly stating a quality goal in a creative coding prompt produces noticeably more polished output than a functional spec alone"
     },
     {
       "path": "insights/ins_willison-qwen-reasoning-overthink.md",
@@ -51299,6 +51385,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-18.md",
+      "date": "2026-10-18",
+      "title": "Swarm direction, proactive catches, and quality goals in prompts",
+      "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+      ],
+      "insights_added": [
+        "ins_mollick-swarm-direction-bottleneck",
+        "ins_mollick-proactive-agents-caught-not-asked",
+        "ins_willison-quality-goal-prompt"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-17.md",
       "date": "2026-10-17",
