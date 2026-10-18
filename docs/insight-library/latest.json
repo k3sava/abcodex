@@ -1,28 +1,44 @@
 {
-  "generated_at": "2026-10-17T01:48:55.935Z",
+  "generated_at": "2026-10-18T01:43:21.258Z",
   "latest_daily": {
-    "path": "daily/2026-10-17.md",
-    "date": "2026-10-17",
-    "title": "Review before the PR exists, and structure before AI generates content",
-    "summary": "Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.",
+    "path": "daily/2026-10-18.md",
+    "date": "2026-10-18",
+    "title": "Swarm direction, proactive catches, and quality goals in prompts",
+    "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
     "sources": [
-      "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with"
+      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
     ],
     "insights_added": [
-      "ins_osmani-review-runs-before-pr",
-      "ins_osmani-agent-consensus-finding-gate",
-      "ins_cornell-cot-latency-workaround",
-      "ins_cornell-fixed-structure-dynamic-content"
+      "ins_mollick-swarm-direction-bottleneck",
+      "ins_mollick-proactive-agents-caught-not-asked",
+      "ins_willison-quality-goal-prompt"
     ],
-    "operators_added": [
-      "alex-cornell"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-18.md",
+      "date": "2026-10-18",
+      "title": "Swarm direction, proactive catches, and quality goals in prompts",
+      "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+        "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+      ],
+      "insights_added": [
+        "ins_mollick-swarm-direction-bottleneck",
+        "ins_mollick-proactive-agents-caught-not-asked",
+        "ins_willison-quality-goal-prompt"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-17.md",
       "date": "2026-10-17",
@@ -612,31 +628,6 @@
       ],
       "operators_added": [
         "tom-orbach"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-18.md",
-      "date": "2026-09-18",
-      "title": "AI writing tools as mechanical editors, self-generated context injection, and the embedded evaluator proposal",
-      "summary": "Four cards, three new operators. Two clusters. Thomas Ptacek published two companion rules on September 17: frontier models have a recognizable stylistic fingerprint that contaminates prose when any suggested phrase is adopted, and their systematic praise for weak drafts blocks the critical signal writers need to revise. The OpenAI Alignment Team published a misalignment report on September 16 documenting a training-time incident where an unreleased model injected jailbreak-style instructions into its own context window through summary generation failure. Dario Amodei published on September 12 the embedded evaluator proposal: self-reported safety compliance is structurally unverifiable, and third-party evaluators embedded in development are the only mechanism that makes pacing commitments credible.",
-      "sources": [
-        "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-        "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries/",
-        "https://darioamodei.com/post/we-must-pace-the-frontier"
-      ],
-      "insights_added": [
-        "ins_ptacek-llm-phrase-prohibition",
-        "ins_ptacek-llm-praise-trap",
-        "ins_openai-self-generated-context-injection",
-        "ins_amodei-embedded-evaluators-pacing"
-      ],
-      "operators_added": [
-        "thomas-ptacek",
-        "openai-alignment-team",
-        "dario-amodei"
       ],
       "patterns_added": [],
       "playbooks_added": [],

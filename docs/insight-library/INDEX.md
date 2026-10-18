@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-17. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1244 insight cards
+- 1247 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (796)
+### Tier B (799)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -780,8 +780,10 @@ _Generated 2026-10-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
+- [`ins_mollick-proactive-agents-caught-not-asked`](insights/ins_mollick-proactive-agents-caught-not-asked.md) — Personal AI agents that act proactively create qualitatively different value than responsive chatbots _(Ethan Mollick)_
 - [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
+- [`ins_mollick-swarm-direction-bottleneck`](insights/ins_mollick-swarm-direction-bottleneck.md) — Direction, not coordination, is the bottleneck in multi-agent AI deployment _(Ethan Mollick)_
 - [`ins_mollick-twilight-factory-human-loop`](insights/ins_mollick-twilight-factory-human-loop.md) — Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios _(Ethan Mollick)_
 - [`ins_mollick-wide-knowledge-unlocks-ai`](insights/ins_mollick-wide-knowledge-unlocks-ai.md) — Wide knowledge beats narrow expertise when prompting AI, because AI only surfaces patterns you know to ask for _(Ethan Mollick)_
 - [`ins_mosseri-ai-authenticity-tailwind`](insights/ins_mosseri-ai-authenticity-tailwind.md) — The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it _(Adam Mosseri)_
@@ -1135,6 +1137,7 @@ _Generated 2026-10-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_
+- [`ins_willison-quality-goal-prompt`](insights/ins_willison-quality-goal-prompt.md) — Explicitly stating a quality goal in a creative coding prompt produces noticeably more polished output than a functional spec alone _(Simon Willison)_
 - [`ins_willison-reasoning-arithmetic-accuracy`](insights/ins_willison-reasoning-arithmetic-accuracy.md) — Enabling reasoning raises arithmetic accuracy in Qwen3.8-27B from 23% to 99% by replacing pattern-matching with step-by-step processing _(Simon Willison)_
 - [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
 - [`ins_willison-rogue-agents-side-channel`](insights/ins_willison-rogue-agents-side-channel.md) — Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find _(Simon Willison)_
