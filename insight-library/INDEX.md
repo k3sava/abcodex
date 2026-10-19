@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1247 insight cards
+- 1252 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (799)
+### Tier B (804)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -454,6 +454,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-observability-legible-to-agent`](insights/ins_ball-observability-legible-to-agent.md) — When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
+- [`ins_ball-production-gate-replaces-pr`](insights/ins_ball-production-gate-replaces-pr.md) — When agents own most code output, production observability replaces pre-merge review as the quality gate _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
 - [`ins_ball-specification-bug-era`](insights/ins_ball-specification-bug-era.md) — As AI handles coding reliably, most software bugs shift from implementation errors to specification errors _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
@@ -652,6 +653,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-hours-invisible-marketing`](insights/ins_indig-ai-hours-invisible-marketing.md) — AI tool maintenance in marketing teams creates invisible overhead that the official hours count does not capture, making net productivity gains structurally smaller than they appear _(Kevin Indig)_
 - [`ins_indig-ai-mode-commercial-shift`](insights/ins_indig-ai-mode-commercial-shift.md) — AI Mode cut publisher mentions nearly in half while tripling major retailer mentions, revealing a structural bias toward commercial endpoints _(Kevin Indig)_
 - [`ins_indig-ai-mode-query-length`](insights/ins_indig-ai-mode-query-length.md) — AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search _(Kevin Indig)_
+- [`ins_indig-ai-mode-shortlist-acceptance`](insights/ins_indig-ai-mode-shortlist-acceptance.md) — AI Mode collapses the product consideration set to a shortlist 88% of users accept without checking _(Kevin Indig)_
 - [`ins_indig-ai-search-attribution-gap`](insights/ins_indig-ai-search-attribution-gap.md) — AI search can underattribute marketing channel contribution by 10x because the discovery path no longer generates a referral signal. _(Kevin Indig)_
 - [`ins_indig-ai-search-category-ownership`](insights/ins_indig-ai-search-category-ownership.md) — AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time _(Kevin Indig)_
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
@@ -778,6 +780,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
+- [`ins_mollick-four-human-edge-skills`](insights/ins_mollick-four-human-edge-skills.md) — Four human attributes remain distinctly valuable as AI makes production abundant _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_mollick-proactive-agents-caught-not-asked`](insights/ins_mollick-proactive-agents-caught-not-asked.md) — Personal AI agents that act proactively create qualitatively different value than responsive chatbots _(Ethan Mollick)_
@@ -1016,6 +1019,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-blank-slate-ai-strategy`](insights/ins_tunguz-blank-slate-ai-strategy.md) — Shipping a generic AI base product for free and charging for customization creates a sustainable open-source monetization model _(Tomasz Tunguz)_
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
 - [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
+- [`ins_tunguz-chip-ownership-cost-floor`](insights/ins_tunguz-chip-ownership-cost-floor.md) — Chip ownership is the structural cost floor in a world of equal-intelligence frontier models _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
 - [`ins_tunguz-custom-silicon-cost-moat`](insights/ins_tunguz-custom-silicon-cost-moat.md) — Custom silicon creates a 3.8x AI serving cost advantage while frontier intelligence scores converge _(Tom Tunguz)_
 - [`ins_tunguz-decision-model-bifurcation`](insights/ins_tunguz-decision-model-bifurcation.md) — Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy _(Tom Tunguz)_
@@ -1047,6 +1051,7 @@ _Generated 2026-10-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_tunguz-security-tooling-gap`](insights/ins_tunguz-security-tooling-gap.md) — Security tops AI adoption pain points while security tooling delivers the least value of any category _(Tom Tunguz)_
+- [`ins_tunguz-security-tops-ai-barrier-2026`](insights/ins_tunguz-security-tops-ai-barrier-2026.md) — Security and governance rose from sixth to first as the enterprise AI pain point in twelve months _(Tomasz Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
 - [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_

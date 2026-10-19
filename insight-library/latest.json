@@ -1,18 +1,23 @@
 {
-  "generated_at": "2026-10-18T01:43:21.258Z",
+  "generated_at": "2026-10-19T01:38:48.561Z",
   "latest_daily": {
-    "path": "daily/2026-10-18.md",
-    "date": "2026-10-18",
-    "title": "Swarm direction, proactive catches, and quality goals in prompts",
-    "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
+    "path": "daily/2026-10-19.md",
+    "date": "2026-10-19",
+    "title": "Production gates, chip economics, and the collapse of the consideration set",
+    "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+      "https://x.com/thorstenball/status/2110035978685747457",
+      "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
     ],
     "insights_added": [
-      "ins_mollick-swarm-direction-bottleneck",
-      "ins_mollick-proactive-agents-caught-not-asked",
-      "ins_willison-quality-goal-prompt"
+      "ins_ball-production-gate-replaces-pr",
+      "ins_tunguz-chip-ownership-cost-floor",
+      "ins_tunguz-security-tops-ai-barrier-2026",
+      "ins_mollick-four-human-edge-skills",
+      "ins_indig-ai-mode-shortlist-acceptance"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +25,30 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-19.md",
+      "date": "2026-10-19",
+      "title": "Production gates, chip economics, and the collapse of the consideration set",
+      "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
+      "sources": [
+        "https://x.com/thorstenball/status/2110035978685747457",
+        "https://tomtunguz.com/intelligence-per-dollar-2026/",
+        "https://tomtunguz.com/ai-in-practice-survey-2026/",
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
+      ],
+      "insights_added": [
+        "ins_ball-production-gate-replaces-pr",
+        "ins_tunguz-chip-ownership-cost-floor",
+        "ins_tunguz-security-tops-ai-barrier-2026",
+        "ins_mollick-four-human-edge-skills",
+        "ins_indig-ai-mode-shortlist-acceptance"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-18.md",
       "date": "2026-10-18",
@@ -605,30 +634,6 @@
         "ins_mccormick-counter-positioning-moat"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-19.md",
-      "date": "2026-09-19",
-      "title": "Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth",
-      "summary": "Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/the-overhang",
-        "https://tomtunguz.com/the-harness-margin-opportunity/",
-        "https://thenextweb.com/news/lovable-anton-osika-dreamforce-way-past-vibes-security",
-        "https://www.lennysnewsletter.com/p/60-creative-growth-ideas"
-      ],
-      "insights_added": [
-        "ins_mollick-selection-scarce-resource",
-        "ins_tunguz-harness-margin-cost",
-        "ins_osika-domain-expert-builder",
-        "ins_orbach-outrageous-by-design-growth"
-      ],
-      "operators_added": [
-        "tom-orbach"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
