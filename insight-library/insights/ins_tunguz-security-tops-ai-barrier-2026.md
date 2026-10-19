@@ -41,5 +41,5 @@ Theory Ventures surveyed 455 senior technical builders on September 22, 2026. Se
 The survey covers 455 self-selected respondents who opted in via Theory's network, not a random enterprise sample. Teams that are further along in AI adoption may overweight governance concerns compared to teams earlier in the adoption cycle.
 
 ## Cross-references
-- `ins_tunguz-41-day-frontier-window` — Rapid frontier cycling combined with governance immaturity means teams may be forced to re-evaluate security postures every six weeks.
-- `ins_commoditize-the-complement-ai` — AI labs' pricing strategy presupposes rapid enterprise adoption; governance friction is one structural reason adoption lags capability.
+- `ins_tunguz-41-day-frontier-window` · Rapid frontier cycling combined with governance immaturity means teams may be forced to re-evaluate security postures every six weeks.
+- `ins_commoditize-the-complement-ai` · AI labs' pricing strategy presupposes rapid enterprise adoption; governance friction is one structural reason adoption lags capability.

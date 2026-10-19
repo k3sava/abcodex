@@ -45,6 +45,6 @@ The commentary from daily.dev notes this is not an absence of oversight but a di
 Most teams pushing to main with agents would expose production to unreviewed changes. This approach is viable only at teams with high observability maturity. Teams without feature-flag infrastructure or strong rollback tooling face compounding risk. Human reviewers also catch requirement misalignments that production logs cannot surface.
 
 ## Cross-references
-- `ins_ball-observability-legible-to-agent` — Ball's earlier card on observability legibility as the decisive agent-tooling selection criterion.
-- `ins_ball-specification-bug-era` — Ball's Sep 19 claim that most future bugs shift to specification errors, the same post this thread extends into a live workflow.
-- `ins_huntley-precommit-hook-agent-compliance` — Huntley's complementary claim on deterministic hooks enforcing agent behavior where AGENTS.md instructions drift.
+- `ins_ball-observability-legible-to-agent` · Ball's earlier card on observability legibility as the decisive agent-tooling selection criterion.
+- `ins_ball-specification-bug-era` · Ball's Sep 19 claim that most future bugs shift to specification errors, the same post this thread extends into a live workflow.
+- `ins_huntley-precommit-hook-agent-compliance` · Huntley's complementary claim on deterministic hooks enforcing agent behavior where AGENTS.md instructions drift.

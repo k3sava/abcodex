@@ -43,5 +43,5 @@ Growth Memo's AI Mode user behavior study, October 2026:
 The study does not report sample size or methodology in full, so the 88% figure may not generalize across categories or demographics. Classic search behavior studies varied widely by category; AI Mode acceptance rates likely vary the same way. Indig presents his own data, which has not been independently replicated.
 
 ## Cross-references
-- `ins_lily-ray-firsthand-experience-ai-overviews` — Ray's finding that first-hand experience drives additional clicks from AI surfaces; relevant to how brands appear trustworthy inside shortlists.
-- `ins_lily-ray-aeo-seo-continuity` — AEO extends SEO; the signals that earn classic organic placement still matter for shortlist inclusion.
+- `ins_lily-ray-firsthand-experience-ai-overviews` · Ray's finding that first-hand experience drives additional clicks from AI surfaces; relevant to how brands appear trustworthy inside shortlists.
+- `ins_lily-ray-aeo-seo-continuity` · AEO extends SEO; the signals that earn classic organic placement still matter for shortlist inclusion.

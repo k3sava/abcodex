@@ -41,6 +41,6 @@ Tunguz reports: "Five frontier models now sit within five points of each other i
 The 44% figure is an extrapolation, not a disclosed margin. Google's chip advantage may not hold if competing labs license next-generation foundry nodes with comparable efficiency. Anthropic, Meta, and Microsoft are each pursuing custom silicon that could close the gap.
 
 ## Cross-references
-- `ins_intelligence-per-dollar-model-metric` — Tunguz's June 2026 card on buyers shifting to intelligence-per-dollar as the purchasing metric, the precursor to this one.
-- `ins_tunguz-41-day-frontier-window` — Average frontier performance lead of 41 days; combined with parity dynamics, the price window opens faster than the capability window.
-- `ins_open-model-frontier-cycle` — AI capability frontier as a repeating cycle; chip ownership may reset who leads each cycle.
+- `ins_intelligence-per-dollar-model-metric` · Tunguz's June 2026 card on buyers shifting to intelligence-per-dollar as the purchasing metric, the precursor to this one.
+- `ins_tunguz-41-day-frontier-window` · Average frontier performance lead of 41 days; combined with parity dynamics, the price window opens faster than the capability window.
+- `ins_open-model-frontier-cycle` · AI capability frontier as a repeating cycle; chip ownership may reset who leads each cycle.

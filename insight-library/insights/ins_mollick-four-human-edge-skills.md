@@ -45,7 +45,7 @@ On taste: "The differentiator between slop and non-slop is taste, picking among 
 The four attributes are aspirational rather than measurable; no study establishes that deep knowledge, wide knowledge, taste, and agency are the top four. Rival frameworks (Andrew Ng on AI fluency, Ethan Mollick's own prior work on the jagged frontier) weight different variables. Some researchers argue collaborative evaluation with AI systems renders individual taste secondary to system design.
 
 ## Cross-references
-- `ins_mollick-selection-scarce-resource` — Mollick's Sep 18 claim that when AI makes production cheap, selection and taste become the scarce resource; this card names the other three alongside taste.
-- `ins_mollick-wide-knowledge-unlocks-ai` — Wide knowledge beats narrow expertise when prompting AI; referenced directly in this framework.
-- `ins_mollick-patron-not-wizard` — Patron role is the behavioral expression of agency; this card supplies the underlying framework.
-- `ins_mollick-delegation-over-prompting` — Delegation clarity maps to deep knowledge; this card extends that claim into a four-attribute model.
+- `ins_mollick-selection-scarce-resource` · Mollick's Sep 18 claim that when AI makes production cheap, selection and taste become the scarce resource; this card names the other three alongside taste.
+- `ins_mollick-wide-knowledge-unlocks-ai` · Wide knowledge beats narrow expertise when prompting AI; referenced directly in this framework.
+- `ins_mollick-patron-not-wizard` · Patron role is the behavioral expression of agency; this card supplies the underlying framework.
+- `ins_mollick-delegation-over-prompting` · Delegation clarity maps to deep knowledge; this card extends that claim into a four-attribute model.
