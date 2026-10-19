@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 01:43:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 01:38:55 GMT</lastBuildDate>
+    <item>
+      <title>Production gates, chip economics, and the collapse of the consideration set</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-19/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-19/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security&apos;s rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.</description>
+    </item>
     <item>
       <title>Swarm direction, proactive catches, and quality goals in prompts</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-18/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-20/</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
       <description>Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.</description>
-    </item>
-    <item>
-      <title>Selection as the scarce resource, harness margin data, domain-expert builders, and outrageous growth</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-19/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-19/</guid>
-      <pubDate>Sat, 19 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four cards, one new operator. Three themes from four independent sources published September 15-18. Ethan Mollick named the bottleneck shift: AI has made production cheap, so selection and taste are now the scarce resource. Tom Tunguz published Berkeley data showing a well-engineered harness cuts inference cost 71% with no accuracy loss, with the moat in customer usage data rather than routing code. Anton Osika argued that domain experts closest to the problem should build their own software, with 55% of Lovable users having 11 or more years of work experience as evidence. Tom Orbach documented the mechanism behind outrageous-by-design growth tactics: surprise captures disproportionate attention in saturated channels at a fraction of the paid-campaign cost.</description>
     </item>
   </channel>
 </rss>

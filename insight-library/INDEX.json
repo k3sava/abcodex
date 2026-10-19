@@ -1,27 +1,32 @@
 {
-  "generated_at": "2026-10-18T01:43:21.166Z",
+  "generated_at": "2026-10-19T01:38:48.458Z",
   "counts": {
-    "insights": 1247,
+    "insights": 1252,
     "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 140
+    "daily": 141
   },
   "latest_daily": {
-    "path": "daily/2026-10-18.md",
-    "date": "2026-10-18",
-    "title": "Swarm direction, proactive catches, and quality goals in prompts",
-    "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
+    "path": "daily/2026-10-19.md",
+    "date": "2026-10-19",
+    "title": "Production gates, chip economics, and the collapse of the consideration set",
+    "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
     "sources": [
-      "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-      "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
+      "https://x.com/thorstenball/status/2110035978685747457",
+      "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
     ],
     "insights_added": [
-      "ins_mollick-swarm-direction-bottleneck",
-      "ins_mollick-proactive-agents-caught-not-asked",
-      "ins_willison-quality-goal-prompt"
+      "ins_ball-production-gate-replaces-pr",
+      "ins_tunguz-chip-ownership-cost-floor",
+      "ins_tunguz-security-tops-ai-barrier-2026",
+      "ins_mollick-four-human-edge-skills",
+      "ins_indig-ai-mode-shortlist-acceptance"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -3459,6 +3464,37 @@
       ],
       "raw_ref": "",
       "title": "Engineering ownership begins with naming the actual problem, not accepting the proposed solution"
+    },
+    {
+      "path": "insights/ins_ball-production-gate-replaces-pr.md",
+      "id": "ins_ball-production-gate-replaces-pr",
+      "operator": "Thorsten Ball",
+      "operator_role": "Co-founder at Amp",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/status/2110035978685747457",
+      "source_type": "thread",
+      "source_title": "No pull requests, no code review. We push to main.",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-19",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-observability-legible-to-agent",
+        "ins_ball-specification-bug-era",
+        "ins_huntley-precommit-hook-agent-compliance"
+      ],
+      "raw_ref": "",
+      "title": "When agents own most code output, production observability replaces pre-merge review as the quality gate"
     },
     {
       "path": "insights/ins_ball-software-is-learning.md",
@@ -12112,6 +12148,36 @@
       "title": "AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search"
     },
     {
+      "path": "insights/ins_indig-ai-mode-shortlist-acceptance.md",
+      "id": "ins_indig-ai-mode-shortlist-acceptance",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder of Growth Memo; growth advisor",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
+      "source_type": "essay",
+      "source_title": "Organic Growth in E-Commerce in 2027",
+      "source_date": "2026-10-12",
+      "captured_date": "2026-10-19",
+      "domain": [
+        "growth-and-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-and-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_lily-ray-aeo-seo-continuity"
+      ],
+      "raw_ref": "",
+      "title": "AI Mode collapses the product consideration set to a shortlist 88% of users accept without checking"
+    },
+    {
       "path": "insights/ins_indig-ai-search-attribution-gap.md",
       "id": "ins_indig-ai-search-attribution-gap",
       "operator": "Kevin Indig",
@@ -17950,6 +18016,38 @@
       ],
       "raw_ref": "",
       "title": "A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies"
+    },
+    {
+      "path": "insights/ins_mollick-four-human-edge-skills.md",
+      "id": "ins_mollick-four-human-edge-skills",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor at Wharton; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "source_type": "essay",
+      "source_title": "Wharton's Ethan Mollick on leading through a 'revolutionary time' with AI",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-19",
+      "domain": [
+        "ai-native",
+        "leadership-and-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "hiring-and-team-design"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-selection-scarce-resource",
+        "ins_mollick-wide-knowledge-unlocks-ai",
+        "ins_mollick-patron-not-wizard",
+        "ins_mollick-delegation-over-prompting"
+      ],
+      "raw_ref": "",
+      "title": "Four human attributes remain distinctly valuable as AI makes production abundant"
     },
     {
       "path": "insights/ins_mollick-institutional-lag-ai-curve.md",
@@ -29570,6 +29668,36 @@
       "title": "Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company"
     },
     {
+      "path": "insights/ins_tunguz-chip-ownership-cost-floor.md",
+      "id": "ins_tunguz-chip-ownership-cost-floor",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/intelligence-per-dollar-2026/",
+      "source_type": "essay",
+      "source_title": "Price War in the Chip Aisle",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-19",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "strategy-and-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_intelligence-per-dollar-model-metric",
+        "ins_tunguz-41-day-frontier-window",
+        "ins_open-model-frontier-cycle"
+      ],
+      "raw_ref": "",
+      "title": "Chip ownership is the structural cost floor in a world of equal-intelligence frontier models"
+    },
+    {
       "path": "insights/ins_tunguz-compute-cost-inversion.md",
       "id": "ins_tunguz-compute-cost-inversion",
       "operator": "Tomasz Tunguz",
@@ -30614,6 +30742,36 @@
       ],
       "raw_ref": "",
       "title": "Security tops AI adoption pain points while security tooling delivers the least value of any category"
+    },
+    {
+      "path": "insights/ins_tunguz-security-tops-ai-barrier-2026.md",
+      "id": "ins_tunguz-security-tops-ai-barrier-2026",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/ai-in-practice-survey-2026/",
+      "source_type": "research",
+      "source_title": "The Theory 2026 AI Survey Results",
+      "source_date": "2026-10-13",
+      "captured_date": "2026-10-19",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-and-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-41-day-frontier-window",
+        "ins_commoditize-the-complement-ai"
+      ],
+      "raw_ref": "",
+      "title": "Security and governance rose from sixth to first as the enterprise AI pain point in twelve months"
     },
     {
       "path": "insights/ins_tunguz-sota-buyer-distribution.md",
@@ -51385,6 +51543,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-19.md",
+      "date": "2026-10-19",
+      "title": "Production gates, chip economics, and the collapse of the consideration set",
+      "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
+      "sources": [
+        "https://x.com/thorstenball/status/2110035978685747457",
+        "https://tomtunguz.com/intelligence-per-dollar-2026/",
+        "https://tomtunguz.com/ai-in-practice-survey-2026/",
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
+      ],
+      "insights_added": [
+        "ins_ball-production-gate-replaces-pr",
+        "ins_tunguz-chip-ownership-cost-floor",
+        "ins_tunguz-security-tops-ai-barrier-2026",
+        "ins_mollick-four-human-edge-skills",
+        "ins_indig-ai-mode-shortlist-acceptance"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-18.md",
       "date": "2026-10-18",
