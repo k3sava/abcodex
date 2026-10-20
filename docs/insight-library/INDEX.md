@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-20. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1252 insight cards
+- 1255 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (804)
+### Tier B (807)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -650,6 +650,7 @@ _Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_icp-account-not-persona`](insights/ins_icp-account-not-persona.md) — An ICP isn't a buyer persona, it's an account-level definition that must be operationalized in CRM and product roadmap _(TK Kader)_
 - [`ins_indig-aggregator-chatgpt-citation-gap`](insights/ins_indig-aggregator-chatgpt-citation-gap.md) — Aggregators hold 76% of Google's SEO visibility but only 38% of ChatGPT's citation pool, requiring separate authority-building strategies for each surface _(Kevin Indig)_
 - [`ins_indig-ai-automation-sorts-not-deletes`](insights/ins_indig-ai-automation-sorts-not-deletes.md) — AI automation redistributes where marketing effort goes rather than reducing total effort _(Kevin Indig)_
+- [`ins_indig-ai-direct-traffic-unverifiable`](insights/ins_indig-ai-direct-traffic-unverifiable.md) — GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic growth because bot inflation swamps any genuine signal _(Kevin Indig)_
 - [`ins_indig-ai-hours-invisible-marketing`](insights/ins_indig-ai-hours-invisible-marketing.md) — AI tool maintenance in marketing teams creates invisible overhead that the official hours count does not capture, making net productivity gains structurally smaller than they appear _(Kevin Indig)_
 - [`ins_indig-ai-mode-commercial-shift`](insights/ins_indig-ai-mode-commercial-shift.md) — AI Mode cut publisher mentions nearly in half while tripling major retailer mentions, revealing a structural bias toward commercial endpoints _(Kevin Indig)_
 - [`ins_indig-ai-mode-query-length`](insights/ins_indig-ai-mode-query-length.md) — AI Mode queries average three times the word count of classic Google search queries, meaning content structured for short-tail keywords fails to surface in AI search _(Kevin Indig)_
@@ -775,6 +776,7 @@ _Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
+- [`ins_mollick-ai-single-player-org-gap`](insights/ins_mollick-ai-single-player-org-gap.md) — AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign _(Ethan Mollick)_
 - [`ins_mollick-cheap-coordination-expands-scope`](insights/ins_mollick-cheap-coordination-expands-scope.md) — Cheap agent coordination expands the set of tasks organizations attempt rather than simply reducing headcount _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
@@ -1139,6 +1141,7 @@ _Generated 2026-10-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
+- [`ins_willison-programming-splits-system-vs-puzzle`](insights/ins_willison-programming-splits-system-vs-puzzle.md) — LLMs split programming value between system-builders who gain and puzzle-solvers who lose _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_

@@ -1,32 +1,28 @@
 {
-  "generated_at": "2026-10-19T01:38:48.458Z",
+  "generated_at": "2026-10-20T01:47:15.368Z",
   "counts": {
-    "insights": 1252,
+    "insights": 1255,
     "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 141
+    "daily": 142
   },
   "latest_daily": {
-    "path": "daily/2026-10-19.md",
-    "date": "2026-10-19",
-    "title": "Production gates, chip economics, and the collapse of the consideration set",
-    "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
+    "path": "daily/2026-10-20.md",
+    "date": "2026-10-20",
+    "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
+    "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
     "sources": [
-      "https://x.com/thorstenball/status/2110035978685747457",
-      "https://tomtunguz.com/intelligence-per-dollar-2026/",
-      "https://tomtunguz.com/ai-in-practice-survey-2026/",
-      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
-      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
+      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
+      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
     ],
     "insights_added": [
-      "ins_ball-production-gate-replaces-pr",
-      "ins_tunguz-chip-ownership-cost-floor",
-      "ins_tunguz-security-tops-ai-barrier-2026",
-      "ins_mollick-four-human-edge-skills",
-      "ins_indig-ai-mode-shortlist-acceptance"
+      "ins_willison-programming-splits-system-vs-puzzle",
+      "ins_indig-ai-direct-traffic-unverifiable",
+      "ins_mollick-ai-single-player-org-gap"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -12021,6 +12017,36 @@
       "title": "AI automation redistributes where marketing effort goes rather than reducing total effort"
     },
     {
+      "path": "insights/ins_indig-ai-direct-traffic-unverifiable.md",
+      "id": "ins_indig-ai-direct-traffic-unverifiable",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
+      "source_type": "essay",
+      "source_title": "Does AI Drive More Direct Traffic?",
+      "source_date": "2026-10-19",
+      "captured_date": "2026-10-20",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "measurement",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ai-mode-shortlist-acceptance"
+      ],
+      "raw_ref": "",
+      "title": "GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic growth because bot inflation swamps any genuine signal"
+    },
+    {
       "path": "insights/ins_indig-ai-hours-invisible-marketing.md",
       "id": "ins_indig-ai-hours-invisible-marketing",
       "operator": "Kevin Indig",
@@ -17862,6 +17888,39 @@
       ],
       "raw_ref": "",
       "title": "AI agent networks self-organize coordination without human-designed management structures"
+    },
+    {
+      "path": "insights/ins_mollick-ai-single-player-org-gap.md",
+      "id": "ins_mollick-ai-single-player-org-gap",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "source_type": "essay",
+      "source_title": "Ethan Mollick on AI, Wharton, and Co-Existence",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-20",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow",
+        "people-enablement"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-human-edge-skills",
+        "ins_mollick-institutional-lag-ai-curve",
+        "ins_mollick-co-existence-phase-shift"
+      ],
+      "raw_ref": "",
+      "title": "AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign"
     },
     {
       "path": "insights/ins_mollick-cheap-coordination-expands-scope.md",
@@ -33907,6 +33966,37 @@
       ],
       "raw_ref": "",
       "title": "PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value"
+    },
+    {
+      "path": "insights/ins_willison-programming-splits-system-vs-puzzle.md",
+      "id": "ins_willison-programming-splits-system-vs-puzzle",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; creator of Datasette and Django co-creator",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "source_type": "post",
+      "source_title": "My obituary for programming (link post with commentary)",
+      "source_date": "2026-10-19",
+      "captured_date": "2026-10-20",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-cloud-budget-caps-default",
+        "ins_willison-reliability-erodes-review-discipline",
+        "ins_ball-production-gate-replaces-pr"
+      ],
+      "raw_ref": "",
+      "title": "LLMs split programming value between system-builders who gain and puzzle-solvers who lose"
     },
     {
       "path": "insights/ins_willison-prompt-injection-role-confusion.md",
@@ -51543,6 +51633,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-20.md",
+      "date": "2026-10-20",
+      "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
+      "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+        "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
+      ],
+      "insights_added": [
+        "ins_willison-programming-splits-system-vs-puzzle",
+        "ins_indig-ai-direct-traffic-unverifiable",
+        "ins_mollick-ai-single-player-org-gap"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-19.md",
       "date": "2026-10-19",
