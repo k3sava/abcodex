@@ -1,23 +1,19 @@
 {
-  "generated_at": "2026-10-19T01:38:48.561Z",
+  "generated_at": "2026-10-20T01:47:15.441Z",
   "latest_daily": {
-    "path": "daily/2026-10-19.md",
-    "date": "2026-10-19",
-    "title": "Production gates, chip economics, and the collapse of the consideration set",
-    "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
+    "path": "daily/2026-10-20.md",
+    "date": "2026-10-20",
+    "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
+    "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
     "sources": [
-      "https://x.com/thorstenball/status/2110035978685747457",
-      "https://tomtunguz.com/intelligence-per-dollar-2026/",
-      "https://tomtunguz.com/ai-in-practice-survey-2026/",
-      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
-      "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
+      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
+      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
     ],
     "insights_added": [
-      "ins_ball-production-gate-replaces-pr",
-      "ins_tunguz-chip-ownership-cost-floor",
-      "ins_tunguz-security-tops-ai-barrier-2026",
-      "ins_mollick-four-human-edge-skills",
-      "ins_indig-ai-mode-shortlist-acceptance"
+      "ins_willison-programming-splits-system-vs-puzzle",
+      "ins_indig-ai-direct-traffic-unverifiable",
+      "ins_mollick-ai-single-player-org-gap"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -25,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-20.md",
+      "date": "2026-10-20",
+      "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
+      "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+        "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
+      ],
+      "insights_added": [
+        "ins_willison-programming-splits-system-vs-puzzle",
+        "ins_indig-ai-direct-traffic-unverifiable",
+        "ins_mollick-ai-single-player-org-gap"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-19.md",
       "date": "2026-10-19",
@@ -614,24 +630,6 @@
       ],
       "insights_added": [
         "ins_tunguz-compute-threshold-pacing-fallacy"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-20.md",
-      "date": "2026-09-20",
-      "title": "Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat",
-      "summary": "Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.",
-      "sources": [
-        "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
-        "https://www.notboring.co/p/an-ode-to-counter-positioning"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-sdr-workflow-first",
-        "ins_mccormick-counter-positioning-moat"
       ],
       "operators_added": [],
       "patterns_added": [],

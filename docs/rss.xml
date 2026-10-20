@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 01:38:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 01:47:19 GMT</lastBuildDate>
+    <item>
+      <title>Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-20/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-20/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search&apos;s contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.</description>
+    </item>
     <item>
       <title>Production gates, chip economics, and the collapse of the consideration set</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-19/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-21/</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei&apos;s call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.</description>
-    </item>
-    <item>
-      <title>Workflow codification as AI sales prerequisite, and counter-positioning as the early-stage moat</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-20/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-20/</guid>
-      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Two cards from two operators, both published September 10 to 15. Tomasz Tunguz documented a workflow-first discipline for AI inbound sales agents: codify the best human workflow before automation, not after. Packy McCormick wrote on counter-positioning as the one moat available to a young startup before network effects or scale economies can form.</description>
     </item>
   </channel>
 </rss>
