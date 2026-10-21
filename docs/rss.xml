@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 01:47:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 01:48:07 GMT</lastBuildDate>
+    <item>
+      <title>Build a Lab, resist automation, and fix the broken apprenticeship ladder</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-21/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-21/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from Ethan Mollick&apos;s October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.</description>
+    </item>
     <item>
       <title>Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-20/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-22/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe&apos;s Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison&apos;s September 20 argument that MCP&apos;s purpose is governance for constrained agent deployments, not capability for autonomous ones.</description>
-    </item>
-    <item>
-      <title>Why AI pacing proposals have no number</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-21/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-21/</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei&apos;s call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.</description>
     </item>
   </channel>
 </rss>

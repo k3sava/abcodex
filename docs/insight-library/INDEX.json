@@ -1,28 +1,26 @@
 {
-  "generated_at": "2026-10-20T01:47:15.368Z",
+  "generated_at": "2026-10-21T01:48:02.059Z",
   "counts": {
-    "insights": 1255,
+    "insights": 1258,
     "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 142
+    "daily": 143
   },
   "latest_daily": {
-    "path": "daily/2026-10-20.md",
-    "date": "2026-10-20",
-    "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
-    "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
+    "path": "daily/2026-10-21.md",
+    "date": "2026-10-21",
+    "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
+    "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
       "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
     ],
     "insights_added": [
-      "ins_willison-programming-splits-system-vs-puzzle",
-      "ins_indig-ai-direct-traffic-unverifiable",
-      "ins_mollick-ai-single-player-org-gap"
+      "ins_mollick-leadership-crowd-lab",
+      "ins_mollick-automation-satisficing-trap",
+      "ins_mollick-early-career-apprenticeship-break"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -17923,6 +17921,37 @@
       "title": "AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign"
     },
     {
+      "path": "insights/ins_mollick-automation-satisficing-trap.md",
+      "id": "ins_mollick-automation-satisficing-trap",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "source_type": "essay",
+      "source_title": "Ethan Mollick on AI, Wharton, and Co-Existence",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-21",
+      "domain": [
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-institutional-lag-ai-curve",
+        "ins_100-percent-automation-rule",
+        "ins_mollick-ai-single-player-org-gap"
+      ],
+      "raw_ref": "",
+      "title": "Automation-first AI strategies satisfice at current model quality and forfeit compound gains from augmentation"
+    },
+    {
       "path": "insights/ins_mollick-cheap-coordination-expands-scope.md",
       "id": "ins_mollick-cheap-coordination-expands-scope",
       "operator": "Ethan Mollick",
@@ -18046,6 +18075,38 @@
       "title": "Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague"
     },
     {
+      "path": "insights/ins_mollick-early-career-apprenticeship-break.md",
+      "id": "ins_mollick-early-career-apprenticeship-break",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "source_type": "essay",
+      "source_title": "Ethan Mollick on AI, Wharton, and Co-Existence",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-21",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "hiring-and-team-design",
+        "people-enablement"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-human-edge-skills",
+        "ins_mollick-selection-scarce-resource",
+        "ins_mollick-ai-single-player-org-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent"
+    },
+    {
       "path": "insights/ins_mollick-four-agents-concurrent-norm.md",
       "id": "ins_mollick-four-agents-concurrent-norm",
       "operator": "Ethan Mollick",
@@ -18139,6 +18200,39 @@
       ],
       "raw_ref": "",
       "title": "Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem"
+    },
+    {
+      "path": "insights/ins_mollick-leadership-crowd-lab.md",
+      "id": "ins_mollick-leadership-crowd-lab",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
+      "source_type": "essay",
+      "source_title": "Ethan Mollick on AI, Wharton, and Co-Existence",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-21",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "strategy",
+        "people-enablement",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-ai-single-player-org-gap",
+        "ins_mollick-four-human-edge-skills",
+        "ins_mollick-institutional-lag-ai-curve"
+      ],
+      "raw_ref": "",
+      "title": "Successful AI adoption requires three co-existing structures: Leadership, Crowd, and Lab"
     },
     {
       "path": "insights/ins_mollick-patron-not-wizard.md",
@@ -51633,6 +51727,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-21.md",
+      "date": "2026-10-21",
+      "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
+      "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
+      "sources": [
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
+      ],
+      "insights_added": [
+        "ins_mollick-leadership-crowd-lab",
+        "ins_mollick-automation-satisficing-trap",
+        "ins_mollick-early-career-apprenticeship-break"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-20.md",
       "date": "2026-10-20",

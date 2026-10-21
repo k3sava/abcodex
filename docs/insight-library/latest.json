@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-10-20T01:47:15.441Z",
+  "generated_at": "2026-10-21T01:48:02.162Z",
   "latest_daily": {
-    "path": "daily/2026-10-20.md",
-    "date": "2026-10-20",
-    "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
-    "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
+    "path": "daily/2026-10-21.md",
+    "date": "2026-10-21",
+    "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
+    "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
       "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
     ],
     "insights_added": [
-      "ins_willison-programming-splits-system-vs-puzzle",
-      "ins_indig-ai-direct-traffic-unverifiable",
-      "ins_mollick-ai-single-player-org-gap"
+      "ins_mollick-leadership-crowd-lab",
+      "ins_mollick-automation-satisficing-trap",
+      "ins_mollick-early-career-apprenticeship-break"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +19,24 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-21.md",
+      "date": "2026-10-21",
+      "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
+      "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
+      "sources": [
+        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
+      ],
+      "insights_added": [
+        "ins_mollick-leadership-crowd-lab",
+        "ins_mollick-automation-satisficing-trap",
+        "ins_mollick-early-career-apprenticeship-break"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-20.md",
       "date": "2026-10-20",
@@ -614,22 +630,6 @@
         "ins_tunguz-decision-model-bifurcation",
         "ins_willison-decision-model-opacity",
         "ins_willison-mcp-governance-floor"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-21.md",
-      "date": "2026-09-21",
-      "title": "Why AI pacing proposals have no number",
-      "summary": "One card from Tom Tunguz, published September 14. Tunguz examined Dario Amodei's call to pace AI development and identified five competing camps, each with a different definition of acceptable speed. The mechanism that could have produced an actual number, a training compute threshold, already failed: the 2023 executive order was revoked before any model crossed it, and training compute grows roughly five-fold annually.",
-      "sources": [
-        "https://tomtunguz.com/what-does-the-pause-mean/"
-      ],
-      "insights_added": [
-        "ins_tunguz-compute-threshold-pacing-fallacy"
       ],
       "operators_added": [],
       "patterns_added": [],
