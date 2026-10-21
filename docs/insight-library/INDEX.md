@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-20. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1255 insight cards
+- 1258 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (807)
+### Tier B (810)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -777,13 +777,16 @@ _Generated 2026-10-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
 - [`ins_mollick-ai-single-player-org-gap`](insights/ins_mollick-ai-single-player-org-gap.md) — AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign _(Ethan Mollick)_
+- [`ins_mollick-automation-satisficing-trap`](insights/ins_mollick-automation-satisficing-trap.md) — Automation-first AI strategies satisfice at current model quality and forfeit compound gains from augmentation _(Ethan Mollick)_
 - [`ins_mollick-cheap-coordination-expands-scope`](insights/ins_mollick-cheap-coordination-expands-scope.md) — Cheap agent coordination expands the set of tasks organizations attempt rather than simply reducing headcount _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
+- [`ins_mollick-early-career-apprenticeship-break`](insights/ins_mollick-early-career-apprenticeship-break.md) — AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-four-human-edge-skills`](insights/ins_mollick-four-human-edge-skills.md) — Four human attributes remain distinctly valuable as AI makes production abundant _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
+- [`ins_mollick-leadership-crowd-lab`](insights/ins_mollick-leadership-crowd-lab.md) — Successful AI adoption requires three co-existing structures: Leadership, Crowd, and Lab _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_mollick-proactive-agents-caught-not-asked`](insights/ins_mollick-proactive-agents-caught-not-asked.md) — Personal AI agents that act proactively create qualitatively different value than responsive chatbots _(Ethan Mollick)_
 - [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
