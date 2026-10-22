@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1258 insight cards
+- 1262 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (810)
+### Tier B (814)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -637,6 +637,7 @@ _Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hudson-emotional-clarity-ai-advantage`](insights/ins_hudson-emotional-clarity-ai-advantage.md) — Emotional clarity becomes the scarce competitive advantage as AI commoditizes knowledge and effort _(Joe Hudson)_
 - [`ins_huntley-precommit-hook-agent-compliance`](insights/ins_huntley-precommit-hook-agent-compliance.md) — Deterministic pre-commit hooks enforce coding agent compliance where AGENTS.md instructions cannot _(Geoffrey Huntley)_
 - [`ins_husain-binary-over-likert`](insights/ins_husain-binary-over-likert.md) — Binary pass/fail annotation produces better quality than Likert scales by forcing judgment on uncertain cases _(Hamel Husain)_
+- [`ins_husain-decision-model-threshold-tuning`](insights/ins_husain-decision-model-threshold-tuning.md) — The default 0.50 eval threshold ignores your data and can miss all failures _(Hamel Husain)_
 - [`ins_husain-eval-premature-automation`](insights/ins_husain-eval-premature-automation.md) — Eval tooling anchors teams on generic automated metrics before they have examined enough outputs to know what actually fails _(Hamel Husain)_
 - [`ins_husain-judge-context-rot`](insights/ins_husain-judge-context-rot.md) — Excess context in LLM judge prompts degrades accuracy; judges need only the evidence relevant to the specific failure _(Hamel Husain)_
 - [`ins_husain-model-cascade-routing`](insights/ins_husain-model-cascade-routing.md) — Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost _(Hamel Husain)_
@@ -781,6 +782,7 @@ _Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-cheap-coordination-expands-scope`](insights/ins_mollick-cheap-coordination-expands-scope.md) — Cheap agent coordination expands the set of tasks organizations attempt rather than simply reducing headcount _(Ethan Mollick)_
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
+- [`ins_mollick-conjurer-oversight-gap`](insights/ins_mollick-conjurer-oversight-gap.md) — Conjurers summon agents without necessarily seeing what the agents do _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
 - [`ins_mollick-early-career-apprenticeship-break`](insights/ins_mollick-early-career-apprenticeship-break.md) — AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
@@ -1073,6 +1075,7 @@ _Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_veena-ramakrishnan-fixing-the-follow-up-gap`](insights/ins_veena-ramakrishnan-fixing-the-follow-up-gap.md) — The biggest sales gap isn't outbound, it's missing the callback. _(Veena Ramakrishnan)_
 - [`ins_verna-agency-not-agents`](insights/ins_verna-agency-not-agents.md) — Organizational bureaucracy, not tool availability, is the binding constraint on AI-driven velocity _(Elena Verna)_
 - [`ins_verna-ai-overclaiming-three-failure-modes`](insights/ins_verna-ai-overclaiming-three-failure-modes.md) — AI overclaiming creates three compounding failure modes that make genuine adoption harder than if no claims had been made at all _(Elena Verna)_
+- [`ins_verna-ai-pricing-arcade-money`](insights/ins_verna-ai-pricing-arcade-money.md) — AI credit pricing works like arcade money: costs feel less real until mass-market buyers stop tolerating it _(Elena Verna)_
 - [`ins_verna-high-impact-ic-era`](insights/ins_verna-high-impact-ic-era.md) — AI lets individual contributors complete end-to-end workflows that previously required teams. The constraint shifts from headcount to decision authority and information access. _(Elena Verna)_
 - [`ins_verna-plg-enterprise-resource-cannibalization`](insights/ins_verna-plg-enterprise-resource-cannibalization.md) — PLG companies that redirect resources from self-serve to enterprise sales destroy both channels because PLG creates the enterprise prospect pipeline _(Elena Verna)_
 - [`ins_verrilli-dri-eliminates-pm-layer`](insights/ins_verrilli-dri-eliminates-pm-layer.md) — Fixed PM pods produce alignment theater; rotating problem-centric DRI assignments restore judgment to the people doing the work _(Tom Verrilli)_
@@ -1144,6 +1147,7 @@ _Generated 2026-10-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
+- [`ins_willison-programming-process-loss`](insights/ins_willison-programming-process-loss.md) — Whether AI agents help or hurt programmers depends on what they valued about coding in the first place _(Simon Willison)_
 - [`ins_willison-programming-splits-system-vs-puzzle`](insights/ins_willison-programming-splits-system-vs-puzzle.md) — LLMs split programming value between system-builders who gain and puzzle-solvers who lose _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_

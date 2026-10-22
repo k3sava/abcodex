@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-10-21T01:48:02.162Z",
+  "generated_at": "2026-10-22T01:43:03.736Z",
   "latest_daily": {
-    "path": "daily/2026-10-21.md",
-    "date": "2026-10-21",
-    "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
-    "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
+    "path": "daily/2026-10-22.md",
+    "date": "2026-10-22",
+    "title": "Conjurers, thresholds, arcade money, and what programmers mourn",
+    "summary": "Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.",
     "sources": [
-      "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
+      "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "https://hamel.dev/blog/posts/decision-model-evals/",
+      "https://elenaverna.com/p/what-on-earth-is-going-on-with-ai",
+      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
     ],
     "insights_added": [
-      "ins_mollick-leadership-crowd-lab",
-      "ins_mollick-automation-satisficing-trap",
-      "ins_mollick-early-career-apprenticeship-break"
+      "ins_mollick-conjurer-oversight-gap",
+      "ins_husain-decision-model-threshold-tuning",
+      "ins_verna-ai-pricing-arcade-money",
+      "ins_willison-programming-process-loss"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -19,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-22.md",
+      "date": "2026-10-22",
+      "title": "Conjurers, thresholds, arcade money, and what programmers mourn",
+      "summary": "Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+        "https://hamel.dev/blog/posts/decision-model-evals/",
+        "https://elenaverna.com/p/what-on-earth-is-going-on-with-ai",
+        "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+      ],
+      "insights_added": [
+        "ins_mollick-conjurer-oversight-gap",
+        "ins_husain-decision-model-threshold-tuning",
+        "ins_verna-ai-pricing-arcade-money",
+        "ins_willison-programming-process-loss"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-21.md",
       "date": "2026-10-21",
@@ -610,26 +636,6 @@
         "ins_willison-max-thinking-token-burn",
         "ins_ray-publishing-cost-index-chaos",
         "ins_solis-ecommerce-serp-layout-traffic-drop"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-22.md",
-      "date": "2026-09-22",
-      "title": "Decision model economics and agent governance",
-      "summary": "Three cards from two operators. Tom Tunguz and Simon Willison both published on September 21 about the same product, TypeSafe's Jev decision model, from complementary angles: Tunguz on the cost and accuracy economics, Willison on the interpretability tradeoff. A third card captures Willison's September 20 argument that MCP's purpose is governance for constrained agent deployments, not capability for autonomous ones.",
-      "sources": [
-        "https://tomtunguz.com/ai-comes-for-the-if-statement/",
-        "https://simonwillison.net/2026/Sep/21/jev/",
-        "https://simonwillison.net/2026/Sep/20/hn-49779718/"
-      ],
-      "insights_added": [
-        "ins_tunguz-decision-model-bifurcation",
-        "ins_willison-decision-model-opacity",
-        "ins_willison-mcp-governance-floor"
       ],
       "operators_added": [],
       "patterns_added": [],
