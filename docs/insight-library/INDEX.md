@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1262 insight cards
+- 1265 insight cards
 - 558 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (814)
+### Tier B (817)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -477,6 +477,7 @@ _Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
+- [`ins_breunig-context-inertia-agent-fixation`](insights/ins_breunig-context-inertia-agent-fixation.md) — Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation _(Drew Breunig)_
 - [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
 - [`ins_brewster-vibe-coded-production-180k`](insights/ins_brewster-vibe-coded-production-180k.md) — AI can generate 180,000 lines of production code in three weeks, but resource management and architecture still require active human babysitting _(Rick Brewster)_
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
@@ -718,6 +719,7 @@ _Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_leah-knobler-customer-stories-at-center`](insights/ins_leah-knobler-customer-stories-at-center.md) — If you ask candidates to do work, pay them, that's the recruiting hot take _(Leah Knobler)_
 - [`ins_lemkin-seat-model-collapse`](insights/ins_lemkin-seat-model-collapse.md) — AI agents eliminate the seat-expansion tailwind, sending sub-5% SaaS companies into terminal structural decline _(Jason Lemkin)_
 - [`ins_levels-saas-build-not-buy-flip`](insights/ins_levels-saas-build-not-buy-flip.md) — Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators _(Pieter Levels)_
+- [`ins_lily-ray-about-page-ai-citation-multiplier`](insights/ins_lily-ray-about-page-ai-citation-multiplier.md) — A well-built About page earns more AI Overview citations than a homepage because AI systems prefer identity content over commercial copy _(Lily Ray)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_lily-ray-google-doc-change-early-warning`](insights/ins_lily-ray-google-doc-change-early-warning.md) — Google rewrites public quality guidelines weeks before major algorithm updates, producing seven observable signals practitioners can monitor _(Lily Ray)_
@@ -1162,6 +1164,7 @@ _Generated 2026-10-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
 - [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
 - [`ins_willison-tokenmaxx-cost-correction`](insights/ins_willison-tokenmaxx-cost-correction.md) — The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call. _(Simon Willison)_
+- [`ins_willison-undirected-quality-directive`](insights/ins_willison-undirected-quality-directive.md) — Asking a coding agent to "Make it a LOT more fun" produced better game-feel results than specific feature requests because it gave the AI latitude to discover root causes through autonomous simulation _(Simon Willison)_
 - [`ins_willison-voice-high-level-typing-precision`](insights/ins_willison-voice-high-level-typing-precision.md) — Voice input works for high-level AI-assisted development direction; typing stays necessary for precision work and passing concrete examples _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
