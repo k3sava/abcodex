@@ -18,10 +18,10 @@ related: [ins_lily-ray-firsthand-experience-ai-overviews, ins_ray-eeat-brand-off
 raw_ref: ""
 ---
 
-# A comprehensive About page earns more AI Overview citations than a homepage because AI systems prefer identity content over commercial copy
+# A well-built About page earns more AI Overview citations than a homepage because AI systems prefer identity content over commercial copy
 
 ## Claim
-An enterprise brand's About page can generate five times more AI Overview impressions than its homepage when it is written as a comprehensive identity document covering company history, expertise, people, and reputation rather than as a commercial pitch.
+An enterprise brand's About page can generate five times more AI Overview impressions than its homepage when it is written as a full identity document covering company history, expertise, people, and reputation rather than as a commercial pitch.
 
 ## Mechanism
 AI citation engines evaluate pages for their ability to answer "who is this company" queries. About pages that cover founding history, team credentials, domain expertise, product track record, and customer proof provide dense identity signals. Homepages and product pages are built for conversion, not for answering identity questions at depth. The AI treats the About page as a primary identity document and the homepage as a commercial entry point. This difference shows up directly in Google Search Console's Gen AI report as a large citation-volume gap between the two page types.
