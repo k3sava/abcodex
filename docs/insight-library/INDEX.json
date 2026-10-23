@@ -1,30 +1,28 @@
 {
-  "generated_at": "2026-10-22T01:43:03.618Z",
+  "generated_at": "2026-10-23T01:44:00.463Z",
   "counts": {
-    "insights": 1262,
+    "insights": 1265,
     "operators": 558,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 144
+    "daily": 145
   },
   "latest_daily": {
-    "path": "daily/2026-10-22.md",
-    "date": "2026-10-22",
-    "title": "Conjurers, thresholds, arcade money, and what programmers mourn",
-    "summary": "Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.",
+    "path": "daily/2026-10-23.md",
+    "date": "2026-10-23",
+    "title": "Identity pages, undirected prompts, and agents that won't let go",
+    "summary": "Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.",
     "sources": [
-      "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
-      "https://hamel.dev/blog/posts/decision-model-evals/",
-      "https://elenaverna.com/p/what-on-earth-is-going-on-with-ai",
-      "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/"
+      "https://x.com/lilyraynyc/status/2113310864719683901",
+      "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "https://dbreunig.com/2026/10/14/context-inertia.html"
     ],
     "insights_added": [
-      "ins_mollick-conjurer-oversight-gap",
-      "ins_husain-decision-model-threshold-tuning",
-      "ins_verna-ai-pricing-arcade-money",
-      "ins_willison-programming-process-loss"
+      "ins_lily-ray-about-page-ai-citation-multiplier",
+      "ins_willison-undirected-quality-directive",
+      "ins_breunig-context-inertia-agent-fixation"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -4270,6 +4268,35 @@
       ],
       "raw_ref": "",
       "title": "Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost"
+    },
+    {
+      "path": "insights/ins_breunig-context-inertia-agent-fixation.md",
+      "id": "ins_breunig-context-inertia-agent-fixation",
+      "operator": "Drew Breunig",
+      "operator_role": "CEO and co-founder, Cmpnd; editor, The Context Engineering Handbook (O'Reilly)",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/14/context-inertia.html",
+      "source_type": "essay",
+      "source_title": "Context Inertia: When Agents Won't Let Go",
+      "source_date": "2026-10-14",
+      "captured_date": "2026-10-23",
+      "domain": [
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-agentic-code-free-as-puppies",
+        "ins_breunig-harness-lock-in-model-layer"
+      ],
+      "raw_ref": "",
+      "title": "Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation"
     },
     {
       "path": "insights/ins_breunig-fable-tier-routing.md",
@@ -15213,6 +15240,35 @@
       ],
       "raw_ref": "",
       "title": "Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators"
+    },
+    {
+      "path": "insights/ins_lily-ray-about-page-ai-citation-multiplier.md",
+      "id": "ins_lily-ray-about-page-ai-citation-multiplier",
+      "operator": "Lily Ray",
+      "operator_role": "Senior Director of SEO, Amsive; AI search and AEO researcher",
+      "co_operators": [],
+      "source_url": "https://x.com/lilyraynyc/status/2113310864719683901",
+      "source_type": "thread",
+      "source_title": "About page drove 5x more AI Overview impressions than homepage",
+      "source_date": "2026-10-22",
+      "captured_date": "2026-10-23",
+      "domain": [
+        "aeo-llm-search",
+        "seo"
+      ],
+      "lifecycle": [
+        "aeo"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_ray-eeat-brand-offsite-signal"
+      ],
+      "raw_ref": "",
+      "title": "A comprehensive About page earns more AI Overview citations than a homepage because AI systems prefer identity content over commercial copy"
     },
     {
       "path": "insights/ins_lily-ray-aeo-seo-continuity.md",
@@ -34645,6 +34701,34 @@
       "title": "The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call."
     },
     {
+      "path": "insights/ins_willison-undirected-quality-directive.md",
+      "id": "ins_willison-undirected-quality-directive",
+      "operator": "Simon Willison",
+      "operator_role": "Independent developer; co-creator of Django; creator of Datasette; blogger at simonwillison.net",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "source_type": "essay",
+      "source_title": "Battle Drones: a vibe coded RTS with audio-based multiplayer",
+      "source_date": "2026-10-20",
+      "captured_date": "2026-10-23",
+      "domain": [
+        "agentic-coding",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-game-loop-agent-limit"
+      ],
+      "raw_ref": "",
+      "title": "Asking a coding agent to \"Make it a LOT more fun\" produced better game-feel results than specific feature requests because it gave the AI latitude to discover root causes through autonomous simulation"
+    },
+    {
       "path": "insights/ins_willison-voice-high-level-typing-precision.md",
       "id": "ins_willison-voice-high-level-typing-precision",
       "operator": "Simon Willison",
@@ -51850,6 +51934,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-23.md",
+      "date": "2026-10-23",
+      "title": "Identity pages, undirected prompts, and agents that won't let go",
+      "summary": "Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.",
+      "sources": [
+        "https://x.com/lilyraynyc/status/2113310864719683901",
+        "https://simonwillison.net/2026/Oct/20/battledrones/",
+        "https://dbreunig.com/2026/10/14/context-inertia.html"
+      ],
+      "insights_added": [
+        "ins_lily-ray-about-page-ai-citation-multiplier",
+        "ins_willison-undirected-quality-directive",
+        "ins_breunig-context-inertia-agent-fixation"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-22.md",
       "date": "2026-10-22",
