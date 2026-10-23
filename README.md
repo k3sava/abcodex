@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-22 · 4 insights
+### Latest · 2026-10-23 · 3 insights
 
-**Conjurers, thresholds, arcade money, and what programmers mourn.** Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.
+**Identity pages, undirected prompts, and agents that won't let go.** Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.
 
-[Read what landed →](insight-library/daily/2026-10-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1262** insight cards
+- **1265** insight cards
 - **558** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
