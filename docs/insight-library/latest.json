@@ -1,26 +1,50 @@
 {
-  "generated_at": "2026-10-23T01:47:17.614Z",
+  "generated_at": "2026-10-24T01:42:02.652Z",
   "latest_daily": {
-    "path": "daily/2026-10-23.md",
-    "date": "2026-10-23",
-    "title": "Identity pages, undirected prompts, and agents that won't let go",
-    "summary": "Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.",
+    "path": "daily/2026-10-24.md",
+    "date": "2026-10-24",
+    "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
+    "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
     "sources": [
-      "https://x.com/lilyraynyc/status/2113310864719683901",
-      "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "https://dbreunig.com/2026/10/14/context-inertia.html"
+      "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+      "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
     ],
     "insights_added": [
-      "ins_lily-ray-about-page-ai-citation-multiplier",
-      "ins_willison-undirected-quality-directive",
-      "ins_breunig-context-inertia-agent-fixation"
+      "ins_tunguz-ai-perez-buildout-double-speed",
+      "ins_shahali-ai-sales-quota-amplification",
+      "ins_mollick-task-horizon-metr-doubling"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bardia-shahali"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-24.md",
+      "date": "2026-10-24",
+      "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
+      "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
+      "sources": [
+        "https://tomtunguz.com/how-large-is-the-ai-circle/",
+        "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+        "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-perez-buildout-double-speed",
+        "ins_shahali-ai-sales-quota-amplification",
+        "ins_mollick-task-horizon-metr-doubling"
+      ],
+      "operators_added": [
+        "bardia-shahali"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-23.md",
       "date": "2026-10-23",
@@ -618,22 +642,6 @@
         "ins_husain-binary-over-likert",
         "ins_husain-judge-context-rot",
         "ins_indig-executive-ai-mandate-gap"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-24.md",
-      "date": "2026-09-24",
-      "title": "Criteria drift: why eval agents miss the failures your product team keeps finding",
-      "summary": "One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.",
-      "sources": [
-        "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix"
-      ],
-      "insights_added": [
-        "ins_husain-shankar-criteria-drift"
       ],
       "operators_added": [],
       "patterns_added": [],

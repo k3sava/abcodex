@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-10-23T01:47:17.542Z",
+  "generated_at": "2026-10-24T01:42:02.586Z",
   "counts": {
-    "insights": 1265,
-    "operators": 558,
+    "insights": 1268,
+    "operators": 559,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 145
+    "daily": 146
   },
   "latest_daily": {
-    "path": "daily/2026-10-23.md",
-    "date": "2026-10-23",
-    "title": "Identity pages, undirected prompts, and agents that won't let go",
-    "summary": "Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.",
+    "path": "daily/2026-10-24.md",
+    "date": "2026-10-24",
+    "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
+    "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
     "sources": [
-      "https://x.com/lilyraynyc/status/2113310864719683901",
-      "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "https://dbreunig.com/2026/10/14/context-inertia.html"
+      "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+      "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
     ],
     "insights_added": [
-      "ins_lily-ray-about-page-ai-citation-multiplier",
-      "ins_willison-undirected-quality-directive",
-      "ins_breunig-context-inertia-agent-fixation"
+      "ins_tunguz-ai-perez-buildout-double-speed",
+      "ins_shahali-ai-sales-quota-amplification",
+      "ins_mollick-task-horizon-metr-doubling"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bardia-shahali"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -18507,6 +18509,37 @@
       "title": "Direction, not coordination, is the bottleneck in multi-agent AI deployment"
     },
     {
+      "path": "insights/ins_mollick-task-horizon-metr-doubling.md",
+      "id": "ins_mollick-task-horizon-metr-doubling",
+      "operator": "Ethan Mollick",
+      "operator_role": "Associate Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts",
+      "source_type": "essay",
+      "source_title": "30 Months on the Exponential (in Charts)",
+      "source_date": "2026-10-20",
+      "captured_date": "2026-10-24",
+      "domain": [
+        "ai-native",
+        "engineering",
+        "leadership"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-14h-agent-run-cost",
+        "ins_mollick-conjurer-oversight-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI task duration at 50% success has doubled eight times since GPT-4, from minutes to hours"
+    },
+    {
       "path": "insights/ins_mollick-twilight-factory-human-loop.md",
       "id": "ins_mollick-twilight-factory-human-loop",
       "operator": "Ethan Mollick",
@@ -25082,6 +25115,34 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_shahali-ai-sales-quota-amplification.md",
+      "id": "ins_shahali-ai-sales-quota-amplification",
+      "operator": "Bardia Shahali",
+      "operator_role": "VP of Sales, Granola; former VP of Sales, Fireworks AI",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+      "source_type": "essay",
+      "source_title": "Closing Eight Figure Deals in Two Weeks",
+      "source_date": "2026-10-22",
+      "captured_date": "2026-10-24",
+      "domain": [
+        "gtm",
+        "sales",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "sales-enablement",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI-era sales reps carry multiples-higher quotas, forcing quarterly comp resets"
+    },
+    {
       "path": "insights/ins_shali-rana-reed-gap-in-resume-retort.md",
       "id": "ins_shali-rana-reed-gap-in-resume-retort",
       "title": "GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey",
@@ -29612,6 +29673,36 @@
       ],
       "raw_ref": "",
       "title": "AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-perez-buildout-double-speed.md",
+      "id": "ins_tunguz-ai-perez-buildout-double-speed",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "source_type": "essay",
+      "source_title": "How Large is the AI Circle?",
+      "source_date": "2026-10-23",
+      "captured_date": "2026-10-24",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "strategy"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-systems-over-code",
+        "ins_tunguz-model-commodity-distribution-moat"
+      ],
+      "raw_ref": "",
+      "title": "AI is traversing the Perez build-out cycle twice as fast as the web era did"
     },
     {
       "path": "insights/ins_tunguz-ai-productivity-operating-layer.md",
@@ -37291,6 +37382,26 @@
         "linkedin": "https://www.linkedin.com/in/bangalykaba/"
       },
       "title": "Bangaly Kaba"
+    },
+    {
+      "path": "operators/bardia-shahali/README.md",
+      "name": "Bardia Shahali",
+      "slug": "bardia-shahali",
+      "roles": [
+        "VP of Sales, Granola",
+        "Former VP of Sales, Fireworks AI"
+      ],
+      "domains_active": [
+        "gtm",
+        "sales",
+        "ai-native"
+      ],
+      "captured_first": "2026-10-24",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "Bardia Shahali"
     },
     {
       "path": "operators/barry-schwartz/README.md",
@@ -51934,6 +52045,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-24.md",
+      "date": "2026-10-24",
+      "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
+      "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
+      "sources": [
+        "https://tomtunguz.com/how-large-is-the-ai-circle/",
+        "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
+        "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-perez-buildout-double-speed",
+        "ins_shahali-ai-sales-quota-amplification",
+        "ins_mollick-task-horizon-metr-doubling"
+      ],
+      "operators_added": [
+        "bardia-shahali"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-23.md",
       "date": "2026-10-23",

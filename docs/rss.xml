@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 01:47:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:42:07 GMT</lastBuildDate>
+    <item>
+      <title>Build-out velocity, quota amplification, and the benchmark that saturated</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-24/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-24/</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards across three lanes. Tomasz Tunguz maps AI&apos;s infrastructure build-out against Carlota Perez&apos;s model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.</description>
+    </item>
     <item>
       <title>Identity pages, undirected prompts, and agents that won&apos;t let go</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-23/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-25/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.</description>
-    </item>
-    <item>
-      <title>Criteria drift: why eval agents miss the failures your product team keeps finding</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-24/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-24/</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <description>One card from one operator pair. Hamel Husain and Shreya Shankar named and explained criteria drift, the failure mode that explains why automated eval agents miss product-judgment failures even when they catch trace-level errors.</description>
     </item>
   </channel>
 </rss>

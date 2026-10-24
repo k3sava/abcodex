@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1265 insight cards
-- 558 operator profiles
+- 1268 insight cards
+- 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -374,7 +374,7 @@ _Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (817)
+### Tier B (820)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -796,6 +796,7 @@ _Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
 - [`ins_mollick-swarm-direction-bottleneck`](insights/ins_mollick-swarm-direction-bottleneck.md) — Direction, not coordination, is the bottleneck in multi-agent AI deployment _(Ethan Mollick)_
+- [`ins_mollick-task-horizon-metr-doubling`](insights/ins_mollick-task-horizon-metr-doubling.md) — AI task duration at 50% success has doubled eight times since GPT-4, from minutes to hours _(Ethan Mollick)_
 - [`ins_mollick-twilight-factory-human-loop`](insights/ins_mollick-twilight-factory-human-loop.md) — Agentic systems need a facilitator layer that routes decisions back to humans in four specific scenarios _(Ethan Mollick)_
 - [`ins_mollick-wide-knowledge-unlocks-ai`](insights/ins_mollick-wide-knowledge-unlocks-ai.md) — Wide knowledge beats narrow expertise when prompting AI, because AI only surfaces patterns you know to ask for _(Ethan Mollick)_
 - [`ins_mosseri-ai-authenticity-tailwind`](insights/ins_mosseri-ai-authenticity-tailwind.md) — The flood of AI-generated content on social platforms increases demand for authentic human creativity rather than reducing it _(Adam Mosseri)_
@@ -932,6 +933,7 @@ _Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_seufert-chatbot-dual-targeting`](insights/ins_seufert-chatbot-dual-targeting.md) — Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session _(Eric Seufert)_
 - [`ins_shaambhav-shankar-ai-kills-excuses-for-marketers`](insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md) — With AI, excuses about time or skill are dead, marketers must be fast executors who break things. _(Shaambhav Shankar)_
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
+- [`ins_shahali-ai-sales-quota-amplification`](insights/ins_shahali-ai-sales-quota-amplification.md) — AI-era sales reps carry multiples-higher quotas, forcing quarterly comp resets _(Bardia Shahali)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_shipper-agent-safety-environment-design`](insights/ins_shipper-agent-safety-environment-design.md) — AI agent safety is an environment design problem, not a model values problem _(Dan Shipper)_
@@ -1019,6 +1021,7 @@ _Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
 - [`ins_tunguz-ai-infrastructure-bullwhip`](insights/ins_tunguz-ai-infrastructure-bullwhip.md) — AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-infrastructure-credit-event`](insights/ins_tunguz-ai-infrastructure-credit-event.md) — AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it _(Tom Tunguz)_
+- [`ins_tunguz-ai-perez-buildout-double-speed`](insights/ins_tunguz-ai-perez-buildout-double-speed.md) — AI is traversing the Perez build-out cycle twice as fast as the web era did _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-prompt-ads-model`](insights/ins_tunguz-ai-prompt-ads-model.md) — A two-tier AI API that discounts inference for training rights replicates the ads supply chain model _(Tom Tunguz)_
 - [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
@@ -1369,6 +1372,7 @@ _Generated 2026-10-23. Auto-built from frontmatter — do not edit by hand._
 - [Ayo Omojola](operators/ayo-omojola/README.md)
 - [Ayush Barnwal](operators/ayush-barnwal/README.md)
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
+- [Bardia Shahali](operators/bardia-shahali/README.md)
 - [Barry Schwartz](operators/barry-schwartz/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
 - [Ben Tossell](operators/ben-tossell/README.md)
