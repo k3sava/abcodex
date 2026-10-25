@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1268 insight cards
+- 1272 insight cards
 - 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (820)
+### Tier B (824)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -478,7 +478,9 @@ _Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
 - [`ins_breunig-context-inertia-agent-fixation`](insights/ins_breunig-context-inertia-agent-fixation.md) — Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation _(Drew Breunig)_
+- [`ins_breunig-deterministic-probabilistic-split`](insights/ins_breunig-deterministic-probabilistic-split.md) — The core decision in context engineering is what to make deterministic and what to leave probabilistic _(Drew Breunig)_
 - [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
+- [`ins_breunig-long-context-error-amplification`](insights/ins_breunig-long-context-error-amplification.md) — Larger context windows amplify errors alongside information and require deliberate pruning _(Drew Breunig)_
 - [`ins_brewster-vibe-coded-production-180k`](insights/ins_brewster-vibe-coded-production-180k.md) — AI can generate 180,000 lines of production code in three weeks, but resource management and architecture still require active human babysitting _(Rick Brewster)_
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
@@ -1026,6 +1028,7 @@ _Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
+- [`ins_tunguz-anthropic-cloud-valuation-frame`](insights/ins_tunguz-anthropic-cloud-valuation-frame.md) — Anthropic should be valued as a cloud provider, not as a software company _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
 - [`ins_tunguz-blank-slate-ai-strategy`](insights/ins_tunguz-blank-slate-ai-strategy.md) — Shipping a generic AI base product for free and charging for customization creates a sustainable open-source monetization model _(Tomasz Tunguz)_
@@ -1041,6 +1044,7 @@ _Generated 2026-10-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-fat-middle-demand-distribution`](insights/ins_tunguz-fat-middle-demand-distribution.md) — AI intelligence demand follows a normal distribution, not a pyramid; mid-tier models dominate commercial spending because enterprise requirements are stable while AI costs fall exponentially _(Tom Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
+- [`ins_tunguz-gpu-inference-payback-ladder`](insights/ins_tunguz-gpu-inference-payback-ladder.md) — Scaled AI inference earns sub-1-year payback even at a 15x efficiency gap from the theoretical maximum _(Tomasz Tunguz)_
 - [`ins_tunguz-grow-or-design-modes`](insights/ins_tunguz-grow-or-design-modes.md) — Vibe coding selects for correctness by experiment; state machine design proves correctness by enumerating every path _(Tom Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_

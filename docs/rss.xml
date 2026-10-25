@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 01:42:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 01:44:10 GMT</lastBuildDate>
+    <item>
+      <title>Context engineering&apos;s hard split, inference payback, and the cloud-provider frame</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-25/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-25/</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.</description>
+    </item>
     <item>
       <title>Build-out velocity, quota amplification, and the benchmark that saturated</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-24/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-26/</guid>
       <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
       <description>Two cards from Ethan Mollick&apos;s &apos;The Overhang&apos; complete the library&apos;s capture of that September 18 essay. The selection claim was captured September 19. These two were not.</description>
-    </item>
-    <item>
-      <title>Specification bugs, forced judgment, and the executive AI gap: what shipped September 18-25</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-25/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-25/</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from three operators. One structural shift in how AI-era software fails. Two eval quality fixes from a single, well-grounded source. One data-driven strategy for managing AI mandates upward.</description>
     </item>
   </channel>
 </rss>

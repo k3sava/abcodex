@@ -1,32 +1,31 @@
 {
-  "generated_at": "2026-10-24T01:42:02.586Z",
+  "generated_at": "2026-10-25T01:44:07.751Z",
   "counts": {
-    "insights": 1268,
+    "insights": 1272,
     "operators": 559,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 146
+    "daily": 147
   },
   "latest_daily": {
-    "path": "daily/2026-10-24.md",
-    "date": "2026-10-24",
-    "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
-    "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
+    "path": "daily/2026-10-25.md",
+    "date": "2026-10-25",
+    "title": "Context engineering's hard split, inference payback, and the cloud-provider frame",
+    "summary": "Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.",
     "sources": [
-      "https://tomtunguz.com/how-large-is-the-ai-circle/",
-      "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
-      "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
+      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "https://tomtunguz.com/the-gpu-revenue-ladder/",
+      "https://tomtunguz.com/what-if-they-are-all-clouds/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-perez-buildout-double-speed",
-      "ins_shahali-ai-sales-quota-amplification",
-      "ins_mollick-task-horizon-metr-doubling"
+      "ins_breunig-deterministic-probabilistic-split",
+      "ins_breunig-long-context-error-amplification",
+      "ins_tunguz-gpu-inference-payback-ladder",
+      "ins_tunguz-anthropic-cloud-valuation-frame"
     ],
-    "operators_added": [
-      "bardia-shahali"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4301,6 +4300,36 @@
       "title": "Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation"
     },
     {
+      "path": "insights/ins_breunig-deterministic-probabilistic-split.md",
+      "id": "ins_breunig-deterministic-probabilistic-split",
+      "operator": "Drew Breunig",
+      "operator_role": "Principal Data Scientist, DPLA; independent AI systems writer",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source_type": "essay",
+      "source_title": "The State of Context Engineering",
+      "source_date": "2026-10-24",
+      "captured_date": "2026-10-25",
+      "domain": [
+        "ai-native-operating",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "AI Workflow & Tooling",
+        "Process & Operating Cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-context-inertia-agent-fixation",
+        "ins_breunig-harness-lock-in-model-layer"
+      ],
+      "raw_ref": "",
+      "title": "The core decision in context engineering is what to make deterministic and what to leave probabilistic"
+    },
+    {
       "path": "insights/ins_breunig-fable-tier-routing.md",
       "id": "ins_breunig-fable-tier-routing",
       "operator": "Drew Breunig",
@@ -4358,6 +4387,36 @@
       ],
       "raw_ref": "",
       "title": "Frontier labs are baking native harness preferences into model weights, not layering them on top"
+    },
+    {
+      "path": "insights/ins_breunig-long-context-error-amplification.md",
+      "id": "ins_breunig-long-context-error-amplification",
+      "operator": "Drew Breunig",
+      "operator_role": "Principal Data Scientist, DPLA; independent AI systems writer",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source_type": "essay",
+      "source_title": "The State of Context Engineering",
+      "source_date": "2026-10-24",
+      "captured_date": "2026-10-25",
+      "domain": [
+        "ai-native-operating",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "AI Workflow & Tooling",
+        "Process & Operating Cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-context-inertia-agent-fixation",
+        "ins_breunig-deterministic-probabilistic-split"
+      ],
+      "raw_ref": "",
+      "title": "Larger context windows amplify errors alongside information and require deliberate pruning"
     },
     {
       "path": "insights/ins_brewster-vibe-coded-production-180k.md",
@@ -29883,6 +29942,36 @@
       "title": "AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world"
     },
     {
+      "path": "insights/ins_tunguz-anthropic-cloud-valuation-frame.md",
+      "id": "ins_tunguz-anthropic-cloud-valuation-frame",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/what-if-they-are-all-clouds/",
+      "source_type": "essay",
+      "source_title": "What if They're All Clouds?",
+      "source_date": "2026-10-18",
+      "captured_date": "2026-10-25",
+      "domain": [
+        "ai-native-operating",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "Strategy & Bets",
+        "Attribution & Measurement"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-gpu-inference-payback-ladder",
+        "ins_tunguz-inference-surpasses-database"
+      ],
+      "raw_ref": "",
+      "title": "Anthropic should be valued as a cloud provider, not as a software company"
+    },
+    {
       "path": "insights/ins_tunguz-app-layer-lagging-moat.md",
       "id": "ins_tunguz-app-layer-lagging-moat",
       "operator": "Tomasz Tunguz",
@@ -30360,6 +30449,36 @@
       ],
       "raw_ref": "",
       "title": "Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity"
+    },
+    {
+      "path": "insights/ins_tunguz-gpu-inference-payback-ladder.md",
+      "id": "ins_tunguz-gpu-inference-payback-ladder",
+      "operator": "Tomasz Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-gpu-revenue-ladder/",
+      "source_type": "essay",
+      "source_title": "The GPU Revenue Ladder",
+      "source_date": "2026-10-21",
+      "captured_date": "2026-10-25",
+      "domain": [
+        "ai-native-operating",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "Strategy & Bets",
+        "Attribution & Measurement"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-chip-ownership-cost-floor",
+        "ins_tunguz-inference-surpasses-database"
+      ],
+      "raw_ref": "",
+      "title": "Scaled AI inference earns sub-1-year payback even at a 15x efficiency gap from the theoretical maximum"
     },
     {
       "path": "insights/ins_tunguz-grow-or-design-modes.md",
@@ -52045,6 +52164,27 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-25.md",
+      "date": "2026-10-25",
+      "title": "Context engineering's hard split, inference payback, and the cloud-provider frame",
+      "summary": "Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.",
+      "sources": [
+        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+        "https://tomtunguz.com/the-gpu-revenue-ladder/",
+        "https://tomtunguz.com/what-if-they-are-all-clouds/"
+      ],
+      "insights_added": [
+        "ins_breunig-deterministic-probabilistic-split",
+        "ins_breunig-long-context-error-amplification",
+        "ins_tunguz-gpu-inference-payback-ladder",
+        "ins_tunguz-anthropic-cloud-valuation-frame"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-24.md",
       "date": "2026-10-24",
