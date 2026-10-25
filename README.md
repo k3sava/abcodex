@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-24 · 3 insights · 1 operator
+### Latest · 2026-10-25 · 4 insights
 
-**Build-out velocity, quota amplification, and the benchmark that saturated.** Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.
+**Context engineering's hard split, inference payback, and the cloud-provider frame.** Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.
 
-[Read what landed →](insight-library/daily/2026-10-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1268** insight cards
+- **1272** insight cards
 - **559** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
