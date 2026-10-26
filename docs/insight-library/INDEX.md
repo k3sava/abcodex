@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-25. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1272 insight cards
+- 1276 insight cards
 - 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (824)
+### Tier B (828)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1185,6 +1185,7 @@ _Generated 2026-10-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_yegge-thunderdome-cicd`](insights/ins_yegge-thunderdome-cicd.md) — Parallel coding agents break serial CI/CD merge queues _(Steve Yegge)_
 - [`ins_yogi-gnanavel-job-search-endurance-loop`](insights/ins_yogi-gnanavel-job-search-endurance-loop.md) — Job searching is a loop you survive by staying in it, not a straight line. _(Yogi Gnanavel)_
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
+- [`ins_zukowski-ai-disclosure-tier-stratification-oct26`](insights/ins_zukowski-ai-disclosure-tier-stratification-oct26.md) — AI-disclosing games made up 8% of the top 25 but 35% of games ranked 101 or lower in October 2026 Steam Next Fest _(Chris Zukowski)_
 - [`ins_zukowski-amplify-not-mix-genres`](insights/ins_zukowski-amplify-not-mix-genres.md) — Indie games find their hook by amplifying one element of a proven genre 10,000-fold, not by mixing genres _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
@@ -1195,6 +1196,9 @@ _Generated 2026-10-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-idea-beats-playbook`](insights/ins_zukowski-idea-beats-playbook.md) — A game's core idea is the primary driver of marketing outcomes; identical playbooks diverge based on idea quality _(Chris Zukowski)_
 - [`ins_zukowski-nextfest-momentum-beats-base`](insights/ins_zukowski-nextfest-momentum-beats-base.md) — Two-week pre-festival wishlist momentum predicts Steam Next Fest results better than total accumulated wishlists, with a Spearman correlation of 0.81 versus 0.76 _(Chris Zukowski)_
 - [`ins_zukowski-overexposure-impossible`](insights/ins_zukowski-overexposure-impossible.md) — Indie games cannot be over-exposed on Steam because the platform's 132 million monthly active users make the reachable audience effectively unlimited _(Chris Zukowski)_
+- [`ins_zukowski-snf-demo-freshness-rank-correlation`](insights/ins_zukowski-snf-demo-freshness-rank-correlation.md) — Top-ranked Steam Next Fest games had demos live an average of 18.8 days before the festival versus 36.6 days for bottom-ranked games _(Chris Zukowski)_
+- [`ins_zukowski-snf-percentage-growth-trap`](insights/ins_zukowski-snf-percentage-growth-trap.md) — Pre-festival follower percentage growth is negatively correlated with Steam Next Fest performance while absolute base and raw gain are the real predictors _(Chris Zukowski)_
+- [`ins_zukowski-snf-wednesday-algorithm-switch`](insights/ins_zukowski-snf-wednesday-algorithm-switch.md) — Valve switches Steam Next Fest from randomized baseline visibility to merit-based ranking on the first Wednesday _(Chris Zukowski)_
 - [`ins_zukowski-steam-personal-calendar-launch-discovery`](insights/ins_zukowski-steam-personal-calendar-launch-discovery.md) — Steam's Personal Calendar widget is now the primary pre-launch discovery path for indie games without large wishlist counts _(Chris Zukowski)_
 - [`ins_zukowski-steam-slop-temporal-filter`](insights/ins_zukowski-steam-slop-temporal-filter.md) — Steam's algorithm suppresses AI-generated games after the first two days of Next Fest, so AI slop harms niche early traffic but not mainstream player discovery _(Chris Zukowski)_
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
