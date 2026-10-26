@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Oct 2026 01:44:10 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 01:48:43 GMT</lastBuildDate>
+    <item>
+      <title>Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-26/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-26/</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, one operator, one source. Chris Zukowski&apos;s October 2026 Steam Next Fest analysis surfaces how Valve&apos;s algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.</description>
+    </item>
     <item>
       <title>Context engineering&apos;s hard split, inference payback, and the cloud-provider frame</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-25/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-27/</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.</description>
-    </item>
-    <item>
-      <title>Vocabulary and agency: two uncaptured dimensions of Mollick&apos;s capability-overhang framework</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-26/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-26/</guid>
-      <pubDate>Sat, 26 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Two cards from Ethan Mollick&apos;s &apos;The Overhang&apos; complete the library&apos;s capture of that September 18 essay. The selection claim was captured September 19. These two were not.</description>
     </item>
   </channel>
 </rss>

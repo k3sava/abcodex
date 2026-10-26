@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-10-25T01:44:07.803Z",
+  "generated_at": "2026-10-26T01:48:40.555Z",
   "latest_daily": {
-    "path": "daily/2026-10-25.md",
-    "date": "2026-10-25",
-    "title": "Context engineering's hard split, inference payback, and the cloud-provider frame",
-    "summary": "Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.",
+    "path": "daily/2026-10-26.md",
+    "date": "2026-10-26",
+    "title": "Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom",
+    "summary": "Four cards, one operator, one source. Chris Zukowski's October 2026 Steam Next Fest analysis surfaces how Valve's algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.",
     "sources": [
-      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "https://tomtunguz.com/the-gpu-revenue-ladder/",
-      "https://tomtunguz.com/what-if-they-are-all-clouds/"
+      "https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/"
     ],
     "insights_added": [
-      "ins_breunig-deterministic-probabilistic-split",
-      "ins_breunig-long-context-error-amplification",
-      "ins_tunguz-gpu-inference-payback-ladder",
-      "ins_tunguz-anthropic-cloud-valuation-frame"
+      "ins_zukowski-snf-wednesday-algorithm-switch",
+      "ins_zukowski-snf-demo-freshness-rank-correlation",
+      "ins_zukowski-snf-percentage-growth-trap",
+      "ins_zukowski-ai-disclosure-tier-stratification-oct26"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -22,6 +20,25 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-26.md",
+      "date": "2026-10-26",
+      "title": "Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom",
+      "summary": "Four cards, one operator, one source. Chris Zukowski's October 2026 Steam Next Fest analysis surfaces how Valve's algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.",
+      "sources": [
+        "https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/"
+      ],
+      "insights_added": [
+        "ins_zukowski-snf-wednesday-algorithm-switch",
+        "ins_zukowski-snf-demo-freshness-rank-correlation",
+        "ins_zukowski-snf-percentage-growth-trap",
+        "ins_zukowski-ai-disclosure-tier-stratification-oct26"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-25.md",
       "date": "2026-10-25",
@@ -624,23 +641,6 @@
         "ins_tunguz-fat-middle-demand-distribution",
         "ins_tunguz-systems-over-code",
         "ins_chase-jev-as-eval-judge"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-26.md",
-      "date": "2026-09-26",
-      "title": "Vocabulary and agency: two uncaptured dimensions of Mollick's capability-overhang framework",
-      "summary": "Two cards from Ethan Mollick's 'The Overhang' complete the library's capture of that September 18 essay. The selection claim was captured September 19. These two were not.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/the-overhang"
-      ],
-      "insights_added": [
-        "ins_mollick-wide-knowledge-unlocks-ai",
-        "ins_mollick-agency-ai-frontier"
       ],
       "operators_added": [],
       "patterns_added": [],

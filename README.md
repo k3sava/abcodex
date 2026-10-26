@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-25 · 4 insights
+### Latest · 2026-10-26 · 4 insights
 
-**Context engineering's hard split, inference payback, and the cloud-provider frame.** Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.
+**Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom.** Four cards, one operator, one source. Chris Zukowski's October 2026 Steam Next Fest analysis surfaces how Valve's algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.
 
-[Read what landed →](insight-library/daily/2026-10-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1272** insight cards
+- **1276** insight cards
 - **559** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
