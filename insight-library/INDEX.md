@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1276 insight cards
+- 1280 insight cards
 - 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -374,7 +374,7 @@ _Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (828)
+### Tier B (832)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -449,7 +449,9 @@ _Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_ball-agent-bug-threshold`](insights/ins_ball-agent-bug-threshold.md) — AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold _(Thorsten Ball)_
 - [`ins_ball-agent-picks-the-language`](insights/ins_ball-agent-picks-the-language.md) — Language selection criteria shift from developer preference to agent performance when agents write most of the code _(Thorsten Ball)_
+- [`ins_ball-code-elegance-is-cognitive-artifact`](insights/ins_ball-code-elegance-is-cognitive-artifact.md) — Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine _(Thorsten Ball)_
 - [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
+- [`ins_ball-maintenance-automation-arrives-first`](insights/ins_ball-maintenance-automation-arrives-first.md) — Self-improving software arrives first in pure maintenance contexts because growing systems still need human goal signals _(Thorsten Ball)_
 - [`ins_ball-naive-interventionism-ai-code`](insights/ins_ball-naive-interventionism-ai-code.md) — Engineers who dismiss AI-generated code as low-quality apply the same professional bias that causes domain experts to over-intervene within their specialty _(Thorsten Ball)_
 - [`ins_ball-observability-legible-to-agent`](insights/ins_ball-observability-legible-to-agent.md) — When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
@@ -674,6 +676,7 @@ _Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_
+- [`ins_indig-organic-decline-publisher-concentration`](insights/ins_indig-organic-decline-publisher-concentration.md) — Organic traffic decline is a publisher problem, not a universal SEO problem _(Kevin Indig)_
 - [`ins_indig-post-purchase-ai-shortlist`](insights/ins_indig-post-purchase-ai-shortlist.md) — Post-purchase behavior builds the AI search shortlist, not on-page content signals _(Kevin Indig)_
 - [`ins_indig-pricing-page-agent-fallback`](insights/ins_indig-pricing-page-agent-fallback.md) — B2B pricing pages are where AI agent retrieval breaks down and third-party directories take over vendor narratives _(Kevin Indig)_
 - [`ins_indig-search-volatility-2026-baseline`](insights/ins_indig-search-volatility-2026-baseline.md) — Search visibility swings of 20% or more within a single week are now a structural baseline risk in 2026, not an exception _(Kevin Indig)_
@@ -938,6 +941,7 @@ _Generated 2026-10-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shahali-ai-sales-quota-amplification`](insights/ins_shahali-ai-sales-quota-amplification.md) — AI-era sales reps carry multiples-higher quotas, forcing quarterly comp resets _(Bardia Shahali)_
 - [`ins_sharing-publicly-same-reason-shared`](insights/ins_sharing-publicly-same-reason-shared.md) — We're sharing V2 publicly for the same reason we shared V1: every company needs a frame _(Wade Foster)_
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
+- [`ins_shipper-agent-pro-tool-persistent-state`](insights/ins_shipper-agent-pro-tool-persistent-state.md) — A personal agent earns pro-tool status when it tracks its own open items and edits artifacts directly _(Dan Shipper)_
 - [`ins_shipper-agent-safety-environment-design`](insights/ins_shipper-agent-safety-environment-design.md) — AI agent safety is an environment design problem, not a model values problem _(Dan Shipper)_
 - [`ins_shipper-correction-becomes-team-skill`](insights/ins_shipper-correction-becomes-team-skill.md) — Saving agent corrections as named team skills converts individual AI workarounds into shared institutional capability _(Dan Shipper)_
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_

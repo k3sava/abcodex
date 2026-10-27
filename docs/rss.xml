@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 01:48:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 01:44:37 GMT</lastBuildDate>
+    <item>
+      <title>Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-27/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-27/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.</description>
+    </item>
     <item>
       <title>Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-26/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-28/</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp&apos;s 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.</description>
-    </item>
-    <item>
-      <title>AI demand&apos;s fat middle, engineering as system design, decision models as eval judges</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-27/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-27/</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.</description>
     </item>
   </channel>
 </rss>
