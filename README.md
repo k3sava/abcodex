@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-26 · 4 insights
+### Latest · 2026-10-27 · 4 insights
 
-**Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom.** Four cards, one operator, one source. Chris Zukowski's October 2026 Steam Next Fest analysis surfaces how Valve's algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.
+**Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem.** Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.
 
-[Read what landed →](insight-library/daily/2026-10-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1276** insight cards
+- **1280** insight cards
 - **559** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

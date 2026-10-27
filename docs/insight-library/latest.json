@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-10-26T01:48:40.555Z",
+  "generated_at": "2026-10-27T01:44:32.009Z",
   "latest_daily": {
-    "path": "daily/2026-10-26.md",
-    "date": "2026-10-26",
-    "title": "Wednesday is the cliff, percentage growth is the trap, and AI slop already lives at the bottom",
-    "summary": "Four cards, one operator, one source. Chris Zukowski's October 2026 Steam Next Fest analysis surfaces how Valve's algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.",
+    "path": "daily/2026-10-27.md",
+    "date": "2026-10-27",
+    "title": "Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem",
+    "summary": "Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.",
     "sources": [
-      "https://howtomarketagame.com/2026/10/21/how-sloppy-is-the-october-2026-steam-next-fest/"
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
+      "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent",
+      "https://www.growth-memo.com/p/organic-traffic-is-down-but-its-not"
     ],
     "insights_added": [
-      "ins_zukowski-snf-wednesday-algorithm-switch",
-      "ins_zukowski-snf-demo-freshness-rank-correlation",
-      "ins_zukowski-snf-percentage-growth-trap",
-      "ins_zukowski-ai-disclosure-tier-stratification-oct26"
+      "ins_ball-code-elegance-is-cognitive-artifact",
+      "ins_ball-maintenance-automation-arrives-first",
+      "ins_shipper-agent-pro-tool-persistent-state",
+      "ins_indig-organic-decline-publisher-concentration"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +22,27 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-27.md",
+      "date": "2026-10-27",
+      "title": "Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem",
+      "summary": "Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.",
+      "sources": [
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
+        "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent",
+        "https://www.growth-memo.com/p/organic-traffic-is-down-but-its-not"
+      ],
+      "insights_added": [
+        "ins_ball-code-elegance-is-cognitive-artifact",
+        "ins_ball-maintenance-automation-arrives-first",
+        "ins_shipper-agent-pro-tool-persistent-state",
+        "ins_indig-organic-decline-publisher-concentration"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-26.md",
       "date": "2026-10-26",
@@ -623,26 +646,6 @@
       "operators_added": [
         "zach-lloyd"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-27.md",
-      "date": "2026-09-27",
-      "title": "AI demand's fat middle, engineering as system design, decision models as eval judges",
-      "summary": "Three cards from two operators. Tom Tunguz published two structural claims: AI intelligence demand follows a normal distribution with the commercial center in the middle tier, and the core engineering job has shifted from writing code to designing feedback loops. The LangChain team published empirical evidence that decision models are better eval judges than autoregressive LLMs at 1,000 to 80,000 times lower cost per call.",
-      "sources": [
-        "https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle/",
-        "https://tomtunguz.com/thinking-in-systems/",
-        "https://www.langchain.com/blog/jev-agent-evals-langsmith"
-      ],
-      "insights_added": [
-        "ins_tunguz-fat-middle-demand-distribution",
-        "ins_tunguz-systems-over-code",
-        "ins_chase-jev-as-eval-judge"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
