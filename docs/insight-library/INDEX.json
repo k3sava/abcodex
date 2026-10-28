@@ -1,29 +1,26 @@
 {
-  "generated_at": "2026-10-27T01:44:31.930Z",
+  "generated_at": "2026-10-28T01:51:12.054Z",
   "counts": {
-    "insights": 1280,
+    "insights": 1282,
     "operators": 559,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 149
+    "daily": 150
   },
   "latest_daily": {
-    "path": "daily/2026-10-27.md",
-    "date": "2026-10-27",
-    "title": "Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem",
-    "summary": "Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.",
+    "path": "daily/2026-10-28.md",
+    "date": "2026-10-28",
+    "title": "Security as AI's third market, and AI company risk as compute commitment",
+    "summary": "Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.",
     "sources": [
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
-      "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent",
-      "https://www.growth-memo.com/p/organic-traffic-is-down-but-its-not"
+      "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
+      "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/"
     ],
     "insights_added": [
-      "ins_ball-code-elegance-is-cognitive-artifact",
-      "ins_ball-maintenance-automation-arrives-first",
-      "ins_shipper-agent-pro-tool-persistent-state",
-      "ins_indig-organic-decline-publisher-concentration"
+      "ins_tunguz-security-third-ai-pmf",
+      "ins_tunguz-commitment-leverage"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -30275,6 +30272,36 @@
       "title": "Chip ownership is the structural cost floor in a world of equal-intelligence frontier models"
     },
     {
+      "path": "insights/ins_tunguz-commitment-leverage.md",
+      "id": "ins_tunguz-commitment-leverage",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/",
+      "source_type": "essay",
+      "source_title": "Anthropic's S-1 Grew Eleven-Fold",
+      "source_date": "2026-10-26",
+      "captured_date": "2026-10-28",
+      "domain": [
+        "ai-native-operating",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "scaling",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-anthropic-cloud-valuation-frame",
+        "ins_tunguz-tier-segmentation-jevons"
+      ],
+      "raw_ref": "",
+      "title": "AI foundation model companies carry their financial risk in compute commitments, not debt"
+    },
+    {
       "path": "insights/ins_tunguz-compute-cost-inversion.md",
       "id": "ins_tunguz-compute-cost-inversion",
       "operator": "Tomasz Tunguz",
@@ -31319,6 +31346,36 @@
       ],
       "raw_ref": "",
       "title": "Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules"
+    },
+    {
+      "path": "insights/ins_tunguz-security-third-ai-pmf.md",
+      "id": "ins_tunguz-security-third-ai-pmf",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
+      "source_type": "essay",
+      "source_title": "The Third Product-Market Fit in AI",
+      "source_date": "2026-10-26",
+      "captured_date": "2026-10-28",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "market-entry",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "A",
+      "related": [
+        "ins_tunguz-security-tooling-gap",
+        "ins_tunguz-security-tops-ai-barrier-2026"
+      ],
+      "raw_ref": "",
+      "title": "Security is AI's third product-market fit, after coding and customer support"
     },
     {
       "path": "insights/ins_tunguz-security-tooling-gap.md",
@@ -52404,6 +52461,24 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-28.md",
+      "date": "2026-10-28",
+      "title": "Security as AI's third market, and AI company risk as compute commitment",
+      "summary": "Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.",
+      "sources": [
+        "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
+        "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/"
+      ],
+      "insights_added": [
+        "ins_tunguz-security-third-ai-pmf",
+        "ins_tunguz-commitment-leverage"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-27.md",
       "date": "2026-10-27",
