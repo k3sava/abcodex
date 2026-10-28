@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1280 insight cards
+- 1282 insight cards
 - 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -12,7 +12,7 @@ _Generated 2026-10-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (360)
+### Tier A (362)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -343,9 +343,11 @@ _Generated 2026-10-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_trust-ladder-strangers-friends-customers`](insights/ins_trust-ladder-strangers-friends-customers.md) — Strangers → friends → customers, three trust thresholds, three different message types _(Seth Godin)_
 - [`ins_tunguz-ai-productivity-operating-layer`](insights/ins_tunguz-ai-productivity-operating-layer.md) — The operating layer, not the model, determines which of three AI productivity tiers a company reaches _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-sdr-workflow-first`](insights/ins_tunguz-ai-sdr-workflow-first.md) — Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability _(Tomasz Tunguz)_
+- [`ins_tunguz-commitment-leverage`](insights/ins_tunguz-commitment-leverage.md) — AI foundation model companies carry their financial risk in compute commitments, not debt _(Tom Tunguz)_
 - [`ins_tunguz-inference-surpasses-databases`](insights/ins_tunguz-inference-surpasses-databases.md) — AI inference spending will overtake database software by 2027, turning every application into an inference reseller _(Tom Tunguz)_
 - [`ins_tunguz-model-commodity-distribution-moat`](insights/ins_tunguz-model-commodity-distribution-moat.md) — When AI models commoditize, winning requires owning distribution and routing data, not model quality _(Tomasz Tunguz)_
 - [`ins_tunguz-production-agents-code-over-prompts`](insights/ins_tunguz-production-agents-code-over-prompts.md) — Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules _(Tomasz Tunguz)_
+- [`ins_tunguz-security-third-ai-pmf`](insights/ins_tunguz-security-third-ai-pmf.md) — Security is AI's third product-market fit, after coding and customer support _(Tom Tunguz)_
 - [`ins_tunguz-three-waves-ai-consumption`](insights/ins_tunguz-three-waves-ai-consumption.md) — Agent token consumption crossed human consumption on February 6, 2026 and now follows three order-of-magnitude waves driven by parallelization, not generation speed _(Tom Tunguz)_
 - [`ins_tunguz-tier-segmentation-jevons`](insights/ins_tunguz-tier-segmentation-jevons.md) — AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping _(Tom Tunguz)_
 - [`ins_underfund-deliberately`](insights/ins_underfund-deliberately.md) — Underfund teams deliberately so AI substrate, not headcount, absorbs the work _(Boris Cherny)_

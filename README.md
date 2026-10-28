@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-27 · 4 insights
+### Latest · 2026-10-28 · 2 insights
 
-**Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem.** Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.
+**Security as AI's third market, and AI company risk as compute commitment.** Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.
 
-[Read what landed →](insight-library/daily/2026-10-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1280** insight cards
+- **1282** insight cards
 - **559** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

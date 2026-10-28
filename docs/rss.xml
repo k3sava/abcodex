@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 01:44:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 01:51:15 GMT</lastBuildDate>
+    <item>
+      <title>Security as AI&apos;s third market, and AI company risk as compute commitment</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-28/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-28/</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI&apos;s third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic&apos;s S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.</description>
+    </item>
     <item>
       <title>Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-27/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-29/</guid>
       <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.</description>
-    </item>
-    <item>
-      <title>Agents shift the floor, software factories reveal the ceiling</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-28/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-28/</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from two operators. Simon Willison published two short, precise claims about what coding agents actually demand from engineers. Zach Lloyd described what Warp&apos;s 2,000-PR-per-month software factory revealed about where bottlenecks move once code generation is automated.</description>
     </item>
   </channel>
 </rss>
