@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-10-28T01:51:12.111Z",
+  "generated_at": "2026-10-29T01:51:09.770Z",
   "latest_daily": {
-    "path": "daily/2026-10-28.md",
-    "date": "2026-10-28",
-    "title": "Security as AI's third market, and AI company risk as compute commitment",
-    "summary": "Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.",
+    "path": "daily/2026-10-29.md",
+    "date": "2026-10-29",
+    "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
+    "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
     "sources": [
-      "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
-      "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/"
+      "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
+      "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
     ],
     "insights_added": [
-      "ins_tunguz-security-third-ai-pmf",
-      "ins_tunguz-commitment-leverage"
+      "ins_willison-agentic-coding-tripled-github",
+      "ins_mollick-experts-underestimate-ai-progress",
+      "ins_chase-agent-memory-next-frontier"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -19,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-29.md",
+      "date": "2026-10-29",
+      "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
+      "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+        "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
+        "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
+      ],
+      "insights_added": [
+        "ins_willison-agentic-coding-tripled-github",
+        "ins_mollick-experts-underestimate-ai-progress",
+        "ins_chase-agent-memory-next-frontier"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-28.md",
       "date": "2026-10-28",
@@ -617,25 +639,6 @@
         "ins_indig-ai-search-attribution-gap",
         "ins_indig-triangulation-metric-set",
         "ins_willison-game-loop-agent-limit"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-29.md",
-      "date": "2026-09-29",
-      "title": "Agent authorship changes what you optimize for in technology",
-      "summary": "Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.",
-      "sources": [
-        "https://registerspill.thorstenball.com/p/joy-and-curiosity-101",
-        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
-      ],
-      "insights_added": [
-        "ins_ball-agent-picks-the-language",
-        "ins_ball-observability-legible-to-agent",
-        "ins_willison-deep-blue-engineer-ennui"
       ],
       "operators_added": [],
       "patterns_added": [],

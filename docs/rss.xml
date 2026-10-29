@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 01:51:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:51:15 GMT</lastBuildDate>
+    <item>
+      <title>GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-29/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-29/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.</description>
+    </item>
     <item>
       <title>Security as AI&apos;s third market, and AI company risk as compute commitment</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-28/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-30/</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
       <description>Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.</description>
-    </item>
-    <item>
-      <title>Agent authorship changes what you optimize for in technology</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-29/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-29/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from two operators. Thorsten Ball published two connected claims about how agent authorship shifts technology selection criteria away from developer ergonomics. Simon Willison named the psychological cost of that shift in engineers who have already crossed the threshold.</description>
     </item>
   </channel>
 </rss>
