@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-28 · 2 insights
+### Latest · 2026-10-29 · 3 insights
 
-**Security as AI's third market, and AI company risk as compute commitment.** Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.
+**GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator.** Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.
 
-[Read what landed →](insight-library/daily/2026-10-28.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1282** insight cards
+- **1285** insight cards
 - **559** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

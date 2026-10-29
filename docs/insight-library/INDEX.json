@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-10-28T01:51:12.054Z",
+  "generated_at": "2026-10-29T01:51:09.634Z",
   "counts": {
-    "insights": 1282,
+    "insights": 1285,
     "operators": 559,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 150
+    "daily": 151
   },
   "latest_daily": {
-    "path": "daily/2026-10-28.md",
-    "date": "2026-10-28",
-    "title": "Security as AI's third market, and AI company risk as compute commitment",
-    "summary": "Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.",
+    "path": "daily/2026-10-29.md",
+    "date": "2026-10-29",
+    "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
+    "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
     "sources": [
-      "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
-      "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/"
+      "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
+      "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
     ],
     "insights_added": [
-      "ins_tunguz-security-third-ai-pmf",
-      "ins_tunguz-commitment-leverage"
+      "ins_willison-agentic-coding-tripled-github",
+      "ins_mollick-experts-underestimate-ai-progress",
+      "ins_chase-agent-memory-next-frontier"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -5123,6 +5125,33 @@
       ],
       "raw_ref": "",
       "title": "The primary cost in production agent development is rebuilding the same infrastructure per project"
+    },
+    {
+      "path": "insights/ins_chase-agent-memory-next-frontier.md",
+      "id": "ins_chase-agent-memory-next-frontier",
+      "operator": "Harrison Chase",
+      "operator_role": "Co-founder and CEO, LangChain",
+      "co_operators": [],
+      "source_url": "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/",
+      "source_type": "recap",
+      "source_title": "LangChain CEO Says Agent Memory Is Still Super Early",
+      "source_date": "2026-10-17",
+      "captured_date": "2026-10-29",
+      "domain": [
+        "ai-native",
+        "agent-frameworks"
+      ],
+      "lifecycle": [
+        "product",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Persistent memory is the defining capability gap for AI agents. Without it, horizontal agents cannot differentiate."
     },
     {
       "path": "insights/ins_chase-compound-intelligence-ownership.md",
@@ -18376,6 +18405,35 @@
       ],
       "raw_ref": "",
       "title": "AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent"
+    },
+    {
+      "path": "insights/ins_mollick-experts-underestimate-ai-progress.md",
+      "id": "ins_mollick-experts-underestimate-ai-progress",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
+      "source_type": "essay",
+      "source_title": "The Next Phase of AI",
+      "source_date": "2026-10-20",
+      "captured_date": "2026-10-29",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "leadership"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-co-existence-phase-shift"
+      ],
+      "raw_ref": "",
+      "title": "Calibrated expert forecasters gave AI a 2.3% chance of winning the Math Olympiad by 2025. AI won it in 2025."
     },
     {
       "path": "insights/ins_mollick-four-agents-concurrent-norm.md",
@@ -33273,6 +33331,33 @@
       ],
       "raw_ref": "",
       "title": "OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model"
+    },
+    {
+      "path": "insights/ins_willison-agentic-coding-tripled-github.md",
+      "id": "ins_willison-agentic-coding-tripled-github",
+      "operator": "Simon Willison",
+      "operator_role": "Software developer; creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+      "source_type": "post",
+      "source_title": "GitHub Octoverse 2026",
+      "source_date": "2026-10-28",
+      "captured_date": "2026-10-29",
+      "domain": [
+        "agentic-coding",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "awareness",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "GitHub's 2026 volume stats are a signal of agent adoption intensity, not human developer headcount"
     },
     {
       "path": "insights/ins_willison-agentic-cost-removes-discipline.md",
@@ -52461,6 +52546,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-29.md",
+      "date": "2026-10-29",
+      "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
+      "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+        "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
+        "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
+      ],
+      "insights_added": [
+        "ins_willison-agentic-coding-tripled-github",
+        "ins_mollick-experts-underestimate-ai-progress",
+        "ins_chase-agent-memory-next-frontier"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-28.md",
       "date": "2026-10-28",

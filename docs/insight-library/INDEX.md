@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1282 insight cards
+- 1285 insight cards
 - 559 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -376,7 +376,7 @@ _Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (832)
+### Tier B (835)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -500,6 +500,7 @@ _Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_casey-hill-structural-prominence-llm-citations`](insights/ins_casey-hill-structural-prominence-llm-citations.md) — Nav and footer placement is a first-class LLM relevance signal, independent of page content. _(Casey Hill)_
 - [`ins_changing-everything-faster-than-most`](insights/ins_changing-everything-faster-than-most.md) — AI is changing everything. Faster than most people are ready for _(Dan Murphy)_
 - [`ins_chase-agent-infra-rebuild-tax`](insights/ins_chase-agent-infra-rebuild-tax.md) — The primary cost in production agent development is rebuilding the same infrastructure per project _(Harrison Chase)_
+- [`ins_chase-agent-memory-next-frontier`](insights/ins_chase-agent-memory-next-frontier.md) — Persistent memory is the defining capability gap for AI agents. Without it, horizontal agents cannot differentiate. _(Harrison Chase)_
 - [`ins_chase-compound-intelligence-ownership`](insights/ins_chase-compound-intelligence-ownership.md) — Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access _(Harrison Chase)_
 - [`ins_chase-context-engineering-vs-code-inspection`](insights/ins_chase-context-engineering-vs-code-inspection.md) — Debugging long-horizon agents requires trace inspection, not code review, because agent logic lives in the context window at each step _(Harrison Chase)_
 - [`ins_chase-jev-as-eval-judge`](insights/ins_chase-jev-as-eval-judge.md) — Decision models outperform LLM judges in agent evals at 1,000 to 80,000 times lower cost because they output typed verdicts directly rather than generating reasoning text _(Harrison Chase)_
@@ -794,6 +795,7 @@ _Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-conjurer-oversight-gap`](insights/ins_mollick-conjurer-oversight-gap.md) — Conjurers summon agents without necessarily seeing what the agents do _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
 - [`ins_mollick-early-career-apprenticeship-break`](insights/ins_mollick-early-career-apprenticeship-break.md) — AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent _(Ethan Mollick)_
+- [`ins_mollick-experts-underestimate-ai-progress`](insights/ins_mollick-experts-underestimate-ai-progress.md) — Calibrated expert forecasters gave AI a 2.3% chance of winning the Math Olympiad by 2025. AI won it in 2025. _(Ethan Mollick)_
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-four-human-edge-skills`](insights/ins_mollick-four-human-edge-skills.md) — Four human attributes remain distinctly valuable as AI makes production abundant _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
@@ -1122,6 +1124,7 @@ _Generated 2026-10-28. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-agent-dri-accountability`](insights/ins_willison-agent-dri-accountability.md) — AI agents cannot hold the DRI role because accountability requires the capacity to own consequences, which machines lack _(Simon Willison)_
 - [`ins_willison-agent-driven-ml-model-conversion`](insights/ins_willison-agent-driven-ml-model-conversion.md) — An AI coding agent can convert a production ML model across frameworks and deploy it to the browser without specialist knowledge _(Simon Willison)_
 - [`ins_willison-agent-research-spend-surge`](insights/ins_willison-agent-research-spend-surge.md) — OpenAI researchers increased AI tool spending from near zero to roughly $600 per day in six months after internal access to a more capable model _(Simon Willison)_
+- [`ins_willison-agentic-coding-tripled-github`](insights/ins_willison-agentic-coding-tripled-github.md) — GitHub's 2026 volume stats are a signal of agent adoption intensity, not human developer headcount _(Simon Willison)_
 - [`ins_willison-agentic-cost-removes-discipline`](insights/ins_willison-agentic-cost-removes-discipline.md) — Agentic coding removes the time-cost filter that once kept poor architecture decisions out _(Simon Willison)_
 - [`ins_willison-agents-complexity-shift`](insights/ins_willison-agents-complexity-shift.md) — Coding agents shift the difficulty floor upward, leaving only the hard problems for human engineers _(Simon Willison)_
 - [`ins_willison-agents-gui-zero-cost`](insights/ins_willison-agents-gui-zero-cost.md) — AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools _(Simon Willison)_
