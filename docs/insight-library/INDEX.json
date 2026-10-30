@@ -1,30 +1,37 @@
 {
-  "generated_at": "2026-10-29T01:51:09.634Z",
+  "generated_at": "2026-10-30T01:43:17.018Z",
   "counts": {
-    "insights": 1285,
-    "operators": 559,
+    "insights": 1290,
+    "operators": 561,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 151
+    "daily": 152
   },
   "latest_daily": {
-    "path": "daily/2026-10-29.md",
-    "date": "2026-10-29",
-    "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
-    "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
+    "path": "daily/2026-10-30.md",
+    "date": "2026-10-30",
+    "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
+    "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
-      "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
+      "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
+      "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+      "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "https://twitter.com/jsnnsa/status/2115623382721126826"
     ],
     "insights_added": [
-      "ins_willison-agentic-coding-tripled-github",
-      "ins_mollick-experts-underestimate-ai-progress",
-      "ins_chase-agent-memory-next-frontier"
+      "ins_willison-vibe-game-model-taste",
+      "ins_taylor-ai-agents-answer-framing",
+      "ins_zukowski-clone-risk-first-demo-wins",
+      "ins_tunguz-ai-circle-payback-web",
+      "ins_sansbury-spawn-hourly-deploy-agents"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mike-taylor",
+      "jacob-sansbury"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -24726,6 +24733,36 @@
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
     },
     {
+      "path": "insights/ins_sansbury-spawn-hourly-deploy-agents.md",
+      "id": "ins_sansbury-spawn-hourly-deploy-agents",
+      "operator": "Jacob Sansbury",
+      "operator_role": "CEO and co-founder, Spawn",
+      "co_operators": [],
+      "source_url": "https://twitter.com/jsnnsa/status/2115623382721126826",
+      "source_type": "thread",
+      "source_title": "How I Built the Most AI-Pilled Company in the World",
+      "source_date": "2026-10-29",
+      "captured_date": "2026-10-30",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "playbook",
+      "score": "{ originality: 5, specificity: 5, evidence: 4, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-production-agents-code-over-prompts",
+        "ins_willison-agentic-coding-tripled-github"
+      ],
+      "raw_ref": "",
+      "title": "At an agentic game studio, going one hour without a production deploy is a SEV-0 incident because unshipped changes accumulate blast radius"
+    },
+    {
       "path": "insights/ins_sara-popken-ai-first-pmm-opportunity.md",
       "id": "ins_sara-popken-ai-first-pmm-opportunity",
       "title": "Shaping the future of learning in an AI-first world as a PMM at Quizlet",
@@ -28497,6 +28534,37 @@
       "title": "Taste is the scarce skill in an AI-native team"
     },
     {
+      "path": "insights/ins_taylor-ai-agents-answer-framing.md",
+      "id": "ins_taylor-ai-agents-answer-framing",
+      "operator": "Mike Taylor",
+      "operator_role": "Head of Evals, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
+      "source_type": "essay",
+      "source_title": "How to Get AI Agents to Recommend Your Articles",
+      "source_date": "2026-10-27",
+      "captured_date": "2026-10-30",
+      "domain": [
+        "aeo",
+        "pmm"
+      ],
+      "lifecycle": [
+        "messaging-narrative",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 5, source: 4 }",
+      "tier": "A",
+      "related": [
+        "ins_solis-third-party-citation-prioritization",
+        "ins_lily-ray-about-page-ai-citation-multiplier",
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor"
+      ],
+      "raw_ref": "",
+      "title": "AI agents cite articles whose headlines state the answer directly; curiosity-framing headlines get ignored because agents match questions, not scroll for interest"
+    },
+    {
       "path": "insights/ins_tech-stack-renewal-window-play.md",
       "id": "ins_tech-stack-renewal-window-play",
       "operator": "Florin Tatulea",
@@ -29765,6 +29833,36 @@
       ],
       "raw_ref": "",
       "title": "One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-circle-payback-web.md",
+      "id": "ins_tunguz-ai-circle-payback-web",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "source_type": "essay",
+      "source_title": "How Large is the AI Circle?",
+      "source_date": "2026-10-23",
+      "captured_date": "2026-10-30",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-three-waves-ai-consumption",
+        "ins_tunguz-infrastructure-debt-cagr"
+      ],
+      "raw_ref": "",
+      "title": "AI application revenue is reaching the infrastructure payback threshold twice as fast as the web era did"
     },
     {
       "path": "insights/ins_tunguz-ai-editor-not-ghostwriter.md",
@@ -35205,6 +35303,36 @@
       "title": "Asking a coding agent to \"Make it a LOT more fun\" produced better game-feel results than specific feature requests because it gave the AI latitude to discover root causes through autonomous simulation"
     },
     {
+      "path": "insights/ins_willison-vibe-game-model-taste.md",
+      "id": "ins_willison-vibe-game-model-taste",
+      "operator": "Simon Willison",
+      "operator_role": "Software developer; creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "source_type": "essay",
+      "source_title": "The October inflection point for vibe game development",
+      "source_date": "2026-10-28",
+      "captured_date": "2026-10-30",
+      "domain": [
+        "agentic-coding",
+        "game-building"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-agentic-coding-tripled-github",
+        "ins_willison-publish-before-satisfied"
+      ],
+      "raw_ref": "",
+      "title": "AI models can now design games that are fun to play, not just games that look like games"
+    },
+    {
       "path": "insights/ins_willison-voice-high-level-typing-precision.md",
       "id": "ins_willison-voice-high-level-typing-precision",
       "operator": "Simon Willison",
@@ -35885,6 +36013,37 @@
       ],
       "raw_ref": "",
       "title": "Indie games find their hook by amplifying one element of a proven genre 10,000-fold, not by mixing genres"
+    },
+    {
+      "path": "insights/ins_zukowski-clone-risk-first-demo-wins.md",
+      "id": "ins_zukowski-clone-risk-first-demo-wins",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+      "source_type": "essay",
+      "source_title": "AI Cloners Are Here. Are Indie Devs Cooked?",
+      "source_date": "2026-10-28",
+      "captured_date": "2026-10-30",
+      "domain": [
+        "game-growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-ai-disclosure-tier-stratification-oct26",
+        "ins_zukowski-demo-unlocks-widget-discovery",
+        "ins_zukowski-nextfest-momentum-beats-base"
+      ],
+      "raw_ref": "",
+      "title": "AI clone risk is conditional on three factors; the first quality demo compounds a lead that even the original idea cannot recover"
     },
     {
       "path": "insights/ins_zukowski-demo-conversion-sickos.md",
@@ -40822,6 +40981,24 @@
       "title": "Jacki Schroder Brown"
     },
     {
+      "path": "operators/jacob-sansbury/README.md",
+      "name": "Jacob Sansbury",
+      "slug": "jacob-sansbury",
+      "roles": [
+        "CEO and co-founder, Spawn"
+      ],
+      "domains_active": [
+        "ai-native",
+        "game-building"
+      ],
+      "captured_first": "2026-10-30",
+      "external": {
+        "twitter": "https://twitter.com/jsnnsa",
+        "newsletter": "https://spawn.co"
+      },
+      "title": "Jacob Sansbury"
+    },
+    {
       "path": "operators/jacob-warwick/README.md",
       "name": "Jacob Warwick",
       "slug": "jacob-warwick",
@@ -43068,6 +43245,23 @@
         "website": "https://mikemichalowicz.com/"
       },
       "title": "Mike Michalowicz"
+    },
+    {
+      "path": "operators/mike-taylor/README.md",
+      "name": "Mike Taylor",
+      "slug": "mike-taylor",
+      "roles": [
+        "Head of Evals, Every"
+      ],
+      "domains_active": [
+        "aeo",
+        "pmm"
+      ],
+      "captured_first": "2026-10-30",
+      "external": {
+        "newsletter": "https://every.to/also-true-for-humans"
+      },
+      "title": "Mike Taylor"
     },
     {
       "path": "operators/mina/README.md",
@@ -52546,6 +52740,33 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-30.md",
+      "date": "2026-10-30",
+      "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
+      "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+        "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
+        "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+        "https://tomtunguz.com/how-large-is-the-ai-circle/",
+        "https://twitter.com/jsnnsa/status/2115623382721126826"
+      ],
+      "insights_added": [
+        "ins_willison-vibe-game-model-taste",
+        "ins_taylor-ai-agents-answer-framing",
+        "ins_zukowski-clone-risk-first-demo-wins",
+        "ins_tunguz-ai-circle-payback-web",
+        "ins_sansbury-spawn-hourly-deploy-agents"
+      ],
+      "operators_added": [
+        "mike-taylor",
+        "jacob-sansbury"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-29.md",
       "date": "2026-10-29",

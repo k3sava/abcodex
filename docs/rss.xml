@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 01:51:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 01:43:22 GMT</lastBuildDate>
+    <item>
+      <title>AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-30/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-30/</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.</description>
+    </item>
     <item>
       <title>GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-29/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-01/</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.</description>
-    </item>
-    <item>
-      <title>Attribution collapses, and one measurement illusion falls with it</title>
-      <link>https://abcodex.iamkesava.com/today/2026-09-30/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-09-30/</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.</description>
     </item>
   </channel>
 </rss>
