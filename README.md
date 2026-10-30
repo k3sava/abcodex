@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-10-29 · 3 insights
+### Latest · 2026-10-30 · 5 insights · 2 operators
 
-**GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator.** Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.
+**AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop.** Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.
 
-[Read what landed →](insight-library/daily/2026-10-29.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-10-30.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1285** insight cards
-- **559** operator profiles
+- **1290** insight cards
+- **561** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 559 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 561 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

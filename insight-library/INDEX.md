@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1285 insight cards
-- 559 operator profiles
+- 1290 insight cards
+- 561 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -12,7 +12,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 
 ## Insights by tier
 
-### Tier A (362)
+### Tier A (363)
 - [`ins_absolute-counts-over-conversion-rates`](insights/ins_absolute-counts-over-conversion-rates.md) — Optimise for absolute count of users reaching each stage, not stage conversion rates _(Archie Abrams)_
 - [`ins_abt-and-but-therefore`](insights/ins_abt-and-but-therefore.md) — ABT (And, But, Therefore) is the DNA of compelling communication _(Park Howell)_
 - [`ins_add-new-growth-model-every-18-months`](insights/ins_add-new-growth-model-every-18-months.md) — Add a new growth model every 18 months and protect it from KPIs for 12 _(Elena Verna)_
@@ -324,6 +324,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_taleb-via-negativa`](insights/ins_taleb-via-negativa.md) — Improvement comes from removing harm, not adding good, addition introduces unknown failure modes; subtraction does not _(Nassim Taleb)_
 - [`ins_talia-moyal-pmm-lovable`](insights/ins_talia-moyal-pmm-lovable.md) — AI-native PMM means redesigning workflows around AI economics, not adding AI to existing ones _(Talia Moyal)_
 - [`ins_task-pull-out-pain-points`](insights/ins_task-pull-out-pain-points.md) — My task is to pull out the pain points and draft 3 positioning statements _(Sachin Jha)_
+- [`ins_taylor-ai-agents-answer-framing`](insights/ins_taylor-ai-agents-answer-framing.md) — AI agents cite articles whose headlines state the answer directly; curiosity-framing headlines get ignored because agents match questions, not scroll for interest _(Mike Taylor)_
 - [`ins_there-were-plenty-lessons-too`](insights/ins_there-were-plenty-lessons-too.md) — There were plenty of lessons too. Startups are brutally hard, and pivot hell is the wo _(Vedant Agarwala)_
 - [`ins_thiel-competition-destroys-profits`](insights/ins_thiel-competition-destroys-profits.md) — Competitive markets destroy profits, the more competitors, the less money anyone makes _(Peter Thiel)_
 - [`ins_thiel-definite-vs-indefinite-optimism`](insights/ins_thiel-definite-vs-indefinite-optimism.md) — Definite optimists build concrete plans; indefinite optimists hedge, modern business culture has drifted to indefinite _(Peter Thiel)_
@@ -376,7 +377,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (835)
+### Tier B (839)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -928,6 +929,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_samuel-cahoon-activation-is-crucial`](insights/ins_samuel-cahoon-activation-is-crucial.md) — Activation is crucial: we built in-app onboarding to guide users to the Aha moment and reduce TTV. _(Samuel Cahoon)_
 - [`ins_sangram-vajre-fractional-packaging-gap`](insights/ins_sangram-vajre-fractional-packaging-gap.md) — The gap between $50-80K freelancers and $250K+ fractionals is positioning and packaging, not skill _(Sangram Vajre)_
 - [`ins_sanne-ijspeerd-story-evolves-with-product-phase`](insights/ins_sanne-ijspeerd-story-evolves-with-product-phase.md) — Most B2B SaaS expansion fails because companies pick the wrong segment, not the wrong tactics _(Sanne IJspeerd)_
+- [`ins_sansbury-spawn-hourly-deploy-agents`](insights/ins_sansbury-spawn-hourly-deploy-agents.md) — At an agentic game studio, going one hour without a production deploy is a SEV-0 incident because unshipped changes accumulate blast radius _(Jacob Sansbury)_
 - [`ins_schafer-three-headline-archetypes`](insights/ins_schafer-three-headline-archetypes.md) — Three headline archetypes, Flirting (curiosity), Direct (clarity), Pain-based (problem-recognition), pick the one that matches funnel stage _(Cole Schafer)_
 - [`ins_schafer-three-pass-writing-process`](insights/ins_schafer-three-pass-writing-process.md) — Three sequential passes, pole + headline first, voice second, integration third, single-pass writing collapses persuasion and personality into mush _(Cole Schafer)_
 - [`ins_seasons-not-roadmaps`](insights/ins_seasons-not-roadmaps.md) — Plan in seasons keyed to secular changes, not 6-month roadmaps _(Asha Sharma)_
@@ -1026,6 +1028,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-agent-night-shift`](insights/ins_tunguz-ai-agent-night-shift.md) — Reported 3x AI productivity gains are agent shift-work economics, not intelligence multiplication _(Tom Tunguz)_
 - [`ins_tunguz-ai-category-winner-premium`](insights/ins_tunguz-ai-category-winner-premium.md) — One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly _(Tom Tunguz)_
+- [`ins_tunguz-ai-circle-payback-web`](insights/ins_tunguz-ai-circle-payback-web.md) — AI application revenue is reaching the infrastructure payback threshold twice as fast as the web era did _(Tom Tunguz)_
 - [`ins_tunguz-ai-editor-not-ghostwriter`](insights/ins_tunguz-ai-editor-not-ghostwriter.md) — AI homogenizes voice because all writers share the same ghostwriter, so use AI as an editor and preserve your own stylistic markers _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-ghostwriter-editor`](insights/ins_tunguz-ai-ghostwriter-editor.md) — AI fails as a ghostwriter because every user shares the same underlying voice; it succeeds as an editor that suppresses itself _(Tom Tunguz)_
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
@@ -1181,6 +1184,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
 - [`ins_willison-tokenmaxx-cost-correction`](insights/ins_willison-tokenmaxx-cost-correction.md) — The tokenmaxxing proxy for model quality collapsed when agent deployments proved that cost per outcome is the binding constraint, not capability per call. _(Simon Willison)_
 - [`ins_willison-undirected-quality-directive`](insights/ins_willison-undirected-quality-directive.md) — Asking a coding agent to "Make it a LOT more fun" produced better game-feel results than specific feature requests because it gave the AI latitude to discover root causes through autonomous simulation _(Simon Willison)_
+- [`ins_willison-vibe-game-model-taste`](insights/ins_willison-vibe-game-model-taste.md) — AI models can now design games that are fun to play, not just games that look like games _(Simon Willison)_
 - [`ins_willison-voice-high-level-typing-precision`](insights/ins_willison-voice-high-level-typing-precision.md) — Voice input works for high-level AI-assisted development direction; typing stays necessary for precision work and passing concrete examples _(Simon Willison)_
 - [`ins_work-vs-code-modality`](insights/ins_work-vs-code-modality.md) — Work-mode agents return a finished output; Code-mode agents expose the working process _(Ethan Mollick)_
 - [`ins_working-really-hard-smart-storylane`](insights/ins_working-really-hard-smart-storylane.md) — We are working really hard and smart Storylane. My calendar goes from 8 AM to midnight _(Nalin Senthamil)_
@@ -1196,6 +1200,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [`ins_youtube-seo-engagement-not-links`](insights/ins_youtube-seo-engagement-not-links.md) — Video SEO is a different sport, YouTube ranks on engagement, not link authority _(Sam Oh)_
 - [`ins_zukowski-ai-disclosure-tier-stratification-oct26`](insights/ins_zukowski-ai-disclosure-tier-stratification-oct26.md) — AI-disclosing games made up 8% of the top 25 but 35% of games ranked 101 or lower in October 2026 Steam Next Fest _(Chris Zukowski)_
 - [`ins_zukowski-amplify-not-mix-genres`](insights/ins_zukowski-amplify-not-mix-genres.md) — Indie games find their hook by amplifying one element of a proven genre 10,000-fold, not by mixing genres _(Chris Zukowski)_
+- [`ins_zukowski-clone-risk-first-demo-wins`](insights/ins_zukowski-clone-risk-first-demo-wins.md) — AI clone risk is conditional on three factors; the first quality demo compounds a lead that even the original idea cannot recover _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
@@ -1548,6 +1553,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [Ivan Wang](operators/ivan-wang/README.md)
 - [Jacco van der Kooij](operators/jacco-van-der-kooij/README.md)
 - [Jacki Schroder Brown](operators/jacki-schroder-brown/README.md)
+- [Jacob Sansbury](operators/jacob-sansbury/README.md)
 - [Jacob Warwick](operators/jacob-warwick/README.md)
 - [Jagpreet Kaur](operators/jagpreet-kaur/README.md)
 - [Jake Castillo](operators/jake-castillo/README.md)
@@ -1672,6 +1678,7 @@ _Generated 2026-10-29. Auto-built from frontmatter — do not edit by hand._
 - [Mike King](operators/mike-king/README.md)
 - [Mike Krieger](operators/mike-krieger/README.md)
 - [Mike Michalowicz](operators/mike-michalowicz/README.md)
+- [Mike Taylor](operators/mike-taylor/README.md)
 - [Mina ..](operators/mina/README.md)
 - [Mitchell Hashimoto](operators/mitchell-hashimoto/README.md)
 - [Momoko Price](operators/momoko-price/README.md)

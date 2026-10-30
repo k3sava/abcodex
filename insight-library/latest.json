@@ -1,26 +1,60 @@
 {
-  "generated_at": "2026-10-29T01:51:09.770Z",
+  "generated_at": "2026-10-30T01:43:17.057Z",
   "latest_daily": {
-    "path": "daily/2026-10-29.md",
-    "date": "2026-10-29",
-    "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
-    "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
+    "path": "daily/2026-10-30.md",
+    "date": "2026-10-30",
+    "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
+    "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
-      "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
+      "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+      "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
+      "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+      "https://tomtunguz.com/how-large-is-the-ai-circle/",
+      "https://twitter.com/jsnnsa/status/2115623382721126826"
     ],
     "insights_added": [
-      "ins_willison-agentic-coding-tripled-github",
-      "ins_mollick-experts-underestimate-ai-progress",
-      "ins_chase-agent-memory-next-frontier"
+      "ins_willison-vibe-game-model-taste",
+      "ins_taylor-ai-agents-answer-framing",
+      "ins_zukowski-clone-risk-first-demo-wins",
+      "ins_tunguz-ai-circle-payback-web",
+      "ins_sansbury-spawn-hourly-deploy-agents"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mike-taylor",
+      "jacob-sansbury"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-30.md",
+      "date": "2026-10-30",
+      "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
+      "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
+      "sources": [
+        "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+        "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
+        "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
+        "https://tomtunguz.com/how-large-is-the-ai-circle/",
+        "https://twitter.com/jsnnsa/status/2115623382721126826"
+      ],
+      "insights_added": [
+        "ins_willison-vibe-game-model-taste",
+        "ins_taylor-ai-agents-answer-framing",
+        "ins_zukowski-clone-risk-first-demo-wins",
+        "ins_tunguz-ai-circle-payback-web",
+        "ins_sansbury-spawn-hourly-deploy-agents"
+      ],
+      "operators_added": [
+        "mike-taylor",
+        "jacob-sansbury"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-29.md",
       "date": "2026-10-29",
@@ -619,26 +653,6 @@
         "ins_willison-tokenmaxx-cost-correction",
         "ins_willison-ondevice-frontier-convergence",
         "ins_willison-devday-agent-longtask-tripling"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-09-30.md",
-      "date": "2026-09-30",
-      "title": "Attribution collapses, and one measurement illusion falls with it",
-      "summary": "Four cards from two operators. Kevin Indig published the structural argument for why attribution was always the wrong tool for organic channels, then named the AI-specific failure mode and a triangulation framework to replace it. Simon Willison added one precise observation about where coding agents stop being useful in game development.",
-      "sources": [
-        "https://www.growth-memo.com/p/the-collapse-of-attribution",
-        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/"
-      ],
-      "insights_added": [
-        "ins_indig-attribution-organic-misfit",
-        "ins_indig-ai-search-attribution-gap",
-        "ins_indig-triangulation-metric-set",
-        "ins_willison-game-loop-agent-limit"
       ],
       "operators_added": [],
       "patterns_added": [],
