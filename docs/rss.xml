@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 01:43:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 01:49:48 GMT</lastBuildDate>
+    <item>
+      <title>Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe</title>
+      <link>https://abcodex.iamkesava.com/today/2026-10-31/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-31/</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.</description>
+    </item>
     <item>
       <title>AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-30/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-02/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.</description>
-    </item>
-    <item>
-      <title>Agent deployments correct the theory, and laptops catch the cloud</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-01/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-01/</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.</description>
     </item>
   </channel>
 </rss>

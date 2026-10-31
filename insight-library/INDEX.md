@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1290 insight cards
-- 561 operator profiles
+- 1294 insight cards
+- 562 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (839)
+### Tier B (843)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -482,6 +482,7 @@ _Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brands-as-tribal-identifiers`](insights/ins_brands-as-tribal-identifiers.md) — Brands are tribal identifiers. Loyalty is affiliative, not rational. _(Debbie Millman)_
 - [`ins_brendan-hufford-four-content-failure-modes`](insights/ins_brendan-hufford-four-content-failure-modes.md) — Four content failure modes destroy every funnel: corporate, commodity, copycat, and ChatGPT content. GTM engineering cannot exit the sameness trap they produce. _(Brendan Hufford)_
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
+- [`ins_breunig-chat-history-overrides-instructions`](insights/ins_breunig-chat-history-overrides-instructions.md) — Accumulated examples in chat history override explicit instructions before the user notices _(Drew Breunig)_
 - [`ins_breunig-context-inertia-agent-fixation`](insights/ins_breunig-context-inertia-agent-fixation.md) — Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation _(Drew Breunig)_
 - [`ins_breunig-deterministic-probabilistic-split`](insights/ins_breunig-deterministic-probabilistic-split.md) — The core decision in context engineering is what to make deterministic and what to leave probabilistic _(Drew Breunig)_
 - [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
@@ -558,6 +559,8 @@ _Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_different-is-better-than-better`](insights/ins_different-is-better-than-better.md) — Different is better than better, you don't learn how to be fascinating, you unlearn how to be boring _(Sally Hogshead)_
 - [`ins_dileep-krishna-automation-maintenance-bottleneck`](insights/ins_dileep-krishna-automation-maintenance-bottleneck.md) — Test automation that can't adapt to product changes creates a maintenance burden worse than manual testing. _(Dileep Krishna)_
 - [`ins_dill-ai-raises-ceiling-not-floor`](insights/ins_dill-ai-raises-ceiling-not-floor.md) — Teams using AI only for speed are floor-lifting. The greater gain is ceiling-raising: shipping quality that was previously too slow to produce. _(Katie Dill)_
+- [`ins_dombrowski-ai-google-query-moment-split`](insights/ins_dombrowski-ai-google-query-moment-split.md) — AI and Google serve different cognitive moments, not the same moment with different interfaces _(Cate Dombrowski)_
+- [`ins_dombrowski-surface-shapes-query-expression`](insights/ins_dombrowski-surface-shapes-query-expression.md) — Google trained users to compress needs into keywords; AI surfaces break that conditioning _(Cate Dombrowski)_
 - [`ins_don-care-how-awesome-prompting`](insights/ins_don-care-how-awesome-prompting.md) — I don't care how awesome you are at prompting; a PMM must be a decent writer. Practice _(Stefan Gladbach)_
 - [`ins_don-ignore-stuck-feeling-pointing`](insights/ins_don-ignore-stuck-feeling-pointing.md) — 𝗔𝘀 𝗮𝗻 𝗲𝗺𝗽𝗹𝗼𝘆𝗲𝗲: Don't ignore that stuck feeling. It's pointing you toward something bet _(Lola Han)_
 - [`ins_doshi-distribution-belief-trap`](insights/ins_doshi-distribution-belief-trap.md) — Product builders hold four beliefs about distribution and product quality that are each defensible alone but collectively self-defeating _(Shreyas Doshi)_
@@ -716,6 +719,7 @@ _Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
 - [`ins_kim-ai-roi-salaried-ceiling`](insights/ins_kim-ai-roi-salaried-ceiling.md) — AI productivity gains in salaried organizations cap at the existing output level because salary structures reward delivery, not volume _(Joseph Kim)_
 - [`ins_kim-llm-game-discovery-via-pr`](insights/ins_kim-llm-game-discovery-via-pr.md) — LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery _(Joseph Kim)_
+- [`ins_king-ai-search-branding-not-traffic`](insights/ins_king-ai-search-branding-not-traffic.md) — Judging AI search by referral traffic is a category error because the return is presence, not clicks _(Mike King)_
 - [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
 - [`ins_krouse-claude-top-acquisition-channel`](insights/ins_krouse-claude-top-acquisition-channel.md) — A coding agent that actively deploys to a platform can become its single largest user-acquisition channel _(Steve Krouse)_
@@ -1419,6 +1423,7 @@ _Generated 2026-10-30. Auto-built from frontmatter — do not edit by hand._
 - [Bryan Cantrill](operators/bryan-cantrill/README.md)
 - [Casey Hill](operators/casey-hill/README.md)
 - [Cat Wu](operators/cat-wu/README.md)
+- [Cate Dombrowski](operators/cate-dombrowski/README.md)
 - [Chantal Cox](operators/chantal-cox/README.md)
 - [Charity Majors](operators/charity-majors/README.md)
 - [Charlie Munger](operators/charlie-munger/README.md)
