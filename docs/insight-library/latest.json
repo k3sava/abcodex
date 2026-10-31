@@ -1,33 +1,52 @@
 {
-  "generated_at": "2026-10-30T01:43:17.057Z",
+  "generated_at": "2026-10-31T01:49:44.285Z",
   "latest_daily": {
-    "path": "daily/2026-10-30.md",
-    "date": "2026-10-30",
-    "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
-    "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
+    "path": "daily/2026-10-31.md",
+    "date": "2026-10-31",
+    "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
+    "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-      "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
-      "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
-      "https://tomtunguz.com/how-large-is-the-ai-circle/",
-      "https://twitter.com/jsnnsa/status/2115623382721126826"
+      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "https://ipullrank.com/ai-search-user-behavior",
+      "https://ipullrank.com/ai-search-is-a-branding-channel"
     ],
     "insights_added": [
-      "ins_willison-vibe-game-model-taste",
-      "ins_taylor-ai-agents-answer-framing",
-      "ins_zukowski-clone-risk-first-demo-wins",
-      "ins_tunguz-ai-circle-payback-web",
-      "ins_sansbury-spawn-hourly-deploy-agents"
+      "ins_breunig-chat-history-overrides-instructions",
+      "ins_dombrowski-ai-google-query-moment-split",
+      "ins_dombrowski-surface-shapes-query-expression",
+      "ins_king-ai-search-branding-not-traffic"
     ],
     "operators_added": [
-      "mike-taylor",
-      "jacob-sansbury"
+      "cate-dombrowski"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-10-31.md",
+      "date": "2026-10-31",
+      "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
+      "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
+      "sources": [
+        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+        "https://ipullrank.com/ai-search-user-behavior",
+        "https://ipullrank.com/ai-search-is-a-branding-channel"
+      ],
+      "insights_added": [
+        "ins_breunig-chat-history-overrides-instructions",
+        "ins_dombrowski-ai-google-query-moment-split",
+        "ins_dombrowski-surface-shapes-query-expression",
+        "ins_king-ai-search-branding-not-traffic"
+      ],
+      "operators_added": [
+        "cate-dombrowski"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-30.md",
       "date": "2026-10-30",
@@ -634,25 +653,6 @@
         "ins_agents-self-organize-no-mgmt-overhead",
         "ins_eval-data-first-before-metrics",
         "ins_ai-search-attribution-triangulation"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-01.md",
-      "date": "2026-10-01",
-      "title": "Agent deployments correct the theory, and laptops catch the cloud",
-      "summary": "Three cards from Simon Willison across two September posts. Two are corrections: tokenmaxxing collapsed under real agent cost, and on-device models closed the frontier gap. The third is the first public number on long-task agent autonomy.",
-      "sources": [
-        "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-        "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/"
-      ],
-      "insights_added": [
-        "ins_willison-tokenmaxx-cost-correction",
-        "ins_willison-ondevice-frontier-convergence",
-        "ins_willison-devday-agent-longtask-tripling"
       ],
       "operators_added": [],
       "patterns_added": [],

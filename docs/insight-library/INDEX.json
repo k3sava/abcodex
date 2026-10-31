@@ -1,36 +1,32 @@
 {
-  "generated_at": "2026-10-30T01:43:17.018Z",
+  "generated_at": "2026-10-31T01:49:44.222Z",
   "counts": {
-    "insights": 1290,
-    "operators": 561,
+    "insights": 1294,
+    "operators": 562,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 152
+    "daily": 153
   },
   "latest_daily": {
-    "path": "daily/2026-10-30.md",
-    "date": "2026-10-30",
-    "title": "AI game design taste, answer-first AEO, clone defense, AI economics, and the hourly deploy loop",
-    "summary": "Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.",
+    "path": "daily/2026-10-31.md",
+    "date": "2026-10-31",
+    "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
+    "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
     "sources": [
-      "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-      "https://every.to/also-true-for-humans/how-to-get-ai-agents-to-recommend-your-articles",
-      "https://howtomarketagame.com/2026/10/28/ai-cloners-are-here-are-indie-devs-cooked/",
-      "https://tomtunguz.com/how-large-is-the-ai-circle/",
-      "https://twitter.com/jsnnsa/status/2115623382721126826"
+      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "https://ipullrank.com/ai-search-user-behavior",
+      "https://ipullrank.com/ai-search-is-a-branding-channel"
     ],
     "insights_added": [
-      "ins_willison-vibe-game-model-taste",
-      "ins_taylor-ai-agents-answer-framing",
-      "ins_zukowski-clone-risk-first-demo-wins",
-      "ins_tunguz-ai-circle-payback-web",
-      "ins_sansbury-spawn-hourly-deploy-agents"
+      "ins_breunig-chat-history-overrides-instructions",
+      "ins_dombrowski-ai-google-query-moment-split",
+      "ins_dombrowski-surface-shapes-query-expression",
+      "ins_king-ai-search-branding-not-traffic"
     ],
     "operators_added": [
-      "mike-taylor",
-      "jacob-sansbury"
+      "cate-dombrowski"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -4338,6 +4334,37 @@
       "title": "Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost"
     },
     {
+      "path": "insights/ins_breunig-chat-history-overrides-instructions.md",
+      "id": "ins_breunig-chat-history-overrides-instructions",
+      "operator": "Drew Breunig",
+      "operator_role": "Writer and AI product thinker, dbreunig.com",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source_type": "essay",
+      "source_title": "The State of Context Engineering",
+      "source_date": "2026-10-24",
+      "captured_date": "2026-10-31",
+      "domain": [
+        "engineering-ai-eng",
+        "ai-native-operating"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-context-inertia-agent-fixation",
+        "ins_breunig-deterministic-probabilistic-split",
+        "ins_breunig-long-context-error-amplification"
+      ],
+      "raw_ref": "",
+      "title": "Accumulated examples in chat history override explicit instructions before the user notices"
+    },
+    {
       "path": "insights/ins_breunig-context-inertia-agent-fixation.md",
       "id": "ins_breunig-context-inertia-agent-fixation",
       "operator": "Drew Breunig",
@@ -7591,6 +7618,70 @@
       ],
       "raw_ref": "raw/expert-content/experts/matt-dixon.md",
       "title": "53% of customer loyalty is driven by the sales experience itself, not brand, product, price, or service"
+    },
+    {
+      "path": "insights/ins_dombrowski-ai-google-query-moment-split.md",
+      "id": "ins_dombrowski-ai-google-query-moment-split",
+      "operator": "Cate Dombrowski",
+      "operator_role": "AI search researcher, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/ai-search-user-behavior",
+      "source_type": "essay",
+      "source_title": "How the Same 16,000 Users Behave in AI Search vs. Google",
+      "source_date": "2026-10-29",
+      "captured_date": "2026-10-31",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_dombrowski-surface-shapes-query-expression",
+        "ins_indig-organic-decline-publisher-concentration",
+        "ins_king-ai-search-branding-not-traffic"
+      ],
+      "raw_ref": "",
+      "title": "AI and Google serve different cognitive moments, not the same moment with different interfaces"
+    },
+    {
+      "path": "insights/ins_dombrowski-surface-shapes-query-expression.md",
+      "id": "ins_dombrowski-surface-shapes-query-expression",
+      "operator": "Cate Dombrowski",
+      "operator_role": "AI search researcher, iPullRank",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/ai-search-user-behavior",
+      "source_type": "essay",
+      "source_title": "How the Same 16,000 Users Behave in AI Search vs. Google",
+      "source_date": "2026-10-29",
+      "captured_date": "2026-10-31",
+      "domain": [
+        "aeo-llm-search",
+        "seo",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_dombrowski-ai-google-query-moment-split",
+        "ins_taylor-ai-agents-answer-framing",
+        "ins_king-ai-search-branding-not-traffic"
+      ],
+      "raw_ref": "",
+      "title": "Google trained users to compress needs into keywords; AI surfaces break that conditioning"
     },
     {
       "path": "insights/ins_don-care-how-awesome-prompting.md",
@@ -14920,6 +15011,38 @@
       ],
       "raw_ref": "",
       "title": "LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery"
+    },
+    {
+      "path": "insights/ins_king-ai-search-branding-not-traffic.md",
+      "id": "ins_king-ai-search-branding-not-traffic",
+      "operator": "Mike King",
+      "operator_role": "Founder and CEO of iPullRank; Search Marketer of the Year 2025; author of The AI Search Manual",
+      "co_operators": [],
+      "source_url": "https://ipullrank.com/ai-search-is-a-branding-channel",
+      "source_type": "essay",
+      "source_title": "AI Search Is Not a Distraction, It's a Branding Channel",
+      "source_date": "2026-10-22",
+      "captured_date": "2026-10-31",
+      "domain": [
+        "aeo-llm-search",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "attribution-measurement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_dombrowski-ai-google-query-moment-split",
+        "ins_indig-organic-decline-publisher-concentration",
+        "ins_taylor-ai-agents-answer-framing"
+      ],
+      "raw_ref": "",
+      "title": "Judging AI search by referral traffic is a category error because the return is presence, not clicks"
     },
     {
       "path": "insights/ins_krieger-async-agent-delegation.md",
@@ -38521,6 +38644,24 @@
       "title": "Cat Wu"
     },
     {
+      "path": "operators/cate-dombrowski/README.md",
+      "name": "Cate Dombrowski",
+      "slug": "cate-dombrowski",
+      "roles": [
+        "AI search researcher, iPullRank"
+      ],
+      "domains_active": [
+        "aeo-llm-search",
+        "seo",
+        "growth-demand"
+      ],
+      "captured_first": "2026-10-31",
+      "external": {
+        "website": "https://ipullrank.com/author/cate"
+      },
+      "title": "Cate Dombrowski"
+    },
+    {
       "path": "operators/chantal-cox/README.md",
       "name": "Chantal Cox",
       "slug": "chantal-cox",
@@ -52740,6 +52881,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-10-31.md",
+      "date": "2026-10-31",
+      "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
+      "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
+      "sources": [
+        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+        "https://ipullrank.com/ai-search-user-behavior",
+        "https://ipullrank.com/ai-search-is-a-branding-channel"
+      ],
+      "insights_added": [
+        "ins_breunig-chat-history-overrides-instructions",
+        "ins_dombrowski-ai-google-query-moment-split",
+        "ins_dombrowski-surface-shapes-query-expression",
+        "ins_king-ai-search-branding-not-traffic"
+      ],
+      "operators_added": [
+        "cate-dombrowski"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-30.md",
       "date": "2026-10-30",
