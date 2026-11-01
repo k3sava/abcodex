@@ -43,7 +43,7 @@ The study drew from 124 papers submitted to rapidPeer, a Harvard service where p
 - A second judge model independently confirms the preference for AI reviews when used to adjudicate.
 
 ## Counter-evidence
-The study covers social science papers from one Harvard service and may not generalize to other disciplines (STEM, clinical research, experimental physics). It does not address publication gatekeeping, only review quality. The authors explicitly separate giving authors constructive advice (tested) from deciding what to publish (not tested). There is also an argument that AI reviews may favor established methods over heterodox or paradigm-challenging work that post-dates training data.
+The study covers social science papers from one Harvard service and may not generalize to other disciplines (STEM, clinical research, experimental physics). It does not address publication gatekeeping, only review quality. The authors explicitly separate giving authors constructive advice (tested) from deciding what to publish (not tested). There is also an argument that AI reviews may favor established methods over heterodox or convention-challenging work that post-dates training data.
 
 ## Cross-references
 - (none in current corpus)
