@@ -1,32 +1,33 @@
 {
-  "generated_at": "2026-10-31T01:49:44.222Z",
+  "generated_at": "2026-11-01T01:42:42.702Z",
   "counts": {
-    "insights": 1294,
-    "operators": 562,
+    "insights": 1299,
+    "operators": 563,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 153
+    "daily": 154
   },
   "latest_daily": {
-    "path": "daily/2026-10-31.md",
-    "date": "2026-10-31",
-    "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
-    "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
+    "path": "daily/2026-11-01.md",
+    "date": "2026-11-01",
+    "title": "Agent workflow discipline and AI peer review outperforming human experts",
+    "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
     "sources": [
-      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "https://ipullrank.com/ai-search-user-behavior",
-      "https://ipullrank.com/ai-search-is-a-branding-channel"
+      "https://x.com/thorstenball/status/2114386050638336082",
+      "https://ampcode.com/docs/using-amp/thorsten",
+      "https://gking.harvard.edu/peerless"
     ],
     "insights_added": [
-      "ins_breunig-chat-history-overrides-instructions",
-      "ins_dombrowski-ai-google-query-moment-split",
-      "ins_dombrowski-surface-shapes-query-expression",
-      "ins_king-ai-search-branding-not-traffic"
+      "ins_ball-irrefutable-proof-protocol",
+      "ins_ball-agent-knowledge-empirical-test",
+      "ins_ball-thread-commit-decision-link",
+      "ins_ball-iteration-tooling-over-chat",
+      "ins_king-ai-review-beats-experts"
     ],
     "operators_added": [
-      "cate-dombrowski"
+      "gary-king"
     ],
     "patterns_added": [],
     "playbooks_added": [],
@@ -3285,6 +3286,37 @@
       "title": "AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold"
     },
     {
+      "path": "insights/ins_ball-agent-knowledge-empirical-test.md",
+      "id": "ins_ball-agent-knowledge-empirical-test",
+      "operator": "Thorsten Ball",
+      "operator_role": "Staff Engineer, Sourcegraph Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/status/2114386050638336082",
+      "source_type": "thread",
+      "source_title": "How I work with Agents",
+      "source_date": "2026-10-25",
+      "captured_date": "2026-11-01",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-observability-legible-to-agent",
+        "ins_ball-specification-bug-era"
+      ],
+      "raw_ref": "",
+      "title": "AGENTS.md files and skills should be tested empirically, not trusted by presence"
+    },
+    {
       "path": "insights/ins_ball-agent-picks-the-language.md",
       "id": "ins_ball-agent-picks-the-language",
       "operator": "Thorsten Ball",
@@ -3344,6 +3376,68 @@
       ],
       "raw_ref": "",
       "title": "Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine"
+    },
+    {
+      "path": "insights/ins_ball-irrefutable-proof-protocol.md",
+      "id": "ins_ball-irrefutable-proof-protocol",
+      "operator": "Thorsten Ball",
+      "operator_role": "Staff Engineer, Sourcegraph Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/status/2114386050638336082",
+      "source_type": "thread",
+      "source_title": "How I work with Agents",
+      "source_date": "2026-10-25",
+      "captured_date": "2026-11-01",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-production-gate-replaces-pr",
+        "ins_willison-instruction-over-review"
+      ],
+      "raw_ref": "",
+      "title": "Demanding irrefutable proof from a coding agent replaces trust-based review with evidence-based confirmation"
+    },
+    {
+      "path": "insights/ins_ball-iteration-tooling-over-chat.md",
+      "id": "ins_ball-iteration-tooling-over-chat",
+      "operator": "Thorsten Ball",
+      "operator_role": "Staff Engineer, Sourcegraph Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/status/2114386050638336082",
+      "source_type": "thread",
+      "source_title": "How I work with Agents",
+      "source_date": "2026-10-25",
+      "captured_date": "2026-11-01",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-agent-knowledge-empirical-test",
+        "ins_ball-orb-sandbox-agent-frequency"
+      ],
+      "raw_ref": "",
+      "title": "Build a dedicated iteration tool rather than re-prompting agents in chat when multiple design options need comparison"
     },
     {
       "path": "insights/ins_ball-local-dev-orbs-displacement.md",
@@ -3615,6 +3709,37 @@
       ],
       "raw_ref": "",
       "title": "As AI handles coding reliably, most software bugs shift from implementation errors to specification errors"
+    },
+    {
+      "path": "insights/ins_ball-thread-commit-decision-link.md",
+      "id": "ins_ball-thread-commit-decision-link",
+      "operator": "Thorsten Ball",
+      "operator_role": "Staff Engineer, Sourcegraph Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/status/2114386050638336082",
+      "source_type": "thread",
+      "source_title": "How I work with Agents",
+      "source_date": "2026-10-25",
+      "captured_date": "2026-11-01",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng",
+        "agentic-coding"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-production-gate-replaces-pr",
+        "ins_ball-specification-bug-era"
+      ],
+      "raw_ref": "",
+      "title": "Linking agent conversation threads to git commits preserves decision context that code alone cannot carry"
     },
     {
       "path": "insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md",
@@ -15011,6 +15136,36 @@
       ],
       "raw_ref": "",
       "title": "LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery"
+    },
+    {
+      "path": "insights/ins_king-ai-review-beats-experts.md",
+      "id": "ins_king-ai-review-beats-experts",
+      "operator": "Gary King",
+      "operator_role": "Albert J. Weatherhead III University Professor, Harvard University",
+      "co_operators": [
+        "Steven Worthington"
+      ],
+      "source_url": "https://gking.harvard.edu/peerless",
+      "source_type": "research",
+      "source_title": "AI Article Reviews Dominate Human Peer Reviews at Their Best: Evidence and Policy Choices",
+      "source_date": "2026-10-28",
+      "captured_date": "2026-11-01",
+      "domain": [
+        "ai-native",
+        "leadership",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Claude Opus 4.8 outperformed expert human peer reviewers on every measured dimension in a controlled Harvard study"
     },
     {
       "path": "insights/ins_king-ai-search-branding-not-traffic.md",
@@ -40412,6 +40567,26 @@
       "title": "Gartner"
     },
     {
+      "path": "operators/gary-king/README.md",
+      "name": "Gary King",
+      "slug": "gary-king",
+      "roles": [
+        "Albert J. Weatherhead III University Professor, Harvard University",
+        "Director, Institute for Quantitative Social Science, Harvard"
+      ],
+      "domains_active": [
+        "ai-native",
+        "leadership",
+        "future-of-work",
+        "research"
+      ],
+      "captured_first": "2026-11-01",
+      "external": {
+        "website": "https://gking.harvard.edu"
+      },
+      "title": "Gary King"
+    },
+    {
       "path": "operators/gary-yin/README.md",
       "name": "Gary Yin",
       "slug": "gary-yin",
@@ -52881,6 +53056,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-01.md",
+      "date": "2026-11-01",
+      "title": "Agent workflow discipline and AI peer review outperforming human experts",
+      "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
+      "sources": [
+        "https://x.com/thorstenball/status/2114386050638336082",
+        "https://ampcode.com/docs/using-amp/thorsten",
+        "https://gking.harvard.edu/peerless"
+      ],
+      "insights_added": [
+        "ins_ball-irrefutable-proof-protocol",
+        "ins_ball-agent-knowledge-empirical-test",
+        "ins_ball-thread-commit-decision-link",
+        "ins_ball-iteration-tooling-over-chat",
+        "ins_king-ai-review-beats-experts"
+      ],
+      "operators_added": [
+        "gary-king"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-31.md",
       "date": "2026-10-31",

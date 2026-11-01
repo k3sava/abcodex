@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-01. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1294 insight cards
-- 562 operator profiles
+- 1299 insight cards
+- 563 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (843)
+### Tier B (848)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -451,8 +451,11 @@ _Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_ball-agent-bug-threshold`](insights/ins_ball-agent-bug-threshold.md) — AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold _(Thorsten Ball)_
+- [`ins_ball-agent-knowledge-empirical-test`](insights/ins_ball-agent-knowledge-empirical-test.md) — AGENTS.md files and skills should be tested empirically, not trusted by presence _(Thorsten Ball)_
 - [`ins_ball-agent-picks-the-language`](insights/ins_ball-agent-picks-the-language.md) — Language selection criteria shift from developer preference to agent performance when agents write most of the code _(Thorsten Ball)_
 - [`ins_ball-code-elegance-is-cognitive-artifact`](insights/ins_ball-code-elegance-is-cognitive-artifact.md) — Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine _(Thorsten Ball)_
+- [`ins_ball-irrefutable-proof-protocol`](insights/ins_ball-irrefutable-proof-protocol.md) — Demanding irrefutable proof from a coding agent replaces trust-based review with evidence-based confirmation _(Thorsten Ball)_
+- [`ins_ball-iteration-tooling-over-chat`](insights/ins_ball-iteration-tooling-over-chat.md) — Build a dedicated iteration tool rather than re-prompting agents in chat when multiple design options need comparison _(Thorsten Ball)_
 - [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
 - [`ins_ball-maintenance-automation-arrives-first`](insights/ins_ball-maintenance-automation-arrives-first.md) — Self-improving software arrives first in pure maintenance contexts because growing systems still need human goal signals _(Thorsten Ball)_
 - [`ins_ball-naive-interventionism-ai-code`](insights/ins_ball-naive-interventionism-ai-code.md) — Engineers who dismiss AI-generated code as low-quality apply the same professional bias that causes domain experts to over-intervene within their specialty _(Thorsten Ball)_
@@ -462,6 +465,7 @@ _Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-production-gate-replaces-pr`](insights/ins_ball-production-gate-replaces-pr.md) — When agents own most code output, production observability replaces pre-merge review as the quality gate _(Thorsten Ball)_
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
 - [`ins_ball-specification-bug-era`](insights/ins_ball-specification-bug-era.md) — As AI handles coding reliably, most software bugs shift from implementation errors to specification errors _(Thorsten Ball)_
+- [`ins_ball-thread-commit-decision-link`](insights/ins_ball-thread-commit-decision-link.md) — Linking agent conversation threads to git commits preserves decision context that code alone cannot carry _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
 - [`ins_barry-schwartz-preferred-source-labels`](insights/ins_barry-schwartz-preferred-source-labels.md) — Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it _(Barry Schwartz)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
@@ -719,6 +723,7 @@ _Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kevin-lord-barry-timeless-b2b-ad-principles`](insights/ins_kevin-lord-barry-timeless-b2b-ad-principles.md) — Winning B2B ads are built on timeless principles that work today, not trendy tactics. _(Kevin Lord Barry)_
 - [`ins_kim-ai-roi-salaried-ceiling`](insights/ins_kim-ai-roi-salaried-ceiling.md) — AI productivity gains in salaried organizations cap at the existing output level because salary structures reward delivery, not volume _(Joseph Kim)_
 - [`ins_kim-llm-game-discovery-via-pr`](insights/ins_kim-llm-game-discovery-via-pr.md) — LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery _(Joseph Kim)_
+- [`ins_king-ai-review-beats-experts`](insights/ins_king-ai-review-beats-experts.md) — Claude Opus 4.8 outperformed expert human peer reviewers on every measured dimension in a controlled Harvard study _(Gary King)_
 - [`ins_king-ai-search-branding-not-traffic`](insights/ins_king-ai-search-branding-not-traffic.md) — Judging AI search by referral traffic is a category error because the return is presence, not clicks _(Mike King)_
 - [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
@@ -1517,6 +1522,7 @@ _Generated 2026-10-31. Auto-built from frontmatter — do not edit by hand._
 - [G2](operators/g2/README.md)
 - [Gaetano DiNardi](operators/gaetano-dinardi/README.md)
 - [Gartner](operators/gartner/README.md)
+- [Gary King](operators/gary-king/README.md)
 - [Gary Yin](operators/gary-yin/README.md)
 - [Gaurav Sharma](operators/gaurav-sharma/README.md)
 - [Geoffrey Huntley](operators/geoffrey-huntley/README.md)
