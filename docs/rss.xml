@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 01:49:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:42:45 GMT</lastBuildDate>
+    <item>
+      <title>Agent workflow discipline and AI peer review outperforming human experts</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-01/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-01/</guid>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.</description>
+    </item>
     <item>
       <title>Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe</title>
       <link>https://abcodex.iamkesava.com/today/2026-10-31/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-03/</guid>
       <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
       <description>Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.</description>
-    </item>
-    <item>
-      <title>Agents dissolve management, evals demand data, and attribution collapses under AI search</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-02/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-02/</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.</description>
     </item>
   </channel>
 </rss>

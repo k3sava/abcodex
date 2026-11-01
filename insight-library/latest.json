@@ -1,29 +1,54 @@
 {
-  "generated_at": "2026-10-31T01:49:44.285Z",
+  "generated_at": "2026-11-01T01:42:42.760Z",
   "latest_daily": {
-    "path": "daily/2026-10-31.md",
-    "date": "2026-10-31",
-    "title": "Context distraction, AI-vs-Google behavioral divergence, and the branding channel reframe",
-    "summary": "Four cards from three operators. Drew Breunig names a fifth context failure mode: contradictory examples in chat history override explicit instructions, backed by a 13-model experiment. Cate Dombrowski at iPullRank matches 16,310 users across Google and AI panels and finds 96% of AI prompts have no Google counterpart in the same session. Mike King argues that judging AI search by referral traffic is a category error because AI answers are earned media composed by machines, not click competitors.",
+    "path": "daily/2026-11-01.md",
+    "date": "2026-11-01",
+    "title": "Agent workflow discipline and AI peer review outperforming human experts",
+    "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
     "sources": [
-      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "https://ipullrank.com/ai-search-user-behavior",
-      "https://ipullrank.com/ai-search-is-a-branding-channel"
+      "https://x.com/thorstenball/status/2114386050638336082",
+      "https://ampcode.com/docs/using-amp/thorsten",
+      "https://gking.harvard.edu/peerless"
     ],
     "insights_added": [
-      "ins_breunig-chat-history-overrides-instructions",
-      "ins_dombrowski-ai-google-query-moment-split",
-      "ins_dombrowski-surface-shapes-query-expression",
-      "ins_king-ai-search-branding-not-traffic"
+      "ins_ball-irrefutable-proof-protocol",
+      "ins_ball-agent-knowledge-empirical-test",
+      "ins_ball-thread-commit-decision-link",
+      "ins_ball-iteration-tooling-over-chat",
+      "ins_king-ai-review-beats-experts"
     ],
     "operators_added": [
-      "cate-dombrowski"
+      "gary-king"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-01.md",
+      "date": "2026-11-01",
+      "title": "Agent workflow discipline and AI peer review outperforming human experts",
+      "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
+      "sources": [
+        "https://x.com/thorstenball/status/2114386050638336082",
+        "https://ampcode.com/docs/using-amp/thorsten",
+        "https://gking.harvard.edu/peerless"
+      ],
+      "insights_added": [
+        "ins_ball-irrefutable-proof-protocol",
+        "ins_ball-agent-knowledge-empirical-test",
+        "ins_ball-thread-commit-decision-link",
+        "ins_ball-iteration-tooling-over-chat",
+        "ins_king-ai-review-beats-experts"
+      ],
+      "operators_added": [
+        "gary-king"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-10-31.md",
       "date": "2026-10-31",
@@ -638,26 +663,6 @@
       "patterns_updated": [
         "pat_execution-cheap-judgement-scarce"
       ]
-    },
-    {
-      "path": "daily/2026-10-02.md",
-      "date": "2026-10-02",
-      "title": "Agents dissolve management, evals demand data, and attribution collapses under AI search",
-      "summary": "Three cards from three operators across the AI practitioner spectrum. Mollick names why agent swarms need no manager. Husain dissects a structural flaw in automated eval tooling. Indig documents how AI search voids click-based attribution and what replaces it.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-        "https://hamel.dev/blog/posts/claude-auto-evals/index.html",
-        "https://www.growth-memo.com/p/the-collapse-of-attribution"
-      ],
-      "insights_added": [
-        "ins_agents-self-organize-no-mgmt-overhead",
-        "ins_eval-data-first-before-metrics",
-        "ins_ai-search-attribution-triangulation"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
     }
   ]
 }
