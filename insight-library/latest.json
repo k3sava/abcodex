@@ -1,30 +1,44 @@
 {
-  "generated_at": "2026-11-01T01:42:42.760Z",
+  "generated_at": "2026-11-02T01:48:23.363Z",
   "latest_daily": {
-    "path": "daily/2026-11-01.md",
-    "date": "2026-11-01",
-    "title": "Agent workflow discipline and AI peer review outperforming human experts",
-    "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
+    "path": "daily/2026-11-02.md",
+    "date": "2026-11-02",
+    "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
+    "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
     "sources": [
-      "https://x.com/thorstenball/status/2114386050638336082",
-      "https://ampcode.com/docs/using-amp/thorsten",
-      "https://gking.harvard.edu/peerless"
+      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
     ],
     "insights_added": [
-      "ins_ball-irrefutable-proof-protocol",
-      "ins_ball-agent-knowledge-empirical-test",
-      "ins_ball-thread-commit-decision-link",
-      "ins_ball-iteration-tooling-over-chat",
-      "ins_king-ai-review-beats-experts"
+      "ins_breunig-training-priors-resist-runtime-instructions",
+      "ins_breunig-context-poisoning-hallucination-locks-goal",
+      "ins_tunguz-legacy-funding-capex-race"
     ],
-    "operators_added": [
-      "gary-king"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-02.md",
+      "date": "2026-11-02",
+      "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
+      "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
+      "sources": [
+        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+        "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
+      ],
+      "insights_added": [
+        "ins_breunig-training-priors-resist-runtime-instructions",
+        "ins_breunig-context-poisoning-hallucination-locks-goal",
+        "ins_tunguz-legacy-funding-capex-race"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-01.md",
       "date": "2026-11-01",
@@ -635,34 +649,6 @@
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-03.md",
-      "date": "2026-10-03",
-      "title": "Agent worms via shared infra, and what human value shifts to when AI does the building",
-      "summary": "Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.",
-      "sources": [
-        "https://blog.cryptographyengineering.com/2026/09/30/is-sandboxing-sufficient-to-contain-rogue-agents/",
-        "https://youtu.be/Zn9NZ-r1-C4",
-        "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-        "https://youtu.be/fn8wnmpVqeI"
-      ],
-      "insights_added": [
-        "ins_green-agent-worm-shared-infra",
-        "ins_saarinen-context-is-the-product",
-        "ins_dill-ai-raises-ceiling-not-floor",
-        "ins_verna-high-impact-ic-era"
-      ],
-      "operators_added": [
-        "matthew-green",
-        "karri-saarinen",
-        "katie-dill"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": [
-        "pat_execution-cheap-judgement-scarce"
-      ]
     }
   ]
 }
