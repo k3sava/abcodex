@@ -45,5 +45,5 @@ Tunguz models the crossing with a 15% annual decay rate applied to current growt
 SpaceX is the exception that tests the model: its Super Intelligence segment grew 830% to $7.6B in Q3 with no legacy business at risk from AI. The race dynamic applies primarily to companies where the same AI adoption that creates cloud demand simultaneously threatens another revenue line. Pure-play AI infrastructure companies do not face it.
 
 ## Cross-references
-- `ins_tunguz-commitment-leverage` — Anthropic's S-1 shows AI foundation companies carry financial risk in compute commitments, not debt; the capex-race dynamic applies to infrastructure builders, not just foundation model companies.
-- `ins_tunguz-gpu-inference-payback-ladder` — The GPU payback ladder maps when inference capacity covers its own cost; this card maps the broader business-model race that determines whether the capex is funded long enough to reach that payback point.
+- `ins_tunguz-commitment-leverage` covers the related finding from Anthropic's S-1: AI foundation model companies carry financial risk in non-cancelable compute commitments rather than debt. The capex-race dynamic described here applies to infrastructure builders competing for that same commitment capacity.
+- `ins_tunguz-gpu-inference-payback-ladder` maps when inference capacity covers its own cost. This card maps the broader business-model race that determines whether the capex is funded long enough to reach that payback point.

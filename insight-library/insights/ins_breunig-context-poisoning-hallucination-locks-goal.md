@@ -43,5 +43,5 @@ Breunig cites a Gemini 2.5 session playing a Pokémon FireRed game. FireRed uses
 Periodic context-clearing architectures (such as Anthropic's Memento approach: periodic summarization and context reset) prevent accumulation. Scratchpad architectures that separate working memory from a verified fact store reduce exposure. Explicit environment-state reads at each step catch divergence before it compounds.
 
 ## Cross-references
-- `ins_breunig-long-context-error-amplification` — Growing context increases the error surface; context poisoning is the specific mechanism by which a single error becomes a blocking constraint.
-- `ins_breunig-context-inertia-agent-fixation` — Context inertia is an agent pursuing a hypothesis past usefulness; context poisoning is a hallucinated constraint blocking exit from a goal loop.
+- `ins_breunig-long-context-error-amplification` covers the general principle that growing context increases the error surface. Context poisoning is the specific mechanism by which a single error becomes a blocking constraint rather than a recoverable mistake.
+- `ins_breunig-context-inertia-agent-fixation` covers a distinct failure: context inertia is an agent pursuing a hypothesis past usefulness. Context poisoning is a hallucinated constraint that blocks exit from a goal loop.

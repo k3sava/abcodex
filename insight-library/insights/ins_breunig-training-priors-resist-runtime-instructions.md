@@ -50,5 +50,5 @@ Breunig observes that smaller models botch initial Playwright MCP calls before r
 Consistent in-context examples of the target behavior reduce first-attempt error rates. Sufficiently large context with repeated demonstrations can steer the model within a session. The resistance is a cost, not a permanent ceiling.
 
 ## Cross-references
-- `ins_breunig-chat-history-overrides-instructions` — Context distraction shows chat history pulling behavior away from explicit instructions; training priors are the weights-level analog of that drift.
-- `ins_breunig-deterministic-probabilistic-split` — Deterministic systems run the same code every call; models carry probabilistic priors that require active management in the harness.
+- `ins_breunig-chat-history-overrides-instructions` covers a related but distinct failure mode: chat history examples drift behavior away from explicit instructions at runtime, while training priors do it at the weights level before the session starts.
+- `ins_breunig-deterministic-probabilistic-split` frames the broader issue: deterministic systems run the same code on every call, while models carry probabilistic priors that require active management in the harness.
