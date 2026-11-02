@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-11-01T01:42:42.702Z",
+  "generated_at": "2026-11-02T01:48:23.320Z",
   "counts": {
-    "insights": 1299,
+    "insights": 1302,
     "operators": 563,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 154
+    "daily": 155
   },
   "latest_daily": {
-    "path": "daily/2026-11-01.md",
-    "date": "2026-11-01",
-    "title": "Agent workflow discipline and AI peer review outperforming human experts",
-    "summary": "Five cards from two operators. Thorsten Ball published a 15-point guide to working with coding agents on October 25; four cards pull the most distinct mechanisms. Gary King and Steven Worthington published a Harvard controlled study on October 28 showing Claude Opus 4.8 outperformed paid human expert reviewers on every measured review dimension across 124 papers.",
+    "path": "daily/2026-11-02.md",
+    "date": "2026-11-02",
+    "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
+    "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
     "sources": [
-      "https://x.com/thorstenball/status/2114386050638336082",
-      "https://ampcode.com/docs/using-amp/thorsten",
-      "https://gking.harvard.edu/peerless"
+      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
     ],
     "insights_added": [
-      "ins_ball-irrefutable-proof-protocol",
-      "ins_ball-agent-knowledge-empirical-test",
-      "ins_ball-thread-commit-decision-link",
-      "ins_ball-iteration-tooling-over-chat",
-      "ins_king-ai-review-beats-experts"
+      "ins_breunig-training-priors-resist-runtime-instructions",
+      "ins_breunig-context-poisoning-hallucination-locks-goal",
+      "ins_tunguz-legacy-funding-capex-race"
     ],
-    "operators_added": [
-      "gary-king"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4519,6 +4514,36 @@
       "title": "Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation"
     },
     {
+      "path": "insights/ins_breunig-context-poisoning-hallucination-locks-goal.md",
+      "id": "ins_breunig-context-poisoning-hallucination-locks-goal",
+      "operator": "Drew Breunig",
+      "operator_role": "Writer and AI product thinker, dbreunig.com",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source_type": "essay",
+      "source_title": "The State of Context Engineering",
+      "source_date": "2026-10-24",
+      "captured_date": "2026-11-02",
+      "domain": [
+        "engineering-ai-eng",
+        "ai-native-operating"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-long-context-error-amplification",
+        "ins_breunig-context-inertia-agent-fixation"
+      ],
+      "raw_ref": "",
+      "title": "A hallucinated fact embedded in agent context becomes a constraint the agent cannot reason past"
+    },
+    {
       "path": "insights/ins_breunig-deterministic-probabilistic-split.md",
       "id": "ins_breunig-deterministic-probabilistic-split",
       "operator": "Drew Breunig",
@@ -4636,6 +4661,37 @@
       ],
       "raw_ref": "",
       "title": "Larger context windows amplify errors alongside information and require deliberate pruning"
+    },
+    {
+      "path": "insights/ins_breunig-training-priors-resist-runtime-instructions.md",
+      "id": "ins_breunig-training-priors-resist-runtime-instructions",
+      "operator": "Drew Breunig",
+      "operator_role": "Writer and AI product thinker, dbreunig.com",
+      "co_operators": [],
+      "source_url": "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+      "source_type": "essay",
+      "source_title": "The State of Context Engineering",
+      "source_date": "2026-10-24",
+      "captured_date": "2026-11-02",
+      "domain": [
+        "engineering-ai-eng",
+        "ai-native-operating"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_breunig-chat-history-overrides-instructions",
+        "ins_breunig-long-context-error-amplification",
+        "ins_breunig-deterministic-probabilistic-split"
+      ],
+      "raw_ref": "",
+      "title": "Models resist runtime instructions that contradict what they practiced during training"
     },
     {
       "path": "insights/ins_brewster-vibe-coded-production-180k.md",
@@ -31427,6 +31483,36 @@
       "title": "Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks"
     },
     {
+      "path": "insights/ins_tunguz-legacy-funding-capex-race.md",
+      "id": "ins_tunguz-legacy-funding-capex-race",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/",
+      "source_type": "essay",
+      "source_title": "Crossing the Trillion Dollar Chasm",
+      "source_date": "2026-10-29",
+      "captured_date": "2026-11-02",
+      "domain": [
+        "ai-native-operating",
+        "founder-operator-craft"
+      ],
+      "lifecycle": [
+        "scaling",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-commitment-leverage",
+        "ins_tunguz-gpu-inference-payback-ladder"
+      ],
+      "raw_ref": "",
+      "title": "A platform bet succeeds only if the legacy business funding it stays profitable long enough to reach self-sustaining scale"
+    },
+    {
       "path": "insights/ins_tunguz-local-model-reasoning-path.md",
       "id": "ins_tunguz-local-model-reasoning-path",
       "operator": "Tomasz Tunguz",
@@ -53056,6 +53142,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-02.md",
+      "date": "2026-11-02",
+      "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
+      "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
+      "sources": [
+        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+        "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
+      ],
+      "insights_added": [
+        "ins_breunig-training-priors-resist-runtime-instructions",
+        "ins_breunig-context-poisoning-hallucination-locks-goal",
+        "ins_tunguz-legacy-funding-capex-race"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-01.md",
       "date": "2026-11-01",

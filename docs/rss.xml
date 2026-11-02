@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 01:42:45 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 01:48:26 GMT</lastBuildDate>
+    <item>
+      <title>Training weight resistance, two context failure modes, and the hyperscaler funding race</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-02/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-02/</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards from two operators. Drew Breunig&apos;s October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz&apos;s October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.</description>
+    </item>
     <item>
       <title>Agent workflow discipline and AI peer review outperforming human experts</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-01/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-04/</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
       <description>Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.</description>
-    </item>
-    <item>
-      <title>Agent worms via shared infra, and what human value shifts to when AI does the building</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-03/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-03/</guid>
-      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from four operators. Matthew Green extends the agent covert-channel threat model to personal deployments. Karri Saarinen, Katie Dill, and Elena Verna converge on the same structural shift: when AI handles execution, the scarce input moves to context, quality judgment, and individual decision authority.</description>
     </item>
   </channel>
 </rss>

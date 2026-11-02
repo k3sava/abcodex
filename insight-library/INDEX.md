@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-01. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1299 insight cards
+- 1302 insight cards
 - 563 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (848)
+### Tier B (851)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -488,9 +488,11 @@ _Generated 2026-11-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_breunig-agentic-code-free-as-puppies`](insights/ins_breunig-agentic-code-free-as-puppies.md) — Agentic code is free as in puppies: generation is cheap, but maintenance, support, and security are the real cost _(Drew Breunig)_
 - [`ins_breunig-chat-history-overrides-instructions`](insights/ins_breunig-chat-history-overrides-instructions.md) — Accumulated examples in chat history override explicit instructions before the user notices _(Drew Breunig)_
 - [`ins_breunig-context-inertia-agent-fixation`](insights/ins_breunig-context-inertia-agent-fixation.md) — Context inertia locks long-running agents into an early wrong hypothesis even as counter-evidence accumulates, and compaction makes it worse by preserving the fixation _(Drew Breunig)_
+- [`ins_breunig-context-poisoning-hallucination-locks-goal`](insights/ins_breunig-context-poisoning-hallucination-locks-goal.md) — A hallucinated fact embedded in agent context becomes a constraint the agent cannot reason past _(Drew Breunig)_
 - [`ins_breunig-deterministic-probabilistic-split`](insights/ins_breunig-deterministic-probabilistic-split.md) — The core decision in context engineering is what to make deterministic and what to leave probabilistic _(Drew Breunig)_
 - [`ins_breunig-fable-tier-routing`](insights/ins_breunig-fable-tier-routing.md) — When frontier model pricing rises rather than falls, harness quality becomes the primary investment _(Drew Breunig)_
 - [`ins_breunig-long-context-error-amplification`](insights/ins_breunig-long-context-error-amplification.md) — Larger context windows amplify errors alongside information and require deliberate pruning _(Drew Breunig)_
+- [`ins_breunig-training-priors-resist-runtime-instructions`](insights/ins_breunig-training-priors-resist-runtime-instructions.md) — Models resist runtime instructions that contradict what they practiced during training _(Drew Breunig)_
 - [`ins_brewster-vibe-coded-production-180k`](insights/ins_brewster-vibe-coded-production-180k.md) — AI can generate 180,000 lines of production code in three weeks, but resource management and architecture still require active human babysitting _(Rick Brewster)_
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
@@ -1076,6 +1078,7 @@ _Generated 2026-11-01. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-inference-surpasses-database`](insights/ins_tunguz-inference-surpasses-database.md) — AI inference will pass the database market in 2027 while compressing gross margins below the SaaS norm _(Tomasz Tunguz)_
 - [`ins_tunguz-infrastructure-debt-cagr`](insights/ins_tunguz-infrastructure-debt-cagr.md) — AI infrastructure financing has become a macroeconomic credit event requiring 55% CAGR in private credit markets _(Tom Tunguz)_
 - [`ins_tunguz-intelligence-per-watt`](insights/ins_tunguz-intelligence-per-watt.md) — Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks _(Tomasz Tunguz)_
+- [`ins_tunguz-legacy-funding-capex-race`](insights/ins_tunguz-legacy-funding-capex-race.md) — A platform bet succeeds only if the legacy business funding it stays profitable long enough to reach self-sustaining scale _(Tom Tunguz)_
 - [`ins_tunguz-local-model-reasoning-path`](insights/ins_tunguz-local-model-reasoning-path.md) — Small local models match cloud model quality by reasoning from first principles rather than retrieving from memory _(Tomasz Tunguz)_
 - [`ins_tunguz-meta-prompt-data-barter`](insights/ins_tunguz-meta-prompt-data-barter.md) — Meta's free AI tier reveals the market price of user prompt data at $1.24 per million tokens _(Tom Tunguz)_
 - [`ins_tunguz-minimill-local-routing`](insights/ins_tunguz-minimill-local-routing.md) — Two-tier local/cloud AI routing cuts response latency by 60% and lifts throughput 25% by keeping simple tasks on-device _(Tomasz Tunguz)_
