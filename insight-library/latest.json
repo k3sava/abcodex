@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-11-02T01:48:23.363Z",
+  "generated_at": "2026-11-03T01:48:12.807Z",
   "latest_daily": {
-    "path": "daily/2026-11-02.md",
-    "date": "2026-11-02",
-    "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
-    "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
+    "path": "daily/2026-11-03.md",
+    "date": "2026-11-03",
+    "title": "AI stack economics from four angles, and a broken measurement baseline",
+    "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
     "sources": [
-      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
+      "https://tomtunguz.com/the-four-questions-of-ai/",
+      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     ],
     "insights_added": [
-      "ins_breunig-training-priors-resist-runtime-instructions",
-      "ins_breunig-context-poisoning-hallucination-locks-goal",
-      "ins_tunguz-legacy-funding-capex-race"
+      "ins_tunguz-harness-layer-margin-engine",
+      "ins_tunguz-thin-wrapper-feature-absorption",
+      "ins_tunguz-ai-stack-double-pendulum",
+      "ins_willison-ai-survey-methodology-breaks"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -20,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-03.md",
+      "date": "2026-11-03",
+      "title": "AI stack economics from four angles, and a broken measurement baseline",
+      "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
+      "sources": [
+        "https://tomtunguz.com/the-four-questions-of-ai/",
+        "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      ],
+      "insights_added": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-thin-wrapper-feature-absorption",
+        "ins_tunguz-ai-stack-double-pendulum",
+        "ins_willison-ai-survey-methodology-breaks"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-02.md",
       "date": "2026-11-02",
@@ -626,24 +647,6 @@
         "ins_tunguz-grow-or-design-modes",
         "ins_lily-ray-google-doc-change-early-warning",
         "ins_lily-ray-scaled-content-top-enforcement"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-04.md",
-      "date": "2026-10-04",
-      "title": "Agents self-organize, and why hard spending caps must ship on by default",
-      "summary": "Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-        "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/"
-      ],
-      "insights_added": [
-        "ins_mollick-agents-self-organize",
-        "ins_willison-hard-budget-caps-default"
       ],
       "operators_added": [],
       "patterns_added": [],

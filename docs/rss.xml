@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 01:48:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:48:15 GMT</lastBuildDate>
+    <item>
+      <title>AI stack economics from four angles, and a broken measurement baseline</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-03/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-03/</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards from two operators. Tom Tunguz&apos;s November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison&apos;s November 2 post on the Census Bureau&apos;s survey wording changes yields one card on how the headline AI adoption data broke.</description>
+    </item>
     <item>
       <title>Training weight resistance, two context failure modes, and the hyperscaler funding race</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-02/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-05/</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google&apos;s top enforcement priority.</description>
-    </item>
-    <item>
-      <title>Agents self-organize, and why hard spending caps must ship on by default</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-04/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-04/</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Two cards from two operators. Ethan Mollick extends the Bitter Lesson to organizational coordination. Simon Willison makes the structural case for default-on spending limits in AI agent workloads.</description>
     </item>
   </channel>
 </rss>
