@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-02 · 3 insights
+### Latest · 2026-11-03 · 4 insights
 
-**Training weight resistance, two context failure modes, and the hyperscaler funding race.** Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.
+**AI stack economics from four angles, and a broken measurement baseline.** Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.
 
-[Read what landed →](insight-library/daily/2026-11-02.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-03.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1302** insight cards
+- **1306** insight cards
 - **563** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

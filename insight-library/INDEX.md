@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1302 insight cards
+- 1306 insight cards
 - 563 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (851)
+### Tier B (855)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1049,6 +1049,7 @@ _Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-prompt-ads-model`](insights/ins_tunguz-ai-prompt-ads-model.md) — A two-tier AI API that discounts inference for training rights replicates the ads supply chain model _(Tom Tunguz)_
 - [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
 - [`ins_tunguz-ai-retention-colander`](insights/ins_tunguz-ai-retention-colander.md) — AI products retain customers between mobile-game and social-network benchmarks, with workflow integration separating the top cohort from the rest _(Tomasz Tunguz)_
+- [`ins_tunguz-ai-stack-double-pendulum`](insights/ins_tunguz-ai-stack-double-pendulum.md) — The four-layer AI stack couples like a double pendulum: simple parts, chaotic interactions _(Tom Tunguz)_
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-anthropic-cloud-valuation-frame`](insights/ins_tunguz-anthropic-cloud-valuation-frame.md) — Anthropic should be valued as a cloud provider, not as a software company _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
@@ -1070,6 +1071,7 @@ _Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-grow-or-design-modes`](insights/ins_tunguz-grow-or-design-modes.md) — Vibe coding selects for correctness by experiment; state machine design proves correctness by enumerating every path _(Tom Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-benchmark-lift`](insights/ins_tunguz-harness-benchmark-lift.md) — The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model _(Tomasz Tunguz)_
+- [`ins_tunguz-harness-layer-margin-engine`](insights/ins_tunguz-harness-layer-margin-engine.md) — Controlling input context is the primary lever for AI gross margin _(Tom Tunguz)_
 - [`ins_tunguz-harness-margin-cost`](insights/ins_tunguz-harness-margin-cost.md) — The right harness cuts AI inference cost 71% with no accuracy loss; the moat is customer data, not engineering _(Tom Tunguz)_
 - [`ins_tunguz-harness-three-disciplines`](insights/ins_tunguz-harness-three-disciplines.md) — AI competitive advantage has moved from model access to mastering three harness disciplines _(Tomasz Tunguz)_
 - [`ins_tunguz-harness-trajectory-data-moat`](insights/ins_tunguz-harness-trajectory-data-moat.md) — The software harness is the key asset in enterprise AI, not the model, because it controls which data flows to vendors for training _(Tomasz Tunguz)_
@@ -1093,6 +1095,7 @@ _Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-security-tops-ai-barrier-2026`](insights/ins_tunguz-security-tops-ai-barrier-2026.md) — Security and governance rose from sixth to first as the enterprise AI pain point in twelve months _(Tomasz Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
 - [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
+- [`ins_tunguz-thin-wrapper-feature-absorption`](insights/ins_tunguz-thin-wrapper-feature-absorption.md) — Thin wrappers around AI models die when the base model absorbs their defining feature _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_
 - [`ins_turnbull-hypothetical-classification`](insights/ins_turnbull-hypothetical-classification.md) — Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy _(Doug Turnbull)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
@@ -1145,6 +1148,7 @@ _Generated 2026-11-02. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-agents-gui-zero-cost`](insights/ins_willison-agents-gui-zero-cost.md) — AI coding agents have reduced native GUI development cost to near zero, making graphical interfaces the better default for throwaway personal tools _(Simon Willison)_
 - [`ins_willison-ai-product-capability-opacity`](insights/ins_willison-ai-product-capability-opacity.md) — AI product pages that describe use cases rather than capabilities make security assessment impossible _(Simon Willison)_
 - [`ins_willison-ai-sandbox-escape`](insights/ins_willison-ai-sandbox-escape.md) — An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark _(Simon Willison)_
+- [`ins_willison-ai-survey-methodology-breaks`](insights/ins_willison-ai-survey-methodology-breaks.md) — U.S. AI adoption survey data lost comparability when the Census Bureau changed question wording twice in one year _(Simon Willison)_
 - [`ins_willison-ai-training-research-priority-risk`](insights/ins_willison-ai-training-research-priority-risk.md) — AI training pipelines can turn partial public research into a competitive priority leak _(Simon Willison)_
 - [`ins_willison-aisi-classifier-strip`](insights/ins_willison-aisi-classifier-strip.md) — Stripping safety classifiers while providing live internet access in AI evaluations makes real-world attacks a predictable design outcome _(Simon Willison)_
 - [`ins_willison-apple-siri-vision-llm-bypass`](insights/ins_willison-apple-siri-vision-llm-bypass.md) — Apple's use of vision language models to read screen state sidesteps the need for apps to add custom Siri integration code _(Simon Willison)_

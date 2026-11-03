@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-11-02T01:48:23.320Z",
+  "generated_at": "2026-11-03T01:48:12.757Z",
   "counts": {
-    "insights": 1302,
+    "insights": 1306,
     "operators": 563,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 155
+    "daily": 156
   },
   "latest_daily": {
-    "path": "daily/2026-11-02.md",
-    "date": "2026-11-02",
-    "title": "Training weight resistance, two context failure modes, and the hyperscaler funding race",
-    "summary": "Three cards from two operators. Drew Breunig's October 24 essay on context engineering yields two more uncaptured failure modes: training-era priors that resist runtime instructions, and a hallucinated fact embedding itself as an unresolvable goal constraint. Tom Tunguz's October 29 analysis of Q3 hyperscaler earnings maps the race between building a trillion-dollar AI compute business and the yield compression in the legacy cash flows that fund it.",
+    "path": "daily/2026-11-03.md",
+    "date": "2026-11-03",
+    "title": "AI stack economics from four angles, and a broken measurement baseline",
+    "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
     "sources": [
-      "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "https://tomtunguz.com/crossing-the-trillion-dollar-chasm/"
+      "https://tomtunguz.com/the-four-questions-of-ai/",
+      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
     ],
     "insights_added": [
-      "ins_breunig-training-priors-resist-runtime-instructions",
-      "ins_breunig-context-poisoning-hallucination-locks-goal",
-      "ins_tunguz-legacy-funding-capex-race"
+      "ins_tunguz-harness-layer-margin-engine",
+      "ins_tunguz-thin-wrapper-feature-absorption",
+      "ins_tunguz-ai-stack-double-pendulum",
+      "ins_willison-ai-survey-methodology-breaks"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -30525,6 +30526,36 @@
       "title": "Codifying the best human workflow before deployment is the critical bottleneck for AI inbound sales agents, not model capability"
     },
     {
+      "path": "insights/ins_tunguz-ai-stack-double-pendulum.md",
+      "id": "ins_tunguz-ai-stack-double-pendulum",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-four-questions-of-ai/",
+      "source_type": "essay",
+      "source_title": "The Four Questions of AI",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-03",
+      "domain": [
+        "ai-native-company-building",
+        "agent-frameworks"
+      ],
+      "lifecycle": [
+        "market-structure",
+        "product-strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-thin-wrapper-feature-absorption"
+      ],
+      "raw_ref": "",
+      "title": "The four-layer AI stack couples like a double pendulum: simple parts, chaotic interactions"
+    },
+    {
       "path": "insights/ins_tunguz-ai-worldview-alignment-divergence.md",
       "id": "ins_tunguz-ai-worldview-alignment-divergence",
       "operator": "Tomasz Tunguz",
@@ -31211,6 +31242,36 @@
       ],
       "raw_ref": "",
       "title": "The harness moves coding benchmarks more than the model does; third-party harnesses already outperform first-party ones on the same model"
+    },
+    {
+      "path": "insights/ins_tunguz-harness-layer-margin-engine.md",
+      "id": "ins_tunguz-harness-layer-margin-engine",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-four-questions-of-ai/",
+      "source_type": "essay",
+      "source_title": "The Four Questions of AI",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-03",
+      "domain": [
+        "ai-native-company-building",
+        "product-gtm"
+      ],
+      "lifecycle": [
+        "unit-economics",
+        "pricing"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-thin-wrapper-feature-absorption",
+        "ins_tunguz-ai-stack-double-pendulum"
+      ],
+      "raw_ref": "",
+      "title": "Controlling input context is the primary lever for AI gross margin"
     },
     {
       "path": "insights/ins_tunguz-harness-margin-cost.md",
@@ -32018,6 +32079,36 @@
       ],
       "raw_ref": "",
       "title": "AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale"
+    },
+    {
+      "path": "insights/ins_tunguz-thin-wrapper-feature-absorption.md",
+      "id": "ins_tunguz-thin-wrapper-feature-absorption",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-four-questions-of-ai/",
+      "source_type": "essay",
+      "source_title": "The Four Questions of AI",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-03",
+      "domain": [
+        "ai-native-company-building",
+        "product-gtm"
+      ],
+      "lifecycle": [
+        "competitive-moat",
+        "product-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-ai-stack-double-pendulum"
+      ],
+      "raw_ref": "",
+      "title": "Thin wrappers around AI models die when the base model absorbs their defining feature"
     },
     {
       "path": "insights/ins_tunguz-three-waves-ai-consumption.md",
@@ -33968,6 +34059,36 @@
       ],
       "raw_ref": "",
       "title": "An AI model without safety guardrails autonomously escaped its sandbox and attacked a third-party system to cheat on a security benchmark"
+    },
+    {
+      "path": "insights/ins_willison-ai-survey-methodology-breaks.md",
+      "id": "ins_willison-ai-survey-methodology-breaks",
+      "operator": "Simon Willison",
+      "operator_role": "Software developer; creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "source_type": "essay",
+      "source_title": "The U.S. Census Bureau and 'Super Intelligence'",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-03",
+      "domain": [
+        "ai-native-company-building",
+        "pmm"
+      ],
+      "lifecycle": [
+        "market-intelligence",
+        "measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-vibe-game-model-taste",
+        "ins_willison-agentic-coding-tripled-github"
+      ],
+      "raw_ref": "",
+      "title": "U.S. AI adoption survey data lost comparability when the Census Bureau changed question wording twice in one year"
     },
     {
       "path": "insights/ins_willison-ai-training-research-priority-risk.md",
@@ -53142,6 +53263,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-03.md",
+      "date": "2026-11-03",
+      "title": "AI stack economics from four angles, and a broken measurement baseline",
+      "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
+      "sources": [
+        "https://tomtunguz.com/the-four-questions-of-ai/",
+        "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      ],
+      "insights_added": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-thin-wrapper-feature-absorption",
+        "ins_tunguz-ai-stack-double-pendulum",
+        "ins_willison-ai-survey-methodology-breaks"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-02.md",
       "date": "2026-11-02",
