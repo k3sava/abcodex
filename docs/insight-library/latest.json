@@ -1,26 +1,54 @@
 {
-  "generated_at": "2026-11-03T01:48:12.807Z",
+  "generated_at": "2026-11-04T01:42:48.400Z",
   "latest_daily": {
-    "path": "daily/2026-11-03.md",
-    "date": "2026-11-03",
-    "title": "AI stack economics from four angles, and a broken measurement baseline",
-    "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
+    "path": "daily/2026-11-04.md",
+    "date": "2026-11-04",
+    "title": "AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion",
+    "summary": "Four cards from four operators. Tom Tunguz's November 3 essay on Anthropic's S-1 yields one card on the GPU duration mismatch that will define AI lab margins in 2027. Kevin Indig's November 2 Growth Memo yields one card on email as a floor channel when organic search falls. Ethan Mollick's November Wharton piece yields one card on the verification-cost trap in Conjurer-mode delegation. Kyle Kingsbury's October 31 Jepsen analysis yields one card on LLM-generated docs eroding documentation as a trust signal.",
     "sources": [
-      "https://tomtunguz.com/the-four-questions-of-ai/",
-      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+      "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
+      "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
+      "https://jepsen.io/analyses/particledb-1.1.4"
     ],
     "insights_added": [
-      "ins_tunguz-harness-layer-margin-engine",
-      "ins_tunguz-thin-wrapper-feature-absorption",
-      "ins_tunguz-ai-stack-double-pendulum",
-      "ins_willison-ai-survey-methodology-breaks"
+      "ins_tunguz-ai-lab-compute-duration-mismatch",
+      "ins_indig-email-owned-channel-floor",
+      "ins_mollick-conjurer-verification-trap",
+      "ins_kingsbury-llm-docs-trust-erosion"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "kyle-kingsbury"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-04.md",
+      "date": "2026-11-04",
+      "title": "AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion",
+      "summary": "Four cards from four operators. Tom Tunguz's November 3 essay on Anthropic's S-1 yields one card on the GPU duration mismatch that will define AI lab margins in 2027. Kevin Indig's November 2 Growth Memo yields one card on email as a floor channel when organic search falls. Ethan Mollick's November Wharton piece yields one card on the verification-cost trap in Conjurer-mode delegation. Kyle Kingsbury's October 31 Jepsen analysis yields one card on LLM-generated docs eroding documentation as a trust signal.",
+      "sources": [
+        "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+        "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
+        "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
+        "https://jepsen.io/analyses/particledb-1.1.4"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-lab-compute-duration-mismatch",
+        "ins_indig-email-owned-channel-floor",
+        "ins_mollick-conjurer-verification-trap",
+        "ins_kingsbury-llm-docs-trust-erosion"
+      ],
+      "operators_added": [
+        "kyle-kingsbury"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-03.md",
       "date": "2026-11-03",
@@ -628,25 +656,6 @@
         "ins_willison-cloud-budget-caps-default",
         "ins_solis-commodity-content-brand-swap",
         "ins_willison-reasoning-arithmetic-accuracy"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-05.md",
-      "date": "2026-10-05",
-      "title": "Vibe coding vs. formal design, and Google's alarm clock for the next big update",
-      "summary": "Three cards from two operators. Tom Tunguz frames vibe coding and state machine design as complementary AI-era development modes. Lily Ray documents two distinct claims from a single October 4 post: the seven documentation-change signals that precede major Google updates, and the confirmation that scaled AI content has overtaken link spam as Google's top enforcement priority.",
-      "sources": [
-        "https://tomtunguz.com/grow-or-design-software/",
-        "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google"
-      ],
-      "insights_added": [
-        "ins_tunguz-grow-or-design-modes",
-        "ins_lily-ray-google-doc-change-early-warning",
-        "ins_lily-ray-scaled-content-top-enforcement"
       ],
       "operators_added": [],
       "patterns_added": [],
