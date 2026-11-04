@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1306 insight cards
-- 563 operator profiles
+- 1310 insight cards
+- 564 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (855)
+### Tier B (859)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -685,6 +685,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
+- [`ins_indig-email-owned-channel-floor`](insights/ins_indig-email-owned-channel-floor.md) — Email is a floor channel because owned relationships hold when organic search drops _(Kevin Indig)_
 - [`ins_indig-executive-ai-mandate-gap`](insights/ins_indig-executive-ai-mandate-gap.md) — Executives mandate AI adoption while using it minimally themselves; documented hour tallies beat opinion when managing upward _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
@@ -727,6 +728,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_kim-llm-game-discovery-via-pr`](insights/ins_kim-llm-game-discovery-via-pr.md) — LLMs recommend games by citation authority in training text, so studios without earned media coverage are invisible to AI-assisted discovery _(Joseph Kim)_
 - [`ins_king-ai-review-beats-experts`](insights/ins_king-ai-review-beats-experts.md) — Claude Opus 4.8 outperformed expert human peer reviewers on every measured dimension in a controlled Harvard study _(Gary King)_
 - [`ins_king-ai-search-branding-not-traffic`](insights/ins_king-ai-search-branding-not-traffic.md) — Judging AI search by referral traffic is a category error because the return is presence, not clicks _(Mike King)_
+- [`ins_kingsbury-llm-docs-trust-erosion`](insights/ins_kingsbury-llm-docs-trust-erosion.md) — LLM adoption makes documentation quality a weaker trust signal for software projects _(Kyle Kingsbury)_
 - [`ins_krieger-async-agent-delegation`](insights/ins_krieger-async-agent-delegation.md) — Running five concurrent AI sessions overnight is only possible when you stop treating the model as a chat partner _(Mike Krieger)_
 - [`ins_kristen-kris-hicks-hustle-culture-is-ableist`](insights/ins_kristen-kris-hicks-hustle-culture-is-ableist.md) — Hustle culture is ableist and excludes neurodivergent workers _(Kristen (Kris) Hicks)_
 - [`ins_krouse-claude-top-acquisition-channel`](insights/ins_krouse-claude-top-acquisition-channel.md) — A coding agent that actively deploys to a platform can become its single largest user-acquisition channel _(Steve Krouse)_
@@ -805,6 +807,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-co-existence-phase-shift`](insights/ins_mollick-co-existence-phase-shift.md) — AI labs have achieved their founding goal, requiring a shift from co-intelligence to co-existence as the operating frame for knowledge work _(Ethan Mollick)_
 - [`ins_mollick-commission-not-steer`](insights/ins_mollick-commission-not-steer.md) — Frontier models capable of multi-hour autonomous runs require commissioning, not steering _(Ethan Mollick)_
 - [`ins_mollick-conjurer-oversight-gap`](insights/ins_mollick-conjurer-oversight-gap.md) — Conjurers summon agents without necessarily seeing what the agents do _(Ethan Mollick)_
+- [`ins_mollick-conjurer-verification-trap`](insights/ins_mollick-conjurer-verification-trap.md) — Conjurer delegation only pays off when verification costs less than doing the task yourself _(Ethan Mollick)_
 - [`ins_mollick-delegation-over-prompting`](insights/ins_mollick-delegation-over-prompting.md) — Agentic AI shifts the core skill from prompt phrasing to delegation clarity; instructing AI now resembles instructing a capable but unfamiliar colleague _(Ethan Mollick)_
 - [`ins_mollick-early-career-apprenticeship-break`](insights/ins_mollick-early-career-apprenticeship-break.md) — AI breaks the traditional apprenticeship ladder from both ends, eliminating the feedback loop that built junior talent _(Ethan Mollick)_
 - [`ins_mollick-experts-underestimate-ai-progress`](insights/ins_mollick-experts-underestimate-ai-progress.md) — Calibrated expert forecasters gave AI a 2.3% chance of winning the Math Olympiad by 2025. AI won it in 2025. _(Ethan Mollick)_
@@ -1045,6 +1048,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-harness-nine-month-arr`](insights/ins_tunguz-ai-harness-nine-month-arr.md) — Private AI harness companies reach $100M ARR in under nine months with multiples priced on category position, not growth rate _(Tom Tunguz)_
 - [`ins_tunguz-ai-infrastructure-bullwhip`](insights/ins_tunguz-ai-infrastructure-bullwhip.md) — AI infrastructure shortages cascade through hardware layers in multi-year waves, not all at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-infrastructure-credit-event`](insights/ins_tunguz-ai-infrastructure-credit-event.md) — AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it _(Tom Tunguz)_
+- [`ins_tunguz-ai-lab-compute-duration-mismatch`](insights/ins_tunguz-ai-lab-compute-duration-mismatch.md) — AI labs win 2027 margins by matching GPU lease duration to customer contract duration _(Tom Tunguz)_
 - [`ins_tunguz-ai-perez-buildout-double-speed`](insights/ins_tunguz-ai-perez-buildout-double-speed.md) — AI is traversing the Perez build-out cycle twice as fast as the web era did _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-prompt-ads-model`](insights/ins_tunguz-ai-prompt-ads-model.md) — A two-tier AI API that discounts inference for training rights replicates the ads supply chain model _(Tom Tunguz)_
 - [`ins_tunguz-ai-quality-floor-rises`](insights/ins_tunguz-ai-quality-floor-rises.md) — AI raises the quality floor more than the ceiling by concentrating human effort on rhetorical refinement _(Tom Tunguz)_
@@ -1638,6 +1642,7 @@ _Generated 2026-11-03. Auto-built from frontmatter — do not edit by hand._
 - [Kubi Rich](operators/kubi-rich/README.md)
 - [Kushal Saini Kakkar](operators/kushal-saini-kakkar/README.md)
 - [Kyle James](operators/kyle-james/README.md)
+- [Kyle Kingsbury](operators/kyle-kingsbury/README.md)
 - [Kyle Norton](operators/kyle-norton/README.md)
 - [Kyle Poyar](operators/kyle-poyar/README.md)
 - [Langley Barth](operators/langley-barth/README.md)

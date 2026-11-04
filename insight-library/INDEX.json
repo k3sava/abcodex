@@ -1,30 +1,34 @@
 {
-  "generated_at": "2026-11-03T01:48:12.757Z",
+  "generated_at": "2026-11-04T01:42:48.344Z",
   "counts": {
-    "insights": 1306,
-    "operators": 563,
+    "insights": 1310,
+    "operators": 564,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 156
+    "daily": 157
   },
   "latest_daily": {
-    "path": "daily/2026-11-03.md",
-    "date": "2026-11-03",
-    "title": "AI stack economics from four angles, and a broken measurement baseline",
-    "summary": "Four cards from two operators. Tom Tunguz's November 2 essay on the four questions of AI yields three cards on stack economics: harness-layer margin mechanics, thin-wrapper mortality, and the double-pendulum coupling across all four layers. Simon Willison's November 2 post on the Census Bureau's survey wording changes yields one card on how the headline AI adoption data broke.",
+    "path": "daily/2026-11-04.md",
+    "date": "2026-11-04",
+    "title": "AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion",
+    "summary": "Four cards from four operators. Tom Tunguz's November 3 essay on Anthropic's S-1 yields one card on the GPU duration mismatch that will define AI lab margins in 2027. Kevin Indig's November 2 Growth Memo yields one card on email as a floor channel when organic search falls. Ethan Mollick's November Wharton piece yields one card on the verification-cost trap in Conjurer-mode delegation. Kyle Kingsbury's October 31 Jepsen analysis yields one card on LLM-generated docs eroding documentation as a trust signal.",
     "sources": [
-      "https://tomtunguz.com/the-four-questions-of-ai/",
-      "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/"
+      "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+      "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
+      "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
+      "https://jepsen.io/analyses/particledb-1.1.4"
     ],
     "insights_added": [
-      "ins_tunguz-harness-layer-margin-engine",
-      "ins_tunguz-thin-wrapper-feature-absorption",
-      "ins_tunguz-ai-stack-double-pendulum",
-      "ins_willison-ai-survey-methodology-breaks"
+      "ins_tunguz-ai-lab-compute-duration-mismatch",
+      "ins_indig-email-owned-channel-floor",
+      "ins_mollick-conjurer-verification-trap",
+      "ins_kingsbury-llm-docs-trust-erosion"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "kyle-kingsbury"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -13029,6 +13033,38 @@
       "title": "Google's demotion signal is content replaceability, not format or AI-generation volume"
     },
     {
+      "path": "insights/ins_indig-email-owned-channel-floor.md",
+      "id": "ins_indig-email-owned-channel-floor",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth Advisor; author of Growth Memo",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
+      "source_type": "essay",
+      "source_title": "What channels grow when organic search shrinks?",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-04",
+      "domain": [
+        "growth-demand",
+        "pmm",
+        "marketing"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "attribution-measurement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-ai-direct-traffic-unverifiable",
+        "ins_indig-seo-aio-decoupling"
+      ],
+      "raw_ref": "",
+      "title": "Email is a floor channel because owned relationships hold when organic search drops"
+    },
+    {
       "path": "insights/ins_indig-engine-fragmentation.md",
       "id": "ins_indig-engine-fragmentation",
       "operator": "Kevin Indig",
@@ -15255,6 +15291,35 @@
       ],
       "raw_ref": "",
       "title": "Judging AI search by referral traffic is a category error because the return is presence, not clicks"
+    },
+    {
+      "path": "insights/ins_kingsbury-llm-docs-trust-erosion.md",
+      "id": "ins_kingsbury-llm-docs-trust-erosion",
+      "operator": "Kyle Kingsbury",
+      "operator_role": "Creator of Jepsen; distributed systems researcher",
+      "co_operators": [],
+      "source_url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "source_type": "research",
+      "source_title": "Jepsen: ParticleDB 1.1.4",
+      "source_date": "2026-10-31",
+      "captured_date": "2026-11-04",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-ai-survey-methodology-breaks"
+      ],
+      "raw_ref": "",
+      "title": "LLM adoption makes documentation quality a weaker trust signal for software projects"
     },
     {
       "path": "insights/ins_krieger-async-agent-delegation.md",
@@ -18684,6 +18749,39 @@
       ],
       "raw_ref": "",
       "title": "Conjurers summon agents without necessarily seeing what the agents do"
+    },
+    {
+      "path": "insights/ins_mollick-conjurer-verification-trap.md",
+      "id": "ins_mollick-conjurer-verification-trap",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
+      "source_type": "essay",
+      "source_title": "Three Ways to Work with AI, and How to Choose",
+      "source_date": "2026-11-01",
+      "captured_date": "2026-11-04",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "delegation",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-conjurer-oversight-gap",
+        "ins_mollick-commission-not-steer",
+        "ins_mollick-delegation-over-prompting"
+      ],
+      "raw_ref": "",
+      "title": "Conjurer delegation only pays off when verification costs less than doing the task yourself"
     },
     {
       "path": "insights/ins_mollick-delegation-over-prompting.md",
@@ -30344,6 +30442,37 @@
       ],
       "raw_ref": "",
       "title": "AI infrastructure is financed with $4 trillion in projected debt, requiring 55% annual AI revenue growth to service it"
+    },
+    {
+      "path": "insights/ins_tunguz-ai-lab-compute-duration-mismatch.md",
+      "id": "ins_tunguz-ai-lab-compute-duration-mismatch",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+      "source_type": "essay",
+      "source_title": "The Financial Engineering Essential for AI in 2027",
+      "source_date": "2026-11-03",
+      "captured_date": "2026-11-04",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling",
+        "strategy-bets",
+        "pricing-packaging"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-ai-stack-double-pendulum"
+      ],
+      "raw_ref": "",
+      "title": "AI labs win 2027 margins by matching GPU lease duration to customer contract duration"
     },
     {
       "path": "insights/ins_tunguz-ai-perez-buildout-double-speed.md",
@@ -42730,6 +42859,25 @@
       "title": "Kyle James"
     },
     {
+      "path": "operators/kyle-kingsbury/README.md",
+      "name": "Kyle Kingsbury",
+      "slug": "kyle-kingsbury",
+      "roles": [
+        "Creator of Jepsen, distributed systems analysis tool",
+        "Independent distributed systems researcher"
+      ],
+      "domains_active": [
+        "ai-native",
+        "engineering"
+      ],
+      "captured_first": "2026-11-04",
+      "external": {
+        "website": "https://jepsen.io",
+        "blog": "https://aphyr.com"
+      },
+      "title": "Kyle Kingsbury"
+    },
+    {
       "path": "operators/kyle-norton/README.md",
       "name": "Kyle Norton",
       "slug": "kyle-norton",
@@ -53263,6 +53411,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-04.md",
+      "date": "2026-11-04",
+      "title": "AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion",
+      "summary": "Four cards from four operators. Tom Tunguz's November 3 essay on Anthropic's S-1 yields one card on the GPU duration mismatch that will define AI lab margins in 2027. Kevin Indig's November 2 Growth Memo yields one card on email as a floor channel when organic search falls. Ethan Mollick's November Wharton piece yields one card on the verification-cost trap in Conjurer-mode delegation. Kyle Kingsbury's October 31 Jepsen analysis yields one card on LLM-generated docs eroding documentation as a trust signal.",
+      "sources": [
+        "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
+        "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
+        "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
+        "https://jepsen.io/analyses/particledb-1.1.4"
+      ],
+      "insights_added": [
+        "ins_tunguz-ai-lab-compute-duration-mismatch",
+        "ins_indig-email-owned-channel-floor",
+        "ins_mollick-conjurer-verification-trap",
+        "ins_kingsbury-llm-docs-trust-erosion"
+      ],
+      "operators_added": [
+        "kyle-kingsbury"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-03.md",
       "date": "2026-11-03",
