@@ -39,7 +39,7 @@ Reddit reported Q3 2026 earnings on October 29, 2026. CEO Steve Huffman attribut
 - Management guidance references shifting KPIs from overall DAU to logged-in DAU or app usage rates.
 
 ## Counter-evidence
-The pivot to logged-in users is easier for a platform with strong brand loyalty and habitual daily use. For platforms where the core use case is episodic or search-driven (reference content, how-to guides), logged-in retention may be structurally lower regardless of product investment. Reddit's strong community identity gives it more leverage on this pivot than a pure-content destination would have. The pivot also carries a risk: logged-out browsing allows low-commitment sampling that converts some users to logged-in; reducing that surface may shrink the top of the acquisition funnel.
+The pivot to logged-in users is easier for a platform with strong brand loyalty and habitual daily use. For platforms where the core use case is episodic or search-driven (reference content, how-to guides), logged-in retention may be structurally lower regardless of product investment. Reddit's strong community identity gives it more room on this pivot than a pure-content destination would have. The pivot also carries a risk: logged-out browsing allows low-commitment sampling that converts some users to logged-in; reducing that surface may shrink the top of the acquisition funnel.
 
 ## Cross-references
 - See `ins_indig-email-owned-channel-floor` for Kevin Indig's parallel finding that email (owned, algorithm-independent) held and grew while organic search declined, the same structural logic at the channel level.
