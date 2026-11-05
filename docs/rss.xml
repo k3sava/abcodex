@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 01:42:50 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 01:48:54 GMT</lastBuildDate>
+    <item>
+      <title>AI search displacement forces platform pivots, and verification economics govern model choice</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-05/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-05/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, three operators. Eric Seufert&apos;s analysis of Reddit&apos;s Q3 2026 earnings and Apple&apos;s App Store slowdown yields two cards on how AI search displacement changes platform monetization strategy. Simon Willison&apos;s llm 0.37 release notes yield one card on absorbing AI-assisted PR floods in open source. Thorsten Ball&apos;s October 25 essay yields one card on the false economy of cheaper models when error rate requires universal verification.</description>
+    </item>
     <item>
       <title>AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-04/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-07/</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel&apos;s inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb&apos;s AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.</description>
-    </item>
-    <item>
-      <title>Inference economics, agent budget risk, and what scale does to quality</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-06/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-06/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from three operators. Tomasz Tunguz quantifies how the inference market will dwarf databases by 2027 and compresses SaaS margins. Simon Willison documents why agents require hard cloud budget caps by default and why enabling reasoning raised Qwen3.8 arithmetic accuracy from 23% to 99%. Aleyda Solis names the brand-swap test as the practical diagnostic for commodity content under Google&apos;s enforcement acceleration.</description>
     </item>
   </channel>
 </rss>

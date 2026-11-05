@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1310 insight cards
+- 1314 insight cards
 - 564 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (859)
+### Tier B (862)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -466,6 +466,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-software-is-learning`](insights/ins_ball-software-is-learning.md) — Minimizing time-to-feedback is the single most valuable practice when building new software _(Thorsten Ball)_
 - [`ins_ball-specification-bug-era`](insights/ins_ball-specification-bug-era.md) — As AI handles coding reliably, most software bugs shift from implementation errors to specification errors _(Thorsten Ball)_
 - [`ins_ball-thread-commit-decision-link`](insights/ins_ball-thread-commit-decision-link.md) — Linking agent conversation threads to git commits preserves decision context that code alone cannot carry _(Thorsten Ball)_
+- [`ins_ball-weak-model-false-economy`](insights/ins_ball-weak-model-false-economy.md) — Using a cheaper model to reduce per-task cost is false economy when error rate requires verifying every output _(Thorsten Ball)_
 - [`ins_barry-schwartz-google-ai-mode-citation-surfaces`](insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md) — Google formalized five citation surfaces in AI Mode and AI Overviews, giving AEO a specific placement target inside Google search _(Barry Schwartz)_
 - [`ins_barry-schwartz-preferred-source-labels`](insights/ins_barry-schwartz-preferred-source-labels.md) — Google preferred-source labels create a credibility tier inside AI Mode citations that compounds authority for brands already earning it _(Barry Schwartz)_
 - [`ins_battle-cards-as-workflow-primitive`](insights/ins_battle-cards-as-workflow-primitive.md) — Battle cards become workflow primitives, not Notion pages _(Gartner)_
@@ -956,6 +957,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_seufert-att-asymmetric-consent`](insights/ins_seufert-att-asymmetric-consent.md) — Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors _(Eric Seufert)_
 - [`ins_seufert-capi-server-side-durability`](insights/ins_seufert-capi-server-side-durability.md) — Server-to-server Conversions API integration is structurally durable against platform privacy changes because it operates outside browser and OS control _(Eric Seufert)_
 - [`ins_seufert-chatbot-dual-targeting`](insights/ins_seufert-chatbot-dual-targeting.md) — Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session _(Eric Seufert)_
+- [`ins_seufert-reddit-login-aisearch-hedge`](insights/ins_seufert-reddit-login-aisearch-hedge.md) — Platforms dependent on anonymous search traffic must pivot to logged-in users when AI Overviews cut search referrals _(Eric Seufert)_
 - [`ins_shaambhav-shankar-ai-kills-excuses-for-marketers`](insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md) — With AI, excuses about time or skill are dead, marketers must be fast executors who break things. _(Shaambhav Shankar)_
 - [`ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010`](insights/ins_shaambhav-shankar-b2b-marketing-is-stuck-in-2010.md) — Most B2B marketing is still functioning like it's 2010, following a boring playbook that causes stagnation. _(Shaambhav Shankar)_
 - [`ins_shahali-ai-sales-quota-amplification`](insights/ins_shahali-ai-sales-quota-amplification.md) — AI-era sales reps carry multiples-higher quotas, forcing quarterly comp resets _(Bardia Shahali)_
@@ -1187,6 +1189,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-ondevice-frontier-convergence`](insights/ins_willison-ondevice-frontier-convergence.md) — By mid-2026, small open-source models running on consumer laptops achieved near-frontier performance, removing the technical necessity of cloud inference for many standard tasks. _(Simon Willison)_
 - [`ins_willison-open-model-defense-asymmetry`](insights/ins_willison-open-model-defense-asymmetry.md) — Incident response against AI agent attacks required open-weight models because closed commercial models refused to analyze attacker payloads _(Simon Willison)_
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
+- [`ins_willison-oss-aiprs-bug-report-frame`](insights/ins_willison-oss-aiprs-bug-report-frame.md) — Open-source maintainers can absorb AI-assisted PR floods by treating each submission as a bug report with an attached example _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
 - [`ins_willison-programming-process-loss`](insights/ins_willison-programming-process-loss.md) — Whether AI agents help or hurt programmers depends on what they valued about coding in the first place _(Simon Willison)_
 - [`ins_willison-programming-splits-system-vs-puzzle`](insights/ins_willison-programming-splits-system-vs-puzzle.md) — LLMs split programming value between system-builders who gain and puzzle-solvers who lose _(Simon Willison)_
@@ -1238,7 +1241,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (88)
+### Tier C (89)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1311,6 +1314,7 @@ _Generated 2026-11-04. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sangram-vajre-ai-multiplies-existing-alignment`](insights/ins_sangram-vajre-ai-multiplies-existing-alignment.md) — AI multiplies whatever a GTM team already has; misaligned teams become faster chaos, not a shortcut to alignment _(Sangram Vajre)_
 - [`ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality`](insights/ins_saniya-waghray-tyagi-chaos-to-clarity-launch-reality.md) — Working out loud beats hindsight, the breadcrumb trail compounds _(Saniya Waghray Tyagi)_
 - [`ins_sara-popken-ai-first-pmm-opportunity`](insights/ins_sara-popken-ai-first-pmm-opportunity.md) — Shaping the future of learning in an AI-first world as a PMM at Quizlet _(Sara Popken)_
+- [`ins_seufert-apple-services-ad-shift`](insights/ins_seufert-apple-services-ad-shift.md) — When platform transaction revenue stagnates, advertising becomes the primary lever for continued Services growth _(Eric Seufert)_
 - [`ins_shali-rana-reed-gap-in-resume-retort`](insights/ins_shali-rana-reed-gap-in-resume-retort.md) — GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey _(Shali Rana Reed)_
 - [`ins_shipper-disclosure-gap`](insights/ins_shipper-disclosure-gap.md) — Near-universal AI use among professional writers is not surfacing publicly because social stigma around authenticity suppresses disclosure _(Dan Shipper)_
 - [`ins_shipper-rule-complexity-floor`](insights/ins_shipper-rule-complexity-floor.md) — Even rule-based tasks like copy editing carry enough context-sensitivity to resist full automation by current AI _(Dan Shipper)_

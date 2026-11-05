@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-11-04T01:42:48.344Z",
+  "generated_at": "2026-11-05T01:48:52.062Z",
   "counts": {
-    "insights": 1310,
+    "insights": 1314,
     "operators": 564,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 157
+    "daily": 158
   },
   "latest_daily": {
-    "path": "daily/2026-11-04.md",
-    "date": "2026-11-04",
-    "title": "AI lab margin mechanics, channel portfolio under search decline, and trust signal erosion",
-    "summary": "Four cards from four operators. Tom Tunguz's November 3 essay on Anthropic's S-1 yields one card on the GPU duration mismatch that will define AI lab margins in 2027. Kevin Indig's November 2 Growth Memo yields one card on email as a floor channel when organic search falls. Ethan Mollick's November Wharton piece yields one card on the verification-cost trap in Conjurer-mode delegation. Kyle Kingsbury's October 31 Jepsen analysis yields one card on LLM-generated docs eroding documentation as a trust signal.",
+    "path": "daily/2026-11-05.md",
+    "date": "2026-11-05",
+    "title": "AI search displacement forces platform pivots, and verification economics govern model choice",
+    "summary": "Four cards, three operators. Eric Seufert's analysis of Reddit's Q3 2026 earnings and Apple's App Store slowdown yields two cards on how AI search displacement changes platform monetization strategy. Simon Willison's llm 0.37 release notes yield one card on absorbing AI-assisted PR floods in open source. Thorsten Ball's October 25 essay yields one card on the false economy of cheaper models when error rate requires universal verification.",
     "sources": [
-      "https://tomtunguz.com/the-financial-engineering-essential-for-ai-in-2027/",
-      "https://www.growth-memo.com/p/what-channels-grow-when-organic-search",
-      "https://executiveeducation.wharton.upenn.edu/thought-leadership/wharton-at-work/2026/11/three-ways-to-work-with-ai/",
-      "https://jepsen.io/analyses/particledb-1.1.4"
+      "https://simonwillison.net/2026/Nov/2/llm/",
+      "https://mdm.co/reddit-q3-2026-earnings/"
     ],
     "insights_added": [
-      "ins_tunguz-ai-lab-compute-duration-mismatch",
-      "ins_indig-email-owned-channel-floor",
-      "ins_mollick-conjurer-verification-trap",
-      "ins_kingsbury-llm-docs-trust-erosion"
+      "ins_willison-oss-aiprs-bug-report-frame",
+      "ins_seufert-reddit-login-aisearch-hedge",
+      "ins_seufert-apple-services-ad-shift",
+      "ins_ball-weak-model-false-economy"
     ],
-    "operators_added": [
-      "kyle-kingsbury"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -3740,6 +3736,37 @@
       ],
       "raw_ref": "",
       "title": "Linking agent conversation threads to git commits preserves decision context that code alone cannot carry"
+    },
+    {
+      "path": "insights/ins_ball-weak-model-false-economy.md",
+      "id": "ins_ball-weak-model-false-economy",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineer; Sourcegraph Amp (agentic coding)",
+      "co_operators": [],
+      "source_url": "https://x.com/thorstenball/article/2114386050638336082",
+      "source_type": "essay",
+      "source_title": "How I work with Agents",
+      "source_date": "2026-10-25",
+      "captured_date": "2026-11-05",
+      "domain": [
+        "agentic-coding",
+        "ai-native-company-building",
+        "engineering"
+      ],
+      "lifecycle": [
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-agent-bug-threshold",
+        "ins_ball-irrefutable-proof-protocol",
+        "ins_mollick-conjurer-verification-trap"
+      ],
+      "raw_ref": "",
+      "title": "Using a cheaper model to reduce per-task cost is false economy when error rate requires verifying every output"
     },
     {
       "path": "insights/ins_barry-schwartz-google-ai-mode-citation-surfaces.md",
@@ -25663,6 +25690,36 @@
       "title": "Sales pitches need a Setup before the Follow-Through; most pitches skip the Setup"
     },
     {
+      "path": "insights/ins_seufert-apple-services-ad-shift.md",
+      "id": "ins_seufert-apple-services-ad-shift",
+      "operator": "Eric Seufert",
+      "operator_role": "Founder, Mobile Dev Memo; mobile marketing analyst",
+      "co_operators": [],
+      "source_url": "unknown",
+      "source_type": "essay",
+      "source_title": "Apple's App Store slowdown",
+      "source_date": "2026-11-04",
+      "captured_date": "2026-11-05",
+      "domain": [
+        "platform",
+        "mobile",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "market-intelligence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 3, source: 2 }",
+      "tier": "C",
+      "related": [
+        "ins_seufert-chatbot-dual-targeting",
+        "ins_seufert-att-asymmetric-consent"
+      ],
+      "raw_ref": "",
+      "title": "When platform transaction revenue stagnates, advertising becomes the primary lever for continued Services growth"
+    },
+    {
       "path": "insights/ins_seufert-att-asymmetric-consent.md",
       "id": "ins_seufert-att-asymmetric-consent",
       "operator": "Eric Seufert",
@@ -25746,6 +25803,37 @@
       ],
       "raw_ref": "",
       "title": "Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session"
+    },
+    {
+      "path": "insights/ins_seufert-reddit-login-aisearch-hedge.md",
+      "id": "ins_seufert-reddit-login-aisearch-hedge",
+      "operator": "Eric Seufert",
+      "operator_role": "Founder, Mobile Dev Memo; mobile marketing analyst",
+      "co_operators": [],
+      "source_url": "https://mdm.co/reddit-q3-2026-earnings/",
+      "source_type": "essay",
+      "source_title": "Reddit pulls up the logged-in drawbridge",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-05",
+      "domain": [
+        "aeo-llm-search",
+        "growth-demand",
+        "platform"
+      ],
+      "lifecycle": [
+        "market-intelligence",
+        "distribution"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-email-owned-channel-floor",
+        "ins_seufert-capi-server-side-durability"
+      ],
+      "raw_ref": "",
+      "title": "Platforms dependent on anonymous search traffic must pivot to logged-in users when AI Overviews cut search referrals"
     },
     {
       "path": "insights/ins_shaambhav-shankar-ai-kills-excuses-for-marketers.md",
@@ -35367,6 +35455,37 @@
       ],
       "raw_ref": "",
       "title": "AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop"
+    },
+    {
+      "path": "insights/ins_willison-oss-aiprs-bug-report-frame.md",
+      "id": "ins_willison-oss-aiprs-bug-report-frame",
+      "operator": "Simon Willison",
+      "operator_role": "Software developer; creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "source_type": "essay",
+      "source_title": "llm 0.37",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-05",
+      "domain": [
+        "engineering",
+        "agentic-coding",
+        "ai-native-company-building"
+      ],
+      "lifecycle": [
+        "growth-loops",
+        "product-development"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-agentic-coding-tripled-github",
+        "ins_ball-maintenance-automation-arrives-first"
+      ],
+      "raw_ref": "",
+      "title": "Open-source maintainers can absorb AI-assisted PR floods by treating each submission as a bug report with an attached example"
     },
     {
       "path": "insights/ins_willison-pdf-token-overhead.md",
@@ -53411,6 +53530,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-05.md",
+      "date": "2026-11-05",
+      "title": "AI search displacement forces platform pivots, and verification economics govern model choice",
+      "summary": "Four cards, three operators. Eric Seufert's analysis of Reddit's Q3 2026 earnings and Apple's App Store slowdown yields two cards on how AI search displacement changes platform monetization strategy. Simon Willison's llm 0.37 release notes yield one card on absorbing AI-assisted PR floods in open source. Thorsten Ball's October 25 essay yields one card on the false economy of cheaper models when error rate requires universal verification.",
+      "sources": [
+        "https://simonwillison.net/2026/Nov/2/llm/",
+        "https://mdm.co/reddit-q3-2026-earnings/"
+      ],
+      "insights_added": [
+        "ins_willison-oss-aiprs-bug-report-frame",
+        "ins_seufert-reddit-login-aisearch-hedge",
+        "ins_seufert-apple-services-ad-shift",
+        "ins_ball-weak-model-false-economy"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-04.md",
       "date": "2026-11-04",
