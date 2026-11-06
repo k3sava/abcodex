@@ -1,26 +1,56 @@
 {
-  "generated_at": "2026-11-05T01:50:29.025Z",
+  "generated_at": "2026-11-06T01:40:50.021Z",
   "latest_daily": {
-    "path": "daily/2026-11-05.md",
-    "date": "2026-11-05",
-    "title": "AI search displacement forces platform pivots, and verification economics govern model choice",
-    "summary": "Four cards, three operators. Eric Seufert's analysis of Reddit's Q3 2026 earnings and Apple's App Store slowdown yields two cards on how AI search displacement changes platform monetization strategy. Simon Willison's llm 0.37 release notes yield one card on absorbing AI-assisted PR floods in open source. Thorsten Ball's October 25 essay yields one card on the false economy of cheaper models when error rate requires universal verification.",
+    "path": "daily/2026-11-06.md",
+    "date": "2026-11-06",
+    "title": "Engineers become AI team leads, and proxy metrics capture the wrong audience",
+    "summary": "Four cards, two new operators. Bart Butler's Proton engineering manifesto yields one card on the engineer's role shift from code writer to AI team leader. Simon Willison's November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/2/llm/",
-      "https://mdm.co/reddit-q3-2026-earnings/"
+      "https://proton.me/blog/ai-manifesto",
+      "https://seangoedecke.com/audience-capture/",
+      "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     ],
     "insights_added": [
-      "ins_willison-oss-aiprs-bug-report-frame",
-      "ins_seufert-reddit-login-aisearch-hedge",
-      "ins_seufert-apple-services-ad-shift",
-      "ins_ball-weak-model-false-economy"
+      "ins_butler-engineer-as-ai-team-lead",
+      "ins_goedecke-engagement-metrics-wrong-audience",
+      "ins_goedecke-ai-agency-noticing",
+      "ins_willison-local-weight-interpretation"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bart-butler",
+      "sean-goedecke"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-06.md",
+      "date": "2026-11-06",
+      "title": "Engineers become AI team leads, and proxy metrics capture the wrong audience",
+      "summary": "Four cards, two new operators. Bart Butler's Proton engineering manifesto yields one card on the engineer's role shift from code writer to AI team leader. Simon Willison's November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.",
+      "sources": [
+        "https://proton.me/blog/ai-manifesto",
+        "https://seangoedecke.com/audience-capture/",
+        "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+        "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      ],
+      "insights_added": [
+        "ins_butler-engineer-as-ai-team-lead",
+        "ins_goedecke-engagement-metrics-wrong-audience",
+        "ins_goedecke-ai-agency-noticing",
+        "ins_willison-local-weight-interpretation"
+      ],
+      "operators_added": [
+        "bart-butler",
+        "sean-goedecke"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-05.md",
       "date": "2026-11-05",
@@ -631,27 +661,6 @@
         "ins_tunguz-model-commodity-distribution-moat"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-07.md",
-      "date": "2026-10-07",
-      "title": "Production agent architecture, codebase knowledge graphs, and per-use-case evals",
-      "summary": "Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel's inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb's AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.",
-      "sources": [
-        "https://tomtunguz.com/how-to-automate-inbound/",
-        "https://www.latent.space/p/airbnb"
-      ],
-      "insights_added": [
-        "ins_tunguz-production-agents-code-over-prompts",
-        "ins_al-dahle-everest-generalist-specialist",
-        "ins_al-dahle-per-usecase-evals"
-      ],
-      "operators_added": [
-        "ahmad-al-dahle"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

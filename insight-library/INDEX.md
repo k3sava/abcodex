@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1314 insight cards
-- 564 operator profiles
+- 1318 insight cards
+- 566 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (862)
+### Tier B (866)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -498,6 +498,7 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_brown-roguelike-modifier-inheritance`](insights/ins_brown-roguelike-modifier-inheritance.md) — Replacing if-statement chains with a base class and override functions lets one loop handle any number of game modifiers without touching core logic _(Mark Brown)_
 - [`ins_build-products-that-dont-yet-work`](insights/ins_build-products-that-dont-yet-work.md) — Build products at the edge of what does not yet work _(Cat Wu)_
 - [`ins_build-quietly`](insights/ins_build-quietly.md) — Best work is done alone and quietly, caveat: only if you already have a network _(Qasar Younis)_
+- [`ins_butler-engineer-as-ai-team-lead`](insights/ins_butler-engineer-as-ai-team-lead.md) — Every engineer is now a team leader whose direct reports are AI agents _(Bart Butler)_
 - [`ins_buy-boring-businesses`](insights/ins_buy-boring-businesses.md) — Buying eliminates the Valley of Death, the highest-risk phase of entrepreneurship is already done _(Codie Sanchez)_
 - [`ins_canonical-pov-on-third-party-first`](insights/ins_canonical-pov-on-third-party-first.md) — Canonical category POVs may need to live on Reddit and YouTube first, then get pulled to your site _(Kieran Flanagan)_
 - [`ins_cantrill-expert-fear-contagion`](insights/ins_cantrill-expert-fear-contagion.md) — Domain experts who publicly predict AI catastrophic risks outside their actual domain abuse the trust their expertise earned, causing fear to propagate faster than any rebuttal can follow _(Bryan Cantrill)_
@@ -622,6 +623,8 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_gerhardt-customer-marketing-listening-program`](insights/ins_gerhardt-customer-marketing-listening-program.md) — The highest-value customer marketing motion is a systematic listening program, not a campaign calendar _(Dave Gerhardt)_
 - [`ins_gideon-harris-hiring-for-bots`](insights/ins_gideon-harris-hiring-for-bots.md) — If the only way to be seen is to sound like a bot, what exactly are we hiring for? _(Gideon Harris)_
 - [`ins_giorgio-zanella-clay-beyond-lead-gen`](insights/ins_giorgio-zanella-clay-beyond-lead-gen.md) — Clay is not just for lead gen, it's a general-purpose automation platform for any data discovery task. _(Giorgio Zanella)_
+- [`ins_goedecke-ai-agency-noticing`](insights/ins_goedecke-ai-agency-noticing.md) — Most AI underuse comes from failing to notice delegation opportunities, not from model limitations _(Sean Goedecke)_
+- [`ins_goedecke-engagement-metrics-wrong-audience`](insights/ins_goedecke-engagement-metrics-wrong-audience.md) — Optimizing for engagement metrics drives away the audience you actually want _(Sean Goedecke)_
 - [`ins_google-ai-mode-subscription-highlight`](insights/ins_google-ai-mode-subscription-highlight.md) — Google's subscription highlight in AI Mode gives paywalled content a visual trust tag inline, changing the ROI on publisher partnerships for AEO _(Google)_
 - [`ins_gordon-m-gtm-tactics-are-theory`](insights/ins_gordon-m-gtm-tactics-are-theory.md) — Go-to-market tactics for new features is a theory question; real launches depend on timeline, resources, and favors. _(Gordon M.)_
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla _(Kevin White)_
@@ -1183,6 +1186,7 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
 - [`ins_willison-llm-compaction-context-loss`](insights/ins_willison-llm-compaction-context-loss.md) — LLM systems that auto-compact context must preserve pre-compacted messages and expose them via tool calls, or every agent action before compaction becomes permanently unverifiable _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
+- [`ins_willison-local-weight-interpretation`](insights/ins_willison-local-weight-interpretation.md) — Local 27B models can interpret neural network weights via extended reasoning traces _(Simon Willison)_
 - [`ins_willison-machine-speed-offense`](insights/ins_willison-machine-speed-offense.md) — AI-powered attackers win through machine-speed iteration on known vulnerabilities, not novel exploit discovery _(Simon Willison)_
 - [`ins_willison-mcp-governance-floor`](insights/ins_willison-mcp-governance-floor.md) — MCP's value is governance for constrained agent deployments, not capability for autonomous ones _(Simon Willison)_
 - [`ins_willison-multimodel-security-audit-workflow`](insights/ins_willison-multimodel-security-audit-workflow.md) — Running multiple frontier models as security auditors on open-source codebases surfaces subtle bugs that single-model or human-only review misses _(Simon Willison)_
@@ -1420,6 +1424,7 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [Bangaly Kaba](operators/bangaly-kaba/README.md)
 - [Bardia Shahali](operators/bardia-shahali/README.md)
 - [Barry Schwartz](operators/barry-schwartz/README.md)
+- [Bart Butler](operators/bart-butler/README.md)
 - [Becky Kennedy](operators/becky-kennedy/README.md)
 - [Ben Tossell](operators/ben-tossell/README.md)
 - [Benedict Evans](operators/benedict-evans/README.md)
@@ -1810,6 +1815,7 @@ _Generated 2026-11-05. Auto-built from frontmatter — do not edit by hand._
 - [Sarah Levinger](operators/sarah-levinger/README.md)
 - [Sayash Kapoor](operators/sayash-kapoor/README.md)
 - [Scott Galloway](operators/scott-galloway/README.md)
+- [Sean Goedecke](operators/sean-goedecke/README.md)
 - [Sebastien Rankin](operators/sebastien-rankin/README.md)
 - [Seepiya Sahni](operators/seepiya-sahni/README.md)
 - [Seth Godin](operators/seth-godin/README.md)
