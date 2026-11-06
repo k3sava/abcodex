@@ -24,7 +24,7 @@ raw_ref: ""
 The bottleneck in AI adoption is not model capability but the habit of noticing when a task can be handed to an agent.
 
 ## Mechanism
-Practitioners tend to evaluate AI tools by what they cannot do well. The harder limit is the practitioner's own attention: they handle a tedious or repetitive task on autopilot and never stop to ask whether an agent could handle it. Goedecke calls this "agency," and treats it as a learnable skill. The trigger is simple: whenever a task feels tedious, repetitive, or requires unusual patience, that feeling is a signal to try delegation. Models fail on many niche tasks, but the range of tasks they can handle reliably is far wider than most practitioners realize, and noticing that range is what separates high-leverage AI users from casual ones.
+Practitioners tend to evaluate AI tools by what they cannot do well. The harder limit is the practitioner's own attention: they handle a tedious or repetitive task on autopilot and never stop to ask whether an agent could handle it. Goedecke calls this "agency," and treats it as a learnable skill. The trigger is simple: whenever a task feels tedious, repetitive, or requires unusual patience, that feeling is a signal to try delegation. Models fail on many niche tasks, but the range of tasks they can handle reliably is far wider than most practitioners realize, and noticing that range is what separates skilled AI users from casual ones.
 
 ## Conditions
 Holds when: the practitioner has basic familiarity with what agents can do and has a tool (Claude Code, Cursor, a custom agent) already in their workflow. The bottleneck is noticing, not access.
