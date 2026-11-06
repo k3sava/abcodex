@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:50:31 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 01:40:52 GMT</lastBuildDate>
+    <item>
+      <title>Engineers become AI team leads, and proxy metrics capture the wrong audience</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-06/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-06/</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, two new operators. Bart Butler&apos;s Proton engineering manifesto yields one card on the engineer&apos;s role shift from code writer to AI team leader. Simon Willison&apos;s November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.</description>
+    </item>
     <item>
       <title>AI search displacement forces platform pivots, and verification economics govern model choice</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-05/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-08/</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators. Dan Shipper describes two mechanisms behind Every&apos;s shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.</description>
-    </item>
-    <item>
-      <title>Production agent architecture, codebase knowledge graphs, and per-use-case evals</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-07/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-07/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from two operators. Tomasz Tunguz publishes the production architecture behind Vercel&apos;s inbound agent: 65% deterministic code, 14% LLM inference, a 1,000-line prompt replaced by 14 rules. Ahmad Al-Dahle, CTO of Airbnb, describes two mechanisms that underpin Airbnb&apos;s AI-native engineering platform: an internal knowledge graph that compresses specialist onboarding from months to weeks, and a per-use-case eval discipline that determines which 50% of support tickets to automate.</description>
     </item>
   </channel>
 </rss>

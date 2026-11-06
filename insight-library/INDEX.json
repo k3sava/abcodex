@@ -1,30 +1,35 @@
 {
-  "generated_at": "2026-11-05T01:50:28.987Z",
+  "generated_at": "2026-11-06T01:40:49.981Z",
   "counts": {
-    "insights": 1314,
-    "operators": 564,
+    "insights": 1318,
+    "operators": 566,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 158
+    "daily": 159
   },
   "latest_daily": {
-    "path": "daily/2026-11-05.md",
-    "date": "2026-11-05",
-    "title": "AI search displacement forces platform pivots, and verification economics govern model choice",
-    "summary": "Four cards, three operators. Eric Seufert's analysis of Reddit's Q3 2026 earnings and Apple's App Store slowdown yields two cards on how AI search displacement changes platform monetization strategy. Simon Willison's llm 0.37 release notes yield one card on absorbing AI-assisted PR floods in open source. Thorsten Ball's October 25 essay yields one card on the false economy of cheaper models when error rate requires universal verification.",
+    "path": "daily/2026-11-06.md",
+    "date": "2026-11-06",
+    "title": "Engineers become AI team leads, and proxy metrics capture the wrong audience",
+    "summary": "Four cards, two new operators. Bart Butler's Proton engineering manifesto yields one card on the engineer's role shift from code writer to AI team leader. Simon Willison's November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/2/llm/",
-      "https://mdm.co/reddit-q3-2026-earnings/"
+      "https://proton.me/blog/ai-manifesto",
+      "https://seangoedecke.com/audience-capture/",
+      "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
     ],
     "insights_added": [
-      "ins_willison-oss-aiprs-bug-report-frame",
-      "ins_seufert-reddit-login-aisearch-hedge",
-      "ins_seufert-apple-services-ad-shift",
-      "ins_ball-weak-model-false-economy"
+      "ins_butler-engineer-as-ai-team-lead",
+      "ins_goedecke-engagement-metrics-wrong-audience",
+      "ins_goedecke-ai-agency-noticing",
+      "ins_willison-local-weight-interpretation"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "bart-butler",
+      "sean-goedecke"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -4893,6 +4898,36 @@
       ],
       "raw_ref": "raw/podcasts/qasar-younis--physical-ai-radical-pragmatism--2026-04-28.md",
       "title": "Best work is done alone and quietly, caveat: only if you already have a network"
+    },
+    {
+      "path": "insights/ins_butler-engineer-as-ai-team-lead.md",
+      "id": "ins_butler-engineer-as-ai-team-lead",
+      "operator": "Bart Butler",
+      "operator_role": "CTO, Proton",
+      "co_operators": [],
+      "source_url": "https://proton.me/blog/ai-manifesto",
+      "source_type": "essay",
+      "source_title": "AI @ Proton, Engineering Manifesto",
+      "source_date": "2026-11-01",
+      "captured_date": "2026-11-06",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_cherny-adoption-maturity-bottlenecks",
+        "ins_ball-code-elegance-is-cognitive-artifact"
+      ],
+      "raw_ref": "",
+      "title": "Every engineer is now a team leader whose direct reports are AI agents"
     },
     {
       "path": "insights/ins_buy-boring-businesses.md",
@@ -10402,6 +10437,61 @@
       ],
       "raw_ref": "raw/expert-content/experts/seth-godin.md",
       "title": "Five steps in order: invent, design for the few, tell the matching story, spread, show up for years"
+    },
+    {
+      "path": "insights/ins_goedecke-ai-agency-noticing.md",
+      "id": "ins_goedecke-ai-agency-noticing",
+      "operator": "Sean Goedecke",
+      "operator_role": "Software engineer and technical blogger",
+      "co_operators": [],
+      "source_url": "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+      "source_type": "essay",
+      "source_title": "You Can Just Ask AI to Do Things",
+      "source_date": "2026-10-29",
+      "captured_date": "2026-11-06",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_butler-engineer-as-ai-team-lead"
+      ],
+      "raw_ref": "",
+      "title": "Most AI underuse comes from failing to notice delegation opportunities, not from model limitations"
+    },
+    {
+      "path": "insights/ins_goedecke-engagement-metrics-wrong-audience.md",
+      "id": "ins_goedecke-engagement-metrics-wrong-audience",
+      "operator": "Sean Goedecke",
+      "operator_role": "Software engineer and technical blogger",
+      "co_operators": [],
+      "source_url": "https://seangoedecke.com/audience-capture/",
+      "source_type": "essay",
+      "source_title": "Audience Capture",
+      "source_date": "2026-11-03",
+      "captured_date": "2026-11-06",
+      "domain": [
+        "content",
+        "marketing"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "messaging-narrative"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Optimizing for engagement metrics drives away the audience you actually want"
     },
     {
       "path": "insights/ins_going-deep-to-bedrock.md",
@@ -35244,6 +35334,34 @@
       "title": "Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation"
     },
     {
+      "path": "insights/ins_willison-local-weight-interpretation.md",
+      "id": "ins_willison-local-weight-interpretation",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source_type": "essay",
+      "source_title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "source_date": "2026-11-03",
+      "captured_date": "2026-11-06",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-oss-aiprs-bug-report-frame"
+      ],
+      "raw_ref": "",
+      "title": "Local 27B models can interpret neural network weights via extended reasoning traces"
+    },
+    {
       "path": "insights/ins_willison-machine-speed-offense.md",
       "id": "ins_willison-machine-speed-offense",
       "operator": "Simon Willison",
@@ -38814,6 +38932,24 @@
       "captured_first": "2026-05-11",
       "external": "{ newsletter: \"https://www.seroundtable.com\" }",
       "title": "Barry Schwartz"
+    },
+    {
+      "path": "operators/bart-butler/README.md",
+      "name": "Bart Butler",
+      "slug": "bart-butler",
+      "roles": [
+        "CTO, Proton"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-11-06",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown"
+      },
+      "title": "Bart Butler"
     },
     {
       "path": "operators/becky-kennedy/README.md",
@@ -45912,6 +46048,26 @@
         "website": "https://www.profgalloway.com/"
       },
       "title": "Scott Galloway"
+    },
+    {
+      "path": "operators/sean-goedecke/README.md",
+      "name": "Sean Goedecke",
+      "slug": "sean-goedecke",
+      "roles": [
+        "Software engineer and technical blogger"
+      ],
+      "domains_active": [
+        "engineering",
+        "ai-native",
+        "content"
+      ],
+      "captured_first": "2026-11-06",
+      "external": {
+        "linkedin": "unknown",
+        "twitter": "unknown",
+        "newsletter": "https://seangoedecke.com/"
+      },
+      "title": "Sean Goedecke"
     },
     {
       "path": "operators/sebastien-rankin/README.md",
@@ -53530,6 +53686,31 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-06.md",
+      "date": "2026-11-06",
+      "title": "Engineers become AI team leads, and proxy metrics capture the wrong audience",
+      "summary": "Four cards, two new operators. Bart Butler's Proton engineering manifesto yields one card on the engineer's role shift from code writer to AI team leader. Simon Willison's November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.",
+      "sources": [
+        "https://proton.me/blog/ai-manifesto",
+        "https://seangoedecke.com/audience-capture/",
+        "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
+        "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      ],
+      "insights_added": [
+        "ins_butler-engineer-as-ai-team-lead",
+        "ins_goedecke-engagement-metrics-wrong-audience",
+        "ins_goedecke-ai-agency-noticing",
+        "ins_willison-local-weight-interpretation"
+      ],
+      "operators_added": [
+        "bart-butler",
+        "sean-goedecke"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-05.md",
       "date": "2026-11-05",
