@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:40:52 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 01:45:58 GMT</lastBuildDate>
+    <item>
+      <title>Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-07/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-07/</guid>
+      <pubDate>Sat, 07 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, no new operators. Tom Tunguz&apos;s November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke&apos;s November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.</description>
+    </item>
     <item>
       <title>Engineers become AI team leads, and proxy metrics capture the wrong audience</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-06/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-09/</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
       <description>Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don&apos;t model context accumulation.</description>
-    </item>
-    <item>
-      <title>Public AI work, skill canonicalization, and model commoditization</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-08/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-08/</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from two operators. Dan Shipper describes two mechanisms behind Every&apos;s shared Slack agent: doing AI work in public spreads adoption faster than private use, and saving corrections as named skills turns individual workarounds into team infrastructure. Tomasz Tunguz shows the commodity inflection has arrived: token prices fell 41% while usage rose 50%, and the new moat is distribution and routing data, not model quality.</description>
     </item>
   </channel>
 </rss>

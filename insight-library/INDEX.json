@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-11-06T01:40:49.981Z",
+  "generated_at": "2026-11-07T01:44:25.827Z",
   "counts": {
-    "insights": 1318,
+    "insights": 1321,
     "operators": 566,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 159
+    "daily": 160
   },
   "latest_daily": {
-    "path": "daily/2026-11-06.md",
-    "date": "2026-11-06",
-    "title": "Engineers become AI team leads, and proxy metrics capture the wrong audience",
-    "summary": "Four cards, two new operators. Bart Butler's Proton engineering manifesto yields one card on the engineer's role shift from code writer to AI team leader. Simon Willison's November 3 experiment yields one card on local 27B models interpreting neural network weights. Sean Goedecke yields two cards: one on engagement metrics driving away thoughtful readers, one on noticing as the scarce AI delegation skill.",
+    "path": "daily/2026-11-07.md",
+    "date": "2026-11-07",
+    "title": "Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken",
+    "summary": "Three cards, no new operators. Tom Tunguz's November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke's November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.",
     "sources": [
-      "https://proton.me/blog/ai-manifesto",
-      "https://seangoedecke.com/audience-capture/",
-      "https://seangoedecke.com/you-can-just-ask-ai-to-do-things/",
-      "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/"
+      "https://tomtunguz.com/watts-in-store-for-2027-inference/",
+      "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
+      "https://seangoedecke.com/alignment-is-impossible/"
     ],
     "insights_added": [
-      "ins_butler-engineer-as-ai-team-lead",
-      "ins_goedecke-engagement-metrics-wrong-audience",
-      "ins_goedecke-ai-agency-noticing",
-      "ins_willison-local-weight-interpretation"
+      "ins_tunguz-power-ai-ceiling-2027",
+      "ins_tunguz-ai-attack-cost-collapse",
+      "ins_goedecke-llm-alignment-impossible"
     ],
-    "operators_added": [
-      "bart-butler",
-      "sean-goedecke"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -10492,6 +10487,36 @@
       "related": [],
       "raw_ref": "",
       "title": "Optimizing for engagement metrics drives away the audience you actually want"
+    },
+    {
+      "path": "insights/ins_goedecke-llm-alignment-impossible.md",
+      "id": "ins_goedecke-llm-alignment-impossible",
+      "operator": "Sean Goedecke",
+      "operator_role": "Software engineer and technical blogger",
+      "co_operators": [],
+      "source_url": "https://seangoedecke.com/alignment-is-impossible/",
+      "source_type": "essay",
+      "source_title": "Reliably aligning LLMs is impossible in principle",
+      "source_date": "2026-11-02",
+      "captured_date": "2026-11-07",
+      "domain": [
+        "engineering",
+        "ai-native-company-building"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-and-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 2, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_goedecke-engagement-metrics-wrong-audience",
+        "ins_goedecke-ai-agency-noticing"
+      ],
+      "raw_ref": "",
+      "title": "Knowing whether an LLM is reliably aligned is impossible in principle, not merely difficult"
     },
     {
       "path": "insights/ins_going-deep-to-bedrock.md",
@@ -30418,6 +30443,33 @@
       "title": "Reported 3x AI productivity gains are agent shift-work economics, not intelligence multiplication"
     },
     {
+      "path": "insights/ins_tunguz-ai-attack-cost-collapse.md",
+      "id": "ins_tunguz-ai-attack-cost-collapse",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
+      "source_type": "essay",
+      "source_title": "A $90 Key into Your Company's Secrets",
+      "source_date": "2026-11-06",
+      "captured_date": "2026-11-07",
+      "domain": [
+        "ai-native-company-building",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-and-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI agents cut enterprise attack costs 99% in five months, shifting security from deterrence to economics"
+    },
+    {
       "path": "insights/ins_tunguz-ai-category-winner-premium.md",
       "id": "ins_tunguz-ai-category-winner-premium",
       "operator": "Tom Tunguz",
@@ -32174,6 +32226,35 @@
       ],
       "raw_ref": "",
       "title": "Developer tools that abstract a new compute layer follow the Docker adoption curve"
+    },
+    {
+      "path": "insights/ins_tunguz-power-ai-ceiling-2027.md",
+      "id": "ins_tunguz-power-ai-ceiling-2027",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/watts-in-store-for-2027-inference/",
+      "source_type": "essay",
+      "source_title": "Watts in Store for 2027: The AI Ceiling",
+      "source_date": "2026-11-04",
+      "captured_date": "2026-11-07",
+      "domain": [
+        "ai-native-company-building",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-and-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 5, evidence: 4, transferability: 3, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine"
+      ],
+      "raw_ref": "",
+      "title": "Power, not chips, is the binding constraint on AI compute growth in 2027"
     },
     {
       "path": "insights/ins_tunguz-preflight-skill-retrieval.md",
@@ -53686,6 +53767,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-07.md",
+      "date": "2026-11-07",
+      "title": "Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken",
+      "summary": "Three cards, no new operators. Tom Tunguz's November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke's November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.",
+      "sources": [
+        "https://tomtunguz.com/watts-in-store-for-2027-inference/",
+        "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
+        "https://seangoedecke.com/alignment-is-impossible/"
+      ],
+      "insights_added": [
+        "ins_tunguz-power-ai-ceiling-2027",
+        "ins_tunguz-ai-attack-cost-collapse",
+        "ins_goedecke-llm-alignment-impossible"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-06.md",
       "date": "2026-11-06",
