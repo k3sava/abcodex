@@ -27,7 +27,7 @@ We cannot know whether an LLM is reliably aligned because LLMs lack fixed goals,
 Three compounding problems prevent alignment verification. First, LLMs imitate varied human writing rather than pursuing a fixed objective, so there is no stable goal to align. Second, mechanistic interpretability faces three irresolvable gaps: dangerous behaviors are rarely observed before they trigger, so they go unlabeled; feature labels are semantically ambiguous in the way Kripke's quaddition problem shows (a "kindness" feature might really be "kindness unless condition X"); and the billions of interacting features per token exceed human interpretive capacity. Third, delegation to other models as checkers merely pushes the problem up one level without resolving it. The practical implication: standard mitigations (chain-of-thought monitoring, sandboxing, human oversight) help at current capability levels but cannot constrain a system that is sufficiently more capable than its overseers.
 
 ## Conditions
-Holds when: AI systems approach or exceed human-level strategic reasoning, making behavioral monitoring unreliable as a sole safety measure.
+Holds when: AI systems approach or exceed human-level reasoning capability, making behavioral monitoring unreliable as a sole safety measure.
 Fails when: a future interpretability breakthrough makes it possible to verify specific goal-directed properties directly in weights.
 
 ## Evidence

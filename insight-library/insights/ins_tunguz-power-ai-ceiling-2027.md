@@ -24,7 +24,7 @@ raw_ref: ""
 Power capacity in gigawatts, not processor supply, is the operative ceiling on AI compute in 2027, because finished server racks sit idle in warehouses while utility connections run years behind.
 
 ## Mechanism
-When a data center is built faster than the grid can energize it, the economic constraint shifts from silicon to electrons. GPU rental prices rise not because chips are scarce but because powered slots are. The resulting scarcity forces three adaptations: harness efficiency (using context more carefully to serve more work per powered rack), algorithmic innovation (smaller models with comparable output), and pricing differentiation by latency. Each adaptation compresses cost per task even as the infrastructure bottleneck holds.
+When a data center is built faster than the grid can energize it, the economic constraint shifts from silicon to electrons. GPU rental prices rise not because chips are scarce but because powered slots are. The resulting scarcity forces three adaptations: harness efficiency (using context more carefully to serve more work per powered rack), algorithmic improvement (smaller models with comparable output), and pricing differentiation by latency. Each adaptation compresses cost per task even as the infrastructure bottleneck holds.
 
 ## Conditions
 Holds when: grid interconnect timelines continue to lag data center construction, which is the current documented state.
