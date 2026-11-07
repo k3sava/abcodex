@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1318 insight cards
+- 1321 insight cards
 - 566 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (866)
+### Tier B (869)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -625,6 +625,7 @@ _Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_giorgio-zanella-clay-beyond-lead-gen`](insights/ins_giorgio-zanella-clay-beyond-lead-gen.md) — Clay is not just for lead gen, it's a general-purpose automation platform for any data discovery task. _(Giorgio Zanella)_
 - [`ins_goedecke-ai-agency-noticing`](insights/ins_goedecke-ai-agency-noticing.md) — Most AI underuse comes from failing to notice delegation opportunities, not from model limitations _(Sean Goedecke)_
 - [`ins_goedecke-engagement-metrics-wrong-audience`](insights/ins_goedecke-engagement-metrics-wrong-audience.md) — Optimizing for engagement metrics drives away the audience you actually want _(Sean Goedecke)_
+- [`ins_goedecke-llm-alignment-impossible`](insights/ins_goedecke-llm-alignment-impossible.md) — Knowing whether an LLM is reliably aligned is impossible in principle, not merely difficult _(Sean Goedecke)_
 - [`ins_google-ai-mode-subscription-highlight`](insights/ins_google-ai-mode-subscription-highlight.md) — Google's subscription highlight in AI Mode gives paywalled content a visual trust tag inline, changing the ROI on publisher partnerships for AEO _(Google)_
 - [`ins_gordon-m-gtm-tactics-are-theory`](insights/ins_gordon-m-gtm-tactics-are-theory.md) — Go-to-market tactics for new features is a theory question; real launches depend on timeline, resources, and favors. _(Gordon M.)_
 - [`ins_got-analysis-paralysis-about-using`](insights/ins_got-analysis-paralysis-about-using.md) — If you've got analysis paralysis about using agents (think Claude Code, Cowork, OpenCla _(Kevin White)_
@@ -1046,6 +1047,7 @@ _Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-agents-covert-channels`](insights/ins_tunguz-agents-covert-channels.md) — AI agents with persistent goals discover and exploit security vulnerabilities and communicate through covert channels without explicit instruction _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-erp-bypass`](insights/ins_tunguz-agents-erp-bypass.md) — AI agents bypass ERP switching costs by automating operational workflows from within rather than displacing the system at once _(Tomasz Tunguz)_
 - [`ins_tunguz-ai-agent-night-shift`](insights/ins_tunguz-ai-agent-night-shift.md) — Reported 3x AI productivity gains are agent shift-work economics, not intelligence multiplication _(Tom Tunguz)_
+- [`ins_tunguz-ai-attack-cost-collapse`](insights/ins_tunguz-ai-attack-cost-collapse.md) — AI agents cut enterprise attack costs 99% in five months, shifting security from deterrence to economics _(Tom Tunguz)_
 - [`ins_tunguz-ai-category-winner-premium`](insights/ins_tunguz-ai-category-winner-premium.md) — One AI-infrastructure company in each software category trades at 3 to 8 times its category median because it monetizes agent proliferation directly _(Tom Tunguz)_
 - [`ins_tunguz-ai-circle-payback-web`](insights/ins_tunguz-ai-circle-payback-web.md) — AI application revenue is reaching the infrastructure payback threshold twice as fast as the web era did _(Tom Tunguz)_
 - [`ins_tunguz-ai-editor-not-ghostwriter`](insights/ins_tunguz-ai-editor-not-ghostwriter.md) — AI homogenizes voice because all writers share the same ghostwriter, so use AI as an editor and preserve your own stylistic markers _(Tomasz Tunguz)_
@@ -1099,6 +1101,7 @@ _Generated 2026-11-06. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
+- [`ins_tunguz-power-ai-ceiling-2027`](insights/ins_tunguz-power-ai-ceiling-2027.md) — Power, not chips, is the binding constraint on AI compute growth in 2027 _(Tom Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
 - [`ins_tunguz-security-tooling-gap`](insights/ins_tunguz-security-tooling-gap.md) — Security tops AI adoption pain points while security tooling delivers the least value of any category _(Tom Tunguz)_
 - [`ins_tunguz-security-tops-ai-barrier-2026`](insights/ins_tunguz-security-tops-ai-barrier-2026.md) — Security and governance rose from sixth to first as the enterprise AI pain point in twelve months _(Tomasz Tunguz)_
