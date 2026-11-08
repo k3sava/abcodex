@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Nov 2026 01:45:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 01:47:13 GMT</lastBuildDate>
+    <item>
+      <title>Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-08/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-08/</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.</description>
+    </item>
     <item>
       <title>Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-07/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-10/</guid>
       <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
       <description>Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.</description>
-    </item>
-    <item>
-      <title>Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-09/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-09/</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don&apos;t model context accumulation.</description>
     </item>
   </channel>
 </rss>
