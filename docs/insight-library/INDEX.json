@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-11-07T01:45:55.836Z",
+  "generated_at": "2026-11-08T01:47:08.465Z",
   "counts": {
-    "insights": 1321,
-    "operators": 566,
+    "insights": 1324,
+    "operators": 567,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 160
+    "daily": 161
   },
   "latest_daily": {
-    "path": "daily/2026-11-07.md",
-    "date": "2026-11-07",
-    "title": "Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken",
-    "summary": "Three cards, no new operators. Tom Tunguz's November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke's November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.",
+    "path": "daily/2026-11-08.md",
+    "date": "2026-11-08",
+    "title": "Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification",
+    "summary": "Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.",
     "sources": [
-      "https://tomtunguz.com/watts-in-store-for-2027-inference/",
-      "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
-      "https://seangoedecke.com/alignment-is-impossible/"
+      "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/"
     ],
     "insights_added": [
-      "ins_tunguz-power-ai-ceiling-2027",
-      "ins_tunguz-ai-attack-cost-collapse",
-      "ins_goedecke-llm-alignment-impossible"
+      "ins_serrano-performance-ugc-creator-alignment",
+      "ins_solis-tech-seo-execution-gap",
+      "ins_fishkin-zero-click-visitor-qualification"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "hector-serrano"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -9479,6 +9481,36 @@
       ],
       "raw_ref": "",
       "title": "A brand's website is now the training source AI tools use to form answers about it; a thin site produces AI misinformation"
+    },
+    {
+      "path": "insights/ins_fishkin-zero-click-visitor-qualification.md",
+      "id": "ins_fishkin-zero-click-visitor-qualification",
+      "operator": "Rand Fishkin",
+      "operator_role": "Founder, SparkToro",
+      "co_operators": [],
+      "source_url": "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/",
+      "source_type": "essay",
+      "source_title": "20 Zero-Click Marketing Questions Everyone's Asking",
+      "source_date": "2026-11-01",
+      "captured_date": "2026-11-08",
+      "domain": [
+        "aeo",
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_fishkin-platform-first-zero-click",
+        "ins_fishkin-natividad-measurement-reframe-not-clicks"
+      ],
+      "raw_ref": "",
+      "title": "Conversion rates may rise as site traffic falls because platform-side research now pre-qualifies arriving visitors"
     },
     {
       "path": "insights/ins_fishkin-zero-click-walled-garden.md",
@@ -25776,6 +25808,32 @@
       "title": "When addressing a behavior, name explicitly that identity is not on trial"
     },
     {
+      "path": "insights/ins_serrano-performance-ugc-creator-alignment.md",
+      "id": "ins_serrano-performance-ugc-creator-alignment",
+      "operator": "Hector Serrano",
+      "operator_role": "Head of Content, Wispr Flow",
+      "co_operators": [],
+      "source_url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "source_type": "podcast",
+      "source_title": "How a 19-year-old intern built the growth engine behind this $2B AI company",
+      "source_date": "2026-11-01",
+      "captured_date": "2026-11-08",
+      "domain": [
+        "pmm",
+        "growth-demand"
+      ],
+      "lifecycle": [
+        "growth-loops"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Paying UGC creators a share of ad spend, not a flat rate, selects for authentic advocates and aligns creator economics with purchase outcomes"
+    },
+    {
       "path": "insights/ins_setup-follow-through-pitch.md",
       "id": "ins_setup-follow-through-pitch",
       "operator": "April Dunford",
@@ -27862,6 +27920,35 @@
       ],
       "raw_ref": "",
       "title": "Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms"
+    },
+    {
+      "path": "insights/ins_solis-tech-seo-execution-gap.md",
+      "id": "ins_solis-tech-seo-execution-gap",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant, Orainti",
+      "co_operators": [],
+      "source_url": "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "source_type": "talk",
+      "source_title": "The State of Technical SEO in the AI Search Era in 2026",
+      "source_date": "2026-11-06",
+      "captured_date": "2026-11-08",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "execution"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "raw_ref": "",
+      "title": "Only 28 percent of SEO teams implement 80 percent or more of their own recommendations, so execution friction, not knowledge, is the binding constraint"
     },
     {
       "path": "insights/ins_solis-third-party-citation-prioritization.md",
@@ -41741,6 +41828,21 @@
       "title": "Hattie the PMM"
     },
     {
+      "path": "operators/hector-serrano/README.md",
+      "name": "Hector Serrano",
+      "slug": "hector-serrano",
+      "roles": [
+        "Head of Content, Wispr Flow"
+      ],
+      "domains_active": [
+        "pmm",
+        "growth-demand"
+      ],
+      "captured_first": "2026-11-08",
+      "external": "{}",
+      "title": "Hector Serrano"
+    },
+    {
       "path": "operators/heer-chheda/README.md",
       "name": "Heer Chheda",
       "slug": "heer-chheda",
@@ -53767,6 +53869,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-08.md",
+      "date": "2026-11-08",
+      "title": "Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification",
+      "summary": "Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/"
+      ],
+      "insights_added": [
+        "ins_serrano-performance-ugc-creator-alignment",
+        "ins_solis-tech-seo-execution-gap",
+        "ins_fishkin-zero-click-visitor-qualification"
+      ],
+      "operators_added": [
+        "hector-serrano"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-07.md",
       "date": "2026-11-07",

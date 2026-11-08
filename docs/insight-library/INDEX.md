@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-08. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1321 insight cards
-- 566 operator profiles
+- 1324 insight cards
+- 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (869)
+### Tier B (871)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -958,6 +958,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sen-ai-overviews-click-reduction`](insights/ins_sen-ai-overviews-click-reduction.md) — AI Overviews reduce outbound clicks by 40% with no corresponding improvement in user satisfaction _(Ananya Sen)_
 - [`ins_sense-seeing-three-shifts-once`](insights/ins_sense-seeing-three-shifts-once.md) — My sense is we're seeing three shifts at once _(Yael Davidowitz-Neu)_
 - [`ins_separate-behavior-from-identity`](insights/ins_separate-behavior-from-identity.md) — When addressing a behavior, name explicitly that identity is not on trial _(Becky Kennedy)_
+- [`ins_serrano-performance-ugc-creator-alignment`](insights/ins_serrano-performance-ugc-creator-alignment.md) — Paying UGC creators a share of ad spend, not a flat rate, selects for authentic advocates and aligns creator economics with purchase outcomes _(Hector Serrano)_
 - [`ins_seufert-att-asymmetric-consent`](insights/ins_seufert-att-asymmetric-consent.md) — Apple's ATT used asymmetric consent language to systematically advantage its own advertising opt-in rates over third-party competitors _(Eric Seufert)_
 - [`ins_seufert-capi-server-side-durability`](insights/ins_seufert-capi-server-side-durability.md) — Server-to-server Conversions API integration is structurally durable against platform privacy changes because it operates outside browser and OS control _(Eric Seufert)_
 - [`ins_seufert-chatbot-dual-targeting`](insights/ins_seufert-chatbot-dual-targeting.md) — Chatbot ad systems gain a structural edge by switching between intent-based and behavioral targeting within a single session _(Eric Seufert)_
@@ -1002,6 +1003,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
 - [`ins_solis-ecommerce-serp-layout-traffic-drop`](insights/ins_solis-ecommerce-serp-layout-traffic-drop.md) — Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
+- [`ins_solis-tech-seo-execution-gap`](insights/ins_solis-tech-seo-execution-gap.md) — Only 28 percent of SEO teams implement 80 percent or more of their own recommendations, so execution friction, not knowledge, is the binding constraint _(Aleyda Solis)_
 - [`ins_solis-third-party-citation-prioritization`](insights/ins_solis-third-party-citation-prioritization.md) — Six criteria for deciding which third-party platforms are worth investing in for AI search citations _(Aleyda Solis)_
 - [`ins_sourav-mohanty-branch-in-new-chat-pmm-workflow`](insights/ins_sourav-mohanty-branch-in-new-chat-pmm-workflow.md) — Branch-in-new-chat enables PMMs to scale strategy to assets without chaos _(Sourav Mohanty)_
 - [`ins_source-type-fit-beats-authority`](insights/ins_source-type-fit-beats-authority.md) — Google's May 2026 Core Update rewarded source type fit over authority alone, concentrating visibility around canonical destinations for each query's dominant intent _(Aleyda Solis)_
@@ -1248,7 +1250,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (89)
+### Tier C (90)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1277,6 +1279,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [`ins_data-strategy-precedes-tool-strategy`](insights/ins_data-strategy-precedes-tool-strategy.md) — Data strategy precedes tool strategy in marketing automation _(Gartner)_
 - [`ins_dyutismita-das-managing-hr-burnout`](insights/ins_dyutismita-das-managing-hr-burnout.md) — Managing HR burnout is a relatable struggle in the current work environment. _(Dyutismita Das)_
 - [`ins_elena-ostanina-core-pmm-foundations`](insights/ins_elena-ostanina-core-pmm-foundations.md) — Two core PMM foundations: user insights and lifecycle content marketing _(Elena Ostanina)_
+- [`ins_fishkin-zero-click-visitor-qualification`](insights/ins_fishkin-zero-click-visitor-qualification.md) — Conversion rates may rise as site traffic falls because platform-side research now pre-qualifies arriving visitors _(Rand Fishkin)_
 - [`ins_ford-ai-code-quality-filter`](insights/ins_ford-ai-code-quality-filter.md) — AI democratizing code production reveals the quality gap more clearly, not less _(Paul Ford)_
 - [`ins_gaurav-sharma-life-as-code`](insights/ins_gaurav-sharma-life-as-code.md) — Life is not chaos but code; we are scripted souls executing a task. _(Gaurav Sharma)_
 - [`ins_gerhardt-buyer-ai-presales-research`](insights/ins_gerhardt-buyer-ai-presales-research.md) — B2B buyers now research vendors in AI tools before any sales contact, making AI-search discoverability a pre-funnel requirement _(Dave Gerhardt)_
@@ -1574,6 +1577,7 @@ _Generated 2026-11-07. Auto-built from frontmatter — do not edit by hand._
 - [Harshit Jain](operators/harshit-jain/README.md)
 - [Harshit Mahawar](operators/harshit-mahawar/README.md)
 - [Hattie the PMM](operators/hattie-the-pmm/README.md)
+- [Hector Serrano](operators/hector-serrano/README.md)
 - [Heer Chheda](operators/heer-chheda/README.md)
 - [Hermann Simon](operators/hermann-simon/README.md)
 - [Hilary Gridley](operators/hilary-gridley/README.md)
