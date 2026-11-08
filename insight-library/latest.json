@@ -1,26 +1,50 @@
 {
-  "generated_at": "2026-11-07T01:45:55.862Z",
+  "generated_at": "2026-11-08T01:47:08.492Z",
   "latest_daily": {
-    "path": "daily/2026-11-07.md",
-    "date": "2026-11-07",
-    "title": "Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken",
-    "summary": "Three cards, no new operators. Tom Tunguz's November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke's November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.",
+    "path": "daily/2026-11-08.md",
+    "date": "2026-11-08",
+    "title": "Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification",
+    "summary": "Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.",
     "sources": [
-      "https://tomtunguz.com/watts-in-store-for-2027-inference/",
-      "https://tomtunguz.com/a-90-dollar-key-into-your-companys-secrets/",
-      "https://seangoedecke.com/alignment-is-impossible/"
+      "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/"
     ],
     "insights_added": [
-      "ins_tunguz-power-ai-ceiling-2027",
-      "ins_tunguz-ai-attack-cost-collapse",
-      "ins_goedecke-llm-alignment-impossible"
+      "ins_serrano-performance-ugc-creator-alignment",
+      "ins_solis-tech-seo-execution-gap",
+      "ins_fishkin-zero-click-visitor-qualification"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "hector-serrano"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-08.md",
+      "date": "2026-11-08",
+      "title": "Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification",
+      "summary": "Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/"
+      ],
+      "insights_added": [
+        "ins_serrano-performance-ugc-creator-alignment",
+        "ins_solis-tech-seo-execution-gap",
+        "ins_fishkin-zero-click-visitor-qualification"
+      ],
+      "operators_added": [
+        "hector-serrano"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-07.md",
       "date": "2026-11-07",
@@ -636,27 +660,6 @@
       "operators_added": [
         "paridhi-agarwal"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-09.md",
-      "date": "2026-10-09",
-      "title": "Org structure after AI, multi-model routing, scope expansion, and the Haiku cost cliff",
-      "summary": "Four cards from three operators. Ahmad Al-Dahle on how AI-authored features make feature teams obsolete and why narrow post-trained models beat frontier models on latency-sensitive tasks. Ethan Mollick on cheap agent coordination expanding organizational scope rather than cutting headcount. Simon Willison on the Haiku 5.5 pricing cliff that agent builders will cross if they don't model context accumulation.",
-      "sources": [
-        "https://www.latent.space/p/airbnb",
-        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-        "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/"
-      ],
-      "insights_added": [
-        "ins_al-dahle-outcome-based-org",
-        "ins_al-dahle-narrow-model-beats-frontier",
-        "ins_mollick-cheap-coordination-expands-scope",
-        "ins_willison-haiku55-context-cliff"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
