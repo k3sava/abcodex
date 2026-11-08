@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-07 · 3 insights
+### Latest · 2026-11-08 · 3 insights · 1 operator
 
-**Power limits AI scale, $90 opens company networks, and LLM alignment verification is fundamentally broken.** Three cards, no new operators. Tom Tunguz's November 4 post yields one card on electrical power as the binding ceiling on 2027 AI compute. His November 6 post yields one card on how AI-agent attacks collapsed enterprise intrusion costs 99% in five months. Sean Goedecke's November 2 post yields one card arguing that knowing whether an LLM is reliably aligned is impossible in principle.
+**Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification.** Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.
 
-[Read what landed →](insight-library/daily/2026-11-07.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1321** insight cards
-- **566** operator profiles
+- **1324** insight cards
+- **567** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 566 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 567 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
