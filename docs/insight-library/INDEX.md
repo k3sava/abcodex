@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-08. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1324 insight cards
+- 1326 insight cards
 - 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (871)
+### Tier B (873)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -637,6 +637,7 @@ _Generated 2026-11-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hallucinations-when-makes-things-thinks`](insights/ins_hallucinations-when-makes-things-thinks.md) — Hallucinations are when the AI makes up things that it *thinks* are true -- but just ar _(Dharmesh Shah)_
 - [`ins_hamel-eval-is-product-smell`](insights/ins_hamel-eval-is-product-smell.md) — When a team says an AI product is hard to eval, the bottleneck is product design, not eval methodology _(Hamel Husain)_
 - [`ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff`](insights/ins_hamna-aslam-kahn-ai-as-digital-chief-of-staff.md) — The most powerful AI prompts are those that pull from integrated workspace data, not generic queries. _(Hamna Aslam Kahn)_
+- [`ins_handley-judgment-scarce-ai-speed-abundant`](insights/ins_handley-judgment-scarce-ai-speed-abundant.md) — When AI makes marketing speed abundant, judgment becomes the scarce resource _(Ann Handley)_
 - [`ins_handley-self-laughter-as-quality-kpi`](insights/ins_handley-self-laughter-as-quality-kpi.md) — Did you make yourself laugh while writing?, a reliable KPI for newsletter quality _(Ann Handley)_
 - [`ins_handley-white-space-as-oxygen`](insights/ins_handley-white-space-as-oxygen.md) — White space is oxygen, dense unbroken text creates cognitive load; strategic white space lets the eye rest and the reader continue _(Ann Handley)_
 - [`ins_harland-ideas-need-to-simmer`](insights/ins_harland-ideas-need-to-simmer.md) — Ideas need to simmer, walking away from a draft and returning later is necessary for critical editing, not optional _(Dave Harland)_
@@ -1211,6 +1212,7 @@ _Generated 2026-11-08. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-rogue-agents-side-channel`](insights/ins_willison-rogue-agents-side-channel.md) — Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
+- [`ins_willison-specialized-parser-stdlib-bottleneck`](insights/ins_willison-specialized-parser-stdlib-bottleneck.md) — When input constraints are known, a narrow parser beats the standard library regardless of language _(Simon Willison)_
 - [`ins_willison-stateless-mcp`](insights/ins_willison-stateless-mcp.md) — MCP 2.0's stateless HTTP transport reduces server implementation to a single request-response cycle, making agent tools easier to build, scale, and audit than shell access _(Simon Willison)_
 - [`ins_willison-system-prompt-knowledge-injection`](insights/ins_willison-system-prompt-knowledge-injection.md) — Injecting verified facts about post-training events into the system prompt prevents LLM confabulation without model retraining _(Simon Willison)_
 - [`ins_willison-system-prompt-legal-reaction`](insights/ins_willison-system-prompt-legal-reaction.md) — Published AI system prompts are reactive legal compliance tools, not complete transparency signals, because unpublished feature-specific behavioral blocks remain hidden _(Simon Willison)_
