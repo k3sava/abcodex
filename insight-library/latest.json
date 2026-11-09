@@ -1,28 +1,42 @@
 {
-  "generated_at": "2026-11-08T01:47:08.492Z",
+  "generated_at": "2026-11-09T01:49:12.743Z",
   "latest_daily": {
-    "path": "daily/2026-11-08.md",
-    "date": "2026-11-08",
-    "title": "Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification",
-    "summary": "Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.",
+    "path": "daily/2026-11-09.md",
+    "date": "2026-11-09",
+    "title": "Judgment as scarce resource, and the library function as bottleneck",
+    "summary": "Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.",
     "sources": [
-      "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
-      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
-      "https://sparktoro.com/blog/20-zero-click-marketing-questions-everyones-asking/"
+      "https://www.exitfive.com/podcast/why-you-should-slow-down-and-market-intentionally-to-make-an-impact-with-ann-handley/",
+      "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
     ],
     "insights_added": [
-      "ins_serrano-performance-ugc-creator-alignment",
-      "ins_solis-tech-seo-execution-gap",
-      "ins_fishkin-zero-click-visitor-qualification"
+      "ins_handley-judgment-scarce-ai-speed-abundant",
+      "ins_willison-specialized-parser-stdlib-bottleneck"
     ],
-    "operators_added": [
-      "hector-serrano"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-09.md",
+      "date": "2026-11-09",
+      "title": "Judgment as scarce resource, and the library function as bottleneck",
+      "summary": "Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.",
+      "sources": [
+        "https://www.exitfive.com/podcast/why-you-should-slow-down-and-market-intentionally-to-make-an-impact-with-ann-handley/",
+        "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+      ],
+      "insights_added": [
+        "ins_handley-judgment-scarce-ai-speed-abundant",
+        "ins_willison-specialized-parser-stdlib-bottleneck"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-08.md",
       "date": "2026-11-08",
@@ -639,26 +653,6 @@
       ],
       "operators_added": [
         "michael-lynch"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-10.md",
-      "date": "2026-10-10",
-      "title": "Managed agent infrastructure and voice-directed development",
-      "summary": "Two cards. Paridhi Agarwal on why Every handed its agent infrastructure to Anthropic so engineers could focus on coworker behavior. Simon Willison on where voice input works in AI-assisted development and where the keyboard is still necessary.",
-      "sources": [
-        "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic",
-        "https://simonwillison.net/2026/Oct/9/built-using-my-voice/"
-      ],
-      "insights_added": [
-        "ins_agarwal-managed-infra-coworker-focus",
-        "ins_willison-voice-high-level-typing-precision"
-      ],
-      "operators_added": [
-        "paridhi-agarwal"
       ],
       "patterns_added": [],
       "playbooks_added": [],

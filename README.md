@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-08 · 3 insights · 1 operator
+### Latest · 2026-11-09 · 2 insights
 
-**Performance-based creator pay, the SEO execution gap, and zero-click visitor pre-qualification.** Three cards, one new operator. Hector Serrano (Wispr Flow) on paying UGC creators a share of ad spend as a quality filter. Aleyda Solis on why only 28% of SEO teams implement 80%+ of their own recommendations. Rand Fishkin on conversion rates rising as traffic falls when platforms pre-qualify visitors.
+**Judgment as scarce resource, and the library function as bottleneck.** Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.
 
-[Read what landed →](insight-library/daily/2026-11-08.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1324** insight cards
+- **1326** insight cards
 - **567** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
