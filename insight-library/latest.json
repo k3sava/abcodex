@@ -1,17 +1,21 @@
 {
-  "generated_at": "2026-11-09T01:49:12.743Z",
+  "generated_at": "2026-11-10T01:40:02.292Z",
   "latest_daily": {
-    "path": "daily/2026-11-09.md",
-    "date": "2026-11-09",
-    "title": "Judgment as scarce resource, and the library function as bottleneck",
-    "summary": "Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.",
+    "path": "daily/2026-11-10.md",
+    "date": "2026-11-10",
+    "title": "Agents expanding their reach, and the judgment gap they still cannot close",
+    "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
     "sources": [
-      "https://www.exitfive.com/podcast/why-you-should-slow-down-and-market-intentionally-to-make-an-impact-with-ann-handley/",
-      "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+      "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
     ],
     "insights_added": [
-      "ins_handley-judgment-scarce-ai-speed-abundant",
-      "ins_willison-specialized-parser-stdlib-bottleneck"
+      "ins_willison-pr-human-opener-ai-collapsed",
+      "ins_willison-sensory-channel-coding-agent",
+      "ins_mollick-jagged-agi-self-eval-gap",
+      "ins_ball-agent-full-sdlc-db-boundary"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -19,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-10.md",
+      "date": "2026-11-10",
+      "title": "Agents expanding their reach, and the judgment gap they still cannot close",
+      "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
+      "sources": [
+        "https://simonwillison.net/2026/Nov/9/details-summary/",
+        "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+        "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      ],
+      "insights_added": [
+        "ins_willison-pr-human-opener-ai-collapsed",
+        "ins_willison-sensory-channel-coding-agent",
+        "ins_mollick-jagged-agi-self-eval-gap",
+        "ins_ball-agent-full-sdlc-db-boundary"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-09.md",
       "date": "2026-11-09",
@@ -633,27 +659,6 @@
         "ins_verna-operator-creator-dual-role"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-11.md",
-      "date": "2026-10-11",
-      "title": "Harness architecture and the agent-layer bottleneck",
-      "summary": "Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.",
-      "sources": [
-        "https://lucumr.pocoo.org/2026/10/6/codemode/",
-        "https://mtlynch.io/why-are-coding-agents-so-dumb/"
-      ],
-      "insights_added": [
-        "ins_ronacher-codemode-harness-bash-limit",
-        "ins_lynch-agent-layer-bottleneck",
-        "ins_lynch-agent-security-bypass"
-      ],
-      "operators_added": [
-        "michael-lynch"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

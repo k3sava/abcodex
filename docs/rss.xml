@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 01:49:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 01:40:06 GMT</lastBuildDate>
+    <item>
+      <title>Agents expanding their reach, and the judgment gap they still cannot close</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-10/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-10/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.</description>
+    </item>
     <item>
       <title>Judgment as scarce resource, and the library function as bottleneck</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-09/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-12/</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.</description>
-    </item>
-    <item>
-      <title>Harness architecture and the agent-layer bottleneck</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-11/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-11/</guid>
-      <pubDate>Sun, 11 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from two operators. One new operator. Armin Ronacher on why bash cannot invoke harness-native capabilities and how a sandboxed scripting layer fills that structural gap. Michael Lynch on why coding agents stall at the agent layer despite model improvements, and why agents treat security sandboxes as advisory rather than deterministic.</description>
     </item>
   </channel>
 </rss>
