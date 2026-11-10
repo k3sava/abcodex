@@ -1,26 +1,30 @@
 {
-  "generated_at": "2026-11-09T01:49:12.716Z",
+  "generated_at": "2026-11-10T01:38:45.001Z",
   "counts": {
-    "insights": 1326,
+    "insights": 1330,
     "operators": 567,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 162
+    "daily": 163
   },
   "latest_daily": {
-    "path": "daily/2026-11-09.md",
-    "date": "2026-11-09",
-    "title": "Judgment as scarce resource, and the library function as bottleneck",
-    "summary": "Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.",
+    "path": "daily/2026-11-10.md",
+    "date": "2026-11-10",
+    "title": "Agents expanding their reach, and the judgment gap they still cannot close",
+    "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
     "sources": [
-      "https://www.exitfive.com/podcast/why-you-should-slow-down-and-market-intentionally-to-make-an-impact-with-ann-handley/",
-      "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/"
+      "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
     ],
     "insights_added": [
-      "ins_handley-judgment-scarce-ai-speed-abundant",
-      "ins_willison-specialized-parser-stdlib-bottleneck"
+      "ins_willison-pr-human-opener-ai-collapsed",
+      "ins_willison-sensory-channel-coding-agent",
+      "ins_mollick-jagged-agi-self-eval-gap",
+      "ins_ball-agent-full-sdlc-db-boundary"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -3278,6 +3282,37 @@
       ],
       "raw_ref": "",
       "title": "AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold"
+    },
+    {
+      "path": "insights/ins_ball-agent-full-sdlc-db-boundary.md",
+      "id": "ins_ball-agent-full-sdlc-db-boundary",
+      "operator": "Thorsten Ball",
+      "operator_role": "Co-founder at Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-105",
+      "source_type": "essay",
+      "source_title": "Joy & Curiosity #105",
+      "source_date": "2026-11-08",
+      "captured_date": "2026-11-10",
+      "domain": [
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-production-gate-replaces-pr",
+        "ins_ball-specification-bug-era",
+        "ins_ball-irrefutable-proof-protocol"
+      ],
+      "raw_ref": "",
+      "title": "The natural trust boundary for agents in production is database writes, not code changes"
     },
     {
       "path": "insights/ins_ball-agent-knowledge-empirical-test.md",
@@ -19169,6 +19204,37 @@
       ],
       "raw_ref": "",
       "title": "Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem"
+    },
+    {
+      "path": "insights/ins_mollick-jagged-agi-self-eval-gap.md",
+      "id": "ins_mollick-jagged-agi-self-eval-gap",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source_type": "essay",
+      "source_title": "Fable 5.2 and Jagged AGI",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-10",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-co-existence-phase-shift",
+        "ins_mollick-four-human-edge-skills",
+        "ins_mollick-selection-scarce-resource"
+      ],
+      "raw_ref": "",
+      "title": "Advanced AI models now fail on self-evaluation, not facts: they cannot judge whether their own output is too long, repetitive, or mediocre"
     },
     {
       "path": "insights/ins_mollick-leadership-crowd-lab.md",
@@ -35829,6 +35895,36 @@
       "title": "PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value"
     },
     {
+      "path": "insights/ins_willison-pr-human-opener-ai-collapsed.md",
+      "id": "ins_willison-pr-human-opener-ai-collapsed",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source_type": "essay",
+      "source_title": "Hide your slop PR descriptions behind <details><summary>",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-10",
+      "domain": [
+        "agentic-coding",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "workflow",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-specialized-parser-stdlib-bottleneck",
+        "ins_ball-production-gate-replaces-pr"
+      ],
+      "raw_ref": "",
+      "title": "A short human-written opener before a collapsed AI PR description keeps human editorial judgment visible without discarding detail"
+    },
+    {
       "path": "insights/ins_willison-programming-process-loss.md",
       "id": "ins_willison-programming-process-loss",
       "operator": "Simon Willison",
@@ -36145,6 +36241,36 @@
       "related": [],
       "raw_ref": "",
       "title": "Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find"
+    },
+    {
+      "path": "insights/ins_willison-sensory-channel-coding-agent.md",
+      "id": "ins_willison-sensory-channel-coding-agent",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source_type": "essay",
+      "source_title": "Locating the source of a mysterious beep with Claude",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-10",
+      "domain": [
+        "agentic-coding",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-fable-relentlessly-proactive",
+        "ins_willison-blender-headless-agent-loop"
+      ],
+      "raw_ref": "",
+      "title": "Coding agents can be extended with novel sensory channels through browser APIs and local servers, enabling physical-world debugging without direct hardware access"
     },
     {
       "path": "insights/ins_willison-silent-degradation-trust-gap.md",
@@ -53924,6 +54050,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-10.md",
+      "date": "2026-11-10",
+      "title": "Agents expanding their reach, and the judgment gap they still cannot close",
+      "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
+      "sources": [
+        "https://simonwillison.net/2026/Nov/9/details-summary/",
+        "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+        "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      ],
+      "insights_added": [
+        "ins_willison-pr-human-opener-ai-collapsed",
+        "ins_willison-sensory-channel-coding-agent",
+        "ins_mollick-jagged-agi-self-eval-gap",
+        "ins_ball-agent-full-sdlc-db-boundary"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-09.md",
       "date": "2026-11-09",

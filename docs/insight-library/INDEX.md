@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1326 insight cards
+- 1330 insight cards
 - 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (873)
+### Tier B (877)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -451,6 +451,7 @@ _Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_b2b-landing-page-consumption`](insights/ins_b2b-landing-page-consumption.md) — Conversion isn't the goal of a B2B landing page, consumption is. Send them to the next section. _(Tas Bober)_
 - [`ins_b2b-movement-not-campaigns`](insights/ins_b2b-movement-not-campaigns.md) — Build a movement around a polarizing POV, brand equity compounds, paid acquisition doesn't _(Dave Gerhardt)_
 - [`ins_ball-agent-bug-threshold`](insights/ins_ball-agent-bug-threshold.md) — AI agents that run bug investigations in parallel lower the cost of each shipped defect, raising the rational shipping threshold _(Thorsten Ball)_
+- [`ins_ball-agent-full-sdlc-db-boundary`](insights/ins_ball-agent-full-sdlc-db-boundary.md) — The natural trust boundary for agents in production is database writes, not code changes _(Thorsten Ball)_
 - [`ins_ball-agent-knowledge-empirical-test`](insights/ins_ball-agent-knowledge-empirical-test.md) — AGENTS.md files and skills should be tested empirically, not trusted by presence _(Thorsten Ball)_
 - [`ins_ball-agent-picks-the-language`](insights/ins_ball-agent-picks-the-language.md) — Language selection criteria shift from developer preference to agent performance when agents write most of the code _(Thorsten Ball)_
 - [`ins_ball-code-elegance-is-cognitive-artifact`](insights/ins_ball-code-elegance-is-cognitive-artifact.md) — Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine _(Thorsten Ball)_
@@ -820,6 +821,7 @@ _Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-four-agents-concurrent-norm`](insights/ins_mollick-four-agents-concurrent-norm.md) — A quarter of OpenAI's workforce runs four or more AI agents simultaneously every week, marking concurrent multi-agent delegation as a normalized work pattern at leading AI companies _(Ethan Mollick)_
 - [`ins_mollick-four-human-edge-skills`](insights/ins_mollick-four-human-edge-skills.md) — Four human attributes remain distinctly valuable as AI makes production abundant _(Ethan Mollick)_
 - [`ins_mollick-institutional-lag-ai-curve`](insights/ins_mollick-institutional-lag-ai-curve.md) — Institutions adapt at human speed while AI capability grows exponentially, making policy turbulence a structural feature rather than a temporary problem _(Ethan Mollick)_
+- [`ins_mollick-jagged-agi-self-eval-gap`](insights/ins_mollick-jagged-agi-self-eval-gap.md) — Advanced AI models now fail on self-evaluation, not facts: they cannot judge whether their own output is too long, repetitive, or mediocre _(Ethan Mollick)_
 - [`ins_mollick-leadership-crowd-lab`](insights/ins_mollick-leadership-crowd-lab.md) — Successful AI adoption requires three co-existing structures: Leadership, Crowd, and Lab _(Ethan Mollick)_
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_mollick-proactive-agents-caught-not-asked`](insights/ins_mollick-proactive-agents-caught-not-asked.md) — Personal AI agents that act proactively create qualitatively different value than responsive chatbots _(Ethan Mollick)_
@@ -1201,6 +1203,7 @@ _Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-openai-hf-attribution-gap`](insights/ins_willison-openai-hf-attribution-gap.md) — AI agents conducting external attacks leave no feedback signal to the operating organization; the attacker may only discover its own culpability when the victim closes the loop _(Simon Willison)_
 - [`ins_willison-oss-aiprs-bug-report-frame`](insights/ins_willison-oss-aiprs-bug-report-frame.md) — Open-source maintainers can absorb AI-assisted PR floods by treating each submission as a bug report with an attached example _(Simon Willison)_
 - [`ins_willison-pdf-token-overhead`](insights/ins_willison-pdf-token-overhead.md) — PDF-to-markdown conversion is one of the largest unplanned cost drivers in enterprise AI deployments because format artifacts inflate token counts with no reasoning value _(Simon Willison)_
+- [`ins_willison-pr-human-opener-ai-collapsed`](insights/ins_willison-pr-human-opener-ai-collapsed.md) — A short human-written opener before a collapsed AI PR description keeps human editorial judgment visible without discarding detail _(Simon Willison)_
 - [`ins_willison-programming-process-loss`](insights/ins_willison-programming-process-loss.md) — Whether AI agents help or hurt programmers depends on what they valued about coding in the first place _(Simon Willison)_
 - [`ins_willison-programming-splits-system-vs-puzzle`](insights/ins_willison-programming-splits-system-vs-puzzle.md) — LLMs split programming value between system-builders who gain and puzzle-solvers who lose _(Simon Willison)_
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
@@ -1210,6 +1213,7 @@ _Generated 2026-11-09. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-reasoning-arithmetic-accuracy`](insights/ins_willison-reasoning-arithmetic-accuracy.md) — Enabling reasoning raises arithmetic accuracy in Qwen3.8-27B from 23% to 99% by replacing pattern-matching with step-by-step processing _(Simon Willison)_
 - [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
 - [`ins_willison-rogue-agents-side-channel`](insights/ins_willison-rogue-agents-side-channel.md) — Sandbox designers who block POST but allow GET create an exploitable gap: agents route communication through any writable-via-GET surface they can find _(Simon Willison)_
+- [`ins_willison-sensory-channel-coding-agent`](insights/ins_willison-sensory-channel-coding-agent.md) — Coding agents can be extended with novel sensory channels through browser APIs and local servers, enabling physical-world debugging without direct hardware access _(Simon Willison)_
 - [`ins_willison-silent-degradation-trust-gap`](insights/ins_willison-silent-degradation-trust-gap.md) — Silent AI model degradation breaks user trust more fundamentally than explicit refusals because users cannot adapt to limitations they cannot detect _(Simon Willison)_
 - [`ins_willison-sonnet5-tokenizer-cost`](insights/ins_willison-sonnet5-tokenizer-cost.md) — A new tokenizer that inflates token counts for the same input creates an effective price increase even when nominal per-token rates stay flat _(Simon Willison)_
 - [`ins_willison-specialized-parser-stdlib-bottleneck`](insights/ins_willison-specialized-parser-stdlib-bottleneck.md) — When input constraints are known, a narrow parser beats the standard library regardless of language _(Simon Willison)_

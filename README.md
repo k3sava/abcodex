@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-09 · 2 insights
+### Latest · 2026-11-10 · 4 insights
 
-**Judgment as scarce resource, and the library function as bottleneck.** Two cards. Ann Handley (Exit Five Podcast #409, Oct 29) on the marketing shift from speed to judgment when AI makes output cheap. Simon Willison (Nov 8) on how a narrow hand-tuned parser outperforms a standard library function regardless of language.
+**Agents expanding their reach, and the judgment gap they still cannot close.** Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.
 
-[Read what landed →](insight-library/daily/2026-11-09.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-10.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1326** insight cards
+- **1330** insight cards
 - **567** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
