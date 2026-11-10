@@ -24,7 +24,7 @@ raw_ref: ""
 At Amp, agents own every SDLC step except writing to the database: they ship to production, monitor rollouts, read logs, toggle feature flags, send emails, grant credits, and investigate database issues.
 
 ## Mechanism
-"The models have become too good to keep them boxed in as smart typewriters." Code changes are reversible through feature flags and fast rollbacks. Operational tasks such as log reading, flag toggling, and email sending are either reversible or low-blast-radius. Database writes are the exception: they change persistent state that is hard to undo and that other systems depend on. The natural boundary is not visibility (code is highly visible) but irreversibility. Extending agent autonomy up to that boundary captures significant operational leverage without crossing the threshold where mistakes become expensive to fix.
+"The models have become too good to keep them boxed in as smart typewriters." Code changes are reversible through feature flags and fast rollbacks. Operational tasks such as log reading, flag toggling, and email sending are either reversible or low-blast-radius. Database writes are the exception: they change persistent state that is hard to undo and that other systems depend on. The natural boundary is not visibility (code is highly visible) but irreversibility. Extending agent autonomy up to that boundary captures significant operational value without crossing the threshold where mistakes become expensive to fix.
 
 ## Conditions
 Holds when: the codebase has feature flags and fast rollback; production observability is good enough for the agent to read and act on signals; the team has explicit and enforced trust boundaries rather than ad-hoc limits.
