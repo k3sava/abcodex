@@ -40,7 +40,7 @@ Key data points from Tunguz's Nov 9, 2026 analysis:
 - Power as share of GPU-hour cost: 5%
 - Capital recovery as share of GPU-hour cost: 64%
 - Hardware efficiency compound rate: ~2.9x/year (blended across Vera Rubin, Ironwood, Trainium3)
-- US committed power: 31 GW (2025), 41 GW (2026), 66 GW (2027) — from Goldman Sachs projections
+- US committed power: 31 GW (2025), 41 GW (2026), 66 GW (2027) (Goldman Sachs projections)
 - Cancellation scenarios: 45% rate → imports 2028; 20% rate → imports 2029; 0% → imports 2030
 
 > "tokens will simply be produced elsewhere & imported"
