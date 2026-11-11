@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1330 insight cards
+- 1334 insight cards
 - 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (877)
+### Tier B (881)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1108,11 +1108,13 @@ _Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-power-ai-ceiling-2027`](insights/ins_tunguz-power-ai-ceiling-2027.md) — Power, not chips, is the binding constraint on AI compute growth in 2027 _(Tom Tunguz)_
 - [`ins_tunguz-preflight-skill-retrieval`](insights/ins_tunguz-preflight-skill-retrieval.md) — Agent forgetting is a memory architecture problem, not a context size problem, and the fix is selective skill retrieval before every task _(Tomasz Tunguz)_
+- [`ins_tunguz-reimagination-beats-efficiency`](insights/ins_tunguz-reimagination-beats-efficiency.md) — Companies using AI to reimagine what is possible compound growth geometrically; companies using AI for efficiency gains compound arithmetically _(Tom Tunguz)_
 - [`ins_tunguz-security-tooling-gap`](insights/ins_tunguz-security-tooling-gap.md) — Security tops AI adoption pain points while security tooling delivers the least value of any category _(Tom Tunguz)_
 - [`ins_tunguz-security-tops-ai-barrier-2026`](insights/ins_tunguz-security-tops-ai-barrier-2026.md) — Security and governance rose from sixth to first as the enterprise AI pain point in twelve months _(Tomasz Tunguz)_
 - [`ins_tunguz-sota-buyer-distribution`](insights/ins_tunguz-sota-buyer-distribution.md) — Enterprise AI workloads run overwhelmingly on non-frontier models because buyers optimize for price-over-performance, not benchmark scores _(Tomasz Tunguz)_
 - [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
 - [`ins_tunguz-thin-wrapper-feature-absorption`](insights/ins_tunguz-thin-wrapper-feature-absorption.md) — Thin wrappers around AI models die when the base model absorbs their defining feature _(Tom Tunguz)_
+- [`ins_tunguz-token-import-threshold`](insights/ins_tunguz-token-import-threshold.md) — US domestic token production becomes insufficient when demand growth exceeds roughly 2.5x annually, with net imports beginning between 2028 and 2030 _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_
 - [`ins_turnbull-hypothetical-classification`](insights/ins_turnbull-hypothetical-classification.md) — Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy _(Doug Turnbull)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_
@@ -1174,6 +1176,7 @@ _Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-capability-unlocks-agents`](insights/ins_willison-capability-unlocks-agents.md) — Model capability crossing a threshold triggers agentic adoption sharply, not gradually _(Simon Willison)_
 - [`ins_willison-cloud-budget-caps-default`](insights/ins_willison-cloud-budget-caps-default.md) — AI coding agents remove the friction that kept cloud spending under control, requiring hard budget caps as the opt-out default _(Simon Willison)_
 - [`ins_willison-confirmation-fatigue-agent-approval`](insights/ins_willison-confirmation-fatigue-agent-approval.md) — Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them _(Simon Willison)_
+- [`ins_willison-cost-per-task-reasoning-metric`](insights/ins_willison-cost-per-task-reasoning-metric.md) — Cost-per-task is the correct unit for comparing AI reasoning models, not price-per-token _(Simon Willison)_
 - [`ins_willison-cross-model-review`](insights/ins_willison-cross-model-review.md) — Having a competing AI model review another model's work finds significant bugs that same-model or same-provider review misses _(Simon Willison)_
 - [`ins_willison-decision-model-opacity`](insights/ins_willison-decision-model-opacity.md) — Decision models that output typed numbers instead of text remove the reasoning trace, making decisions fast and cheap but unexplainable _(Simon Willison)_
 - [`ins_willison-deep-blue-engineer-ennui`](insights/ins_willison-deep-blue-engineer-ennui.md) — Software engineers working with capable coding agents report AI-induced ennui called Deep Blue _(Simon Willison)_
@@ -1192,6 +1195,7 @@ _Generated 2026-11-10. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-instruction-over-review`](insights/ins_willison-instruction-over-review.md) — Productive use of coding agents requires confident instruction and confident verification, not granular code review _(Simon Willison)_
 - [`ins_willison-lifecycle-cost-agents`](insights/ins_willison-lifecycle-cost-agents.md) — Coding agents collapse all three lifecycle costs of fragile automations, not just the upfront build cost _(Simon Willison)_
 - [`ins_willison-linting-as-agent-repair-input`](insights/ins_willison-linting-as-agent-repair-input.md) — Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically _(Simon Willison)_
+- [`ins_willison-llm-app-least-privilege`](insights/ins_willison-llm-app-least-privilege.md) — LLM-generated apps should be scoped to named stored queries only, with write access requiring explicit human approval at creation time _(Simon Willison)_
 - [`ins_willison-llm-compaction-context-loss`](insights/ins_willison-llm-compaction-context-loss.md) — LLM systems that auto-compact context must preserve pre-compacted messages and expose them via tool calls, or every agent action before compaction becomes permanently unverifiable _(Simon Willison)_
 - [`ins_willison-llm-relay-market`](insights/ins_willison-llm-relay-market.md) — Open-source load-balancing proxy software creates persistent infrastructure for LLM credential relay markets; any unprotected endpoint generates financial incentive for exploitation _(Simon Willison)_
 - [`ins_willison-local-weight-interpretation`](insights/ins_willison-local-weight-interpretation.md) — Local 27B models can interpret neural network weights via extended reasoning traces _(Simon Willison)_
