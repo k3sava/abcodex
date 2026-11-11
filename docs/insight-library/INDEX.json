@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-10T01:40:02.257Z",
+  "generated_at": "2026-11-11T01:47:01.142Z",
   "counts": {
-    "insights": 1330,
+    "insights": 1334,
     "operators": 567,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 163
+    "daily": 164
   },
   "latest_daily": {
-    "path": "daily/2026-11-10.md",
-    "date": "2026-11-10",
-    "title": "Agents expanding their reach, and the judgment gap they still cannot close",
-    "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
+    "path": "daily/2026-11-11.md",
+    "date": "2026-11-11",
+    "title": "AI economics at two scales, and scope discipline in generated systems",
+    "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/9/details-summary/",
-      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+      "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "https://simonwillison.net/2026/Nov/4/datasette-apps/"
     ],
     "insights_added": [
-      "ins_willison-pr-human-opener-ai-collapsed",
-      "ins_willison-sensory-channel-coding-agent",
-      "ins_mollick-jagged-agi-self-eval-gap",
-      "ins_ball-agent-full-sdlc-db-boundary"
+      "ins_willison-cost-per-task-reasoning-metric",
+      "ins_tunguz-token-import-threshold",
+      "ins_tunguz-reimagination-beats-efficiency",
+      "ins_willison-llm-app-least-privilege"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -32496,6 +32496,35 @@
       "title": "Production AI agent workflows run 65% deterministic code; a prompt that grows past 1,000 lines is a signal to replace it with explicit rules"
     },
     {
+      "path": "insights/ins_tunguz-reimagination-beats-efficiency.md",
+      "id": "ins_tunguz-reimagination-beats-efficiency",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "source_type": "essay",
+      "source_title": "We Are All Junior Talent Now",
+      "source_date": "2026-11-10",
+      "captured_date": "2026-11-11",
+      "domain": [
+        "ai-native",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-token-import-threshold"
+      ],
+      "raw_ref": "",
+      "title": "Companies using AI to reimagine what is possible compound growth geometrically; companies using AI for efficiency gains compound arithmetically"
+    },
+    {
       "path": "insights/ins_tunguz-security-third-ai-pmf.md",
       "id": "ins_tunguz-security-third-ai-pmf",
       "operator": "Tom Tunguz",
@@ -32738,6 +32767,33 @@
       ],
       "raw_ref": "",
       "title": "AI labs sustain consumption growth under supply constraints by segmenting models into tiers so workloads route to cheaper alternatives rather than stopping"
+    },
+    {
+      "path": "insights/ins_tunguz-token-import-threshold.md",
+      "id": "ins_tunguz-token-import-threshold",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+      "source_type": "essay",
+      "source_title": "When Does the US Become a Net Importer of Tokens?",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "US domestic token production becomes insufficient when demand growth exceeds roughly 2.5x annually, with net imports beginning between 2028 and 2030"
     },
     {
       "path": "insights/ins_tunguz-ttt-per-user-model.md",
@@ -34958,6 +35014,35 @@
       "title": "Repetitive per-action approval causes humans to approve harmful agent commands at far higher rates than automated classifiers block them"
     },
     {
+      "path": "insights/ins_willison-cost-per-task-reasoning-metric.md",
+      "id": "ins_willison-cost-per-task-reasoning-metric",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source_type": "essay",
+      "source_title": "Muse and Ember",
+      "source_date": "2026-11-10",
+      "captured_date": "2026-11-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-specialized-parser-stdlib-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Cost-per-task is the correct unit for comparing AI reasoning models, not price-per-token"
+    },
+    {
       "path": "insights/ins_willison-cross-model-review.md",
       "id": "ins_willison-cross-model-review",
       "operator": "Simon Willison",
@@ -35531,6 +35616,36 @@
       ],
       "raw_ref": "",
       "title": "Static analysis tools that explain each violation by rule give coding agents everything they need to fix an entire codebase automatically"
+    },
+    {
+      "path": "insights/ins_willison-llm-app-least-privilege.md",
+      "id": "ins_willison-llm-app-least-privilege",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "source_type": "essay",
+      "source_title": "Datasette Apps",
+      "source_date": "2026-11-04",
+      "captured_date": "2026-11-11",
+      "domain": [
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-agent-attack-tooling-fingerprint",
+        "ins_willison-agent-dri-accountability"
+      ],
+      "raw_ref": "",
+      "title": "LLM-generated apps should be scoped to named stored queries only, with write access requiring explicit human approval at creation time"
     },
     {
       "path": "insights/ins_willison-llm-compaction-context-loss.md",
@@ -54050,6 +54165,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-11.md",
+      "date": "2026-11-11",
+      "title": "AI economics at two scales, and scope discipline in generated systems",
+      "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
+      "sources": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+        "https://tomtunguz.com/we-are-all-junior-talent-now/",
+        "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+      ],
+      "insights_added": [
+        "ins_willison-cost-per-task-reasoning-metric",
+        "ins_tunguz-token-import-threshold",
+        "ins_tunguz-reimagination-beats-efficiency",
+        "ins_willison-llm-app-least-privilege"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-10.md",
       "date": "2026-11-10",

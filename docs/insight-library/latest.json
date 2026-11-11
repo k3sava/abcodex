@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-10T01:40:02.292Z",
+  "generated_at": "2026-11-11T01:47:01.173Z",
   "latest_daily": {
-    "path": "daily/2026-11-10.md",
-    "date": "2026-11-10",
-    "title": "Agents expanding their reach, and the judgment gap they still cannot close",
-    "summary": "Four cards. Simon Willison (Nov 9) on keeping human editorial judgment visible in AI-generated PR descriptions. Simon Willison (Nov 9) on giving coding agents a sensory channel through browser APIs. Ethan Mollick (Nov 9) on self-evaluation as the new jagged frontier gap. Thorsten Ball (Nov 8) on the SDLC boundary agents can own up to but not past.",
+    "path": "daily/2026-11-11.md",
+    "date": "2026-11-11",
+    "title": "AI economics at two scales, and scope discipline in generated systems",
+    "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/9/details-summary/",
-      "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+      "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "https://simonwillison.net/2026/Nov/4/datasette-apps/"
     ],
     "insights_added": [
-      "ins_willison-pr-human-opener-ai-collapsed",
-      "ins_willison-sensory-channel-coding-agent",
-      "ins_mollick-jagged-agi-self-eval-gap",
-      "ins_ball-agent-full-sdlc-db-boundary"
+      "ins_willison-cost-per-task-reasoning-metric",
+      "ins_tunguz-token-import-threshold",
+      "ins_tunguz-reimagination-beats-efficiency",
+      "ins_willison-llm-app-least-privilege"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-11.md",
+      "date": "2026-11-11",
+      "title": "AI economics at two scales, and scope discipline in generated systems",
+      "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
+      "sources": [
+        "https://simonwillison.net/2026/Nov/10/muse-ember/",
+        "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
+        "https://tomtunguz.com/we-are-all-junior-talent-now/",
+        "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+      ],
+      "insights_added": [
+        "ins_willison-cost-per-task-reasoning-metric",
+        "ins_tunguz-token-import-threshold",
+        "ins_tunguz-reimagination-beats-efficiency",
+        "ins_willison-llm-app-least-privilege"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-10.md",
       "date": "2026-11-10",
@@ -639,26 +661,6 @@
       "operators_added": [
         "georgi-gerganov"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-12.md",
-      "date": "2026-10-12",
-      "title": "Inference economics and the operator-creator split",
-      "summary": "Three cards from three operators, all published October 5. Tom Tunguz on why AI inference spend will overtake databases as the largest software cost category by 2027. Antoine van der Lee on how local trace preprocessing cuts agent token consumption six times and surfaces more iOS performance issues. Elena Verna on the rules that sustain an operator-creator dual role without conflicts.",
-      "sources": [
-        "https://tomtunguz.com/inference-is-the-most-important-market-in-software/",
-        "https://www.avanderlee.com/xcode/introducing-rockettrace-using-xcode-instruments-with-ai-agents/",
-        "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an"
-      ],
-      "insights_added": [
-        "ins_tunguz-inference-surpasses-databases",
-        "ins_van-der-lee-rockettrace-agent-trace",
-        "ins_verna-operator-creator-dual-role"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []

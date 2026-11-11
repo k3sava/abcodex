@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1330 insights · 567 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
+Counts: 1334 insights · 567 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
 
 ## Index
 
@@ -27,8 +27,8 @@ Counts: 1330 insights · 567 operators · 46 synthesis patterns · 11 contradict
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 483 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 470 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 240 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 474 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 243 insights
 - [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 199 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 182 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 161 insights
@@ -51,7 +51,7 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [research-discovery](https://abcodex.iamkesava.com/d/research-discovery/) — 29 insights
 - [content-strategy](https://abcodex.iamkesava.com/d/content-strategy/) — 22 insights
 - [aeo-llm-search](https://abcodex.iamkesava.com/d/aeo-llm-search/) — 21 insights
-- [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 16 insights
+- [leadership-org](https://abcodex.iamkesava.com/d/leadership-org/) — 17 insights
 - [agent-frameworks](https://abcodex.iamkesava.com/d/agent-frameworks/) — 14 insights
 - [design-ux](https://abcodex.iamkesava.com/d/design-ux/) — 13 insights
 - [ai-native-company-building](https://abcodex.iamkesava.com/d/ai-native-company-building/) — 11 insights
@@ -156,4 +156,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-11-10.
+Last updated: 2026-11-11.
