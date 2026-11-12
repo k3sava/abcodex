@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-11T01:47:01.142Z",
+  "generated_at": "2026-11-12T01:43:27.393Z",
   "counts": {
-    "insights": 1334,
+    "insights": 1338,
     "operators": 567,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 164
+    "daily": 165
   },
   "latest_daily": {
-    "path": "daily/2026-11-11.md",
-    "date": "2026-11-11",
-    "title": "AI economics at two scales, and scope discipline in generated systems",
-    "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
+    "path": "daily/2026-11-12.md",
+    "date": "2026-11-12",
+    "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
+    "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
-      "https://tomtunguz.com/we-are-all-junior-talent-now/",
-      "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
     ],
     "insights_added": [
-      "ins_willison-cost-per-task-reasoning-metric",
-      "ins_tunguz-token-import-threshold",
-      "ins_tunguz-reimagination-beats-efficiency",
-      "ins_willison-llm-app-least-privilege"
+      "ins_mollick-agent-proxy-drift",
+      "ins_solis-ai-search-unattributed-influence",
+      "ins_zukowski-emergent-clone-barrier",
+      "ins_ball-divergent-agent-timelines"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -3405,6 +3405,36 @@
       ],
       "raw_ref": "",
       "title": "Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine"
+    },
+    {
+      "path": "insights/ins_ball-divergent-agent-timelines.md",
+      "id": "ins_ball-divergent-agent-timelines",
+      "operator": "Thorsten Ball",
+      "operator_role": "Co-founder at Amp; author, Register Spill newsletter",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-105",
+      "source_type": "essay",
+      "source_title": "Joy & Curiosity #105",
+      "source_date": "2026-11-08",
+      "captured_date": "2026-11-12",
+      "domain": [
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_ball-agent-full-sdlc-db-boundary",
+        "ins_ball-irrefutable-proof-protocol"
+      ],
+      "raw_ref": "",
+      "title": "Engineers on different token budgets inhabit different realities about AI coding capability, making productive debate across budget tiers impossible"
     },
     {
       "path": "insights/ins_ball-irrefutable-proof-protocol.md",
@@ -18736,6 +18766,36 @@
       "title": "Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts"
     },
     {
+      "path": "insights/ins_mollick-agent-proxy-drift.md",
+      "id": "ins_mollick-agent-proxy-drift",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor, Wharton School; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source_type": "essay",
+      "source_title": "Fable 5.2 and Jagged AGI",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-12",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-jagged-agi-self-eval-gap",
+        "ins_mollick-co-existence-phase-shift"
+      ],
+      "raw_ref": "",
+      "title": "Vague improvement goals cause AI agent teams to construct and optimize measurable proxies rather than actual outcomes"
+    },
+    {
       "path": "insights/ins_mollick-agentic-external-injection.md",
       "id": "ins_mollick-agentic-external-injection",
       "operator": "Ethan Mollick",
@@ -27858,6 +27918,36 @@
       ],
       "raw_ref": "",
       "title": "AI search is a 3rd-party citation problem: external domains supply over 80 percent of citations while owned pages corroborate"
+    },
+    {
+      "path": "insights/ins_solis-ai-search-unattributed-influence.md",
+      "id": "ins_solis-ai-search-unattributed-influence",
+      "operator": "Aleyda Solis",
+      "operator_role": "SEO Consultant and Founder, Orainti; creator of SEOFOMO",
+      "co_operators": [],
+      "source_url": "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "source_type": "talk",
+      "source_title": "The State of Technical SEO in the AI Search Era in 2026",
+      "source_date": "2026-11-06",
+      "captured_date": "2026-11-12",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic",
+        "ins_solis-cited-vs-traffic-page-gap"
+      ],
+      "raw_ref": "",
+      "title": "AI search analytics shows only the floor of its business impact because synthesized answers drive brand influence without click-through"
     },
     {
       "path": "insights/ins_solis-cited-vs-traffic-page-gap.md",
@@ -37416,6 +37506,35 @@
       ],
       "raw_ref": "",
       "title": "A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts"
+    },
+    {
+      "path": "insights/ins_zukowski-emergent-clone-barrier.md",
+      "id": "ins_zukowski-emergent-clone-barrier",
+      "operator": "Chris Zukowski",
+      "operator_role": "Founder, How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+      "source_type": "essay",
+      "source_title": "How Clone-Proof Is Your Game? 4 Signs to Check",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-12",
+      "domain": [
+        "game-growth",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "launch",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_zukowski-clone-risk-first-demo-wins"
+      ],
+      "raw_ref": "",
+      "title": "Games built on emergent, interacting systems resist cloning because their core appeal cannot be evaluated from screenshots or descriptions"
     },
     {
       "path": "insights/ins_zukowski-festival-genre-over-count.md",
@@ -54165,6 +54284,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-12.md",
+      "date": "2026-11-12",
+      "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
+      "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      ],
+      "insights_added": [
+        "ins_mollick-agent-proxy-drift",
+        "ins_solis-ai-search-unattributed-influence",
+        "ins_zukowski-emergent-clone-barrier",
+        "ins_ball-divergent-agent-timelines"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-11.md",
       "date": "2026-11-11",

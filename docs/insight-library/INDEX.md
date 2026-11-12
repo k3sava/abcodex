@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1334 insight cards
+- 1338 insight cards
 - 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (881)
+### Tier B (885)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -455,6 +455,7 @@ _Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-agent-knowledge-empirical-test`](insights/ins_ball-agent-knowledge-empirical-test.md) — AGENTS.md files and skills should be tested empirically, not trusted by presence _(Thorsten Ball)_
 - [`ins_ball-agent-picks-the-language`](insights/ins_ball-agent-picks-the-language.md) — Language selection criteria shift from developer preference to agent performance when agents write most of the code _(Thorsten Ball)_
 - [`ins_ball-code-elegance-is-cognitive-artifact`](insights/ins_ball-code-elegance-is-cognitive-artifact.md) — Code elegance is a cognitive artifact, and agent-written codebases will look ugly but run fine _(Thorsten Ball)_
+- [`ins_ball-divergent-agent-timelines`](insights/ins_ball-divergent-agent-timelines.md) — Engineers on different token budgets inhabit different realities about AI coding capability, making productive debate across budget tiers impossible _(Thorsten Ball)_
 - [`ins_ball-irrefutable-proof-protocol`](insights/ins_ball-irrefutable-proof-protocol.md) — Demanding irrefutable proof from a coding agent replaces trust-based review with evidence-based confirmation _(Thorsten Ball)_
 - [`ins_ball-iteration-tooling-over-chat`](insights/ins_ball-iteration-tooling-over-chat.md) — Build a dedicated iteration tool rather than re-prompting agents in chat when multiple design options need comparison _(Thorsten Ball)_
 - [`ins_ball-local-dev-orbs-displacement`](insights/ins_ball-local-dev-orbs-displacement.md) — Remote agent environments have displaced the local development setup for a real shipping team _(Thorsten Ball)_
@@ -806,6 +807,7 @@ _Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-14h-agent-run-cost`](insights/ins_mollick-14h-agent-run-cost.md) — A 14-hour autonomous agent run completes 2 to 17 weeks of engineering work for $251 in token costs _(Ethan Mollick)_
 - [`ins_mollick-agency-ai-frontier`](insights/ins_mollick-agency-ai-frontier.md) — Agency to test AI limits is the only way to discover capabilities before they are publicly announced _(Ethan Mollick)_
 - [`ins_mollick-agent-era-favors-experts`](insights/ins_mollick-agent-era-favors-experts.md) — Agentic AI inverts the AI-access argument: it amplifies domain experts rather than equalizing non-experts _(Ethan Mollick)_
+- [`ins_mollick-agent-proxy-drift`](insights/ins_mollick-agent-proxy-drift.md) — Vague improvement goals cause AI agent teams to construct and optimize measurable proxies rather than actual outcomes _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
 - [`ins_mollick-ai-single-player-org-gap`](insights/ins_mollick-ai-single-player-org-gap.md) — AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign _(Ethan Mollick)_
@@ -1001,6 +1003,7 @@ _Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_so-what-as-content-diagnostic`](insights/ins_so-what-as-content-diagnostic.md) — The "So what?" step is the most-skipped move in content creation across B2B and B2C _(Ann Handley)_
 - [`ins_software-3-ai-engineer`](insights/ins_software-3-ai-engineer.md) — We are in the transition from Software 2.0 to Software 3.0, AI Engineers will build the majority of new applications _(swyx)_
 - [`ins_solis-ai-citations-external-majority`](insights/ins_solis-ai-citations-external-majority.md) — AI search is a 3rd-party citation problem: external domains supply over 80 percent of citations while owned pages corroborate _(Aleyda Solis)_
+- [`ins_solis-ai-search-unattributed-influence`](insights/ins_solis-ai-search-unattributed-influence.md) — AI search analytics shows only the floor of its business impact because synthesized answers drive brand influence without click-through _(Aleyda Solis)_
 - [`ins_solis-cited-vs-traffic-page-gap`](insights/ins_solis-cited-vs-traffic-page-gap.md) — The pages AI engines cite and the pages that receive AI referral traffic are structurally different assets requiring separate optimization _(Aleyda Solis)_
 - [`ins_solis-commodity-content-brand-swap`](insights/ins_solis-commodity-content-brand-swap.md) — Content that survives a brand-swap test is commodity content and becomes Google's primary enforcement target at scale _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
@@ -1245,6 +1248,7 @@ _Generated 2026-11-11. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-clone-risk-first-demo-wins`](insights/ins_zukowski-clone-risk-first-demo-wins.md) — AI clone risk is conditional on three factors; the first quality demo compounds a lead that even the original idea cannot recover _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
+- [`ins_zukowski-emergent-clone-barrier`](insights/ins_zukowski-emergent-clone-barrier.md) — Games built on emergent, interacting systems resist cloning because their core appeal cannot be evaluated from screenshots or descriptions _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-herding-trap`](insights/ins_zukowski-horror-october-herding-trap.md) — October is the worst month for serious horror game revenue, not the best _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-myth`](insights/ins_zukowski-horror-october-myth.md) — October is the third-worst revenue month for indie horror games because Steam algorithm amplification is diluted by a 60 percent surge in competing horror releases _(Chris Zukowski)_
