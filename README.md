@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-11 · 4 insights
+### Latest · 2026-11-12 · 4 insights
 
-**AI economics at two scales, and scope discipline in generated systems.** Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.
+**Proxy failures, measurement gaps, and the limits of learning from a distance.** Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.
 
-[Read what landed →](insight-library/daily/2026-11-11.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-12.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1334** insight cards
+- **1338** insight cards
 - **567** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-11T01:47:01.173Z",
+  "generated_at": "2026-11-12T01:43:27.420Z",
   "latest_daily": {
-    "path": "daily/2026-11-11.md",
-    "date": "2026-11-11",
-    "title": "AI economics at two scales, and scope discipline in generated systems",
-    "summary": "Four cards, two operators. Simon Willison and Tom Tunguz publish from independent angles on how to measure AI costs correctly, where US token supply runs out, and what distinguishes companies that bend trajectories from companies that only move faster. Willison adds a design constraint for LLM-generated data apps.",
+    "path": "daily/2026-11-12.md",
+    "date": "2026-11-12",
+    "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
+    "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
     "sources": [
-      "https://simonwillison.net/2026/Nov/10/muse-ember/",
-      "https://tomtunguz.com/when-does-the-us-become-a-net-importer-of-tokens/",
-      "https://tomtunguz.com/we-are-all-junior-talent-now/",
-      "https://simonwillison.net/2026/Nov/4/datasette-apps/"
+      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
     ],
     "insights_added": [
-      "ins_willison-cost-per-task-reasoning-metric",
-      "ins_tunguz-token-import-threshold",
-      "ins_tunguz-reimagination-beats-efficiency",
-      "ins_willison-llm-app-least-privilege"
+      "ins_mollick-agent-proxy-drift",
+      "ins_solis-ai-search-unattributed-influence",
+      "ins_zukowski-emergent-clone-barrier",
+      "ins_ball-divergent-agent-timelines"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-12.md",
+      "date": "2026-11-12",
+      "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
+      "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
+      "sources": [
+        "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      ],
+      "insights_added": [
+        "ins_mollick-agent-proxy-drift",
+        "ins_solis-ai-search-unattributed-influence",
+        "ins_zukowski-emergent-clone-barrier",
+        "ins_ball-divergent-agent-timelines"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-11.md",
       "date": "2026-11-11",
@@ -642,24 +664,6 @@
         "harrison-stall",
         "craig-mcluckie",
         "joe-beda"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-13.md",
-      "date": "2026-10-13",
-      "title": "Inference without generation: decision models in llama.cpp",
-      "summary": "One card. One new operator. Georgi Gerganov's ggml-org team documented decision models in llama.cpp on October 2: models that score supplied options in a single forward pass via a new /v1/systemone endpoint, returning calibrated probabilities instead of generated text. The scan found no other qualifying mechanism-bearing claims from the last seven days.",
-      "sources": [
-        "https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp"
-      ],
-      "insights_added": [
-        "ins_gerganov-decision-models-llamacpp"
-      ],
-      "operators_added": [
-        "georgi-gerganov"
       ],
       "patterns_added": [],
       "playbooks_added": [],
