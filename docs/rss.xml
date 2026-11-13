@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 01:43:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 01:45:15 GMT</lastBuildDate>
+    <item>
+      <title>AI value chain economics and the two optimization myths</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-13/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-13/</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang&apos;s resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.</description>
+    </item>
     <item>
       <title>Proxy failures, measurement gaps, and the limits of learning from a distance</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-12/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-15/</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Four cards from four operators across three lanes. Geoffrey Huntley on using pre-commit hooks to enforce coding agent behavior. April Dunford on how AI compresses the positioning review cycle. Chris Zukowski on Steam wishlist inflation that cuts conversion in half but preserves prediction. Eric Simons on cheap building shifting PM value from gatekeeping to customer context.</description>
-    </item>
-    <item>
-      <title>Agent topology at runtime and cloud-native harness design</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-14/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-14/</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic&apos;s Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.</description>
     </item>
   </channel>
 </rss>

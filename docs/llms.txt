@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1338 insights · 567 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
+Counts: 1342 insights · 567 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
 
 ## Index
 
@@ -26,23 +26,23 @@ Counts: 1338 insights · 567 operators · 46 synthesis patterns · 11 contradict
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 483 insights
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 476 insights
-- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 243 insights
-- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 199 insights
+- [pmm](https://abcodex.iamkesava.com/d/pmm/) — 484 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 479 insights
+- [engineering](https://abcodex.iamkesava.com/d/engineering/) — 244 insights
+- [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 200 insights
 - [gtm](https://abcodex.iamkesava.com/d/gtm/) — 182 insights
 - [marketing](https://abcodex.iamkesava.com/d/marketing/) — 161 insights
 - [leadership](https://abcodex.iamkesava.com/d/leadership/) — 160 insights
+- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 113 insights
 - [product](https://abcodex.iamkesava.com/d/product/) — 113 insights
 - [strategy](https://abcodex.iamkesava.com/d/strategy/) — 113 insights
-- [founder-operator](https://abcodex.iamkesava.com/d/founder-operator/) — 111 insights
 - [content](https://abcodex.iamkesava.com/d/content/) — 105 insights
 - [growth](https://abcodex.iamkesava.com/d/growth/) — 67 insights
 - [founder-craft](https://abcodex.iamkesava.com/d/founder-craft/) — 66 insights
 - [seo](https://abcodex.iamkesava.com/d/seo/) — 60 insights
-- [aeo](https://abcodex.iamkesava.com/d/aeo/) — 49 insights
+- [aeo](https://abcodex.iamkesava.com/d/aeo/) — 50 insights
 - [sales](https://abcodex.iamkesava.com/d/sales/) — 45 insights
-- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 44 insights
+- [agentic-coding](https://abcodex.iamkesava.com/d/agentic-coding/) — 45 insights
 - [future-of-work](https://abcodex.iamkesava.com/d/future-of-work/) — 42 insights
 - [hiring](https://abcodex.iamkesava.com/d/hiring/) — 40 insights
 - [sales-cs](https://abcodex.iamkesava.com/d/sales-cs/) — 38 insights
@@ -66,12 +66,12 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy-bets](https://abcodex.iamkesava.com/d/strategy-bets/) — 5 insights
 - [ai-engineering](https://abcodex.iamkesava.com/d/ai-engineering/) — 4 insights
 - [ai-product](https://abcodex.iamkesava.com/d/ai-product/) — 4 insights
+- [pricing](https://abcodex.iamkesava.com/d/pricing/) — 4 insights
 - [ios](https://abcodex.iamkesava.com/d/ios/) — 4 insights
 - [ai-tools](https://abcodex.iamkesava.com/d/ai-tools/) — 3 insights
 - [security](https://abcodex.iamkesava.com/d/security/) — 3 insights
 - [product-management](https://abcodex.iamkesava.com/d/product-management/) — 3 insights
 - [on-device-ai](https://abcodex.iamkesava.com/d/on-device-ai/) — 3 insights
-- [pricing](https://abcodex.iamkesava.com/d/pricing/) — 3 insights
 - [community](https://abcodex.iamkesava.com/d/community/) — 2 insights
 - [ios-app-craft](https://abcodex.iamkesava.com/d/ios-app-craft/) — 2 insights
 - [risk](https://abcodex.iamkesava.com/d/risk/) — 2 insights
@@ -156,4 +156,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-11-12.
+Last updated: 2026-11-13.
