@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-12T01:43:27.420Z",
+  "generated_at": "2026-11-13T01:45:11.563Z",
   "latest_daily": {
-    "path": "daily/2026-11-12.md",
-    "date": "2026-11-12",
-    "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
-    "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
+    "path": "daily/2026-11-13.md",
+    "date": "2026-11-13",
+    "title": "AI value chain economics and the two optimization myths",
+    "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
     "sources": [
-      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
-      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
-      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
+      "https://tomtunguz.com/the-impact-of-jensens-resignation/",
+      "https://www.growth-memo.com/p/how-software-buyers-use-ai",
+      "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
     ],
     "insights_added": [
-      "ins_mollick-agent-proxy-drift",
-      "ins_solis-ai-search-unattributed-influence",
-      "ins_zukowski-emergent-clone-barrier",
-      "ins_ball-divergent-agent-timelines"
+      "ins_tunguz-application-layer-ai-margin",
+      "ins_tunguz-nvidia-ai-central-bank",
+      "ins_indig-ai-shortlist-expansion",
+      "ins_van-der-lee-agent-cache-token-dominance"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -23,6 +23,28 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-13.md",
+      "date": "2026-11-13",
+      "title": "AI value chain economics and the two optimization myths",
+      "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
+      "sources": [
+        "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
+        "https://tomtunguz.com/the-impact-of-jensens-resignation/",
+        "https://www.growth-memo.com/p/how-software-buyers-use-ai",
+        "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
+      ],
+      "insights_added": [
+        "ins_tunguz-application-layer-ai-margin",
+        "ins_tunguz-nvidia-ai-central-bank",
+        "ins_indig-ai-shortlist-expansion",
+        "ins_van-der-lee-agent-cache-token-dominance"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-12.md",
       "date": "2026-11-12",
@@ -640,30 +662,6 @@
       "operators_added": [
         "geoffrey-huntley",
         "eric-simons"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-14.md",
-      "date": "2026-10-14",
-      "title": "Agent topology at runtime and cloud-native harness design",
-      "summary": "Three cards from four operators, all published October 7-13. CJ Avilla and Harrison Stall on Anthropic's Dynamic Workflows feature: models that design their own agent topology at runtime rather than following developer-specified routing, and the budget enforcement design principle that makes it work. Craig McLuckie and Joe Beda on why containerizing a desktop agent harness does not make it cloud-native, and what a purpose-built distributed architecture adds.",
-      "sources": [
-        "https://www.latent.space/p/claude-dynamic-workflows",
-        "https://latent.space/p/stacklok"
-      ],
-      "insights_added": [
-        "ins_avilla-dynamic-workflow-topology",
-        "ins_stall-budget-external-to-model",
-        "ins_mcluckie-cloud-native-harness"
-      ],
-      "operators_added": [
-        "cj-avilla",
-        "harrison-stall",
-        "craig-mcluckie",
-        "joe-beda"
       ],
       "patterns_added": [],
       "playbooks_added": [],

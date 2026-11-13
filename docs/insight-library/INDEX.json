@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-12T01:43:27.393Z",
+  "generated_at": "2026-11-13T01:45:11.534Z",
   "counts": {
-    "insights": 1338,
+    "insights": 1342,
     "operators": 567,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 165
+    "daily": 166
   },
   "latest_daily": {
-    "path": "daily/2026-11-12.md",
-    "date": "2026-11-12",
-    "title": "Proxy failures, measurement gaps, and the limits of learning from a distance",
-    "summary": "Four cards, four operators. Ethan Mollick and Aleyda Solis publish from different domains on the same underlying problem: measuring the wrong thing. Thorsten Ball and Chris Zukowski converge on a separate idea that only direct experience reveals true capability, in AI coding and in games.",
+    "path": "daily/2026-11-13.md",
+    "date": "2026-11-13",
+    "title": "AI value chain economics and the two optimization myths",
+    "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
     "sources": [
-      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
-      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
-      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-105"
+      "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
+      "https://tomtunguz.com/the-impact-of-jensens-resignation/",
+      "https://www.growth-memo.com/p/how-software-buyers-use-ai",
+      "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
     ],
     "insights_added": [
-      "ins_mollick-agent-proxy-drift",
-      "ins_solis-ai-search-unattributed-influence",
-      "ins_zukowski-emergent-clone-barrier",
-      "ins_ball-divergent-agent-timelines"
+      "ins_tunguz-application-layer-ai-margin",
+      "ins_tunguz-nvidia-ai-central-bank",
+      "ins_indig-ai-shortlist-expansion",
+      "ins_van-der-lee-agent-cache-token-dominance"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -13022,6 +13022,39 @@
       ],
       "raw_ref": "",
       "title": "AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time"
+    },
+    {
+      "path": "insights/ins_indig-ai-shortlist-expansion.md",
+      "id": "ins_indig-ai-shortlist-expansion",
+      "operator": "Kevin Indig",
+      "operator_role": "Founder, Growth Memo; growth advisor",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/how-software-buyers-use-ai",
+      "source_type": "essay",
+      "source_title": "How software buyers use AI",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-13",
+      "domain": [
+        "aeo",
+        "growth-demand",
+        "pmm"
+      ],
+      "lifecycle": [
+        "aeo",
+        "sales-enablement",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-post-purchase-ai-shortlist",
+        "ins_indig-ai-mode-shortlist-acceptance",
+        "ins_indig-brand-trust-overrides-ai-rank"
+      ],
+      "raw_ref": "",
+      "title": "AI expands B2B software shortlists rather than narrowing them: 63% of buyers add a vendor mid-conversation"
     },
     {
       "path": "insights/ins_indig-ai-substitution-positioning-harm.md",
@@ -31271,6 +31304,37 @@
       "title": "Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage"
     },
     {
+      "path": "insights/ins_tunguz-application-layer-ai-margin.md",
+      "id": "ins_tunguz-application-layer-ai-margin",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
+      "source_type": "essay",
+      "source_title": "Who Captures the Most Margin in AI?",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-13",
+      "domain": [
+        "ai-native",
+        "pricing",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "pricing-packaging",
+        "strategy-bets"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_tunguz-thin-wrapper-feature-absorption"
+      ],
+      "raw_ref": "",
+      "title": "Application companies capture the largest share of AI gross profit because ROI-based pricing protects them from compute cost pressure"
+    },
+    {
       "path": "insights/ins_tunguz-async-inference-latency-tradeoff.md",
       "id": "ins_tunguz-async-inference-latency-tradeoff",
       "operator": "Tomasz Tunguz",
@@ -32437,6 +32501,36 @@
       "title": "Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost"
     },
     {
+      "path": "insights/ins_tunguz-nvidia-ai-central-bank.md",
+      "id": "ins_tunguz-nvidia-ai-central-bank",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-impact-of-jensens-resignation/",
+      "source_type": "essay",
+      "source_title": "When the Central Bank of AI Changes Chairs",
+      "source_date": "2026-11-12",
+      "captured_date": "2026-11-13",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 5, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-ai-infrastructure-bullwhip",
+        "ins_tunguz-ai-infrastructure-credit-event",
+        "ins_tunguz-power-ai-ceiling-2027"
+      ],
+      "raw_ref": "",
+      "title": "Nvidia deployed $164 billion in lease guarantees and venture equity, making Jensen Huang's exit a systemic credit event for AI buildout"
+    },
+    {
       "path": "insights/ins_tunguz-nvidia-nonhyperscaler-financing.md",
       "id": "ins_tunguz-nvidia-nonhyperscaler-financing",
       "operator": "Tomasz Tunguz",
@@ -33244,6 +33338,37 @@
       "related": [],
       "raw_ref": "raw/expert-content/experts/alex-hormozi.md",
       "title": "Value = (Dream Outcome × Likelihood) / (Time Delay × Effort), pull all four levers, not just price"
+    },
+    {
+      "path": "insights/ins_van-der-lee-agent-cache-token-dominance.md",
+      "id": "ins_van-der-lee-agent-cache-token-dominance",
+      "operator": "Antoine van der Lee",
+      "operator_role": "Creator of SwiftLee and RocketSim; iOS developer educator",
+      "co_operators": [],
+      "source_url": "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/",
+      "source_type": "essay",
+      "source_title": "Agentic engineering: why I built the AI Fundamentals course",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-13",
+      "domain": [
+        "agentic-coding",
+        "engineering",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-harness-layer-margin-engine",
+        "ins_van-der-lee-rockettrace-agent-trace"
+      ],
+      "raw_ref": "",
+      "title": "In agentic coding sessions, 94% of token usage is cache reads and only 0.6% is agent replies, making output verbosity the wrong lever for cost reduction"
     },
     {
       "path": "insights/ins_van-der-lee-mvvm-defer-abstraction.md",
@@ -54284,6 +54409,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-13.md",
+      "date": "2026-11-13",
+      "title": "AI value chain economics and the two optimization myths",
+      "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
+      "sources": [
+        "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
+        "https://tomtunguz.com/the-impact-of-jensens-resignation/",
+        "https://www.growth-memo.com/p/how-software-buyers-use-ai",
+        "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
+      ],
+      "insights_added": [
+        "ins_tunguz-application-layer-ai-margin",
+        "ins_tunguz-nvidia-ai-central-bank",
+        "ins_indig-ai-shortlist-expansion",
+        "ins_van-der-lee-agent-cache-token-dominance"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-12.md",
       "date": "2026-11-12",

@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1338 insight cards
+- 1342 insight cards
 - 567 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (885)
+### Tier B (889)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -684,6 +684,7 @@ _Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-ai-mode-shortlist-acceptance`](insights/ins_indig-ai-mode-shortlist-acceptance.md) — AI Mode collapses the product consideration set to a shortlist 88% of users accept without checking _(Kevin Indig)_
 - [`ins_indig-ai-search-attribution-gap`](insights/ins_indig-ai-search-attribution-gap.md) — AI search can underattribute marketing channel contribution by 10x because the discovery path no longer generates a referral signal. _(Kevin Indig)_
 - [`ins_indig-ai-search-category-ownership`](insights/ins_indig-ai-search-category-ownership.md) — AI search category ownership concentrates fast and holds: owners win on brand mentions, not citations, and retain first position 90 percent of the time _(Kevin Indig)_
+- [`ins_indig-ai-shortlist-expansion`](insights/ins_indig-ai-shortlist-expansion.md) — AI expands B2B software shortlists rather than narrowing them: 63% of buyers add a vendor mid-conversation _(Kevin Indig)_
 - [`ins_indig-ai-substitution-positioning-harm`](insights/ins_indig-ai-substitution-positioning-harm.md) — AI positioning that frames products as workforce replacements wins attention and destroys long-term adoption _(Kevin Indig)_
 - [`ins_indig-ai-washing-in-layoffs`](insights/ins_indig-ai-washing-in-layoffs.md) — AI-cited layoffs are mostly a cover story for pandemic overhiring and capital cycle corrections, not evidence of automation-driven job displacement _(Kevin Indig)_
 - [`ins_indig-algorithm-visibility-rental`](insights/ins_indig-algorithm-visibility-rental.md) — Search visibility earned through algorithm shifts reverts to baseline unless underlying authority supports it _(Kevin Indig)_
@@ -1072,6 +1073,7 @@ _Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-ai-worldview-alignment-divergence`](insights/ins_tunguz-ai-worldview-alignment-divergence.md) — AI model worldview reflects post-training alignment choices more than lab geography, making GPT-4o and DeepSeek near-twins despite originating on opposite sides of the world _(Tomasz Tunguz)_
 - [`ins_tunguz-anthropic-cloud-valuation-frame`](insights/ins_tunguz-anthropic-cloud-valuation-frame.md) — Anthropic should be valued as a cloud provider, not as a software company _(Tomasz Tunguz)_
 - [`ins_tunguz-app-layer-lagging-moat`](insights/ins_tunguz-app-layer-lagging-moat.md) — Application-layer companies earn moats through execution over time; only infrastructure companies need a founding technical advantage _(Tomasz Tunguz)_
+- [`ins_tunguz-application-layer-ai-margin`](insights/ins_tunguz-application-layer-ai-margin.md) — Application companies capture the largest share of AI gross profit because ROI-based pricing protects them from compute cost pressure _(Tom Tunguz)_
 - [`ins_tunguz-async-inference-latency-tradeoff`](insights/ins_tunguz-async-inference-latency-tradeoff.md) — Accepting two-minute latency instead of two-second latency reduces AI inference costs by 6x through spot capacity and open-model routing _(Tomasz Tunguz)_
 - [`ins_tunguz-blank-slate-ai-strategy`](insights/ins_tunguz-blank-slate-ai-strategy.md) — Shipping a generic AI base product for free and charging for customization creates a sustainable open-source monetization model _(Tomasz Tunguz)_
 - [`ins_tunguz-category-beats-growth`](insights/ins_tunguz-category-beats-growth.md) — AI agent substitution for human seats is making product category, not growth rate, the primary determinant of SaaS market performance _(Tomasz Tunguz)_
@@ -1107,6 +1109,7 @@ _Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-model-factory-megawatt-loop`](insights/ins_tunguz-model-factory-megawatt-loop.md) — AI model labs generate 3-5x revenue per megawatt over cost, and the margin compounds into the next training run _(Tomasz Tunguz)_
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
+- [`ins_tunguz-nvidia-ai-central-bank`](insights/ins_tunguz-nvidia-ai-central-bank.md) — Nvidia deployed $164 billion in lease guarantees and venture equity, making Jensen Huang's exit a systemic credit event for AI buildout _(Tom Tunguz)_
 - [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-power-ai-ceiling-2027`](insights/ins_tunguz-power-ai-ceiling-2027.md) — Power, not chips, is the binding constraint on AI compute growth in 2027 _(Tom Tunguz)_
@@ -1125,6 +1128,7 @@ _Generated 2026-11-12. Auto-built from frontmatter — do not edit by hand._
 - [`ins_understand-then-identify-then-execute`](insights/ins_understand-then-identify-then-execute.md) — Lead with understand-work, not identify-and-justify, data informs understanding, not the reverse _(Bangaly Kaba)_
 - [`ins_ungate-ai-iterate-pricing`](insights/ins_ungate-ai-iterate-pricing.md) — Ungate AI features first; treat pricing as iterable product, not strategic decision _(Elena Verna)_
 - [`ins_ux-change-target-emotion-is-relief`](insights/ins_ux-change-target-emotion-is-relief.md) — When shipping a workflow change, the target emotion is relief, not excitement _(Emily Pick)_
+- [`ins_van-der-lee-agent-cache-token-dominance`](insights/ins_van-der-lee-agent-cache-token-dominance.md) — In agentic coding sessions, 94% of token usage is cache reads and only 0.6% is agent replies, making output verbosity the wrong lever for cost reduction _(Antoine van der Lee)_
 - [`ins_van-der-lee-mvvm-defer-abstraction`](insights/ins_van-der-lee-mvvm-defer-abstraction.md) — Blanket MVVM adoption in SwiftUI adds abstraction overhead without added separation; defer view model extraction until specific complexity markers appear _(Antoine van der Lee)_
 - [`ins_van-der-lee-rockettrace-agent-trace`](insights/ins_van-der-lee-rockettrace-agent-trace.md) — Local preprocessing of Xcode trace files lets AI agents find 58% more performance issues at one-sixth the token cost _(Antoine van der Lee)_
 - [`ins_varda-ai-commit-message-blindspot`](insights/ins_varda-ai-commit-message-blindspot.md) — AI-generated PR and commit descriptions repeat visible code details instead of explaining why the change was made, making them worse for review than no description _(Kenton Varda)_
