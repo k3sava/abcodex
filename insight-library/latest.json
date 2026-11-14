@@ -1,28 +1,58 @@
 {
-  "generated_at": "2026-11-13T01:45:11.563Z",
+  "generated_at": "2026-11-14T01:49:36.368Z",
   "latest_daily": {
-    "path": "daily/2026-11-13.md",
-    "date": "2026-11-13",
-    "title": "AI value chain economics and the two optimization myths",
-    "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
+    "path": "daily/2026-11-14.md",
+    "date": "2026-11-14",
+    "title": "What stays human when generation is cheap",
+    "summary": "Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.",
     "sources": [
-      "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
-      "https://tomtunguz.com/the-impact-of-jensens-resignation/",
-      "https://www.growth-memo.com/p/how-software-buyers-use-ai",
-      "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
+      "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
+      "https://every.to/context-window/what-s-left-for-humans-after-automation"
     ],
     "insights_added": [
-      "ins_tunguz-application-layer-ai-margin",
-      "ins_tunguz-nvidia-ai-central-bank",
-      "ins_indig-ai-shortlist-expansion",
-      "ins_van-der-lee-agent-cache-token-dominance"
+      "ins_shipper-ranking-scarce-generation-cheap",
+      "ins_zhao-human-token-preference",
+      "ins_anderson-ambiguity-near-death-screen",
+      "ins_miller-ai-prompter-not-delegatee",
+      "ins_george-teaching-ai-raising-bar"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "ivan-zhao",
+      "curtis-anderson",
+      "josh-miller",
+      "katy-george"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-14.md",
+      "date": "2026-11-14",
+      "title": "What stays human when generation is cheap",
+      "summary": "Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.",
+      "sources": [
+        "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
+        "https://every.to/context-window/what-s-left-for-humans-after-automation"
+      ],
+      "insights_added": [
+        "ins_shipper-ranking-scarce-generation-cheap",
+        "ins_zhao-human-token-preference",
+        "ins_anderson-ambiguity-near-death-screen",
+        "ins_miller-ai-prompter-not-delegatee",
+        "ins_george-teaching-ai-raising-bar"
+      ],
+      "operators_added": [
+        "ivan-zhao",
+        "curtis-anderson",
+        "josh-miller",
+        "katy-george"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-13.md",
       "date": "2026-11-13",
@@ -638,30 +668,6 @@
       ],
       "operators_added": [
         "jake-castillo"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-15.md",
-      "date": "2026-10-15",
-      "title": "Deterministic agents, noisier positioning, and the wishlist floor",
-      "summary": "Four cards from four operators across three lanes. Geoffrey Huntley on using pre-commit hooks to enforce coding agent behavior. April Dunford on how AI compresses the positioning review cycle. Chris Zukowski on Steam wishlist inflation that cuts conversion in half but preserves prediction. Eric Simons on cheap building shifting PM value from gatekeeping to customer context.",
-      "sources": [
-        "https://ghuntley.com/agency/",
-        "https://www.mindtheproduct.com/our-notes-from-mind-the-product-chicago/",
-        "https://howtomarketagame.com/2026/10/13/wishlist-inflation-is-real-but-they-are-still-important/"
-      ],
-      "insights_added": [
-        "ins_huntley-precommit-hook-agent-compliance",
-        "ins_dunford-ai-positioning-signals-noisier",
-        "ins_zukowski-wishlist-inflation-prediction-holds",
-        "ins_simons-cheap-building-shifts-pm-value"
-      ],
-      "operators_added": [
-        "geoffrey-huntley",
-        "eric-simons"
       ],
       "patterns_added": [],
       "playbooks_added": [],

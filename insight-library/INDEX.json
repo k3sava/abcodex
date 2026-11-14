@@ -1,32 +1,36 @@
 {
-  "generated_at": "2026-11-13T01:45:11.534Z",
+  "generated_at": "2026-11-14T01:49:36.344Z",
   "counts": {
-    "insights": 1342,
-    "operators": 567,
+    "insights": 1347,
+    "operators": 571,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 166
+    "daily": 167
   },
   "latest_daily": {
-    "path": "daily/2026-11-13.md",
-    "date": "2026-11-13",
-    "title": "AI value chain economics and the two optimization myths",
-    "summary": "Four cards, three operators. Tom Tunguz publishes two back-to-back posts mapping where AI gross profit actually lives and what Jensen Huang's resignation means for AI capital flows. Kevin Indig and Antoine van der Lee independently surface the same pattern: a common optimization assumption that measurement disproves.",
+    "path": "daily/2026-11-14.md",
+    "date": "2026-11-14",
+    "title": "What stays human when generation is cheap",
+    "summary": "Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.",
     "sources": [
-      "https://tomtunguz.com/who-captures-the-most-margin-in-ai/",
-      "https://tomtunguz.com/the-impact-of-jensens-resignation/",
-      "https://www.growth-memo.com/p/how-software-buyers-use-ai",
-      "https://avanderlee.com/ai-development/agentic-engineering-ai-fundamentals-course/"
+      "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
+      "https://every.to/context-window/what-s-left-for-humans-after-automation"
     ],
     "insights_added": [
-      "ins_tunguz-application-layer-ai-margin",
-      "ins_tunguz-nvidia-ai-central-bank",
-      "ins_indig-ai-shortlist-expansion",
-      "ins_van-der-lee-agent-cache-token-dominance"
+      "ins_shipper-ranking-scarce-generation-cheap",
+      "ins_zhao-human-token-preference",
+      "ins_anderson-ambiguity-near-death-screen",
+      "ins_miller-ai-prompter-not-delegatee",
+      "ins_george-teaching-ai-raising-bar"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "ivan-zhao",
+      "curtis-anderson",
+      "josh-miller",
+      "katy-george"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -2241,6 +2245,33 @@
       ],
       "raw_ref": "raw/expert-content/experts/daniel-kahneman.md",
       "title": "The first number sets the range, anchoring decides the negotiation before it starts"
+    },
+    {
+      "path": "insights/ins_anderson-ambiguity-near-death-screen.md",
+      "id": "ins_anderson-ambiguity-near-death-screen",
+      "operator": "Curtis Anderson",
+      "operator_role": "Founder and CEO, Nursa",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "source_type": "essay",
+      "source_title": "What's Left for Humans After Automation?",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-14",
+      "domain": [
+        "leadership-org",
+        "founder-craft"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Screen for prior ambiguous situations, not qualifications, to predict AI-era performance"
     },
     {
       "path": "insights/ins_andrew-bennett-ai-first-product-marketing-hire.md",
@@ -10052,6 +10083,33 @@
       ],
       "raw_ref": "raw/podcasts/anton-osika--lovable-ai-engineer--2026-04-28.md",
       "title": "In an AI-native team, hire generalists with one deep dimension, not specialists"
+    },
+    {
+      "path": "insights/ins_george-teaching-ai-raising-bar.md",
+      "id": "ins_george-teaching-ai-raising-bar",
+      "operator": "Katy George",
+      "operator_role": "Corporate VP of AI and Work Transformation, Microsoft",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "source_type": "essay",
+      "source_title": "What's Left for Humans After Automation?",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-14",
+      "domain": [
+        "future-of-work",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "excerpt",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "The emerging high-value role is teaching AI to do your work and continuously raising the bar"
     },
     {
       "path": "insights/ins_gerganov-decision-models-llamacpp.md",
@@ -18411,6 +18469,32 @@
       "title": "Serve Markdown to AI crawlers you want indexing your content; Cloudflare measured an 80% token size reduction versus full HTML"
     },
     {
+      "path": "insights/ins_miller-ai-prompter-not-delegatee.md",
+      "id": "ins_miller-ai-prompter-not-delegatee",
+      "operator": "Josh Miller",
+      "operator_role": "Co-founder and CEO, The Browser Company",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "source_type": "essay",
+      "source_title": "What's Left for Humans After Automation?",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-14",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI works better as a Socratic prompter that surfaces your thinking than as a delegatee that does the work"
+    },
+    {
       "path": "insights/ins_miller-caveman-test.md",
       "id": "ins_miller-caveman-test",
       "operator": "Donald Miller",
@@ -26611,6 +26695,33 @@
       ],
       "raw_ref": "",
       "title": "One shared AI agent working in public spreads organizational adoption faster than many private agents"
+    },
+    {
+      "path": "insights/ins_shipper-ranking-scarce-generation-cheap.md",
+      "id": "ins_shipper-ranking-scarce-generation-cheap",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
+      "source_type": "talk",
+      "source_title": "A New Vision for Human Work After Automation",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-14",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "When generation is cheap, ranking and perspective become the scarce skills"
     },
     {
       "path": "insights/ins_shipper-rule-complexity-floor.md",
@@ -37485,6 +37596,32 @@
       "title": "Competition is for losers, build a monopoly on a truth most people don't yet see"
     },
     {
+      "path": "insights/ins_zhao-human-token-preference.md",
+      "id": "ins_zhao-human-token-preference",
+      "operator": "Ivan Zhao",
+      "operator_role": "Co-founder and CEO, Notion",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "source_type": "essay",
+      "source_title": "What's Left for Humans After Automation?",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-14",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "foundational",
+      "artifact_class": "excerpt",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 3, source: 3 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "Audiences prefer human-made work for the same reason they still watch human athletes, not AI simulations"
+    },
+    {
       "path": "insights/ins_zukowski-ai-disclosure-tier-stratification-oct26.md",
       "id": "ins_zukowski-ai-disclosure-tier-stratification-oct26",
       "operator": "Chris Zukowski",
@@ -40628,6 +40765,21 @@
       "title": "Cris Thome"
     },
     {
+      "path": "operators/curtis-anderson/README.md",
+      "name": "Curtis Anderson",
+      "slug": "curtis-anderson",
+      "roles": [
+        "Founder and CEO, Nursa"
+      ],
+      "domains_active": [
+        "leadership-org",
+        "founder-craft"
+      ],
+      "captured_first": "2026-11-14",
+      "external": "{}",
+      "title": "Curtis Anderson"
+    },
+    {
       "path": "operators/cyrus-shepard/README.md",
       "name": "Cyrus Shepard",
       "slug": "cyrus-shepard",
@@ -42573,6 +42725,22 @@
       "title": "Ivan Wang"
     },
     {
+      "path": "operators/ivan-zhao/README.md",
+      "name": "Ivan Zhao",
+      "slug": "ivan-zhao",
+      "roles": [
+        "Co-founder and CEO, Notion"
+      ],
+      "domains_active": [
+        "ai-native",
+        "future-of-work",
+        "product-management"
+      ],
+      "captured_first": "2026-11-14",
+      "external": "{}",
+      "title": "Ivan Zhao"
+    },
+    {
       "path": "operators/jacco-van-der-kooij/README.md",
       "name": "Jacco van der Kooij",
       "slug": "jacco-van-der-kooij",
@@ -43305,6 +43473,22 @@
       "title": "Josh Braun"
     },
     {
+      "path": "operators/josh-miller/README.md",
+      "name": "Josh Miller",
+      "slug": "josh-miller",
+      "roles": [
+        "Co-founder and CEO, The Browser Company"
+      ],
+      "domains_active": [
+        "ai-native",
+        "future-of-work",
+        "product-management"
+      ],
+      "captured_first": "2026-11-14",
+      "external": "{}",
+      "title": "Josh Miller"
+    },
+    {
       "path": "operators/josue-valles/README.md",
       "name": "Josue Valles",
       "slug": "josue-valles",
@@ -43544,6 +43728,21 @@
         "linkedin": "https://www.linkedin.com/in/katie-dill-79168b3/"
       },
       "title": "Katie Dill"
+    },
+    {
+      "path": "operators/katy-george/README.md",
+      "name": "Katy George",
+      "slug": "katy-george",
+      "roles": [
+        "Corporate VP of AI and Work Transformation, Microsoft"
+      ],
+      "domains_active": [
+        "future-of-work",
+        "leadership-org"
+      ],
+      "captured_first": "2026-11-14",
+      "external": "{}",
+      "title": "Katy George"
     },
     {
       "path": "operators/keenan/README.md",
@@ -54409,6 +54608,32 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-14.md",
+      "date": "2026-11-14",
+      "title": "What stays human when generation is cheap",
+      "summary": "Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.",
+      "sources": [
+        "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
+        "https://every.to/context-window/what-s-left-for-humans-after-automation"
+      ],
+      "insights_added": [
+        "ins_shipper-ranking-scarce-generation-cheap",
+        "ins_zhao-human-token-preference",
+        "ins_anderson-ambiguity-near-death-screen",
+        "ins_miller-ai-prompter-not-delegatee",
+        "ins_george-teaching-ai-raising-bar"
+      ],
+      "operators_added": [
+        "ivan-zhao",
+        "curtis-anderson",
+        "josh-miller",
+        "katy-george"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-13.md",
       "date": "2026-11-13",
