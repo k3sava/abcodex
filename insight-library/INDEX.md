@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1342 insight cards
-- 567 operator profiles
+- 1347 insight cards
+- 571 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (889)
+### Tier B (891)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -429,6 +429,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ambition-filtered-job-ads`](insights/ins_ambition-filtered-job-ads.md) — Use the job ad itself as a self-selection filter for ambition _(Anton Osika)_
 - [`ins_amodei-embedded-evaluators-pacing`](insights/ins_amodei-embedded-evaluators-pacing.md) — Third-party evaluators embedded in AI development are the only mechanism that makes pacing commitments verifiable _(Dario Amodei)_
 - [`ins_anastasia-kudrow-testimonial-section-answers-three-questions`](insights/ins_anastasia-kudrow-testimonial-section-answers-three-questions.md) — A testimonial section must answer three questions to drive conversion. _(Anastasia Kudrow)_
+- [`ins_anderson-ambiguity-near-death-screen`](insights/ins_anderson-ambiguity-near-death-screen.md) — Screen for prior ambiguous situations, not qualifications, to predict AI-era performance _(Curtis Anderson)_
 - [`ins_andrew-jones-data-trustworthiness-over-output-metrics`](insights/ins_andrew-jones-data-trustworthiness-over-output-metrics.md) — AI products are completely limited by the data going in; output metrics mean nothing without trustworthy input data. _(Andrew Jones)_
 - [`ins_andrew-ng-top-down-workflow-redesign`](insights/ins_andrew-ng-top-down-workflow-redesign.md) — Top-down workflow redesign from desired outcome delivers 20 to 50 percent transformation; bottom-up task automation delivers only incremental gains _(Andrew Ng)_
 - [`ins_andy-mccotter-taste-as-moat`](insights/ins_andy-mccotter-taste-as-moat.md) — Taste is the PMM moat in an AI world. _(Andy McCotter)_
@@ -981,6 +982,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
 - [`ins_shipper-public-ai-prompting-spreads-adoption`](insights/ins_shipper-public-ai-prompting-spreads-adoption.md) — One shared AI agent working in public spreads organizational adoption faster than many private agents _(Dan Shipper)_
+- [`ins_shipper-ranking-scarce-generation-cheap`](insights/ins_shipper-ranking-scarce-generation-cheap.md) — When generation is cheap, ranking and perspective become the scarce skills _(Dan Shipper)_
 - [`ins_shipper-taste-agent-hill-climb`](insights/ins_shipper-taste-agent-hill-climb.md) — Building a copy-editing agent from 30,000 historical edits and hill-climbing the prompt against all past decisions encodes durable expert taste _(Dan Shipper)_
 - [`ins_shipper-tend-your-loop`](insights/ins_shipper-tend-your-loop.md) — When AI can execute multi-step tasks reliably, the knowledge worker's job shifts from doing the work to designing and tending the loops that do the work _(Dan Shipper)_
 - [`ins_shipper-token-spend-parity-break`](insights/ins_shipper-token-spend-parity-break.md) — Token spend is now the marginal production input, ending the PC-era parity between billionaire and solo builder _(Dan Shipper)_
@@ -1268,7 +1270,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (90)
+### Tier C (93)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1300,6 +1302,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_fishkin-zero-click-visitor-qualification`](insights/ins_fishkin-zero-click-visitor-qualification.md) — Conversion rates may rise as site traffic falls because platform-side research now pre-qualifies arriving visitors _(Rand Fishkin)_
 - [`ins_ford-ai-code-quality-filter`](insights/ins_ford-ai-code-quality-filter.md) — AI democratizing code production reveals the quality gap more clearly, not less _(Paul Ford)_
 - [`ins_gaurav-sharma-life-as-code`](insights/ins_gaurav-sharma-life-as-code.md) — Life is not chaos but code; we are scripted souls executing a task. _(Gaurav Sharma)_
+- [`ins_george-teaching-ai-raising-bar`](insights/ins_george-teaching-ai-raising-bar.md) — The emerging high-value role is teaching AI to do your work and continuously raising the bar _(Katy George)_
 - [`ins_gerhardt-buyer-ai-presales-research`](insights/ins_gerhardt-buyer-ai-presales-research.md) — B2B buyers now research vendors in AI tools before any sales contact, making AI-search discoverability a pre-funnel requirement _(Dave Gerhardt)_
 - [`ins_grace-allen-data-driven-storytelling-pmm-hire`](insights/ins_grace-allen-data-driven-storytelling-pmm-hire.md) — Hiring a Senior PMM with passion for data-driven storytelling at The Weather Company _(Grace Allen)_
 - [`ins_hans-dekker-pre-built-ai-skills-for-gtm`](insights/ins_hans-dekker-pre-built-ai-skills-for-gtm.md) — Pre-built Claude skills eliminate blank-page paralysis for GTM teams _(Hans Dekker)_
@@ -1322,6 +1325,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore`](insights/ins_manisha-talwar-rana-hiring-technical-pmm-boston-bangalore.md) — Hiring two seasoned Technical PMMs in Boston and Bangalore _(Manisha Talwar Rana)_
 - [`ins_marketoonist-generations-not-monoliths`](insights/ins_marketoonist-generations-not-monoliths.md) — Generational marketing is lazy, buyers within a generation differ more than across them _(Marketoonist)_
 - [`ins_meghana-kansagara-ambiguity-into-creativity`](insights/ins_meghana-kansagara-ambiguity-into-creativity.md) — Turning ambiguity into creativity and opportunity is the most joyful part of product building. _(Meghana Kansagara)_
+- [`ins_miller-ai-prompter-not-delegatee`](insights/ins_miller-ai-prompter-not-delegatee.md) — AI works better as a Socratic prompter that surfaces your thinking than as a delegatee that does the work _(Josh Miller)_
 - [`ins_mridula-joshi-corporate-cardio-wellness`](insights/ins_mridula-joshi-corporate-cardio-wellness.md) — Wellness initiatives double as team bonding and responsible adulting _(Mridula Joshi)_
 - [`ins_nafees-mohammed-15-years-gratitude`](insights/ins_nafees-mohammed-15-years-gratitude.md) — 15 years at one company: gratitude for guidance, growth, and team celebrations _(Nafees Mohammed)_
 - [`ins_nina-churchill-pmm-rogue`](insights/ins_nina-churchill-pmm-rogue.md) — Same behavior, different headline, language is how women get evaluated, promoted, trusted _(Nina Churchill)_
@@ -1359,6 +1363,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [`ins_webb-ai-tutor-over-generator`](insights/ins_webb-ai-tutor-over-generator.md) — Using AI as an interactive tutor rather than a code generator produces durable learning that books and expert friends cannot match _(Matt Webb)_
 - [`ins_willison-knowledge-breadth-model-proxy`](insights/ins_willison-knowledge-breadth-model-proxy.md) — Asking a model about an obscure open-source project it has no incentive to fabricate is a practical proxy for its training depth _(Simon Willison)_
 - [`ins_yosha-gupta-founder-pitch-deck-clarity`](insights/ins_yosha-gupta-founder-pitch-deck-clarity.md) — A founder's pitch deck must deliver the story with clarity and confidence, not just data. _(Yosha Gupta)_
+- [`ins_zhao-human-token-preference`](insights/ins_zhao-human-token-preference.md) — Audiences prefer human-made work for the same reason they still watch human athletes, not AI simulations _(Ivan Zhao)_
 
 ## Operators
 - [Aakash Gupta](operators/aakash-gupta/README.md)
@@ -1500,6 +1505,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [Craig McLuckie](operators/craig-mcluckie/README.md)
 - [Crayon](operators/crayon/README.md)
 - [Cris Thome](operators/cris-thome/README.md)
+- [Curtis Anderson](operators/curtis-anderson/README.md)
 - [Cyrus Shepard](operators/cyrus-shepard/README.md)
 - [Dan Ariely](operators/dan-ariely/README.md)
 - [Dan Darnell](operators/dan-darnell/README.md)
@@ -1607,6 +1613,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [Ipsita Dhar](operators/ipsita-dhar/README.md)
 - [Isha Ahuja](operators/isha-ahuja/README.md)
 - [Ivan Wang](operators/ivan-wang/README.md)
+- [Ivan Zhao](operators/ivan-zhao/README.md)
 - [Jacco van der Kooij](operators/jacco-van-der-kooij/README.md)
 - [Jacki Schroder Brown](operators/jacki-schroder-brown/README.md)
 - [Jacob Sansbury](operators/jacob-sansbury/README.md)
@@ -1646,6 +1653,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [Jonathan Stark](operators/jonathan-stark/README.md)
 - [Joseph Kim](operators/joseph-kim/README.md)
 - [Josh Braun](operators/josh-braun/README.md)
+- [Josh Miller](operators/josh-miller/README.md)
 - [Josue Valles](operators/josue-valles/README.md)
 - [Julian Shapiro](operators/julian-shapiro/README.md)
 - [Juliana Katz](operators/juliana-katz/README.md)
@@ -1660,6 +1668,7 @@ _Generated 2026-11-13. Auto-built from frontmatter — do not edit by hand._
 - [Kate Orchard](operators/kate-orchard/README.md)
 - [Kate Syuma](operators/kate-syuma/README.md)
 - [Katie Dill](operators/katie-dill/README.md)
+- [Katy George](operators/katy-george/README.md)
 - [Keenan (Jim Keenan)](operators/keenan/README.md)
 - [Kenny Damian](operators/kenny-damian/README.md)
 - [Kenton Varda](operators/kenton-varda/README.md)
