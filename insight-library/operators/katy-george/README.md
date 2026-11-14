@@ -12,4 +12,4 @@ Katy George. Corporate VP of AI and Work Transformation at Microsoft, where she 
 
 ## Operating themes
 - **Teaching as the new doing** The emerging high-value role is specifying, correcting, and raising the standard for AI outputs rather than producing outputs directly.
-- **Continual bar-raising** Human value in an AI-accelerated workplace comes from discernment — knowing what good looks like and being able to communicate and enforce that standard.
+- **Continual bar-raising** Human value in an AI-accelerated workplace comes from discernment: knowing what good looks like and being able to communicate and enforce that standard.

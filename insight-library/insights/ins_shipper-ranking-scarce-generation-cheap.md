@@ -24,7 +24,8 @@ raw_ref: ""
 Generating a range of AI outputs is now trivially cheap; the scarce skill is knowing which outputs are good for your specific situation, and that judgment comes from personal perspective.
 
 ## Mechanism
-AI models can produce thousands of candidate answers. Finding the right one requires a standard — a point of view about what good looks like for this person's work, context, and responsibility. That standard is personal and non-fungible. Without it, the model's outputs are indistinguishable consensus: technically correct, competitively worthless. Shipper describes the economy that follows as one where people are judged not on what they know but on how well they allocate intelligence using their own perspective.
+AI models can produce thousands of candidate answers. Finding the right one requires a standard: a point of view about what good looks like for this person's work, context, and responsibility. That standard is personal and non-fungible. Without it, the model's outputs are indistinguishable consensus: technically correct, competitively worthless. Shipper describes the economy that follows as one where people are judged not on what they know but on how well they allocate intelligence using their own perspective.
+
 
 ## Conditions
 Holds when: AI can generate plausible outputs across a wide range of tasks, reducing the value of raw production capacity.
@@ -39,7 +40,7 @@ Shipper ran the test at Every's Thesis: 2027 conference. His head of evals fed h
 
 > "What's actually expensive and rare is how you use them, through your perspective."
 
-Shipper used a single Claude subscription in one week to analyze a customer survey, build a live video game, create a custom CRM, and send outreach emails — work he estimated would have required five different specialists in 2020.
+Shipper used a single Claude subscription in one week to analyze a customer survey, build a live video game, create a custom CRM, and send outreach emails. He estimated this would have required five different specialists in 2020.
 
 ## Signals
 - Two colleagues analyzing the same AI-summarized data reach different conclusions; each is finding the signal their perspective allows them to see.

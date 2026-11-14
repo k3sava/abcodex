@@ -24,7 +24,7 @@ raw_ref: ""
 Even when AI can produce equivalent outputs, people may still prefer human-made work because they consume it as an expression of another person's perspective and experience.
 
 ## Mechanism
-Sports and games are defined by human bodies and human judgment at play; an AI winning at chess destroys the category's value. The same logic may apply to written and creative work: what audiences actually consume is "human tokens" — the perspective, decisions, and expression of another person — not just the raw content. Zhao calls this becoming "consumers of other people's human tokens."
+Sports and games are defined by human bodies and human judgment at play; an AI winning at chess destroys the category's value. The same logic may apply to written and creative work: what audiences actually consume is "human tokens": the perspective, decisions, and expression of another person. Not just the raw content. Zhao calls this becoming "consumers of other people's human tokens."
 
 ## Conditions
 Holds when: The audience values authenticity, craft, or the idea that a specific human made this specific thing.
