@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-14 · 5 insights · 4 operators
+### Latest · 2026-11-15 · 3 insights · 1 operator
 
-**What stays human when generation is cheap.** Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.
+**Job descriptions have already changed.** Three cards, one new operator. Lenny Rachitsky's late-2026 job market survey finds AI fluency has displaced SQL and Python as the top PM skill, while design hiring has collapsed to record lows. On the engineering side, Swaminathan Sivasubramanian documents AWS producing 200-service infrastructure with no human code authorship and names what that means for quality: the engineer's job is now the pipeline, not the code.
 
-[Read what landed →](insight-library/daily/2026-11-14.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1347** insight cards
-- **571** operator profiles
+- **1350** insight cards
+- **572** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 571 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 572 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |

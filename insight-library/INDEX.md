@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1347 insight cards
-- 571 operator profiles
+- 1350 insight cards
+- 572 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (891)
+### Tier B (894)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -909,6 +909,8 @@ _Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_qrg-recovery-roadmap`](insights/ins_qrg-recovery-roadmap.md) — The Quality Rater Guidelines are the closest thing Google has to a public ranking roadmap _(Marie Haynes)_
 - [`ins_qual-quant-synthesis-claude-code`](insights/ins_qual-quant-synthesis-claude-code.md) — Data shows what; the why lives in qualitative context. Merge them in one AI conversation. _(Else van der Berg)_
 - [`ins_quality-as-growth-lever`](insights/ins_quality-as-growth-lever.md) — Brand and quality are growth levers, not constraints on growth _(Amole Naik)_
+- [`ins_rachitsky-design-headcount-collapses-pm-share-rises`](insights/ins_rachitsky-design-headcount-collapses-pm-share-rises.md) — Product design hiring has fallen to record lows as AI substitutes for production work, while PM openings hit four-year highs _(Lenny Rachitsky)_
+- [`ins_rachitsky-llm-displaces-sql-pm-jobs`](insights/ins_rachitsky-llm-displaces-sql-pm-jobs.md) — LLM skills now top PM job descriptions, overtaking SQL and Python as companies signal what the role requires _(Lenny Rachitsky)_
 - [`ins_rachitsky-segal-ai-baseline-creep-burnout`](insights/ins_rachitsky-segal-ai-baseline-creep-burnout.md) — AI productivity gains become new performance baselines immediately, raising output expectations rather than reducing workload, splitting the workforce into an amplified majority and a destabilized minority _(Lenny Rachitsky)_
 - [`ins_rachitsky-segal-career-recommendation-paradox`](insights/ins_rachitsky-segal-career-recommendation-paradox.md) — Tech workers' personal career optimism has decoupled from their institutional trust in the industry, with a majority optimistic about their own trajectory while recommending against entering the field _(Lenny Rachitsky)_
 - [`ins_rachitsky-segal-manager-burnout-shield`](insights/ins_rachitsky-segal-manager-burnout-shield.md) — Manager effectiveness predicts tech worker burnout and job enjoyment more strongly than AI stance, role, or seniority in the 2026 data _(Lenny Rachitsky)_
@@ -998,6 +1000,7 @@ _Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
 - [`ins_since-something-use-daily-not`](insights/ins_since-something-use-daily-not.md) — P.S. Since this is something we use daily, I'm not going to send this to more than 200 _(Christian Oland)_
 - [`ins_sinek-existential-flexibility`](insights/ins_sinek-existential-flexibility.md) — Existential flexibility, the willingness to pivot dramatically when the current model still works, because the Just Cause demands it _(Simon Sinek)_
 - [`ins_sinek-worthy-rivals`](insights/ins_sinek-worthy-rivals.md) — Worthy rivals are mirrors for self-improvement, study competitors who reveal your weaknesses, not enemies to defeat _(Simon Sinek)_
+- [`ins_sivasubramanian-guardrails-define-ai-code-quality`](insights/ins_sivasubramanian-guardrails-define-ai-code-quality.md) — Software quality in an agent-written codebase depends on the testing and merge gates engineers design, not the code they write _(Swaminathan Sivasubramanian)_
 - [`ins_six-elements-sales-development`](insights/ins_six-elements-sales-development.md) — SDR teams are precision operating systems, six interdependent elements; optimize one without the others = systemic mediocrity _(Trish Bertuzzi)_
 - [`ins_sjeel-k-positioning-over-icp`](insights/ins_sjeel-k-positioning-over-icp.md) — Clear ICP isn't enough if your positioning doesn't pull its weight _(Sjeel K.)_
 - [`ins_skill-distillation-frontier-teacher`](insights/ins_skill-distillation-frontier-teacher.md) — Frontier models can write procedural SKILL.md files that cheaper local models execute, decoupling reasoning cost from inference cost _(Tomasz Tunguz)_
@@ -1889,6 +1892,7 @@ _Generated 2026-11-14. Auto-built from frontmatter — do not edit by hand._
 - [Supriya VS](operators/supriya-vs/README.md)
 - [Suraj Kripalani, CFA](operators/suraj-kripalani-cfa/README.md)
 - [Svitlana Shuliak](operators/svitlana-shuliak/README.md)
+- [Swaminathan Sivasubramanian](operators/swaminathan-sivasubramanian/README.md)
 - [Swyx (Shawn Wang)](operators/swyx/README.md)
 - [Talia Moyal](operators/talia-moyal/README.md)
 - [Tamara Grominsky](operators/tamara-grominsky/README.md)
