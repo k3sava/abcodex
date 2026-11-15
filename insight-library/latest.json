@@ -1,32 +1,48 @@
 {
-  "generated_at": "2026-11-14T01:49:36.368Z",
+  "generated_at": "2026-11-15T01:44:51.092Z",
   "latest_daily": {
-    "path": "daily/2026-11-14.md",
-    "date": "2026-11-14",
-    "title": "What stays human when generation is cheap",
-    "summary": "Five cards, four new operators. Dan Shipper delivers the mechanism at the center of Every's annual thesis conference: generation is now cheap, so ranking and perspective become the scarce skills. Four operators attending the same conference converge on adjacent answers about what that means for work, hiring, product design, and creative expression.",
+    "path": "daily/2026-11-15.md",
+    "date": "2026-11-15",
+    "title": "Job descriptions have already changed",
+    "summary": "Three cards, one new operator. Lenny Rachitsky's late-2026 job market survey finds AI fluency has displaced SQL and Python as the top PM skill, while design hiring has collapsed to record lows. On the engineering side, Swaminathan Sivasubramanian documents AWS producing 200-service infrastructure with no human code authorship and names what that means for quality: the engineer's job is now the pipeline, not the code.",
     "sources": [
-      "https://every.to/podcast/transcript-a-new-vision-for-human-work-after-automation",
-      "https://every.to/context-window/what-s-left-for-humans-after-automation"
+      "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "https://www.allthingsdistributed.com/2026/11/the-engineers-job-when-agents-write-the-code.html"
     ],
     "insights_added": [
-      "ins_shipper-ranking-scarce-generation-cheap",
-      "ins_zhao-human-token-preference",
-      "ins_anderson-ambiguity-near-death-screen",
-      "ins_miller-ai-prompter-not-delegatee",
-      "ins_george-teaching-ai-raising-bar"
+      "ins_rachitsky-llm-displaces-sql-pm-jobs",
+      "ins_rachitsky-design-headcount-collapses-pm-share-rises",
+      "ins_sivasubramanian-guardrails-define-ai-code-quality"
     ],
     "operators_added": [
-      "ivan-zhao",
-      "curtis-anderson",
-      "josh-miller",
-      "katy-george"
+      "swaminathan-sivasubramanian"
     ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-15.md",
+      "date": "2026-11-15",
+      "title": "Job descriptions have already changed",
+      "summary": "Three cards, one new operator. Lenny Rachitsky's late-2026 job market survey finds AI fluency has displaced SQL and Python as the top PM skill, while design hiring has collapsed to record lows. On the engineering side, Swaminathan Sivasubramanian documents AWS producing 200-service infrastructure with no human code authorship and names what that means for quality: the engineer's job is now the pipeline, not the code.",
+      "sources": [
+        "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+        "https://www.allthingsdistributed.com/2026/11/the-engineers-job-when-agents-write-the-code.html"
+      ],
+      "insights_added": [
+        "ins_rachitsky-llm-displaces-sql-pm-jobs",
+        "ins_rachitsky-design-headcount-collapses-pm-share-rises",
+        "ins_sivasubramanian-guardrails-define-ai-code-quality"
+      ],
+      "operators_added": [
+        "swaminathan-sivasubramanian"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-14.md",
       "date": "2026-11-14",
@@ -644,30 +660,6 @@
       ],
       "operators_added": [
         "alex-cornell"
-      ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-16.md",
-      "date": "2026-10-16",
-      "title": "Custom silicon moats, the post-purchase AI loop, and audience context over audience size",
-      "summary": "Four cards from four operators across three lanes. Tom Tunguz on hardware as the AI cost moat and the security tooling gap in enterprise AI. Kevin Indig on post-purchase signals driving AI search shortlist position. Jake Castillo on influencer audience context determining app conversion.",
-      "sources": [
-        "https://tomtunguz.com/intelligence-per-dollar-2026/",
-        "https://tomtunguz.com/ai-in-practice-survey-2026/",
-        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027",
-        "https://www.revenuecat.com/blog/growth/jake-castillo-cal-ai-sub-club-podcast-2026"
-      ],
-      "insights_added": [
-        "ins_tunguz-custom-silicon-cost-moat",
-        "ins_tunguz-security-tooling-gap",
-        "ins_indig-post-purchase-ai-shortlist",
-        "ins_castillo-influencer-context-conversion"
-      ],
-      "operators_added": [
-        "jake-castillo"
       ],
       "patterns_added": [],
       "playbooks_added": [],
