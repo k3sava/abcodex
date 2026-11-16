@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2026 01:44:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 01:43:10 GMT</lastBuildDate>
+    <item>
+      <title>Agent economics and the human remainder</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-16/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-16/</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.</description>
+    </item>
     <item>
       <title>Job descriptions have already changed</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-15/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-18/</guid>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.</description>
-    </item>
-    <item>
-      <title>Review before the PR exists, and structure before AI generates content</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-17/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-17/</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from two operators across two lanes. Addy Osmani, Morgan Westlee Lunt, and Qing Wang on moving code review to writing-time and using multi-agent consensus to gate findings. Alex Cornell on chain-of-thought display as a latency workaround and fixed-structure-dynamic-content as the reliable generative UI pattern.</description>
     </item>
   </channel>
 </rss>

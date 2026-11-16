@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1350 insight cards
+- 1354 insight cards
 - 572 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (894)
+### Tier B (898)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -463,6 +463,7 @@ _Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ball-maintenance-automation-arrives-first`](insights/ins_ball-maintenance-automation-arrives-first.md) — Self-improving software arrives first in pure maintenance contexts because growing systems still need human goal signals _(Thorsten Ball)_
 - [`ins_ball-naive-interventionism-ai-code`](insights/ins_ball-naive-interventionism-ai-code.md) — Engineers who dismiss AI-generated code as low-quality apply the same professional bias that causes domain experts to over-intervene within their specialty _(Thorsten Ball)_
 - [`ins_ball-observability-legible-to-agent`](insights/ins_ball-observability-legible-to-agent.md) — When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent _(Thorsten Ball)_
+- [`ins_ball-one-meeting-silent-commit`](insights/ins_ball-one-meeting-silent-commit.md) — A small software team can run on one weekly meeting when it includes a silent period for writing ambitious shipping goals before anyone states them aloud _(Thorsten Ball)_
 - [`ins_ball-orb-sandbox-agent-frequency`](insights/ins_ball-orb-sandbox-agent-frequency.md) — Ephemeral cloud sandboxes remove the resource cost of spawning an agent; when that cost drops to zero, spawn frequency rises sharply _(Thorsten Ball)_
 - [`ins_ball-problem-not-solution`](insights/ins_ball-problem-not-solution.md) — Engineering ownership begins with naming the actual problem, not accepting the proposed solution _(Thorsten Ball)_
 - [`ins_ball-production-gate-replaces-pr`](insights/ins_ball-production-gate-replaces-pr.md) — When agents own most code output, production observability replaces pre-merge review as the quality gate _(Thorsten Ball)_
@@ -622,6 +623,7 @@ _Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_gary-yin-first-pmm-hiring-philosophy`](insights/ins_gary-yin-first-pmm-hiring-philosophy.md) — First PMM hire at an AI startup must be product-obsessed, voracious bug finder, and great writer _(Gary Yin)_
 - [`ins_gaurav-sharma-vibe-marketer-ai-first`](insights/ins_gaurav-sharma-vibe-marketer-ai-first.md) — Most B2B marketing is stuck in 2010; hire a vibe marketer to build an AI-first, almost-autonomous marketing engine. _(Gaurav Sharma)_
 - [`ins_gerganov-decision-models-llamacpp`](insights/ins_gerganov-decision-models-llamacpp.md) — Decision models score supplied options in a single forward pass and return probabilities, not generated text _(Georgi Gerganov)_
+- [`ins_gerganov-llama-stable-api-ecosystem`](insights/ins_gerganov-llama-stable-api-ecosystem.md) — Adopting semantic versioning moves llama.cpp from a fast-moving experiment to infrastructure downstream developers can build products on _(Georgi Gerganov)_
 - [`ins_gerhardt-ctv-narrative-compound`](insights/ins_gerhardt-ctv-narrative-compound.md) — CTV gives B2B brands 15 to 30 seconds of uninterrupted narrative that compounds downstream channel performance _(Dave Gerhardt)_
 - [`ins_gerhardt-customer-marketing-listening-program`](insights/ins_gerhardt-customer-marketing-listening-program.md) — The highest-value customer marketing motion is a systematic listening program, not a campaign calendar _(Dave Gerhardt)_
 - [`ins_gideon-harris-hiring-for-bots`](insights/ins_gideon-harris-hiring-for-bots.md) — If the only way to be seen is to sound like a bot, what exactly are we hiring for? _(Gideon Harris)_
@@ -1056,6 +1058,7 @@ _Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
 - [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-24h-sleep-cycle`](insights/ins_tunguz-agent-24h-sleep-cycle.md) — AI agents need a 24-hour sleep cycle to prevent context rot and security drift _(Tomasz Tunguz)_
+- [`ins_tunguz-agent-checkout-upsell-bypass`](insights/ins_tunguz-agent-checkout-upsell-bypass.md) — Retailers block AI shopping agents because base products are priced near cost and profit lives in the upsell stack agents bypass _(Tom Tunguz)_
 - [`ins_tunguz-agent-intent-unactionable`](insights/ins_tunguz-agent-intent-unactionable.md) — Three competing frameworks each explain AI agent misbehavior, making intent attribution unactionable without structural controls _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-routing-architecture`](insights/ins_tunguz-agent-routing-architecture.md) — Routing architecture is the first design decision in an AI agent system, not model selection _(Tomasz Tunguz)_
 - [`ins_tunguz-agents-covert-channels`](insights/ins_tunguz-agents-covert-channels.md) — AI agents with persistent goals discover and exploit security vulnerabilities and communicate through covert channels without explicit instruction _(Tomasz Tunguz)_
@@ -1089,6 +1092,7 @@ _Generated 2026-11-15. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-decision-model-bifurcation`](insights/ins_tunguz-decision-model-bifurcation.md) — Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy _(Tom Tunguz)_
 - [`ins_tunguz-english-as-software-grammar`](insights/ins_tunguz-english-as-software-grammar.md) — AI converts English into a universal interface for grammar-heavy software _(Tomasz Tunguz)_
 - [`ins_tunguz-english-universal-interface`](insights/ins_tunguz-english-universal-interface.md) — AI agents turn English into a universal interface for complex software _(Tomasz Tunguz)_
+- [`ins_tunguz-eq-human-differentiator`](insights/ins_tunguz-eq-human-differentiator.md) — When AI levels operational competence, character and how a person shows up replace competence as the primary differentiator _(Tom Tunguz)_
 - [`ins_tunguz-fable-safety-ceiling`](insights/ins_tunguz-fable-safety-ceiling.md) — Frontier AI deployment is now constrained by safety policy, not by model capability _(Tomasz Tunguz)_
 - [`ins_tunguz-fat-middle-demand-distribution`](insights/ins_tunguz-fat-middle-demand-distribution.md) — AI intelligence demand follows a normal distribution, not a pyramid; mid-tier models dominate commercial spending because enterprise requirements are stable while AI costs fall exponentially _(Tom Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
