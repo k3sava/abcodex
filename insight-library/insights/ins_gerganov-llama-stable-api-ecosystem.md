@@ -29,7 +29,7 @@ Before semantic versioning, any llama.cpp update could silently break a downstre
 ## Conditions
 Holds when: downstream developers depend on the library's C API and need to ship to end users who cannot absorb breaking updates.
 
-Fails when: a project tracks the main branch directly for cutting-edge model support and can absorb the churn. Research setups often do not need versioning stability because they are not deploying to external users.
+Fails when: a project tracks the main branch directly for the latest model support and can absorb the churn. Research setups often do not need versioning stability because they are not deploying to external users.
 
 ## Evidence
 The llama.cpp v1.0.0 release on November 13, 2026 by the ggml-org team marks the first major version for both llama.cpp and ggml. The release blog states the versioning policy explicitly:
