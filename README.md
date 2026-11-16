@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-15 · 3 insights · 1 operator
+### Latest · 2026-11-16 · 4 insights
 
-**Job descriptions have already changed.** Three cards, one new operator. Lenny Rachitsky's late-2026 job market survey finds AI fluency has displaced SQL and Python as the top PM skill, while design hiring has collapsed to record lows. On the engineering side, Swaminathan Sivasubramanian documents AWS producing 200-service infrastructure with no human code authorship and names what that means for quality: the engineer's job is now the pipeline, not the code.
+**Agent economics and the human remainder.** Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.
 
-[Read what landed →](insight-library/daily/2026-11-15.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1350** insight cards
+- **1354** insight cards
 - **572** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

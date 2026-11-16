@@ -1,31 +1,32 @@
 {
-  "generated_at": "2026-11-15T01:44:51.060Z",
+  "generated_at": "2026-11-16T01:43:06.478Z",
   "counts": {
-    "insights": 1350,
+    "insights": 1354,
     "operators": 572,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 168
+    "daily": 169
   },
   "latest_daily": {
-    "path": "daily/2026-11-15.md",
-    "date": "2026-11-15",
-    "title": "Job descriptions have already changed",
-    "summary": "Three cards, one new operator. Lenny Rachitsky's late-2026 job market survey finds AI fluency has displaced SQL and Python as the top PM skill, while design hiring has collapsed to record lows. On the engineering side, Swaminathan Sivasubramanian documents AWS producing 200-service infrastructure with no human code authorship and names what that means for quality: the engineer's job is now the pipeline, not the code.",
+    "path": "daily/2026-11-16.md",
+    "date": "2026-11-16",
+    "title": "Agent economics and the human remainder",
+    "summary": "Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.",
     "sources": [
-      "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-      "https://www.allthingsdistributed.com/2026/11/the-engineers-job-when-agents-write-the-code.html"
+      "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots/",
+      "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "https://registerspill.thorstenball.com/p/joy-and-curiosity-106"
     ],
     "insights_added": [
-      "ins_rachitsky-llm-displaces-sql-pm-jobs",
-      "ins_rachitsky-design-headcount-collapses-pm-share-rises",
-      "ins_sivasubramanian-guardrails-define-ai-code-quality"
+      "ins_tunguz-agent-checkout-upsell-bypass",
+      "ins_tunguz-eq-human-differentiator",
+      "ins_gerganov-llama-stable-api-ecosystem",
+      "ins_ball-one-meeting-silent-commit"
     ],
-    "operators_added": [
-      "swaminathan-sivasubramanian"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -3646,6 +3647,32 @@
       ],
       "raw_ref": "",
       "title": "When agents write code, the decisive technology selection criterion is whether failure modes are legible to the agent"
+    },
+    {
+      "path": "insights/ins_ball-one-meeting-silent-commit.md",
+      "id": "ins_ball-one-meeting-silent-commit",
+      "operator": "Thorsten Ball",
+      "operator_role": "Engineering at Sourcegraph Amp; author of \"How to Build an Agent\" and \"Writing A Compiler In Go\"",
+      "co_operators": [],
+      "source_url": "https://registerspill.thorstenball.com/p/joy-and-curiosity-106",
+      "source_type": "essay",
+      "source_title": "Joy & Curiosity #106",
+      "source_date": "2026-11-15",
+      "captured_date": "2026-11-16",
+      "domain": [
+        "leadership-org",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "process-operating-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 5, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "A small software team can run on one weekly meeting when it includes a silent period for writing ambitious shipping goals before anyone states them aloud"
     },
     {
       "path": "insights/ins_ball-orb-sandbox-agent-frequency.md",
@@ -10131,6 +10158,31 @@
       "related": [],
       "raw_ref": "",
       "title": "Decision models score supplied options in a single forward pass and return probabilities, not generated text"
+    },
+    {
+      "path": "insights/ins_gerganov-llama-stable-api-ecosystem.md",
+      "id": "ins_gerganov-llama-stable-api-ecosystem",
+      "operator": "Georgi Gerganov",
+      "operator_role": "Creator of llama.cpp, ggml, and the GGUF format; founder of ggml.ai",
+      "co_operators": [],
+      "source_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source_type": "essay",
+      "source_title": "llama.cpp v1.0.0: A stronger foundation for the local AI ecosystem",
+      "source_date": "2026-11-13",
+      "captured_date": "2026-11-16",
+      "domain": [
+        "engineering-ai"
+      ],
+      "lifecycle": [
+        "ai-workflow-tooling"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Adopting semantic versioning moves llama.cpp from a fast-moving experiment to infrastructure downstream developers can build products on"
     },
     {
       "path": "insights/ins_gerhardt-brand-reputation-compounds.md",
@@ -30790,6 +30842,35 @@
       "title": "AI agents need a 24-hour sleep cycle to prevent context rot and security drift"
     },
     {
+      "path": "insights/ins_tunguz-agent-checkout-upsell-bypass.md",
+      "id": "ins_tunguz-agent-checkout-upsell-bypass",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots/",
+      "source_type": "essay",
+      "source_title": "No Shirt, No Shoes, No Service for Bots",
+      "source_date": "2026-11-13",
+      "captured_date": "2026-11-16",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy-bets"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-reimagination-beats-efficiency",
+        "ins_tunguz-nvidia-ai-central-bank"
+      ],
+      "raw_ref": "",
+      "title": "Retailers block AI shopping agents because base products are priced near cost and profit lives in the upsell stack agents bypass"
+    },
+    {
       "path": "insights/ins_tunguz-agent-intent-unactionable.md",
       "id": "ins_tunguz-agent-intent-unactionable",
       "operator": "Tomasz Tunguz",
@@ -31888,6 +31969,37 @@
       ],
       "raw_ref": "",
       "title": "AI agents turn English into a universal interface for complex software"
+    },
+    {
+      "path": "insights/ins_tunguz-eq-human-differentiator.md",
+      "id": "ins_tunguz-eq-human-differentiator",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/we-are-all-junior-talent-now/",
+      "source_type": "essay",
+      "source_title": "We Are All Junior Talent Now",
+      "source_date": "2026-11-10",
+      "captured_date": "2026-11-16",
+      "domain": [
+        "ai-native",
+        "future-of-work",
+        "leadership-org"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "hiring-team-design"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 3, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-reimagination-beats-efficiency",
+        "ins_hudson-emotional-clarity-ai-advantage"
+      ],
+      "raw_ref": "",
+      "title": "When AI levels operational competence, character and how a person shows up replace competence as the primary differentiator"
     },
     {
       "path": "insights/ins_tunguz-fable-safety-ceiling.md",
@@ -54709,6 +54821,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-16.md",
+      "date": "2026-11-16",
+      "title": "Agent economics and the human remainder",
+      "summary": "Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.",
+      "sources": [
+        "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots/",
+        "https://tomtunguz.com/we-are-all-junior-talent-now/",
+        "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+        "https://registerspill.thorstenball.com/p/joy-and-curiosity-106"
+      ],
+      "insights_added": [
+        "ins_tunguz-agent-checkout-upsell-bypass",
+        "ins_tunguz-eq-human-differentiator",
+        "ins_gerganov-llama-stable-api-ecosystem",
+        "ins_ball-one-meeting-silent-commit"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-15.md",
       "date": "2026-11-15",
