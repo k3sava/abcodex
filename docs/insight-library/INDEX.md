@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1354 insight cards
+- 1357 insight cards
 - 572 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (898)
+### Tier B (900)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1035,6 +1035,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing`](insights/ins_svitlana-shuliak-pmm-vs-marketing-manager-vs-head-of-marketing.md) — PMM, Marketing Manager, and Head of Marketing are not the same job, and conflating them creates overload, not efficiency. _(Svitlana Shuliak)_
 - [`ins_swyx-meta-harness-convergence`](insights/ins_swyx-meta-harness-convergence.md) — Independent rediscovery of the same agent coordination layer at scale signals which open-source standard will form _(Swyx)_
 - [`ins_swyx-scaling-without-slop`](insights/ins_swyx-scaling-without-slop.md) — In AI content, the quality lever is curation and a distinct point of view, not output volume. _(Swyx)_
+- [`ins_swyx-slop-output-review-asymmetry`](insights/ins_swyx-slop-output-review-asymmetry.md) — AI generation costs nearly zero; reviewing it costs the same as before. Small quality compromises compound. _(Swyx)_
 - [`ins_swyx-software-factory-replaces-prs`](insights/ins_swyx-software-factory-replaces-prs.md) — AI-native open source projects reject external PRs because agent-driven software factories close 70-80% of issues, making external human code contributions a net cost rather than a net benefit _(swyx)_
 - [`ins_systems-of-action-replace-seller-stack`](insights/ins_systems-of-action-replace-seller-stack.md) — A "system of action" tier is replacing the seller's tab-stack _(Gartner)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_
@@ -1097,6 +1098,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-fat-middle-demand-distribution`](insights/ins_tunguz-fat-middle-demand-distribution.md) — AI intelligence demand follows a normal distribution, not a pyramid; mid-tier models dominate commercial spending because enterprise requirements are stable while AI costs fall exponentially _(Tom Tunguz)_
 - [`ins_tunguz-fde-deployment-moat`](insights/ins_tunguz-fde-deployment-moat.md) — The AI deployment bottleneck has shifted from model capability to customer adoption, making embedded engineering teams the institutional moat _(Tomasz Tunguz)_
 - [`ins_tunguz-frontier-access-as-scarcity`](insights/ins_tunguz-frontier-access-as-scarcity.md) — Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity _(Tomasz Tunguz)_
+- [`ins_tunguz-frontier-tier-structural-vs-strategic`](insights/ins_tunguz-frontier-tier-structural-vs-strategic.md) — Anthropic owns frontier-tier enterprise AI volume on model quality; OpenAI owns low-end volume on price cuts _(Tom Tunguz)_
 - [`ins_tunguz-gpu-inference-payback-ladder`](insights/ins_tunguz-gpu-inference-payback-ladder.md) — Scaled AI inference earns sub-1-year payback even at a 15x efficiency gap from the theoretical maximum _(Tomasz Tunguz)_
 - [`ins_tunguz-grow-or-design-modes`](insights/ins_tunguz-grow-or-design-modes.md) — Vibe coding selects for correctness by experiment; state machine design proves correctness by enumerating every path _(Tom Tunguz)_
 - [`ins_tunguz-harness-benchmark-delta`](insights/ins_tunguz-harness-benchmark-delta.md) — The AI harness now moves coding benchmarks more than the model does _(Tomasz Tunguz)_
@@ -1277,7 +1279,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (93)
+### Tier C (94)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1315,6 +1317,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`ins_hans-dekker-pre-built-ai-skills-for-gtm`](insights/ins_hans-dekker-pre-built-ai-skills-for-gtm.md) — Pre-built Claude skills eliminate blank-page paralysis for GTM teams _(Hans Dekker)_
 - [`ins_harsha-annadurai-building-high-performing-teams`](insights/ins_harsha-annadurai-building-high-performing-teams.md) — Building high-performing content, PMM, and marketing teams requires a specific, intentional approach. _(Harsha Annadurai)_
 - [`ins_harshit-mahawar-quick-commerce-copycat-critique`](insights/ins_harshit-mahawar-quick-commerce-copycat-critique.md) — Zepto copying Blinkit is a bad sign for quick commerce differentiation _(Harshit Mahawar)_
+- [`ins_horthy-factory-delivery-pressure`](insights/ins_horthy-factory-delivery-pressure.md) — Speeding only the builder side of a software factory stalls delivery. Pressure must run in both directions. _(Dex Horthy)_
 - [`ins_horthy-visual-artifacts-agent-ux`](insights/ins_horthy-visual-artifacts-agent-ux.md) — Coding agents explaining code through visual artifacts outperform text-wall responses because visual cortex processing is effortless and prose analysis is not _(Dex Horthy)_
 - [`ins_isha-ahuja-no-substantive-content`](insights/ins_isha-ahuja-no-substantive-content.md) — No substantive stance or observation extracted _(Isha Ahuja)_
 - [`ins_jacki-schroder-brown-positioning-and-messaging-in-30-days`](insights/ins_jacki-schroder-brown-positioning-and-messaging-in-30-days.md) — Positioning and messaging can be built from first draft to market-ready in 30 days. _(Jacki Schroder Brown)_
@@ -1958,7 +1961,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_agent-first-gtm`](synthesis/patterns/agent-first-gtm.md) — Agent-first GTM (rebuild, don't bolt-on) (10 ops) [Tier A]
 - [`pat_agents-as-product-users`](synthesis/patterns/agents-as-product-users.md) — Agents are first-class users, design for output, not navigation (3 ops) [Tier A]
 - [`pat_agents-mapped-to-jtbd`](synthesis/patterns/agents-mapped-to-jtbd.md) — Agents mapped 1:1 to JTBD with named human checkpoints (5 ops) [Tier A]
-- [`pat_ai-code-shifts-quality-bottleneck`](synthesis/patterns/ai-code-shifts-quality-bottleneck.md) — AI code generation shifts the quality bottleneck, it does not remove it (3 ops) [Tier B]
+- [`pat_ai-code-shifts-quality-bottleneck`](synthesis/patterns/ai-code-shifts-quality-bottleneck.md) — AI code generation shifts the quality bottleneck, it does not remove it (6 ops) [Tier B]
 - [`pat_ai-defensibility-comes-from-non-ai`](synthesis/patterns/ai-defensibility-comes-from-non-ai.md) — AI defensibility comes from non-AI moats (3 ops) [Tier A]
 - [`pat_ai-policy-constrains-capability`](synthesis/patterns/ai-policy-constrains-capability.md) — Frontier AI capability is now constrained by deliberate policy, not technical limits (3 ops) [Tier B]
 - [`pat_behavioral-pricing-architecture`](synthesis/patterns/behavioral-pricing-architecture.md) — Pricing is a behavioral-architecture problem (5 ops) [Tier A]
@@ -1998,7 +2001,7 @@ _Generated 2026-11-16. Auto-built from frontmatter — do not edit by hand._
 - [`pat_substrate-runs-loop-humans-run-alignment`](synthesis/patterns/substrate-runs-loop-humans-run-alignment.md) — Substrate runs the loop; humans run alignment and taste (7 ops) [Tier A]
 - [`pat_subtraction-first-operating-discipline`](synthesis/patterns/subtraction-first-operating-discipline.md) — Subtraction-first operating discipline (3 ops) [Tier A]
 - [`pat_sustainability-beats-optimisation`](synthesis/patterns/sustainability-beats-optimisation.md) — Sustainability beats optimisation (5 ops) [Tier A]
-- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (15 ops) [Tier A]
+- [`pat_verification-as-human-job`](synthesis/patterns/verification-as-human-job.md) — Verification, not execution, is the irreplaceable human job (17 ops) [Tier A]
 
 ## Contradictions
 - [`con_agents-as-team-vs-tools`](synthesis/contradictions/agents-as-team-vs-tools.md) — Agents-as-team vs. agents-as-tools

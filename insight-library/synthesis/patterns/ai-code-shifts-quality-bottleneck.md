@@ -2,9 +2,10 @@
 id: pat_ai-code-shifts-quality-bottleneck
 title: 'AI code generation shifts the quality bottleneck, it does not remove it'
 captured_date: 2026-09-17
-convergence_count: 3
+convergence_count: 6
+last_updated: 2026-11-17
 tier: B
-uses_cards: [ins_cherny-production-code-higher-bar, ins_voss-code-collapse-product-discovery-shift, ins_ford-ai-code-quality-filter]
+uses_cards: [ins_cherny-production-code-higher-bar, ins_voss-code-collapse-product-discovery-shift, ins_ford-ai-code-quality-filter, ins_sivasubramanian-guardrails-define-ai-code-quality, ins_swyx-slop-output-review-asymmetry, ins_horthy-factory-delivery-pressure]
 domains: [ai-native, engineering]
 ---
 

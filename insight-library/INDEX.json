@@ -1,35 +1,36 @@
 {
-  "generated_at": "2026-11-16T01:43:06.478Z",
+  "generated_at": "2026-11-17T01:51:43.945Z",
   "counts": {
-    "insights": 1354,
+    "insights": 1357,
     "operators": 572,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 169
+    "daily": 170
   },
   "latest_daily": {
-    "path": "daily/2026-11-16.md",
-    "date": "2026-11-16",
-    "title": "Agent economics and the human remainder",
-    "summary": "Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.",
+    "path": "daily/2026-11-17.md",
+    "date": "2026-11-17",
+    "title": "Pricing tiers, slop asymmetry, and factory pressure",
+    "summary": "Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.",
     "sources": [
-      "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots/",
-      "https://tomtunguz.com/we-are-all-junior-talent-now/",
-      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-106"
+      "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+      "https://slopmanifesto.com/",
+      "https://ai.engineer/code/2026"
     ],
     "insights_added": [
-      "ins_tunguz-agent-checkout-upsell-bypass",
-      "ins_tunguz-eq-human-differentiator",
-      "ins_gerganov-llama-stable-api-ecosystem",
-      "ins_ball-one-meeting-silent-commit"
+      "ins_tunguz-frontier-tier-structural-vs-strategic",
+      "ins_swyx-slop-output-review-asymmetry",
+      "ins_horthy-factory-delivery-pressure"
     ],
     "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_ai-code-shifts-quality-bottleneck",
+      "pat_verification-as-human-job"
+    ]
   },
   "insights": [
     {
@@ -11956,6 +11957,36 @@
       ],
       "raw_ref": "",
       "title": "Models have a context window \"dumb zone\": past the optimal threshold, performance degrades into destructive behavior"
+    },
+    {
+      "path": "insights/ins_horthy-factory-delivery-pressure.md",
+      "id": "ins_horthy-factory-delivery-pressure",
+      "operator": "Dex Horthy",
+      "operator_role": "Head of Agent Engineering at Factory",
+      "co_operators": [],
+      "source_url": "https://ai.engineer/code/2026",
+      "source_type": "talk",
+      "source_title": "A software factory needs pressure in both directions",
+      "source_date": "2026-11-12",
+      "captured_date": "2026-11-17",
+      "domain": [
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_swyx-slop-output-review-asymmetry",
+        "ins_sivasubramanian-guardrails-define-ai-code-quality",
+        "ins_horthy-trajectory-poisoning-reset"
+      ],
+      "raw_ref": "",
+      "title": "Speeding only the builder side of a software factory stalls delivery. Pressure must run in both directions."
     },
     {
       "path": "insights/ins_horthy-trajectory-poisoning-reset.md",
@@ -29345,6 +29376,37 @@
       "title": "In AI content, the quality lever is curation and a distinct point of view, not output volume."
     },
     {
+      "path": "insights/ins_swyx-slop-output-review-asymmetry.md",
+      "id": "ins_swyx-slop-output-review-asymmetry",
+      "operator": "Swyx",
+      "operator_role": "Co-founder, Latent Space; organizer, AI Engineer conference series",
+      "co_operators": [],
+      "source_url": "https://slopmanifesto.com/",
+      "source_type": "essay",
+      "source_title": "No AI Slop Manifesto",
+      "source_date": "2026-11-12",
+      "captured_date": "2026-11-17",
+      "domain": [
+        "agentic-coding",
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 3, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_sivasubramanian-guardrails-define-ai-code-quality",
+        "ins_horthy-factory-delivery-pressure"
+      ],
+      "raw_ref": "",
+      "title": "AI generation costs nearly zero; reviewing it costs the same as before. Small quality compromises compound."
+    },
+    {
       "path": "insights/ins_swyx-software-factory-replaces-prs.md",
       "id": "ins_swyx-software-factory-replaces-prs",
       "operator": "swyx",
@@ -32121,6 +32183,35 @@
       ],
       "raw_ref": "",
       "title": "Frontier AI has shifted from token-based utility to access-controlled infrastructure where permission is the new scarcity"
+    },
+    {
+      "path": "insights/ins_tunguz-frontier-tier-structural-vs-strategic.md",
+      "id": "ins_tunguz-frontier-tier-structural-vs-strategic",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner at Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+      "source_type": "essay",
+      "source_title": "Strategic Decision or Structural Advantage?",
+      "source_date": "2026-11-16",
+      "captured_date": "2026-11-17",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "monetization",
+        "ai-workflow"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-application-layer-ai-margin"
+      ],
+      "raw_ref": "",
+      "title": "Anthropic owns frontier-tier enterprise AI volume on model quality; OpenAI owns low-end volume on price cuts"
     },
     {
       "path": "insights/ins_tunguz-gpu-inference-payback-ladder.md",
@@ -52251,12 +52342,16 @@
       "id": "pat_ai-code-shifts-quality-bottleneck",
       "title": "AI code generation shifts the quality bottleneck, it does not remove it",
       "captured_date": "2026-09-17",
-      "convergence_count": "3",
+      "convergence_count": "6",
+      "last_updated": "2026-11-17",
       "tier": "B",
       "uses_cards": [
         "ins_cherny-production-code-higher-bar",
         "ins_voss-code-collapse-product-discovery-shift",
-        "ins_ford-ai-code-quality-filter"
+        "ins_ford-ai-code-quality-filter",
+        "ins_sivasubramanian-guardrails-define-ai-code-quality",
+        "ins_swyx-slop-output-review-asymmetry",
+        "ins_horthy-factory-delivery-pressure"
       ],
       "domains": [
         "ai-native",
@@ -53192,8 +53287,8 @@
       "id": "pat_verification-as-human-job",
       "title": "Verification, not execution, is the irreplaceable human job",
       "captured_date": "2026-05-06",
-      "last_updated": "2026-07-09",
-      "convergence_count": "15",
+      "last_updated": "2026-11-17",
+      "convergence_count": "17",
       "tier": "A",
       "uses_cards": [
         "ins_judgment-vs-understanding",
@@ -53210,7 +53305,9 @@
         "ins_pierri-batch-transcripts-produce-fabrications",
         "ins_anthropic-claude-security-data-flow-scanning",
         "ins_anthropic-glasswing-verification-bottleneck-shift",
-        "ins_sumner-parallel-adversarial-agent-rewrite"
+        "ins_sumner-parallel-adversarial-agent-rewrite",
+        "ins_swyx-slop-output-review-asymmetry",
+        "ins_horthy-factory-delivery-pressure"
       ],
       "domains": [
         "ai-native",
@@ -54821,6 +54918,29 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-17.md",
+      "date": "2026-11-17",
+      "title": "Pricing tiers, slop asymmetry, and factory pressure",
+      "summary": "Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.",
+      "sources": [
+        "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+        "https://slopmanifesto.com/",
+        "https://ai.engineer/code/2026"
+      ],
+      "insights_added": [
+        "ins_tunguz-frontier-tier-structural-vs-strategic",
+        "ins_swyx-slop-output-review-asymmetry",
+        "ins_horthy-factory-delivery-pressure"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_ai-code-shifts-quality-bottleneck",
+        "pat_verification-as-human-job"
+      ]
+    },
     {
       "path": "daily/2026-11-16.md",
       "date": "2026-11-16",
