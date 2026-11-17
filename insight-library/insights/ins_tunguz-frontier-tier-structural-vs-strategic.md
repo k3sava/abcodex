@@ -26,7 +26,7 @@ Databricks Unity Gateway data shows the enterprise AI market has bifurcated into
 ## Mechanism
 Two distinct competitive dynamics produced these shares. Anthropic's frontier dominance came from model quality alone: Opus 5.5 (released Sep 21) lifted Anthropic's frontier-tier share from 81% to 94% inside the measurement window. No pricing change was required. OpenAI's low-end dominance came from price cuts totaling roughly 90% (an 80% cut on July 30, then a further 50%). OpenAI's mid-tier share went from 0% to 47% in six weeks after the first cut. Open-weight models grew to 33% share then stalled at 31%.
 
-The unresolved structural question is whether OpenAI's low-end price is a strategic subsidy it can't sustain indefinitely or a genuine cost advantage from GPU kernel improvements and speculative decoding. If structural, OpenAI can hold the low end profitably. If strategic, Anthropic may eventually expand downmarket without yielding the frontier.
+The unresolved structural question is whether OpenAI's low-end price is a deliberate subsidy it can't sustain indefinitely or a genuine cost advantage from GPU kernel improvements and speculative decoding. If structural, OpenAI can hold the low end profitably. If deliberate, Anthropic may eventually expand downmarket without yielding the frontier.
 
 ## Conditions
 Holds when: enterprise workloads are segmented by quality requirement. Frontier tasks (legal reasoning, complex code, high-stakes decisions) tolerate higher per-token cost. Low-end tasks (summarization, classification, boilerplate) optimize on cost.
