@@ -3,9 +3,10 @@ id: pat_verification-as-human-job
 title: Verification, not execution, is the irreplaceable human job
 captured_date: 2026-05-06
 last_updated: 2026-07-09
-convergence_count: 15
+convergence_count: 17
+last_updated: 2026-11-17
 tier: A
-uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer, ins_pierri-batch-transcripts-produce-fabrications, ins_anthropic-claude-security-data-flow-scanning, ins_anthropic-glasswing-verification-bottleneck-shift, ins_sumner-parallel-adversarial-agent-rewrite]
+uses_cards: [ins_judgment-vs-understanding, ins_traces-need-feedback-to-learn, ins_mine-transcripts-to-promote-config, ins_make-verification-easy-ai-production, ins_error-analysis-highest-leverage-eval-step, ins_capability-spikes-where-verification-loops-exist, ins_outcomes-grader-agent-evaluation, ins_pierri-ai-positioning-needs-human-checkpoints, ins_breunig-agentic-code-free-as-puppies, ins_willison-reliability-erodes-review-discipline, ins_breunig-harness-lock-in-model-layer, ins_pierri-batch-transcripts-produce-fabrications, ins_anthropic-claude-security-data-flow-scanning, ins_anthropic-glasswing-verification-bottleneck-shift, ins_sumner-parallel-adversarial-agent-rewrite, ins_swyx-slop-output-review-asymmetry, ins_horthy-factory-delivery-pressure]
 domains: [ai-native, engineering, leadership, research]
 ---
 

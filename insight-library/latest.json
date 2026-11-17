@@ -1,28 +1,52 @@
 {
-  "generated_at": "2026-11-16T01:43:06.512Z",
+  "generated_at": "2026-11-17T01:50:02.919Z",
   "latest_daily": {
-    "path": "daily/2026-11-16.md",
-    "date": "2026-11-16",
-    "title": "Agent economics and the human remainder",
-    "summary": "Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.",
+    "path": "daily/2026-11-17.md",
+    "date": "2026-11-17",
+    "title": "Pricing tiers, slop asymmetry, and factory pressure",
+    "summary": "Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.",
     "sources": [
-      "https://tomtunguz.com/no-shirt-no-shoes-no-service-for-bots/",
-      "https://tomtunguz.com/we-are-all-junior-talent-now/",
-      "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "https://registerspill.thorstenball.com/p/joy-and-curiosity-106"
+      "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+      "https://slopmanifesto.com/",
+      "https://ai.engineer/code/2026"
     ],
     "insights_added": [
-      "ins_tunguz-agent-checkout-upsell-bypass",
-      "ins_tunguz-eq-human-differentiator",
-      "ins_gerganov-llama-stable-api-ecosystem",
-      "ins_ball-one-meeting-silent-commit"
+      "ins_tunguz-frontier-tier-structural-vs-strategic",
+      "ins_swyx-slop-output-review-asymmetry",
+      "ins_horthy-factory-delivery-pressure"
     ],
     "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": []
+    "patterns_updated": [
+      "pat_ai-code-shifts-quality-bottleneck",
+      "pat_verification-as-human-job"
+    ]
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-17.md",
+      "date": "2026-11-17",
+      "title": "Pricing tiers, slop asymmetry, and factory pressure",
+      "summary": "Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.",
+      "sources": [
+        "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
+        "https://slopmanifesto.com/",
+        "https://ai.engineer/code/2026"
+      ],
+      "insights_added": [
+        "ins_tunguz-frontier-tier-structural-vs-strategic",
+        "ins_swyx-slop-output-review-asymmetry",
+        "ins_horthy-factory-delivery-pressure"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": [
+        "pat_ai-code-shifts-quality-bottleneck",
+        "pat_verification-as-human-job"
+      ]
+    },
     {
       "path": "daily/2026-11-16.md",
       "date": "2026-11-16",
@@ -641,25 +665,6 @@
         "ins_tunguz-security-tops-ai-barrier-2026",
         "ins_mollick-four-human-edge-skills",
         "ins_indig-ai-mode-shortlist-acceptance"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-18.md",
-      "date": "2026-10-18",
-      "title": "Swarm direction, proactive catches, and quality goals in prompts",
-      "summary": "Three cards from two operators across two lanes. Ethan Mollick on how direction replaces coordination as the bottleneck in agent swarms and on what proactive personal agents catch that responsive chatbots miss. Simon Willison on how explicitly stating a quality goal in a creative coding prompt produces polish that functional specs alone cannot.",
-      "sources": [
-        "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
-        "https://simonwillison.net/2026/Oct/14/tree-appreciator/"
-      ],
-      "insights_added": [
-        "ins_mollick-swarm-direction-bottleneck",
-        "ins_mollick-proactive-agents-caught-not-asked",
-        "ins_willison-quality-goal-prompt"
       ],
       "operators_added": [],
       "patterns_added": [],

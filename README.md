@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-16 · 4 insights
+### Latest · 2026-11-17 · 3 insights
 
-**Agent economics and the human remainder.** Four cards, no new operators. Tom Tunguz maps why retailers block AI shopping agents (upsells are where profit lives, not base products). Georgi Gerganov ships llama.cpp v1.0.0 and semantic versioning moves local AI inference to buildable infrastructure. Tunguz and Thorsten Ball converge, from different angles, on what stays human when AI clears the operational floor.
+**Pricing tiers, slop asymmetry, and factory pressure.** Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.
 
-[Read what landed →](insight-library/daily/2026-11-16.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-17.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1354** insight cards
+- **1357** insight cards
 - **572** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
