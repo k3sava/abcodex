@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-18. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1357 insight cards
+- 1360 insight cards
 - 572 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (900)
+### Tier B (903)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -981,6 +981,7 @@ _Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_ship-fast-charge-day-one`](insights/ins_ship-fast-charge-day-one.md) — Ship fast, charge from day one, use boring technology, never hire, every idea is a cheap experiment _(Pieter Levels)_
 - [`ins_shipper-agent-pro-tool-persistent-state`](insights/ins_shipper-agent-pro-tool-persistent-state.md) — A personal agent earns pro-tool status when it tracks its own open items and edits artifacts directly _(Dan Shipper)_
 - [`ins_shipper-agent-safety-environment-design`](insights/ins_shipper-agent-safety-environment-design.md) — AI agent safety is an environment design problem, not a model values problem _(Dan Shipper)_
+- [`ins_shipper-attention-ai-formula`](insights/ins_shipper-attention-ai-formula.md) — Human attention is now the scarce input in AI feedback loops, not model intelligence _(Dan Shipper)_
 - [`ins_shipper-correction-becomes-team-skill`](insights/ins_shipper-correction-becomes-team-skill.md) — Saving agent corrections as named team skills converts individual AI workarounds into shared institutional capability _(Dan Shipper)_
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
@@ -1037,6 +1038,7 @@ _Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_swyx-scaling-without-slop`](insights/ins_swyx-scaling-without-slop.md) — In AI content, the quality lever is curation and a distinct point of view, not output volume. _(Swyx)_
 - [`ins_swyx-slop-output-review-asymmetry`](insights/ins_swyx-slop-output-review-asymmetry.md) — AI generation costs nearly zero; reviewing it costs the same as before. Small quality compromises compound. _(Swyx)_
 - [`ins_swyx-software-factory-replaces-prs`](insights/ins_swyx-software-factory-replaces-prs.md) — AI-native open source projects reject external PRs because agent-driven software factories close 70-80% of issues, making external human code contributions a net cost rather than a net benefit _(swyx)_
+- [`ins_swyx-system-one-call-embeds`](insights/ins_swyx-system-one-call-embeds.md) — Non-generative decision models called like functions inside application code solve the reliability problems that LLM chains cannot _(Swyx)_
 - [`ins_systems-of-action-replace-seller-stack`](insights/ins_systems-of-action-replace-seller-stack.md) — A "system of action" tier is replacing the seller's tab-stack _(Gartner)_
 - [`ins_taste-as-scarce-skill`](insights/ins_taste-as-scarce-skill.md) — Taste is the scarce skill in an AI-native team _(Cat Wu)_
 - [`ins_tech-stack-renewal-window-play`](insights/ins_tech-stack-renewal-window-play.md) — Combine tech-stack signal with contract-renewal window for ~5x outbound conversion _(Florin Tatulea)_
@@ -1204,6 +1206,7 @@ _Generated 2026-11-17. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
 - [`ins_willison-engineering-core-is-direction`](insights/ins_willison-engineering-core-is-direction.md) — Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was. _(Simon Willison)_
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
+- [`ins_willison-external-sandbox-pattern`](insights/ins_willison-external-sandbox-pattern.md) — Keeping the agent outside the execution sandbox makes agent safety independent of the model's own judgment _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-game-loop-agent-limit`](insights/ins_willison-game-loop-agent-limit.md) — Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for. _(Simon Willison)_

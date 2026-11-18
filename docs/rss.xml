@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 01:51:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 01:42:54 GMT</lastBuildDate>
+    <item>
+      <title>Agent safety architecture, the attention bottleneck, and decision models in code</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-18/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-18/</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.</description>
+    </item>
     <item>
       <title>Pricing tiers, slop asymmetry, and factory pressure</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-17/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-20/</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search&apos;s contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.</description>
-    </item>
-    <item>
-      <title>Production gates, chip economics, and the collapse of the consideration set</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-19/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-19/</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security&apos;s rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.</description>
     </item>
   </channel>
 </rss>
