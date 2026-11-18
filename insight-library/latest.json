@@ -1,29 +1,46 @@
 {
-  "generated_at": "2026-11-17T01:51:43.969Z",
+  "generated_at": "2026-11-18T01:42:52.014Z",
   "latest_daily": {
-    "path": "daily/2026-11-17.md",
-    "date": "2026-11-17",
-    "title": "Pricing tiers, slop asymmetry, and factory pressure",
-    "summary": "Three cards, no new operators. Tom Tunguz runs Databricks production data showing the enterprise AI market has split: Anthropic at 94% of frontier-tier token volume (quality-led) and OpenAI at 81% of low-end (price-led, 90% cuts). The No AI Slop Manifesto from the AIE Code Summit names the structural reason slop compounds. Dex Horthy at the same summit completes the picture: speeding only the builder side stalls delivery because the verification side doesn't scale with it.",
+    "path": "daily/2026-11-18.md",
+    "date": "2026-11-18",
+    "title": "Agent safety architecture, the attention bottleneck, and decision models in code",
+    "summary": "Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.",
     "sources": [
-      "https://tomtunguz.com/two-pricing-strategies-in-enterprise-ai/",
-      "https://slopmanifesto.com/",
-      "https://ai.engineer/code/2026"
+      "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck",
+      "https://www.latent.space/p/jev-revolution"
     ],
     "insights_added": [
-      "ins_tunguz-frontier-tier-structural-vs-strategic",
-      "ins_swyx-slop-output-review-asymmetry",
-      "ins_horthy-factory-delivery-pressure"
+      "ins_willison-external-sandbox-pattern",
+      "ins_shipper-attention-ai-formula",
+      "ins_swyx-system-one-call-embeds"
     ],
     "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
-    "patterns_updated": [
-      "pat_ai-code-shifts-quality-bottleneck",
-      "pat_verification-as-human-job"
-    ]
+    "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-18.md",
+      "date": "2026-11-18",
+      "title": "Agent safety architecture, the attention bottleneck, and decision models in code",
+      "summary": "Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.",
+      "sources": [
+        "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+        "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck",
+        "https://www.latent.space/p/jev-revolution"
+      ],
+      "insights_added": [
+        "ins_willison-external-sandbox-pattern",
+        "ins_shipper-attention-ai-formula",
+        "ins_swyx-system-one-call-embeds"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-17.md",
       "date": "2026-11-17",
@@ -641,30 +658,6 @@
         "ins_willison-programming-splits-system-vs-puzzle",
         "ins_indig-ai-direct-traffic-unverifiable",
         "ins_mollick-ai-single-player-org-gap"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-19.md",
-      "date": "2026-10-19",
-      "title": "Production gates, chip economics, and the collapse of the consideration set",
-      "summary": "Five cards from four operators across three lanes. Thorsten Ball on pushing to main with no code review. Tomasz Tunguz on chip ownership as the AI cost floor and security's rise to the top enterprise pain point. Ethan Mollick on the four human attributes that remain valuable. Kevin Indig on AI Mode accepting as-is at 88%.",
-      "sources": [
-        "https://x.com/thorstenball/status/2110035978685747457",
-        "https://tomtunguz.com/intelligence-per-dollar-2026/",
-        "https://tomtunguz.com/ai-in-practice-survey-2026/",
-        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/",
-        "https://www.growth-memo.com/p/organic-growth-in-e-commerce-in-2027"
-      ],
-      "insights_added": [
-        "ins_ball-production-gate-replaces-pr",
-        "ins_tunguz-chip-ownership-cost-floor",
-        "ins_tunguz-security-tops-ai-barrier-2026",
-        "ins_mollick-four-human-edge-skills",
-        "ins_indig-ai-mode-shortlist-acceptance"
       ],
       "operators_added": [],
       "patterns_added": [],
