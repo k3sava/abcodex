@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-18 · 3 insights
+### Latest · 2026-11-19 · 3 insights · 1 operator
 
-**Agent safety architecture, the attention bottleneck, and decision models in code.** Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.
+**Buying before building, comprehension as prerequisite, and spec-writing as the last human hold.** Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.
 
-[Read what landed →](insight-library/daily/2026-11-18.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,8 +15,8 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1360** insight cards
-- **572** operator profiles
+- **1363** insight cards
+- **573** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
 - **28** methodology playbooks
@@ -33,7 +33,7 @@ The site at [abcodex.iamkesava.com](https://abcodex.iamkesava.com/) gives you se
 |------|---------------|
 | [Home](https://abcodex.iamkesava.com/) | Tier A claims and a domain index |
 | [Map](https://abcodex.iamkesava.com/#/map) | Visual graph: operators outside, domains in the middle, insights orbiting between |
-| [Operators](https://abcodex.iamkesava.com/#/operators) | All 572 profiles, sorted by card count |
+| [Operators](https://abcodex.iamkesava.com/#/operators) | All 573 profiles, sorted by card count |
 | [Patterns](https://abcodex.iamkesava.com/#/patterns) | Where 3+ operators converge on the same claim |
 | [Browse](https://abcodex.iamkesava.com/#/browse) | Filter by tier or domain, sort by date / operator / tier |
 | [Timeline](https://abcodex.iamkesava.com/#/timeline) | Newest captures first |
