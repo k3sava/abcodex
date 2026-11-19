@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-18T01:42:51.986Z",
+  "generated_at": "2026-11-19T01:46:31.850Z",
   "counts": {
-    "insights": 1360,
-    "operators": 572,
+    "insights": 1363,
+    "operators": 573,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 171
+    "daily": 172
   },
   "latest_daily": {
-    "path": "daily/2026-11-18.md",
-    "date": "2026-11-18",
-    "title": "Agent safety architecture, the attention bottleneck, and decision models in code",
-    "summary": "Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.",
+    "path": "daily/2026-11-19.md",
+    "date": "2026-11-19",
+    "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
+    "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
     "sources": [
-      "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
-      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck",
-      "https://www.latent.space/p/jev-revolution"
+      "https://latent.space/p/cs146s"
     ],
     "insights_added": [
-      "ins_willison-external-sandbox-pattern",
-      "ins_shipper-attention-ai-formula",
-      "ins_swyx-system-one-call-embeds"
+      "ins_eric-buy-to-learn-build-to-keep",
+      "ins_eric-comprehension-pace-output",
+      "ins_eric-spec-choke-human-advantage"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mihail-eric"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -8922,6 +8922,66 @@
       "title": "The moment you try to convince someone, you activate their resistance, ask, don't tell"
     },
     {
+      "path": "insights/ins_eric-buy-to-learn-build-to-keep.md",
+      "id": "ins_eric-buy-to-learn-build-to-keep",
+      "operator": "Mihail Eric",
+      "operator_role": "Adjunct Professor, Stanford University (CS146S); Head of AI, Monaco",
+      "co_operators": [],
+      "source_url": "https://latent.space/p/cs146s",
+      "source_type": "podcast",
+      "source_title": "CS146S: The Modern Software Developer with Mihail Eric",
+      "source_date": "2026-11-08",
+      "captured_date": "2026-11-19",
+      "domain": [
+        "agentic-coding",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_eric-comprehension-pace-output",
+        "ins_eric-spec-choke-human-advantage"
+      ],
+      "raw_ref": "",
+      "title": "Buy AI tools first to learn the problem space, then build only when gaps are real"
+    },
+    {
+      "path": "insights/ins_eric-comprehension-pace-output.md",
+      "id": "ins_eric-comprehension-pace-output",
+      "operator": "Mihail Eric",
+      "operator_role": "Adjunct Professor, Stanford University (CS146S); Head of AI, Monaco",
+      "co_operators": [],
+      "source_url": "https://latent.space/p/cs146s",
+      "source_type": "podcast",
+      "source_title": "CS146S: The Modern Software Developer with Mihail Eric",
+      "source_date": "2026-11-08",
+      "captured_date": "2026-11-19",
+      "domain": [
+        "agentic-coding",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_eric-buy-to-learn-build-to-keep",
+        "ins_eric-spec-choke-human-advantage"
+      ],
+      "raw_ref": "",
+      "title": "Agents introduce bugs humans would not make, so engineers must maintain language fluency to catch them"
+    },
+    {
       "path": "insights/ins_eric-holland-pmm-ai-love-hate.md",
       "id": "ins_eric-holland-pmm-ai-love-hate",
       "title": "PMMs have a love-hate relationship with AI because no one builds tools for their workflows",
@@ -8965,6 +9025,37 @@
       "tier": "B",
       "related": [],
       "raw_ref": "raw/linkedin/reactions/linkedin-reactions-2026-04-10.md"
+    },
+    {
+      "path": "insights/ins_eric-spec-choke-human-advantage.md",
+      "id": "ins_eric-spec-choke-human-advantage",
+      "operator": "Mihail Eric",
+      "operator_role": "Adjunct Professor, Stanford University (CS146S); Head of AI, Monaco",
+      "co_operators": [],
+      "source_url": "https://latent.space/p/cs146s",
+      "source_type": "podcast",
+      "source_title": "CS146S: The Modern Software Developer with Mihail Eric",
+      "source_date": "2026-11-08",
+      "captured_date": "2026-11-19",
+      "domain": [
+        "agentic-coding",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 3 }",
+      "tier": "B",
+      "related": [
+        "ins_eric-comprehension-pace-output",
+        "ins_eric-buy-to-learn-build-to-keep",
+        "ins_cherny-code-review-next-bottleneck"
+      ],
+      "raw_ref": "",
+      "title": "Spec-writing and code review are the two irreducible human choke points in a fully automated codebase"
     },
     {
       "path": "insights/ins_error-analysis-highest-leverage-eval-step.md",
@@ -45389,6 +45480,23 @@
       "title": "Michele Nieberding"
     },
     {
+      "path": "operators/mihail-eric/README.md",
+      "name": "Mihail Eric",
+      "slug": "mihail-eric",
+      "roles": [
+        "Adjunct Professor, Stanford University (CS146S: The Modern Software Developer)",
+        "Head of AI, Monaco"
+      ],
+      "domains_active": [
+        "agentic-coding",
+        "engineering",
+        "ai-native"
+      ],
+      "captured_first": "2026-11-19",
+      "external": "{}",
+      "title": "Mihail Eric"
+    },
+    {
       "path": "operators/mihika-kapoor/README.md",
       "name": "Mihika Kapoor",
       "slug": "mihika-kapoor",
@@ -55005,6 +55113,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-19.md",
+      "date": "2026-11-19",
+      "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
+      "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
+      "sources": [
+        "https://latent.space/p/cs146s"
+      ],
+      "insights_added": [
+        "ins_eric-buy-to-learn-build-to-keep",
+        "ins_eric-comprehension-pace-output",
+        "ins_eric-spec-choke-human-advantage"
+      ],
+      "operators_added": [
+        "mihail-eric"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-18.md",
       "date": "2026-11-18",

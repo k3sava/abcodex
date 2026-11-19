@@ -1,26 +1,46 @@
 {
-  "generated_at": "2026-11-18T01:42:52.014Z",
+  "generated_at": "2026-11-19T01:46:31.878Z",
   "latest_daily": {
-    "path": "daily/2026-11-18.md",
-    "date": "2026-11-18",
-    "title": "Agent safety architecture, the attention bottleneck, and decision models in code",
-    "summary": "Three cards, no new operators. Simon Willison publishes the external sandbox pattern, which makes coding agent safety independent of model judgment. Dan Shipper names human attention as the new bottleneck in AI feedback loops. Swyx documents System One decision models as the structured alternative to unreliable LLM chains.",
+    "path": "daily/2026-11-19.md",
+    "date": "2026-11-19",
+    "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
+    "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
     "sources": [
-      "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
-      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck",
-      "https://www.latent.space/p/jev-revolution"
+      "https://latent.space/p/cs146s"
     ],
     "insights_added": [
-      "ins_willison-external-sandbox-pattern",
-      "ins_shipper-attention-ai-formula",
-      "ins_swyx-system-one-call-embeds"
+      "ins_eric-buy-to-learn-build-to-keep",
+      "ins_eric-comprehension-pace-output",
+      "ins_eric-spec-choke-human-advantage"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "mihail-eric"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-19.md",
+      "date": "2026-11-19",
+      "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
+      "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
+      "sources": [
+        "https://latent.space/p/cs146s"
+      ],
+      "insights_added": [
+        "ins_eric-buy-to-learn-build-to-keep",
+        "ins_eric-comprehension-pace-output",
+        "ins_eric-spec-choke-human-advantage"
+      ],
+      "operators_added": [
+        "mihail-eric"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-18.md",
       "date": "2026-11-18",
@@ -638,26 +658,6 @@
         "ins_mollick-leadership-crowd-lab",
         "ins_mollick-automation-satisficing-trap",
         "ins_mollick-early-career-apprenticeship-break"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-20.md",
-      "date": "2026-10-20",
-      "title": "Agents split programmer value, AI-direct attribution stays broken, and chatbot gains stay individual",
-      "summary": "Three cards. Simon Willison on how LLMs redistribute value within programming. Kevin Indig on why GA4 correlation analysis cannot isolate AI search's contribution to Direct traffic. Ethan Mollick on why individual AI productivity gains do not automatically aggregate to organizational performance.",
-      "sources": [
-        "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-        "https://www.growth-memo.com/p/does-ai-drive-more-direct-traffic",
-        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
-      ],
-      "insights_added": [
-        "ins_willison-programming-splits-system-vs-puzzle",
-        "ins_indig-ai-direct-traffic-unverifiable",
-        "ins_mollick-ai-single-player-org-gap"
       ],
       "operators_added": [],
       "patterns_added": [],

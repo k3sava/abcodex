@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-18. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1360 insight cards
-- 572 operator profiles
+- 1363 insight cards
+- 573 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (903)
+### Tier B (906)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -593,8 +593,11 @@ _Generated 2026-11-18. Auto-built from frontmatter — do not edit by hand._
 - [`ins_employee-retention-shipping-gate`](insights/ins_employee-retention-shipping-gate.md) — Employee cohort retention data gates public feature launches at Anthropic _(Cat Wu)_
 - [`ins_engineers-with-product-taste`](insights/ins_engineers-with-product-taste.md) — Hire engineers with product taste rather than adding more PMs _(Cat Wu)_
 - [`ins_equal-positioning-not-expert`](insights/ins_equal-positioning-not-expert.md) — The moment you try to convince someone, you activate their resistance, ask, don't tell _(Josh Braun)_
+- [`ins_eric-buy-to-learn-build-to-keep`](insights/ins_eric-buy-to-learn-build-to-keep.md) — Buy AI tools first to learn the problem space, then build only when gaps are real _(Mihail Eric)_
+- [`ins_eric-comprehension-pace-output`](insights/ins_eric-comprehension-pace-output.md) — Agents introduce bugs humans would not make, so engineers must maintain language fluency to catch them _(Mihail Eric)_
 - [`ins_eric-holland-pmm-ai-love-hate`](insights/ins_eric-holland-pmm-ai-love-hate.md) — PMMs have a love-hate relationship with AI because no one builds tools for their workflows _(Eric Holland)_
 - [`ins_eric-mistry-zapier-hiring-generalist-application`](insights/ins_eric-mistry-zapier-hiring-generalist-application.md) — Customer education has to break silos with success and marketing to scale _(Eric Mistry)_
+- [`ins_eric-spec-choke-human-advantage`](insights/ins_eric-spec-choke-human-advantage.md) — Spec-writing and code review are the two irreducible human choke points in a fully automated codebase _(Mihail Eric)_
 - [`ins_error-analysis-highest-leverage-eval-step`](insights/ins_error-analysis-highest-leverage-eval-step.md) — Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested _(Hamel Husain)_
 - [`ins_eureka-onboarding`](insights/ins_eureka-onboarding.md) — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly _(Ramli John)_
 - [`ins_eval-data-first-before-metrics`](insights/ins_eval-data-first-before-metrics.md) — An eval tool that skips data exploration before evaluator selection produces premature, bundled metrics that miss the real failure modes. _(Hamel Husain)_
@@ -1753,6 +1756,7 @@ _Generated 2026-11-18. Auto-built from frontmatter — do not edit by hand._
 - [Michael Lynch](operators/michael-lynch/README.md)
 - [Michel Lieben](operators/michel-lieben/README.md)
 - [Michele Nieberding](operators/michele-nieberding/README.md)
+- [Mihail Eric](operators/mihail-eric/README.md)
 - [Mihika Kapoor](operators/mihika-kapoor/README.md)
 - [Mike King](operators/mike-king/README.md)
 - [Mike Krieger](operators/mike-krieger/README.md)
