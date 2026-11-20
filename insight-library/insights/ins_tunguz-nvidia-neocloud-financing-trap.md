@@ -21,7 +21,7 @@ raw_ref: ""
 # NVIDIA tightening neocloud financing risks reducing the customer diversification that is its best defense against hyperscaler custom silicon
 
 ## Claim
-NVIDIA's most important strategic variable is not demand: demand is strong. It is the composition of that demand. Hyperscalers build competing silicon; neoclouds and frontier labs do not. Tightening the financing terms that let neoclouds scale reduces the customer segment most aligned with NVIDIA's long-term position.
+NVIDIA's most important variable is not demand: demand is strong. It is the composition of that demand. Hyperscalers build competing silicon; neoclouds and frontier labs do not. Tightening the financing terms that let neoclouds scale reduces the customer segment most aligned with NVIDIA's long-term position.
 
 ## Mechanism
 Hyperscalers (Google, Amazon, Microsoft, Meta) represent roughly $60.1B of NVIDIA's quarterly Data Center revenue, up 71% year over year. They are also the companies building TPUs, Trainium, and other ASIC alternatives. If their ASICs reach cost or performance parity, they have both the incentive and the infrastructure to switch.
