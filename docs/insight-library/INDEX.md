@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1363 insight cards
+- 1367 insight cards
 - 573 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (906)
+### Tier B (910)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -671,6 +671,7 @@ _Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_husain-binary-over-likert`](insights/ins_husain-binary-over-likert.md) — Binary pass/fail annotation produces better quality than Likert scales by forcing judgment on uncertain cases _(Hamel Husain)_
 - [`ins_husain-decision-model-threshold-tuning`](insights/ins_husain-decision-model-threshold-tuning.md) — The default 0.50 eval threshold ignores your data and can miss all failures _(Hamel Husain)_
 - [`ins_husain-eval-premature-automation`](insights/ins_husain-eval-premature-automation.md) — Eval tooling anchors teams on generic automated metrics before they have examined enough outputs to know what actually fails _(Hamel Husain)_
+- [`ins_husain-harness-beats-model`](insights/ins_husain-harness-beats-model.md) — Production AI quality depends on the engineering harness around the model, not the model itself _(Hamel Husain)_
 - [`ins_husain-judge-context-rot`](insights/ins_husain-judge-context-rot.md) — Excess context in LLM judge prompts degrades accuracy; judges need only the evidence relevant to the specific failure _(Hamel Husain)_
 - [`ins_husain-model-cascade-routing`](insights/ins_husain-model-cascade-routing.md) — Route classification tasks to a small model when confident and a large model when uncertain to preserve accuracy while cutting inference cost _(Hamel Husain)_
 - [`ins_husain-product-before-evals`](insights/ins_husain-product-before-evals.md) — Most LLM evaluation failures trace to product design problems upstream of the model, not model capability _(Hamel Husain)_
@@ -1020,6 +1021,7 @@ _Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_solis-commodity-content-brand-swap`](insights/ins_solis-commodity-content-brand-swap.md) — Content that survives a brand-swap test is commodity content and becomes Google's primary enforcement target at scale _(Aleyda Solis)_
 - [`ins_solis-content-six-dimensions`](insights/ins_solis-content-six-dimensions.md) — AI search investment requires scoring content across six independent dimensions, not a traffic forecast alone _(Aleyda Solis)_
 - [`ins_solis-ecommerce-serp-layout-traffic-drop`](insights/ins_solis-ecommerce-serp-layout-traffic-drop.md) — Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure _(Aleyda Solis)_
+- [`ins_solis-llms-txt-premature-parity`](insights/ins_solis-llms-txt-premature-parity.md) — Treating unproven AI-era signals at the same priority as proven technical fixes misallocates the engineering capacity that is the actual constraint _(Aleyda Solis)_
 - [`ins_solis-saas-ai-third-party-citation-weight`](insights/ins_solis-saas-ai-third-party-citation-weight.md) — Third-party sources generate 84 to 93 percent of AI citation weight for SaaS brands across platforms _(Aleyda Solis)_
 - [`ins_solis-tech-seo-execution-gap`](insights/ins_solis-tech-seo-execution-gap.md) — Only 28 percent of SEO teams implement 80 percent or more of their own recommendations, so execution friction, not knowledge, is the binding constraint _(Aleyda Solis)_
 - [`ins_solis-third-party-citation-prioritization`](insights/ins_solis-third-party-citation-prioritization.md) — Six criteria for deciding which third-party platforms are worth investing in for AI search citations _(Aleyda Solis)_
@@ -1126,6 +1128,7 @@ _Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-model-substitution-reinvestment`](insights/ins_tunguz-model-substitution-reinvestment.md) — Model substitution savings are reinvested in more tokens, not returned to the budget _(Tomasz Tunguz)_
 - [`ins_tunguz-moe-sparse-cost-collapse`](insights/ins_tunguz-moe-sparse-cost-collapse.md) — Sparse mixture-of-experts architecture collapses the frontier accuracy floor to small-model inference cost _(Tomasz Tunguz)_
 - [`ins_tunguz-nvidia-ai-central-bank`](insights/ins_tunguz-nvidia-ai-central-bank.md) — Nvidia deployed $164 billion in lease guarantees and venture equity, making Jensen Huang's exit a systemic credit event for AI buildout _(Tom Tunguz)_
+- [`ins_tunguz-nvidia-neocloud-financing-trap`](insights/ins_tunguz-nvidia-neocloud-financing-trap.md) — NVIDIA tightening neocloud financing risks reducing the customer diversification that is its best defense against hyperscaler custom silicon _(Tom Tunguz)_
 - [`ins_tunguz-nvidia-nonhyperscaler-financing`](insights/ins_tunguz-nvidia-nonhyperscaler-financing.md) — NVIDIA's AR growth outpaced revenue 3.5x, revealing vendor financing for non-hyperscaler demand _(Tomasz Tunguz)_
 - [`ins_tunguz-ollama-docker-for-ai`](insights/ins_tunguz-ollama-docker-for-ai.md) — Developer tools that abstract a new compute layer follow the Docker adoption curve _(Tomasz Tunguz)_
 - [`ins_tunguz-power-ai-ceiling-2027`](insights/ins_tunguz-power-ai-ceiling-2027.md) — Power, not chips, is the binding constraint on AI compute growth in 2027 _(Tom Tunguz)_
@@ -1209,6 +1212,7 @@ _Generated 2026-11-19. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-emergent-agent-tooling`](insights/ins_willison-emergent-agent-tooling.md) — Agent behaviors emerge from composable CLI primitives without requiring an explicit agent framework _(Simon Willison)_
 - [`ins_willison-engineering-core-is-direction`](insights/ins_willison-engineering-core-is-direction.md) — Directing AI agents demands the same skill that defined good engineering. Defining goals clearly and choosing tools well is what engineering always was. _(Simon Willison)_
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
+- [`ins_willison-external-sandbox-agent-architecture`](insights/ins_willison-external-sandbox-agent-architecture.md) — Keep the coding agent outside its sandbox so safety enforcement does not depend on what the model decides _(Simon Willison)_
 - [`ins_willison-external-sandbox-pattern`](insights/ins_willison-external-sandbox-pattern.md) — Keeping the agent outside the execution sandbox makes agent safety independent of the model's own judgment _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_

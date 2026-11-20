@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-19 · 3 insights · 1 operator
+### Latest · 2026-11-20 · 4 insights
 
-**Buying before building, comprehension as prerequisite, and spec-writing as the last human hold.** Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.
+**External sandbox architecture, harness over model, neocloud financing risk, and testing before parity.** Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA's neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.
 
-[Read what landed →](insight-library/daily/2026-11-19.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-20.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1363** insight cards
+- **1367** insight cards
 - **573** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

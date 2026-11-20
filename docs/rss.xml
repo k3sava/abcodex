@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 01:46:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 01:46:41 GMT</lastBuildDate>
+    <item>
+      <title>External sandbox architecture, harness over model, neocloud financing risk, and testing before parity</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-20/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-20/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA&apos;s neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.</description>
+    </item>
     <item>
       <title>Buying before building, comprehension as prerequisite, and spec-writing as the last human hold</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-19/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-22/</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <description>Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.</description>
-    </item>
-    <item>
-      <title>Build a Lab, resist automation, and fix the broken apprenticeship ladder</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-21/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-21/</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from Ethan Mollick&apos;s October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.</description>
     </item>
   </channel>
 </rss>

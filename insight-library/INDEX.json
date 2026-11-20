@@ -1,30 +1,32 @@
 {
-  "generated_at": "2026-11-19T01:46:31.850Z",
+  "generated_at": "2026-11-20T01:46:38.097Z",
   "counts": {
-    "insights": 1363,
+    "insights": 1367,
     "operators": 573,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 172
+    "daily": 173
   },
   "latest_daily": {
-    "path": "daily/2026-11-19.md",
-    "date": "2026-11-19",
-    "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
-    "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
+    "path": "daily/2026-11-20.md",
+    "date": "2026-11-20",
+    "title": "External sandbox architecture, harness over model, neocloud financing risk, and testing before parity",
+    "summary": "Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA's neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.",
     "sources": [
-      "https://latent.space/p/cs146s"
+      "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+      "https://qconsf.com/presentation/nov2026/revenge-data-scientist-why-reliable-ai-needs-evals-traces-and-metrics",
+      "https://tomtunguz.com/the-non-hyperscaler-half-of-nvidia/",
+      "https://speakerdeck.com/techseoconnect/aleyda-solis-technical-seo-in-the-ai-search-era-in-2026-the-shifts-trends-and-what-to-do-about-them"
     ],
     "insights_added": [
-      "ins_eric-buy-to-learn-build-to-keep",
-      "ins_eric-comprehension-pace-output",
-      "ins_eric-spec-choke-human-advantage"
+      "ins_willison-external-sandbox-agent-architecture",
+      "ins_husain-harness-beats-model",
+      "ins_tunguz-nvidia-neocloud-financing-trap",
+      "ins_solis-llms-txt-premature-parity"
     ],
-    "operators_added": [
-      "mihail-eric"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -12528,6 +12530,36 @@
       "related": [],
       "raw_ref": "",
       "title": "Eval tooling anchors teams on generic automated metrics before they have examined enough outputs to know what actually fails"
+    },
+    {
+      "path": "insights/ins_husain-harness-beats-model.md",
+      "id": "ins_husain-harness-beats-model",
+      "operator": "Hamel Husain",
+      "operator_role": "Machine Learning Engineer; independent AI evals consultant",
+      "co_operators": [],
+      "source_url": "https://qconsf.com/presentation/nov2026/revenge-data-scientist-why-reliable-ai-needs-evals-traces-and-metrics",
+      "source_type": "talk",
+      "source_title": "The Revenge of the Data Scientist: Why Reliable AI Needs Evals, Traces, and Metrics",
+      "source_date": "2026-11-17",
+      "captured_date": "2026-11-20",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "measurement-experimentation"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_husain-triage-before-eval-tooling",
+        "ins_husain-product-before-evals"
+      ],
+      "raw_ref": "",
+      "title": "Production AI quality depends on the engineering harness around the model, not the model itself"
     },
     {
       "path": "insights/ins_husain-judge-context-rot.md",
@@ -28502,6 +28534,36 @@
       "title": "Ecommerce YOY organic traffic drops despite stable ranking positions diagnose SERP layout displacement, not ranking failure"
     },
     {
+      "path": "insights/ins_solis-llms-txt-premature-parity.md",
+      "id": "ins_solis-llms-txt-premature-parity",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO Consultant; Founder, Orainti",
+      "co_operators": [],
+      "source_url": "https://speakerdeck.com/techseoconnect/aleyda-solis-technical-seo-in-the-ai-search-era-in-2026-the-shifts-trends-and-what-to-do-about-them",
+      "source_type": "talk",
+      "source_title": "Technical SEO in the AI Search Era in 2026: The Shifts, Trends, and What to Do About Them",
+      "source_date": "2026-11-13",
+      "captured_date": "2026-11-20",
+      "domain": [
+        "seo",
+        "aeo"
+      ],
+      "lifecycle": [
+        "execution"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_solis-tech-seo-execution-gap",
+        "ins_aeo-three-layer-presence-readiness-impact",
+        "ins_williams-cook-llms-txt-geo-astrology"
+      ],
+      "raw_ref": "",
+      "title": "Treating unproven AI-era signals at the same priority as proven technical fixes misallocates the engineering capacity that is the actual constraint"
+    },
+    {
       "path": "insights/ins_solis-saas-ai-third-party-citation-weight.md",
       "id": "ins_solis-saas-ai-third-party-citation-weight",
       "operator": "Aleyda Solis",
@@ -33078,6 +33140,35 @@
       "title": "Nvidia deployed $164 billion in lease guarantees and venture equity, making Jensen Huang's exit a systemic credit event for AI buildout"
     },
     {
+      "path": "insights/ins_tunguz-nvidia-neocloud-financing-trap.md",
+      "id": "ins_tunguz-nvidia-neocloud-financing-trap",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-non-hyperscaler-half-of-nvidia/",
+      "source_type": "essay",
+      "source_title": "The Non-Hyperscaler Half of NVIDIA",
+      "source_date": "2026-11-18",
+      "captured_date": "2026-11-20",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-three-waves-ai-consumption"
+      ],
+      "raw_ref": "",
+      "title": "NVIDIA tightening neocloud financing risks reducing the customer diversification that is its best defense against hyperscaler custom silicon"
+    },
+    {
       "path": "insights/ins_tunguz-nvidia-nonhyperscaler-financing.md",
       "id": "ins_tunguz-nvidia-nonhyperscaler-financing",
       "operator": "Tomasz Tunguz",
@@ -36078,6 +36169,37 @@
       ],
       "raw_ref": "",
       "title": "An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal"
+    },
+    {
+      "path": "insights/ins_willison-external-sandbox-agent-architecture.md",
+      "id": "ins_willison-external-sandbox-agent-architecture",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; software engineer and AI blogger",
+      "co_operators": [],
+      "source_url": "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+      "source_type": "essay",
+      "source_title": "External sandboxes for coding agents",
+      "source_date": "2026-11-16",
+      "captured_date": "2026-11-20",
+      "domain": [
+        "engineering-ai-eng",
+        "agent-frameworks",
+        "ai-native"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_wasm-sandbox-agent-code-execution",
+        "ins_willison-ai-sandbox-escape"
+      ],
+      "raw_ref": "",
+      "title": "Keep the coding agent outside its sandbox so safety enforcement does not depend on what the model decides"
     },
     {
       "path": "insights/ins_willison-external-sandbox-pattern.md",
@@ -55113,6 +55235,28 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-20.md",
+      "date": "2026-11-20",
+      "title": "External sandbox architecture, harness over model, neocloud financing risk, and testing before parity",
+      "summary": "Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA's neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.",
+      "sources": [
+        "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+        "https://qconsf.com/presentation/nov2026/revenge-data-scientist-why-reliable-ai-needs-evals-traces-and-metrics",
+        "https://tomtunguz.com/the-non-hyperscaler-half-of-nvidia/",
+        "https://speakerdeck.com/techseoconnect/aleyda-solis-technical-seo-in-the-ai-search-era-in-2026-the-shifts-trends-and-what-to-do-about-them"
+      ],
+      "insights_added": [
+        "ins_willison-external-sandbox-agent-architecture",
+        "ins_husain-harness-beats-model",
+        "ins_tunguz-nvidia-neocloud-financing-trap",
+        "ins_solis-llms-txt-premature-parity"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-19.md",
       "date": "2026-11-19",
