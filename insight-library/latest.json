@@ -1,26 +1,50 @@
 {
-  "generated_at": "2026-11-19T01:46:31.878Z",
+  "generated_at": "2026-11-20T01:49:02.607Z",
   "latest_daily": {
-    "path": "daily/2026-11-19.md",
-    "date": "2026-11-19",
-    "title": "Buying before building, comprehension as prerequisite, and spec-writing as the last human hold",
-    "summary": "Three cards, one new operator. Mihail Eric, teaching Stanford's CS146S and leading AI at Monaco, names three engineering principles for AI-native development: buy tools to learn before you build, maintain comprehension as the prerequisite for reliable agent delegation, and treat spec-writing and code review as the two irreducible human choke points in a fully automated codebase.",
+    "path": "daily/2026-11-20.md",
+    "date": "2026-11-20",
+    "title": "External sandbox architecture, harness over model, neocloud financing risk, and testing before parity",
+    "summary": "Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA's neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.",
     "sources": [
-      "https://latent.space/p/cs146s"
+      "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+      "https://qconsf.com/presentation/nov2026/revenge-data-scientist-why-reliable-ai-needs-evals-traces-and-metrics",
+      "https://tomtunguz.com/the-non-hyperscaler-half-of-nvidia/",
+      "https://speakerdeck.com/techseoconnect/aleyda-solis-technical-seo-in-the-ai-search-era-in-2026-the-shifts-trends-and-what-to-do-about-them"
     ],
     "insights_added": [
-      "ins_eric-buy-to-learn-build-to-keep",
-      "ins_eric-comprehension-pace-output",
-      "ins_eric-spec-choke-human-advantage"
+      "ins_willison-external-sandbox-agent-architecture",
+      "ins_husain-harness-beats-model",
+      "ins_tunguz-nvidia-neocloud-financing-trap",
+      "ins_solis-llms-txt-premature-parity"
     ],
-    "operators_added": [
-      "mihail-eric"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-20.md",
+      "date": "2026-11-20",
+      "title": "External sandbox architecture, harness over model, neocloud financing risk, and testing before parity",
+      "summary": "Four cards, no new operators. Simon Willison on inverted-trust sandbox architecture for coding agents. Hamel Husain on the engineering harness as the real quality variable in production AI. Tom Tunguz on how NVIDIA's neocloud financing decisions affect customer-base diversification. Aleyda Solis on the capacity-displacement error of treating unproven AI-era signals at parity with proven technical fixes.",
+      "sources": [
+        "https://blog.primeradiant.com/external-sandboxes-for-coding-agents/",
+        "https://qconsf.com/presentation/nov2026/revenge-data-scientist-why-reliable-ai-needs-evals-traces-and-metrics",
+        "https://tomtunguz.com/the-non-hyperscaler-half-of-nvidia/",
+        "https://speakerdeck.com/techseoconnect/aleyda-solis-technical-seo-in-the-ai-search-era-in-2026-the-shifts-trends-and-what-to-do-about-them"
+      ],
+      "insights_added": [
+        "ins_willison-external-sandbox-agent-architecture",
+        "ins_husain-harness-beats-model",
+        "ins_tunguz-nvidia-neocloud-financing-trap",
+        "ins_solis-llms-txt-premature-parity"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-19.md",
       "date": "2026-11-19",
@@ -640,24 +664,6 @@
         "ins_husain-decision-model-threshold-tuning",
         "ins_verna-ai-pricing-arcade-money",
         "ins_willison-programming-process-loss"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-21.md",
-      "date": "2026-10-21",
-      "title": "Build a Lab, resist automation, and fix the broken apprenticeship ladder",
-      "summary": "Three cards from Ethan Mollick's October 18 Charter interview. The Leadership-Crowd-Lab model for organizational AI structure, the case against automation-first strategy, and why AI is collapsing the junior talent development path.",
-      "sources": [
-        "https://www.charterworks.com/ethan-mollick-ai-wharton-co-existence/"
-      ],
-      "insights_added": [
-        "ins_mollick-leadership-crowd-lab",
-        "ins_mollick-automation-satisficing-trap",
-        "ins_mollick-early-career-apprenticeship-break"
       ],
       "operators_added": [],
       "patterns_added": [],
