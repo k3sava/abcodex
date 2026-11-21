@@ -1,10 +1,10 @@
 # Codex Index
 
-_Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1367 insight cards
-- 573 operator profiles
+- 1370 insight cards
+- 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
 - 11 contradictions
@@ -377,7 +377,7 @@ _Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (910)
+### Tier B (913)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -703,6 +703,8 @@ _Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
 - [`ins_indig-email-owned-channel-floor`](insights/ins_indig-email-owned-channel-floor.md) — Email is a floor channel because owned relationships hold when organic search drops _(Kevin Indig)_
 - [`ins_indig-executive-ai-mandate-gap`](insights/ins_indig-executive-ai-mandate-gap.md) — Executives mandate AI adoption while using it minimally themselves; documented hour tallies beat opinion when managing upward _(Kevin Indig)_
+- [`ins_indig-fanout-citation-blind-spot`](insights/ins_indig-fanout-citation-blind-spot.md) — Standard AI search monitoring misses a third of brand citations by tracking only the original query _(Kevin Indig)_
+- [`ins_indig-ghost-citation-brand-gap`](insights/ins_indig-ghost-citation-brand-gap.md) — More than 6 in 10 AI search domain appearances are ghost citations: the page is used but the brand is never named _(Kevin Indig)_
 - [`ins_indig-gsc-attribution-gap`](insights/ins_indig-gsc-attribution-gap.md) — Google Search Console captures only 25 percent of AI search visibility, requiring brand-tracking methods to measure actual exposure _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-beats-length`](insights/ins_indig-listicle-freshness-beats-length.md) — Listicle ranking is driven by freshness and explicit enumeration, not content length; dated pages with visible recency signals and counted lists beat editorial roundups _(Kevin Indig)_
 - [`ins_indig-listicle-freshness-rank-signal`](insights/ins_indig-listicle-freshness-rank-signal.md) — Freshness is the single strongest predictor of listicle ranking, outweighing author signals and schema markup _(Kevin Indig)_
@@ -1030,6 +1032,7 @@ _Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
 - [`ins_specificity-becomes-profitable`](insights/ins_specificity-becomes-profitable.md) — AI makes specificity profitable; the Pareto distribution flattens at the long tail _(Eric Seufert)_
 - [`ins_stall-budget-external-to-model`](insights/ins_stall-budget-external-to-model.md) — Revealing a token budget to an agent model changes its reasoning behavior; enforce budgets externally _(Harrison Stall)_
 - [`ins_start-with-support-fastest-ai-roi`](insights/ins_start-with-support-fastest-ai-roi.md) — Start your AI-in-GTM build with customer support, fastest path to defensible value _(Yamini Rangan)_
+- [`ins_stenberg-agent-clone-maintenance-gap`](insights/ins_stenberg-agent-clone-maintenance-gap.md) — AI agents clone code volume in days; a living project adds hundreds of maintenance commits the clone will never have _(Daniel Stenberg)_
 - [`ins_story-driven-vs-competition-driven`](insights/ins_story-driven-vs-competition-driven.md) — Story-driven companies don't compete, they play a different game _(Bernadette Jiwa)_
 - [`ins_suddenly-everyone-know-panicking-wondering`](insights/ins_suddenly-everyone-know-panicking-wondering.md) — Suddenly everyone I know is panicking, wondering if their job disappears tomorrow _(Shivangi Sahu)_
 - [`ins_suleyman-model-welfare-training-loop`](insights/ins_suleyman-model-welfare-training-loop.md) — Training AI models to accommodate potential consciousness creates a circular feedback loop that mimics evidence _(Mustafa Suleyman)_
@@ -1536,6 +1539,7 @@ _Generated 2026-11-20. Auto-built from frontmatter — do not edit by hand._
 - [Daniel Cmejla](operators/daniel-cmejla/README.md)
 - [Daniel Kahneman](operators/daniel-kahneman/README.md)
 - [Daniel Matias](operators/daniel-matias/README.md)
+- [Daniel Stenberg](operators/daniel-stenberg/README.md)
 - [Daniel Zarate](operators/daniel-zarate/README.md)
 - [Darcy Jacobsen](operators/darcy-jacobsen/README.md)
 - [Darcy Sordo](operators/darcy-sordo/README.md)

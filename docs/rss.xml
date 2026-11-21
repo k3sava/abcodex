@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 01:49:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 01:43:22 GMT</lastBuildDate>
+    <item>
+      <title>Agent clones vs. living projects, and two measurement gaps in AI search attribution</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-21/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-21/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, one new operator. Daniel Stenberg on why an AI-generated code clone accumulates no maintenance. Kevin Indig&apos;s Q4 2026 AI search meta-analysis yields two new measurement findings: a third of AI search citations appear only in fan-out sub-queries that standard monitoring tools never see, and more than 6 in 10 AI search domain appearances name no brand at all.</description>
+    </item>
     <item>
       <title>External sandbox architecture, harness over model, neocloud financing risk, and testing before parity</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-20/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-23/</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.</description>
-    </item>
-    <item>
-      <title>Conjurers, thresholds, arcade money, and what programmers mourn</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-22/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-22/</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards from three lanes. Ethan Mollick names a third AI work mode. Hamel Husain shows why the default 0.50 eval threshold silently fails. Elena Verna diagnoses AI pricing as arcade money. Simon Willison splits the programming profession by what it valued.</description>
     </item>
   </channel>
 </rss>
