@@ -1,31 +1,30 @@
 {
-  "generated_at": "2026-11-21T01:43:19.550Z",
+  "generated_at": "2026-11-22T01:47:08.434Z",
   "counts": {
-    "insights": 1370,
+    "insights": 1373,
     "operators": 574,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 174
+    "daily": 175
   },
   "latest_daily": {
-    "path": "daily/2026-11-21.md",
-    "date": "2026-11-21",
-    "title": "Agent clones vs. living projects, and two measurement gaps in AI search attribution",
-    "summary": "Three cards, one new operator. Daniel Stenberg on why an AI-generated code clone accumulates no maintenance. Kevin Indig's Q4 2026 AI search meta-analysis yields two new measurement findings: a third of AI search citations appear only in fan-out sub-queries that standard monitoring tools never see, and more than 6 in 10 AI search domain appearances name no brand at all.",
+    "path": "daily/2026-11-22.md",
+    "date": "2026-11-22",
+    "title": "Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps",
+    "summary": "Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.",
     "sources": [
-      "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
-      "https://www.growth-memo.com/p/ai-search-meta-analysis-q4-2026"
+      "https://tomtunguz.com/the-10x-wall/",
+      "https://tomtunguz.com/the-lakehouse-for-ai/",
+      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
     ],
     "insights_added": [
-      "ins_stenberg-agent-clone-maintenance-gap",
-      "ins_indig-fanout-citation-blind-spot",
-      "ins_indig-ghost-citation-brand-gap"
+      "ins_tunguz-10x-wall-earnings-cap",
+      "ins_tunguz-lakehouse-ai",
+      "ins_willison-python-browser-service-worker"
     ],
-    "operators_added": [
-      "daniel-stenberg"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -31141,6 +31140,34 @@
       "title": "Strangers → friends → customers, three trust thresholds, three different message types"
     },
     {
+      "path": "insights/ins_tunguz-10x-wall-earnings-cap.md",
+      "id": "ins_tunguz-10x-wall-earnings-cap",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-10x-wall/",
+      "source_type": "essay",
+      "source_title": "The 10x Wall",
+      "source_date": "2026-11-20",
+      "captured_date": "2026-11-22",
+      "domain": [
+        "ai-native",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "fundraising"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 3, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_tunguz-nvidia-neocloud-financing-trap"
+      ],
+      "raw_ref": "",
+      "title": "Above $1T enterprise value, earnings multiples cap revenue multiples regardless of growth rate"
+    },
+    {
       "path": "insights/ins_tunguz-41-day-frontier-window.md",
       "id": "ins_tunguz-41-day-frontier-window",
       "operator": "Tomasz Tunguz",
@@ -32931,6 +32958,32 @@
       ],
       "raw_ref": "",
       "title": "Routing everyday queries to local models cuts energy 80%, compute 77%, and cost 74% while matching frontier quality on 89% of tasks"
+    },
+    {
+      "path": "insights/ins_tunguz-lakehouse-ai.md",
+      "id": "ins_tunguz-lakehouse-ai",
+      "operator": "Tom Tunguz",
+      "operator_role": "General Partner, Theory Ventures",
+      "co_operators": [],
+      "source_url": "https://tomtunguz.com/the-lakehouse-for-ai/",
+      "source_type": "essay",
+      "source_title": "The Lakehouse for AI",
+      "source_date": "2026-11-17",
+      "captured_date": "2026-11-22",
+      "domain": [
+        "ai-native",
+        "engineering-ai-eng"
+      ],
+      "lifecycle": [
+        "architecture"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 2 }",
+      "tier": "C",
+      "related": [],
+      "raw_ref": "",
+      "title": "AI labs are replacing separate training and inference data stores with a single columnar format"
     },
     {
       "path": "insights/ins_tunguz-legacy-funding-capex-race.md",
@@ -37185,6 +37238,35 @@
       "related": [],
       "raw_ref": "",
       "title": "Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts"
+    },
+    {
+      "path": "insights/ins_willison-python-browser-service-worker.md",
+      "id": "ins_willison-python-browser-service-worker",
+      "operator": "Simon Willison",
+      "operator_role": "Creator of Datasette; co-creator of Django",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "source_type": "essay",
+      "source_title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "source_date": "2026-11-17",
+      "captured_date": "2026-11-22",
+      "domain": [
+        "agentic-coding-dev-tooling"
+      ],
+      "lifecycle": [
+        "architecture",
+        "developer-experience"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_willison-external-sandbox-pattern",
+        "ins_willison-external-sandbox-agent-architecture"
+      ],
+      "raw_ref": "",
+      "title": "Any SQLite-backed Python app can run fully in the browser by routing requests through a service worker to a Pyodide web worker"
     },
     {
       "path": "insights/ins_willison-quality-goal-prompt.md",
@@ -55343,6 +55425,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-22.md",
+      "date": "2026-11-22",
+      "title": "Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps",
+      "summary": "Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.",
+      "sources": [
+        "https://tomtunguz.com/the-10x-wall/",
+        "https://tomtunguz.com/the-lakehouse-for-ai/",
+        "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+      ],
+      "insights_added": [
+        "ins_tunguz-10x-wall-earnings-cap",
+        "ins_tunguz-lakehouse-ai",
+        "ins_willison-python-browser-service-worker"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-21.md",
       "date": "2026-11-21",

@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 01:43:22 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 01:47:12 GMT</lastBuildDate>
+    <item>
+      <title>Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-22/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-22/</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.</description>
+    </item>
     <item>
       <title>Agent clones vs. living projects, and two measurement gaps in AI search attribution</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-21/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-24/</guid>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
       <description>Three cards across three lanes. Tomasz Tunguz maps AI&apos;s infrastructure build-out against Carlota Perez&apos;s model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.</description>
-    </item>
-    <item>
-      <title>Identity pages, undirected prompts, and agents that won&apos;t let go</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-23/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-23/</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.</description>
     </item>
   </channel>
 </rss>

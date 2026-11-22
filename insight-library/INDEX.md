@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-22. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1370 insight cards
+- 1373 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (913)
+### Tier B (915)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1067,6 +1067,7 @@ _Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_transparency-in-uncertainty`](insights/ins_transparency-in-uncertainty.md) — Show model uncertainty in the UI; opaque confidence destroys trust _(Aishwarya Naresh Reganti)_
 - [`ins_trap-people-fear-instead-leading`](insights/ins_trap-people-fear-instead-leading.md) — They trap people with fear instead of leading them with care _(Dora Vanourek)_
 - [`ins_truly-want-children-rise-into`](insights/ins_truly-want-children-rise-into.md) — But if you truly want your children to rise into greatness, the first thing they must l _(Sulagna Das)_
+- [`ins_tunguz-10x-wall-earnings-cap`](insights/ins_tunguz-10x-wall-earnings-cap.md) — Above $1T enterprise value, earnings multiples cap revenue multiples regardless of growth rate _(Tom Tunguz)_
 - [`ins_tunguz-41-day-frontier-window`](insights/ins_tunguz-41-day-frontier-window.md) — The average frontier model holds its performance crown for 41 days, resetting customer negotiating power on the same cycle _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-24h-sleep-cycle`](insights/ins_tunguz-agent-24h-sleep-cycle.md) — AI agents need a 24-hour sleep cycle to prevent context rot and security drift _(Tomasz Tunguz)_
 - [`ins_tunguz-agent-checkout-upsell-bypass`](insights/ins_tunguz-agent-checkout-upsell-bypass.md) — Retailers block AI shopping agents because base products are priced near cost and profit lives in the upsell stack agents bypass _(Tom Tunguz)_
@@ -1244,6 +1245,7 @@ _Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-prompt-injection-role-confusion`](insights/ins_willison-prompt-injection-role-confusion.md) — Models treat text formatting as a trust boundary, making syntactic injection defenses beatable without genuine role perception _(Simon Willison)_
 - [`ins_willison-publish-before-satisfied`](insights/ins_willison-publish-before-satisfied.md) — The most effective blogging habit is publishing while still dissatisfied, because readers cannot see the imagined perfect version _(Simon Willison)_
 - [`ins_willison-publish-unhappy`](insights/ins_willison-publish-unhappy.md) — Publish writing while still unhappy with it; the perceived flaws are invisible to readers and the only alternative is a folder of permanent drafts _(Simon Willison)_
+- [`ins_willison-python-browser-service-worker`](insights/ins_willison-python-browser-service-worker.md) — Any SQLite-backed Python app can run fully in the browser by routing requests through a service worker to a Pyodide web worker _(Simon Willison)_
 - [`ins_willison-quality-goal-prompt`](insights/ins_willison-quality-goal-prompt.md) — Explicitly stating a quality goal in a creative coding prompt produces noticeably more polished output than a functional spec alone _(Simon Willison)_
 - [`ins_willison-reasoning-arithmetic-accuracy`](insights/ins_willison-reasoning-arithmetic-accuracy.md) — Enabling reasoning raises arithmetic accuracy in Qwen3.8-27B from 23% to 99% by replacing pattern-matching with step-by-step processing _(Simon Willison)_
 - [`ins_willison-reasoning-effort-nonlinear-creative`](insights/ins_willison-reasoning-effort-nonlinear-creative.md) — Reasoning effort levels create non-linear quality jumps in creative tasks: low and medium skip thinking entirely _(Simon Willison)_
@@ -1292,7 +1294,7 @@ _Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (94)
+### Tier C (95)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1379,6 +1381,7 @@ _Generated 2026-11-21. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sumitra-laishram-talent-rippling-ex-uber-coinbase`](insights/ins_sumitra-laishram-talent-rippling-ex-uber-coinbase.md) — Builds high-performance teams at Rippling with Uber and Coinbase experience _(Sumitra Laishram)_
 - [`ins_the-ai-forum-agent-ai-challenge-announcement`](insights/ins_the-ai-forum-agent-ai-challenge-announcement.md) — Agent.ai Challenge is LIVE: $50K prizes, no-code AI builder backed by HubSpot's Dharmesh Shah. _(The AI Forum)_
 - [`ins_tunguz-compute-threshold-pacing-fallacy`](insights/ins_tunguz-compute-threshold-pacing-fallacy.md) — Fixed compute thresholds fail as AI pacing policy because training compute grows roughly five-fold annually, making any static ceiling self-defeating _(Tom Tunguz)_
+- [`ins_tunguz-lakehouse-ai`](insights/ins_tunguz-lakehouse-ai.md) — AI labs are replacing separate training and inference data stores with a single columnar format _(Tom Tunguz)_
 - [`ins_uddhav-parab-creativity-without-case-studies`](insights/ins_uddhav-parab-creativity-without-case-studies.md) — Direct the creative work, don't hog the juicy writing from juniors _(Uddhav Parab)_
 - [`ins_verna-operator-creator-dual-role`](insights/ins_verna-operator-creator-dual-role.md) — Operator-creators who declare conflicts upfront and put the day job first sustain dual roles without collisions _(Elena Verna)_
 - [`ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics`](insights/ins_vinayak-padiyar-vinayak-padiyar-strategy-logistics.md) — Drives strategic logistics operations for SAR and RTW _(Vinayak Padiyar)_

@@ -1,27 +1,46 @@
 {
-  "generated_at": "2026-11-21T01:43:19.577Z",
+  "generated_at": "2026-11-22T01:47:08.459Z",
   "latest_daily": {
-    "path": "daily/2026-11-21.md",
-    "date": "2026-11-21",
-    "title": "Agent clones vs. living projects, and two measurement gaps in AI search attribution",
-    "summary": "Three cards, one new operator. Daniel Stenberg on why an AI-generated code clone accumulates no maintenance. Kevin Indig's Q4 2026 AI search meta-analysis yields two new measurement findings: a third of AI search citations appear only in fan-out sub-queries that standard monitoring tools never see, and more than 6 in 10 AI search domain appearances name no brand at all.",
+    "path": "daily/2026-11-22.md",
+    "date": "2026-11-22",
+    "title": "Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps",
+    "summary": "Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.",
     "sources": [
-      "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
-      "https://www.growth-memo.com/p/ai-search-meta-analysis-q4-2026"
+      "https://tomtunguz.com/the-10x-wall/",
+      "https://tomtunguz.com/the-lakehouse-for-ai/",
+      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
     ],
     "insights_added": [
-      "ins_stenberg-agent-clone-maintenance-gap",
-      "ins_indig-fanout-citation-blind-spot",
-      "ins_indig-ghost-citation-brand-gap"
+      "ins_tunguz-10x-wall-earnings-cap",
+      "ins_tunguz-lakehouse-ai",
+      "ins_willison-python-browser-service-worker"
     ],
-    "operators_added": [
-      "daniel-stenberg"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-22.md",
+      "date": "2026-11-22",
+      "title": "Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps",
+      "summary": "Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.",
+      "sources": [
+        "https://tomtunguz.com/the-10x-wall/",
+        "https://tomtunguz.com/the-lakehouse-for-ai/",
+        "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+      ],
+      "insights_added": [
+        "ins_tunguz-10x-wall-earnings-cap",
+        "ins_tunguz-lakehouse-ai",
+        "ins_willison-python-browser-service-worker"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-21.md",
       "date": "2026-11-21",
@@ -644,26 +663,6 @@
       "operators_added": [
         "bardia-shahali"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-23.md",
-      "date": "2026-10-23",
-      "title": "Identity pages, undirected prompts, and agents that won't let go",
-      "summary": "Three cards from three lanes. Lily Ray finds an About page outperforming a homepage 5x in AI Overviews. Simon Willison shows how vague quality directives outperform specific requests in vibe coding. Drew Breunig names the failure mode where agents get stuck and explains why summarization makes it worse.",
-      "sources": [
-        "https://x.com/lilyraynyc/status/2113310864719683901",
-        "https://simonwillison.net/2026/Oct/20/battledrones/",
-        "https://dbreunig.com/2026/10/14/context-inertia.html"
-      ],
-      "insights_added": [
-        "ins_lily-ray-about-page-ai-citation-multiplier",
-        "ins_willison-undirected-quality-directive",
-        "ins_breunig-context-inertia-agent-fixation"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
