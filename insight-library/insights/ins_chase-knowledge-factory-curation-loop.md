@@ -36,7 +36,7 @@ Domain knowledge. Slow-changing facts about the world the agent operates in. Age
 
 Data-access guidance. Which sources are authoritative for which questions, and how to query them. This is often the most neglected category and the most consequential when it is wrong.
 
-The recommended starting point: pick one recurring workflow, build the curator loop for it, and confirm the loop closes before expanding. Comprehensive upfront documentation does not work because agents reveal gaps that documentation writers do not predict. The gaps appear in production.
+The recommended starting point: pick one recurring workflow, build the curator loop for it, and confirm the loop closes before expanding. Upfront documentation written before agents run does not work because agents reveal gaps that documentation writers do not predict. The gaps appear in production.
 
 ## Conditions
 Holds when: agents run repeatedly on the same class of tasks, encounter consistent failure patterns, and have a mechanism to flag those patterns. Requires a scheduler to trigger the curator agent.
