@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-22 · 3 insights
+### Latest · 2026-11-23 · 3 insights
 
-**Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps.** Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.
+**Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics.** Three cards, no new operators. Harrison Chase on the six architectural properties that separate goal-based agents from task-based ones. Harrison Chase on a closed curator loop for keeping production agent knowledge fresh. Claire Vo on how AI product fraud attacks inference budget rather than credentials, and the spend-rate controls that stop it.
 
-[Read what landed →](insight-library/daily/2026-11-22.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-23.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1373** insight cards
+- **1376** insight cards
 - **574** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
