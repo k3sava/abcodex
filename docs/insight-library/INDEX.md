@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-22. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-23. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1373 insight cards
+- 1376 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (915)
+### Tier B (918)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -517,7 +517,9 @@ _Generated 2026-11-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_chase-agent-memory-next-frontier`](insights/ins_chase-agent-memory-next-frontier.md) — Persistent memory is the defining capability gap for AI agents. Without it, horizontal agents cannot differentiate. _(Harrison Chase)_
 - [`ins_chase-compound-intelligence-ownership`](insights/ins_chase-compound-intelligence-ownership.md) — Competitive advantage from AI accrues to the intelligence layer that compounds, not to generic model access _(Harrison Chase)_
 - [`ins_chase-context-engineering-vs-code-inspection`](insights/ins_chase-context-engineering-vs-code-inspection.md) — Debugging long-horizon agents requires trace inspection, not code review, because agent logic lives in the context window at each step _(Harrison Chase)_
+- [`ins_chase-goal-driven-agent-architecture`](insights/ins_chase-goal-driven-agent-architecture.md) — Goal-driven agents need six new architectural properties that task-driven agents do not. The gap begins the moment you stop handing the agent a task list and start handing it a goal. _(Harrison Chase)_
 - [`ins_chase-jev-as-eval-judge`](insights/ins_chase-jev-as-eval-judge.md) — Decision models outperform LLM judges in agent evals at 1,000 to 80,000 times lower cost because they output typed verdicts directly rather than generating reasoning text _(Harrison Chase)_
+- [`ins_chase-knowledge-factory-curation-loop`](insights/ins_chase-knowledge-factory-curation-loop.md) — Production agents need a closed curator loop. Agents flag gaps during execution. A separate curator agent updates the knowledge store on a schedule. Neither role works inside the other. _(Harrison Chase)_
 - [`ins_cherny-adoption-maturity-bottlenecks`](insights/ins_cherny-adoption-maturity-bottlenecks.md) — At each AI adoption maturity level the binding constraint is guardrail design and approval process, not model capability _(Boris Cherny)_
 - [`ins_cherny-agents-prompt-agents`](insights/ins_cherny-agents-prompt-agents.md) — When AI agents prompt other AI agents, throughput scales with compute rather than headcount _(Boris Cherny)_
 - [`ins_cherny-code-review-next-bottleneck`](insights/ins_cherny-code-review-next-bottleneck.md) — When AI handles code writing, code review becomes the throughput constraint and a team of AI instances with distinct personas addresses it _(Boris Cherny)_
@@ -1166,6 +1168,7 @@ _Generated 2026-11-22. Auto-built from frontmatter — do not edit by hand._
 - [`ins_victor-c-leave-expiry-is-motivation-killer`](insights/ins_victor-c-leave-expiry-is-motivation-killer.md) — Expiring annual leave is like Amul Taaza, it's not perishable, it's an employee's time. _(Victor C.)_
 - [`ins_video-first-double-serp`](insights/ins_video-first-double-serp.md) — Video + matching article = double SERP occupancy. Two of ten organic positions, taken from competitors. _(Gaetano DiNardi)_
 - [`ins_vikas-kansal-freemium-ai-paywall-multistep`](insights/ins_vikas-kansal-freemium-ai-paywall-multistep.md) — AI-native freemium must paywall features that collapse multi-step tasks into a single click. GPU cost structure makes free one-click AI features unsustainable. _(Vikas Kansal)_
+- [`ins_vo-ai-compute-not-seat-fraud`](insights/ins_vo-ai-compute-not-seat-fraud.md) — AI products sell compute, not seats. Fraudsters optimize for maximum token consumption per request. Request-count rate limits do not stop this. Dollar-based spend caps do. _(Claire Vo)_
 - [`ins_voc-first-then-positioning`](insights/ins_voc-first-then-positioning.md) — Customer language first, positioning built upward from it, not the reverse _(Momoko Price)_
 - [`ins_voice-agent-call-volume-recovery`](insights/ins_voice-agent-call-volume-recovery.md) — A first AI voice agent shipped solo for a real customer _(Kubi Rich)_
 - [`ins_voss-code-collapse-product-discovery-shift`](insights/ins_voss-code-collapse-product-discovery-shift.md) — When AI makes code production nearly free, product discovery becomes the non-automatable bottleneck _(Laurie Voss)_

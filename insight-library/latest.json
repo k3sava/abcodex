@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-11-22T01:47:08.459Z",
+  "generated_at": "2026-11-23T01:46:48.264Z",
   "latest_daily": {
-    "path": "daily/2026-11-22.md",
-    "date": "2026-11-22",
-    "title": "Trillion-dollar valuation mechanics, AI data consolidation, and browser-side Python apps",
-    "summary": "Three cards, no new operators. Tom Tunguz on how public markets cap revenue multiples once a company crosses $1T enterprise value. Tom Tunguz on the unified columnar format replacing separate AI data stores. Simon Willison on routing all browser requests through a service worker to run a full Python app client-side.",
+    "path": "daily/2026-11-23.md",
+    "date": "2026-11-23",
+    "title": "Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics",
+    "summary": "Three cards, no new operators. Harrison Chase on the six architectural properties that separate goal-based agents from task-based ones. Harrison Chase on a closed curator loop for keeping production agent knowledge fresh. Claire Vo on how AI product fraud attacks inference budget rather than credentials, and the spend-rate controls that stop it.",
     "sources": [
-      "https://tomtunguz.com/the-10x-wall/",
-      "https://tomtunguz.com/the-lakehouse-for-ai/",
-      "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+      "https://www.langchain.com/blog/from-tasks-to-goals",
+      "https://www.langchain.com/blog/knowledge-factory",
+      "https://www.chatprd.ai/how-i-ai/token-fraud-is-eating-ai-margins-here-s-how-claire-vo-is-fighting-it"
     ],
     "insights_added": [
-      "ins_tunguz-10x-wall-earnings-cap",
-      "ins_tunguz-lakehouse-ai",
-      "ins_willison-python-browser-service-worker"
+      "ins_chase-goal-driven-agent-architecture",
+      "ins_chase-knowledge-factory-curation-loop",
+      "ins_vo-ai-compute-not-seat-fraud"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +21,26 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-23.md",
+      "date": "2026-11-23",
+      "title": "Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics",
+      "summary": "Three cards, no new operators. Harrison Chase on the six architectural properties that separate goal-based agents from task-based ones. Harrison Chase on a closed curator loop for keeping production agent knowledge fresh. Claire Vo on how AI product fraud attacks inference budget rather than credentials, and the spend-rate controls that stop it.",
+      "sources": [
+        "https://www.langchain.com/blog/from-tasks-to-goals",
+        "https://www.langchain.com/blog/knowledge-factory",
+        "https://www.chatprd.ai/how-i-ai/token-fraud-is-eating-ai-margins-here-s-how-claire-vo-is-fighting-it"
+      ],
+      "insights_added": [
+        "ins_chase-goal-driven-agent-architecture",
+        "ins_chase-knowledge-factory-curation-loop",
+        "ins_vo-ai-compute-not-seat-fraud"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-22.md",
       "date": "2026-11-22",
@@ -641,28 +661,6 @@
         "ins_tunguz-anthropic-cloud-valuation-frame"
       ],
       "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-24.md",
-      "date": "2026-10-24",
-      "title": "Build-out velocity, quota amplification, and the benchmark that saturated",
-      "summary": "Three cards across three lanes. Tomasz Tunguz maps AI's infrastructure build-out against Carlota Perez's model and finds it running twice as fast as the web era. Bardia Shahali shows how AI tools push rep quotas to multiples of prior norms, compressing comp cycles to quarters. Ethan Mollick surfaces METR benchmark data showing AI task duration doubled eight times since GPT-4, from four minutes to 17 hours, before the benchmark itself saturated.",
-      "sources": [
-        "https://tomtunguz.com/how-large-is-the-ai-circle/",
-        "https://tomtunguz.com/closing-eight-figure-deals-in-two-weeks/",
-        "https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts"
-      ],
-      "insights_added": [
-        "ins_tunguz-ai-perez-buildout-double-speed",
-        "ins_shahali-ai-sales-quota-amplification",
-        "ins_mollick-task-horizon-metr-doubling"
-      ],
-      "operators_added": [
-        "bardia-shahali"
-      ],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
