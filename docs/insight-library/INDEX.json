@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-11-23T01:46:48.241Z",
+  "generated_at": "2026-11-24T01:43:24.511Z",
   "counts": {
-    "insights": 1376,
+    "insights": 1379,
     "operators": 574,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 176
+    "daily": 177
   },
   "latest_daily": {
-    "path": "daily/2026-11-23.md",
-    "date": "2026-11-23",
-    "title": "Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics",
-    "summary": "Three cards, no new operators. Harrison Chase on the six architectural properties that separate goal-based agents from task-based ones. Harrison Chase on a closed curator loop for keeping production agent knowledge fresh. Claire Vo on how AI product fraud attacks inference budget rather than credentials, and the spend-rate controls that stop it.",
+    "path": "daily/2026-11-24.md",
+    "date": "2026-11-24",
+    "title": "Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong",
+    "summary": "Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.",
     "sources": [
-      "https://www.langchain.com/blog/from-tasks-to-goals",
-      "https://www.langchain.com/blog/knowledge-factory",
-      "https://www.chatprd.ai/how-i-ai/token-fraud-is-eating-ai-margins-here-s-how-claire-vo-is-fighting-it"
+      "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
+      "https://www.ben-evans.com/presentations"
     ],
     "insights_added": [
-      "ins_chase-goal-driven-agent-architecture",
-      "ins_chase-knowledge-factory-curation-loop",
-      "ins_vo-ai-compute-not-seat-fraud"
+      "ins_ray-real-people-ai-search-footprint",
+      "ins_evans-ai-diffusion-not-transformation",
+      "ins_evans-agent-inertia-moat-erosion"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -9237,6 +9236,38 @@
       "title": "Evals are systematic data analysis on your LLM application, start with error analysis, not tests"
     },
     {
+      "path": "insights/ins_evans-agent-inertia-moat-erosion.md",
+      "id": "ins_evans-agent-inertia-moat-erosion",
+      "operator": "Benedict Evans",
+      "operator_role": "Independent technology analyst; author of AI Questions biannual presentation",
+      "co_operators": [],
+      "source_url": "https://www.ben-evans.com/presentations",
+      "source_type": "talk",
+      "source_title": "AI Questions (Autumn 2026)",
+      "source_date": "2026-11-18",
+      "captured_date": "2026-11-24",
+      "domain": [
+        "ai-native",
+        "founder-operator-craft",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "strategy-bets",
+        "growth-loops",
+        "positioning"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_evans-ai-adoption-tool-builder-gap",
+        "ins_evans-ai-diffusion-not-transformation"
+      ],
+      "raw_ref": "",
+      "title": "AI agents remove the switching friction that protected incumbent revenue from customers who never got around to leaving"
+    },
+    {
       "path": "insights/ins_evans-ai-adoption-tool-builder-gap.md",
       "id": "ins_evans-ai-adoption-tool-builder-gap",
       "operator": "Benedict Evans",
@@ -9263,6 +9294,37 @@
       ],
       "raw_ref": "",
       "title": "Most employees cannot self-identify automation opportunities, so AI adoption requires someone outside the workflow to design the tool"
+    },
+    {
+      "path": "insights/ins_evans-ai-diffusion-not-transformation.md",
+      "id": "ins_evans-ai-diffusion-not-transformation",
+      "operator": "Benedict Evans",
+      "operator_role": "Independent technology analyst; author of AI Questions biannual presentation",
+      "co_operators": [],
+      "source_url": "https://www.ben-evans.com/presentations",
+      "source_type": "talk",
+      "source_title": "AI Questions (Autumn 2026)",
+      "source_date": "2026-11-18",
+      "captured_date": "2026-11-24",
+      "domain": [
+        "ai-native",
+        "leadership-org",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy-bets",
+        "process-cadence"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_evans-ai-adoption-tool-builder-gap"
+      ],
+      "raw_ref": "",
+      "title": "Deploying AI tools company-wide is not the same as changing how the company works"
     },
     {
       "path": "insights/ins_evans-token-pricing-commoditization.md",
@@ -24253,6 +24315,38 @@
       ],
       "raw_ref": "",
       "title": "The economic friction of content production was the last quality gate in search; LLMs removed it"
+    },
+    {
+      "path": "insights/ins_ray-real-people-ai-search-footprint.md",
+      "id": "ins_ray-real-people-ai-search-footprint",
+      "operator": "Lily Ray",
+      "operator_role": "VP SEO Strategy, Amsive; independent SEO and AI search researcher",
+      "co_operators": [],
+      "source_url": "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
+      "source_type": "essay",
+      "source_title": "Why Building Trust Through Real People Stands the Test of Time in SEO & AI Search",
+      "source_date": "2026-11-19",
+      "captured_date": "2026-11-24",
+      "domain": [
+        "seo",
+        "aeo-llm-search",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "community-brand",
+        "attribution-measurement"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 5, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_owned-brand-authority-organic-moat",
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_ray-eeat-brand-offsite-signal"
+      ],
+      "raw_ref": "",
+      "title": "Named experts with a verifiable cross-web footprint outperform optimization tactics across AI search and algorithm updates"
     },
     {
       "path": "insights/ins_reasonable-ask-product-videos-classic.md",
@@ -55512,6 +55606,25 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-24.md",
+      "date": "2026-11-24",
+      "title": "Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong",
+      "summary": "Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.",
+      "sources": [
+        "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
+        "https://www.ben-evans.com/presentations"
+      ],
+      "insights_added": [
+        "ins_ray-real-people-ai-search-footprint",
+        "ins_evans-ai-diffusion-not-transformation",
+        "ins_evans-agent-inertia-moat-erosion"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-23.md",
       "date": "2026-11-23",
