@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-23. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1376 insight cards
+- 1379 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (918)
+### Tier B (921)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -603,7 +603,9 @@ _Generated 2026-11-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_error-analysis-highest-leverage-eval-step`](insights/ins_error-analysis-highest-leverage-eval-step.md) — Error analysis is the most-skipped step in AI evals and gives the most leverage per hour invested _(Hamel Husain)_
 - [`ins_eureka-onboarding`](insights/ins_eureka-onboarding.md) — In PLG, no pricing model can save you if onboarding doesn't reach the Eureka moment quickly _(Ramli John)_
 - [`ins_eval-data-first-before-metrics`](insights/ins_eval-data-first-before-metrics.md) — An eval tool that skips data exploration before evaluator selection produces premature, bundled metrics that miss the real failure modes. _(Hamel Husain)_
+- [`ins_evans-agent-inertia-moat-erosion`](insights/ins_evans-agent-inertia-moat-erosion.md) — AI agents remove the switching friction that protected incumbent revenue from customers who never got around to leaving _(Benedict Evans)_
 - [`ins_evans-ai-adoption-tool-builder-gap`](insights/ins_evans-ai-adoption-tool-builder-gap.md) — Most employees cannot self-identify automation opportunities, so AI adoption requires someone outside the workflow to design the tool _(Benedict Evans)_
+- [`ins_evans-ai-diffusion-not-transformation`](insights/ins_evans-ai-diffusion-not-transformation.md) — Deploying AI tools company-wide is not the same as changing how the company works _(Benedict Evans)_
 - [`ins_evans-token-pricing-commoditization`](insights/ins_evans-token-pricing-commoditization.md) — Every structural dynamic in AI points toward commodity pricing at the model layer, with value concentrating further up the stack _(Benedict Evans)_
 - [`ins_every-few-weeks-there-new`](insights/ins_every-few-weeks-there-new.md) — Every few weeks there's a new "must-try" design tool. And suddenly my feed is full of c _(Seepiya Sahni)_
 - [`ins_everything-should-map-back-business`](insights/ins_everything-should-map-back-business.md) — Everything you do should map back to the business. And you should be able to explain why _(Tamara Grominsky)_
@@ -930,6 +932,7 @@ _Generated 2026-11-23. Auto-built from frontmatter — do not edit by hand._
 - [`ins_rapti-gupta-99-bookings-century-goal`](insights/ins_rapti-gupta-99-bookings-century-goal.md) — Marketing ROI starts before the pipeline, track leading metrics or you lose the budget _(Rapti Gupta)_
 - [`ins_ray-eeat-brand-offsite-signal`](insights/ins_ray-eeat-brand-offsite-signal.md) — AI search visibility depends on off-site brand reputation as much as on-site content, and publishing more content rarely improves either _(Lily Ray)_
 - [`ins_ray-publishing-cost-index-chaos`](insights/ins_ray-publishing-cost-index-chaos.md) — The economic friction of content production was the last quality gate in search; LLMs removed it _(Lily Ray)_
+- [`ins_ray-real-people-ai-search-footprint`](insights/ins_ray-real-people-ai-search-footprint.md) — Named experts with a verifiable cross-web footprint outperform optimization tactics across AI search and algorithm updates _(Lily Ray)_
 - [`ins_reasonable-ask-product-videos-classic`](insights/ins_reasonable-ask-product-videos-classic.md) — And it's a reasonable ask! Product videos are a classic part of the B2B GTM toolkit. Sa _(Alicia Carney)_
 - [`ins_rebaseline-quarterly-not-pin-to-snapshot`](insights/ins_rebaseline-quarterly-not-pin-to-snapshot.md) — Pin AI workflows to capabilities you can re-baseline quarterly, not to one model snapshot _(Ethan Mollick)_
 - [`ins_red-green-tdd-shorthand-for-agents`](insights/ins_red-green-tdd-shorthand-for-agents.md) — Encode jargon shorthand once, save tokens forever _(Simon Willison)_

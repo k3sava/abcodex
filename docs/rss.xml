@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 01:46:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 01:43:28 GMT</lastBuildDate>
+    <item>
+      <title>Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-24/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-24/</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.</description>
+    </item>
     <item>
       <title>Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-23/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-26/</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
       <description>Four cards, one operator, one source. Chris Zukowski&apos;s October 2026 Steam Next Fest analysis surfaces how Valve&apos;s algorithm actually works, which metrics predict rank, and how AI-disclosed games are already stratifying into the bottom tiers.</description>
-    </item>
-    <item>
-      <title>Context engineering&apos;s hard split, inference payback, and the cloud-provider frame</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-25/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-25/</guid>
-      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-11-23T01:46:48.264Z",
+  "generated_at": "2026-11-24T01:43:24.539Z",
   "latest_daily": {
-    "path": "daily/2026-11-23.md",
-    "date": "2026-11-23",
-    "title": "Goal-driven agent architecture, knowledge factory curation loops, and AI product fraud economics",
-    "summary": "Three cards, no new operators. Harrison Chase on the six architectural properties that separate goal-based agents from task-based ones. Harrison Chase on a closed curator loop for keeping production agent knowledge fresh. Claire Vo on how AI product fraud attacks inference budget rather than credentials, and the spend-rate controls that stop it.",
+    "path": "daily/2026-11-24.md",
+    "date": "2026-11-24",
+    "title": "Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong",
+    "summary": "Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.",
     "sources": [
-      "https://www.langchain.com/blog/from-tasks-to-goals",
-      "https://www.langchain.com/blog/knowledge-factory",
-      "https://www.chatprd.ai/how-i-ai/token-fraud-is-eating-ai-margins-here-s-how-claire-vo-is-fighting-it"
+      "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
+      "https://www.ben-evans.com/presentations"
     ],
     "insights_added": [
-      "ins_chase-goal-driven-agent-architecture",
-      "ins_chase-knowledge-factory-curation-loop",
-      "ins_vo-ai-compute-not-seat-fraud"
+      "ins_ray-real-people-ai-search-footprint",
+      "ins_evans-ai-diffusion-not-transformation",
+      "ins_evans-agent-inertia-moat-erosion"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +20,25 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-24.md",
+      "date": "2026-11-24",
+      "title": "Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong",
+      "summary": "Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.",
+      "sources": [
+        "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
+        "https://www.ben-evans.com/presentations"
+      ],
+      "insights_added": [
+        "ins_ray-real-people-ai-search-footprint",
+        "ins_evans-ai-diffusion-not-transformation",
+        "ins_evans-agent-inertia-moat-erosion"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-23.md",
       "date": "2026-11-23",
@@ -638,27 +656,6 @@
         "ins_zukowski-snf-demo-freshness-rank-correlation",
         "ins_zukowski-snf-percentage-growth-trap",
         "ins_zukowski-ai-disclosure-tier-stratification-oct26"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-25.md",
-      "date": "2026-10-25",
-      "title": "Context engineering's hard split, inference payback, and the cloud-provider frame",
-      "summary": "Four cards across two lanes. Drew Breunig maps the core tension in context engineering: what to fix in code versus what to leave to the model. Tomasz Tunguz builds a four-rung GPU revenue ladder showing sub-1-year payback at real-world efficiency levels, then applies cloud-provider multiples to argue Anthropic is being evaluated on the wrong comp set.",
-      "sources": [
-        "https://dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-        "https://tomtunguz.com/the-gpu-revenue-ladder/",
-        "https://tomtunguz.com/what-if-they-are-all-clouds/"
-      ],
-      "insights_added": [
-        "ins_breunig-deterministic-probabilistic-split",
-        "ins_breunig-long-context-error-amplification",
-        "ins_tunguz-gpu-inference-payback-ladder",
-        "ins_tunguz-anthropic-cloud-valuation-frame"
       ],
       "operators_added": [],
       "patterns_added": [],
