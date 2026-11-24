@@ -30,7 +30,7 @@ Evans calls this "inertia is no longer a moat." He frames the timeline as years,
 
 ## Conditions
 Holds when: the customer's reluctance to switch was driven by time, complexity, or attention cost rather than genuine switching costs (e.g., data portability, vendor-specific integrations, contractual lock-in). The asset being defended is a pricing premium over a commodity offering.
-Fails when: switching genuinely requires migration effort the agent cannot do (platform dependencies, bespoke integrations, training time). Also fails when the customer's inertia is relationship-based rather than friction-based.
+Fails when: switching genuinely requires migration effort the agent cannot do (platform dependencies, custom integrations, training time). Also fails when the customer's inertia is relationship-based rather than friction-based.
 
 ## Evidence
 From Evans' November 18, 2026 AI Questions presentation, as reported by i-SCOOP:
