@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-24 · 3 insights
+### Latest · 2026-11-25 · 5 insights
 
-**Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong.** Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.
+**Measuring what changes, not what inflates: AI metrics, model inflection points, and the judgment gap.** Five cards, no new operators. Kevin Indig on why raw AI citation counts mislead and share is the meaningful measure. Simon Willison naming the second LLM inflection point: Fable-class models that build their own tools. Ethan Mollick on the self-evaluation gap at the frontier. Dan Shipper on why judgment stays scarce when generation becomes cheap. Chris Zukowski on what makes a game structurally resistant to cloning.
 
-[Read what landed →](insight-library/daily/2026-11-24.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1379** insight cards
+- **1384** insight cards
 - **574** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

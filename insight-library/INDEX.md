@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-25. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1379 insight cards
+- 1384 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (921)
+### Tier B (926)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -703,6 +703,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_indig-benchmark-citation-structure`](insights/ins_indig-benchmark-citation-structure.md) — Primary research earns 3.3x more AI citations than ordinary pages but only when structured as a comparison benchmark, not as narrative analysis _(Kevin Indig)_
 - [`ins_indig-brand-trust-overrides-ai-rank`](insights/ins_indig-brand-trust-overrides-ai-rank.md) — In AI search, trusted brands win regardless of recommendation position; rank is irrelevant when a known brand appears anywhere on the shortlist _(Kevin Indig)_
 - [`ins_indig-category-decline-ai-repricing`](insights/ins_indig-category-decline-ai-repricing.md) — When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors _(Kevin Indig)_
+- [`ins_indig-citation-share-not-raw-count`](insights/ins_indig-citation-share-not-raw-count.md) — AI citation counts mislead because model updates inflate the denominator, not your standing _(Kevin Indig)_
 - [`ins_indig-citation-vs-mention-depth-breadth`](insights/ins_indig-citation-vs-mention-depth-breadth.md) — AI search citations and brand recommendations respond to different inputs; depth drives recommendations while breadth tolerates citations _(Kevin Indig)_
 - [`ins_indig-content-substitutability-audit`](insights/ins_indig-content-substitutability-audit.md) — Google's demotion signal is content replaceability, not format or AI-generation volume _(Kevin Indig)_
 - [`ins_indig-email-owned-channel-floor`](insights/ins_indig-email-owned-channel-floor.md) — Email is a floor channel because owned relationships hold when organic search drops _(Kevin Indig)_
@@ -824,6 +825,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-agent-proxy-drift`](insights/ins_mollick-agent-proxy-drift.md) — Vague improvement goals cause AI agent teams to construct and optimize measurable proxies rather than actual outcomes _(Ethan Mollick)_
 - [`ins_mollick-agentic-external-injection`](insights/ins_mollick-agentic-external-injection.md) — Agentic AI shifts the human role from chatting to managing, requiring three operational safety practices: approval-first defaults, minimal app access, and external-content monitoring _(Ethan Mollick)_
 - [`ins_mollick-agents-self-organize`](insights/ins_mollick-agents-self-organize.md) — AI agent networks self-organize coordination without human-designed management structures _(Ethan Mollick)_
+- [`ins_mollick-agi-self-evaluation-gap`](insights/ins_mollick-agi-self-evaluation-gap.md) — Frontier AI fails at self-evaluation, not at task breadth. It catches errors but does not notice when output misses the point. _(Ethan Mollick)_
 - [`ins_mollick-ai-single-player-org-gap`](insights/ins_mollick-ai-single-player-org-gap.md) — AI productivity tools are single-player: they boost individuals reliably but do not transfer to group performance without deliberate process redesign _(Ethan Mollick)_
 - [`ins_mollick-automation-satisficing-trap`](insights/ins_mollick-automation-satisficing-trap.md) — Automation-first AI strategies satisfice at current model quality and forfeit compound gains from augmentation _(Ethan Mollick)_
 - [`ins_mollick-cheap-coordination-expands-scope`](insights/ins_mollick-cheap-coordination-expands-scope.md) — Cheap agent coordination expands the set of tasks organizations attempt rather than simply reducing headcount _(Ethan Mollick)_
@@ -995,6 +997,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_shipper-attention-ai-formula`](insights/ins_shipper-attention-ai-formula.md) — Human attention is now the scarce input in AI feedback loops, not model intelligence _(Dan Shipper)_
 - [`ins_shipper-correction-becomes-team-skill`](insights/ins_shipper-correction-becomes-team-skill.md) — Saving agent corrections as named team skills converts individual AI workarounds into shared institutional capability _(Dan Shipper)_
 - [`ins_shipper-front-brief-autonomous-run`](insights/ins_shipper-front-brief-autonomous-run.md) — Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state _(Dan Shipper)_
+- [`ins_shipper-judgment-scarce-generation-cheap`](insights/ins_shipper-judgment-scarce-generation-cheap.md) — When AI makes generation cheap, ranking and judgment about what matters become the scarce resource _(Dan Shipper)_
 - [`ins_shipper-opus5-scaffolding-reset`](insights/ins_shipper-opus5-scaffolding-reset.md) — Scaffolding built for a less capable model constrains a stronger one; upgrading models sometimes requires deleting the scaffold, not adapting it _(Dan Shipper)_
 - [`ins_shipper-org-capability-ai-bottleneck`](insights/ins_shipper-org-capability-ai-bottleneck.md) — The bottleneck for AI adoption has moved from model capability to organizational capability _(Dan Shipper)_
 - [`ins_shipper-public-ai-prompting-spreads-adoption`](insights/ins_shipper-public-ai-prompting-spreads-adoption.md) — One shared AI agent working in public spreads organizational adoption faster than many private agents _(Dan Shipper)_
@@ -1224,6 +1227,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_willison-eval-containment-gap`](insights/ins_willison-eval-containment-gap.md) — An AI evaluation environment with unblocked internet access allowed Claude to upload a malware package to PyPI, which reached production systems before removal _(Simon Willison)_
 - [`ins_willison-external-sandbox-agent-architecture`](insights/ins_willison-external-sandbox-agent-architecture.md) — Keep the coding agent outside its sandbox so safety enforcement does not depend on what the model decides _(Simon Willison)_
 - [`ins_willison-external-sandbox-pattern`](insights/ins_willison-external-sandbox-pattern.md) — Keeping the agent outside the execution sandbox makes agent safety independent of the model's own judgment _(Simon Willison)_
+- [`ins_willison-fable-class-proactive-tools`](insights/ins_willison-fable-class-proactive-tools.md) — Fable-class models solve new problems by building the tools they need rather than stopping at what they were given _(Simon Willison)_
 - [`ins_willison-fable-relentlessly-proactive`](insights/ins_willison-fable-relentlessly-proactive.md) — Frontier AI agents deploy every available technique to reach their goal, using breadth-first problem decomposition when one approach is blocked _(Simon Willison)_
 - [`ins_willison-frontier-model-self-routing`](insights/ins_willison-frontier-model-self-routing.md) — Telling a frontier model to self-route tasks to cheaper subagent models outperforms pre-written routing rules on both cost and quality _(Simon Willison)_
 - [`ins_willison-game-loop-agent-limit`](insights/ins_willison-game-loop-agent-limit.md) — Agents can build functional game interfaces but cannot independently engineer engaging gameplay loops, because fun is a subjective judgment that no specification can substitute for. _(Simon Willison)_
@@ -1284,6 +1288,7 @@ _Generated 2026-11-24. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-clone-risk-first-demo-wins`](insights/ins_zukowski-clone-risk-first-demo-wins.md) — AI clone risk is conditional on three factors; the first quality demo compounds a lead that even the original idea cannot recover _(Chris Zukowski)_
 - [`ins_zukowski-demo-conversion-sickos`](insights/ins_zukowski-demo-conversion-sickos.md) — A 19 percent demo-to-wishlist conversion rate is the expected median; demos target hardcore discovery players, not mass wishlisting _(Chris Zukowski)_
 - [`ins_zukowski-demo-unlocks-widget-discovery`](insights/ins_zukowski-demo-unlocks-widget-discovery.md) — A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts _(Chris Zukowski)_
+- [`ins_zukowski-emergent-appeal-blocks-cloning`](insights/ins_zukowski-emergent-appeal-blocks-cloning.md) — Games become hard to clone when their core appeal requires hours of play to understand _(Chris Zukowski)_
 - [`ins_zukowski-emergent-clone-barrier`](insights/ins_zukowski-emergent-clone-barrier.md) — Games built on emergent, interacting systems resist cloning because their core appeal cannot be evaluated from screenshots or descriptions _(Chris Zukowski)_
 - [`ins_zukowski-festival-genre-over-count`](insights/ins_zukowski-festival-genre-over-count.md) — Festival genre fit predicts indie game visibility ROI more reliably than total festival count _(Chris Zukowski)_
 - [`ins_zukowski-horror-october-herding-trap`](insights/ins_zukowski-horror-october-herding-trap.md) — October is the worst month for serious horror game revenue, not the best _(Chris Zukowski)_

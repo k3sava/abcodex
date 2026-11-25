@@ -1,27 +1,32 @@
 {
-  "generated_at": "2026-11-24T01:43:24.511Z",
+  "generated_at": "2026-11-25T01:38:03.492Z",
   "counts": {
-    "insights": 1379,
+    "insights": 1384,
     "operators": 574,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 177
+    "daily": 178
   },
   "latest_daily": {
-    "path": "daily/2026-11-24.md",
-    "date": "2026-11-24",
-    "title": "Real-people footprints in AI search, and two ways AI adoption predictions get the measurement wrong",
-    "summary": "Three cards, no new operators. Lily Ray on fresh November 2026 citation data showing YouTube, Reddit, and individual LinkedIn profiles dominate AI search, with a 23-year argument that only real people with verifiable records survive each wave of algorithmic change. Benedict Evans on two distinct failure modes in enterprise AI: mistaking tool diffusion for structural transformation, and incumbents losing the switching friction that sustained their lazy revenue.",
+    "path": "daily/2026-11-25.md",
+    "date": "2026-11-25",
+    "title": "Measuring what changes, not what inflates: AI metrics, model inflection points, and the judgment gap",
+    "summary": "Five cards, no new operators. Kevin Indig on why raw AI citation counts mislead and share is the meaningful measure. Simon Willison naming the second LLM inflection point: Fable-class models that build their own tools. Ethan Mollick on the self-evaluation gap at the frontier. Dan Shipper on why judgment stays scarce when generation becomes cheap. Chris Zukowski on what makes a game structurally resistant to cloning.",
     "sources": [
-      "https://lilyraynyc.substack.com/p/why-building-trust-through-real-people",
-      "https://www.ben-evans.com/presentations"
+      "https://www.growth-memo.com/p/denominaitor",
+      "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/"
     ],
     "insights_added": [
-      "ins_ray-real-people-ai-search-footprint",
-      "ins_evans-ai-diffusion-not-transformation",
-      "ins_evans-agent-inertia-moat-erosion"
+      "ins_indig-citation-share-not-raw-count",
+      "ins_willison-fable-class-proactive-tools",
+      "ins_mollick-agi-self-evaluation-gap",
+      "ins_shipper-judgment-scarce-generation-cheap",
+      "ins_zukowski-emergent-appeal-blocks-cloning"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -13645,6 +13650,37 @@
       "title": "When every brand in a content category declines together in AI search, the platform is repricing the category, not re-ranking competitors"
     },
     {
+      "path": "insights/ins_indig-citation-share-not-raw-count.md",
+      "id": "ins_indig-citation-share-not-raw-count",
+      "operator": "Kevin Indig",
+      "operator_role": "Growth advisor; creator of Growth Memo; former VP SEO at Shopify",
+      "co_operators": [],
+      "source_url": "https://www.growth-memo.com/p/denominaitor",
+      "source_type": "essay",
+      "source_title": "DenominAItor",
+      "source_date": "2026-11-23",
+      "captured_date": "2026-11-25",
+      "domain": [
+        "aeo",
+        "content-strategy",
+        "growth"
+      ],
+      "lifecycle": [
+        "attribution-and-measurement",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "metric-model",
+      "score": "{ originality: 4, specificity: 5, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_indig-algorithm-visibility-rental",
+        "ins_indig-engine-fragmentation"
+      ],
+      "raw_ref": "",
+      "title": "AI citation counts mislead because model updates inflate the denominator, not your standing"
+    },
+    {
       "path": "insights/ins_indig-citation-vs-mention-depth-breadth.md",
       "id": "ins_indig-citation-vs-mention-depth-breadth",
       "operator": "Kevin Indig",
@@ -19352,6 +19388,36 @@
       ],
       "raw_ref": "",
       "title": "AI agent networks self-organize coordination without human-designed management structures"
+    },
+    {
+      "path": "insights/ins_mollick-agi-self-evaluation-gap.md",
+      "id": "ins_mollick-agi-self-evaluation-gap",
+      "operator": "Ethan Mollick",
+      "operator_role": "Professor at Wharton; author of Co-Intelligence and Co-Existence",
+      "co_operators": [],
+      "source_url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+      "source_type": "essay",
+      "source_title": "Fable 5.2 and Jagged AGI",
+      "source_date": "2026-11-09",
+      "captured_date": "2026-11-25",
+      "domain": [
+        "ai-native",
+        "leadership-and-org"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_mollick-four-human-edge-skills",
+        "ins_mollick-automation-satisficing-trap"
+      ],
+      "raw_ref": "",
+      "title": "Frontier AI fails at self-evaluation, not at task breadth. It catches errors but does not notice when output misses the point."
     },
     {
       "path": "insights/ins_mollick-ai-single-player-org-gap.md",
@@ -27102,6 +27168,37 @@
       ],
       "raw_ref": "",
       "title": "Front-load the full brief and evaluate the finished artifact; interrupting an autonomous run resets the model's planning state"
+    },
+    {
+      "path": "insights/ins_shipper-judgment-scarce-generation-cheap.md",
+      "id": "ins_shipper-judgment-scarce-generation-cheap",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/what-s-left-for-humans-after-automation",
+      "source_type": "essay",
+      "source_title": "What's Left for Humans After Automation",
+      "source_date": "2026-11-15",
+      "captured_date": "2026-11-25",
+      "domain": [
+        "ai-native",
+        "founder-operator",
+        "leadership-and-org"
+      ],
+      "lifecycle": [
+        "strategy",
+        "ai-workflow"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_shipper-taste-agent-hill-climb",
+        "ins_mollick-four-human-edge-skills"
+      ],
+      "raw_ref": "",
+      "title": "When AI makes generation cheap, ranking and judgment about what matters become the scarce resource"
     },
     {
       "path": "insights/ins_shipper-opus5-scaffolding-reset.md",
@@ -36554,6 +36651,35 @@
       "title": "Keeping the agent outside the execution sandbox makes agent safety independent of the model's own judgment"
     },
     {
+      "path": "insights/ins_willison-fable-class-proactive-tools.md",
+      "id": "ins_willison-fable-class-proactive-tools",
+      "operator": "Simon Willison",
+      "operator_role": "Co-creator of Django; creator of Datasette; independent AI and engineering writer",
+      "co_operators": [],
+      "source_url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source_type": "essay",
+      "source_title": "Three LLM inflection points in twelve months",
+      "source_date": "2026-11-24",
+      "captured_date": "2026-11-25",
+      "domain": [
+        "ai-native",
+        "engineering"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "strategy"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "case-study",
+      "score": "{ originality: 4, specificity: 4, evidence: 4, transferability: 4, source: 5 }",
+      "tier": "B",
+      "related": [
+        "ins_november-2025-coding-inflection"
+      ],
+      "raw_ref": "",
+      "title": "Fable-class models solve new problems by building the tools they need rather than stopping at what they were given"
+    },
+    {
       "path": "insights/ins_willison-fable-relentlessly-proactive.md",
       "id": "ins_willison-fable-relentlessly-proactive",
       "operator": "Simon Willison",
@@ -38707,6 +38833,33 @@
       ],
       "raw_ref": "",
       "title": "A free demo gives a game access to Steam's discovery widgets, which generated 48 times more wishlists than YouTube Shorts"
+    },
+    {
+      "path": "insights/ins_zukowski-emergent-appeal-blocks-cloning.md",
+      "id": "ins_zukowski-emergent-appeal-blocks-cloning",
+      "operator": "Chris Zukowski",
+      "operator_role": "Game marketing consultant; creator of How to Market a Game",
+      "co_operators": [],
+      "source_url": "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/",
+      "source_type": "essay",
+      "source_title": "How Clone-Proof Is Your Game? 4 Signs to Check",
+      "source_date": "2026-11-11",
+      "captured_date": "2026-11-25",
+      "domain": [
+        "game-building",
+        "founder-operator"
+      ],
+      "lifecycle": [
+        "positioning",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 3, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [],
+      "raw_ref": "",
+      "title": "Games become hard to clone when their core appeal requires hours of play to understand"
     },
     {
       "path": "insights/ins_zukowski-emergent-clone-barrier.md",
@@ -55606,6 +55759,30 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-25.md",
+      "date": "2026-11-25",
+      "title": "Measuring what changes, not what inflates: AI metrics, model inflection points, and the judgment gap",
+      "summary": "Five cards, no new operators. Kevin Indig on why raw AI citation counts mislead and share is the meaningful measure. Simon Willison naming the second LLM inflection point: Fable-class models that build their own tools. Ethan Mollick on the self-evaluation gap at the frontier. Dan Shipper on why judgment stays scarce when generation becomes cheap. Chris Zukowski on what makes a game structurally resistant to cloning.",
+      "sources": [
+        "https://www.growth-memo.com/p/denominaitor",
+        "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+        "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+        "https://every.to/context-window/what-s-left-for-humans-after-automation",
+        "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/"
+      ],
+      "insights_added": [
+        "ins_indig-citation-share-not-raw-count",
+        "ins_willison-fable-class-proactive-tools",
+        "ins_mollick-agi-self-evaluation-gap",
+        "ins_shipper-judgment-scarce-generation-cheap",
+        "ins_zukowski-emergent-appeal-blocks-cloning"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-24.md",
       "date": "2026-11-24",
