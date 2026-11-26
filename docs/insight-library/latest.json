@@ -1,30 +1,50 @@
 {
-  "generated_at": "2026-11-25T01:38:03.520Z",
+  "generated_at": "2026-11-26T01:46:48.527Z",
   "latest_daily": {
-    "path": "daily/2026-11-25.md",
-    "date": "2026-11-25",
-    "title": "Measuring what changes, not what inflates: AI metrics, model inflection points, and the judgment gap",
-    "summary": "Five cards, no new operators. Kevin Indig on why raw AI citation counts mislead and share is the meaningful measure. Simon Willison naming the second LLM inflection point: Fable-class models that build their own tools. Ethan Mollick on the self-evaluation gap at the frontier. Dan Shipper on why judgment stays scarce when generation becomes cheap. Chris Zukowski on what makes a game structurally resistant to cloning.",
+    "path": "daily/2026-11-26.md",
+    "date": "2026-11-26",
+    "title": "Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip",
+    "summary": "Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.",
     "sources": [
-      "https://www.growth-memo.com/p/denominaitor",
-      "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
-      "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
-      "https://every.to/context-window/what-s-left-for-humans-after-automation",
-      "https://howtomarketagame.com/2026/11/11/how-clone-proof-is-your-game-4-signs-to-check/"
+      "https://eugeneyan.com/writing/public-evals",
+      "https://tomtunguz.com/what-kind-of-factory-will-you-build/"
     ],
     "insights_added": [
-      "ins_indig-citation-share-not-raw-count",
-      "ins_willison-fable-class-proactive-tools",
-      "ins_mollick-agi-self-evaluation-gap",
-      "ins_shipper-judgment-scarce-generation-cheap",
-      "ins_zukowski-emergent-appeal-blocks-cloning"
+      "ins_yan-eval-grader-errors-persist",
+      "ins_yan-pass-k-reliability-metric",
+      "ins_yan-eval-attention-bottleneck",
+      "ins_tunguz-curator-loop-compounding-factory"
     ],
-    "operators_added": [],
+    "operators_added": [
+      "eugene-yan"
+    ],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-26.md",
+      "date": "2026-11-26",
+      "title": "Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip",
+      "summary": "Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.",
+      "sources": [
+        "https://eugeneyan.com/writing/public-evals",
+        "https://tomtunguz.com/what-kind-of-factory-will-you-build/"
+      ],
+      "insights_added": [
+        "ins_yan-eval-grader-errors-persist",
+        "ins_yan-pass-k-reliability-metric",
+        "ins_yan-eval-attention-bottleneck",
+        "ins_tunguz-curator-loop-compounding-factory"
+      ],
+      "operators_added": [
+        "eugene-yan"
+      ],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-25.md",
       "date": "2026-11-25",
@@ -645,27 +665,6 @@
       "insights_added": [
         "ins_tunguz-security-third-ai-pmf",
         "ins_tunguz-commitment-leverage"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-27.md",
-      "date": "2026-10-27",
-      "title": "Code aesthetics as cognitive artifact, agent pro-tool threshold, and organic decline as a publisher problem",
-      "summary": "Four cards across three operators. Thorsten Ball on the working memory origin of code elegance and where full software automation arrives first. Dan Shipper on what makes a personal agent a pro tool. Kevin Indig on how the organic traffic decline story is a publisher story, not a universal one.",
-      "sources": [
-        "https://registerspill.thorstenball.com/p/joy-and-curiosity-103",
-        "https://every.to/vibe-check/vibe-check-duet-anthropic-s-always-on-agent",
-        "https://www.growth-memo.com/p/organic-traffic-is-down-but-its-not"
-      ],
-      "insights_added": [
-        "ins_ball-code-elegance-is-cognitive-artifact",
-        "ins_ball-maintenance-automation-arrives-first",
-        "ins_shipper-agent-pro-tool-persistent-state",
-        "ins_indig-organic-decline-publisher-concentration"
       ],
       "operators_added": [],
       "patterns_added": [],
