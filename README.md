@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-25 · 5 insights
+### Latest · 2026-11-26 · 4 insights · 1 operator
 
-**Measuring what changes, not what inflates: AI metrics, model inflection points, and the judgment gap.** Five cards, no new operators. Kevin Indig on why raw AI citation counts mislead and share is the meaningful measure. Simon Willison naming the second LLM inflection point: Fable-class models that build their own tools. Ethan Mollick on the self-evaluation gap at the frontier. Dan Shipper on why judgment stays scarce when generation becomes cheap. Chris Zukowski on what makes a game structurally resistant to cloning.
+**Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip.** Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.
 
-[Read what landed →](insight-library/daily/2026-11-25.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1384** insight cards
+- **1388** insight cards
 - **574** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions

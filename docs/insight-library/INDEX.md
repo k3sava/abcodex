@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-25. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1384 insight cards
+- 1388 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (926)
+### Tier B (930)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -1108,6 +1108,7 @@ _Generated 2026-11-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-category-leaders-agent-infrastructure`](insights/ins_tunguz-category-leaders-agent-infrastructure.md) — Category leaders are trading on agent-infrastructure positioning, not AI feature announcements, which is why their revenue multiples diverge from the median software company _(Tomasz Tunguz)_
 - [`ins_tunguz-chip-ownership-cost-floor`](insights/ins_tunguz-chip-ownership-cost-floor.md) — Chip ownership is the structural cost floor in a world of equal-intelligence frontier models _(Tomasz Tunguz)_
 - [`ins_tunguz-compute-cost-inversion`](insights/ins_tunguz-compute-cost-inversion.md) — AI-native companies invert the traditional software cost structure, spending more on compute than on payroll _(Tomasz Tunguz)_
+- [`ins_tunguz-curator-loop-compounding-factory`](insights/ins_tunguz-curator-loop-compounding-factory.md) — AI software factories only compound over time when a curator loop reads execution traces and rewrites the context and specs for the next run _(Tom Tunguz)_
 - [`ins_tunguz-custom-silicon-cost-moat`](insights/ins_tunguz-custom-silicon-cost-moat.md) — Custom silicon creates a 3.8x AI serving cost advantage while frontier intelligence scores converge _(Tom Tunguz)_
 - [`ins_tunguz-decision-model-bifurcation`](insights/ins_tunguz-decision-model-bifurcation.md) — Once an AI system is hardened and repeats at scale, specialized decision models replace frontier models at a fraction of the cost and higher accuracy _(Tom Tunguz)_
 - [`ins_tunguz-english-as-software-grammar`](insights/ins_tunguz-english-as-software-grammar.md) — AI converts English into a universal interface for grammar-heavy software _(Tomasz Tunguz)_
@@ -1277,6 +1278,9 @@ _Generated 2026-11-25. Auto-built from frontmatter — do not edit by hand._
 - [`ins_xcode27-agent-skills-portability`](insights/ins_xcode27-agent-skills-portability.md) — Xcode 27 Agent Skills make Apple-endorsed AI knowledge portable across Claude, Codex, and Cursor _(Antoine van der Lee)_
 - [`ins_y-combinator-ai-form-fill-autonomy`](insights/ins_y-combinator-ai-form-fill-autonomy.md) — Autonomous AI agents for niche B2B workflows can save double-digit hours weekly _(Y Combinator)_
 - [`ins_yael-davidowitz-pmm-shifts-consolidation-elevation`](insights/ins_yael-davidowitz-pmm-shifts-consolidation-elevation.md) — Product marketing is being elevated while in-house roles contract. _(Yael Davidowitz)_
+- [`ins_yan-eval-attention-bottleneck`](insights/ins_yan-eval-attention-bottleneck.md) — Token cost per eval task is the wrong efficiency metric because human review time, not compute, constrains how fast evals improve _(Eugene Yan)_
+- [`ins_yan-eval-grader-errors-persist`](insights/ins_yan-eval-grader-errors-persist.md) — Grader errors outlast model errors in LLM evals, making grader quality the binding constraint on eval accuracy _(Eugene Yan)_
+- [`ins_yan-pass-k-reliability-metric`](insights/ins_yan-pass-k-reliability-metric.md) — Average pass rate hides production reliability; measuring pass-at-k reveals whether a model can run unsupervised _(Eugene Yan)_
 - [`ins_yasser-elsaid-b2b-thick-wrapper-defensibility`](insights/ins_yasser-elsaid-b2b-thick-wrapper-defensibility.md) — B2B AI tools benefit from being 'thick wrappers'. _(Yasser Elsaid)_
 - [`ins_yegge-harness-model-coupling`](insights/ins_yegge-harness-model-coupling.md) — Agent harnesses break when the underlying model upgrades _(Steve Yegge)_
 - [`ins_yegge-seats-not-sessions`](insights/ins_yegge-seats-not-sessions.md) — Named persistent agent roles produce better engineering outputs than stateless sessions _(Steve Yegge)_
