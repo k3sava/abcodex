@@ -1,28 +1,46 @@
 {
-  "generated_at": "2026-11-26T01:46:48.527Z",
+  "generated_at": "2026-11-27T02:01:39.950Z",
   "latest_daily": {
-    "path": "daily/2026-11-26.md",
-    "date": "2026-11-26",
-    "title": "Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip",
-    "summary": "Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.",
+    "path": "daily/2026-11-27.md",
+    "date": "2026-11-27",
+    "title": "Reputation earned, gaps AI didn't close, and the attention cost of teaching taste",
+    "summary": "Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.",
     "sources": [
-      "https://eugeneyan.com/writing/public-evals",
-      "https://tomtunguz.com/what-kind-of-factory-will-you-build/"
+      "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck"
     ],
     "insights_added": [
-      "ins_yan-eval-grader-errors-persist",
-      "ins_yan-pass-k-reliability-metric",
-      "ins_yan-eval-attention-bottleneck",
-      "ins_tunguz-curator-loop-compounding-factory"
+      "ins_lily-ray-external-trust-ai-search-durability",
+      "ins_aleyda-solis-implementation-bottleneck-tech-seo",
+      "ins_shipper-attention-per-learning-unit"
     ],
-    "operators_added": [
-      "eugene-yan"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-27.md",
+      "date": "2026-11-27",
+      "title": "Reputation earned, gaps AI didn't close, and the attention cost of teaching taste",
+      "summary": "Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.",
+      "sources": [
+        "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck"
+      ],
+      "insights_added": [
+        "ins_lily-ray-external-trust-ai-search-durability",
+        "ins_aleyda-solis-implementation-bottleneck-tech-seo",
+        "ins_shipper-attention-per-learning-unit"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-26.md",
       "date": "2026-11-26",
@@ -647,24 +665,6 @@
         "ins_willison-agentic-coding-tripled-github",
         "ins_mollick-experts-underestimate-ai-progress",
         "ins_chase-agent-memory-next-frontier"
-      ],
-      "operators_added": [],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-28.md",
-      "date": "2026-10-28",
-      "title": "Security as AI's third market, and AI company risk as compute commitment",
-      "summary": "Two cards from Tom Tunguz, both published October 26. Security joins coding and customer support as AI's third product-market fit, driven by attack parallelization that defense headcount cannot match. Anthropic's S-1 reveals that AI foundation model companies carry their financial risk in long-term compute commitments, not debt.",
-      "sources": [
-        "https://tomtunguz.com/the-third-product-market-fit-in-ai/",
-        "https://tomtunguz.com/anthropics-s1-grew-eleven-fold/"
-      ],
-      "insights_added": [
-        "ins_tunguz-security-third-ai-pmf",
-        "ins_tunguz-commitment-leverage"
       ],
       "operators_added": [],
       "patterns_added": [],

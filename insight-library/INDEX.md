@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-27. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1388 insight cards
+- 1391 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (930)
+### Tier B (932)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -418,6 +418,7 @@ _Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_albert-malikov-pmm-as-craft-not-title`](insights/ins_albert-malikov-pmm-as-craft-not-title.md) — Agentic AI in finance has to work inside accounting processes, not around them _(Albert Malikov)_
 - [`ins_alex-lindahl-chatgpt-study-mode-gtm-enablement`](insights/ins_alex-lindahl-chatgpt-study-mode-gtm-enablement.md) — ChatGPT Study Mode turns product decks into micro-coaching for GTM teams. _(Alex Lindahl)_
 - [`ins_aleyda-solis-ai-links-not-automatically-traffic`](insights/ins_aleyda-solis-ai-links-not-automatically-traffic.md) — More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score _(Aleyda Solis)_
+- [`ins_aleyda-solis-implementation-bottleneck-tech-seo`](insights/ins_aleyda-solis-implementation-bottleneck-tech-seo.md) — AI sped up tech SEO analysis but left the implementation gap unchanged. Only 28% of SEOs get 80%+ of their recommendations implemented. _(Aleyda Solis)_
 - [`ins_alina-vandenberghe-recruiting-process-transparency`](insights/ins_alina-vandenberghe-recruiting-process-transparency.md) — Communication is the leverage skill that turns founder-CEO into co-CEO _(Alina Vandenberghe)_
 - [`ins_all-problems-become-people-problems`](insights/ins_all-problems-become-people-problems.md) — Above a certain level, every problem is a people problem _(Silvia Botros)_
 - [`ins_alpert-lossless-llm-rewrite`](insights/ins_alpert-lossless-llm-rewrite.md) — Every LLM rewrite changes meaning because the model lacks the author's mental model of what the words are meant to communicate _(Sophie Alpert)_
@@ -766,6 +767,7 @@ _Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_levels-saas-build-not-buy-flip`](insights/ins_levels-saas-build-not-buy-flip.md) — Vibe-coding collapses custom tool build cost enough that recurring SaaS subscription costs now exceed one-time build cost for solo operators _(Pieter Levels)_
 - [`ins_lily-ray-about-page-ai-citation-multiplier`](insights/ins_lily-ray-about-page-ai-citation-multiplier.md) — A well-built About page earns more AI Overview citations than a homepage because AI systems prefer identity content over commercial copy _(Lily Ray)_
 - [`ins_lily-ray-aeo-seo-continuity`](insights/ins_lily-ray-aeo-seo-continuity.md) — The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement. _(Lily Ray)_
+- [`ins_lily-ray-external-trust-ai-search-durability`](insights/ins_lily-ray-external-trust-ai-search-durability.md) — Third-party recommendations of real people are more durable in AI search than any self-description, and the data on where AI search sources its citations explains why _(Lily Ray)_
 - [`ins_lily-ray-firsthand-experience-ai-overviews`](insights/ins_lily-ray-firsthand-experience-ai-overviews.md) — First-hand experience is a distinct AEO primitive that drives additional clicks from AI Overviews and AI Mode, not just an E-E-A-T input signal _(Lily Ray)_
 - [`ins_lily-ray-google-doc-change-early-warning`](insights/ins_lily-ray-google-doc-change-early-warning.md) — Google rewrites public quality guidelines weeks before major algorithm updates, producing seven observable signals practitioners can monitor _(Lily Ray)_
 - [`ins_lily-ray-scaled-content-top-enforcement`](insights/ins_lily-ray-scaled-content-top-enforcement.md) — Scaled AI-generated content has replaced link spam as Google's primary enforcement target, confirmed by a Google engineer's statement and four spam updates in under a year _(Lily Ray)_
@@ -1309,7 +1311,7 @@ _Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zukowski-widget-beats-social`](insights/ins_zukowski-widget-beats-social.md) — Steam algorithmic widget placement generates more sustained wishlist velocity than social media virality for indie games _(Chris Zukowski)_
 - [`ins_zukowski-wishlist-inflation-prediction-holds`](insights/ins_zukowski-wishlist-inflation-prediction-holds.md) — Steam wishlist inflation cut per-wishlist conversion in half since 2023, but wishlist count still predicts launch sales _(Chris Zukowski)_
 
-### Tier C (95)
+### Tier C (96)
 - [`ins_aayush-kumar-forced-lessons-from-daily-life`](insights/ins_aayush-kumar-forced-lessons-from-daily-life.md) — The best leadership lessons come from forced analogies from mundane life events _(Aayush Kumar)_
 - [`ins_action-tool-result-resume-format`](insights/ins_action-tool-result-resume-format.md) — Resume bullets land when written as Action + Tool + Result _(Roshni Chellani)_
 - [`ins_agent-ai-inbound25-agent-showcase`](insights/ins_agent-ai-inbound25-agent-showcase.md) — At INBOUND25 showcasing agents and gathering community ideas _(Agent.ai)_
@@ -1388,6 +1390,7 @@ _Generated 2026-11-26. Auto-built from frontmatter — do not edit by hand._
 - [`ins_sara-popken-ai-first-pmm-opportunity`](insights/ins_sara-popken-ai-first-pmm-opportunity.md) — Shaping the future of learning in an AI-first world as a PMM at Quizlet _(Sara Popken)_
 - [`ins_seufert-apple-services-ad-shift`](insights/ins_seufert-apple-services-ad-shift.md) — When platform transaction revenue stagnates, advertising becomes the primary lever for continued Services growth _(Eric Seufert)_
 - [`ins_shali-rana-reed-gap-in-resume-retort`](insights/ins_shali-rana-reed-gap-in-resume-retort.md) — GTM is broken at the handoffs, invest in a single owner of the prospect-to-renewal journey _(Shali Rana Reed)_
+- [`ins_shipper-attention-per-learning-unit`](insights/ins_shipper-attention-per-learning-unit.md) — Teaching an AI your taste fails unless it creates value for you in the same exchange. The measure is how much the model learns per unit of your attention. _(Dan Shipper)_
 - [`ins_shipper-disclosure-gap`](insights/ins_shipper-disclosure-gap.md) — Near-universal AI use among professional writers is not surfacing publicly because social stigma around authenticity suppresses disclosure _(Dan Shipper)_
 - [`ins_shipper-rule-complexity-floor`](insights/ins_shipper-rule-complexity-floor.md) — Even rule-based tasks like copy editing carry enough context-sensitivity to resist full automation by current AI _(Dan Shipper)_
 - [`ins_shruti-padala-hallway-phase-of-job-transitions`](insights/ins_shruti-padala-hallway-phase-of-job-transitions.md) — Job transitions have a 'hallway phase' where nothing is wrong but nothing feels familiar. _(Shruti Padala)_
