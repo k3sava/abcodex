@@ -1,32 +1,30 @@
 {
-  "generated_at": "2026-11-26T01:46:48.494Z",
+  "generated_at": "2026-11-27T02:04:31.864Z",
   "counts": {
-    "insights": 1388,
+    "insights": 1391,
     "operators": 574,
     "raw_sources": 209,
     "patterns": 46,
     "contradictions": 11,
     "playbooks": 28,
-    "daily": 179
+    "daily": 180
   },
   "latest_daily": {
-    "path": "daily/2026-11-26.md",
-    "date": "2026-11-26",
-    "title": "Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip",
-    "summary": "Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.",
+    "path": "daily/2026-11-27.md",
+    "date": "2026-11-27",
+    "title": "Reputation earned, gaps AI didn't close, and the attention cost of teaching taste",
+    "summary": "Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.",
     "sources": [
-      "https://eugeneyan.com/writing/public-evals",
-      "https://tomtunguz.com/what-kind-of-factory-will-you-build/"
+      "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
+      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck"
     ],
     "insights_added": [
-      "ins_yan-eval-grader-errors-persist",
-      "ins_yan-pass-k-reliability-metric",
-      "ins_yan-eval-attention-bottleneck",
-      "ins_tunguz-curator-loop-compounding-factory"
+      "ins_lily-ray-external-trust-ai-search-durability",
+      "ins_aleyda-solis-implementation-bottleneck-tech-seo",
+      "ins_shipper-attention-per-learning-unit"
     ],
-    "operators_added": [
-      "eugene-yan"
-    ],
+    "operators_added": [],
     "patterns_added": [],
     "playbooks_added": [],
     "patterns_updated": []
@@ -1741,6 +1739,36 @@
       ],
       "raw_ref": "",
       "title": "More AI answer links do not automatically mean more traffic; track six AEO signals separately, not blended into one score"
+    },
+    {
+      "path": "insights/ins_aleyda-solis-implementation-bottleneck-tech-seo.md",
+      "id": "ins_aleyda-solis-implementation-bottleneck-tech-seo",
+      "operator": "Aleyda Solis",
+      "operator_role": "International SEO consultant and AI search researcher; founder, Orainti",
+      "co_operators": [],
+      "source_url": "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+      "source_type": "slides",
+      "source_title": "The State of Technical SEO in the AI Search Era in 2026: The Shifts, Trends, and What to Do About Them",
+      "source_date": "2026-11-13",
+      "captured_date": "2026-11-27",
+      "domain": [
+        "seo",
+        "tech-seo"
+      ],
+      "lifecycle": [
+        "process-cadence",
+        "strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "framework",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 5, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_aleyda-solis-aeo-offsite-corroboration-floor",
+        "ins_aleyda-solis-ai-links-not-automatically-traffic"
+      ],
+      "raw_ref": "",
+      "title": "AI sped up tech SEO analysis but left the implementation gap unchanged. Only 28% of SEOs get 80%+ of their recommendations implemented."
     },
     {
       "path": "insights/ins_alina-vandenberghe-recruiting-process-transparency.md",
@@ -16659,6 +16687,38 @@
       "title": "The signals that earn blue-link rankings are the same ones that earn AI-generated answer citations, making AEO an extension of SEO discipline, not a replacement."
     },
     {
+      "path": "insights/ins_lily-ray-external-trust-ai-search-durability.md",
+      "id": "ins_lily-ray-external-trust-ai-search-durability",
+      "operator": "Lily Ray",
+      "operator_role": "SEO consultant; founder, Algorythmic; SEOFOMO newsletter author",
+      "co_operators": [],
+      "source_url": "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
+      "source_type": "essay",
+      "source_title": "Why Building Trust Through Real People Stands The Test Of Time In SEO & AI Search",
+      "source_date": "2026-11-20",
+      "captured_date": "2026-11-27",
+      "domain": [
+        "aeo",
+        "seo",
+        "content-strategy"
+      ],
+      "lifecycle": [
+        "aeo",
+        "content-strategy"
+      ],
+      "maturity": "applied",
+      "artifact_class": "playbook",
+      "score": "{ originality: 3, specificity: 4, evidence: 4, transferability: 4, source: 4 }",
+      "tier": "B",
+      "related": [
+        "ins_lily-ray-self-promo-recommendation-exclusion",
+        "ins_lily-ray-firsthand-experience-ai-overviews",
+        "ins_indig-ugc-citation-dominance"
+      ],
+      "raw_ref": "",
+      "title": "Third-party recommendations of real people are more durable in AI search than any self-description, and the data on where AI search sources its citations explains why"
+    },
+    {
       "path": "insights/ins_lily-ray-firsthand-experience-ai-overviews.md",
       "id": "ins_lily-ray-firsthand-experience-ai-overviews",
       "operator": "Lily Ray",
@@ -27077,6 +27137,36 @@
       ],
       "raw_ref": "",
       "title": "Human attention is now the scarce input in AI feedback loops, not model intelligence"
+    },
+    {
+      "path": "insights/ins_shipper-attention-per-learning-unit.md",
+      "id": "ins_shipper-attention-per-learning-unit",
+      "operator": "Dan Shipper",
+      "operator_role": "CEO and co-founder, Every",
+      "co_operators": [],
+      "source_url": "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck",
+      "source_type": "essay",
+      "source_title": "Your Attention Is AI's New Bottleneck",
+      "source_date": "2026-11-13",
+      "captured_date": "2026-11-27",
+      "domain": [
+        "ai-native",
+        "future-of-work"
+      ],
+      "lifecycle": [
+        "ai-workflow",
+        "process-cadence"
+      ],
+      "maturity": "frontier",
+      "artifact_class": "framework",
+      "score": "{ originality: 4, specificity: 2, evidence: 2, transferability: 4, source: 3 }",
+      "tier": "C",
+      "related": [
+        "ins_shipper-judgment-scarce-generation-cheap",
+        "ins_shipper-tend-your-loop"
+      ],
+      "raw_ref": "",
+      "title": "Teaching an AI your taste fails unless it creates value for you in the same exchange. The measure is how much the model learns per unit of your attention."
     },
     {
       "path": "insights/ins_shipper-correction-becomes-team-skill.md",
@@ -55873,6 +55963,26 @@
     }
   ],
   "daily": [
+    {
+      "path": "daily/2026-11-27.md",
+      "date": "2026-11-27",
+      "title": "Reputation earned, gaps AI didn't close, and the attention cost of teaching taste",
+      "summary": "Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.",
+      "sources": [
+        "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
+        "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
+        "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck"
+      ],
+      "insights_added": [
+        "ins_lily-ray-external-trust-ai-search-durability",
+        "ins_aleyda-solis-implementation-bottleneck-tech-seo",
+        "ins_shipper-attention-per-learning-unit"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-26.md",
       "date": "2026-11-26",

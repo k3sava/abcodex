@@ -3,11 +3,11 @@
 > **[Open the interactive site → abcodex.iamkesava.com](https://abcodex.iamkesava.com/)**
 
 <!-- LATEST:START -->
-### Latest · 2026-11-26 · 4 insights · 1 operator
+### Latest · 2026-11-27 · 3 insights
 
-**Where evals break and what compounds: grader failures, reliability gaps, and the factory step teams skip.** Four cards, one new operator. Eugene Yan's analysis of twelve public LLM benchmarks surfaces three structural failure modes in how evals are built and measured. Tom Tunguz names the fourth part of an AI software factory, the curator loop, as the step that makes compounding possible. Both sources were published November 22, 2026.
+**Reputation earned, gaps AI didn't close, and the attention cost of teaching taste.** Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.
 
-[Read what landed →](insight-library/daily/2026-11-26.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
+[Read what landed →](insight-library/daily/2026-11-27.md) · [See on the site →](https://abcodex.iamkesava.com/#/today)
 <!-- LATEST:END -->
 
 A primary-source library of operator insights. Atomic claims, each one attributed to a named operator with a verifiable source URL and date. Built so you can read one claim, verify the source, and cite it.
@@ -15,7 +15,7 @@ A primary-source library of operator insights. Atomic claims, each one attribute
 ## What's in here today
 
 <!-- COUNTS:START -->
-- **1388** insight cards
+- **1391** insight cards
 - **574** operator profiles
 - **46** synthesis patterns (cross-operator convergences)
 - **11** documented contradictions
