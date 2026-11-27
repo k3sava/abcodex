@@ -52,5 +52,5 @@ Slide 27: 86% say technical SEO gets the same or more priority than a year ago.
 The SEOFOMO survey does not publish its sample size or methodology in the deck. Self-reported implementation rates may underestimate actual throughput if respondents set a high bar for "implemented." Solis does not test whether the 28% figure improved or worsened relative to prior years, so this may be a stable constraint rather than one AI widened. Smaller teams with more integrated workflows likely see a different distribution.
 
 ## Cross-references
-- `ins_aleyda-solis-aeo-offsite-corroboration-floor`: Solis's AEO framework for AI search citations. Speed of analysis does not drive AEO outcomes either — structured content and off-site corroboration do.
-- `ins_aleyda-solis-ai-links-not-automatically-traffic`: AI citations do not automatically translate to traffic — a companion finding that implementation bottlenecks do not vanish even when citation rates improve.
+- `ins_aleyda-solis-aeo-offsite-corroboration-floor`: Solis's AEO framework for AI search citations. Speed of analysis does not drive AEO outcomes either. Structured content and off-site corroboration do.
+- `ins_aleyda-solis-ai-links-not-automatically-traffic`: AI citations do not automatically translate to traffic. Implementation bottlenecks do not vanish even when citation rates improve.

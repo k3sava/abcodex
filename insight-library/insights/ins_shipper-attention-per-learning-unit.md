@@ -39,7 +39,7 @@ Grant Harvey in Every's Context Window newsletter (November 13, 2026), attributi
 
 "the most important formula in AI"
 
-"it measures how much a model learns per unit of your attention — and shows how to maximize it."
+> "it measures how much a model learns per unit of your attention — and shows how to maximize it."
 
 Every's Frontier team published the full derivation separately at frontier.every.to. That document was not retrieved for this card.
 
