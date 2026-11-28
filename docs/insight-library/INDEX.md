@@ -1,9 +1,9 @@
 # Codex Index
 
-_Generated 2026-11-27. Auto-built from frontmatter — do not edit by hand._
+_Generated 2026-11-28. Auto-built from frontmatter — do not edit by hand._
 
 ## Counts
-- 1391 insight cards
+- 1393 insight cards
 - 574 operator profiles
 - 209 raw source files
 - 46 synthesis patterns
@@ -377,7 +377,7 @@ _Generated 2026-11-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_zero-to-one-monopoly`](insights/ins_zero-to-one-monopoly.md) — Competition is for losers, build a monopoly on a truth most people don't yet see _(Peter Thiel)_
 - [`ins_zukowski-friendslop-demand-cycle`](insights/ins_zukowski-friendslop-demand-cycle.md) — Co-op party game demand resets every 3-9 months with a rising ceiling; the dominant title fades to 10% of concurrent players while total genre volume compounds each cycle _(Chris Zukowski)_
 
-### Tier B (932)
+### Tier B (934)
 - [`ins_10-80-10-ai-workflow`](insights/ins_10-80-10-ai-workflow.md) — 10-80-10: human direction, AI execution, human polish _(Arvid Kahl)_
 - [`ins_100-percent-automation-rule`](insights/ins_100-percent-automation-rule.md) — An automation that works 95% of the time is not an automation _(Cat Wu)_
 - [`ins_20-percent-rule-headline`](insights/ins_20-percent-rule-headline.md) — Spend 20% of total writing time on the headline alone, it carries 80% of the persuasive weight _(Cole Schafer)_
@@ -846,6 +846,7 @@ _Generated 2026-11-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_mollick-patron-not-wizard`](insights/ins_mollick-patron-not-wizard.md) — Frontier AI shifts the human role from wizard who steers through prompting to patron who commissions outcomes and judges the result _(Ethan Mollick)_
 - [`ins_mollick-proactive-agents-caught-not-asked`](insights/ins_mollick-proactive-agents-caught-not-asked.md) — Personal AI agents that act proactively create qualitatively different value than responsive chatbots _(Ethan Mollick)_
 - [`ins_mollick-selection-scarce-resource`](insights/ins_mollick-selection-scarce-resource.md) — When AI makes production cheap, selection and taste become the scarce resource _(Ethan Mollick)_
+- [`ins_mollick-small-teams-management-fights`](insights/ins_mollick-small-teams-management-fights.md) — Small AI-equipped teams at big firms are doing the work of dozens. No management playbook exists for the fights that follow. _(Ethan Mollick)_
 - [`ins_mollick-specs-not-tricks`](insights/ins_mollick-specs-not-tricks.md) — Prompting tricks produce no reliable advantage on frontier models; specification discipline is the effective skill _(Ethan Mollick)_
 - [`ins_mollick-swarm-direction-bottleneck`](insights/ins_mollick-swarm-direction-bottleneck.md) — Direction, not coordination, is the bottleneck in multi-agent AI deployment _(Ethan Mollick)_
 - [`ins_mollick-task-horizon-metr-doubling`](insights/ins_mollick-task-horizon-metr-doubling.md) — AI task duration at 50% success has doubled eight times since GPT-4, from minutes to hours _(Ethan Mollick)_
@@ -1155,6 +1156,7 @@ _Generated 2026-11-27. Auto-built from frontmatter — do not edit by hand._
 - [`ins_tunguz-systems-over-code`](insights/ins_tunguz-systems-over-code.md) — AI shifted the engineer's core task from writing correct code to designing feedback loops that let AI write correct code at scale _(Tom Tunguz)_
 - [`ins_tunguz-thin-wrapper-feature-absorption`](insights/ins_tunguz-thin-wrapper-feature-absorption.md) — Thin wrappers around AI models die when the base model absorbs their defining feature _(Tom Tunguz)_
 - [`ins_tunguz-token-import-threshold`](insights/ins_tunguz-token-import-threshold.md) — US domestic token production becomes insufficient when demand growth exceeds roughly 2.5x annually, with net imports beginning between 2028 and 2030 _(Tom Tunguz)_
+- [`ins_tunguz-tokens-compound-not-deflate`](insights/ins_tunguz-tokens-compound-not-deflate.md) — Token prices fell 43% and volume grew 11.1x. AI spend is compounding like copper, not deflating like lightbulbs. _(Tom Tunguz)_
 - [`ins_tunguz-ttt-per-user-model`](insights/ins_tunguz-ttt-per-user-model.md) — Test-time training makes per-user AI model variants viable only when personalization returns exceed per-user compute cost _(Tomasz Tunguz)_
 - [`ins_turnbull-hypothetical-classification`](insights/ins_turnbull-hypothetical-classification.md) — Generating unconstrained hypothetical categories then resolving via embeddings outperforms forcing LLM selection from a large taxonomy _(Doug Turnbull)_
 - [`ins_two-week-engineer-as-mini-pm`](insights/ins_two-week-engineer-as-mini-pm.md) — Use 2 engineering weeks as the threshold for engineer-owned vs PM-owned work _(Amole Naik)_

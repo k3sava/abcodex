@@ -1,19 +1,17 @@
 {
-  "generated_at": "2026-11-27T02:04:31.886Z",
+  "generated_at": "2026-11-28T01:49:47.495Z",
   "latest_daily": {
-    "path": "daily/2026-11-27.md",
-    "date": "2026-11-27",
-    "title": "Reputation earned, gaps AI didn't close, and the attention cost of teaching taste",
-    "summary": "Three cards. Lily Ray's November 20 SEJ essay documents where AI search actually sources trust: YouTube, Reddit, and individual LinkedIn voices dominate, while self-description gets cited but excluded. Aleyda Solis's Tech SEO Connect deck confirms AI sped up analysis without touching the 28% implementation rate. Dan Shipper's formula frames why teaching AI your taste fails unless the feedback loop pays you back in the same exchange.",
+    "path": "daily/2026-11-28.md",
+    "date": "2026-11-28",
+    "title": "Small teams, big fights, and why AI spend compounds: two operators name what the numbers show",
+    "summary": "Two cards, no new operators. Ethan Mollick's November 24 thread surfaces a pattern at large enterprises: 2-3 person AI-equipped teams doing the work of dozens, with management fights and no playbook to handle them. Tom Tunguz's November 24 essay quantifies the demand side of AI pricing: elasticity of 4.3-6.8x on the Ramp and OpenRouter panels means AI spend is compounding like copper, not deflating like lightbulbs.",
     "sources": [
-      "https://www.searchenginejournal.com/why-building-trust-through-real-people-stands-the-test-of-time-in-seo-ai-search/598110/",
-      "https://speakerdeck.com/aleyda/copy-of-the-seofomo-state-of-technical-seo-in-the-ai-search-era-in-2026-to-share-4",
-      "https://every.to/context-window/your-attention-is-ai-s-new-bottleneck"
+      "https://x.com/emollick/status/2125267894644916669",
+      "https://tomtunguz.com/jevons-works-on-tokens-not-on-dollars/"
     ],
     "insights_added": [
-      "ins_lily-ray-external-trust-ai-search-durability",
-      "ins_aleyda-solis-implementation-bottleneck-tech-seo",
-      "ins_shipper-attention-per-learning-unit"
+      "ins_mollick-small-teams-management-fights",
+      "ins_tunguz-tokens-compound-not-deflate"
     ],
     "operators_added": [],
     "patterns_added": [],
@@ -21,6 +19,24 @@
     "patterns_updated": []
   },
   "recent_daily": [
+    {
+      "path": "daily/2026-11-28.md",
+      "date": "2026-11-28",
+      "title": "Small teams, big fights, and why AI spend compounds: two operators name what the numbers show",
+      "summary": "Two cards, no new operators. Ethan Mollick's November 24 thread surfaces a pattern at large enterprises: 2-3 person AI-equipped teams doing the work of dozens, with management fights and no playbook to handle them. Tom Tunguz's November 24 essay quantifies the demand side of AI pricing: elasticity of 4.3-6.8x on the Ramp and OpenRouter panels means AI spend is compounding like copper, not deflating like lightbulbs.",
+      "sources": [
+        "https://x.com/emollick/status/2125267894644916669",
+        "https://tomtunguz.com/jevons-works-on-tokens-not-on-dollars/"
+      ],
+      "insights_added": [
+        "ins_mollick-small-teams-management-fights",
+        "ins_tunguz-tokens-compound-not-deflate"
+      ],
+      "operators_added": [],
+      "patterns_added": [],
+      "playbooks_added": [],
+      "patterns_updated": []
+    },
     {
       "path": "daily/2026-11-27.md",
       "date": "2026-11-27",
@@ -647,26 +663,6 @@
         "mike-taylor",
         "jacob-sansbury"
       ],
-      "patterns_added": [],
-      "playbooks_added": [],
-      "patterns_updated": []
-    },
-    {
-      "path": "daily/2026-10-29.md",
-      "date": "2026-10-29",
-      "title": "GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator",
-      "summary": "Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.",
-      "sources": [
-        "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-        "https://knowledge.wharton.upenn.edu/article/the-next-phase-of-ai/",
-        "https://fourweekmba.com/ai-langchain-ceo-says-agent-memory-is-still-super-early/"
-      ],
-      "insights_added": [
-        "ins_willison-agentic-coding-tripled-github",
-        "ins_mollick-experts-underestimate-ai-progress",
-        "ins_chase-agent-memory-next-frontier"
-      ],
-      "operators_added": [],
       "patterns_added": [],
       "playbooks_added": [],
       "patterns_updated": []
