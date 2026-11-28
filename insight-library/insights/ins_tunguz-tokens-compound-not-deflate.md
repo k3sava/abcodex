@@ -21,7 +21,7 @@ raw_ref: ""
 # Token prices fell 43% and volume grew 11.1x. AI spend is compounding like copper, not deflating like lightbulbs.
 
 ## Claim
-Jevons Paradox operates on AI tokens, not on dollars. As token prices fall, volume grows fast enough that total spending rises. Empirical elasticity from two independent panels runs between 4.3x and 6.8x — well above the 1.0x threshold where spending stays flat. Supply-side data (GPU rents up 48%) confirms that demand is not softening. AI is tracking copper, not lightbulbs.
+Jevons Paradox operates on AI tokens, not on dollars. As token prices fall, volume grows fast enough that total spending rises. Empirical elasticity from two independent panels runs between 4.3x and 6.8x, well above the 1.0x threshold where spending stays flat. Supply-side data (GPU rents up 48%) confirms that demand is not softening. AI is tracking copper, not lightbulbs.
 
 ## Mechanism
 Jevons Paradox: cheaper unit prices increase total consumption enough that total spending rises. For AI tokens, this runs in two steps. Falling prices enable workloads that were previously cost-excluded: tasks that couldn't justify the cost at $X become viable at $0.57X. Existing workloads also scale in volume: teams that ran 100 tasks per day run 1,100.
@@ -30,12 +30,12 @@ The elasticity numbers quantify this. On the Ramp corporate card panel, a 1% dro
 
 The supply side confirms from the other direction. Neocloud GPU rents rose 48% year over year. CoreWeave repriced 30-50% at lease renewal. If AI were lightbulb-like, data-center demand would be softening. It is not.
 
-The lightbulb analogy fails here because lightbulb efficiency primarily removed a fixed-cost burden (lighting an already-lit room). AI efficiency unlocks new tasks: things that weren't done before because the economics didn't justify it. That's the copper analogy: rising copper prices historically accompanied expanding use cases, not shrinking ones.
+The lightbulb analogy fails here because lightbulb efficiency primarily removed a fixed-cost burden (lighting an already-lit room). AI efficiency enables new tasks: things that weren't done before because the economics didn't justify it. That's the copper analogy: rising copper prices historically accompanied expanding use cases, not shrinking ones.
 
 ## Conditions
-Holds when: elasticity stays above 1.0x, requiring that price reductions continue to unlock new workloads faster than existing workloads saturate.
+Holds when: elasticity stays above 1.0x, requiring that price reductions continue to enable new workloads faster than existing workloads saturate.
 
-Fails when: elasticity falls below 1.0x — the pool of price-sensitive workloads has been absorbed and remaining workloads run at full capacity regardless of further price drops. Tunguz flags three signals to watch in 2027: spend-to-volume gap narrows, GPU rents and token prices converge, and frontier gross margins fall below 40%.
+Fails when: elasticity falls below 1.0x. The pool of price-sensitive workloads has been absorbed and remaining workloads run at full capacity regardless of further price drops. Tunguz flags three signals to watch in 2027: spend-to-volume gap narrows, GPU rents and token prices converge, and frontier gross margins fall below 40%.
 
 ## Evidence
 Ramp corporate card panel (demand side):
@@ -58,18 +58,18 @@ Supply side:
 Tunguz acknowledges panel biases: corporate cards miss direct enterprise and cloud marketplace deals; blended prices mix list cuts with routing to cheaper models; cached tokens cost up to 90% less, which inflates apparent elasticity.
 
 ## Signals
-- Your AI token spend is rising even as per-token prices fall — this is Jevons in action, not mismanaged budgets.
+- Your AI token spend is rising even as per-token prices fall. That is Jevons in action, not mismanaged budgets.
 - Use cases that were previously rejected on cost grounds are being greenlighted as prices drop.
 - GPU capacity remains constrained at your cloud provider, with rents holding flat or rising.
 
 ## Counter-evidence
 Both demand panels have methodological limits Tunguz names explicitly: corporate cards miss major procurement channels, and blended prices obscure the actual unit economics of specific models. The OpenRouter 6.8x elasticity figure may reflect platform-level growth rather than pure elasticity.
 
-The lightbulb scenario is still possible if elasticity is currently above 1.0x but converging toward it. A 2027 price cut that finds no new workloads to unlock could produce a sudden spend decline even if the 2026 data looks copper-like.
+The lightbulb scenario is still possible if elasticity is currently above 1.0x but converging toward it. A 2027 price cut that finds no new workloads to absorb could produce a sudden spend decline even if the 2026 data looks copper-like.
 
 Anthropic's S-1 revenue figure ($16.3B H1 2026) is from a document that has not been independently audited at time of writing.
 
 ## Cross-references
-- `ins_tunguz-tier-segmentation-jevons`: Tunguz's August 2026 essay on sustaining Jevons' Paradox through model tier segmentation when GPU supply is constrained — the supply-side mechanism that feeds the demand pattern described here.
-- `ins_tunguz-inference-pricing-value-beats-cost-plus`: value-based pricing for inference; the elasticity data shows why it is rational — buyers respond more to value unlocked than to raw per-token cost.
-- `ins_tunguz-model-substitution-reinvestment`: when model costs fall, buyers reinvest into volume rather than pocketing savings — the token Jevons pattern is the aggregate version of this.
+- `ins_tunguz-tier-segmentation-jevons`: Tunguz's August 2026 essay on sustaining Jevons' Paradox through model tier segmentation when GPU supply is constrained. The supply-side mechanism that feeds the demand pattern described here.
+- `ins_tunguz-inference-pricing-value-beats-cost-plus`: value-based pricing for inference; the elasticity data shows why it is rational. Buyers respond more to value unlocked than to raw per-token cost.
+- `ins_tunguz-model-substitution-reinvestment`: when model costs fall, buyers reinvest into volume rather than pocketing savings. The token Jevons pattern is the aggregate version of this.
