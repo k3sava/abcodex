@@ -4,7 +4,7 @@
 
 The codex is a structured corpus of cross-domain operator wisdom across product, PMM, GTM, AI-native, design, engineering, leadership, sales, growth, research, and founder craft. Every claim traces back to its primary source. Insights carry mechanism, conditions, evidence, signals, counter-evidence, and cross-references.
 
-Counts: 1391 insights · 574 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
+Counts: 1393 insights · 574 operators · 46 synthesis patterns · 11 contradictions · 28 playbooks · 363 tier-A claims.
 
 ## Index
 
@@ -26,7 +26,7 @@ Counts: 1391 insights · 574 operators · 46 synthesis patterns · 11 contradict
 
 Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged with one or more domains.
 
-- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 509 insights
+- [ai-native](https://abcodex.iamkesava.com/d/ai-native/) — 511 insights
 - [pmm](https://abcodex.iamkesava.com/d/pmm/) — 486 insights
 - [engineering](https://abcodex.iamkesava.com/d/engineering/) — 253 insights
 - [growth-demand](https://abcodex.iamkesava.com/d/growth-demand/) — 200 insights
@@ -66,13 +66,13 @@ Each domain is a CollectionPage with DefinedTerm schema. Insights are tagged wit
 - [strategy-bets](https://abcodex.iamkesava.com/d/strategy-bets/) — 5 insights
 - [ai-engineering](https://abcodex.iamkesava.com/d/ai-engineering/) — 4 insights
 - [ai-product](https://abcodex.iamkesava.com/d/ai-product/) — 4 insights
+- [leadership-and-org](https://abcodex.iamkesava.com/d/leadership-and-org/) — 4 insights
 - [pricing](https://abcodex.iamkesava.com/d/pricing/) — 4 insights
 - [ios](https://abcodex.iamkesava.com/d/ios/) — 4 insights
 - [ai-tools](https://abcodex.iamkesava.com/d/ai-tools/) — 3 insights
 - [security](https://abcodex.iamkesava.com/d/security/) — 3 insights
 - [product-management](https://abcodex.iamkesava.com/d/product-management/) — 3 insights
 - [on-device-ai](https://abcodex.iamkesava.com/d/on-device-ai/) — 3 insights
-- [leadership-and-org](https://abcodex.iamkesava.com/d/leadership-and-org/) — 3 insights
 - [game-building](https://abcodex.iamkesava.com/d/game-building/) — 3 insights
 - [community](https://abcodex.iamkesava.com/d/community/) — 2 insights
 - [ios-app-craft](https://abcodex.iamkesava.com/d/ios-app-craft/) — 2 insights
@@ -159,4 +159,4 @@ Every page emits Schema.org @graph: Article + BreadcrumbList + FAQPage + Speakab
 
 - [GitHub repository](https://github.com/k3sava/abcodex): MIT licensed. Insights are open source; raw sources retain original copyright.
 
-Last updated: 2026-11-27.
+Last updated: 2026-11-28.

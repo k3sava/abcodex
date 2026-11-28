@@ -6,7 +6,14 @@
     <atom:link href="https://abcodex.iamkesava.com/rss.xml" rel="self" type="application/rss+xml" />
     <description>What is new in abcodex. Daily ingests, prompted batches, depth passes.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Nov 2026 02:04:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 01:47:15 GMT</lastBuildDate>
+    <item>
+      <title>Small teams, big fights, and why AI spend compounds: two operators name what the numbers show</title>
+      <link>https://abcodex.iamkesava.com/today/2026-11-28/</link>
+      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-11-28/</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Two cards, no new operators. Ethan Mollick&apos;s November 24 thread surfaces a pattern at large enterprises: 2-3 person AI-equipped teams doing the work of dozens, with management fights and no playbook to handle them. Tom Tunguz&apos;s November 24 essay quantifies the demand side of AI pricing: elasticity of 4.3-6.8x on the Ramp and OpenRouter panels means AI spend is compounding like copper, not deflating like lightbulbs.</description>
+    </item>
     <item>
       <title>Reputation earned, gaps AI didn&apos;t close, and the attention cost of teaching taste</title>
       <link>https://abcodex.iamkesava.com/today/2026-11-27/</link>
@@ -209,13 +216,6 @@
       <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-30/</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
       <description>Five cards from five operators. Simon Willison calls October 2026 the inflection point for vibe coding games, now that models can produce fun gameplay rather than just working code. Mike Taylor runs 2,484-session experiments showing that agents cite answer-first headlines and ignore curiosity framing. Chris Zukowski documents the first AI clone overtaking an original game on Steam, and maps the three conditions that make it happen. Tom Tunguz measures AI application revenue catching up to infrastructure spend twice as fast as the web era did, with a circularity warning. Jacob Sansbury describes Spawn, a game studio where an hour without a production deploy is a SEV-0.</description>
-    </item>
-    <item>
-      <title>GitHub volume as agent signal, the expert forecasting gap, and memory as the next agent differentiator</title>
-      <link>https://abcodex.iamkesava.com/today/2026-10-29/</link>
-      <guid isPermaLink="true">https://abcodex.iamkesava.com/today/2026-10-29/</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Three cards from three operators. Simon Willison reads GitHub Octoverse 2026 and finds that code-volume stats now track agent adoption, not human headcount. Ethan Mollick documents the forecasting failure: top predictors gave AI a 2.3% chance of winning the Math Olympiad by 2025. It won in 2025. Harrison Chase names persistent memory as the next defining gap for AI agents.</description>
     </item>
   </channel>
 </rss>
